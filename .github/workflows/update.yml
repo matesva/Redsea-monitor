@@ -2,7 +2,9 @@ name: 24h AI Update
 
 on:
   schedule:
+    # Běží každý den v 06:00 UTC
     - cron: '0 6 * * *'
+  # Umožňuje ruční spuštění z taba Actions v GitHubu
   workflow_dispatch:
 
 jobs:
@@ -22,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install feedparser google-genai
+          pip install feedparser google-genai pydantic
 
       - name: Fetch and Analyze
         env:
