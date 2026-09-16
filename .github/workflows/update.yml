@@ -17,11 +17,6 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Replace outdated model in script
-        run: |
-          sed -i 's/gemini-2.5-flash/gemini-2.0-flash/g' fetch_news.py
-          sed -i 's/gemini-3.6-flash/gemini-2.0-flash/g' fetch_news.py
-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
