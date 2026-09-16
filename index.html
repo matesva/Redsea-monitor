@@ -22,10 +22,10 @@
         .action-DRŽET { background: #854d0e; color: #fef08a; }
         .rec-item { margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid #334155; }
         .rec-item:last-child { border-bottom: none; }
-        .news-item { margin-bottom: 10px; }
-        .news-item a { color: #38bdf8; text-decoration: none; font-weight: 500; }
+        .news-item { margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid #334155; }
+        .news-item a { color: #38bdf8; text-decoration: none; font-weight: 500; display: block; margin-bottom: 2px; }
         .news-item a:hover { text-decoration: underline; }
-        .news-date { font-size: 0.8em; color: #64748b; margin-left: 8px; }
+        .news-meta { font-size: 0.8em; color: #64748b; }
     </style>
 </head>
 <body>
@@ -60,26 +60,30 @@
     </div>
 
     <script>
-        fetch('data.json')
+        // Přidán timestamp a cache: no-store proti kešování v GitHub Pages
+        fetch('data.json?v=' + new Date().getTime(), { cache: 'no-store' })
             .then(res => res.json())
             .then(data => {
                 document.getElementById('updated').innerText = data.last_updated || 'N/A';
 
-                const threat = data.assessment.threat_level || 'NEZNÁMÁ';
-                const threatElem = document.getElementById('threat-level');
-                threatElem.innerText = threat;
-                threatElem.className = 'badge bg-' + threat.split(' ')[0];
+                const rawThreat = (data.assessment && data.assessment.threat_level) ? data.assessment.threat_level : 'STABILNÍ';
+                const cleanThreat = rawThreat.split(' ')[0].split('/')[0].trim().toUpperCase();
 
-                document.getElementById('security-status').innerText = data.assessment.security_status || '';
-                document.getElementById('forecast').innerText = data.assessment.forecast || '';
+                const threatElem = document.getElementById('threat-level');
+                threatElem.innerText = cleanThreat;
+                threatElem.className = 'badge bg-' + cleanThreat;
+
+                document.getElementById('security-status').innerText = (data.assessment && data.assessment.security_status) || '';
+                document.getElementById('forecast').innerText = (data.assessment && data.assessment.forecast) || '';
 
                 const recsContainer = document.getElementById('recommendations');
                 recsContainer.innerHTML = '';
-                if (data.assessment.recommendations) {
+                if (data.assessment && data.assessment.recommendations) {
                     data.assessment.recommendations.forEach(r => {
+                        const cleanAction = (r.action || 'DRŽET').trim().toUpperCase();
                         recsContainer.innerHTML += `
                             <div class="rec-item">
-                                <span class="action action-${r.action}">${r.action}</span> 
+                                <span class="action action-${cleanAction}">${cleanAction}</span> 
                                 <strong>${r.sector}</strong>
                                 <p style="margin: 5px 0 0 0; color: #94a3b8; font-size: 0.9em;">${r.reason}</p>
                             </div>
@@ -95,7 +99,7 @@
                             labels: data.history.map(h => h.date),
                             datasets: [{
                                 label: 'Úroveň hrozby',
-                                data: data.history.map(h => h.value),
+                                data: data.history.map(h => h.value || 1),
                                 borderColor: '#38bdf8',
                                 backgroundColor: 'rgba(56,189,248,0.15)',
                                 tension: 0.3,
@@ -110,7 +114,7 @@
                                     ticks: {
                                         stepSize: 1,
                                         color: '#94a3b8',
-                                        callback: v => ({1:'STABILNÍ',2:'STŘEDNÍ',3:'VYSOKÁ',4:'KRITICKÁ'}[v] || '')
+                                        callback: v => ({1:'STABILNÍ', 2:'STŘEDNÍ', 3:'VYSOKÁ', 4:'KRITICKÁ'}[v] || '')
                                     },
                                     grid: { color: '#334155' }
                                 },
@@ -125,10 +129,12 @@
                 articlesContainer.innerHTML = '';
                 if (data.articles && data.articles.length > 0) {
                     data.articles.forEach(a => {
+                        const source = a.source || 'Zpravodajství';
+                        const published = a.published || '';
                         articlesContainer.innerHTML += `
                             <div class="news-item">
-                                <a href="${a.link}" target="_blank">${a.title}</a>
-                                <span class="news-date">[${a.source} - ${a.published}]</span>
+                                <a href="${a.link}" target="_blank" rel="noopener">${a.title}</a>
+                                <span class="news-meta">[${source} • ${published}]</span>
                             </div>
                         `;
                     });
@@ -138,7 +144,7 @@
             })
             .catch(err => {
                 console.error(err);
-                document.getElementById('security-status').innerText = 'Data se ještě vygenerují při prvním úspěšném spuštění Actions.';
+                document.getElementById('security-status').innerText = 'Chyba při načítání dat.';
             });
     </script>
 </body>
