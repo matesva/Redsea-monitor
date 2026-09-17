@@ -201,21 +201,22 @@
         fetch('data.json')
             .then(res => res.json())
             .then(data => {
-                document.getElementById('updated').innerText = data.last_updated || 'N/A';
+                document.getElementById('updated').textContent = data.last_updated || 'N/A';
 
                 const threat = data.assessment.threat_level || 'NEZNÁMÁ';
                 const threatElem = document.getElementById('threat-level');
-                threatElem.innerText = threat;
+                threatElem.textContent = threat;
                 threatElem.className = 'badge bg-' + threat.split(' ')[0];
 
                 const statusEl = document.getElementById('security-status');
                 statusEl.className = '';
-                statusEl.innerText = data.assessment.security_status || '';
+                statusEl.textContent = data.assessment.security_status || '';
 
                 const forecastEl = document.getElementById('forecast');
                 forecastEl.className = '';
-                forecastEl.innerText = data.assessment.forecast || '';
+                forecastEl.textContent = data.assessment.forecast || '';
 
+                // Investiční doporučení
                 const recsContainer = document.getElementById('recommendations');
                 recsContainer.className = '';
                 recsContainer.innerHTML = '';
@@ -223,19 +224,30 @@
                     const grid = document.createElement('div');
                     grid.className = 'recs-grid';
                     data.assessment.recommendations.forEach(r => {
-                        grid.innerHTML += `
-                            <div class="rec-item">
-                                <span class="action action-${r.action}">${r.action}</span>
-                                <strong>${r.sector}</strong>
-                                <p>${r.reason}</p>
-                            </div>
-                        `;
+                        const item = document.createElement('div');
+                        item.className = 'rec-item';
+                        
+                        const actionSpan = document.createElement('span');
+                        actionSpan.className = `action action-${r.action}`;
+                        actionSpan.textContent = r.action;
+
+                        const sectorStrong = document.createElement('strong');
+                        sectorStrong.textContent = r.sector;
+
+                        const reasonP = document.createElement('p');
+                        reasonP.textContent = r.reason;
+
+                        item.appendChild(actionSpan);
+                        item.appendChild(sectorStrong);
+                        item.appendChild(reasonP);
+                        grid.appendChild(item);
                     });
                     recsContainer.appendChild(grid);
                 } else {
-                    recsContainer.innerText = 'Žádná doporučení k dispozici.';
+                    recsContainer.textContent = 'Žádná doporučení k dispozici.';
                 }
 
+                // Graf vývoje hrozby
                 try {
                     if (data.history && data.history.length > 0) {
                         const ctx = document.getElementById('threatChart').getContext('2d');
@@ -272,7 +284,13 @@
                                         grid: { color: 'rgba(148,163,184,0.08)' }
                                     },
                                     x: {
-                                        ticks: { color: '#64748b', maxRotation: 45, font: { family: 'Inter', size: 10 } },
+                                        ticks: { 
+                                            color: '#64748b', 
+                                            maxRotation: 45, 
+                                            autoSkip: true,
+                                            maxTicksLimit: 6,
+                                            font: { family: 'Inter', size: 10 } 
+                                        },
                                         grid: { color: 'rgba(148,163,184,0.05)' }
                                     }
                                 }
@@ -286,15 +304,21 @@
                     document.getElementById('threatChart').outerHTML = '<p style="color:#64748b;">Graf se nepodařilo načíst.</p>';
                 }
 
+                // Mapa
                 try {
                     if (data.locations && data.locations.length > 0) {
-                        const map = L.map('map', { zoomControl: true, attributionControl: true }).setView([data.locations[0].lat, data.locations[0].lon], 4);
-                        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; OpenStreetMap contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    maxZoom: 10
-}).addTo(map);
+                        const map = L.map('map', { zoomControl: true, attributionControl: true });
+                        
+                        // Opravený zdroj dlaždic bez nutnosti API klíče
+                        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}{r}.png', {
+                            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+                            subdomains: 'abcd',
+                            maxZoom: 19
+                        }).addTo(map);
 
+                        const bounds = [];
                         data.locations.forEach(loc => {
+                            bounds.push([loc.lat, loc.lon]);
                             L.circleMarker([loc.lat, loc.lon], {
                                 radius: 8,
                                 fillColor: '#38bdf8',
@@ -303,6 +327,8 @@
                                 fillOpacity: 0.7
                             }).addTo(map).bindPopup(`<strong>${loc.name}</strong>`);
                         });
+                        
+                        map.fitBounds(bounds, { padding: [30, 30] });
                     } else {
                         document.getElementById('map').innerHTML =
                             '<p style="color:#64748b; padding: 20px;">Žádné konkrétní lokality nebyly ve zprávách rozpoznány.</p>';
@@ -312,26 +338,38 @@
                     document.getElementById('map').innerHTML = '<p style="color:#64748b; padding: 20px;">Mapu se nepodařilo načíst.</p>';
                 }
 
+                // Zprávy
                 const articlesContainer = document.getElementById('articles');
                 articlesContainer.className = '';
                 articlesContainer.innerHTML = '';
                 if (data.articles && data.articles.length > 0) {
                     data.articles.forEach(a => {
-                        articlesContainer.innerHTML += `
-                            <div class="news-item">
-                                <a href="${a.link}" target="_blank">${a.title}</a>
-                                <span class="news-date">${a.source} · ${a.published}</span>
-                            </div>
-                        `;
+                        const newsItem = document.createElement('div');
+                        newsItem.className = 'news-item';
+
+                        const link = document.createElement('a');
+                        link.href = a.link;
+                        link.target = '_blank';
+                        link.rel = 'noopener noreferrer';
+                        link.textContent = a.title;
+
+                        const dateSpan = document.createElement('span');
+                        dateSpan.className = 'news-date';
+                        dateSpan.textContent = `${a.source} · ${a.published}`;
+
+                        newsItem.appendChild(link);
+                        newsItem.appendChild(dateSpan);
+                        articlesContainer.appendChild(newsItem);
                     });
                 } else {
-                    articlesContainer.innerText = 'Žádné relevantní zprávy za posledních 24 hodin.';
+                    articlesContainer.textContent = 'Žádné relevantní zprávy za posledních 24 hodin.';
                 }
             })
             .catch(err => {
                 console.error(err);
-                document.getElementById('security-status').className = '';
-                document.getElementById('security-status').innerText = 'Data se ještě vygenerují při prvním úspěšném spuštění Actions.';
+                const statusEl = document.getElementById('security-status');
+                statusEl.className = '';
+                statusEl.textContent = 'Data se ještě vygenerují při prvním úspěšném spuštění Actions.';
             });
     </script>
 </body>
