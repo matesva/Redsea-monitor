@@ -1,12 +1,13 @@
 import feedparser
 import json
 import os
+import urllib.request
 from datetime import datetime
 from google import genai
-import urllib.request
 
 client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
-NTFY_TOPIC = os.environ.get("NTFY_TOPIC")  # volitelné, viz níže
+NTFY_TOPIC = os.environ.get("NTFY_TOPIC")
+ALPHA_VANTAGE_KEY = os.environ.get("ALPHA_VANTAGE_KEY")
 
 RSS_FEEDS = [
     "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
@@ -77,6 +78,26 @@ def extract_locations(articles):
         if key.lower() in text_blob.lower():
             found[key] = loc
     return list(found.values())
+
+
+def fetch_oil_prices():
+    prices = {"brent": None, "wti": None}
+    if not ALPHA_VANTAGE_KEY:
+        return prices
+    for label, function in [("brent", "BRENT"), ("wti", "WTI")]:
+        try:
+            url = f"https://www.alphavantage.co/query?function={function}&interval=daily&apikey={ALPHA_VANTAGE_KEY}"
+            with urllib.request.urlopen(url, timeout=15) as resp:
+                result = json.loads(resp.read().decode())
+                data_points = result.get("data", [])
+                if data_points:
+                    prices[label] = {
+                        "value": float(data_points[0]["value"]),
+                        "date": data_points[0]["date"]
+                    }
+        except Exception as e:
+            print(f"Chyba při stahování ceny {label}: {e}")
+    return prices
 
 
 def load_previous_data():
@@ -201,6 +222,7 @@ def run():
     articles = fetch_articles()
     ai_assessment = analyze_with_ai(articles, previous_forecast)
     locations = extract_locations(articles)
+    oil_prices = fetch_oil_prices()
 
     history = old_data.get("history", [])
     threat_key = ai_assessment.get("threat_level", "").split(" ")[0].split("/")[0].strip()
@@ -212,7 +234,8 @@ def run():
         "threat_level": threat_key,
         "value": threat_value,
         "sentiment_score": ai_assessment.get("sentiment_score", 0),
-        "incidents": len(articles)
+        "incidents": len(articles),
+        "brent": oil_prices.get("brent", {}).get("value") if oil_prices.get("brent") else None
     })
     history = history[-30:]
 
@@ -231,7 +254,8 @@ def run():
         "articles": articles,
         "history": history,
         "locations": locations,
-        "archive": archive
+        "archive": archive,
+        "oil_prices": oil_prices
     }
 
     with open("data.json", "w", encoding="utf-8") as f:
