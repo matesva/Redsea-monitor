@@ -289,10 +289,10 @@
                 try {
                     if (data.locations && data.locations.length > 0) {
                         const map = L.map('map', { zoomControl: true, attributionControl: true }).setView([data.locations[0].lat, data.locations[0].lon], 4);
-                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                            attribution: '&copy; OpenStreetMap contributors',
-                            maxZoom: 10
-                        }).addTo(map);
+                        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; OpenStreetMap contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    maxZoom: 10
+}).addTo(map);
 
                         data.locations.forEach(loc => {
                             L.circleMarker([loc.lat, loc.lon], {
