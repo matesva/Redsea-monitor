@@ -1,101 +1,169 @@
-<script>
-    fetch('data.json?v=' + new Date().getTime(), { cache: 'no-store' })
-        .then(res => res.json())
-        .then(data => {
-            // 1. Aktualizace času
-            document.getElementById('updated').innerText = data.last_updated || 'N/A';
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Sea & Investment AI Monitor</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #f8fafc; margin: 0; padding: 20px; }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 { color: #38bdf8; text-align: center; margin-bottom: 5px; }
+        .subtitle { text-align: center; color: #94a3b8; font-size: 0.9em; margin-bottom: 25px; }
+        .card { background: #1e293b; border-radius: 12px; padding: 20px; margin-bottom: 20px; border: 1px solid #334155; }
+        .badge { display: inline-block; padding: 6px 14px; border-radius: 20px; font-weight: bold; font-size: 0.9em; }
+        .bg-KRITICKÁ { background: #ef4444; color: white; }
+        .bg-VYSOKÁ { background: #f97316; color: white; }
+        .bg-STŘEDNÍ { background: #eab308; color: black; }
+        .bg-STABILNÍ { background: #22c55e; color: white; }
+        .action { font-weight: bold; padding: 2px 8px; border-radius: 4px; }
+        .action-KOUPIT { background: #166534; color: #4ade80; }
+        .action-PRODAT { background: #991b1b; color: #fca5a5; }
+        .action-DRŽET { background: #854d0e; color: #fef08a; }
+        .rec-item { margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid #334155; }
+        .rec-item:last-child { border-bottom: none; }
+        .news-item { margin-bottom: 10px; }
+        .news-item a { color: #38bdf8; text-decoration: none; font-weight: 500; }
+        .news-item a:hover { text-decoration: underline; }
+        .news-date { font-size: 0.8em; color: #64748b; margin-left: 8px; }
+        #map { height: 350px; border-radius: 8px; z-index: 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Rudé moře: AI Monitor & Geopolitika</h1>
+        <div class="subtitle">Poslední aktualizace: <span id="updated">Načítání...</span></div>
 
-            // 2. Úroveň hrozby
-            const rawThreat = (data.assessment && data.assessment.threat_level) ? data.assessment.threat_level : 'STABILNÍ';
-            const cleanThreat = rawThreat.split(' ')[0].split('/')[0].trim().toUpperCase();
-            
-            const threatElem = document.getElementById('threat-level');
-            threatElem.innerText = cleanThreat;
-            threatElem.className = 'badge bg-' + cleanThreat;
+        <div class="card">
+            <h2>Aktuální Úroveň Hrozby: <span id="threat-level" class="badge">--</span></h2>
+            <p id="security-status" style="line-height: 1.6; color: #cbd5e1;">Načítání AI analýzy...</p>
+        </div>
 
-            // 3. Bezpečnostní status (Ošetření opomenutého klíče)
-            const secElem = document.getElementById('security-status');
-            if (data.assessment && data.assessment.security_status) {
-                secElem.innerText = data.assessment.security_status;
-            } else {
-                secElem.innerText = ''; // Pokud klíč chybí, nechá odstavec prázdný a neshodí aplikaci
-            }
+        <div class="card">
+            <h2>Investiční Doporučení (AI Portfoliový Manažer)</h2>
+            <div id="recommendations">Načítání doporučení...</div>
+        </div>
 
-            // 4. Předpověď vývoje
-            document.getElementById('forecast').innerText = (data.assessment && data.assessment.forecast) || 'Předpověď není k dispozici.';
+        <div class="card">
+            <h2>Předpověď Vývoje</h2>
+            <p id="forecast" style="line-height: 1.6; color: #cbd5e1;">Načítání předpovědi...</p>
+        </div>
 
-            // 5. Investiční doporučení
-            const recsContainer = document.getElementById('recommendations');
-            recsContainer.innerHTML = '';
-            if (data.assessment && data.assessment.recommendations && data.assessment.recommendations.length > 0) {
-                data.assessment.recommendations.forEach(r => {
-                    const cleanAction = (r.action || 'DRŽET').trim().toUpperCase();
-                    recsContainer.innerHTML += `
-                        <div class="rec-item">
-                            <span class="action action-${cleanAction}">${cleanAction}</span> 
-                            <strong>${r.sector}</strong>
-                            <p style="margin: 5px 0 0 0; color: #94a3b8; font-size: 0.9em;">${r.reason}</p>
-                        </div>
-                    `;
-                });
-            } else {
-                recsContainer.innerText = 'Žádná doporučení.';
-            }
+        <div class="card">
+            <h2>Vývoj úrovně hrozby</h2>
+            <canvas id="threatChart" height="120"></canvas>
+        </div>
 
-            // 6. Graf
-            if (data.history && data.history.length > 0) {
-                const ctx = document.getElementById('threatChart').getContext('2d');
-                new Chart(ctx, {
-                    type: 'line',
-                    data: {
-                        labels: data.history.map(h => h.date),
-                        datasets: [{
-                            label: 'Úroveň hrozby',
-                            data: data.history.map(h => h.value || 1),
-                            borderColor: '#38bdf8',
-                            backgroundColor: 'rgba(56,189,248,0.15)',
-                            tension: 0.3,
-                            fill: true,
-                            pointRadius: 3
-                        }]
-                    },
-                    options: {
-                        scales: {
-                            y: {
-                                min: 0.5, max: 4.5,
-                                ticks: {
-                                    stepSize: 1,
-                                    color: '#94a3b8',
-                                    callback: v => ({1:'STABILNÍ', 2:'STŘEDNÍ', 3:'VYSOKÁ', 4:'KRITICKÁ'}[v] || '')
-                                },
-                                grid: { color: '#334155' }
-                            },
-                            x: { ticks: { color: '#64748b', maxRotation: 45 }, grid: { color: '#334155' } }
+        <div class="card">
+            <h2>Mapa zmiňovaných lokalit</h2>
+            <div id="map"></div>
+        </div>
+
+        <div class="card">
+            <h2>Monitoring Zpráv (Posledních 24h)</h2>
+            <div id="articles">Načítání zpráv...</div>
+        </div>
+    </div>
+
+    <script>
+        fetch('data.json')
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('updated').innerText = data.last_updated || 'N/A';
+
+                const threat = data.assessment.threat_level || 'NEZNÁMÁ';
+                const threatElem = document.getElementById('threat-level');
+                threatElem.innerText = threat;
+                threatElem.className = 'badge bg-' + threat.split(' ')[0];
+
+                document.getElementById('security-status').innerText = data.assessment.security_status || '';
+                document.getElementById('forecast').innerText = data.assessment.forecast || '';
+
+                const recsContainer = document.getElementById('recommendations');
+                recsContainer.innerHTML = '';
+                if (data.assessment.recommendations) {
+                    data.assessment.recommendations.forEach(r => {
+                        recsContainer.innerHTML += `
+                            <div class="rec-item">
+                                <span class="action action-${r.action}">${r.action}</span> 
+                                <strong>${r.sector}</strong>
+                                <p style="margin: 5px 0 0 0; color: #94a3b8; font-size: 0.9em;">${r.reason}</p>
+                            </div>
+                        `;
+                    });
+                }
+
+                if (data.history && data.history.length > 0) {
+                    const ctx = document.getElementById('threatChart').getContext('2d');
+                    new Chart(ctx, {
+                        type: 'line',
+                        data: {
+                            labels: data.history.map(h => h.date),
+                            datasets: [{
+                                label: 'Úroveň hrozby',
+                                data: data.history.map(h => h.value),
+                                borderColor: '#38bdf8',
+                                backgroundColor: 'rgba(56,189,248,0.15)',
+                                tension: 0.3,
+                                fill: true,
+                                pointRadius: 3
+                            }]
                         },
-                        plugins: { legend: { labels: { color: '#f8fafc' } } }
-                    }
-                });
-            }
+                        options: {
+                            scales: {
+                                y: {
+                                    min: 0.5, max: 4.5,
+                                    ticks: {
+                                        stepSize: 1,
+                                        color: '#94a3b8',
+                                        callback: v => ({1:'STABILNÍ',2:'STŘEDNÍ',3:'VYSOKÁ',4:'KRITICKÁ'}[v] || '')
+                                    },
+                                    grid: { color: '#334155' }
+                                },
+                                x: { ticks: { color: '#64748b', maxRotation: 45 }, grid: { color: '#334155' } }
+                            },
+                            plugins: { legend: { labels: { color: '#f8fafc' } } }
+                        }
+                    });
+                }
 
-            // 7. Zprávy (Monitoring)
-            const articlesContainer = document.getElementById('articles');
-            articlesContainer.innerHTML = '';
-            if (data.articles && data.articles.length > 0) {
-                data.articles.forEach(a => {
-                    const source = a.source || 'Zpravodajství';
-                    const published = a.published || '';
-                    articlesContainer.innerHTML += `
-                        <div class="news-item">
-                            <a href="${a.link}" target="_blank" rel="noopener">${a.title}</a>
-                            <span class="news-meta">[${source} • ${published}]</span>
-                        </div>
-                    `;
-                });
-            } else {
-                articlesContainer.innerText = 'Žádné zprávy za posledních 24h.';
-            }
-        })
-        .catch(err => {
-            console.error(err);
-        });
-</script>
+                if (data.locations && data.locations.length > 0) {
+                    const map = L.map('map').setView([data.locations[0].lat, data.locations[0].lon], 4);
+                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: '&copy; OpenStreetMap contributors',
+                        maxZoom: 10
+                    }).addTo(map);
+
+                    data.locations.forEach(loc => {
+                        L.marker([loc.lat, loc.lon]).addTo(map)
+                            .bindPopup(`<strong>${loc.name}</strong>`);
+                    });
+                } else {
+                    document.getElementById('map').innerHTML =
+                        '<p style="color:#94a3b8;">Žádné konkrétní lokality nebyly ve zprávách rozpoznány.</p>';
+                }
+
+                const articlesContainer = document.getElementById('articles');
+                articlesContainer.innerHTML = '';
+                if (data.articles && data.articles.length > 0) {
+                    data.articles.forEach(a => {
+                        articlesContainer.innerHTML += `
+                            <div class="news-item">
+                                <a href="${a.link}" target="_blank">${a.title}</a>
+                                <span class="news-date">[${a.source} - ${a.published}]</span>
+                            </div>
+                        `;
+                    });
+                } else {
+                    articlesContainer.innerText = 'Žádné relevantní zprávy za posledních 24 hodin.';
+                }
+            })
+            .catch(err => {
+                console.error(err);
+                document.getElementById('security-status').innerText = 'Data se ještě vygenerují při prvním úspěšném spuštění Actions.';
+            });
+    </script>
+</body>
+</html>
