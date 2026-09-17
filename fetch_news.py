@@ -9,7 +9,24 @@ client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 RSS_FEEDS = [
     "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
     "https://www.aljazeera.com/xml/rss/all.xml",
-    "https://search.cnbc.com/rs/search/combinedrenderer.view?query=red%20sea%20houthi&partnerId=2000&target=all"
+    "https://search.cnbc.com/rs/search/combinedrenderer.view?query=red%20sea%20houthi&partnerId=2000&target=all",
+    "https://www.theguardian.com/world/rss",
+    "https://feeds.skynews.com/feeds/rss/world.xml",
+    "https://english.alarabiya.net/.mrss/en.xml",
+    "https://www.middleeasteye.net/rss",
+    "https://gcaptain.com/feed/",
+    "https://splash247.com/feed/",
+    "https://oilprice.com/rss/main",
+    "https://www.reuters.com/world/middle-east/rss",
+    "https://apnews.com/hub/middle-east?output=rss",
+    "https://www.timesofisrael.com/feed/",
+    "https://www.jpost.com/rss/rssfeedsfrontpage.aspx",
+    "https://www.navalnews.com/feed/",
+    "https://www.defensenews.com/arc/outboundfeeds/rss/",
+    "https://www.maritime-executive.com/rss/all",
+    "https://www.hellenicshippingnews.com/feed/",
+    "https://www.zawya.com/en/rss",
+    "https://feeds.marketwatch.com/marketwatch/topstories/",
 ]
 
 KEYWORDS = ["Houthi", "Red Sea", "Yemen", "Bab-el-Mandeb", "Húthí", "shipping", "oil"]
@@ -32,19 +49,23 @@ LOCATIONS = {
 def fetch_articles():
     articles = []
     for feed_url in RSS_FEEDS:
-        feed = feedparser.parse(feed_url)
-        for entry in feed.entries:
-            title = entry.get("title", "")
-            summary = entry.get("summary", "")
-            if any(kw.lower() in (title + summary).lower() for kw in KEYWORDS):
-                articles.append({
-                    "title": title,
-                    "summary": summary,
-                    "link": entry.get("link", "#"),
-                    "published": entry.get("published", datetime.now().strftime("%Y-%m-%d %H:%M")),
-                    "source": feed.feed.get("title", "Zpravodajství")
-                })
-    return articles[:10]
+        try:
+            feed = feedparser.parse(feed_url)
+            for entry in feed.entries:
+                title = entry.get("title", "")
+                summary = entry.get("summary", "")
+                if any(kw.lower() in (title + summary).lower() for kw in KEYWORDS):
+                    articles.append({
+                        "title": title,
+                        "summary": summary,
+                        "link": entry.get("link", "#"),
+                        "published": entry.get("published", datetime.now().strftime("%Y-%m-%d %H:%M")),
+                        "source": feed.feed.get("title", "Zpravodajství")
+                    })
+        except Exception as e:
+            print(f"Chyba při zpracování feedu {feed_url}: {e}")
+            continue
+    return articles[:20]
 
 def extract_locations(articles):
     found = {}
