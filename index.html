@@ -43,7 +43,7 @@
             -webkit-background-clip: text; background-clip: text; color: transparent;
         }
         .subtitle { text-align: center; color: var(--text-dim); font-size: 0.85em; margin-bottom: 8px; }
-        .share-row { display: flex; justify-content: center; gap: 10px; margin-bottom: 28px; }
+        .share-row { display: flex; justify-content: center; gap: 10px; margin-bottom: 28px; flex-wrap: wrap; }
         .share-btn {
             border: 1px solid var(--border); background: var(--card); color: var(--text);
             border-radius: 10px; padding: 6px 12px; font-size: 0.8em; text-decoration: none;
@@ -81,6 +81,10 @@
         .action-PRODAT { background: rgba(239,68,68,0.15); color: #fca5a5; }
         .action-DRŽET  { background: rgba(234,179,8,0.15); color: #fde047; }
 
+        .oil-grid { display: flex; gap: 24px; flex-wrap: wrap; }
+        .oil-item strong { font-size: 1.5em; }
+        .oil-item span { display: block; color: var(--text-dim); font-size: 0.85em; margin-top: 2px; }
+
         .timeline { position: relative; padding-left: 20px; }
         .timeline::before { content: ""; position: absolute; left: 5px; top: 6px; bottom: 6px; width: 2px; background: rgba(148,163,184,0.2); }
         .news-item { position: relative; padding: 8px 0 8px 14px; }
@@ -93,7 +97,7 @@
 
         .archive-item { border-bottom: 1px solid var(--border); padding: 10px 0; cursor: pointer; }
         .archive-item:last-child { border-bottom: none; }
-        .archive-header { display: flex; justify-content: space-between; align-items: center; font-size: 0.9em; }
+        .archive-header { display: flex; justify-content: space-between; align-items: center; font-size: 0.9em; gap: 10px; }
         .archive-body { display: none; margin-top: 8px; font-size: 0.85em; color: var(--text-dim); line-height: 1.6; }
         .archive-item.open .archive-body { display: block; }
 
@@ -129,6 +133,11 @@
         <div class="card">
             <h2>💼 Investiční Doporučení</h2>
             <div id="recommendations" class="skeleton">Načítání doporučení...</div>
+        </div>
+
+        <div class="card">
+            <h2>🛢️ Cena ropy</h2>
+            <div id="oil-prices" class="skeleton">Načítání cen...</div>
         </div>
 
         <div class="card">
@@ -178,12 +187,14 @@
         };
 
         function relativeTime(dateStr) {
-            const d = new Date(dateStr.replace(' ', 'T') + 'Z');
-            const diffMin = Math.round((Date.now() - d.getTime()) / 60000);
-            if (diffMin < 60) return `před ${diffMin} min`;
-            const diffH = Math.round(diffMin / 60);
-            if (diffH < 24) return `před ${diffH} h`;
-            return `před ${Math.round(diffH / 24)} dny`;
+            try {
+                const d = new Date(dateStr.replace(' ', 'T') + 'Z');
+                const diffMin = Math.round((Date.now() - d.getTime()) / 60000);
+                if (diffMin < 60) return `před ${diffMin} min`;
+                const diffH = Math.round(diffMin / 60);
+                if (diffH < 24) return `před ${diffH} h`;
+                return `před ${Math.round(diffH / 24)} dny`;
+            } catch (e) { return ''; }
         }
 
         fetch('data.json')
@@ -241,6 +252,21 @@
                     recsContainer.innerText = 'Žádná doporučení k dispozici.';
                 }
 
+                const oilContainer = document.getElementById('oil-prices');
+                oilContainer.className = '';
+                oilContainer.innerHTML = '';
+                if (data.oil_prices && (data.oil_prices.brent || data.oil_prices.wti)) {
+                    const brent = data.oil_prices.brent;
+                    const wti = data.oil_prices.wti;
+                    let html = '<div class="oil-grid">';
+                    if (brent) html += `<div class="oil-item"><strong>$${brent.value.toFixed(2)}</strong><span>Brent (${brent.date})</span></div>`;
+                    if (wti) html += `<div class="oil-item"><strong>$${wti.value.toFixed(2)}</strong><span>WTI (${wti.date})</span></div>`;
+                    html += '</div>';
+                    oilContainer.innerHTML = html;
+                } else {
+                    oilContainer.innerText = 'Data o ceně ropy nejsou k dispozici.';
+                }
+
                 try {
                     if (data.history && data.history.length > 0) {
                         const ctx = document.getElementById('threatChart').getContext('2d');
@@ -262,6 +288,13 @@
                                         borderColor: '#f97316',
                                         backgroundColor: 'rgba(249,115,22,0.1)',
                                         tension: 0.35, fill: false, pointRadius: 2, borderWidth: 1.5, yAxisID: 'y1'
+                                    },
+                                    {
+                                        label: 'Brent ($)',
+                                        data: data.history.map(h => h.brent ?? null),
+                                        borderColor: '#22c55e',
+                                        backgroundColor: 'rgba(34,197,94,0.1)',
+                                        tension: 0.35, fill: false, pointRadius: 2, borderWidth: 1.5, yAxisID: 'y1'
                                     }
                                 ]
                             },
@@ -282,16 +315,14 @@
                     } else {
                         document.getElementById('threatChart').outerHTML = '<p style="color:#64748b;">Zatím není dostatek dat pro graf.</p>';
                     }
-                } catch (e) { console.error(e); }
+                } catch (e) { console.error('Chart error:', e); }
 
                 try {
                     if (data.locations && data.locations.length > 0) {
                         const map = L.map('map').setView([data.locations[0].lat, data.locations[0].lon], 4);
-                        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
-    attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
-    maxZoom: 16
-}).addTo(map);
-
+                        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+                            attribution: '&copy; OpenStreetMap &copy; CARTO', maxZoom: 10
+                        }).addTo(map);
                         data.locations.forEach(loc => {
                             L.circleMarker([loc.lat, loc.lon], { radius: 8, fillColor: '#38bdf8', color: '#0ea5e9', weight: 2, fillOpacity: 0.7 })
                                 .addTo(map).bindPopup(`<strong>${loc.name}</strong>`);
@@ -299,7 +330,10 @@
                     } else {
                         document.getElementById('map').innerHTML = '<p style="color:#64748b; padding:20px;">Žádné lokality nerozpoznány.</p>';
                     }
-                } catch (e) { console.error(e); }
+                } catch (e) {
+                    console.error('Map error:', e);
+                    document.getElementById('map').innerHTML = '<p style="color:#64748b; padding:20px;">Mapu se nepodařilo načíst.</p>';
+                }
 
                 const articlesContainer = document.getElementById('articles');
                 articlesContainer.className = 'timeline';
@@ -320,7 +354,7 @@
                 archiveContainer.className = '';
                 archiveContainer.innerHTML = '';
                 if (data.archive && data.archive.length > 0) {
-                    [...data.archive].reverse().forEach((entry, i) => {
+                    [...data.archive].reverse().forEach((entry) => {
                         const div = document.createElement('div');
                         div.className = 'archive-item';
                         div.innerHTML = `
@@ -344,10 +378,6 @@
                 document.getElementById('security-status').className = '';
                 document.getElementById('security-status').innerText = 'Data se ještě vygenerují při prvním úspěšném spuštění Actions.';
             });
-
-        if ('serviceWorker' in navigator) {
-            // volitelné: service worker pro PWA lze doplnit později
-        }
     </script>
 </body>
 </html>
