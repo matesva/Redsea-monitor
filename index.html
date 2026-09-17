@@ -4,67 +4,195 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Red Sea & Investment AI Monitor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js"></script>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #f8fafc; margin: 0; padding: 20px; }
-        .container { max-width: 900px; margin: 0 auto; }
-        h1 { color: #38bdf8; text-align: center; margin-bottom: 5px; }
-        .subtitle { text-align: center; color: #94a3b8; font-size: 0.9em; margin-bottom: 25px; }
-        .card { background: #1e293b; border-radius: 12px; padding: 20px; margin-bottom: 20px; border: 1px solid #334155; }
-        .badge { display: inline-block; padding: 6px 14px; border-radius: 20px; font-weight: bold; font-size: 0.9em; }
-        .bg-KRITICKÁ { background: #ef4444; color: white; }
-        .bg-VYSOKÁ { background: #f97316; color: white; }
-        .bg-STŘEDNÍ { background: #eab308; color: black; }
-        .bg-STABILNÍ { background: #22c55e; color: white; }
-        .action { font-weight: bold; padding: 2px 8px; border-radius: 4px; }
-        .action-KOUPIT { background: #166534; color: #4ade80; }
-        .action-PRODAT { background: #991b1b; color: #fca5a5; }
-        .action-DRŽET { background: #854d0e; color: #fef08a; }
-        .rec-item { margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid #334155; }
-        .rec-item:last-child { border-bottom: none; }
-        .news-item { margin-bottom: 10px; }
-        .news-item a { color: #38bdf8; text-decoration: none; font-weight: 500; }
-        .news-item a:hover { text-decoration: underline; }
-        .news-date { font-size: 0.8em; color: #64748b; margin-left: 8px; }
-        #map { height: 350px; border-radius: 8px; z-index: 0; }
+        * { box-sizing: border-box; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: radial-gradient(circle at top, #16213e 0%, #0a0e1a 60%);
+            color: #f1f5f9;
+            margin: 0;
+            padding: 24px 16px 60px;
+            min-height: 100vh;
+        }
+        .container { max-width: 960px; margin: 0 auto; }
+
+        h1 {
+            font-size: 1.9em;
+            font-weight: 800;
+            text-align: center;
+            margin: 0 0 4px;
+            background: linear-gradient(90deg, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .subtitle {
+            text-align: center;
+            color: #64748b;
+            font-size: 0.85em;
+            margin-bottom: 28px;
+            letter-spacing: 0.3px;
+        }
+
+        .card {
+            background: linear-gradient(180deg, rgba(30,41,59,0.9), rgba(23,32,49,0.9));
+            border-radius: 16px;
+            padding: 22px;
+            margin-bottom: 18px;
+            border: 1px solid rgba(148,163,184,0.12);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+        }
+        .card h2 {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 1.1em;
+            font-weight: 700;
+            margin: 0 0 14px;
+            color: #e2e8f0;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 5px 16px;
+            border-radius: 999px;
+            font-weight: 700;
+            font-size: 0.8em;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            box-shadow: 0 0 0 4px rgba(255,255,255,0.03);
+        }
+        .bg-KRITICKÁ { background: linear-gradient(90deg,#ef4444,#dc2626); color: white; }
+        .bg-VYSOKÁ   { background: linear-gradient(90deg,#f97316,#ea580c); color: white; }
+        .bg-STŘEDNÍ  { background: linear-gradient(90deg,#eab308,#ca8a04); color: #1e1b0a; }
+        .bg-STABILNÍ { background: linear-gradient(90deg,#22c55e,#16a34a); color: white; }
+
+        p#security-status, p#forecast {
+            line-height: 1.7;
+            color: #cbd5e1;
+            margin: 0;
+            font-size: 0.97em;
+        }
+
+        .recs-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+        }
+        @media (min-width: 640px) {
+            .recs-grid { grid-template-columns: 1fr 1fr; }
+        }
+        .rec-item {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(148,163,184,0.1);
+            border-radius: 12px;
+            padding: 14px;
+            transition: transform 0.15s ease, border-color 0.15s ease;
+        }
+        .rec-item:hover { transform: translateY(-2px); border-color: rgba(56,189,248,0.4); }
+        .rec-item strong { display: block; margin-top: 6px; font-size: 0.95em; color: #f1f5f9; }
+        .rec-item p { margin: 6px 0 0; color: #94a3b8; font-size: 0.85em; line-height: 1.5; }
+
+        .action {
+            font-weight: 700;
+            padding: 3px 10px;
+            border-radius: 6px;
+            font-size: 0.75em;
+            letter-spacing: 0.5px;
+        }
+        .action-KOUPIT { background: rgba(34,197,94,0.15); color: #4ade80; }
+        .action-PRODAT { background: rgba(239,68,68,0.15); color: #fca5a5; }
+        .action-DRŽET  { background: rgba(234,179,8,0.15); color: #fde047; }
+
+        .news-item {
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(148,163,184,0.08);
+        }
+        .news-item:last-child { border-bottom: none; }
+        .news-item a {
+            color: #7dd3fc;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95em;
+        }
+        .news-item a:hover { color: #38bdf8; text-decoration: underline; }
+        .news-date {
+            display: block;
+            font-size: 0.75em;
+            color: #64748b;
+            margin-top: 3px;
+        }
+
+        #map { height: 360px; border-radius: 12px; z-index: 0; overflow: hidden; }
+        #threatChart { max-height: 260px; }
+
+        .skeleton {
+            color: #475569;
+            font-size: 0.9em;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .skeleton::before {
+            content: "";
+            width: 14px; height: 14px;
+            border: 2px solid #334155;
+            border-top-color: #38bdf8;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        footer {
+            text-align: center;
+            color: #475569;
+            font-size: 0.75em;
+            margin-top: 30px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Rudé moře: AI Monitor & Geopolitika</h1>
+        <h1>🌊 Rudé moře: AI Monitor & Geopolitika</h1>
         <div class="subtitle">Poslední aktualizace: <span id="updated">Načítání...</span></div>
 
         <div class="card">
-            <h2>Aktuální Úroveň Hrozby: <span id="threat-level" class="badge">--</span></h2>
-            <p id="security-status" style="line-height: 1.6; color: #cbd5e1;">Načítání AI analýzy...</p>
+            <h2>🛡️ Aktuální Úroveň Hrozby: <span id="threat-level" class="badge">--</span></h2>
+            <p id="security-status" class="skeleton">Načítání AI analýzy...</p>
         </div>
 
         <div class="card">
-            <h2>Investiční Doporučení (AI Portfoliový Manažer)</h2>
-            <div id="recommendations">Načítání doporučení...</div>
+            <h2>💼 Investiční Doporučení</h2>
+            <div id="recommendations" class="skeleton">Načítání doporučení...</div>
         </div>
 
         <div class="card">
-            <h2>Předpověď Vývoje</h2>
-            <p id="forecast" style="line-height: 1.6; color: #cbd5e1;">Načítání předpovědi...</p>
+            <h2>🔮 Předpověď Vývoje</h2>
+            <p id="forecast" class="skeleton">Načítání předpovědi...</p>
         </div>
 
         <div class="card">
-            <h2>Vývoj úrovně hrozby</h2>
+            <h2>📈 Vývoj úrovně hrozby</h2>
             <canvas id="threatChart" height="120"></canvas>
         </div>
 
         <div class="card">
-            <h2>Mapa zmiňovaných lokalit</h2>
+            <h2>🗺️ Mapa zmiňovaných lokalit</h2>
             <div id="map"></div>
         </div>
 
         <div class="card">
-            <h2>Monitoring Zpráv (Posledních 24h)</h2>
-            <div id="articles">Načítání zpráv...</div>
+            <h2>📰 Monitoring Zpráv (Posledních 24h)</h2>
+            <div id="articles" class="skeleton">Načítání zpráv...</div>
         </div>
+
+        <footer>AI Red Sea Monitor · aktualizováno automaticky</footer>
     </div>
 
     <script>
@@ -78,21 +206,32 @@
                 threatElem.innerText = threat;
                 threatElem.className = 'badge bg-' + threat.split(' ')[0];
 
-                document.getElementById('security-status').innerText = data.assessment.security_status || '';
-                document.getElementById('forecast').innerText = data.assessment.forecast || '';
+                const statusEl = document.getElementById('security-status');
+                statusEl.className = '';
+                statusEl.innerText = data.assessment.security_status || '';
+
+                const forecastEl = document.getElementById('forecast');
+                forecastEl.className = '';
+                forecastEl.innerText = data.assessment.forecast || '';
 
                 const recsContainer = document.getElementById('recommendations');
+                recsContainer.className = '';
                 recsContainer.innerHTML = '';
-                if (data.assessment.recommendations) {
+                if (data.assessment.recommendations && data.assessment.recommendations.length > 0) {
+                    const grid = document.createElement('div');
+                    grid.className = 'recs-grid';
                     data.assessment.recommendations.forEach(r => {
-                        recsContainer.innerHTML += `
+                        grid.innerHTML += `
                             <div class="rec-item">
-                                <span class="action action-${r.action}">${r.action}</span> 
+                                <span class="action action-${r.action}">${r.action}</span>
                                 <strong>${r.sector}</strong>
-                                <p style="margin: 5px 0 0 0; color: #94a3b8; font-size: 0.9em;">${r.reason}</p>
+                                <p>${r.reason}</p>
                             </div>
                         `;
                     });
+                    recsContainer.appendChild(grid);
+                } else {
+                    recsContainer.innerText = 'Žádná doporučení k dispozici.';
                 }
 
                 try {
@@ -107,62 +246,79 @@
                                     data: data.history.map(h => h.value),
                                     borderColor: '#38bdf8',
                                     backgroundColor: 'rgba(56,189,248,0.15)',
-                                    tension: 0.3,
+                                    tension: 0.35,
                                     fill: true,
-                                    pointRadius: 3
+                                    pointRadius: 3,
+                                    pointBackgroundColor: '#38bdf8',
+                                    borderWidth: 2.5
                                 }]
                             },
                             options: {
+                                responsive: true,
+                                plugins: {
+                                    legend: { labels: { color: '#cbd5e1', font: { family: 'Inter' } } }
+                                },
                                 scales: {
                                     y: {
                                         min: 0.5, max: 4.5,
                                         ticks: {
                                             stepSize: 1,
                                             color: '#94a3b8',
+                                            font: { family: 'Inter', size: 11 },
                                             callback: v => ({1:'STABILNÍ',2:'STŘEDNÍ',3:'VYSOKÁ',4:'KRITICKÁ'}[v] || '')
                                         },
-                                        grid: { color: '#334155' }
+                                        grid: { color: 'rgba(148,163,184,0.08)' }
                                     },
-                                    x: { ticks: { color: '#64748b', maxRotation: 45 }, grid: { color: '#334155' } }
-                                },
-                                plugins: { legend: { labels: { color: '#f8fafc' } } }
+                                    x: {
+                                        ticks: { color: '#64748b', maxRotation: 45, font: { family: 'Inter', size: 10 } },
+                                        grid: { color: 'rgba(148,163,184,0.05)' }
+                                    }
+                                }
                             }
                         });
+                    } else {
+                        document.getElementById('threatChart').outerHTML = '<p style="color:#64748b;">Zatím není dostatek dat pro graf.</p>';
                     }
                 } catch (e) {
                     console.error('Chart error:', e);
-                    document.getElementById('threatChart').outerHTML = '<p style="color:#94a3b8;">Graf se nepodařilo načíst.</p>';
+                    document.getElementById('threatChart').outerHTML = '<p style="color:#64748b;">Graf se nepodařilo načíst.</p>';
                 }
 
                 try {
                     if (data.locations && data.locations.length > 0) {
-                        const map = L.map('map').setView([data.locations[0].lat, data.locations[0].lon], 4);
+                        const map = L.map('map', { zoomControl: true, attributionControl: true }).setView([data.locations[0].lat, data.locations[0].lon], 4);
                         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                             attribution: '&copy; OpenStreetMap contributors',
                             maxZoom: 10
                         }).addTo(map);
 
                         data.locations.forEach(loc => {
-                            L.marker([loc.lat, loc.lon]).addTo(map)
-                                .bindPopup(`<strong>${loc.name}</strong>`);
+                            L.circleMarker([loc.lat, loc.lon], {
+                                radius: 8,
+                                fillColor: '#38bdf8',
+                                color: '#0ea5e9',
+                                weight: 2,
+                                fillOpacity: 0.7
+                            }).addTo(map).bindPopup(`<strong>${loc.name}</strong>`);
                         });
                     } else {
                         document.getElementById('map').innerHTML =
-                            '<p style="color:#94a3b8;">Žádné konkrétní lokality nebyly ve zprávách rozpoznány.</p>';
+                            '<p style="color:#64748b; padding: 20px;">Žádné konkrétní lokality nebyly ve zprávách rozpoznány.</p>';
                     }
                 } catch (e) {
                     console.error('Map error:', e);
-                    document.getElementById('map').innerHTML = '<p style="color:#94a3b8;">Mapu se nepodařilo načíst.</p>';
+                    document.getElementById('map').innerHTML = '<p style="color:#64748b; padding: 20px;">Mapu se nepodařilo načíst.</p>';
                 }
 
                 const articlesContainer = document.getElementById('articles');
+                articlesContainer.className = '';
                 articlesContainer.innerHTML = '';
                 if (data.articles && data.articles.length > 0) {
                     data.articles.forEach(a => {
                         articlesContainer.innerHTML += `
                             <div class="news-item">
                                 <a href="${a.link}" target="_blank">${a.title}</a>
-                                <span class="news-date">[${a.source} - ${a.published}]</span>
+                                <span class="news-date">${a.source} · ${a.published}</span>
                             </div>
                         `;
                     });
@@ -172,6 +328,7 @@
             })
             .catch(err => {
                 console.error(err);
+                document.getElementById('security-status').className = '';
                 document.getElementById('security-status').innerText = 'Data se ještě vygenerují při prvním úspěšném spuštění Actions.';
             });
     </script>
