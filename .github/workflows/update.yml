@@ -2,9 +2,7 @@ name: 24h AI Update
 
 on:
   schedule:
-    # Běží každý den v 06:00 UTC
     - cron: '0 6 * * *'
-  # Umožňuje ruční spuštění z taba Actions v GitHubu
   workflow_dispatch:
 
 jobs:
@@ -24,18 +22,19 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install feedparser google-genai pydantic
+          pip install feedparser google-genai
 
       - name: Fetch and Analyze
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python fetch_news.py
 
       - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data.json
+          git add data.json rss.xml
           git commit -m "Auto-update AI Red Sea Monitor" || exit 0
           git push
