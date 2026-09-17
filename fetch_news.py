@@ -84,7 +84,8 @@ def analyze_with_ai(articles):
                 {"sector": "Námořní doprava", "action": "DRŽET", "reason": "Ceny přepravy jsou stabilizované."},
                 {"sector": "Obranný průmysl", "action": "KOUPIT", "reason": "Trvalé geopolitické napětí udrží zakázky."},
                 {"sector": "Energetika a Ropa", "action": "DRŽET", "reason": "Ropné trhy vykazují vyrovnanou nabídku a poptávku."},
-                {"sector": "Spotřební sektor & Auto", "action": "PRODAT", "reason": "Riziko zpoždění v dodavatelských řetězcích trvá."}
+                {"sector": "Spotřební sektor & Auto", "action": "PRODAT", "reason": "Riziko zpoždění v dodavatelských řetězcích trvá."},
+                {"sector": "Pražská burza: ČEZ, Komerční banka, Erste Group", "action": "DRŽET", "reason": "Bez nových geopolitických impulzů zůstávají české tituly stabilní."}
             ],
             "forecast": "Bez nových dat nelze aktualizovat výhled."
         }
@@ -121,6 +122,11 @@ def analyze_with_ai(articles):
                 "sector": "Evropský Spotřební sektor & Autoprůmysl (např. Volvo, BMW)",
                 "action": "KOUPIT / PRODAT / DRŽET",
                 "reason": "1-2 věty zdůvodnění k logistice."
+            }},
+            {{
+                "sector": "Pražská burza: ČEZ, Komerční banka, Erste Group",
+                "action": "KOUPIT / PRODAT / DRŽET",
+                "reason": "1-2 věty zdůvodnění pro každý z těchto tří titulů zvlášť - ČEZ kvůli cenám energií a plynu, Komerční banka kvůli úrokovým sazbám a náladě na trzích, Erste Group kvůli expozici vůči regionální ekonomice a bankovnímu sentimentu."
             }}
         ],
         "forecast": "1-2 věty odhadu vývoje na nejbližší dny."
