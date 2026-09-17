@@ -331,8 +331,9 @@
                 try {
                     if (data.locations && data.locations.length > 0) {
                         const map = L.map('map').setView([data.locations[0].lat, data.locations[0].lon], 4);
-                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                            attribution: '&copy; OpenStreetMap contributors', maxZoom: 10
+                        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+                            attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
+                            maxZoom: 16
                         }).addTo(map);
                         data.locations.forEach(loc => {
                             L.circleMarker([loc.lat, loc.lon], { radius: 8, fillColor: '#38bdf8', color: '#0ea5e9', weight: 2, fillOpacity: 0.7 })
