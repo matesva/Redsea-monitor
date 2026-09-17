@@ -3,6 +3,7 @@ import json
 import os
 import urllib.request
 from datetime import datetime
+from xml.sax.saxutils import escape
 from google import genai
 
 client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
@@ -197,10 +198,10 @@ def build_rss(articles):
     for a in articles:
         items += f"""
         <item>
-            <title>{a['title']}</title>
-            <link>{a['link']}</link>
-            <description>{a['summary']}</description>
-            <pubDate>{a['published']}</pubDate>
+            <title>{escape(a['title'])}</title>
+            <link>{escape(a['link'])}</link>
+            <description>{escape(a['summary'])}</description>
+            <pubDate>{escape(a['published'])}</pubDate>
         </item>"""
     rss = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
