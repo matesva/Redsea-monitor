@@ -64,10 +64,10 @@
         .bg-STABILNÍ { background: linear-gradient(90deg,#22c55e,#16a34a); color: white; }
 
         .sentiment-bar-wrap { background: rgba(148,163,184,0.15); border-radius: 8px; height: 10px; overflow: hidden; margin-top: 12px; }
-        .sentiment-bar { height: 100%; border-radius: 8px; transition: width 0.6s ease; background: linear-gradient(90deg,#22c55e,#eab308,#ef4444); }
-        .sentiment-label { font-size: 0.75em; color: var(--text-dim); margin-top: 4px; }
+        .sentiment-bar { height: 100%; border-radius: 8px; transition: width 0.6s ease, background 0.3s; }
+        .sentiment-label { font-size: 0.75em; margin-top: 4px; font-weight: 600; }
 
-        p#security-status, p#forecast, p#forecast-review { line-height: 1.7; color: var(--text-dim); margin: 0; font-size: 0.97em; }
+        p#security-status, p#forecast, p#forecast-review, p#weekly-summary { line-height: 1.7; color: var(--text-dim); margin: 0; font-size: 0.97em; }
 
         .recs-grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
         @media (min-width: 640px) { .recs-grid { grid-template-columns: 1fr 1fr; } }
@@ -81,9 +81,10 @@
         .action-PRODAT { background: rgba(239,68,68,0.15); color: #fca5a5; }
         .action-DRŽET  { background: rgba(234,179,8,0.15); color: #fde047; }
 
-        .oil-grid { display: flex; gap: 24px; flex-wrap: wrap; }
-        .oil-item strong { font-size: 1.5em; }
-        .oil-item span { display: block; color: var(--text-dim); font-size: 0.85em; margin-top: 2px; }
+        .stat-grid { display: flex; gap: 24px; flex-wrap: wrap; }
+        .stat-item strong { font-size: 1.5em; }
+        .stat-item span { display: block; color: var(--text-dim); font-size: 0.85em; margin-top: 2px; }
+        .stat-item .cached-note { font-size: 0.7em; color: #eab308; }
 
         .timeline { position: relative; padding-left: 20px; }
         .timeline::before { content: ""; position: absolute; left: 5px; top: 6px; bottom: 6px; width: 2px; background: rgba(148,163,184,0.2); }
@@ -94,6 +95,7 @@
         .news-date { display: block; font-size: 0.75em; color: var(--text-dim); margin-top: 3px; }
 
         #map { height: 360px; border-radius: 12px; z-index: 0; overflow: hidden; }
+        .top-location-note { font-size: 0.85em; color: var(--text-dim); margin-top: 10px; }
 
         .archive-item { border-bottom: 1px solid var(--border); padding: 10px 0; cursor: pointer; }
         .archive-item:last-child { border-bottom: none; }
@@ -108,6 +110,14 @@
         }
         @keyframes spin { to { transform: rotate(360deg); } }
         footer { text-align: center; color: var(--text-dim); font-size: 0.75em; margin-top: 30px; }
+
+        #scroll-top {
+            position: fixed; bottom: 24px; right: 20px; width: 44px; height: 44px;
+            border-radius: 50%; background: #38bdf8; color: white; border: none;
+            font-size: 1.2em; cursor: pointer; display: none; box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            z-index: 100;
+        }
+        #scroll-top.visible { display: block; }
     </style>
 </head>
 <body>
@@ -131,13 +141,18 @@
         </div>
 
         <div class="card">
+            <h2>📅 Týdenní shrnutí</h2>
+            <p id="weekly-summary" class="skeleton">Načítání...</p>
+        </div>
+
+        <div class="card">
             <h2>💼 Investiční Doporučení</h2>
             <div id="recommendations" class="skeleton">Načítání doporučení...</div>
         </div>
 
         <div class="card">
-            <h2>🛢️ Cena ropy</h2>
-            <div id="oil-prices" class="skeleton">Načítání cen...</div>
+            <h2>🛢️ Trh: Ropa a měnový kurz</h2>
+            <div id="oil-prices" class="skeleton">Načítání dat...</div>
         </div>
 
         <div class="card">
@@ -158,6 +173,7 @@
         <div class="card">
             <h2>🗺️ Mapa zmiňovaných lokalit</h2>
             <div id="map"></div>
+            <div class="top-location-note" id="top-location-note"></div>
         </div>
 
         <div class="card">
@@ -173,12 +189,18 @@
         <footer>AI Red Sea Monitor · aktualizováno automaticky</footer>
     </div>
 
+    <button id="scroll-top" onclick="window.scrollTo({top:0, behavior:'smooth'})">↑</button>
+
     <script>
         function toggleTheme() {
             document.body.classList.toggle('light');
             localStorage.setItem('theme', document.body.classList.contains('light') ? 'light' : 'dark');
         }
         if (localStorage.getItem('theme') === 'light') document.body.classList.add('light');
+
+        window.addEventListener('scroll', () => {
+            document.getElementById('scroll-top').classList.toggle('visible', window.scrollY > 400);
+        });
 
         const TICKERS = {
             'ČEZ': 'https://finance.yahoo.com/quote/CEZ.PR',
@@ -194,7 +216,11 @@
             'BP': 'https://finance.yahoo.com/quote/BP',
             'Chevron': 'https://finance.yahoo.com/quote/CVX',
             'Volvo': 'https://finance.yahoo.com/quote/VOLV-B.ST',
-            'BMW': 'https://finance.yahoo.com/quote/BMW.DE'
+            'BMW': 'https://finance.yahoo.com/quote/BMW.DE',
+            'Airbus': 'https://finance.yahoo.com/quote/AIR.PA',
+            'TotalEnergies': 'https://finance.yahoo.com/quote/TTE.PA',
+            'Allianz': 'https://finance.yahoo.com/quote/ALV.DE',
+            'Rheinmetall': 'https://finance.yahoo.com/quote/RHM.DE'
         };
 
         function relativeTime(dateStr) {
@@ -206,6 +232,12 @@
                 if (diffH < 24) return `před ${diffH} h`;
                 return `před ${Math.round(diffH / 24)} dny`;
             } catch (e) { return ''; }
+        }
+
+        function sentimentColor(score) {
+            if (score < 34) return '#22c55e';
+            if (score < 67) return '#eab308';
+            return '#ef4444';
         }
 
         fetch('data.json')
@@ -228,8 +260,16 @@
                 document.getElementById('security-status').innerText = data.assessment.security_status || '';
 
                 const score = data.assessment.sentiment_score ?? 0;
-                document.getElementById('sentiment-bar').style.width = score + '%';
-                document.getElementById('sentiment-label').innerText = `Sentiment napětí: ${score}/100`;
+                const color = sentimentColor(score);
+                const bar = document.getElementById('sentiment-bar');
+                bar.style.width = score + '%';
+                bar.style.background = color;
+                const label = document.getElementById('sentiment-label');
+                label.innerText = `Sentiment napětí: ${score}/100`;
+                label.style.color = color;
+
+                document.getElementById('weekly-summary').className = '';
+                document.getElementById('weekly-summary').innerText = data.weekly_summary || 'Zatím není dostatek dat.';
 
                 document.getElementById('forecast').className = '';
                 document.getElementById('forecast').innerText = data.assessment.forecast || '';
@@ -266,16 +306,18 @@
                 const oilContainer = document.getElementById('oil-prices');
                 oilContainer.className = '';
                 oilContainer.innerHTML = '';
-                if (data.oil_prices && (data.oil_prices.brent || data.oil_prices.wti)) {
-                    const brent = data.oil_prices.brent;
-                    const wti = data.oil_prices.wti;
-                    let html = '<div class="oil-grid">';
-                    if (brent) html += `<div class="oil-item"><strong>$${brent.value.toFixed(2)}</strong><span>Brent (${brent.date})</span></div>`;
-                    if (wti) html += `<div class="oil-item"><strong>$${wti.value.toFixed(2)}</strong><span>WTI (${wti.date})</span></div>`;
+                const brent = data.oil_prices?.brent;
+                const wti = data.oil_prices?.wti;
+                const usdCzk = data.usd_czk;
+                if (brent || wti || usdCzk) {
+                    let html = '<div class="stat-grid">';
+                    if (brent) html += `<div class="stat-item"><strong>$${brent.value.toFixed(2)}</strong><span>Brent (${brent.date})</span>${brent.cached ? '<span class="cached-note">poslední známá hodnota</span>' : ''}</div>`;
+                    if (wti) html += `<div class="stat-item"><strong>$${wti.value.toFixed(2)}</strong><span>WTI (${wti.date})</span>${wti.cached ? '<span class="cached-note">poslední známá hodnota</span>' : ''}</div>`;
+                    if (usdCzk) html += `<div class="stat-item"><strong>${usdCzk.value.toFixed(2)} Kč</strong><span>USD/CZK (${usdCzk.date})</span></div>`;
                     html += '</div>';
                     oilContainer.innerHTML = html;
                 } else {
-                    oilContainer.innerText = 'Data o ceně ropy nejsou k dispozici.';
+                    oilContainer.innerText = 'Data nejsou k dispozici.';
                 }
 
                 try {
@@ -345,6 +387,11 @@
                 } catch (e) {
                     console.error('Map error:', e);
                     document.getElementById('map').innerHTML = '<p style="color:#64748b; padding:20px;">Mapu se nepodařilo načíst.</p>';
+                }
+
+                if (data.top_location) {
+                    document.getElementById('top-location-note').innerText =
+                        `📍 Nejzmiňovanější lokalita: ${data.top_location.name} (${data.top_location.count}× od začátku sledování)`;
                 }
 
                 const articlesContainer = document.getElementById('articles');
