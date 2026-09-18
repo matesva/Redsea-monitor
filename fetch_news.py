@@ -2,6 +2,7 @@ import feedparser
 import json
 import os
 import urllib.request
+import html
 from datetime import datetime
 from xml.sax.saxutils import escape
 from google import genai
@@ -56,8 +57,8 @@ def fetch_articles():
         try:
             feed = feedparser.parse(feed_url)
             for entry in feed.entries:
-                title = entry.get("title", "")
-                summary = entry.get("summary", "")
+                title = html.unescape(entry.get("title", ""))
+                summary = html.unescape(entry.get("summary", ""))
                 if any(kw.lower() in (title + summary).lower() for kw in KEYWORDS):
                     articles.append({
                         "title": title,
@@ -81,10 +82,10 @@ def extract_locations(articles):
     return list(found.values())
 
 
-def fetch_oil_prices():
+def fetch_oil_prices(previous_prices):
     prices = {"brent": None, "wti": None}
     if not ALPHA_VANTAGE_KEY:
-        return prices
+        return previous_prices or prices
     for label, function in [("brent", "BRENT"), ("wti", "WTI")]:
         try:
             url = f"https://www.alphavantage.co/query?function={function}&interval=daily&apikey={ALPHA_VANTAGE_KEY}"
@@ -94,11 +95,35 @@ def fetch_oil_prices():
                 if data_points:
                     prices[label] = {
                         "value": float(data_points[0]["value"]),
-                        "date": data_points[0]["date"]
+                        "date": data_points[0]["date"],
+                        "cached": False
                     }
         except Exception as e:
             print(f"Chyba při stahování ceny {label}: {e}")
+
+    # Fallback na poslední známou hodnotu, pokud aktuální dotaz selhal
+    if previous_prices:
+        for label in ["brent", "wti"]:
+            if not prices.get(label) and previous_prices.get(label):
+                cached = dict(previous_prices[label])
+                cached["cached"] = True
+                prices[label] = cached
+
     return prices
+
+
+def fetch_usd_czk():
+    try:
+        url = "https://api.frankfurter.app/latest?from=USD&to=CZK"
+        with urllib.request.urlopen(url, timeout=10) as resp:
+            result = json.loads(resp.read().decode())
+            rate = result.get("rates", {}).get("CZK")
+            date = result.get("date")
+            if rate:
+                return {"value": round(rate, 3), "date": date}
+    except Exception as e:
+        print(f"Chyba při stahování kurzu USD/CZK: {e}")
+    return None
 
 
 def load_previous_data():
@@ -122,7 +147,8 @@ def analyze_with_ai(articles, previous_forecast):
                 {"sector": "Obranný průmysl", "action": "KOUPIT", "reason": "Trvalé geopolitické napětí udrží zakázky."},
                 {"sector": "Energetika a Ropa", "action": "DRŽET", "reason": "Ropné trhy vykazují vyrovnanou nabídku a poptávku."},
                 {"sector": "Spotřební sektor & Auto", "action": "PRODAT", "reason": "Riziko zpoždění v dodavatelských řetězcích trvá."},
-                {"sector": "Pražská burza: ČEZ, Komerční banka, Erste Group", "action": "DRŽET", "reason": "Bez nových geopolitických impulzů zůstávají české tituly stabilní."}
+                {"sector": "Pražská burza: ČEZ, Komerční banka, Erste Group", "action": "DRŽET", "reason": "Bez nových geopolitických impulzů zůstávají české tituly stabilní."},
+                {"sector": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)", "action": "DRŽET", "reason": "Bez nových impulzů zůstávají evropské tituly stabilní."}
             ],
             "forecast": "Bez nových dat nelze aktualizovat výhled.",
             "forecast_review": "Žádná předchozí předpověď k vyhodnocení."
@@ -150,7 +176,8 @@ def analyze_with_ai(articles, previous_forecast):
             {{"sector": "Obranný průmysl (např. RTX, Lockheed Martin, BAE Systems)", "action": "KOUPIT / PRODAT / DRŽET", "reason": "1-2 věty zdůvodnění na základě zakázek."}},
             {{"sector": "Ropa a Plyn (např. Shell, BP, Chevron)", "action": "KOUPIT / PRODAT / DRŽET", "reason": "1-2 věty zdůvodnění ohledně cen ropy."}},
             {{"sector": "Evropský Spotřební sektor & Autoprůmysl (např. Volvo, BMW)", "action": "KOUPIT / PRODAT / DRŽET", "reason": "1-2 věty zdůvodnění k logistice."}},
-            {{"sector": "Pražská burza: ČEZ, Komerční banka, Erste Group", "action": "KOUPIT / PRODAT / DRŽET", "reason": "1-2 věty zdůvodnění pro tyto tři tituly."}}
+            {{"sector": "Pražská burza: ČEZ, Komerční banka, Erste Group", "action": "KOUPIT / PRODAT / DRŽET", "reason": "1-2 věty zdůvodnění pro tyto tři tituly."}},
+            {{"sector": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)", "action": "KOUPIT / PRODAT / DRŽET", "reason": "1-2 věty zdůvodnění dopadu na širší evropské tituly - obrana, energetika, pojišťovnictví."}}
         ],
         "forecast": "1-2 věty odhadu vývoje na nejbližší dny.",
         "forecast_review": "1 věta - potvrdila se, nebo vyvrátila předchozí předpověď na základě dnešních zpráv? Pokud žádná nebyla, napiš 'Žádná předchozí předpověď k vyhodnocení.'"
@@ -216,14 +243,46 @@ def build_rss(articles):
         f.write(rss)
 
 
+def build_weekly_summary(archive):
+    if not archive:
+        return "Zatím není dostatek dat pro týdenní shrnutí."
+    last7 = archive[-7:]
+    counts = {}
+    for entry in last7:
+        lvl = entry.get("threat_level", "NEZNÁMÁ")
+        counts[lvl] = counts.get(lvl, 0) + 1
+    parts = [f"{v}× {k}" for k, v in sorted(counts.items(), key=lambda x: -x[1])]
+    days = len(last7)
+    return f"Za posledních {days} zaznamenaných analýz: " + ", ".join(parts) + "."
+
+
+def update_location_counts(previous_counts, locations):
+    counts = dict(previous_counts or {})
+    for loc in locations:
+        name = loc["name"]
+        counts[name] = counts.get(name, 0) + 1
+    return counts
+
+
+def top_location(location_counts):
+    if not location_counts:
+        return None
+    top_name = max(location_counts, key=location_counts.get)
+    return {"name": top_name, "count": location_counts[top_name]}
+
+
 def run():
     old_data = load_previous_data()
     previous_forecast = old_data.get("assessment", {}).get("forecast", "")
+    previous_oil = old_data.get("oil_prices")
+    previous_location_counts = old_data.get("location_counts", {})
 
     articles = fetch_articles()
     ai_assessment = analyze_with_ai(articles, previous_forecast)
     locations = extract_locations(articles)
-    oil_prices = fetch_oil_prices()
+    oil_prices = fetch_oil_prices(previous_oil)
+    usd_czk = fetch_usd_czk()
+    location_counts = update_location_counts(previous_location_counts, locations)
 
     history = old_data.get("history", [])
     threat_key = ai_assessment.get("threat_level", "").split(" ")[0].split("/")[0].strip()
@@ -236,7 +295,8 @@ def run():
         "value": threat_value,
         "sentiment_score": ai_assessment.get("sentiment_score", 0),
         "incidents": len(articles),
-        "brent": oil_prices.get("brent", {}).get("value") if oil_prices.get("brent") else None
+        "brent": oil_prices.get("brent", {}).get("value") if oil_prices.get("brent") else None,
+        "usd_czk": usd_czk.get("value") if usd_czk else None
     })
     history = history[-30:]
 
@@ -249,14 +309,21 @@ def run():
     })
     archive = archive[-14:]
 
+    weekly_summary = build_weekly_summary(archive)
+    top_loc = top_location(location_counts)
+
     data = {
         "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M UTC"),
         "assessment": ai_assessment,
         "articles": articles,
         "history": history,
         "locations": locations,
+        "location_counts": location_counts,
+        "top_location": top_loc,
         "archive": archive,
-        "oil_prices": oil_prices
+        "weekly_summary": weekly_summary,
+        "oil_prices": oil_prices,
+        "usd_czk": usd_czk
     }
 
     with open("data.json", "w", encoding="utf-8") as f:
