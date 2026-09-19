@@ -3,173 +3,556 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rudé moře: bezpečnost & geopolitika</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <title>Red Sea & Investment AI Monitor</title>
+    <meta name="description" content="AI monitor bezpečnostní situace v Rudém moři, dopadů na lodní dopravu, energetiku a investiční doporučení včetně Pražské burzy.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://matesva.github.io/Redsea-monitor/">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0b1d26">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js"></script>
+    <style>
+        * { box-sizing: border-box; }
+        :root {
+            --ink: #0b1d26;
+            --ink2: #142c3a;
+            --paper: #e7e0cd;
+            --paper-dim: #d9d0b8;
+            --brass: #b8863b;
+            --brass-dim: #8a6a35;
+            --teal: #4a7c85;
+            --alert: #a13d2b;
+            --text: #e7e0cd;
+            --text-dim: #9aa8ac;
+            --rule: rgba(184,134,59,0.35);
+        }
+        body.light {
+            --ink: #ece6d6;
+            --ink2: #e0d8c0;
+            --paper: #0b1d26;
+            --text: #1c2b2e;
+            --text-dim: #5c6b6e;
+            --rule: rgba(11,29,38,0.18);
+        }
+        body {
+            font-family: 'Spectral', Georgia, serif;
+            background-color: var(--ink);
+            background-image:
+                radial-gradient(circle at 1px 1px, rgba(184,134,59,0.06) 1px, transparent 0);
+            background-size: 22px 22px;
+            color: var(--text);
+            margin: 0; padding: 0 0 80px;
+            min-height: 100vh;
+            transition: background 0.3s, color 0.3s;
+        }
+        .mono { font-family: 'IBM Plex Mono', monospace; }
+        .container { max-width: 780px; margin: 0 auto; padding: 0 20px; }
 
-    <div class="container">
-        
-        <header>
-            <span class="sub-title">RED SEA MONITOR · VOL. AUTO</span>
-            <h1>Rudé moře: bezpečnost & geopolitika</h1>
-            <p id="last-updated">Aktualizováno načítání...</p>
-        </header>
+        /* Masthead */
+        .masthead {
+            border-bottom: 3px double var(--brass);
+            padding: 28px 20px 16px;
+            max-width: 780px; margin: 0 auto;
+            position: relative; overflow: hidden;
+        }
+        .masthead-compass {
+            position: absolute; top: -30px; right: -30px; width: 160px; height: 160px;
+            opacity: 0.08; pointer-events: none;
+        }
+        .masthead-compass path, .masthead-compass circle, .masthead-compass line { stroke: var(--brass); fill: none; }
+        .wave-divider { display: block; width: 100%; height: 10px; max-width: 780px; margin: 0 auto; }
+        .wave-divider path { stroke: var(--rule); fill: none; stroke-width: 1.5; }
+        .masthead-top {
+            display: flex; justify-content: space-between; align-items: baseline;
+            font-family: 'IBM Plex Mono', monospace; font-size: 0.72em;
+            letter-spacing: 0.04em; color: var(--brass);
+            margin-bottom: 14px;
+        }
+        .theme-toggle {
+            background: none; border: 1px solid var(--rule); color: var(--text-dim);
+            font-family: 'IBM Plex Mono', monospace; font-size: 0.85em;
+            padding: 4px 10px; cursor: pointer; border-radius: 2px;
+        }
+        h1 {
+            font-size: 2.1em; font-weight: 700; margin: 0 0 6px; line-height: 1.15;
+            letter-spacing: -0.01em;
+        }
+        .dispatch-line {
+            font-family: 'IBM Plex Mono', monospace; font-size: 0.78em; color: var(--text-dim);
+            display: flex; gap: 16px; flex-wrap: wrap; align-items: center;
+        }
+        .share-row { display: flex; gap: 14px; margin-top: 14px; }
+        .share-btn {
+            font-family: 'IBM Plex Mono', monospace; font-size: 0.75em;
+            color: var(--brass); text-decoration: none; border-bottom: 1px solid transparent;
+        }
+        .share-btn:hover { border-bottom-color: var(--brass); }
 
-        <section class="card market-card">
-            <h2>§ Trh: ropa a měnový kurz</h2>
-            <div class="price-row">
-                <div class="price-box">
-                    <span class="price" id="brent-price">--.--</span>
-                    <span class="label">BRENT · <span id="brent-date">--</span></span>
-                </div>
-                <div class="price-box" id="czk-box">
-                    <span class="price" id="usd-czk-price">--.--</span>
-                    <span class="label">USD/CZK</span>
-                </div>
-            </div>
-        </section>
+        /* Sections as bulletins, not cards */
+        .bulletin {
+            padding: 26px 0; border-bottom: 1px solid var(--rule);
+        }
+        .bulletin h2 {
+            font-family: 'IBM Plex Mono', monospace; font-size: 0.72em;
+            font-weight: 600; letter-spacing: 0.06em; color: var(--brass);
+            margin: 0 0 16px; display: flex; align-items: baseline; gap: 10px;
+        }
+        .bulletin h2::before { content: "§"; opacity: 0.6; }
 
-        <section class="card threat-card">
-            <h2>§ Úroveň hrozby</h2>
-            <div class="threat-badge-container">
-                <div class="badge" id="threat-badge">--</div>
-            </div>
-            <p id="security-status">Načítání bezpečnostního přehledu...</p>
-            
-            <div class="sentiment-bar-container">
-                <div class="sentiment-bar" id="sentiment-bar" style="width: 0%;"></div>
-            </div>
-            <span class="sentiment-text">Sentiment napětí: <strong id="sentiment-score">0/100</strong></span>
-        </section>
+        /* Threat seal — the one bold moment */
+        .seal-wrap { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; }
+        .seal {
+            width: 100px; height: 100px; position: relative;
+            display: flex; align-items: center; justify-content: center;
+            font-family: 'IBM Plex Mono', monospace; font-weight: 700;
+            font-size: 0.7em; text-align: center; line-height: 1.3;
+            letter-spacing: 0.02em; flex-shrink: 0;
+            transform: rotate(-3deg);
+        }
+        .seal svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+        .seal svg circle { fill: none; stroke: currentColor; }
+        .seal-text { position: relative; z-index: 1; }
+        .seal-STABILNÍ { color: #6a9b6e; }
+        .seal-STŘEDNÍ  { color: var(--brass); }
+        .seal-VYSOKÁ   { color: #c07a3a; }
+        .seal-KRITICKÁ { color: var(--alert); }
+        .seal-body { flex: 1; min-width: 220px; }
+        #security-status { line-height: 1.7; color: var(--text-dim); margin: 0; font-size: 1em; }
 
-        <section class="card">
-            <h2>§ Výhled vývoje</h2>
-            <p id="forecast-text">Načítání odhadu vývoje...</p>
-        </section>
+        .sentiment-bar-wrap { background: var(--rule); height: 3px; margin-top: 16px; }
+        .sentiment-bar { height: 100%; transition: width 0.6s ease, background 0.3s; }
+        .sentiment-label { font-family: 'IBM Plex Mono', monospace; font-size: 0.72em; margin-top: 6px; color: var(--text-dim); }
 
-        <section class="card">
-            <h2>§ Zpětné vyhodnocení předchozího odhadu</h2>
-            <p id="forecast-review-text">Načítání vyhodnocení...</p>
-        </section>
-
-        <section class="card">
-            <h2>§ Týdenní shrnutí</h2>
-            <p id="weekly-summary">Načítání...</p>
-        </section>
-
-        <section class="card">
-            <h2>§ Sledované lokality v článku</h2>
-            <div id="locations-container" class="locations-tags"></div>
-        </section>
-
-        <section class="card">
-            <h2>§ Investiční doporučení</h2>
-            <ul id="recommendations-list"></ul>
-        </section>
-
-    </div>
-
-    <script>
-        async function loadMonitorData() {
-            try {
-                const response = await fetch('./data.json?t=' + new Date().getTime());
-                const data = await response.json();
-
-                // 1. Čas
-                if (data.last_updated) {
-                    const updatedDate = new Date(data.last_updated);
-                    const now = new Date();
-                    const diffMs = now - updatedDate;
-                    const diffHours = Math.floor(diffMs / (1000 * 60 * 60));
-                    const diffDays = Math.floor(diffHours / 24);
-
-                    let timeText = "";
-                    if (isNaN(updatedDate.getTime())) {
-                        timeText = data.last_updated;
-                    } else if (diffDays > 0) {
-                        timeText = `před ${diffDays} dny`;
-                    } else if (diffHours > 0) {
-                        timeText = `před ${diffHours} hodinami`;
-                    } else {
-                        timeText = "před chvílí";
-                    }
-                    document.getElementById('last-updated').innerText = `Aktualizováno ${timeText}`;
-                }
-
-                // 2. Ceny
-                if (data.oil_prices && data.oil_prices.brent) {
-                    document.getElementById('brent-price').innerText = `$${data.oil_prices.brent.value.toFixed(2)}`;
-                    document.getElementById('brent-date').innerText = data.oil_prices.brent.date;
-                }
-                if (data.usd_czk) {
-                    document.getElementById('usd-czk-price').innerText = `${data.usd_czk.value} CZK`;
-                }
-
-                // 3. Hrozba & Analýzy
-                if (data.assessment) {
-                    const badge = document.getElementById('threat-badge');
-                    const level = data.assessment.threat_level || 'NEZNÁMÁ';
-                    badge.innerText = level;
-                    badge.className = 'badge ' + (level.includes('KRITICKÁ') ? 'critical' : level.includes('VYSOKÁ') ? 'high' : 'medium');
-                    
-                    document.getElementById('security-status').innerText = data.assessment.security_status || '';
-                    
-                    const score = data.assessment.sentiment_score || 0;
-                    document.getElementById('sentiment-score').innerText = `${score}/100`;
-                    document.getElementById('sentiment-bar').style.width = `${score}%`;
-
-                    if (document.getElementById('forecast-text')) {
-                        document.getElementById('forecast-text').innerText = data.assessment.forecast || 'Bez výhledu.';
-                    }
-                    if (document.getElementById('forecast-review-text')) {
-                        document.getElementById('forecast-review-text').innerText = data.assessment.forecast_review || 'Bez vyhodnocení.';
-                    }
-
-                    // Doporučení s odkazy na akcie
-                    const list = document.getElementById('recommendations-list');
-                    if (list && data.assessment.recommendations) {
-                        list.innerHTML = '';
-                        data.assessment.recommendations.forEach(rec => {
-                            const li = document.createElement('li');
-                            let reasonWithLinks = rec.reason.replace(/\((např\.\vert{}například)?\s*([^)]+)\)/gi, (match, prefix, companies) => {
-                                const linkedCompanies = companies.split(/,/s).map(comp => {
-                                    const trimmed = comp.trim();
-                                    if (!trimmed) return trimmed;
-                                    const searchUrl = `https://finance.yahoo.com/lookup?s=${encodeURIComponent(trimmed)}`;
-                                    return `<a href="${searchUrl}" target="_blank" class="stock-link">${trimmed}</a>`;
-                                }).join(', ');
-                                return `(${prefix ? prefix + ' ' : ''}${linkedCompanies})`;
-                            });
-                            li.innerHTML = `<strong>${rec.action}</strong> <span class="sector-tag">${rec.sector}</span>: ${reasonWithLinks}`;
-                            list.appendChild(li);
-                        });
-                    }
-                }
-
-                // 4. Shrnutí
-                if (data.weekly_summary) {
-                    document.getElementById('weekly-summary').innerText = data.weekly_summary;
-                }
-
-                // 5. Lokace
-                const locContainer = document.getElementById('locations-container');
-                if (locContainer && data.locations) {
-                    locContainer.innerHTML = '';
-                    data.locations.forEach(loc => {
-                        const tag = document.createElement('span');
-                        tag.className = 'location-tag';
-                        tag.innerText = loc.name;
-                        locContainer.appendChild(tag);
-                    });
-                }
-
-            } catch (error) {
-                console.error('Chyba při načítání data.json:', error);
-            }
+        p#forecast, p#forecast-review, p#weekly-summary {
+            line-height: 1.75; color: var(--text-dim); margin: 0; font-size: 1em;
         }
 
-        document.addEventListener('DOMContentLoaded', loadMonitorData);
+        /* Oil ticker — treated as a data readout, not a card */
+        .ticker-row {
+            display: flex; gap: 32px; flex-wrap: wrap;
+            border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+            padding: 14px 0;
+        }
+        .ticker-item { font-family: 'IBM Plex Mono', monospace; }
+        .ticker-item .val { font-size: 1.5em; font-weight: 600; color: var(--brass); }
+        .ticker-item .lbl { display: block; font-size: 0.7em; color: var(--text-dim); margin-top: 2px; }
+        .ticker-item .cached-note { font-size: 0.65em; color: var(--brass-dim); }
+
+        .recs-list { display: flex; flex-direction: column; gap: 0; }
+        .rec-item { padding: 14px 0; border-top: 1px solid var(--rule); }
+        .rec-item:first-child { border-top: none; }
+        .rec-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+        .rec-item strong { font-size: 1em; font-weight: 600; }
+        .rec-item p { margin: 6px 0 0; color: var(--text-dim); font-size: 0.92em; line-height: 1.6; }
+        .rec-item a.ticker-link { font-family: 'IBM Plex Mono', monospace; font-size: 0.72em; color: var(--teal); text-decoration: none; }
+        .rec-item a.ticker-link:hover { text-decoration: underline; }
+
+        .action { font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 0.7em; letter-spacing: 0.03em; }
+        .action-KOUPIT { color: #6a9b6e; }
+        .action-PRODAT { color: var(--alert); }
+        .action-DRŽET  { color: var(--brass); }
+        .action::before { content: "▸ "; }
+
+        .timeline { position: relative; }
+        .news-item { padding: 10px 0; border-top: 1px solid var(--rule); }
+        .news-item:first-child { border-top: none; }
+        .news-item a { color: var(--text); text-decoration: none; font-weight: 500; font-size: 1em; }
+        .news-item a:hover { color: var(--brass); }
+        .news-date { display: block; font-family: 'IBM Plex Mono', monospace; font-size: 0.68em; color: var(--text-dim); margin-top: 4px; }
+
+        #map { height: 340px; border: 1px solid var(--rule); z-index: 0; filter: saturate(0.7); }
+        .top-location-note { font-family: 'IBM Plex Mono', monospace; font-size: 0.78em; color: var(--text-dim); margin-top: 12px; }
+
+        .archive-item { border-top: 1px solid var(--rule); padding: 12px 0; cursor: pointer; }
+        .archive-item:first-child { border-top: none; }
+        .archive-header { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+        .archive-header .adate { font-family: 'IBM Plex Mono', monospace; font-size: 0.8em; color: var(--text-dim); }
+        .archive-header .alevel { font-family: 'IBM Plex Mono', monospace; font-size: 0.7em; font-weight: 600; letter-spacing: 0.03em; }
+        .alevel-KRITICKÁ { color: var(--alert); }
+        .alevel-VYSOKÁ { color: #c07a3a; }
+        .alevel-STŘEDNÍ { color: var(--brass); }
+        .alevel-STABILNÍ { color: #6a9b6e; }
+        .archive-body { display: none; margin-top: 10px; font-size: 0.9em; color: var(--text-dim); line-height: 1.65; }
+        .archive-item.open .archive-body { display: block; }
+
+        .skeleton { color: var(--text-dim); font-size: 0.9em; font-style: italic; }
+        footer {
+            text-align: center; color: var(--text-dim); font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.68em; margin-top: 34px; letter-spacing: 0.03em;
+        }
+
+        #scroll-top {
+            position: fixed; bottom: 24px; right: 20px; width: 40px; height: 40px;
+            background: var(--paper); color: var(--ink); border: 2px solid var(--brass);
+            font-size: 1.1em; cursor: pointer; display: none; font-family: 'IBM Plex Mono', monospace;
+            z-index: 100;
+        }
+        #scroll-top.visible { display: block; }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 1.6em; }
+            .seal { width: 78px; height: 78px; font-size: 0.65em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="masthead">
+        <svg class="masthead-compass" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="80" cy="80" r="70"/>
+            <circle cx="80" cy="80" r="50"/>
+            <line x1="80" y1="4" x2="80" y2="156"/>
+            <line x1="4" y1="80" x2="156" y2="80"/>
+            <line x1="24" y1="24" x2="136" y2="136"/>
+            <line x1="136" y1="24" x2="24" y2="136"/>
+            <path d="M80 20 L86 80 L80 140 L74 80 Z"/>
+        </svg>
+        <div class="masthead-top">
+            <span>RED SEA MONITOR · VOL. AUTO</span>
+            <button class="theme-toggle" onclick="toggleTheme()">◑ TÉMA</button>
+        </div>
+        <h1>Rudé moře: bezpečnost &amp; geopolitika</h1>
+        <div class="dispatch-line">
+            <span>Aktualizováno <strong id="updated-relative">načítání…</strong></span>
+            <span id="updated">--</span>
+        </div>
+        <div class="share-row">
+            <a class="share-btn" id="share-whatsapp" href="#" target="_blank">WhatsApp ↗</a>
+            <a class="share-btn" id="share-x" href="#" target="_blank">X ↗</a>
+            <a class="share-btn" href="rss.xml" target="_blank">RSS ↗</a>
+        </div>
+    </div>
+    <svg class="wave-divider" viewBox="0 0 780 10" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 5 Q 15 0, 30 5 T 60 5 T 90 5 T 120 5 T 150 5 T 180 5 T 210 5 T 240 5 T 270 5 T 300 5 T 330 5 T 360 5 T 390 5 T 420 5 T 450 5 T 480 5 T 510 5 T 540 5 T 570 5 T 600 5 T 630 5 T 660 5 T 690 5 T 720 5 T 750 5 T 780 5"/>
+    </svg>
+
+    <div class="container">
+
+        <div class="bulletin">
+            <h2>Trh: ropa a měnový kurz</h2>
+            <div id="oil-prices" class="skeleton">Načítání dat…</div>
+        </div>
+
+        <div class="bulletin">
+            <h2>Úroveň hrozby</h2>
+            <div class="seal-wrap">
+                <div id="threat-level" class="seal">
+                    <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" stroke-width="2"/><circle cx="50" cy="50" r="38" stroke-width="1"/></svg>
+                    <span class="seal-text">--</span>
+                </div>
+                <div class="seal-body">
+                    <p id="security-status" class="skeleton">Načítání AI analýzy…</p>
+                    <div class="sentiment-bar-wrap"><div class="sentiment-bar" id="sentiment-bar" style="width:0%"></div></div>
+                    <div class="sentiment-label" id="sentiment-label"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bulletin">
+            <h2>Týdenní shrnutí</h2>
+            <p id="weekly-summary" class="skeleton">Načítání…</p>
+        </div>
+
+        <div class="bulletin">
+            <h2>Investiční doporučení</h2>
+            <div id="recommendations" class="skeleton">Načítání doporučení…</div>
+        </div>
+
+        <div class="bulletin">
+            <h2>Předpověď vývoje</h2>
+            <p id="forecast" class="skeleton">Načítání předpovědi…</p>
+        </div>
+
+        <div class="bulletin">
+            <h2>Vyhodnocení předchozí předpovědi</h2>
+            <p id="forecast-review" class="skeleton">Načítání…</p>
+        </div>
+
+        <div class="bulletin">
+            <h2>Vývoj úrovně hrozby</h2>
+            <canvas id="threatChart" height="140"></canvas>
+        </div>
+
+        <div class="bulletin">
+            <h2>Mapa zmiňovaných lokalit</h2>
+            <div id="map"></div>
+            <div class="top-location-note" id="top-location-note"></div>
+        </div>
+
+        <div class="bulletin">
+            <h2>Monitoring zpráv (posledních 24h)</h2>
+            <div id="articles" class="skeleton timeline">Načítání zpráv…</div>
+        </div>
+
+        <div class="bulletin">
+            <h2>Archiv předchozích analýz</h2>
+            <div id="archive" class="skeleton">Načítání archivu…</div>
+        </div>
+
+        <footer>
+            <svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align:-4px; opacity:0.6; margin-right:6px;" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="5" r="2" fill="none" stroke="currentColor" stroke-width="1.2"/>
+                <line x1="12" y1="7" x2="12" y2="20" stroke="currentColor" stroke-width="1.2"/>
+                <path d="M5 14 Q12 21 19 14" fill="none" stroke="currentColor" stroke-width="1.2"/>
+                <line x1="7" y1="10" x2="17" y2="10" stroke="currentColor" stroke-width="1.2"/>
+            </svg>
+            RED SEA AI MONITOR — AKTUALIZOVÁNO AUTOMATICKY
+        </footer>
+    </div>
+
+    <button id="scroll-top" onclick="window.scrollTo({top:0, behavior:'smooth'})">↑</button>
+
+    <script>
+        function toggleTheme() {
+            document.body.classList.toggle('light');
+            localStorage.setItem('theme', document.body.classList.contains('light') ? 'light' : 'dark');
+        }
+        if (localStorage.getItem('theme') === 'light') document.body.classList.add('light');
+
+        window.addEventListener('scroll', () => {
+            document.getElementById('scroll-top').classList.toggle('visible', window.scrollY > 400);
+        });
+
+        const TICKERS = {
+            'ČEZ': 'https://finance.yahoo.com/quote/CEZ.PR',
+            'Komerční banka': 'https://finance.yahoo.com/quote/KOMB.PR',
+            'Erste Group': 'https://finance.yahoo.com/quote/EBS.VI',
+            'Maersk': 'https://finance.yahoo.com/quote/MAERSK-B.CO',
+            'Hapag-Lloyd': 'https://finance.yahoo.com/quote/HLAG.DE',
+            'ZIM': 'https://finance.yahoo.com/quote/ZIM',
+            'RTX': 'https://finance.yahoo.com/quote/RTX',
+            'Lockheed Martin': 'https://finance.yahoo.com/quote/LMT',
+            'BAE Systems': 'https://finance.yahoo.com/quote/BA.L',
+            'Shell': 'https://finance.yahoo.com/quote/SHEL',
+            'BP': 'https://finance.yahoo.com/quote/BP',
+            'Chevron': 'https://finance.yahoo.com/quote/CVX',
+            'Volvo': 'https://finance.yahoo.com/quote/VOLV-B.ST',
+            'BMW': 'https://finance.yahoo.com/quote/BMW.DE',
+            'Airbus': 'https://finance.yahoo.com/quote/AIR.PA',
+            'TotalEnergies': 'https://finance.yahoo.com/quote/TTE.PA',
+            'Allianz': 'https://finance.yahoo.com/quote/ALV.DE',
+            'Rheinmetall': 'https://finance.yahoo.com/quote/RHM.DE'
+        };
+
+        function relativeTime(dateStr) {
+            try {
+                const d = new Date(dateStr.replace(' ', 'T') + 'Z');
+                const diffMin = Math.round((Date.now() - d.getTime()) / 60000);
+                if (diffMin < 60) return `před ${diffMin} min`;
+                const diffH = Math.round(diffMin / 60);
+                if (diffH < 24) return `před ${diffH} h`;
+                return `před ${Math.round(diffH / 24)} dny`;
+            } catch (e) { return ''; }
+        }
+
+        function sentimentColor(score) {
+            if (score < 34) return '#6a9b6e';
+            if (score < 67) return '#b8863b';
+            return '#a13d2b';
+        }
+
+        fetch('data.json')
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('updated').innerText = data.last_updated || 'N/A';
+                document.getElementById('updated-relative').innerText = relativeTime(data.last_updated);
+
+                const pageUrl = 'https://matesva.github.io/Redsea-monitor/';
+                const shareText = encodeURIComponent(`Aktuální úroveň hrozby v Rudém moři: ${data.assessment.threat_level}`);
+                document.getElementById('share-whatsapp').href = `https://wa.me/?text=${shareText}%20${pageUrl}`;
+                document.getElementById('share-x').href = `https://twitter.com/intent/tweet?text=${shareText}&url=${pageUrl}`;
+
+                const threat = data.assessment.threat_level || 'NEZNÁMÁ';
+                const threatKey = threat.split(' ')[0].split('/')[0].trim();
+                const threatElem = document.getElementById('threat-level');
+                threatElem.className = 'seal seal-' + threatKey;
+                threatElem.querySelector('.seal-text').innerText = threatKey;
+
+                document.getElementById('security-status').className = '';
+                document.getElementById('security-status').innerText = data.assessment.security_status || '';
+
+                const score = data.assessment.sentiment_score ?? 0;
+                const color = sentimentColor(score);
+                const bar = document.getElementById('sentiment-bar');
+                bar.style.width = score + '%';
+                bar.style.background = color;
+                const label = document.getElementById('sentiment-label');
+                label.innerText = `Sentiment napětí: ${score}/100`;
+
+                document.getElementById('weekly-summary').className = '';
+                document.getElementById('weekly-summary').innerText = data.weekly_summary || 'Zatím není dostatek dat.';
+
+                document.getElementById('forecast').className = '';
+                document.getElementById('forecast').innerText = data.assessment.forecast || '';
+
+                document.getElementById('forecast-review').className = '';
+                document.getElementById('forecast-review').innerText = data.assessment.forecast_review || 'N/A';
+
+                const recsContainer = document.getElementById('recommendations');
+                recsContainer.className = '';
+                recsContainer.innerHTML = '';
+                if (data.assessment.recommendations && data.assessment.recommendations.length > 0) {
+                    const list = document.createElement('div');
+                    list.className = 'recs-list';
+                    data.assessment.recommendations.forEach(r => {
+                        let tickerLinks = '';
+                        Object.keys(TICKERS).forEach(name => {
+                            if (r.sector.includes(name)) {
+                                tickerLinks += `<a class="ticker-link" href="${TICKERS[name]}" target="_blank">${name} ↗</a> `;
+                            }
+                        });
+                        list.innerHTML += `
+                            <div class="rec-item">
+                                <div class="rec-head">
+                                    <span class="action action-${r.action}">${r.action}</span>
+                                    <strong>${r.sector}</strong>
+                                </div>
+                                <p>${r.reason}</p>
+                                ${tickerLinks ? `<div style="margin-top:8px;">${tickerLinks}</div>` : ''}
+                            </div>`;
+                    });
+                    recsContainer.appendChild(list);
+                } else {
+                    recsContainer.innerText = 'Žádná doporučení k dispozici.';
+                }
+
+                const oilContainer = document.getElementById('oil-prices');
+                oilContainer.className = '';
+                oilContainer.innerHTML = '';
+                const brent = data.oil_prices?.brent;
+                const wti = data.oil_prices?.wti;
+                const usdCzk = data.usd_czk;
+                if (brent || wti || usdCzk) {
+                    let html = '<div class="ticker-row">';
+                    if (brent) html += `<div class="ticker-item"><span class="val">$${brent.value.toFixed(2)}</span><span class="lbl">BRENT · ${brent.date}</span>${brent.cached ? '<span class="cached-note">poslední známá hodnota</span>' : ''}</div>`;
+                    if (wti) html += `<div class="ticker-item"><span class="val">$${wti.value.toFixed(2)}</span><span class="lbl">WTI · ${wti.date}</span>${wti.cached ? '<span class="cached-note">poslední známá hodnota</span>' : ''}</div>`;
+                    if (usdCzk) html += `<div class="ticker-item"><span class="val">${usdCzk.value.toFixed(2)} Kč</span><span class="lbl">USD/CZK · ${usdCzk.date}</span></div>`;
+                    html += '</div>';
+                    oilContainer.innerHTML = html;
+                } else {
+                    oilContainer.innerText = 'Data nejsou k dispozici.';
+                }
+
+                try {
+                    if (data.history && data.history.length > 0) {
+                        const ctx = document.getElementById('threatChart').getContext('2d');
+                        new Chart(ctx, {
+                            type: 'line',
+                            data: {
+                                labels: data.history.map(h => h.date),
+                                datasets: [
+                                    {
+                                        label: 'Úroveň hrozby',
+                                        data: data.history.map(h => h.value),
+                                        borderColor: '#b8863b',
+                                        backgroundColor: 'rgba(184,134,59,0.12)',
+                                        tension: 0.25, fill: true, pointRadius: 2, borderWidth: 2, yAxisID: 'y'
+                                    },
+                                    {
+                                        label: 'Počet incidentů',
+                                        data: data.history.map(h => h.incidents ?? null),
+                                        borderColor: '#a13d2b',
+                                        backgroundColor: 'transparent',
+                                        tension: 0.25, fill: false, pointRadius: 2, borderWidth: 1.5, yAxisID: 'y1'
+                                    },
+                                    {
+                                        label: 'Brent ($)',
+                                        data: data.history.map(h => h.brent ?? null),
+                                        borderColor: '#4a7c85',
+                                        backgroundColor: 'transparent',
+                                        tension: 0.25, fill: false, pointRadius: 2, borderWidth: 1.5, yAxisID: 'y1'
+                                    }
+                                ]
+                            },
+                            options: {
+                                responsive: true,
+                                plugins: { legend: { labels: { color: '#9aa8ac', font: { family: 'IBM Plex Mono', size: 10 } } } },
+                                scales: {
+                                    y: {
+                                        min: 0.5, max: 4.5, position: 'left',
+                                        ticks: { stepSize: 1, color: '#9aa8ac', font: { family: 'IBM Plex Mono', size: 9 }, callback: v => ({1:'STABILNÍ',2:'STŘEDNÍ',3:'VYSOKÁ',4:'KRITICKÁ'}[v] || '') },
+                                        grid: { color: 'rgba(184,134,59,0.12)' }
+                                    },
+                                    y1: { position: 'right', ticks: { color: '#9aa8ac', font: { family: 'IBM Plex Mono', size: 9 } }, grid: { display: false } },
+                                    x: { ticks: { color: '#9aa8ac', maxRotation: 45, font: { family: 'IBM Plex Mono', size: 9 } }, grid: { color: 'rgba(184,134,59,0.06)' } }
+                                }
+                            }
+                        });
+                    } else {
+                        document.getElementById('threatChart').outerHTML = '<p style="color:#9aa8ac;">Zatím není dostatek dat pro graf.</p>';
+                    }
+                } catch (e) { console.error('Chart error:', e); }
+
+                try {
+                    if (data.locations && data.locations.length > 0) {
+                        const map = L.map('map').setView([data.locations[0].lat, data.locations[0].lon], 4);
+                        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+                            attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
+                            maxZoom: 16
+                        }).addTo(map);
+                        data.locations.forEach(loc => {
+                            L.circleMarker([loc.lat, loc.lon], { radius: 7, fillColor: '#b8863b', color: '#8a6a35', weight: 2, fillOpacity: 0.8 })
+                                .addTo(map).bindPopup(`<strong>${loc.name}</strong>`);
+                        });
+                    } else {
+                        document.getElementById('map').innerHTML = '<p style="color:#9aa8ac; padding:20px;">Žádné lokality nerozpoznány.</p>';
+                    }
+                } catch (e) {
+                    console.error('Map error:', e);
+                    document.getElementById('map').innerHTML = '<p style="color:#9aa8ac; padding:20px;">Mapu se nepodařilo načíst.</p>';
+                }
+
+                if (data.top_location) {
+                    document.getElementById('top-location-note').innerText =
+                        `Nejzmiňovanější lokalita: ${data.top_location.name} (${data.top_location.count}× od začátku sledování)`;
+                }
+
+                const articlesContainer = document.getElementById('articles');
+                articlesContainer.className = 'timeline';
+                articlesContainer.innerHTML = '';
+                if (data.articles && data.articles.length > 0) {
+                    data.articles.forEach(a => {
+                        articlesContainer.innerHTML += `
+                            <div class="news-item">
+                                <a href="${a.link}" target="_blank">${a.title}</a>
+                                <span class="news-date">${a.source} · ${a.published}</span>
+                            </div>`;
+                    });
+                } else {
+                    articlesContainer.innerText = 'Žádné relevantní zprávy.';
+                }
+
+                const archiveContainer = document.getElementById('archive');
+                archiveContainer.className = '';
+                archiveContainer.innerHTML = '';
+                if (data.archive && data.archive.length > 0) {
+                    [...data.archive].reverse().forEach((entry) => {
+                        const div = document.createElement('div');
+                        div.className = 'archive-item';
+                        div.innerHTML = `
+                            <div class="archive-header">
+                                <span class="adate">${entry.date}</span>
+                                <span class="alevel alevel-${entry.threat_level}">${entry.threat_level}</span>
+                            </div>
+                            <div class="archive-body">
+                                <p><strong>Stav:</strong> ${entry.security_status}</p>
+                                <p><strong>Předpověď:</strong> ${entry.forecast}</p>
+                            </div>`;
+                        div.onclick = () => div.classList.toggle('open');
+                        archiveContainer.appendChild(div);
+                    });
+                } else {
+                    archiveContainer.innerText = 'Archiv se teprve buduje.';
+                }
+            })
+            .catch(err => {
+                console.error(err);
+                document.getElementById('security-status').className = '';
+                document.getElementById('security-status').innerText = 'Data se ještě vygenerují při prvním úspěšném spuštění Actions.';
+            });
     </script>
 </body>
 </html>
