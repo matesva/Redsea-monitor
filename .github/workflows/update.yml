@@ -40,10 +40,19 @@ jobs:
           mkdir -p usa
           python fetch_usa.py
 
+      - name: Fetch and Analyze (Europe)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
+          NTFY_TOPIC_EUROPE: ${{ secrets.NTFY_TOPIC_EUROPE }}
+        run: |
+          mkdir -p europe
+          python fetch_europe.py
+
       - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data.json rss.xml usa/data.json usa/rss.xml
-          git commit -m "Auto-update AI Monitors (Red Sea + USA)" || exit 0
+          git add data.json rss.xml usa/data.json usa/rss.xml europe/data.json europe/rss.xml
+          git commit -m "Auto-update AI Monitors (Red Sea + USA + Europe)" || exit 0
           git push
