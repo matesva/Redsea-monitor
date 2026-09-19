@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Red Sea & Investment AI Monitor</title>
-    <meta name="description" content="AI monitor bezpečnostní situace v Rudém moři, dopadů na lodní dopravu, energetiku a investiční doporučení včetně Pražské burzy.">
+    <meta name="description" content="AI monitor bezpečnostní situace v Rudém moři / Red Sea security AI monitor">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://matesva.github.io/Redsea-monitor/">
     <link rel="manifest" href="manifest.json">
@@ -72,11 +72,14 @@
             letter-spacing: 0.04em; color: var(--brass);
             margin-bottom: 14px;
         }
-        .theme-toggle {
+        .controls-group { display: flex; gap: 8px; }
+        .theme-toggle, .lang-toggle {
             background: none; border: 1px solid var(--rule); color: var(--text-dim);
             font-family: 'IBM Plex Mono', monospace; font-size: 0.85em;
             padding: 4px 10px; cursor: pointer; border-radius: 2px;
         }
+        .theme-toggle:hover, .lang-toggle:hover { border-color: var(--brass); color: var(--brass); }
+        
         h1 {
             font-size: 2.1em; font-weight: 700; margin: 0 0 6px; line-height: 1.15;
             letter-spacing: -0.01em;
@@ -92,7 +95,7 @@
         }
         .share-btn:hover { border-bottom-color: var(--brass); }
 
-        /* Sections as bulletins, not cards */
+        /* Bulletins */
         .bulletin {
             padding: 26px 0; border-bottom: 1px solid var(--rule);
         }
@@ -103,7 +106,7 @@
         }
         .bulletin h2::before { content: "§"; opacity: 0.6; }
 
-        /* Threat seal — the one bold moment */
+        /* Threat seal */
         .seal-wrap { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; }
         .seal {
             width: 100px; height: 100px; position: relative;
@@ -116,10 +119,10 @@
         .seal svg { position: absolute; inset: 0; width: 100%; height: 100%; }
         .seal svg circle { fill: none; stroke: currentColor; }
         .seal-text { position: relative; z-index: 1; }
-        .seal-STABILNÍ { color: #6a9b6e; }
-        .seal-STŘEDNÍ  { color: var(--brass); }
-        .seal-VYSOKÁ   { color: #c07a3a; }
-        .seal-KRITICKÁ { color: var(--alert); }
+        .seal-STABILNÍ, .seal-STABLE { color: #6a9b6e; }
+        .seal-STŘEDNÍ,  .seal-MEDIUM { color: var(--brass); }
+        .seal-VYSOKÁ,   .seal-HIGH   { color: #c07a3a; }
+        .seal-KRITICKÁ, .seal-CRITICAL { color: var(--alert); }
         .seal-body { flex: 1; min-width: 220px; }
         #security-status { line-height: 1.7; color: var(--text-dim); margin: 0; font-size: 1em; }
 
@@ -131,7 +134,7 @@
             line-height: 1.75; color: var(--text-dim); margin: 0; font-size: 1em;
         }
 
-        /* Oil ticker — treated as a data readout, not a card */
+        /* Ticker row */
         .ticker-row {
             display: flex; gap: 32px; flex-wrap: wrap;
             border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
@@ -152,9 +155,9 @@
         .rec-item a.ticker-link:hover { text-decoration: underline; }
 
         .action { font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 0.7em; letter-spacing: 0.03em; }
-        .action-KOUPIT { color: #6a9b6e; }
-        .action-PRODAT { color: var(--alert); }
-        .action-DRŽET  { color: var(--brass); }
+        .action-KOUPIT, .action-BUY  { color: #6a9b6e; }
+        .action-PRODAT, .action-SELL { color: var(--alert); }
+        .action-DRŽET,  .action-HOLD { color: var(--brass); }
         .action::before { content: "▸ "; }
 
         .timeline { position: relative; }
@@ -172,10 +175,10 @@
         .archive-header { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
         .archive-header .adate { font-family: 'IBM Plex Mono', monospace; font-size: 0.8em; color: var(--text-dim); }
         .archive-header .alevel { font-family: 'IBM Plex Mono', monospace; font-size: 0.7em; font-weight: 600; letter-spacing: 0.03em; }
-        .alevel-KRITICKÁ { color: var(--alert); }
-        .alevel-VYSOKÁ { color: #c07a3a; }
-        .alevel-STŘEDNÍ { color: var(--brass); }
-        .alevel-STABILNÍ { color: #6a9b6e; }
+        .alevel-KRITICKÁ, .alevel-CRITICAL { color: var(--alert); }
+        .alevel-VYSOKÁ,   .alevel-HIGH     { color: #c07a3a; }
+        .alevel-STŘEDNÍ, .alevel-MEDIUM   { color: var(--brass); }
+        .alevel-STABILNÍ, .alevel-STABLE   { color: #6a9b6e; }
         .archive-body { display: none; margin-top: 10px; font-size: 0.9em; color: var(--text-dim); line-height: 1.65; }
         .archive-item.open .archive-body { display: block; }
 
@@ -212,11 +215,14 @@
         </svg>
         <div class="masthead-top">
             <span>RED SEA MONITOR · VOL. AUTO</span>
-            <button class="theme-toggle" onclick="toggleTheme()">◑ TÉMA</button>
+            <div class="controls-group">
+                <button class="lang-toggle" onclick="toggleLang()" id="lang-btn">EN</button>
+                <button class="theme-toggle" onclick="toggleTheme()" id="theme-btn">◑ TÉMA</button>
+            </div>
         </div>
-        <h1>Rudé moře: bezpečnost &amp; geopolitika</h1>
+        <h1 id="title-text">Rudé moře: bezpečnost &amp; geopolitika</h1>
         <div class="dispatch-line">
-            <span>Aktualizováno <strong id="updated-relative">načítání…</strong></span>
+            <span id="lbl-updated">Aktualizováno <strong id="updated-relative">načítání…</strong></span>
             <span id="updated">--</span>
         </div>
         <div class="share-row">
@@ -232,12 +238,12 @@
     <div class="container">
 
         <div class="bulletin">
-            <h2>Trh: ropa a měnový kurz</h2>
+            <h2 id="sec-market">Trh: ropa a měnový kurz</h2>
             <div id="oil-prices" class="skeleton">Načítání dat…</div>
         </div>
 
         <div class="bulletin">
-            <h2>Úroveň hrozby</h2>
+            <h2 id="sec-threat">Úroveň hrozby</h2>
             <div class="seal-wrap">
                 <div id="threat-level" class="seal">
                     <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" stroke-width="2"/><circle cx="50" cy="50" r="38" stroke-width="1"/></svg>
@@ -252,43 +258,43 @@
         </div>
 
         <div class="bulletin">
-            <h2>Týdenní shrnutí</h2>
+            <h2 id="sec-weekly">Týdenní shrnutí</h2>
             <p id="weekly-summary" class="skeleton">Načítání…</p>
         </div>
 
         <div class="bulletin">
-            <h2>Investiční doporučení</h2>
+            <h2 id="sec-recs">Investiční doporučení</h2>
             <div id="recommendations" class="skeleton">Načítání doporučení…</div>
         </div>
 
         <div class="bulletin">
-            <h2>Předpověď vývoje</h2>
+            <h2 id="sec-forecast">Předpověď vývoje</h2>
             <p id="forecast" class="skeleton">Načítání předpovědi…</p>
         </div>
 
         <div class="bulletin">
-            <h2>Vyhodnocení předchozí předpovědi</h2>
+            <h2 id="sec-review">Vyhodnocení předchozí předpovědi</h2>
             <p id="forecast-review" class="skeleton">Načítání…</p>
         </div>
 
         <div class="bulletin">
-            <h2>Vývoj úrovně hrozby</h2>
+            <h2 id="sec-chart">Vývoj úrovně hrozby</h2>
             <canvas id="threatChart" height="140"></canvas>
         </div>
 
         <div class="bulletin">
-            <h2>Mapa zmiňovaných lokalit</h2>
+            <h2 id="sec-map">Mapa zmiňovaných lokalit</h2>
             <div id="map"></div>
             <div class="top-location-note" id="top-location-note"></div>
         </div>
 
         <div class="bulletin">
-            <h2>Monitoring zpráv (posledních 24h)</h2>
+            <h2 id="sec-news">Monitoring zpráv (posledních 24h)</h2>
             <div id="articles" class="skeleton timeline">Načítání zpráv…</div>
         </div>
 
         <div class="bulletin">
-            <h2>Archiv předchozích analýz</h2>
+            <h2 id="sec-archive">Archiv předchozích analýz</h2>
             <div id="archive" class="skeleton">Načítání archivu…</div>
         </div>
 
@@ -299,22 +305,89 @@
                 <path d="M5 14 Q12 21 19 14" fill="none" stroke="currentColor" stroke-width="1.2"/>
                 <line x1="7" y1="10" x2="17" y2="10" stroke="currentColor" stroke-width="1.2"/>
             </svg>
-            RED SEA AI MONITOR — AKTUALIZOVÁNO AUTOMATICKY
+            <span id="footer-text">RED SEA AI MONITOR — AKTUALIZOVÁNO AUTOMATICKY</span>
         </footer>
     </div>
 
     <button id="scroll-top" onclick="window.scrollTo({top:0, behavior:'smooth'})">↑</button>
 
     <script>
-        function toggleTheme() {
-            document.body.classList.toggle('light');
-            localStorage.setItem('theme', document.body.classList.contains('light') ? 'light' : 'dark');
-        }
-        if (localStorage.getItem('theme') === 'light') document.body.classList.add('light');
+        let currentLang = localStorage.getItem('lang') || 'cs';
+        let globalData = null;
+        let chartInstance = null;
 
-        window.addEventListener('scroll', () => {
-            document.getElementById('scroll-top').classList.toggle('visible', window.scrollY > 400);
-        });
+        const i18n = {
+            cs: {
+                themeBtn: '◑ TÉMA',
+                langBtn: 'EN',
+                title: 'Rudé moře: bezpečnost & geopolitika',
+                updated: 'Aktualizováno',
+                secMarket: 'Trh: ropa a měnový kurz',
+                secThreat: 'Úroveň hrozby',
+                secWeekly: 'Týdenní shrnutí',
+                secRecs: 'Investiční doporučení',
+                secForecast: 'Předpověď vývoje',
+                secReview: 'Vyhodnocení předchozí předpovědi',
+                secChart: 'Vývoj úrovně hrozby',
+                secMap: 'Mapa zmiňovaných lokalit',
+                secNews: 'Monitoring zpráv (posledních 24h)',
+                secArchive: 'Archiv předchozích analýz',
+                footer: 'RED SEA AI MONITOR — AKTUALIZOVÁNO AUTOMATICKY',
+                loading: 'Načítání…',
+                noData: 'Data nejsou k dispozici.',
+                noRecs: 'Žádná doporučení k dispozici.',
+                noWeekly: 'Zatím není dostatek dat.',
+                noNews: 'Žádné relevantní zprávy.',
+                noArchive: 'Archiv se teprve buduje.',
+                sentimentLabel: 'Sentiment napětí',
+                cachedNote: 'poslední známá hodnota',
+                topLoc: (name, count) => `Nejzmiňovanější lokalita: ${name} (${count}× od začátku sledování)`,
+                shareText: (lvl) => `Aktuální úroveň hrozby v Rudém moři: ${lvl}`,
+                agoMin: (m) => `před ${m} min`,
+                agoH: (h) => `před ${h} h`,
+                agoD: (d) => `před ${d} dny`,
+                chartThreat: 'Úroveň hrozby',
+                chartIncidents: 'Počet incidentů',
+                chartBrent: 'Brent ($)',
+                archiveStatus: 'Stav:',
+                archiveForecast: 'Předpověď:'
+            },
+            en: {
+                themeBtn: '◑ THEME',
+                langBtn: 'CS',
+                title: 'Red Sea: Security & Geopolitics',
+                updated: 'Updated',
+                secMarket: 'Market: Oil & Exchange Rate',
+                secThreat: 'Threat Level',
+                secWeekly: 'Weekly Summary',
+                secRecs: 'Investment Insights',
+                secForecast: 'Outlook & Forecast',
+                secReview: 'Previous Forecast Review',
+                secChart: 'Threat Level History',
+                secMap: 'Map of Mentioned Locations',
+                secNews: 'News Monitor (Last 24h)',
+                secArchive: 'Analysis Archive',
+                footer: 'RED SEA AI MONITOR — AUTOMATICALLY UPDATED',
+                loading: 'Loading…',
+                noData: 'Data unavailable.',
+                noRecs: 'No recommendations available.',
+                noWeekly: 'Not enough data available yet.',
+                noNews: 'No relevant news.',
+                noArchive: 'Archive is currently being built.',
+                sentimentLabel: 'Tension Sentiment',
+                cachedNote: 'last known value',
+                topLoc: (name, count) => `Most mentioned location: ${name} (${count}× since monitoring began)`,
+                shareText: (lvl) => `Current Red Sea threat level: ${lvl}`,
+                agoMin: (m) => `${m} min ago`,
+                agoH: (h) => `${h}h ago`,
+                agoD: (d) => `${d}d ago`,
+                chartThreat: 'Threat Level',
+                chartIncidents: 'Incident Count',
+                chartBrent: 'Brent ($)',
+                archiveStatus: 'Status:',
+                archiveForecast: 'Forecast:'
+            }
+        };
 
         const TICKERS = {
             'ČEZ': 'https://finance.yahoo.com/quote/CEZ.PR',
@@ -337,14 +410,32 @@
             'Rheinmetall': 'https://finance.yahoo.com/quote/RHM.DE'
         };
 
+        function toggleTheme() {
+            document.body.classList.toggle('light');
+            localStorage.setItem('theme', document.body.classList.contains('light') ? 'light' : 'dark');
+        }
+        if (localStorage.getItem('theme') === 'light') document.body.classList.add('light');
+
+        function toggleLang() {
+            currentLang = currentLang === 'cs' ? 'en' : 'cs';
+            localStorage.setItem('lang', currentLang);
+            document.documentElement.lang = currentLang;
+            renderUI();
+        }
+
+        window.addEventListener('scroll', () => {
+            document.getElementById('scroll-top').classList.toggle('visible', window.scrollY > 400);
+        });
+
         function relativeTime(dateStr) {
             try {
                 const d = new Date(dateStr.replace(' ', 'T') + 'Z');
                 const diffMin = Math.round((Date.now() - d.getTime()) / 60000);
-                if (diffMin < 60) return `před ${diffMin} min`;
+                const t = i18n[currentLang];
+                if (diffMin < 60) return t.agoMin(diffMin);
                 const diffH = Math.round(diffMin / 60);
-                if (diffH < 24) return `před ${diffH} h`;
-                return `před ${Math.round(diffH / 24)} dny`;
+                if (diffH < 24) return t.agoH(diffH);
+                return t.agoD(Math.round(diffH / 24));
             } catch (e) { return ''; }
         }
 
@@ -354,138 +445,212 @@
             return '#a13d2b';
         }
 
+        function renderUI() {
+            if (!globalData) return;
+            const data = globalData;
+            const t = i18n[currentLang];
+
+            // Static Labels
+            document.getElementById('theme-btn').innerText = t.themeBtn;
+            document.getElementById('lang-btn').innerText = t.langBtn;
+            document.getElementById('title-text').innerText = t.title;
+            document.getElementById('lbl-updated').childNodes[0].nodeValue = t.updated + ' ';
+            document.getElementById('sec-market').innerText = t.secMarket;
+            document.getElementById('sec-threat').innerText = t.secThreat;
+            document.getElementById('sec-weekly').innerText = t.secWeekly;
+            document.getElementById('sec-recs').innerText = t.secRecs;
+            document.getElementById('sec-forecast').innerText = t.secForecast;
+            document.getElementById('sec-review').innerText = t.secReview;
+            document.getElementById('sec-chart').innerText = t.secChart;
+            document.getElementById('sec-map').innerText = t.secMap;
+            document.getElementById('sec-news').innerText = t.secNews;
+            document.getElementById('sec-archive').innerText = t.secArchive;
+            document.getElementById('footer-text').innerText = t.footer;
+
+            // Dates & Sharing
+            document.getElementById('updated').innerText = data.last_updated || 'N/A';
+            document.getElementById('updated-relative').innerText = relativeTime(data.last_updated);
+
+            const pageUrl = 'https://matesva.github.io/Redsea-monitor/';
+            const shareText = encodeURIComponent(t.shareText(data.assessment.threat_level));
+            document.getElementById('share-whatsapp').href = `https://wa.me/?text=${shareText}%20${pageUrl}`;
+            document.getElementById('share-x').href = `https://twitter.com/intent/tweet?text=${shareText}&url=${pageUrl}`;
+
+            // Threat level
+            const threat = data.assessment.threat_level || 'UNKNOWN';
+            const threatKey = threat.split(' ')[0].split('/')[0].trim();
+            const threatElem = document.getElementById('threat-level');
+            threatElem.className = 'seal seal-' + threatKey;
+            threatElem.querySelector('.seal-text').innerText = threatKey;
+
+            document.getElementById('security-status').className = '';
+            document.getElementById('security-status').innerText = data.assessment.security_status || '';
+
+            // Sentiment
+            const score = data.assessment.sentiment_score ?? 0;
+            const bar = document.getElementById('sentiment-bar');
+            bar.style.width = score + '%';
+            bar.style.background = sentimentColor(score);
+            document.getElementById('sentiment-label').innerText = `${t.sentimentLabel}: ${score}/100`;
+
+            // Summaries & Forecast
+            document.getElementById('weekly-summary').className = '';
+            document.getElementById('weekly-summary').innerText = data.weekly_summary || t.noWeekly;
+
+            document.getElementById('forecast').className = '';
+            document.getElementById('forecast').innerText = data.assessment.forecast || '';
+
+            document.getElementById('forecast-review').className = '';
+            document.getElementById('forecast-review').innerText = data.assessment.forecast_review || 'N/A';
+
+            // Recommendations
+            const recsContainer = document.getElementById('recommendations');
+            recsContainer.className = '';
+            recsContainer.innerHTML = '';
+            if (data.assessment.recommendations && data.assessment.recommendations.length > 0) {
+                const list = document.createElement('div');
+                list.className = 'recs-list';
+                data.assessment.recommendations.forEach(r => {
+                    let tickerLinks = '';
+                    Object.keys(TICKERS).forEach(name => {
+                        if (r.sector.includes(name)) {
+                            tickerLinks += `<a class="ticker-link" href="${TICKERS[name]}" target="_blank">${name} ↗</a> `;
+                        }
+                    });
+                    list.innerHTML += `
+                        <div class="rec-item">
+                            <div class="rec-head">
+                                <span class="action action-${r.action}">${r.action}</span>
+                                <strong>${r.sector}</strong>
+                            </div>
+                            <p>${r.reason}</p>
+                            ${tickerLinks ? `<div style="margin-top:8px;">${tickerLinks}</div>` : ''}
+                        </div>`;
+                });
+                recsContainer.appendChild(list);
+            } else {
+                recsContainer.innerText = t.noRecs;
+            }
+
+            // Market Data
+            const oilContainer = document.getElementById('oil-prices');
+            oilContainer.className = '';
+            oilContainer.innerHTML = '';
+            const brent = data.oil_prices?.brent;
+            const wti = data.oil_prices?.wti;
+            const usdCzk = data.usd_czk;
+            if (brent || wti || usdCzk) {
+                let html = '<div class="ticker-row">';
+                if (brent) html += `<div class="ticker-item"><span class="val">$${brent.value.toFixed(2)}</span><span class="lbl">BRENT · ${brent.date}</span>${brent.cached ? `<span class="cached-note">${t.cachedNote}</span>` : ''}</div>`;
+                if (wti) html += `<div class="ticker-item"><span class="val">$${wti.value.toFixed(2)}</span><span class="lbl">WTI · ${wti.date}</span>${wti.cached ? `<span class="cached-note">${t.cachedNote}</span>` : ''}</div>`;
+                if (usdCzk) html += `<div class="ticker-item"><span class="val">${usdCzk.value.toFixed(2)} Kč</span><span class="lbl">USD/CZK · ${usdCzk.date}</span></div>`;
+                html += '</div>';
+                oilContainer.innerHTML = html;
+            } else {
+                oilContainer.innerText = t.noData;
+            }
+
+            // Chart
+            if (data.history && data.history.length > 0) {
+                if (chartInstance) chartInstance.destroy();
+                const ctx = document.getElementById('threatChart').getContext('2d');
+                chartInstance = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: data.history.map(h => h.date),
+                        datasets: [
+                            {
+                                label: t.chartThreat,
+                                data: data.history.map(h => h.value),
+                                borderColor: '#b8863b',
+                                backgroundColor: 'rgba(184,134,59,0.12)',
+                                tension: 0.25, fill: true, pointRadius: 2, borderWidth: 2, yAxisID: 'y'
+                            },
+                            {
+                                label: t.chartIncidents,
+                                data: data.history.map(h => h.incidents ?? null),
+                                borderColor: '#a13d2b',
+                                backgroundColor: 'transparent',
+                                tension: 0.25, fill: false, pointRadius: 2, borderWidth: 1.5, yAxisID: 'y1'
+                            },
+                            {
+                                label: t.chartBrent,
+                                data: data.history.map(h => h.brent ?? null),
+                                borderColor: '#4a7c85',
+                                backgroundColor: 'transparent',
+                                tension: 0.25, fill: false, pointRadius: 2, borderWidth: 1.5, yAxisID: 'y1'
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: { legend: { labels: { color: '#9aa8ac', font: { family: 'IBM Plex Mono', size: 10 } } } },
+                        scales: {
+                            y: {
+                                min: 0.5, max: 4.5, position: 'left',
+                                ticks: { stepSize: 1, color: '#9aa8ac', font: { family: 'IBM Plex Mono', size: 9 }, callback: v => ({1:'STABILNÍ / STABLE',2:'STŘEDNÍ / MEDIUM',3:'VYSOKÁ / HIGH',4:'KRITICKÁ / CRITICAL'}[v] || '') },
+                                grid: { color: 'rgba(184,134,59,0.12)' }
+                            },
+                            y1: { position: 'right', ticks: { color: '#9aa8ac', font: { family: 'IBM Plex Mono', size: 9 } }, grid: { display: false } },
+                            x: { ticks: { color: '#9aa8ac', maxRotation: 45, font: { family: 'IBM Plex Mono', size: 9 } }, grid: { color: 'rgba(184,134,59,0.06)' } }
+                        }
+                    }
+                });
+            }
+
+            // Top Location
+            if (data.top_location) {
+                document.getElementById('top-location-note').innerText = t.topLoc(data.top_location.name, data.top_location.count);
+            }
+
+            // News
+            const articlesContainer = document.getElementById('articles');
+            articlesContainer.className = 'timeline';
+            articlesContainer.innerHTML = '';
+            if (data.articles && data.articles.length > 0) {
+                data.articles.forEach(a => {
+                    articlesContainer.innerHTML += `
+                        <div class="news-item">
+                            <a href="${a.link}" target="_blank">${a.title}</a>
+                            <span class="news-date">${a.source} · ${a.published}</span>
+                        </div>`;
+                });
+            } else {
+                articlesContainer.innerText = t.noNews;
+            }
+
+            // Archive
+            const archiveContainer = document.getElementById('archive');
+            archiveContainer.className = '';
+            archiveContainer.innerHTML = '';
+            if (data.archive && data.archive.length > 0) {
+                [...data.archive].reverse().forEach((entry) => {
+                    const div = document.createElement('div');
+                    div.className = 'archive-item';
+                    div.innerHTML = `
+                        <div class="archive-header">
+                            <span class="adate">${entry.date}</span>
+                            <span class="alevel alevel-${entry.threat_level}">${entry.threat_level}</span>
+                        </div>
+                        <div class="archive-body">
+                            <p><strong>${t.archiveStatus}</strong> ${entry.security_status}</p>
+                            <p><strong>${t.archiveForecast}</strong> ${entry.forecast}</p>
+                        </div>`;
+                    div.onclick = () => div.classList.toggle('open');
+                    archiveContainer.appendChild(div);
+                });
+            } else {
+                archiveContainer.innerText = t.noArchive;
+            }
+        }
+
         fetch('data.json')
             .then(res => res.json())
             .then(data => {
-                document.getElementById('updated').innerText = data.last_updated || 'N/A';
-                document.getElementById('updated-relative').innerText = relativeTime(data.last_updated);
+                globalData = data;
+                renderUI();
 
-                const pageUrl = 'https://matesva.github.io/Redsea-monitor/';
-                const shareText = encodeURIComponent(`Aktuální úroveň hrozby v Rudém moři: ${data.assessment.threat_level}`);
-                document.getElementById('share-whatsapp').href = `https://wa.me/?text=${shareText}%20${pageUrl}`;
-                document.getElementById('share-x').href = `https://twitter.com/intent/tweet?text=${shareText}&url=${pageUrl}`;
-
-                const threat = data.assessment.threat_level || 'NEZNÁMÁ';
-                const threatKey = threat.split(' ')[0].split('/')[0].trim();
-                const threatElem = document.getElementById('threat-level');
-                threatElem.className = 'seal seal-' + threatKey;
-                threatElem.querySelector('.seal-text').innerText = threatKey;
-
-                document.getElementById('security-status').className = '';
-                document.getElementById('security-status').innerText = data.assessment.security_status || '';
-
-                const score = data.assessment.sentiment_score ?? 0;
-                const color = sentimentColor(score);
-                const bar = document.getElementById('sentiment-bar');
-                bar.style.width = score + '%';
-                bar.style.background = color;
-                const label = document.getElementById('sentiment-label');
-                label.innerText = `Sentiment napětí: ${score}/100`;
-
-                document.getElementById('weekly-summary').className = '';
-                document.getElementById('weekly-summary').innerText = data.weekly_summary || 'Zatím není dostatek dat.';
-
-                document.getElementById('forecast').className = '';
-                document.getElementById('forecast').innerText = data.assessment.forecast || '';
-
-                document.getElementById('forecast-review').className = '';
-                document.getElementById('forecast-review').innerText = data.assessment.forecast_review || 'N/A';
-
-                const recsContainer = document.getElementById('recommendations');
-                recsContainer.className = '';
-                recsContainer.innerHTML = '';
-                if (data.assessment.recommendations && data.assessment.recommendations.length > 0) {
-                    const list = document.createElement('div');
-                    list.className = 'recs-list';
-                    data.assessment.recommendations.forEach(r => {
-                        let tickerLinks = '';
-                        Object.keys(TICKERS).forEach(name => {
-                            if (r.sector.includes(name)) {
-                                tickerLinks += `<a class="ticker-link" href="${TICKERS[name]}" target="_blank">${name} ↗</a> `;
-                            }
-                        });
-                        list.innerHTML += `
-                            <div class="rec-item">
-                                <div class="rec-head">
-                                    <span class="action action-${r.action}">${r.action}</span>
-                                    <strong>${r.sector}</strong>
-                                </div>
-                                <p>${r.reason}</p>
-                                ${tickerLinks ? `<div style="margin-top:8px;">${tickerLinks}</div>` : ''}
-                            </div>`;
-                    });
-                    recsContainer.appendChild(list);
-                } else {
-                    recsContainer.innerText = 'Žádná doporučení k dispozici.';
-                }
-
-                const oilContainer = document.getElementById('oil-prices');
-                oilContainer.className = '';
-                oilContainer.innerHTML = '';
-                const brent = data.oil_prices?.brent;
-                const wti = data.oil_prices?.wti;
-                const usdCzk = data.usd_czk;
-                if (brent || wti || usdCzk) {
-                    let html = '<div class="ticker-row">';
-                    if (brent) html += `<div class="ticker-item"><span class="val">$${brent.value.toFixed(2)}</span><span class="lbl">BRENT · ${brent.date}</span>${brent.cached ? '<span class="cached-note">poslední známá hodnota</span>' : ''}</div>`;
-                    if (wti) html += `<div class="ticker-item"><span class="val">$${wti.value.toFixed(2)}</span><span class="lbl">WTI · ${wti.date}</span>${wti.cached ? '<span class="cached-note">poslední známá hodnota</span>' : ''}</div>`;
-                    if (usdCzk) html += `<div class="ticker-item"><span class="val">${usdCzk.value.toFixed(2)} Kč</span><span class="lbl">USD/CZK · ${usdCzk.date}</span></div>`;
-                    html += '</div>';
-                    oilContainer.innerHTML = html;
-                } else {
-                    oilContainer.innerText = 'Data nejsou k dispozici.';
-                }
-
-                try {
-                    if (data.history && data.history.length > 0) {
-                        const ctx = document.getElementById('threatChart').getContext('2d');
-                        new Chart(ctx, {
-                            type: 'line',
-                            data: {
-                                labels: data.history.map(h => h.date),
-                                datasets: [
-                                    {
-                                        label: 'Úroveň hrozby',
-                                        data: data.history.map(h => h.value),
-                                        borderColor: '#b8863b',
-                                        backgroundColor: 'rgba(184,134,59,0.12)',
-                                        tension: 0.25, fill: true, pointRadius: 2, borderWidth: 2, yAxisID: 'y'
-                                    },
-                                    {
-                                        label: 'Počet incidentů',
-                                        data: data.history.map(h => h.incidents ?? null),
-                                        borderColor: '#a13d2b',
-                                        backgroundColor: 'transparent',
-                                        tension: 0.25, fill: false, pointRadius: 2, borderWidth: 1.5, yAxisID: 'y1'
-                                    },
-                                    {
-                                        label: 'Brent ($)',
-                                        data: data.history.map(h => h.brent ?? null),
-                                        borderColor: '#4a7c85',
-                                        backgroundColor: 'transparent',
-                                        tension: 0.25, fill: false, pointRadius: 2, borderWidth: 1.5, yAxisID: 'y1'
-                                    }
-                                ]
-                            },
-                            options: {
-                                responsive: true,
-                                plugins: { legend: { labels: { color: '#9aa8ac', font: { family: 'IBM Plex Mono', size: 10 } } } },
-                                scales: {
-                                    y: {
-                                        min: 0.5, max: 4.5, position: 'left',
-                                        ticks: { stepSize: 1, color: '#9aa8ac', font: { family: 'IBM Plex Mono', size: 9 }, callback: v => ({1:'STABILNÍ',2:'STŘEDNÍ',3:'VYSOKÁ',4:'KRITICKÁ'}[v] || '') },
-                                        grid: { color: 'rgba(184,134,59,0.12)' }
-                                    },
-                                    y1: { position: 'right', ticks: { color: '#9aa8ac', font: { family: 'IBM Plex Mono', size: 9 } }, grid: { display: false } },
-                                    x: { ticks: { color: '#9aa8ac', maxRotation: 45, font: { family: 'IBM Plex Mono', size: 9 } }, grid: { color: 'rgba(184,134,59,0.06)' } }
-                                }
-                            }
-                        });
-                    } else {
-                        document.getElementById('threatChart').outerHTML = '<p style="color:#9aa8ac;">Zatím není dostatek dat pro graf.</p>';
-                    }
-                } catch (e) { console.error('Chart error:', e); }
-
+                // Leaflet Map Init (render once)
                 try {
                     if (data.locations && data.locations.length > 0) {
                         const map = L.map('map').setView([data.locations[0].lat, data.locations[0].lon], 4);
@@ -497,61 +662,12 @@
                             L.circleMarker([loc.lat, loc.lon], { radius: 7, fillColor: '#b8863b', color: '#8a6a35', weight: 2, fillOpacity: 0.8 })
                                 .addTo(map).bindPopup(`<strong>${loc.name}</strong>`);
                         });
-                    } else {
-                        document.getElementById('map').innerHTML = '<p style="color:#9aa8ac; padding:20px;">Žádné lokality nerozpoznány.</p>';
                     }
-                } catch (e) {
-                    console.error('Map error:', e);
-                    document.getElementById('map').innerHTML = '<p style="color:#9aa8ac; padding:20px;">Mapu se nepodařilo načíst.</p>';
-                }
-
-                if (data.top_location) {
-                    document.getElementById('top-location-note').innerText =
-                        `Nejzmiňovanější lokalita: ${data.top_location.name} (${data.top_location.count}× od začátku sledování)`;
-                }
-
-                const articlesContainer = document.getElementById('articles');
-                articlesContainer.className = 'timeline';
-                articlesContainer.innerHTML = '';
-                if (data.articles && data.articles.length > 0) {
-                    data.articles.forEach(a => {
-                        articlesContainer.innerHTML += `
-                            <div class="news-item">
-                                <a href="${a.link}" target="_blank">${a.title}</a>
-                                <span class="news-date">${a.source} · ${a.published}</span>
-                            </div>`;
-                    });
-                } else {
-                    articlesContainer.innerText = 'Žádné relevantní zprávy.';
-                }
-
-                const archiveContainer = document.getElementById('archive');
-                archiveContainer.className = '';
-                archiveContainer.innerHTML = '';
-                if (data.archive && data.archive.length > 0) {
-                    [...data.archive].reverse().forEach((entry) => {
-                        const div = document.createElement('div');
-                        div.className = 'archive-item';
-                        div.innerHTML = `
-                            <div class="archive-header">
-                                <span class="adate">${entry.date}</span>
-                                <span class="alevel alevel-${entry.threat_level}">${entry.threat_level}</span>
-                            </div>
-                            <div class="archive-body">
-                                <p><strong>Stav:</strong> ${entry.security_status}</p>
-                                <p><strong>Předpověď:</strong> ${entry.forecast}</p>
-                            </div>`;
-                        div.onclick = () => div.classList.toggle('open');
-                        archiveContainer.appendChild(div);
-                    });
-                } else {
-                    archiveContainer.innerText = 'Archiv se teprve buduje.';
-                }
+                } catch (e) { console.error('Map error:', e); }
             })
             .catch(err => {
                 console.error(err);
-                document.getElementById('security-status').className = '';
-                document.getElementById('security-status').innerText = 'Data se ještě vygenerují při prvním úspěšném spuštění Actions.';
+                document.getElementById('security-status').innerText = 'Data se načítají nebo se poprvé generují.';
             });
     </script>
 </body>
