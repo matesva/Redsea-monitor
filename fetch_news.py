@@ -9,7 +9,6 @@ from google import genai
 
 client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC")
-ALPHA_VANTAGE_KEY = os.environ.get("ALPHA_VANTAGE_KEY")
 
 RSS_FEEDS = [
     "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
@@ -82,24 +81,42 @@ def extract_locations(articles):
     return list(found.values())
 
 
+def fetch_yahoo_price(symbol):
+    """Stáhne poslední cenu futures kontraktu z Yahoo Finance (bez API klíče)."""
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=5d&interval=1d"
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        result = json.loads(resp.read().decode())
+
+    chart_result = result.get("chart", {}).get("result")
+    if not chart_result:
+        raise ValueError(f"Yahoo Finance nevrátil data pro {symbol}")
+
+    result_data = chart_result[0]
+    meta = result_data.get("meta", {})
+    price = meta.get("regularMarketPrice")
+    timestamp = meta.get("regularMarketTime")
+
+    if price is None:
+        raise ValueError(f"Chybí cena v odpovědi pro {symbol}")
+
+    if timestamp:
+        date_str = datetime.utcfromtimestamp(timestamp).strftime("%Y-%m-%d")
+    else:
+        date_str = datetime.now().strftime("%Y-%m-%d")
+
+    return {"value": round(float(price), 2), "date": date_str, "cached": False}
+
+
 def fetch_oil_prices(previous_prices):
     prices = {"brent": None, "wti": None}
-    if not ALPHA_VANTAGE_KEY:
-        return previous_prices or prices
-    for label, function in [("brent", "BRENT"), ("wti", "WTI")]:
+    symbols = {"brent": "BZ=F", "wti": "CL=F"}
+
+    for label, symbol in symbols.items():
         try:
-            url = f"https://www.alphavantage.co/query?function={function}&interval=daily&apikey={ALPHA_VANTAGE_KEY}"
-            with urllib.request.urlopen(url, timeout=15) as resp:
-                result = json.loads(resp.read().decode())
-                data_points = result.get("data", [])
-                if data_points:
-                    prices[label] = {
-                        "value": float(data_points[0]["value"]),
-                        "date": data_points[0]["date"],
-                        "cached": False
-                    }
+            prices[label] = fetch_yahoo_price(symbol)
         except Exception as e:
-            print(f"Chyba při stahování ceny {label}: {e}")
+            print(f"Chyba při stahování ceny {label} (Yahoo Finance): {e}")
 
     # Fallback na poslední známou hodnotu, pokud aktuální dotaz selhal
     if previous_prices:
