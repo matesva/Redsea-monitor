@@ -82,11 +82,18 @@ def extract_locations(articles):
 
 
 def fetch_yahoo_price(symbol):
-    """Stáhne poslední cenu futures kontraktu z Yahoo Finance (bez API klíče)."""
+    """Stáhne poslední cenu futures kontraktu z Yahoo Finance (BZ=F pro Brent, CL=F pro WTI)."""
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=5d&interval=1d"
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5"
+    }
+
+    req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req, timeout=15) as resp:
-        result = json.loads(resp.read().decode())
+        result = json.loads(resp.read().decode("utf-8"))
 
     chart_result = result.get("chart", {}).get("result")
     if not chart_result:
@@ -94,7 +101,9 @@ def fetch_yahoo_price(symbol):
 
     result_data = chart_result[0]
     meta = result_data.get("meta", {})
-    price = meta.get("regularMarketPrice")
+    
+    # Použije aktuální cenu, případně záložní zavírací cenu (když je trh zavřený)
+    price = meta.get("regularMarketPrice") or meta.get("chartPreviousClose")
     timestamp = meta.get("regularMarketTime")
 
     if price is None:
@@ -133,7 +142,7 @@ def fetch_usd_czk():
     try:
         url = "https://api.frankfurter.app/latest?from=USD&to=CZK"
         with urllib.request.urlopen(url, timeout=10) as resp:
-            result = json.loads(resp.read().decode())
+            result = json.loads(resp.read().decode("utf-8"))
             rate = result.get("rates", {}).get("CZK")
             date = result.get("date")
             if rate:
@@ -204,153 +213,4 @@ def analyze_with_ai(articles, previous_forecast):
     response = client.models.generate_content(model='gemini-3.5-flash-lite', contents=prompt)
 
     try:
-        clean_json = response.text.strip().removeprefix("```json").removeprefix("```").removesuffix("```").strip()
-        return json.loads(clean_json)
-    except Exception as e:
-        print("Chyba při zpracování AI odpovědi:", e)
-        return {
-            "threat_level": "VYSOKÁ",
-            "sentiment_score": 70,
-            "security_status": "Chyba při automatické analýze AI.",
-            "recommendations": [],
-            "forecast": "Nepodařilo se vygenerovat předpověď.",
-            "forecast_review": "N/A"
-        }
-
-
-def send_ntfy_alert(threat_level, status_text):
-    if not NTFY_TOPIC:
-        return
-    try:
-        req = urllib.request.Request(
-            url=f"https://ntfy.sh/{NTFY_TOPIC}",
-            data=status_text.encode("utf-8"),
-            headers={
-                "Title": f"Red Sea Monitor: {threat_level}".encode("utf-8"),
-                "Priority": "urgent",
-                "Tags": "warning"
-            },
-            method="POST"
-        )
-        urllib.request.urlopen(req, timeout=10)
-    except Exception as e:
-        print("Chyba při odesílání ntfy notifikace:", e)
-
-
-def build_rss(articles):
-    items = ""
-    for a in articles:
-        items += f"""
-        <item>
-            <title>{escape(a['title'])}</title>
-            <link>{escape(a['link'])}</link>
-            <description>{escape(a['summary'])}</description>
-            <pubDate>{escape(a['published'])}</pubDate>
-        </item>"""
-    rss = f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-<channel>
-    <title>Red Sea AI Monitor</title>
-    <link>https://matesva.github.io/Redsea-monitor/</link>
-    <description>AI monitoring bezpečnostní situace v Rudém moři</description>
-    {items}
-</channel>
-</rss>"""
-    with open("rss.xml", "w", encoding="utf-8") as f:
-        f.write(rss)
-
-
-def build_weekly_summary(archive):
-    if not archive:
-        return "Zatím není dostatek dat pro týdenní shrnutí."
-    last7 = archive[-7:]
-    counts = {}
-    for entry in last7:
-        lvl = entry.get("threat_level", "NEZNÁMÁ")
-        counts[lvl] = counts.get(lvl, 0) + 1
-    parts = [f"{v}× {k}" for k, v in sorted(counts.items(), key=lambda x: -x[1])]
-    days = len(last7)
-    return f"Za posledních {days} zaznamenaných analýz: " + ", ".join(parts) + "."
-
-
-def update_location_counts(previous_counts, locations):
-    counts = dict(previous_counts or {})
-    for loc in locations:
-        name = loc["name"]
-        counts[name] = counts.get(name, 0) + 1
-    return counts
-
-
-def top_location(location_counts):
-    if not location_counts:
-        return None
-    top_name = max(location_counts, key=location_counts.get)
-    return {"name": top_name, "count": location_counts[top_name]}
-
-
-def run():
-    old_data = load_previous_data()
-    previous_forecast = old_data.get("assessment", {}).get("forecast", "")
-    previous_oil = old_data.get("oil_prices")
-    previous_location_counts = old_data.get("location_counts", {})
-
-    articles = fetch_articles()
-    ai_assessment = analyze_with_ai(articles, previous_forecast)
-    locations = extract_locations(articles)
-    oil_prices = fetch_oil_prices(previous_oil)
-    usd_czk = fetch_usd_czk()
-    location_counts = update_location_counts(previous_location_counts, locations)
-
-    history = old_data.get("history", [])
-    threat_key = ai_assessment.get("threat_level", "").split(" ")[0].split("/")[0].strip()
-    threat_value = THREAT_MAP.get(threat_key, 1)
-    now_str = datetime.now().strftime("%Y-%m-%d %H:%M")
-
-    history.append({
-        "date": now_str,
-        "threat_level": threat_key,
-        "value": threat_value,
-        "sentiment_score": ai_assessment.get("sentiment_score", 0),
-        "incidents": len(articles),
-        "brent": oil_prices.get("brent", {}).get("value") if oil_prices.get("brent") else None,
-        "usd_czk": usd_czk.get("value") if usd_czk else None
-    })
-    history = history[-30:]
-
-    archive = old_data.get("archive", [])
-    archive.append({
-        "date": now_str,
-        "threat_level": threat_key,
-        "security_status": ai_assessment.get("security_status", ""),
-        "forecast": ai_assessment.get("forecast", "")
-    })
-    archive = archive[-14:]
-
-    weekly_summary = build_weekly_summary(archive)
-    top_loc = top_location(location_counts)
-
-    data = {
-        "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M UTC"),
-        "assessment": ai_assessment,
-        "articles": articles,
-        "history": history,
-        "locations": locations,
-        "location_counts": location_counts,
-        "top_location": top_loc,
-        "archive": archive,
-        "weekly_summary": weekly_summary,
-        "oil_prices": oil_prices,
-        "usd_czk": usd_czk
-    }
-
-    with open("data.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-
-    build_rss(articles)
-
-    if threat_key == "KRITICKÁ":
-        send_ntfy_alert(threat_key, ai_assessment.get("security_status", ""))
-
-
-if __name__ == "__main__":
-    run()
+        clean_json = response.text.strip().removeprefix("```json").removeprefix("
