@@ -1,119 +1,33 @@
-body {
-    background-color: #0a192f;
-    color: #e6f1ff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
+/* Stylování odkazů na akcie */
+.stock-link {
+    color: #64ffda;
+    text-decoration: underline;
+    font-weight: 500;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+.stock-link:hover {
+    color: #ffffff;
 }
 
-/* Hero Banner */
-.hero-banner {
-    position: relative;
-    height: 180px;
-    overflow: hidden;
-    border-bottom: 2px solid #8b0000;
-}
-
-.hero-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.3;
-}
-
-.hero-overlay {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to bottom, rgba(10,25,47,0.2), rgba(10,25,47,0.95));
-    text-align: center;
-}
-
-.sub-title {
-    font-size: 0.8rem;
-    letter-spacing: 2px;
+/* Sektorové tagy u investic */
+.sector-tag {
     color: #8892b0;
+    font-weight: 600;
 }
 
-/* Karty */
-.card {
-    background: #112240;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-.market-card {
+/* Lokality s mezerami */
+.locations-tags {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.price-row {
-    display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 8px;
     margin-top: 10px;
 }
 
-.price {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: #d1a153;
-}
-
-.label {
-    display: block;
-    font-size: 0.8rem;
-    color: #8892b0;
-}
-
-/* Obrázky u karet */
-.card-media img {
-    width: 110px;
-    height: 80px;
-    object-fit: cover;
-    border-radius: 6px;
-    opacity: 0.8;
-}
-
-.media-wide img {
-    width: 100%;
-    height: 120px;
-    margin-top: 15px;
-}
-
-/* Badge a Sentiment */
-.badge {
-    display: inline-block;
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-weight: bold;
-    border: 1px solid currentColor;
-}
-.badge.critical { color: #ff4d4d; border-color: #ff4d4d; }
-.badge.high { color: #ffa500; border-color: #ffa500; }
-
-.sentiment-bar-container {
-    background: #233554;
-    height: 8px;
+.location-tag {
+    background: rgba(100, 255, 218, 0.1);
+    color: #64ffda;
+    padding: 4px 10px;
     border-radius: 4px;
-    margin: 10px 0 5px 0;
-    overflow: hidden;
+    font-size: 0.85rem;
+    border: 1px solid rgba(100, 255, 218, 0.2);
 }
-
-.sentiment-bar {
-    background: #ff4d4d;
-    height: 100%;
-    transition: width 0.5s ease;
-}
-
