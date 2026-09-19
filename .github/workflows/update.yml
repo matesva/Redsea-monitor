@@ -24,17 +24,26 @@ jobs:
           python -m pip install --upgrade pip
           pip install feedparser google-genai
 
-      - name: Fetch and Analyze
+      - name: Fetch and Analyze (Red Sea)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
         run: python fetch_news.py
 
+      - name: Fetch and Analyze (USA)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
+          NTFY_TOPIC_USA: ${{ secrets.NTFY_TOPIC_USA }}
+        run: |
+          mkdir -p usa
+          python fetch_usa.py
+
       - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data.json rss.xml
-          git commit -m "Auto-update AI Red Sea Monitor" || exit 0
+          git add data.json rss.xml usa/data.json usa/rss.xml
+          git commit -m "Auto-update AI Monitors (Red Sea + USA)" || exit 0
           git push
