@@ -1,4 +1,3 @@
-
 async function loadMonitorData() {
     try {
         const response = await fetch('./data.json?t=' + new Date().getTime());
@@ -48,7 +47,15 @@ async function loadMonitorData() {
             document.getElementById('sentiment-score').innerText = `${score}/100`;
             document.getElementById('sentiment-bar').style.width = `${score}%`;
 
-            // 4. Doporučení
+            // Výhled & Vyhodnocení
+            if (document.getElementById('forecast-text')) {
+                document.getElementById('forecast-text').innerText = data.assessment.forecast || 'Bez výhledu.';
+            }
+            if (document.getElementById('forecast-review-text')) {
+                document.getElementById('forecast-review-text').innerText = data.assessment.forecast_review || 'Bez vyhodnocení.';
+            }
+
+            // Doporučení
             const list = document.getElementById('recommendations-list');
             if (list && data.assessment.recommendations) {
                 list.innerHTML = '';
@@ -60,9 +67,21 @@ async function loadMonitorData() {
             }
         }
 
-        // 5. Týdenní shrnutí
+        // 4. Týdenní shrnutí
         if (data.weekly_summary) {
             document.getElementById('weekly-summary').innerText = data.weekly_summary;
+        }
+
+        // 5. Lokace zpráv
+        const locContainer = document.getElementById('locations-container');
+        if (locContainer && data.locations) {
+            locContainer.innerHTML = '';
+            data.locations.forEach(loc => {
+                const tag = document.createElement('span');
+                tag.className = 'location-tag';
+                tag.innerText = loc.name;
+                locContainer.appendChild(tag);
+            });
         }
 
     } catch (error) {
