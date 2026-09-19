@@ -1,49 +1,58 @@
 {
-  "last_updated": "2026-09-19T10:02:51Z",
+  "last_updated": "2026-09-19T13:51:04Z",
   "assessment": {
-    "threat_level": "KRITICKÁ",
+    "threat_level": "CRITICAL",
     "sentiment_score": 92,
-    "security_status": "Bezpečnostní situace v regionu eskaluje na úroveň přímého ohrožení klíčových energetických uzlů, včetně útoků v oblasti Rijádu, Hormuzského průlivu a Bab al-Mandabu. Húthíové upevnili pozice na jemenské pobřeží, zatímco koaliční síly posilují námořní obranu v reakci na raketové a dronové útoky na ropnou infrastrukturu.",
+    "security_status_cs": "Bezpečnostní situace v regionu prudce eskaluje po úspěšných útocích Houthiů na ropné provozy a vojenskou infrastrukturu v Saúdské Arábii včetně sestřeleného proudového letounu. Multilaterální námořní koalice se sice snaží zabezpečit trasy v Rudém moři a úžině Bab al-Mandab, avšak pokračující útoky na tankery a uzavření klíčového ropovodu drží globální energetické trhy ve stavu vysoké pohotovosti.",
+    "security_status_en": "The security situation in the region is escalating sharply following successful Houthi strikes on oil infrastructure and military assets in Saudi Arabia, including a downed fighter jet. While a multinational naval coalition is attempting to secure routes in the Red Sea and the Bab al-Mandab strait, continued attacks on tankers and the closure of a crucial oil pipeline keep global energy markets on high alert.",
     "recommendations": [
       {
-        "sector": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)",
-        "action": "KOUPIT",
-        "action_type": "KOUPIT",
-        "reason": "Dlouhodobé uzavírky klíčových průlivů a odklon lodí vedou k rekordním sazbám za přepravu a masivním ziskům oceánských dopravců. Růst nákladů na pojištění a delší trasy hrají do karet vlastníkům tankerů a kontejnerových lodí."
+        "sector_cs": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)",
+        "sector_en": "Maritime Shipping (e.g. Maersk, Hapag-Lloyd, ZIM)",
+        "action": "BUY",
+        "reason_cs": "Přetrvávající hrozby v úžině Bab al-Mandab a pokračující blokády nutí lodní přepravce využívat delší trasu kolem Afriky, což udržuje vysoké sazebníky přepravného.",
+        "reason_en": "Persistent threats in the Bab al-Mandab strait and ongoing blockages force carriers to route around Africa, keeping freight rates elevated."
       },
       {
-        "sector": "Obranný průmysl (např. RTX, Lockheed Martin, BAE Systems)",
-        "action": "KOUPIT",
-        "action_type": "KOUPIT",
-        "reason": "Intenzivní vojenský konflikt v Blízkém východě a nové sankční balíčky USA vůči Rusku a Íránu zajišťují masivní poptávku po protivzdušné obraně a vojenském vybavení. Firmy v sektoru budou těžit z rostoucích vládních výdajů na obranu."
+        "sector_cs": "Obranný průmysl (např. RTX, Lockheed Martin, BAE Systems)",
+        "sector_en": "Defense Industry (e.g. RTX, Lockheed Martin, BAE Systems)",
+        "action": "BUY",
+        "reason_cs": "Masivní schválené zbrojní kontrakty v regionu, včetně prodeje F-35 Saúdské Arábii a kompenzačních nákupů Izraele, ženou poptávku po pokročilých systémech protivzdušné obrany vzhůru.",
+        "reason_en": "Massive approved regional arms packages, including F-35 sales to Saudi Arabia and Israeli compensation requests, drive strong demand for advanced air defense systems."
       },
       {
-        "sector": "Ropa a Plyn (např. Shell, BP, Chevron)",
-        "action": "KOUPIT",
-        "action_type": "KOUPIT",
-        "reason": "Poškození klíčového saúdského ropovodu a útoky v Hormuzském průlivu drasticky omezují dodávki a tlačí ceny ropy vzhůru. Ropné koncerny generují nadstandardní marže navzdory výpadkům v dodávkách rafinériím."
+        "sector_cs": "Ropa a Plyn (např. Shell, BP, Chevron)",
+        "sector_en": "Oil & Gas (e.g. Shell, BP, Chevron)",
+        "action": "BUY",
+        "reason_cs": "Výpadek kapacity saúdského ropovodu a přerušení dodávek do Evropy tlačí ceny ropy vzhůru a generují mimořádné marže pro energetické giganty.",
+        "reason_en": "The disruption of a major Saudi pipeline and curtailed crude allocations to Europe are driving oil prices upward and boosting windfall margins for major energy firms."
       },
       {
-        "sector": "Evropský Spotřební sektor & Autoprůmysl (např. Volvo, BMW)",
-        "action": "PRODAT",
-        "action_type": "PRODAT",
-        "reason": "Logistická krize, drahé palivo a výpadky v dodávkách rafinovaných produktů v Evropě dusí marže výrobních podniků. Sektor čelí rostoucím nákladům a poklesu spotřebitelské poptávky."
+        "sector_cs": "Evropský Spotřební sektor & Autoprůmysl (např. Volvo, BMW)",
+        "sector_en": "European Consumer & Automotive (e.g. Volvo, BMW)",
+        "action": "SELL",
+        "reason_cs": "Rostoucí ceny energií a delší dodací lhůty komponent kvůli odklonům námořní dopravy zatěžují výrobní marže a snižují spotřebitelskou poptávku.",
+        "reason_en": "Rising energy costs and extended component delivery times due to shipping rerouting are squeezing operating margins and dampening consumer demand."
       },
       {
-        "sector": "Pražská burza: ČEZ, Komerční banka, Erste Group",
-        "action": "DRŽET",
-        "action_type": "DRŽET",
-        "reason": "Domácí energetický titul ČEZ těží z vysokých cen energií, avšak bankovní sektor (KB, Erste) nese riziko makroekonomické nestability a importované inflace z EU. Doporučujeme selektivní držení pozic bez nutnosti agresivních nákupů."
+        "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
+        "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
+        "action": "HOLD",
+        "reason_cs": "Domácí bankovní sektor a energetika čelí globální makroekonomické nejistotě a inflačním tlakům z komoditních trhů, což doporučuje opatrné vyčkávání.",
+        "reason_en": "Domestic banking and energy shares face global macroeconomic uncertainty and commodity-driven inflationary pressures, advising a cautious wait-and-see stance."
       },
       {
-        "sector": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
-        "action": "DRŽET",
-        "action_type": "DRŽET",
-        "reason": "Zatímco energetické a zbrojní tituly (TotalEnergies, Rheinmetall) profitují z krize, širší trh je pod tlakem kvůli sankcím, inflaci a nejistotě v dodavatelských řetězcích. Doporučujeme vyvážené držení s preferencím defenzivních aktiv."
+        "sector_cs": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
+        "sector_en": "European blue-chips (e.g. Airbus, TotalEnergies, Allianz, Rheinmetall)",
+        "action": "BUY",
+        "reason_cs": "Zbrojní a energetičtí giganti v rámci indexu profitují z eskalace konfliktů a vysokých cen komodit, což kompenzuje slabosti v cyklických odvětvích.",
+        "reason_en": "Defense and energy heavyweights within the blue-chip index benefit directly from conflict escalation and elevated commodity pricing, buffering broader cyclical weakness."
       }
     ],
-    "forecast": "V nejbližších dnech lze očekávat další testování protivzdušné obrany v Zálivu, pokračující výkyvy na trhu s ropou a zostřený tlak na námořní trasy. Ceny pohonných hmot a energií zůstanou extrémně volatilní.",
-    "forecast_review": "Předchozí předpověď se plně potvrdila; útoky na energetickou infrastrukturu v Zálivu eskalovaly, ceny komodit reagují extrémní volatilitou a evropské rafinérie čelí reálným výpadkům dodávek."
+    "forecast_cs": "V nejbližších dnech lze očekávat další testování námořních koridorů ze strany Houthiů a zostřenou reakci saúdsko-ledované koalice. Ceny ropy a náklady na pojištění námořní dopravy zůstanou vysoce volatilní.",
+    "forecast_en": "Over the coming days, further Houthi probing of maritime corridors and intensified coalition retaliation are expected. Oil prices and maritime insurance costs will remain highly volatile.",
+    "forecast_review_cs": "Žádná předchozí předpověď k vyhodnocení.",
+    "forecast_review_en": "No previous forecast to evaluate."
   },
   "articles": [
     {
@@ -96,10 +105,17 @@
       "source": "BBC News"
     },
     {
-      "title": "Trump signs sweeping Russia sanctions over Ukraine war",
-      "summary": "New law allows tariffs of up to 100 percent on major buyers of Russian oil, including China and India.",
-      "link": "https://www.aljazeera.com/news/2026/9/19/trump-signs-sweeping-russia-sanctions-over-ukraine-war?traffic_source=rss",
-      "published": "Sat, 19 Sep 2026 00:46:04 +0000",
+      "title": "US lifts sanctions on Eritrea ‘to advance US regional interests’ in Red Sea",
+      "summary": "The sanctions, introduced during the Biden administration, targeted Eritrea's governing party and the military.",
+      "link": "https://www.aljazeera.com/news/2026/9/19/us-lifts-sanctions-on-eritrea-imposed-during-conflict-in-ethiopias-tigray?traffic_source=rss",
+      "published": "Sat, 19 Sep 2026 12:34:37 +0000",
+      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera"
+    },
+    {
+      "title": "Saudi-led naval coalition prepares to secure Red Sea waterways",
+      "summary": "Saudi Arabia has hosted a multinational naval coalition meeting aimed at protecting shipping in the Red Sea.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/19/saudi-led-naval-coalition-prepares-to-secure-red-sea-waterways?traffic_source=rss",
+      "published": "Sat, 19 Sep 2026 12:21:01 +0000",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera"
     },
     {
@@ -115,6 +131,41 @@
       "link": "https://www.theguardian.com/world/2026/sep/18/yemen-anti-houthi-forces-inquest-military-collapse",
       "published": "Fri, 18 Sep 2026 14:12:10 GMT",
       "source": "World news | The Guardian"
+    },
+    {
+      "title": "Scottish Labour’s new leader backs Rosebank and Jackdaw oil and gasfields",
+      "summary": "<p>Michael Marra supports development of the North Sea sites, calling for a ‘more rational’ approach to energy policy</p><p>Scottish Labour’s new leader Michael Marra has backed the development of the Rosebank and Jackdaw oil and gasfields in the North Sea in one of his first acts after being elected, calling for a “more rational” approach to energy policy.</p><p>On Saturday, the MSP for North East Scotland won a near two-thirds majority to lead the party in Holyrood, becoming Scottish Labour’s 11th leader. He replaces Anas Sarwar after his <a href=\"https://www.theguardian.com/politics/2026/jul/22/scottish-labours-rivals-decry-chancer-anas-sarwar-for-resigning-to-join-andy-burnhams-government\">shock decision to resign in July</a> to join Andy Burnham’s new government as a trade minister.</p> <a href=\"https://www.theguardian.com/politics/2026/sep/19/michael-marra-elected-as-scottish-labour-leader\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/politics/2026/sep/19/michael-marra-elected-as-scottish-labour-leader",
+      "published": "Sat, 19 Sep 2026 12:52:52 GMT",
+      "source": "World news | The Guardian"
+    },
+    {
+      "title": "Israel seeks US weapons 'compensation' after Saudi F-35 deal",
+      "summary": "<article class=\"story default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/news/israel-seeks-us-weapons-compensation-after-saudi-f-35-deal\" rel=\"bookmark\">\n<span class=\"field field-title\">Israel seeks US weapons 'compensation' after Saudi F-35 deal</span>\n</a>\n    </h2>\n    \n\n          <footer>\n      \n      <div class=\"author\">\n        Submitted by \n<span class=\"field field-uid\"><a href=\"https://www.middleeasteye.net/users/mee-staff\" lang=\"lang\" title=\"View user profile.\">MEE staff</a></span>\n on \n<span class=\"field field-created\"><time datetime=\"2026-09-19T11:50:27+01:00\" title=\"19 September 2026 11:50 BST\">Sat, 09/19/2026 - 11:50</time>\n</span>\n        \n      </div>\n    </footer>\n      \n    <div class=\"content\">\n                <div class=\"field field-field-subhead\">Tel Aviv reportedly wants advanced systems to preserve its military edge after Washington approved 48 F-35s for Riyadh</div>\n                  <div class=\"field field-field-main-image\">    \n                  <source height=\"788\" type=\"image/webp\" width=\"1400\" />\n                  <img alt=\"A US Air Force F-35 is displayed during the Paris Air Show at Le Bourget Airport near Paris, 15 June 2025 (Thomas Samson/AFP)\" height=\"788\" src=\"https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/US%20Air%20Force%20F-35%20is%20displayed%20during%20the%20Paris%20Air%20Show%20at%20Le%20Bourget%20Airport%20near%20Paris%2C%2015%20June%202025%20%28Thomas%20Samson%20AFP%29.jpg.jpg?itok=lgljKOS8\" width=\"1400\" />\n\n  \n\n</div>\n                  <div class=\"field field-field-cutline\">A US Air Force F-35 is displayed during the Paris Air Show at Le Bourget Airport near Paris, 15 June 2025 (Thomas Samson/AFP)</div>\n                  <div class=\"field field-field-wide-photo-video\">Off</div>\n                  <div class=\"field field-body clearfix\"><p><a href=\"https://www.middleeasteye.net/countries/israel\">Israel </a>plans to seek additional <a href=\"https://www.middleeasteye.net/countries/us\" target=\"_blank\">US</a> weapons and defence capabilities as \"compensation\" after Washington approved the potential sale of F-35 fighter jets to <a href=\"https://www.middleeasteye.net/countries/saudi-arabia\">Saudi Arabia</a>, Israeli media has reported.</p>\n\n<p>Israeli news website Walla <a href=\"https://news.walla.co.il/item/3868676\">reported </a>on Friday that Israeli officials are expected to ask US President Donald Trump's administration to approve weapons systems that Washington had previously declined to provide.</p>\n\n<p>The reported requests extend beyond advanced fighter aircraft and stealth capabilities to space-based weapons and the development and production of interceptor aircraft, Walla reported.</p>\n\n<p>Israeli officials are also <a href=\"https://www.aa.com.tr/en/middle-east/israel-seeks-compensation-from-us-following-saudi-f-35-deal-report/4061798\">expected </a>to seek \"bunker-busting munitions and underground systems capable of operating deep beneath rocky mountains\".</p>\n\n<p>Walla said the requests are intended to secure a US \"compensation\" package following Washington's decision to approve the potential F-35 sale to Riyadh.</p><div class=\"block-adsense block-adsense-managed-ad-block\"><div>\n  <div class=\"adsense responsive\">\n    \n<!-- responsive -->\n<ins class=\"adsbygoogle mee-auto-ad-wrapper \" style=\"display: block;\"></ins>\n\n  </div>\n</div>\n</div>\n\n<p>The report comes after the US State Department <a href=\"https://www.middleeasteye.net/news/us-says-it-will-sell-48-f-35s-saudi-arabia\">approved </a>a possible $24.3bn sale of 48 F-35 Lightning II fighter jets to Saudi Arabia.</p>\n\n<p>The proposed package also includes 49 Pratt & Whitney F135-PW-100 engines, communications and cryptographic equipment, electronic warfare support, training and logistics, according to the State Department's notification to Congress.</p>\n\n<p>The proposed sale still requires congressional approval.</p>\n\n<p>Middle East Eye has reported on the progress of the sale for months, with multiple US and Arab sources saying it was moving quickly.</p>\n\n<p>MEE r<a href=\"https://www.middleeasteye.net/news/saudi-us-defence-partnership-fast-track-arms-sales-sources-say\" target=\"_blank\">evealed</a> in November that Saudi Arabia's F-35 purchase would be \"fast-tracked\" under a new defence partnership with the US, sealed during Crown Prince Mohammed bin Salman's visit to the White House. </p>\n\n<div class=\"mee-readmore mee-readmore-article-story mee-readmore-type-image align-right\">\n  <a class=\"mee-readmore-img-link\" href=\"https://www.middleeasteye.net/news/us-says-it-will-sell-48-f-35s-saudi-arabia\"><img alt=\"alt\" class=\"mee-readmore-image\" height=\"250\" src=\"https://www.middleeasteye.net/sites/default/files/styles/read_more/public/images-story/000_33DV98U.jpg.webp?itok=gdIF1ciT\" width=\"400\" />\n\n</a>  <div class=\"mee-readmore-description\">US says it will sell up to 48 F-35s to Saudi Arabia</div>\n    <a class=\"mee-readmore-link\" href=\"https://www.middleeasteye.net/news/us-says-it-will-sell-48-f-35s-saudi-arabia\">Read More »</a>\n</div>\n\n<p>MEE then <a href=\"https://www.middleeasteye.net/news/trump-administration-reviewing-israels-military-edge-it-eyes-gulf-arms-deals-sources-say\" target=\"_blank\">revealed</a> in December that the Trump administration was conducting a review of <a href=\"https://www.middleeasteye.net/countries/israel\" target=\"_blank\">Israel's</a> \"qualitative military edge\" as part of the process.  </p>\n\n<p>Senior US military officials held several closely guarded meetings on Capitol Hill to discuss the sale at the start of the year.</p>\n\n<p>Saudi Arabian Defence Minister Khaled bin Salman visited the US multiple times this summer, in part to ensure the deal went through, US officials told MEE. </p>\n\n<p>If completed, Saudi Arabia would become the first Arab country to operate F-35s, while Israel is currently the only Middle Eastern country operating the aircraft. </p>\n\n<p>Reuters news agency reported that the proposed sale could test Washington's longstanding policy of maintaining Israel's qualitative military edge in the region.</p>\n\n<p>Saudi Arabia is <a href=\"https://www.middleeasteye.net/news/few-cards-play-allies-absent-saudi-arabia-has-few-options-fight-houthis\" target=\"_blank\">reeling</a> from Houthi missile and drone attacks while its allies in Yemen, the internationally recognised government, are struggling to stem a Houthi offensive that has resulted in them securing the entirety of Yemen's Red Sea coastline, along with the Arabian Gulf side of the Bab al-Mandeb Strait.</p>\n</div>\n                  <div class=\"field field-field-topic\"><a href=\"https://www.middleeasteye.net/topics/inside-saudi\" hreflang=\"en\">Inside Saudi Arabia</a></div>\n            <div class=\"field field-field-coauthor-location\">\n              <div> </div>\n              <div> </div>\n              <div> </div>\n              <div> </div>\n          </div>\n              <div class=\"field field-field-article-location\"> </div>\n                  <div class=\"field field-field-section\"><a href=\"https://www.middleeasteye.net/news/all\" hreflang=\"en\">News</a></div>\n        <div class=\"field field-field-post-date-override\">\n    <div>Post Date Override</div>\n              <div>0</div>\n          </div>\n  <div class=\"field field-field-update-date-override\">\n    <div>Update Date</div>\n              <div><time datetime=\"2020-05-04T21:19:45+01:00\">Mon, 05/04/2020 - 21:19</time>\n</div>\n          </div>\n  <div class=\"field field-field-update-date-check\">\n    <div>Update Date Override</div>\n              <div>0</div>\n          </div>\n\n  </div>\n  \n</article>",
+      "link": "https://www.middleeasteye.net/news/israel-seeks-us-weapons-compensation-after-saudi-f-35-deal",
+      "published": "Sat, 19 Sep 2026 12:24:29 +0100",
+      "source": "Section Feed"
+    },
+    {
+      "title": "Large plume of black smoke seen near Riyadh airport, Reuters reports",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/large-plume-black-smoke-seen-near-riyadh-airport-reuters-reports\" rel=\"bookmark\">\n<span class=\"field field-title\">Large plume of black smoke seen near Riyadh airport, Reuters reports</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Flames and a large plume of black smoke could be seen rising near King Khalid International Airport in Riyadh on Saturday, Reuters reported, quoting eyewitnesses. </p>\n\n<p>It was not immediately known what caused the fire and the government media office in Saudi Arabia did not respond to a request for comments, according to Reuters. </p>\n\n<p>The development comes amid rising tensions between Saudi Arabia and Yemen’s Houthi movement, but it was not clear what caused the flames.</p>\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/large-plume-black-smoke-seen-near-riyadh-airport-reuters-reports",
+      "published": "Sat, 19 Sep 2026 12:07:43 +0100",
+      "source": "Section Feed"
+    },
+    {
+      "title": "Pakistan and Iran foreign ministers discuss regional stability and safe shipping",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/pakistan-and-iran-foreign-ministers-discuss-regional-stability-and-safe\" rel=\"bookmark\">\n<span class=\"field field-title\">Pakistan and Iran foreign ministers discuss regional stability and safe shipping</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Pakistan’s Foreign Minister Ishaq Dar and his Iranian counterpart, Abbas Araghchi, spoke by phone to discuss recent regional developments, Islamabad confirmed in a statement.</p>\n\n<p>During the call, Dar emphasised the critical need for secure shipping routes and uninterrupted energy supplies, warning of the potential fallout for developing nations and global supply chains. He further stressed that \"dialogue and diplomacy\" remain the only viable paths to regional peace.</p>\n\n<p>The two diplomats agreed to maintain close cooperation and are scheduled to meet in person in New York on the sidelines of the 81st UN General Assembly.</p>\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/pakistan-and-iran-foreign-ministers-discuss-regional-stability-and-safe",
+      "published": "Sat, 19 Sep 2026 11:42:41 +0100",
+      "source": "Section Feed"
+    },
+    {
+      "title": "If you're just tuning in",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/if-youre-just-tuning\" rel=\"bookmark\">\n<span class=\"field field-title\">If you're just tuning in </span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Here are the latest developments from the region:</p>\n\n<ul>\n\t<li>Israeli forces killed three Palestinians, including a young girl, across Gaza on Saturday. </li>\n\t<li>Yemen's Houthi forces said Saudi warplanes targeted areas controlled by the group over the last 24 hours.</li>\n\t<li>Saudi Arabia said the threat of attacks from Houthi forces had passed in Riyadh and al-Kharj after a second wave of emergency alerts overnight.</li>\n\t<li>Israeli settlers fired at Palestinians in Ramallah as tensions worsen.</li>\n\t<li>Iran's foreign ministry said diplomatic efforts to resolve issues related to the June Memorandum of Understanding with the US are ongoing. </li>\n</ul>\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/if-youre-just-tuning",
+      "published": "Sat, 19 Sep 2026 11:03:49 +0100",
+      "source": "Section Feed"
     },
     {
       "title": "Gaza's children with Down syndrome struggle to rebuild skills lost to genocide",
@@ -143,48 +194,6 @@
       "link": "https://www.middleeasteye.net/live-blog/live-blog-update/yemen-not-iranian-bargaining-chip-foreign-minister-says",
       "published": "Sat, 19 Sep 2026 06:23:20 +0100",
       "source": "Section Feed"
-    },
-    {
-      "title": "'Explosions heard in Riyadh' as authorities issue and withdraw alert",
-      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/explosions-heard-riyadh-authorities-issue-and-withdraw-alert\" rel=\"bookmark\">\n<span class=\"field field-title\">'Explosions heard in Riyadh' as authorities issue and withdraw alert</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Explosions were heard in Riyadh on Saturday, an AFP journalist reported, after an air raid alert was issued by Saudi Arabian authorities, who have been regularly targeted in recent days by attacks from pro-Iranian Houthis in Yemen.</p>\n\n<p>\"The area is under a hostile aerial threat,\" a message received by residents of the Saudi capital read. </p>\n\n<p>This is the first time the capital has been directly affected since the conflict in neighbouring Yemen intensified in July.</p>\n\n<p>The Saudi Directorate of Civil Defence later issued a statement on X saying the danger has passed in Riyadh and al-Kharj and urged residents to continue following its instructions and avoid gathering or filming. </p>\n</div>\n      \n  </div>\n\n</article>",
-      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/explosions-heard-riyadh-authorities-issue-and-withdraw-alert",
-      "published": "Sat, 19 Sep 2026 02:01:06 +0100",
-      "source": "Section Feed"
-    },
-    {
-      "title": "'People don't want Iran to have nuclear weapon': Trump defends higher oil prices",
-      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/people-dont-want-iran-have-nuclear-weapon-trump-defends-higher-oil\" rel=\"bookmark\">\n<span class=\"field field-title\">'People don't want Iran to have nuclear weapon': Trump defends higher oil prices   </span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>US President Donald Trump has said the increase in oil prices was a sacrifice worth making in order to stop Iran from obtaining a nuclear weapon, while predicting petrol prices would drop to pre-conflict levels when the war with Iran ends. </p>\n\n<p>“I think most people, if they had a vote on lower gas prices or letting Iran have a nuclear weapon, I’d be willing to vote that it’d be a massive landslide – people don’t want Iran to have a nuclear weapon,” Trump said while speaking to the press at White House.</p>\n\n<p> “And you know what, they won’t.”</p>\n\n<p>Trump also claimed that the US is winning the war “very handily” and that it will end soon, a day after he said he was considering whether to “annihilate” Iran. </p>\n\n  <figure class=\"media-block\">\n  <div class=\"group-inner\">\n    <div alt=\"Trump\" class=\"embedded-entity\">  <img alt=\"Trump\" height=\"957\" src=\"https://www.middleeasteye.net/sites/default/files/2026-09/U.S.%20President%20Donald%20Trump%20attends%20a%20healthcare%20affordability%20event%20in%20the%20Oval%20Office%20at%20the%20White%20House%20on%20August%2031%2C%202026%20in%20Washington%2C%20DC-afp.jpg\" width=\"1701\" />\n\n</div>\n\n    <figcaption>Trump said the US is winning the war \"very handily\". (AFP)</figcaption>\n  </div>\n</figure>\n\n\n<p><span><img height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n</div>\n      \n  </div>\n\n</article>",
-      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/people-dont-want-iran-have-nuclear-weapon-trump-defends-higher-oil",
-      "published": "Sat, 19 Sep 2026 01:51:35 +0100",
-      "source": "Section Feed"
-    },
-    {
-      "title": "Shipping’s New Normal: Slower Trade, Higher Costs, Bigger Profits",
-      "summary": "By Lori-Ann LaRocco – It’s a good time to be an ocean carrier or tanker owner. The slower trade caused by bottlenecks stemming from the U.S. war with Iran, Russia’s...",
-      "link": "https://gcaptain.com/shippings-new-normal-slower-trade-higher-costs-bigger-profits/",
-      "published": "Fri, 18 Sep 2026 18:05:15 +0000",
-      "source": "gCaptain"
-    },
-    {
-      "title": "London’s Marine Insurers Widen Black Sea High Risk Zone as Shipping Attacks Surge",
-      "summary": "London's marine insurance market has widened the area in the Black Sea it deems as ?high risk as the Ukraine-Russia conflict escalates, according to an advisory issued this week.",
-      "link": "https://gcaptain.com/londons-marine-insurers-widen-black-sea-high-risk-zone-as-shipping-attacks-surge/",
-      "published": "Fri, 18 Sep 2026 17:00:02 +0000",
-      "source": "gCaptain"
-    },
-    {
-      "title": "Trump Returns to UN as Iran War Spreads Across Shipping Chokepoints",
-      "summary": "WASHINGTON, Sept 18 (Reuters) – When President Donald Trump addressed the United Nations a year ago, he touted the US bombing of Iran’s nuclear sites just months earlier as “totally obliterating everything” and...",
-      "link": "https://gcaptain.com/trump-returns-to-un-as-iran-war-spreads-across-shipping-chokepoints/",
-      "published": "Fri, 18 Sep 2026 16:58:46 +0000",
-      "source": "gCaptain"
-    },
-    {
-      "title": "Three Tanker Attacks Hit Hormuz as Saudi Oil Is Forced Back Toward Strait",
-      "summary": "A new burst of attacks on commercial shipping in the Strait of Hormuz is hitting just as Saudi Arabia is being forced to send more oil back through the waterway...",
-      "link": "https://gcaptain.com/three-tanker-attacks-hit-hormuz-as-saudi-oil-is-forced-back-toward-strait/",
-      "published": "Fri, 18 Sep 2026 16:07:36 +0000",
-      "source": "gCaptain"
     }
   ],
   "history": [
@@ -319,38 +328,59 @@
       "incidents": 20,
       "brent": 99.29,
       "usd_czk": null
+    },
+    {
+      "date": "2026-09-19 13:51",
+      "threat_level": "CRITICAL",
+      "value": 4,
+      "sentiment_score": 92,
+      "incidents": 20,
+      "brent": 99.29,
+      "usd_czk": null
     }
   ],
   "locations": [
     {
+      "key": "Yemen",
       "lat": 15.5527,
       "lon": 48.5164,
-      "name": "Jemen"
+      "name_cs": "Jemen",
+      "name_en": "Yemen"
     },
     {
+      "key": "Red Sea",
       "lat": 20.5,
       "lon": 38.0,
-      "name": "Rudé moře"
+      "name_cs": "Rudé moře",
+      "name_en": "Red Sea"
     },
     {
+      "key": "Hormuz",
       "lat": 26.5667,
       "lon": 56.25,
-      "name": "Hormuzský průliv"
+      "name_cs": "Hormuzský průliv",
+      "name_en": "Strait of Hormuz"
     },
     {
+      "key": "Mecca",
       "lat": 21.3891,
       "lon": 39.8579,
-      "name": "Mekka"
+      "name_cs": "Mekka",
+      "name_en": "Mecca"
     },
     {
+      "key": "Saudi Arabia",
       "lat": 23.8859,
       "lon": 45.0792,
-      "name": "Saúdská Arábie"
+      "name_cs": "Saúdská Arábie",
+      "name_en": "Saudi Arabia"
     },
     {
+      "key": "Oman",
       "lat": 21.4735,
       "lon": 55.9754,
-      "name": "Omán"
+      "name_cs": "Omán",
+      "name_en": "Oman"
     }
   ],
   "location_counts": {
@@ -362,10 +392,18 @@
     "Omán": 6,
     "Irák": 5,
     "Bab-el-Mandeb": 2,
-    "Suezský průplav": 2
+    "Suezský průplav": 2,
+    "Yemen": 1,
+    "Red Sea": 1,
+    "Hormuz": 1,
+    "Mecca": 1,
+    "Saudi Arabia": 1,
+    "Oman": 1
   },
   "top_location": {
-    "name": "Jemen",
+    "key": "Jemen",
+    "name_cs": "Jemen",
+    "name_en": "Jemen",
     "count": 6
   },
   "archive": [
@@ -422,9 +460,18 @@
       "threat_level": "KRITICKÁ",
       "security_status": "Bezpečnostní situace v regionu eskaluje na úroveň přímého ohrožení klíčových energetických uzlů, včetně útoků v oblasti Rijádu, Hormuzského průlivu a Bab al-Mandabu. Húthíové upevnili pozice na jemenské pobřeží, zatímco koaliční síly posilují námořní obranu v reakci na raketové a dronové útoky na ropnou infrastrukturu.",
       "forecast": "V nejbližších dnech lze očekávat další testování protivzdušné obrany v Zálivu, pokračující výkyvy na trhu s ropou a zostřený tlak na námořní trasy. Ceny pohonných hmot a energií zůstanou extrémně volatilní."
+    },
+    {
+      "date": "2026-09-19 13:51",
+      "threat_level": "CRITICAL",
+      "security_status_cs": "Bezpečnostní situace v regionu prudce eskaluje po úspěšných útocích Houthiů na ropné provozy a vojenskou infrastrukturu v Saúdské Arábii včetně sestřeleného proudového letounu. Multilaterální námořní koalice se sice snaží zabezpečit trasy v Rudém moři a úžině Bab al-Mandab, avšak pokračující útoky na tankery a uzavření klíčového ropovodu drží globální energetické trhy ve stavu vysoké pohotovosti.",
+      "security_status_en": "The security situation in the region is escalating sharply following successful Houthi strikes on oil infrastructure and military assets in Saudi Arabia, including a downed fighter jet. While a multinational naval coalition is attempting to secure routes in the Red Sea and the Bab al-Mandab strait, continued attacks on tankers and the closure of a crucial oil pipeline keep global energy markets on high alert.",
+      "forecast_cs": "V nejbližších dnech lze očekávat další testování námořních koridorů ze strany Houthiů a zostřenou reakci saúdsko-ledované koalice. Ceny ropy a náklady na pojištění námořní dopravy zůstanou vysoce volatilní.",
+      "forecast_en": "Over the coming days, further Houthi probing of maritime corridors and intensified coalition retaliation are expected. Oil prices and maritime insurance costs will remain highly volatile."
     }
   ],
-  "weekly_summary": "Za posledních 7 zaznamenaných analýz: 7× KRITICKÁ.",
+  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 6× KRITICKÁ, 1× CRITICAL.",
+  "weekly_summary_en": "Over the last 7 recorded analyses: 6× KRITICKÁ, 1× CRITICAL.",
   "oil_prices": {
     "brent": {
       "value": 99.29,
