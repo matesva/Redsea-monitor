@@ -222,7 +222,7 @@
         </div>
         <h1 id="title-text">Rudé moře: bezpečnost &amp; geopolitika</h1>
         <div class="dispatch-line">
-            <span id="lbl-updated">Aktualizováno <strong id="updated-relative">načítání…</strong></span>
+            <span><span id="lbl-updated">Aktualizováno</span> <strong id="updated-relative">načítání…</strong></span>
             <span id="updated">--</span>
         </div>
         <div class="share-row">
@@ -427,11 +427,21 @@
             document.getElementById('scroll-top').classList.toggle('visible', window.scrollY > 400);
         });
 
+        // Opravený výpočet času bez "NaNd"
         function relativeTime(dateStr) {
+            if (!dateStr) return '';
             try {
-                const d = new Date(dateStr.replace(' ', 'T') + 'Z');
+                let formattedStr = dateStr.replace(' ', 'T');
+                if (!formattedStr.endsWith('Z') && !formattedStr.includes('+')) {
+                    formattedStr += 'Z';
+                }
+                const d = new Date(formattedStr);
+                if (isNaN(d.getTime())) return '';
+                
                 const diffMin = Math.round((Date.now() - d.getTime()) / 60000);
                 const t = i18n[currentLang];
+                
+                if (diffMin < 1) return t.agoMin(0);
                 if (diffMin < 60) return t.agoMin(diffMin);
                 const diffH = Math.round(diffMin / 60);
                 if (diffH < 24) return t.agoH(diffH);
@@ -454,7 +464,7 @@
             document.getElementById('theme-btn').innerText = t.themeBtn;
             document.getElementById('lang-btn').innerText = t.langBtn;
             document.getElementById('title-text').innerText = t.title;
-            document.getElementById('lbl-updated').childNodes[0].nodeValue = t.updated + ' ';
+            document.getElementById('lbl-updated').innerText = t.updated;
             document.getElementById('sec-market').innerText = t.secMarket;
             document.getElementById('sec-threat').innerText = t.secThreat;
             document.getElementById('sec-weekly').innerText = t.secWeekly;
@@ -650,7 +660,7 @@
                 globalData = data;
                 renderUI();
 
-                // Leaflet Map Init (render once)
+                // Leaflet Map Init
                 try {
                     if (data.locations && data.locations.length > 0) {
                         const map = L.map('map').setView([data.locations[0].lat, data.locations[0].lon], 4);
