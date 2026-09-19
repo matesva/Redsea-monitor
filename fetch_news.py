@@ -34,19 +34,21 @@ RSS_FEEDS = [
 ]
 
 KEYWORDS = ["Houthi", "Red Sea", "Yemen", "Bab-el-Mandeb", "Húthí", "shipping", "oil"]
-THREAT_MAP = {"STABILNÍ": 1, "STŘEDNÍ": 2, "VYSOKÁ": 3, "KRITICKÁ": 4}
+THREAT_MAP = {"STABLE": 1, "MEDIUM": 2, "HIGH": 3, "CRITICAL": 4}
 
+# Lokace mají název v obou jazycích; klíč slovníku (interní) zůstává anglický a stabilní,
+# takže location_counts a top_location fungují napříč jazyky bez rozjetí čítačů.
 LOCATIONS = {
-    "Yemen": {"lat": 15.5527, "lon": 48.5164, "name": "Jemen"},
-    "Red Sea": {"lat": 20.5, "lon": 38.0, "name": "Rudé moře"},
-    "Bab-el-Mandeb": {"lat": 12.5964, "lon": 43.3311, "name": "Bab-el-Mandeb"},
-    "Hormuz": {"lat": 26.5667, "lon": 56.25, "name": "Hormuzský průliv"},
-    "Suez": {"lat": 30.5852, "lon": 32.2654, "name": "Suezský průplav"},
-    "Mecca": {"lat": 21.3891, "lon": 39.8579, "name": "Mekka"},
-    "Saudi Arabia": {"lat": 23.8859, "lon": 45.0792, "name": "Saúdská Arábie"},
-    "Oman": {"lat": 21.4735, "lon": 55.9754, "name": "Omán"},
-    "Mokha": {"lat": 13.3167, "lon": 43.25, "name": "Mokha"},
-    "Iraq": {"lat": 33.2232, "lon": 43.6793, "name": "Irák"},
+    "Yemen": {"lat": 15.5527, "lon": 48.5164, "name_cs": "Jemen", "name_en": "Yemen"},
+    "Red Sea": {"lat": 20.5, "lon": 38.0, "name_cs": "Rudé moře", "name_en": "Red Sea"},
+    "Bab-el-Mandeb": {"lat": 12.5964, "lon": 43.3311, "name_cs": "Bab-el-Mandeb", "name_en": "Bab-el-Mandeb"},
+    "Hormuz": {"lat": 26.5667, "lon": 56.25, "name_cs": "Hormuzský průliv", "name_en": "Strait of Hormuz"},
+    "Suez": {"lat": 30.5852, "lon": 32.2654, "name_cs": "Suezský průplav", "name_en": "Suez Canal"},
+    "Mecca": {"lat": 21.3891, "lon": 39.8579, "name_cs": "Mekka", "name_en": "Mecca"},
+    "Saudi Arabia": {"lat": 23.8859, "lon": 45.0792, "name_cs": "Saúdská Arábie", "name_en": "Saudi Arabia"},
+    "Oman": {"lat": 21.4735, "lon": 55.9754, "name_cs": "Omán", "name_en": "Oman"},
+    "Mokha": {"lat": 13.3167, "lon": 43.25, "name_cs": "Mokha", "name_en": "Mokha"},
+    "Iraq": {"lat": 33.2232, "lon": 43.6793, "name_cs": "Irák", "name_en": "Iraq"},
 }
 
 
@@ -64,10 +66,10 @@ def fetch_articles():
                         "summary": summary,
                         "link": entry.get("link", "#"),
                         "published": entry.get("published", datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")),
-                        "source": feed.feed.get("title", "Zpravodajství")
+                        "source": feed.feed.get("title", "News")
                     })
         except Exception as e:
-            print(f"Chyba při zpracování feedu {feed_url}: {e}")
+            print(f"Error processing feed {feed_url}: {e}")
             continue
     return articles[:20]
 
@@ -77,14 +79,14 @@ def extract_locations(articles):
     text_blob = " ".join([a['title'] + " " + a['summary'] for a in articles])
     for key, loc in LOCATIONS.items():
         if key.lower() in text_blob.lower():
-            found[key] = loc
+            found[key] = {"key": key, "lat": loc["lat"], "lon": loc["lon"], "name_cs": loc["name_cs"], "name_en": loc["name_en"]}
     return list(found.values())
 
 
 def fetch_yahoo_price(symbol):
     """Stáhne poslední cenu futures kontraktu z Yahoo Finance (BZ=F pro Brent, CL=F pro WTI)."""
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=5d&interval=1d"
-    
+
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
@@ -101,8 +103,7 @@ def fetch_yahoo_price(symbol):
 
     result_data = chart_result[0]
     meta = result_data.get("meta", {})
-    
-    # Použije aktuální cenu, případně záložní zavírací cenu (když je trh zavřený)
+
     price = meta.get("regularMarketPrice") or meta.get("chartPreviousClose")
     timestamp = meta.get("regularMarketTime")
 
@@ -127,7 +128,6 @@ def fetch_oil_prices(previous_prices):
         except Exception as e:
             print(f"Chyba při stahování ceny {label} (Yahoo Finance): {e}")
 
-    # Fallback na poslední známou hodnotu, pokud aktuální dotaz selhal
     if previous_prices:
         for label in ["brent", "wti"]:
             if not prices.get(label) and previous_prices.get(label):
@@ -162,51 +162,71 @@ def load_previous_data():
     return {}
 
 
-def analyze_with_ai(articles, previous_forecast):
+def fallback_assessment():
+    return {
+        "threat_level": "STABLE",
+        "sentiment_score": 20,
+        "security_status_cs": "Za posledních 24h nebyly zachyceny žádné nové zásadní události.",
+        "security_status_en": "No significant new developments were detected in the last 24 hours.",
+        "recommendations": [
+            {"sector_cs": "Námořní doprava", "sector_en": "Maritime Shipping", "action": "HOLD",
+             "reason_cs": "Ceny přepravy jsou stabilizované.", "reason_en": "Freight rates remain stable."},
+            {"sector_cs": "Obranný průmysl", "sector_en": "Defense Industry", "action": "BUY",
+             "reason_cs": "Trvalé geopolitické napětí udrží zakázky.", "reason_en": "Persistent geopolitical tension will sustain orders."},
+            {"sector_cs": "Energetika a Ropa", "sector_en": "Energy & Oil", "action": "HOLD",
+             "reason_cs": "Ropné trhy vykazují vyrovnanou nabídku a poptávku.", "reason_en": "Oil markets show balanced supply and demand."},
+            {"sector_cs": "Spotřební sektor & Auto", "sector_en": "Consumer Sector & Automotive", "action": "SELL",
+             "reason_cs": "Riziko zpoždění v dodavatelských řetězcích trvá.", "reason_en": "Supply chain delay risk persists."},
+            {"sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group", "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group", "action": "HOLD",
+             "reason_cs": "Bez nových geopolitických impulzů zůstávají české tituly stabilní.", "reason_en": "Without new geopolitical triggers, Czech equities remain stable."},
+            {"sector_cs": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)", "sector_en": "European blue-chips (e.g. Airbus, TotalEnergies, Allianz, Rheinmetall)", "action": "HOLD",
+             "reason_cs": "Bez nových impulzů zůstávají evropské tituly stabilní.", "reason_en": "Without new triggers, European equities remain stable."}
+        ],
+        "forecast_cs": "Bez nových dat nelze aktualizovat výhled.",
+        "forecast_en": "No updated outlook without new data.",
+        "forecast_review_cs": "Žádná předchozí předpověď k vyhodnocení.",
+        "forecast_review_en": "No previous forecast to evaluate."
+    }
+
+
+def analyze_with_ai(articles, previous_forecast_cs, previous_forecast_en):
     if not articles:
-        return {
-            "threat_level": "STABILNÍ / BEZ ZMĚN",
-            "sentiment_score": 20,
-            "security_status": "Za posledních 24h nebyly zachyceny žádné nové zásadní události.",
-            "recommendations": [
-                {"sector": "Námořní doprava", "action": "DRŽET", "reason": "Ceny přepravy jsou stabilizované."},
-                {"sector": "Obranný průmysl", "action": "KOUPIT", "reason": "Trvalé geopolitické napětí udrží zakázky."},
-                {"sector": "Energetika a Ropa", "action": "DRŽET", "reason": "Ropné trhy vykazují vyrovnanou nabídku a poptávku."},
-                {"sector": "Spotřební sektor & Auto", "action": "PRODAT", "reason": "Riziko zpoždění v dodavatelských řetězcích trvá."},
-                {"sector": "Pražská burza: ČEZ, Komerční banka, Erste Group", "action": "DRŽET", "reason": "Bez nových geopolitických impulzů zůstávají české tituly stabilní."},
-                {"sector": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)", "action": "DRŽET", "reason": "Bez nových impulzů zůstávají evropské tituly stabilní."}
-            ],
-            "forecast": "Bez nových dat nelze aktualizovat výhled.",
-            "forecast_review": "Žádná předchozí předpověď k vyhodnocení."
-        }
+        return fallback_assessment()
 
     news_text = "\n".join([f"- {a['title']}: {a['summary']}" for a in articles])
-    prev_forecast_text = previous_forecast or "Žádná předchozí předpověď."
+    prev_cs = previous_forecast_cs or "Žádná předchozí předpověď."
+    prev_en = previous_forecast_en or "No previous forecast."
 
     prompt = f"""
-    Jsi špičkový portfoliový manažer a bezpečnostní analytik. Na základě následujících zpráv za posledních 24 hodin o Húthíích a Rudém moři vytvoř analytický přehled a investiční doporučení v češtině.
+    You are a top-tier portfolio manager and security analyst. Based on the following news from the last 24 hours about the Houthis and the Red Sea, produce an analytical overview and investment recommendations in BOTH Czech and English.
 
-    Zprávy:
+    News:
     {news_text}
 
-    Předchozí předpověď (z minulého běhu, pro zpětné vyhodnocení):
-    "{prev_forecast_text}"
+    Previous forecast, Czech (from the last run, for review purposes):
+    "{prev_cs}"
 
-    Vrať ODPOVĚĎ VÝHRADNĚ JAKO PLATNÝ JSON kód bez jakýchkoliv úvodních textů nebo markdownových značek:
+    Previous forecast, English (from the last run, for review purposes):
+    "{prev_en}"
+
+    Return the response STRICTLY AS VALID JSON with no introductory text or markdown formatting. Provide every text field in both languages using the _cs and _en suffixes as shown. Keep threat_level and action as the exact English enum values shown (do not translate them):
     {{
-        "threat_level": "KRITICKÁ / VYSOKÁ / STŘEDNÍ",
-        "sentiment_score": <celé číslo 0-100, kde 0 = naprosto klidná situace, 100 = extrémní krize>,
-        "security_status": "2-3 věty o aktuálním bezpečnostním vývoji v Rudém moři.",
+        "threat_level": "CRITICAL / HIGH / MEDIUM / STABLE",
+        "sentiment_score": <integer 0-100, where 0 = completely calm situation, 100 = extreme crisis>,
+        "security_status_cs": "2-3 věty o aktuálním bezpečnostním vývoji v Rudém moři, česky.",
+        "security_status_en": "2-3 sentences on the current security developments in the Red Sea, in English.",
         "recommendations": [
-            {{"sector": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)", "action": "KOUPIT / PRODAT / DRŽET", "reason": "1-2 věty zdůvodnění na základě sazeb a rizik."}},
-            {{"sector": "Obranný průmysl (např. RTX, Lockheed Martin, BAE Systems)", "action": "KOUPIT / PRODAT / DRŽET", "reason": "1-2 věty zdůvodnění na základě zakázek."}},
-            {{"sector": "Ropa a Plyn (např. Shell, BP, Chevron)", "action": "KOUPIT / PRODAT / DRŽET", "reason": "1-2 věty zdůvodnění ohledně cen ropy."}},
-            {{"sector": "Evropský Spotřební sektor & Autoprůmysl (např. Volvo, BMW)", "action": "KOUPIT / PRODAT / DRŽET", "reason": "1-2 věty zdůvodnění k logistice."}},
-            {{"sector": "Pražská burza: ČEZ, Komerční banka, Erste Group", "action": "KOUPIT / PRODAT / DRŽET", "reason": "1-2 věty zdůvodnění pro tyto tři tituly."}},
-            {{"sector": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)", "action": "KOUPIT / PRODAT / DRŽET", "reason": "1-2 věty zdůvodnění dopadu na širší evropské tituly - obrana, energetika, pojišťovnictví."}}
+            {{"sector_cs": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)", "sector_en": "Maritime Shipping (e.g. Maersk, Hapag-Lloyd, ZIM)", "action": "BUY / SELL / HOLD", "reason_cs": "1-2 věty česky.", "reason_en": "1-2 sentences in English."}},
+            {{"sector_cs": "Obranný průmysl (např. RTX, Lockheed Martin, BAE Systems)", "sector_en": "Defense Industry (e.g. RTX, Lockheed Martin, BAE Systems)", "action": "BUY / SELL / HOLD", "reason_cs": "1-2 věty česky.", "reason_en": "1-2 sentences in English."}},
+            {{"sector_cs": "Ropa a Plyn (např. Shell, BP, Chevron)", "sector_en": "Oil & Gas (e.g. Shell, BP, Chevron)", "action": "BUY / SELL / HOLD", "reason_cs": "1-2 věty česky.", "reason_en": "1-2 sentences in English."}},
+            {{"sector_cs": "Evropský Spotřební sektor & Autoprůmysl (např. Volvo, BMW)", "sector_en": "European Consumer & Automotive (e.g. Volvo, BMW)", "action": "BUY / SELL / HOLD", "reason_cs": "1-2 věty česky.", "reason_en": "1-2 sentences in English."}},
+            {{"sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group", "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group", "action": "BUY / SELL / HOLD", "reason_cs": "1-2 věty česky.", "reason_en": "1-2 sentences in English."}},
+            {{"sector_cs": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)", "sector_en": "European blue-chips (e.g. Airbus, TotalEnergies, Allianz, Rheinmetall)", "action": "BUY / SELL / HOLD", "reason_cs": "1-2 věty česky.", "reason_en": "1-2 sentences in English."}}
         ],
-        "forecast": "1-2 věty odhadu vývoje na nejbližší dny.",
-        "forecast_review": "1 věta - potvrdila se, nebo vyvrátila předchozí předpověď na základě dnešních zpráv? Pokud žádná nebyla, napiš 'Žádná předchozí předpověď k vyhodnocení.'"
+        "forecast_cs": "1-2 věty odhadu vývoje na nejbližší dny, česky.",
+        "forecast_en": "1-2 sentences forecasting developments over the coming days, in English.",
+        "forecast_review_cs": "1 věta česky - potvrdila se, nebo vyvrátila předchozí předpověď na základě dnešních zpráv? Pokud žádná nebyla, napiš 'Žádná předchozí předpověď k vyhodnocení.'",
+        "forecast_review_en": "1 sentence in English - did today's news confirm or contradict the previous forecast? If there was none, write 'No previous forecast to evaluate.'"
     }}
     """
 
@@ -214,16 +234,24 @@ def analyze_with_ai(articles, previous_forecast):
 
     try:
         clean_json = response.text.strip().removeprefix("```json").removeprefix("```").removesuffix("```").strip()
-        return json.loads(clean_json)
+        parsed = json.loads(clean_json)
+        # bezpečnostní normalizace enum hodnot, kdyby AI přece jen vrátila jinak
+        parsed["threat_level"] = str(parsed.get("threat_level", "HIGH")).split(" ")[0].split("/")[0].strip().upper()
+        for rec in parsed.get("recommendations", []):
+            rec["action"] = str(rec.get("action", "HOLD")).split(" ")[0].split("/")[0].strip().upper()
+        return parsed
     except Exception as e:
-        print("Chyba při zpracování AI odpovědi:", e)
+        print("Error processing AI response:", e)
         return {
-            "threat_level": "VYSOKÁ",
+            "threat_level": "HIGH",
             "sentiment_score": 70,
-            "security_status": "Chyba při automatické analýze AI.",
+            "security_status_cs": "Chyba při automatické analýze AI.",
+            "security_status_en": "Error during automated AI analysis.",
             "recommendations": [],
-            "forecast": "Nepodařilo se vygenerovat předpověď.",
-            "forecast_review": "N/A"
+            "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
+            "forecast_en": "Failed to generate forecast.",
+            "forecast_review_cs": "N/A",
+            "forecast_review_en": "N/A"
         }
 
 
@@ -232,7 +260,7 @@ def send_ntfy_alert(threat_level, status_text):
         return
     try:
         req = urllib.request.Request(
-            url=f"[https://ntfy.sh/](https://ntfy.sh/){NTFY_TOPIC}",
+            url=f"https://ntfy.sh/{NTFY_TOPIC}",
             data=status_text.encode("utf-8"),
             headers={
                 "Title": f"Red Sea Monitor: {threat_level}".encode("utf-8"),
@@ -260,8 +288,8 @@ def build_rss(articles):
 <rss version="2.0">
 <channel>
     <title>Red Sea AI Monitor</title>
-    <link>[https://matesva.github.io/Redsea-monitor/](https://matesva.github.io/Redsea-monitor/)</link>
-    <description>AI monitoring bezpečnostní situace v Rudém moři</description>
+    <link>https://matesva.github.io/Redsea-monitor/</link>
+    <description>AI monitoring of the security situation in the Red Sea</description>
     {items}
 </channel>
 </rss>"""
@@ -271,47 +299,61 @@ def build_rss(articles):
 
 def build_weekly_summary(archive):
     if not archive:
-        return "Zatím není dostatek dat pro týdenní shrnutí."
+        return {
+            "cs": "Zatím není dostatek dat pro týdenní shrnutí.",
+            "en": "Not enough data yet for a weekly summary."
+        }
     last7 = archive[-7:]
     counts = {}
     for entry in last7:
-        lvl = entry.get("threat_level", "NEZNÁMÁ")
+        lvl = entry.get("threat_level", "UNKNOWN")
         counts[lvl] = counts.get(lvl, 0) + 1
     parts = [f"{v}× {k}" for k, v in sorted(counts.items(), key=lambda x: -x[1])]
     days = len(last7)
-    return f"Za posledních {days} zaznamenaných analýz: " + ", ".join(parts) + "."
+    joined = ", ".join(parts)
+    return {
+        "cs": f"Za posledních {days} zaznamenaných analýz: {joined}.",
+        "en": f"Over the last {days} recorded analyses: {joined}."
+    }
 
 
 def update_location_counts(previous_counts, locations):
     counts = dict(previous_counts or {})
     for loc in locations:
-        name = loc["name"]
-        counts[name] = counts.get(name, 0) + 1
+        key = loc["key"]
+        counts[key] = counts.get(key, 0) + 1
     return counts
 
 
 def top_location(location_counts):
     if not location_counts:
         return None
-    top_name = max(location_counts, key=location_counts.get)
-    return {"name": top_name, "count": location_counts[top_name]}
+    top_key = max(location_counts, key=location_counts.get)
+    loc_info = LOCATIONS.get(top_key, {})
+    return {
+        "key": top_key,
+        "name_cs": loc_info.get("name_cs", top_key),
+        "name_en": loc_info.get("name_en", top_key),
+        "count": location_counts[top_key]
+    }
 
 
 def run():
     old_data = load_previous_data()
-    previous_forecast = old_data.get("assessment", {}).get("forecast", "")
+    previous_forecast_cs = old_data.get("assessment", {}).get("forecast_cs", "")
+    previous_forecast_en = old_data.get("assessment", {}).get("forecast_en", "")
     previous_oil = old_data.get("oil_prices")
     previous_location_counts = old_data.get("location_counts", {})
 
     articles = fetch_articles()
-    ai_assessment = analyze_with_ai(articles, previous_forecast)
+    ai_assessment = analyze_with_ai(articles, previous_forecast_cs, previous_forecast_en)
     locations = extract_locations(articles)
     oil_prices = fetch_oil_prices(previous_oil)
     usd_czk = fetch_usd_czk()
     location_counts = update_location_counts(previous_location_counts, locations)
 
     history = old_data.get("history", [])
-    threat_key = ai_assessment.get("threat_level", "").split(" ")[0].split("/")[0].strip()
+    threat_key = ai_assessment.get("threat_level", "HIGH")
     threat_value = THREAT_MAP.get(threat_key, 1)
     now_utc = datetime.now(timezone.utc)
     now_str = now_utc.strftime("%Y-%m-%d %H:%M")
@@ -331,8 +373,10 @@ def run():
     archive.append({
         "date": now_str,
         "threat_level": threat_key,
-        "security_status": ai_assessment.get("security_status", ""),
-        "forecast": ai_assessment.get("forecast", "")
+        "security_status_cs": ai_assessment.get("security_status_cs", ""),
+        "security_status_en": ai_assessment.get("security_status_en", ""),
+        "forecast_cs": ai_assessment.get("forecast_cs", ""),
+        "forecast_en": ai_assessment.get("forecast_en", "")
     })
     archive = archive[-14:]
 
@@ -340,7 +384,6 @@ def run():
     top_loc = top_location(location_counts)
 
     data = {
-        # Standardní ISO 8601 UTC formát pro správné parsování v JS na frontendu
         "last_updated": now_utc.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "assessment": ai_assessment,
         "articles": articles,
@@ -349,7 +392,8 @@ def run():
         "location_counts": location_counts,
         "top_location": top_loc,
         "archive": archive,
-        "weekly_summary": weekly_summary,
+        "weekly_summary_cs": weekly_summary["cs"],
+        "weekly_summary_en": weekly_summary["en"],
         "oil_prices": oil_prices,
         "usd_czk": usd_czk
     }
@@ -359,8 +403,9 @@ def run():
 
     build_rss(articles)
 
-    if threat_key == "KRITICKÁ":
-        send_ntfy_alert(threat_key, ai_assessment.get("security_status", ""))
+    if threat_key == "CRITICAL":
+        status_for_alert = ai_assessment.get("security_status_en", "")
+        send_ntfy_alert(threat_key, status_for_alert)
 
 
 if __name__ == "__main__":
