@@ -79,7 +79,7 @@
             padding: 4px 10px; cursor: pointer; border-radius: 2px;
         }
         .theme-toggle:hover, .lang-toggle:hover { border-color: var(--brass); color: var(--brass); }
-        
+
         h1 {
             font-size: 2.1em; font-weight: 700; margin: 0 0 6px; line-height: 1.15;
             letter-spacing: -0.01em;
@@ -119,10 +119,10 @@
         .seal svg { position: absolute; inset: 0; width: 100%; height: 100%; }
         .seal svg circle { fill: none; stroke: currentColor; }
         .seal-text { position: relative; z-index: 1; }
-        .seal-STABILNÍ, .seal-STABLE { color: #6a9b6e; }
-        .seal-STŘEDNÍ,  .seal-MEDIUM { color: var(--brass); }
-        .seal-VYSOKÁ,   .seal-HIGH   { color: #c07a3a; }
-        .seal-KRITICKÁ, .seal-CRITICAL { color: var(--alert); }
+        .seal-STABLE   { color: #6a9b6e; }
+        .seal-MEDIUM   { color: var(--brass); }
+        .seal-HIGH     { color: #c07a3a; }
+        .seal-CRITICAL { color: var(--alert); }
         .seal-body { flex: 1; min-width: 220px; }
         #security-status { line-height: 1.7; color: var(--text-dim); margin: 0; font-size: 1em; }
 
@@ -155,9 +155,9 @@
         .rec-item a.ticker-link:hover { text-decoration: underline; }
 
         .action { font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 0.7em; letter-spacing: 0.03em; }
-        .action-KOUPIT, .action-BUY  { color: #6a9b6e; }
-        .action-PRODAT, .action-SELL { color: var(--alert); }
-        .action-DRŽET,  .action-HOLD { color: var(--brass); }
+        .action-BUY  { color: #6a9b6e; }
+        .action-SELL { color: var(--alert); }
+        .action-HOLD { color: var(--brass); }
         .action::before { content: "▸ "; }
 
         .timeline { position: relative; }
@@ -175,10 +175,10 @@
         .archive-header { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
         .archive-header .adate { font-family: 'IBM Plex Mono', monospace; font-size: 0.8em; color: var(--text-dim); }
         .archive-header .alevel { font-family: 'IBM Plex Mono', monospace; font-size: 0.7em; font-weight: 600; letter-spacing: 0.03em; }
-        .alevel-KRITICKÁ, .alevel-CRITICAL { color: var(--alert); }
-        .alevel-VYSOKÁ,   .alevel-HIGH     { color: #c07a3a; }
-        .alevel-STŘEDNÍ, .alevel-MEDIUM   { color: var(--brass); }
-        .alevel-STABILNÍ, .alevel-STABLE   { color: #6a9b6e; }
+        .alevel-CRITICAL { color: var(--alert); }
+        .alevel-HIGH     { color: #c07a3a; }
+        .alevel-MEDIUM   { color: var(--brass); }
+        .alevel-STABLE   { color: #6a9b6e; }
         .archive-body { display: none; margin-top: 10px; font-size: 0.9em; color: var(--text-dim); line-height: 1.65; }
         .archive-item.open .archive-body { display: block; }
 
@@ -350,7 +350,9 @@
                 chartIncidents: 'Počet incidentů',
                 chartBrent: 'Brent ($)',
                 archiveStatus: 'Stav:',
-                archiveForecast: 'Předpověď:'
+                archiveForecast: 'Předpověď:',
+                threatLabel: { STABLE: 'STABILNÍ', MEDIUM: 'STŘEDNÍ', HIGH: 'VYSOKÁ', CRITICAL: 'KRITICKÁ' },
+                actionLabel: { BUY: 'KOUPIT', SELL: 'PRODAT', HOLD: 'DRŽET' }
             },
             en: {
                 themeBtn: '◑ THEME',
@@ -385,7 +387,9 @@
                 chartIncidents: 'Incident Count',
                 chartBrent: 'Brent ($)',
                 archiveStatus: 'Status:',
-                archiveForecast: 'Forecast:'
+                archiveForecast: 'Forecast:',
+                threatLabel: { STABLE: 'STABLE', MEDIUM: 'MEDIUM', HIGH: 'HIGH', CRITICAL: 'CRITICAL' },
+                actionLabel: { BUY: 'BUY', SELL: 'SELL', HOLD: 'HOLD' }
             }
         };
 
@@ -427,7 +431,18 @@
             document.getElementById('scroll-top').classList.toggle('visible', window.scrollY > 400);
         });
 
-        // Opravený výpočet času bez "NaNd"
+        // Pole s _cs / _en příponou -> vybere správnou jazykovou variantu, s fallbackem
+        function pick(obj, base) {
+            if (!obj) return '';
+            const key = base + '_' + currentLang;
+            if (obj[key] !== undefined && obj[key] !== null) return obj[key];
+            // fallback: zkus druhý jazyk, pak holé jméno pole (starší formát dat)
+            const otherLang = currentLang === 'cs' ? 'en' : 'cs';
+            if (obj[base + '_' + otherLang] !== undefined) return obj[base + '_' + otherLang];
+            if (obj[base] !== undefined) return obj[base];
+            return '';
+        }
+
         function relativeTime(dateStr) {
             if (!dateStr) return '';
             try {
@@ -437,10 +452,10 @@
                 }
                 const d = new Date(formattedStr);
                 if (isNaN(d.getTime())) return '';
-                
+
                 const diffMin = Math.round((Date.now() - d.getTime()) / 60000);
                 const t = i18n[currentLang];
-                
+
                 if (diffMin < 1) return t.agoMin(0);
                 if (diffMin < 60) return t.agoMin(diffMin);
                 const diffH = Math.round(diffMin / 60);
@@ -453,6 +468,11 @@
             if (score < 34) return '#6a9b6e';
             if (score < 67) return '#b8863b';
             return '#a13d2b';
+        }
+
+        function normalizeEnum(value) {
+            if (!value) return '';
+            return String(value).split(' ')[0].split('/')[0].trim().toUpperCase();
         }
 
         function renderUI() {
@@ -481,23 +501,24 @@
             document.getElementById('updated').innerText = data.last_updated || 'N/A';
             document.getElementById('updated-relative').innerText = relativeTime(data.last_updated);
 
+            const threatKeyRaw = normalizeEnum(data.assessment?.threat_level) || 'UNKNOWN';
+            const threatDisplay = t.threatLabel[threatKeyRaw] || threatKeyRaw;
+
             const pageUrl = 'https://matesva.github.io/Redsea-monitor/';
-            const shareText = encodeURIComponent(t.shareText(data.assessment.threat_level));
+            const shareText = encodeURIComponent(t.shareText(threatDisplay));
             document.getElementById('share-whatsapp').href = `https://wa.me/?text=${shareText}%20${pageUrl}`;
             document.getElementById('share-x').href = `https://twitter.com/intent/tweet?text=${shareText}&url=${pageUrl}`;
 
-            // Threat level
-            const threat = data.assessment.threat_level || 'UNKNOWN';
-            const threatKey = threat.split(' ')[0].split('/')[0].trim();
+            // Threat level seal (CSS class uses the raw English enum, label text is translated)
             const threatElem = document.getElementById('threat-level');
-            threatElem.className = 'seal seal-' + threatKey;
-            threatElem.querySelector('.seal-text').innerText = threatKey;
+            threatElem.className = 'seal seal-' + threatKeyRaw;
+            threatElem.querySelector('.seal-text').innerText = threatDisplay;
 
             document.getElementById('security-status').className = '';
-            document.getElementById('security-status').innerText = data.assessment.security_status || '';
+            document.getElementById('security-status').innerText = pick(data.assessment, 'security_status');
 
             // Sentiment
-            const score = data.assessment.sentiment_score ?? 0;
+            const score = data.assessment?.sentiment_score ?? 0;
             const bar = document.getElementById('sentiment-bar');
             bar.style.width = score + '%';
             bar.style.background = sentimentColor(score);
@@ -505,35 +526,42 @@
 
             // Summaries & Forecast
             document.getElementById('weekly-summary').className = '';
-            document.getElementById('weekly-summary').innerText = data.weekly_summary || t.noWeekly;
+            document.getElementById('weekly-summary').innerText =
+                (currentLang === 'cs' ? data.weekly_summary_cs : data.weekly_summary_en)
+                || data.weekly_summary || t.noWeekly;
 
             document.getElementById('forecast').className = '';
-            document.getElementById('forecast').innerText = data.assessment.forecast || '';
+            document.getElementById('forecast').innerText = pick(data.assessment, 'forecast');
 
             document.getElementById('forecast-review').className = '';
-            document.getElementById('forecast-review').innerText = data.assessment.forecast_review || 'N/A';
+            document.getElementById('forecast-review').innerText = pick(data.assessment, 'forecast_review') || 'N/A';
 
             // Recommendations
             const recsContainer = document.getElementById('recommendations');
             recsContainer.className = '';
             recsContainer.innerHTML = '';
-            if (data.assessment.recommendations && data.assessment.recommendations.length > 0) {
+            if (data.assessment?.recommendations && data.assessment.recommendations.length > 0) {
                 const list = document.createElement('div');
                 list.className = 'recs-list';
                 data.assessment.recommendations.forEach(r => {
+                    const sectorText = pick(r, 'sector');
+                    const reasonText = pick(r, 'reason');
+                    const actionKeyRaw = normalizeEnum(r.action);
+                    const actionDisplay = t.actionLabel[actionKeyRaw] || actionKeyRaw;
+
                     let tickerLinks = '';
                     Object.keys(TICKERS).forEach(name => {
-                        if (r.sector.includes(name)) {
+                        if (sectorText.includes(name)) {
                             tickerLinks += `<a class="ticker-link" href="${TICKERS[name]}" target="_blank">${name} ↗</a> `;
                         }
                     });
                     list.innerHTML += `
                         <div class="rec-item">
                             <div class="rec-head">
-                                <span class="action action-${r.action}">${r.action}</span>
-                                <strong>${r.sector}</strong>
+                                <span class="action action-${actionKeyRaw}">${actionDisplay}</span>
+                                <strong>${sectorText}</strong>
                             </div>
-                            <p>${r.reason}</p>
+                            <p>${reasonText}</p>
                             ${tickerLinks ? `<div style="margin-top:8px;">${tickerLinks}</div>` : ''}
                         </div>`;
                 });
@@ -598,7 +626,10 @@
                         scales: {
                             y: {
                                 min: 0.5, max: 4.5, position: 'left',
-                                ticks: { stepSize: 1, color: '#9aa8ac', font: { family: 'IBM Plex Mono', size: 9 }, callback: v => ({1:'STABILNÍ / STABLE',2:'STŘEDNÍ / MEDIUM',3:'VYSOKÁ / HIGH',4:'KRITICKÁ / CRITICAL'}[v] || '') },
+                                ticks: {
+                                    stepSize: 1, color: '#9aa8ac', font: { family: 'IBM Plex Mono', size: 9 },
+                                    callback: v => ({1: t.threatLabel.STABLE, 2: t.threatLabel.MEDIUM, 3: t.threatLabel.HIGH, 4: t.threatLabel.CRITICAL}[v] || '')
+                                },
                                 grid: { color: 'rgba(184,134,59,0.12)' }
                             },
                             y1: { position: 'right', ticks: { color: '#9aa8ac', font: { family: 'IBM Plex Mono', size: 9 } }, grid: { display: false } },
@@ -610,10 +641,13 @@
 
             // Top Location
             if (data.top_location) {
-                document.getElementById('top-location-note').innerText = t.topLoc(data.top_location.name, data.top_location.count);
+                const locName = currentLang === 'cs'
+                    ? (data.top_location.name_cs || data.top_location.name)
+                    : (data.top_location.name_en || data.top_location.name);
+                document.getElementById('top-location-note').innerText = t.topLoc(locName, data.top_location.count);
             }
 
-            // News
+            // News (RSS titles/summaries stay as originally published, usually English)
             const articlesContainer = document.getElementById('articles');
             articlesContainer.className = 'timeline';
             articlesContainer.innerHTML = '';
@@ -635,16 +669,18 @@
             archiveContainer.innerHTML = '';
             if (data.archive && data.archive.length > 0) {
                 [...data.archive].reverse().forEach((entry) => {
+                    const entryThreatRaw = normalizeEnum(entry.threat_level);
+                    const entryThreatDisplay = t.threatLabel[entryThreatRaw] || entryThreatRaw;
                     const div = document.createElement('div');
                     div.className = 'archive-item';
                     div.innerHTML = `
                         <div class="archive-header">
                             <span class="adate">${entry.date}</span>
-                            <span class="alevel alevel-${entry.threat_level}">${entry.threat_level}</span>
+                            <span class="alevel alevel-${entryThreatRaw}">${entryThreatDisplay}</span>
                         </div>
                         <div class="archive-body">
-                            <p><strong>${t.archiveStatus}</strong> ${entry.security_status}</p>
-                            <p><strong>${t.archiveForecast}</strong> ${entry.forecast}</p>
+                            <p><strong>${t.archiveStatus}</strong> ${pick(entry, 'security_status')}</p>
+                            <p><strong>${t.archiveForecast}</strong> ${pick(entry, 'forecast')}</p>
                         </div>`;
                     div.onclick = () => div.classList.toggle('open');
                     archiveContainer.appendChild(div);
@@ -669,15 +705,18 @@
                             maxZoom: 16
                         }).addTo(map);
                         data.locations.forEach(loc => {
+                            const name = currentLang === 'cs' ? (loc.name_cs || loc.name) : (loc.name_en || loc.name);
                             L.circleMarker([loc.lat, loc.lon], { radius: 7, fillColor: '#b8863b', color: '#8a6a35', weight: 2, fillOpacity: 0.8 })
-                                .addTo(map).bindPopup(`<strong>${loc.name}</strong>`);
+                                .addTo(map).bindPopup(`<strong>${name}</strong>`);
                         });
                     }
                 } catch (e) { console.error('Map error:', e); }
             })
             .catch(err => {
                 console.error(err);
-                document.getElementById('security-status').innerText = 'Data se načítají nebo se poprvé generují.';
+                document.getElementById('security-status').innerText = currentLang === 'cs'
+                    ? 'Data se načítají nebo se poprvé generují.'
+                    : 'Data is loading or being generated for the first time.';
             });
     </script>
 </body>
