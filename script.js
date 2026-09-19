@@ -55,24 +55,36 @@ async function loadMonitorData() {
                 document.getElementById('forecast-review-text').innerText = data.assessment.forecast_review || 'Bez vyhodnocení.';
             }
 
-            // Doporučení
+            // 4. Doporučení s automatickým převedením závorek (např. Maersk) na odkazy na akcie
             const list = document.getElementById('recommendations-list');
             if (list && data.assessment.recommendations) {
                 list.innerHTML = '';
                 data.assessment.recommendations.forEach(rec => {
                     const li = document.createElement('li');
-                    li.innerHTML = `<strong>${rec.action}</strong> <span>${rec.sector}</span>: ${rec.reason}`;
+                    
+                    // Automaticky převádí zmíněné firmy na odkazy na Yahoo Finance
+                    let reasonWithLinks = rec.reason.replace(/\((např\.\vert{}například)?\s*([^)]+)\)/gi, (match, prefix, companies) => {
+                        const linkedCompanies = companies.split(/,/s).map(comp => {
+                            const trimmed = comp.trim();
+                            if (!trimmed) return trimmed;
+                            const searchUrl = `https://finance.yahoo.com/lookup?s=${encodeURIComponent(trimmed)}`;
+                            return `<a href="${searchUrl}" target="_blank" class="stock-link">${trimmed}</a>`;
+                        }).join(', ');
+                        return `(${prefix ? prefix + ' ' : ''}${linkedCompanies})`;
+                    });
+
+                    li.innerHTML = `<strong>${rec.action}</strong> <span class="sector-tag">${rec.sector}</span>: ${reasonWithLinks}`;
                     list.appendChild(li);
                 });
             }
         }
 
-        // 4. Týdenní shrnutí
+        // 5. Týdenní shrnutí
         if (data.weekly_summary) {
             document.getElementById('weekly-summary').innerText = data.weekly_summary;
         }
 
-        // 5. Lokace zpráv
+        // 6. Lokace zpráv s mezerami
         const locContainer = document.getElementById('locations-container');
         if (locContainer && data.locations) {
             locContainer.innerHTML = '';
