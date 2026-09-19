@@ -8,185 +8,299 @@
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://matesva.github.io/Redsea-monitor/">
     <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#0f172a">
+    <meta name="theme-color" content="#0b1d26">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js"></script>
     <style>
         * { box-sizing: border-box; }
         :root {
-            --bg: #0a0e1a; --bg2: #16213e; --card: rgba(30,41,59,0.9); --card2: rgba(23,32,49,0.9);
-            --text: #f1f5f9; --text-dim: #94a3b8; --border: rgba(148,163,184,0.12);
+            --ink: #0b1d26;
+            --ink2: #142c3a;
+            --paper: #e7e0cd;
+            --paper-dim: #d9d0b8;
+            --brass: #b8863b;
+            --brass-dim: #8a6a35;
+            --teal: #4a7c85;
+            --alert: #a13d2b;
+            --text: #e7e0cd;
+            --text-dim: #9aa8ac;
+            --rule: rgba(184,134,59,0.35);
         }
         body.light {
-            --bg: #f1f5f9; --bg2: #e2e8f0; --card: rgba(255,255,255,0.9); --card2: rgba(248,250,252,0.9);
-            --text: #0f172a; --text-dim: #475569; --border: rgba(15,23,42,0.1);
+            --ink: #ece6d6;
+            --ink2: #e0d8c0;
+            --paper: #0b1d26;
+            --text: #1c2b2e;
+            --text-dim: #5c6b6e;
+            --rule: rgba(11,29,38,0.18);
         }
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            background: radial-gradient(circle at top, var(--bg2) 0%, var(--bg) 60%);
+            font-family: 'Spectral', Georgia, serif;
+            background-color: var(--ink);
+            background-image:
+                radial-gradient(circle at 1px 1px, rgba(184,134,59,0.06) 1px, transparent 0);
+            background-size: 22px 22px;
             color: var(--text);
-            margin: 0; padding: 24px 16px 60px; min-height: 100vh;
+            margin: 0; padding: 0 0 80px;
+            min-height: 100vh;
             transition: background 0.3s, color 0.3s;
         }
-        .container { max-width: 960px; margin: 0 auto; }
-        .top-bar { display: flex; justify-content: flex-end; margin-bottom: 8px; }
-        .toggle-btn {
-            background: var(--card); border: 1px solid var(--border); color: var(--text);
-            border-radius: 20px; padding: 6px 14px; cursor: pointer; font-size: 0.85em;
+        .mono { font-family: 'IBM Plex Mono', monospace; }
+        .container { max-width: 780px; margin: 0 auto; padding: 0 20px; }
+
+        /* Masthead */
+        .masthead {
+            border-bottom: 3px double var(--brass);
+            padding: 28px 20px 16px;
+            max-width: 780px; margin: 0 auto;
+            position: relative; overflow: hidden;
+        }
+        .masthead-compass {
+            position: absolute; top: -30px; right: -30px; width: 160px; height: 160px;
+            opacity: 0.08; pointer-events: none;
+        }
+        .masthead-compass path, .masthead-compass circle, .masthead-compass line { stroke: var(--brass); fill: none; }
+        .wave-divider { display: block; width: 100%; height: 10px; max-width: 780px; margin: 0 auto; }
+        .wave-divider path { stroke: var(--rule); fill: none; stroke-width: 1.5; }
+        .masthead-top {
+            display: flex; justify-content: space-between; align-items: baseline;
+            font-family: 'IBM Plex Mono', monospace; font-size: 0.72em;
+            letter-spacing: 0.04em; color: var(--brass);
+            margin-bottom: 14px;
+        }
+        .theme-toggle {
+            background: none; border: 1px solid var(--rule); color: var(--text-dim);
+            font-family: 'IBM Plex Mono', monospace; font-size: 0.85em;
+            padding: 4px 10px; cursor: pointer; border-radius: 2px;
         }
         h1 {
-            font-size: 1.9em; font-weight: 800; text-align: center; margin: 0 0 4px;
-            background: linear-gradient(90deg, #38bdf8, #818cf8);
-            -webkit-background-clip: text; background-clip: text; color: transparent;
+            font-size: 2.1em; font-weight: 700; margin: 0 0 6px; line-height: 1.15;
+            letter-spacing: -0.01em;
         }
-        .subtitle { text-align: center; color: var(--text-dim); font-size: 0.85em; margin-bottom: 8px; }
-        .share-row { display: flex; justify-content: center; gap: 10px; margin-bottom: 28px; flex-wrap: wrap; }
+        .dispatch-line {
+            font-family: 'IBM Plex Mono', monospace; font-size: 0.78em; color: var(--text-dim);
+            display: flex; gap: 16px; flex-wrap: wrap; align-items: center;
+        }
+        .share-row { display: flex; gap: 14px; margin-top: 14px; }
         .share-btn {
-            border: 1px solid var(--border); background: var(--card); color: var(--text);
-            border-radius: 10px; padding: 6px 12px; font-size: 0.8em; text-decoration: none;
+            font-family: 'IBM Plex Mono', monospace; font-size: 0.75em;
+            color: var(--brass); text-decoration: none; border-bottom: 1px solid transparent;
         }
-        .card {
-            background: linear-gradient(180deg, var(--card), var(--card2));
-            border-radius: 16px; padding: 22px; margin-bottom: 18px;
-            border: 1px solid var(--border); box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+        .share-btn:hover { border-bottom-color: var(--brass); }
+
+        /* Sections as bulletins, not cards */
+        .bulletin {
+            padding: 26px 0; border-bottom: 1px solid var(--rule);
         }
-        .card h2 { display: flex; align-items: center; gap: 8px; font-size: 1.1em; font-weight: 700; margin: 0 0 14px; }
-        .badge {
-            display: inline-block; padding: 5px 16px; border-radius: 999px; font-weight: 700;
-            font-size: 0.8em; letter-spacing: 0.5px; text-transform: uppercase;
+        .bulletin h2 {
+            font-family: 'IBM Plex Mono', monospace; font-size: 0.72em;
+            font-weight: 600; letter-spacing: 0.06em; color: var(--brass);
+            margin: 0 0 16px; display: flex; align-items: baseline; gap: 10px;
         }
-        .bg-KRITICKÁ { background: linear-gradient(90deg,#ef4444,#dc2626); color: white; }
-        .bg-VYSOKÁ   { background: linear-gradient(90deg,#f97316,#ea580c); color: white; }
-        .bg-STŘEDNÍ  { background: linear-gradient(90deg,#eab308,#ca8a04); color: #1e1b0a; }
-        .bg-STABILNÍ { background: linear-gradient(90deg,#22c55e,#16a34a); color: white; }
+        .bulletin h2::before { content: "§"; opacity: 0.6; }
 
-        .sentiment-bar-wrap { background: rgba(148,163,184,0.15); border-radius: 8px; height: 10px; overflow: hidden; margin-top: 12px; }
-        .sentiment-bar { height: 100%; border-radius: 8px; transition: width 0.6s ease, background 0.3s; }
-        .sentiment-label { font-size: 0.75em; margin-top: 4px; font-weight: 600; }
+        /* Threat seal — the one bold moment */
+        .seal-wrap { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; }
+        .seal {
+            width: 100px; height: 100px; position: relative;
+            display: flex; align-items: center; justify-content: center;
+            font-family: 'IBM Plex Mono', monospace; font-weight: 700;
+            font-size: 0.7em; text-align: center; line-height: 1.3;
+            letter-spacing: 0.02em; flex-shrink: 0;
+            transform: rotate(-3deg);
+        }
+        .seal svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+        .seal svg circle { fill: none; stroke: currentColor; }
+        .seal-text { position: relative; z-index: 1; }
+        .seal-STABILNÍ { color: #6a9b6e; }
+        .seal-STŘEDNÍ  { color: var(--brass); }
+        .seal-VYSOKÁ   { color: #c07a3a; }
+        .seal-KRITICKÁ { color: var(--alert); }
+        .seal-body { flex: 1; min-width: 220px; }
+        #security-status { line-height: 1.7; color: var(--text-dim); margin: 0; font-size: 1em; }
 
-        p#security-status, p#forecast, p#forecast-review, p#weekly-summary { line-height: 1.7; color: var(--text-dim); margin: 0; font-size: 0.97em; }
+        .sentiment-bar-wrap { background: var(--rule); height: 3px; margin-top: 16px; }
+        .sentiment-bar { height: 100%; transition: width 0.6s ease, background 0.3s; }
+        .sentiment-label { font-family: 'IBM Plex Mono', monospace; font-size: 0.72em; margin-top: 6px; color: var(--text-dim); }
 
-        .recs-grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
-        @media (min-width: 640px) { .recs-grid { grid-template-columns: 1fr 1fr; } }
-        .rec-item { background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 12px; padding: 14px; }
-        .rec-item strong { display: block; margin-top: 6px; font-size: 0.95em; }
-        .rec-item p { margin: 6px 0 0; color: var(--text-dim); font-size: 0.85em; line-height: 1.5; }
-        .rec-item a.ticker { font-size: 0.75em; color: #7dd3fc; text-decoration: none; }
+        p#forecast, p#forecast-review, p#weekly-summary {
+            line-height: 1.75; color: var(--text-dim); margin: 0; font-size: 1em;
+        }
 
-        .action { font-weight: 700; padding: 3px 10px; border-radius: 6px; font-size: 0.75em; }
-        .action-KOUPIT { background: rgba(34,197,94,0.15); color: #4ade80; }
-        .action-PRODAT { background: rgba(239,68,68,0.15); color: #fca5a5; }
-        .action-DRŽET  { background: rgba(234,179,8,0.15); color: #fde047; }
+        /* Oil ticker — treated as a data readout, not a card */
+        .ticker-row {
+            display: flex; gap: 32px; flex-wrap: wrap;
+            border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+            padding: 14px 0;
+        }
+        .ticker-item { font-family: 'IBM Plex Mono', monospace; }
+        .ticker-item .val { font-size: 1.5em; font-weight: 600; color: var(--brass); }
+        .ticker-item .lbl { display: block; font-size: 0.7em; color: var(--text-dim); margin-top: 2px; }
+        .ticker-item .cached-note { font-size: 0.65em; color: var(--brass-dim); }
 
-        .stat-grid { display: flex; gap: 24px; flex-wrap: wrap; }
-        .stat-item strong { font-size: 1.5em; }
-        .stat-item span { display: block; color: var(--text-dim); font-size: 0.85em; margin-top: 2px; }
-        .stat-item .cached-note { font-size: 0.7em; color: #eab308; }
+        .recs-list { display: flex; flex-direction: column; gap: 0; }
+        .rec-item { padding: 14px 0; border-top: 1px solid var(--rule); }
+        .rec-item:first-child { border-top: none; }
+        .rec-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+        .rec-item strong { font-size: 1em; font-weight: 600; }
+        .rec-item p { margin: 6px 0 0; color: var(--text-dim); font-size: 0.92em; line-height: 1.6; }
+        .rec-item a.ticker-link { font-family: 'IBM Plex Mono', monospace; font-size: 0.72em; color: var(--teal); text-decoration: none; }
+        .rec-item a.ticker-link:hover { text-decoration: underline; }
 
-        .timeline { position: relative; padding-left: 20px; }
-        .timeline::before { content: ""; position: absolute; left: 5px; top: 6px; bottom: 6px; width: 2px; background: rgba(148,163,184,0.2); }
-        .news-item { position: relative; padding: 8px 0 8px 14px; }
-        .news-item::before { content: ""; position: absolute; left: -20px; top: 14px; width: 8px; height: 8px; border-radius: 50%; background: #38bdf8; }
-        .news-item a { color: #7dd3fc; text-decoration: none; font-weight: 500; font-size: 0.95em; }
-        .news-item a:hover { color: #38bdf8; text-decoration: underline; }
-        .news-date { display: block; font-size: 0.75em; color: var(--text-dim); margin-top: 3px; }
+        .action { font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 0.7em; letter-spacing: 0.03em; }
+        .action-KOUPIT { color: #6a9b6e; }
+        .action-PRODAT { color: var(--alert); }
+        .action-DRŽET  { color: var(--brass); }
+        .action::before { content: "▸ "; }
 
-        #map { height: 360px; border-radius: 12px; z-index: 0; overflow: hidden; }
-        .top-location-note { font-size: 0.85em; color: var(--text-dim); margin-top: 10px; }
+        .timeline { position: relative; }
+        .news-item { padding: 10px 0; border-top: 1px solid var(--rule); }
+        .news-item:first-child { border-top: none; }
+        .news-item a { color: var(--text); text-decoration: none; font-weight: 500; font-size: 1em; }
+        .news-item a:hover { color: var(--brass); }
+        .news-date { display: block; font-family: 'IBM Plex Mono', monospace; font-size: 0.68em; color: var(--text-dim); margin-top: 4px; }
 
-        .archive-item { border-bottom: 1px solid var(--border); padding: 10px 0; cursor: pointer; }
-        .archive-item:last-child { border-bottom: none; }
-        .archive-header { display: flex; justify-content: space-between; align-items: center; font-size: 0.9em; gap: 10px; }
-        .archive-body { display: none; margin-top: 8px; font-size: 0.85em; color: var(--text-dim); line-height: 1.6; }
+        #map { height: 340px; border: 1px solid var(--rule); z-index: 0; filter: saturate(0.7); }
+        .top-location-note { font-family: 'IBM Plex Mono', monospace; font-size: 0.78em; color: var(--text-dim); margin-top: 12px; }
+
+        .archive-item { border-top: 1px solid var(--rule); padding: 12px 0; cursor: pointer; }
+        .archive-item:first-child { border-top: none; }
+        .archive-header { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+        .archive-header .adate { font-family: 'IBM Plex Mono', monospace; font-size: 0.8em; color: var(--text-dim); }
+        .archive-header .alevel { font-family: 'IBM Plex Mono', monospace; font-size: 0.7em; font-weight: 600; letter-spacing: 0.03em; }
+        .alevel-KRITICKÁ { color: var(--alert); }
+        .alevel-VYSOKÁ { color: #c07a3a; }
+        .alevel-STŘEDNÍ { color: var(--brass); }
+        .alevel-STABILNÍ { color: #6a9b6e; }
+        .archive-body { display: none; margin-top: 10px; font-size: 0.9em; color: var(--text-dim); line-height: 1.65; }
         .archive-item.open .archive-body { display: block; }
 
-        .skeleton { color: #475569; font-size: 0.9em; display: flex; align-items: center; gap: 8px; }
-        .skeleton::before {
-            content: ""; width: 14px; height: 14px; border: 2px solid #334155;
-            border-top-color: #38bdf8; border-radius: 50%; animation: spin 0.8s linear infinite;
+        .skeleton { color: var(--text-dim); font-size: 0.9em; font-style: italic; }
+        footer {
+            text-align: center; color: var(--text-dim); font-family: 'IBM Plex Mono', monospace;
+            font-size: 0.68em; margin-top: 34px; letter-spacing: 0.03em;
         }
-        @keyframes spin { to { transform: rotate(360deg); } }
-        footer { text-align: center; color: var(--text-dim); font-size: 0.75em; margin-top: 30px; }
 
         #scroll-top {
-            position: fixed; bottom: 24px; right: 20px; width: 44px; height: 44px;
-            border-radius: 50%; background: #38bdf8; color: white; border: none;
-            font-size: 1.2em; cursor: pointer; display: none; box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            position: fixed; bottom: 24px; right: 20px; width: 40px; height: 40px;
+            background: var(--paper); color: var(--ink); border: 2px solid var(--brass);
+            font-size: 1.1em; cursor: pointer; display: none; font-family: 'IBM Plex Mono', monospace;
             z-index: 100;
         }
         #scroll-top.visible { display: block; }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 1.6em; }
+            .seal { width: 78px; height: 78px; font-size: 0.65em; }
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="top-bar">
-            <button class="toggle-btn" onclick="toggleTheme()">🌓 Přepnout téma</button>
+    <div class="masthead">
+        <svg class="masthead-compass" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="80" cy="80" r="70"/>
+            <circle cx="80" cy="80" r="50"/>
+            <line x1="80" y1="4" x2="80" y2="156"/>
+            <line x1="4" y1="80" x2="156" y2="80"/>
+            <line x1="24" y1="24" x2="136" y2="136"/>
+            <line x1="136" y1="24" x2="24" y2="136"/>
+            <path d="M80 20 L86 80 L80 140 L74 80 Z"/>
+        </svg>
+        <div class="masthead-top">
+            <span>RED SEA MONITOR · VOL. AUTO</span>
+            <button class="theme-toggle" onclick="toggleTheme()">◑ TÉMA</button>
         </div>
-        <h1>🌊 Rudé moře: AI Monitor & Geopolitika</h1>
-        <div class="subtitle">Poslední aktualizace: <span id="updated-relative">Načítání...</span> (<span id="updated">--</span>)</div>
+        <h1>Rudé moře: bezpečnost &amp; geopolitika</h1>
+        <div class="dispatch-line">
+            <span>Aktualizováno <strong id="updated-relative">načítání…</strong></span>
+            <span id="updated">--</span>
+        </div>
         <div class="share-row">
-            <a class="share-btn" id="share-whatsapp" href="#" target="_blank">📱 WhatsApp</a>
-            <a class="share-btn" id="share-x" href="#" target="_blank">🐦 X</a>
-            <a class="share-btn" href="rss.xml" target="_blank">📡 RSS</a>
+            <a class="share-btn" id="share-whatsapp" href="#" target="_blank">WhatsApp ↗</a>
+            <a class="share-btn" id="share-x" href="#" target="_blank">X ↗</a>
+            <a class="share-btn" href="rss.xml" target="_blank">RSS ↗</a>
+        </div>
+    </div>
+    <svg class="wave-divider" viewBox="0 0 780 10" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 5 Q 15 0, 30 5 T 60 5 T 90 5 T 120 5 T 150 5 T 180 5 T 210 5 T 240 5 T 270 5 T 300 5 T 330 5 T 360 5 T 390 5 T 420 5 T 450 5 T 480 5 T 510 5 T 540 5 T 570 5 T 600 5 T 630 5 T 660 5 T 690 5 T 720 5 T 750 5 T 780 5"/>
+    </svg>
+
+    <div class="container">
+
+        <div class="bulletin">
+            <h2>Trh: ropa a měnový kurz</h2>
+            <div id="oil-prices" class="skeleton">Načítání dat…</div>
         </div>
 
-        <div class="card">
-            <h2>🛡️ Aktuální Úroveň Hrozby: <span id="threat-level" class="badge">--</span></h2>
-            <p id="security-status" class="skeleton">Načítání AI analýzy...</p>
-            <div class="sentiment-bar-wrap"><div class="sentiment-bar" id="sentiment-bar" style="width:0%"></div></div>
-            <div class="sentiment-label" id="sentiment-label"></div>
+        <div class="bulletin">
+            <h2>Úroveň hrozby</h2>
+            <div class="seal-wrap">
+                <div id="threat-level" class="seal">
+                    <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" stroke-width="2"/><circle cx="50" cy="50" r="38" stroke-width="1"/></svg>
+                    <span class="seal-text">--</span>
+                </div>
+                <div class="seal-body">
+                    <p id="security-status" class="skeleton">Načítání AI analýzy…</p>
+                    <div class="sentiment-bar-wrap"><div class="sentiment-bar" id="sentiment-bar" style="width:0%"></div></div>
+                    <div class="sentiment-label" id="sentiment-label"></div>
+                </div>
+            </div>
         </div>
 
-        <div class="card">
-            <h2>📅 Týdenní shrnutí</h2>
-            <p id="weekly-summary" class="skeleton">Načítání...</p>
+        <div class="bulletin">
+            <h2>Týdenní shrnutí</h2>
+            <p id="weekly-summary" class="skeleton">Načítání…</p>
         </div>
 
-        <div class="card">
-            <h2>💼 Investiční Doporučení</h2>
-            <div id="recommendations" class="skeleton">Načítání doporučení...</div>
+        <div class="bulletin">
+            <h2>Investiční doporučení</h2>
+            <div id="recommendations" class="skeleton">Načítání doporučení…</div>
         </div>
 
-        <div class="card">
-            <h2>🛢️ Trh: Ropa a měnový kurz</h2>
-            <div id="oil-prices" class="skeleton">Načítání dat...</div>
+        <div class="bulletin">
+            <h2>Předpověď vývoje</h2>
+            <p id="forecast" class="skeleton">Načítání předpovědi…</p>
         </div>
 
-        <div class="card">
-            <h2>🔮 Předpověď Vývoje</h2>
-            <p id="forecast" class="skeleton">Načítání předpovědi...</p>
+        <div class="bulletin">
+            <h2>Vyhodnocení předchozí předpovědi</h2>
+            <p id="forecast-review" class="skeleton">Načítání…</p>
         </div>
 
-        <div class="card">
-            <h2>✅ Vyhodnocení předchozí předpovědi</h2>
-            <p id="forecast-review" class="skeleton">Načítání...</p>
+        <div class="bulletin">
+            <h2>Vývoj úrovně hrozby</h2>
+            <canvas id="threatChart" height="140"></canvas>
         </div>
 
-        <div class="card">
-            <h2>📈 Vývoj úrovně hrozby</h2>
-            <canvas id="threatChart" height="120"></canvas>
-        </div>
-
-        <div class="card">
-            <h2>🗺️ Mapa zmiňovaných lokalit</h2>
+        <div class="bulletin">
+            <h2>Mapa zmiňovaných lokalit</h2>
             <div id="map"></div>
             <div class="top-location-note" id="top-location-note"></div>
         </div>
 
-        <div class="card">
-            <h2>📰 Monitoring Zpráv (Posledních 24h)</h2>
-            <div id="articles" class="skeleton timeline">Načítání zpráv...</div>
+        <div class="bulletin">
+            <h2>Monitoring zpráv (posledních 24h)</h2>
+            <div id="articles" class="skeleton timeline">Načítání zpráv…</div>
         </div>
 
-        <div class="card">
-            <h2>🗂️ Archiv předchozích analýz</h2>
-            <div id="archive" class="skeleton">Načítání archivu...</div>
+        <div class="bulletin">
+            <h2>Archiv předchozích analýz</h2>
+            <div id="archive" class="skeleton">Načítání archivu…</div>
         </div>
 
-        <footer>AI Red Sea Monitor · aktualizováno automaticky</footer>
+        <footer>
+            <svg width="18" height="18" viewBox="0 0 24 24" style="vertical-align:-4px; opacity:0.6; margin-right:6px;" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="5" r="2" fill="none" stroke="currentColor" stroke-width="1.2"/>
+                <line x1="12" y1="7" x2="12" y2="20" stroke="currentColor" stroke-width="1.2"/>
+                <path d="M5 14 Q12 21 19 14" fill="none" stroke="currentColor" stroke-width="1.2"/>
+                <line x1="7" y1="10" x2="17" y2="10" stroke="currentColor" stroke-width="1.2"/>
+            </svg>
+            RED SEA AI MONITOR — AKTUALIZOVÁNO AUTOMATICKY
+        </footer>
     </div>
 
     <button id="scroll-top" onclick="window.scrollTo({top:0, behavior:'smooth'})">↑</button>
@@ -235,9 +349,9 @@
         }
 
         function sentimentColor(score) {
-            if (score < 34) return '#22c55e';
-            if (score < 67) return '#eab308';
-            return '#ef4444';
+            if (score < 34) return '#6a9b6e';
+            if (score < 67) return '#b8863b';
+            return '#a13d2b';
         }
 
         fetch('data.json')
@@ -252,9 +366,10 @@
                 document.getElementById('share-x').href = `https://twitter.com/intent/tweet?text=${shareText}&url=${pageUrl}`;
 
                 const threat = data.assessment.threat_level || 'NEZNÁMÁ';
+                const threatKey = threat.split(' ')[0].split('/')[0].trim();
                 const threatElem = document.getElementById('threat-level');
-                threatElem.innerText = threat;
-                threatElem.className = 'badge bg-' + threat.split(' ')[0];
+                threatElem.className = 'seal seal-' + threatKey;
+                threatElem.querySelector('.seal-text').innerText = threatKey;
 
                 document.getElementById('security-status').className = '';
                 document.getElementById('security-status').innerText = data.assessment.security_status || '';
@@ -266,7 +381,6 @@
                 bar.style.background = color;
                 const label = document.getElementById('sentiment-label');
                 label.innerText = `Sentiment napětí: ${score}/100`;
-                label.style.color = color;
 
                 document.getElementById('weekly-summary').className = '';
                 document.getElementById('weekly-summary').innerText = data.weekly_summary || 'Zatím není dostatek dat.';
@@ -281,24 +395,26 @@
                 recsContainer.className = '';
                 recsContainer.innerHTML = '';
                 if (data.assessment.recommendations && data.assessment.recommendations.length > 0) {
-                    const grid = document.createElement('div');
-                    grid.className = 'recs-grid';
+                    const list = document.createElement('div');
+                    list.className = 'recs-list';
                     data.assessment.recommendations.forEach(r => {
                         let tickerLinks = '';
                         Object.keys(TICKERS).forEach(name => {
                             if (r.sector.includes(name)) {
-                                tickerLinks += `<a class="ticker" href="${TICKERS[name]}" target="_blank">📊 ${name}</a> `;
+                                tickerLinks += `<a class="ticker-link" href="${TICKERS[name]}" target="_blank">${name} ↗</a> `;
                             }
                         });
-                        grid.innerHTML += `
+                        list.innerHTML += `
                             <div class="rec-item">
-                                <span class="action action-${r.action}">${r.action}</span>
-                                <strong>${r.sector}</strong>
+                                <div class="rec-head">
+                                    <span class="action action-${r.action}">${r.action}</span>
+                                    <strong>${r.sector}</strong>
+                                </div>
                                 <p>${r.reason}</p>
                                 ${tickerLinks ? `<div style="margin-top:8px;">${tickerLinks}</div>` : ''}
                             </div>`;
                     });
-                    recsContainer.appendChild(grid);
+                    recsContainer.appendChild(list);
                 } else {
                     recsContainer.innerText = 'Žádná doporučení k dispozici.';
                 }
@@ -310,10 +426,10 @@
                 const wti = data.oil_prices?.wti;
                 const usdCzk = data.usd_czk;
                 if (brent || wti || usdCzk) {
-                    let html = '<div class="stat-grid">';
-                    if (brent) html += `<div class="stat-item"><strong>$${brent.value.toFixed(2)}</strong><span>Brent (${brent.date})</span>${brent.cached ? '<span class="cached-note">poslední známá hodnota</span>' : ''}</div>`;
-                    if (wti) html += `<div class="stat-item"><strong>$${wti.value.toFixed(2)}</strong><span>WTI (${wti.date})</span>${wti.cached ? '<span class="cached-note">poslední známá hodnota</span>' : ''}</div>`;
-                    if (usdCzk) html += `<div class="stat-item"><strong>${usdCzk.value.toFixed(2)} Kč</strong><span>USD/CZK (${usdCzk.date})</span></div>`;
+                    let html = '<div class="ticker-row">';
+                    if (brent) html += `<div class="ticker-item"><span class="val">$${brent.value.toFixed(2)}</span><span class="lbl">BRENT · ${brent.date}</span>${brent.cached ? '<span class="cached-note">poslední známá hodnota</span>' : ''}</div>`;
+                    if (wti) html += `<div class="ticker-item"><span class="val">$${wti.value.toFixed(2)}</span><span class="lbl">WTI · ${wti.date}</span>${wti.cached ? '<span class="cached-note">poslední známá hodnota</span>' : ''}</div>`;
+                    if (usdCzk) html += `<div class="ticker-item"><span class="val">${usdCzk.value.toFixed(2)} Kč</span><span class="lbl">USD/CZK · ${usdCzk.date}</span></div>`;
                     html += '</div>';
                     oilContainer.innerHTML = html;
                 } else {
@@ -331,42 +447,42 @@
                                     {
                                         label: 'Úroveň hrozby',
                                         data: data.history.map(h => h.value),
-                                        borderColor: '#38bdf8',
-                                        backgroundColor: 'rgba(56,189,248,0.15)',
-                                        tension: 0.35, fill: true, pointRadius: 3, borderWidth: 2.5, yAxisID: 'y'
+                                        borderColor: '#b8863b',
+                                        backgroundColor: 'rgba(184,134,59,0.12)',
+                                        tension: 0.25, fill: true, pointRadius: 2, borderWidth: 2, yAxisID: 'y'
                                     },
                                     {
                                         label: 'Počet incidentů',
                                         data: data.history.map(h => h.incidents ?? null),
-                                        borderColor: '#f97316',
-                                        backgroundColor: 'rgba(249,115,22,0.1)',
-                                        tension: 0.35, fill: false, pointRadius: 2, borderWidth: 1.5, yAxisID: 'y1'
+                                        borderColor: '#a13d2b',
+                                        backgroundColor: 'transparent',
+                                        tension: 0.25, fill: false, pointRadius: 2, borderWidth: 1.5, yAxisID: 'y1'
                                     },
                                     {
                                         label: 'Brent ($)',
                                         data: data.history.map(h => h.brent ?? null),
-                                        borderColor: '#22c55e',
-                                        backgroundColor: 'rgba(34,197,94,0.1)',
-                                        tension: 0.35, fill: false, pointRadius: 2, borderWidth: 1.5, yAxisID: 'y1'
+                                        borderColor: '#4a7c85',
+                                        backgroundColor: 'transparent',
+                                        tension: 0.25, fill: false, pointRadius: 2, borderWidth: 1.5, yAxisID: 'y1'
                                     }
                                 ]
                             },
                             options: {
                                 responsive: true,
-                                plugins: { legend: { labels: { color: '#cbd5e1' } } },
+                                plugins: { legend: { labels: { color: '#9aa8ac', font: { family: 'IBM Plex Mono', size: 10 } } } },
                                 scales: {
                                     y: {
                                         min: 0.5, max: 4.5, position: 'left',
-                                        ticks: { stepSize: 1, color: '#94a3b8', callback: v => ({1:'STABILNÍ',2:'STŘEDNÍ',3:'VYSOKÁ',4:'KRITICKÁ'}[v] || '') },
-                                        grid: { color: 'rgba(148,163,184,0.08)' }
+                                        ticks: { stepSize: 1, color: '#9aa8ac', font: { family: 'IBM Plex Mono', size: 9 }, callback: v => ({1:'STABILNÍ',2:'STŘEDNÍ',3:'VYSOKÁ',4:'KRITICKÁ'}[v] || '') },
+                                        grid: { color: 'rgba(184,134,59,0.12)' }
                                     },
-                                    y1: { position: 'right', ticks: { color: '#94a3b8' }, grid: { display: false } },
-                                    x: { ticks: { color: '#64748b', maxRotation: 45 }, grid: { color: 'rgba(148,163,184,0.05)' } }
+                                    y1: { position: 'right', ticks: { color: '#9aa8ac', font: { family: 'IBM Plex Mono', size: 9 } }, grid: { display: false } },
+                                    x: { ticks: { color: '#9aa8ac', maxRotation: 45, font: { family: 'IBM Plex Mono', size: 9 } }, grid: { color: 'rgba(184,134,59,0.06)' } }
                                 }
                             }
                         });
                     } else {
-                        document.getElementById('threatChart').outerHTML = '<p style="color:#64748b;">Zatím není dostatek dat pro graf.</p>';
+                        document.getElementById('threatChart').outerHTML = '<p style="color:#9aa8ac;">Zatím není dostatek dat pro graf.</p>';
                     }
                 } catch (e) { console.error('Chart error:', e); }
 
@@ -378,20 +494,20 @@
                             maxZoom: 16
                         }).addTo(map);
                         data.locations.forEach(loc => {
-                            L.circleMarker([loc.lat, loc.lon], { radius: 8, fillColor: '#38bdf8', color: '#0ea5e9', weight: 2, fillOpacity: 0.7 })
+                            L.circleMarker([loc.lat, loc.lon], { radius: 7, fillColor: '#b8863b', color: '#8a6a35', weight: 2, fillOpacity: 0.8 })
                                 .addTo(map).bindPopup(`<strong>${loc.name}</strong>`);
                         });
                     } else {
-                        document.getElementById('map').innerHTML = '<p style="color:#64748b; padding:20px;">Žádné lokality nerozpoznány.</p>';
+                        document.getElementById('map').innerHTML = '<p style="color:#9aa8ac; padding:20px;">Žádné lokality nerozpoznány.</p>';
                     }
                 } catch (e) {
                     console.error('Map error:', e);
-                    document.getElementById('map').innerHTML = '<p style="color:#64748b; padding:20px;">Mapu se nepodařilo načíst.</p>';
+                    document.getElementById('map').innerHTML = '<p style="color:#9aa8ac; padding:20px;">Mapu se nepodařilo načíst.</p>';
                 }
 
                 if (data.top_location) {
                     document.getElementById('top-location-note').innerText =
-                        `📍 Nejzmiňovanější lokalita: ${data.top_location.name} (${data.top_location.count}× od začátku sledování)`;
+                        `Nejzmiňovanější lokalita: ${data.top_location.name} (${data.top_location.count}× od začátku sledování)`;
                 }
 
                 const articlesContainer = document.getElementById('articles');
@@ -418,8 +534,8 @@
                         div.className = 'archive-item';
                         div.innerHTML = `
                             <div class="archive-header">
-                                <span>${entry.date}</span>
-                                <span class="badge bg-${entry.threat_level}">${entry.threat_level}</span>
+                                <span class="adate">${entry.date}</span>
+                                <span class="alevel alevel-${entry.threat_level}">${entry.threat_level}</span>
                             </div>
                             <div class="archive-body">
                                 <p><strong>Stav:</strong> ${entry.security_status}</p>
