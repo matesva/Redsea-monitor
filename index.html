@@ -8,34 +8,31 @@
 </head>
 <body>
 
-    <!-- Úvodní Banner s obrázkem -->
-    <header class="hero-banner">
-        <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80" alt="Rudé moře" class="hero-img">
-        <div class="hero-overlay">
-            <span class="sub-title">RED SEA MONITOR · VOL. AUTO</span>
-            <h1>Rudé moře: bezpečnost & geopolitika</h1>
-            <p id="last-updated">Aktualizováno načítání...</p>
-            <div class="nav-links">
-                <a href="rss.xml" target="_blank">RSS</a>
-            </div>
-        </div>
-    </header>
-
-    <main class="container">
+    <div class="container">
         
-        <!-- Sekce Trhu s obrázkem tankeru -->
+        <!-- Hlavička s obrázkem -->
+        <header>
+            <div class="hero-banner">
+                <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80" alt="Rudé moře" class="hero-img">
+                <div class="hero-overlay">
+                    <span class="sub-title">RED SEA MONITOR · VOL. AUTO</span>
+                    <h1>Rudé moře: bezpečnost & geopolitika</h1>
+                    <p id="last-updated">Aktualizováno načítání...</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Trh -->
         <section class="card market-card">
             <div class="card-content">
                 <h2>§ Trh: ropa a měnový kurz</h2>
-                <div class="price-row">
-                    <div class="price-box">
-                        <span class="price" id="brent-price">--.--</span>
-                        <span class="label">BRENT · <span id="brent-date">--</span></span>
-                    </div>
-                    <div class="price-box" id="czk-box">
-                        <span class="price" id="usd-czk-price">--.--</span>
-                        <span class="label">USD/CZK</span>
-                    </div>
+                <div class="price-box">
+                    <span class="price" id="brent-price">--.--</span>
+                    <span class="label">BRENT · <span id="brent-date">--</span></span>
+                </div>
+                <div class="price-box" id="czk-box">
+                    <span class="price" id="usd-czk-price">--.--</span>
+                    <span class="label">USD/CZK</span>
                 </div>
             </div>
             <div class="card-media">
@@ -43,33 +40,31 @@
             </div>
         </section>
 
-        <!-- Sekce Úrovně hrozby -->
+        <!-- Úroveň hrozby -->
         <section class="card threat-card">
             <h2>§ Úroveň hrozby</h2>
-            <div class="threat-body">
-                <div class="threat-badge-container">
-                    <div class="badge" id="threat-badge">--</div>
-                </div>
-                <div class="threat-info">
-                    <p id="security-status">Načítání bezpečnostního přehledu...</p>
-                    <div class="sentiment-bar-container">
-                        <div class="sentiment-bar" id="sentiment-bar" style="width: 0%;"></div>
-                    </div>
-                    <span class="sentiment-text">Sentiment napětí: <strong id="sentiment-score">0/100</strong></span>
-                </div>
+            <div class="threat-badge-container">
+                <div class="badge" id="threat-badge">--</div>
             </div>
-            <div class="card-media media-wide">
-                <img src="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&fit=crop&w=900&q=80" alt="Vojenská loď">
+            <p id="security-status">Načítání bezpečnostního přehledu...</p>
+            
+            <div class="sentiment-bar-container">
+                <div class="sentiment-bar" id="sentiment-bar" style="width: 0%;"></div>
+            </div>
+            <span class="sentiment-text">Sentiment napětí: <strong id="sentiment-score">0/100</strong></span>
+
+            <div class="card-media media-wide" style="margin-top: 15px;">
+                <img src="https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&fit=crop&w=900&q=80" alt="Vojenská technika">
             </div>
         </section>
 
-        <!-- Výhled na nejbližší dny -->
+        <!-- Výhled vývoje -->
         <section class="card">
             <h2>§ Výhled vývoje</h2>
             <p id="forecast-text">Načítání odhadu vývoje...</p>
         </section>
 
-        <!-- Zpětné vyhodnocení předpovědi -->
+        <!-- Zpětné vyhodnocení -->
         <section class="card">
             <h2>§ Zpětné vyhodnocení předchozího odhadu</h2>
             <p id="forecast-review-text">Načítání vyhodnocení...</p>
@@ -84,7 +79,7 @@
         <!-- Sledované lokality -->
         <section class="card">
             <h2>§ Sledované lokality v článku</h2>
-            <div id="locations-container" class="locations-tags">
+            <div id="locations-container">
                 <!-- Dynamicky plněno z JS -->
             </div>
         </section>
@@ -92,13 +87,118 @@
         <!-- Investiční doporučení -->
         <section class="card">
             <h2>§ Investiční doporučení</h2>
-            <ul id="recommendations-list" class="recommendations">
+            <ul id="recommendations-list">
                 <!-- Dynamicky plněno z JS -->
             </ul>
         </section>
 
-    </main>
+    </div>
 
-    <script src="script.js"></script>
+    <!-- VLOŽENÝ JAVASCRIPT PŘÍMO V HTML -->
+    <script>
+        async function loadMonitorData() {
+            try {
+                const response = await fetch('./data.json?t=' + new Date().getTime());
+                const data = await response.json();
+
+                // 1. Čas aktualizace
+                if (data.last_updated) {
+                    const updatedDate = new Date(data.last_updated);
+                    const now = new Date();
+                    const diffMs = now - updatedDate;
+                    const diffHours = Math.floor(diffMs / (1000 * 60 * 60));
+                    const diffDays = Math.floor(diffHours / 24);
+
+                    let timeText = "";
+                    if (isNaN(updatedDate.getTime())) {
+                        timeText = data.last_updated;
+                    } else if (diffDays > 0) {
+                        timeText = `před ${diffDays} dny`;
+                    } else if (diffHours > 0) {
+                        timeText = `před ${diffHours} hodinami`;
+                    } else {
+                        timeText = "před chvílí";
+                    }
+                    document.getElementById('last-updated').innerText = `Aktualizováno ${timeText}`;
+                }
+
+                // 2. Ceny ropy a kurz
+                if (data.oil_prices && data.oil_prices.brent) {
+                    document.getElementById('brent-price').innerText = `$${data.oil_prices.brent.value.toFixed(2)}`;
+                    document.getElementById('brent-date').innerText = data.oil_prices.brent.date;
+                }
+                if (data.usd_czk) {
+                    document.getElementById('usd-czk-price').innerText = `${data.usd_czk.value} CZK`;
+                }
+
+                // 3. Bezpečnostní úroveň a sentiment
+                if (data.assessment) {
+                    const badge = document.getElementById('threat-badge');
+                    const level = data.assessment.threat_level || 'NEZNÁMÁ';
+                    badge.innerText = level;
+                    
+                    badge.className = 'badge ' + (level.includes('KRITICKÁ') ? 'critical' : level.includes('VYSOKÁ') ? 'high' : 'medium');
+                    
+                    document.getElementById('security-status').innerText = data.assessment.security_status || '';
+                    
+                    const score = data.assessment.sentiment_score || 0;
+                    document.getElementById('sentiment-score').innerText = `${score}/100`;
+                    document.getElementById('sentiment-bar').style.width = `${score}%`;
+
+                    // Výhled a vyhodnocení
+                    if (document.getElementById('forecast-text')) {
+                        document.getElementById('forecast-text').innerText = data.assessment.forecast || 'Bez výhledu.';
+                    }
+                    if (document.getElementById('forecast-review-text')) {
+                        document.getElementById('forecast-review-text').innerText = data.assessment.forecast_review || 'Bez vyhodnocení.';
+                    }
+
+                    // 4. Doporučení s odkazovanými akciemi
+                    const list = document.getElementById('recommendations-list');
+                    if (list && data.assessment.recommendations) {
+                        list.innerHTML = '';
+                        data.assessment.recommendations.forEach(rec => {
+                            const li = document.createElement('li');
+                            
+                            let reasonWithLinks = rec.reason.replace(/\((např\.\vert{}například)?\s*([^)]+)\)/gi, (match, prefix, companies) => {
+                                const linkedCompanies = companies.split(/,/s).map(comp => {
+                                    const trimmed = comp.trim();
+                                    if (!trimmed) return trimmed;
+                                    const searchUrl = `https://finance.yahoo.com/lookup?s=${encodeURIComponent(trimmed)}`;
+                                    return `<a href="${searchUrl}" target="_blank" class="stock-link">${trimmed}</a>`;
+                                }).join(', ');
+                                return `(${prefix ? prefix + ' ' : ''}${linkedCompanies})`;
+                            });
+
+                            li.innerHTML = `<strong>${rec.action}</strong> <span class="sector-tag">${rec.sector}</span>: ${reasonWithLinks}`;
+                            list.appendChild(li);
+                        });
+                    }
+                }
+
+                // 5. Týdenní shrnutí
+                if (data.weekly_summary) {
+                    document.getElementById('weekly-summary').innerText = data.weekly_summary;
+                }
+
+                // 6. Lokace
+                const locContainer = document.getElementById('locations-container');
+                if (locContainer && data.locations) {
+                    locContainer.innerHTML = '';
+                    data.locations.forEach(loc => {
+                        const tag = document.createElement('span');
+                        tag.className = 'location-tag';
+                        tag.innerText = loc.name;
+                        locContainer.appendChild(tag);
+                    });
+                }
+
+            } catch (error) {
+                console.error('Chyba při načítání data.json:', error);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', loadMonitorData);
+    </script>
 </body>
 </html>
