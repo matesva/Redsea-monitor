@@ -36,8 +36,6 @@ RSS_FEEDS = [
 KEYWORDS = ["Houthi", "Red Sea", "Yemen", "Bab-el-Mandeb", "Húthí", "shipping", "oil"]
 THREAT_MAP = {"STABLE": 1, "MEDIUM": 2, "HIGH": 3, "CRITICAL": 4}
 
-# Lokace mají název v obou jazycích; klíč slovníku (interní) zůstává anglický a stabilní,
-# takže location_counts a top_location fungují napříč jazyky bez rozjetí čítačů.
 LOCATIONS = {
     "Yemen": {"lat": 15.5527, "lon": 48.5164, "name_cs": "Jemen", "name_en": "Yemen"},
     "Red Sea": {"lat": 20.5, "lon": 38.0, "name_cs": "Rudé moře", "name_en": "Red Sea"},
@@ -235,7 +233,6 @@ def analyze_with_ai(articles, previous_forecast_cs, previous_forecast_en):
     try:
         clean_json = response.text.strip().removeprefix("```json").removeprefix("```").removesuffix("```").strip()
         parsed = json.loads(clean_json)
-        # bezpečnostní normalizace enum hodnot, kdyby AI přece jen vrátila jinak
         parsed["threat_level"] = str(parsed.get("threat_level", "HIGH")).split(" ")[0].split("/")[0].strip().upper()
         for rec in parsed.get("recommendations", []):
             rec["action"] = str(rec.get("action", "HOLD")).split(" ")[0].split("/")[0].strip().upper()
