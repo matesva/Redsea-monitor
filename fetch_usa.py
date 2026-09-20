@@ -1,696 +1,408 @@
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>USA & Investment AI Monitor</title>
-    <meta name="description" content="AI monitor politického, ekonomického a bezpečnostního dění v USA / US politics, economy & security AI monitor">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://matesva.github.io/Redsea-monitor/usa/">
-    <meta name="theme-color" content="#0b1d26">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css" />
-    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js"></script>
-    <script data-goatcounter="https://redsea-monitor.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-    <style>
-        * { box-sizing: border-box; }
-        :root {
-            --ink: #0b1d26;
-            --ink2: #142c3a;
-            --paper: #e7e0cd;
-            --paper-dim: #d9d0b8;
-            --brass: #6a8caf;
-            --brass-dim: #4f6b85;
-            --teal: #4a7c85;
-            --alert: #a13d2b;
-            --text: #e7e0cd;
-            --text-dim: #9aa8ac;
-            --rule: rgba(106,140,175,0.35);
+import feedparser
+import json
+import os
+import urllib.request
+import html
+from datetime import datetime, timezone
+from xml.sax.saxutils import escape
+from google import genai
+
+client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
+NTFY_TOPIC = os.environ.get("NTFY_TOPIC_USA") or os.environ.get("NTFY_TOPIC")
+
+RSS_FEEDS = [
+    "https://feeds.npr.org/1001/rss.xml",
+    "https://moxie.foxnews.com/google-publisher/latest.xml",
+    "https://apnews.com/hub/us-news?output=rss",
+    "https://apnews.com/hub/politics?output=rss",
+    "https://feeds.washingtonpost.com/rss/national",
+    "https://feeds.washingtonpost.com/rss/politics",
+    "https://www.theguardian.com/us-news/rss",
+    "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
+    "https://www.cbsnews.com/latest/rss/us",
+    "https://thehill.com/homenews/feed",
+    "https://www.realclearpolitics.com/index.xml",
+    "https://feeds.marketwatch.com/marketwatch/topstories/",
+    "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+    "https://www.cnbc.com/id/10000664/device/rss/rss.html",
+    "https://www.cnbc.com/id/10000113/device/rss/rss.html",
+    "https://www.politico.com/rss/politicopicks.xml",
+    "https://www.axios.com/feed",
+    "https://www.newsweek.com/rss",
+]
+
+KEYWORDS = [
+    "Trump", "White House", "Congress", "Senate", "Federal Reserve", "Fed ",
+    "shutdown", "tariff", "immigration", "ICE ", "National Guard",
+    "Supreme Court", "election", "protest", "wildfire", "hurricane",
+    "shooting", "strike", "sanctions", "Capitol", "recession", "inflation"
+]
+
+THREAT_MAP = {"STABLE": 1, "MEDIUM": 2, "HIGH": 3, "CRITICAL": 4}
+
+LOCATIONS = {
+    "Washington": {"lat": 38.9072, "lon": -77.0369, "name_cs": "Washington, D.C.", "name_en": "Washington, D.C."},
+    "New York": {"lat": 40.7128, "lon": -74.0060, "name_cs": "New York", "name_en": "New York"},
+    "Los Angeles": {"lat": 34.0522, "lon": -118.2437, "name_cs": "Los Angeles", "name_en": "Los Angeles"},
+    "Chicago": {"lat": 41.8781, "lon": -87.6298, "name_cs": "Chicago", "name_en": "Chicago"},
+    "Texas": {"lat": 31.9686, "lon": -99.9018, "name_cs": "Texas", "name_en": "Texas"},
+    "Florida": {"lat": 27.6648, "lon": -81.5158, "name_cs": "Florida", "name_en": "Florida"},
+    "California": {"lat": 36.7783, "lon": -119.4179, "name_cs": "Kalifornie", "name_en": "California"},
+    "Border": {"lat": 31.7619, "lon": -106.4850, "name_cs": "Hranice s Mexikem (El Paso)", "name_en": "US-Mexico Border (El Paso)"},
+    "Capitol": {"lat": 38.8899, "lon": -77.0091, "name_cs": "Kapitol", "name_en": "US Capitol"},
+    "Wall Street": {"lat": 40.7069, "lon": -74.0113, "name_cs": "Wall Street", "name_en": "Wall Street"},
+}
+
+
+def fetch_articles():
+    articles = []
+    for feed_url in RSS_FEEDS:
+        try:
+            feed = feedparser.parse(feed_url)
+            for entry in feed.entries:
+                title = html.unescape(entry.get("title", ""))
+                summary = html.unescape(entry.get("summary", ""))
+                if any(kw.lower() in (title + summary).lower() for kw in KEYWORDS):
+                    articles.append({
+                        "title": title,
+                        "summary": summary,
+                        "link": entry.get("link", "#"),
+                        "published": entry.get("published", datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")),
+                        "source": feed.feed.get("title", "News")
+                    })
+        except Exception as e:
+            print(f"Error processing feed {feed_url}: {e}")
+            continue
+    return articles[:20]
+
+
+def extract_locations(articles):
+    found = {}
+    text_blob = " ".join([a['title'] + " " + a['summary'] for a in articles])
+    for key, loc in LOCATIONS.items():
+        if key.lower() in text_blob.lower():
+            found[key] = {"key": key, "lat": loc["lat"], "lon": loc["lon"], "name_cs": loc["name_cs"], "name_en": loc["name_en"]}
+    return list(found.values())
+
+
+def fetch_yahoo_price(symbol, divisor=1):
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?range=5d&interval=1d"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5"
+    }
+    req = urllib.request.Request(url, headers=headers)
+    with urllib.request.urlopen(req, timeout=15) as resp:
+        result = json.loads(resp.read().decode("utf-8"))
+
+    chart_result = result.get("chart", {}).get("result")
+    if not chart_result:
+        raise ValueError(f"Yahoo Finance returned no data for {symbol}")
+
+    meta = chart_result[0].get("meta", {})
+    price = meta.get("regularMarketPrice") or meta.get("chartPreviousClose")
+    timestamp = meta.get("regularMarketTime")
+
+    if price is None:
+        raise ValueError(f"Missing price in response for {symbol}")
+
+    date_str = (datetime.fromtimestamp(timestamp, tz=timezone.utc).strftime("%Y-%m-%d")
+                if timestamp else datetime.now(timezone.utc).strftime("%Y-%m-%d"))
+
+    return {"value": round(float(price) / divisor, 2), "date": date_str, "cached": False}
+
+
+def fetch_market_data(previous):
+    data = {"sp500": None, "dow": None, "yield10y": None}
+    symbols = {"sp500": ("^GSPC", 1), "dow": ("^DJI", 1), "yield10y": ("^TNX", 10)}
+
+    for label, (symbol, divisor) in symbols.items():
+        try:
+            data[label] = fetch_yahoo_price(symbol, divisor)
+        except Exception as e:
+            print(f"Error fetching {label} ({symbol}): {e}")
+
+    if previous:
+        for label in symbols:
+            if not data.get(label) and previous.get(label):
+                cached = dict(previous[label])
+                cached["cached"] = True
+                data[label] = cached
+
+    return data
+
+
+def fetch_usd_czk():
+    try:
+        url = "https://api.frankfurter.app/latest?from=USD&to=CZK"
+        with urllib.request.urlopen(url, timeout=10) as resp:
+            result = json.loads(resp.read().decode("utf-8"))
+            rate = result.get("rates", {}).get("CZK")
+            date = result.get("date")
+            if rate:
+                return {"value": round(rate, 3), "date": date}
+    except Exception as e:
+        print(f"Error fetching USD/CZK rate: {e}")
+    return None
+
+
+def load_previous_data():
+    if os.path.exists("usa/data.json"):
+        try:
+            with open("usa/data.json", "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            return {}
+    return {}
+
+
+def fallback_assessment():
+    return {
+        "threat_level": "STABLE",
+        "sentiment_score": 20,
+        "security_status_cs": "Za posledních 24h nebyly zachyceny žádné nové zásadní události v USA.",
+        "security_status_en": "No significant new developments in the US were detected in the last 24 hours.",
+        "recommendations": [
+            {"sector_cs": "Široký americký akciový trh (S&P 500)", "sector_en": "US Broad Equity Market (S&P 500)", "action": "HOLD",
+             "reason_cs": "Trhy jsou bez výrazných impulzů stabilní.", "reason_en": "Markets remain stable without major triggers."},
+            {"sector_cs": "Státní dluhopisy USA", "sector_en": "US Treasuries", "action": "HOLD",
+             "reason_cs": "Výnosy se drží v očekávaném pásmu.", "reason_en": "Yields remain within the expected range."},
+            {"sector_cs": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)", "sector_en": "Defense Industry (RTX, Lockheed Martin, Northrop Grumman)", "action": "HOLD",
+             "reason_cs": "Bez nových geopolitických impulzů zůstávají zakázky stabilní.", "reason_en": "Without new geopolitical triggers, order volume remains stable."},
+            {"sector_cs": "Banky a finanční sektor (JPMorgan, Bank of America)", "sector_en": "Banks & Financials (JPMorgan, Bank of America)", "action": "HOLD",
+             "reason_cs": "Sektor je bez zásadních rizik.", "reason_en": "The sector faces no major risks currently."},
+            {"sector_cs": "Technologický sektor (Apple, Microsoft, Nvidia)", "sector_en": "Technology Sector (Apple, Microsoft, Nvidia)", "action": "HOLD",
+             "reason_cs": "Bez nových regulatorních rizik zůstává sektor stabilní.", "reason_en": "Without new regulatory risks, the sector remains stable."},
+            {"sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group", "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group", "action": "HOLD",
+             "reason_cs": "Bez přímého dopadu z USA zůstávají české tituly stabilní.", "reason_en": "Without direct spillover from the US, Czech equities remain stable."}
+        ],
+        "forecast_cs": "Bez nových dat nelze aktualizovat výhled.",
+        "forecast_en": "No updated outlook without new data.",
+        "forecast_review_cs": "Žádná předchozí předpověď k vyhodnocení.",
+        "forecast_review_en": "No previous forecast to evaluate."
+    }
+
+
+def analyze_with_ai(articles, previous_forecast_cs, previous_forecast_en):
+    if not articles:
+        return fallback_assessment()
+
+    news_text = "\n".join([f"- {a['title']}: {a['summary']}" for a in articles])
+    prev_cs = previous_forecast_cs or "Žádná předchozí předpověď."
+    prev_en = previous_forecast_en or "No previous forecast."
+
+    prompt = f"""
+    You are a top-tier portfolio manager and political/security analyst covering the United States. Based on the following news from the last 24 hours about US politics, economy, markets, and domestic security, produce an analytical overview and investment recommendations in BOTH Czech and English. Consider the full breadth of domestic developments: politics and elections, Congress and the White House, the Federal Reserve and macroeconomic policy, trade and tariffs, immigration and border security, civil unrest, natural disasters, and any acute security incidents.
+
+    News:
+    {news_text}
+
+    Previous forecast, Czech (from the last run, for review purposes):
+    "{prev_cs}"
+
+    Previous forecast, English (from the last run, for review purposes):
+    "{prev_en}"
+
+    Return the response STRICTLY AS VALID JSON with no introductory text or markdown formatting. Provide every text field in both languages using the _cs and _en suffixes as shown. Keep threat_level and action as the exact English enum values shown (do not translate them):
+    {{
+        "threat_level": "CRITICAL / HIGH / MEDIUM / STABLE",
+        "sentiment_score": <integer 0-100, where 0 = completely calm situation, 100 = extreme crisis>,
+        "security_status_cs": "2-3 věty o aktuálním politickém, ekonomickém a bezpečnostním vývoji v USA, česky.",
+        "security_status_en": "2-3 sentences on the current political, economic and security developments in the US, in English.",
+        "recommendations": [
+            {{"sector_cs": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)", "sector_en": "US Broad Equity Market (S&P 500 ETFs, e.g. VOO, SPY)", "action": "BUY / SELL / HOLD", "reason_cs": "1-2 věty zdůvodnění.", "reason_en": "1-2 sentences of reasoning."}},
+            {{"sector_cs": "Státní dluhopisy USA (Treasuries)", "sector_en": "US Treasuries", "action": "BUY / SELL / HOLD", "reason_cs": "1-2 věty zdůvodnění na základě výnosů a měnové politiky Fedu.", "reason_en": "1-2 sentences based on yields and Fed policy."}},
+            {{"sector_cs": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)", "sector_en": "Defense Industry (RTX, Lockheed Martin, Northrop Grumman)", "action": "BUY / SELL / HOLD", "reason_cs": "1-2 věty zdůvodnění na základě zakázek a rozpočtu.", "reason_en": "1-2 sentences based on orders and budget."}},
+            {{"sector_cs": "Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)", "sector_en": "Banks & Financials (JPMorgan, Bank of America, Goldman Sachs)", "action": "BUY / SELL / HOLD", "reason_cs": "1-2 věty zdůvodnění ohledně úrokových sazeb a regulace.", "reason_en": "1-2 sentences regarding interest rates and regulation."}},
+            {{"sector_cs": "Technologický sektor (Apple, Microsoft, Nvidia)", "sector_en": "Technology Sector (Apple, Microsoft, Nvidia)", "action": "BUY / SELL / HOLD", "reason_cs": "1-2 věty zdůvodnění ohledně regulace a poptávky.", "reason_en": "1-2 sentences regarding regulation and demand."}},
+            {{"sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group", "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group", "action": "BUY / SELL / HOLD", "reason_cs": "1-2 věty zdůvodnění dopadu amerického dění na tyto tři tituly.", "reason_en": "1-2 sentences on how US developments affect these three stocks."}}
+        ],
+        "forecast_cs": "1-2 věty odhadu vývoje na nejbližší dny, česky.",
+        "forecast_en": "1-2 sentences forecasting developments over the coming days, in English.",
+        "forecast_review_cs": "1 věta česky - potvrdila se, nebo vyvrátila předchozí předpověď na základě dnešních zpráv? Pokud žádná nebyla, napiš 'Žádná předchozí předpověď k vyhodnocení.'",
+        "forecast_review_en": "1 sentence in English - did today's news confirm or contradict the previous forecast? If there was none, write 'No previous forecast to evaluate.'"
+    }}
+    """
+
+    response = client.models.generate_content(model='gemini-3.5-flash-lite', contents=prompt)
+
+    try:
+        clean_json = response.text.strip().removeprefix("```json").removeprefix("```").removesuffix("```").strip()
+        parsed = json.loads(clean_json)
+        parsed["threat_level"] = str(parsed.get("threat_level", "HIGH")).split(" ")[0].split("/")[0].strip().upper()
+        for rec in parsed.get("recommendations", []):
+            rec["action"] = str(rec.get("action", "HOLD")).split(" ")[0].split("/")[0].strip().upper()
+        return parsed
+    except Exception as e:
+        print("Error processing AI response:", e)
+        return {
+            "threat_level": "HIGH",
+            "sentiment_score": 70,
+            "security_status_cs": "Chyba při automatické analýze AI.",
+            "security_status_en": "Error during automated AI analysis.",
+            "recommendations": [],
+            "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
+            "forecast_en": "Failed to generate forecast.",
+            "forecast_review_cs": "N/A",
+            "forecast_review_en": "N/A"
         }
-        body.light {
-            --ink: #ece6d6;
-            --ink2: #e0d8c0;
-            --paper: #0b1d26;
-            --text: #1c2b2e;
-            --text-dim: #5c6b6e;
-            --rule: rgba(11,29,38,0.18);
-        }
-        body {
-            font-family: 'Spectral', Georgia, serif;
-            background-color: var(--ink);
-            background-image:
-                radial-gradient(circle at 1px 1px, rgba(106,140,175,0.06) 1px, transparent 0);
-            background-size: 22px 22px;
-            color: var(--text);
-            margin: 0; padding: 0 0 80px;
-            min-height: 100vh;
-            transition: background 0.3s, color 0.3s;
-        }
-        .mono { font-family: 'IBM Plex Mono', monospace; }
-        .container { max-width: 780px; margin: 0 auto; padding: 0 20px; }
 
-        .masthead {
-            border-bottom: 3px double var(--brass);
-            padding: 28px 20px 16px;
-            max-width: 780px; margin: 0 auto;
-            position: relative; overflow: hidden;
-        }
-        .masthead-star {
-            position: absolute; top: -30px; right: -30px; width: 160px; height: 160px;
-            opacity: 0.08; pointer-events: none;
-        }
-        .masthead-star path, .masthead-star circle, .masthead-star line { stroke: var(--brass); fill: none; }
-        .wave-divider { display: block; width: 100%; height: 10px; max-width: 780px; margin: 0 auto; }
-        .wave-divider path { stroke: var(--rule); fill: none; stroke-width: 1.5; }
-        .masthead-top {
-            display: flex; justify-content: space-between; align-items: baseline;
-            font-family: 'IBM Plex Mono', monospace; font-size: 0.72em;
-            letter-spacing: 0.04em; color: var(--brass);
-            margin-bottom: 14px;
-        }
-        .controls-group { display: flex; gap: 8px; }
-        .theme-toggle, .lang-toggle {
-            background: none; border: 1px solid var(--rule); color: var(--text-dim);
-            font-family: 'IBM Plex Mono', monospace; font-size: 0.85em;
-            padding: 4px 10px; cursor: pointer; border-radius: 2px;
-        }
-        .theme-toggle:hover, .lang-toggle:hover { border-color: var(--brass); color: var(--brass); }
 
-        h1 {
-            font-size: 2.1em; font-weight: 700; margin: 0 0 6px; line-height: 1.15;
-            letter-spacing: -0.01em;
-        }
-        .dispatch-line {
-            font-family: 'IBM Plex Mono', monospace; font-size: 0.78em; color: var(--text-dim);
-            display: flex; gap: 16px; flex-wrap: wrap; align-items: center;
-        }
-        .share-row { display: flex; gap: 14px; margin-top: 14px; }
-        .share-btn {
-            font-family: 'IBM Plex Mono', monospace; font-size: 0.75em;
-            color: var(--brass); text-decoration: none; border-bottom: 1px solid transparent;
-        }
-        .share-btn:hover { border-bottom-color: var(--brass); }
-
-        .bulletin {
-            padding: 26px 0; border-bottom: 1px solid var(--rule);
-        }
-        .bulletin h2 {
-            font-family: 'IBM Plex Mono', monospace; font-size: 0.72em;
-            font-weight: 600; letter-spacing: 0.06em; color: var(--brass);
-            margin: 0 0 16px; display: flex; align-items: baseline; gap: 10px;
-        }
-        .bulletin h2::before { content: "§"; opacity: 0.6; }
-
-        .seal-wrap { display: flex; align-items: center; gap: 22px; flex-wrap: wrap; }
-        .seal {
-            width: 100px; height: 100px; position: relative;
-            display: flex; align-items: center; justify-content: center;
-            font-family: 'IBM Plex Mono', monospace; font-weight: 700;
-            font-size: 0.7em; text-align: center; line-height: 1.3;
-            letter-spacing: 0.02em; flex-shrink: 0;
-            transform: rotate(-3deg);
-        }
-        .seal svg { position: absolute; inset: 0; width: 100%; height: 100%; }
-        .seal svg circle { fill: none; stroke: currentColor; }
-        .seal-text { position: relative; z-index: 1; }
-        .seal-STABLE   { color: #6a9b6e; }
-        .seal-MEDIUM   { color: var(--brass); }
-        .seal-HIGH     { color: #c07a3a; }
-        .seal-CRITICAL { color: var(--alert); }
-        .seal-body { flex: 1; min-width: 220px; }
-        #security-status { line-height: 1.7; color: var(--text-dim); margin: 0; font-size: 1em; }
-
-        .sentiment-bar-wrap { background: var(--rule); height: 3px; margin-top: 16px; }
-        .sentiment-bar { height: 100%; transition: width 0.6s ease, background 0.3s; }
-        .sentiment-label { font-family: 'IBM Plex Mono', monospace; font-size: 0.72em; margin-top: 6px; color: var(--text-dim); }
-
-        p#forecast, p#forecast-review, p#weekly-summary {
-            line-height: 1.75; color: var(--text-dim); margin: 0; font-size: 1em;
-        }
-
-        .ticker-row {
-            display: flex; gap: 32px; flex-wrap: wrap;
-            border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
-            padding: 14px 0;
-        }
-        .ticker-item { font-family: 'IBM Plex Mono', monospace; }
-        .ticker-item .val { font-size: 1.5em; font-weight: 600; color: var(--brass); }
-        .ticker-item .lbl { display: block; font-size: 0.7em; color: var(--text-dim); margin-top: 2px; }
-        .ticker-item .cached-note { font-size: 0.65em; color: var(--brass-dim); }
-
-        .recs-list { display: flex; flex-direction: column; gap: 0; }
-        .rec-item { padding: 14px 0; border-top: 1px solid var(--rule); }
-        .rec-item:first-child { border-top: none; }
-        .rec-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
-        .rec-item strong { font-size: 1em; font-weight: 600; }
-        .rec-item p { margin: 6px 0 0; color: var(--text-dim); font-size: 0.92em; line-height: 1.6; }
-        .rec-item a.ticker-link { font-family: 'IBM Plex Mono', monospace; font-size: 0.72em; color: var(--teal); text-decoration: none; }
-        .rec-item a.ticker-link:hover { text-decoration: underline; }
-
-        .action { font-family: 'IBM Plex Mono', monospace; font-weight: 600; font-size: 0.7em; letter-spacing: 0.03em; }
-        .action-BUY  { color: #6a9b6e; }
-        .action-SELL { color: var(--alert); }
-        .action-HOLD { color: var(--brass); }
-        .action::before { content: "▸ "; }
-
-        .timeline { position: relative; }
-        .news-item { padding: 10px 0; border-top: 1px solid var(--rule); }
-        .news-item:first-child { border-top: none; }
-        .news-item a { color: var(--text); text-decoration: none; font-weight: 500; font-size: 1em; }
-        .news-item a:hover { color: var(--brass); }
-        .news-date { display: block; font-family: 'IBM Plex Mono', monospace; font-size: 0.68em; color: var(--text-dim); margin-top: 4px; }
-
-        #map { height: 340px; border: 1px solid var(--rule); z-index: 0; filter: saturate(0.7); }
-        .top-location-note { font-family: 'IBM Plex Mono', monospace; font-size: 0.78em; color: var(--text-dim); margin-top: 12px; }
-
-        .archive-item { border-top: 1px solid var(--rule); padding: 12px 0; cursor: pointer; }
-        .archive-item:first-child { border-top: none; }
-        .archive-header { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
-        .archive-header .adate { font-family: 'IBM Plex Mono', monospace; font-size: 0.8em; color: var(--text-dim); }
-        .archive-header .alevel { font-family: 'IBM Plex Mono', monospace; font-size: 0.7em; font-weight: 600; letter-spacing: 0.03em; }
-        .alevel-CRITICAL { color: var(--alert); }
-        .alevel-HIGH     { color: #c07a3a; }
-        .alevel-MEDIUM   { color: var(--brass); }
-        .alevel-STABLE   { color: #6a9b6e; }
-        .archive-body { display: none; margin-top: 10px; font-size: 0.9em; color: var(--text-dim); line-height: 1.65; }
-        .archive-item.open .archive-body { display: block; }
-
-        .skeleton { color: var(--text-dim); font-size: 0.9em; font-style: italic; }
-        footer {
-            text-align: center; color: var(--text-dim); font-family: 'IBM Plex Mono', monospace;
-            font-size: 0.68em; margin-top: 34px; letter-spacing: 0.03em;
-        }
-
-        #scroll-top {
-            position: fixed; bottom: 24px; right: 20px; width: 40px; height: 40px;
-            background: var(--paper); color: var(--ink); border: 2px solid var(--brass);
-            font-size: 1.1em; cursor: pointer; display: none; font-family: 'IBM Plex Mono', monospace;
-            z-index: 100;
-        }
-        #scroll-top.visible { display: block; }
-
-        @media (max-width: 600px) {
-            h1 { font-size: 1.6em; }
-            .seal { width: 78px; height: 78px; font-size: 0.65em; }
-        }
-    </style>
-</head>
-<body>
-    <div class="masthead">
-        <svg class="masthead-star" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="80" cy="80" r="70"/>
-            <circle cx="80" cy="80" r="50"/>
-            <path d="M80 25 L88 65 L128 65 L96 88 L108 128 L80 104 L52 128 L64 88 L32 65 L72 65 Z"/>
-        </svg>
-        <div class="masthead-top">
-            <span>USA MONITOR · VOL. AUTO</span>
-            <div class="controls-group">
-                <button class="lang-toggle" onclick="toggleLang()" id="lang-btn">EN</button>
-                <button class="theme-toggle" onclick="toggleTheme()" id="theme-btn">◑ TÉMA</button>
-            </div>
-        </div>
-        <h1 id="title-text">USA: politika, ekonomika &amp; bezpečnost</h1>
-        <div class="dispatch-line">
-            <span><span id="lbl-updated">Aktualizováno</span> <strong id="updated-relative">načítání…</strong></span>
-            <span id="updated">--</span>
-        </div>
-        <div class="share-row">
-            <a class="share-btn" id="share-whatsapp" href="#" target="_blank">WhatsApp ↗</a>
-            <a class="share-btn" id="share-x" href="#" target="_blank">X ↗</a>
-            <a class="share-btn" href="rss.xml" target="_blank">RSS ↗</a>
-            <a class="share-btn" href="../" id="link-redsea">→ RED SEA MONITOR</a>
-            <a class="share-btn" href="../europe/" id="link-europe">→ EUROPE MONITOR</a>
-            <a class="share-btn" href="../middle-east/" id="link-mideast">→ MIDDLE EAST MONITOR</a>
-        </div>
-    </div>
-    <svg class="wave-divider" viewBox="0 0 780 10" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0 5 Q 15 0, 30 5 T 60 5 T 90 5 T 120 5 T 150 5 T 180 5 T 210 5 T 240 5 T 270 5 T 300 5 T 330 5 T 360 5 T 390 5 T 420 5 T 450 5 T 480 5 T 510 5 T 540 5 T 570 5 T 600 5 T 630 5 T 660 5 T 690 5 T 720 5 T 750 5 T 780 5"/>
-    </svg>
-
-    <div class="container">
-
-        <div class="bulletin">
-            <h2 id="sec-market">Trh: akciové indexy a výnosy</h2>
-            <div id="market-data" class="skeleton">Načítání dat…</div>
-        </div>
-
-        <div class="bulletin">
-            <h2 id="sec-threat">Úroveň napětí</h2>
-            <div class="seal-wrap">
-                <div id="threat-level" class="seal">
-                    <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" stroke-width="2"/><circle cx="50" cy="50" r="38" stroke-width="1"/></svg>
-                    <span class="seal-text">--</span>
-                </div>
-                <div class="seal-body">
-                    <p id="security-status" class="skeleton">Načítání AI analýzy…</p>
-                    <div class="sentiment-bar-wrap"><div class="sentiment-bar" id="sentiment-bar" style="width:0%"></div></div>
-                    <div class="sentiment-label" id="sentiment-label"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="bulletin">
-            <h2 id="sec-weekly">Týdenní shrnutí</h2>
-            <p id="weekly-summary" class="skeleton">Načítání…</p>
-        </div>
-
-        <div class="bulletin">
-            <h2 id="sec-recs">Investiční doporučení</h2>
-            <div id="recommendations" class="skeleton">Načítání doporučení…</div>
-        </div>
-
-        <div class="bulletin">
-            <h2 id="sec-forecast">Předpověď vývoje</h2>
-            <p id="forecast" class="skeleton">Načítání předpovědi…</p>
-        </div>
-
-        <div class="bulletin">
-            <h2 id="sec-review">Vyhodnocení předchozí předpovědi</h2>
-            <p id="forecast-review" class="skeleton">Načítání…</p>
-        </div>
-
-        <div class="bulletin">
-            <h2 id="sec-chart">Vývoj úrovně napětí</h2>
-            <canvas id="threatChart" height="140"></canvas>
-        </div>
-
-        <div class="bulletin">
-            <h2 id="sec-map">Mapa zmiňovaných lokalit</h2>
-            <div id="map"></div>
-            <div class="top-location-note" id="top-location-note"></div>
-        </div>
-
-        <div class="bulletin">
-            <h2 id="sec-news">Monitoring zpráv (posledních 24h)</h2>
-            <div id="articles" class="skeleton timeline">Načítání zpráv…</div>
-        </div>
-
-        <div class="bulletin">
-            <h2 id="sec-archive">Archiv předchozích analýz</h2>
-            <div id="archive" class="skeleton">Načítání archivu…</div>
-        </div>
-
-        <footer>
-            <span id="footer-text">USA AI MONITOR — AKTUALIZOVÁNO AUTOMATICKY</span>
-        </footer>
-    </div>
-
-    <button id="scroll-top" onclick="window.scrollTo({top:0, behavior:'smooth'})">↑</button>
-
-    <script>
-        let currentLang = localStorage.getItem('lang') || 'cs';
-        let globalData = null;
-        let chartInstance = null;
-
-        const i18n = {
-            cs: {
-                themeBtn: '◑ TÉMA',
-                langBtn: 'EN',
-                title: 'USA: politika, ekonomika & bezpečnost',
-                updated: 'Aktualizováno',
-                secMarket: 'Trh: akciové indexy a výnosy',
-                secThreat: 'Úroveň napětí',
-                secWeekly: 'Týdenní shrnutí',
-                secRecs: 'Investiční doporučení',
-                secForecast: 'Předpověď vývoje',
-                secReview: 'Vyhodnocení předchozí předpovědi',
-                secChart: 'Vývoj úrovně napětí',
-                secMap: 'Mapa zmiňovaných lokalit',
-                secNews: 'Monitoring zpráv (posledních 24h)',
-                secArchive: 'Archiv předchozích analýz',
-                footer: 'USA AI MONITOR — AKTUALIZOVÁNO AUTOMATICKY',
-                loading: 'Načítání…',
-                noData: 'Data nejsou k dispozici.',
-                noRecs: 'Žádná doporučení k dispozici.',
-                noWeekly: 'Zatím není dostatek dat.',
-                noNews: 'Žádné relevantní zprávy.',
-                noArchive: 'Archiv se teprve buduje.',
-                sentimentLabel: 'Sentiment napětí',
-                cachedNote: 'poslední známá hodnota',
-                topLoc: (name, count) => `Nejzmiňovanější lokalita: ${name} (${count}× od začátku sledování)`,
-                shareText: (lvl) => `Aktuální úroveň napětí v USA: ${lvl}`,
-                agoMin: (m) => `před ${m} min`,
-                agoH: (h) => `před ${h} h`,
-                agoD: (d) => `před ${d} dny`,
-                chartThreat: 'Úroveň napětí',
-                chartIncidents: 'Počet incidentů',
-                chartSp500: 'S&P 500',
-                archiveStatus: 'Stav:',
-                archiveForecast: 'Předpověď:',
-                threatLabel: { STABLE: 'STABILNÍ', MEDIUM: 'STŘEDNÍ', HIGH: 'VYSOKÁ', CRITICAL: 'KRITICKÁ' },
-                actionLabel: { BUY: 'KOUPIT', SELL: 'PRODAT', HOLD: 'DRŽET' }
+def send_ntfy_alert(threat_level, status_text):
+    if not NTFY_TOPIC:
+        return
+    try:
+        req = urllib.request.Request(
+            url=f"https://ntfy.sh/{NTFY_TOPIC}",
+            data=status_text.encode("utf-8"),
+            headers={
+                "Title": f"USA Monitor: {threat_level}".encode("utf-8"),
+                "Priority": "urgent",
+                "Tags": "warning"
             },
-            en: {
-                themeBtn: '◑ THEME',
-                langBtn: 'CS',
-                title: 'USA: Politics, Economy & Security',
-                updated: 'Updated',
-                secMarket: 'Market: Equity Indices & Yields',
-                secThreat: 'Tension Level',
-                secWeekly: 'Weekly Summary',
-                secRecs: 'Investment Insights',
-                secForecast: 'Outlook & Forecast',
-                secReview: 'Previous Forecast Review',
-                secChart: 'Tension Level History',
-                secMap: 'Map of Mentioned Locations',
-                secNews: 'News Monitor (Last 24h)',
-                secArchive: 'Analysis Archive',
-                footer: 'USA AI MONITOR — AUTOMATICALLY UPDATED',
-                loading: 'Loading…',
-                noData: 'Data unavailable.',
-                noRecs: 'No recommendations available.',
-                noWeekly: 'Not enough data available yet.',
-                noNews: 'No relevant news.',
-                noArchive: 'Archive is currently being built.',
-                sentimentLabel: 'Tension Sentiment',
-                cachedNote: 'last known value',
-                topLoc: (name, count) => `Most mentioned location: ${name} (${count}× since monitoring began)`,
-                shareText: (lvl) => `Current US tension level: ${lvl}`,
-                agoMin: (m) => `${m} min ago`,
-                agoH: (h) => `${h}h ago`,
-                agoD: (d) => `${d}d ago`,
-                chartThreat: 'Tension Level',
-                chartIncidents: 'Incident Count',
-                chartSp500: 'S&P 500',
-                archiveStatus: 'Status:',
-                archiveForecast: 'Forecast:',
-                threatLabel: { STABLE: 'STABLE', MEDIUM: 'MEDIUM', HIGH: 'HIGH', CRITICAL: 'CRITICAL' },
-                actionLabel: { BUY: 'BUY', SELL: 'SELL', HOLD: 'HOLD' }
-            }
-        };
+            method="POST"
+        )
+        urllib.request.urlopen(req, timeout=10)
+    except Exception as e:
+        print("Error sending ntfy notification:", e)
 
-        const TICKERS = {
-            'ČEZ': 'https://finance.yahoo.com/quote/CEZ.PR',
-            'Komerční banka': 'https://finance.yahoo.com/quote/KOMB.PR',
-            'Erste Group': 'https://finance.yahoo.com/quote/EBS.VI',
-            'RTX': 'https://finance.yahoo.com/quote/RTX',
-            'Lockheed Martin': 'https://finance.yahoo.com/quote/LMT',
-            'Northrop Grumman': 'https://finance.yahoo.com/quote/NOC',
-            'JPMorgan': 'https://finance.yahoo.com/quote/JPM',
-            'Bank of America': 'https://finance.yahoo.com/quote/BAC',
-            'Goldman Sachs': 'https://finance.yahoo.com/quote/GS',
-            'Apple': 'https://finance.yahoo.com/quote/AAPL',
-            'Microsoft': 'https://finance.yahoo.com/quote/MSFT',
-            'Nvidia': 'https://finance.yahoo.com/quote/NVDA',
-            'VOO': 'https://finance.yahoo.com/quote/VOO',
-            'SPY': 'https://finance.yahoo.com/quote/SPY'
-        };
 
-        function toggleTheme() {
-            document.body.classList.toggle('light');
-            localStorage.setItem('theme', document.body.classList.contains('light') ? 'light' : 'dark');
+def build_rss(articles):
+    items = ""
+    for a in articles:
+        items += f"""
+        <item>
+            <title>{escape(a['title'])}</title>
+            <link>{escape(a['link'])}</link>
+            <description>{escape(a['summary'])}</description>
+            <pubDate>{escape(a['published'])}</pubDate>
+        </item>"""
+    rss = f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+    <title>USA AI Monitor</title>
+    <link>https://matesva.github.io/Redsea-monitor/usa/</link>
+    <description>AI monitoring of US political, economic and security developments</description>
+    {items}
+</channel>
+</rss>"""
+    os.makedirs("usa", exist_ok=True)
+    with open("usa/rss.xml", "w", encoding="utf-8") as f:
+        f.write(rss)
+
+
+def build_weekly_summary(archive):
+    if not archive:
+        return {
+            "cs": "Zatím není dostatek dat pro týdenní shrnutí.",
+            "en": "Not enough data yet for a weekly summary."
         }
-        if (localStorage.getItem('theme') === 'light') document.body.classList.add('light');
+    last7 = archive[-7:]
+    counts = {}
+    for entry in last7:
+        lvl = entry.get("threat_level", "UNKNOWN")
+        counts[lvl] = counts.get(lvl, 0) + 1
+    parts = [f"{v}× {k}" for k, v in sorted(counts.items(), key=lambda x: -x[1])]
+    days = len(last7)
+    joined = ", ".join(parts)
+    return {
+        "cs": f"Za posledních {days} zaznamenaných analýz: {joined}.",
+        "en": f"Over the last {days} recorded analyses: {joined}."
+    }
 
-        function toggleLang() {
-            currentLang = currentLang === 'cs' ? 'en' : 'cs';
-            localStorage.setItem('lang', currentLang);
-            document.documentElement.lang = currentLang;
-            renderUI();
-        }
 
-        window.addEventListener('scroll', () => {
-            document.getElementById('scroll-top').classList.toggle('visible', window.scrollY > 400);
-        });
+def update_location_counts(previous_counts, locations):
+    counts = dict(previous_counts or {})
+    for loc in locations:
+        key = loc["key"]
+        counts[key] = counts.get(key, 0) + 1
+    return counts
 
-        function pick(obj, base) {
-            if (!obj) return '';
-            const key = base + '_' + currentLang;
-            if (obj[key] !== undefined && obj[key] !== null) return obj[key];
-            const otherLang = currentLang === 'cs' ? 'en' : 'cs';
-            if (obj[base + '_' + otherLang] !== undefined) return obj[base + '_' + otherLang];
-            if (obj[base] !== undefined) return obj[base];
-            return '';
-        }
 
-        function relativeTime(dateStr) {
-            if (!dateStr) return '';
-            try {
-                let formattedStr = dateStr.replace(' ', 'T');
-                if (!formattedStr.endsWith('Z') && !formattedStr.includes('+')) {
-                    formattedStr += 'Z';
-                }
-                const d = new Date(formattedStr);
-                if (isNaN(d.getTime())) return '';
+def top_location(location_counts):
+    if not location_counts:
+        return None
+    top_key = max(location_counts, key=location_counts.get)
+    loc_info = LOCATIONS.get(top_key, {})
+    return {
+        "key": top_key,
+        "name_cs": loc_info.get("name_cs", top_key),
+        "name_en": loc_info.get("name_en", top_key),
+        "count": location_counts[top_key]
+    }
 
-                const diffMin = Math.round((Date.now() - d.getTime()) / 60000);
-                const t = i18n[currentLang];
 
-                if (diffMin < 1) return t.agoMin(0);
-                if (diffMin < 60) return t.agoMin(diffMin);
-                const diffH = Math.round(diffMin / 60);
-                if (diffH < 24) return t.agoH(diffH);
-                return t.agoD(Math.round(diffH / 24));
-            } catch (e) { return ''; }
-        }
+def run():
+    old_data = load_previous_data()
+    previous_forecast_cs = old_data.get("assessment", {}).get("forecast_cs", "")
+    previous_forecast_en = old_data.get("assessment", {}).get("forecast_en", "")
+    previous_market = old_data.get("market_data")
+    previous_location_counts = old_data.get("location_counts", {})
 
-        function sentimentColor(score) {
-            if (score < 34) return '#6a9b6e';
-            if (score < 67) return '#b8863b';
-            return '#a13d2b';
-        }
+    articles = fetch_articles()
+    ai_assessment = analyze_with_ai(articles, previous_forecast_cs, previous_forecast_en)
+    locations = extract_locations(articles)
+    market_data = fetch_market_data(previous_market)
+    usd_czk = fetch_usd_czk()
+    location_counts = update_location_counts(previous_location_counts, locations)
 
-        function normalizeEnum(value) {
-            if (!value) return '';
-            return String(value).split(' ')[0].split('/')[0].trim().toUpperCase();
-        }
+    history = old_data.get("history", [])
+    threat_key = ai_assessment.get("threat_level", "HIGH")
+    threat_value = THREAT_MAP.get(threat_key, 1)
+    now_utc = datetime.now(timezone.utc)
+    now_str = now_utc.strftime("%Y-%m-%d %H:%M")
 
-        function renderUI() {
-            if (!globalData) return;
-            const data = globalData;
-            const t = i18n[currentLang];
+    history.append({
+        "date": now_str,
+        "threat_level": threat_key,
+        "value": threat_value,
+        "sentiment_score": ai_assessment.get("sentiment_score", 0),
+        "incidents": len(articles),
+        "sp500": market_data.get("sp500", {}).get("value") if market_data.get("sp500") else None,
+        "usd_czk": usd_czk.get("value") if usd_czk else None
+    })
+    history = history[-30:]
 
-            document.getElementById('theme-btn').innerText = t.themeBtn;
-            document.getElementById('lang-btn').innerText = t.langBtn;
-            document.getElementById('title-text').innerText = t.title;
-            document.getElementById('lbl-updated').innerText = t.updated;
-            document.getElementById('sec-market').innerText = t.secMarket;
-            document.getElementById('sec-threat').innerText = t.secThreat;
-            document.getElementById('sec-weekly').innerText = t.secWeekly;
-            document.getElementById('sec-recs').innerText = t.secRecs;
-            document.getElementById('sec-forecast').innerText = t.secForecast;
-            document.getElementById('sec-review').innerText = t.secReview;
-            document.getElementById('sec-chart').innerText = t.secChart;
-            document.getElementById('sec-map').innerText = t.secMap;
-            document.getElementById('sec-news').innerText = t.secNews;
-            document.getElementById('sec-archive').innerText = t.secArchive;
-            document.getElementById('footer-text').innerText = t.footer;
+    archive = old_data.get("archive", [])
+    archive.append({
+        "date": now_str,
+        "threat_level": threat_key,
+        "security_status_cs": ai_assessment.get("security_status_cs", ""),
+        "security_status_en": ai_assessment.get("security_status_en", ""),
+        "forecast_cs": ai_assessment.get("forecast_cs", ""),
+        "forecast_en": ai_assessment.get("forecast_en", "")
+    })
+    archive = archive[-14:]
 
-            document.getElementById('updated').innerText = data.last_updated || 'N/A';
-            document.getElementById('updated-relative').innerText = relativeTime(data.last_updated);
+    weekly_summary = build_weekly_summary(archive)
+    top_loc = top_location(location_counts)
 
-            const threatKeyRaw = normalizeEnum(data.assessment?.threat_level) || 'UNKNOWN';
-            const threatDisplay = t.threatLabel[threatKeyRaw] || threatKeyRaw;
+    data = {
+        "last_updated": now_utc.strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "assessment": ai_assessment,
+        "articles": articles,
+        "history": history,
+        "locations": locations,
+        "location_counts": location_counts,
+        "top_location": top_loc,
+        "archive": archive,
+        "weekly_summary_cs": weekly_summary["cs"],
+        "weekly_summary_en": weekly_summary["en"],
+        "market_data": market_data,
+        "usd_czk": usd_czk
+    }
 
-            const pageUrl = 'https://matesva.github.io/Redsea-monitor/usa/';
-            const shareText = encodeURIComponent(t.shareText(threatDisplay));
-            document.getElementById('share-whatsapp').href = `https://wa.me/?text=${shareText}%20${pageUrl}`;
-            document.getElementById('share-x').href = `https://twitter.com/intent/tweet?text=${shareText}&url=${pageUrl}`;
+    os.makedirs("usa", exist_ok=True)
+    with open("usa/data.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
 
-            const threatElem = document.getElementById('threat-level');
-            threatElem.className = 'seal seal-' + threatKeyRaw;
-            threatElem.querySelector('.seal-text').innerText = threatDisplay;
+    build_rss(articles)
 
-            document.getElementById('security-status').className = '';
-            document.getElementById('security-status').innerText = pick(data.assessment, 'security_status');
+    if threat_key == "CRITICAL":
+        status_for_alert = ai_assessment.get("security_status_en", "")
+        send_ntfy_alert(threat_key, status_for_alert)
 
-            const score = data.assessment?.sentiment_score ?? 0;
-            const bar = document.getElementById('sentiment-bar');
-            bar.style.width = score + '%';
-            bar.style.background = sentimentColor(score);
-            document.getElementById('sentiment-label').innerText = `${t.sentimentLabel}: ${score}/100`;
 
-            document.getElementById('weekly-summary').className = '';
-            document.getElementById('weekly-summary').innerText =
-                (currentLang === 'cs' ? data.weekly_summary_cs : data.weekly_summary_en)
-                || data.weekly_summary || t.noWeekly;
-
-            document.getElementById('forecast').className = '';
-            document.getElementById('forecast').innerText = pick(data.assessment, 'forecast');
-
-            document.getElementById('forecast-review').className = '';
-            document.getElementById('forecast-review').innerText = pick(data.assessment, 'forecast_review') || 'N/A';
-
-            const recsContainer = document.getElementById('recommendations');
-            recsContainer.className = '';
-            recsContainer.innerHTML = '';
-            if (data.assessment?.recommendations && data.assessment.recommendations.length > 0) {
-                const list = document.createElement('div');
-                list.className = 'recs-list';
-                data.assessment.recommendations.forEach(r => {
-                    const sectorText = pick(r, 'sector');
-                    const reasonText = pick(r, 'reason');
-                    const actionKeyRaw = normalizeEnum(r.action);
-                    const actionDisplay = t.actionLabel[actionKeyRaw] || actionKeyRaw;
-
-                    let tickerLinks = '';
-                    Object.keys(TICKERS).forEach(name => {
-                        if (sectorText.includes(name)) {
-                            tickerLinks += `<a class="ticker-link" href="${TICKERS[name]}" target="_blank">${name} ↗</a> `;
-                        }
-                    });
-                    list.innerHTML += `
-                        <div class="rec-item">
-                            <div class="rec-head">
-                                <span class="action action-${actionKeyRaw}">${actionDisplay}</span>
-                                <strong>${sectorText}</strong>
-                            </div>
-                            <p>${reasonText}</p>
-                            ${tickerLinks ? `<div style="margin-top:8px;">${tickerLinks}</div>` : ''}
-                        </div>`;
-                });
-                recsContainer.appendChild(list);
-            } else {
-                recsContainer.innerText = t.noRecs;
-            }
-
-            const marketContainer = document.getElementById('market-data');
-            marketContainer.className = '';
-            marketContainer.innerHTML = '';
-            const sp500 = data.market_data?.sp500;
-            const dow = data.market_data?.dow;
-            const yield10y = data.market_data?.yield10y;
-            const usdCzk = data.usd_czk;
-            if (sp500 || dow || yield10y || usdCzk) {
-                let html = '<div class="ticker-row">';
-                if (sp500) html += `<div class="ticker-item"><span class="val">${sp500.value.toLocaleString(currentLang === 'cs' ? 'cs-CZ' : 'en-US')}</span><span class="lbl">S&amp;P 500 · ${sp500.date}</span>${sp500.cached ? `<span class="cached-note">${t.cachedNote}</span>` : ''}</div>`;
-                if (dow) html += `<div class="ticker-item"><span class="val">${dow.value.toLocaleString(currentLang === 'cs' ? 'cs-CZ' : 'en-US')}</span><span class="lbl">DOW JONES · ${dow.date}</span>${dow.cached ? `<span class="cached-note">${t.cachedNote}</span>` : ''}</div>`;
-                if (yield10y) html += `<div class="ticker-item"><span class="val">${yield10y.value.toFixed(2)}%</span><span class="lbl">10Y TREASURY · ${yield10y.date}</span>${yield10y.cached ? `<span class="cached-note">${t.cachedNote}</span>` : ''}</div>`;
-                if (usdCzk) html += `<div class="ticker-item"><span class="val">${usdCzk.value.toFixed(2)} Kč</span><span class="lbl">USD/CZK · ${usdCzk.date}</span></div>`;
-                html += '</div>';
-                marketContainer.innerHTML = html;
-            } else {
-                marketContainer.innerText = t.noData;
-            }
-
-            if (data.history && data.history.length > 0) {
-                if (chartInstance) chartInstance.destroy();
-                const ctx = document.getElementById('threatChart').getContext('2d');
-                chartInstance = new Chart(ctx, {
-                    type: 'line',
-                    data: {
-                        labels: data.history.map(h => h.date),
-                        datasets: [
-                            {
-                                label: t.chartThreat,
-                                data: data.history.map(h => h.value),
-                                borderColor: '#6a8caf',
-                                backgroundColor: 'rgba(106,140,175,0.12)',
-                                tension: 0.25, fill: true, pointRadius: 2, borderWidth: 2, yAxisID: 'y'
-                            },
-                            {
-                                label: t.chartIncidents,
-                                data: data.history.map(h => h.incidents ?? null),
-                                borderColor: '#a13d2b',
-                                backgroundColor: 'transparent',
-                                tension: 0.25, fill: false, pointRadius: 2, borderWidth: 1.5, yAxisID: 'y1'
-                            },
-                            {
-                                label: t.chartSp500,
-                                data: data.history.map(h => h.sp500 ?? null),
-                                borderColor: '#4a7c85',
-                                backgroundColor: 'transparent',
-                                tension: 0.25, fill: false, pointRadius: 2, borderWidth: 1.5, yAxisID: 'y1'
-                            }
-                        ]
-                    },
-                    options: {
-                        responsive: true,
-                        plugins: { legend: { labels: { color: '#9aa8ac', font: { family: 'IBM Plex Mono', size: 10 } } } },
-                        scales: {
-                            y: {
-                                min: 0.5, max: 4.5, position: 'left',
-                                ticks: {
-                                    stepSize: 1, color: '#9aa8ac', font: { family: 'IBM Plex Mono', size: 9 },
-                                    callback: v => ({1: t.threatLabel.STABLE, 2: t.threatLabel.MEDIUM, 3: t.threatLabel.HIGH, 4: t.threatLabel.CRITICAL}[v] || '')
-                                },
-                                grid: { color: 'rgba(106,140,175,0.12)' }
-                            },
-                            y1: { position: 'right', ticks: { color: '#9aa8ac', font: { family: 'IBM Plex Mono', size: 9 } }, grid: { display: false } },
-                            x: { ticks: { color: '#9aa8ac', maxRotation: 45, font: { family: 'IBM Plex Mono', size: 9 } }, grid: { color: 'rgba(106,140,175,0.06)' } }
-                        }
-                    }
-                });
-            }
-
-            if (data.top_location) {
-                const locName = currentLang === 'cs'
-                    ? (data.top_location.name_cs || data.top_location.name)
-                    : (data.top_location.name_en || data.top_location.name);
-                document.getElementById('top-location-note').innerText = t.topLoc(locName, data.top_location.count);
-            }
-
-            const articlesContainer = document.getElementById('articles');
-            articlesContainer.className = 'timeline';
-            articlesContainer.innerHTML = '';
-            if (data.articles && data.articles.length > 0) {
-                data.articles.forEach(a => {
-                    articlesContainer.innerHTML += `
-                        <div class="news-item">
-                            <a href="${a.link}" target="_blank">${a.title}</a>
-                            <span class="news-date">${a.source} · ${a.published}</span>
-                        </div>`;
-                });
-            } else {
-                articlesContainer.innerText = t.noNews;
-            }
-
-            const archiveContainer = document.getElementById('archive');
-            archiveContainer.className = '';
-            archiveContainer.innerHTML = '';
-            if (data.archive && data.archive.length > 0) {
-                [...data.archive].reverse().forEach((entry) => {
-                    const entryThreatRaw = normalizeEnum(entry.threat_level);
-                    const entryThreatDisplay = t.threatLabel[entryThreatRaw] || entryThreatRaw;
-                    const div = document.createElement('div');
-                    div.className = 'archive-item';
-                    div.innerHTML = `
-                        <div class="archive-header">
-                            <span class="adate">${entry.date}</span>
-                            <span class="alevel alevel-${entryThreatRaw}">${entryThreatDisplay}</span>
-                        </div>
-                        <div class="archive-body">
-                            <p><strong>${t.archiveStatus}</strong> ${pick(entry, 'security_status')}</p>
-                            <p><strong>${t.archiveForecast}</strong> ${pick(entry, 'forecast')}</p>
-                        </div>`;
-                    div.onclick = () => div.classList.toggle('open');
-                    archiveContainer.appendChild(div);
-                });
-            } else {
-                archiveContainer.innerText = t.noArchive;
-            }
-        }
-
-        fetch('data.json')
-            .then(res => res.json())
-            .then(data => {
-                globalData = data;
-                renderUI();
-
-                try {
-                    if (data.locations && data.locations.length > 0) {
-                        const map = L.map('map').setView([39.5, -98.35], 4);
-                        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
-                            attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
-                            maxZoom: 16
-                        }).addTo(map);
-                        data.locations.forEach(loc => {
-                            const name = currentLang === 'cs' ? (loc.name_cs || loc.name) : (loc.name_en || loc.name);
-                            L.circleMarker([loc.lat, loc.lon], { radius: 7, fillColor: '#6a8caf', color: '#4f6b85', weight: 2, fillOpacity: 0.8 })
-                                .addTo(map).bindPopup(`<strong>${name}</strong>`);
-                        });
-                    }
-                } catch (e) { console.error('Map error:', e); }
-            })
-            .catch(err => {
-                console.error(err);
-                document.getElementById('security-status').innerText = currentLang === 'cs'
-                    ? 'Data se načítají nebo se poprvé generují.'
-                    : 'Data is loading or being generated for the first time.';
-            });
-    </script>
-</body>
-</html>
+if __name__ == "__main__":
+    run()
