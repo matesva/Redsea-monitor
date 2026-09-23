@@ -67,10 +67,19 @@ jobs:
           mkdir -p asia
           python fetch_asia.py
 
+      - name: Fetch and Analyze (Japan)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
+          NTFY_TOPIC_JAPAN: ${{ secrets.NTFY_TOPIC_JAPAN }}
+        run: |
+          mkdir -p japan
+          python fetch_japan.py
+
       - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data.json rss.xml usa/data.json usa/rss.xml europe/data.json europe/rss.xml middle-east/data.json middle-east/rss.xml asia/data.json asia/rss.xml
-          git commit -m "Auto-update AI Monitors (Red Sea + USA + Europe + Middle East + China & Asia)" || exit 0
+          git add data.json rss.xml usa/data.json usa/rss.xml europe/data.json europe/rss.xml middle-east/data.json middle-east/rss.xml asia/data.json asia/rss.xml japan/data.json japan/rss.xml
+          git commit -m "Auto-update AI Monitors (Red Sea + USA + Europe + Middle East + China & Asia + Japan)" || exit 0
           git push
