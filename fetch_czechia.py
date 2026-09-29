@@ -2,7 +2,7 @@ import os, json, re, hashlib, datetime, urllib.parse
 import feedparser
 from google import genai
 
-MODEL = "gemini-2.5-flash"  # případně novější Flash / Flash-Lite
+MODEL = "gemini-3.5-flash-lite"  # případně novější Flash / Flash-Lite
 OUT = "czechia/articles.json"
 MAX_NEW = 120
 
