@@ -5,55 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#11457e">
 <title>Politický přehled ČR a Prahy</title>
-<style>
-  :root{--bg:#f3f5fa;--card:#fff;--text:#14213d;--muted:#5b6478;--line:#e3e8f2;
-        --blue:#11457e;--red:#d7141a;--accent:#11457e;--shadow:0 2px 12px rgba(17,69,126,.09);--tagbg:#eaf0fb}
-  @media (prefers-color-scheme:dark){
-    :root{--bg:#0c1320;--card:#152033;--text:#e8edf7;--muted:#9aa7bf;--line:#243250;
-          --accent:#8ab4f8;--shadow:none;--tagbg:#22314f}
-  }
-  *{box-sizing:border-box}
-  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.5;padding-bottom:84px}
-  header{background:linear-gradient(135deg,#11457e,#0a2c52);color:#fff;padding:calc(env(safe-area-inset-top,0px) + 18px) 16px 16px}
-  header .in{max-width:860px;margin:0 auto;display:flex;align-items:center;gap:12px}
-  header svg{width:44px;height:30px;border-radius:4px;box-shadow:0 1px 4px rgba(0,0,0,.35);flex:none}
-  header h1{font-size:1.25rem;margin:0;line-height:1.2}
-  header small{opacity:.8;display:block;font-size:.78rem;margin-top:2px}
-  .stripe{height:5px;background:linear-gradient(90deg,#fff 0 33.3%,#d7141a 33.3% 66.6%,#0b3a6b 66.6%)}
-  main{max-width:860px;margin:0 auto;padding:16px}
-  .card{background:var(--card);border-radius:16px;padding:14px 16px;margin-bottom:12px;box-shadow:var(--shadow);border:1px solid var(--line)}
-  .card a{font-weight:600;text-decoration:none;color:var(--accent)}
-  .meta{font-size:.8rem;color:var(--muted);margin-top:6px}
-  .tag{display:inline-block;background:var(--tagbg);border-radius:999px;padding:2px 10px;margin:2px 4px 2px 0;font-size:.75rem}
-  .dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px}
-  .filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
-  input,select{padding:10px 12px;font-size:1rem;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--text)}
-  input{flex:1;min-width:150px}
-  h2{font-size:1.1rem;margin:0 0 4px}
-  h3{font-size:1rem;margin:18px 0 8px}
-  .bar{display:flex;height:10px;border-radius:6px;overflow:hidden;margin:10px 0 4px;background:var(--line)}
-  .bar i{display:block;height:100%}
-  .p{background:#3aa655}.n{background:#9aa0a6}.k{background:var(--red)}
-  .legend,.muted{font-size:.78rem;color:var(--muted)}
-  .btns button{margin:8px 8px 0 0;padding:8px 14px;border:1px solid var(--line);border-radius:999px;background:none;color:var(--accent);font-size:.9rem;cursor:pointer}
-  .row{display:flex;align-items:center;gap:8px;margin:7px 0}
-  .row .nm{width:96px;font-size:.85rem;flex:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .row .track{position:relative;flex:1;height:22px;background:var(--line);border-radius:6px}
-  .row .fill{height:100%;border-radius:6px;min-width:3px}
-  .row .thr{position:absolute;top:-3px;bottom:-3px;border-left:2px dashed var(--red)}
-  .row b{width:56px;text-align:right;font-size:.9rem;flex:none}
-  .chart{width:100%;height:auto}
-  .chart .grid{stroke:var(--line);stroke-width:1}
-  .chart .ax{fill:var(--muted);font-size:11px}
-  .lg{display:inline-flex;align-items:center;margin:4px 12px 0 0;font-size:.8rem}
-  .lg i{width:12px;height:4px;border-radius:2px;margin-right:5px;display:inline-block}
-  nav{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:1px solid var(--line);display:flex;padding:6px 6px calc(env(safe-area-inset-bottom,0px) + 6px);z-index:9}
-  nav button{flex:1;border:0;background:none;color:var(--muted);font-size:.72rem;padding:6px 2px;border-radius:12px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px}
-  nav button span{font-size:1.3rem;line-height:1}
-  nav button.on{color:var(--accent);font-weight:600}
-  nav button.on::before{content:"";display:block;width:26px;height:3px;border-radius:2px;background:var(--red);margin-bottom:2px}
-  footer{max-width:860px;margin:0 auto;padding:0 16px 16px;font-size:.78rem;color:var(--muted)}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header><div class="in">
@@ -64,6 +16,14 @@
 
 <main>
   <section id="v-zpravy">
+    <div class="card">
+      <div class="head">
+        <h2>Nejčastěji zmiňovaní politici</h2>
+        <select id="pol-days"><option value="7">7 dní</option><option value="30" selected>30 dní</option></select>
+      </div>
+      <div id="pol-list" class="muted">Zatím bez dat.</div>
+      <div class="legend">Počet zpráv, ve kterých je politik zmíněn. Nejde o hodnocení ani popularitu.</div>
+    </div>
     <div class="filters">
       <input id="q" placeholder="Hledat ve zprávách…">
       <select id="region"><option value="">Praha i ČR</option><option>Praha</option><option>ČR</option></select>
@@ -96,7 +56,7 @@
   </section>
 </main>
 
-<footer>Shrnutí, profily, sliby i čísla z průzkumů extrahuje AI (Gemini) z textů zpráv, proto mohou být neúplné nebo nepřesné. „Mediální tón" ukazuje, jak o straně média píšou, nejde o hodnocení kvality ani volební doporučení. Průzkumy různých agentur nejsou přímo srovnatelné. Vždy ověřte v původním zdroji. Neoficiální web, není spojen s žádnou stranou ani institucí. Barvy stran jsou orientační.</footer>
+<footer>Shrnutí, profily, sliby, jména politiků i čísla z průzkumů extrahuje AI (Gemini) z textů zpráv, proto mohou být neúplné nebo nepřesné. „Mediální tón" ukazuje, jak o straně média píšou, nejde o hodnocení kvality ani volební doporučení. Průzkumy různých agentur nejsou přímo srovnatelné. Vždy ověřte v původním zdroji. Neoficiální web, není spojen s žádnou stranou ani institucí. Barvy stran jsou orientační.</footer>
 
 <nav>
   <button id="t-zpravy" class="on"><span>📰</span>Zprávy</button>
@@ -105,139 +65,6 @@
   <button id="t-pruzkumy"><span>📊</span>Průzkumy</button>
 </nav>
 
-<script>
-const $=id=>document.getElementById(id);
-const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const COL={"ANO":"#2a3f9e","ODS":"#1f6fd1","STAN":"#f28e2b","Piráti":"#4a4a4a","SPD":"#1aa3a3","TOP 09":"#7b3f98","KDU-ČSL":"#d4b800","Motoristé":"#c2185b","Stačilo":"#b71c1c","ČSSD":"#e64a19","KSČM":"#7f0000","Zelení":"#2e9c3d","Přísaha":"#00838f","Svobodní":"#c0ca33","Trikolora":"#8d6e63","Prague Together":"#5c6bc0","Praha Sobě":"#26a69a","Spojené síly pro Prahu":"#1565c0","Naše Praha":"#ab47bc"};
-const col=s=>COL[s]||"#607d8b";
-const num=v=>v.toFixed(1).replace(".",",");
-let articles=[],parties={},allPromises=[],polls=[];
-const TABS=["zpravy","strany","sliby","pruzkumy"];
-
-Promise.all([
-  fetch("articles.json").then(r=>r.json()).catch(()=>[]),
-  fetch("parties.json").then(r=>r.json()).catch(()=>({strany:{}})),
-  fetch("polls.json").then(r=>r.json()).catch(()=>({pruzkumy:[]}))
-]).then(([a,p,q])=>{
-  articles=a;parties=p.strany||{};polls=q.pruzkumy||[];
-  allPromises=Object.entries(parties).flatMap(([s,d])=>(d.sliby||[]).map(x=>({...x,strana:s})));
-  $("upd").textContent=a.length?"Aktualizováno "+new Date(a[0].added+"Z").toLocaleString("cs-CZ",{day:"numeric",month:"numeric",hour:"2-digit",minute:"2-digit"}):"Zatím bez dat";
-  [...new Set(a.flatMap(x=>x.strany||[]))].sort().forEach(s=>$("strana").add(new Option(s,s)));
-  Object.keys(parties).sort().forEach(s=>$("sstrana").add(new Option(s,s)));
-  [...new Set(allPromises.map(x=>x.tema).filter(Boolean))].sort().forEach(t=>$("stema").add(new Option(t,t)));
-  renderNews();renderParties();renderPromises();fillAgencies();
-});
-
-function tab(n){TABS.forEach(t=>{$("v-"+t).hidden=t!==n;$("t-"+t).classList.toggle("on",t===n)});scrollTo(0,0)}
-TABS.forEach(t=>$("t-"+t).onclick=()=>tab(t));
-
-function renderNews(){
-  const q=$("q").value.toLowerCase(),r=$("region").value,s=$("strana").value;
-  const out=articles.filter(a=>(!r||a.region===r)&&(!s||(a.strany||[]).includes(s))&&(!q||(a.title+" "+(a.shrnuti||"")).toLowerCase().includes(q)));
-  $("list").innerHTML=out.slice(0,100).map(a=>`<div class="card">
-    <a href="${esc(a.link)}" target="_blank" rel="noopener">${esc(a.title)}</a>
-    <div>${esc(a.shrnuti)}</div>
-    <div class="meta">${esc(a.source)} · ${esc(a.published||a.added)}<br>
-      <span class="tag">${esc(a.region)}</span>
-      ${(a.strany||[]).map(x=>`<span class="tag"><i class="dot" style="background:${col(x)}"></i>${esc(x)}</span>`).join("")}
-      <span class="tag">tón: ${esc(a.ton)}</span>
-      ${a.overeni?`<span class="tag">ověřeno: ${esc(a.overeni)}</span>`:""}
-    </div></div>`).join("")||"Nic nenalezeno.";
-}
-["q","region","strana"].forEach(id=>$(id).addEventListener("input",renderNews));
-
-function renderParties(){
-  const list=Object.entries(parties).sort((a,b)=>b[1].pocet-a[1].pocet);
-  if(!list.length){$("strany-list").textContent="Profily stran zatím nejsou k dispozici.";return}
-  $("strany-list").innerHTML=list.map(([name,d])=>{
-    const t=d.tony||{},sum=(t["pozitivní"]||0)+(t["neutrální"]||0)+(t["kritický"]||0)||1;
-    const pct=k=>Math.round(100*(t[k]||0)/sum);
-    const ov=Object.entries(d.overeni||{}).map(([k,v])=>`<span class="tag">${esc(k)}: ${v}</span>`).join("");
-    return `<div class="card" style="border-left:5px solid ${col(name)}">
-      <h2>${esc(name)}</h2>
-      <div class="meta">${d.pocet} zpráv (z toho ${d.praha} o Praze) · ${(d.sliby||[]).length} slibů</div>
-      ${d.profil?`<p>${esc(d.profil)}</p>`:""}
-      ${d.kritika?`<p><b>Nejčastější výhrady:</b> ${esc(d.kritika)}</p>`:""}
-      <div class="bar"><i class="p" style="width:${pct("pozitivní")}%"></i><i class="n" style="width:${pct("neutrální")}%"></i><i class="k" style="width:${pct("kritický")}%"></i></div>
-      <div class="legend">Mediální tón: pozitivní ${pct("pozitivní")} % · neutrální ${pct("neutrální")} % · kritický ${pct("kritický")} %</div>
-      <div>${(d.temata||[]).map(x=>`<span class="tag">${esc(x)}</span>`).join("")}</div>
-      ${ov?`<div class="meta">Ověřené výroky: ${ov}</div>`:""}
-      <div class="btns"><button data-go="news" data-s="${esc(name)}">Zprávy</button><button data-go="promises" data-s="${esc(name)}">Sliby</button></div>
-    </div>`}).join("");
-}
-document.addEventListener("click",e=>{
-  const b=e.target.closest("[data-go]");if(!b)return;
-  if(b.dataset.go==="news"){$("strana").value=b.dataset.s;renderNews();tab("zpravy")}
-  else{$("sstrana").value=b.dataset.s;renderPromises();tab("sliby")}
-});
-
-function renderPromises(){
-  const q=$("sq").value.toLowerCase(),s=$("sstrana").value,t=$("stema").value;
-  const out=allPromises.filter(x=>(!s||x.strana===s)&&(!t||x.tema===t)&&(!q||x.slib.toLowerCase().includes(q)));
-  $("sliby-list").innerHTML=out.map(x=>`<div class="card" style="border-left:5px solid ${col(x.strana)}">
-    <span class="tag">${esc(x.strana)}</span>${x.tema?`<span class="tag">${esc(x.tema)}</span>`:""}
-    <div>${esc(x.slib)}</div>
-    <div class="meta"><a href="${esc(x.link)}" target="_blank" rel="noopener">${esc(x.zdroj)}</a> · ${esc(x.datum)}</div></div>`).join("")||"Zatím žádné sliby. Objeví se, jakmile je AI najde ve zprávách.";
-}
-["sq","sstrana","stema"].forEach(id=>$(id).addEventListener("input",renderPromises));
-
-function fillAgencies(){
-  const reg=$("preg").value,cur=$("pag").value;
-  const ag=[...new Set(polls.filter(p=>p.region===reg).map(p=>p.agentura))].sort();
-  $("pag").innerHTML='<option value="__avg">Průměr agentur (60 dní)</option>'+ag.map(a=>`<option>${esc(a)}</option>`).join("");
-  if(ag.includes(cur))$("pag").value=cur;
-  renderPolls();
-}
-$("preg").addEventListener("input",fillAgencies);
-$("pag").addEventListener("input",renderPolls);
-
-function latestByAgency(P){const m={};P.forEach(p=>{if(!m[p.agentura]||p.datum>m[p.agentura].datum)m[p.agentura]=p});return Object.values(m)}
-
-function renderPolls(){
-  const reg=$("preg").value,ag=$("pag").value;
-  const P=polls.filter(p=>p.region===reg);
-  $("p-title").textContent="Volební preference: "+(reg==="Praha"?"Praha":"celá ČR");
-  if(!P.length){
-    $("bars").innerHTML='<p class="muted">Zatím nejsou zachycené žádné průzkumy. Objeví se, jakmile je skript najde ve zprávách.</p>';
-    $("trend").innerHTML="";$("poll-list").innerHTML="";return;
-  }
-  let base;
-  if(ag==="__avg"){
-    const newest=P.map(p=>p.datum).sort().pop();
-    const lim=new Date(new Date(newest)-60*864e5).toISOString().slice(0,10);
-    base=latestByAgency(P.filter(p=>p.datum>=lim));
-  }else base=[P.filter(p=>p.agentura===ag).sort((a,b)=>b.datum.localeCompare(a.datum))[0]];
-  const sum={},cnt={};
-  base.forEach(p=>Object.entries(p.vysledky).forEach(([k,v])=>{sum[k]=(sum[k]||0)+v;cnt[k]=(cnt[k]||0)+1}));
-  const rows=Object.keys(sum).map(k=>[k,sum[k]/cnt[k]]).sort((a,b)=>b[1]-a[1]);
-  const max=Math.max(10,rows[0][1])*1.1;
-  $("bars").innerHTML=rows.map(([k,v])=>`<div class="row"><span class="nm"><i class="dot" style="background:${col(k)}"></i>${esc(k)}</span>
-    <div class="track"><div class="fill" style="width:${v/max*100}%;background:${col(k)}"></div><span class="thr" style="left:${5/max*100}%"></span></div><b>${num(v)} %</b></div>`).join("")
-    +`<div class="meta">${ag==="__avg"?`Průměr z ${base.length} agentur (poslední průzkum každé)`:`${esc(base[0].agentura)} · ${esc(base[0].datum)}`}</div>`;
-  const top=rows.slice(0,6).map(r=>r[0]);
-  $("trend").innerHTML=lineChart(ag==="__avg"?P:P.filter(p=>p.agentura===ag),top);
-  $("poll-list").innerHTML=P.slice(0,30).map(p=>`<div class="card">
-    <b>${esc(p.agentura)}</b> · ${esc(p.datum)}
-    <div class="meta">${Object.entries(p.vysledky).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`${esc(k)} ${num(v)} %`).join(" · ")}</div>
-    <div class="meta"><a href="${esc(p.link)}" target="_blank" rel="noopener">${esc(p.zdroj)}</a></div></div>`).join("");
-}
-
-function lineChart(P,parties){
-  const ts=P.map(p=>+new Date(p.datum)),t0=Math.min(...ts),t1=Math.max(...ts);
-  if(!(t1>t0))return '<p class="muted">Pro graf vývoje je zatím málo průzkumů z různých dnů.</p>';
-  const pts=parties.map(s=>({s,d:P.filter(p=>p.vysledky[s]!=null).map(p=>({t:+new Date(p.datum),v:p.vysledky[s]})).sort((a,b)=>a.t-b.t)}));
-  const W=640,H=260,L=34,R=12,T=12,B=26;
-  const vmax=Math.ceil(Math.max(...pts.flatMap(x=>x.d.map(q=>q.v)))/5)*5+5;
-  const X=t=>L+(t-t0)/(t1-t0)*(W-L-R),Y=v=>T+(1-v/vmax)*(H-T-B);
-  let g="";
-  for(let v=0;v<=vmax;v+=5)g+=`<line x1="${L}" x2="${W-R}" y1="${Y(v)}" y2="${Y(v)}" class="grid"/><text x="${L-6}" y="${Y(v)+4}" text-anchor="end" class="ax">${v}</text>`;
-  const f=t=>new Date(t).toLocaleDateString("cs-CZ",{day:"numeric",month:"numeric"});
-  g+=`<text x="${L}" y="${H-6}" class="ax">${f(t0)}</text><text x="${W-R}" y="${H-6}" text-anchor="end" class="ax">${f(t1)}</text>`;
-  pts.forEach(({s,d})=>{if(!d.length)return;
-    g+=`<polyline fill="none" stroke="${col(s)}" stroke-width="2.5" stroke-linejoin="round" points="${d.map(q=>X(q.t)+","+Y(q.v)).join(" ")}"/>`+d.map(q=>`<circle cx="${X(q.t)}" cy="${Y(q.v)}" r="3.2" fill="${col(s)}"/>`).join("")});
-  const leg=pts.map(x=>`<span class="lg"><i style="background:${col(x.s)}"></i>${esc(x.s)}</span>`).join("");
-  return `<svg viewBox="0 0 ${W} ${H}" class="chart">${g}</svg><div>${leg}</div>`;
-}
-</script>
+<script src="app.js"></script>
 </body>
 </html>
