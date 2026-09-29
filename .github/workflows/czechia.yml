@@ -1,29 +1,41 @@
 name: Czechia politika
+
 on:
   schedule:
-    - cron: "45 4 * * *"   # 6:45 letního času; v zimě změnit na "45 5 * * *"
+    - cron: "45 4 * * *"   # 6:45 letního času (CEST); v zimě změnit na "45 5 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: czechia-politika
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install feedparser google-genai
-      - run: python fetch_czechia.py
+
+      - name: Instalace závislostí
+        run: pip install feedparser google-genai
+
+      - name: Sběr dat a analýza
+        run: python fetch_czechia.py
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
       - name: Commit
         run: |
           git config user.name "actions-user"
           git config user.email "actions@github.com"
-          git add czechia/articles.json
+          git add czechia/articles.json czechia/parties.json czechia/polls.json
           if ! git diff --cached --quiet; then
             git commit -m "Czechia: aktualizace dat"
             for i in 1 2 3; do
