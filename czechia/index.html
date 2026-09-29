@@ -1,1 +1,65 @@
-
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politický přehled ČR a Prahy</title>
+<style>
+  body{font-family:system-ui,sans-serif;max-width:860px;margin:0 auto;padding:16px;line-height:1.5;color:#1a1a1a}
+  h1{font-size:1.5rem}
+  .filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+  input,select{padding:8px;font-size:1rem;border:1px solid #ccc;border-radius:6px}
+  input{flex:1;min-width:160px}
+  .card{border:1px solid #ddd;border-radius:8px;padding:12px;margin-bottom:12px}
+  .card a{font-weight:600;text-decoration:none;color:#0b57d0}
+  .meta{font-size:.8rem;color:#666;margin-top:6px}
+  .tag{display:inline-block;background:#eef;border-radius:10px;padding:1px 8px;margin-right:4px;font-size:.75rem}
+  footer{font-size:.8rem;color:#666;margin-top:24px}
+  @media (prefers-color-scheme:dark){
+    body{background:#111;color:#eee}
+    input,select{background:#222;color:#eee;border-color:#444}
+    .card{border-color:#333}.card a{color:#8ab4f8}.meta{color:#aaa}
+    .tag{background:#2a2a44}footer{color:#aaa}
+  }
+</style>
+</head>
+<body>
+<h1>Politický přehled: Praha a ČR</h1>
+<div class="filters">
+  <input id="q" placeholder="Hledat…">
+  <select id="region"><option value="">Vše</option><option>Praha</option><option>ČR</option></select>
+  <select id="strana"><option value="">Všechny strany</option></select>
+</div>
+<div id="list">Načítám…</div>
+<footer>Shrnutí generuje AI (Gemini) a může obsahovat chyby. Vždy ověřte v původním zdroji. Web je automatický agregátor, nevyjadřuje politický názor.</footer>
+<script>
+let data=[];
+const $=id=>document.getElementById(id);
+fetch("articles.json").then(r=>r.json()).then(d=>{
+  data=d;
+  [...new Set(d.flatMap(a=>a.strany||[]))].sort()
+    .forEach(s=>$("strana").add(new Option(s,s)));
+  render();
+}).catch(()=>$("list").textContent="Data zatím nejsou k dispozici.");
+["q","region","strana"].forEach(id=>$(id).addEventListener("input",render));
+function esc(s){return (s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function render(){
+  const q=$("q").value.toLowerCase(),r=$("region").value,s=$("strana").value;
+  const out=data.filter(a=>
+    (!r||a.region===r)&&(!s||(a.strany||[]).includes(s))&&
+    (!q||(a.title+" "+(a.shrnuti||"")).toLowerCase().includes(q)));
+  $("list").innerHTML=out.slice(0,100).map(a=>`
+    <div class="card">
+      <a href="${esc(a.link)}" target="_blank" rel="noopener">${esc(a.title)}</a>
+      <div>${esc(a.shrnuti)}</div>
+      <div class="meta">
+        ${esc(a.source)} · ${esc(a.published||a.added)} ·
+        <span class="tag">${esc(a.region)}</span>
+        ${(a.strany||[]).map(x=>`<span class="tag">${esc(x)}</span>`).join("")}
+        <span class="tag">tón: ${esc(a.ton)}</span>
+      </div>
+    </div>`).join("")||"Nic nenalezeno.";
+}
+</script>
+</body>
+</html>
