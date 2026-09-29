@@ -1,60 +1,81 @@
 {
-  "last_updated": "2026-09-27T11:07:34Z",
+  "last_updated": "2026-09-29T01:49:30Z",
   "assessment": {
-    "threat_level": "CRITICAL",
-    "sentiment_score": 90,
-    "security_status_cs": "Situace v Rudém moři a okolí eskaluje v důsledku intenzivních útoků Houthiů na Saúdskou Arábii a diverzní strategie v Hormuzském průlivu. Omezení přepravy ropy, přímé útoky na civilní i energetickou infrastrukturu a zablokované diplomatické iniciativy udržují region na pokraji plnohodnotné krize.",
-    "security_status_en": "The situation in and around the Red Sea is escalating due to intense Houthi attacks on Saudi Arabia and diversion strategies in the Strait of Hormuz. Oil shipping bottlenecks, direct strikes on civilian and energy infrastructure, and stalled diplomatic initiatives keep the region on the brink of a full-scale crisis.",
+    "threat_level": "HIGH",
+    "sentiment_score": 78,
+    "security_status_cs": "V Jemenu a v oblasti Bab al-Mandab eskalují ozbrojené střety, když vládní jednotky a saúdská koalice podnikají rozsáhlé operace proti Houthiům. Útoky na energetickou infrastrukturu a lodní trasy nadále ohrožují globální energetickou bezpečností a vyvolávají diplomatické napětí s Íránem.",
+    "security_status_en": "Armed clashes are escalating in Yemen and the Bab al-Mandab Strait as government forces and the Saudi coalition launch large-scale operations against the Houthis. Attacks on energy infrastructure and shipping routes continue to threaten global energy security and provoke diplomatic tensions with Iran.",
     "recommendations": [
       {
         "sector_cs": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)",
         "sector_en": "Maritime Shipping (e.g. Maersk, Hapag-Lloyd, ZIM)",
         "action": "BUY",
-        "reason_cs": "Trvající obchvaty přes Afri kvuli útokům v Rudém moři zajišťují vysoké sazby za přepravu a robustní marže lodních společností.",
-        "reason_en": "Ongoing detours around Africa due to Red Sea attacks ensure high freight rates and robust profit margins for shipping companies."
+        "reason_cs": "Přetrvávající konflikty v Rudém moři nutí dopravce k pokračujícímu využívání delších tras kolem Afriky, což udržuje vysoké sazby za přepravu.",
+        "reason_en": "Persistent conflicts in the Red Sea force carriers to continue utilizing longer routes around Africa, keeping shipping freight rates elevated."
       },
       {
         "sector_cs": "Obranný průmysl (např. RTX, Lockheed Martin, BAE Systems)",
         "sector_en": "Defense Industry (e.g. RTX, Lockheed Martin, BAE Systems)",
         "action": "BUY",
-        "reason_cs": "Intenzivní balistické a dronové útoky v Saúdské Arábii zvyšují poptávku po systémech protivzdušné obrany a vojenském vybavení.",
-        "reason_en": "Intensive ballistic and drone attacks in Saudi Arabia drive sustained demand for air defense systems and military equipment."
+        "reason_cs": "Zintenzivnění bojů a raketové útoky v regionu generují zvýšenou poptávku po protivzdušné obraně a vojenském vybavení ze strany Saúdské Arábie a spojenců.",
+        "reason_en": "Intensified fighting and missile attacks in the region drive increased demand for air defense and military equipment from Saudi Arabia and allies."
       },
       {
         "sector_cs": "Ropa a Plyn (např. Shell, BP, Chevron)",
         "sector_en": "Oil & Gas (e.g. Shell, BP, Chevron)",
         "action": "BUY",
-        "reason_cs": "Omezení průtoku Hormuzským průlivem a útoky na saúdská ropná zařízení udržují ceny energií na zvýšených úrovních a podporují zisky producentů.",
-        "reason_en": "Strait of Hormuz disruptions and strikes on Saudi oil facilities keep energy prices elevated and support producer earnings."
+        "reason_cs": "Útoky na ropná zařízení a nestabilita v oblasti Jemenu udržují ceny ropy na zvýšené úrovni a podporují marže energetických společností.",
+        "reason_en": "Attacks on oil facilities and instability in the Yemen region keep oil prices elevated and support profit margins for energy companies."
       },
       {
         "sector_cs": "Evropský Spotřební sektor & Autoprůmysl (např. Volvo, BMW)",
         "sector_en": "European Consumer & Automotive (e.g. Volvo, BMW)",
-        "action": "SELL",
-        "reason_cs": "Dražší doprava, narušené dodavatelské řetězce a rostoucí náklady na energie negativně ovlivňují marže a poptávku.",
-        "reason_en": "Higher shipping costs, disrupted supply chains, and rising energy expenses negatively impact margins and consumer demand."
+        "action": "HOLD",
+        "reason_cs": "Zatímco růst cen energií a logistická zpoždění tlačí na marže, snížení daní z elektřiny a nárůst poptávky po tepelných čerpadlech částečně kompenzují negativní vlivy.",
+        "reason_en": "While energy price hikes and logistics delays pressure margins, lower electricity taxes and surging heat pump demand partially offset negative impacts."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí bankovní sektor a energetika jsou vůči přímým geopolitickým šokům v Perském zálivu relativně izolované, ale čelí makroekonomické nejistotě.",
-        "reason_en": "The domestic banking and energy sectors remain relatively insulated from direct Persian Gulf shocks, though they face broader macroeconomic uncertainty."
+        "reason_cs": "Domácí bankovní sektor zůstává stabilní navzdory geopolitickému napětí, přičemž energetický titul ČEZ těží z celkově napjatých evropských energetických trhů.",
+        "reason_en": "The domestic banking sector remains stable despite geopolitical tensions, while utility giant ČEZ benefits from overall tight European energy markets."
       },
       {
         "sector_cs": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
         "sector_en": "European blue-chips (e.g. Airbus, TotalEnergies, Allianz, Rheinmetall)",
         "action": "HOLD",
-        "reason_cs": "Smíšený dopad – energetické a zbrojní tituly těží z krize, zatímco průmyslové a finanční akcie pociťují rostoucí rizikovou prémii a volatilitu.",
-        "reason_en": "Mixed impact—energy and defense titles benefit from the crisis, while industrial and financial equities face rising risk premiums and volatility."
+        "reason_cs": "Trh balancuje mezi rostoucími riziky v oblasti dodavatelských řetězců a silnou výkonností obranného a energetického segmentu.",
+        "reason_en": "The market balances between growing supply chain risks and the strong performance of defense and energy segments."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat další diplomatické manévry ohledně Hormuzského průlivu a pokračující ozbrojené střety v Jemenu, což udrží vysokou volatilitu cen ropy a námořní přepravy.",
-    "forecast_en": "Over the coming days, further diplomatic maneuvers regarding the Strait of Hormuz and ongoing armed clashes in Yemen are expected, maintaining high volatility in oil prices and maritime shipping.",
-    "forecast_review_cs": "Předchozí předpověď se plně potvrdila, neboť pokračující vojenské střety v Jemenu a odmítnuté diplomatické nabídky Íránu udržely ceny ropy a náklady na přepravu na vysokých úrovních.",
-    "forecast_review_en": "The previous forecast was fully confirmed as ongoing military clashes in Yemen and rejected Iranian diplomatic offers kept oil prices and shipping costs at elevated levels."
+    "forecast_cs": "V nejbližších dnech lze očekávat pokračující vojenské operace v Jemenu a zvýšenou diplomatickou aktivitu G7 vůči Íránu, což udrží volatilitu na trzích s ropou a v námořní dopravě.",
+    "forecast_en": "Over the coming days, continued military operations in Yemen and heightened G7 diplomatic activity toward Iran are expected, maintaining volatility in oil and maritime shipping markets.",
+    "forecast_review_cs": "Předchozí předpověď o diplomatických manévrech a pokračujících střetech v Jemenu se plně potvrdila dnešními zprávami o rozsáhlých vojenských operacích a G7 summitu.",
+    "forecast_review_en": "The previous forecast regarding diplomatic maneuvers and ongoing clashes in Yemen was fully confirmed by today's news of large-scale military operations and the G7 summit."
   },
   "articles": [
+    {
+      "title": "Inside Yemen's front-line city as Houthis battle for control",
+      "summary": "In rare access to Yemen's conflict zone the BBC travels to the front line with pro-government soldiers.",
+      "link": "https://www.bbc.co.uk/news/articles/cw98005ndz7no?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 27 Sep 2026 21:16:31 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Watch: BBC reports from the front-line of an escalating war in Yemen",
+      "summary": "In rare access to Yemen's conflict zone the BBC travels to the front line with pro-government soldiers.",
+      "link": "https://www.bbc.co.uk/news/videos/crp3kgjygnkeo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 27 Sep 2026 21:00:06 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Miliband tells Iran minister UK will not tolerate 'hostile activity' on British soil",
+      "summary": "The foreign secretary stresses \"the UK's unwavering resolve to combat threats from Iranian-linked groups in UK soil, including attacks on the British Jewish community\".",
+      "link": "https://www.bbc.co.uk/news/articles/cwp8476m06pyo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 25 Sep 2026 02:51:36 GMT",
+      "source": "BBC News"
+    },
     {
       "title": "Iran must stop arming Houthis in Yemen, G7 says ahead of UN General Assembly",
       "summary": "The G7 also condemns \"in the strongest terms\" Houthi attacks on Saudi Arabia, saying that the escalation in fighting in Yemen jeopardises global energy security.",
@@ -70,24 +91,10 @@
       "source": "BBC News"
     },
     {
-      "title": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
-      "summary": "The BBC's Frank Gardner speaks to some of those who have fled the war by crossing the Red Sea to Djibouti.",
-      "link": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 21 Sep 2026 14:14:16 GMT",
-      "source": "BBC News"
-    },
-    {
       "title": "Houthis say they targeted Saudi capital with ballistic missiles",
       "summary": "A reported strike on a fuel depot at Riyadh airport caused delays on Saturday, as Saudi Arabia says it shot down a ballistic missile aimed at the capital.",
       "link": "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
       "published": "Sat, 19 Sep 2026 23:49:26 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Verified video shows wreckage of Saudi fighter jet shot down over Yemen",
-      "summary": "BBC Verify tracks down the location of a Houthi video showing the wreckage of an F-15 they claim to have shot down.",
-      "link": "https://www.bbc.co.uk/news/articles/c8vgy3p6k3y9o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 17 Sep 2026 13:47:36 GMT",
       "source": "BBC News"
     },
     {
@@ -98,10 +105,24 @@
       "source": "BBC News"
     },
     {
+      "title": "Yemenis flee across Red Sea as Houthis and Saudi-backed forces escalate war",
+      "summary": "The BBC's Frank Gardner speaks to some of those who have fled the war by crossing the Red Sea to Djibouti.",
+      "link": "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 21 Sep 2026 14:14:16 GMT",
+      "source": "BBC News"
+    },
+    {
       "title": "Lightning Houthi advance in Yemen may bring dangerous new dimension to Iran war",
       "summary": "The capture by the rebels of a stretch of Yemen's strategic coastline is the group's most impressive military coup for several years.",
       "link": "https://www.bbc.co.uk/news/articles/c3v4zgzr1kxo?at_medium=RSS&at_campaign=rss",
       "published": "Fri, 11 Sep 2026 19:44:58 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Why is the Bab al-Mandab Strait so important?",
+      "summary": "The BBC's Frank Gardner explains why the narrow waterway is key to oil transportation and the world economy.",
+      "link": "https://www.bbc.co.uk/news/videos/c6kgw4xklvx3o?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 22 Sep 2026 12:57:59 GMT",
       "source": "BBC News"
     },
     {
@@ -112,38 +133,38 @@
       "source": "BBC News"
     },
     {
-      "title": "Watch: Trump says Iran war will end 'immediately' after US midterm elections",
-      "summary": "The president also blamed the rising price of oil on the war, and said that prices will come down after the coming elections.",
-      "link": "https://www.bbc.co.uk/news/videos/c3d7p3jmk7ko?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 09 Sep 2026 21:12:12 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Yemen government forces widen attacks against Houthis: What we know",
-      "summary": "Yemeni government forces have claimed multiple air and ground operations across Taiz in the last 24 hours.",
-      "link": "https://www.aljazeera.com/news/2026/9/27/yemen-government-forces-widen-attacks-against-houthis-what-we-know?traffic_source=rss",
-      "published": "Sun, 27 Sep 2026 09:59:21 +0000",
+      "title": "Gold falls amid rising oil prices and higher US dollar",
+      "summary": "Gold hits seven-week low; silver follows suit and records a nearly 5 percent loss.",
+      "link": "https://www.aljazeera.com/economy/2026/9/28/gold-falls-amid-rising-oil-prices-and-higher-us-dollar?traffic_source=rss",
+      "published": "Mon, 28 Sep 2026 21:34:51 +0000",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera"
     },
     {
-      "title": "Iran shifts trade north to Caspian Sea as war impairs Strait of Hormuz",
-      "summary": "Iran is looking for alternatives to export its oil as the US blockades its southern ports.",
-      "link": "https://www.aljazeera.com/economy/2026/9/27/can-iran-shift-trade-north-to-caspian-sea-as-war-impairs-strait-of-hormuz?traffic_source=rss",
-      "published": "Sun, 27 Sep 2026 08:49:32 +0000",
+      "title": "UAE confirms Israel PM Netanyahu’s visit to Abu Dhabi",
+      "summary": "The visit took place as the Israeli prime minister battles domestic turmoil ahead of October's Knesset elections.",
+      "link": "https://www.aljazeera.com/news/2026/9/28/uae-confirms-netanyahu-visit-to-abu-dhabi?traffic_source=rss",
+      "published": "Mon, 28 Sep 2026 19:42:30 +0000",
       "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera"
     },
     {
-      "title": "Djibouti urges world to help as Yemen war drives refugee influx",
-      "summary": "Djibouti urges world to help as Yemen war drives refugee influx",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/9/27/djibouti-urges-world-to-help-as-yemen-war-drives-refugee-influx?traffic_source=rss",
-      "published": "Sun, 27 Sep 2026 08:35:25 +0000",
-      "source": "Al Jazeera – Breaking News, World News and Video from Al Jazeera"
+      "title": "‘It’s hard to sell a house when it’s covered in baboon faeces’: Cape Town divided over plan to remove its monkeys",
+      "summary": "<p>Two troops of chacma baboons are breaking into homes and shops but animal rights activists insist coexistence is the answer</p><p>Cape Town’s city council has said it will “imminently” round up two baboon troops coming into <a href=\"https://www.theguardian.com/environment/2026/feb/22/baboon-population-cape-town-south-africa-animal-rights-activists\">repeated conflict with residents</a>. The animals will be sterilised and permanently moved to a newly constructed sanctuary. The plan has been fiercely criticised by animal rights activists, who say the monkeys should remain roaming freely, and that less destructive options have not been properly considered.</p><p>Cape Town’s baboon problem has been brewing since the 2000s, after the city stopped culling troops in the late 1990s after pressure from the public. But in the past two years it has reached boiling point. A <a href=\"https://baboons.org.za/wp-content/uploads/2026/01/Baboon-Population-Census-2025_FINAL.pdf\">2025 census</a> found that the population had grown by a third since 2000, from 360 baboons to 493, now living in 12 managed troops.</p> <a href=\"https://www.theguardian.com/environment/2026/sep/27/baboons-cape-town-divided-over-plan-to-remove-its-monkeys-aoe\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/environment/2026/sep/27/baboons-cape-town-divided-over-plan-to-remove-its-monkeys-aoe",
+      "published": "Sun, 27 Sep 2026 11:00:03 GMT",
+      "source": "World news | The Guardian"
     },
     {
-      "title": "Trump faces tough choices as Iran dangles deal to reopen Hormuz before US midterms",
-      "summary": "<p>Iran’s seven-day timetable would restart nuclear talks, but will the US be willing to deliver on terms that include reining in Israel in Lebanon?</p><p></p><p>Iran’s seven-day timetable to reopen the strait of Hormuz and start talks on its nuclear programme has been pitched as a deal that could rapidly extricate Donald Trump from a political crisis but requires the US president to make difficult concessions.</p><p>In the five days left before the proposed reopening of the strait, which is expected to relieve pressure on global energy markets, Trump would need to lift Iranian asset freezes, permit Iran to export its oil and, probably most difficult of all, order Benjamin Netanyahu to end Israel’s attacks on Hezbollah in Lebanon, thus achieving the “ceasefire on all fronts”.</p> <a href=\"https://www.theguardian.com/world/2026/sep/25/trump-tough-choices-iran-accelerated-deal-reopen-hormuz-midterm-elections\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/sep/25/trump-tough-choices-iran-accelerated-deal-reopen-hormuz-midterm-elections",
-      "published": "Fri, 25 Sep 2026 15:43:59 GMT",
+      "title": "Heat pump sales soar across Europe after states cut electricity taxes, data shows",
+      "summary": "<p>EU to push member states to cut tax rate below duty on gas, with 11% surge in sales also put down to fallout from Iran war</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/sep/28/uk-housebuilders-stocks-new-homes-scheme-first-time-buyers-business-live-news\">Business live – latest updates</a></p></li><li><p><a href=\"https://www.theguardian.com/world/live/2026/sep/28/europe-ukraine-defence-ministers-pope-leo-france-visit-latest-news-updates\">Europe live – latest updates</a></p></li></ul><p>Sales of residential heat pumps increased 11% across Europe in the first six months of the year as the <a href=\"https://www.theguardian.com/world/iran\">Iran war</a> sent oil and gas prices rocketing and some countries lowered electricity taxes.</p><p>Homeowners bought 1.16m heat pumps across 12 European countries, up from 1.05m in the first half of 2025, according to the European Heat Pump Association (EHPA).</p> <a href=\"https://www.theguardian.com/environment/2026/sep/28/heat-pump-sales-soar-across-europe-after-ciuntries-cut-electricity-taxes-data-shows\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/environment/2026/sep/28/heat-pump-sales-soar-across-europe-after-ciuntries-cut-electricity-taxes-data-shows",
+      "published": "Mon, 28 Sep 2026 13:53:52 GMT",
+      "source": "World news | The Guardian"
+    },
+    {
+      "title": "Children forced to give up school for work as fighting upends daily life in Yemen",
+      "summary": "<p>Renewed fighting between Iran-aligned Houthis and Saudi-backed Yemeni forces has shattered four years of relative calm</p><p>In the mornings, 13-year-old Muneer Farie went to school, and in the afternoons he helped his father feed the livestock. He took his studies seriously, dreaming of becoming the first teacher in his family of farmers.</p><p>As fighting approached his village in al-Wazeyah district in Taiz, Yemen, two weeks ago, Muneer’s focus started to drift from his lessons. The classroom echoed with the distant sounds of explosions and gunfire. His home was suddenly on the frontline of renewed fighting between the Iran-aligned Houthis and the Saudi-backed Yemeni government.</p> <a href=\"https://www.theguardian.com/world/2026/sep/28/yemen-fighting-houthis-families-flee-displacement\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/sep/28/yemen-fighting-houthis-families-flee-displacement",
+      "published": "Mon, 28 Sep 2026 07:07:26 GMT",
       "source": "World news | The Guardian"
     },
     {
@@ -154,54 +175,28 @@
       "source": "World news | The Guardian"
     },
     {
-      "title": "Riyadh schools to operate remotely for week, AFP reports",
-      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/parents-told-riyadh-schools-operate-remotely-week-afp-reports\" rel=\"bookmark\">\n<span class=\"field field-title\">Riyadh schools to operate remotely for week, AFP reports </span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Parents across Riyadh received emails from schools on Sunday announcing a last-minute plan to shift to remote learning for a week, according to messages seen by AFP.</p>\n\n<p>\"We have just been informed by Saudi authorities that schools must remain closed all week,\" read two separate messages seen by AFP. </p>\n\n<p>There was no official reason given but the move comes amid heightened tensions in the Gulf and near-daily attacks aimed at Saudi Arabia by the Houthi fighters in Yemen.</p>\n\n<p>\"When a decision affects an entire school community for a full week, families deserve clear communication and transparency about the reasons behind it,\" one parent living in Riyadh who spoke on condition of anonymity told AFP. </p>\n\n<p>\"It's a last-minute decision. We have no clue what's happening,\" a Lebanese expatriate living in Riyadh added.</p>\n\n<p>The announcement comes a day after the Saudi-led coalition battling Yemen's Houthis said it had intercepted drones and ballistic missiles targeting the kingdom. </p>\n\n<p>The strikes were the latest in a series of escalating Houthi attacks since July, when renewed hostilities shattered a years-long truce and embroiled Yemen in the wider Middle East war.</p>\n\n<p>The United Nations Security Council earlier condemned escalating attacks on Saudi Arabia by Houthi fighters, noting that the strikes have wounded \"civilians, including women and children\".</p>\n\n<p><em>Report by AFP</em></p>\n</div>\n      \n  </div>\n\n</article>",
-      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/parents-told-riyadh-schools-operate-remotely-week-afp-reports",
-      "published": "Sun, 27 Sep 2026 05:31:12 +0100",
+      "title": "Yemen's armed forces claim 356 operations against Houthi targets over past day",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/yemens-armed-forces-claim-356-operations-against-houthi-targets-over\" rel=\"bookmark\">\n<span class=\"field field-title\">Yemen's armed forces claim 356 operations against Houthi targets over past day</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Yemen’s Defense Ministry said that its forces carried out 356 operations against Houthi targets over the past 24 hours, claiming it killed and wounded 476 members.</p>\n\n<p>In a statement by armed forces spokesperson Majid al-Nuzaili, he said that a number of command and control centres, weapons depots and field artillery across 10 fronts.</p>\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/yemens-armed-forces-claim-356-operations-against-houthi-targets-over",
+      "published": "Tue, 29 Sep 2026 02:40:42 +0100",
       "source": "Section Feed"
     },
     {
-      "title": "Saudi Arabia calls for 'comprehensive' regional navigation security",
-      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-calls-comprehensive-regional-navigation-security\" rel=\"bookmark\">\n<span class=\"field field-title\">Saudi Arabia calls for 'comprehensive' regional navigation security </span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Saudi Foreign Minister Prince Faisal bin Farhan used his address at the UN General Assembly to call for serious international cooperation to protect freedom of navigation and stress that a regional security framework should be \"comprehensive\".</p>\n\n<p>“Protecting international navigation is a shared responsibility that requires serious international cooperation,” he said.</p>\n\n<p>Prince Faisal, who led the Saudi delegation at the UNGA, added that Riyadh supports efforts to reduce tensions in the region and stressed that \"any arrangements for its security be comprehensive\".</p>\n\n<p>He also supported initiatives aimed at de-escalation, particularly efforts by Qatar and Pakistan, saying they can help restore regional stability. </p>\n\n<p>The minister accused Iran of flagrant attacks on civilian and economic targets across the region, while calling on the international community to condemn Houthi actions threatening Red Sea shipping.</p>\n</div>\n      \n  </div>\n\n</article>",
-      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-calls-comprehensive-regional-navigation-security",
-      "published": "Sun, 27 Sep 2026 02:36:09 +0100",
+      "title": "Saudi defence minister invites UAE vice president to kingdom",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/saudi-defence-minister-invites-uae-vice-president-kingdom\" rel=\"bookmark\">\n<span class=\"field field-title\">Saudi defence minister invites UAE vice president to kingdom</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Saudi Arabia's defence minister invited the UAE Vice President Mansour bin Zayed to visit the kingdom on Tuesday for a face-to-face meeting, according to state media.</p>\n\n<p>In July, top officials and ministers in both countries posted about friendship and unity on social media, signalling a rapprochement months after a public fallout over Yemen.</p>\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-defence-minister-invites-uae-vice-president-kingdom",
+      "published": "Mon, 28 Sep 2026 21:36:28 +0100",
       "source": "Section Feed"
     },
     {
-      "title": "Trump Rejects Iran Proposal On Hormuz As Houthis Target Riyadh",
-      "summary": "By Courtney Subramanian Sep 26, 2026 (Bloomberg) –President Donald Trump said Saturday he rejected a deal from Iran to reopen the Strait of Hormuz as Saudi Arabia’s capital came under attack...",
-      "link": "https://gcaptain.com/trump-rejects-iran-proposal-on-hormuz-as-houthis-target-riyadh/",
-      "published": "Sat, 26 Sep 2026 18:09:09 +0000",
-      "source": "gCaptain"
-    },
-    {
-      "title": "Seized Iranian Oil Tankers Head Toward U.S. With $600 Million Cargo",
-      "summary": "Two of the Iran-linked oil supertankers interdicted by American naval forces early in the war are just weeks away from reaching the US, where authorities have pledged to seize the vessels and millions of dollars worth of crude that they’re transporting.",
-      "link": "https://gcaptain.com/seized-iranian-oil-tankers-head-toward-u-s-with-600-million-cargo/",
-      "published": "Fri, 25 Sep 2026 16:45:36 +0000",
-      "source": "gCaptain"
-    },
-    {
-      "title": "Gulf of Oman Ship-to-ship Oil Transfers Reach Limit as Saudi Exports Surge",
-      "summary": "Ship-to-ship transfers in the Gulf of Oman for Middle Eastern oil from inside the Strait of Hormuz have reached their limits after Saudi Arabia diverted exports from the Red Sea, adding to shipments from other producers, trade sources and analysts said.",
-      "link": "https://gcaptain.com/gulf-of-oman-ship-to-ship-oil-transfers-reach-limit-as-saudi-exports-surge/",
-      "published": "Fri, 25 Sep 2026 16:38:28 +0000",
-      "source": "gCaptain"
-    },
-    {
-      "title": "US-Sanctioned Oil Tanker ‘Sibu 1’ Rescued from Somali Pirates",
-      "summary": "A US-sanctioned oil tanker, Sibu 1, has been freed after being hijacked by Somali pirates in August, the maritime police force in Somalia's semi-autonomous Puntland region said on Friday.",
-      "link": "https://gcaptain.com/us-sanctioned-oil-tanker-sibu-1-rescued-from-somali-pirates/",
-      "published": "Fri, 25 Sep 2026 10:40:18 +0000",
-      "source": "gCaptain"
+      "title": "Netanyahu asked UAE leader to publicly deny 7 October 2023 warning to Israel: Report",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-asked-uae-leader-publicly-deny-7-october-2023-warning-israel\" rel=\"bookmark\">\n<span class=\"field field-title\">Netanyahu asked UAE leader to publicly deny 7 October 2023 warning to Israel: Report</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p></p>\n\n\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span><a href=\"https://www.middleeasteye.net/countries/israel\" rel=\"noopener noreferrer\" target=\"_blank\">Israel</a>i Prime Minister Benjamin Netanyahu travelled to the <a href=\"https://www.middleeasteye.net/countries/uae\" rel=\"noopener noreferrer\" target=\"_blank\">UAE</a> on Sunday to ask Emirati President Mohamed bin Zayed to publicly deny a story that the Gulf state warned him in advance of the 7 October 2023 Hamas-led attack on southern Israel, according to a <a href=\"https://apnews.com/article/israel-iran-uae-netayahu-yemen-september-28-2026-854377716258982535c7b2cd3a7d0fe0\" target=\"_blank\">report</a> by the Associated Press. </p>\n\n<p>Netanyahu lobbied the UAE president in an “hour-long” meeting to deny <a href=\"https://www.haaretz.com/israel-news/israel-security/2026-09-28/ty-article/netanyahu-asked-uae-leader-to-deny-haaretz-report-on-oct-7-warning/000001a0-e77e-db4b-a7a5-f77eecd60000\" target=\"_blank\">reporting</a> by Haaretz that said he was warned Hamas was planning a major operation, according to Israeli media outlets.</p>\n\n<p>The report, published by Haaretz based on an upcoming book, said Zayed had told Netanyahu that Israel should be ready for a Hamas-led attack. The Emirati leader also recommended trying to find an economic solution to the besieged Gaza Strip and calm tensions in the occupied West Bank, where Israeli settlers have attacked Palestinians with impunity and dramatically expanded illegal settlements.</p>\n\n<h3>Read more: <a href=\"https://www.middleeasteye.net/news/netanyahu-asked-uae-leader-to-publicly-deny-7-october-warning-Israel-report\">Netanyahu asked UAE leader to publicly deny 7 October 2023 warning to Israel: Report</a></h3>\n\n  <figure class=\"media-block\">\n  <div class=\"group-inner\">\n    <div alt=\"Israel Prime Minister Benjamin Netanyahu addresses the 81st session of the United Nations General Assembly at UN headquarters in New York City, on 24 September 2026 (Alexi J Rosenfeld/Getty Images/AFP)\" class=\"embedded-entity\">  <img alt=\"Israel Prime Minister Benjamin Netanyahu addresses the 81st session of the United Nations General Assembly at UN headquarters in New York City, on 24 September 2026 (Alexi J Rosenfeld/Getty Images/AFP)\" height=\"674\" src=\"https://www.middleeasteye.net/sites/default/files/images-story/Netanyahu-AFP.jpg\" width=\"1200\" />\n\n</div>\n\n    <figcaption>Israeli Prime Minister Benjamin Netanyahu addresses the 81st session of the United Nations General Assembly at UN headquarters in New York City, on 24 September 2026 (Alexi J Rosenfeld/Getty Images/AFP)</figcaption>\n  </div>\n</figure>\n\n\n<p><span><img height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-asked-uae-leader-publicly-deny-7-october-2023-warning-israel",
+      "published": "Mon, 28 Sep 2026 18:28:49 +0100",
+      "source": "Section Feed"
     }
   ],
   "history": [
-    {
-      "date": "2026-09-16 20:26",
-      "threat_level": "KRITICKÁ",
-      "value": 4
-    },
     {
       "date": "2026-09-17 05:41",
       "threat_level": "KRITICKÁ",
@@ -438,6 +433,15 @@
       "incidents": 20,
       "brent": 97.44,
       "usd_czk": null
+    },
+    {
+      "date": "2026-09-29 01:49",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 78,
+      "incidents": 20,
+      "brent": 99.46,
+      "usd_czk": null
     }
   ],
   "locations": [
@@ -456,25 +460,11 @@
       "name_en": "Red Sea"
     },
     {
-      "key": "Hormuz",
-      "lat": 26.5667,
-      "lon": 56.25,
-      "name_cs": "Hormuzský průliv",
-      "name_en": "Strait of Hormuz"
-    },
-    {
       "key": "Saudi Arabia",
       "lat": 23.8859,
       "lon": 45.0792,
       "name_cs": "Saúdská Arábie",
       "name_en": "Saudi Arabia"
-    },
-    {
-      "key": "Oman",
-      "lat": 21.4735,
-      "lon": 55.9754,
-      "name_cs": "Omán",
-      "name_en": "Oman"
     }
   ],
   "location_counts": {
@@ -487,11 +477,11 @@
     "Irák": 5,
     "Bab-el-Mandeb": 2,
     "Suezský průplav": 2,
-    "Yemen": 15,
-    "Red Sea": 13,
+    "Yemen": 16,
+    "Red Sea": 14,
     "Hormuz": 15,
     "Mecca": 10,
-    "Saudi Arabia": 15,
+    "Saudi Arabia": 16,
     "Oman": 11,
     "Iraq": 6,
     "Suez": 1
@@ -500,17 +490,9 @@
     "key": "Yemen",
     "name_cs": "Jemen",
     "name_en": "Yemen",
-    "count": 15
+    "count": 16
   },
   "archive": [
-    {
-      "date": "2026-09-19 19:09",
-      "threat_level": "CRITICAL",
-      "security_status_cs": "Bezpečnostní situace v regionu prudce eskaluje po útocích Houthiů na saúdské hlavní město Rijád a ropná zařízení v Janbu. Současně narušení klíčového ropovodu a incidenty v Hormuzském průlivu vytvářejí kritický tlak na globální dodávky energie.",
-      "security_status_en": "The security situation in the region is escalating sharply following Houthi attacks on the Saudi capital Riyadh and oil facilities in Yanbu. Concurrently, the disruption of a crucial pipeline and incidents in the Strait of Hormuz are placing critical pressure on global energy supplies.",
-      "forecast_cs": "V nejbližších dnech lze očekávat další testování saúdské infrastruktury a odvetné operace koalice, což udrží ceny ropy na zvýšené úrovrni.",
-      "forecast_en": "Over the coming days, further testing of Saudi infrastructure and coalition retaliatory operations are expected, keeping oil prices elevated."
-    },
     {
       "date": "2026-09-19 19:32",
       "threat_level": "CRITICAL",
@@ -614,19 +596,27 @@
       "security_status_en": "The situation in and around the Red Sea is escalating due to intense Houthi attacks on Saudi Arabia and diversion strategies in the Strait of Hormuz. Oil shipping bottlenecks, direct strikes on civilian and energy infrastructure, and stalled diplomatic initiatives keep the region on the brink of a full-scale crisis.",
       "forecast_cs": "V nejbližších dnech lze očekávat další diplomatické manévry ohledně Hormuzského průlivu a pokračující ozbrojené střety v Jemenu, což udrží vysokou volatilitu cen ropy a námořní přepravy.",
       "forecast_en": "Over the coming days, further diplomatic maneuvers regarding the Strait of Hormuz and ongoing armed clashes in Yemen are expected, maintaining high volatility in oil prices and maritime shipping."
+    },
+    {
+      "date": "2026-09-29 01:49",
+      "threat_level": "HIGH",
+      "security_status_cs": "V Jemenu a v oblasti Bab al-Mandab eskalují ozbrojené střety, když vládní jednotky a saúdská koalice podnikají rozsáhlé operace proti Houthiům. Útoky na energetickou infrastrukturu a lodní trasy nadále ohrožují globální energetickou bezpečností a vyvolávají diplomatické napětí s Íránem.",
+      "security_status_en": "Armed clashes are escalating in Yemen and the Bab al-Mandab Strait as government forces and the Saudi coalition launch large-scale operations against the Houthis. Attacks on energy infrastructure and shipping routes continue to threaten global energy security and provoke diplomatic tensions with Iran.",
+      "forecast_cs": "V nejbližších dnech lze očekávat pokračující vojenské operace v Jemenu a zvýšenou diplomatickou aktivitu G7 vůči Íránu, což udrží volatilitu na trzích s ropou a v námořní dopravě.",
+      "forecast_en": "Over the coming days, continued military operations in Yemen and heightened G7 diplomatic activity toward Iran are expected, maintaining volatility in oil and maritime shipping markets."
     }
   ],
-  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 5× CRITICAL, 2× HIGH.",
-  "weekly_summary_en": "Over the last 7 recorded analyses: 5× CRITICAL, 2× HIGH.",
+  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 4× CRITICAL, 3× HIGH.",
+  "weekly_summary_en": "Over the last 7 recorded analyses: 4× CRITICAL, 3× HIGH.",
   "oil_prices": {
     "brent": {
-      "value": 97.44,
-      "date": "2026-09-25",
+      "value": 99.46,
+      "date": "2026-09-29",
       "cached": false
     },
     "wti": {
-      "value": 92.41,
-      "date": "2026-09-25",
+      "value": 93.86,
+      "date": "2026-09-29",
       "cached": false
     }
   },

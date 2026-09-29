@@ -1,60 +1,89 @@
 {
-  "last_updated": "2026-09-27T11:08:13Z",
+  "last_updated": "2026-09-29T01:50:05Z",
   "assessment": {
-    "threat_level": "CRITICAL",
-    "sentiment_score": 78,
-    "security_status_cs": "Evropská bezpečnostní situace se nadále zhoršuje v důsledku stupňujících se ruských útoků na ukrajinskou kritickou a digitální infrastrukturu, sabotáží v Polsku a napjatých diplomatických jednání na Valném shromáždění OSN. Na domácí scéně čelí evropské země rostoucímu sociálnímu napětí, vlnám protestů proti vojenské službě v Německu a hluboké krizi dostupnosti bydlení ve Španělsku. Britská politika pak řeší dlouhodobé ekonomické dopady brexitu a sílící debaty o budoucím směřování vztahů s EU.",
-    "security_status_en": "The European security landscape continues to deteriorate due to escalating Russian attacks on Ukraine's critical and digital infrastructure, sabotage incidents in Poland, and tense diplomatic talks at the UN General Assembly. Domestically, European nations face mounting social tensions, military service protests in Germany, and a deep housing affordability crisis in Spain. Meanwhile, UK politics grapples with the lingering economic costs of Brexit and intensifying debates over future ties with the EU.",
+    "threat_level": "HIGH",
+    "sentiment_score": 72,
+    "security_status_cs": "Evropa čelí rostoucímu vlnění politické nestability a hybridních hrozeb, včetně sabotáží kritické infrastruktury a kybernetických útoků na ukrajinská datová centra. Zatímco francouzská krajní pravice slaví historické zisky v senátu a Německo bojuje s identitární krizí a protivládními protesty, ekonomika těží z prudkého nárůstu prodejů tepelných čerpadel po energetickém šoku.",
+    "security_status_en": "Europe is facing a rising wave of political instability and hybrid threats, including critical infrastructure sabotage and cyberattacks on Ukrainian data centers. While the French far-right celebrates historic senate gains and Germany struggles with an identity crisis and protests, the economy benefits from a sharp surge in heat pump sales following the energy shock.",
     "recommendations": [
       {
         "sector_cs": "Široký evropský akciový trh (Euro Stoxx 50 ETF)",
         "sector_en": "Broad European Equities (Euro Stoxx 50 ETFs)",
         "action": "HOLD",
-        "reason_cs": "Trhy jsou pod tlakem geopolitické eskalace, kybernetických útoků a rostoucích nákladů na obranu, což kompenzuje jakékoli pozitivní fundamenty.",
-        "reason_en": "Markets face headwinds from geopolitical escalation, cyber attacks, and rising defense costs, offsetting any positive economic fundamentals."
+        "reason_cs": "Trhy čelí rostoucímu tlaku kvůli politické polarizaci ve velkých zemích a přetrvávajícím geopolitickým rizikům.",
+        "reason_en": "Markets face growing pressure due to political polarization in major countries and persistent geopolitical risks."
       },
       {
         "sector_cs": "Evropské banky (BNP Paribas, Deutsche Bank, Santander)",
         "sector_en": "European Banks (BNP Paribas, Deutsche Bank, Santander)",
         "action": "HOLD",
-        "reason_cs": "Finanční instituce čelí rizikům spojeným s nárůstem úvěrového rizika v důsledku zpomalujícího hospodářského růstu a geopolitických nejistot.",
-        "reason_en": "Financial institutions face risks tied to rising credit risk stemming from slowing economic growth and geopolitical uncertainties."
+        "reason_cs": "Bankovní sektor zůstává stabilní, ale zvýšená regulace a politická nestabilita v klíčových státech omezují růstový potenciál.",
+        "reason_en": "The banking sector remains stable, but increased regulation and political instability in key states limit growth potential."
       },
       {
         "sector_cs": "Obranný průmysl (Rheinmetall, Thales, Leonardo)",
         "sector_en": "Defense Industry (Rheinmetall, Thales, Leonardo)",
         "action": "BUY",
-        "reason_cs": "Trvalá eskalace konfliktu na Ukrajině a rostoucí hrozby hybridních útoků v Evropě nadále zaručují silný příliv státních zakázek a růst rozpočtů na obranu.",
-        "reason_en": "Ongoing escalation in Ukraine and mounting hybrid threat risks in Europe continue to drive strong state orders and expanding defense budgets."
+        "reason_cs": "Escalace konfliktu na Ukrajině a pokračující hybridní útoky na infrastrukturu udržují vysokou poptávku po vojenském vybavení a obraně.",
+        "reason_en": "The escalation of the conflict in Ukraine and ongoing hybrid attacks on infrastructure keep demand for military equipment and defense high."
       },
       {
         "sector_cs": "Energetika (TotalEnergies, Shell, RWE)",
         "sector_en": "Energy (TotalEnergies, Shell, RWE)",
         "action": "BUY",
-        "reason_cs": "Nadcházející zimní sezóna a přetrvávající útoky na ukrajinskou energetickou infrastrukturu udržují vysokou volatilitu a prémii na trhu s energiemi.",
-        "reason_en": "The approaching winter season and persistent attacks on Ukrainian energy infrastructure maintain high volatility and a premium in energy markets."
+        "reason_cs": "Globální energetické napětí podporuje poptávku po tradičních i alternativních zdrojích, což pohání i sektor tepelných čerpadel.",
+        "reason_en": "Global energy tensions support demand for both traditional and alternative sources, also driving the heat pump sector."
       },
       {
         "sector_cs": "Automobilový průmysl (Volkswagen, BMW, Stellantis)",
         "sector_en": "Automotive Industry (Volkswagen, BMW, Stellantis)",
         "action": "SELL",
-        "reason_cs": "Sektor čelí slabé poptávce, vnitřnímu politickému tlaku a rostoucím nákladům na dodržování předpisů v náročném makroekonomickém prostředí.",
-        "reason_en": "The sector faces weak domestic demand, political friction, and rising regulatory burdens within a challenging macroeconomic environment."
+        "reason_cs": "Slabnoucí domácí poptávka, rostoucí sociální nepokoje a nejistota ohledně regulací nadále zatěžují automobilky.",
+        "reason_en": "Weakening domestic demand, rising social unrest, and regulatory uncertainty continue to weigh on automakers."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
+        "sentiment_score": null,
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Regulační rizika a dopady širšího evropského napětí na energetiku a bankovnictví drží české blue chips v neutrální pozici.",
-        "reason_en": "Regulatory risks and the impact of broader European tensions on energy and banking keep Czech blue chips in a neutral stance."
+        "reason_cs": "Domácí tituly těží ze stabilní ziskovosti, avšak celoevropská nálada a energetická opatrnost brzdí výraznější růst.",
+        "reason_en": "Domestic stocks benefit from stable profitability, but pan-European sentiment and energy caution hinder stronger growth."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat pokračující hybridní útoky na kritickou infrastrukturu a zesílení diplomatického tlaku kolem evropské obrany. Finanční trhy budou citlivě reagovat na jakékoliv náznaky další eskalace konfliktu.",
-    "forecast_en": "In the coming days, continued hybrid attacks on critical infrastructure and intensified diplomatic pressure surrounding European defense are expected. Financial markets will remain sensitive to any signs of further conflict escalation.",
-    "forecast_review_cs": "Předchozí předpověď o nárůstu napětí v oblasti kybernetické bezpečnosti a ochrany infrastruktury byla plně potvrzena novými útoky na datová centra v Kyjevě a sabotáží v Polsku.",
-    "forecast_review_en": "The previous forecast regarding rising tension in cybersecurity and infrastructure protection was fully confirmed by new attacks on Kyiv data centers and sabotage in Poland."
+    "forecast_cs": "V nejbližších dnech lze očekávat zostřenou rétoriku kolem sankcí vůči Rusku a další bezpečnostní opatření na ochranu evropské kritické infrastruktury. Finanční trhy budou nadále nervózně sledovat politický vývoj ve Francii a Německu.",
+    "forecast_en": "In the coming days, heightened rhetoric surrounding sanctions against Russia and additional security measures to protect European critical infrastructure are expected. Financial markets will continue to nervously monitor political developments in France and Germany.",
+    "forecast_review_cs": "Předchozí předpověď o pokračujících hybridních útocích a tlaku na obranu se plně potvrdila na základě zpráv o sabotážích a útocích na ukrajinská datová centra.",
+    "forecast_review_en": "The previous forecast regarding continued hybrid attacks and defense pressure was fully confirmed based on news of infrastructure sabotage and attacks on Ukrainian data centers."
   },
   "articles": [
+    {
+      "title": "Seoul summons Ukraine envoy over North Korean prisoner-of-war row",
+      "summary": "Last week Zelensky revealed Ukraine had sent two captured North Koreans to South Korea - which Seoul says was meant to be a secret.",
+      "link": "https://www.bbc.co.uk/news/articles/c8ly40xx0dr0o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 28 Sep 2026 14:57:31 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "French PM warns against escalation of school protests after 164 arrested",
+      "summary": "Students are protesting over issues such as overcrowded classes, but the prime minister has condemned reports of violence.",
+      "link": "https://www.bbc.co.uk/news/articles/cmqxvnn49rg2o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 28 Sep 2026 21:46:53 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Embattled Serbian president resigns, paving way for early elections",
+      "summary": "Aleksandar Vučić's administration has been dogged by prolonged protests over allegations of corruption.",
+      "link": "https://www.bbc.co.uk/news/articles/ckpq0g7z5pjjo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 27 Sep 2026 20:04:21 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Switzerland rejects stricter interpretation of its neutrality",
+      "summary": "The initiative would have prevented the nation from imposing sanctions unless approved by the UN.",
+      "link": "https://www.bbc.co.uk/news/articles/cm750plvwy9vo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 27 Sep 2026 16:02:17 GMT",
+      "source": "BBC News"
+    },
     {
       "title": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
       "summary": "Such strikes aim to disrupt \"people's ability to stay connected, study, work\", says Ukraine's president.",
@@ -77,24 +106,10 @@
       "source": "BBC News"
     },
     {
-      "title": "Priest killed and four injured in knife attack at Polish abbey",
-      "summary": "A male suspect from Ukraine was arrested after the stabbings in the town of Jarosław, police say.",
-      "link": "https://www.bbc.co.uk/news/articles/c607lrvm41l3o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 24 Sep 2026 19:18:12 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Azerbaijan pardons Frenchman after EU lifts sanctions on Russian billionaire",
-      "summary": "Martin Ryan is pardoned months after he was jailed on charges of spying, but a second Frenchman remains in prison.",
-      "link": "https://www.bbc.co.uk/news/articles/cwp84rrrymd0o?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 23 Sep 2026 14:32:42 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Eriksen leaves Wolfsburg by mutual consent",
-      "summary": "Christian Eriksen leaves Wolfsburg by mutual consent, just over three months after collapsing during Denmark's friendly with Ukraine.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm5yezn8w4xdo?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 23 Sep 2026 16:47:34 GMT",
+      "title": "As Merz scrambles for support, Germany's identity crisis is laid bare",
+      "summary": "Voters are turning away from the centre in Germany as fears grow about the economy and migration.",
+      "link": "https://www.bbc.co.uk/news/articles/cmx2zlqeje9zo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 25 Sep 2026 23:08:02 GMT",
       "source": "BBC News"
     },
     {
@@ -105,94 +120,80 @@
       "source": "BBC News"
     },
     {
-      "title": "Watch: Why a Russian strike on train near Ukraine-Poland border could mark an escalation",
-      "summary": "No casualties were reported after a Russian drone struck a train shortly after Boris Johnson and top European officials left the area.",
-      "link": "https://www.bbc.co.uk/news/videos/cx2z5gjj838o?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 14 Sep 2026 01:12:20 GMT",
+      "title": "People escape historic Kyiv building hit by Russian drone",
+      "summary": "The BBC's Paul Adams reports from the scene of the strike on Ukraine's National Academy of Sciences.",
+      "link": "https://www.bbc.co.uk/news/videos/cqj9xkdyrvgzo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 28 Sep 2026 17:04:14 GMT",
       "source": "BBC News"
     },
     {
-      "title": "Germany’s Wadephul meets Russia’s Lavrov amid tensions over ‘escalation’",
-      "summary": "The German foreign minister blames Moscow for the Leipzig drone attack but welcomes the G20 invite to Vladimir Putin",
-      "link": "https://www.politico.eu/article/germany-russia-johann-wadephul-sergey-lavrov-meeting-un/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sat, 26 Sep 2026 16:50:27 +0000",
+      "title": "Block US sanctions on ICC, EU lawmakers tell Commission",
+      "summary": "Automatically applying U.S. sanctions \"stems from the time when we thought that the Americans were still our friends,\" said Dutch lawmaker Dirk Gotink.",
+      "link": "https://www.politico.eu/article/block-us-sanctions-on-the-icc-eu-lawmakers-tell-commission/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Mon, 28 Sep 2026 21:35:02 +0000",
       "source": "POLITICO"
     },
     {
-      "title": "‘You can’t win’: Ireland’s football team to play Israel despite player protest",
-      "summary": "“Nobody is comfortable playing this game,” Ireland’s coach declares after a tense locker-room vote to proceed with Sunday’s Nations League match against Israel.",
-      "link": "https://www.politico.eu/article/ireland-israel-football-match-players-vote-to-play/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sat, 26 Sep 2026 15:50:36 +0000",
+      "title": "Northern Ireland leader accused of joining ‘mob’ to block Protestant parade",
+      "summary": "Unionists demand criminal consequences for First Minister Michelle O’Neill of Sinn Féin — who joined the road blockade against the Orange Order — as Northern Ireland’s government threatens to unravel.",
+      "link": "https://www.politico.eu/article/northern-ireland-leader-accused-joining-mob-to-block-protestant-parade/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Mon, 28 Sep 2026 17:29:33 +0000",
       "source": "POLITICO"
     },
     {
-      "title": "Eleven charged with murder aggravated by speech against ‘white race’ in France",
-      "summary": "Thomas Perotto's killing in 2023 was followed by mobilization from far-right groups.",
-      "link": "https://www.politico.eu/article/france-crepol-thomas-perotto-11-defendants-trial-racial-aggravating-factor/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sat, 26 Sep 2026 12:16:48 +0000",
+      "title": "Qu’est-ce qui peut encore arrêter le RN ?",
+      "summary": "Intentions de votes à la présidentielle, résultats aux sénatoriales, enlisement du bloc central : tout semble rouler pour Marine Le Pen. Mais tous les voyants sont-ils réellement au vert à sept mois du premier tour ? Comment faut-il analyser la contre-offensive de Jordan Bardella et de sa compagne dans la presse ce week-end ? Anthony […]",
+      "link": "https://www.politico.eu/podcast/playbook-paris-podcast/quest-ce-qui-peut-encore-arreter-le-rn/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Mon, 28 Sep 2026 16:50:33 +0000",
       "source": "POLITICO"
     },
     {
-      "title": "Trump’s G20 invite to Putin is an ‘opportunity,’ German foreign minister says",
-      "summary": "Johann Wadephul’s remarks diverged from the German government’s official line.",
-      "link": "https://www.politico.eu/article/valdimir-putin-g20-opportunity-says-germany-johann-wadephul/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sat, 26 Sep 2026 09:08:55 +0000",
+      "title": "Labour shouldn’t work with nationalists who want to break up the UK, says Welsh secretary",
+      "summary": "Stephen Kinnock says Plaid Cymru's support for independence would make a future coalition untenable.",
+      "link": "https://www.politico.eu/article/uk-labour-shouldnt-work-with-nationalists-who-want-to-break-up-uk-says-wales-secretary/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Mon, 28 Sep 2026 16:27:39 +0000",
       "source": "POLITICO"
     },
     {
-      "title": "Look again – there’s more to Germany’s election trends than far-right success | Cas Mudde",
-      "summary": "<p>Defeatist narratives abound. Yet Germany’s latest elections suggest voter dissatisfaction is benefiting the left as well as the right</p><p>Germany held three regional elections this month and, although each of them had a unique result, much of the media and political commentary reduced them to: “<a href=\"https://www.politico.eu/article/germany-far-right-secures-another-win-in-key-regional-election-exit-poll-says/\">German chancellor clings</a> to power after latest<a href=\"https://www.theguardian.com/world/2026/sep/21/germany-chancellor-freidrich-merz-cdu-christian-democratic-union-state-election-defeats-mecklenburg-western-pomerania-berlin\"> loss to far right</a>. Since 2016, the year of Brexit and Trump, “embattled mainstream threatened by emboldened far right” has become the overarching narrative about Europe. But while these elections were important, this reductive take both oversimplifies the complexities of contemporary European politics and drives a defeatist “<a href=\"https://blogs.timesofisrael.com/the-end-of-liberal-democracy-in-europe/\">end of democracy</a>” narrative.</p><p>Saxony-Anhalt’s election on 6 September was <a href=\"https://truthsocial.com/@realDonaldTrump/posts/117238047671794766\">a global news event</a> – understandably, given Germany’s history, economy and place in Europe. The international media had <a href=\"https://www.nytimes.com/2026/09/04/opinion/afd-germany-saxony-anhalt.html\">speculated for months </a>about an outright majority for the far-right Alternative for Germany (AfD). The party came close, setting a <a href=\"https://edition.cnn.com/2026/09/06/europe/germany-afd-state-election-majority-intl\">record score with 43.8%,</a> but it has so far failed to form a government, despite the amenable position of the “left-conservative” Sahra Wagenknecht Alliance.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/26/europe-election-trends-far-right-success-defeatist-narratives-germany\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/commentisfree/2026/sep/26/europe-election-trends-far-right-success-defeatist-narratives-germany",
-      "published": "Sat, 26 Sep 2026 04:00:25 GMT",
+      "title": "Ukraine regains territory and captures POWs in frontline push",
+      "summary": "Operation Vivaldi has seen Ukraine make progress against Russian forces, which had been threatening a key fortress city.",
+      "link": "https://www.politico.eu/article/ukraine-russia-war-territory-pows-front-line-operation-vivaldi/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Mon, 28 Sep 2026 16:20:24 +0000",
+      "source": "POLITICO"
+    },
+    {
+      "title": "Marine Le Pen hails RN senate surge as ‘milestone’ towards French presidency",
+      "summary": "<p>National Rally and allies gain record 14 seats and can form senate group for first time after indirect vote by local officials</p><p>The French far-right leader Marine Le Pen has said her 2027 presidential campaign will be boosted after her anti-immigration party, the National Rally (RN), and its allies improved to a record 14 seats in partial senate elections this weekend.</p><p>Le Pen called the results a “historic victory” and a “major milestone” after her party cleared the 10-seat threshold to be able to form a senate group for the first time, after an indirect vote by local officials including mayors and councillors.</p> <a href=\"https://www.theguardian.com/world/2026/sep/28/french-election-2026-far-right-senate-elections\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/sep/28/french-election-2026-far-right-senate-elections",
+      "published": "Mon, 28 Sep 2026 17:24:32 GMT",
       "source": "Europe | The Guardian"
     },
     {
-      "title": "Londoners get £3bn a year subsidy because structure of council tax biased against north, says thinktank – UK politics live",
-      "summary": "<p>Resolution Foundation says households outside London are paying hundreds of pounds a year more in council tax than they would be under a fair system</p><p><strong>Tim Shipman</strong> has written about what will be coming up at the Labour conference next week in <a href=\"https://spectator.com/article/burnhams-bet-is-the-prime-minister-planning-to-call-an-election/\">his cover story</a> for the Spectator. He says:</p><p>Labour special advisers summoned last week to the pillared state room on the first floor of No. 10 to hear the plan for conference from Burnham’s political secretary, Hayden Munro, left in no doubt that the PM wants to be a transformational figure. The conference ‘narrative’ these advisers were urged to push includes the telling line: ‘This Labour government will bring forward the biggest change to Britain in 40 years, with a new political and economic model.’ On the specifics, Burnham will pledge: ‘We will make the choices that are needed to end rough sleeping, solve the social care crisis and get more young people into work.’</p><p>Burnham will pledge to run a ‘cost-of-living government’ with further ‘immediate action’ to ‘provide the breathing space people need’, as well as outline plans to devolve power ‘out of Whitehall’, ‘reindustrialise Britain’ and take back public control of ‘the essentials in life – such as energy, water and housing’ to ‘make them affordable again’.</p><p>Ultimately, the election choice is Burnham’s. ‘If you knew what Keir’s aides thought, you knew what he would do,’ says a ministerial aide. ‘But Andy has political opinions of his own.’ Burnham may go for it. But those closest to him doubt it. ‘He likes risk, but he has stuff he wants to get done,’ says one close confidant. While outsiders think his ambitions require an election, Burnham thinks he can transform Britain without one. ‘Andy really cares about the devolution stuff,’ the ministerial aide observes. ‘Most of Westminster roll their eyes but he thinks that will change the country. He thinks doing that will make him a great prime minister.’</p><p>And those who think none of that will deal with Britain’s economic problems seize on another clue. A Labour adviser concludes: ‘Ultimately I think Burnham and his team will do what they often do with difficult decisions, and not make one.’</p><p>What I imagine is that some schools will offer some of these subjects where their local labour market demands, and this is where our mayors and our local leaders are really helping to shape that in their area.</p><p>So I wouldn’t expect a school to offer all of these, as they don’t offer all GCSEs at the moment. They will specialise in particular areas.</p><p>If you’re trying to do engineering or construction, for example, you know that involves a lot of problem solving, a lot of maths, a lot of thinking, as well as the hands-on skills that’s required.</p><p>So it’s not dumbing down, it’s the opposite of that, actually, because this is about raising the standards and the rigour and regulating these qualifications.</p> <a href=\"https://www.theguardian.com/politics/live/2026/sep/24/labour-reform-conservatives-yougov-mrp-poll-burnham-badenoch-farage-blair-brexit-latest-news-updates\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/politics/live/2026/sep/24/labour-reform-conservatives-yougov-mrp-poll-burnham-badenoch-farage-blair-brexit-latest-news-updates",
-      "published": "Thu, 24 Sep 2026 16:31:47 GMT",
+      "title": "Daytime Russian strike on Kyiv’s science academy kills at least one",
+      "summary": "<p>Three others wounded as jet-powered drones increasingly target Ukraine’s capital, with medical centre also hit</p><p></p><p>A Russian drone hit the National Academy of Sciences in central Kyiv on Monday, killing at least one person, in the latest daytime attack on Ukraine’s capital.</p><p>Flames tore through the historic building as people clambered out of first- and second-floor windows to escape, in dramatic scenes increasingly familiar in the heavily bombarded city.</p> <a href=\"https://www.theguardian.com/world/2026/sep/28/russia-strike-on-kyiv-science-academy-drone-ukraine\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/sep/28/russia-strike-on-kyiv-science-academy-drone-ukraine",
+      "published": "Mon, 28 Sep 2026 15:16:50 GMT",
       "source": "Europe | The Guardian"
     },
     {
-      "title": "UK ‘losing up to £6.5bn a year in EU trade’ without post-Brexit product deal",
-      "summary": "<p>IPPR finds failure to align testing standards has forced companies to abandon exporting to EU and is costing costing 0.18% of national income</p><p>The UK is losing out on annual exports to the EU that could be worth as much as £6.5bn without a deal with Brussels that allows manufacturers to jettison duplicate product testing.</p><p>In the latest attempt to calculate the loss of trade with the EU after Brexit, the IPPR thinktank said many companies have given up selling goods to the EU or set up subsidiaries inside the trade bloc after successive governments failed to secure a mutual recognition agreement that would avoid the extra administration costs.</p><p>Motor vehicle and part exports would have been between £2.48bn and £3.42bn higher each year.</p><p>Electronic exports could have been between £1.17bn and £1.67bn higher.</p><p>Pharmaceutical exports would have had an estimated annual uplift of between £740m and £820m.</p> <a href=\"https://www.theguardian.com/politics/2026/sep/24/uk-losing-billions-in-eu-trade-due-to-mismatched-product-rules\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/politics/2026/sep/24/uk-losing-billions-in-eu-trade-due-to-mismatched-product-rules",
-      "published": "Thu, 24 Sep 2026 08:48:11 GMT",
+      "title": "Pope urges concessions for peace amid war in Ukraine – video",
+      "summary": "<p>In an address to European leaders in Metz, France, Pope Leo told negotiators seeking to end war in Europe that they must be willing to sacrifice some positions to achieve peace, as efforts to end Russia's war in Ukraine continue to fail. He urged leaders to recall the founding values of the EU, including the rule of law and the equality of all people. Leo had begun his four-day visit on Friday with a warning that the United Nations and other multilateral bodies were in crisis and international dialogue risked becoming a 'charade'</p> <a href=\"https://www.theguardian.com/world/video/2026/sep/28/pope-urges-concessions-for-peace-europe-video\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/video/2026/sep/28/pope-urges-concessions-for-peace-europe-video",
+      "published": "Mon, 28 Sep 2026 15:07:54 GMT",
       "source": "Europe | The Guardian"
     },
     {
-      "title": "Tony Blair says Britain should work towards rejoining EU in next 10 years",
-      "summary": "<p>Andy Burnham under pressure to revisit Brexit as poll suggests pledge to rejoin could boost Labour’s electoral chances</p><p>Britain should work towards rejoining the EU in the next decade, Tony Blair has said, adding to growing pressure on Andy Burnham to abandon Labour’s reluctance to revisit the 2016 referendum.</p><p>The former prime minister has urged Burnham to use his 10-year plan in November to put the country’s membership of the union back on the table, a decade after it voted to leave.</p> <a href=\"https://www.theguardian.com/politics/2026/sep/24/tony-blair-britain-rejoin-eu-next-10-years-brexit\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/politics/2026/sep/24/tony-blair-britain-rejoin-eu-next-10-years-brexit",
-      "published": "Wed, 23 Sep 2026 23:01:01 GMT",
+      "title": "Heat pump sales soar across Europe after states cut electricity taxes, data shows",
+      "summary": "<p>EU to push member states to cut tax rate below duty on gas, with 11% surge in sales also put down to fallout from Iran war</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/sep/28/uk-housebuilders-stocks-new-homes-scheme-first-time-buyers-business-live-news\">Business live – latest updates</a></p></li><li><p><a href=\"https://www.theguardian.com/world/live/2026/sep/28/europe-ukraine-defence-ministers-pope-leo-france-visit-latest-news-updates\">Europe live – latest updates</a></p></li></ul><p>Sales of residential heat pumps increased 11% across Europe in the first six months of the year as the <a href=\"https://www.theguardian.com/world/iran\">Iran war</a> sent oil and gas prices rocketing and some countries lowered electricity taxes.</p><p>Homeowners bought 1.16m heat pumps across 12 European countries, up from 1.05m in the first half of 2025, according to the European Heat Pump Association (EHPA).</p> <a href=\"https://www.theguardian.com/environment/2026/sep/28/heat-pump-sales-soar-across-europe-after-ciuntries-cut-electricity-taxes-data-shows\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/environment/2026/sep/28/heat-pump-sales-soar-across-europe-after-ciuntries-cut-electricity-taxes-data-shows",
+      "published": "Mon, 28 Sep 2026 13:53:52 GMT",
       "source": "Europe | The Guardian"
     },
     {
-      "title": "Spain's PM says it is 'time for a woman to serve' as UN secretary general – video",
-      "summary": "<p>During his speech at the UN general assembly, the Spanish prime minister, Pedro Sánchez, said the next secretary general must be a woman from Latin America. 'And what I'm advocating for this leadership is very clear. Nine men have served as secretary general of this organisation in its 80 years of existence. Now it's time for a woman to serve, a Latin American woman,' he said. The selection of the next UN chief is expected later this year with the term of António Guterres ending on 31 December</p> <a href=\"https://www.theguardian.com/world/video/2026/sep/24/spain-pm-woman-united-nations-secretary-general-video\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/video/2026/sep/24/spain-pm-woman-united-nations-secretary-general-video",
-      "published": "Thu, 24 Sep 2026 10:08:07 GMT",
-      "source": "Europe | The Guardian"
-    },
-    {
-      "title": "Eviction of 87-year-old puts Spain’s deepening housing crisis in the spotlight",
-      "summary": "<p>Images of Maricarmen Abascal being forcibly removed from her home sparked protests and a reckoning over the country’s soaring real estate market</p><p>Images of an octogenarian being evicted from the home she had lived in for seven decades on a stretcher, flanked by protesters and police officers, sparked indignation across Spain.</p><p>Hours later, people began taking to the streets. In Madrid, an estimated 10,000 people turned up on Wednesday, wielding signs that read “Shame” and “Out with the vulture funds”, to protest against the eviction of Maricarmen Abascal. From the northern tip of Spain to the south, people poured into plazas calling for a nationwide reckoning over access to housing.</p> <a href=\"https://www.theguardian.com/world/2026/sep/27/eviction-of-87-year-old-puts-spains-deepening-housing-crisis-in-the-spotlight\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/sep/27/eviction-of-87-year-old-puts-spains-deepening-housing-crisis-in-the-spotlight",
-      "published": "Sun, 27 Sep 2026 04:00:54 GMT",
-      "source": "Europe | The Guardian"
-    },
-    {
-      "title": "Ukraine war briefing: German foreign minister urges Russia to abandon dangerous escalation in rare meeting",
-      "summary": "<p>The two foreign ministers met on the sidelines of the UN general assembly in New York even though relations have been frozen since the invasion. What we know on day 1,677</p><p><strong>The foreign ministers of Russia and Germany </strong><strong>met in New York on the sidelines of the ⁠UN general assembly</strong>, ⁠in the first such ​talks since Russia’s 2022 invasion of Ukraine. But Russia’s top diplomat dismissed Germany’s calls to ease off its “dangerous path of escalation” toward Europe, instead accusing Germany of being Ukraine’s main sponsor and seeking to be a leading military power in Europe. “Does Berlin understand what this could lead to?” the Russian foreign minister, Sergei Lavrov, asked in his speech at the gathering of world leaders on Saturday. “Didn’t they learn the lessons of world war two?”</p><p>German foreign minister, Johann ‌Wadephul, used the talks to <strong>call on Russia “to abandon the dangerous path of escalation vis-a-vis Germany, Europe, and Nato”</strong>, according to a delegation source. Wadephul said incidents such as the attempted drone attack in Leipzig would not shake Germany’s resolve to support Ukraine, according to sources.</p><p><strong>Relations between Moscow and Berlin have been frozen since the Russian invasion</strong>, and tensions escalated further after the drone incident at Leipzig airport. In a sign of the continued frostiness, <strong>Lavrov told a press conference on Saturday “nothing new” came from the talks</strong> with his German counterpart.</p><p><strong>“I told him that frankly … you could just have called me and said: ‘read my statement’,” Lavrov said</strong>. “He simply reiterated his official public position condemning Russia … you can judge for yourself whether that counts as dialogue or not.”</p><p>Still, the ​ministers discussed bilateral ties and the war in Ukraine, officials from ‌both sides said. Wadephul urged Lavrov to do “everything possible to reach an agreement on grain exports via the Black Sea”, a German ‌delegation source said.</p><p><strong>In a sign of the sensitivities around meeting the </strong><strong>Russian foreign minister</strong>, Wadephul notified his European allies of the meeting afterwards in a message seen by Reuters. “I used this opportunity to reiterate our position on Russia’s war of aggression ⁠against Ukraine and to call for an immediate and complete ceasefire, most pressingly with a focus on grain ​exports, and the energy infrastructure,” he wrote.</p><p>After the meeting Lavrov addressed world leaders at the assembly, where <strong>he defended Russia’s war in Ukraine and lobbed barbs at the west</strong> — including Germany – and criticised the militarisation of Japan. He made clear that Russia will veto any attempt by Germany and Japan for permanent seats on the UN security council. The two nations fought Russia, Britain and the US in the second world war. Writing on her personal Telegram channel, Maria Zakharova, a spokesperson for Russia’s foreign ministry, said that “tens of diplomats” had come to meet Lavrov to “shake his hand and thank Russia”.</p><p><strong>An overwhelming majority of general assembly member nations have repeatedly condemned Russia’s invasion of Ukraine</strong>, as Wadephul noted in his own address to the assembly Saturday. “Russia’s war targets the lives of millions of innocent people, the existence of the Ukrainian state and culture and the European peace order,” he said, urging Russia to negotiating toward ending the fighting.</p><p>The talks came amid an intensifying aerial war and as <strong>Donald Trump said he hoped the Ukrainian president, Volodymyr Zelenskyy, would “settle”</strong> with Russia’s Vladimir Putin. With frontline positions largely unchanged since last year, Russia has hammered Ukraine with cruise and ballistic missiles, powerful glide bombs and jet-powered drones in recent months, while Ukraine’s long-range drones have targeted Russian oil refineries and businesses.</p><p><strong>“It is essential that our partners not forget: Russia is escalating every single day,” Zelenskyy wrote</strong> on Saturday. “If the Russians have chosen to make their strikes even more brutal, the world must choose stronger responses to keep the war from spreading further.”</p><p>Ukrainian officials said Russian attacks killed four people on Saturday, as Russian authorities said a Ukrainian drone attack killed three.</p><p>Residents of Kyiv are <strong>preparing for power cuts, drone attacks and a bitter cold winter by stocking up on generators, food and “dry showers”, as the Ukrainian capital <a href=\"https://www.theguardian.com/world/2026/sep/26/after-summer-respite-kyiv-winter-dread\">becomes a frontline city</a>.</strong></p><p>And Russia has opened a <a href=\"https://www.theguardian.com/world/2026/sep/26/russia-strikes-ukraine-digital-economy-attacks-isps-datacentres\">new front in its campaign against Ukraine</a>, <strong>hitting several datacentres and internet providers in Kyiv</strong> this week in an apparent attempt to weaken the digital backbone of the economy.</p> <a href=\"https://www.theguardian.com/world/2026/sep/27/ukraine-war-briefing-german-foreign-minister-urges-russia-to-abandon-dangerous-escalation-in-rare-meeting\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/sep/27/ukraine-war-briefing-german-foreign-minister-urges-russia-to-abandon-dangerous-escalation-in-rare-meeting",
-      "published": "Sun, 27 Sep 2026 02:30:02 GMT",
-      "source": "Europe | The Guardian"
-    },
-    {
-      "title": "Kyiv has become a frontline city - and winter is on the way",
-      "summary": "<p>Residents of Ukraine’s capital prepare for power cuts, drones and bitter cold by stocking up on generators, food and ‘dry showers’</p><p>It felt like the last day of summer. On a Sunday afternoon in late September, people in Kyiv strolled through the city’s botanical gardens, admiring the late-flowering dahlias. Later, the terraces in the Podil area – a neighbourhood full of bars, patisseries and bookshops – filled up with customers in search of a cocktail.</p><p>The idyll was an illusion. As the day darkened, the air defence began its rumble and boom. When a projectile fell with an explosive smack on a bar table, the drinkers flinched and then laughed. It was only a conker from the chestnut tree overhead. Nursing a glass of rosé, writer Myroslav Laiuk talked about the picnic he and his wife had had the previous evening, in a park in the Obolon district – prosecco in proper glasses, cheese and charcuterie. Then a drone was shot down above their heads. Very pretty, he said, with a smile. Shooting stars. Time to make a wish.</p> <a href=\"https://www.theguardian.com/world/2026/sep/26/after-summer-respite-kyiv-winter-dread\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/sep/26/after-summer-respite-kyiv-winter-dread",
-      "published": "Sat, 26 Sep 2026 06:00:28 GMT",
+      "title": "Switzerland’s love of referendums keeps the far right at bay | Joseph de Weck",
+      "summary": "<p>Brexit gave direct democracy a bad name. But the Swiss approach could be what Europe needs now</p><p>Fascism rests on a two-part confidence trick. First, a leader claims to embody the will of the people. Then they argue that only by being granted sweeping powers can that be realised. Having grown up in Switzerland, I find it easy to see through this trick. That is because the policies championed by the far right rarely pass the referendum test.</p><p>Dismantling publicly funded media? In March, 62% of Swiss voters <a href=\"https://www.admin.ch/de/srg-initiative\">rejected</a> a far-right initiative to halve funding for the country’s public broadcaster. Corporate tax cuts? In 2017, <a href=\"https://www.bbc.co.uk/news/business-38951701\">59% struck down</a><strong> </strong>such plans of the Swiss government. Immigration police hunting down migrants? Again, 59% <a href=\"https://www.srf.ch/news/schweiz/durchsetzungs-initiative-durchsetzungs-initiative-ist-deutlich-gescheitert\">rejected</a> a far-right proposal to automatically deport foreign nationals convicted of crimes without judicial review. Or this week’s <a href=\"https://www.theguardian.com/world/2026/sep/27/swiss-vote-reject-stricter-neutrality-rules-nato\">resounding 70% “No” vote </a>on a far-right proposal to tighten Switzerland’s neutrality to the point that Bern would have been forced to drop sanctions on Russia over Ukraine.</p><p>Joseph de Weck is an associate fellow with the German Council on Foreign Relations and writes for Guardian Europe from Zürich and Paris</p> <a href=\"https://www.theguardian.com/commentisfree/2026/sep/28/switzerlands-love-of-referendums-helps-us-keep-the-far-right-at-bay\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/commentisfree/2026/sep/28/switzerlands-love-of-referendums-helps-us-keep-the-far-right-at-bay",
+      "published": "Mon, 28 Sep 2026 04:00:24 GMT",
       "source": "Europe | The Guardian"
     }
   ],
@@ -313,29 +314,24 @@
       "incidents": 20,
       "stoxx50": 6302.82,
       "eur_czk": null
+    },
+    {
+      "date": "2026-09-29 01:50",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 72,
+      "incidents": 20,
+      "stoxx50": 6301.28,
+      "eur_czk": null
     }
   ],
   "locations": [
     {
-      "key": "Brussels",
-      "lat": 50.8503,
-      "lon": 4.3517,
-      "name_cs": "Brusel",
-      "name_en": "Brussels"
-    },
-    {
-      "key": "Berlin",
-      "lat": 52.52,
-      "lon": 13.405,
-      "name_cs": "Berlín",
-      "name_en": "Berlin"
-    },
-    {
-      "key": "Madrid",
-      "lat": 40.4168,
-      "lon": -3.7038,
-      "name_cs": "Madrid",
-      "name_en": "Madrid"
+      "key": "Paris",
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "name_cs": "Paříž",
+      "name_en": "Paris"
     },
     {
       "key": "Kyiv",
@@ -348,10 +344,10 @@
   "location_counts": {
     "Brussels": 11,
     "Strasbourg": 9,
-    "Kyiv": 7,
+    "Kyiv": 8,
     "Berlin": 12,
     "Prague": 1,
-    "Paris": 2,
+    "Paris": 3,
     "Warsaw": 2,
     "Madrid": 2
   },
@@ -465,24 +461,32 @@
       "security_status_en": "The European security landscape continues to deteriorate due to escalating Russian attacks on Ukraine's critical and digital infrastructure, sabotage incidents in Poland, and tense diplomatic talks at the UN General Assembly. Domestically, European nations face mounting social tensions, military service protests in Germany, and a deep housing affordability crisis in Spain. Meanwhile, UK politics grapples with the lingering economic costs of Brexit and intensifying debates over future ties with the EU.",
       "forecast_cs": "V nejbližších dnech lze očekávat pokračující hybridní útoky na kritickou infrastrukturu a zesílení diplomatického tlaku kolem evropské obrany. Finanční trhy budou citlivě reagovat na jakékoliv náznaky další eskalace konfliktu.",
       "forecast_en": "In the coming days, continued hybrid attacks on critical infrastructure and intensified diplomatic pressure surrounding European defense are expected. Financial markets will remain sensitive to any signs of further conflict escalation."
+    },
+    {
+      "date": "2026-09-29 01:50",
+      "threat_level": "HIGH",
+      "security_status_cs": "Evropa čelí rostoucímu vlnění politické nestability a hybridních hrozeb, včetně sabotáží kritické infrastruktury a kybernetických útoků na ukrajinská datová centra. Zatímco francouzská krajní pravice slaví historické zisky v senátu a Německo bojuje s identitární krizí a protivládními protesty, ekonomika těží z prudkého nárůstu prodejů tepelných čerpadel po energetickém šoku.",
+      "security_status_en": "Europe is facing a rising wave of political instability and hybrid threats, including critical infrastructure sabotage and cyberattacks on Ukrainian data centers. While the French far-right celebrates historic senate gains and Germany struggles with an identity crisis and protests, the economy benefits from a sharp surge in heat pump sales following the energy shock.",
+      "forecast_cs": "V nejbližších dnech lze očekávat zostřenou rétoriku kolem sankcí vůči Rusku a další bezpečnostní opatření na ochranu evropské kritické infrastruktury. Finanční trhy budou nadále nervózně sledovat politický vývoj ve Francii a Německu.",
+      "forecast_en": "In the coming days, heightened rhetoric surrounding sanctions against Russia and additional security measures to protect European critical infrastructure are expected. Financial markets will continue to nervously monitor political developments in France and Germany."
     }
   ],
-  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 4× HIGH, 3× CRITICAL.",
-  "weekly_summary_en": "Over the last 7 recorded analyses: 4× HIGH, 3× CRITICAL.",
+  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 5× HIGH, 2× CRITICAL.",
+  "weekly_summary_en": "Over the last 7 recorded analyses: 5× HIGH, 2× CRITICAL.",
   "market_data": {
     "stoxx50": {
-      "value": 6302.82,
-      "date": "2026-09-25",
+      "value": 6301.28,
+      "date": "2026-09-28",
       "cached": false
     },
     "dax": {
-      "value": 25408.64,
-      "date": "2026-09-25",
+      "value": 25374.42,
+      "date": "2026-09-28",
       "cached": false
     },
     "eurusd": {
-      "value": 1.1401,
-      "date": "2026-09-26",
+      "value": 1.1371,
+      "date": "2026-09-29",
       "cached": false
     }
   },
