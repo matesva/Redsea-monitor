@@ -68,7 +68,10 @@ def build_politici(data, top=5):
                 return next(iter(c)) if len(c) == 1 else n
             return n
 
-        cnt, party, tony, heads = Counter(), defaultdict(Counter), defaultdict(Counter), defaultdict(list)
+        cnt = Counter()
+        party = defaultdict(Counter)
+        tony = defaultdict(Counter)
+        heads = defaultdict(list)
         for a in arts:
             names = {}
             for p in a["politici"]:
