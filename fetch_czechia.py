@@ -1,10 +1,23 @@
-import os, json, re, hashlib, datetime, urllib.parse
+import os, json, re, hashlib, datetime, html, urllib.parse, urllib.request
+from collections import Counter
+from email.utils import parsedate_to_datetime
 import feedparser
 from google import genai
 
-MODEL = "gemini-3.5-flash-lite"  # případně novější Flash / Flash-Lite
+MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
 OUT = "czechia/articles.json"
+PARTIES_OUT = "czechia/parties.json"
+POLLS_OUT = "czechia/polls.json"
 MAX_NEW = 120
+BATCH = 10
+MAX_FETCH_TEXT = 15   # kolik článků o průzkumech za běh stáhnout celých
+MIN_STRAN = 3         # minimum stran v průzkumu, aby se uložil
+
+PARTY_LIST = [
+    "ANO", "ODS", "STAN", "Piráti", "SPD", "TOP 09", "KDU-ČSL", "Motoristé",
+    "Stačilo", "ČSSD", "KSČM", "Zelení", "Přísaha", "Svobodní", "Trikolora",
+    "Prague Together", "Praha Sobě", "Spojené síly pro Prahu", "Naše Praha",
+]
 
 def gnews(q, days=3):
     qq = urllib.parse.quote_plus(f"{q} when:{days}d")
@@ -46,6 +59,8 @@ PRAHA_QUERIES = [
     "Praha MHD doprava politika", "Praha bydlení metropolitní plán",
     "Praha městské části volby", "lídr kandidátky Praha",
     "předvolební debata Praha", "průzkum volební preference Praha",
+    "předvolební slib Praha", "volební program Praha",
+    "volební model Praha průzkum",
 ]
 CR_QUERIES = [
     "česká politika", "volební průzkum preference", "vláda koalice krize",
@@ -53,108 +68,33 @@ CR_QUERIES = [
     "předvolební kampaň", "komentář politika", "názor volby",
     "rozpočet státní dluh vláda", "Ústavní soud politika", "krajské volby",
     "volby do zastupitelstev obcí", "průzkum STEM Median Kantar",
-    "politický spor",
+    "politický spor", "volební program slibuje", "předvolební slib",
+    "Demagog ověřil výrok politik", "průzkum STEM preference",
+    "průzkum Kantar preference", "průzkum Median preference",
+    "průzkum NMS preference", "průzkum Ipsos preference", "volební model",
 ]
 FEEDS += [gnews(q) for q in PARTIES + PRAHA_QUERIES + CR_QUERIES]
 
 KEYWORDS = re.compile(
     r"vol[bby]|politi|kandid|strana|hnutí|koalic|opozic|vláda|parlament|"
-    r"senát|primátor|zastupitel|ANO|ODS|STAN|Piráti|SPD|TOP 09|KDU|ČSSD|Praha",
+    r"senát|primátor|zastupitel|slib|program|průzkum|preferenc|ANO|ODS|"
+    r"STAN|Piráti|SPD|TOP 09|KDU|ČSSD|Praha",
     re.I,
 )
+POLL_RE = re.compile(r"průzkum|preferenc|volební model|odhad", re.I)
 
-def load():
-    try:
-        with open(OUT, encoding="utf-8") as f:
-            return json.load(f)
-    except FileNotFoundError:
-        return []
-
-def collect(existing_ids):
-    new, ok, failed = [], 0, []
-    for url in FEEDS:
-        try:
-            feed = feedparser.parse(
-                url, agent="Mozilla/5.0 (compatible; politicky-prehled-bot)")
-            if feed.bozo and not feed.entries:
-                raise ValueError(str(feed.bozo_exception))
-        except Exception as ex:
-            failed.append((url, str(ex)[:80]))
-            continue
-        ok += 1
-        for e in feed.entries:
-            link = e.get("link", "")
-            title = e.get("title", "")
-            text = f"{title} {e.get('summary', '')}"
-            _id = hashlib.sha1(link.encode()).hexdigest()[:16]
-            if not link or _id in existing_ids or not KEYWORDS.search(text):
-                continue
-            existing_ids.add(_id)
-            new.append({
-                "id": _id,
-                "title": title,
-                "link": link,
-                "source": e.get("source", {}).get("title")
-                          or feed.feed.get("title", url),
-                "published": e.get("published", ""),
-                "snippet": re.sub(r"<[^>]+>", "", e.get("summary", ""))[:500],
-            })
-    print(f"Feedy OK: {ok}/{len(FEEDS)}")
-    for u, why in failed:
-        print("  SELHAL:", u, why)
-    return new[:MAX_NEW]
-
-PROMPT = """Jsi analytik české politiky. Pro každý článek vrať JSON pole objektů
-se stejným pořadím a klíči:
+PROMPT = """Jsi věcný analytik české politiky. Pro každý článek vrať JSON pole objektů
+se stejným pořadím a těmito klíči:
 - "id": beze změny
 - "shrnuti": 1–2 věcné české věty, vlastními slovy, bez hodnocení
 - "region": "Praha" | "ČR" | "Jiný"
-- "temata": pole 1–3 krátkých témat (např. "volby", "doprava", "rozpočet")
-- "strany": pole zmíněných politických stran/hnutí (zkratky), může být prázdné
-- "ton": "neutrální" | "kritický" | "pozitivní" (tón textu vůči hlavnímu aktérovi)
-- "relevantni": true pokud jde o politiku/volby, jinak false
-Vrať pouze JSON, žádný další text.
-
-Články:
-"""
-
-def analyze(client, articles):
-    payload = [{"id": a["id"], "titulek": a["title"], "text": a["snippet"],
-                "zdroj": a["source"]} for a in articles]
-    resp = client.models.generate_content(
-        model=MODEL,
-        contents=PROMPT + json.dumps(payload, ensure_ascii=False),
-        config={"response_mime_type": "application/json", "temperature": 0.2},
-    )
-    return {r["id"]: r for r in json.loads(resp.text)}
-
-def main():
-    client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
-    data = load()
-    new = collect({a["id"] for a in data})
-    if not new:
-        print("Nic nového.")
-        return
-    for i in range(0, len(new), 10):
-        batch = new[i:i + 10]
-        try:
-            res = analyze(client, batch)
-        except Exception as ex:
-            print("Chyba Gemini:", ex)
-            continue
-        for a in batch:
-            r = res.get(a["id"])
-            if not r or not r.get("relevantni", True):
-                continue
-            a.update({k: r.get(k) for k in
-                      ("shrnuti", "region", "temata", "strany", "ton")})
-            a.pop("snippet", None)
-            a["added"] = datetime.datetime.utcnow().isoformat(timespec="minutes")
-            data.append(a)
-    data = sorted(data, key=lambda a: a["added"], reverse=True)[:1500]
-    os.makedirs("czechia", exist_ok=True)
-    with open(OUT, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=1)
-
-if __name__ == "__main__":
-    main()
+- "temata": pole 1–3 krátkých témat (např. "doprava", "bydlení", "rozpočet")
+- "strany": pole zmíněných stran, POUZE z tohoto seznamu: {PARTIES}. Ostatní vynech.
+- "ton": "neutrální" | "kritický" | "pozitivní" (tón článku vůči hlavnímu aktérovi)
+- "sliby": pole objektů {"strana": <ze seznamu>, "slib": "jedna krátká česká věta",
+  "tema": "krátké téma"}. Uveď jen tehdy, když článek VÝSLOVNĚ uvádí slib, program
+  nebo konkrétní návrh strany či jejího kandidáta. Nic si nedomýšlej. Jinak [].
+- "overeni": null, nebo jedna z hodnot "pravda" | "nepravda" | "zavádějící" |
+  "nelze určit", jen pokud jde o fact-checking politického výroku.
+- "pruzkum": null, nebo objekt {"agentura": "název agentury", "region": "ČR" | "Praha",
+  "vysledky": {"
