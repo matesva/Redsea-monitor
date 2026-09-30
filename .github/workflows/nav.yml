@@ -1,1 +1,47 @@
+name: Přidat navigaci
 
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  nav:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Vložit odkaz na nav.js do stránek
+        run: |
+          python3 - <<'PY'
+          import os
+          tag = '<script src="/Redsea-monitor/nav.js"></script>'
+          pages = ["index.html", "usa/index.html", "europe/index.html",
+                   "middle-east/index.html", "asia/index.html",
+                   "japan/index.html", "czechia/index.html", "monitory/index.html"]
+          for p in pages:
+              if not os.path.exists(p):
+                  print("chybí:", p)
+                  continue
+              s = open(p, encoding="utf-8").read()
+              if "nav.js" in s:
+                  print("už má:", p)
+                  continue
+              if "</body>" not in s:
+                  print("bez </body>:", p)
+                  continue
+              s = s.replace("</body>", "    " + tag + "\n</body>", 1)
+              open(p, "w", encoding="utf-8").write(s)
+              print("upraveno:", p)
+          PY
+
+      - name: Commit
+        run: |
+          git config user.name "actions-user"
+          git config user.email "actions@github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Přidána sdílená navigace"
+            git pull --rebase origin main && git push
+          fi
