@@ -3,26 +3,41 @@ const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&g
 const COL={"ANO":"#2a3f9e","ODS":"#1f6fd1","STAN":"#f28e2b","Piráti":"#4a4a4a","SPD":"#1aa3a3","TOP 09":"#7b3f98","KDU-ČSL":"#d4b800","Motoristé":"#c2185b","Stačilo":"#b71c1c","ČSSD":"#e64a19","KSČM":"#7f0000","Zelení":"#2e9c3d","Přísaha":"#00838f","Svobodní":"#c0ca33","Trikolora":"#8d6e63","Prague Together":"#5c6bc0","Praha Sobě":"#26a69a","Spojené síly pro Prahu":"#1565c0","Naše Praha":"#ab47bc"};
 const col=s=>COL[s]||"#607d8b";
 const num=v=>v.toFixed(1).replace(".",",");
-let articles=[],parties={},allPromises=[],polls=[],pols={};
+let articles=[],parties={},allPromises=[],polls=[],pols={},sum={};
 const TABS=["zpravy","strany","sliby","pruzkumy"];
 
 Promise.all([
   fetch("articles.json").then(r=>r.json()).catch(()=>[]),
   fetch("parties.json").then(r=>r.json()).catch(()=>({strany:{}})),
   fetch("polls.json").then(r=>r.json()).catch(()=>({pruzkumy:[]})),
-  fetch("politicians.json").then(r=>r.json()).catch(()=>({politici:{}}))
-]).then(([a,p,q,pl])=>{
-  articles=a;parties=p.strany||{};polls=q.pruzkumy||[];pols=pl;
+  fetch("politicians.json").then(r=>r.json()).catch(()=>({politici:{}})),
+  fetch("summary.json").then(r=>r.json()).catch(()=>({obdobi:{}}))
+]).then(([a,p,q,pl,sm])=>{
+  articles=a;parties=p.strany||{};polls=q.pruzkumy||[];pols=pl;sum=sm;
   allPromises=Object.entries(parties).flatMap(([s,d])=>(d.sliby||[]).map(x=>({...x,strana:s})));
   $("upd").textContent=a.length?"Aktualizováno "+new Date(a[0].added+"Z").toLocaleString("cs-CZ",{day:"numeric",month:"numeric",hour:"2-digit",minute:"2-digit"}):"Zatím bez dat";
   [...new Set(a.flatMap(x=>x.strany||[]))].sort().forEach(s=>$("strana").add(new Option(s,s)));
   Object.keys(parties).sort().forEach(s=>$("sstrana").add(new Option(s,s)));
   [...new Set(allPromises.map(x=>x.tema).filter(Boolean))].sort().forEach(t=>$("stema").add(new Option(t,t)));
-  renderNews();renderPols();renderParties();renderPromises();fillAgencies();
+  renderSum();renderNews();renderPols();renderParties();renderPromises();fillAgencies();
 });
 
 function tab(n){TABS.forEach(t=>{$("v-"+t).hidden=t!==n;$("t-"+t).classList.toggle("on",t===n)});scrollTo(0,0)}
 TABS.forEach(t=>$("t-"+t).onclick=()=>tab(t));
+
+function renderSum(){
+  const s=(sum.obdobi||{})[$("sum-days").value];
+  if(!s){$("sum-body").className="muted";$("sum-body").textContent="Shrnutí zatím není k dispozici.";$("sum-meta").textContent="";return}
+  const ul=a=>a&&a.length?`<ul>${a.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:"";
+  $("sum-body").className="";
+  $("sum-body").innerHTML=`<p>${esc(s.uvod)}</p>
+    ${s.praha&&s.praha.length?`<h4>Praha</h4>${ul(s.praha)}`:""}
+    ${s.cr&&s.cr.length?`<h4>Celá ČR</h4>${ul(s.cr)}`:""}
+    <div>${(s.temata||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div>
+    ${s.pozn?`<p class="meta">${esc(s.pozn)}</p>`:""}`;
+  $("sum-meta").textContent=`Shrnuto ze ${s.pocet} zpráv. Vygenerováno AI, ověřte ve zdrojích.`;
+}
+$("sum-days").addEventListener("input",renderSum);
 
 function renderNews(){
   const q=$("q").value.toLowerCase(),r=$("region").value,s=$("strana").value;
@@ -62,8 +77,8 @@ function renderParties(){
   const list=Object.entries(parties).sort((a,b)=>b[1].pocet-a[1].pocet);
   if(!list.length){$("strany-list").textContent="Profily stran zatím nejsou k dispozici.";return}
   $("strany-list").innerHTML=list.map(([name,d])=>{
-    const t=d.tony||{},sum=(t["pozitivní"]||0)+(t["neutrální"]||0)+(t["kritický"]||0)||1;
-    const pct=k=>Math.round(100*(t[k]||0)/sum);
+    const t=d.tony||{},s=(t["pozitivní"]||0)+(t["neutrální"]||0)+(t["kritický"]||0)||1;
+    const pct=k=>Math.round(100*(t[k]||0)/s);
     const ov=Object.entries(d.overeni||{}).map(([k,v])=>`<span class="tag">${esc(k)}: ${v}</span>`).join("");
     return `<div class="card" style="border-left:5px solid ${col(name)}">
       <h2>${esc(name)}</h2>
@@ -122,9 +137,9 @@ function renderPolls(){
     const lim=new Date(new Date(newest)-60*864e5).toISOString().slice(0,10);
     base=latestByAgency(P.filter(p=>p.datum>=lim));
   }else base=[P.filter(p=>p.agentura===ag).sort((a,b)=>b.datum.localeCompare(a.datum))[0]];
-  const sum={},cnt={};
-  base.forEach(p=>Object.entries(p.vysledky).forEach(([k,v])=>{sum[k]=(sum[k]||0)+v;cnt[k]=(cnt[k]||0)+1}));
-  const rows=Object.keys(sum).map(k=>[k,sum[k]/cnt[k]]).sort((a,b)=>b[1]-a[1]);
+  const sm={},cnt={};
+  base.forEach(p=>Object.entries(p.vysledky).forEach(([k,v])=>{sm[k]=(sm[k]||0)+v;cnt[k]=(cnt[k]||0)+1}));
+  const rows=Object.keys(sm).map(k=>[k,sm[k]/cnt[k]]).sort((a,b)=>b[1]-a[1]);
   const max=Math.max(10,rows[0][1])*1.1;
   $("bars").innerHTML=rows.map(([k,v])=>`<div class="row"><span class="nm"><i class="dot" style="background:${col(k)}"></i>${esc(k)}</span>
     <div class="track"><div class="fill" style="width:${v/max*100}%;background:${col(k)}"></div><span class="thr" style="left:${5/max*100}%"></span></div><b>${num(v)} %</b></div>`).join("")
