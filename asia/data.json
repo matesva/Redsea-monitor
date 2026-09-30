@@ -1,56 +1,168 @@
 {
-  "last_updated": "2026-09-30T07:46:51Z",
+  "last_updated": "2026-09-30T11:42:00Z",
   "assessment": {
     "threat_level": "MEDIUM",
-    "sentiment_score": 45,
-    "security_status_cs": "Geopolitické napětí zůstává zvýšené v důsledku křehkého příměří mezi USA a Čínou a tchajwanských plánů na posílení zásob munice pro případ blokády. Čína mezitím zrychluje technologickou soběstačnost skrze otevřený zdrojový kód pro Huawei čipy, zatímco regionální ekonomické reformy a finanční iniciativy v Hongkongu ukazují na snahu o stabilizaci.",
-    "security_status_en": "Geopolitical tensions remain elevated due to the fragile US-China trade truce and Taiwan's plans to quadruple ammunition stocks in preparation for a potential blockade. Meanwhile, China is accelerating technological self-reliance via open-source tools for Huawei chips, while regional economic reforms and financial initiatives in Hong Kong signal efforts toward stabilization.",
+    "sentiment_score": 42,
+    "security_status_cs": "Región Asie a Tichomoří čelí technologickému soupeření, což ilustruje snaha start-upu DeepSeek integrovat nástroje pro čipy Huawei a omezit závislost na Nvidia. Současně se zostřují obchodní vztahy s EU a roste obezřetnost ohledně dodavatelských řetězců, zatímco finanční trhy v Hongkongu vykazují rekordní oživení v oblasti IPO.",
+    "security_status_en": "The Asia-Pacific region is navigating intense technological rivalry, illustrated by DeepSeek's open-sourcing of tools for Huawei chips to reduce Nvidia dependency. Concurrently, EU-China trade tensions are tightening amid supply chain vulnerability warnings, while Hong Kong's financial markets post record-breaking IPO recovery.",
     "recommendations": [
       {
         "sector_cs": "Polovodiče (TSMC, Samsung, ASML)",
         "sector_en": "Semiconductors (TSMC, Samsung, ASML)",
         "action": "HOLD",
-        "reason_cs": "Přetrvávající americká exportní omezení a snaha Číny o vývoj vlastních řešení pomocí Huawei a DeepSeek vytvářejí smíšený tlak na dodavatelské řetězce.",
-        "reason_en": "Persistent US export controls and China's drive to develop domestic alternatives via Huawei and DeepSeek create mixed pressures on supply chains."
+        "reason_cs": "Čínský tlak na domácí alternativy (DeepSeek/Huawei) a přetrvávající americká exportní omezení vyžadují opatrnost.",
+        "reason_en": "China's push for domestic alternatives (DeepSeek/Huawei) and ongoing US export restrictions warrant caution."
       },
       {
         "sector_cs": "Čínské akcie (ETF FXI, MCHI)",
         "sector_en": "Chinese Equities (FXI, MCHI ETFs)",
         "action": "HOLD",
-        "reason_cs": "Zatímco R&D výdaje a AI boom nabízejí světlé výklenky, křehkost obchodního příměří s USA a nižší ziskovost korporací drží sentiment na uzdě.",
-        "reason_en": "While record R&D spending and the AI boom offer bright spots, the fragility of the US trade truce and lower corporate profit margins keep sentiment in check."
+        "reason_cs": "Silná výkonnost v oblasti primárních úpisů (IPO) v Hongkongu a silné prodeje Applu indikují dílčí oživení poptávky, makroekonomická rizika však přetrvávají.",
+        "reason_en": "Strong Hong Kong IPO activity and solid Apple sales indicate localized demand recovery, but macro economic risks persist."
       },
       {
         "sector_cs": "Japonské akcie (Nikkei 225 ETF)",
         "sector_en": "Japanese Equities (Nikkei 225 ETFs)",
         "action": "HOLD",
-        "reason_cs": "Japonský trh nadále stabilně těží z regionálního technologického zájmu, ale opatrnost převládá kvůli širším makroekonomickým nejistotám v Asii.",
-        "reason_en": "The Japanese market continues to benefit steadily from regional tech interest, but caution prevails due to broader macroeconomic uncertainties in Asia."
+        "reason_cs": "Trh zůstává stabilní, ovšem sleduje regionální měnový vývoj a širší globální technologické trendy.",
+        "reason_en": "The market remains stable while closely monitoring regional currency movements and broader global tech trends."
       },
       {
         "sector_cs": "Obranný průmysl (Lockheed Martin, RTX, Mitsubishi Heavy)",
         "sector_en": "Defense Industry (Lockheed Martin, RTX, Mitsubishi Heavy)",
         "action": "BUY",
-        "reason_cs": "Tchajwanské plány na nákup munice v hodnotě 850 milionů USD a nové zakázky Pentagonu (včetně Boeingu) udržují silnou poptávku po obranných aktivech.",
-        "reason_en": "Taiwan's $850 million ammunition procurement plans and major Pentagon contract awards maintain robust demand for defense assets."
+        "reason_cs": "Vývoj pokročilých čínských sledovacích systémů (lidar proti F-35) udržuje vysokou poptávku po obranných inovacích a rozpočtech.",
+        "reason_en": "Advancements in Chinese tracking tech (lidar targeting F-35s) sustain high demand for defense innovations and budgets."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "T оto domácí portfolio zůstává primárně vystaveno evropskému makroekonomickému prostředí a měnové politice ČNB a ECB, s minimálním přímým dopadem z Asie.",
-        "reason_en": "This domestic portfolio remains primarily exposed to the European macroeconomic environment and the monetary policies of the CNB and ECB, with minimal direct impact from Asia."
+        "reason_cs": "Dění v Asii má na tyto domácí a středoevropské tituly pouze nepřímý vliv skrze globální náladu na komoditních a úrokových trzích.",
+        "reason_en": "Asian developments impact these domestic and Central European stocks only indirectly via global commodity and rate sentiment."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat další diplomatické manévry ohledně implementace výsledků summitu Xi-Trump a reakce trhů na snahy Číny o technologickou nezávislost.",
-    "forecast_en": "Over the coming days, further diplomatic maneuvering regarding the implementation of the Xi-Trump summit outcomes and market reactions to China's drive for tech independence are expected.",
-    "forecast_review_cs": "Předchozí předpověď se potvrdila, neboť trhy nadále vyhodnocují výsledky summitu Xi-Trump a sledují vývoj v dodavatelských řetězcích a polovodičích.",
-    "forecast_review_en": "The previous forecast was confirmed as markets continue parsing the outcomes of the Xi-Trump summit and monitoring developments in supply chains and semiconductor policies."
+    "forecast_cs": "V nejbližších dnech lze očekávat reakce na blížící se říjnová jednání mezi EU a Čínou a vývoj kolem technologických sankcí.",
+    "forecast_en": "Over the coming days, markets will react to upcoming October EU-China trade talks and developments surrounding tech sanctions.",
+    "forecast_review_cs": "Předchozí předpověď o diplomatických manévrech a technologické nezávislosti byla dnešními zprávami o DeepSeek a EU plně potvrzena.",
+    "forecast_review_en": "The previous forecast regarding diplomatic maneuvers and tech independence was fully confirmed by today's news on DeepSeek and the EU."
   },
   "articles": [
     {
+      "title": "‘Who wants McDonald’s?’: mainland tourist shares HK$10,000 prize in Hong Kong",
+      "summary": "A mainland Chinese tourist who won a HK$10,000 (US$1,275) McDonald’s voucher in Hong Kong has turned her last 24 hours in the city into a whirlwind giveaway to the elderly, cleaners and the homeless.\nThe woman, who shared her spree on Chinese social media platform RedNote, said she won the “Hong Kong McDonald’s HK$10,000 subsidy” through Alipay on Saturday.\nAccording to a screenshot of her post, the voucher was valid for only one week and allowed up to 10 transactions, each capped at HK$1,000...",
+      "link": "https://www.scmp.com/news/hong-kong/society/article/3369357/who-wants-mcdonalds-mainland-tourist-shares-hk10000-prize-hong-kong?utm_source=rss_feed",
+      "published": "Wed, 30 Sep 2026 11:19:08 +0000",
+      "source": "News - South China Morning Post"
+    },
+    {
+      "title": "Indonesia targets free public schooling amid funding concerns",
+      "summary": "Indonesia is pursuing plans to make public schools free at all levels, stretching from kindergarten to university, but mounting pressure on the state budget could hinder the government from pulling off the massive undertaking, analysts have said.\nPresident Prabowo Subianto summoned his ministers last week to discuss a plan to “accelerate the implementation of free education in public schools”, according to a statement released by cabinet secretary Teddy Indra Wijaya on September 23.\n“Free...",
+      "link": "https://www.scmp.com/week-asia/lifestyle-culture/article/3369356/indonesia-targets-free-public-schooling-amid-funding-concerns?utm_source=rss_feed",
+      "published": "Wed, 30 Sep 2026 11:00:25 +0000",
+      "source": "News - South China Morning Post"
+    },
+    {
+      "title": "China’s Tiangong space station camera captures its first images of Hong Kong",
+      "summary": "A remote-sensing camera aboard China’s Tiangong space station that was developed by the Hong Kong University of Science and Technology has released its first images of the city ahead of the 77th anniversary of the founding of the People’s Republic of China.\nThe university published a series of videos and photos on Wednesday captured by the Musico camera, saying they showcased the major achievements of the Hong Kong research team’s participation in the national space programme.\nProfessor Zhang...",
+      "link": "https://www.scmp.com/news/hong-kong/education/article/3369355/chinas-tiangong-space-station-camera-captures-first-images-hong-kong?utm_source=rss_feed",
+      "published": "Wed, 30 Sep 2026 10:47:44 +0000",
+      "source": "News - South China Morning Post"
+    },
+    {
+      "title": "Chinese researchers say missile lidar model can spot US F-35 at up to 61.5km",
+      "summary": "A computer simulation developed by Chinese researchers suggests that a missile-borne system with the latest light detection and ranging system, or lidar, could detect and track an F-35 stealth fighter at up to 61.5km (38 miles) at night.\nThe theoretical model developed by a leading Chinese air force missile supplier says that under ideal conditions, the claimed range could have implications for the F-35’s ability to survive while facing China’s stealth fighters.\nBut one analyst is sceptical that...",
+      "link": "https://www.scmp.com/news/china/science/article/3369347/chinese-researchers-say-missile-lidar-model-can-spot-us-f-35-615km?utm_source=rss_feed",
+      "published": "Wed, 30 Sep 2026 10:43:15 +0000",
+      "source": "News - South China Morning Post"
+    },
+    {
+      "title": "Chinese-Malaysian woman proud to find grandad honoured in China for secret WWII sacrifice",
+      "summary": "While travelling in Kunming, southwestern China’s Yunnan province, a Chinese-Malaysian woman unexpectedly came across photos of her late grandfather showcased in a public exhibit.\nThe display celebrated the historical contributions of overseas Chinese machinists who played a vital role in supporting the nation during World War II.\nThe woman’s Chinese name is Zhang Huiqing, although she uses the handle @Huiching on social media.\nIn mid-September, she released a video revealing that during her...",
+      "link": "https://www.scmp.com/news/people-culture/trending-china/article/3369341/chinese-malaysian-woman-proud-find-grandad-honoured-china-secret-wwii-sacrifice?utm_source=rss_feed",
+      "published": "Wed, 30 Sep 2026 10:00:10 +0000",
+      "source": "News - South China Morning Post"
+    },
+    {
+      "title": "Hong Kong route linking Yau Ma Tei and Tseung Kwan O to fully open in December",
+      "summary": "A new route connecting Yau Ma Tei and Tseung Kwan O in Hong Kong will fully open in December this year with the completion of a key section of the long-awaited Central Kowloon Route, the city’s transport chief has said.\nSecretary for Transport and Logistics Mable Chan said on Wednesday at a Legislative Council meeting that the Kowloon Bay section of the Central Kowloon Route would open to traffic on December 6.\nThe Central Kowloon Route is a key part of Route 6, with construction beginning in...",
+      "link": "https://www.scmp.com/news/hong-kong/transport/article/3369342/hong-kong-route-linking-yau-ma-tei-and-tseung-kwan-o-fully-open-december?utm_source=rss_feed",
+      "published": "Wed, 30 Sep 2026 09:56:38 +0000",
+      "source": "News - South China Morning Post"
+    },
+    {
+      "title": "In-law’s anger over HK$72 million flat sale drove murder of Abby Choi, court hears",
+      "summary": "Hong Kong socialite Abby Choi Tin-fung’s former father-in-law enlisted his two sons to help him murder the 28-year-old and dispose of her dismembered body after he became “extremely resentful and angry” over her insistence on selling a HK$72 million (US$9.2 million) flat where he was living, a court has heard.\nThe prosecution on Wednesday began delivering its opening statements in what is expected to be an eight-week High Court trial over the influencer’s murder and the illegal disposal of her...",
+      "link": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3369340/laws-anger-over-hk72-million-flat-sale-drove-murder-abby-choi-court-hears?utm_source=rss_feed",
+      "published": "Wed, 30 Sep 2026 09:28:22 +0000",
+      "source": "News - South China Morning Post"
+    },
+    {
+      "title": "Southeast Asia faces ‘sleeper’ food crisis from Hormuz fertiliser bottleneck",
+      "summary": "A hunger crisis could creep up on Southeast Asia if the region does not guard against export restrictions amid a fertiliser shortfall, International Chamber of Commerce (ICC) Secretary General John Denton has warned.\nOn the sidelines of the Future of Trade Forum in Singapore on Wednesday, Denton urged the city state, as the next Asean chair, to prioritise the “sleeper issue” for the region. He argued that the real story centred on food, despite the Strait of Hormuz gridlock being widely seen as...",
+      "link": "https://www.scmp.com/week-asia/economics/article/3369338/southeast-asia-faces-sleeper-food-crisis-hormuz-fertiliser-bottleneck?utm_source=rss_feed",
+      "published": "Wed, 30 Sep 2026 09:17:16 +0000",
+      "source": "News - South China Morning Post"
+    },
+    {
+      "title": "Singapore beefs up rivalry with Hong Kong by picking 5 firms to boost equity market",
+      "summary": "Singapore’s central bank has selected five international asset managers to handle S$1.45 billion (US$1.3 billion) in locally focused equity strategies, making its latest effort to revive the city state’s stock market amid sharpening rivalry with regional financial hub Hong Kong.\nAmundi, Franklin Templeton, HSBC Asset Management, M&G Investments and Natixis Investment Managers were named on Tuesday as part of the third batch of mandates awarded under the Monetary Authority of Singapore’s (MAS)...",
+      "link": "https://www.scmp.com/business/banking-finance/article/3369308/singapore-beefs-rivalry-hong-kong-picking-5-firms-boost-equity-market?utm_source=rss_feed",
+      "published": "Wed, 30 Sep 2026 09:13:44 +0000",
+      "source": "News - South China Morning Post"
+    },
+    {
+      "title": "Tai O rope-ferry in Hong Kong ends service after 100 years – SCMP archive",
+      "summary": "This article was first published on September 30, 1996.\nNew footbridge ends 100 years of rope-ferry service\nby Shirley Kwok\nThe century-old rope-ferry between Lantau and Tai O saw its years of service come to an end yesterday (September 29, 1996) with the opening of a new $15 million pedestrian bridge between the islands.\n\nUntil yesterday, the ferry was the only means of crossing the 15-metre Tai O creek, and passengers had to pay 50 cents for each trip.\nDirector of Territory Development Lee...",
+      "link": "https://www.scmp.com/news/hong-kong/article/3369328/tai-o-rope-ferry-hong-kong-ends-service-after-100-years-scmp-archive?utm_source=rss_feed",
+      "published": "Wed, 30 Sep 2026 09:05:43 +0000",
+      "source": "News - South China Morning Post"
+    },
+    {
+      "title": "4-winged fossil found in Liaoning challenges single origin of dinosaur flight",
+      "summary": "Scientists have unveiled an exceptionally well-preserved 100-million-year-old fossil of a small, feathered dinosaur in northeastern China that could reshape our understanding of how dinosaurs took to the skies.\nThe newly discovered species, named Norellraptor barsboldi, is a four-winged predatory dinosaur measuring 57cm (22 inches) long.\nBelonging to the microraptorines – small dinosaurs with feathers and wings closely related to birds – the creature offers fresh evidence that flight evolved...",
+      "link": "https://www.scmp.com/news/china/science/article/3369309/4-winged-fossil-found-liaoning-challenges-single-origin-dinosaur-flight?utm_source=rss_feed",
+      "published": "Wed, 30 Sep 2026 09:00:06 +0000",
+      "source": "News - South China Morning Post"
+    },
+    {
+      "title": "Apple leads China smartphone sales after launch of iPhone 18 Pro. Can the momentum last?",
+      "summary": "Apple has claimed the top spot in China’s smartphone market following the release of its iPhone 18 Pro series, giving a potential boost to a sluggish handset market weighed down by weak consumer demand and soaring component costs.\nSales of the new Pro models in their first three days after launching on September 18 were 12 per cent higher than sales of the iPhone 17 Pro line-up during its entire first week last year, according to a report published on Wednesday by Counterpoint Research.\nThat...",
+      "link": "https://www.scmp.com/tech/big-tech/article/3369323/apple-leads-china-smartphone-sales-after-launch-iphone-18-pro-can-momentum-last?utm_source=rss_feed",
+      "published": "Wed, 30 Sep 2026 08:45:05 +0000",
+      "source": "News - South China Morning Post"
+    },
+    {
+      "title": "Seoul residents up in arms over school for North Korean defectors",
+      "summary": "Residents of a district in the South Korean capital of Seoul are up in arms over plans to build a permanent school for North Korean defectors in their neighbourhood.\nThe dispute escalated to the point where the school’s principal dropped to her knees to beg protesters to “embrace the children”, the Korea JoongAng Daily reported.\nYeomyung School, which educates middle and high school students who fled North Korea or are children of North Korean defectors, has been unable to afford its own...",
+      "link": "https://www.scmp.com/week-asia/people/article/3369326/seoul-residents-arms-over-school-north-korean-defectors?utm_source=rss_feed",
+      "published": "Wed, 30 Sep 2026 08:35:55 +0000",
+      "source": "News - South China Morning Post"
+    },
+    {
+      "title": "Hong Kong’s IPO haul in first 9 months smashes record despite Nasdaq’s fundraising lead",
+      "summary": "Funds raised through Hong Kong initial public offerings (IPOs) doubled in the first nine months of 2026, reaching the highest level for the period since records began in 1980.\nA total of 112 companies raised US$48.4 billion on Hong Kong’s main board during the first nine months, according to data released by LSEG Data & Analytics on Wednesday. A further two companies listed on the city’s Growth Enterprise Market (GEM).\nBy deal count, the combined total of 114 new listings on the main board and...",
+      "link": "https://www.scmp.com/business/banking-finance/article/3369316/hong-kongs-ipo-haul-first-9-months-smashes-record-despite-nasdaqs-fundraising-lead?utm_source=rss_feed",
+      "published": "Wed, 30 Sep 2026 08:00:27 +0000",
+      "source": "News - South China Morning Post"
+    },
+    {
+      "title": "EU weighs sweeping new trade powers against China before make-or-break October",
+      "summary": "Brussels and Berlin are steeling themselves for a make-or-break October with China, as the mood towards Beijing hardens in both capitals.\nThe month ahead could help set the course of the increasingly thorny EU-China relationship for years to come, as Europe gears up to present a slew of new tools for countering Beijing’s trade practices, likely to come in December.\nBefore then, EU trade chief Maros Sefcovic travels to Beijing on October 8 and 9 for crucial meetings with Chinese Commerce Minister...",
+      "link": "https://www.scmp.com/news/china/diplomacy/article/3369303/eu-weighs-sweeping-new-trade-powers-against-china-make-or-break-october?utm_source=rss_feed",
+      "published": "Wed, 30 Sep 2026 08:00:14 +0000",
+      "source": "News - South China Morning Post"
+    },
+    {
+      "title": "FlyDubai flight to Israel diverted to Saudi Arabia after incident in cockpit",
+      "summary": "A commercial plane travelling from Dubai in the United Arab Emirates to Israel was forced to make an emergency landing in Saudi Arabia on Wednesday, briefly raising concerns about a possible hijacking and prompting Israel to scramble warplanes.\nIsraeli media, citing security officials, said the incident stemmed from a feud between the plane’s two pilots, and everyone on board was safe. The plane landed in Tabuk, a civilian and military base in the kingdom.\nThe FlyDubai plane had transmitted an...",
+      "link": "https://www.scmp.com/news/world/middle-east/article/3369318/flydubai-flight-israel-diverted-saudi-arabia-after-incident-cockpit?utm_source=rss_feed",
+      "published": "Wed, 30 Sep 2026 07:54:04 +0000",
+      "source": "News - South China Morning Post"
+    },
+    {
       "title": "Hong Kong to expand IP financing sandbox after 7 firms secure cheaper loans",
-      "summary": "The Hong Kong government has pledged to expand its intellectual property (IP) financing sandbox scheme by adding more participating banks and enterprises, after seven corporate users found that a nine-month trial helped lower their borrowing costs.\n“This will help refine the IP ecosystem, including valuation practices, professional service costs, supporting measures and market awareness,” Carmen Chu Lap-kiu, executive director of banking supervision at the Hong Kong Monetary Authority (HKMA),...",
+      "summary": "The Hong Kong government has pledged to expand its intellectual property (IP) financing sandbox scheme by adding more banks and enterprises, after seven corporate users found that a nine-month trial helped lower their borrowing costs.\n“This will help refine the IP ecosystem, including valuation practices, professional service costs, supporting measures and market awareness,” Carmen Chu Lap-kiu, executive director of banking supervision at the Hong Kong Monetary Authority (HKMA), said on...",
       "link": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3369312/hong-kong-expand-ip-financing-sandbox-after-7-firms-secure-cheaper-loans?utm_source=rss_feed",
       "published": "Wed, 30 Sep 2026 07:27:21 +0000",
       "source": "News - South China Morning Post"
@@ -74,118 +186,6 @@
       "summary": "Philippine senators have urged the Department of Tourism to stick with a single marketing campaign to build long-term international recognition, pointing to long-running successes such as Malaysia’s “Truly Asia” tagline.\nNewly appointed Tourism Secretary Dita Angara-Mathay was asked about her plans for the current slogan, “Love the Philippines”, during a departmental budget hearing on Monday, the Philippine Star reported.\nSenate finance subcommittee chairman Erwin Tulfo suggested keeping the...",
       "link": "https://www.scmp.com/week-asia/people/article/3369297/philippines-urged-adopt-malaysias-lasting-tourism-strategy?utm_source=rss_feed",
       "published": "Wed, 30 Sep 2026 06:16:10 +0000",
-      "source": "News - South China Morning Post"
-    },
-    {
-      "title": "China’s R&D spending hits record 2.8% of GDP, beating OECD average for the first time",
-      "summary": "For the first time, China’s spending on research and development as a share of gross domestic product has surpassed the average for Organisation for Economic Cooperation and Development (OECD) members – a trend one analyst expects to continue as Beijing seeks to strengthen technological self-reliance amid intensifying global competition.\nR&D expenditure exceeded 3.92 trillion yuan (US$584.8 billion) in 2025, accounting for 2.8 per cent of GDP, Science and Technology Minister Yin Hejun said at a...",
-      "link": "https://www.scmp.com/economy/china-economy/article/3369296/chinas-rd-spending-hits-record-28-gdp-beating-oecd-average-first-time?utm_source=rss_feed",
-      "published": "Wed, 30 Sep 2026 06:01:56 +0000",
-      "source": "News - South China Morning Post"
-    },
-    {
-      "title": "Hong Kong urged to boost private housing supply as student demand jumps 45%",
-      "summary": "Hong Kong authorities are facing calls to increase the proportion of private housing in selected districts and work more closely with developers to expand accommodation for non-local students.\nThe government forecasts annual demand for non-local student housing at 2,310 flats over the next decade, 45 per cent higher than last year’s estimate, according to the latest Long-Term Housing Strategy progress report, released on Monday.\nThe Housing Bureau attributed the projection to an average annual...",
-      "link": "https://www.scmp.com/news/hong-kong/education/article/3369295/hong-kong-urged-boost-private-housing-supply-student-demand-jumps-45?utm_source=rss_feed",
-      "published": "Wed, 30 Sep 2026 05:46:46 +0000",
-      "source": "News - South China Morning Post"
-    },
-    {
-      "title": "US social media users urge Koreans to unmask Cornell sexual assault suspect Winston Lee",
-      "summary": "The sprawling online hunt for information about Winston Lee, a Korean student who is among seven defendants in a Cornell University sexual assault lawsuit, is increasingly crossing borders, with English-speaking social media users calling on their Korean counterparts to help uncover more information about him.\nAs the “Cornell 7” case continues to draw intense attention across the United States, Lee has become the subject of a parallel search focused on his Korean identity and background....",
-      "link": "https://www.scmp.com/news/asia/east-asia/article/3369293/us-social-media-users-urge-koreans-unmask-cornell-sexual-assault-suspect-winston-lee?utm_source=rss_feed",
-      "published": "Wed, 30 Sep 2026 05:13:51 +0000",
-      "source": "News - South China Morning Post"
-    },
-    {
-      "title": "Chinese firms trail global peers on profits, but AI power boom offers bright spot: Natixis",
-      "summary": "China’s corporate sector remains considerably weaker than it was before the Covid-19 pandemic, but the country is emerging as a key beneficiary of the global artificial intelligence boom thanks to its ample power capacity, according to a Natixis survey of thousands of firms and a separate research report.\nProfit margins at Chinese firms had stabilised at about 4.5 per cent for the first half of 2026, but remained well below the nearly 9 per cent recorded by their global peers, according to the...",
-      "link": "https://www.scmp.com/business/china-business/article/3369282/chinese-firms-trail-global-peers-profits-ai-power-boom-offers-bright-spot-natixis?utm_source=rss_feed",
-      "published": "Wed, 30 Sep 2026 05:00:10 +0000",
-      "source": "News - South China Morning Post"
-    },
-    {
-      "title": "HSBC unveils RedCoin as name of its Hong Kong stablecoin for 3.3 million PayMe users",
-      "summary": "HSBC on Wednesday named its stablecoin offering HSBC RedCoin, paving the way for Hong Kong’s biggest lender to make the coin available to the more than 3.3 million users of its PayMe app for money transfers, shopping and dining.\nWhen launched before the end of the year, the stablecoin would be offered only through PayMe and HSBC’s Hong Kong mobile banking app, HSBC said.\nThe bank said it was optimistic about retail usage of HSBC RedCoin, as 74 per cent of respondents to a survey of more than...",
-      "link": "https://www.scmp.com/business/banking-finance/article/3369284/hsbc-unveils-redcoin-name-its-hong-kong-stablecoin-33-million-payme-users?utm_source=rss_feed",
-      "published": "Wed, 30 Sep 2026 04:18:24 +0000",
-      "source": "News - South China Morning Post"
-    },
-    {
-      "title": "Slow is beautiful: China launches war against AI drama, goes beyond algorithms",
-      "summary": "China’s broadcasting regulator has called for greater support for live-action dramas as the government seeks to steer the booming microdrama industry towards higher-quality production and tighter rights safeguards amid the rapid rise of AI.\nArtificial intelligence (AI) has created innovation and production possibilities for microdramas, while also posing challenges over content quality and rights protection, according to Wang Xiaoliang from the National Radio and Television...",
-      "link": "https://www.scmp.com/news/china/politics/article/3369183/slow-beautiful-china-launches-war-against-ai-drama-goes-beyond-algorithms?utm_source=rss_feed",
-      "published": "Wed, 30 Sep 2026 04:00:08 +0000",
-      "source": "News - South China Morning Post"
-    },
-    {
-      "title": "Pentagon picks Boeing to build new carrier fighter jet to replace F/A-18",
-      "summary": "The Pentagon has chosen Boeing to build the US Navy’s next-generation fighter jets in a contract valued at US$20 billion, officials announced Tuesday.\nThe contract is to produce F/A-XX aircraft or “strike fighters” under the “Next Generation Air Dominance Program,” a Pentagon statement said, adding that the new jets would replace the legacy Super Hornets fleet beginning in the 2030s.\nThe announcement marks the second time Boeing has been selected by the Pentagon during the second Trump...",
-      "link": "https://www.scmp.com/news/world/united-states-canada/article/3369281/pentagon-picks-boeing-build-new-carrier-fighter-jet-replace-f/18?utm_source=rss_feed",
-      "published": "Wed, 30 Sep 2026 03:52:10 +0000",
-      "source": "News - South China Morning Post"
-    },
-    {
-      "title": "Boom News founder Tang Ho-wing, 1 other arrested by Hong Kong national security police",
-      "summary": "Hong Kong national security police have arrested two people, including the founder of online media outlet Boom News on suspicion of “incitement by spreading disinformation”, the South China Morning Post has learned\nA source familiar with the matter said journalist Tang Ho-wing, the 37-year-old founder of Boom News, was apprehended at around 7am on Wednesday, along with activist Lee Ying-chi, a dentist.\n“The National Security Department has arrested two people on suspicion of incitement by...",
-      "link": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3369271/boom-news-founder-tang-ho-wing-arrested-hong-kong-national-security-police?utm_source=rss_feed",
-      "published": "Wed, 30 Sep 2026 03:00:11 +0000",
-      "source": "News - South China Morning Post"
-    },
-    {
-      "title": "In Japan, free BitTorrent porn downloads bring legal trouble and fines",
-      "summary": "Japanese BitTorrent users who thought they were simply downloading adult videos for free are increasingly receiving court notices and demands for hundreds of thousands of yen, as copyright holders step up efforts to identify users through their IP addresses.\nOne self-employed man in his 40s living in Tokyo began using the file-sharing software after reading about it online.\nHe would start downloading adult videos before going to bed and switch the software off the next morning, giving him access...",
-      "link": "https://www.scmp.com/news/asia/east-asia/article/3369270/japan-free-bittorrent-porn-downloads-bring-legal-trouble-and-fines?utm_source=rss_feed",
-      "published": "Wed, 30 Sep 2026 02:56:49 +0000",
-      "source": "News - South China Morning Post"
-    },
-    {
-      "title": "Taiwan plans US$850 million ammunition spend to prepare for potential PLA blockade",
-      "summary": "Taiwan’s military plans to spend more than NT$27 billion (US$850 million) to quadruple critical ammunition stocks to 120 days’ supply, strengthening its ability to sustain combat operations during a wartime blockade.\nThe proposed six-year “urgent ammunition replenishment” programme, running from this year until 2031, comes as Taipei seeks to strengthen its ability to keep fighting if a cross-strait conflict cuts external supply lines.\nThe spending proposal was revealed on September 26 and still...",
-      "link": "https://www.scmp.com/news/china/military/article/3369212/taiwan-plans-us850-million-ammunition-spend-prepare-potential-pla-blockade?utm_source=rss_feed",
-      "published": "Wed, 30 Sep 2026 02:00:17 +0000",
-      "source": "News - South China Morning Post"
-    },
-    {
-      "title": "China warns officials, fires kindergarten principal over ‘mops in cooking pots’ scandal",
-      "summary": "Local Chinese authorities have issued warnings and demerits to 11 officials and dismissed the entire kitchen staff at a kindergarten following a teacher’s revelation about unsanitary practices, including washing dirty mops in cooking pots.\nOn June 30, several children at the Affiliated Kindergarten of Nanjing University of Information Science and Technology in Jiangsu province exhibited symptoms such as nausea and vomiting during and after lunch.\nParents had been inquiring about the...",
-      "link": "https://www.scmp.com/news/people-culture/trending-china/article/3369151/china-warns-officials-fires-kindergarten-principal-over-mops-cooking-pots-scandal?utm_source=rss_feed",
-      "published": "Wed, 30 Sep 2026 02:00:10 +0000",
-      "source": "News - South China Morning Post"
-    },
-    {
-      "title": "US-China trade truce remains ‘fragile’ after Xi-Trump summit, analysts say",
-      "summary": "The two-month extension of the US-China trade truce remains fragile despite last week’s summit between Presidents Donald Trump and Xi Jinping, with modest economic concessions leaving deeper disputes unresolved, Asia Society Policy Institute analysts said on Tuesday.\n“In my view, this truce is very fragile,” said Wendy Cutler, an Asia Society Policy Institute vice-president and former acting deputy US trade representative. “I think they’re testing each other.”\nXi’s three-day state visit to...",
-      "link": "https://www.scmp.com/news/china/diplomacy/article/3369263/us-china-trade-truce-remains-fragile-after-xi-trump-summit-analysts-say?utm_source=rss_feed",
-      "published": "Wed, 30 Sep 2026 01:30:21 +0000",
-      "source": "News - South China Morning Post"
-    },
-    {
-      "title": "Raising Hong Kong’s birth rate is an economic imperative",
-      "summary": "Hong Kong’s first five-year plan and latest policy address have put demographic sustainability on the public agenda. Among the measures announced are an extension of the newborn bonus scheme and increased financial support for the second and subsequent children. These are welcome steps.\nBut the fertility debate should not be reduced to whether a bonus is large enough to change family decisions. The bigger challenge is whether Hong Kong can remain dynamic and competitive while its younger...",
-      "link": "https://www.scmp.com/opinion/hong-kong-opinion/article/3368854/raising-hong-kongs-birth-rate-economic-imperative?utm_source=rss_feed",
-      "published": "Wed, 30 Sep 2026 01:30:06 +0000",
-      "source": "News - South China Morning Post"
-    },
-    {
-      "title": "‘Hold the status quo’? US Congress reviews Xi-Trump summit outcomes",
-      "summary": "Chinese President Xi Jinping’s three-day state visit to Washington is over, but China watchers in Congress and the US-China policy community are still parsing a wide range of outcomes, with two more leadership summits expected before the end of the year.\nThe talks between Xi and US President Donald Trump produced a series of joint announcements, including an extension of the US-China trade truce, investment commitments, an agreement to continue an AI dialogue and high-level engagement, as well...",
-      "link": "https://www.scmp.com/news/china/diplomacy/article/3369261/hold-status-quo-us-congress-members-review-xi-trump-summit?utm_source=rss_feed",
-      "published": "Wed, 30 Sep 2026 01:01:52 +0000",
-      "source": "News - South China Morning Post"
-    },
-    {
-      "title": "Cheap and illegal: mainland Chinese post social media adverts for services in Hong Kong",
-      "summary": "Hong Kong’s crackdown on visitors abusing visas to illegally offer tour guide, photography and other services has failed to deter adverts for such unlicensed work on mainland Chinese social media ahead of the National Day “golden week” break, the South China Morning Post has found.\nA search of RedNote by the SCMP turned up accounts listing themselves as Shenzhen-based photographers offering their services in Hong Kong.\nMany of them also asked clients to reimburse their travel expenses between...",
-      "link": "https://www.scmp.com/news/hong-kong/society/article/3369247/cheap-and-illegal-mainlanders-post-social-media-adverts-services-hong-kong?utm_source=rss_feed",
-      "published": "Wed, 30 Sep 2026 00:35:54 +0000",
-      "source": "News - South China Morning Post"
-    },
-    {
-      "title": "Gaza on stage: concert activism meets Malaysia, Singapore red lines",
-      "summary": "American rapper Macklemore lost his spot on British pop star Ed Sheeran’s US tour after speaking up for Palestinians, but in Malaysia it was Sheeran’s music which ended up being pulled from the airwaves.\nIn neighbouring Singapore, British band Massive Attack faced a different kind of fallout, barred from returning after members displayed a Palestinian flag during a July concert.\nThe contrasting cases highlight the competing pressures on foreign artists in Southeast Asia, where political...",
-      "link": "https://www.scmp.com/week-asia/lifestyle-culture/article/3369248/gaza-stage-concert-activism-meets-malaysia-singapore-red-lines?utm_source=rss_feed",
-      "published": "Wed, 30 Sep 2026 00:00:15 +0000",
       "source": "News - South China Morning Post"
     }
   ],
@@ -324,6 +324,15 @@
       "incidents": 20,
       "hangseng": 24609.17,
       "usd_czk": null
+    },
+    {
+      "date": "2026-09-30 11:42",
+      "threat_level": "MEDIUM",
+      "value": 2,
+      "sentiment_score": 42,
+      "incidents": 20,
+      "hangseng": 24613.27,
+      "usd_czk": null
     }
   ],
   "locations": [
@@ -335,18 +344,11 @@
       "name_en": "Beijing"
     },
     {
-      "key": "Taipei",
-      "lat": 25.033,
-      "lon": 121.5654,
-      "name_cs": "Tchaj-pej",
-      "name_en": "Taipei"
-    },
-    {
-      "key": "Tokyo",
-      "lat": 35.6762,
-      "lon": 139.6503,
-      "name_cs": "Tokio",
-      "name_en": "Tokyo"
+      "key": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "name_cs": "Soul",
+      "name_en": "Seoul"
     },
     {
       "key": "Hong Kong",
@@ -357,11 +359,11 @@
     }
   ],
   "location_counts": {
-    "Beijing": 14,
-    "Hong Kong": 15,
+    "Beijing": 15,
+    "Hong Kong": 16,
     "Tokyo": 5,
     "Shanghai": 4,
-    "Seoul": 3,
+    "Seoul": 4,
     "South China Sea": 3,
     "Taipei": 3,
     "Manila": 2,
@@ -371,17 +373,9 @@
     "key": "Hong Kong",
     "name_cs": "Hongkong",
     "name_en": "Hong Kong",
-    "count": 15
+    "count": 16
   },
   "archive": [
-    {
-      "date": "2026-09-20 10:23",
-      "threat_level": "MEDIUM",
-      "security_status_cs": "Region sleduje přípravy na blížící se summit mezi USA a Čínou, přičemž Peking vystupuje sebevědomě po sérii diplomatických jednání. Současně sílí obavy z technologické bezpečnosti po incidentech se ztracenými vojenskými díly a narůstá napětí kolem energetických a klimatických tlaků na regionální infrastrukturu.",
-      "security_status_en": "The region is monitoring preparations for the upcoming US-China summit, with Beijing exhibiting confidence following a series of diplomatic engagements. Simultaneously, concerns over technological security are mounting following incidents involving missing military parts, alongside rising pressures from energy and climate strains on regional infrastructure.",
-      "forecast_cs": "V nejbližších dnech se pozornost trhů zaměří na diplomatické signály před summitem USA-Čína a na řešení případů úniku citlivých vojenských technologií.",
-      "forecast_en": "In the coming days, market attention will focus on diplomatic signals ahead of the US-China summit and the handling of sensitive military technology leakage cases."
-    },
     {
       "date": "2026-09-21 04:20",
       "threat_level": "MEDIUM",
@@ -485,13 +479,21 @@
       "security_status_en": "Geopolitical tensions remain elevated due to the fragile US-China trade truce and Taiwan's plans to quadruple ammunition stocks in preparation for a potential blockade. Meanwhile, China is accelerating technological self-reliance via open-source tools for Huawei chips, while regional economic reforms and financial initiatives in Hong Kong signal efforts toward stabilization.",
       "forecast_cs": "V nejbližších dnech lze očekávat další diplomatické manévry ohledně implementace výsledků summitu Xi-Trump a reakce trhů na snahy Číny o technologickou nezávislost.",
       "forecast_en": "Over the coming days, further diplomatic maneuvering regarding the implementation of the Xi-Trump summit outcomes and market reactions to China's drive for tech independence are expected."
+    },
+    {
+      "date": "2026-09-30 11:42",
+      "threat_level": "MEDIUM",
+      "security_status_cs": "Región Asie a Tichomoří čelí technologickému soupeření, což ilustruje snaha start-upu DeepSeek integrovat nástroje pro čipy Huawei a omezit závislost na Nvidia. Současně se zostřují obchodní vztahy s EU a roste obezřetnost ohledně dodavatelských řetězců, zatímco finanční trhy v Hongkongu vykazují rekordní oživení v oblasti IPO.",
+      "security_status_en": "The Asia-Pacific region is navigating intense technological rivalry, illustrated by DeepSeek's open-sourcing of tools for Huawei chips to reduce Nvidia dependency. Concurrently, EU-China trade tensions are tightening amid supply chain vulnerability warnings, while Hong Kong's financial markets post record-breaking IPO recovery.",
+      "forecast_cs": "V nejbližších dnech lze očekávat reakce na blížící se říjnová jednání mezi EU a Čínou a vývoj kolem technologických sankcí.",
+      "forecast_en": "Over the coming days, markets will react to upcoming October EU-China trade talks and developments surrounding tech sanctions."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 5× MEDIUM, 1× STABLE, 1× HIGH.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 5× MEDIUM, 1× STABLE, 1× HIGH.",
   "market_data": {
     "hangseng": {
-      "value": 24609.17,
+      "value": 24613.27,
       "date": "2026-09-30",
       "cached": false
     },
