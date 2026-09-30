@@ -10,6 +10,7 @@ from czechia_config import (
 )
 from czechia_politici import clean_politici, build_politici
 from czechia_summary import build_summary
+from czechia_rss import build_rss
 
 def load_json(path, default):
     try:
@@ -248,6 +249,7 @@ def main():
     if data:
         build_polls(data)
         build_politici(data)
+        build_rss(data)
     if data and (added or not os.path.exists(PARTIES_OUT)):
         build_parties(client, data)
     if data and (added or not os.path.exists("czechia/summary.json")):
