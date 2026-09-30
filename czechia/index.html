@@ -1,78 +1,125 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#11457e">
-<title>Politický přehled ČR a Prahy</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Czech Politics Monitor · Politika a volby v ČR a Praze</title>
+<meta name="description" content="AI monitor české politiky a předvolebního dění v Praze a celé ČR">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://matesva.github.io/Redsea-monitor/czechia/">
+<link rel="alternate" type="application/rss+xml" title="Czech Politics Monitor" href="rss.xml">
+<meta name="theme-color" content="#0b1d26">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script data-goatcounter="https://redsea-monitor.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header><div class="in">
-  <svg viewBox="0 0 30 20" aria-label="Česká vlajka"><rect width="30" height="10" fill="#fff"/><rect y="10" width="30" height="10" fill="#d7141a"/><path d="M0 0L15 10L0 20Z" fill="#11457e"/></svg>
-  <div><h1>Politický přehled: Praha a ČR</h1><small id="upd">Načítám…</small></div>
-</div></header>
-<div class="stripe"></div>
+<div class="masthead">
+  <div class="masthead-top">
+    <span class="flagline">
+      <svg viewBox="0 0 30 20" aria-label="Česká vlajka"><rect width="30" height="10" fill="#fff"/><rect y="10" width="30" height="10" fill="#d7141a"/><path d="M0 0L15 10L0 20Z" fill="#11457e"/></svg>
+      CZECH POLITICS MONITOR · VOL. AUTO
+    </span>
+    <div class="controls-group">
+      <button class="theme-toggle" onclick="toggleTheme()">◑ TÉMA</button>
+    </div>
+  </div>
+  <h1>Česko: politika &amp; volby</h1>
+  <div class="dispatch-line">
+    <span id="upd">Načítám…</span>
+    <span>Praha · celá ČR</span>
+  </div>
+  <div class="share-row">
+    <a class="share-btn" href="../">← REDSEA MONITOR</a>
+    <a class="share-btn" href="rss.xml" target="_blank">RSS ↗</a>
+    <a class="share-btn" href="../usa/">→ USA MONITOR</a>
+    <a class="share-btn" href="../europe/">→ EUROPE MONITOR</a>
+    <a class="share-btn" href="../middle-east/">→ MIDDLE EAST MONITOR</a>
+    <a class="share-btn" href="../asia/">→ CHINA &amp; ASIA MONITOR</a>
+    <a class="share-btn" href="../japan/">→ JAPAN MONITOR</a>
+  </div>
+</div>
+<svg class="wave-divider" viewBox="0 0 780 10" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 5 Q 15 0, 30 5 T 60 5 T 90 5 T 120 5 T 150 5 T 180 5 T 210 5 T 240 5 T 270 5 T 300 5 T 330 5 T 360 5 T 390 5 T 420 5 T 450 5 T 480 5 T 510 5 T 540 5 T 570 5 T 600 5 T 630 5 T 660 5 T 690 5 T 720 5 T 750 5 T 780 5"/>
+</svg>
 
-<main>
+<div class="container">
+  <nav class="tabs">
+    <button id="t-zpravy" class="on">ZPRÁVY</button>
+    <button id="t-strany">STRANY</button>
+    <button id="t-sliby">SLIBY</button>
+    <button id="t-pruzkumy">PRŮZKUMY</button>
+  </nav>
+
   <section id="v-zpravy">
-    <div class="card">
-      <div class="head">
-        <h2>Shrnutí zpráv</h2>
-        <select id="sum-days"><option value="1">24 hodin</option><option value="7">7 dní</option></select>
-      </div>
+    <div class="bulletin">
+      <h2>Shrnutí zpráv</h2>
+      <div class="ctl"><select id="sum-days"><option value="1">24 hodin</option><option value="7">7 dní</option></select></div>
       <div id="sum-body" class="muted">Shrnutí zatím není k dispozici.</div>
       <div class="legend" id="sum-meta"></div>
     </div>
-    <div class="card">
-      <div class="head">
-        <h2>Nejčastěji zmiňovaní politici</h2>
-        <select id="pol-days"><option value="7">7 dní</option><option value="30" selected>30 dní</option></select>
-      </div>
+    <div class="bulletin">
+      <h2>Nejčastěji zmiňovaní politici</h2>
+      <div class="ctl"><select id="pol-days"><option value="7">7 dní</option><option value="30" selected>30 dní</option></select></div>
       <div id="pol-list" class="muted">Zatím bez dat.</div>
       <div class="legend">Počet zpráv, ve kterých je politik zmíněn. Nejde o hodnocení ani popularitu.</div>
     </div>
-    <div class="filters">
-      <input id="q" placeholder="Hledat ve zprávách…">
-      <select id="region"><option value="">Praha i ČR</option><option>Praha</option><option>ČR</option></select>
-      <select id="strana"><option value="">Všechny strany</option></select>
+    <div class="bulletin">
+      <h2>Monitoring zpráv</h2>
+      <div class="filters">
+        <input id="q" placeholder="Hledat ve zprávách…">
+        <select id="region"><option value="">Praha i ČR</option><option>Praha</option><option>ČR</option></select>
+        <select id="strana"><option value="">Všechny strany</option></select>
+      </div>
+      <div id="list">Načítám…</div>
     </div>
-    <div id="list">Načítám…</div>
   </section>
 
-  <section id="v-strany" hidden><div id="strany-list"></div></section>
+  <section id="v-strany" hidden>
+    <div class="bulletin"><h2>Politické strany</h2><div id="strany-list"></div></div>
+  </section>
 
   <section id="v-sliby" hidden>
-    <div class="filters">
-      <input id="sq" placeholder="Hledat ve slibech…">
-      <select id="sstrana"><option value="">Všechny strany</option></select>
-      <select id="stema"><option value="">Všechna témata</option></select>
+    <div class="bulletin">
+      <h2>Předvolební sliby</h2>
+      <div class="filters">
+        <input id="sq" placeholder="Hledat ve slibech…">
+        <select id="sstrana"><option value="">Všechny strany</option></select>
+        <select id="stema"><option value="">Všechna témata</option></select>
+      </div>
+      <div id="sliby-list"></div>
     </div>
-    <div id="sliby-list"></div>
   </section>
 
   <section id="v-pruzkumy" hidden>
-    <div class="filters">
-      <select id="preg"><option>ČR</option><option>Praha</option></select>
-      <select id="pag"></select>
+    <div class="bulletin">
+      <h2 id="p-title">Volební preference</h2>
+      <div class="filters">
+        <select id="preg"><option>ČR</option><option>Praha</option></select>
+        <select id="pag"></select>
+      </div>
+      <div id="bars"></div>
+      <div class="legend">Přerušovaná čára = 5% hranice pro vstup do zastupitelstva.</div>
     </div>
-    <div class="card"><h2 id="p-title">Volební preference</h2><div id="bars"></div>
-      <div class="legend">Přerušovaná čára = 5% hranice pro vstup do zastupitelstva.</div></div>
-    <div class="card"><h2>Vývoj v čase</h2><div id="trend"></div></div>
-    <h3>Zaznamenané průzkumy</h3>
-    <div id="poll-list"></div>
+    <div class="bulletin"><h2>Vývoj v čase</h2><div id="trend"></div></div>
+    <div class="bulletin"><h2>Zaznamenané průzkumy</h2><div id="poll-list"></div></div>
   </section>
-</main>
 
-<footer>Shrnutí, profily, sliby, jména politiků i čísla z průzkumů extrahuje AI (Gemini) z textů zpráv, proto mohou být neúplné nebo nepřesné. „Mediální tón" ukazuje, jak o straně média píšou, nejde o hodnocení kvality ani volební doporučení. Průzkumy různých agentur nejsou přímo srovnatelné. Vždy ověřte v původním zdroji. Neoficiální web, není spojen s žádnou stranou ani institucí. Barvy stran jsou orientační.</footer>
+  <footer>
+    CZECH POLITICS AI MONITOR — AKTUALIZOVÁNO AUTOMATICKY<br><br>
+    Shrnutí, profily, sliby, jména politiků i čísla z průzkumů extrahuje AI (Gemini) z textů zpráv, proto mohou být neúplné nebo nepřesné. „Mediální tón" ukazuje, jak o straně média píšou, nejde o hodnocení kvality ani volební doporučení. Průzkumy různých agentur nejsou přímo srovnatelné. Vždy ověřte v původním zdroji. Neoficiální web, není spojen s žádnou stranou ani institucí. Barvy stran jsou orientační.
+  </footer>
+</div>
 
-<nav>
-  <button id="t-zpravy" class="on"><span>📰</span>Zprávy</button>
-  <button id="t-strany"><span>🏛️</span>Strany</button>
-  <button id="t-sliby"><span>📝</span>Sliby</button>
-  <button id="t-pruzkumy"><span>📊</span>Průzkumy</button>
-</nav>
-
+<script>
+if(localStorage.getItem('theme')==='light')document.body.classList.add('light');
+function toggleTheme(){
+  document.body.classList.toggle('light');
+  localStorage.setItem('theme',document.body.classList.contains('light')?'light':'dark');
+}
+</script>
 <script src="app.js"></script>
 </body>
 </html>
