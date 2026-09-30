@@ -1,53 +1,88 @@
 {
-  "last_updated": "2026-09-30T05:48:42Z",
+  "last_updated": "2026-09-30T07:46:51Z",
   "assessment": {
-    "threat_level": "HIGH",
-    "sentiment_score": 62,
-    "security_status_cs": "Nedávný summit prezidentů Xi a Trumpa sice přinesl prozatímní dvouměsíční prodloužení obchodního příměří, hlubší strukturální spory však zůstávají nevyřešeny. Tchaj-wan mezitím reaguje na hrozbu blokády posílením svých zásob munice programem v hodnotě 850 milionů dolarů.",
-    "security_status_en": "Although the recent Xi-Trump summit yielded a temporary two-month extension of the trade truce, deeper structural disputes remain unresolved. Meanwhile, Taiwan is responding to blockade risks by bolstering its critical ammunition stockpiles through an $850 million program.",
+    "threat_level": "MEDIUM",
+    "sentiment_score": 45,
+    "security_status_cs": "Geopolitické napětí zůstává zvýšené v důsledku křehkého příměří mezi USA a Čínou a tchajwanských plánů na posílení zásob munice pro případ blokády. Čína mezitím zrychluje technologickou soběstačnost skrze otevřený zdrojový kód pro Huawei čipy, zatímco regionální ekonomické reformy a finanční iniciativy v Hongkongu ukazují na snahu o stabilizaci.",
+    "security_status_en": "Geopolitical tensions remain elevated due to the fragile US-China trade truce and Taiwan's plans to quadruple ammunition stocks in preparation for a potential blockade. Meanwhile, China is accelerating technological self-reliance via open-source tools for Huawei chips, while regional economic reforms and financial initiatives in Hong Kong signal efforts toward stabilization.",
     "recommendations": [
       {
         "sector_cs": "Polovodiče (TSMC, Samsung, ASML)",
         "sector_en": "Semiconductors (TSMC, Samsung, ASML)",
         "action": "HOLD",
-        "reason_cs": "Globální poptávka po umělé inteligenci sice poskytuje strukturální oporu, přetrvávající geopolitická nejistota a křehkost americko-čínského příměří však vyžadují opatrnost.",
-        "reason_en": "While global AI demand provides structural support, persistent geopolitical uncertainty and the fragility of the US-China trade truce warrant caution."
+        "reason_cs": "Přetrvávající americká exportní omezení a snaha Číny o vývoj vlastních řešení pomocí Huawei a DeepSeek vytvářejí smíšený tlak na dodavatelské řetězce.",
+        "reason_en": "Persistent US export controls and China's drive to develop domestic alternatives via Huawei and DeepSeek create mixed pressures on supply chains."
       },
       {
         "sector_cs": "Čínské akcie (ETF FXI, MCHI)",
         "sector_en": "Chinese Equities (FXI, MCHI ETFs)",
         "action": "HOLD",
-        "reason_cs": "Zatímco čínský technologický sektor těží z boomu AI infrastruktury a energetické kapacity, nízké ziskové marže korporátní sféry a křehké obchodní vztahy s USA brzdí výraznější růst.",
-        "reason_en": "While China's tech sector benefits from the AI infrastructure and energy boom, low corporate profit margins and fragile US trade relations limit significant upside."
+        "reason_cs": "Zatímco R&D výdaje a AI boom nabízejí světlé výklenky, křehkost obchodního příměří s USA a nižší ziskovost korporací drží sentiment na uzdě.",
+        "reason_en": "While record R&D spending and the AI boom offer bright spots, the fragility of the US trade truce and lower corporate profit margins keep sentiment in check."
       },
       {
         "sector_cs": "Japonské akcie (Nikkei 225 ETF)",
         "sector_en": "Japanese Equities (Nikkei 225 ETFs)",
         "action": "HOLD",
-        "reason_cs": "Trh nadále vstřebává dopady regionálního napětí a měnové politiky, přičemž specifické domácí právní či licenční zásahy nemají na širší index zásadní vliv.",
-        "reason_en": "The market continues to digest regional tensions and monetary policy trends, while domestic regulatory updates have minimal systemic impact on the broader index."
+        "reason_cs": "Japonský trh nadále stabilně těží z regionálního technologického zájmu, ale opatrnost převládá kvůli širším makroekonomickým nejistotám v Asii.",
+        "reason_en": "The Japanese market continues to benefit steadily from regional tech interest, but caution prevails due to broader macroeconomic uncertainties in Asia."
       },
       {
         "sector_cs": "Obranný průmysl (Lockheed Martin, RTX, Mitsubishi Heavy)",
         "sector_en": "Defense Industry (Lockheed Martin, RTX, Mitsubishi Heavy)",
         "action": "BUY",
-        "reason_cs": "Zvyšující se výdaje Tchaj-wanu na obranu a rozsáhlé zakázky Pentagonu (včetně nových stíhaček od Boeingu) udržují silnou poptávku po obranném vybavení v asijsko-pacifickém regionu.",
-        "reason_en": "Rising defense expenditures by Taiwan and major Pentagon procurement contracts (such as Boeing's new jet program) sustain strong demand across the Asia-Pacific defense sector."
+        "reason_cs": "Tchajwanské plány na nákup munice v hodnotě 850 milionů USD a nové zakázky Pentagonu (včetně Boeingu) udržují silnou poptávku po obranných aktivech.",
+        "reason_en": "Taiwan's $850 million ammunition procurement plans and major Pentagon contract awards maintain robust demand for defense assets."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Asijské geopolitické napětí a technologické trendy mají na tyto středoevropské tituly pouze zprostředkovaný a omezený vliv; hlavní pozornost zůstává upřena na domácí makroekonomická data a regulace.",
-        "reason_en": "Asian geopolitical tensions and tech trends have an indirect and limited impact on these Central European stocks; primary attention remains on domestic macroeconomic data and regulations."
+        "reason_cs": "T оto domácí portfolio zůstává primárně vystaveno evropskému makroekonomickému prostředí a měnové politice ČNB a ECB, s minimálním přímým dopadem z Asie.",
+        "reason_en": "This domestic portfolio remains primarily exposed to the European macroeconomic environment and the monetary policies of the CNB and ECB, with minimal direct impact from Asia."
       }
     ],
-    "forecast_cs": "V nejbližších dnech se očekává pokračující diplomatické vyhodnocování summitu Xi-Trump a reakce trhů na vývoj v oblasti dodavatelských řetězců a polovodičů.",
-    "forecast_en": "Over the coming days, markets will likely continue parsing the outcomes of the Xi-Trump summit and reacting to developments in supply chains and semiconductor policies.",
-    "forecast_review_cs": "Předchozí předpověď o sledování obchodních jednání mezi EU a Pekingem a technologických sankcí byla částečně potvrzena pokračující debatou o křehkém americko-čínském příměří a širších ekonomických dopadech.",
-    "forecast_review_en": "The previous forecast focusing on EU-Beijing trade talks and tech sanctions was partially confirmed by ongoing discussions regarding the fragile US-China trade truce and broader economic impacts."
+    "forecast_cs": "V nejbližších dnech lze očekávat další diplomatické manévry ohledně implementace výsledků summitu Xi-Trump a reakce trhů na snahy Číny o technologickou nezávislost.",
+    "forecast_en": "Over the coming days, further diplomatic maneuvering regarding the implementation of the Xi-Trump summit outcomes and market reactions to China's drive for tech independence are expected.",
+    "forecast_review_cs": "Předchozí předpověď se potvrdila, neboť trhy nadále vyhodnocují výsledky summitu Xi-Trump a sledují vývoj v dodavatelských řetězcích a polovodičích.",
+    "forecast_review_en": "The previous forecast was confirmed as markets continue parsing the outcomes of the Xi-Trump summit and monitoring developments in supply chains and semiconductor policies."
   },
   "articles": [
+    {
+      "title": "Hong Kong to expand IP financing sandbox after 7 firms secure cheaper loans",
+      "summary": "The Hong Kong government has pledged to expand its intellectual property (IP) financing sandbox scheme by adding more participating banks and enterprises, after seven corporate users found that a nine-month trial helped lower their borrowing costs.\n“This will help refine the IP ecosystem, including valuation practices, professional service costs, supporting measures and market awareness,” Carmen Chu Lap-kiu, executive director of banking supervision at the Hong Kong Monetary Authority (HKMA),...",
+      "link": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3369312/hong-kong-expand-ip-financing-sandbox-after-7-firms-secure-cheaper-loans?utm_source=rss_feed",
+      "published": "Wed, 30 Sep 2026 07:27:21 +0000",
+      "source": "News - South China Morning Post"
+    },
+    {
+      "title": "China’s 2030 solid-state battery goal, Chinese carmakers see boost in Europe: 7 EV reads",
+      "summary": "We have put together stories from our coverage on electric and new energy vehicles from the past two weeks to help you stay informed. If you would like to see more of our reporting, please consider subscribing.\n1. As Chinese carmakers diversify beyond CATL, Beijing warns of market overreaction\nA publication under China’s industry ministry has pushed back against market chatter of “de-CATLisation” as a growing number of the battery giant’s automotive partners diversify their suppliers, with the...",
+      "link": "https://www.scmp.com/business/china-evs/article/3369306/chinas-2030-solid-state-battery-goal-chinese-carmakers-see-boost-europe-7-ev-reads?utm_source=rss_feed",
+      "published": "Wed, 30 Sep 2026 07:15:05 +0000",
+      "source": "News - South China Morning Post"
+    },
+    {
+      "title": "China’s DeepSeek open-sources tools to help Huawei chips supplant Nvidia in AI",
+      "summary": "Chinese artificial intelligence start-up DeepSeek on Wednesday open-sourced a suite of core tools tailored for Huawei Technologies’ Ascend AI chips, marking a step forward in the country’s push to end dependence on processors from US giant Nvidia amid US export curbs.\nHangzhou-based DeepSeek released six software modules that mirror its prior open-source tools for Nvidia’s AI chips, aiming to build a new “independent and controllable” software ecosystem for graphics processing units (GPUs),...",
+      "link": "https://www.scmp.com/tech/tech-trends/article/3369301/chinas-deepseek-open-sources-tools-help-huawei-chips-supplant-nvidia-ai?utm_source=rss_feed",
+      "published": "Wed, 30 Sep 2026 06:31:08 +0000",
+      "source": "News - South China Morning Post"
+    },
+    {
+      "title": "Philippines urged to adopt Malaysia’s lasting tourism strategy",
+      "summary": "Philippine senators have urged the Department of Tourism to stick with a single marketing campaign to build long-term international recognition, pointing to long-running successes such as Malaysia’s “Truly Asia” tagline.\nNewly appointed Tourism Secretary Dita Angara-Mathay was asked about her plans for the current slogan, “Love the Philippines”, during a departmental budget hearing on Monday, the Philippine Star reported.\nSenate finance subcommittee chairman Erwin Tulfo suggested keeping the...",
+      "link": "https://www.scmp.com/week-asia/people/article/3369297/philippines-urged-adopt-malaysias-lasting-tourism-strategy?utm_source=rss_feed",
+      "published": "Wed, 30 Sep 2026 06:16:10 +0000",
+      "source": "News - South China Morning Post"
+    },
+    {
+      "title": "China’s R&D spending hits record 2.8% of GDP, beating OECD average for the first time",
+      "summary": "For the first time, China’s spending on research and development as a share of gross domestic product has surpassed the average for Organisation for Economic Cooperation and Development (OECD) members – a trend one analyst expects to continue as Beijing seeks to strengthen technological self-reliance amid intensifying global competition.\nR&D expenditure exceeded 3.92 trillion yuan (US$584.8 billion) in 2025, accounting for 2.8 per cent of GDP, Science and Technology Minister Yin Hejun said at a...",
+      "link": "https://www.scmp.com/economy/china-economy/article/3369296/chinas-rd-spending-hits-record-28-gdp-beating-oecd-average-first-time?utm_source=rss_feed",
+      "published": "Wed, 30 Sep 2026 06:01:56 +0000",
+      "source": "News - South China Morning Post"
+    },
     {
       "title": "Hong Kong urged to boost private housing supply as student demand jumps 45%",
       "summary": "Hong Kong authorities are facing calls to increase the proportion of private housing in selected districts and work more closely with developers to expand accommodation for non-local students.\nThe government forecasts annual demand for non-local student housing at 2,310 flats over the next decade, 45 per cent higher than last year’s estimate, according to the latest Long-Term Housing Strategy progress report, released on Monday.\nThe Housing Bureau attributed the projection to an average annual...",
@@ -92,7 +127,7 @@
     },
     {
       "title": "Boom News founder Tang Ho-wing, 1 other arrested by Hong Kong national security police",
-      "summary": "Hong Kong national security police have arrested two people, including the founder of online media outlet Boom News on suspicion of “incitement by spreading disinformation”, the South China Morning Post has learned\nA source familiar with the matter said journalist Tang Ho-wing, the 37-year-old founder of Boom News, was apprehended at around 7am on Wednesday, along with one other person.\n“The National Security Department has arrested two people on suspicion of incitement by spreading...",
+      "summary": "Hong Kong national security police have arrested two people, including the founder of online media outlet Boom News on suspicion of “incitement by spreading disinformation”, the South China Morning Post has learned\nA source familiar with the matter said journalist Tang Ho-wing, the 37-year-old founder of Boom News, was apprehended at around 7am on Wednesday, along with activist Lee Ying-chi, a dentist.\n“The National Security Department has arrested two people on suspicion of incitement by...",
       "link": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3369271/boom-news-founder-tang-ho-wing-arrested-hong-kong-national-security-police?utm_source=rss_feed",
       "published": "Wed, 30 Sep 2026 03:00:11 +0000",
       "source": "News - South China Morning Post"
@@ -151,41 +186,6 @@
       "summary": "American rapper Macklemore lost his spot on British pop star Ed Sheeran’s US tour after speaking up for Palestinians, but in Malaysia it was Sheeran’s music which ended up being pulled from the airwaves.\nIn neighbouring Singapore, British band Massive Attack faced a different kind of fallout, barred from returning after members displayed a Palestinian flag during a July concert.\nThe contrasting cases highlight the competing pressures on foreign artists in Southeast Asia, where political...",
       "link": "https://www.scmp.com/week-asia/lifestyle-culture/article/3369248/gaza-stage-concert-activism-meets-malaysia-singapore-red-lines?utm_source=rss_feed",
       "published": "Wed, 30 Sep 2026 00:00:15 +0000",
-      "source": "News - South China Morning Post"
-    },
-    {
-      "title": "Hong Kong’s executives are ‘ill prepared’ for AI era, report finds",
-      "summary": "Executives at Hong Kong’s largest listed companies have a severe lack of technological expertise, with fewer than 1 per cent of directors possessing dedicated artificial intelligence or cybersecurity skills, according to a new report by Grant Thornton Hong Kong.\nThe firm’s 15th annual Corporate Governance Review – which surveyed 100 major listed firms on Hong Kong’s Hang Seng Composite Index – found that 59 per cent of companies view cybersecurity or AI as principal business risks. Yet only 11...",
-      "link": "https://www.scmp.com/business/companies/article/3369229/hong-kongs-executives-are-ill-prepared-ai-era-report-finds?utm_source=rss_feed",
-      "published": "Wed, 30 Sep 2026 00:00:11 +0000",
-      "source": "News - South China Morning Post"
-    },
-    {
-      "title": "5 universities in Hong Kong rank in top 100 in ‘historic’ shift from West to East",
-      "summary": "Five public universities in Hong Kong have ranked in the top 100 of a renowned British publication’s latest global league table, as part of a trend described as a “historic realignment” of academic prowess from West to East.\nThe University of Hong Kong remained the city’s highest-ranked tertiary institution, holding onto 33rd place from the previous year, in the Times Higher Education (THE) World University Rankings, released on Wednesday.\nThe Chinese University of Hong Kong (CUHK) ranked 42nd,...",
-      "link": "https://www.scmp.com/news/hong-kong/education/article/3369243/5-universities-hong-kong-rank-top-100-historic-shift-west-east?utm_source=rss_feed",
-      "published": "Tue, 29 Sep 2026 23:30:05 +0000",
-      "source": "News - South China Morning Post"
-    },
-    {
-      "title": "Xi-Trump summit drew Chinese CEOs. So why couldn’t they get a seat at the table?",
-      "summary": "As American billionaires gathered at the White House to honour Chinese President Xi Jinping and his wife Peng Liyuan last Thursday, a group of Chinese business leaders spent the evening on the sidelines.\nThey had travelled to the US capital to join the state dinner. But their invitations never arrived.\nFor weeks, their participation was the subject of intense discussion between Washington and Beijing.\nWhile it was under consideration until the summit’s final hours, they were ultimately excluded...",
-      "link": "https://www.scmp.com/news/china/diplomacy/article/3369238/xi-trump-summit-drew-chinese-ceos-so-why-couldnt-they-get-seat-table?utm_source=rss_feed",
-      "published": "Tue, 29 Sep 2026 22:00:05 +0000",
-      "source": "News - South China Morning Post"
-    },
-    {
-      "title": "America’s foreign policy of coercion must end",
-      "summary": "If you want to understand how Washington exercises power in the world, watch what it does when its closest allies try to deepen ties with each other.\nWhen EU chief Ursula von der Leyen proposed making Canada the European Union’s first-ever “associate member”, US President Donald Trump’s response was swift and blunt: “If they do that, if I think it’s at all a hostile act, I will put very serious tariffs or stop trading with Europe, on many things.” He called the idea “laughable” and Canada –...",
-      "link": "https://www.scmp.com/opinion/world-opinion/article/3368546/americas-foreign-policy-coercion-must-end?utm_source=rss_feed",
-      "published": "Tue, 29 Sep 2026 21:30:07 +0000",
-      "source": "News - South China Morning Post"
-    },
-    {
-      "title": "PM Burnham vows big shake-up for UK in high-risk political speech",
-      "summary": "New British Prime Minister Andy Burnham set out a sweeping political vision on Tuesday, pledging to give Britain “a new social contract for the 21st century”, reform the country’s electoral system and reset its relationship with its European neighbours.\nBut he acknowledged that economic constraints make delivering his sweeping plans a big political risk.\n“Small things will not get us through what are difficult times,” Burnham said in a tough-love speech to the centre-left Labour Party’s annual...",
-      "link": "https://www.scmp.com/news/world/europe/article/3369256/pm-burnham-vows-big-shake-uk-high-risk-political-speech?utm_source=rss_feed",
-      "published": "Tue, 29 Sep 2026 20:16:49 +0000",
       "source": "News - South China Morning Post"
     }
   ],
@@ -315,6 +315,15 @@
       "incidents": 20,
       "hangseng": 24548.52,
       "usd_czk": null
+    },
+    {
+      "date": "2026-09-30 07:46",
+      "threat_level": "MEDIUM",
+      "value": 2,
+      "sentiment_score": 45,
+      "incidents": 20,
+      "hangseng": 24609.17,
+      "usd_czk": null
     }
   ],
   "locations": [
@@ -348,13 +357,13 @@
     }
   ],
   "location_counts": {
-    "Beijing": 13,
-    "Hong Kong": 14,
-    "Tokyo": 4,
+    "Beijing": 14,
+    "Hong Kong": 15,
+    "Tokyo": 5,
     "Shanghai": 4,
     "Seoul": 3,
     "South China Sea": 3,
-    "Taipei": 2,
+    "Taipei": 3,
     "Manila": 2,
     "Pyongyang": 1
   },
@@ -362,17 +371,9 @@
     "key": "Hong Kong",
     "name_cs": "Hongkong",
     "name_en": "Hong Kong",
-    "count": 14
+    "count": 15
   },
   "archive": [
-    {
-      "date": "2026-09-20 06:38",
-      "threat_level": "MEDIUM",
-      "security_status_cs": "Región Asie-Pacifik čelí rostoucímu napětí v oblasti kosmické bezpečnosti a námořních tras (Somálské pirátství, Jihočínské moře), zatímco Čína diplomaticky manévruje před summitem Xi-Trump z pozice síly. Domácí ekonomika a korporátní sféra se mezitím přizpůsobují novým ekonomickým plánům Hong Kongu a rostoucímu tlaku protikorupčních úřadů.",
-      "security_status_en": "The Asia-Pacific region faces rising tensions in space security and maritime corridors (Somali piracy, South China Sea), while China maneuvers diplomatically ahead of the Xi-Trump summit from a position of strength. Domestically, the corporate sphere is adapting to Hong Kong's new economic plans and tightening anti-corruption enforcement.",
-      "forecast_cs": "V nejbližších dnech se pozornost soustředí na přípravy a průběh summitu mezi USA a Čínou, přičemž jakákoliv eskalace rétoriky ohledně vesmírné či námořní bezpečnosti může krátkodobě zvýšit volatilitu trhů.",
-      "forecast_en": "In the coming days, attention will focus on preparations for the US-China summit, with any escalation in space or maritime security rhetoric potentially increasing short-term market volatility."
-    },
     {
       "date": "2026-09-20 10:23",
       "threat_level": "MEDIUM",
@@ -476,18 +477,26 @@
       "security_status_en": "Although the recent Xi-Trump summit yielded a temporary two-month extension of the trade truce, deeper structural disputes remain unresolved. Meanwhile, Taiwan is responding to blockade risks by bolstering its critical ammunition stockpiles through an $850 million program.",
       "forecast_cs": "V nejbližších dnech se očekává pokračující diplomatické vyhodnocování summitu Xi-Trump a reakce trhů na vývoj v oblasti dodavatelských řetězců a polovodičů.",
       "forecast_en": "Over the coming days, markets will likely continue parsing the outcomes of the Xi-Trump summit and reacting to developments in supply chains and semiconductor policies."
+    },
+    {
+      "date": "2026-09-30 07:46",
+      "threat_level": "MEDIUM",
+      "security_status_cs": "Geopolitické napětí zůstává zvýšené v důsledku křehkého příměří mezi USA a Čínou a tchajwanských plánů na posílení zásob munice pro případ blokády. Čína mezitím zrychluje technologickou soběstačnost skrze otevřený zdrojový kód pro Huawei čipy, zatímco regionální ekonomické reformy a finanční iniciativy v Hongkongu ukazují na snahu o stabilizaci.",
+      "security_status_en": "Geopolitical tensions remain elevated due to the fragile US-China trade truce and Taiwan's plans to quadruple ammunition stocks in preparation for a potential blockade. Meanwhile, China is accelerating technological self-reliance via open-source tools for Huawei chips, while regional economic reforms and financial initiatives in Hong Kong signal efforts toward stabilization.",
+      "forecast_cs": "V nejbližších dnech lze očekávat další diplomatické manévry ohledně implementace výsledků summitu Xi-Trump a reakce trhů na snahy Číny o technologickou nezávislost.",
+      "forecast_en": "Over the coming days, further diplomatic maneuvering regarding the implementation of the Xi-Trump summit outcomes and market reactions to China's drive for tech independence are expected."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 5× MEDIUM, 1× STABLE, 1× HIGH.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 5× MEDIUM, 1× STABLE, 1× HIGH.",
   "market_data": {
     "hangseng": {
-      "value": 24548.52,
+      "value": 24609.17,
       "date": "2026-09-30",
       "cached": false
     },
     "nikkei": {
-      "value": 66850.8,
+      "value": 66753.72,
       "date": "2026-09-30",
       "cached": false
     },
