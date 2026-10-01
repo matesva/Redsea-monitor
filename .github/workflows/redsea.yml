@@ -1,1 +1,26 @@
+name: Přehled jako úvodní stránka
 
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  move:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Přesun Rudého moře a přehled na kořen
+        run: python3 move_redsea.py
+
+      - name: Commit
+        run: |
+          git config user.name "actions-user"
+          git config user.email "actions@github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Přehled monitorů jako úvodní stránka, Rudé moře do redsea/"
+            git pull --rebase origin main && git push
+          fi
