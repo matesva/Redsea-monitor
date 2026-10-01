@@ -11,8 +11,8 @@ MIN_STRAN = 3         # minimum stran v průzkumu, aby se uložil
 
 PARTY_LIST = [
     "ANO", "ODS", "STAN", "Piráti", "SPD", "TOP 09", "KDU-ČSL", "Motoristé",
-    "Stačilo", "ČSSD", "KSČM", "Zelení", "Přísaha", "Svobodní", "Trikolora",
-    "Prague Together", "Praha Sobě", "Spojené síly pro Prahu", "Naše Praha",
+    "Naše Česko", "Stačilo", "ČSSD", "KSČM", "Zelení", "Přísaha", "Svobodní",
+    "Trikolora", "Spolu pro Prahu", "Praha Sobě", "Prague Together", "Naše Praha",
 ]
 
 def gnews(q, days=3):
@@ -70,6 +70,10 @@ _CR_QUERIES = [
     "průzkum NMS preference", "průzkum Ipsos preference", "volební model",
 ]
 FEEDS += [gnews(q) for q in _PARTY_QUERIES + _PRAHA_QUERIES + _CR_QUERIES]
+FEEDS += [gnews(q) for q in [
+    "Spolu pro Prahu", "Naše Česko Kuba", "průzkum Median Praha komunální volby",
+    "volební model STEM", "volební model NMS", "volební model Median",
+]]
 
 KEYWORDS = re.compile(
     r"vol[bby]|politi|kandid|strana|hnutí|koalic|opozic|vláda|parlament|"
