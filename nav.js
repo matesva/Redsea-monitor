@@ -1,7 +1,7 @@
 (function () {
   var B = "/Redsea-monitor/";
   var items = [
-    ["", "Rudé moře"],
+    ["redsea/", "Rudé moře"],
     ["usa/", "USA"],
     ["europe/", "Evropa"],
     ["middle-east/", "Blízký východ"],
@@ -12,7 +12,8 @@
   var path = location.pathname.replace(/index\.html$/, "");
   var linkCss = "flex:none;color:var(--brass,#b8863b);text-decoration:none;" +
     "border:1px solid var(--rule,rgba(184,134,59,.35));padding:4px 10px;border-radius:2px";
-  var html = '<a href="' + B + 'monitory/" style="' + linkCss + ';font-weight:600">☰ Monitory</a>';
+  var html = '<a href="' + B + '" style="' + linkCss + ';font-weight:600' +
+    (path === B ? ";background:rgba(184,134,59,.18)" : "") + '">☰ Přehled</a>';
   items.forEach(function (it) {
     var href = B + it[0];
     var on = path === href;
