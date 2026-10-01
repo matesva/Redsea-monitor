@@ -1,9 +1,10 @@
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const COL={"ANO":"#2a3f9e","ODS":"#1f6fd1","STAN":"#f28e2b","Piráti":"#4a4a4a","SPD":"#1aa3a3","TOP 09":"#7b3f98","KDU-ČSL":"#d4b800","Motoristé":"#c2185b","Stačilo":"#b71c1c","ČSSD":"#e64a19","KSČM":"#7f0000","Zelení":"#2e9c3d","Přísaha":"#00838f","Svobodní":"#c0ca33","Trikolora":"#8d6e63","Prague Together":"#5c6bc0","Praha Sobě":"#26a69a","Spojené síly pro Prahu":"#1565c0","Naše Praha":"#ab47bc"};
+Object.assign(COL,{"Naše Česko":"#e91e63","Spolu pro Prahu":"#0d47a1"});
 const col=s=>COL[s]||"#607d8b";
 const num=v=>v.toFixed(1).replace(".",",");
-let articles=[],parties={},allPromises=[],polls=[],pols={},sum={};
+let articles=[],parties={},allPromises=[],polls=[],pols={},sum={},info=[];
 const TABS=["zpravy","strany","sliby","pruzkumy"];
 
 Promise.all([
@@ -11,9 +12,10 @@ Promise.all([
   fetch("parties.json").then(r=>r.json()).catch(()=>({strany:{}})),
   fetch("polls.json").then(r=>r.json()).catch(()=>({pruzkumy:[]})),
   fetch("politicians.json").then(r=>r.json()).catch(()=>({politici:{}})),
-  fetch("summary.json").then(r=>r.json()).catch(()=>({obdobi:{}}))
-]).then(([a,p,q,pl,sm])=>{
-  articles=a;parties=p.strany||{};polls=q.pruzkumy||[];pols=pl;sum=sm;
+  fetch("summary.json").then(r=>r.json()).catch(()=>({obdobi:{}})),
+  fetch("pruzkumy_info.json").then(r=>r.json()).catch(()=>[])
+]).then(([a,p,q,pl,sm,inf])=>{
+  articles=a;parties=p.strany||{};polls=q.pruzkumy||[];pols=pl;sum=sm;info=inf||[];
   allPromises=Object.entries(parties).flatMap(([s,d])=>(d.sliby||[]).map(x=>({...x,strana:s})));
   $("upd").textContent=a.length?"Aktualizováno "+new Date(a[0].added+"Z").toLocaleString("cs-CZ",{day:"numeric",month:"numeric",hour:"2-digit",minute:"2-digit"}):"Zatím bez dat";
   [...new Set(a.flatMap(x=>x.strany||[]))].sort().forEach(s=>$("strana").add(new Option(s,s)));
@@ -123,13 +125,22 @@ $("pag").addEventListener("input",renderPolls);
 
 function latestByAgency(P){const m={};P.forEach(p=>{if(!m[p.agentura]||p.datum>m[p.agentura].datum)m[p.agentura]=p});return Object.values(m)}
 
+function infoBlock(reg){
+  const items=(info||[]).filter(x=>x.region===reg);
+  if(!items.length)return"";
+  return `<div class="legend" style="margin:6px 0 10px">DALŠÍ ZJIŠTĚNÍ</div>`+items.map(x=>`<div class="card">
+    <b>${esc(x.nadpis)}</b>
+    <div>${esc(x.text)}</div>
+    <div class="meta"><a href="${esc(x.link)}" target="_blank" rel="noopener">${esc(x.zdroj)}</a>${x.datum?" · "+esc(x.datum):""}</div></div>`).join("")+`<div class="legend" style="margin:18px 0 10px">ZAZNAMENANÉ PRŮZKUMY</div>`;
+}
+
 function renderPolls(){
   const reg=$("preg").value,ag=$("pag").value;
   const P=polls.filter(p=>p.region===reg);
   $("p-title").textContent="Volební preference: "+(reg==="Praha"?"Praha":"celá ČR");
   if(!P.length){
     $("bars").innerHTML='<p class="muted">Zatím nejsou zachycené žádné průzkumy. Objeví se, jakmile je skript najde ve zprávách.</p>';
-    $("trend").innerHTML="";$("poll-list").innerHTML="";return;
+    $("trend").innerHTML="";$("poll-list").innerHTML=infoBlock(reg);return;
   }
   let base;
   if(ag==="__avg"){
@@ -146,7 +157,7 @@ function renderPolls(){
     +`<div class="meta">${ag==="__avg"?`Průměr z ${base.length} agentur (poslední průzkum každé)`:`${esc(base[0].agentura)} · ${esc(base[0].datum)}`}</div>`;
   const top=rows.slice(0,6).map(r=>r[0]);
   $("trend").innerHTML=lineChart(ag==="__avg"?P:P.filter(p=>p.agentura===ag),top);
-  $("poll-list").innerHTML=P.slice(0,30).map(p=>`<div class="card">
+  $("poll-list").innerHTML=infoBlock(reg)+P.slice(0,30).map(p=>`<div class="card">
     <b>${esc(p.agentura)}</b> · ${esc(p.datum)}
     <div class="meta">${Object.entries(p.vysledky).sort((a,b)=>b[1]-a[1]).map(([k,v])=>`${esc(k)} ${num(v)} %`).join(" · ")}</div>
     <div class="meta"><a href="${esc(p.link)}" target="_blank" rel="noopener">${esc(p.zdroj)}</a></div></div>`).join("");
