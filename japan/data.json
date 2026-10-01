@@ -1,136 +1,101 @@
 {
-  "last_updated": "2026-09-30T11:42:07Z",
+  "last_updated": "2026-10-01T12:11:00Z",
   "assessment": {
     "threat_level": "MEDIUM",
-    "sentiment_score": 42,
-    "security_status_cs": "Japonsko čelí ekonomickým tlakům kvůli poklesu průmyslové produkce způsobenému následky zemětřesení a geopolitickým napětím, zatímco silnější jen těží z globální poptávky po bezpečných přístavech vyvolané výkyvy v sektoru AI. Domácí politika se zaměřuje na krizová opatření a efektivitu vládního aparátu, podpořená inovacemi v biotechnologických i realitních sektorech.",
-    "security_status_en": "Japan faces economic headwinds from falling output driven by earthquake aftermath and geopolitical tensions, while a stronger yen benefits from global safe-haven demand sparked by tech sector volatility. Domestic politics are prioritizing disaster readiness and government efficiency, backed by ongoing innovations in biotechnology and robust real estate activity.",
+    "sentiment_score": 45,
+    "security_status_cs": "Japonsko čelí mírným geopolitickým a domácím výzvám, včetně odmítnutí bezpodmínečného posilování obrany novým guvernérem Okinawy a incidentu s vniknutím na čínskou ambasádu. Na ekonomické frontě posiluje jen díky globální poptávce po bezpečných přístavech vyvolané výkyvy v sektoru umělé inteligence, což ovlivňuje exportní tituly.",
+    "security_status_en": "Japan faces moderate geopolitical and domestic challenges, including the new Okinawa governor's rejection of unconditional defense buildup and a trespassing incident at the Chinese embassy. On the economic front, the Japanese yen is strengthening due to global safe-haven flows triggered by AI sector volatility, impacting export-heavy equities.",
     "recommendations": [
       {
         "sector_cs": "Široký japonský akciový trh (Nikkei 225 ETF)",
         "sector_en": "Broad Japanese Equities (Nikkei 225 ETFs)",
         "action": "HOLD",
-        "reason_cs": "Trh vykazuje smíšené signály kvůli poklesu průmyslové produkce po zemětřesení a volatilitě vyvolané globálním technologickým sektorem.",
-        "reason_en": "The market shows mixed signals due to declining industrial output following the earthquake and volatility driven by the global tech sector."
+        "reason_cs": "Trh je pod vlivem globálních technologických výkyvů a posilujícího jenu, což omezuje krátkodobý růstový potenciál.",
+        "reason_en": "The market is influenced by global tech fluctuations and a strengthening yen, limiting short-term upside potential."
       },
       {
         "sector_cs": "Automobilový průmysl (Toyota, Honda)",
         "sector_en": "Automotive Industry (Toyota, Honda)",
         "action": "HOLD",
-        "reason_cs": "Posilující jen snižuje exportní marže, avšak stabilní domácí poptávka poskytuje určitou ochranu proti vnějším šokům.",
-        "reason_en": "A strengthening yen squeezes export margins, though stable domestic demand provides some cushion against external shocks."
+        "reason_cs": "Silnější japonský jen snižuje konkurenceschopnost a marže exportérů automobilů na zahraničních trzích.",
+        "reason_en": "A stronger Japanese yen reduces the competitiveness and profit margins of automotive exporters in overseas markets."
       },
       {
         "sector_cs": "Technologie (Sony, SoftBank)",
         "sector_en": "Technology (Sony, SoftBank)",
-        "action": "HOLD",
-        "reason_cs": "Globální tlaky v technologickém sektoru a obavy spojené s vývojem AI vytvářejí zvýšenou volatilitu.",
-        "reason_en": "Global pressures in the tech sector and AI-related developments create heightened short-term volatility."
+        "action": "SELL",
+        "reason_cs": "Globální obavy z vývoje v technologickém sektoru a korekce po zprávách o konkurenčních AI modelech doléhají na sentiment.",
+        "reason_en": "Global concerns regarding the tech sector and corrections following news of competing AI models are weighing on sentiment."
       },
       {
         "sector_cs": "Průmyslová robotika (Fanuc, Mitsubishi Electric)",
         "sector_en": "Industrial Robotics (Fanuc, Mitsubishi Electric)",
-        "action": "BUY",
-        "reason_cs": "Dlouhodobá poptávka po automatizaci a domácí zaměření na modernizaci infrastruktury podporují růstový potenciál.",
-        "reason_en": "Long-term demand for automation and domestic focus on infrastructure modernization support growth potential."
+        "action": "HOLD",
+        "reason_cs": "Poptávka po robotice zůstává dlouhodobě stabilní, ale silnější měna a regionální bezpečnostní napětí omezují razantnější nákupy.",
+        "reason_en": "Robotics demand remains structurally stable, but the stronger currency and regional security tensions cap aggressive buying."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Japonský makroekonomický vývoj má na tyto středoevropské tituly pouze zanedbatelný a nepřímý vliv.",
-        "reason_en": "Japanese macroeconomic developments have only a negligible and indirect impact on these Central European equities."
+        "reason_cs": "Dění v Japonsku má na české banky a energetiku pouze zanedbatelný nepřímý vliv, primárně se řídí evropskými makrodaty.",
+        "reason_en": "Japanese developments have a negligible indirect impact on Czech banks and energy, which are primarily driven by European macro data."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající citlivost japonských aktiv na globální technologické trendy a vývoj devizového trhu. Pozornost se soustředí na reakce centrální banky na posilující měnu.",
-    "forecast_en": "Over the coming days, Japanese assets will likely remain sensitive to global tech trends and foreign exchange dynamics. Attention will focus on the central bank's stance regarding the strengthening currency.",
-    "forecast_review_cs": "Předchozí předpověď volatility na devizovém trhu v závislosti na bezpečných přístavech a kurzu jenu se plně potvrdila.",
-    "forecast_review_en": "The previous forecast of foreign exchange volatility driven by safe-haven sentiment and the yen was fully confirmed."
+    "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na japonském akciovém trhu v závislosti na globálním vývoji technologického sektoru a pohybu jenu. Pozornost investorů se soustředí na měnovou politiku a reakce na vnitřní bezpečnostní či politická témata.",
+    "forecast_en": "Over the coming days, continued volatility is expected in the Japanese stock market depending on global tech sector trends and currency movements. Investor focus will remain on monetary policy and reactions to domestic security and political themes.",
+    "forecast_review_cs": "Předchozí předpověď se plně potvrdila, neboť japonská aktiva reagovala na globální technologické trendy a vývoj devizového trhu, kde silnější jen ovlivnil sentiment.",
+    "forecast_review_en": "The previous forecast was fully confirmed as Japanese assets reacted to global tech trends and foreign exchange dynamics, with a stronger yen impacting sentiment."
   },
   "articles": [
     {
-      "title": "Japanese hospital performs world-first surgery using heart muscle stem cells",
-      "summary": "Sheets of muscle cells derived from regenerative products known as iPS cells were transplanted into the heart of a patient in her 50s.",
-      "link": "https://www.japantimes.co.jp/news/2026/09/30/japan/science-health/heart-stem-cells-surgery/",
-      "published": "Wed, 30 Sep 2026 19:39:00 +0900",
+      "title": "New Okinawa governor rejects unconditional defense buildup",
+      "summary": "\"I will not unconditionally accept\" the defense buildup in the region, Gov. Koja said in an inaugural news conference at his office in Naha.",
+      "link": "https://www.japantimes.co.jp/news/2026/10/01/japan/politics/okinawa-governor-defense-reject/",
+      "published": "Thu, 01 Oct 2026 20:42:00 +0900",
       "source": "Latest articles - The Japan Times"
     },
     {
-      "title": "Disaster response an ‘urgent issue,’ says new land minister",
-      "summary": "Disaster response is an \"urgent issue,\" Ibayashi said, adding that the prime minister has instructed Cabinet ministers to prioritize countermeasures.",
-      "link": "https://www.japantimes.co.jp/news/2026/09/30/japan/land-minister-ibayashi-disasters/",
-      "published": "Wed, 30 Sep 2026 19:35:00 +0900",
+      "title": "U.K.’s path back to the EU will hit hard post-Brexit realities",
+      "summary": "New U.K. Prime Minister Andy Burnham touched off a flurry of speculation that he may campaign to re-enter the EU.",
+      "link": "https://www.japantimes.co.jp/news/2026/10/01/world/politics/uk-post-brexit-realities/",
+      "published": "Thu, 01 Oct 2026 20:38:00 +0900",
       "source": "Latest articles - The Japan Times"
     },
     {
-      "title": "Burnham says Britain could rejoin the EU after next election",
-      "summary": "The remarks are the first time since the exit referendum a decade ago that a prime minister has suggested to take the country back into the EU.",
-      "link": "https://www.japantimes.co.jp/news/2026/09/30/world/burnham-britain-eu-rejoin/",
-      "published": "Wed, 30 Sep 2026 18:01:00 +0900",
+      "title": "Kyoto plans to introduce dual pricing for World Heritage castle",
+      "summary": "The admission fee will be revised down to ¥1,000 from ¥1,300 for Kyoto residents and raised to ¥2,000 for visitors from outside the city.",
+      "link": "https://www.japantimes.co.jp/news/2026/10/01/japan/kyoto-pricing-world-heritage-castle/",
+      "published": "Thu, 01 Oct 2026 18:49:00 +0900",
       "source": "Latest articles - The Japan Times"
     },
     {
-      "title": "For Japan’s young singles, romance gets a corporate middleman",
-      "summary": "Young Japanese exhausted by dating apps are embracing a corporate reinvention of traditional matchmaking.",
-      "link": "https://www.japantimes.co.jp/business/2026/09/30/japan-matchmaking-business/",
-      "published": "Wed, 30 Sep 2026 18:00:00 +0900",
+      "title": "Ex-GSDF member admits trespassing at Chinese embassy in Tokyo",
+      "summary": "According to the indictment, Kodai Murata, 24, entered the embassy grounds on March 24 carrying a kitchen knife with an 18-centimeter blade.",
+      "link": "https://www.japantimes.co.jp/news/2026/10/01/japan/crime-legal/gsdf-member-china-embassy/",
+      "published": "Thu, 01 Oct 2026 18:26:00 +0900",
       "source": "Latest articles - The Japan Times"
     },
     {
-      "title": "While calling voice a protected right, court dismisses voice actor’s AI case",
-      "summary": "Kenjiro Tsuda's lawsuit was the first in Japan filed over a \"voice rights\" infringement using generative artificial intelligence.",
-      "link": "https://www.japantimes.co.jp/news/2026/09/30/japan/crime-legal/voice-actor-lawsuit-ai-tiktok/",
-      "published": "Wed, 30 Sep 2026 16:23:00 +0900",
+      "title": "Last working engine of Hayabusa2 asteroid probe breaks down",
+      "summary": "The Japan Aerospace Exploration Agency aims to continue the mission by employing usable parts of two other failed ion engines on Hayabusa2.",
+      "link": "https://www.japantimes.co.jp/news/2026/10/01/japan/science-health/hayabusa2-last-engine-breaks/",
+      "published": "Thu, 01 Oct 2026 17:36:00 +0900",
       "source": "Latest articles - The Japan Times"
     },
     {
-      "title": "Pay a fee, skip the line: More Japan restaurants introduce fast-pass services",
-      "summary": "One service has been adopted by 104 stores in 20 prefectures across Japan as of Sept. 18, according to its operator.",
-      "link": "https://www.japantimes.co.jp/business/2026/09/30/restaurant-fast-pass-popularity/",
-      "published": "Wed, 30 Sep 2026 15:51:00 +0900",
+      "title": "Japan mayor who took maternity leave named to Time’s list of most influential",
+      "summary": "Shoko Kawata, the mayor of Yawata, Kyoto Prefecture, was named to the magazine's list of Most Influential Rising Stars.",
+      "link": "https://www.japantimes.co.jp/news/2026/10/01/japan/society/shoko-kawata-time-list/",
+      "published": "Thu, 01 Oct 2026 17:15:00 +0900",
       "source": "Latest articles - The Japan Times"
     },
     {
-      "title": "After 35 years in the country, Toys R Us plans to exit Japan",
-      "summary": "Toys R Us-Japan currently runs a total of some 150 Toys R Us toy stores and Babies R Us baby goods stores across the nation.",
-      "link": "https://www.japantimes.co.jp/business/2026/09/30/companies/toys-r-us-japan-exit/",
-      "published": "Wed, 30 Sep 2026 15:49:00 +0900",
+      "title": "Japan’s Kondo siblings capture gold in judo at Asian Games",
+      "summary": "Adding to Japan's ever-growing gold medal haul at the quadrennial sporting event, Sorato Anraku stood atop the men's boulder podium in sport climbing.",
+      "link": "https://www.japantimes.co.jp/sports/2026/10/01/asian-games/kondo-siblings-judo-gold/",
+      "published": "Thu, 01 Oct 2026 15:50:00 +0900",
       "source": "Latest articles - The Japan Times"
-    },
-    {
-      "title": "As Takaichi cites lack of sleep, report offers ways to ease burden on Japan PMs",
-      "summary": "An LDP official used the think tank report, which included comparisons with other countries, to argue Japan's parliament demands more of its leader's time.",
-      "link": "https://www.japantimes.co.jp/news/2026/09/30/japan/politics/prime-minister-time-management-report/",
-      "published": "Wed, 30 Sep 2026 14:38:00 +0900",
-      "source": "Latest articles - The Japan Times"
-    },
-    {
-      "title": "GIC acquires 16 Marriott-run hotels in Japan amid tourism boom",
-      "summary": "In the latest big real estate deal in Japan, Singapore's GIC took over Four Points Flex by Sheraton, a mid-price-range hotel chain.",
-      "link": "https://www.japantimes.co.jp/business/2026/09/30/companies/gic-marriott-hotels-japan-tourism/",
-      "published": "Wed, 30 Sep 2026 13:29:00 +0900",
-      "source": "Latest articles - The Japan Times"
-    },
-    {
-      "title": "Japan’s health cost caps rise, widening gaps between insurers",
-      "summary": "Japan's health care system is often held up abroad as a model of universal coverage, but universal does not mean uniform.",
-      "link": "https://www.japantimes.co.jp/news/2026/09/30/japan/science-health/japan-health-care-costs/",
-      "published": "Wed, 30 Sep 2026 12:05:00 +0900",
-      "source": "Latest articles - The Japan Times"
-    },
-    {
-      "title": "Japan’s output falls for second month due to impact from quake and Iran war",
-      "summary": "Wednesday's data suggest Japanese manufacturers may be feeling the impact of a major quake that hit Kyushu and the Iran war.",
-      "link": "https://www.japantimes.co.jp/business/2026/09/30/economy/industrial-output-august/",
-      "published": "Wed, 30 Sep 2026 12:03:00 +0900",
-      "source": "Latest articles - The Japan Times"
-    },
-    {
-      "title": "Netflix stars Nick and Vanessa Lachey list $8.1 million L.A. home they bought from Naomi Osaka",
-      "summary": "TV stars Nick and Vanessa Lachey are bidding farewell to their longtime “dream home,” listing the Tarzana property for $8.1 million as they prepare to leave California altogether.",
-      "link": "https://www.marketwatch.com/story/netflix-stars-nick-and-vanessa-lachey-list-8-1-million-l-a-home-they-bought-from-naomi-osaka-0cdb873b?mod=mw_rss_topstories",
-      "published": "Wed, 30 Sep 2026 09:02:00 GMT",
-      "source": "MarketWatch.com - Top Stories"
     },
     {
       "title": "Swiss franc, Japanese yen Rise as DeepSeek News Boosts Safe Havens",
@@ -138,6 +103,13 @@
       "link": "https://www.wsj.com/articles/safe-haven-currencies-strengthen-amid-fears-over-global-tariffs-9964e17a?mod=rss_markets_main",
       "published": "Mon, 27 Jan 2025 09:55:00 -0500",
       "source": "WSJ.com: Markets"
+    },
+    {
+      "title": "Japan raises permanent residency fee by 20 times",
+      "summary": "The hikes are part of immigration policy changes introduced to manage Japan's growing foreign population.",
+      "link": "https://www.bbc.co.uk/news/articles/c6y8z8xeg8j1o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 01 Oct 2026 02:57:43 GMT",
+      "source": "BBC News"
     }
   ],
   "history": [
@@ -239,29 +211,53 @@
       "incidents": 13,
       "nikkei": 66753.72,
       "usd_czk": null
+    },
+    {
+      "date": "2026-10-01 12:11",
+      "threat_level": "MEDIUM",
+      "value": 2,
+      "sentiment_score": 45,
+      "incidents": 9,
+      "nikkei": 68956.72,
+      "usd_czk": null
     }
   ],
   "locations": [
     {
-      "key": "Osaka",
-      "lat": 34.6937,
-      "lon": 135.5023,
-      "name_cs": "Ósaka",
-      "name_en": "Osaka"
+      "key": "Tokyo",
+      "lat": 35.6762,
+      "lon": 139.6503,
+      "name_cs": "Tokio",
+      "name_en": "Tokyo"
+    },
+    {
+      "key": "Kyoto",
+      "lat": 35.0116,
+      "lon": 135.7681,
+      "name_cs": "Kjóto",
+      "name_en": "Kyoto"
+    },
+    {
+      "key": "Okinawa",
+      "lat": 26.2124,
+      "lon": 127.6809,
+      "name_cs": "Okinawa",
+      "name_en": "Okinawa"
     }
   ],
   "location_counts": {
-    "Tokyo": 9,
-    "Okinawa": 3,
+    "Tokyo": 10,
+    "Okinawa": 4,
     "Nagoya": 2,
     "Hokkaido": 1,
-    "Osaka": 1
+    "Osaka": 1,
+    "Kyoto": 1
   },
   "top_location": {
     "key": "Tokyo",
     "name_cs": "Tokio",
     "name_en": "Tokyo",
-    "count": 9
+    "count": 10
   },
   "archive": [
     {
@@ -351,20 +347,28 @@
       "security_status_en": "Japan faces economic headwinds from falling output driven by earthquake aftermath and geopolitical tensions, while a stronger yen benefits from global safe-haven demand sparked by tech sector volatility. Domestic politics are prioritizing disaster readiness and government efficiency, backed by ongoing innovations in biotechnology and robust real estate activity.",
       "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající citlivost japonských aktiv na globální technologické trendy a vývoj devizového trhu. Pozornost se soustředí na reakce centrální banky na posilující měnu.",
       "forecast_en": "Over the coming days, Japanese assets will likely remain sensitive to global tech trends and foreign exchange dynamics. Attention will focus on the central bank's stance regarding the strengthening currency."
+    },
+    {
+      "date": "2026-10-01 12:11",
+      "threat_level": "MEDIUM",
+      "security_status_cs": "Japonsko čelí mírným geopolitickým a domácím výzvám, včetně odmítnutí bezpodmínečného posilování obrany novým guvernérem Okinawy a incidentu s vniknutím na čínskou ambasádu. Na ekonomické frontě posiluje jen díky globální poptávce po bezpečných přístavech vyvolané výkyvy v sektoru umělé inteligence, což ovlivňuje exportní tituly.",
+      "security_status_en": "Japan faces moderate geopolitical and domestic challenges, including the new Okinawa governor's rejection of unconditional defense buildup and a trespassing incident at the Chinese embassy. On the economic front, the Japanese yen is strengthening due to global safe-haven flows triggered by AI sector volatility, impacting export-heavy equities.",
+      "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na japonském akciovém trhu v závislosti na globálním vývoji technologického sektoru a pohybu jenu. Pozornost investorů se soustředí na měnovou politiku a reakce na vnitřní bezpečnostní či politická témata.",
+      "forecast_en": "Over the coming days, continued volatility is expected in the Japanese stock market depending on global tech sector trends and currency movements. Investor focus will remain on monetary policy and reactions to domestic security and political themes."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 6× MEDIUM, 1× STABLE.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 6× MEDIUM, 1× STABLE.",
   "market_data": {
     "nikkei": {
-      "value": 66753.72,
-      "date": "2026-09-30",
+      "value": 68956.72,
+      "date": "2026-10-01",
       "cached": false
     },
     "topix": null,
     "usdjpy": {
-      "value": 157.0,
-      "date": "2026-09-30",
+      "value": 157.97,
+      "date": "2026-10-01",
       "cached": false
     }
   },
