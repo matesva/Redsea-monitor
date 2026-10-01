@@ -153,6 +153,15 @@ def build_polls(data):
             continue
         seen.add(key)
         polls.append({**p, "datum": d, "link": a["link"], "zdroj": a["source"]})
+    for m in load_json("czechia/polls_manual.json", []):
+        try:
+            key = (m["agentura"].lower(), m["region"], m["datum"],
+                   tuple(sorted(m["vysledky"].items())))
+        except (KeyError, AttributeError, TypeError):
+            continue
+        if key not in seen:
+            seen.add(key)
+            polls.append(m)
     polls.sort(key=lambda x: x["datum"], reverse=True)
     save_json(POLLS_OUT, {
         "updated": datetime.datetime.utcnow().isoformat(timespec="minutes"),
@@ -246,8 +255,8 @@ def main():
     if data and added:
         data = sorted(data, key=lambda a: a["added"], reverse=True)[:1500]
         save_json(OUT, data)
+    build_polls(data)
     if data:
-        build_polls(data)
         build_politici(data)
         build_rss(data)
     if data and (added or not os.path.exists(PARTIES_OUT)):
