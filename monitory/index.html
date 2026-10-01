@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Monitory · rozcestník</title>
-<meta name="description" content="Rozcestník AI monitorů: Rudé moře, USA, Evropa, Blízký východ, Asie, Japonsko, Česko">
+<title>Monitory · přehled</title>
+<meta name="description" content="Přehled AI monitorů: Rudé moře, USA, Evropa, Blízký východ, Asie, Japonsko, Česko">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://matesva.github.io/Redsea-monitor/monitory/">
 <meta name="theme-color" content="#0b1d26">
@@ -36,7 +36,7 @@ footer{margin-top:34px;text-align:center;font-family:'IBM Plex Mono',monospace;f
 <body>
 <div class="wrap">
   <header>
-    <div class="top">AI MONITORY · ROZCESTNÍK</div>
+    <div class="top">AI MONITORY · PŘEHLED</div>
     <h1>Přehled monitorů</h1>
     <div class="sub">Automaticky aktualizované AI přehledy zpráv a situace</div>
   </header>
@@ -45,14 +45,15 @@ footer{margin-top:34px;text-align:center;font-family:'IBM Plex Mono',monospace;f
 </div>
 <script>
 if(localStorage.getItem('theme')==='light')document.body.classList.add('light');
+var BASE="/Redsea-monitor/";
 var M=[
- {dir:"",name:"Rudé moře",desc:"Bezpečnost lodní dopravy, geopolitika, ropa a trhy",data:"../data.json",type:"t"},
- {dir:"usa/",name:"USA",desc:"Situace v USA, trhy a investiční dopady",data:"../usa/data.json",type:"t"},
- {dir:"europe/",name:"Evropa",desc:"Situace v Evropě, trhy a investiční dopady",data:"../europe/data.json",type:"t"},
- {dir:"middle-east/",name:"Blízký východ",desc:"Bezpečnost, ropa a trhy v regionu",data:"../middle-east/data.json",type:"t"},
- {dir:"asia/",name:"Čína a Asie",desc:"Politika, ekonomika a bezpečnost v Asii",data:"../asia/data.json",type:"t"},
- {dir:"japan/",name:"Japonsko",desc:"Situace v Japonsku, trhy a investiční dopady",data:"../japan/data.json",type:"t"},
- {dir:"czechia/",name:"Česko",desc:"Politika a volby v ČR a Praze: zprávy, strany, sliby, průzkumy",data:"../czechia/summary.json",type:"c"}
+ {dir:"redsea/",name:"Rudé moře",desc:"Bezpečnost lodní dopravy, geopolitika, ropa a trhy",data:"data.json",type:"t"},
+ {dir:"usa/",name:"USA",desc:"Situace v USA, trhy a investiční dopady",data:"usa/data.json",type:"t"},
+ {dir:"europe/",name:"Evropa",desc:"Situace v Evropě, trhy a investiční dopady",data:"europe/data.json",type:"t"},
+ {dir:"middle-east/",name:"Blízký východ",desc:"Bezpečnost, ropa a trhy v regionu",data:"middle-east/data.json",type:"t"},
+ {dir:"asia/",name:"Čína a Asie",desc:"Politika, ekonomika a bezpečnost v Asii",data:"asia/data.json",type:"t"},
+ {dir:"japan/",name:"Japonsko",desc:"Situace v Japonsku, trhy a investiční dopady",data:"japan/data.json",type:"t"},
+ {dir:"czechia/",name:"Česko",desc:"Politika a volby v ČR a Praze: zprávy, strany, sliby, průzkumy",data:"czechia/summary.json",type:"c"}
 ];
 var LV={STABLE:["STABILNÍ","#6a9b6e"],MEDIUM:["STŘEDNÍ","#b8863b"],HIGH:["VYSOKÁ","#c07a3a"],CRITICAL:["KRITICKÁ","#a13d2b"]};
 function rel(s){
@@ -64,10 +65,10 @@ function rel(s){
 }
 var g=document.getElementById("grid");
 g.innerHTML=M.map(function(m,i){
-  return '<a class="card" href="../'+m.dir+'"><h2>'+m.name+'</h2><p>'+m.desc+'</p><div class="st" id="st'+i+'">načítání…</div></a>';
+  return '<a class="card" href="'+BASE+m.dir+'"><h2>'+m.name+'</h2><p>'+m.desc+'</p><div class="st" id="st'+i+'">načítání…</div></a>';
 }).join("");
 M.forEach(function(m,i){
-  fetch(m.data,{cache:"no-store"}).then(function(r){return r.json()}).then(function(d){
+  fetch(BASE+m.data,{cache:"no-store"}).then(function(r){return r.json()}).then(function(d){
     var h="";
     if(m.type==="t"){
       var k=String((d.assessment&&d.assessment.threat_level)||"").split(" ")[0].split("/")[0].trim().toUpperCase();
