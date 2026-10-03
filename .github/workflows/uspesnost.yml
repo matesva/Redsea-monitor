@@ -1,1 +1,34 @@
+name: Úspěšnost doporučení
 
+on:
+  schedule:
+    - cron: "7 22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Vyhodnocení doporučení
+        run: python3 eval_recs.py
+
+      - name: Commit
+        run: |
+          git config user.name "actions-user"
+          git config user.email "actions@github.com"
+          git add -A uspesnost
+          if ! git diff --cached --quiet; then
+            git commit -m "Úspěšnost doporučení: aktualizace"
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              sleep 5
+            done
+          fi
