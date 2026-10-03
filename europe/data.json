@@ -1,17 +1,74 @@
 {
-  "last_updated": "2026-10-02T11:40:31Z",
+  "last_updated": "2026-10-03T08:06:46Z",
   "assessment": {
     "threat_level": "HIGH",
-    "sentiment_score": 70,
-    "security_status_cs": "Chyba při automatické analýze AI.",
-    "security_status_en": "Error during automated AI analysis.",
-    "recommendations": [],
-    "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
-    "forecast_en": "Failed to generate forecast.",
-    "forecast_review_cs": "N/A",
-    "forecast_review_en": "N/A"
+    "sentiment_score": 78,
+    "security_status_cs": "Evropa čelí stupňujícímu se tlaku na vnitřní stabilitu kvůli hybridním operacím Ruska, sílícím sociálním nepokojům a vládním krizím ve velkých státech, jako jsou Španělsko a Francie. Geopolitické napětí se prohlubuje v důsledku trvající války na Ukrajině a přitvrzujících se hrozeb Moskvy vůči NATO.",
+    "security_status_en": "Europe is facing mounting pressure on domestic stability due to intensifying Russian hybrid operations, rising social unrest, and government crises in key states like Spain and France. Geopolitical tensions are deepening amid the ongoing war in Ukraine and Moscow's hardening threats against NATO.",
+    "recommendations": [
+      {
+        "sector_cs": "Široký evropský akciový trh (Euro Stoxx 50 ETF)",
+        "sector_en": "Broad European Equities (Euro Stoxx 50 ETFs)",
+        "action": "SELL",
+        "reason_cs": "Politická nestabilita, hrozby hybridní války a sociální nepokoje ve Francii a Španělsku zatěžují širší tržní sentiment.",
+        "reason_en": "Political instability, hybrid warfare threats, and social unrest in France and Spain weigh heavily on broader market sentiment."
+      },
+      {
+        "sector_cs": "Evropské banky (BNP Paribas, Deutsche Bank, Santander)",
+        "sector_en": "European Banks (BNP Paribas, Deutsche Bank, Santander)",
+        "action": "HOLD",
+        "reason_cs": "Bankovní sektor čelí nejistotě pramenící z politických otřesů v klíčových zemích eurozóny, což tlumí růstový potenciál.",
+        "reason_en": "The banking sector faces uncertainty stemming from political shocks in key eurozone countries, capping upside potential."
+      },
+      {
+        "sector_cs": "Obranný průmysl (Rheinmetall, Thales, Leonardo)",
+        "sector_en": "Defense Industry (Rheinmetall, Thales, Leonardo)",
+        "action": "BUY",
+        "reason_cs": "Intenzifikace ruské hybridní aktivity a eskalace na východním křídle zajišťují trvalý přítun státních zakázek.",
+        "reason_en": "The intensification of Russian hybrid activity and eastern-flank escalation ensure a steady influx of state defense orders."
+      },
+      {
+        "sector_cs": "Energetika (TotalEnergies, Shell, RWE)",
+        "sector_en": "Energy (TotalEnergies, Shell, RWE)",
+        "action": "HOLD",
+        "reason_cs": "Energetické trhy jsou pod vlivem geopolitického napětí a sankčních tlaků, což vyžaduje opatrný přístup k pozicím.",
+        "reason_en": "Energy markets remain influenced by geopolitical tensions and sanctions pressures, necessitating a cautious position approach."
+      },
+      {
+        "sector_cs": "Automobilový průmysl (Volkswagen, BMW, Stellantis)",
+        "sector_en": "Automotive Industry (Volkswagen, BMW, Stellantis)",
+        "action": "SELL",
+        "reason_cs": "Domácí poptávka oslabuje vlivem ekonomické nejistoty a sílících sociálních nepokojů v hlavních evropských ekonomikách.",
+        "reason_en": "Domestic demand is weakening due to economic uncertainty and mounting social unrest across major European economies."
+      },
+      {
+        "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
+        "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
+        "action": "HOLD",
+        "reason_cs": "Region střední Evropy je vystaven přímým bezpečnostním rizikům a šíření negativní nálady z unijních trhů.",
+        "reason_en": "The Central European region remains exposed to direct security risks and negative sentiment spillover from EU markets."
+      }
+    ],
+    "forecast_cs": "V nejbližších dnech lze očekávat pokračující politický tlak na evropské vlády a zvýšenou ostražitost proti ruským hybridním hrozbám. Trhy zůstanou volatilní kvůli obavám z rozpočtových škrtů a sociálních nepokojů.",
+    "forecast_en": "In the coming days, continued political pressure on European governments and heightened vigilance against Russian hybrid threats are expected. Markets will remain volatile due to concerns over budget cuts and social unrest.",
+    "forecast_review_cs": "Žádná předchozí předpověď k vyhodnocení.",
+    "forecast_review_en": "No previous forecast to evaluate."
   },
   "articles": [
+    {
+      "title": "Spanish PM Sánchez loses key housing crisis vote after eviction of woman, 87",
+      "summary": "The defeat raises pressure on Sánchez to call a snap election, after a series of scandals affecting his party and allies.",
+      "link": "https://www.bbc.co.uk/news/articles/c623dlk4y75mo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 02 Oct 2026 15:30:12 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "School protests send shivers down French government's spine",
+      "summary": "A movement that started nearly two weeks ago has spread, and in France young people on the streets spells trouble, writes Hugh Schofield.",
+      "link": "https://www.bbc.co.uk/news/articles/c69wzjjxex8po?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 02 Oct 2026 12:43:02 GMT",
+      "source": "BBC News"
+    },
     {
       "title": "Putin warns West that Russia is ready to use every weapon to protect Kaliningrad",
       "summary": "The Russian leader insists Moscow is \"not threatening anyone\" and is merely responding to statements by Western leaders.",
@@ -20,10 +77,10 @@
       "source": "BBC News"
     },
     {
-      "title": "Fires break out at French schools as students protest nationwide",
-      "summary": "The French government holds a crisis meeting as demonstrations grow and become violent in places.",
-      "link": "https://www.bbc.co.uk/news/articles/c6d080d1e3l4o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 01 Oct 2026 19:19:00 GMT",
+      "title": "Seoul warns 'further action' if Ukraine does not apologise over prisoner-of-war row",
+      "summary": "President Lee Jae Myung also accused Kyiv of \"attempting to provoke a war on the Korean Peninsula\".",
+      "link": "https://www.bbc.co.uk/news/articles/cm1dld14weero?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 02 Oct 2026 03:09:13 GMT",
       "source": "BBC News"
     },
     {
@@ -41,13 +98,6 @@
       "source": "BBC News"
     },
     {
-      "title": "Ukraine's prized steel industry left in ruins by Russian missile campaign",
-      "summary": "Ukraine's remaining steelworks, a vital part of its economy, have all but ground to a halt because of relentless attacks.",
-      "link": "https://www.bbc.co.uk/news/articles/cjkg7k6z9296o?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 29 Sep 2026 23:33:34 GMT",
-      "source": "BBC News"
-    },
-    {
       "title": "Spain announces ban on evictions after protests over 87-year-old woman's removal from flat",
       "summary": "The ban is part of a number of proposals that must be approved in parliament within 30 days.",
       "link": "https://www.bbc.co.uk/news/articles/cwm2qmjgy93do?at_medium=RSS&at_campaign=rss",
@@ -55,17 +105,10 @@
       "source": "BBC News"
     },
     {
-      "title": "Brexit referendum 'possible' in Labour election manifesto, says Burnham",
-      "summary": "The PM says a referendum wouldn't be the right thing now but the UK needs to consider its options for the future.",
-      "link": "https://www.bbc.co.uk/news/articles/cmlyewr0lnj3o?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 30 Sep 2026 16:06:23 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Estonia blames Russia for arson at defence company supplying Ukraine",
-      "summary": "Russia has been accused of launching sabotage attacks across a number of European Nato countries which have been helping Ukraine.",
-      "link": "https://www.bbc.co.uk/news/articles/c6m27l4er4jxo?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 29 Sep 2026 19:36:41 GMT",
+      "title": "Ukraine's prized steel industry left in ruins by Russian missile campaign",
+      "summary": "Ukraine's remaining steelworks, a vital part of its economy, have all but ground to a halt because of relentless attacks.",
+      "link": "https://www.bbc.co.uk/news/articles/cjkg7k6z9296o?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 29 Sep 2026 23:33:34 GMT",
       "source": "BBC News"
     },
     {
@@ -90,7 +133,7 @@
       "source": "BBC News"
     },
     {
-      "title": "Watch: Why are students protesting at schools in France?",
+      "title": "Why are students protesting at schools in France?",
       "summary": "The BBC's Hugh Schofield is in Paris as a wave of school protests over overcrowded classes and teacher shortages spreads across France.",
       "link": "https://www.bbc.co.uk/news/videos/cwy8z8rney97o?at_medium=RSS&at_campaign=rss",
       "published": "Thu, 01 Oct 2026 12:31:18 GMT",
@@ -111,45 +154,45 @@
       "source": "BBC News"
     },
     {
-      "title": "Tories warn Burnham’s EU ‘pandering’ will shred post-Brexit trade deals",
-      "summary": "Three former ministers tell POLITICO of “grave consequences” if the U.K. moves closer to the EU under prime minister's bid for a revamped relationship.",
-      "link": "https://www.politico.eu/article/tories-andy-burnham-eu-pandering-threatens-post-brexit-trade-deals/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Fri, 02 Oct 2026 10:28:42 +0000",
+      "title": "Wie Russland die NATO provoziert. Mit Carlo Masala",
+      "summary": "Eine Drohne mit Sprengstoff an einer ukrainischen Frachtmaschine in Leipzig, Explosionen in Munitionsfabriken und Sabotage auf See. Russland intensiviert seine hybride Kriegsführung mitten in Europa und testet gezielt die roten Linien der NATO. Doch was passiert, wenn ein solcher Anschlag auf deutschem Boden tatsächlich gelingt und den Bündnisfall auslöst? Darüber spricht Gordon Repinski in dieser […]",
+      "link": "https://www.politico.eu/podcast/berlin-playbook-podcast/wie-russland-die-nato-provoziert-mit-carlo-masala/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Sat, 03 Oct 2026 04:00:00 +0000",
       "source": "POLITICO"
     },
     {
-      "title": "Spain’s Sánchez weighs calling snap election as housing defeat looms",
-      "summary": "The prime minister could seize on a looming parliamentary defeat to campaign on housing, an issue that has fueled protests across the country.",
-      "link": "https://www.politico.eu/article/spains-sanchez-weighs-calling-snap-election-as-housing-defeat-looms/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Fri, 02 Oct 2026 09:33:32 +0000",
+      "title": "Latvian PM faces bittersweet victory in election backdropped by Russia",
+      "summary": "An EU sanctions showdown could strengthen the position of Andris Kulbergs, but a coalition puzzle awaits.",
+      "link": "https://www.politico.eu/article/latvia-prime-minister-andris-kulbergs-faces-bittersweet-victory-election-2026/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Sat, 03 Oct 2026 02:00:00 +0000",
       "source": "POLITICO"
     },
     {
-      "title": "Speed up EU health security prep, says NATO chief medic",
-      "summary": "Want to receive this newsletter straight to your inbox? Sign up here to receive the reporting and intel from the Gastein Health Forum. SNEAK PEEK — Health security dominated the penultimate day at the European Health Forum Gastein, with calls for Europe to be better prepared to protect health infrastructure.  — Parliament’s environment committee backs […]",
-      "link": "https://www.politico.eu/article/speed-up-eu-health-security-prep-says-nato-chief-medic/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Fri, 02 Oct 2026 05:00:00 +0000",
+      "title": "Polanski’s Greens look for their next opening",
+      "summary": "The left-wing populist party nudged Keir Starmer out of office, but now Andy Burnham is drawing satisfied protest voters back to Labour.",
+      "link": "https://www.politico.eu/article/polanskis-greens-look-for-their-next-opening/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Fri, 02 Oct 2026 16:47:59 +0000",
       "source": "POLITICO"
     },
     {
-      "title": "Trumps Diesel-Drohung gegen Europa",
-      "summary": "Donald Trump setzt die EU massiv unter Druck: Sein Energieminister Chris Wright fordert die Freigabe europäischer Dieselreserven, um amerikanische Rekordpreise zu drücken. Andernfalls droht ein US-Exportstopp, der auch in Europa einen Preisschock auslösen würde. Ob Brüssel der Erpressung nachgibt, beleuchtet diese Folge. Innenpolitisch bahnt sich der nächste Krach an, nachdem das Kanzleramt die geplante Zuckersteuer […]",
-      "link": "https://www.politico.eu/podcast/berlin-playbook-podcast/trumps-diesel-drohung-gegen-europa/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Fri, 02 Oct 2026 03:15:00 +0000",
+      "title": "17 countries join forces to oppose EU budget cuts",
+      "summary": "Italy and Romania lead push to preserve EU spending for agriculture and regional payouts.",
+      "link": "https://www.politico.eu/article/17-countries-join-forces-to-oppose-eu-budget-cuts/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Fri, 02 Oct 2026 14:39:01 +0000",
       "source": "POLITICO"
     },
     {
-      "title": "Over 560 schools disrupted in France on Friday as protests escalate into ‘urban violence’ – Europe live",
-      "summary": "<p>Dozens of schools have been damaged and nearly 3,000 teenagers have been detained since the start of the tensions</p><p><strong>Back to France</strong>, midday figures <a href=\"https://www.lefigaro.fr/actualite-france/en-direct-blocus-des-lycees-les-autorites-espere-l-apaisement-apres-les-violences-d-une-extreme-gravite-400-etablissements-fermes-20261002\">quoted by Le Figaro</a> show that <strong>564 schools and educational establishments have been disrupted by the ongoing unrest, and some 600 people have been arrested so far today </strong>as the high school protests continue.</p><p><em>Europe environment correspondent</em></p> <a href=\"https://www.theguardian.com/world/live/2026/oct/02/france-schools-protests-violence-ukraine-kallas-rome-pope-latest-news-updates\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/live/2026/oct/02/france-schools-protests-violence-ukraine-kallas-rome-pope-latest-news-updates",
-      "published": "Fri, 02 Oct 2026 11:16:30 GMT",
+      "title": "'There’s no such thing as democracy': Yanis Varoufakis | Radical Thinking with Aditya Chakrabortty – podcast",
+      "summary": "<p>Who is really in charge – the people or the markets? In the first episode of Radical Thinking, a new series from the Guardian, senior economics commentator Aditya Chakrabortty speaks to the former Greek finance minister Yanis Varoufakis. What was it like during the eurozone crisis when Varoufakis went head to head with those who wanted to stop his reforms?</p><p>Watch Radical Thinking with Aditya Chakrabortty <a href=\"https://www.youtube.com/watch?v=MJ725uqMC3o\">here</a>.</p> <a href=\"https://www.theguardian.com/politics/audio/2026/oct/03/theres-no-such-thing-as-democracy-yanis-varoufakis-radical-thinking-with-aditya-chakrabortty-podcast\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/politics/audio/2026/oct/03/theres-no-such-thing-as-democracy-yanis-varoufakis-radical-thinking-with-aditya-chakrabortty-podcast",
+      "published": "Sat, 03 Oct 2026 06:50:52 GMT",
       "source": "Europe | The Guardian"
     },
     {
-      "title": "Minister denies UK faces diesel shortage after Trump threatens to ban exports",
-      "summary": "<p>In effort to avoid panic at pumps, Keir Mather insists supply of fuel to Britain is ‘inherently resilient’</p><ul><li><p><a href=\"https://www.theguardian.com/money/2026/oct/02/uk-diesel-price-record-high-iran-war-oil\">UK diesel price hits record high of £2 a litre</a></p></li><li><p><a href=\"https://www.theguardian.com/business/live/2026/oct/02/french-bond-sell-off-euro-crisis-cuts-tax-rises-eurozone-inflation-us-jobs-report-latest-news-updates\">Business live – latest updates</a></p></li></ul><p>The government has sought to avert panic at the pumps, insisting that the UK is not facing a diesel shortage after Donald Trump threatened to cut off US supplies of the fuel.</p><p>The transport minister Keir Mather said on Friday that the UK has a wide range of sources of the fuel and is <a href=\"https://www.theguardian.com/business/2026/oct/01/britain-talks-european-allies-eu-emergency-diesel-stockpiles-reserves\">in talks with other European countries</a> over the potential release of emergency diesel stockpiles.</p> <a href=\"https://www.theguardian.com/business/2026/oct/02/uk-is-not-facing-diesel-shortage-despite-fears-of-trump-export-ban-minister-says\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/business/2026/oct/02/uk-is-not-facing-diesel-shortage-despite-fears-of-trump-export-ban-minister-says",
-      "published": "Fri, 02 Oct 2026 10:31:39 GMT",
+      "title": "Half of UK wants to rejoin EU and backing it could drive up Labour vote, megapoll finds",
+      "summary": "<p>Exclusive: Findings will bolster those in No 10 who want to negotiate on re-entry but some senior figures remain wary</p><p>Andy Burnham’s personal preference to rejoin the European Union after the next election is supported by almost half of all voters, a new megapoll has found, although cabinet ministers concerned about reopening Brexit divides are privately urging him to proceed with caution.</p><p>The poll by the Messina Group (TMG) found that renegotiating the UK’s relationship with the EU could boost Labour’s vote share by as much as seven points, if the prime minister offered a fresh referendum in which he campaigned to re-enter the bloc.</p> <a href=\"https://www.theguardian.com/world/2026/oct/03/half-want-to-rejoin-eu-and-backing-it-could-drive-up-labour-vote-megapoll-finds\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/oct/03/half-want-to-rejoin-eu-and-backing-it-could-drive-up-labour-vote-megapoll-finds",
+      "published": "Sat, 03 Oct 2026 05:00:52 GMT",
       "source": "Europe | The Guardian"
     }
   ],
@@ -342,6 +385,15 @@
       "incidents": 20,
       "stoxx50": 6238.87,
       "eur_czk": null
+    },
+    {
+      "date": "2026-10-03 08:06",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 78,
+      "incidents": 20,
+      "stoxx50": 6238.5,
+      "eur_czk": null
     }
   ],
   "locations": [
@@ -351,13 +403,6 @@
       "lon": 2.3522,
       "name_cs": "Paříž",
       "name_en": "Paris"
-    },
-    {
-      "key": "Rome",
-      "lat": 41.9028,
-      "lon": 12.4964,
-      "name_cs": "Řím",
-      "name_en": "Rome"
     },
     {
       "key": "Kyiv",
@@ -370,10 +415,10 @@
   "location_counts": {
     "Brussels": 13,
     "Strasbourg": 9,
-    "Kyiv": 15,
+    "Kyiv": 16,
     "Berlin": 13,
     "Prague": 1,
-    "Paris": 7,
+    "Paris": 8,
     "Warsaw": 2,
     "Madrid": 7,
     "Rome": 1
@@ -382,17 +427,9 @@
     "key": "Kyiv",
     "name_cs": "Kyjev",
     "name_en": "Kyiv",
-    "count": 15
+    "count": 16
   },
   "archive": [
-    {
-      "date": "2026-09-23 07:10",
-      "threat_level": "HIGH",
-      "security_status_cs": "Evropa čelí stupňujícím se geopolitickým rizikům, včetně největšího dronového útoku na Moskvu a napětí kolem arktické dohody o Grónsku mezi USA, Dánskem a EU. Politická nestabilita v Německu po drtivých prohrách CDU a ústupcích v sankcích vůči ruským oligarchům podkopávají jednotu unie.",
-      "security_status_en": "Europe faces escalating geopolitical risks, including the largest drone attack on Moscow and tensions surrounding the US-Denmark-EU Arctic security deal for Greenland. Political instability in Germany following heavy CDU election losses and compromises on Russian oligarch sanctions are undermining EU unity.",
-      "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu, jelikož investoři vstřebávají dopady kompromisních protiruských sankcí a politický vývoj v Německu.",
-      "forecast_en": "Continued volatility is expected in the coming days as investors absorb the impact of compromised anti-Russia sanctions and political developments in Germany."
-    },
     {
       "date": "2026-09-23 10:33",
       "threat_level": "HIGH",
@@ -496,23 +533,31 @@
       "security_status_en": "Error during automated AI analysis.",
       "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
       "forecast_en": "Failed to generate forecast."
+    },
+    {
+      "date": "2026-10-03 08:06",
+      "threat_level": "HIGH",
+      "security_status_cs": "Evropa čelí stupňujícímu se tlaku na vnitřní stabilitu kvůli hybridním operacím Ruska, sílícím sociálním nepokojům a vládním krizím ve velkých státech, jako jsou Španělsko a Francie. Geopolitické napětí se prohlubuje v důsledku trvající války na Ukrajině a přitvrzujících se hrozeb Moskvy vůči NATO.",
+      "security_status_en": "Europe is facing mounting pressure on domestic stability due to intensifying Russian hybrid operations, rising social unrest, and government crises in key states like Spain and France. Geopolitical tensions are deepening amid the ongoing war in Ukraine and Moscow's hardening threats against NATO.",
+      "forecast_cs": "V nejbližších dnech lze očekávat pokračující politický tlak na evropské vlády a zvýšenou ostražitost proti ruským hybridním hrozbám. Trhy zůstanou volatilní kvůli obavám z rozpočtových škrtů a sociálních nepokojů.",
+      "forecast_en": "In the coming days, continued political pressure on European governments and heightened vigilance against Russian hybrid threats are expected. Markets will remain volatile due to concerns over budget cuts and social unrest."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 7× HIGH.",
   "market_data": {
     "stoxx50": {
-      "value": 6238.87,
+      "value": 6238.5,
       "date": "2026-10-02",
       "cached": false
     },
     "dax": {
-      "value": 25242.44,
+      "value": 25231.2,
       "date": "2026-10-02",
       "cached": false
     },
     "eurusd": {
-      "value": 1.1244,
+      "value": 1.1257,
       "date": "2026-10-02",
       "cached": false
     }
