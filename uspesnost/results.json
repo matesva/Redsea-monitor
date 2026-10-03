@@ -1,0 +1,1215 @@
+{
+ "updated": "2026-10-03T14:24",
+ "band": {
+  "7": 2.0,
+  "30": 5.0
+ },
+ "signals_total": 78,
+ "summary": {
+  "7": {
+   "ALL": {
+    "n": 37,
+    "ok": 24,
+    "avg": -0.87
+   },
+   "BUY": {
+    "n": 14,
+    "ok": 6,
+    "avg": -1.39
+   },
+   "SELL": {
+    "n": 3,
+    "ok": 2,
+    "avg": -3.75
+   },
+   "HOLD": {
+    "n": 20,
+    "ok": 16,
+    "avg": -0.07
+   }
+  },
+  "30": {
+   "ALL": {
+    "n": 0,
+    "ok": 0,
+    "avg": null
+   },
+   "BUY": {
+    "n": 0,
+    "ok": 0,
+    "avg": null
+   },
+   "SELL": {
+    "n": 0,
+    "ok": 0,
+    "avg": null
+   },
+   "HOLD": {
+    "n": 0,
+    "ok": 0,
+    "avg": null
+   }
+  }
+ },
+ "by_monitor": {
+  "Rudé moře": {
+   "7": {
+    "n": 9,
+    "ok": 6,
+    "avg": -1.78
+   }
+  },
+  "USA": {
+   "7": {
+    "n": 4,
+    "ok": 3,
+    "avg": -1.11
+   }
+  },
+  "Evropa": {
+   "7": {
+    "n": 8,
+    "ok": 4,
+    "avg": -0.92
+   }
+  },
+  "Blízký východ": {
+   "7": {
+    "n": 3,
+    "ok": 2,
+    "avg": -0.85
+   }
+  },
+  "Čína a Asie": {
+   "7": {
+    "n": 7,
+    "ok": 5,
+    "avg": -0.03
+   }
+  },
+  "Japonsko": {
+   "7": {
+    "n": 6,
+    "ok": 4,
+    "avg": -0.25
+   }
+  }
+ },
+ "signals": [
+  {
+   "monitor": "Rudé moře",
+   "sector": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)",
+   "action": "BUY",
+   "date": "2026-10-03",
+   "tickers": [
+    "MAERSK-B.CO",
+    "HLAG.DE",
+    "ZIM"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Rudé moře",
+   "sector": "Ropa a Plyn (např. Shell, BP, Chevron)",
+   "action": "HOLD",
+   "date": "2026-10-03",
+   "tickers": [
+    "SHEL",
+    "BP",
+    "CVX"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "USA",
+   "sector": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
+   "action": "HOLD",
+   "date": "2026-10-03",
+   "tickers": [
+    "LMT",
+    "RTX",
+    "NOC"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "USA",
+   "sector": "Technologický sektor (Apple, Microsoft, Nvidia)",
+   "action": "BUY",
+   "date": "2026-10-03",
+   "tickers": [
+    "NVDA",
+    "AAPL",
+    "MSFT"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Evropa",
+   "sector": "Energetika (TotalEnergies, Shell, RWE)",
+   "action": "HOLD",
+   "date": "2026-10-03",
+   "tickers": [
+    "SHEL",
+    "TTE.PA"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Čínské akcie (ETF FXI, MCHI)",
+   "action": "BUY",
+   "date": "2026-10-03",
+   "tickers": [
+    "FXI",
+    "MCHI"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Obranný průmysl (Lockheed Martin, RTX, Mitsubishi Heavy)",
+   "action": "HOLD",
+   "date": "2026-10-03",
+   "tickers": [
+    "LMT",
+    "RTX",
+    "7011.T"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Japonsko",
+   "sector": "Automobilový průmysl (Toyota, Honda)",
+   "action": "BUY",
+   "date": "2026-10-03",
+   "tickers": [
+    "7203.T"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Japonsko",
+   "sector": "Technologie (Sony, SoftBank)",
+   "action": "HOLD",
+   "date": "2026-10-03",
+   "tickers": [
+    "6758.T",
+    "9984.T"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Rudé moře",
+   "sector": "Ropa a Plyn (např. Shell, BP, Chevron)",
+   "action": "BUY",
+   "date": "2026-10-02",
+   "tickers": [
+    "SHEL",
+    "BP",
+    "CVX"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Rudé moře",
+   "sector": "Evropský Spotřební sektor & Autoprůmysl (např. Volvo, BMW)",
+   "action": "SELL",
+   "date": "2026-10-02",
+   "tickers": [
+    "VOLV-B.ST",
+    "BMW.DE"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "USA",
+   "sector": "Technologický sektor (Apple, Microsoft, Nvidia)",
+   "action": "HOLD",
+   "date": "2026-10-02",
+   "tickers": [
+    "NVDA",
+    "AAPL",
+    "MSFT"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Blízký východ",
+   "sector": "Ropa a plyn (Chevron, ExxonMobil)",
+   "action": "BUY",
+   "date": "2026-10-02",
+   "tickers": [
+    "CVX"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Japonské akcie (Nikkei 225 ETF)",
+   "action": "HOLD",
+   "date": "2026-10-02",
+   "tickers": [
+    "^N225"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Japonsko",
+   "sector": "Technologie (Sony, SoftBank)",
+   "action": "BUY",
+   "date": "2026-10-02",
+   "tickers": [
+    "6758.T",
+    "9984.T"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Rudé moře",
+   "sector": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)",
+   "action": "HOLD",
+   "date": "2026-10-01",
+   "tickers": [
+    "MAERSK-B.CO",
+    "HLAG.DE",
+    "ZIM"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Rudé moře",
+   "sector": "Ropa a Plyn (např. Shell, BP, Chevron)",
+   "action": "HOLD",
+   "date": "2026-10-01",
+   "tickers": [
+    "SHEL",
+    "BP",
+    "CVX"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Rudé moře",
+   "sector": "Evropský Spotřební sektor & Autoprůmysl (např. Volvo, BMW)",
+   "action": "HOLD",
+   "date": "2026-10-01",
+   "tickers": [
+    "VOLV-B.ST",
+    "BMW.DE"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "USA",
+   "sector": "Technologický sektor (Apple, Microsoft, Nvidia)",
+   "action": "BUY",
+   "date": "2026-10-01",
+   "tickers": [
+    "NVDA",
+    "AAPL",
+    "MSFT"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Blízký východ",
+   "sector": "Ropa a plyn (Chevron, ExxonMobil)",
+   "action": "HOLD",
+   "date": "2026-10-01",
+   "tickers": [
+    "CVX"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Japonské akcie (Nikkei 225 ETF)",
+   "action": "BUY",
+   "date": "2026-10-01",
+   "tickers": [
+    "^N225"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Japonsko",
+   "sector": "Technologie (Sony, SoftBank)",
+   "action": "SELL",
+   "date": "2026-10-01",
+   "tickers": [
+    "6758.T",
+    "9984.T"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Rudé moře",
+   "sector": "Ropa a Plyn (např. Shell, BP, Chevron)",
+   "action": "BUY",
+   "date": "2026-09-30",
+   "tickers": [
+    "SHEL",
+    "BP",
+    "CVX"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "USA",
+   "sector": "Technologický sektor (Apple, Microsoft, Nvidia)",
+   "action": "HOLD",
+   "date": "2026-09-30",
+   "tickers": [
+    "NVDA",
+    "AAPL",
+    "MSFT"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Čínské akcie (ETF FXI, MCHI)",
+   "action": "HOLD",
+   "date": "2026-09-30",
+   "tickers": [
+    "FXI",
+    "MCHI"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Japonsko",
+   "sector": "Automobilový průmysl (Toyota, Honda)",
+   "action": "HOLD",
+   "date": "2026-09-30",
+   "tickers": [
+    "7203.T"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Rudé moře",
+   "sector": "Ropa a Plyn (např. Shell, BP, Chevron)",
+   "action": "HOLD",
+   "date": "2026-09-29",
+   "tickers": [
+    "SHEL",
+    "BP",
+    "CVX"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "USA",
+   "sector": "Technologický sektor (Apple, Microsoft, Nvidia)",
+   "action": "BUY",
+   "date": "2026-09-29",
+   "tickers": [
+    "NVDA",
+    "AAPL",
+    "MSFT"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Čínské akcie (ETF FXI, MCHI)",
+   "action": "BUY",
+   "date": "2026-09-29",
+   "tickers": [
+    "FXI",
+    "MCHI"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Japonské akcie (Nikkei 225 ETF)",
+   "action": "HOLD",
+   "date": "2026-09-29",
+   "tickers": [
+    "^N225"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Obranný průmysl (Lockheed Martin, RTX, Mitsubishi Heavy)",
+   "action": "BUY",
+   "date": "2026-09-29",
+   "tickers": [
+    "LMT",
+    "RTX",
+    "7011.T"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Japonsko",
+   "sector": "Automobilový průmysl (Toyota, Honda)",
+   "action": "SELL",
+   "date": "2026-09-29",
+   "tickers": [
+    "7203.T"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Blízký východ",
+   "sector": "Ropa a plyn (Chevron, ExxonMobil)",
+   "action": "BUY",
+   "date": "2026-09-27",
+   "tickers": [
+    "CVX"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Japonské akcie (Nikkei 225 ETF)",
+   "action": "BUY",
+   "date": "2026-09-27",
+   "tickers": [
+    "^N225"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Obranný průmysl (Lockheed Martin, RTX, Mitsubishi Heavy)",
+   "action": "HOLD",
+   "date": "2026-09-27",
+   "tickers": [
+    "LMT",
+    "RTX",
+    "7011.T"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Japonsko",
+   "sector": "Technologie (Sony, SoftBank)",
+   "action": "HOLD",
+   "date": "2026-09-27",
+   "tickers": [
+    "6758.T",
+    "9984.T"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Rudé moře",
+   "sector": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
+   "action": "HOLD",
+   "date": "2026-09-26",
+   "tickers": [
+    "RHM.DE",
+    "TTE.PA",
+    "AIR.PA",
+    "ALV.DE"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Evropa",
+   "sector": "Energetika (TotalEnergies, Shell, RWE)",
+   "action": "BUY",
+   "date": "2026-09-26",
+   "tickers": [
+    "SHEL",
+    "TTE.PA"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Japonské akcie (Nikkei 225 ETF)",
+   "action": "HOLD",
+   "date": "2026-09-26",
+   "tickers": [
+    "^N225"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Japonsko",
+   "sector": "Automobilový průmysl (Toyota, Honda)",
+   "action": "HOLD",
+   "date": "2026-09-26",
+   "tickers": [
+    "7203.T"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Japonsko",
+   "sector": "Technologie (Sony, SoftBank)",
+   "action": "BUY",
+   "date": "2026-09-26",
+   "tickers": [
+    "6758.T",
+    "9984.T"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Rudé moře",
+   "sector": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
+   "action": "BUY",
+   "date": "2026-09-25",
+   "tickers": [
+    "RHM.DE",
+    "TTE.PA",
+    "AIR.PA",
+    "ALV.DE"
+   ],
+   "ret7": -3.21,
+   "ok7": false,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Japonské akcie (Nikkei 225 ETF)",
+   "action": "BUY",
+   "date": "2026-09-25",
+   "tickers": [
+    "^N225"
+   ],
+   "ret7": 2.93,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Japonsko",
+   "sector": "Automobilový průmysl (Toyota, Honda)",
+   "action": "BUY",
+   "date": "2026-09-25",
+   "tickers": [
+    "7203.T"
+   ],
+   "ret7": -4.45,
+   "ok7": false,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Japonsko",
+   "sector": "Technologie (Sony, SoftBank)",
+   "action": "HOLD",
+   "date": "2026-09-25",
+   "tickers": [
+    "6758.T",
+    "9984.T"
+   ],
+   "ret7": 1.88,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Rudé moře",
+   "sector": "Ropa a Plyn (např. Shell, BP, Chevron)",
+   "action": "BUY",
+   "date": "2026-09-24",
+   "tickers": [
+    "SHEL",
+    "BP",
+    "CVX"
+   ],
+   "ret7": 0.31,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Rudé moře",
+   "sector": "Ropa a Plyn (např. Shell, BP, Chevron)",
+   "action": "HOLD",
+   "date": "2026-09-23",
+   "tickers": [
+    "SHEL",
+    "BP",
+    "CVX"
+   ],
+   "ret7": -0.71,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Evropa",
+   "sector": "Energetika (TotalEnergies, Shell, RWE)",
+   "action": "HOLD",
+   "date": "2026-09-23",
+   "tickers": [
+    "SHEL",
+    "TTE.PA"
+   ],
+   "ret7": -2.65,
+   "ok7": false,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Japonsko",
+   "sector": "Široký japonský akciový trh (Nikkei 225 ETF)",
+   "action": "HOLD",
+   "date": "2026-09-23",
+   "tickers": [
+    "^N225"
+   ],
+   "ret7": 1.89,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Japonsko",
+   "sector": "Automobilový průmysl (Toyota, Honda)",
+   "action": "HOLD",
+   "date": "2026-09-23",
+   "tickers": [
+    "7203.T"
+   ],
+   "ret7": -1.65,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Japonsko",
+   "sector": "Technologie (Sony, SoftBank)",
+   "action": "SELL",
+   "date": "2026-09-23",
+   "tickers": [
+    "6758.T",
+    "9984.T"
+   ],
+   "ret7": 1.92,
+   "ok7": false,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Japonsko",
+   "sector": "Pražská burza: ČEZ, Komerční banka, Erste Group",
+   "action": "HOLD",
+   "date": "2026-09-23",
+   "tickers": [
+    "CEZ.PR",
+    "KOMB.PR",
+    "EBS.VI"
+   ],
+   "ret7": -1.09,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Evropa",
+   "sector": "Energetika (TotalEnergies, Shell, RWE)",
+   "action": "BUY",
+   "date": "2026-09-22",
+   "tickers": [
+    "SHEL",
+    "TTE.PA"
+   ],
+   "ret7": 0.61,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Evropa",
+   "sector": "Energetika (TotalEnergies, Shell, RWE)",
+   "action": "HOLD",
+   "date": "2026-09-21",
+   "tickers": [
+    "SHEL",
+    "TTE.PA"
+   ],
+   "ret7": 2.63,
+   "ok7": false,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Japonské akcie (Nikkei 225 ETF)",
+   "action": "HOLD",
+   "date": "2026-09-21",
+   "tickers": [
+    "^N225"
+   ],
+   "ret7": 0.56,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Evropa",
+   "sector": "Energetika (TotalEnergies, Shell, RWE)",
+   "action": "BUY",
+   "date": "2026-09-20",
+   "tickers": [
+    "SHEL",
+    "TTE.PA"
+   ],
+   "ret7": 2.63,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Blízký východ",
+   "sector": "Obranný průmysl (Elbit Systems, RTX, Lockheed Martin)",
+   "action": "BUY",
+   "date": "2026-09-20",
+   "tickers": [
+    "LMT",
+    "RTX"
+   ],
+   "ret7": -3.33,
+   "ok7": false,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Blízký východ",
+   "sector": "Ropa a plyn (Chevron, ExxonMobil)",
+   "action": "HOLD",
+   "date": "2026-09-20",
+   "tickers": [
+    "CVX"
+   ],
+   "ret7": 1.33,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Blízký východ",
+   "sector": "Pražská burza: ČEZ, Komerční banka, Erste Group",
+   "action": "HOLD",
+   "date": "2026-09-20",
+   "tickers": [
+    "CEZ.PR",
+    "KOMB.PR",
+    "EBS.VI"
+   ],
+   "ret7": -0.55,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Polovodiče (TSMC, Samsung, ASML)",
+   "action": "HOLD",
+   "date": "2026-09-20",
+   "tickers": [
+    "TSM",
+    "005930.KS",
+    "ASML"
+   ],
+   "ret7": 1.26,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Čínské akcie (ETF FXI, MCHI)",
+   "action": "HOLD",
+   "date": "2026-09-20",
+   "tickers": [
+    "FXI",
+    "MCHI"
+   ],
+   "ret7": -2.41,
+   "ok7": false,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Japonské akcie (Nikkei 225 ETF)",
+   "action": "BUY",
+   "date": "2026-09-20",
+   "tickers": [
+    "^N225"
+   ],
+   "ret7": 0.56,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Obranný průmysl (Lockheed Martin, RTX, Mitsubishi Heavy)",
+   "action": "BUY",
+   "date": "2026-09-20",
+   "tickers": [
+    "LMT",
+    "RTX",
+    "7011.T"
+   ],
+   "ret7": -2.59,
+   "ok7": false,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Pražská burza: ČEZ, Komerční banka, Erste Group",
+   "action": "HOLD",
+   "date": "2026-09-20",
+   "tickers": [
+    "CEZ.PR",
+    "KOMB.PR",
+    "EBS.VI"
+   ],
+   "ret7": -0.55,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Rudé moře",
+   "sector": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)",
+   "action": "BUY",
+   "date": "2026-09-19",
+   "tickers": [
+    "MAERSK-B.CO",
+    "HLAG.DE",
+    "ZIM"
+   ],
+   "ret7": -3.93,
+   "ok7": false,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Rudé moře",
+   "sector": "Obranný průmysl (např. RTX, Lockheed Martin, BAE Systems)",
+   "action": "BUY",
+   "date": "2026-09-19",
+   "tickers": [
+    "LMT",
+    "RTX",
+    "BA.L"
+   ],
+   "ret7": -3.6,
+   "ok7": false,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Rudé moře",
+   "sector": "Ropa a Plyn (např. Shell, BP, Chevron)",
+   "action": "BUY",
+   "date": "2026-09-19",
+   "tickers": [
+    "SHEL",
+    "BP",
+    "CVX"
+   ],
+   "ret7": 2.57,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Rudé moře",
+   "sector": "Evropský Spotřební sektor & Autoprůmysl (např. Volvo, BMW)",
+   "action": "SELL",
+   "date": "2026-09-19",
+   "tickers": [
+    "VOLV-B.ST",
+    "BMW.DE"
+   ],
+   "ret7": -4.91,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Rudé moře",
+   "sector": "Pražská burza: ČEZ, Komerční banka, Erste Group",
+   "action": "HOLD",
+   "date": "2026-09-19",
+   "tickers": [
+    "CEZ.PR",
+    "KOMB.PR",
+    "EBS.VI"
+   ],
+   "ret7": -0.55,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Rudé moře",
+   "sector": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
+   "action": "HOLD",
+   "date": "2026-09-19",
+   "tickers": [
+    "RHM.DE",
+    "TTE.PA",
+    "AIR.PA",
+    "ALV.DE"
+   ],
+   "ret7": -1.95,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "USA",
+   "sector": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
+   "action": "HOLD",
+   "date": "2026-09-19",
+   "tickers": [
+    "^GSPC"
+   ],
+   "ret7": -1.04,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "USA",
+   "sector": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
+   "action": "BUY",
+   "date": "2026-09-19",
+   "tickers": [
+    "LMT",
+    "RTX",
+    "NOC"
+   ],
+   "ret7": -3.54,
+   "ok7": false,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "USA",
+   "sector": "Technologický sektor (Apple, Microsoft, Nvidia)",
+   "action": "HOLD",
+   "date": "2026-09-19",
+   "tickers": [
+    "NVDA",
+    "AAPL",
+    "MSFT"
+   ],
+   "ret7": 0.67,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "USA",
+   "sector": "Pražská burza: ČEZ, Komerční banka, Erste Group",
+   "action": "HOLD",
+   "date": "2026-09-19",
+   "tickers": [
+    "CEZ.PR",
+    "KOMB.PR",
+    "EBS.VI"
+   ],
+   "ret7": -0.55,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Evropa",
+   "sector": "Obranný průmysl (Rheinmetall, Thales, Leonardo)",
+   "action": "BUY",
+   "date": "2026-09-19",
+   "tickers": [
+    "RHM.DE"
+   ],
+   "ret7": -4.38,
+   "ok7": false,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Evropa",
+   "sector": "Energetika (TotalEnergies, Shell, RWE)",
+   "action": "HOLD",
+   "date": "2026-09-19",
+   "tickers": [
+    "SHEL",
+    "TTE.PA"
+   ],
+   "ret7": 2.63,
+   "ok7": false,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Evropa",
+   "sector": "Automobilový průmysl (Volkswagen, BMW, Stellantis)",
+   "action": "SELL",
+   "date": "2026-09-19",
+   "tickers": [
+    "BMW.DE"
+   ],
+   "ret7": -8.25,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Evropa",
+   "sector": "Pražská burza: ČEZ, Komerční banka, Erste Group",
+   "action": "HOLD",
+   "date": "2026-09-19",
+   "tickers": [
+    "CEZ.PR",
+    "KOMB.PR",
+    "EBS.VI"
+   ],
+   "ret7": -0.55,
+   "ok7": true,
+   "ret30": null,
+   "ok30": null
+  }
+ ],
+ "unknown": [
+  "Blízký východ: Izraelské akcie (Tel Aviv 35)",
+  "Evropa: Evropské banky (BNP Paribas, Deutsche Bank, Santander)",
+  "Evropa: Široký evropský akciový trh (Euro Stoxx 50 ETF)",
+  "Japonsko: Průmyslová robotika (Fanuc, Mitsubishi Electric)",
+  "USA: Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)",
+  "USA: Státní dluhopisy USA (Treasuries)"
+ ]
+}
