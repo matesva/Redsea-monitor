@@ -7,7 +7,10 @@
     ["middle-east/", "Blízký východ"],
     ["asia/", "Čína a Asie"],
     ["japan/", "Japonsko"],
-    ["czechia/", "Česko"]
+    ["czechia/", "Česko"],
+    ["hledani/", "Hledání"],
+    ["uspesnost/", "Úspěšnost"],
+    ["navstevnost/", "Návštěvnost"]
   ];
   var path = location.pathname.replace(/index\.html$/, "");
   var linkCss = "flex:none;color:var(--brass,#b8863b);text-decoration:none;" +
@@ -28,4 +31,8 @@
     "font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.03em";
   bar.innerHTML = html;
   document.body.insertBefore(bar, document.body.firstChild);
+
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register(B + "sw.js", { scope: B }).catch(function () {});
+  }
 })();
