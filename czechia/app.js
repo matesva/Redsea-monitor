@@ -8,7 +8,7 @@ let articles=[],parties={},allPromises=[],polls=[],pols={},sum={},info=[];
 const TABS=["zpravy","strany","sliby","pruzkumy"];
 
 Promise.all([
-  fetch("articles.json").then(r=>r.json()).catch(()=>[]),
+  fetch("articles_recent.json").then(r=>r.json()).catch(()=>[]),
   fetch("parties.json").then(r=>r.json()).catch(()=>({strany:{}})),
   fetch("polls.json").then(r=>r.json()).catch(()=>({pruzkumy:[]})),
   fetch("politicians.json").then(r=>r.json()).catch(()=>({politici:{}})),
