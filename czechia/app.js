@@ -179,3 +179,18 @@ function lineChart(P,ps){
   const leg=pts.map(x=>`<span class="lg"><i style="background:${col(x.s)}"></i>${esc(x.s)}</span>`).join("");
   return `<svg viewBox="0 0 ${W} ${H}" class="chart">${g}</svg><div>${leg}</div>`;
 }
+fetch("topics.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
+  const t=d.temata||[];
+  if(!t.length)return;
+  const el=document.getElementById("topics");
+  el.className="";
+  el.innerHTML=t.map(x=>`<div class="card">
+    <b>${esc(x.nadpis)}</b> <span class="tag">${x.zdroju} zdrojů</span>
+    <div>${esc(x.popis)}</div>
+    <details>
+      <summary>Jak to podávají média</summary>
+      ${(x.pohledy||[]).map(p=>`<div class="meta"><b>${esc(p.zdroj)}:</b> ${esc(p.uhel)}</div>`).join("")}
+      ${x.rozdily?`<div class="meta"><i>${esc(x.rozdily)}</i></div>`:""}
+      <div class="meta">${(x.clanky||[]).map(c=>`<a href="${esc(c.link)}" target="_blank" rel="noopener">${esc(c.source)}</a>`).join(" · ")}</div>
+    </details></div>`).join("");
+}).catch(()=>{});
