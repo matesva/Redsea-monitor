@@ -27,7 +27,7 @@ jobs:
         run: pip install feedparser google-genai
 
       - name: Kontrola syntaxe
-        run: python -m py_compile czechia_config.py czechia_politici.py czechia_summary.py czechia_rss.py fetch_czechia.py
+        run: python -m py_compile czechia_config.py czechia_politici.py czechia_summary.py czechia_rss.py czechia_notify.py czechia_topics.py fetch_czechia.py
 
       - name: Sběr dat a analýza
         run: python fetch_czechia.py
