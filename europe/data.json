@@ -1,58 +1,59 @@
 {
-  "last_updated": "2026-10-04T11:13:20Z",
+  "last_updated": "2026-10-04T11:36:43Z",
   "assessment": {
-    "threat_level": "CRITICAL",
-    "sentiment_score": 82,
-    "security_status_cs": "Evropa čelí hlubokým vnitřním a vnějším krizím, které kombinují eskalující válku na Ukrajině se sílícími sociálními nepokoji a politickou nestabilitou v klíčových státech. Ruské útoky na ukrajinskou kritickou infrastrukturu a obytné budovy spolu s jadernou hrozbou ohledně Kaliningradu drasticky zvyšují bezpečnostní napětí. Současně masivní protesty proti drahému bydlení ve Španělsku a násilné školní stávky ve Francii odrážejí hlubokou ekonomickou nespokojenost a selhávání vládních politik.",
-    "security_status_en": "Europe is facing deep internal and external crises, combining an escalating war in Ukraine with mounting social unrest and political instability in key states. Russian attacks on Ukrainian critical infrastructure and civilian areas, alongside nuclear threats over Kaliningrad, drastically heighten security tensions. Simultaneously, massive housing crisis protests in Spain and violent student strikes in France reflect profound economic discontent and government policy failures.",
+    "threat_level": "HIGH",
+    "sentiment_score": 78,
+    "security_status_cs": "Evropa čelí vlně vnitrostátních nepokojů, kdy v zemích jako Španělsko a Francie propukly masové protesty kvůli krizi bydlení a stavu školství. Geopolitická situace se dále vyhostila intenzivními ruskými útoky na kritickou infrastrukturu v Kyjevě a hrozbami Moskvy vůči Kaliningradu. Politická nestabilita navíc narůstá v Německu a Španělsku, kde sílí tlak na vládnoucí koalice.",
+    "security_status_en": "Europe is facing a wave of domestic unrest, with mass protests over the housing crisis and education breaking out in countries like Spain and France. The geopolitical situation has further escalated due to intense Russian attacks on critical infrastructure in Kyiv and Moscow's threats regarding Kaliningrad. Furthermore, political instability is mounting in Germany and Spain, increasing pressure on ruling coalitions.",
     "recommendations": [
       {
         "sector_cs": "Široký evropský akciový trh (Euro Stoxx 50 ETF)",
         "sector_en": "Broad European Equities (Euro Stoxx 50 ETFs)",
         "action": "SELL",
-        "reason_cs": "Vysoká politická nestabilita, sociální nepokoje v klíčových zemích a eskalace války na Ukrajině vytvářejí toxické prostředí pro širší evropský trh.",
-        "reason_en": "High political instability, social unrest in key countries, and the escalation of the war in Ukraine create a toxic environment for the broader European market."
+        "reason_cs": "Rostoucí vnitrostátní nepokoje, politická nestabilita v klíčových zemích a eskalace války na Ukrajině zvyšují makroekonomickou nejistotu. Trh podléhá silnému prodejnímu tlaku.",
+        "reason_en": "Mounting domestic unrest, political instability in key countries, and the escalation of the war in Ukraine increase macroeconomic uncertainty. The market is subject to strong selling pressure."
       },
       {
         "sector_cs": "Evropské banky (BNP Paribas, Deutsche Bank, Santander)",
         "sector_en": "European Banks (BNP Paribas, Deutsche Bank, Santander)",
         "action": "HOLD",
-        "reason_cs": "Bankovní sektor zůstává odolný díky dosavadní měnové politice ECB, ale politická rizika ve Španělsku a Francii představují mírnou hrozbu.",
-        "reason_en": "The banking sector remains resilient thanks to previous ECB monetary policy, but political risks in Spain and France pose a moderate threat."
+        "reason_cs": "Bankovní sektor čelí rizikům spojeným s politickou nestabilitou a potenciální zátěží ekonomik, na druhou stranu jej drží stabilní úrokové sazby ECB.",
+        "reason_en": "The banking sector faces risks associated with political instability and potential economic strain, while remaining supported by stable ECB interest rates."
       },
       {
         "sector_cs": "Obranný průmysl (Rheinmetall, Thales, Leonardo)",
         "sector_en": "Defense Industry (Rheinmetall, Thales, Leonardo)",
         "action": "BUY",
-        "reason_cs": "Intenzivní ruské bombardování Kyjeva a dlouhodobá neustávající agrese drží poptávku po vojenském vybavení na maximu.",
-        "reason_en": "Intense Russian bombardments of Kyiv and continuous unabated aggression keep the demand for military equipment at maximum levels."
+        "reason_cs": "Intenzivní ruské útoky na Kyjev a eskalace konfliktu zajišťují dlouhodobý přísun vládních zakázek a rostoucí výdaje na obranu napříč NATO.",
+        "reason_en": "Intense Russian attacks on Kyiv and conflict escalation ensure a long-term influx of government orders and rising defense spending across NATO."
       },
       {
         "sector_cs": "Energetika (TotalEnergies, Shell, RWE)",
         "sector_en": "Energy (TotalEnergies, Shell, RWE)",
-        "action": "BUY",
-        "reason_cs": "Trvající blokáda obilí, problémy s ukrajinským exportem a napětí kolem Kaliningradu udržují vysokou prémii na energetických trzích.",
-        "reason_en": "Ongoing grain blockades, issues with Ukrainian exports, and tensions surrounding Kaliningrad maintain a high premium in energy markets."
+        "action": "HOLD",
+        "reason_cs": "Přetrvávající blokáda obchodu s obilím a napětí na černomořských trasách udržují rizikovou přirážku na komoditách, avšak poptávka zůstává utlumená.",
+        "reason_en": "Persistent grain trade blockades and tensions on Black Sea routes keep a risk premium on commodities, though underlying demand remains subdued."
       },
       {
         "sector_cs": "Automobilový průmysl (Volkswagen, BMW, Stellantis)",
         "sector_en": "Automotive Industry (Volkswagen, BMW, Stellantis)",
         "action": "SELL",
-        "reason_cs": "Ochabující poptávka, vnitřní sociální tlaky a politická nestabilita v Německu a Francii tvrdě dopadají na marže automobilek.",
-        "reason_en": "Weakening demand, domestic social pressures, and political instability in Germany and France are heavily impacting automaker margins."
+        "reason_cs": "Protesty v zemích jako Francie a Německo spolu se slábnoucí spotřebitelskou důvěrou a globální konkurencí negativně dopadají na poptávku po autech.",
+        "reason_en": "Protests in countries like France and Germany, alongside waning consumer confidence and global competition, are negatively impacting vehicle demand."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
+        "sentiment_score": null,
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Regionální expozice vůči geopolitickému napětí a slabší poptávka v EU drží tyto tituly v opatrné laterální fázi.",
-        "reason_en": "Regional exposure to geopolitical tensions and weaker EU demand keep these equities in a cautious sideways trend."
+        "reason_cs": "Domácí tituly jsou odolné vůči aktuálním západoevropským nepokojům, ale sledují širší evropský makroekonomický sentiment a geopolitická rizika regionu.",
+        "reason_en": "Domestic stocks remain resilient against current Western European unrest, but track broader European macroeconomic sentiment and regional geopolitical risks."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat pokračování vnitrostátních protestů v západní Evropě a další diplomatické i vojenské manévry v souvislosti s eskalací útoků na Ukrajině.",
-    "forecast_en": "In the coming days, domestic protests in Western Europe are expected to continue, accompanied by further diplomatic and military maneuvers regarding escalating attacks in Ukraine.",
-    "forecast_review_cs": "Předchozí předpověď o eskalaci bezpečnostních opatření a tlaku na vlády kvůli sociálním protestům se plně potvrdila masivními demonstracemi a stávkami.",
-    "forecast_review_en": "The previous forecast regarding the escalation of security measures and pressure on governments due to social protests was fully confirmed by massive demonstrations and strikes."
+    "forecast_cs": "V nejbližších dnech lze očekávat pokračování sociálních nepokojů a protestů v západní Evropě, zatímco geopolitické napětí v souvislosti s Ukrajinou a Kaliningradem zůstane na kritické úrovni.",
+    "forecast_en": "Over the coming days, social unrest and protests in Western Europe are expected to continue, while geopolitical tensions regarding Ukraine and Kaliningrad will remain at critical levels.",
+    "forecast_review_cs": "Předchozí předpověď se plně potvrdila, neboť protesty v západní Evropě eskalovaly a diplomatické i vojenské manévry kolem Ukrajiny pokračují se stejnou intenzitou.",
+    "forecast_review_en": "The previous forecast was fully confirmed as protests in Western Europe escalated and diplomatic and military maneuvers surrounding Ukraine continued with the same intensity."
   },
   "articles": [
     {
@@ -421,6 +422,15 @@
       "incidents": 20,
       "stoxx50": 6238.5,
       "eur_czk": null
+    },
+    {
+      "date": "2026-10-04 11:36",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 78,
+      "incidents": 20,
+      "stoxx50": 6238.5,
+      "eur_czk": null
     }
   ],
   "locations": [
@@ -449,29 +459,21 @@
   "location_counts": {
     "Brussels": 13,
     "Strasbourg": 9,
-    "Kyiv": 19,
+    "Kyiv": 20,
     "Berlin": 13,
     "Prague": 1,
-    "Paris": 11,
+    "Paris": 12,
     "Warsaw": 2,
-    "Madrid": 9,
+    "Madrid": 10,
     "Rome": 1
   },
   "top_location": {
     "key": "Kyiv",
     "name_cs": "Kyjev",
     "name_en": "Kyiv",
-    "count": 19
+    "count": 20
   },
   "archive": [
-    {
-      "date": "2026-09-26 10:35",
-      "threat_level": "HIGH",
-      "security_status_cs": "Rusko stupňuje hybridní a kybernetické útoky na ukrajinskou digitální infrastrukturu a energetické sítě před nadcházející zimou, zatímco v Evropě rostou obavy ze sabotií kritické infrastruktury. Politické napětí v Německu a Velké Británii spolu s rostoucími náklady na obranu a přetrvávajícími obchodními bariérami s UK nadále zatěžují širší ekonomickou stabilitu.",
-      "security_status_en": "Russia is intensifying hybrid and cyber attacks on Ukraine's digital infrastructure and energy networks ahead of the coming winter, while concerns over critical infrastructure sabotage grow across Europe. Political tensions in Germany and the UK, alongside rising defense costs and lingering trade barriers with Britain, continue to weigh on broader economic stability.",
-      "forecast_cs": "V nejbližších dnech se očekává další nárůst napětí kolem kybernetické bezpečnosti a ochrany kritické infrastruktury v reakci na útoky v Kyjevě a Polsku. Pozornost trhů se soustředí na diplomatická jednání na Valném shromáždění OSN a rozpočtové debaty v EU.",
-      "forecast_en": "In the coming days, a further rise in tension surrounding cybersecurity and critical infrastructure protection is expected in response to attacks in Kyiv and Poland. Market attention will focus on diplomatic talks at the UN General Assembly and EU budgetary debates."
-    },
     {
       "date": "2026-09-27 11:08",
       "threat_level": "CRITICAL",
@@ -575,6 +577,14 @@
       "security_status_en": "Europe is facing deep internal and external crises, combining an escalating war in Ukraine with mounting social unrest and political instability in key states. Russian attacks on Ukrainian critical infrastructure and civilian areas, alongside nuclear threats over Kaliningrad, drastically heighten security tensions. Simultaneously, massive housing crisis protests in Spain and violent student strikes in France reflect profound economic discontent and government policy failures.",
       "forecast_cs": "V nejbližších dnech lze očekávat pokračování vnitrostátních protestů v západní Evropě a další diplomatické i vojenské manévry v souvislosti s eskalací útoků na Ukrajině.",
       "forecast_en": "In the coming days, domestic protests in Western Europe are expected to continue, accompanied by further diplomatic and military maneuvers regarding escalating attacks in Ukraine."
+    },
+    {
+      "date": "2026-10-04 11:36",
+      "threat_level": "HIGH",
+      "security_status_cs": "Evropa čelí vlně vnitrostátních nepokojů, kdy v zemích jako Španělsko a Francie propukly masové protesty kvůli krizi bydlení a stavu školství. Geopolitická situace se dále vyhostila intenzivními ruskými útoky na kritickou infrastrukturu v Kyjevě a hrozbami Moskvy vůči Kaliningradu. Politická nestabilita navíc narůstá v Německu a Španělsku, kde sílí tlak na vládnoucí koalice.",
+      "security_status_en": "Europe is facing a wave of domestic unrest, with mass protests over the housing crisis and education breaking out in countries like Spain and France. The geopolitical situation has further escalated due to intense Russian attacks on critical infrastructure in Kyiv and Moscow's threats regarding Kaliningrad. Furthermore, political instability is mounting in Germany and Spain, increasing pressure on ruling coalitions.",
+      "forecast_cs": "V nejbližších dnech lze očekávat pokračování sociálních nepokojů a protestů v západní Evropě, zatímco geopolitické napětí v souvislosti s Ukrajinou a Kaliningradem zůstane na kritické úrovni.",
+      "forecast_en": "Over the coming days, social unrest and protests in Western Europe are expected to continue, while geopolitical tensions regarding Ukraine and Kaliningrad will remain at critical levels."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 5× HIGH, 2× CRITICAL.",
