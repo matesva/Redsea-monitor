@@ -7,18 +7,27 @@ const num=v=>v.toFixed(1).replace(".",",");
 let articles=[],parties={},allPromises=[],polls=[],pols={},sum={},info=[];
 const TABS=["zpravy","strany","sliby","pruzkumy"];
 
+// načtení JSON bez cache; při chybě (např. 404) vrátí výchozí hodnotu
+const J=(u,d)=>fetch(u,{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).catch(()=>d);
+
 Promise.all([
-  fetch("articles_recent.json").then(r=>r.json()).catch(()=>[]),
-  fetch("parties.json").then(r=>r.json()).catch(()=>({strany:{}})),
-  fetch("polls.json").then(r=>r.json()).catch(()=>({pruzkumy:[]})),
-  fetch("politicians.json").then(r=>r.json()).catch(()=>({politici:{}})),
-  fetch("summary.json").then(r=>r.json()).catch(()=>({obdobi:{}})),
-  fetch("pruzkumy_info.json").then(r=>r.json()).catch(()=>[])
+  J("articles_recent.json",null).then(x=>x||J("articles.json",[])),
+  J("parties.json",{strany:{}}),
+  J("polls.json",{pruzkumy:[]}),
+  J("politicians.json",{politici:{}}),
+  J("summary.json",{obdobi:{}}),
+  J("pruzkumy_info.json",[])
 ]).then(([a,p,q,pl,sm,inf])=>{
-  articles=a;parties=p.strany||{};polls=q.pruzkumy||[];pols=pl;sum=sm;info=inf||[];
+  articles=Array.isArray(a)?a:[];
+  parties=(p&&p.strany)||{};
+  polls=(q&&q.pruzkumy)||[];
+  pols=pl||{};
+  sum=sm||{};
+  info=Array.isArray(inf)?inf:[];
   allPromises=Object.entries(parties).flatMap(([s,d])=>(d.sliby||[]).map(x=>({...x,strana:s})));
-  $("upd").textContent=a.length?"Aktualizováno "+new Date(a[0].added+"Z").toLocaleString("cs-CZ",{day:"numeric",month:"numeric",hour:"2-digit",minute:"2-digit"}):"Zatím bez dat";
-  [...new Set(a.flatMap(x=>x.strany||[]))].sort().forEach(s=>$("strana").add(new Option(s,s)));
+  const ts=(q&&q.updated)||(articles[0]&&articles[0].added);
+  $("upd").textContent=ts?"Aktualizováno "+new Date(ts+"Z").toLocaleString("cs-CZ",{day:"numeric",month:"numeric",hour:"2-digit",minute:"2-digit"}):"Zatím bez dat";
+  [...new Set(articles.flatMap(x=>x.strany||[]))].sort().forEach(s=>$("strana").add(new Option(s,s)));
   Object.keys(parties).sort().forEach(s=>$("sstrana").add(new Option(s,s)));
   [...new Set(allPromises.map(x=>x.tema).filter(Boolean))].sort().forEach(t=>$("stema").add(new Option(t,t)));
   renderSum();renderNews();renderPols();renderParties();renderPromises();fillAgencies();
@@ -179,10 +188,12 @@ function lineChart(P,ps){
   const leg=pts.map(x=>`<span class="lg"><i style="background:${col(x.s)}"></i>${esc(x.s)}</span>`).join("");
   return `<svg viewBox="0 0 ${W} ${H}" class="chart">${g}</svg><div>${leg}</div>`;
 }
-fetch("topics.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
-  const t=d.temata||[];
-  if(!t.length)return;
+
+// Téma dne (pokud je na stránce blok #topics a existuje topics.json)
+J("topics.json",null).then(d=>{
   const el=document.getElementById("topics");
+  const t=d&&d.temata;
+  if(!el||!t||!t.length)return;
   el.className="";
   el.innerHTML=t.map(x=>`<div class="card">
     <b>${esc(x.nadpis)}</b> <span class="tag">${x.zdroju} zdrojů</span>
@@ -193,4 +204,4 @@ fetch("topics.json",{cache:"no-store"}).then(r=>r.json()).then(d=>{
       ${x.rozdily?`<div class="meta"><i>${esc(x.rozdily)}</i></div>`:""}
       <div class="meta">${(x.clanky||[]).map(c=>`<a href="${esc(c.link)}" target="_blank" rel="noopener">${esc(c.source)}</a>`).join(" · ")}</div>
     </details></div>`).join("");
-}).catch(()=>{});
+});
