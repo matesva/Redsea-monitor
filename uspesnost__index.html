@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Úspěšnost doporučení · Monitory</title>
+<meta name="description" content="Jak se vyvíjely sektory a tituly, u kterých AI monitory doporučily koupit, držet nebo prodat">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://matesva.github.io/Redsea-monitor/uspesnost/">
+<meta name="theme-color" content="#0b1d26">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script data-goatcounter="https://redsea-monitor.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<style>
+*{box-sizing:border-box}
+:root{--ink:#0b1d26;--ink2:#142c3a;--brass:#b8863b;--text:#e7e0cd;--text-dim:#9aa8ac;--rule:rgba(184,134,59,.35);--ok:#6a9b6e;--bad:#a13d2b}
+body.light{--ink:#ece6d6;--ink2:#e0d8c0;--text:#1c2b2e;--text-dim:#5c6b6e;--rule:rgba(11,29,38,.18)}
+body{margin:0;font-family:'Spectral',Georgia,serif;background-color:var(--ink);background-image:radial-gradient(circle at 1px 1px,rgba(184,134,59,.06) 1px,transparent 0);background-size:22px 22px;color:var(--text);min-height:100vh;padding-bottom:60px}
+.wrap{max-width:780px;margin:0 auto;padding:0 20px}
+header{border-bottom:3px double var(--brass);padding:28px 0 16px}
+.top{font-family:'IBM Plex Mono',monospace;font-size:.72em;letter-spacing:.04em;color:var(--brass);margin-bottom:12px}
+h1{font-size:2.1em;margin:0 0 6px;line-height:1.15}
+.sub{font-family:'IBM Plex Mono',monospace;font-size:.78em;color:var(--text-dim)}
+.warn{border:1px solid var(--rule);background:var(--ink2);padding:12px 14px;margin-top:20px;font-size:.88em;line-height:1.55;color:var(--text-dim)}
+.sec{padding:22px 0;border-top:1px solid var(--rule);margin-top:22px}
+.sec h2{font-family:'IBM Plex Mono',monospace;font-size:.72em;letter-spacing:.06em;color:var(--brass);margin:0 0 14px;text-transform:uppercase}
+.sec h2::before{content:"§ ";opacity:.6}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+.tile{border:1px solid var(--rule);background:var(--ink2);padding:12px;border-radius:2px}
+.tile b{display:block;font-family:'IBM Plex Mono',monospace;font-size:1.6em;color:var(--brass)}
+.tile span{font-family:'IBM Plex Mono',monospace;font-size:.68em;color:var(--text-dim);line-height:1.5}
+.row{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-top:1px solid var(--rule);font-family:'IBM Plex Mono',monospace;font-size:.78em}
+.row:first-child{border-top:none}
+.sig{padding:10px 0;border-top:1px solid var(--rule);font-size:.9em}
+.sig:first-child{border-top:none}
+.meta{font-family:'IBM Plex Mono',monospace;font-size:.7em;color:var(--text-dim);margin-top:4px;line-height:1.7}
+.ok{color:var(--ok)}.bad{color:var(--bad)}.wait{color:var(--text-dim)}
+details{margin-top:12px}
+summary{cursor:pointer;color:var(--brass);font-family:'IBM Plex Mono',monospace;font-size:.75em}
+footer{margin-top:30px;text-align:center;font-family:'IBM Plex Mono',monospace;font-size:.66em;color:var(--text-dim);line-height:1.6}
+@media (max-width:600px){h1{font-size:1.6em}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="top">AI MONITORY · ÚSPĚŠNOST</div>
+    <h1>Úspěšnost doporučení</h1>
+    <div class="sub" id="upd">Načítám…</div>
+  </header>
+  <div class="warn">Zpětné vyhodnocení doporučení, která vygenerovala AI. Nejde o investiční poradenství ani o záruku budoucích výsledků. Počítáno bez poplatků a daní, u koše titulů jako průměr změny cen. Úspěch: Koupit = cena vzrostla, Prodat = cena klesla, Držet = cena se pohnula o méně než <span id="bandtxt">2 %</span>. Vzorek je zatím malý, proto čísla berte s rezervou.</div>
+
+  <div class="sec"><h2>Po 7 dnech</h2><div class="tiles" id="t7"></div></div>
+  <div class="sec"><h2>Po 30 dnech</h2><div class="tiles" id="t30"></div></div>
+  <div class="sec"><h2>Podle monitorů</h2><div id="mon">Načítám…</div></div>
+  <div class="sec"><h2>Poslední signály</h2><div id="sig">Načítám…</div>
+    <details id="unk" hidden><summary>Sektory bez rozpoznaných titulů</summary><div class="meta" id="unkl"></div></details>
+  </div>
+  <footer>Signál = první den, kdy se doporučení pro sektor objevilo nebo změnilo. Aktualizováno automaticky jednou denně.</footer>
+</div>
+<script>
+if(localStorage.getItem('theme')==='light')document.body.classList.add('light');
+var $=function(id){return document.getElementById(id)};
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function cz(v){return String(v).replace(".",",")}
+function pct(a){return a&&a.n?Math.round(100*a.ok/a.n)+" %":"–"}
+function box(label,a){
+  var avg=a&&a.n&&a.avg!=null?" · ø "+(a.avg>0?"+":"")+cz(a.avg.toFixed(1))+" %":"";
+  return '<div class="tile"><b>'+pct(a)+'</b><span>'+label+'<br>'+(a?a.ok:0)+' z '+(a?a.n:0)+' signálů'+avg+'</span></div>';
+}
+function mark(ok,ret){
+  if(ret==null)return '<span class="wait">čeká</span>';
+  return '<span class="'+(ok?"ok":"bad")+'">'+(ret>0?"+":"")+cz(ret.toFixed(1))+' % '+(ok?"✓":"✗")+'</span>';
+}
+var ACT={BUY:"KOUPIT",SELL:"PRODAT",HOLD:"DRŽET"};
+fetch("results.json",{cache:"no-store"}).then(function(r){return r.json()}).then(function(d){
+  $("upd").textContent="Signálů celkem: "+d.signals_total+" · aktualizováno "+new Date(d.updated+"Z").toLocaleString("cs-CZ",{day:"numeric",month:"numeric",hour:"2-digit",minute:"2-digit"});
+  if(d.band)$("bandtxt").textContent=cz(d.band["7"])+" % (7 dní), "+cz(d.band["30"])+" % (30 dní)";
+  ["7","30"].forEach(function(h){
+    var s=(d.summary||{})[h]||{};
+    $("t"+h).innerHTML=box("Celkem",s.ALL)+box("Koupit",s.BUY)+box("Držet",s.HOLD)+box("Prodat",s.SELL);
+  });
+  var bm=d.by_monitor||{},names=Object.keys(bm).sort();
+  $("mon").innerHTML=names.length?names.map(function(n){
+    var a=bm[n]["7"],b=bm[n]["30"];
+    return '<div class="row"><span>'+esc(n)+'</span><span>7 d: '+pct(a)+' ('+(a?a.n:0)+') · 30 d: '+pct(b)+' ('+(b?b.n:0)+')</span></div>';
+  }).join(""):"Zatím bez vyhodnocených signálů.";
+  var sg=d.signals||[];
+  $("sig").innerHTML=sg.length?sg.map(function(s){
+    return '<div class="sig"><b>'+esc(s.sector)+'</b><div class="meta">'+esc(s.date)+' · '+esc(s.monitor)+' · '+(ACT[s.action]||s.action)+'<br>7 dní: '+mark(s.ok7,s.ret7)+' · 30 dní: '+mark(s.ok30,s.ret30)+'</div></div>';
+  }).join(""):"Zatím žádné signály.";
+  if((d.unknown||[]).length){$("unk").hidden=false;$("unkl").innerHTML=d.unknown.map(esc).join("<br>")}
+}).catch(function(){
+  $("upd").textContent="Data zatím nejsou k dispozici";
+  $("mon").textContent="Spusť v Actions workflow „Úspěšnost doporučení“ a po nasazení stránku obnov.";
+  $("sig").textContent="";
+});
+</script>
+<script src="/Redsea-monitor/nav.js"></script>
+</body>
+</html>
