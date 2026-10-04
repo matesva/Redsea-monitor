@@ -1,1 +1,26 @@
+name: Umístění stránek
 
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  place:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Přesun souborů do složek
+        run: python3 place_pages.py
+
+      - name: Commit
+        run: |
+          git config user.name "actions-user"
+          git config user.email "actions@github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Umístění stránek do složek"
+            git pull --rebase origin main && git push
+          fi
