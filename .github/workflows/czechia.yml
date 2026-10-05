@@ -27,18 +27,19 @@ jobs:
         run: pip install feedparser google-genai
 
       - name: Kontrola syntaxe
-        run: python -m py_compile czechia_config.py czechia_politici.py czechia_summary.py czechia_rss.py czechia_notify.py czechia_topics.py fetch_czechia.py
+        run: python -m py_compile czechia_config.py czechia_politici.py czechia_summary.py czechia_rss.py czechia_notify.py czechia_topics.py czechia_moratorium.py fetch_czechia.py
 
       - name: Sběr dat a analýza
         run: python fetch_czechia.py
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          NTFY_TOPIC_CZECHIA: ${{ secrets.NTFY_TOPIC_CZECHIA }}
 
       - name: Commit
         run: |
           git config user.name "actions-user"
           git config user.email "actions@github.com"
-          git add czechia/articles.json czechia/parties.json czechia/polls.json czechia/politicians.json czechia/summary.json czechia/rss.xml
+          git add -A czechia
           if ! git diff --cached --quiet; then
             git commit -m "Czechia: aktualizace dat"
             for i in 1 2 3; do
