@@ -14,6 +14,7 @@
    ".wmpop{font-family:'Spectral',Georgia,serif;font-size:13px;line-height:1.4;max-width:260px}"+
    ".wmpop b{font-size:14px}.wmpop .m{font-family:'IBM Plex Mono',monospace;font-size:11px;color:#666;margin-top:6px}"+
    ".wmpop a{color:#7a5412;text-decoration:none;display:block;margin:2px 0}.wmpop a:hover{text-decoration:underline}"+
+   "#wmap{cursor:zoom-in}#wmap.wm-full{position:fixed;top:0;left:0;right:0;bottom:0;height:100%!important;z-index:100000;border:0;border-radius:0;cursor:grab}"+
    ".wm-dark .leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.85) contrast(.9) saturate(.5)}"+
    "@media (max-width:600px){#wmap{height:340px}}";
   document.head.appendChild(st);
@@ -75,13 +76,29 @@
           h+='<a href="'+esc(it.l)+'" target="_blank" rel="noopener">'+esc(it.t)+'</a>';
         });
         h+='</div>';
-        L.circleMarker([p.lat,p.lon],{radius:r,color:c,weight:2,fillColor:c,fillOpacity:.45}).addTo(map).bindPopup(h);
+        L.circleMarker([p.lat,p.lon],{radius:r,color:c,weight:2,fillColor:c,fillOpacity:.45,bubblingMouseEvents:false}).addTo(map).bindPopup(h);
         b.push([p.lat,p.lon]);
       });
-      if(b.length>1)map.fitBounds(b,{padding:[30,30],maxZoom:4});
-      else if(b.length)map.setView(b[0],4);
+      function fit(){
+        if(b.length>1)map.fitBounds(b,{padding:[30,30],maxZoom:4});
+        else if(b.length)map.setView(b[0],4);
+      }
+      fit();
+      var big=false,el=document.getElementById("wmap"),btn=document.createElement("button");
+      btn.textContent="\u2715 Zavřít";
+      btn.style.cssText="display:none;position:fixed;top:12px;left:12px;z-index:100001;font:600 13px 'IBM Plex Mono',monospace;padding:10px 14px;background:#142c3a;color:#e7e0cd;border:1px solid #b8863b;border-radius:2px;cursor:pointer";
+      document.body.appendChild(btn);
+      function setBig(v){
+        big=v;el.classList.toggle("wm-full",v);btn.style.display=v?"block":"none";
+        document.body.style.overflow=v?"hidden":"";
+        if(v)map.scrollWheelZoom.enable();else{map.scrollWheelZoom.disable();map.closePopup()}
+        setTimeout(function(){map.invalidateSize();fit()},60);
+      }
+      map.on("click",function(){if(!big)setBig(true)});
+      btn.onclick=function(){setBig(false)};
+      document.addEventListener("keydown",function(e){if(e.key==="Escape"&&big)setBig(false)});
       document.getElementById("wmnote").innerHTML=list.length+" míst · "+nEv+" článků z "+nMon+
-        " monitorů. Velikost značky = počet článků, barva = nejvyšší úroveň hrozby. Lokalita se páruje podle názvu v titulku a shrnutí zprávy (heuristika, ověřte ve zdroji).";
+        " monitorů. Klepnutím na mapu ji zvětšíte. Velikost značky = počet článků, barva = nejvyšší úroveň hrozby. Lokalita se páruje podle názvu v titulku a shrnutí zprávy (heuristika, ověřte ve zdroji).";
       setTimeout(function(){map.invalidateSize()},300);
     }
     var css=document.createElement("link");css.rel="stylesheet";
