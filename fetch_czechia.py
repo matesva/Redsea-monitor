@@ -13,6 +13,7 @@ from czechia_summary import build_summary
 from czechia_rss import build_rss
 from czechia_notify import notify_czechia
 from czechia_topics import build_topics
+import czechia_moratorium as moratorium
 
 
 def load_json(path, default):
@@ -243,10 +244,23 @@ def build_parties(client, data):
 
 def main():
     client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+    mor = moratorium.active()
+    print("Volební moratorium:", "ZAPNUTO" if mor else "vypnuto")
+
     data = load_json(OUT, [])
-    new = collect({a["id"] for a in data})
-    enrich_poll_articles(new)
-    added = 0
+    n0 = len(data)
+    data = moratorium.enter(data) if mor else moratorium.leave(data)
+    changed = len(data) != n0
+
+    known = {a["id"] for a in data} | moratorium.held_ids()
+    new = collect(known)
+    if mor:
+        new = [a for a in new
+               if not moratorium.is_poll_text(a["title"] + " " + a["snippet"])]
+    else:
+        enrich_poll_articles(new)
+
+    added, held_new = 0, []
     for i in range(0, len(new), BATCH):
         batch = new[i:i + BATCH]
         try:
@@ -264,26 +278,47 @@ def main():
                        "sliby", "overeni", "pruzkum", "politici")})
             a.pop("snippet", None)
             a["added"] = datetime.datetime.utcnow().isoformat(timespec="minutes")
+            if mor and moratorium.is_poll_article(a):
+                held_new.append(a)
+                continue
             data.append(a)
             added += 1
+    if held_new:
+        moratorium.hold_articles(held_new)
+        print(f"Moratorium: uschováno nových článků o průzkumech: {len(held_new)}")
     print(f"Přidáno článků: {added}, celkem: {len(data)}")
-    if data and added:
+
+    if data and (added or changed):
         data = sorted(data, key=lambda a: a["added"], reverse=True)[:1500]
         save_json(OUT, data)
     if data:
         save_json("czechia/articles_recent.json", data[:300])
-    build_polls(data)
+
+    if mor:
+        moratorium.write_empty_polls()
+    else:
+        build_polls(data)
+
+    rebuild = bool(added or changed)
     if data:
         build_politici(data)
         build_rss(data)
-    if data and (added or not os.path.exists(PARTIES_OUT)):
+    if data and (rebuild or not os.path.exists(PARTIES_OUT)):
         build_parties(client, data)
-    if data and (added or not os.path.exists("czechia/summary.json")):
+    if data and (rebuild or not os.path.exists("czechia/summary.json")):
         build_summary(client, data)
-    if data and (added or not os.path.exists("czechia/topics.json")):
+    if data and (rebuild or not os.path.exists("czechia/topics.json")):
         build_topics(client, data)
-    notify_czechia(load_json(POLLS_OUT, {}).get("pruzkumy", []),
-                   load_json("czechia/summary.json", {}))
+
+    if mor:
+        moratorium.sanitize_outputs()
+
+    summary = load_json("czechia/summary.json", {})
+    if mor and not os.path.exists("czechia/notify_state.json"):
+        print("Notifikace: moratorium a stav ještě neexistuje, přeskakuji")
+    else:
+        polls = [] if mor else load_json(POLLS_OUT, {}).get("pruzkumy", [])
+        notify_czechia(polls, summary)
 
 
 if __name__ == "__main__":
