@@ -7,6 +7,42 @@ const num=v=>v.toFixed(1).replace(".",",");
 let articles=[],parties={},allPromises=[],polls=[],pols={},sum={},info=[];
 const TABS=["zpravy","strany","sliby","pruzkumy"];
 
+// ---- Volební moratorium (zákaz zveřejňování průzkumů) ----
+// Začátek s rezervou 12 h dopředu, konec = ukončení hlasování. Uprav podle termínů voleb.
+const MOR=[
+  ["2026-10-05T12:00:00+02:00","2026-10-10T14:00:00+02:00"],
+  ["2026-10-12T12:00:00+02:00","2026-10-17T14:00:00+02:00"]
+];
+const POLL_RE=/průzkum|sondáž|volební model|volební odhad|volební preferenc|stranick\S*\s+preferenc|preferenc\S*\s+stran|exit[\s-]?poll|odhad výsledk|volební potenciál/iu;
+const MORW=MOR.find(w=>Date.now()>=Date.parse(w[0])&&Date.now()<Date.parse(w[1]))||null;
+const MORON=!!MORW;
+const bad=s=>POLL_RE.test(String(s||""));
+const pollArt=a=>!!a.pruzkum||bad((a.title||"")+" "+(a.shrnuti||"")+" "+(a.temata||[]).join(" "));
+const NEUTRAL="Přehled hlavních událostí (bez zmínek o předvolebních průzkumech, volební moratorium).";
+function cleanSum(s){
+  if(!MORON||!s)return s;
+  const c={...s};
+  c.uvod=bad(s.uvod)?NEUTRAL:s.uvod;
+  c.praha=(s.praha||[]).filter(x=>!bad(x));
+  c.cr=(s.cr||[]).filter(x=>!bad(x));
+  c.temata=(s.temata||[]).filter(x=>!bad(x));
+  c.pozn=bad(s.pozn)?"":s.pozn;
+  return c;
+}
+function morBanner(){
+  if(!MORON)return;
+  const end=new Date(MORW[1]).toLocaleString("cs-CZ",{weekday:"long",day:"numeric",month:"numeric",hour:"2-digit",minute:"2-digit",timeZone:"Europe/Prague"});
+  const d=document.createElement("div");
+  d.className="card";
+  d.setAttribute("role","note");
+  d.innerHTML=`<b>Volební moratorium</b><div class="meta">Do ukončení hlasování (${esc(end)}) nezveřejňujeme výsledky předvolebních průzkumů. Záložka Průzkumy a zprávy o průzkumech jsou dočasně skryté.</div>`;
+  const anchor=document.querySelector(".tabs");
+  if(anchor&&anchor.parentNode)anchor.parentNode.insertBefore(d,anchor);else document.body.prepend(d);
+  const tb=$("t-pruzkumy");
+  if(tb)tb.style.display="none";
+}
+morBanner();
+
 // načtení JSON bez cache; při chybě (např. 404) vrátí výchozí hodnotu
 const J=(u,d)=>fetch(u,{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).catch(()=>d);
 
@@ -24,7 +60,8 @@ Promise.all([
   pols=pl||{};
   sum=sm||{};
   info=Array.isArray(inf)?inf:[];
-  allPromises=Object.entries(parties).flatMap(([s,d])=>(d.sliby||[]).map(x=>({...x,strana:s})));
+  if(MORON){articles=articles.filter(x=>!pollArt(x));polls=[];info=[]}
+  allPromises=Object.entries(parties).flatMap(([s,d])=>(d.sliby||[]).map(x=>({...x,strana:s}))).filter(x=>!(MORON&&bad(x.slib)));
   const ts=(q&&q.updated)||(articles[0]&&articles[0].added);
   $("upd").textContent=ts?"Aktualizováno "+new Date(ts+"Z").toLocaleString("cs-CZ",{day:"numeric",month:"numeric",hour:"2-digit",minute:"2-digit"}):"Zatím bez dat";
   [...new Set(articles.flatMap(x=>x.strany||[]))].sort().forEach(s=>$("strana").add(new Option(s,s)));
@@ -33,11 +70,16 @@ Promise.all([
   renderSum();renderNews();renderPols();renderParties();renderPromises();fillAgencies();
 });
 
-function tab(n){TABS.forEach(t=>{$("v-"+t).hidden=t!==n;$("t-"+t).classList.toggle("on",t===n)});scrollTo(0,0)}
+function tab(n){
+  if(MORON&&n==="pruzkumy")return;
+  TABS.forEach(t=>{$("v-"+t).hidden=t!==n;$("t-"+t).classList.toggle("on",t===n)});
+  scrollTo(0,0)
+}
 TABS.forEach(t=>$("t-"+t).onclick=()=>tab(t));
 
 function renderSum(){
-  const s=(sum.obdobi||{})[$("sum-days").value];
+  let s=(sum.obdobi||{})[$("sum-days").value];
+  if(s)s=cleanSum(s);
   if(!s){$("sum-body").className="muted";$("sum-body").textContent="Shrnutí zatím není k dispozici.";$("sum-meta").textContent="";return}
   const ul=a=>a&&a.length?`<ul>${a.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:"";
   $("sum-body").className="";
@@ -90,15 +132,18 @@ function renderParties(){
   $("strany-list").innerHTML=list.map(([name,d])=>{
     const t=d.tony||{},s=(t["pozitivní"]||0)+(t["neutrální"]||0)+(t["kritický"]||0)||1;
     const pct=k=>Math.round(100*(t[k]||0)/s);
+    const prof=MORON&&bad(d.profil)?"":d.profil;
+    const krit=MORON&&bad(d.kritika)?"":d.kritika;
+    const tem=(d.temata||[]).filter(x=>!(MORON&&bad(x)));
     const ov=Object.entries(d.overeni||{}).map(([k,v])=>`<span class="tag">${esc(k)}: ${v}</span>`).join("");
     return `<div class="card" style="border-left:5px solid ${col(name)}">
       <h2>${esc(name)}</h2>
       <div class="meta">${d.pocet} zpráv (z toho ${d.praha} o Praze) · ${(d.sliby||[]).length} slibů</div>
-      ${d.profil?`<p>${esc(d.profil)}</p>`:""}
-      ${d.kritika?`<p><b>Nejčastější výhrady:</b> ${esc(d.kritika)}</p>`:""}
+      ${prof?`<p>${esc(prof)}</p>`:""}
+      ${krit?`<p><b>Nejčastější výhrady:</b> ${esc(krit)}</p>`:""}
       <div class="bar"><i class="p" style="width:${pct("pozitivní")}%"></i><i class="n" style="width:${pct("neutrální")}%"></i><i class="k" style="width:${pct("kritický")}%"></i></div>
       <div class="legend">Mediální tón: pozitivní ${pct("pozitivní")} % · neutrální ${pct("neutrální")} % · kritický ${pct("kritický")} %</div>
-      <div>${(d.temata||[]).map(x=>`<span class="tag">${esc(x)}</span>`).join("")}</div>
+      <div>${tem.map(x=>`<span class="tag">${esc(x)}</span>`).join("")}</div>
       ${ov?`<div class="meta">Ověřené výroky: ${ov}</div>`:""}
       <div class="btns"><button data-go="news" data-s="${esc(name)}">Zprávy</button><button data-go="promises" data-s="${esc(name)}">Sliby</button></div>
     </div>`}).join("");
@@ -192,16 +237,18 @@ function lineChart(P,ps){
 // Téma dne (pokud je na stránce blok #topics a existuje topics.json)
 J("topics.json",null).then(d=>{
   const el=document.getElementById("topics");
-  const t=d&&d.temata;
+  let t=d&&d.temata;
   if(!el||!t||!t.length)return;
+  if(MORON)t=t.filter(x=>!(bad(x.nadpis)||bad(x.popis)||bad(x.rozdily)));
+  if(!t.length)return;
   el.className="";
   el.innerHTML=t.map(x=>`<div class="card">
     <b>${esc(x.nadpis)}</b> <span class="tag">${x.zdroju} zdrojů</span>
     <div>${esc(x.popis)}</div>
     <details>
       <summary>Jak to podávají média</summary>
-      ${(x.pohledy||[]).map(p=>`<div class="meta"><b>${esc(p.zdroj)}:</b> ${esc(p.uhel)}</div>`).join("")}
+      ${(x.pohledy||[]).filter(p=>!(MORON&&bad(p.uhel))).map(p=>`<div class="meta"><b>${esc(p.zdroj)}:</b> ${esc(p.uhel)}</div>`).join("")}
       ${x.rozdily?`<div class="meta"><i>${esc(x.rozdily)}</i></div>`:""}
-      <div class="meta">${(x.clanky||[]).map(c=>`<a href="${esc(c.link)}" target="_blank" rel="noopener">${esc(c.source)}</a>`).join(" · ")}</div>
+      <div class="meta">${(x.clanky||[]).filter(c=>!(MORON&&bad(c.title))).map(c=>`<a href="${esc(c.link)}" target="_blank" rel="noopener">${esc(c.source)}</a>`).join(" · ")}</div>
     </details></div>`).join("");
 });
