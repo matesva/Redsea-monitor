@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hledání · Monitory</title>
+<meta name="description" content="Hledání ve zprávách všech AI monitorů najednou">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://matesva.github.io/Redsea-monitor/hledani/">
+<meta name="theme-color" content="#0b1d26">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script data-goatcounter="https://redsea-monitor.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<style>
+*{box-sizing:border-box}
+:root{--ink:#0b1d26;--ink2:#142c3a;--brass:#b8863b;--text:#e7e0cd;--text-dim:#9aa8ac;--rule:rgba(184,134,59,.35)}
+body.light{--ink:#ece6d6;--ink2:#e0d8c0;--text:#1c2b2e;--text-dim:#5c6b6e;--rule:rgba(11,29,38,.18)}
+body{margin:0;font-family:'Spectral',Georgia,serif;background-color:var(--ink);background-image:radial-gradient(circle at 1px 1px,rgba(184,134,59,.06) 1px,transparent 0);background-size:22px 22px;color:var(--text);min-height:100vh;padding-bottom:60px}
+.wrap{max-width:780px;margin:0 auto;padding:0 20px}
+header{border-bottom:3px double var(--brass);padding:28px 0 16px}
+.top{font-family:'IBM Plex Mono',monospace;font-size:.72em;letter-spacing:.04em;color:var(--brass);margin-bottom:12px}
+h1{font-size:2.1em;margin:0 0 6px;line-height:1.15}
+.sub{font-family:'IBM Plex Mono',monospace;font-size:.78em;color:var(--text-dim)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0}
+input,select{padding:10px 12px;font-size:1rem;font-family:'IBM Plex Mono',monospace;border:1px solid var(--rule);border-radius:2px;background:var(--ink2);color:var(--text)}
+input{flex:1;min-width:180px}
+.hit{padding:12px 0;border-top:1px solid var(--rule)}
+.hit:first-child{border-top:none}
+.hit a{color:var(--text);text-decoration:none;font-weight:600}
+.hit a:hover{color:var(--brass)}
+.hit p{margin:4px 0;color:var(--text-dim);font-size:.9em}
+.meta{font-family:'IBM Plex Mono',monospace;font-size:.68em;color:var(--text-dim);line-height:1.7}
+.tag{display:inline-block;border:1px solid var(--rule);border-radius:2px;padding:1px 8px;margin-right:6px;color:var(--brass)}
+.muted{color:var(--text-dim);font-style:italic}
+@media (max-width:600px){h1{font-size:1.6em}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="top">AI MONITORY · HLEDÁNÍ</div>
+    <h1>Hledání napříč monitory</h1>
+    <div class="sub" id="cnt">Načítám zprávy…</div>
+  </header>
+  <div class="filters">
+    <input id="q" placeholder="Hledat ve zprávách všech monitorů…" autofocus>
+    <select id="m"><option value="">Všechny monitory</option></select>
+  </div>
+  <div id="res" class="muted">Zadej hledaný výraz.</div>
+</div>
+<script>
+if(localStorage.getItem('theme')==='light')document.body.classList.add('light');
+var B="/Redsea-monitor/";
+var SRC=[["Rudé moře","data.json"],["USA","usa/data.json"],["Evropa","europe/data.json"],["Blízký východ","middle-east/data.json"],["Čína a Asie","asia/data.json"],["Japonsko","japan/data.json"],["Jižní Amerika","south-america/data.json"],["Česko","czechia/articles_recent.json"]];
+var $=function(id){return document.getElementById(id)};
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function norm(s){return String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()}
+var ALL=[],loaded=0;
+SRC.forEach(function(s){$("m").add(new Option(s[0],s[0]))});
+SRC.forEach(function(s){
+  fetch(B+s[1],{cache:"no-store"}).then(function(r){return r.json()}).then(function(d){
+    var a=Array.isArray(d)?d:(d.articles||[]);
+    a.forEach(function(x){
+      ALL.push({m:s[0],t:x.title||"",l:x.link||"#",s:x.source||"",p:x.published||x.added||"",x:x.shrnuti||"",n:norm((x.title||"")+" "+(x.shrnuti||""))});
+    });
+  }).catch(function(){}).then(function(){
+    loaded++;
+    $("cnt").textContent=loaded<SRC.length?"Načítám zprávy… ("+loaded+"/"+SRC.length+")":"Prohledáváno "+ALL.length+" zpráv z "+SRC.length+" monitorů";
+    render();
+  });
+});
+function render(){
+  var q=norm($("q").value.trim()),m=$("m").value;
+  if(!q){$("res").className="muted";$("res").textContent="Zadej hledaný výraz.";return}
+  var terms=q.split(/\s+/);
+  var out=ALL.filter(function(x){
+    if(m&&x.m!==m)return false;
+    return terms.every(function(t){return x.n.indexOf(t)>=0});
+  }).slice(0,150);
+  $("res").className="";
+  $("res").innerHTML=out.length?out.map(function(x){
+    return '<div class="hit"><a href="'+esc(x.l)+'" target="_blank" rel="noopener">'+esc(x.t)+'</a>'+(x.x?'<p>'+esc(x.x)+'</p>':'')+'<div class="meta"><span class="tag">'+esc(x.m)+'</span>'+esc(x.s)+' · '+esc(x.p)+'</div></div>';
+  }).join(""):'<span class="muted">Nic nenalezeno.</span>';
+}
+$("q").addEventListener("input",render);
+$("m").addEventListener("input",render);
+</script>
+<script src="/Redsea-monitor/nav.js"></script>
+</body>
+</html>

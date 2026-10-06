@@ -12,6 +12,7 @@ MONITORS = [
     ("Blízký východ", "middle-east/data.json"),
     ("Čína a Asie", "asia/data.json"),
     ("Japonsko", "japan/data.json"),
+    ("Jižní Amerika", "south-america/data.json"),
 ]
 
 # název v textu sektoru -> symbol na Yahoo Finance (doplňuj podle potřeby)
@@ -31,6 +32,12 @@ SYMBOLS = {
     "Alibaba": "BABA", "Tencent": "0700.HK",
     "Nvidia": "NVDA", "Apple": "AAPL", "Microsoft": "MSFT",
 }
+SYMBOLS.update({
+    "Bovespa": "^BVSP", "Merval": "^MERV", "EWZ": "EWZ", "Petrobras": "PBR",
+    "Southern Copper": "SCCO", "SQM": "SQM", "Freeport": "FCX", "JBS": "JBS",
+    "Bunge": "BG", "Cosan": "CSAN", "MercadoLibre": "MELI", "YPF": "YPF",
+    "Ecopetrol": "EC", "Chevron": "CVX",
+})
 
 CACHE = {}
 

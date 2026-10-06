@@ -5,7 +5,7 @@ BASE = "/Redsea-monitor/"
 PAGES = [
     ("index.html", ""), ("redsea/index.html", "redsea/"), ("usa/index.html", "usa/"),
     ("europe/index.html", "europe/"), ("middle-east/index.html", "middle-east/"),
-    ("asia/index.html", "asia/"), ("japan/index.html", "japan/"),
+    ("asia/index.html", "asia/"), ("japan/index.html", "japan/"), ("south-america/index.html", "south-america/"),
     ("czechia/index.html", "czechia/"), ("uspesnost/index.html", "uspesnost/"),
     ("hledani/index.html", "hledani/"), ("navstevnost/index.html", "navstevnost/"),
 ]

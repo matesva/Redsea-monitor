@@ -7,6 +7,7 @@
     ["middle-east/", "Blízký východ"],
     ["asia/", "Čína a Asie"],
     ["japan/", "Japonsko"],
+    ["south-america/", "Jižní Amerika"],
     ["czechia/", "Česko"],
     ["hledani/", "Hledání"],
     ["uspesnost/", "Úspěšnost"],
