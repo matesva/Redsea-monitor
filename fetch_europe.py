@@ -1,6 +1,8 @@
 import feedparser
 import json
 import os
+import re
+import calendar
 import urllib.request
 import html
 from datetime import datetime, timezone
@@ -29,56 +31,156 @@ RSS_FEEDS = [
     "https://www.lemonde.fr/en/rss/une.xml",
 ]
 
+# Kolik nejnovějších článků se bere z jednoho feedu a kolik jich je celkem.
+# Články se vybírají střídavě z každého feedu, aby nepřevážily první zdroje.
+PER_FEED_MAX = 4
+MAX_ARTICLES = 40
+
+SOURCE_NAMES = {
+    "bbci.co.uk": "BBC News",
+    "bbc.co.uk": "BBC News",
+    "euractiv.com": "Euractiv",
+    "euobserver.com": "EUobserver",
+    "politico.eu": "Politico Europe",
+    "theguardian.com": "The Guardian",
+    "dw.com": "Deutsche Welle",
+    "euronews.com": "Euronews",
+    "skynews.com": "Sky News",
+    "reuters.com": "Reuters",
+    "apnews.com": "AP News",
+    "ecb.europa.eu": "ECB",
+    "marketwatch.com": "MarketWatch",
+    "dj.com": "WSJ Markets",
+    "ft.com": "Financial Times",
+    "spiegel.de": "Der Spiegel",
+    "lemonde.fr": "Le Monde",
+}
+
 KEYWORDS = [
     "EU ", "European Union", "Brussels", "ECB", "European Parliament",
     "NATO", "Ukraine", "migration", "migrant", "far-right", "election",
     "protest", "sanctions", "Schengen", "eurozone", "Frontex", "Kremlin",
-    "Putin", "Zelensky", "Orban", "Le Pen", "coalition", "referendum"
+    "Putin", "Zelensky", "Orban", "Le Pen", "coalition", "referendum",
+    "Germany", "France", "Italy", "Spain", "Poland", "Hungary", "Macron",
+    "Merz", "Starmer", "Meloni", "Tusk", "Fico", "inflation", "energy",
+    "gas price", "budget", "tariff", "strike", "farmers", "Bundesbank",
+    "euro ", "bond yields", "economy", "court", "defence", "defense"
 ]
 
 THREAT_MAP = {"STABLE": 1, "MEDIUM": 2, "HIGH": 3, "CRITICAL": 4}
 
+def _loc(lat, lon, cs, en=None, terms=None):
+    return {"lat": lat, "lon": lon, "name_cs": cs, "name_en": en or cs, "terms": terms}
+
 LOCATIONS = {
-    "Brussels": {"lat": 50.8503, "lon": 4.3517, "name_cs": "Brusel", "name_en": "Brussels"},
-    "Berlin": {"lat": 52.5200, "lon": 13.4050, "name_cs": "Berlín", "name_en": "Berlin"},
-    "Paris": {"lat": 48.8566, "lon": 2.3522, "name_cs": "Paříž", "name_en": "Paris"},
-    "Warsaw": {"lat": 52.2297, "lon": 21.0122, "name_cs": "Varšava", "name_en": "Warsaw"},
-    "Rome": {"lat": 41.9028, "lon": 12.4964, "name_cs": "Řím", "name_en": "Rome"},
-    "Madrid": {"lat": 40.4168, "lon": -3.7038, "name_cs": "Madrid", "name_en": "Madrid"},
-    "Frankfurt": {"lat": 50.1109, "lon": 8.6821, "name_cs": "Frankfurt nad Mohanem", "name_en": "Frankfurt"},
-    "Strasbourg": {"lat": 48.5734, "lon": 7.7521, "name_cs": "Štrasburk", "name_en": "Strasbourg"},
-    "Kyiv": {"lat": 50.4501, "lon": 30.5234, "name_cs": "Kyjev", "name_en": "Kyiv"},
-    "Prague": {"lat": 50.0755, "lon": 14.4378, "name_cs": "Praha", "name_en": "Prague"},
+    "Brussels": _loc(50.8503, 4.3517, "Brusel", "Brussels", ["brussels", "european commission", "european union", "eu", "nato", "belgium", "belgian"]),
+    "Berlin": _loc(52.5200, 13.4050, "Berlín", "Berlin", ["berlin", "germany", "german", "bundestag", "merz"]),
+    "Paris": _loc(48.8566, 2.3522, "Paříž", "Paris", ["paris", "france", "french", "macron", "le pen"]),
+    "Warsaw": _loc(52.2297, 21.0122, "Varšava", "Warsaw", ["warsaw", "poland", "polish", "tusk"]),
+    "Rome": _loc(41.9028, 12.4964, "Řím", "Rome", ["rome", "italy", "italian", "meloni"]),
+    "Madrid": _loc(40.4168, -3.7038, "Madrid", "Madrid", ["madrid", "spain", "spanish", "sanchez", "sánchez"]),
+    "Frankfurt": _loc(50.1109, 8.6821, "Frankfurt nad Mohanem", "Frankfurt", ["frankfurt", "ecb", "european central bank", "bundesbank"]),
+    "Strasbourg": _loc(48.5734, 7.7521, "Štrasburk", "Strasbourg", ["strasbourg", "european parliament"]),
+    "Kyiv": _loc(50.4501, 30.5234, "Kyjev", "Kyiv", ["kyiv", "kiev", "ukraine", "ukrainian", "zelensky"]),
+    "Prague": _loc(50.0755, 14.4378, "Praha", "Prague", ["prague", "czech", "czechia"]),
+    "London": _loc(51.5072, -0.1276, "Londýn", "London", ["london", "britain", "british", "uk", "england", "starmer", "scotland"]),
+    "Moscow": _loc(55.7558, 37.6173, "Moskva", "Moscow", ["moscow", "russia", "russian", "kremlin", "putin"]),
+    "Budapest": _loc(47.4979, 19.0402, "Budapešť", "Budapest", ["budapest", "hungary", "hungarian", "orban", "orbán"]),
+    "Vienna": _loc(48.2082, 16.3738, "Vídeň", "Vienna", ["vienna", "austria", "austrian"]),
+    "Amsterdam": _loc(52.3676, 4.9041, "Amsterdam", "Amsterdam", ["amsterdam", "netherlands", "dutch", "the hague"]),
+    "Stockholm": _loc(59.3293, 18.0686, "Stockholm", "Stockholm", ["stockholm", "sweden", "swedish"]),
+    "Copenhagen": _loc(55.6761, 12.5683, "Kodaň", "Copenhagen", ["copenhagen", "denmark", "danish", "greenland"]),
+    "Oslo": _loc(59.9139, 10.7522, "Oslo", "Oslo", ["oslo", "norway", "norwegian"]),
+    "Helsinki": _loc(60.1699, 24.9384, "Helsinky", "Helsinki", ["helsinki", "finland", "finnish"]),
+    "Lisbon": _loc(38.7223, -9.1393, "Lisabon", "Lisbon", ["lisbon", "portugal", "portuguese"]),
+    "Athens": _loc(37.9838, 23.7275, "Athény", "Athens", ["athens", "greece", "greek"]),
+    "Bucharest": _loc(44.4268, 26.1025, "Bukurešť", "Bucharest", ["bucharest", "romania", "romanian"]),
+    "Sofia": _loc(42.6977, 23.3219, "Sofie", "Sofia", ["sofia", "bulgaria", "bulgarian"]),
+    "Belgrade": _loc(44.7866, 20.4489, "Bělehrad", "Belgrade", ["belgrade", "serbia", "serbian", "vucic", "vučić"]),
+    "Bratislava": _loc(48.1486, 17.1077, "Bratislava", "Bratislava", ["bratislava", "slovakia", "slovak", "fico"]),
+    "Vilnius": _loc(54.6872, 25.2797, "Vilnius", "Vilnius", ["vilnius", "lithuania", "lithuanian"]),
+    "Riga": _loc(56.9496, 24.1052, "Riga", "Riga", ["riga", "latvia", "latvian"]),
+    "Tallinn": _loc(59.4370, 24.7536, "Tallinn", "Tallinn", ["tallinn", "estonia", "estonian"]),
+    "Dublin": _loc(53.3498, -6.2603, "Dublin", "Dublin", ["dublin", "ireland", "irish"]),
+    "Zagreb": _loc(45.8150, 15.9819, "Záhřeb", "Zagreb", ["zagreb", "croatia", "croatian"]),
+    "Chisinau": _loc(47.0105, 28.8638, "Kišiněv", "Chisinau", ["chisinau", "moldova", "moldovan"]),
+    "Minsk": _loc(53.9006, 27.5590, "Minsk", "Minsk", ["minsk", "belarus", "belarusian", "lukashenko"]),
+    "Istanbul": _loc(41.0082, 28.9784, "Istanbul", "Istanbul", ["istanbul", "turkey", "turkish", "ankara", "erdogan"]),
+    "Bern": _loc(46.9480, 7.4474, "Bern", "Bern", ["bern", "switzerland", "swiss"]),
 }
 
 
+def source_name(feed_url, fallback):
+    host = re.sub(r"^https?://", "", feed_url).split("/")[0].lower()
+    for domain, name in SOURCE_NAMES.items():
+        if host == domain or host.endswith("." + domain):
+            return name
+    return fallback
+
+
+def entry_ts(entry):
+    t = entry.get("published_parsed") or entry.get("updated_parsed")
+    try:
+        return calendar.timegm(t) if t else 0
+    except Exception:
+        return 0
+
+
 def fetch_articles():
-    articles = []
+    per_feed = []
     for feed_url in RSS_FEEDS:
+        items = []
+        name = source_name(feed_url, "News")
         try:
             feed = feedparser.parse(feed_url)
-            for entry in feed.entries:
+            name = source_name(feed_url, feed.feed.get("title", "News"))
+            for entry in sorted(feed.entries, key=entry_ts, reverse=True):
                 title = html.unescape(entry.get("title", ""))
                 summary = html.unescape(entry.get("summary", ""))
                 if any(kw.lower() in (title + summary).lower() for kw in KEYWORDS):
-                    articles.append({
+                    items.append({
                         "title": title,
                         "summary": summary,
                         "link": entry.get("link", "#"),
                         "published": entry.get("published", datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")),
-                        "source": feed.feed.get("title", "News")
+                        "source": name,
+                        "_ts": entry_ts(entry)
                     })
+                    if len(items) >= PER_FEED_MAX:
+                        break
         except Exception as e:
             print(f"Error processing feed {feed_url}: {e}")
-            continue
-    return articles[:20]
+        print(f"Feed {name}: {len(items)} článků")
+        per_feed.append(items)
+
+    # Střídavý výběr: z každého feedu 1. článek, pak 2. atd., bez duplicit.
+    result, seen_links, seen_titles = [], set(), set()
+    idx = 0
+    while len(result) < MAX_ARTICLES and any(idx < len(x) for x in per_feed):
+        for items in per_feed:
+            if idx >= len(items) or len(result) >= MAX_ARTICLES:
+                continue
+            a = items[idx]
+            tkey = re.sub(r"\W+", " ", a["title"].lower()).strip()
+            if a["link"] in seen_links or tkey in seen_titles:
+                continue
+            seen_links.add(a["link"])
+            seen_titles.add(tkey)
+            result.append(a)
+        idx += 1
+
+    result.sort(key=lambda a: a["_ts"], reverse=True)
+    for a in result:
+        a.pop("_ts", None)
+    return result
 
 
 def extract_locations(articles):
     found = {}
-    text_blob = " ".join([a['title'] + " " + a['summary'] for a in articles])
+    text_blob = " ".join([a['title'] + " " + a['summary'] for a in articles]).lower()
     for key, loc in LOCATIONS.items():
-        if key.lower() in text_blob.lower():
+        terms = loc.get("terms") or [key.lower()]
+        if any(re.search(r"(?<![a-z])" + re.escape(t) + r"(?![a-z])", text_blob) for t in terms):
             found[key] = {"key": key, "lat": loc["lat"], "lon": loc["lon"], "name_cs": loc["name_cs"], "name_en": loc["name_en"]}
     return list(found.values())
 
@@ -182,11 +284,17 @@ def fallback_assessment():
     }
 
 
+def prompt_summary(text, limit=300):
+    s = re.sub(r"<[^>]*>", " ", text or "")
+    s = re.sub(r"\s+", " ", s).strip()
+    return s[:limit]
+
+
 def analyze_with_ai(articles, previous_forecast_cs, previous_forecast_en):
     if not articles:
         return fallback_assessment()
 
-    news_text = "\n".join([f"- {a['title']}: {a['summary']}" for a in articles])
+    news_text = "\n".join([f"- {a['title']}: {prompt_summary(a['summary'])}" for a in articles])
     prev_cs = previous_forecast_cs or "Žádná předchozí předpověď."
     prev_en = previous_forecast_en or "No previous forecast."
 
