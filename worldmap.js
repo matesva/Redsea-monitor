@@ -14,7 +14,7 @@
    ".wmpop{font-family:'Spectral',Georgia,serif;font-size:13px;line-height:1.4;max-width:260px}"+
    ".wmpop b{font-size:14px}.wmpop .m{font-family:'IBM Plex Mono',monospace;font-size:11px;color:#666;margin-top:6px}"+
    ".wmpop a{color:#7a5412;text-decoration:none;display:block;margin:2px 0}.wmpop a:hover{text-decoration:underline}"+
-   "#wmap{cursor:zoom-in}#wmap.wm-full{position:fixed;top:0;left:0;right:0;bottom:0;height:100%!important;z-index:100000;border:0;border-radius:0;cursor:grab}"+
+   "#wmap{cursor:zoom-in}#wmap.wm-full{position:fixed!important;top:0!important;left:0!important;right:0!important;bottom:0!important;width:100%!important;height:100vh!important;height:100dvh!important;z-index:100000!important;border:0!important;border-radius:0!important;cursor:grab}"+
    ".wm-dark .leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.85) contrast(.9) saturate(.5)}"+
    "@media (max-width:600px){#wmap{height:340px}}";
   document.head.appendChild(st);
