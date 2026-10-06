@@ -29,6 +29,14 @@ h1{font-size:2.1em;margin:0 0 6px;line-height:1.15}
 .card p{margin:0 0 14px;color:var(--text-dim);font-size:.9em;line-height:1.5}
 .st{font-family:'IBM Plex Mono',monospace;font-size:.72em;color:var(--text-dim);line-height:1.7}
 .lvl{font-weight:700;letter-spacing:.03em}
+.sec{margin-top:40px;border-top:3px double var(--brass);padding-top:20px}
+.sec h2{font-size:1.5em;margin:0 0 6px}
+.cams{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px;margin-top:16px}
+.cam{padding:12px 14px}
+.cam h3{font-size:1.02em;margin:0 0 4px}
+.cam .rg{font-family:'IBM Plex Mono',monospace;font-size:.66em;color:var(--brass);letter-spacing:.04em;text-transform:uppercase;margin-bottom:6px}
+.cam .go{font-family:'IBM Plex Mono',monospace;font-size:.7em;color:var(--text-dim)}
+.cam .live{display:inline-block;width:7px;height:7px;border-radius:50%;background:#a13d2b;margin-right:6px;vertical-align:middle}
 footer{margin-top:34px;text-align:center;font-family:'IBM Plex Mono',monospace;font-size:.66em;color:var(--text-dim)}
 @media (max-width:600px){h1{font-size:1.6em}}
 </style>
@@ -51,6 +59,13 @@ footer{margin-top:34px;text-align:center;font-family:'IBM Plex Mono',monospace;f
     <div class="sub">Automaticky aktualizované AI přehledy zpráv a situace</div>
   </header>
   <div class="grid" id="grid"></div>
+
+  <section class="sec" id="webcams">
+    <h2>Webkamery z významných míst</h2>
+    <div class="sub">Živá vysílání z klíčových lokalit · otevře se v nové záložce</div>
+    <div class="cams" id="cams"></div>
+  </section>
+
   <footer>AKTUALIZOVÁNO AUTOMATICKY · Vždy ověřte v původním zdroji</footer>
 </div>
 <script>
@@ -91,6 +106,27 @@ M.forEach(function(m,i){
     document.getElementById("st"+i).innerHTML=h;
   }).catch(function(){document.getElementById("st"+i).textContent="Otevřít monitor →"});
 });
+
+/* ---- Webkamery ----
+   q = hledaný výraz (výsledky filtrované na živá vysílání na YouTube).
+   Pro pevný odkaz nastav direct:true a do q vlož celou URL. */
+var W=[
+ {name:"Suezský průplav",rg:"Rudé moře",q:"Suez Canal live webcam ship traffic"},
+ {name:"Bab al-Mandab",rg:"Rudé moře",q:"Red Sea Bab el-Mandeb live cam ships"},
+ {name:"Jeruzalém",rg:"Blízký východ",q:"Jerusalem live webcam"},
+ {name:"Dubaj",rg:"Blízký východ",q:"Dubai live webcam skyline"},
+ {name:"New York · Times Square",rg:"USA",q:"Times Square New York live cam"},
+ {name:"Washington D.C.",rg:"USA",q:"Washington DC live webcam Capitol"},
+ {name:"Londýn · Tower Bridge",rg:"Evropa",q:"London Tower Bridge live cam"},
+ {name:"Praha",rg:"Česko",q:"Praha živě webkamera Staroměstské náměstí"},
+ {name:"Tokio · Shibuya",rg:"Japonsko",q:"Shibuya crossing live camera Tokyo"},
+ {name:"Hongkong",rg:"Asie",q:"Hong Kong Victoria Harbour live cam"},
+ {name:"Rio de Janeiro",rg:"Jižní Amerika",q:"Rio de Janeiro Copacabana live webcam"}
+];
+document.getElementById("cams").innerHTML=W.map(function(c){
+  var url=c.direct?c.q:"https://www.youtube.com/results?search_query="+encodeURIComponent(c.q)+"&sp=EgJAAQ%253D%253D";
+  return '<a class="card cam" href="'+url+'" target="_blank" rel="noopener noreferrer"><div class="rg">'+c.rg+'</div><h3>'+c.name+'</h3><div class="go"><span class="live"></span>Sledovat živě →</div></a>';
+}).join("");
 </script>
 <script src="/Redsea-monitor/nav.js"></script>
   <script src="/Redsea-monitor/worldmap.js"></script>
