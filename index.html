@@ -143,20 +143,27 @@ M.forEach(function(m,i){
 });
 
 /* ---- Webkamery ----
-   ch = ID YouTube kanálu (UC…) → vždy aktuální živý přenos
-   v  = ID konkrétního videa (záloha, mění se při restartu streamu)
-   Karty bez ID se nezobrazí; bez jediné karty se skryje celá sekce. */
+   url = celá adresa živého vysílání (watch?v=…, youtu.be/…, /channel/UC…)
+   Karty bez platné adresy se nezobrazí; bez jediné karty se skryje celá sekce. */
 var W=[
- {name:"New York · Times Square",rg:"USA",ch:"",v:"z-jYdOIKcTQ"}
- /* Další kamery přidávej takto:
- ,{name:"Název",rg:"Region",ch:"UC…",v:""} */
+ {name:"New York · Times Square",rg:"USA",url:"https://www.youtube.com/watch?v=z-jYdOIKcTQ"},
+ {name:"Tokio · Shibuya",rg:"Japonsko",url:"https://www.youtube.com/watch?v=dfVK7ld38Ys"}
+ /* Záložní ID, kdyby se výše uvedená nepřehrála:
+    Times Square: Q0uLV52xGZE, VGnFLdQW39A
+    Shibuya (ANN): 8H3nRCFVR6Y */
 ];
+function parseCam(c){
+  var u=c.url||"",m;
+  if(m=u.match(/[?&]v=([\w-]{11})/)||u.match(/youtu\.be\/([\w-]{11})/)||u.match(/\/live\/([\w-]{11})/))c.v=m[1];
+  if(m=u.match(/channel\/(UC[\w-]{22})/))c.ch=m[1];
+  return c;
+}
 function camSrc(c){
   if(c.ch)return "https://www.youtube-nocookie.com/embed/live_stream?channel="+c.ch+"&autoplay=1&mute=1";
   if(c.v)return "https://www.youtube-nocookie.com/embed/"+c.v+"?autoplay=1&mute=1";
   return "";
 }
-W=W.filter(function(c){return camSrc(c)});
+W=W.map(parseCam).filter(function(c){return camSrc(c)});
 if(!W.length){document.getElementById("webcams").style.display="none"}
 var cm=document.getElementById("cams");
 cm.innerHTML=W.map(function(c,i){
