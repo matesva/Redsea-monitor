@@ -1,6 +1,8 @@
 import feedparser
 import json
 import os
+import re
+import calendar
 import urllib.request
 import html
 from datetime import datetime, timezone
@@ -49,33 +51,312 @@ LOCATIONS = {
 }
 
 
+
+# --- Rozšíření (víc zdrojů, víc lokalit) ---
+PER_FEED_MAX = 4
+MAX_ARTICLES = 40
+
+RSS_FEEDS += ["https://www.straitstimes.com/news/asia/rss.xml", "https://thediplomat.com/feed/", "https://www.thehindu.com/news/international/feeder/default.rss"]
+KEYWORDS += ["India", "Pakistan", "Vietnam", "Indonesia", "Thailand", "Singapore", "Malaysia", "Myanmar", "Australia", "Modi", "Nikkei", "yuan", "rupee", "Bangladesh", "Afghanistan", "Beijing", "Kospi"]
+LOCATIONS.update({
+ "Delhi": {
+  "lat": 28.6139,
+  "lon": 77.209,
+  "name_cs": "Dillí",
+  "name_en": "New Delhi"
+ },
+ "Islamabad": {
+  "lat": 33.6844,
+  "lon": 73.0479,
+  "name_cs": "Islámábád",
+  "name_en": "Islamabad"
+ },
+ "Bangkok": {
+  "lat": 13.7563,
+  "lon": 100.5018,
+  "name_cs": "Bangkok",
+  "name_en": "Bangkok"
+ },
+ "Hanoi": {
+  "lat": 21.0285,
+  "lon": 105.8542,
+  "name_cs": "Hanoj",
+  "name_en": "Hanoi"
+ },
+ "Jakarta": {
+  "lat": -6.2088,
+  "lon": 106.8456,
+  "name_cs": "Jakarta",
+  "name_en": "Jakarta"
+ },
+ "Singapore": {
+  "lat": 1.3521,
+  "lon": 103.8198,
+  "name_cs": "Singapur",
+  "name_en": "Singapore"
+ },
+ "Kuala Lumpur": {
+  "lat": 3.139,
+  "lon": 101.6869,
+  "name_cs": "Kuala Lumpur",
+  "name_en": "Kuala Lumpur"
+ },
+ "Canberra": {
+  "lat": -35.2809,
+  "lon": 149.13,
+  "name_cs": "Canberra",
+  "name_en": "Canberra"
+ },
+ "Kabul": {
+  "lat": 34.5553,
+  "lon": 69.2075,
+  "name_cs": "Kábul",
+  "name_en": "Kabul"
+ },
+ "Dhaka": {
+  "lat": 23.8103,
+  "lon": 90.4125,
+  "name_cs": "Dháka",
+  "name_en": "Dhaka"
+ },
+ "Yangon": {
+  "lat": 16.8409,
+  "lon": 96.1735,
+  "name_cs": "Rangún",
+  "name_en": "Yangon"
+ },
+ "Taiwan Strait": {
+  "lat": 24.5,
+  "lon": 119.5,
+  "name_cs": "Tchajwanský průliv",
+  "name_en": "Taiwan Strait"
+ }
+})
+LOCATION_TERMS = {
+ "Beijing": [
+  "beijing",
+  "china",
+  "chinese",
+  "xi jinping"
+ ],
+ "Taipei": [
+  "taipei",
+  "taiwan"
+ ],
+ "Tokyo": [
+  "tokyo",
+  "japan",
+  "japanese"
+ ],
+ "Seoul": [
+  "seoul",
+  "south korea",
+  "south korean"
+ ],
+ "Pyongyang": [
+  "pyongyang",
+  "north korea",
+  "kim jong"
+ ],
+ "South China Sea": [
+  "south china sea"
+ ],
+ "Shanghai": [
+  "shanghai"
+ ],
+ "Hong Kong": [
+  "hong kong"
+ ],
+ "Manila": [
+  "manila",
+  "philippines",
+  "philippine"
+ ],
+ "Delhi": [
+  "delhi",
+  "india$",
+  "indian$",
+  "modi"
+ ],
+ "Islamabad": [
+  "islamabad",
+  "pakistan",
+  "imran khan"
+ ],
+ "Bangkok": [
+  "bangkok",
+  "thailand",
+  "thai$"
+ ],
+ "Hanoi": [
+  "hanoi",
+  "vietnam"
+ ],
+ "Jakarta": [
+  "jakarta",
+  "indonesia",
+  "borneo",
+  "sumatra"
+ ],
+ "Singapore": [
+  "singapore"
+ ],
+ "Kuala Lumpur": [
+  "kuala lumpur",
+  "malaysia"
+ ],
+ "Canberra": [
+  "canberra",
+  "australia",
+  "sydney"
+ ],
+ "Kabul": [
+  "kabul",
+  "afghanistan",
+  "taliban"
+ ],
+ "Dhaka": [
+  "dhaka",
+  "bangladesh"
+ ],
+ "Yangon": [
+  "yangon",
+  "myanmar",
+  "burma"
+ ],
+ "Taiwan Strait": [
+  "taiwan strait"
+ ]
+}
+
+SOURCE_NAMES = {
+ "bbci.co.uk": "BBC News",
+ "bbc.co.uk": "BBC News",
+ "aljazeera.com": "Al Jazeera",
+ "theguardian.com": "The Guardian",
+ "cnbc.com": "CNBC",
+ "skynews.com": "Sky News",
+ "alarabiya.net": "Al Arabiya",
+ "middleeasteye.net": "Middle East Eye",
+ "gcaptain.com": "gCaptain",
+ "splash247.com": "Splash247",
+ "oilprice.com": "OilPrice",
+ "reuters.com": "Reuters",
+ "apnews.com": "AP News",
+ "timesofisrael.com": "Times of Israel",
+ "jpost.com": "Jerusalem Post",
+ "haaretz.com": "Haaretz",
+ "iranintl.com": "Iran International",
+ "naharnet.com": "Naharnet",
+ "rudaw.net": "Rudaw",
+ "navalnews.com": "Naval News",
+ "defensenews.com": "Defense News",
+ "maritime-executive.com": "Maritime Executive",
+ "hellenicshippingnews.com": "Hellenic Shipping News",
+ "zawya.com": "Zawya",
+ "marketwatch.com": "MarketWatch",
+ "dj.com": "WSJ Markets",
+ "scmp.com": "SCMP",
+ "nikkei.com": "Nikkei Asia",
+ "yna.co.kr": "Yonhap",
+ "taiwannews.com.tw": "Taiwan News",
+ "channelnewsasia.com": "CNA",
+ "koreaherald.com": "Korea Herald",
+ "japantimes.co.jp": "Japan Times",
+ "nhk.or.jp": "NHK World",
+ "kyodonews.net": "Kyodo News",
+ "mainichi.jp": "Mainichi",
+ "asahi.com": "Asahi Shimbun",
+ "thenationalnews.com": "The National",
+ "arabnews.com": "Arab News",
+ "middleeastmonitor.com": "Middle East Monitor",
+ "straitstimes.com": "Straits Times",
+ "thediplomat.com": "The Diplomat",
+ "thehindu.com": "The Hindu"
+}
+
+
+def source_name(feed_url, fallback):
+    host = re.sub(r"^https?://", "", feed_url).split("/")[0].lower()
+    for domain, name in SOURCE_NAMES.items():
+        if host == domain or host.endswith("." + domain):
+            return name
+    return fallback
+
+
+def entry_ts(entry):
+    t = entry.get("published_parsed") or entry.get("updated_parsed")
+    try:
+        return calendar.timegm(t) if t else 0
+    except Exception:
+        return 0
+
+
+def term_regex(t):
+    exact = t.endswith("$")
+    t = t.rstrip("$")
+    return re.compile(r"(?<![a-z])" + re.escape(t) + (r"(?![a-z])" if exact else ""))
+
+
 def fetch_articles():
-    articles = []
+    excludes = [e.lower() for e in globals().get("EXCLUDE_KEYWORDS", [])]
+    per_feed = []
     for feed_url in RSS_FEEDS:
+        items = []
+        name = source_name(feed_url, "News")
         try:
             feed = feedparser.parse(feed_url)
-            for entry in feed.entries:
+            name = source_name(feed_url, feed.feed.get("title", "News"))
+            for entry in sorted(feed.entries, key=entry_ts, reverse=True):
                 title = html.unescape(entry.get("title", ""))
                 summary = html.unescape(entry.get("summary", ""))
-                if any(kw.lower() in (title + summary).lower() for kw in KEYWORDS):
-                    articles.append({
+                combined = (title + summary).lower()
+                if any(ex in combined for ex in excludes):
+                    continue
+                if any(kw.lower() in combined for kw in KEYWORDS):
+                    items.append({
                         "title": title,
                         "summary": summary,
                         "link": entry.get("link", "#"),
                         "published": entry.get("published", datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")),
-                        "source": feed.feed.get("title", "News")
+                        "source": name,
+                        "_ts": entry_ts(entry)
                     })
+                    if len(items) >= PER_FEED_MAX:
+                        break
         except Exception as e:
             print(f"Error processing feed {feed_url}: {e}")
-            continue
-    return articles[:20]
+        print(f"Feed {name}: {len(items)} článků")
+        per_feed.append(items)
+
+    # Střídavý výběr: z každého feedu 1. článek, pak 2. atd., bez duplicit.
+    result, seen_links, seen_titles = [], set(), set()
+    idx = 0
+    while len(result) < MAX_ARTICLES and any(idx < len(x) for x in per_feed):
+        for items in per_feed:
+            if idx >= len(items) or len(result) >= MAX_ARTICLES:
+                continue
+            a = items[idx]
+            tkey = re.sub(r"\W+", " ", a["title"].lower()).strip()
+            if a["link"] in seen_links or tkey in seen_titles:
+                continue
+            seen_links.add(a["link"])
+            seen_titles.add(tkey)
+            result.append(a)
+        idx += 1
+
+    result.sort(key=lambda a: a["_ts"], reverse=True)
+    for a in result:
+        a.pop("_ts", None)
+    return result
 
 
 def extract_locations(articles):
     found = {}
-    text_blob = " ".join([a['title'] + " " + a['summary'] for a in articles])
+    text_blob = " ".join([a['title'] + " " + a['summary'] for a in articles]).lower()
     for key, loc in LOCATIONS.items():
-        if key.lower() in text_blob.lower():
+        terms = LOCATION_TERMS.get(key) or [key.lower()]
+        if any(term_regex(t).search(text_blob) for t in terms):
             found[key] = {"key": key, "lat": loc["lat"], "lon": loc["lon"], "name_cs": loc["name_cs"], "name_en": loc["name_en"]}
     return list(found.values())
 
@@ -177,11 +458,17 @@ def fallback_assessment():
     }
 
 
+def prompt_summary(text, limit=300):
+    s = re.sub(r"<[^>]*>", " ", text or "")
+    s = re.sub(r"\s+", " ", s).strip()
+    return s[:limit]
+
+
 def analyze_with_ai(articles, previous_forecast_cs, previous_forecast_en):
     if not articles:
         return fallback_assessment()
 
-    news_text = "\n".join([f"- {a['title']}: {a['summary']}" for a in articles])
+    news_text = "\n".join([f"- {a['title']}: {prompt_summary(a['summary'])}" for a in articles])
     prev_cs = previous_forecast_cs or "Žádná předchozí předpověď."
     prev_en = previous_forecast_en or "No previous forecast."
 

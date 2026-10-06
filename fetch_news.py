@@ -1,6 +1,8 @@
 import feedparser
 import json
 import os
+import re
+import calendar
 import urllib.request
 import html
 from datetime import datetime, timezone
@@ -50,33 +52,278 @@ LOCATIONS = {
 }
 
 
+
+# --- Rozšíření (víc zdrojů, víc lokalit) ---
+PER_FEED_MAX = 4
+MAX_ARTICLES = 40
+
+RSS_FEEDS += []
+KEYWORDS += ["Houthis", "Mandab", "Mandeb", "Hormuz", "Suez", "tanker", "Saudi", "Aden", "Sanaa", "Djibouti", "Eritrea", "Somalia", "Iran", "container ship", "maritime", "Gulf of Aden", "Ansar Allah"]
+LOCATIONS.update({
+ "Djibouti": {
+  "lat": 11.5721,
+  "lon": 43.1456,
+  "name_cs": "Džibuti",
+  "name_en": "Djibouti"
+ },
+ "Eritrea": {
+  "lat": 15.3229,
+  "lon": 38.9251,
+  "name_cs": "Eritrea",
+  "name_en": "Eritrea"
+ },
+ "Gulf of Aden": {
+  "lat": 12.0,
+  "lon": 47.0,
+  "name_cs": "Adenský záliv",
+  "name_en": "Gulf of Aden"
+ },
+ "Jeddah": {
+  "lat": 21.4858,
+  "lon": 39.1925,
+  "name_cs": "Džidda",
+  "name_en": "Jeddah"
+ },
+ "Port Sudan": {
+  "lat": 19.6158,
+  "lon": 37.2164,
+  "name_cs": "Port Sudán",
+  "name_en": "Port Sudan"
+ },
+ "Iran": {
+  "lat": 32.4279,
+  "lon": 53.688,
+  "name_cs": "Írán",
+  "name_en": "Iran"
+ },
+ "Eilat": {
+  "lat": 29.5577,
+  "lon": 34.9519,
+  "name_cs": "Ejlat",
+  "name_en": "Eilat"
+ },
+ "Egypt": {
+  "lat": 26.8206,
+  "lon": 30.8025,
+  "name_cs": "Egypt",
+  "name_en": "Egypt"
+ },
+ "Cape of Good Hope": {
+  "lat": -34.3568,
+  "lon": 18.474,
+  "name_cs": "Mys Dobré naděje",
+  "name_en": "Cape of Good Hope"
+ }
+})
+LOCATION_TERMS = {
+ "Yemen": [
+  "yemen",
+  "yemeni",
+  "houthi",
+  "aden",
+  "sanaa",
+  "hodeidah"
+ ],
+ "Red Sea": [
+  "red sea"
+ ],
+ "Bab-el-Mandeb": [
+  "bab-el-mandeb",
+  "bab al-mandab",
+  "bab al-mandeb",
+  "bab el-mandeb",
+  "mandeb",
+  "mandab"
+ ],
+ "Hormuz": [
+  "hormuz"
+ ],
+ "Suez": [
+  "suez"
+ ],
+ "Mecca": [
+  "mecca"
+ ],
+ "Saudi Arabia": [
+  "saudi"
+ ],
+ "Oman": [
+  "oman"
+ ],
+ "Mokha": [
+  "mokha"
+ ],
+ "Iraq": [
+  "iraq"
+ ],
+ "Djibouti": [
+  "djibouti"
+ ],
+ "Eritrea": [
+  "eritrea",
+  "asmara"
+ ],
+ "Gulf of Aden": [
+  "gulf of aden",
+  "somalia",
+  "somali"
+ ],
+ "Jeddah": [
+  "jeddah",
+  "jiddah"
+ ],
+ "Port Sudan": [
+  "port sudan",
+  "sudan$"
+ ],
+ "Iran": [
+  "iran",
+  "iranian",
+  "tehran"
+ ],
+ "Eilat": [
+  "eilat",
+  "israel"
+ ],
+ "Egypt": [
+  "egypt",
+  "cairo",
+  "egyptian"
+ ],
+ "Cape of Good Hope": [
+  "cape of good hope",
+  "cape route"
+ ]
+}
+
+SOURCE_NAMES = {
+ "bbci.co.uk": "BBC News",
+ "bbc.co.uk": "BBC News",
+ "aljazeera.com": "Al Jazeera",
+ "theguardian.com": "The Guardian",
+ "cnbc.com": "CNBC",
+ "skynews.com": "Sky News",
+ "alarabiya.net": "Al Arabiya",
+ "middleeasteye.net": "Middle East Eye",
+ "gcaptain.com": "gCaptain",
+ "splash247.com": "Splash247",
+ "oilprice.com": "OilPrice",
+ "reuters.com": "Reuters",
+ "apnews.com": "AP News",
+ "timesofisrael.com": "Times of Israel",
+ "jpost.com": "Jerusalem Post",
+ "haaretz.com": "Haaretz",
+ "iranintl.com": "Iran International",
+ "naharnet.com": "Naharnet",
+ "rudaw.net": "Rudaw",
+ "navalnews.com": "Naval News",
+ "defensenews.com": "Defense News",
+ "maritime-executive.com": "Maritime Executive",
+ "hellenicshippingnews.com": "Hellenic Shipping News",
+ "zawya.com": "Zawya",
+ "marketwatch.com": "MarketWatch",
+ "dj.com": "WSJ Markets",
+ "scmp.com": "SCMP",
+ "nikkei.com": "Nikkei Asia",
+ "yna.co.kr": "Yonhap",
+ "taiwannews.com.tw": "Taiwan News",
+ "channelnewsasia.com": "CNA",
+ "koreaherald.com": "Korea Herald",
+ "japantimes.co.jp": "Japan Times",
+ "nhk.or.jp": "NHK World",
+ "kyodonews.net": "Kyodo News",
+ "mainichi.jp": "Mainichi",
+ "asahi.com": "Asahi Shimbun",
+ "thenationalnews.com": "The National",
+ "arabnews.com": "Arab News",
+ "middleeastmonitor.com": "Middle East Monitor",
+ "straitstimes.com": "Straits Times",
+ "thediplomat.com": "The Diplomat",
+ "thehindu.com": "The Hindu"
+}
+
+
+def source_name(feed_url, fallback):
+    host = re.sub(r"^https?://", "", feed_url).split("/")[0].lower()
+    for domain, name in SOURCE_NAMES.items():
+        if host == domain or host.endswith("." + domain):
+            return name
+    return fallback
+
+
+def entry_ts(entry):
+    t = entry.get("published_parsed") or entry.get("updated_parsed")
+    try:
+        return calendar.timegm(t) if t else 0
+    except Exception:
+        return 0
+
+
+def term_regex(t):
+    exact = t.endswith("$")
+    t = t.rstrip("$")
+    return re.compile(r"(?<![a-z])" + re.escape(t) + (r"(?![a-z])" if exact else ""))
+
+
 def fetch_articles():
-    articles = []
+    excludes = [e.lower() for e in globals().get("EXCLUDE_KEYWORDS", [])]
+    per_feed = []
     for feed_url in RSS_FEEDS:
+        items = []
+        name = source_name(feed_url, "News")
         try:
             feed = feedparser.parse(feed_url)
-            for entry in feed.entries:
+            name = source_name(feed_url, feed.feed.get("title", "News"))
+            for entry in sorted(feed.entries, key=entry_ts, reverse=True):
                 title = html.unescape(entry.get("title", ""))
                 summary = html.unescape(entry.get("summary", ""))
-                if any(kw.lower() in (title + summary).lower() for kw in KEYWORDS):
-                    articles.append({
+                combined = (title + summary).lower()
+                if any(ex in combined for ex in excludes):
+                    continue
+                if any(kw.lower() in combined for kw in KEYWORDS):
+                    items.append({
                         "title": title,
                         "summary": summary,
                         "link": entry.get("link", "#"),
                         "published": entry.get("published", datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")),
-                        "source": feed.feed.get("title", "News")
+                        "source": name,
+                        "_ts": entry_ts(entry)
                     })
+                    if len(items) >= PER_FEED_MAX:
+                        break
         except Exception as e:
             print(f"Error processing feed {feed_url}: {e}")
-            continue
-    return articles[:20]
+        print(f"Feed {name}: {len(items)} článků")
+        per_feed.append(items)
+
+    # Střídavý výběr: z každého feedu 1. článek, pak 2. atd., bez duplicit.
+    result, seen_links, seen_titles = [], set(), set()
+    idx = 0
+    while len(result) < MAX_ARTICLES and any(idx < len(x) for x in per_feed):
+        for items in per_feed:
+            if idx >= len(items) or len(result) >= MAX_ARTICLES:
+                continue
+            a = items[idx]
+            tkey = re.sub(r"\W+", " ", a["title"].lower()).strip()
+            if a["link"] in seen_links or tkey in seen_titles:
+                continue
+            seen_links.add(a["link"])
+            seen_titles.add(tkey)
+            result.append(a)
+        idx += 1
+
+    result.sort(key=lambda a: a["_ts"], reverse=True)
+    for a in result:
+        a.pop("_ts", None)
+    return result
 
 
 def extract_locations(articles):
     found = {}
-    text_blob = " ".join([a['title'] + " " + a['summary'] for a in articles])
+    text_blob = " ".join([a['title'] + " " + a['summary'] for a in articles]).lower()
     for key, loc in LOCATIONS.items():
-        if key.lower() in text_blob.lower():
+        terms = LOCATION_TERMS.get(key) or [key.lower()]
+        if any(term_regex(t).search(text_blob) for t in terms):
             found[key] = {"key": key, "lat": loc["lat"], "lon": loc["lon"], "name_cs": loc["name_cs"], "name_en": loc["name_en"]}
     return list(found.values())
 
@@ -187,11 +434,17 @@ def fallback_assessment():
     }
 
 
+def prompt_summary(text, limit=300):
+    s = re.sub(r"<[^>]*>", " ", text or "")
+    s = re.sub(r"\s+", " ", s).strip()
+    return s[:limit]
+
+
 def analyze_with_ai(articles, previous_forecast_cs, previous_forecast_en):
     if not articles:
         return fallback_assessment()
 
-    news_text = "\n".join([f"- {a['title']}: {a['summary']}" for a in articles])
+    news_text = "\n".join([f"- {a['title']}: {prompt_summary(a['summary'])}" for a in articles])
     prev_cs = previous_forecast_cs or "Žádná předchozí předpověď."
     prev_en = previous_forecast_en or "No previous forecast."
 

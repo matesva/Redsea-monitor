@@ -2,6 +2,8 @@
 import feedparser
 import json
 import os
+import re
+import calendar
 import urllib.request
 import html
 from datetime import datetime, timezone
@@ -52,36 +54,347 @@ LOCATIONS = {
 }
 
 
+
+# --- Rozšíření (víc zdrojů, víc lokalit) ---
+PER_FEED_MAX = 4
+MAX_ARTICLES = 40
+
+RSS_FEEDS += ["https://www.thenationalnews.com/arc/outboundfeeds/rss/?outputType=xml", "https://www.arabnews.com/rss.xml", "https://www.middleeastmonitor.com/feed/"]
+KEYWORDS += ["Saudi", "Qatar", "Jordan", "Cairo", "Egypt", "Erdogan", "Gulf", "Hormuz", "Rafah", "Haifa", "Mossad", "Emirates", "Kuwait", "Bahrain", "Turkey", "Oman"]
+LOCATIONS.update({
+ "Riyadh": {
+  "lat": 24.7136,
+  "lon": 46.6753,
+  "name_cs": "Rijád",
+  "name_en": "Riyadh"
+ },
+ "Doha": {
+  "lat": 25.2854,
+  "lon": 51.531,
+  "name_cs": "Dauhá",
+  "name_en": "Doha"
+ },
+ "Dubai": {
+  "lat": 25.2048,
+  "lon": 55.2708,
+  "name_cs": "Dubaj / SAE",
+  "name_en": "Dubai / UAE"
+ },
+ "Amman": {
+  "lat": 31.9454,
+  "lon": 35.9284,
+  "name_cs": "Ammán",
+  "name_en": "Amman"
+ },
+ "Ankara": {
+  "lat": 39.9334,
+  "lon": 32.8597,
+  "name_cs": "Ankara",
+  "name_en": "Ankara"
+ },
+ "Cairo": {
+  "lat": 30.0444,
+  "lon": 31.2357,
+  "name_cs": "Káhira",
+  "name_en": "Cairo"
+ },
+ "Kuwait": {
+  "lat": 29.3759,
+  "lon": 47.9774,
+  "name_cs": "Kuvajt",
+  "name_en": "Kuwait"
+ },
+ "Manama": {
+  "lat": 26.2285,
+  "lon": 50.586,
+  "name_cs": "Manáma",
+  "name_en": "Manama"
+ },
+ "Muscat": {
+  "lat": 23.588,
+  "lon": 58.3829,
+  "name_cs": "Maskat",
+  "name_en": "Muscat"
+ },
+ "Hormuz": {
+  "lat": 26.5667,
+  "lon": 56.25,
+  "name_cs": "Hormuzský průliv",
+  "name_en": "Strait of Hormuz"
+ },
+ "Isfahan": {
+  "lat": 32.6546,
+  "lon": 51.668,
+  "name_cs": "Isfahán",
+  "name_en": "Isfahan"
+ },
+ "Haifa": {
+  "lat": 32.794,
+  "lon": 34.9896,
+  "name_cs": "Haifa",
+  "name_en": "Haifa"
+ },
+ "Aleppo": {
+  "lat": 36.2021,
+  "lon": 37.1343,
+  "name_cs": "Aleppo",
+  "name_en": "Aleppo"
+ },
+ "Mosul": {
+  "lat": 36.335,
+  "lon": 43.1189,
+  "name_cs": "Mosul",
+  "name_en": "Mosul"
+ },
+ "Basra": {
+  "lat": 30.5085,
+  "lon": 47.7835,
+  "name_cs": "Basra",
+  "name_en": "Basra"
+ }
+})
+LOCATION_TERMS = {
+ "Jerusalem": [
+  "jerusalem",
+  "israel",
+  "knesset",
+  "netanyahu"
+ ],
+ "Gaza": [
+  "gaza",
+  "hamas",
+  "rafah",
+  "khan younis"
+ ],
+ "Tel Aviv": [
+  "tel aviv",
+  "idf"
+ ],
+ "Tehran": [
+  "tehran",
+  "iran",
+  "iranian",
+  "irgc",
+  "khamenei"
+ ],
+ "Damascus": [
+  "damascus",
+  "syria",
+  "syrian"
+ ],
+ "Beirut": [
+  "beirut",
+  "lebanon",
+  "lebanese",
+  "hezbollah"
+ ],
+ "Baghdad": [
+  "baghdad",
+  "iraq",
+  "iraqi"
+ ],
+ "Erbil": [
+  "erbil",
+  "kurdistan",
+  "kurdish"
+ ],
+ "West Bank": [
+  "west bank",
+  "ramallah",
+  "settler"
+ ],
+ "Riyadh": [
+  "riyadh",
+  "saudi"
+ ],
+ "Doha": [
+  "doha",
+  "qatar"
+ ],
+ "Dubai": [
+  "dubai",
+  "abu dhabi",
+  "uae",
+  "emirates"
+ ],
+ "Amman": [
+  "amman",
+  "jordan"
+ ],
+ "Ankara": [
+  "ankara",
+  "turkey",
+  "turkish",
+  "erdogan"
+ ],
+ "Cairo": [
+  "cairo",
+  "egypt",
+  "egyptian"
+ ],
+ "Kuwait": [
+  "kuwait"
+ ],
+ "Manama": [
+  "manama",
+  "bahrain"
+ ],
+ "Muscat": [
+  "muscat",
+  "oman"
+ ],
+ "Hormuz": [
+  "hormuz"
+ ],
+ "Isfahan": [
+  "isfahan",
+  "natanz",
+  "fordow"
+ ],
+ "Haifa": [
+  "haifa"
+ ],
+ "Aleppo": [
+  "aleppo",
+  "idlib"
+ ],
+ "Mosul": [
+  "mosul",
+  "kirkuk"
+ ],
+ "Basra": [
+  "basra"
+ ]
+}
+
+SOURCE_NAMES = {
+ "bbci.co.uk": "BBC News",
+ "bbc.co.uk": "BBC News",
+ "aljazeera.com": "Al Jazeera",
+ "theguardian.com": "The Guardian",
+ "cnbc.com": "CNBC",
+ "skynews.com": "Sky News",
+ "alarabiya.net": "Al Arabiya",
+ "middleeasteye.net": "Middle East Eye",
+ "gcaptain.com": "gCaptain",
+ "splash247.com": "Splash247",
+ "oilprice.com": "OilPrice",
+ "reuters.com": "Reuters",
+ "apnews.com": "AP News",
+ "timesofisrael.com": "Times of Israel",
+ "jpost.com": "Jerusalem Post",
+ "haaretz.com": "Haaretz",
+ "iranintl.com": "Iran International",
+ "naharnet.com": "Naharnet",
+ "rudaw.net": "Rudaw",
+ "navalnews.com": "Naval News",
+ "defensenews.com": "Defense News",
+ "maritime-executive.com": "Maritime Executive",
+ "hellenicshippingnews.com": "Hellenic Shipping News",
+ "zawya.com": "Zawya",
+ "marketwatch.com": "MarketWatch",
+ "dj.com": "WSJ Markets",
+ "scmp.com": "SCMP",
+ "nikkei.com": "Nikkei Asia",
+ "yna.co.kr": "Yonhap",
+ "taiwannews.com.tw": "Taiwan News",
+ "channelnewsasia.com": "CNA",
+ "koreaherald.com": "Korea Herald",
+ "japantimes.co.jp": "Japan Times",
+ "nhk.or.jp": "NHK World",
+ "kyodonews.net": "Kyodo News",
+ "mainichi.jp": "Mainichi",
+ "asahi.com": "Asahi Shimbun",
+ "thenationalnews.com": "The National",
+ "arabnews.com": "Arab News",
+ "middleeastmonitor.com": "Middle East Monitor",
+ "straitstimes.com": "Straits Times",
+ "thediplomat.com": "The Diplomat",
+ "thehindu.com": "The Hindu"
+}
+
+
+def source_name(feed_url, fallback):
+    host = re.sub(r"^https?://", "", feed_url).split("/")[0].lower()
+    for domain, name in SOURCE_NAMES.items():
+        if host == domain or host.endswith("." + domain):
+            return name
+    return fallback
+
+
+def entry_ts(entry):
+    t = entry.get("published_parsed") or entry.get("updated_parsed")
+    try:
+        return calendar.timegm(t) if t else 0
+    except Exception:
+        return 0
+
+
+def term_regex(t):
+    exact = t.endswith("$")
+    t = t.rstrip("$")
+    return re.compile(r"(?<![a-z])" + re.escape(t) + (r"(?![a-z])" if exact else ""))
+
+
 def fetch_articles():
-    articles = []
+    excludes = [e.lower() for e in globals().get("EXCLUDE_KEYWORDS", [])]
+    per_feed = []
     for feed_url in RSS_FEEDS:
+        items = []
+        name = source_name(feed_url, "News")
         try:
             feed = feedparser.parse(feed_url)
-            for entry in feed.entries:
+            name = source_name(feed_url, feed.feed.get("title", "News"))
+            for entry in sorted(feed.entries, key=entry_ts, reverse=True):
                 title = html.unescape(entry.get("title", ""))
                 summary = html.unescape(entry.get("summary", ""))
                 combined = (title + summary).lower()
-                if any(ex.lower() in combined for ex in EXCLUDE_KEYWORDS):
+                if any(ex in combined for ex in excludes):
                     continue
                 if any(kw.lower() in combined for kw in KEYWORDS):
-                    articles.append({
+                    items.append({
                         "title": title,
                         "summary": summary,
                         "link": entry.get("link", "#"),
                         "published": entry.get("published", datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")),
-                        "source": feed.feed.get("title", "News")
+                        "source": name,
+                        "_ts": entry_ts(entry)
                     })
+                    if len(items) >= PER_FEED_MAX:
+                        break
         except Exception as e:
             print(f"Error processing feed {feed_url}: {e}")
-            continue
-    return articles[:20]
+        print(f"Feed {name}: {len(items)} článků")
+        per_feed.append(items)
+
+    # Střídavý výběr: z každého feedu 1. článek, pak 2. atd., bez duplicit.
+    result, seen_links, seen_titles = [], set(), set()
+    idx = 0
+    while len(result) < MAX_ARTICLES and any(idx < len(x) for x in per_feed):
+        for items in per_feed:
+            if idx >= len(items) or len(result) >= MAX_ARTICLES:
+                continue
+            a = items[idx]
+            tkey = re.sub(r"\W+", " ", a["title"].lower()).strip()
+            if a["link"] in seen_links or tkey in seen_titles:
+                continue
+            seen_links.add(a["link"])
+            seen_titles.add(tkey)
+            result.append(a)
+        idx += 1
+
+    result.sort(key=lambda a: a["_ts"], reverse=True)
+    for a in result:
+        a.pop("_ts", None)
+    return result
 
 
 def extract_locations(articles):
     found = {}
-    text_blob = " ".join([a['title'] + " " + a['summary'] for a in articles])
+    text_blob = " ".join([a['title'] + " " + a['summary'] for a in articles]).lower()
     for key, loc in LOCATIONS.items():
-        if key.lower() in text_blob.lower():
+        terms = LOCATION_TERMS.get(key) or [key.lower()]
+        if any(term_regex(t).search(text_blob) for t in terms):
             found[key] = {"key": key, "lat": loc["lat"], "lon": loc["lon"], "name_cs": loc["name_cs"], "name_en": loc["name_en"]}
     return list(found.values())
 
@@ -181,11 +494,17 @@ def fallback_assessment():
     }
 
 
+def prompt_summary(text, limit=300):
+    s = re.sub(r"<[^>]*>", " ", text or "")
+    s = re.sub(r"\s+", " ", s).strip()
+    return s[:limit]
+
+
 def analyze_with_ai(articles, previous_forecast_cs, previous_forecast_en):
     if not articles:
         return fallback_assessment()
 
-    news_text = "\n".join([f"- {a['title']}: {a['summary']}" for a in articles])
+    news_text = "\n".join([f"- {a['title']}: {prompt_summary(a['summary'])}" for a in articles])
     prev_cs = previous_forecast_cs or "Žádná předchozí předpověď."
     prev_en = previous_forecast_en or "No previous forecast."
 
