@@ -31,12 +31,16 @@ h1{font-size:2.1em;margin:0 0 6px;line-height:1.15}
 .lvl{font-weight:700;letter-spacing:.03em}
 .sec{margin-top:40px;border-top:3px double var(--brass);padding-top:20px}
 .sec h2{font-size:1.5em;margin:0 0 6px}
-.cams{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px;margin-top:16px}
-.cam{padding:12px 14px}
-.cam h3{font-size:1.02em;margin:0 0 4px}
-.cam .rg{font-family:'IBM Plex Mono',monospace;font-size:.66em;color:var(--brass);letter-spacing:.04em;text-transform:uppercase;margin-bottom:6px}
-.cam .go{font-family:'IBM Plex Mono',monospace;font-size:.7em;color:var(--text-dim)}
-.cam .live{display:inline-block;width:7px;height:7px;border-radius:50%;background:#a13d2b;margin-right:6px;vertical-align:middle}
+.cams{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px;margin-top:16px}
+.cam{padding:0;overflow:hidden}
+.cam .box{position:relative;aspect-ratio:16/9;background:#000;cursor:pointer}
+.cam .box iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.cam .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-family:'IBM Plex Mono',monospace;font-size:.75em;color:var(--text-dim);text-align:center;padding:8px}
+.cam .meta{padding:10px 12px}
+.cam .meta h3{font-size:1em;margin:0 0 2px}
+.cam .meta .rg{font-family:'IBM Plex Mono',monospace;font-size:.64em;color:var(--brass);letter-spacing:.04em;text-transform:uppercase}
+.ship{padding:0;overflow:hidden}
+.ship .map{background:#000;min-height:300px}
 footer{margin-top:34px;text-align:center;font-family:'IBM Plex Mono',monospace;font-size:.66em;color:var(--text-dim)}
 @media (max-width:600px){h1{font-size:1.6em}}
 </style>
@@ -60,9 +64,40 @@ footer{margin-top:34px;text-align:center;font-family:'IBM Plex Mono',monospace;f
   </header>
   <div class="grid" id="grid"></div>
 
+  <section class="sec" id="ships">
+    <h2>Lodní provoz živě</h2>
+    <div class="sub">Pozice lodí v reálném čase (AIS) · VesselFinder</div>
+
+    <div class="cams" style="grid-template-columns:1fr">
+      <div class="card ship">
+        <div class="cam"><div class="meta"><div class="rg">Rudé moře</div><h3>Suezský průplav</h3></div></div>
+        <div class="map">
+          <script type="text/javascript">
+            var width="100%"; var height="300";
+            var latitude="30.40"; var longitude="32.35"; var zoom="8";
+            var names=false;
+          </script>
+          <script type="text/javascript" src="https://www.vesselfinder.com/aismap.js"></script>
+        </div>
+      </div>
+
+      <div class="card ship">
+        <div class="cam"><div class="meta"><div class="rg">Rudé moře</div><h3>Bab al-Mandab</h3></div></div>
+        <div class="map">
+          <script type="text/javascript">
+            var width="100%"; var height="300";
+            var latitude="12.70"; var longitude="43.30"; var zoom="8";
+            var names=false;
+          </script>
+          <script type="text/javascript" src="https://www.vesselfinder.com/aismap.js"></script>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="sec" id="webcams">
     <h2>Webkamery z významných míst</h2>
-    <div class="sub">Živá vysílání z klíčových lokalit · otevře se v nové záložce</div>
+    <div class="sub">Živé přenosy · načtou se po kliknutí</div>
     <div class="cams" id="cams"></div>
   </section>
 
@@ -108,25 +143,31 @@ M.forEach(function(m,i){
 });
 
 /* ---- Webkamery ----
-   q = hledaný výraz (výsledky filtrované na živá vysílání na YouTube).
-   Pro pevný odkaz nastav direct:true a do q vlož celou URL. */
+   ch = ID YouTube kanálu (UC…) → vždy aktuální živý přenos
+   v  = ID konkrétního videa (záloha, mění se při restartu streamu)
+   Karty bez ID se nezobrazí; bez jediné karty se skryje celá sekce. */
 var W=[
- {name:"Suezský průplav",rg:"Rudé moře",q:"Suez Canal live webcam ship traffic"},
- {name:"Bab al-Mandab",rg:"Rudé moře",q:"Red Sea Bab el-Mandeb live cam ships"},
- {name:"Jeruzalém",rg:"Blízký východ",q:"Jerusalem live webcam"},
- {name:"Dubaj",rg:"Blízký východ",q:"Dubai live webcam skyline"},
- {name:"New York · Times Square",rg:"USA",q:"Times Square New York live cam"},
- {name:"Washington D.C.",rg:"USA",q:"Washington DC live webcam Capitol"},
- {name:"Londýn · Tower Bridge",rg:"Evropa",q:"London Tower Bridge live cam"},
- {name:"Praha",rg:"Česko",q:"Praha živě webkamera Staroměstské náměstí"},
- {name:"Tokio · Shibuya",rg:"Japonsko",q:"Shibuya crossing live camera Tokyo"},
- {name:"Hongkong",rg:"Asie",q:"Hong Kong Victoria Harbour live cam"},
- {name:"Rio de Janeiro",rg:"Jižní Amerika",q:"Rio de Janeiro Copacabana live webcam"}
+ {name:"New York · Times Square",rg:"USA",ch:"",v:"z-jYdOIKcTQ"}
+ /* Další kamery přidávej takto:
+ ,{name:"Název",rg:"Region",ch:"UC…",v:""} */
 ];
-document.getElementById("cams").innerHTML=W.map(function(c){
-  var url=c.direct?c.q:"https://www.youtube.com/results?search_query="+encodeURIComponent(c.q)+"&sp=EgJAAQ%253D%253D";
-  return '<a class="card cam" href="'+url+'" target="_blank" rel="noopener noreferrer"><div class="rg">'+c.rg+'</div><h3>'+c.name+'</h3><div class="go"><span class="live"></span>Sledovat živě →</div></a>';
+function camSrc(c){
+  if(c.ch)return "https://www.youtube-nocookie.com/embed/live_stream?channel="+c.ch+"&autoplay=1&mute=1";
+  if(c.v)return "https://www.youtube-nocookie.com/embed/"+c.v+"?autoplay=1&mute=1";
+  return "";
+}
+W=W.filter(function(c){return camSrc(c)});
+if(!W.length){document.getElementById("webcams").style.display="none"}
+var cm=document.getElementById("cams");
+cm.innerHTML=W.map(function(c,i){
+  return '<div class="card cam"><div class="box" data-i="'+i+'"><div class="ph">▶ Spustit živý přenos</div></div>'+
+    '<div class="meta"><div class="rg">'+c.rg+'</div><h3>'+c.name+'</h3></div></div>';
 }).join("");
+cm.addEventListener("click",function(e){
+  var b=e.target.closest(".box");if(!b||b.querySelector("iframe"))return;
+  var s=camSrc(W[+b.dataset.i]);if(!s)return;
+  b.innerHTML='<iframe src="'+s+'" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>';
+});
 </script>
 <script src="/Redsea-monitor/nav.js"></script>
   <script src="/Redsea-monitor/worldmap.js"></script>
