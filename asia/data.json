@@ -1,204 +1,195 @@
 {
-  "last_updated": "2026-10-06T05:00:29Z",
+  "last_updated": "2026-10-06T12:32:56Z",
   "assessment": {
-    "threat_level": "HIGH",
-    "sentiment_score": 68,
-    "security_status_cs": "Geopolitické napětí v Asii a Tichomoří nadále roste v důsledku prohlubující se americko-čínské konfrontace, včetně obvinění ze špionáže a sledování rodiny tchaj-wanští představitelů. Současně Francie a Německo tlačí na EU, aby zavedla tvrdé obchodní restrikce vůči Číně, což zvyšuje riziko globální obchodní fragmentace.",
-    "security_status_en": "Geopolitical tensions in the Asia-Pacific remain elevated due to deepening US-China friction, including espionage charges and surveillance targeting the family of Taiwan's leader. Simultaneously, France and Germany are pushing the EU to adopt aggressive trade restrictions against China, heightening the risk of global trade fragmentation.",
+    "threat_level": "MEDIUM",
+    "sentiment_score": 52,
+    "security_status_cs": "Geopolitické napětí v Asii zůstává podpořeno eskalací na Blízkém východě a korejském poloostrově, zatímco Evropská unie v čele s Francií a Německem přitvrzuje vůči čínským obchodním praktikám. Technologický sektor mezitím zažívá prudký vývoj v oblasti AI a IPO aktivit, např. primární úpis společnosti Transsion v Hongkongu.",
+    "security_status_en": "Geopolitical tensions in Asia remain underpinned by escalations in the Middle East and the Korean Peninsula, while the European Union, led by France and Germany, is hardening its stance against Chinese trade practices. Meanwhile, the tech sector is experiencing rapid developments in AI and IPO activities, such as Transsion's upcoming Hong Kong listing.",
     "recommendations": [
       {
         "sector_cs": "Polovodiče (TSMC, Samsung, ASML)",
         "sector_en": "Semiconductors (TSMC, Samsung, ASML)",
         "action": "HOLD",
-        "reason_cs": "Přetrvávající geopolitické třenice a rostoucí tlak na technologické kontroly udržují sektor pod zvýšenou opatrností investorů.",
-        "reason_en": "Persistent geopolitical friction and rising pressure on technology controls keep the sector under heightened investor caution."
+        "reason_cs": "Rychlý vývoj a konkurence v oblasti otevřených modelů AI zvyšují poptávku po pokročilém hardwaru, avšak přetrvávající obchodní napětí mezi USA, EU a Čínou nutí k opatrnosti.",
+        "reason_en": "Rapid developments and competition in open-weight AI models drive structural demand for advanced hardware, but persistent trade tensions between the US, EU, and China warrant caution."
       },
       {
         "sector_cs": "Čínské akcie (ETF FXI, MCHI)",
         "sector_en": "Chinese Equities (FXI, MCHI ETFs)",
-        "action": "SELL",
-        "reason_cs": "Zpřísňující se obchodní politika EU i USA vůči Číně a vnitřní ekonomické tlaky negativně ovlivňují výhled čínského trhu.",
-        "reason_en": "Tightening trade policies from both the EU and the US toward China, alongside domestic economic pressures, negatively impact the Chinese market outlook."
+        "action": "HOLD",
+        "reason_cs": "Krátkodobé prodloužení obchodního příměří s USA zmírňuje obavy, ale sílící tlak ze strany EU a regulatorní výzvy brzdí výraznější růstový potenciál.",
+        "reason_en": "The short-term US-China trade truce extension eases immediate pressures, but mounting pushback from the EU and regulatory headwinds cap significant upside momentum."
       },
       {
         "sector_cs": "Japonské akcie (Nikkei 225 ETF)",
         "sector_en": "Japanese Equities (Nikkei 225 ETFs)",
-        "action": "HOLD",
-        "reason_cs": "Regionální bezpečnostní rizika v Okinawě a okolí mírně zatěžují sentiment, přestože domácí ekonomické základy zůstávají stabilní.",
-        "reason_en": "Regional security risks in and around Okinawa weigh slightly on sentiment, even though domestic economic fundamentals remain stable."
+        "action": "BUY",
+        "reason_cs": "Japonský trh těží z regionální stability a silné pozice v dodavatelských řetězcích, přičemž regionální rizika zůstávají koncentrovaná spíše na Korejském poloostrově.",
+        "reason_en": "The Japanese market benefits from regional stability and strong supply chain positioning, while acute security risks remain concentrated primarily on the Korean Peninsula."
       },
       {
         "sector_cs": "Obranný průmysl (Lockheed Martin, RTX, Mitsubishi Heavy)",
         "sector_en": "Defense Industry (Lockheed Martin, RTX, Mitsubishi Heavy)",
         "action": "BUY",
-        "reason_cs": "Zintenzivnění společných vojenských cvičení v regionu (např. F-35 v Indii) a přetrvávající hrozby v Asii podporují poptávku po obranných systémech.",
-        "reason_en": "Intensified joint military exercises in the region (e.g., F-35s in India) and persistent Asian threats support robust demand for defense systems."
+        "reason_cs": "Nové incidenty na korejské demilitarizované zóně a napětí v Jihočínském moři udržují poptávku po obranných systémech na vysoké úrovni.",
+        "reason_en": "New incidents along the Korean DMZ and regional frictions keep demand for advanced defense systems structurally elevated."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Tituly na BCPP jsou vůči přímému dění v Asii izolovány, avšak globální makroekonomická nestabilita a tlaky na EU trade policy mohou ovlivnit širší evropský sentiment.",
-        "reason_en": "PSE stocks remain largely insulated from direct Asian developments, but global macroeconomic instability and EU trade policy pressures could sway broader European sentiment."
+        "reason_cs": "Domácí tituly na BCPP reagují primárně na evropské makroekonomické prostředí a měnovou politiku ČNB, přímý vliv asijského technologického dění je omezený.",
+        "reason_en": "Prague-listed equities are driven primarily by domestic macroeconomic conditions and CNB monetary policy, with direct exposure to Asian tech and trade trends remaining minimal."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat zostřenou rétoriku mezi Bruselem a Pekingem ohledně nových obchodních nástrojů EU a pokračující sledování bezpečnostní situace kolem Tchaj-wanu.",
-    "forecast_en": "Over the coming days, heightened rhetoric between Brussels and Beijing regarding new EU trade tools and continued monitoring of the security situation around Taiwan are expected.",
-    "forecast_review_cs": "Předchozí předpověď o diplomatických manévrech v EU-Čínských vztazích a regionální ostražitosti v Asii se plně potvrdila dnešními zprávami o francouzsko-německém tlaku na obchodní restrikce a bezpečnostních incidentech.",
-    "forecast_review_en": "The previous forecast regarding diplomatic maneuvers in EU-China relations and regional vigilance in Asia was fully confirmed by today's news on Franco-German trade restriction pressures and security incidents."
+    "forecast_cs": "V nejbližších dnech lze očekávat detailnější vyjednávání mezi Pekingem a Bruselem ohledně nových obchodních bariér a sledování reakcí Soulu na incidenty na hranicích s KLDR.",
+    "forecast_en": "Over the coming days, expect heightened scrutiny on trade negotiations between Beijing and Brussels over new defensive tools, alongside monitoring of Seoul's diplomatic response to DMZ landmine incidents.",
+    "forecast_review_cs": "Předchozí předpověď o zostřené rétorice mezi Bruselem a Pekingem ohledně nových obchodních nástrojů EU se dnešními zprávami o společné výzvě Německa a Francie plně potvrdila.",
+    "forecast_review_en": "The previous forecast regarding heightened rhetoric between Brussels and Beijing over EU trade tools was fully confirmed by today's joint call from Germany and France."
   },
   "articles": [
     {
-      "title": "India sizes up US F-35 stealth jets in landmark first on home turf",
-      "summary": "US F-35 stealth fighters have joined Indian warplanes for military exercises near the Pakistan border in recent days, marking the first time America’s most advanced multirole combat aircraft has taken part in joint drills in India.\nThe US jets’ participation in the drills “signals a degree of military confidence and interoperability that is difficult to manufacture through communiques”, Sushant Singh, a South Asian studies lecturer at Yale University and former Indian Army officer, told This...",
-      "link": "https://www.scmp.com/week-asia/politics/article/3369870/india-sizes-us-f-35-stealth-jets-landmark-first-home-turf?utm_source=rss_feed",
-      "published": "Tue, 06 Oct 2026 04:47:05 +0000",
+      "title": "How traditional Chinese medicine is shaping Kazakhstan’s health system",
+      "summary": "China has pledged to expand its health partnership with Kazakhstan by helping the Central Asian nation integrate traditional medicine directly into its national healthcare system, shifting away from simple product exports.\nThe Chinese embassy in Kazakhstan on Monday called for the alignment of high-level policy to enhance bilateral health cooperation for both countries’ benefit.\n“Both nations should promote the qualitative upgrading of cooperation in smart healthcare, hi-tech diagnostics and...",
+      "link": "https://www.scmp.com/news/china/diplomacy/article/3369943/how-traditional-chinese-medicine-shaping-kazakhstans-health-system?utm_source=rss_feed",
+      "published": "Tue, 06 Oct 2026 12:04:16 +0000",
       "source": "News - South China Morning Post"
     },
     {
-      "title": "Hong Kong leader calls for stronger construction oversight amid One Stanley case",
-      "summary": "Hong Kong will strengthen its regulatory regime and impose stiffer penalties to ensure strong deterrence against building violations, the city leader has pledged, following a series of substandard construction scandals including the latest controversy involving a luxury residential development in Stanley.\nChief Executive John Lee Ka-chiu vowed to safeguard the high professional standards of the city’s construction industry on Tuesday in the wake of a debacle involving a house at One Stanley,...",
-      "link": "https://www.scmp.com/news/hong-kong/society/article/3369861/hong-kong-leader-pledges-tougher-rules-penalties-deter-construction-violations?utm_source=rss_feed",
-      "published": "Tue, 06 Oct 2026 04:00:54 +0000",
+      "title": "As China’s AI race accelerates, ‘model fatigue’ becomes the next challenge",
+      "summary": "On September 22, the global artificial intelligence landscape spun on its axis within a matter of hours.\nIn Beijing, Xiaomi engineers went live with an unusual broadcast, streaming the training run of their new MiMo-V2.6 model. In San Francisco, Anthropic unveiled its frontier Opus 5.5 model. About an hour later, OpenAI crashed the party with the surprise release of its GPT-6 Sol and Luna models.\nFor tech executives and developers trying to keep pace, it was just another overwhelming day in the...",
+      "link": "https://www.scmp.com/tech/big-tech/article/3369757/chinas-ai-race-accelerates-model-fatigue-becomes-next-challenge?utm_source=rss_feed",
+      "published": "Tue, 06 Oct 2026 12:00:07 +0000",
       "source": "News - South China Morning Post"
     },
     {
-      "title": "Hong Kong’s big IPO haul",
-      "summary": "–",
-      "link": "https://www.scmp.com/plus/business/banking-finance/article/3369852/hong-kongs-big-ipo-haul?utm_source=rss_feed",
-      "published": "Tue, 06 Oct 2026 02:22:01 +0000",
+      "title": "Elderly man found dead, wife hospitalised after smell reported at Hong Kong flat",
+      "summary": "An elderly man was found dead and his wife was taken to hospital after authorities responded to a report of a foul smell from a flat in Hong Kong on Tuesday.\nAuthorities received a report at about 5.20pm from security staff at One Madison, a residential building on Castle Peak Road in Cheung Sha Wan, after an unusual odour was detected from the flat and the occupants had not been seen for some time.\nFirefighters were called to the scene and forced entry into the flat.\nThe man was found in the...",
+      "link": "https://www.scmp.com/news/hong-kong/society/article/3369941/elderly-man-found-dead-wife-hospitalised-after-smell-reported-hong-kong-flat?utm_source=rss_feed",
+      "published": "Tue, 06 Oct 2026 11:59:45 +0000",
       "source": "News - South China Morning Post"
     },
     {
-      "title": "Chinese actress Li Bingbing credits success to younger sister who acts as manager, confidante",
-      "summary": "From a humble working-class family in northeast China to becoming a celebrated actress on the Hollywood stage, 53-year-old Li Bingbing’s ascent has never been a solo journey.\nAt the heart of her decades-long career is her younger sister, Li Xue, 51, who transitioned from journalism to become Li Bingbing’s manager. Together, they co-founded Hesong Entertainment, a talent company that has represented performers across generations.\nThe sisters have long been recognised as one of China’s most...",
-      "link": "https://www.scmp.com/news/people-culture/china-personalities/article/3369820/chinese-actress-li-bingbing-credits-success-younger-sister-who-acts-manager-confidante?utm_source=rss_feed",
-      "published": "Tue, 06 Oct 2026 02:00:07 +0000",
+      "title": "Greenpeace catches Hong Kong geopark ‘golden week’ visitors damaging marine life",
+      "summary": "About 100 incidents of visitors catching sea cucumbers and digging up sea snails and clams were recorded at a popular spot in Hong Kong’s Unesco-listed geopark on a single day of the National Day “golden week”, a green group has found, following similar incidents last year.\nThe Po Pin Chau section of the High Island Geo Trail in Sai Kung was also strewn with rubbish on a separate day, Greenpeace said on Tuesday. At nearby Long Ke Beach, the group recorded nearly 90 instances of environmentally...",
+      "link": "https://www.scmp.com/news/hong-kong/health-environment/article/3369939/greenpeace-catches-hong-kong-geopark-golden-week-visitors-damaging-marine-life?utm_source=rss_feed",
+      "published": "Tue, 06 Oct 2026 11:39:35 +0000",
       "source": "News - South China Morning Post"
     },
     {
-      "title": "Beijing’s policy advisers map out how post-reunification Taiwan could be governed",
-      "summary": "In 2019, President Xi Jinping became the first Chinese leader to publicly call for the exploration of detailed proposals for governing Taiwan after reunification.\nSeven years later, the first proposals from a handful of the mainland’s leading research institutes have either been finalised or are nearing completion, the South China Morning Post has learned.\nRather than setting out a single fixed model, scholars involved in those studies told the SCMP there should be different scenarios based on...",
-      "link": "https://www.scmp.com/news/china/politics/article/3369782/beijings-policy-advisers-map-out-how-post-reunification-taiwan-could-be-governed?utm_source=rss_feed",
-      "published": "Tue, 06 Oct 2026 01:30:05 +0000",
+      "title": "French school unrest: students, teachers march on biggest day of protests",
+      "summary": "Students, teachers and parents marched ⁠in cities across France on Tuesday and protesters blockaded hundreds of schools, in the biggest day of action in a wave of demonstrations demanding the government tackle understaffed and dilapidated classrooms.\nIn Marseille, Nantes and Lyon, the street protests began peacefully mid-morning, with the largest demonstration expected in Paris in the afternoon.\nYoungsters held aloft smoke flares and placards reading “Under our schoolbooks, anger” and “Where are...",
+      "link": "https://www.scmp.com/news/world/europe/article/3369936/french-school-unrest-students-teachers-march-biggest-day-protests?utm_source=rss_feed",
+      "published": "Tue, 06 Oct 2026 11:35:05 +0000",
       "source": "News - South China Morning Post"
     },
     {
-      "title": "Hong Kong’s bridge of gold completes China’s yuan ambition",
-      "summary": "Beijing’s push to accumulate gold serves a larger goal: yuan internationalisation. In this series, Part I traces China’s path to becoming a gold superpower, while this article explores Hong Kong’s key role in safeguarding the nation’s financial security.\nIn 2013, one-third of the world’s traded gold passed through Hong Kong. That year, the city imported 1,158 tonnes of bullion, overtaking India, the traditional top buyer. For all our love of the glittering metal, little of it stayed in our...",
-      "link": "https://www.scmp.com/opinion/hong-kong-opinion/article/3369468/hong-kongs-bridge-gold-completes-chinas-yuan-ambition?utm_source=rss_feed",
-      "published": "Tue, 06 Oct 2026 01:00:05 +0000",
+      "title": "Saudi-Iran war risk grows as Riyadh resumes Yemen bombing",
+      "summary": "Iran and Saudi Arabia are edging dangerously closer to direct conflict, analysts warn, after Riyadh resumed major air strikes on Yemen’s Tehran-allied Houthi rebels this week, ending a four-year lull.\nMore than 100 Saudi warplanes bombed rebel positions on Monday, enabling Yemeni government forces to retake much of the Red Sea coastal territory the Houthis seized last month. The Houthis had been aided by embedded Iranian military advisers.\nAnalysts expect the Houthis to retaliate by intensifying...",
+      "link": "https://www.scmp.com/week-asia/politics/article/3369933/saudi-iran-war-risk-grows-riyadh-resumes-yemen-bombing?utm_source=rss_feed",
+      "published": "Tue, 06 Oct 2026 11:30:06 +0000",
       "source": "News - South China Morning Post"
     },
     {
-      "title": "Hong Kong temperatures drop to 23 degrees Celsius on Tuesday morning, lowest this autumn",
-      "summary": "Temperatures in Hong Kong dropped to about 23 degrees Celsius (73 Fahrenheit) on Tuesday morning, the lowest so far this autumn.\nAccording to the Hong Kong Observatory, the cooler weather was caused by a dry northeast monsoon.\n“A dry northeast monsoon will bring mainly fine weather to the coast of Guangdong in the next couple of days. It will be windier and slightly cooler in the morning over the region,” the forecaster said.\n“The monsoon is expected to moderate slightly in the latter part of...",
-      "link": "https://www.scmp.com/news/hong-kong/society/article/3369847/hong-kong-temperatures-drop-23-degrees-celsius-tuesday-morning-lowest-autumn?utm_source=rss_feed",
-      "published": "Tue, 06 Oct 2026 00:54:03 +0000",
+      "title": "Fire breaks out on rooftop of residential building in Hong Kong’s Mong Kok",
+      "summary": "Firefighters are battling a rooftop blaze at a residential building in Hong Kong’s Mong Kok, with thick black smoke billowing into the sky.\nThe Fire Services Department received a report at about 5.20pm on Tuesday that items stored on the rooftop of the 26-storey Block B at the Shun King Building on Nelson Street had caught fire.\n\nNo casualties had been reported as of 7pm, while some residents self-evacuated the building.\nFirefighters were tackling the blaze with one water jet. Strong flames and...",
+      "link": "https://www.scmp.com/news/hong-kong/society/article/3369931/fire-breaks-out-rooftop-residential-building-hong-kongs-mong-kok?utm_source=rss_feed",
+      "published": "Tue, 06 Oct 2026 10:35:24 +0000",
       "source": "News - South China Morning Post"
     },
     {
-      "title": "Experts urge wider One Stanley checks, tighter paperwork after steel bar shortfall",
-      "summary": "Hong Kong’s building authorities should consider inspecting the remaining properties in a luxury residential development and tightening work process documentation after one house was found to have used insufficient steel bars during construction, experts have said.\nTheir suggestions followed the Buildings Department revealing at the weekend that it had launched an investigation into work quality issues at One Stanley in Stanley, one of the most expensive neighbourhoods in Southern district, and...",
-      "link": "https://www.scmp.com/news/hong-kong/society/article/3369835/experts-urge-wider-one-stanley-checks-tighter-paperwork-after-steel-bar-shortfall?utm_source=rss_feed",
-      "published": "Tue, 06 Oct 2026 00:34:38 +0000",
+      "title": "Hong Kong’s Generation Y unhappiest amid housing and economic pressures, poll finds",
+      "summary": "Hong Kong’s Generation Y residents – those aged 30 to 45 – are the city’s unhappiest age group, largely because of dissatisfaction with economic and housing conditions, a poll has found.\nThe Hong Kong Happiness Index stood at 5.87 out of 10, according to a survey of 1,039 adults conducted by HK.WeCare, an initiative under non-profit organisation Wofoo Social Enterprises.\nThe score remained below the passing level for a fourth consecutive year, despite an overall upward trend since 2024.\nMore...",
+      "link": "https://www.scmp.com/news/hong-kong/society/article/3369930/hong-kongs-generation-y-unhappiest-amid-housing-and-economic-pressures-poll-finds?utm_source=rss_feed",
+      "published": "Tue, 06 Oct 2026 10:28:45 +0000",
       "source": "News - South China Morning Post"
     },
     {
-      "title": "Marine’s arrest for murder in Japan fuels anger over US military presence",
-      "summary": "The alleged murder of an Okinawan woman by a US marine has put newly elected Governor Genta Koja under intense pressure, raising questions about whether the incident could deepen opposition against the American military presence just as Okinawa assumes greater importance in Japan’s regional security strategy.\nKoja only took office on September 30 after campaigning on economic issues rather than the dispute over American troops based in the prefecture, which has dominated local politics for...",
-      "link": "https://www.scmp.com/week-asia/politics/article/3369802/marines-arrest-murder-japan-fuels-anger-over-us-military-presence?utm_source=rss_feed",
-      "published": "Tue, 06 Oct 2026 00:00:16 +0000",
+      "title": "Construction worker jailed for life for killing bus driver after smoking dispute",
+      "summary": "A construction worker has been sentenced to life in prison for murdering a man who confronted him about smoking while they were waiting for a lift at a private housing estate in Hong Kong.\nA High Court jury on Tuesday found Tam Yun-chiu, 52, guilty of killing Ho Lok-man after hearing that he repeatedly punched the victim in the face, knocked him to the ground and kicked his head on the podium floor of Amoy Gardens in Kowloon Bay on September 19, 2023.\nHo, a 48-year-old bus driver, became...",
+      "link": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3369928/construction-worker-jailed-life-killing-bus-driver-after-smoking-dispute?utm_source=rss_feed",
+      "published": "Tue, 06 Oct 2026 10:08:12 +0000",
       "source": "News - South China Morning Post"
     },
     {
-      "title": "How a Hong Kong property investor still made US$30 million – after a 40% price cut",
-      "summary": "Amid concerns over rising interest rates and a weak retail property market, a long-time investor has sold a portfolio of prime street shops in Tsim Sha Tsui – held for more than four decades – and locked in a profit of nearly HK$237 million (US$30.2 million) despite accepting a deal more than 40 per cent below his original asking price.\nThe portfolio of retail shops in Cheung Lee Commercial Building and the podium of Wing Lee Building, both on Kimberley Road, changed hands for HK$256.8 million,...",
-      "link": "https://www.scmp.com/business/article/3369811/how-one-hong-kong-property-investor-still-made-us30-million-after-40-price-cut?utm_source=rss_feed",
-      "published": "Mon, 05 Oct 2026 23:00:09 +0000",
+      "title": "Public outcry as China nurse dies after on-duty brain bleed, but death ruled not work-related",
+      "summary": "The death of a 30-year-old nurse in southwestern China from a brain haemorrhage while on duty sparked outrage after authorities refused to classify her death as work-related.\nChen Jiajia, a supervising nurse in the medical imaging department at Guizhou Maotai Hospital in Zunyi, experienced a severe headache and began vomiting while working on August 4, according to Dafeng News.\nHer colleagues swiftly rushed her for emergency treatment, and she subsequently underwent a craniotomy after being...",
+      "link": "https://www.scmp.com/news/people-culture/trending-china/article/3369926/public-outcry-china-nurse-dies-after-duty-brain-bleed-death-ruled-not-work-related?utm_source=rss_feed",
+      "published": "Tue, 06 Oct 2026 10:00:40 +0000",
       "source": "News - South China Morning Post"
     },
     {
-      "title": "US seeks to revoke citizenship of 2 China-born men convicted in Beijing-linked cases",
-      "summary": "The US Justice Department (DOJ) is seeking to revoke the citizenship of a former Navy sailor convicted of spying for China and a Florida man convicted of conspiring to act as an agent of Beijing, it announced on Monday.\nJinchao Wei and Ping Li are among 40 people facing denaturalisation actions in what the department described as the largest batch of such filings under the Trump administration. The civil proceedings remain pending, with no determination of liability, the DOJ said.\nThe case...",
-      "link": "https://www.scmp.com/news/china/diplomacy/article/3369845/us-seeks-revoke-citizenship-two-china-born-men-convicted-beijing-linked-cases?utm_source=rss_feed",
-      "published": "Mon, 05 Oct 2026 22:40:59 +0000",
+      "title": "Hong Kong remains world’s freest economy as Switzerland overtakes Singapore",
+      "summary": "Hong Kong has retained its status as the world’s freest economy in the latest annual ranking by a top Canadian think tank, although its score has declined in recent years.\nSwitzerland overtook Singapore to claim second place in 2026, pushing the city state down to third in the league table released by the Fraser Institute on Tuesday.\nThe Economic Freedom of the World report, compiled by the Vancouver-based public policy research organisation using data from 2024, ranked Hong Kong first among 165...",
+      "link": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3369922/hong-kong-remains-worlds-freest-economy-switzerland-overtakes-singapore?utm_source=rss_feed",
+      "published": "Tue, 06 Oct 2026 09:36:16 +0000",
       "source": "News - South China Morning Post"
     },
     {
-      "title": "US accuses mainland China of targeting Taiwan leader’s family in surveillance case",
-      "summary": "The United States has accused mainland China of hiring an American citizen of Chinese origin to surveil the family of Taiwanese leader William Lai Ching-te, days after President Xi Jinping’s state visit to Washington.\nThe Federal Bureau of Investigation on Sunday arrested 34-year-old Zhang Wanying at Los Angeles International Airport, alleging that she attempted to flee the country and charged her with acting as an unregistered agent for the Chinese government.\nThe FBI accused her of surveilling...",
-      "link": "https://www.scmp.com/news/us/diplomacy/article/3369844/us-accuses-mainland-china-targeting-taiwan-leaders-family-surveillance-case?utm_source=rss_feed",
-      "published": "Mon, 05 Oct 2026 22:16:58 +0000",
+      "title": "Why India is getting serious about ending the Ukraine war",
+      "summary": "India’s recent push to become more involved in helping end the Russia-Ukraine war comes as the costs of the conflict continue to mount for New Delhi, amid the threat of US tariffs on major buyers of Russian energy and a recent drone attack on an Indian-owned pharmaceutical plant in Ukraine.\nSunday morning’s drone attack destroyed a large part of Kusum Group’s factory in Sumy, killing one person and injuring several others. The company, which has manufactured generic medicines in Ukraine since...",
+      "link": "https://www.scmp.com/week-asia/politics/article/3369911/why-india-getting-serious-about-ending-ukraine-war?utm_source=rss_feed",
+      "published": "Tue, 06 Oct 2026 09:30:06 +0000",
       "source": "News - South China Morning Post"
     },
     {
-      "title": "Trump says US moved bombers from UK airbase after threats",
-      "summary": "US President Donald Trump said on Monday that a threat linked to Iran ⁠had prompted the removal of American B-1 bombers from a British airbase.\nThe planes had been stationed at RAF Fairford, the preferred European base for US bombers, and had recently been used in US strikes on Iran. Last week, five British men were arrested near the base – which Iran’s Revolutionary Guards previously said was a legitimate target – on suspicion of preparing terrorist acts.\n“We had an idea that there might be a...",
-      "link": "https://www.scmp.com/news/world/europe/article/3369843/us-bombers-moved-uk-airbase-due-iran-linked-threats-trump-says?utm_source=rss_feed",
-      "published": "Mon, 05 Oct 2026 21:40:14 +0000",
+      "title": "Germany joins France in call for China trade defences",
+      "summary": "Germany and France, the European Union’s two largest economies, jointly called for tougher EU trade defences, as European and Chinese negotiators prepare for crunch talks this week under the shadow of a potential trade war.\n“The open and rules-based trade system is massively affected by weaponisation of trade, systemic market-distorting practices, and global macroeconomic imbalances,” German Chancellor Friedrich Merz and French President Emmanuel Macron said in an open letter. “We need urgent...",
+      "link": "https://www.scmp.com/plus/news/china/diplomacy/article/3369919/germany-joins-france-call-china-trade-defences?utm_source=rss_feed",
+      "published": "Tue, 06 Oct 2026 09:19:20 +0000",
       "source": "News - South China Morning Post"
     },
     {
-      "title": "Hong Kong must scrap housing plan and preserve golf course",
-      "summary": "The hotly contested court battle over government plans to build 12,000 public flats on Hong Kong’s oldest golf course has played its final round. The government decided not to appeal against a ruling that held its approval of an environmental impact assessment (EIA) report on the project to be unlawful.\nThis is better than pursuing a further attempt to persuade the courts to uphold a fatally flawed process. Now, a broader review of the plans can be undertaken in light of the Court of Appeal’s...",
-      "link": "https://www.scmp.com/opinion/hong-kong-opinion/article/3369682/hong-kong-must-scrap-housing-plan-and-preserve-golf-course?utm_source=rss_feed",
-      "published": "Mon, 05 Oct 2026 21:30:05 +0000",
+      "title": "Short trade truce can’t paper over realities of US-China relationship",
+      "summary": "The recent US-China summit yielded a narrow, caution-filled outcome for bilateral trade: a two-month extension of the Kuala Lumpur trade truce, which now expires on January 10 next year. This reprieve eases fears of immediate tariff escalation and shows that head-of-state diplomacy can still curb spiralling confrontation. Yet the short timeline exposes the wide gulf separating the two sides’ priorities.\nChina’s position has been unambiguous: removal of all punitive tariffs and restrictive...",
+      "link": "https://www.scmp.com/opinion/china-opinion/article/3369750/short-trade-truce-cant-paper-over-realities-us-china-relationship?utm_source=rss_feed",
+      "published": "Tue, 06 Oct 2026 08:30:06 +0000",
       "source": "News - South China Morning Post"
     },
     {
-      "title": "Mainland Chinese favour diplomacy to achieve Taiwan reunification with caveats: survey",
-      "summary": "Mainland Chinese prefer coercion over military force to settle the “reunification question” with Taiwan, and their opinion of the US remains low, although they favour engaging with Washington on trade and security.\nThese are the results from the latest survey of mainland citizens, conducted between April 16 and June 26. This straddled the first summit between US President Donald Trump and Chinese President Xi Jinping in Beijing but came before the second one in Washington last month.\n“The...",
-      "link": "https://www.scmp.com/news/china/diplomacy/article/3369842/mainland-chinese-favour-diplomacy-achieve-taiwan-reunification-caveats-survey?utm_source=rss_feed",
-      "published": "Mon, 05 Oct 2026 21:14:15 +0000",
+      "title": "China’s Transsion, Africa’s top phone maker, targets US$500 million Hong Kong listing",
+      "summary": "Shenzhen Transsion Holdings, the maker of Africa’s bestselling phones, aims to kick off its Hong Kong share offering on Wednesday to raise up to US$500 million ahead of a targeted October 15 listing, according to people familiar with the matter.\nThe company, which already trades in Shanghai and has a market capitalisation of 62 billion yuan (US$9.24 billion), could offer up to 132 million offshore ordinary shares, according to approval documents from the China Securities Regulatory Commission...",
+      "link": "https://www.scmp.com/business/companies/article/3369908/chinas-transsion-africas-top-phone-maker-targets-us500-million-hong-kong-listing?utm_source=rss_feed",
+      "published": "Tue, 06 Oct 2026 08:28:07 +0000",
       "source": "News - South China Morning Post"
     },
     {
-      "title": "Beijing wanted more from Xi’s state visit to Washington",
-      "summary": "Xi Jinping’s state visit to Washington in September was steeped in pageantry. The Chinese president received two 21-gun salutes in three days, watched a flyover by the powerful B-2 stealth bomber, and viewed the founding documents of American democracy at the National Archives.\nUS President Donald Trump called his summit with Xi a “great meeting” and rated it a “12 out of 10”. Xi was also positive, saying “everything is done to the highest order of perfection, and there is thought in every...",
-      "link": "https://www.scmp.com/news/china/diplomacy/article/3369774/beijing-wanted-more-xis-washington-state-visit?utm_source=rss_feed",
-      "published": "Mon, 05 Oct 2026 21:00:09 +0000",
+      "title": "West Kowloon arts hub deficit widens to HK$998 million as operating costs rise",
+      "summary": "The authority managing Hong Kong’s arts hub in West Kowloon recorded a wider deficit in the 2025-26 financial year but expects to generate more income next year by putting a residential development project out to tender.\nThe West Kowloon Cultural District Authority’s deficit ballooned to HK$998 million (U$127 million) in the year to March 30, from HK$769 million in the same period a year earlier. The increase was mainly due to higher operating costs as it prepared to open the new WestK...",
+      "link": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3369906/west-kowloon-arts-hub-deficit-widens-hk998m-operating-costs-rise?utm_source=rss_feed",
+      "published": "Tue, 06 Oct 2026 08:14:47 +0000",
       "source": "News - South China Morning Post"
     },
     {
-      "title": "Russia plays down plague reports after lab worker death",
-      "summary": "Russia on Monday sought to play down reports that a laboratory technician had died of plague, even as US President Donald Trump said Washington was closely monitoring the situation and offered US help.\nReports on Friday that pneumonic plague had killed a 28-year-old woman named Darya Shipilova, who had been working for the anti-plague institute in Siberia’s Irkutsk region, sparked alarm.\n“We’re looking at it very strongly, we just heard about it,” Trump told reporters at the White House when...",
-      "link": "https://www.scmp.com/news/world/russia-central-asia/article/3369836/after-plague-death-reports-siberia-lab-russia-says-situation-under-control?utm_source=rss_feed",
-      "published": "Mon, 05 Oct 2026 17:14:30 +0000",
+      "title": "Mox, BOCHK, ZA Bank and Citibank apps land among Asia-Pacific’s 10 best, study says",
+      "summary": "Banking apps from Mox Bank, Bank of China (Hong Kong) (BOCHK), ZA Bank and Citibank Hong Kong are among the top 10 in Asia-Pacific, according to a study exclusively previewed by the South China Morning Post.\nSia, an international consulting firm, assessed 145 banking apps in 20 markets in Europe, Asia and Australia using 100 criteria, including functionality, user experience and feedback, with each receiving a score from 0 to 100.\nThe app from digital lender Mox Bank – backed by Standard...",
+      "link": "https://www.scmp.com/business/banking-finance/article/3369900/mox-bochk-za-bank-and-citibank-apps-land-among-asia-pacifics-10-best-study-says?utm_source=rss_feed",
+      "published": "Tue, 06 Oct 2026 08:00:11 +0000",
       "source": "News - South China Morning Post"
     },
     {
-      "title": "US search for missing airmen in China gains new attention after Xi-Trump summit",
-      "summary": "For more than eight decades, the remains of US fighter pilot Morton Sher lay unrecovered in China. A photograph of a memorial to him in a Hunan village eventually helped investigators find where his plane crashed in 1943.\nSher was buried in his hometown of Greenville, South Carolina, in December 2025, a homecoming that offers a rare example of what US-China cooperation can achieve for families of missing servicemen.\nThat cooperation has now drawn fresh attention. After the recent summit between...",
-      "link": "https://www.scmp.com/news/us/article/3369832/us-search-missing-airmen-china-gains-new-attention-after-xi-trump-summit?utm_source=rss_feed",
-      "published": "Mon, 05 Oct 2026 15:10:35 +0000",
+      "title": "Abby Choi called ex-father-in-law ‘old crook’ amid HK$72m flat row, court hears",
+      "summary": "Hong Kong socialite Abby Choi Tin-fung called her former father-in-law an “old crook” as she accused her ex-relatives of turning her children against her when she tried sell a HK$72 million (US$9.17 million) flat, a court has heard.\nChoi’s mother, Cheung Yin-fa, on Tuesday said her daughter had become hostile towards her former parents-in-law, Kwong Kau and Jenny Li Sui-heung, in the months before the influencer’s death in February 2023.\nCheung wept in the witness box as she watched footage of...",
+      "link": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3369905/court-hears-laws-tried-turn-children-against-abby-choi-over-hk72m-flat?utm_source=rss_feed",
+      "published": "Tue, 06 Oct 2026 07:59:19 +0000",
       "source": "News - South China Morning Post"
     },
     {
-      "title": "Bid to turn 14 subsidised Hong Kong sale flats into subdivided homes raises abuse concerns",
-      "summary": "The owners of 14 subsidised sale flats have applied for a grace period to comply with Hong Kong’s new regulatory regime for subdivided homes, the housing minister has revealed, raising concerns that public resources were being abused.\nThe cases were disclosed on Monday at a Legislative Council housing panel meeting when lawmaker Mark Chong Ho-fung asked Secretary for Housing Winnie Ho Wing-yin about the use of subsidised sale flats as subdivided units for renting.\nChong said flats sold under the...",
-      "link": "https://www.scmp.com/news/hong-kong/society/article/3369830/bid-turn-14-subsidised-sale-flats-subdivided-homes-raises-abuse-concerns?utm_source=rss_feed",
-      "published": "Mon, 05 Oct 2026 15:08:29 +0000",
+      "title": "North Korea’s DMZ landmines sabotage the South’s peace push",
+      "summary": "North Korea’s laying of landmines along its heavily fortified border with the South has laid bare how misaligned the two nations have become over their de facto land boundary, after three South Korean soldiers were wounded in an explosion last month.\nSeoul blames Pyongyang for the blast near the military demarcation line (MDL) on September 21, in which one soldier lost a foot. On Tuesday, its Foreign Ministry said in a statement it was preparing a response to force an apology for the blast,...",
+      "link": "https://www.scmp.com/week-asia/politics/article/3369898/north-koreas-dmz-landmines-sabotage-souths-peace-push?utm_source=rss_feed",
+      "published": "Tue, 06 Oct 2026 07:22:21 +0000",
       "source": "News - South China Morning Post"
     },
     {
-      "title": "France, Germany call for new weapon allowing ‘immediate cut off’ of China from EU market",
-      "summary": "In the strongest sign yet of a shifting European Union policy on China, the leaders of France and Germany have demanded a new trade weapon that would cut off access to the EU market when third countries cause severe distortions.\nThe tool would effectively act as a kill switch, allowing Brussels to respond rapidly to systemic distortions, potentially immediately. It would grant dramatic new powers to the European Commission, the EU’s executive branch, which manages trade policy for the 27-member...",
-      "link": "https://www.scmp.com/news/china/diplomacy/article/3369828/france-germany-call-new-weapon-allowing-immediate-cut-china-eu-market?utm_source=rss_feed",
-      "published": "Mon, 05 Oct 2026 14:08:31 +0000",
+      "title": "Nvidia-backed Reflection AI challenges Chinese dominance in open-weight models",
+      "summary": "An Nvidia-backed US start-up has unveiled an open-weight model to challenge China’s dominance in freely available artificial intelligence, releasing a system that early third-party testing suggests could be one of the most token-efficient open models in its class.\nReflection AI on Monday debuted Beam, its first open-weight model built for coding, reasoning and agentic tasks.\nThe US firm said Beam was “competitive” with GLM-5.2 from Z.ai – also known as Zhipu AI – and was “approaching” Alibaba...",
+      "link": "https://www.scmp.com/tech/tech-trends/article/3369885/nvidia-backed-reflection-ai-challenges-chinese-dominance-open-weight-models?utm_source=rss_feed",
+      "published": "Tue, 06 Oct 2026 07:00:07 +0000",
       "source": "News - South China Morning Post"
     }
   ],
   "history": [
-    {
-      "date": "2026-09-21 04:20",
-      "threat_level": "MEDIUM",
-      "value": 2,
-      "sentiment_score": 48,
-      "incidents": 20,
-      "hangseng": 24891.58,
-      "usd_czk": null
-    },
     {
       "date": "2026-09-21 11:37",
       "threat_level": "MEDIUM",
@@ -459,6 +450,15 @@
       "incidents": 20,
       "hangseng": 24228.47,
       "usd_czk": null
+    },
+    {
+      "date": "2026-10-06 12:32",
+      "threat_level": "MEDIUM",
+      "value": 2,
+      "sentiment_score": 52,
+      "incidents": 20,
+      "hangseng": 24280.56,
+      "usd_czk": null
     }
   ],
   "locations": [
@@ -470,6 +470,27 @@
       "name_en": "Beijing"
     },
     {
+      "key": "Seoul",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "name_cs": "Soul",
+      "name_en": "Seoul"
+    },
+    {
+      "key": "Pyongyang",
+      "lat": 39.0392,
+      "lon": 125.7625,
+      "name_cs": "Pchjongjang",
+      "name_en": "Pyongyang"
+    },
+    {
+      "key": "Shanghai",
+      "lat": 31.2304,
+      "lon": 121.4737,
+      "name_cs": "Šanghaj",
+      "name_en": "Shanghai"
+    },
+    {
       "key": "Hong Kong",
       "lat": 22.3193,
       "lon": 114.1694,
@@ -477,27 +498,27 @@
       "name_en": "Hong Kong"
     },
     {
-      "key": "Washington",
-      "lat": 38.9,
-      "lon": -77.04,
-      "name_cs": "Washington, D.C.",
-      "name_en": "Washington",
+      "key": "San Francisco",
+      "lat": 37.77,
+      "lon": -122.42,
+      "name_cs": "San Francisco",
+      "name_en": "San Francisco",
       "auto": true
     },
     {
-      "key": "Los Angeles",
-      "lat": 34.05,
-      "lon": -118.24,
-      "name_cs": "Los Angeles",
-      "name_en": "Los Angeles",
+      "key": "Canada",
+      "lat": 56.1,
+      "lon": -106.3,
+      "name_cs": "Kanada",
+      "name_en": "Canada",
       "auto": true
     },
     {
-      "key": "Florida",
-      "lat": 27.8,
-      "lon": -81.7,
-      "name_cs": "Florida",
-      "name_en": "Florida",
+      "key": "Ukrain",
+      "lat": 50.45,
+      "lon": 30.52,
+      "name_cs": "Ukrajina",
+      "name_en": "Ukrain",
       "auto": true
     },
     {
@@ -525,22 +546,6 @@
       "auto": true
     },
     {
-      "key": "Taiwan",
-      "lat": 23.7,
-      "lon": 121,
-      "name_cs": "Tchaj-wan",
-      "name_en": "Taiwan",
-      "auto": true
-    },
-    {
-      "key": "Japan",
-      "lat": 36.2,
-      "lon": 138.3,
-      "name_cs": "Japonsko",
-      "name_en": "Japan",
-      "auto": true
-    },
-    {
       "key": "India",
       "lat": 20.6,
       "lon": 79,
@@ -549,19 +554,19 @@
       "auto": true
     },
     {
-      "key": "Pakistan",
-      "lat": 30.4,
-      "lon": 69.3,
-      "name_cs": "Pákistán",
-      "name_en": "Pakistan",
+      "key": "Singapore",
+      "lat": 1.35,
+      "lon": 103.8,
+      "name_cs": "Singapur",
+      "name_en": "Singapore",
       "auto": true
     },
     {
-      "key": "London",
-      "lat": 51.5,
-      "lon": -0.12,
-      "name_cs": "Londýn",
-      "name_en": "London",
+      "key": "Australia",
+      "lat": -25.3,
+      "lon": 133.8,
+      "name_cs": "Austrálie",
+      "name_en": "Australia",
       "auto": true
     },
     {
@@ -582,44 +587,41 @@
     }
   ],
   "location_counts": {
-    "Beijing": 31,
-    "Hong Kong": 32,
+    "Beijing": 32,
+    "Hong Kong": 33,
     "Tokyo": 7,
-    "Shanghai": 5,
-    "Seoul": 8,
+    "Shanghai": 6,
+    "Seoul": 9,
     "South China Sea": 5,
     "Taipei": 6,
     "Manila": 4,
-    "Pyongyang": 1,
+    "Pyongyang": 2,
     "Washington, D.C.": 5,
     "Los Angeles": 2,
     "Florida": 1,
     "Rusko": 1,
     "Írán": 1,
-    "Čína": 9,
+    "Čína": 8,
     "Tchaj-wan": 3,
     "Japonsko": 1,
-    "Indie": 2,
+    "Indie": 1,
     "Londýn": 1,
     "Berlín": 1,
-    "Paříž": 1,
-    "Pákistán": 1
+    "Paříž": 2,
+    "Pákistán": 1,
+    "San Francisco": 1,
+    "Kanada": 1,
+    "Ukrajina": 1,
+    "Singapur": 1,
+    "Austrálie": 1
   },
   "top_location": {
     "key": "Hong Kong",
     "name_cs": "Hongkong",
     "name_en": "Hong Kong",
-    "count": 32
+    "count": 33
   },
   "archive": [
-    {
-      "date": "2026-10-02 11:40",
-      "threat_level": "MEDIUM",
-      "security_status_cs": "Geopolitické napětí v Indo-Pacifiku přetrvává, podpořené dodávkami stíhaček F-16V na Tchaj-wan a rostoucími obavami v Malajsii ohledně situace v Jihočínském moři. Ekonomický vývoj v regionu je smíšený: zatímco Hongkong hlásí oživení maloobchodních tržeb během svátků, IPO trh nadále oslabuje a technologické restrikce (např. blokování VPN pro AI modely) se zostřují.",
-      "security_status_en": "Geopolitical tensions in the Indo-Pacific remain evident, underscored by F-16V deliveries to Taiwan and rising maritime security anxieties in Malaysia regarding the South China Sea. Regional economic dynamics are mixed: while Hong Kong reports retail growth during holidays, its IPO market struggles and tech restrictions (such as VPN blocks for AI models) tighten.",
-      "forecast_cs": "V nejbližších dnech lze očekávat reakce trhů na data z hongkongského maloobchodu během svátků a pokračující diplomatické manévry kolem Tchajwanské úžiny.",
-      "forecast_en": "Over the coming days, markets are expected to react to Hong Kong's holiday retail data and ongoing diplomatic maneuvers around the Taiwan Strait."
-    },
     {
       "date": "2026-10-03 08:07",
       "threat_level": "HIGH",
@@ -723,23 +725,31 @@
       "security_status_en": "Geopolitical tensions in the Asia-Pacific remain elevated due to deepening US-China friction, including espionage charges and surveillance targeting the family of Taiwan's leader. Simultaneously, France and Germany are pushing the EU to adopt aggressive trade restrictions against China, heightening the risk of global trade fragmentation.",
       "forecast_cs": "V nejbližších dnech lze očekávat zostřenou rétoriku mezi Bruselem a Pekingem ohledně nových obchodních nástrojů EU a pokračující sledování bezpečnostní situace kolem Tchaj-wanu.",
       "forecast_en": "Over the coming days, heightened rhetoric between Brussels and Beijing regarding new EU trade tools and continued monitoring of the security situation around Taiwan are expected."
+    },
+    {
+      "date": "2026-10-06 12:32",
+      "threat_level": "MEDIUM",
+      "security_status_cs": "Geopolitické napětí v Asii zůstává podpořeno eskalací na Blízkém východě a korejském poloostrově, zatímco Evropská unie v čele s Francií a Německem přitvrzuje vůči čínským obchodním praktikám. Technologický sektor mezitím zažívá prudký vývoj v oblasti AI a IPO aktivit, např. primární úpis společnosti Transsion v Hongkongu.",
+      "security_status_en": "Geopolitical tensions in Asia remain underpinned by escalations in the Middle East and the Korean Peninsula, while the European Union, led by France and Germany, is hardening its stance against Chinese trade practices. Meanwhile, the tech sector is experiencing rapid developments in AI and IPO activities, such as Transsion's upcoming Hong Kong listing.",
+      "forecast_cs": "V nejbližších dnech lze očekávat detailnější vyjednávání mezi Pekingem a Bruselem ohledně nových obchodních bariér a sledování reakcí Soulu na incidenty na hranicích s KLDR.",
+      "forecast_en": "Over the coming days, expect heightened scrutiny on trade negotiations between Beijing and Brussels over new defensive tools, alongside monitoring of Seoul's diplomatic response to DMZ landmine incidents."
     }
   ],
-  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 5× HIGH, 2× MEDIUM.",
-  "weekly_summary_en": "Over the last 7 recorded analyses: 5× HIGH, 2× MEDIUM.",
+  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 4× HIGH, 3× MEDIUM.",
+  "weekly_summary_en": "Over the last 7 recorded analyses: 4× HIGH, 3× MEDIUM.",
   "market_data": {
     "hangseng": {
-      "value": 24228.47,
+      "value": 24280.56,
       "date": "2026-10-06",
       "cached": false
     },
     "nikkei": {
-      "value": 70498.67,
+      "value": 70683.98,
       "date": "2026-10-06",
       "cached": false
     },
     "usdcny": {
-      "value": 6.7,
+      "value": 6.69,
       "date": "2026-10-06",
       "cached": false
     }
