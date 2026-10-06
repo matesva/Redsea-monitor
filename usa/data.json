@@ -1,60 +1,67 @@
 {
-  "last_updated": "2026-10-06T04:23:26Z",
+  "last_updated": "2026-10-06T04:41:49Z",
   "assessment": {
     "threat_level": "HIGH",
     "sentiment_score": 72,
-    "security_status_cs": "Americké trhy utrpěly prudký výprodej v čele s technologickým sektorem kvůli novému čínskému AI modelu DeepSeek, což vyvolalo útěk k bezpečným aktivům jako je jen či švýcarský frank. Na domácí politické scéně mezitím eskalují přípravy na midtermy, přičemž administrativa čelí tlaku ohledně financování kontroverzních reklam a řeší bezpečnostní incidenty včetně zatčení údajné čínské špionky.",
-    "security_status_en": "US markets suffered a sharp sell-off led by the tech sector due to China's new DeepSeek AI model, prompting a flight to safe havens like the yen and Swiss franc. Meanwhile, domestic political preparations for the midterms are escalating as the administration faces pressure over controversial ad funding and addresses security incidents, including the arrest of an alleged Chinese spy.",
+    "security_status_cs": "Americké trhy a politickou scénu otřásá prudký výprodej v technologickém sektoru vyvolaný čínským modelem DeepSeek a rostoucí politické napětí před blížícími se midtermy. Administrativa čelí kritice kvůli financování kampaně, zatímco geopolitická rizika rostou v souvislosti s obavami o globální dodavatelské řetězce a bezpečnostními incidenty včetně zadržení údajného čínského agenta.",
+    "security_status_en": "US markets and the political landscape are rattled by a sharp tech sector sell-off triggered by China's DeepSeek model and mounting political tension ahead of the upcoming midterms. The administration faces criticism over campaign-style ad funding, while geopolitical risks rise amid concerns over global supply chains and security incidents including the arrest of an alleged Chinese agent.",
     "recommendations": [
       {
         "sector_cs": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
         "sector_en": "US Broad Equity Market (S&P 500 ETFs, e.g. VOO, SPY)",
         "action": "HOLD",
-        "reason_cs": "Trhy procházejí silnou volatilitou a technologickým šokem, je vhodné vyčkat na stabilizaci indexů před další alokací.",
-        "reason_en": "Markets are experiencing high volatility and a tech shock; it is prudent to wait for index stabilization before further allocation."
+        "reason_cs": "Trh čelí silnému tlaku v důsledku propadu v technologickém sektoru a politické nejistoty před midtermy. Doporučujeme vyčkat na stabilizaci širšího indexu.",
+        "reason_en": "The market faces severe pressure due to the tech sector rout and political uncertainty ahead of the midterms. It is prudent to wait for broader index stabilization."
       },
       {
         "sector_cs": "Státní dluhopisy USA (Treasuries)",
         "sector_en": "US Treasuries",
         "action": "BUY",
-        "reason_cs": "V prostředí rostoucí averze k riziku a akciového výproje hledají investoři bezpečí v dluhopisech.",
-        "reason_en": "Amid rising risk aversion and the equity sell-off, investors are seeking safety in government bonds."
+        "reason_cs": "Investoři v reakci na propad rizikových aktiv a rostoucí obavy hledají bezpečné přístavy, což zvyšuje poptávku po státních dluhopisech. Výnosy mohou krátkodobě klesat.",
+        "reason_en": "Investors are fleeing risk assets and seeking safe havens amid rising market stress, boosting demand for US government bonds. Yields may decline in the short term."
       },
       {
         "sector_cs": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
         "sector_en": "Defense Industry (RTX, Lockheed Martin, Northrop Grumman)",
-        "action": "HOLD",
-        "reason_cs": "Sektor těží ze zvýšeného geopolitického napětí, ale aktuální pozornost trhů je pohlcena technologickým sektorem.",
-        "reason_en": "The sector benefits from elevated geopolitical tensions, but current market attention is dominated by the tech shock."
+        "action": "BUY",
+        "reason_cs": "Geopolitické napětí a aktivní vojenské kroky administrativy udržují vysokou poptávku po obranných technologiích. Sektor poskytuje stabilní útočiště před technologickou volatilitou.",
+        "reason_en": "Geopolitical tensions and active military posture maintain strong demand for defense technologies. The sector provides a stable refuge from tech-driven volatility."
       },
       {
         "sector_cs": "Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)",
         "sector_en": "Banks & Financials (JPMorgan, Bank of America, Goldman Sachs)",
         "action": "HOLD",
-        "reason_cs": "Finanční instituce čelí dopadům celkové nervozity na trzích a nejistotě ohledně budoucího směřování sazeb Fedu.",
-        "reason_en": "Financial institutions face the spillover from broader market jitters and uncertainty regarding future Fed rate paths."
+        "reason_cs": "Finanční sektor čelí smíšeným signálům z makroekonomického prostředí a obavám z úvěrového zatížení spotřebitelů. Doporučujeme zachovat opatrnost bez nutnosti okamžitých změn pozic.",
+        "reason_en": "The financial sector faces mixed macroeconomic signals and consumer credit anxieties. Caution is advised with no immediate need for portfolio shifts."
       },
       {
         "sector_cs": "Technologický sektor (Apple, Microsoft, Nvidia)",
         "sector_en": "Technology Sector (Apple, Microsoft, Nvidia)",
         "action": "SELL",
-        "reason_cs": "Masivní výprodej vyvolaný konkurenčním tlakem z Číny (DeepSeek) a obavy o marže AI infrastruktury vyžadují opatrnost.",
-        "reason_en": "Massive sell-off triggered by Chinese competition (DeepSeek) and margin fears in AI infrastructure warrant caution."
+        "reason_cs": "Nečekaný šok vyvolaný čínským nástupem DeepSeek vedl k masivnímu výprodeji a dvouciferným ztrátám v AI infrastruktuře. Riziko dalšího poklesu zůstává akutní.",
+        "reason_en": "An unexpected shock from China's DeepSeek rollout triggered a massive sell-off and double-digit drops in AI infrastructure. Downside risks remain acute."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly jsou primárně ovlivněny evropským sentimentem a domácí makroekonomikou, zámořský propad AI na ně dopadá jen okrajově.",
-        "reason_en": "Domestic stocks are primarily driven by European sentiment and local macro factors, remaining largely insulated from the US AI rout."
+        "reason_cs": "Domácí tituly jsou primárně ovlivněny lokálními fundamenty a evropským sentimentem, přičemž globální technologický propad má na ně jen omezený nepřímý dopad. Vyčkáváme na další vývoj.",
+        "reason_en": "Domestic equities are primarily driven by local fundamentals and European sentiment, with the global tech rout having only limited indirect impact. We maintain current positions."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající nervozitu v technologickém sektoru a zvýšenou pozornost investorů vůči makroekonomickým datům a politickému boji před midtermy.",
-    "forecast_en": "Over the coming days, expect lingering nervousness in the tech sector and heightened investor focus on macroeconomic data and political battles ahead of the midterms.",
-    "forecast_review_cs": "Předchozí předpověď o volatilitě v technologických trzích a politickém boji před midtermch se plně potvrdila.",
-    "forecast_review_en": "The previous forecast regarding tech market volatility and political campaigning ahead of the midterms was fully confirmed."
+    "forecast_cs": "V následujících dnech lze očekávat pokračující volatilitu v technologickém sektoru a zvýšený tlak na administrativu kvůli domácím politickým kontroverzím. Investoři budou nadále bedlivě sledovat vývoj bezpečnějších aktiv a politické signály před volbami.",
+    "forecast_en": "Over the coming days, continued volatility in the tech sector and mounting pressure on the administration over domestic political controversies are expected. Investors will closely monitor safe-haven assets and pre-election political signals.",
+    "forecast_review_cs": "Předchozí předpověď o nervozitě v technologickém sektoru a politickém boji před midtermy se plně potvrdila dnešním masivním propadem technologií a zostřenou předvolební rétorikou.",
+    "forecast_review_en": "The previous forecast regarding nervousness in the tech sector and political battles ahead of the midterms was fully confirmed by today's massive tech sell-off and intensified pre-election rhetoric."
   },
   "articles": [
+    {
+      "title": "Trump says 'threat' led US to pull bombers from RAF Fairford",
+      "summary": "The Pentagon confirmed on Sunday it had removed the B1 bombers from the base in England back to their home stations in America.",
+      "link": "https://www.bbc.co.uk/news/articles/cwj3413e5m1lo?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 06 Oct 2026 04:25:22 GMT",
+      "source": "BBC News"
+    },
     {
       "title": "Who Is Nidal Hasan? Trump Green-Lights Firing Squad for Fort Hood Shooter",
       "summary": "President Trump approved Nidal Hasan's execution, reviving attention on the Army psychiatrist behind the 2009 Fort Hood attack.",
@@ -238,13 +245,6 @@
       "source": "Washington Post"
     },
     {
-      "title": "Trump says 'threat' led US to pull bombers from RAF Fairford",
-      "summary": "The Pentagon confirmed on Sunday it had removed the B1 bombers from the base in England back to their home stations in America.",
-      "link": "https://www.bbc.co.uk/news/articles/cwj3413e5m1lo?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 05 Oct 2026 21:46:22 GMT",
-      "source": "BBC News"
-    },
-    {
       "title": "House Democrat targets candidate prediction market trades after opponent’s Kalshi penalty",
       "summary": "A new bill bans federal candidates from trading prediction market contracts related to their own elections and would result in a fine if violated.",
       "link": "https://www.cnbc.com/2026/10/05/don-davis-prediction-market-candidate-trading.html",
@@ -337,15 +337,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-09-20 02:52",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 68,
-      "incidents": 20,
-      "sp500": 7650.5,
-      "usd_czk": null
-    },
     {
       "date": "2026-09-20 06:38",
       "threat_level": "HIGH",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "sp500": 7773.95,
       "usd_czk": null
+    },
+    {
+      "date": "2026-10-06 04:41",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 72,
+      "incidents": 40,
+      "sp500": 7773.95,
+      "usd_czk": null
     }
   ],
   "locations": [
@@ -678,37 +678,137 @@
       "lon": -106.3468,
       "name_cs": "Kanada",
       "name_en": "Canada"
+    },
+    {
+      "key": "Brazil",
+      "lat": -14.2,
+      "lon": -51.9,
+      "name_cs": "Brazílie",
+      "name_en": "Brazil",
+      "auto": true
+    },
+    {
+      "key": "Ukrain",
+      "lat": 50.45,
+      "lon": 30.52,
+      "name_cs": "Ukrajina",
+      "name_en": "Ukrain",
+      "auto": true
+    },
+    {
+      "key": "Russia",
+      "lat": 55.75,
+      "lon": 37.62,
+      "name_cs": "Rusko",
+      "name_en": "Russia",
+      "auto": true
+    },
+    {
+      "key": "Iran",
+      "lat": 32.4,
+      "lon": 53.7,
+      "name_cs": "Írán",
+      "name_en": "Iran",
+      "auto": true
+    },
+    {
+      "key": "China",
+      "lat": 35.9,
+      "lon": 104.2,
+      "name_cs": "Čína",
+      "name_en": "China",
+      "auto": true
+    },
+    {
+      "key": "Taiwan",
+      "lat": 23.7,
+      "lon": 121,
+      "name_cs": "Tchaj-wan",
+      "name_en": "Taiwan",
+      "auto": true
+    },
+    {
+      "key": "Japan",
+      "lat": 36.2,
+      "lon": 138.3,
+      "name_cs": "Japonsko",
+      "name_en": "Japan",
+      "auto": true
+    },
+    {
+      "key": "Pakistan",
+      "lat": 30.4,
+      "lon": 69.3,
+      "name_cs": "Pákistán",
+      "name_en": "Pakistan",
+      "auto": true
+    },
+    {
+      "key": "London",
+      "lat": 51.5,
+      "lon": -0.12,
+      "name_cs": "Londýn",
+      "name_en": "London",
+      "auto": true
+    },
+    {
+      "key": "France",
+      "lat": 48.86,
+      "lon": 2.35,
+      "name_cs": "Paříž",
+      "name_en": "France",
+      "auto": true
+    },
+    {
+      "key": "Spain",
+      "lat": 40.4,
+      "lon": -3.7,
+      "name_cs": "Madrid",
+      "name_en": "Spain",
+      "auto": true
+    },
+    {
+      "key": "Colombia",
+      "lat": 4.57,
+      "lon": -74.3,
+      "name_cs": "Kolumbie",
+      "name_en": "Colombia",
+      "auto": true
     }
   ],
   "location_counts": {
     "Florida": 13,
-    "Texas": 17,
-    "Washington": 8,
-    "New York": 13,
-    "California": 7,
-    "Capitol": 7,
+    "Texas": 18,
+    "Washington": 9,
+    "New York": 14,
+    "California": 8,
+    "Capitol": 8,
     "Border": 3,
-    "Los Angeles": 2,
-    "Wall Street": 2,
-    "Illinois": 2,
-    "Colorado": 2,
-    "Canada": 2
+    "Los Angeles": 3,
+    "Wall Street": 3,
+    "Illinois": 3,
+    "Colorado": 3,
+    "Canada": 3,
+    "Brazílie": 3,
+    "Ukrajina": 1,
+    "Rusko": 2,
+    "Írán": 1,
+    "Čína": 5,
+    "Tchaj-wan": 1,
+    "Japonsko": 1,
+    "Pákistán": 1,
+    "Londýn": 1,
+    "Paříž": 1,
+    "Madrid": 1,
+    "Kolumbie": 1
   },
   "top_location": {
     "key": "Texas",
     "name_cs": "Texas",
     "name_en": "Texas",
-    "count": 17
+    "count": 18
   },
   "archive": [
-    {
-      "date": "2026-09-30 11:41",
-      "threat_level": "HIGH",
-      "security_status_cs": "Spojené státy čelí rostoucímu napětí kvůli blížícím se mezivolbám, přičemž inflace a ceny potravin zůstávají hlavním tématem voličů při schodku státního dluhu přesahujícím 40 bilionů dolarů. Administrativa mezitím prosazuje radikální změny v imigrační politice, personálním obsazení federálních institucí a vojenském školství, což vyvolává ostré právní i politické střety.",
-      "security_status_en": "The United States faces mounting tension ahead of the midterms, with inflation and grocery prices remaining central voter concerns amid a national debt surpassing $40 trillion. Meanwhile, the administration is aggressively pushing policy shifts in immigration, federal staffing, and military education, triggering sharp legal and political clashes.",
-      "forecast_cs": "V nejbližších dnech lze očekávat zostření debat o federálním rozpočtu a další právní tahanice kolem imigračních opatření a deportací. Trhy budou citlivě reagovat na předvolební průzkumy v USA zaměřené na životní náklady.",
-      "forecast_en": "Over the coming days, debates over the federal budget and legal battles surrounding immigration measures and deportations are expected to intensify. Markets will react sensitively to pre-election polls in the US focusing on living costs."
-    },
     {
       "date": "2026-10-01 12:10",
       "threat_level": "HIGH",
@@ -812,6 +912,14 @@
       "security_status_en": "US markets suffered a sharp sell-off led by the tech sector due to China's new DeepSeek AI model, prompting a flight to safe havens like the yen and Swiss franc. Meanwhile, domestic political preparations for the midterms are escalating as the administration faces pressure over controversial ad funding and addresses security incidents, including the arrest of an alleged Chinese spy.",
       "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající nervozitu v technologickém sektoru a zvýšenou pozornost investorů vůči makroekonomickým datům a politickému boji před midtermy.",
       "forecast_en": "Over the coming days, expect lingering nervousness in the tech sector and heightened investor focus on macroeconomic data and political battles ahead of the midterms."
+    },
+    {
+      "date": "2026-10-06 04:41",
+      "threat_level": "HIGH",
+      "security_status_cs": "Americké trhy a politickou scénu otřásá prudký výprodej v technologickém sektoru vyvolaný čínským modelem DeepSeek a rostoucí politické napětí před blížícími se midtermy. Administrativa čelí kritice kvůli financování kampaně, zatímco geopolitická rizika rostou v souvislosti s obavami o globální dodavatelské řetězce a bezpečnostními incidenty včetně zadržení údajného čínského agenta.",
+      "security_status_en": "US markets and the political landscape are rattled by a sharp tech sector sell-off triggered by China's DeepSeek model and mounting political tension ahead of the upcoming midterms. The administration faces criticism over campaign-style ad funding, while geopolitical risks rise amid concerns over global supply chains and security incidents including the arrest of an alleged Chinese agent.",
+      "forecast_cs": "V následujících dnech lze očekávat pokračující volatilitu v technologickém sektoru a zvýšený tlak na administrativu kvůli domácím politickým kontroverzím. Investoři budou nadále bedlivě sledovat vývoj bezpečnějších aktiv a politické signály před volbami.",
+      "forecast_en": "Over the coming days, continued volatility in the tech sector and mounting pressure on the administration over domestic political controversies are expected. Investors will closely monitor safe-haven assets and pre-election political signals."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 6× HIGH, 1× MEDIUM.",
