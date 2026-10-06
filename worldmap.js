@@ -32,7 +32,7 @@
 
   /* Vestavěný seznam míst: [název, lat, lon, [hledané výrazy]]. Výraz končící "$" musí být celé slovo. */
   var GAZ=[
-   ["Washington, D.C.",38.9,-77.04,["washington dc","washington, d.c.","white house","pentagon","capitol hill","federal reserve"]],
+   ["Washington, D.C.",38.9,-77.04,["washington","white house","pentagon","capitol","federal reserve","supreme court","scotus","congress","u.s. senate","house speaker","justice department","ice$","midterm"]],
    ["New York",40.71,-74.0,["new york","wall street","nasdaq","nyse","manhattan"]],
    ["Los Angeles",34.05,-118.24,["los angeles","hollywood"]],
    ["San Francisco",37.77,-122.42,["san francisco","silicon valley"]],
@@ -48,6 +48,23 @@
    ["Las Vegas",36.17,-115.14,["las vegas","nevada"]],
    ["Minneapolis",44.98,-93.27,["minneapolis","minnesota"]],
    ["Philadelphia",39.95,-75.17,["philadelphia","pennsylvania"]],
+   ["Ohio",40.4,-82.8,["ohio","springfield","cleveland","columbus"]],
+   ["Colorado",39.0,-105.5,["colorado","boulder","denver"]],
+   ["Illinois",40.0,-89.0,["illinois"]],
+   ["Michigan",44.3,-85.6,["michigan"]],
+   ["Wisconsin",44.5,-89.5,["wisconsin","milwaukee"]],
+   ["Severní Karolína",35.6,-79.8,["north carolina","charlotte"]],
+   ["Georgie (USA)",32.7,-83.4,["georgia$"]],
+   ["Virginie",37.5,-78.8,["virginia"]],
+   ["New Jersey",40.1,-74.5,["new jersey"]],
+   ["Tennessee",35.8,-86.4,["tennessee","nashville"]],
+   ["Louisiana",31.0,-92.0,["louisiana","new orleans"]],
+   ["Maine",45.3,-69.0,["maine$"]],
+   ["Oregon",44.0,-120.5,["oregon","portland"]],
+   ["Utah",39.3,-111.7,["utah"]],
+   ["Oklahoma",35.5,-97.5,["oklahoma"]],
+   ["Pensylvánie",40.9,-77.8,["pittsburgh"]],
+   ["Ithaca (Cornell)",42.45,-76.5,["cornell"]],
    ["Aljaška",64.2,-149.5,["alaska"]],
    ["Havaj",20.8,-156.3,["hawaii"]],
    ["Portoriko",18.2,-66.5,["puerto rico"]],
@@ -129,8 +146,8 @@
         add(l.name_cs||l.key,l.lat,l.lon,hay.filter(function(h){return terms.some(function(t){return h.t.indexOf(t)>-1})}).map(function(h){return h.a}));
       });
       GAZ.forEach(function(g){
-        if(locs.some(function(l){return Math.abs(l.lat-g[1])<2.5&&Math.abs(l.lon-g[2])<2.5}))return;
-        add(g[0],g[1],g[2],hay.filter(function(h){return g.re.some(function(r){return r.test(h.t)})}).map(function(h){return h.a}));
+        var near=locs.filter(function(l){return Math.abs(l.lat-g[1])<2.5&&Math.abs(l.lon-g[2])<2.5})[0];
+        add(near?(near.name_cs||near.key):g[0],near?near.lat:g[1],near?near.lon:g[2],hay.filter(function(h){return g.re.some(function(r){return r.test(h.t)})}).map(function(h){return h.a}));
       });
       if(used)nMon++;
     });
