@@ -1,6 +1,8 @@
 import feedparser
 import json
 import os
+import re
+import calendar
 import urllib.request
 import html
 from datetime import datetime, timezone
@@ -31,56 +33,162 @@ RSS_FEEDS = [
     "https://www.newsweek.com/rss",
 ]
 
+# Kolik nejnovějších článků se bere z jednoho feedu a kolik jich je celkem.
+# Články se vybírají střídavě z každého feedu, aby nepřevážily první zdroje.
+PER_FEED_MAX = 4
+MAX_ARTICLES = 40
+
+SOURCE_NAMES = {
+    "npr.org": "NPR",
+    "foxnews.com": "Fox News",
+    "apnews.com": "AP News",
+    "washingtonpost.com": "Washington Post",
+    "theguardian.com": "The Guardian",
+    "bbci.co.uk": "BBC News",
+    "bbc.co.uk": "BBC News",
+    "cbsnews.com": "CBS News",
+    "thehill.com": "The Hill",
+    "realclearpolitics.com": "RealClearPolitics",
+    "marketwatch.com": "MarketWatch",
+    "dj.com": "WSJ Markets",
+    "cnbc.com": "CNBC",
+    "politico.com": "Politico",
+    "axios.com": "Axios",
+    "newsweek.com": "Newsweek",
+}
+
 KEYWORDS = [
     "Trump", "White House", "Congress", "Senate", "Federal Reserve", "Fed ",
     "shutdown", "tariff", "immigration", "ICE ", "National Guard",
     "Supreme Court", "election", "protest", "wildfire", "hurricane",
-    "shooting", "strike", "sanctions", "Capitol", "recession", "inflation"
+    "shooting", "strike", "sanctions", "Capitol", "recession", "inflation",
+    "Pentagon", "Wall Street", "Treasury", "jobs report", "stocks", "midterm",
+    "Democrat", "Republican", "governor", "border", "deportation", "FBI",
+    "cyber", "court", "economy", "mortgage", "oil prices"
 ]
 
 THREAT_MAP = {"STABLE": 1, "MEDIUM": 2, "HIGH": 3, "CRITICAL": 4}
 
+
+def _loc(lat, lon, cs, en=None, terms=None):
+    return {"lat": lat, "lon": lon, "name_cs": cs, "name_en": en or cs, "terms": terms}
+
+
 LOCATIONS = {
-    "Washington": {"lat": 38.9072, "lon": -77.0369, "name_cs": "Washington, D.C.", "name_en": "Washington, D.C."},
-    "New York": {"lat": 40.7128, "lon": -74.0060, "name_cs": "New York", "name_en": "New York"},
-    "Los Angeles": {"lat": 34.0522, "lon": -118.2437, "name_cs": "Los Angeles", "name_en": "Los Angeles"},
-    "Chicago": {"lat": 41.8781, "lon": -87.6298, "name_cs": "Chicago", "name_en": "Chicago"},
-    "Texas": {"lat": 31.9686, "lon": -99.9018, "name_cs": "Texas", "name_en": "Texas"},
-    "Florida": {"lat": 27.6648, "lon": -81.5158, "name_cs": "Florida", "name_en": "Florida"},
-    "California": {"lat": 36.7783, "lon": -119.4179, "name_cs": "Kalifornie", "name_en": "California"},
-    "Border": {"lat": 31.7619, "lon": -106.4850, "name_cs": "Hranice s Mexikem (El Paso)", "name_en": "US-Mexico Border (El Paso)"},
-    "Capitol": {"lat": 38.8899, "lon": -77.0091, "name_cs": "Kapitol", "name_en": "US Capitol"},
-    "Wall Street": {"lat": 40.7069, "lon": -74.0113, "name_cs": "Wall Street", "name_en": "Wall Street"},
+    "Washington": _loc(38.9072, -77.0369, "Washington, D.C.", "Washington, D.C.",
+                       ["washington", "white house", "pentagon", "supreme court", "scotus",
+                        "congress", "federal reserve", "justice department"]),
+    "New York": _loc(40.7128, -74.0060, "New York", "New York", ["new york", "manhattan", "brooklyn"]),
+    "Los Angeles": _loc(34.0522, -118.2437, "Los Angeles", "Los Angeles", ["los angeles"]),
+    "Chicago": _loc(41.8781, -87.6298, "Chicago", "Chicago", ["chicago"]),
+    "Texas": _loc(31.9686, -99.9018, "Texas", "Texas", ["texas", "houston", "dallas", "austin", "san antonio"]),
+    "Florida": _loc(27.6648, -81.5158, "Florida", "Florida", ["florida", "miami"]),
+    "California": _loc(36.7783, -119.4179, "Kalifornie", "California",
+                       ["california", "san francisco", "silicon valley", "san diego"]),
+    "Border": _loc(31.7619, -106.4850, "Hranice s Mexikem (El Paso)", "US-Mexico Border (El Paso)",
+                   ["border", "el paso", "rio grande"]),
+    "Capitol": _loc(38.8899, -77.0091, "Kapitol", "US Capitol", ["capitol"]),
+    "Wall Street": _loc(40.7069, -74.0113, "Wall Street", "Wall Street", ["wall street", "nasdaq", "nyse"]),
+    "Ohio": _loc(40.4173, -82.9071, "Ohio", "Ohio", ["ohio", "springfield", "cleveland", "columbus"]),
+    "Michigan": _loc(44.3148, -85.6024, "Michigan", "Michigan", ["michigan", "detroit"]),
+    "Pennsylvania": _loc(41.2033, -77.1945, "Pensylvánie", "Pennsylvania", ["pennsylvania", "philadelphia", "pittsburgh"]),
+    "Georgia": _loc(32.1656, -82.9001, "Georgie (USA)", "Georgia (US)", ["georgia", "atlanta"]),
+    "Arizona": _loc(34.0489, -111.0937, "Arizona", "Arizona", ["arizona", "phoenix"]),
+    "Nevada": _loc(38.8026, -116.4194, "Nevada", "Nevada", ["nevada", "las vegas"]),
+    "Wisconsin": _loc(43.7844, -88.7879, "Wisconsin", "Wisconsin", ["wisconsin", "milwaukee"]),
+    "Minnesota": _loc(46.7296, -94.6859, "Minnesota", "Minnesota", ["minnesota", "minneapolis"]),
+    "North Carolina": _loc(35.7596, -79.0193, "Severní Karolína", "North Carolina", ["north carolina", "charlotte"]),
+    "Virginia": _loc(37.4316, -78.6569, "Virginie", "Virginia", ["virginia"]),
+    "New Jersey": _loc(40.0583, -74.4057, "New Jersey", "New Jersey", ["new jersey"]),
+    "Illinois": _loc(40.6331, -89.3985, "Illinois", "Illinois", ["illinois"]),
+    "Colorado": _loc(39.5501, -105.7821, "Colorado", "Colorado", ["colorado", "denver", "boulder"]),
+    "Louisiana": _loc(31.2448, -92.1450, "Louisiana", "Louisiana", ["louisiana", "new orleans"]),
+    "Tennessee": _loc(35.5175, -86.5804, "Tennessee", "Tennessee", ["tennessee", "nashville"]),
+    "Maine": _loc(45.2538, -69.4455, "Maine", "Maine", ["maine"]),
+    "Massachusetts": _loc(42.4072, -71.3824, "Massachusetts", "Massachusetts", ["massachusetts", "boston"]),
+    "Oregon": _loc(43.8041, -120.5542, "Oregon", "Oregon", ["oregon", "portland"]),
+    "Seattle": _loc(47.6062, -122.3321, "Seattle", "Seattle", ["seattle"]),
+    "Utah": _loc(39.3210, -111.0937, "Utah", "Utah", ["utah"]),
+    "Oklahoma": _loc(35.0078, -97.0929, "Oklahoma", "Oklahoma", ["oklahoma"]),
+    "Alaska": _loc(64.2008, -149.4937, "Aljaška", "Alaska", ["alaska"]),
+    "Hawaii": _loc(19.8968, -155.5828, "Havaj", "Hawaii", ["hawaii"]),
+    "Puerto Rico": _loc(18.2208, -66.5901, "Portoriko", "Puerto Rico", ["puerto rico"]),
+    "Mexico": _loc(23.6345, -102.5528, "Mexiko", "Mexico", ["mexico", "mexican"]),
+    "Canada": _loc(56.1304, -106.3468, "Kanada", "Canada", ["canada", "canadian"]),
 }
 
 
+def source_name(feed_url, fallback):
+    host = re.sub(r"^https?://", "", feed_url).split("/")[0].lower()
+    for domain, name in SOURCE_NAMES.items():
+        if host == domain or host.endswith("." + domain):
+            return name
+    return fallback
+
+
+def entry_ts(entry):
+    t = entry.get("published_parsed") or entry.get("updated_parsed")
+    try:
+        return calendar.timegm(t) if t else 0
+    except Exception:
+        return 0
+
+
 def fetch_articles():
-    articles = []
+    per_feed = []
     for feed_url in RSS_FEEDS:
+        items = []
+        name = source_name(feed_url, "News")
         try:
             feed = feedparser.parse(feed_url)
-            for entry in feed.entries:
+            name = source_name(feed_url, feed.feed.get("title", "News"))
+            for entry in sorted(feed.entries, key=entry_ts, reverse=True):
                 title = html.unescape(entry.get("title", ""))
                 summary = html.unescape(entry.get("summary", ""))
                 if any(kw.lower() in (title + summary).lower() for kw in KEYWORDS):
-                    articles.append({
+                    items.append({
                         "title": title,
                         "summary": summary,
                         "link": entry.get("link", "#"),
                         "published": entry.get("published", datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")),
-                        "source": feed.feed.get("title", "News")
+                        "source": name,
+                        "_ts": entry_ts(entry)
                     })
+                    if len(items) >= PER_FEED_MAX:
+                        break
         except Exception as e:
             print(f"Error processing feed {feed_url}: {e}")
-            continue
-    return articles[:20]
+        print(f"Feed {name}: {len(items)} článků")
+        per_feed.append(items)
+
+    # Střídavý výběr: z každého feedu 1. článek, pak 2. atd., bez duplicit.
+    result, seen_links, seen_titles = [], set(), set()
+    idx = 0
+    while len(result) < MAX_ARTICLES and any(idx < len(x) for x in per_feed):
+        for items in per_feed:
+            if idx >= len(items) or len(result) >= MAX_ARTICLES:
+                continue
+            a = items[idx]
+            tkey = re.sub(r"\W+", " ", a["title"].lower()).strip()
+            if a["link"] in seen_links or tkey in seen_titles:
+                continue
+            seen_links.add(a["link"])
+            seen_titles.add(tkey)
+            result.append(a)
+        idx += 1
+
+    result.sort(key=lambda a: a["_ts"], reverse=True)
+    for a in result:
+        a.pop("_ts", None)
+    return result
 
 
 def extract_locations(articles):
     found = {}
-    text_blob = " ".join([a['title'] + " " + a['summary'] for a in articles])
+    text_blob = " ".join([a['title'] + " " + a['summary'] for a in articles]).lower()
     for key, loc in LOCATIONS.items():
-        if key.lower() in text_blob.lower():
+        terms = loc.get("terms") or [key.lower()]
+        if any(re.search(r"(?<![a-z])" + re.escape(t) + r"(?![a-z])", text_blob) for t in terms):
             found[key] = {"key": key, "lat": loc["lat"], "lon": loc["lon"], "name_cs": loc["name_cs"], "name_en": loc["name_en"]}
     return list(found.values())
 
@@ -184,11 +292,17 @@ def fallback_assessment():
     }
 
 
+def prompt_summary(text, limit=300):
+    s = re.sub(r"<[^>]*>", " ", text or "")
+    s = re.sub(r"\s+", " ", s).strip()
+    return s[:limit]
+
+
 def analyze_with_ai(articles, previous_forecast_cs, previous_forecast_en):
     if not articles:
         return fallback_assessment()
 
-    news_text = "\n".join([f"- {a['title']}: {a['summary']}" for a in articles])
+    news_text = "\n".join([f"- {a['title']}: {prompt_summary(a['summary'])}" for a in articles])
     prev_cs = previous_forecast_cs or "Žádná předchozí předpověď."
     prev_en = previous_forecast_en or "No previous forecast."
 
