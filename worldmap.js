@@ -30,28 +30,109 @@
     return String((d.assessment&&d.assessment.threat_level)||"").split(" ")[0].split("/")[0].trim().toUpperCase();
   }
 
+  /* Vestavěný seznam míst: [název, lat, lon, [hledané výrazy]]. Výraz končící "$" musí být celé slovo. */
+  var GAZ=[
+   ["Washington, D.C.",38.9,-77.04,["washington dc","washington, d.c.","white house","pentagon","capitol hill","federal reserve"]],
+   ["New York",40.71,-74.0,["new york","wall street","nasdaq","nyse","manhattan"]],
+   ["Los Angeles",34.05,-118.24,["los angeles","hollywood"]],
+   ["San Francisco",37.77,-122.42,["san francisco","silicon valley"]],
+   ["Kalifornie",36.8,-119.4,["california"]],
+   ["Chicago",41.88,-87.63,["chicago"]],
+   ["Texas",31.0,-99.0,["texas","houston","dallas","austin"]],
+   ["Florida",27.8,-81.7,["florida","miami"]],
+   ["Seattle",47.6,-122.33,["seattle"]],
+   ["Boston",42.36,-71.06,["boston"]],
+   ["Detroit",42.33,-83.05,["detroit"]],
+   ["Atlanta",33.75,-84.39,["atlanta"]],
+   ["Arizona",34.2,-111.7,["arizona","phoenix"]],
+   ["Las Vegas",36.17,-115.14,["las vegas","nevada"]],
+   ["Minneapolis",44.98,-93.27,["minneapolis","minnesota"]],
+   ["Philadelphia",39.95,-75.17,["philadelphia","pennsylvania"]],
+   ["Aljaška",64.2,-149.5,["alaska"]],
+   ["Havaj",20.8,-156.3,["hawaii"]],
+   ["Portoriko",18.2,-66.5,["puerto rico"]],
+   ["Kanada",56.1,-106.3,["canada","canadian","ottawa","toronto"]],
+   ["Mexiko",23.6,-102.5,["mexico","mexican"]],
+   ["Kuba",21.5,-79.0,["cuba$","havana"]],
+   ["Venezuela",7.0,-66.0,["venezuela","caracas"]],
+   ["Brazílie",-14.2,-51.9,["brazil"]],
+   ["Argentina",-34.0,-64.0,["argentin","buenos aires"]],
+   ["Ukrajina",50.45,30.52,["ukrain$","ukraine","kyiv","kiev"]],
+   ["Rusko",55.75,37.62,["russia","moscow","kremlin"]],
+   ["Izrael",31.5,34.8,["israel","tel aviv","jerusalem"]],
+   ["Gaza",31.4,34.4,["gaza"]],
+   ["Írán",32.4,53.7,["iran$","iranian","tehran"]],
+   ["Sýrie",34.8,38.9,["syria","damascus"]],
+   ["Libanon",33.9,35.9,["lebanon","beirut","hezbollah"]],
+   ["Turecko",39.0,35.0,["turkey$","türkiye","turkish","ankara","istanbul"]],
+   ["Egypt",26.8,30.8,["egypt","cairo","suez"]],
+   ["SAE",24.3,54.4,["uae$","emirates","dubai","abu dhabi"]],
+   ["Katar",25.3,51.2,["qatar","doha"]],
+   ["Čína",35.9,104.2,["china","chinese","beijing","shanghai"]],
+   ["Tchaj-wan",23.7,121.0,["taiwan","taipei"]],
+   ["Hongkong",22.3,114.2,["hong kong"]],
+   ["Japonsko",36.2,138.3,["japan","tokyo","yen$"]],
+   ["Jižní Korea",36.5,127.9,["south korea","seoul"]],
+   ["Severní Korea",40.0,127.0,["north korea","pyongyang"]],
+   ["Indie",20.6,79.0,["india$","indian$","new delhi","mumbai"]],
+   ["Pákistán",30.4,69.3,["pakistan","islamabad"]],
+   ["Afghánistán",33.9,67.7,["afghanistan","kabul"]],
+   ["Indonésie",-2.5,118.0,["indonesia","borneo","sumatra","jakarta"]],
+   ["Singapur",1.35,103.8,["singapore"]],
+   ["Austrálie",-25.3,133.8,["australia","sydney","canberra"]],
+   ["Londýn",51.5,-0.12,["london","britain","british","uk$","england"]],
+   ["Berlín",52.52,13.4,["germany","german$","berlin"]],
+   ["Paříž",48.86,2.35,["france","french$","paris$"]],
+   ["Řím",41.9,12.5,["italy","italian$","rome$"]],
+   ["Madrid",40.4,-3.7,["spain","spanish$","madrid"]],
+   ["Varšava",52.23,21.0,["poland","polish$","warsaw"]],
+   ["Praha",50.08,14.43,["prague","czech"]],
+   ["Brusel",50.85,4.35,["brussels","european commission","european union","eu$"]],
+   ["Etiopie",9.1,40.5,["ethiopia","addis ababa","tigray"]],
+   ["Súdán",15.5,32.5,["sudan$","khartoum"]],
+   ["Somálsko",5.2,46.2,["somalia","mogadishu","somaliland"]],
+   ["Eritrea",15.2,39.8,["eritrea","asmara"]],
+   ["Džibutsko",11.6,43.1,["djibouti"]],
+   ["Jihoafrická republika",-30.6,22.9,["south africa","johannesburg"]],
+   ["Nigérie",9.1,8.7,["nigeria","lagos"]]
+  ];
+  GAZ.forEach(function(g){
+    g.re=g[3].map(function(t){
+      var ex=/\$$/.test(t);t=t.replace(/\$$/,"").replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
+      return new RegExp("(^|[^a-z])"+t+(ex?"([^a-z]|$)":""));
+    });
+  });
+
   var mons=M.filter(function(m){return m.type==="t"});
   Promise.all(mons.map(function(m){
     return fetch(BASE+m.data,{cache:"no-store"}).then(function(r){return r.json()}).catch(function(){return null});
   })).then(function(res){
     var pts={},nEv=0,nMon=0;
     res.forEach(function(d,i){
-      if(!d||!d.locations||!d.locations.length)return;
-      nMon++;
-      var m=mons[i],lv=lvlKey(d),arts=d.articles||[];
+      if(!d)return;
+      var m=mons[i],lv=lvlKey(d),arts=d.articles||[],locs=(d.locations||[]).filter(function(l){return typeof l.lat==="number"&&typeof l.lon==="number"});
       var hay=arts.map(function(a){return{a:a,t:(a.title+" "+plain(a.summary)).toLowerCase()}});
-      d.locations.forEach(function(l){
-        if(typeof l.lat!=="number"||typeof l.lon!=="number")return;
-        var terms=[l.key,l.name_en].filter(Boolean).map(function(x){return String(x).toLowerCase()});
-        var hits=hay.filter(function(h){return terms.some(function(t){return h.t.indexOf(t)>-1})}).map(function(h){return h.a});
-        var id=l.lat.toFixed(1)+","+l.lon.toFixed(1);
-        var p=pts[id]||(pts[id]={lat:l.lat,lon:l.lon,name:l.name_cs||l.key,items:[],seen:{},lv:"",mons:{}});
-        if(hits.length){p.mons[m.name]=1;if(!p.lv||(RANK[lv]||0)>(RANK[p.lv]||0))p.lv=lv}
+      var used=false;
+      function add(name,lat,lon,hits){
+        if(!hits.length)return;
+        var id=lat.toFixed(1)+","+lon.toFixed(1);
+        var p=pts[id]||(pts[id]={lat:lat,lon:lon,name:name,items:[],seen:{},lv:"",mons:{}});
+        p.mons[m.name]=1;used=true;
+        if(!p.lv||(RANK[lv]||0)>(RANK[p.lv]||0))p.lv=lv;
         hits.forEach(function(a){
           if(p.seen[a.link])return;p.seen[a.link]=1;
           p.items.push({t:a.title,l:a.link,s:a.source,d:new Date(a.published),m:m.name});
         });
+      }
+      locs.forEach(function(l){
+        var terms=[l.key,l.name_en].filter(Boolean).map(function(x){return String(x).toLowerCase()});
+        add(l.name_cs||l.key,l.lat,l.lon,hay.filter(function(h){return terms.some(function(t){return h.t.indexOf(t)>-1})}).map(function(h){return h.a}));
       });
+      GAZ.forEach(function(g){
+        if(locs.some(function(l){return Math.abs(l.lat-g[1])<2.5&&Math.abs(l.lon-g[2])<2.5}))return;
+        add(g[0],g[1],g[2],hay.filter(function(h){return g.re.some(function(r){return r.test(h.t)})}).map(function(h){return h.a}));
+      });
+      if(used)nMon++;
     });
     var list=Object.keys(pts).map(function(k){return pts[k]}).filter(function(p){return p.items.length});
     if(!list.length){document.getElementById("wmnote").textContent="Mapu se nepodařilo sestavit - monitory neobsahují lokality s událostmi.";return}
