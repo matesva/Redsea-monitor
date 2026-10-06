@@ -1,211 +1,342 @@
 {
-  "last_updated": "2026-10-05T19:06:50Z",
+  "last_updated": "2026-10-06T04:18:26Z",
   "assessment": {
     "threat_level": "HIGH",
-    "sentiment_score": 65,
-    "security_status_cs": "Spojené státy čelí rostoucímu napětí před blížícími se mezidobími volbami, přičemž zpravodajské služby varují před vměšováním a dezinformačními kampaněmi ze strany Ruska. Nejvyšší soud mezitím zahajuje klíčové zasedání, kde řeší ožehavá témata včetně klimatu, náboženství a imigrace, což zesiluje politickou polarizaci.",
-    "security_status_en": "The United States is facing mounting tension ahead of upcoming midterm elections, with intelligence agencies warning of foreign interference and disinformation campaigns by Russia. Meanwhile, the Supreme Court is opening a critical new term addressing contentious topics including climate, religion, and immigration, intensifying political polarization.",
+    "sentiment_score": 72,
+    "security_status_cs": "Americké trhy a politickou scénu otřásá silný výprodej v technologickém sektoru vyvolaný nástupem čínské AI platformy DeepSeek a rostoucí politické napětí před blížícími se midtermy. Současně se objevují akutní bezpečnostní incidenty včetně odhalení čínských špionážních aktivit a kontroverzí kolem financování vládních politických reklam.",
+    "security_status_en": "US markets and the political scene are rattled by a severe tech sell-off triggered by Chinese AI platform DeepSeek and escalating political tensions ahead of the midterms. Concurrently, acute security incidents include the exposure of Chinese espionage activities and controversies surrounding government-funded political ads.",
     "recommendations": [
       {
         "sector_cs": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
         "sector_en": "US Broad Equity Market (S&P 500 ETFs, e.g. VOO, SPY)",
-        "action": "HOLD",
-        "reason_cs": "Trhy čelí zvýšené volatilitě kvůli blížícím se volbám a nejistotě ohledně zásadních rozhodnutí Nejvyššího soudu.",
-        "reason_en": "Markets face heightened volatility due to approaching elections and uncertainty surrounding major Supreme Court rulings."
+        "action": "SELL",
+        "reason_cs": "Trhy čelí plošnému tlaku a výprodejům v technologickém sektoru po šoku z asijské konkurence v oblasti umělé inteligence. Zvýšená politická nejistota před volbami navíc podporuje volatilitu.",
+        "reason_en": "Markets face broad pressure and tech sector sell-offs following shocks from Asian AI competition. Heightened political uncertainty ahead of the elections further supports volatility."
       },
       {
         "sector_cs": "Státní dluhopisy USA (Treasuries)",
         "sector_en": "US Treasuries",
         "action": "BUY",
-        "reason_cs": "Rostoucí politická nejistota a obavy ze zahraničního vměšování zvyšují poptávku po bezpečních aktivech.",
-        "reason_en": "Rising political uncertainty and concerns over foreign interference increase demand for safe-haven assets."
+        "reason_cs": "Investoři v reakci na propad rizikových aktiv a rostoucí globální nejistotu masivně přecházejí do bezpebných přístavů. To žene poptávku po státních dluhopisech vzhůru.",
+        "reason_en": "Investors are massively shifting into safe havens in response to the plunge in risk assets and rising global uncertainty, driving demand for government bonds higher."
       },
       {
         "sector_cs": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
         "sector_en": "Defense Industry (RTX, Lockheed Martin, Northrop Grumman)",
-        "action": "BUY",
-        "reason_cs": "Zhoršující se geopolitické prostředí a varování před vnějšími hrozbami vůči volební infrastruktuře udržují vysokou poptávku po obranných řešeních.",
-        "reason_en": "Deteriorating geopolitical environment and warnings about external threats to election infrastructure maintain high demand for defense solutions."
+        "action": "HOLD",
+        "reason_cs": "Sektor těží ze stabilních vládních výdajů a zostřené geopolitické situace, avšak celková nervozita na trzích omezuje krátkodobý růstový potenciál.",
+        "reason_en": "The sector benefits from stable government spending and heightened geopolitical tensions, though overall market nervousness limits short-term growth potential."
       },
       {
         "sector_cs": "Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)",
         "sector_en": "Banks & Financials (JPMorgan, Bank of America, Goldman Sachs)",
         "action": "HOLD",
-        "reason_cs": "Finanční sektor zůstává stabilní, ale vyčkává na makroekonomické signály a dopady nadcházejících politických změn v Kongresu.",
-        "reason_en": "The financial sector remains stable but is waiting for macroeconomic signals and the impact of upcoming political shifts in Congress."
+        "reason_cs": "Finanční instituce čelí rizikům zhoršujícího se trhu práce a dopadům politických snah o regulaci sazeb a úvěrových podmínek před volbami.",
+        "reason_en": "Financial institutions face risks from a worsening labor market and the impacts of political efforts to regulate rates and credit conditions ahead of the elections."
       },
       {
         "sector_cs": "Technologický sektor (Apple, Microsoft, Nvidia)",
         "sector_en": "Technology Sector (Apple, Microsoft, Nvidia)",
-        "action": "HOLD",
-        "reason_cs": "Technologické tituly čelí regulačnímu tlaku a obavám z kybernetických hrozeb zaměřených na digitální infrastrukturu.",
-        "reason_en": "Tech stocks face regulatory pressure and concerns over cyber threats targeting digital infrastructure."
+        "action": "SELL",
+        "reason_cs": "Nečekaný nástup levnější konkurence ze strany čínského DeepSeek zasadil těžkou ránu ocenění amerických gigantů v oblasti umělé inteligence a infrastruktury. Sektor prochází hlubokou korekcí.",
+        "reason_en": "The unexpected emergence of cheaper competition from China's DeepSeek dealt a heavy blow to the valuation of US AI and infrastructure giants, leading the sector through a deep correction."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly na pražské burze jsou vůči americkým vnitropolitickým sporům imunní, sledují však globální náladu na trzích.",
-        "reason_en": "Domestic stocks on the Prague Stock Exchange are immune to US domestic political disputes, but monitor global market sentiment."
+        "reason_cs": "Domácí tituly jsou primárně ovlivněny evropským sentimentem a domácí monetární politikou, přičemž negativní globální nálada z USA limituje jejich ochotu k růstu.",
+        "reason_en": "Domestic equities are primarily influenced by European sentiment and domestic monetary policy, while negative global sentiment from the US limits their growth appetite."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat gradaci volebních kampaní, další právní spory u Nejvyššího soudu a zostřená varování před kybernetickými útoky na volební systémy.",
-    "forecast_en": "Over the coming days, expect an escalation of election campaigns, further legal battles at the Supreme Court, and heightened warnings regarding cyberattacks on voting systems.",
-    "forecast_review_cs": "Předchozí předpověď se potvrdila, neboť kampaně nadále eskalují a Nejvyšší soud otevírá klíčovou agendu.",
-    "forecast_review_en": "The previous forecast was confirmed as campaigns continue to escalate and the Supreme Court opens its critical agenda."
+    "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na technologických trzích, zostřený boj o voliče před midtermy a zvýšenou ostražitost vůči vnější špionáži.",
+    "forecast_en": "Over the coming days, expect continued volatility in tech markets, intensified political campaigning ahead of the midterms, and heightened vigilance regarding foreign espionage.",
+    "forecast_review_cs": "Předchozí předpověď o eskalaci volebních kampaní a právních sporech u Nejvyššího soudu se částečně potvrdila, přičemž ji navíc nečekaně překryl globální technologický šok.",
+    "forecast_review_en": "The previous forecast regarding the escalation of election campaigns and Supreme Court legal battles was partially confirmed, additionally and unexpectedly overshadowed by a global tech shock."
   },
   "articles": [
     {
-      "title": "Dennis Hastert, longtime Republican House speaker who went to prison, dies at age 84",
-      "summary": "ennis Hastert, whose political legacy as Congress' longest-serving Republican House speaker was later fouled by allegations that he had molested high school athletes during his prior career as a teacher and wrestling coach, has died, a coroner said Monday. He was 84.",
-      "link": "https://www.npr.org/2026/10/05/g-s1-146452/dennis-hastert-republican-house-speaker-dies-obit",
-      "published": "Mon, 05 Oct 2026 10:24:31 -0400",
-      "source": "NPR Topics: News"
+      "title": "Who Is Nidal Hasan? Trump Green-Lights Firing Squad for Fort Hood Shooter",
+      "summary": "President Trump approved Nidal Hasan's execution, reviving attention on the Army psychiatrist behind the 2009 Fort Hood attack.",
+      "link": "https://www.newsweek.com/who-is-nidal-hasan-trump-green-lights-firing-squad-for-fort-hood-shooter-12527579",
+      "published": "Tue, 06 Oct 2026 00:00:43 -0400",
+      "source": "Newsweek"
     },
     {
-      "title": "Imran Khan supporters march in Pakistan to demand his release after talks failed",
-      "summary": "Talks between Khan's party and the government failed two days ago. Besides Khan's release, protesters demand his transfer to a hospital and family visits.",
-      "link": "https://www.npr.org/2026/10/05/g-s1-146408/imran-khan-supporters-march-in-pakistan-to-demand-his-release-after-talks-failed",
-      "published": "Mon, 05 Oct 2026 07:38:26 -0400",
-      "source": "NPR Topics: News"
+      "title": "Democrats May Flip Longest-Held GOP Senate Seat for First Time in 107 Years",
+      "summary": "Republican incumbent Senator Roger Marshall is battling Democrat Adam Hamiliton for the seat amid competitive polling.",
+      "link": "https://www.newsweek.com/democrats-may-flip-longest-held-gop-senate-seat-for-first-time-in-107-years-12527334",
+      "published": "Mon, 05 Oct 2026 23:10:08 -0400",
+      "source": "Newsweek"
     },
     {
-      "title": "SCOTUS hears major climate change case. And, Brazil's presidential race goes to runoff",
-      "summary": "The Supreme Court is set to hear a blockbuster climate change case that could affect more than just climate issues. And, Brazil's presidential race is too close to call.",
-      "link": "https://www.npr.org/2026/10/05/g-s1-146406/up-first-newsletter-flydubai-investigation-colorado-suncor-exxon-brazil-presidential-elections",
-      "published": "Mon, 05 Oct 2026 07:07:09 -0400",
-      "source": "NPR Topics: News"
+      "title": "Tillis says Trump impeachment over Jan 6 was 'weighty,' a 'vote of no confidence'",
+      "summary": "Sen. Thom Tillis (R-N.C.) on Monday said President Trump's impeachment in connection with the Jan. 6, 2021, Capitol Hill attack was \"weighty\" and his impeachment trial was a \"vote of no confidence.\" MS NOW's Ari Melber spoke with Tillis on \"The Beat,\" where the two talked about Tillis's upcoming book \"How to Lose Friends and...",
+      "link": "https://thehill.com/homenews/senate/6130895-tillis-trump-impeachment-snap-trial/",
+      "published": "Tue, 06 Oct 2026 02:53:23 +0000",
+      "source": "The Hill"
     },
     {
-      "title": "Spain's prime minister calls early elections as pressure mounts over housing crisis",
-      "summary": "Spanish Prime Minister Pedro Sánchez announced early elections Monday after his government suffered a bruising legislative defeat last week on emergency measures related to the country's housing crisis.",
-      "link": "https://www.npr.org/2026/10/05/nx-s1-5991404/spain-snap-elections",
-      "published": "Mon, 05 Oct 2026 05:15:55 -0400",
-      "source": "NPR Topics: News"
+      "title": "Separatist party projected to win Quebec election, adding new test to Canada's unity",
+      "summary": "The Parti Québécois, which secured a minority, has vowed to hold an independence referendum in the years to come.",
+      "link": "https://www.bbc.co.uk/news/articles/crly09gz7ew4o?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 06 Oct 2026 02:37:46 GMT",
+      "source": "BBC News"
     },
     {
-      "title": "Former Prince Andrew's historic police showdown could put seized evidence in jeopardy: expert",
-      "summary": "Andrew Mountbatten-Windsor's legal challenge targets Thames Valley Police searches of his homes, potentially undermining key evidence in the Epstein probe.",
-      "link": "https://www.foxnews.com/entertainment/former-prince-andrew-historic-police-showdown-could-put-seized-evidence-jeopardy-expert",
-      "published": "Mon, 05 Oct 2026 14:52:27 -0400",
-      "source": "Latest & Breaking News on Fox News"
+      "title": "Supreme Court wrestles with energy companies' bid to block major climate suit",
+      "summary": "Eight of the nine justices heard nearly two hours of oral arguments in a case involving an effort by the city and county of Boulder, Colorado, to hold energy companies accountable for the effects of global climate change.",
+      "link": "https://www.cbsnews.com/news/supreme-court-climate-change-energy-companies-boulder-colorado-arguments/",
+      "published": "Mon, 05 Oct 2026 22:35:48 -0400",
+      "source": "CBS News"
     },
     {
-      "title": "AEW star Pac had medication in backpack, saliva on shirt at death scene, police report says",
-      "summary": "A police report reveals Benjamin Satterley, known as Pac, was found unresponsive in his vehicle in Illinois with medication in his backpack.",
-      "link": "https://www.foxnews.com/outkick-sports/aew-star-pac-medication-backpack-saliva-shirt-death-scene-police-report",
-      "published": "Mon, 05 Oct 2026 14:39:47 -0400",
-      "source": "Latest & Breaking News on Fox News"
+      "title": "Pentagon says Trump approves Army firing squad execution of Fort Hood killer Nidal Hasan",
+      "summary": "Former Army Maj. Nidal Hassan was sentenced to death after a court-martial that convicted him of killing 13 and wounding 32 others at an Army base in Texas.",
+      "link": "https://www.cnbc.com/2026/10/06/trump-execution-nidal-hasan-firing-squad-fort-hood.html",
+      "published": "Tue, 06 Oct 2026 02:23:18 GMT",
+      "source": "CNBC"
     },
     {
-      "title": "Teen's hand blown off by police grenade during French student protests: report",
-      "summary": "A 15-year-old lost his hand after picking up a police grenade as French school protests over underfunding and teacher shortages enter their third week.",
-      "link": "https://www.foxnews.com/world/teens-hand-blown-off-police-grenade-french-student-protests-report",
-      "published": "Mon, 05 Oct 2026 13:56:28 -0400",
-      "source": "Latest & Breaking News on Fox News"
+      "title": "France, Spain Must Prove They Can Give Protesters Hope",
+      "summary": "Demonstrations over housing rights and crumbling schools are a sign the younger generation is withdrawing political consent",
+      "link": "https://www.realclearpolitics.com/2026/10/05/france_spain_must_prove_they_can_give_protesters_hope_713226.html",
+      "published": "Mon, 05 Oct 2026 21:04:12 -0500",
+      "source": "RealClearPolitics"
     },
     {
-      "title": "The Bills and Patriots are talking trash about each other and the verbal joust is very entertaining",
-      "summary": "C.J. Gardner-Johnson dismissed Efton Chism's one-handed touchdown catch as a practice squad play, but Mike Vrabel fired back with a cutting response.",
-      "link": "https://www.foxnews.com/outkick-sports/bills-patriots-talking-trash-each-other-verbal-joust-entertaining",
-      "published": "Mon, 05 Oct 2026 13:29:48 -0400",
-      "source": "Latest & Breaking News on Fox News"
+      "title": "Trump Has a Reality Problem, Not a Public Relations Problem",
+      "summary": "To date, the White House hasn't even tried to explain why the job market worsened after the president's second term began.",
+      "link": "https://www.realclearpolitics.com/2026/10/05/trump_has_a_reality_problem_not_a_public_relations_problem_713218.html",
+      "published": "Mon, 05 Oct 2026 21:03:52 -0500",
+      "source": "RealClearPolitics"
     },
     {
-      "title": "Paxton vents over lack of campaign control as DC establishment he once battled comes to his aid",
-      "summary": "Texas Attorney General Ken Paxton says he feels less control over his campaign than ever as he battles James Talarico in a toss-up Senate race.",
-      "link": "https://www.foxnews.com/politics/paxton-vents-over-lack-campaign-control-dc-establishment-he-once-battled-comes-his-aid",
-      "published": "Mon, 05 Oct 2026 13:12:49 -0400",
-      "source": "Latest & Breaking News on Fox News"
+      "title": "A Misguided Lawsuit vs. Vital Immigration Officials",
+      "summary": "",
+      "link": "https://www.realclearpolitics.com/2026/10/05/a_misguided_lawsuit_vs_vital_immigration_officials_713220.html",
+      "published": "Mon, 05 Oct 2026 21:03:48 -0500",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Alleged Chinese agent makes federal court appearance",
+      "summary": "CBS News was first to report​ that the FBI arrested Wanying \"Heather\" Zhang on Sunday at Los Angeles International Airport before she boarded a flight to Shanghai, China.",
+      "link": "https://www.cbsnews.com/news/suspected-chinese-agent-taiwan-president-son-los-angeles-federal-court/",
+      "published": "Mon, 05 Oct 2026 22:03:00 -0400",
+      "source": "CBS News"
+    },
+    {
+      "title": "Trump says he will pay for 'Patriotic Ads' himself after facing backlash from Democrats",
+      "summary": "President Trump on Monday said he will pay for the controversial \"Patriotic Ads\" after backlash mounted in response to the ads being funded by taxpayers. \"The Radical Left is upset with the fact that I am taking Ads, which I consider to be a positive promotion for our Great U.S.A., and paying for them with...",
+      "link": "https://thehill.com/homenews/administration/6130848-trump-to-pay-patriotic-ads-backlash/",
+      "published": "Tue, 06 Oct 2026 01:58:51 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Trump says he will stop using taxpayer funds for ads after bipartisan pushback",
+      "summary": "The ads, which tout Trump and his policies, could have violated US laws barring public government funds being spent on political advertising.",
+      "link": "https://www.bbc.co.uk/news/articles/cm9qzlvpqex9o?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 06 Oct 2026 01:58:29 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Trump claims he’s ‘doing great’ as his approval rating sinks to record low – as it happened",
+      "summary": "<p>This live blog is now closed.</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email</a></p></li></ul><ul><li><p><a href=\"https://www.theguardian.com/community/live/2026/oct/05/reader-q-a-iran-war-trump-midterms-reporter-answers\">Ask our reporters your questions about the Iran war and the US midterms</a></p></li></ul><p><strong>As the supreme court hears oral arguments this morning, it’s worth noting that if the justices side with Boulder or decide that the case is not in their jurisdiction, then it would continue in state court.</strong></p><p>But if the fossil fuel industry convinces the justices, the decision could apply not only to the Boulder case, but also to the many other climate cases brought by state and local governments around the US that we mentioned earlier.</p> <a href=\"https://www.theguardian.com/us-news/live/2026/oct/05/donald-trump-nebraska-midterms-republicans-white-house-media-latest-news-updates\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/live/2026/oct/05/donald-trump-nebraska-midterms-republicans-white-house-media-latest-news-updates",
+      "published": "Tue, 06 Oct 2026 01:55:59 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Trump says MAGA Inc. PAC will pay for controversial TV ads that government funded",
+      "summary": "The New York Times reported \"Trump personally instructed his budget director to use taxpayer money for TV ads praising him and his presidency.\"",
+      "link": "https://www.cnbc.com/2026/10/05/trump-ads-election.html",
+      "published": "Tue, 06 Oct 2026 01:55:50 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Trump offers U.S. help to Russia after plague death; WHO assesses the situation as low risk",
+      "summary": "WHO said it was in contact with Russian authorities, and has offered support if needed, while assessing the risk to the general public as low based on available information.",
+      "link": "https://www.cnbc.com/2026/10/06/russia-plague-death-trump-offers-us-help.html",
+      "published": "Tue, 06 Oct 2026 01:47:32 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "FBI arrests woman at LAX accused of being Chinese agent",
+      "summary": "Wanying \"Heather\" Zhang, an Irvine, California, realtor, was arrested on a charge of acting as an unregistered agent of a foreign government.",
+      "link": "https://www.cbsnews.com/news/chinese-agent-arrested-lax-taiwan-president-son/",
+      "published": "Mon, 05 Oct 2026 21:35:27 -0400",
+      "source": "CBS News"
+    },
+    {
+      "title": "Trump says Super Pac will pay for taxpayer-funded ads that sparked outcry",
+      "summary": "<p>President’s U-turn comes after Democrats and Republicans condemned use of tax dollars for pro-Trump ads</p><p>Donald Trump said on Monday he would pay for taxpayer-funded, pro-Trump ads “with money I raised for MAGA, Inc.”, a political action committee, after the television advertisements glorifying himself sparked a major backlash.</p><p>In a social media post, Trump characterized the ads, which cost at least $1.5m in federal funds, as “a positive promotion for our Great U.S.A.” and called them “a rather standard thing to do”.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/05/trump-super-pac-ads\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/oct/05/trump-super-pac-ads",
+      "published": "Tue, 06 Oct 2026 01:35:00 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "How JD Vance tried to ease diesel pain as the GOP faces midterm woes",
+      "summary": "Vice President Vance pushed a plan to suspend enforcement of some federal diesel tax rules -- a bid to cut costs for farmers.",
+      "link": "https://www.washingtonpost.com/politics/2026/10/05/trump-launches-plan-suspend-some-diesel-taxes-farm-regions/",
+      "published": "Tue, 06 Oct 2026 01:34:09 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Trump approves firing-squad execution of Fort Hood shooter, Pentagon says",
+      "summary": "<p>Nidal Hasan sentenced to death by military jury in 2013 for carrying out deadly shooting attack at army base in Texas</p><p>Donald Trump has approved the execution by US army firing squad of Nidal Hasan, who was <a href=\"https://www.theguardian.com/world/2013/aug/28/fort-hood-shooter-sentenced-death\">sentenced to death</a> for killing 13 soldiers at Fort Hood in 2009, chief Pentagon spokesperson Sean Parnell said in a social media post.</p><p>Hasan, who was an army psychiatrist, would become the first US soldier to be executed by the US military in more than 60 years.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/05/trump-fort-hood-shooter-execution\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/oct/05/trump-fort-hood-shooter-execution",
+      "published": "Tue, 06 Oct 2026 01:33:44 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Dennis Hastert, longest-serving Republican House Speaker and convicted child molester, dies at 84",
+      "summary": "The Mark Foley scandal nearly ended Dennis Hastert's career, but federal investigators later uncovered far darker secrets about the former House Speaker.",
+      "link": "https://www.foxnews.com/politics/dennis-hastert-longest-serving-republican-house-speaker-convicted-child-molester-dies-84",
+      "published": "Mon, 05 Oct 2026 21:13:26 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Russian bio-leak secrecy follows Chernobyl playbook, ex-CIA officer warns",
+      "summary": "Vladimir Putin faces compounding crises as a Siberian plague researcher's death adds to the Ukraine war toll and Russia's faltering economy.",
+      "link": "https://www.foxnews.com/world/russian-bio-leak-secrecy-follows-chernobyl-playbook-ex-cia-officer-warns",
+      "published": "Mon, 05 Oct 2026 20:32:16 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Trump approves death by firing squad for convicted terrorist",
+      "summary": "Nidal Malik Hasan, a convicted terrorist who opened fire on unarmed American soldiers at Ft. Hood in 2009, has been sentenced to death by firing squad, Pentagon spokesperson Sean Parnell announced Monday on the social platform X. Parnell said that Defense Secretary Pete Hegseth “recommended” it, and President Trump “approved” it. Hasan killed 13 people...",
+      "link": "https://thehill.com/homenews/administration/6130802-nidal-hasan-death-firing-squad/",
+      "published": "Tue, 06 Oct 2026 00:21:26 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Trump clears way for Fort Hood terrorist to face Army firing squad nearly 17 years after massacre",
+      "summary": "President Trump cleared the way for Nidal Malik Hasan to face an Army firing squad nearly 17 years after the Fort Hood massacre that killed 13 people.",
+      "link": "https://www.foxnews.com/politics/trump-clears-way-fort-hood-terrorist-face-army-firing-squad-nearly-17-years-after-massacre",
+      "published": "Mon, 05 Oct 2026 20:14:53 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Trump reverses course, says he won’t use taxpayer money for campaign-style ads",
+      "summary": "The president said he would use private funds to pay for ads promoting himself and his policies.",
+      "link": "https://www.washingtonpost.com/politics/2026/10/05/trump-reverses-course-says-he-wont-use-taxpayer-money-campaign-style-ads/",
+      "published": "Mon, 05 Oct 2026 23:46:49 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "‘People in the U.S. need to wake up’: As a mortgage loan officer, I rejected wealthy couples due to overspending. We’re all heading for trouble.",
+      "summary": "A reader writes: “We’d better get real quick or we’re going to have a financial crisis that makes the Great Recession of 2008 look like a picnic.”",
+      "link": "https://www.marketwatch.com/story/people-in-the-u-s-need-to-wake-up-as-a-mortgage-loan-officer-i-rejected-wealthy-couples-due-to-overspending-were-all-heading-for-trouble-6a52e04e?mod=mw_rss_topstories",
+      "published": "Mon, 05 Oct 2026 23:30:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Trump kept silent in Brazil’s election. It might have helped his ally.",
+      "summary": "A White House adviser said the uncharacteristic reticence was a strategic decision as Flávio Bolsonaro takes the lead heading into the next round.",
+      "link": "https://www.washingtonpost.com/world/2026/10/05/trump-kept-silent-brazils-election-it-might-have-helped-his-ally/",
+      "published": "Mon, 05 Oct 2026 22:40:09 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Trump says 'threat' led US to pull bombers from RAF Fairford",
+      "summary": "The Pentagon confirmed on Sunday it had removed the B1 bombers from the base in England back to their home stations in America.",
+      "link": "https://www.bbc.co.uk/news/articles/cwj3413e5m1lo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 05 Oct 2026 21:46:22 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "House Democrat targets candidate prediction market trades after opponent’s Kalshi penalty",
+      "summary": "A new bill bans federal candidates from trading prediction market contracts related to their own elections and would result in a fine if violated.",
+      "link": "https://www.cnbc.com/2026/10/05/don-davis-prediction-market-candidate-trading.html",
+      "published": "Mon, 05 Oct 2026 21:24:25 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Brazilian stocks jump as Bolsonaro now seen as heavy favorite to win presidency",
+      "summary": "The moves come after the first round results of Brazil's presidential election on Sunday. Bolsonaro will face incumbent Lula da Silva in a runoff on Oct. 25.",
+      "link": "https://www.cnbc.com/2026/10/05/brazilian-stocks-jump-bolsonaro-now-heavy-favorite-to-win-presidency.html",
+      "published": "Mon, 05 Oct 2026 20:41:23 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Trump is promising $90 Medicare rebate checks ahead of the midterms. Here’s the hidden cost.",
+      "summary": "The president is betting that he can make seniors forget rising healthcare costs",
+      "link": "https://www.marketwatch.com/story/trump-is-promising-90-medicare-rebate-checks-ahead-of-the-midterms-heres-the-hidden-cost-14b7e2ce?mod=mw_rss_topstories",
+      "published": "Mon, 05 Oct 2026 20:39:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Supreme Court grapples with case on holding Big Oil liable for climate change",
+      "summary": "After more than two hours of argument, it was unclear whether the justices would green-light Boulder, Colorado’s novel lawsuit against ExxonMobil and Suncor Energy.",
+      "link": "https://www.washingtonpost.com/politics/2026/10/05/supreme-court-grapples-with-case-holding-big-oil-liable-climate-change/",
+      "published": "Mon, 05 Oct 2026 19:23:15 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Dennis Hastert, ex-House speaker whose sex abuse admission upended legacy, dies at 84",
+      "summary": "The Illinois Republican helped spearhead President George W. Bush’s legislative agenda before his career ended in disgrace.",
+      "link": "https://www.washingtonpost.com/obituaries/2026/10/05/dennis-hastert-ex-house-speaker-whose-sex-abuse-admission-upended-legacy-dies-84/",
+      "published": "Mon, 05 Oct 2026 15:58:13 +0000",
+      "source": "Washington Post"
     },
     {
       "title": "Cornell University protests escalate with spray paint and broken glass",
       "summary": "Student activists vandalized the office of senior administrators over the school’s handling of rape allegations.",
       "link": "https://www.washingtonpost.com/style/2026/10/05/cornell-university-protests-escalate-with-spray-paint-broken-glass/",
       "published": "Mon, 05 Oct 2026 15:17:18 +0000",
-      "source": "U.S. News"
+      "source": "Washington Post"
     },
     {
-      "title": "6 things to watch in the Supreme Court’s new term",
-      "summary": "Cases on religion, elections and immigration are likely to take the spotlight. And don’t forget to watch for a potential retirement.",
-      "link": "https://www.washingtonpost.com/politics/2026/10/05/what-watch-supreme-courts-new-term/",
-      "published": "Mon, 05 Oct 2026 09:00:00 +0000",
-      "source": "U.S. News"
+      "title": "Dennis Hastert, longtime Republican House speaker who went to prison, dies at age 84",
+      "summary": "ennis Hastert, whose political legacy as Congress' longest-serving Republican House speaker was later fouled by allegations that he had molested high school athletes during his prior career as a teacher and wrestling coach, has died, a coroner said Monday. He was 84.",
+      "link": "https://www.npr.org/2026/10/05/g-s1-146452/dennis-hastert-republican-house-speaker-dies-obit",
+      "published": "Mon, 05 Oct 2026 10:24:31 -0400",
+      "source": "NPR"
     },
     {
-      "title": "As Trump rallies his base in Ohio, a Haitian migrant is laid to rest nearby",
-      "summary": "Mourners in Springfield, Ohio, blamed Pierre Damas Bel’s death on President Donald Trump’s deportation campaign. Trump’s supporters said ICE needs to do more.",
-      "link": "https://www.washingtonpost.com/immigration/2026/10/04/trump-rallies-his-base-ohio-haitian-migrant-is-laid-rest-nearby/",
-      "published": "Sun, 04 Oct 2026 14:56:22 +0000",
-      "source": "U.S. News"
+      "title": "FBI arrests a woman accused of spying on Taiwan leader's family for China",
+      "summary": "The FBI and U.S. prosecutors say Wanying Zhang, also know as Heather, surveilled the Taiwanese president's son and his family.",
+      "link": "https://www.npr.org/2026/10/05/g-s1-146410/fbi-arrests-a-woman-accused-of-spying-on-taiwan-leaders-family-for-china",
+      "published": "Mon, 05 Oct 2026 07:47:36 -0400",
+      "source": "NPR"
     },
     {
-      "title": "Should Big Oil pay for climate change? A Supreme Court case will help decide.",
-      "summary": "Boulder, Colorado, is hoping its novel lawsuit will be the environmental equivalent of the landmark litigation that produced billions in damages and settlements against Big Tobacco and opioid makers.",
-      "link": "https://www.washingtonpost.com/politics/2026/10/04/showdown-over-big-oil-climate-change-hits-supreme-court/",
-      "published": "Sun, 04 Oct 2026 10:00:01 +0000",
-      "source": "U.S. News"
+      "title": "Imran Khan supporters march in Pakistan to demand his release after talks failed",
+      "summary": "Talks between Khan's party and the government failed two days ago. Besides Khan's release, protesters demand his transfer to a hospital and family visits.",
+      "link": "https://www.npr.org/2026/10/05/g-s1-146408/imran-khan-supporters-march-in-pakistan-to-demand-his-release-after-talks-failed",
+      "published": "Mon, 05 Oct 2026 07:38:26 -0400",
+      "source": "NPR"
     },
     {
-      "title": "‘Dying on the vine’: How a farmer ended up with 1,600 tons of unwanted grapes",
-      "summary": "Falling demand for juice has left Lake Erie grape growers with fruit they can’t sell.",
-      "link": "https://www.washingtonpost.com/nation/2026/10/04/how-farmer-ended-up-with-1600-tons-unwanted-grapes/",
-      "published": "Sun, 04 Oct 2026 10:00:01 +0000",
-      "source": "U.S. News"
+      "title": "Lula or Bolsonaro: Wall Street braces for two wildly different results in Brazil election",
+      "summary": "With the first round of Brazil's presidential election taking place Sunday, Wall Street is gearing up with starkly different market predictions.",
+      "link": "https://www.cnbc.com/2026/10/03/lula-or-bolsonaro-wall-street-braces-for-two-wildly-different-results-in-brazil-election.html",
+      "published": "Sat, 03 Oct 2026 13:12:27 GMT",
+      "source": "CNBC"
     },
     {
-      "title": "Republican in toss-up House race says he won’t be a ‘rubber stamp’",
-      "summary": "Rep. Juan Ciscomani also touts his immigrant roots in a new video as he seeks reelection in Arizona.",
-      "link": "https://www.washingtonpost.com/politics/2026/10/05/republican-toss-up-house-race-says-he-wont-be-rubber-stamp/",
-      "published": "Mon, 05 Oct 2026 15:15:19 +0000",
-      "source": "Politics"
+      "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
+      "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia was down 16%.",
+      "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
+      "published": "Mon, 27 Jan 2025 14:26:00 -0500",
+      "source": "WSJ Markets"
     },
     {
-      "title": "Sen. Kennedy says he’s weighing White House run: ‘Why not me on a rainy day?’",
-      "summary": "The Louisiana Republican said on “Meet the Press” that “if a bunch of goobers run ... and I think I could do a better job, I would consider running.”",
-      "link": "https://www.washingtonpost.com/politics/2026/10/05/sen-kennedy-says-hes-weighing-white-house-run-why-not-me-rainy-day/",
-      "published": "Mon, 05 Oct 2026 12:30:00 +0000",
-      "source": "Politics"
+      "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
+      "summary": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump’s threats to impose tariffs and economic sanctions on Colombia.",
+      "link": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main",
+      "published": "Mon, 27 Jan 2025 12:20:00 -0500",
+      "source": "WSJ Markets"
     },
     {
-      "title": "How would Susan Collins approach a new Supreme Court vacancy?",
-      "summary": "The Maine senator's vote to confirm Brett Kavanaugh in 2018 is still an issue as she seeks reelection.",
-      "link": "https://www.washingtonpost.com/politics/2026/10/05/how-would-susan-collins-approach-new-supreme-court-vacancy/",
-      "published": "Mon, 05 Oct 2026 09:25:05 +0000",
-      "source": "Politics"
-    },
-    {
-      "title": "6 things to watch in the Supreme Court’s new term",
-      "summary": "Cases on religion, elections and immigration are likely to take the spotlight. And don’t forget to watch for a potential retirement.",
-      "link": "https://www.washingtonpost.com/politics/2026/10/05/what-watch-supreme-courts-new-term/",
-      "published": "Mon, 05 Oct 2026 09:00:00 +0000",
-      "source": "Politics"
-    },
-    {
-      "title": "Four ways the midterm elections could go, one month away",
-      "summary": "Democrats have polls and history on their side. Republicans have money.",
-      "link": "https://www.washingtonpost.com/politics/2026/10/05/four-ways-midterm-elections-could-go-one-month-away/",
-      "published": "Mon, 05 Oct 2026 09:00:00 +0000",
-      "source": "Politics"
-    },
-    {
-      "title": "With threats to midterms, states say Trump administration isn’t helping",
-      "summary": "U.S. spy agencies see Russia and others plotting to sow distrust and misinformation in the upcoming elections.",
-      "link": "https://www.washingtonpost.com/politics/2026/10/04/with-threats-midterms-states-say-trump-administration-isnt-helping/",
-      "published": "Mon, 05 Oct 2026 00:45:18 +0000",
-      "source": "Politics"
+      "title": "Swiss franc, Japanese yen Rise as DeepSeek News Boosts Safe Havens",
+      "summary": "The Yen and Swiss Franc were stronger against the dollar as investors sought safe havens after Chinese start-up DeepSeek’s new AI model hit U.S. tech stocks.",
+      "link": "https://www.wsj.com/articles/safe-haven-currencies-strengthen-amid-fears-over-global-tariffs-9964e17a?mod=rss_markets_main",
+      "published": "Mon, 27 Jan 2025 09:55:00 -0500",
+      "source": "WSJ Markets"
     }
   ],
   "history": [
-    {
-      "date": "2026-09-19 19:10",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 68,
-      "incidents": 20,
-      "sp500": 7650.5,
-      "usd_czk": null
-    },
     {
       "date": "2026-09-19 19:33",
       "threat_level": "HIGH",
@@ -466,41 +597,110 @@
       "incidents": 20,
       "sp500": 7788.08,
       "usd_czk": null
+    },
+    {
+      "date": "2026-10-06 04:18",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 72,
+      "incidents": 40,
+      "sp500": 7773.95,
+      "usd_czk": null
     }
   ],
   "locations": [
+    {
+      "key": "Washington",
+      "lat": 38.9072,
+      "lon": -77.0369,
+      "name_cs": "Washington, D.C.",
+      "name_en": "Washington, D.C."
+    },
+    {
+      "key": "New York",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "name_cs": "New York",
+      "name_en": "New York"
+    },
+    {
+      "key": "Los Angeles",
+      "lat": 34.0522,
+      "lon": -118.2437,
+      "name_cs": "Los Angeles",
+      "name_en": "Los Angeles"
+    },
     {
       "key": "Texas",
       "lat": 31.9686,
       "lon": -99.9018,
       "name_cs": "Texas",
       "name_en": "Texas"
+    },
+    {
+      "key": "California",
+      "lat": 36.7783,
+      "lon": -119.4179,
+      "name_cs": "Kalifornie",
+      "name_en": "California"
+    },
+    {
+      "key": "Capitol",
+      "lat": 38.8899,
+      "lon": -77.0091,
+      "name_cs": "Kapitol",
+      "name_en": "US Capitol"
+    },
+    {
+      "key": "Wall Street",
+      "lat": 40.7069,
+      "lon": -74.0113,
+      "name_cs": "Wall Street",
+      "name_en": "Wall Street"
+    },
+    {
+      "key": "Illinois",
+      "lat": 40.6331,
+      "lon": -89.3985,
+      "name_cs": "Illinois",
+      "name_en": "Illinois"
+    },
+    {
+      "key": "Colorado",
+      "lat": 39.5501,
+      "lon": -105.7821,
+      "name_cs": "Colorado",
+      "name_en": "Colorado"
+    },
+    {
+      "key": "Canada",
+      "lat": 56.1304,
+      "lon": -106.3468,
+      "name_cs": "Kanada",
+      "name_en": "Canada"
     }
   ],
   "location_counts": {
     "Florida": 13,
-    "Texas": 15,
-    "Washington": 6,
-    "New York": 11,
-    "California": 5,
-    "Capitol": 5,
-    "Border": 3
+    "Texas": 16,
+    "Washington": 7,
+    "New York": 12,
+    "California": 6,
+    "Capitol": 6,
+    "Border": 3,
+    "Los Angeles": 1,
+    "Wall Street": 1,
+    "Illinois": 1,
+    "Colorado": 1,
+    "Canada": 1
   },
   "top_location": {
     "key": "Texas",
     "name_cs": "Texas",
     "name_en": "Texas",
-    "count": 15
+    "count": 16
   },
   "archive": [
-    {
-      "date": "2026-09-30 05:48",
-      "threat_level": "MEDIUM",
-      "security_status_cs": "Trumpova administrativa nadále prosazuje radikální změny v oblasti imigrace, ochrany životního prostředí a vzdělávání, přičemž naráží na odpor soudů i Kongresu. Růst napětí v otázkách národní bezpečnosti a ekonomických nákladů vytváří vnitropolitickou nestabilitu.",
-      "security_status_en": "The Trump administration continues to push radical changes in immigration, environmental standards, and education, facing resistance from the courts and Congress. Rising tensions regarding national security and economic costs are generating domestic political instability.",
-      "forecast_cs": "V nejbližších dnech lze očekávat další právní spory ohledně deportací a kontroly nad vojenským a vzdělávacím sektorem. Finanční trhy budou citlivě reagovat na inflační data a snahy administrativy regulovat ceny.",
-      "forecast_en": "Over the coming days, further legal battles over deportations and control of military and educational sectors are expected. Financial markets will remain sensitive to inflation data and administration efforts to regulate prices."
-    },
     {
       "date": "2026-09-30 07:46",
       "threat_level": "MEDIUM",
@@ -604,18 +804,26 @@
       "security_status_en": "The United States is facing mounting tension ahead of upcoming midterm elections, with intelligence agencies warning of foreign interference and disinformation campaigns by Russia. Meanwhile, the Supreme Court is opening a critical new term addressing contentious topics including climate, religion, and immigration, intensifying political polarization.",
       "forecast_cs": "V nejbližších dnech lze očekávat gradaci volebních kampaní, další právní spory u Nejvyššího soudu a zostřená varování před kybernetickými útoky na volební systémy.",
       "forecast_en": "Over the coming days, expect an escalation of election campaigns, further legal battles at the Supreme Court, and heightened warnings regarding cyberattacks on voting systems."
+    },
+    {
+      "date": "2026-10-06 04:18",
+      "threat_level": "HIGH",
+      "security_status_cs": "Americké trhy a politickou scénu otřásá silný výprodej v technologickém sektoru vyvolaný nástupem čínské AI platformy DeepSeek a rostoucí politické napětí před blížícími se midtermy. Současně se objevují akutní bezpečnostní incidenty včetně odhalení čínských špionážních aktivit a kontroverzí kolem financování vládních politických reklam.",
+      "security_status_en": "US markets and the political scene are rattled by a severe tech sell-off triggered by Chinese AI platform DeepSeek and escalating political tensions ahead of the midterms. Concurrently, acute security incidents include the exposure of Chinese espionage activities and controversies surrounding government-funded political ads.",
+      "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na technologických trzích, zostřený boj o voliče před midtermy a zvýšenou ostražitost vůči vnější špionáži.",
+      "forecast_en": "Over the coming days, expect continued volatility in tech markets, intensified political campaigning ahead of the midterms, and heightened vigilance regarding foreign espionage."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 6× HIGH, 1× MEDIUM.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 6× HIGH, 1× MEDIUM.",
   "market_data": {
     "sp500": {
-      "value": 7788.08,
+      "value": 7773.95,
       "date": "2026-10-05",
       "cached": false
     },
     "dow": {
-      "value": 51369.96,
+      "value": 51267.9,
       "date": "2026-10-05",
       "cached": false
     },
