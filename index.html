@@ -31,18 +31,39 @@ h1{font-size:2.1em;margin:0 0 6px;line-height:1.15}
 .lvl{font-weight:700;letter-spacing:.03em}
 .sec{margin-top:40px;border-top:3px double var(--brass);padding-top:20px}
 .sec h2{font-size:1.5em;margin:0 0 6px}
-.cams{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px;margin-top:16px}
-.cam{padding:12px 14px}
-.cam h3{font-size:1.02em;margin:0 0 4px}
-.cam .rg{font-family:'IBM Plex Mono',monospace;font-size:.66em;color:var(--brass);letter-spacing:.04em;text-transform:uppercase;margin-bottom:6px}
-.cam .go{font-family:'IBM Plex Mono',monospace;font-size:.7em;color:var(--text-dim)}
-.cam .live{display:inline-block;width:7px;height:7px;border-radius:50%;background:#a13d2b;margin-right:6px;vertical-align:middle}
+
+/* mapy lodí */
 .ships{display:grid;grid-template-columns:1fr;gap:14px;margin-top:16px}
 .ship{padding:0;overflow:hidden}
 .ship .meta{padding:10px 14px}
 .ship .meta .rg{font-family:'IBM Plex Mono',monospace;font-size:.64em;color:var(--brass);letter-spacing:.04em;text-transform:uppercase}
 .ship .meta h3{font-size:1.05em;margin:2px 0 0}
 .ship .map{background:#0b1d26;min-height:300px}
+
+/* webkamery */
+.cams{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin-top:16px}
+.cam{padding:0;overflow:hidden;cursor:pointer}
+.cam .thumb{position:relative;aspect-ratio:16/9;background:#000}
+.cam .thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.85}
+.cam .play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
+.cam .play span{width:46px;height:46px;border-radius:50%;background:rgba(11,29,38,.75);border:2px solid var(--brass);color:var(--text);display:flex;align-items:center;justify-content:center;font-size:18px;padding-left:3px}
+.cam .live{position:absolute;top:8px;left:8px;font-family:'IBM Plex Mono',monospace;font-size:.6em;background:#a13d2b;color:#fff;padding:2px 6px;letter-spacing:.06em}
+.cam .meta{padding:10px 12px}
+.cam .rg{font-family:'IBM Plex Mono',monospace;font-size:.64em;color:var(--brass);letter-spacing:.04em;text-transform:uppercase}
+.cam h3{font-size:1.02em;margin:2px 0 0}
+.cam:focus-visible{outline:2px solid var(--brass)}
+
+/* zvětšené okno */
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.88);display:none;align-items:center;justify-content:center;z-index:1000;padding:16px}
+.modal.open{display:flex}
+.mbox{position:relative;width:100%;max-width:1000px}
+.mhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;color:#e7e0cd}
+.mtitle{font-family:'IBM Plex Mono',monospace;font-size:.85em}
+.mclose{background:none;border:1px solid var(--brass);color:#e7e0cd;font-size:20px;line-height:1;width:36px;height:36px;cursor:pointer;border-radius:2px}
+.mclose:hover{background:var(--brass);color:#0b1d26}
+.mvid{position:relative;aspect-ratio:16/9;background:#000}
+.mvid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
 footer{margin-top:34px;text-align:center;font-family:'IBM Plex Mono',monospace;font-size:.66em;color:var(--text-dim)}
 @media (max-width:600px){h1{font-size:1.6em}}
 </style>
@@ -136,12 +157,23 @@ footer{margin-top:34px;text-align:center;font-family:'IBM Plex Mono',monospace;f
 
   <section class="sec" id="webcams">
     <h2>Webkamery z významných míst</h2>
-    <div class="sub">Živá vysílání z klíčových lokalit · otevře se v nové záložce</div>
+    <div class="sub">Živá vysílání z klíčových lokalit · kliknutím se video zvětší</div>
     <div class="cams" id="cams"></div>
   </section>
 
   <footer>AKTUALIZOVÁNO AUTOMATICKY · Vždy ověřte v původním zdroji</footer>
 </div>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="mbox" role="dialog" aria-modal="true">
+    <div class="mhead">
+      <div class="mtitle" id="mtitle"></div>
+      <button class="mclose" id="mclose" aria-label="Zavřít">×</button>
+    </div>
+    <div class="mvid" id="mvid"></div>
+  </div>
+</div>
+
 <script>
 if(localStorage.getItem('theme')==='light')document.body.classList.add('light');
 var BASE="/Redsea-monitor/";
@@ -182,25 +214,65 @@ M.forEach(function(m,i){
 });
 
 /* ---- Webkamery ----
-   q = hledaný výraz (výsledky filtrované na živá vysílání na YouTube).
-   Pro pevný odkaz nastav direct:true a do q vlož celou URL. */
+   url = celá adresa živého vysílání na YouTube (watch?v=…, youtu.be/…, /channel/UC…)
+   Karty s prázdnou url se nezobrazí; bez jediné karty se skryje celá sekce.
+   Náhled a přehrávání probíhají na tvé stránce, YouTube se neotevírá. */
 var W=[
- {name:"Suezský průplav",rg:"Rudé moře",q:"Suez Canal live webcam ship traffic"},
- {name:"Bab al-Mandab",rg:"Rudé moře",q:"Red Sea Bab el-Mandeb live cam ships"},
- {name:"Jeruzalém",rg:"Blízký východ",q:"Jerusalem live webcam"},
- {name:"Dubaj",rg:"Blízký východ",q:"Dubai live webcam skyline"},
- {name:"New York · Times Square",rg:"USA",q:"Times Square New York live cam"},
- {name:"Washington D.C.",rg:"USA",q:"Washington DC live webcam Capitol"},
- {name:"Londýn · Tower Bridge",rg:"Evropa",q:"London Tower Bridge live cam"},
- {name:"Praha",rg:"Česko",q:"Praha živě webkamera Staroměstské náměstí"},
- {name:"Tokio · Shibuya",rg:"Japonsko",q:"Shibuya crossing live camera Tokyo"},
- {name:"Hongkong",rg:"Asie",q:"Hong Kong Victoria Harbour live cam"},
- {name:"Rio de Janeiro",rg:"Jižní Amerika",q:"Rio de Janeiro Copacabana live webcam"}
+ {name:"New York · Times Square",rg:"USA",url:"https://www.youtube.com/watch?v=z-jYdOIKcTQ"},
+ {name:"Tokio · Shibuya",rg:"Japonsko",url:"https://www.youtube.com/watch?v=dfVK7ld38Ys"},
+ {name:"Suezský průplav",rg:"Rudé moře",url:""},
+ {name:"Bab al-Mandab",rg:"Rudé moře",url:""},
+ {name:"Jeruzalém",rg:"Blízký východ",url:""},
+ {name:"Dubaj",rg:"Blízký východ",url:""},
+ {name:"Washington D.C.",rg:"USA",url:""},
+ {name:"Londýn · Tower Bridge",rg:"Evropa",url:""},
+ {name:"Praha",rg:"Česko",url:""},
+ {name:"Hongkong",rg:"Asie",url:""},
+ {name:"Rio de Janeiro",rg:"Jižní Amerika",url:""}
 ];
-document.getElementById("cams").innerHTML=W.map(function(c){
-  var url=c.direct?c.q:"https://www.youtube.com/results?search_query="+encodeURIComponent(c.q)+"&sp=EgJAAQ%253D%253D";
-  return '<a class="card cam" href="'+url+'" target="_blank" rel="noopener noreferrer"><div class="rg">'+c.rg+'</div><h3>'+c.name+'</h3><div class="go"><span class="live"></span>Sledovat živě →</div></a>';
+function parseCam(c){
+  var u=c.url||"",m;
+  if(m=u.match(/[?&]v=([\w-]{11})/)||u.match(/youtu\.be\/([\w-]{11})/)||u.match(/\/live\/([\w-]{11})/))c.v=m[1];
+  if(m=u.match(/channel\/(UC[\w-]{22})/))c.ch=m[1];
+  return c;
+}
+function camSrc(c){
+  if(c.ch)return "https://www.youtube-nocookie.com/embed/live_stream?channel="+c.ch+"&autoplay=1&mute=1";
+  if(c.v)return "https://www.youtube-nocookie.com/embed/"+c.v+"?autoplay=1&mute=1";
+  return "";
+}
+W=W.map(parseCam).filter(function(c){return camSrc(c)});
+if(!W.length){document.getElementById("webcams").style.display="none"}
+
+var cm=document.getElementById("cams");
+cm.innerHTML=W.map(function(c,i){
+  var img=c.v?'<img src="https://i.ytimg.com/vi/'+c.v+'/hqdefault.jpg" alt="" loading="lazy" onerror="this.style.display=\'none\'">':'';
+  return '<div class="card cam" data-i="'+i+'" role="button" tabindex="0" aria-label="Přehrát: '+c.name+'">'+
+    '<div class="thumb">'+img+'<span class="live">LIVE</span><div class="play"><span>▶</span></div></div>'+
+    '<div class="meta"><div class="rg">'+c.rg+'</div><h3>'+c.name+'</h3></div></div>';
 }).join("");
+
+var modal=document.getElementById("modal"),mvid=document.getElementById("mvid"),mtitle=document.getElementById("mtitle");
+function openCam(i){
+  var c=W[i];if(!c)return;
+  mtitle.textContent=c.name+" · "+c.rg;
+  mvid.innerHTML='<iframe src="'+camSrc(c)+'" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';
+  modal.classList.add("open");modal.setAttribute("aria-hidden","false");
+  document.body.style.overflow="hidden";
+}
+function closeCam(){
+  modal.classList.remove("open");modal.setAttribute("aria-hidden","true");
+  mvid.innerHTML="";document.body.style.overflow="";
+}
+cm.addEventListener("click",function(e){
+  var c=e.target.closest(".cam");if(c)openCam(+c.dataset.i);
+});
+cm.addEventListener("keydown",function(e){
+  if(e.key==="Enter"||e.key===" "){var c=e.target.closest(".cam");if(c){e.preventDefault();openCam(+c.dataset.i);}}
+});
+document.getElementById("mclose").addEventListener("click",closeCam);
+modal.addEventListener("click",function(e){if(e.target===modal)closeCam()});
+document.addEventListener("keydown",function(e){if(e.key==="Escape"&&modal.classList.contains("open"))closeCam()});
 </script>
 <script src="/Redsea-monitor/nav.js"></script>
   <script src="/Redsea-monitor/worldmap.js"></script>
