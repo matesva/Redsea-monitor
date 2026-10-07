@@ -14,6 +14,18 @@
 <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script data-goatcounter="https://redsea-monitor.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <link rel="stylesheet" href="style.css">
+<style>
+#v-energie .frow{display:grid;grid-template-columns:96px 1fr 100px;gap:10px;align-items:center;margin-top:12px;font-family:'IBM Plex Mono',monospace;font-size:.8em}
+#v-energie .fbar{position:relative;height:18px;background:rgba(128,128,128,.14);border:1px solid rgba(184,134,59,.35)}
+#v-energie .fbar::before{content:"";position:absolute;left:50%;top:-3px;bottom:-3px;width:1px;background:#9aa8ac}
+#v-energie .fbar i{position:absolute;top:0;bottom:0}
+#v-energie .fval{text-align:right;white-space:nowrap}
+#v-energie .imp{background:#6a9b6e}
+#v-energie .exp{background:#c07a3a}
+#v-energie .fnet{margin-top:16px;padding-top:12px;border-top:1px solid rgba(184,134,59,.35);font-family:'IBM Plex Mono',monospace;font-size:.85em}
+#v-energie .flegend{display:flex;justify-content:space-between;margin-top:14px;font-family:'IBM Plex Mono',monospace;font-size:.66em;opacity:.7}
+#v-energie .ferr{margin-top:14px;font-family:'IBM Plex Mono',monospace;font-size:.78em}
+</style>
 <link rel="icon" type="image/svg+xml" href="/Redsea-monitor/favicon.svg">
 <link rel="apple-touch-icon" href="/Redsea-monitor/icons/apple-touch-icon.png">
 <link rel="manifest" href="/Redsea-monitor/app.webmanifest">
@@ -61,6 +73,7 @@
     <button id="t-strany">STRANY</button>
     <button id="t-sliby">SLIBY</button>
     <button id="t-pruzkumy">PRŮZKUMY</button>
+    <button id="t-energie">ENERGIE</button>
   </nav>
 
   <section id="v-zpravy">
@@ -117,6 +130,16 @@
     <div class="bulletin"><h2>Zaznamenané průzkumy</h2><div id="poll-list"></div></div>
   </section>
 
+  <section id="v-energie" hidden>
+    <div class="bulletin">
+      <h2>Toky elektřiny přes hranice ČR</h2>
+      <div class="legend" id="ftime">Načítání…</div>
+      <div id="fbody"></div>
+      <div class="flegend"><span>◀ export z ČR</span><span>import do ČR ▶</span></div>
+      <div class="legend">Fyzické toky na hraničních profilech (ENTSO-E přes Energy-Charts). Obchodní výměna se od fyzických toků může výrazně lišit. Aktualizace každých 15 minut.</div>
+    </div>
+  </section>
+
   <footer>
     CZECH POLITICS AI MONITOR — AKTUALIZOVÁNO AUTOMATICKY<br><br>
     Shrnutí, profily, sliby, jména politiků i čísla z průzkumů extrahuje AI (Gemini) z textů zpráv, proto mohou být neúplné nebo nepřesné. „Mediální tón" ukazuje, jak o straně média píšou, nejde o hodnocení kvality ani volební doporučení. Průzkumy různých agentur nejsou přímo srovnatelné. Vždy ověřte v původním zdroji. Neoficiální web, není spojen s žádnou stranou ani institucí. Barvy stran jsou orientační.
@@ -131,6 +154,62 @@ function toggleTheme(){
 }
 </script>
 <script src="app.js"></script>
+
+<script>
+/* ---- Záložka ENERGIE: přepínání + toky elektřiny ---- */
+(function(){
+  var POS_IS_IMPORT=true;   /* když jsou směry obráceně, přepni na false */
+  var NAMES={Germany:"Německo",Poland:"Polsko",Austria:"Rakousko",Slovakia:"Slovensko"};
+  var tab=document.getElementById("t-energie"),view=document.getElementById("v-energie");
+  var tabs=document.querySelectorAll(".tabs button");
+  var el=document.getElementById("fbody"),tm=document.getElementById("ftime");
+  var loaded=false,timer=null;
+
+  function show(){
+    document.querySelectorAll("section[id^='v-']").forEach(function(s){s.hidden=(s!==view)});
+    tabs.forEach(function(b){b.classList.toggle("on",b===tab)});
+    if(!loaded){loaded=true;load();timer=setInterval(load,15*60*1000)}
+  }
+  tab.addEventListener("click",show);
+  tabs.forEach(function(b){
+    if(b!==tab)b.addEventListener("click",function(){view.hidden=true;tab.classList.remove("on")});
+  });
+
+  function iso(d){return d.toISOString().slice(0,10)}
+  function load(){
+    var now=new Date(),from=new Date(now-2*864e5);
+    var url="https://api.energy-charts.info/cbpf?country=cz&start="+iso(from)+"&end="+iso(new Date(now.getTime()+864e5));
+    fetch(url,{cache:"no-store"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){
+      var ts=d.unix_seconds||[],rows=[],last=-1;
+      (d.countries||[]).forEach(function(c){
+        if(!NAMES[c.name])return;
+        var v=null,idx=-1;
+        for(var i=c.data.length-1;i>=0;i--){if(c.data[i]!==null&&c.data[i]!==undefined){v=c.data[i];idx=i;break}}
+        if(v===null)return;
+        if(idx>last)last=idx;
+        rows.push({n:NAMES[c.name],mw:(POS_IS_IMPORT?v:-v)*1000});
+      });
+      if(!rows.length)throw 0;
+      var max=Math.max.apply(null,rows.map(function(r){return Math.abs(r.mw)}).concat([500]));
+      var net=0;
+      el.innerHTML=rows.map(function(r){
+        net+=r.mw;
+        var w=Math.min(50,Math.abs(r.mw)/max*50),imp=r.mw>=0;
+        var st=imp?"left:50%;width:"+w+"%":"left:"+(50-w)+"%;width:"+w+"%";
+        return '<div class="frow"><div>'+r.n+'</div><div class="fbar"><i class="'+(imp?"imp":"exp")+'" style="'+st+'"></i></div>'+
+          '<div class="fval">'+(imp?"▶ ":"◀ ")+Math.round(Math.abs(r.mw)).toLocaleString("cs-CZ")+' MW</div></div>';
+      }).join("")+
+      '<div class="fnet">Saldo: <b>'+(net>=0?"import ":"export ")+Math.round(Math.abs(net)).toLocaleString("cs-CZ")+' MW</b></div>';
+      var t=ts[last]?new Date(ts[last]*1000):null;
+      tm.textContent=t?"Poslední dostupná hodnota: "+t.toLocaleString("cs-CZ"):"";
+    }).catch(function(){
+      el.innerHTML='<div class="ferr">Data se nepodařilo načíst. Otevřít přímo: '+
+        '<a href="https://www.energy-charts.info/charts/import_export/chart.htm?l=en" target="_blank" rel="noopener">Energy-Charts · přeshraniční toky</a></div>';
+      tm.textContent="";
+    });
+  }
+})();
+</script>
     <script src="/Redsea-monitor/nav.js"></script>
 </body>
 </html>
