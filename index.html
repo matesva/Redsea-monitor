@@ -35,9 +35,11 @@ h1{font-size:2.1em;margin:0 0 6px;line-height:1.15}
 /* mapy lodí */
 .ships{display:grid;grid-template-columns:1fr;gap:14px;margin-top:16px}
 .ship{padding:0;overflow:hidden}
-.ship .meta{padding:10px 14px}
+.ship .meta{padding:10px 14px;display:flex;justify-content:space-between;align-items:center;gap:10px}
 .ship .meta .rg{font-family:'IBM Plex Mono',monospace;font-size:.64em;color:var(--brass);letter-spacing:.04em;text-transform:uppercase}
 .ship .meta h3{font-size:1.05em;margin:2px 0 0}
+.ship .zoom{flex:none;background:none;border:1px solid var(--brass);color:var(--text);font-family:'IBM Plex Mono',monospace;font-size:.72em;padding:6px 10px;cursor:pointer;border-radius:2px;white-space:nowrap}
+.ship .zoom:hover{background:var(--brass);color:#0b1d26}
 .ship .map{background:#0b1d26;min-height:300px}
 
 /* webkamery */
@@ -53,7 +55,7 @@ h1{font-size:2.1em;margin:0 0 6px;line-height:1.15}
 .cam h3{font-size:1.02em;margin:2px 0 0}
 .cam:focus-visible{outline:2px solid var(--brass)}
 
-/* zvětšené okno */
+/* zvětšené okno (video i mapa) */
 .modal{position:fixed;inset:0;background:rgba(0,0,0,.88);display:none;align-items:center;justify-content:center;z-index:1000;padding:16px}
 .modal.open{display:flex}
 .mbox{position:relative;width:100%;max-width:1000px}
@@ -62,7 +64,10 @@ h1{font-size:2.1em;margin:0 0 6px;line-height:1.15}
 .mclose{background:none;border:1px solid var(--brass);color:#e7e0cd;font-size:20px;line-height:1;width:36px;height:36px;cursor:pointer;border-radius:2px}
 .mclose:hover{background:var(--brass);color:#0b1d26}
 .mvid{position:relative;aspect-ratio:16/9;background:#000}
-.mvid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.mvid iframe{position:absolute;inset:0;width:100%!important;height:100%!important;border:0}
+.mvid.big{aspect-ratio:auto;height:78vh;background:#0b1d26}
+.mvid.big .map{height:100%;min-height:0}
+.mvid.big .map>*{width:100%!important;height:100%!important}
 
 footer{margin-top:34px;text-align:center;font-family:'IBM Plex Mono',monospace;font-size:.66em;color:var(--text-dim)}
 @media (max-width:600px){h1{font-size:1.6em}}
@@ -89,11 +94,14 @@ footer{margin-top:34px;text-align:center;font-family:'IBM Plex Mono',monospace;f
 
   <section class="sec" id="ships">
     <h2>Lodní provoz živě</h2>
-    <div class="sub">Pozice lodí v reálném čase (AIS) · VesselFinder · klíčové námořní uzly</div>
+    <div class="sub">Pozice lodí v reálném čase (AIS) · VesselFinder · tlačítkem ⤢ mapu zvětšíš</div>
     <div class="ships">
 
       <div class="card ship">
-        <div class="meta"><div class="rg">Rudé moře</div><h3>Suezský průplav</h3></div>
+        <div class="meta">
+          <div><div class="rg">Rudé moře</div><h3>Suezský průplav</h3></div>
+          <button class="zoom" type="button">⤢ Zvětšit</button>
+        </div>
         <div class="map">
           <script type="text/javascript">
             var width="100%"; var height="300";
@@ -105,7 +113,10 @@ footer{margin-top:34px;text-align:center;font-family:'IBM Plex Mono',monospace;f
       </div>
 
       <div class="card ship">
-        <div class="meta"><div class="rg">Rudé moře</div><h3>Bab al-Mandab</h3></div>
+        <div class="meta">
+          <div><div class="rg">Rudé moře</div><h3>Bab al-Mandab</h3></div>
+          <button class="zoom" type="button">⤢ Zvětšit</button>
+        </div>
         <div class="map">
           <script type="text/javascript">
             var width="100%"; var height="300";
@@ -117,7 +128,10 @@ footer{margin-top:34px;text-align:center;font-family:'IBM Plex Mono',monospace;f
       </div>
 
       <div class="card ship">
-        <div class="meta"><div class="rg">Blízký východ</div><h3>Hormuzský průliv</h3></div>
+        <div class="meta">
+          <div><div class="rg">Blízký východ</div><h3>Hormuzský průliv</h3></div>
+          <button class="zoom" type="button">⤢ Zvětšit</button>
+        </div>
         <div class="map">
           <script type="text/javascript">
             var width="100%"; var height="300";
@@ -129,7 +143,10 @@ footer{margin-top:34px;text-align:center;font-family:'IBM Plex Mono',monospace;f
       </div>
 
       <div class="card ship">
-        <div class="meta"><div class="rg">Asie</div><h3>Malacký průliv</h3></div>
+        <div class="meta">
+          <div><div class="rg">Asie</div><h3>Malacký průliv</h3></div>
+          <button class="zoom" type="button">⤢ Zvětšit</button>
+        </div>
         <div class="map">
           <script type="text/javascript">
             var width="100%"; var height="300";
@@ -141,7 +158,10 @@ footer{margin-top:34px;text-align:center;font-family:'IBM Plex Mono',monospace;f
       </div>
 
       <div class="card ship">
-        <div class="meta"><div class="rg">Amerika</div><h3>Panamský průplav</h3></div>
+        <div class="meta">
+          <div><div class="rg">Amerika</div><h3>Panamský průplav</h3></div>
+          <button class="zoom" type="button">⤢ Zvětšit</button>
+        </div>
         <div class="map">
           <script type="text/javascript">
             var width="100%"; var height="300";
@@ -248,23 +268,51 @@ cm.innerHTML=W.map(function(c,i){
     '<div class="meta"><div class="rg">'+c.rg+'</div><h3>'+c.name+'</h3></div></div>';
 }).join("");
 
+/* ---- Zvětšené okno: video i mapa ---- */
 var modal=document.getElementById("modal"),mvid=document.getElementById("mvid"),mtitle=document.getElementById("mtitle");
-function openCam(i){
-  var c=W[i];if(!c)return;
-  mtitle.textContent=c.name+" · "+c.rg;
-  mvid.innerHTML='<iframe src="'+camSrc(c)+'" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';
+var shipMoved=null;
+function showModal(){
   modal.classList.add("open");modal.setAttribute("aria-hidden","false");
   document.body.style.overflow="hidden";
 }
+function openCam(i){
+  var c=W[i];if(!c)return;
+  mtitle.textContent=c.name+" · "+c.rg;
+  mvid.className="mvid";
+  mvid.innerHTML='<iframe src="'+camSrc(c)+'" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';
+  showModal();
+}
+function openShip(card){
+  var map=card.querySelector(".map");if(!map)return;
+  var ph=document.createComment("map");
+  map.parentNode.insertBefore(ph,map);
+  shipMoved={map:map,ph:ph};
+  mtitle.textContent=card.querySelector("h3").textContent+" · "+card.querySelector(".rg").textContent;
+  mvid.innerHTML="";
+  mvid.className="mvid big";
+  mvid.appendChild(map);
+  showModal();
+}
 function closeCam(){
+  if(shipMoved){
+    shipMoved.ph.parentNode.insertBefore(shipMoved.map,shipMoved.ph);
+    shipMoved.ph.parentNode.removeChild(shipMoved.ph);
+    shipMoved=null;
+  }else{
+    mvid.innerHTML="";
+  }
+  mvid.className="mvid";
   modal.classList.remove("open");modal.setAttribute("aria-hidden","true");
-  mvid.innerHTML="";document.body.style.overflow="";
+  document.body.style.overflow="";
 }
 cm.addEventListener("click",function(e){
   var c=e.target.closest(".cam");if(c)openCam(+c.dataset.i);
 });
 cm.addEventListener("keydown",function(e){
   if(e.key==="Enter"||e.key===" "){var c=e.target.closest(".cam");if(c){e.preventDefault();openCam(+c.dataset.i);}}
+});
+document.querySelectorAll(".ship .zoom").forEach(function(b){
+  b.addEventListener("click",function(){openShip(b.closest(".ship"))});
 });
 document.getElementById("mclose").addEventListener("click",closeCam);
 modal.addEventListener("click",function(e){if(e.target===modal)closeCam()});
