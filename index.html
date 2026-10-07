@@ -214,21 +214,19 @@ M.forEach(function(m,i){
 });
 
 /* ---- Webkamery ----
-   url = celá adresa živého vysílání na YouTube (watch?v=…, youtu.be/…, /channel/UC…)
+   url = celá adresa živého vysílání na YouTube (watch?v=…, youtu.be/…, /live/…, /channel/UC…)
    Karty s prázdnou url se nezobrazí; bez jediné karty se skryje celá sekce.
    Náhled a přehrávání probíhají na tvé stránce, YouTube se neotevírá. */
 var W=[
- {name:"New York · Times Square",rg:"USA",url:"https://www.youtube.com/watch?v=z-jYdOIKcTQ"},
- {name:"Tokio · Shibuya",rg:"Japonsko",url:"https://www.youtube.com/watch?v=dfVK7ld38Ys"},
- {name:"Suezský průplav",rg:"Rudé moře",url:""},
- {name:"Bab al-Mandab",rg:"Rudé moře",url:""},
- {name:"Jeruzalém",rg:"Blízký východ",url:""},
- {name:"Dubaj",rg:"Blízký východ",url:""},
- {name:"Washington D.C.",rg:"USA",url:""},
- {name:"Londýn · Tower Bridge",rg:"Evropa",url:""},
- {name:"Praha",rg:"Česko",url:""},
- {name:"Hongkong",rg:"Asie",url:""},
- {name:"Rio de Janeiro",rg:"Jižní Amerika",url:""}
+ {name:"New York · Times Square",rg:"USA",url:"https://www.youtube.com/live/JQ_jwk_7OVE"},
+ {name:"Rio de Janeiro · Copacabana",rg:"Jižní Amerika",url:"https://www.youtube.com/live/Bz9Hkrk1NcY"},
+ {name:"Londýn · London Bridge",rg:"Evropa",url:"https://www.youtube.com/live/AoWlXqIXNZ8"},
+ {name:"Paříž · Eiffelova věž",rg:"Evropa",url:"https://www.youtube.com/live/YkKGantlWH0"},
+ {name:"Berlín · Alexanderplatz",rg:"Evropa",url:"https://www.youtube.com/live/IRqboacDNFg"},
+ {name:"Praha",rg:"Česko",url:"https://www.youtube.com/live/0FvTdT3EJY4"},
+ {name:"Řím · Fontána di Trevi",rg:"Evropa",url:"https://www.youtube.com/live/j39vIidsIJI"},
+ {name:"Tchaj-pej · Taipei 101",rg:"Asie",url:"https://www.youtube.com/live/z_fY1pj1VBw"},
+ {name:"Tokio · Shibuya",rg:"Japonsko",url:"https://www.youtube.com/watch?v=dfVK7ld38Ys"}
 ];
 function parseCam(c){
   var u=c.url||"",m;
