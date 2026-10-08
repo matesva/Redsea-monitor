@@ -187,8 +187,8 @@ function toggleTheme(){
   function urls(){
     var d=new Date(),y=new Date(d.getTime()-864e5);
     return [
+      "energy.json?t="+Date.now(),
       BASE+"&start="+ds(y)+"&end="+ds(d),
-      BASE+"&start="+ds(d),
       BASE
     ];
   }
