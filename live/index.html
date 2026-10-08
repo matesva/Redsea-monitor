@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lodě a webkamery · Monitory</title>
-<meta name="description" content="Pozice lodí v průplavech v reálném čase a živé webkamery z velkých měst">
+<title>Lodě, letadla a webkamery · Monitory</title>
+<meta name="description" content="Pozice lodí a letadel v reálném čase a živé webkamery z velkých měst">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://matesva.github.io/Redsea-monitor/live/">
 <meta name="theme-color" content="#0b1d26">
@@ -38,7 +38,10 @@ h1{font-size:2.1em;margin:0 0 6px;line-height:1.15}
 .ship .meta h3{font-size:1.05em;margin:2px 0 0}
 .ship .zoom{flex:none;background:none;border:1px solid var(--brass);color:var(--text);font-family:'IBM Plex Mono',monospace;font-size:.72em;padding:6px 10px;cursor:pointer;border-radius:2px;white-space:nowrap}
 .ship .zoom:hover{background:var(--brass);color:#0b1d26}
+.ship .ext{flex:none;border:1px solid var(--brass);color:var(--text);font-family:'IBM Plex Mono',monospace;font-size:.72em;padding:6px 10px;border-radius:2px;text-decoration:none}
+.ship .ext:hover{background:var(--brass);color:#0b1d26}
 .ship .map{background:#0b1d26;min-height:300px}
+.ship .map iframe{display:block;width:100%;height:300px;border:0}
 
 .chips{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
 .chip{background:none;border:1px solid var(--rule);color:var(--text);font-family:'IBM Plex Mono',monospace;font-size:.72em;padding:6px 12px;cursor:pointer;border-radius:2px}
@@ -75,8 +78,8 @@ footer{margin-top:34px;text-align:center;font-family:'IBM Plex Mono',monospace;f
 <link rel="manifest" href="/Redsea-monitor/app.webmanifest">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="cs_CZ">
-<meta property="og:title" content="Lodě a webkamery · Monitory">
-<meta property="og:description" content="Pozice lodí v průplavech v reálném čase a živé webkamery z velkých měst">
+<meta property="og:title" content="Lodě, letadla a webkamery · Monitory">
+<meta property="og:description" content="Pozice lodí a letadel v reálném čase a živé webkamery z velkých měst">
 <meta property="og:url" content="https://matesva.github.io/Redsea-monitor/live/">
 <meta property="og:image" content="https://matesva.github.io/Redsea-monitor/og.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -85,12 +88,13 @@ footer{margin-top:34px;text-align:center;font-family:'IBM Plex Mono',monospace;f
 <div class="wrap">
   <header>
     <div class="top"><a href="/Redsea-monitor/">← PŘEHLED MONITORŮ</a></div>
-    <h1>Lodě a webkamery</h1>
-    <div class="sub">Živé mapy lodní dopravy a kamery z klíčových míst</div>
+    <h1>Lodě, letadla a webkamery</h1>
+    <div class="sub">Živé mapy dopravy a kamery z klíčových míst</div>
   </header>
 
   <nav class="snav">
     <a href="#ships">Lodě</a>
+    <a href="#planes-sec">Letadla</a>
     <a href="#webcams">Kamery</a>
   </nav>
 
@@ -155,6 +159,12 @@ footer{margin-top:34px;text-align:center;font-family:'IBM Plex Mono',monospace;f
       </div>
 
     </div>
+  </section>
+
+  <section class="sec" id="planes-sec">
+    <h2>Letecký provoz živě</h2>
+    <div class="sub">Pozice letadel v reálném čase (ADS-B) · posuň do strany, ⤢ mapu zvětší, ↗ otevře v novém okně</div>
+    <div class="ships" id="planes"></div>
   </section>
 
   <section class="sec" id="webcams">
@@ -223,6 +233,23 @@ chips.addEventListener("click",function(e){
   });
 });
 
+/* ---- Letadla (ADS-B) ---- */
+var PBASE="https://globe.airplanes.live/"; /* alternativa: https://globe.adsbexchange.com/ */
+var P=[
+ {rg:"Blízký východ",name:"Perský záliv · Hormuz",lat:26.5,lon:54,z:6},
+ {rg:"Rudé moře",name:"Rudé moře · Suez",lat:24,lon:36,z:5},
+ {rg:"Evropa",name:"Střední Evropa",lat:50,lon:12,z:5},
+ {rg:"Česko",name:"Česko",lat:49.8,lon:15.5,z:7}
+];
+document.getElementById("planes").innerHTML=P.map(function(p){
+  var u=PBASE+"?lat="+p.lat+"&lon="+p.lon+"&zoom="+p.z;
+  return '<div class="card ship"><div class="meta"><div><div class="rg">'+p.rg+'</div><h3>'+p.name+'</h3></div>'+
+    '<div style="display:flex;gap:6px"><a class="ext" href="'+u+'" target="_blank" rel="noopener" aria-label="Otevřít v novém okně">↗</a>'+
+    '<button class="zoom" type="button">⤢ Zvětšit</button></div></div>'+
+    '<div class="map"><iframe src="'+u+'" loading="lazy" title="'+p.name+'"></iframe></div></div>';
+}).join("");
+
+/* ---- Zvětšené okno: video i mapa ---- */
 var modal=document.getElementById("modal"),mvid=document.getElementById("mvid"),mtitle=document.getElementById("mtitle");
 var shipMoved=null;
 function showModal(){
