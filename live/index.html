@@ -1,1 +1,277 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lodě a webkamery · Monitory</title>
+<meta name="description" content="Pozice lodí v průplavech v reálném čase a živé webkamery z velkých měst">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://matesva.github.io/Redsea-monitor/live/">
+<meta name="theme-color" content="#0b1d26">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script data-goatcounter="https://redsea-monitor.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+:root{--ink:#0b1d26;--ink2:#142c3a;--brass:#b8863b;--text:#e7e0cd;--text-dim:#9aa8ac;--rule:rgba(184,134,59,.35)}
+body.light{--ink:#ece6d6;--ink2:#e0d8c0;--text:#1c2b2e;--text-dim:#5c6b6e;--rule:rgba(11,29,38,.18)}
+body{margin:0;font-family:'Spectral',Georgia,serif;background-color:var(--ink);background-image:radial-gradient(circle at 1px 1px,rgba(184,134,59,.06) 1px,transparent 0);background-size:22px 22px;color:var(--text);min-height:100vh;padding-bottom:60px}
+.wrap{max-width:780px;margin:0 auto;padding:0 20px}
+header{border-bottom:3px double var(--brass);padding:28px 0 16px}
+.top{font-family:'IBM Plex Mono',monospace;font-size:.72em;letter-spacing:.04em;color:var(--brass);margin-bottom:12px}
+.top a{color:var(--brass);text-decoration:none}
+h1{font-size:2.1em;margin:0 0 6px;line-height:1.15}
+.sub{font-family:'IBM Plex Mono',monospace;font-size:.78em;color:var(--text-dim)}
+.snav{position:sticky;top:0;z-index:50;background:var(--ink);border-bottom:1px solid var(--rule);display:flex;gap:8px;padding:10px 20px;margin:0 -20px;overflow-x:auto}
+.snav a{flex:none;font-family:'IBM Plex Mono',monospace;font-size:.74em;letter-spacing:.04em;text-transform:uppercase;color:var(--text);text-decoration:none;border:1px solid var(--rule);padding:6px 12px;border-radius:2px}
+.snav a:hover{border-color:var(--brass);color:var(--brass)}
+.card{display:block;border:1px solid var(--rule);background:var(--ink2);padding:16px;color:var(--text);border-radius:2px}
+.sec{margin-top:32px;scroll-margin-top:60px}
+.sec h2{font-size:1.5em;margin:0 0 6px}
+.rg{font-family:'IBM Plex Mono',monospace;font-size:.64em;color:var(--brass);letter-spacing:.04em;text-transform:uppercase}
 
+.ships{display:flex;gap:14px;margin-top:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px}
+.ship{flex:0 0 min(88%,440px);scroll-snap-align:start;padding:0;overflow:hidden}
+.ship .meta{padding:10px 14px;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.ship .meta h3{font-size:1.05em;margin:2px 0 0}
+.ship .zoom{flex:none;background:none;border:1px solid var(--brass);color:var(--text);font-family:'IBM Plex Mono',monospace;font-size:.72em;padding:6px 10px;cursor:pointer;border-radius:2px;white-space:nowrap}
+.ship .zoom:hover{background:var(--brass);color:#0b1d26}
+.ship .map{background:#0b1d26;min-height:300px}
+
+.chips{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+.chip{background:none;border:1px solid var(--rule);color:var(--text);font-family:'IBM Plex Mono',monospace;font-size:.72em;padding:6px 12px;cursor:pointer;border-radius:2px}
+.chip.on{background:var(--brass);border-color:var(--brass);color:#0b1d26}
+.cams{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin-top:16px}
+.cam{padding:0;overflow:hidden;cursor:pointer}
+.cam .thumb{position:relative;aspect-ratio:16/9;background:#000}
+.cam .thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.85}
+.cam .play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
+.cam .play span{width:46px;height:46px;border-radius:50%;background:rgba(11,29,38,.75);border:2px solid var(--brass);color:var(--text);display:flex;align-items:center;justify-content:center;font-size:18px;padding-left:3px}
+.cam .live{position:absolute;top:8px;left:8px;font-family:'IBM Plex Mono',monospace;font-size:.6em;background:#a13d2b;color:#fff;padding:2px 6px;letter-spacing:.06em}
+.cam .meta{padding:10px 12px}
+.cam h3{font-size:1.02em;margin:2px 0 0}
+.cam:focus-visible{outline:2px solid var(--brass)}
+
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.88);display:none;align-items:center;justify-content:center;z-index:1000;padding:16px}
+.modal.open{display:flex}
+.mbox{position:relative;width:100%;max-width:1000px}
+.mhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;color:#e7e0cd}
+.mtitle{font-family:'IBM Plex Mono',monospace;font-size:.85em}
+.mclose{background:none;border:1px solid var(--brass);color:#e7e0cd;font-size:20px;line-height:1;width:36px;height:36px;cursor:pointer;border-radius:2px}
+.mclose:hover{background:var(--brass);color:#0b1d26}
+.mvid{position:relative;aspect-ratio:16/9;background:#000}
+.mvid iframe{position:absolute;inset:0;width:100%!important;height:100%!important;border:0}
+.mvid.big{aspect-ratio:auto;height:78vh;background:#0b1d26}
+.mvid.big .map{height:100%;min-height:0}
+.mvid.big .map>*{width:100%!important;height:100%!important}
+
+footer{margin-top:34px;text-align:center;font-family:'IBM Plex Mono',monospace;font-size:.66em;color:var(--text-dim)}
+@media (max-width:600px){h1{font-size:1.6em}}
+</style>
+<link rel="icon" type="image/svg+xml" href="/Redsea-monitor/favicon.svg">
+<link rel="apple-touch-icon" href="/Redsea-monitor/icons/apple-touch-icon.png">
+<link rel="manifest" href="/Redsea-monitor/app.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="cs_CZ">
+<meta property="og:title" content="Lodě a webkamery · Monitory">
+<meta property="og:description" content="Pozice lodí v průplavech v reálném čase a živé webkamery z velkých měst">
+<meta property="og:url" content="https://matesva.github.io/Redsea-monitor/live/">
+<meta property="og:image" content="https://matesva.github.io/Redsea-monitor/og.png">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="top"><a href="/Redsea-monitor/">← PŘEHLED MONITORŮ</a></div>
+    <h1>Lodě a webkamery</h1>
+    <div class="sub">Živé mapy lodní dopravy a kamery z klíčových míst</div>
+  </header>
+
+  <nav class="snav">
+    <a href="#ships">Lodě</a>
+    <a href="#webcams">Kamery</a>
+  </nav>
+
+  <section class="sec" id="ships">
+    <h2>Lodní provoz živě</h2>
+    <div class="sub">Pozice lodí v reálném čase (AIS) · VesselFinder · posuň do strany, ⤢ mapu zvětší</div>
+    <div class="ships">
+
+      <div class="card ship">
+        <div class="meta">
+          <div><div class="rg">Rudé moře</div><h3>Suezský průplav</h3></div>
+          <button class="zoom" type="button">⤢ Zvětšit</button>
+        </div>
+        <div class="map">
+          <script>var width="100%";var height="300";var latitude="30.40";var longitude="32.35";var zoom="8";var names=false;</script>
+          <script src="https://www.vesselfinder.com/aismap.js"></script>
+        </div>
+      </div>
+
+      <div class="card ship">
+        <div class="meta">
+          <div><div class="rg">Rudé moře</div><h3>Bab al-Mandab</h3></div>
+          <button class="zoom" type="button">⤢ Zvětšit</button>
+        </div>
+        <div class="map">
+          <script>var width="100%";var height="300";var latitude="12.70";var longitude="43.30";var zoom="8";var names=false;</script>
+          <script src="https://www.vesselfinder.com/aismap.js"></script>
+        </div>
+      </div>
+
+      <div class="card ship">
+        <div class="meta">
+          <div><div class="rg">Blízký východ</div><h3>Hormuzský průliv</h3></div>
+          <button class="zoom" type="button">⤢ Zvětšit</button>
+        </div>
+        <div class="map">
+          <script>var width="100%";var height="300";var latitude="26.55";var longitude="56.40";var zoom="8";var names=false;</script>
+          <script src="https://www.vesselfinder.com/aismap.js"></script>
+        </div>
+      </div>
+
+      <div class="card ship">
+        <div class="meta">
+          <div><div class="rg">Asie</div><h3>Malacký průliv</h3></div>
+          <button class="zoom" type="button">⤢ Zvětšit</button>
+        </div>
+        <div class="map">
+          <script>var width="100%";var height="300";var latitude="2.50";var longitude="101.50";var zoom="7";var names=false;</script>
+          <script src="https://www.vesselfinder.com/aismap.js"></script>
+        </div>
+      </div>
+
+      <div class="card ship">
+        <div class="meta">
+          <div><div class="rg">Amerika</div><h3>Panamský průplav</h3></div>
+          <button class="zoom" type="button">⤢ Zvětšit</button>
+        </div>
+        <div class="map">
+          <script>var width="100%";var height="300";var latitude="9.10";var longitude="-79.70";var zoom="9";var names=false;</script>
+          <script src="https://www.vesselfinder.com/aismap.js"></script>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="sec" id="webcams">
+    <h2>Webkamery z významných míst</h2>
+    <div class="sub">Živá vysílání z klíčových lokalit · kliknutím se video zvětší</div>
+    <div class="chips" id="chips"></div>
+    <div class="cams" id="cams"></div>
+  </section>
+
+  <footer>Vždy ověřte v původním zdroji</footer>
+</div>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="mbox" role="dialog" aria-modal="true">
+    <div class="mhead">
+      <div class="mtitle" id="mtitle"></div>
+      <button class="mclose" id="mclose" aria-label="Zavřít">×</button>
+    </div>
+    <div class="mvid" id="mvid"></div>
+  </div>
+</div>
+
+<script>
+if(localStorage.getItem('theme')==='light')document.body.classList.add('light');
+/* url = adresa živého vysílání na YouTube (watch?v=…, youtu.be/…, /live/…, /channel/UC…) */
+var W=[
+ {name:"Londýn · London Bridge",rg:"Evropa",url:"https://www.youtube.com/live/AoWlXqIXNZ8"},
+ {name:"Paříž · Eiffelova věž",rg:"Evropa",url:"https://www.youtube.com/live/YkKGantlWH0"},
+ {name:"Praha",rg:"Česko",url:"https://www.youtube.com/live/0FvTdT3EJY4"},
+ {name:"New York · Times Square",rg:"USA",url:"https://www.youtube.com/live/JQ_jwk_7OVE"},
+ {name:"Rio de Janeiro · Copacabana",rg:"Jižní Amerika",url:"https://www.youtube.com/live/Bz9Hkrk1NcY"},
+ {name:"Tchaj-pej · Taipei 101",rg:"Asie",url:"https://www.youtube.com/live/z_fY1pj1VBw"},
+ {name:"Tokio · Shibuya",rg:"Japonsko",url:"https://www.youtube.com/watch?v=dfVK7ld38Ys"}
+];
+var FR={"Evropa":"eu","Česko":"eu","USA":"am","Jižní Amerika":"am","Asie":"as","Japonsko":"as"};
+function parseCam(c){
+  var u=c.url||"",m;
+  if(m=u.match(/[?&]v=([\w-]{11})/)||u.match(/youtu\.be\/([\w-]{11})/)||u.match(/\/live\/([\w-]{11})/))c.v=m[1];
+  if(m=u.match(/channel\/(UC[\w-]{22})/))c.ch=m[1];
+  return c;
+}
+function camSrc(c){
+  if(c.ch)return "https://www.youtube-nocookie.com/embed/live_stream?channel="+c.ch+"&autoplay=1&mute=1";
+  if(c.v)return "https://www.youtube-nocookie.com/embed/"+c.v+"?autoplay=1&mute=1";
+  return "";
+}
+W=W.map(parseCam).filter(function(c){return camSrc(c)});
+if(!W.length){document.getElementById("webcams").style.display="none"}
+
+var cm=document.getElementById("cams");
+cm.innerHTML=W.map(function(c,i){
+  var img=c.v?'<img src="https://i.ytimg.com/vi/'+c.v+'/hqdefault.jpg" alt="" loading="lazy" onerror="this.style.display=\'none\'">':'';
+  return '<div class="card cam" data-i="'+i+'" data-r="'+(FR[c.rg]||"")+'" role="button" tabindex="0" aria-label="Přehrát: '+c.name+'">'+
+    '<div class="thumb">'+img+'<span class="live">LIVE</span><div class="play"><span>▶</span></div></div>'+
+    '<div class="meta"><div class="rg">'+c.rg+'</div><h3>'+c.name+'</h3></div></div>';
+}).join("");
+
+var CH=[["all","Vše"],["eu","Evropa"],["am","Amerika"],["as","Asie"]];
+var chips=document.getElementById("chips");
+chips.innerHTML=CH.map(function(x,j){return '<button type="button" class="chip'+(j?'':' on')+'" data-f="'+x[0]+'">'+x[1]+'</button>'}).join("");
+chips.addEventListener("click",function(e){
+  var b=e.target.closest(".chip");if(!b)return;
+  chips.querySelectorAll(".chip").forEach(function(x){x.classList.toggle("on",x===b)});
+  cm.querySelectorAll(".cam").forEach(function(c){
+    c.style.display=(b.dataset.f==="all"||c.dataset.r===b.dataset.f)?"":"none";
+  });
+});
+
+var modal=document.getElementById("modal"),mvid=document.getElementById("mvid"),mtitle=document.getElementById("mtitle");
+var shipMoved=null;
+function showModal(){
+  modal.classList.add("open");modal.setAttribute("aria-hidden","false");
+  document.body.style.overflow="hidden";
+}
+function openCam(i){
+  var c=W[i];if(!c)return;
+  mtitle.textContent=c.name+" · "+c.rg;
+  mvid.className="mvid";
+  mvid.innerHTML='<iframe src="'+camSrc(c)+'" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';
+  showModal();
+}
+function openShip(card){
+  var map=card.querySelector(".map");if(!map)return;
+  var ph=document.createComment("map");
+  map.parentNode.insertBefore(ph,map);
+  shipMoved={map:map,ph:ph};
+  mtitle.textContent=card.querySelector("h3").textContent+" · "+card.querySelector(".rg").textContent;
+  mvid.innerHTML="";
+  mvid.className="mvid big";
+  mvid.appendChild(map);
+  showModal();
+}
+function closeCam(){
+  if(shipMoved){
+    shipMoved.ph.parentNode.insertBefore(shipMoved.map,shipMoved.ph);
+    shipMoved.ph.parentNode.removeChild(shipMoved.ph);
+    shipMoved=null;
+  }else{
+    mvid.innerHTML="";
+  }
+  mvid.className="mvid";
+  modal.classList.remove("open");modal.setAttribute("aria-hidden","true");
+  document.body.style.overflow="";
+}
+cm.addEventListener("click",function(e){
+  var c=e.target.closest(".cam");if(c)openCam(+c.dataset.i);
+});
+cm.addEventListener("keydown",function(e){
+  if(e.key==="Enter"||e.key===" "){var c=e.target.closest(".cam");if(c){e.preventDefault();openCam(+c.dataset.i);}}
+});
+document.querySelectorAll(".ship .zoom").forEach(function(b){
+  b.addEventListener("click",function(){openShip(b.closest(".ship"))});
+});
+document.getElementById("mclose").addEventListener("click",closeCam);
+modal.addEventListener("click",function(e){if(e.target===modal)closeCam()});
+document.addEventListener("keydown",function(e){if(e.key==="Escape"&&modal.classList.contains("open"))closeCam()});
+</script>
+<script src="/Redsea-monitor/nav.js"></script>
+</body>
+</html>
