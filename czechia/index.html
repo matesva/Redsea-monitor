@@ -160,6 +160,7 @@ function toggleTheme(){
 (function(){
   var POS_IS_IMPORT=true;   /* když jsou směry obráceně, přepni na false */
   var BASE="https://api.energy-charts.info/cbpf?country=cz";
+  var CACHE_KEY="energy_cbpf_cache_v1";
   var MAP={
     germany:"Německo",deutschland:"Německo",
     poland:"Polsko",polen:"Polsko",
@@ -170,7 +171,7 @@ function toggleTheme(){
   var tab=document.getElementById("t-energie"),view=document.getElementById("v-energie");
   var tabs=document.querySelectorAll(".tabs button");
   var el=document.getElementById("fbody"),tm=document.getElementById("ftime");
-  var loaded=false,timer=null;
+  var loaded=false,timer=null,retry=null;
 
   function show(){
     document.querySelectorAll("section[id^='v-']").forEach(function(s){s.hidden=(s!==view)});
@@ -193,7 +194,7 @@ function toggleTheme(){
     ];
   }
 
-  function render(d){
+  function render(d,note){
     var ts=d.unix_seconds||[],cs=[],seen=[];
     (d.countries||[]).forEach(function(c){
       seen.push(c.name);
@@ -202,7 +203,7 @@ function toggleTheme(){
     });
     if(!cs.length)throw new Error("Žádné známé země. Vráceno: "+seen.join(", "));
 
-    /* najdi nejnovější čas, kde má aspoň (počet zemí − 1) zemí reálnou nenulovou hodnotu */
+    /* nejnovější čas, kde má aspoň (počet zemí − 1) zemí nenulovou hodnotu */
     var need=Math.max(1,cs.length-1),idx=-1,len=ts.length;
     for(var i=len-1;i>=0;i--){
       var ok=0;
@@ -227,13 +228,34 @@ function toggleTheme(){
     }).join("")+
     '<div class="fnet">Saldo: <b>'+(net>=0?"import ":"export ")+fmt(net)+' MW</b></div>';
     var t=ts[idx]?new Date(ts[idx]*1000):null;
-    tm.textContent=t?"Poslední kompletní hodnota: "+t.toLocaleString("cs-CZ"):"";
+    tm.textContent=(t?"Poslední kompletní hodnota: "+t.toLocaleString("cs-CZ"):"")+(note||"");
+  }
+
+  function saveCache(d){
+    try{localStorage.setItem(CACHE_KEY,JSON.stringify({saved:Date.now(),d:d}))}catch(e){}
+  }
+  function readCache(){
+    try{var c=JSON.parse(localStorage.getItem(CACHE_KEY));return c&&c.d?c:null}catch(e){return null}
   }
 
   function fail(errs){
-    el.innerHTML='<div class="ferr">Data se nepodařilo načíst.<br>'+errs.join("<br>")+
+    var c=readCache();
+    if(c){
+      try{
+        render(c.d," · ⚠ offline, uložená data z "+new Date(c.saved).toLocaleString("cs-CZ"));
+        scheduleRetry();
+        return;
+      }catch(e){}
+    }
+    el.innerHTML='<div class="ferr">Data se nepodařilo načíst. Zkouším znovu za minutu.<br>'+errs.join("<br>")+
       '<br><a href="https://www.energy-charts.info/charts/import_export/chart.htm?l=en" target="_blank" rel="noopener">Energy-Charts · přeshraniční toky</a></div>';
     tm.textContent="";
+    scheduleRetry();
+  }
+
+  function scheduleRetry(){
+    if(retry)clearTimeout(retry);
+    retry=setTimeout(load,60*1000);
   }
 
   function load(){
@@ -245,6 +267,8 @@ function toggleTheme(){
         return r.json();
       }).then(function(d){
         render(d);
+        saveCache(d);
+        if(retry){clearTimeout(retry);retry=null}
       }).catch(function(e){
         errs.push("Varianta "+(i+1)+": "+(e&&e.message?e.message:e));
         next(i+1);
