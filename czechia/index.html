@@ -136,7 +136,7 @@
       <div class="legend" id="ftime">Načítání…</div>
       <div id="fbody"></div>
       <div class="flegend"><span>◀ export z ČR</span><span>import do ČR ▶</span></div>
-      <div class="legend">Fyzické toky na hraničních profilech (ENTSO-E přes Energy-Charts). Obchodní výměna se od fyzických toků může výrazně lišit. Aktualizace každých 15 minut.</div>
+      <div class="legend">Fyzické toky na hraničních profilech (ENTSO-E přes Energy-Charts). Obchodní výměna se od fyzických toků může výrazně lišit. Aktualizace každých 15 minut. (v7)</div>
     </div>
   </section>
 
@@ -156,9 +156,9 @@ function toggleTheme(){
 <script src="app.js"></script>
 
 <script>
-/* ---- Záložka ENERGIE: přepínání + toky elektřiny ---- */
+/* ---- Záložka ENERGIE (v7): přepínání + toky elektřiny ---- */
 (function(){
-  var POS_IS_IMPORT=true;   /* když jsou směry obráceně, přepni na false */
+  var POS_IS_IMPORT=true;   /* API: kladné = import do ČR, záporné = export; když by to bylo obráceně, dej false */
   var BASE="https://api.energy-charts.info/cbpf?country=cz";
   var CACHE_KEY="energy_cbpf_cache_v1";
   var MAP={
@@ -188,9 +188,12 @@ function toggleTheme(){
 
   function urls(){
     var d=new Date(),y=new Date(d.getTime()-864e5);
+    var withDates=BASE+"&start="+ds(y)+"&end="+ds(d);
     return [
-      BASE+"&start="+ds(y)+"&end="+ds(d),
-      BASE
+      BASE,
+      withDates,
+      "https://api.allorigins.win/raw?url="+encodeURIComponent(withDates),
+      "https://corsproxy.io/?"+encodeURIComponent(withDates)
     ];
   }
 
@@ -247,7 +250,7 @@ function toggleTheme(){
         return;
       }catch(e){}
     }
-    el.innerHTML='<div class="ferr">Data se nepodařilo načíst. Zkouším znovu za minutu.<br>'+errs.join("<br>")+
+    el.innerHTML='<div class="ferr">Data se nepodařilo načíst (v7). Zkouším znovu za minutu.<br>'+errs.join("<br>")+
       '<br><a href="https://www.energy-charts.info/charts/import_export/chart.htm?l=en" target="_blank" rel="noopener">Energy-Charts · přeshraniční toky</a></div>';
     tm.textContent="";
     scheduleRetry();
