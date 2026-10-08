@@ -1,31 +1,31 @@
 {
- "updated": "2026-10-07T01:29",
+ "updated": "2026-10-08T01:53",
  "band": {
   "7": 2.0,
   "30": 5.0
  },
- "signals_total": 88,
+ "signals_total": 95,
  "summary": {
   "7": {
    "ALL": {
-    "n": 53,
-    "ok": 31,
-    "avg": -0.15
+    "n": 58,
+    "ok": 35,
+    "avg": -0.21
    },
    "BUY": {
-    "n": 21,
-    "ok": 10,
-    "avg": -0.5
+    "n": 23,
+    "ok": 12,
+    "avg": -0.39
    },
    "SELL": {
-    "n": 4,
-    "ok": 2,
-    "avg": -2.39
+    "n": 5,
+    "ok": 3,
+    "avg": -3.06
    },
    "HOLD": {
-    "n": 28,
-    "ok": 19,
-    "avg": 0.42
+    "n": 30,
+    "ok": 20,
+    "avg": 0.41
    }
   },
   "30": {
@@ -54,16 +54,16 @@
  "by_monitor": {
   "Rudé moře": {
    "7": {
-    "n": 11,
-    "ok": 7,
-    "avg": -1.39
+    "n": 12,
+    "ok": 8,
+    "avg": -1.21
    }
   },
   "USA": {
    "7": {
-    "n": 5,
+    "n": 6,
     "ok": 4,
-    "avg": -0.19
+    "avg": 0.31
    }
   },
   "Evropa": {
@@ -82,20 +82,121 @@
   },
   "Čína a Asie": {
    "7": {
-    "n": 13,
-    "ok": 7,
-    "avg": 1.37
+    "n": 15,
+    "ok": 9,
+    "avg": 1.14
    }
   },
   "Japonsko": {
    "7": {
-    "n": 11,
-    "ok": 6,
-    "avg": 0.25
+    "n": 12,
+    "ok": 7,
+    "avg": -0.35
    }
   }
  },
  "signals": [
+  {
+   "monitor": "Rudé moře",
+   "sector": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
+   "action": "BUY",
+   "date": "2026-10-07",
+   "tickers": [
+    "RHM.DE",
+    "TTE.PA",
+    "AIR.PA",
+    "ALV.DE"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Evropa",
+   "sector": "Energetika (TotalEnergies, Shell, RWE)",
+   "action": "BUY",
+   "date": "2026-10-07",
+   "tickers": [
+    "SHEL",
+    "TTE.PA"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Polovodiče (TSMC, Samsung, ASML)",
+   "action": "SELL",
+   "date": "2026-10-07",
+   "tickers": [
+    "TSM",
+    "005930.KS",
+    "ASML"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Japonské akcie (Nikkei 225 ETF)",
+   "action": "HOLD",
+   "date": "2026-10-07",
+   "tickers": [
+    "^N225"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Japonsko",
+   "sector": "Technologie (Sony, SoftBank)",
+   "action": "HOLD",
+   "date": "2026-10-07",
+   "tickers": [
+    "6758.T",
+    "9984.T"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Brazilský akciový trh (Bovespa, EWZ)",
+   "action": "HOLD",
+   "date": "2026-10-07",
+   "tickers": [
+    "^BVSP",
+    "EWZ"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Argentina (Merval, YPF, MercadoLibre)",
+   "action": "BUY",
+   "date": "2026-10-07",
+   "tickers": [
+    "^MERV",
+    "MELI",
+    "YPF"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
   {
    "monitor": "USA",
    "sector": "Technologický sektor (Apple, Microsoft, Nvidia)",
@@ -127,7 +228,7 @@
   },
   {
    "monitor": "Jižní Amerika",
-   "sector": "Brazilský akciový trh (Bovespa, EWZ ETF)",
+   "sector": "Brazilský akciový trh (Bovespa, EWZ)",
    "action": "BUY",
    "date": "2026-10-06",
    "tickers": [
@@ -230,7 +331,7 @@
   },
   {
    "monitor": "Jižní Amerika",
-   "sector": "Brazilský akciový trh (Bovespa, EWZ)",
+   "sector": "Brazilský akciový trh (Bovespa, EWZ ETF)",
    "action": "BUY",
    "date": "2026-10-06",
    "tickers": [
@@ -530,8 +631,8 @@
    "tickers": [
     "^N225"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 0.71,
+   "ok7": true,
    "ret30": null,
    "ok30": null
   },
@@ -544,8 +645,8 @@
     "6758.T",
     "9984.T"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": -5.78,
+   "ok7": true,
    "ret30": null,
    "ok30": null
   },
@@ -559,8 +660,8 @@
     "BP",
     "CVX"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 0.82,
+   "ok7": true,
    "ret30": null,
    "ok30": null
   },
@@ -574,8 +675,8 @@
     "AAPL",
     "MSFT"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 2.79,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -588,8 +689,8 @@
     "FXI",
     "MCHI"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": -1.41,
+   "ok7": true,
    "ret30": null,
    "ok30": null
   },
@@ -601,7 +702,7 @@
    "tickers": [
     "7203.T"
    ],
-   "ret7": 0.39,
+   "ret7": -0.67,
    "ok7": true,
    "ret30": null,
    "ok30": null
@@ -1122,111 +1223,6 @@
    ],
    "ret7": -2.59,
    "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Čína a Asie",
-   "sector": "Pražská burza: ČEZ, Komerční banka, Erste Group",
-   "action": "HOLD",
-   "date": "2026-09-20",
-   "tickers": [
-    "CEZ.PR",
-    "KOMB.PR",
-    "EBS.VI"
-   ],
-   "ret7": -0.55,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Rudé moře",
-   "sector": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)",
-   "action": "BUY",
-   "date": "2026-09-19",
-   "tickers": [
-    "MAERSK-B.CO",
-    "HLAG.DE",
-    "ZIM"
-   ],
-   "ret7": -3.93,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Rudé moře",
-   "sector": "Obranný průmysl (např. RTX, Lockheed Martin, BAE Systems)",
-   "action": "BUY",
-   "date": "2026-09-19",
-   "tickers": [
-    "LMT",
-    "RTX",
-    "BA.L"
-   ],
-   "ret7": -3.6,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Rudé moře",
-   "sector": "Ropa a Plyn (např. Shell, BP, Chevron)",
-   "action": "BUY",
-   "date": "2026-09-19",
-   "tickers": [
-    "SHEL",
-    "BP",
-    "CVX"
-   ],
-   "ret7": 2.57,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Rudé moře",
-   "sector": "Evropský Spotřební sektor & Autoprůmysl (např. Volvo, BMW)",
-   "action": "SELL",
-   "date": "2026-09-19",
-   "tickers": [
-    "VOLV-B.ST",
-    "BMW.DE"
-   ],
-   "ret7": -4.91,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Rudé moře",
-   "sector": "Pražská burza: ČEZ, Komerční banka, Erste Group",
-   "action": "HOLD",
-   "date": "2026-09-19",
-   "tickers": [
-    "CEZ.PR",
-    "KOMB.PR",
-    "EBS.VI"
-   ],
-   "ret7": -0.55,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Rudé moře",
-   "sector": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
-   "action": "HOLD",
-   "date": "2026-09-19",
-   "tickers": [
-    "RHM.DE",
-    "TTE.PA",
-    "AIR.PA",
-    "ALV.DE"
-   ],
-   "ret7": -1.95,
-   "ok7": true,
    "ret30": null,
    "ok30": null
   }
