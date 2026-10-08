@@ -189,12 +189,9 @@ function toggleTheme(){
 
   function urls(){
     var d=new Date(),y=new Date(d.getTime()-864e5);
-    var withDates=BASE+"&start="+ds(y)+"&end="+ds(d);
     return [
-      BASE,
-      withDates,
-      "https://api.allorigins.win/raw?url="+encodeURIComponent(withDates),
-      "https://corsproxy.io/?"+encodeURIComponent(withDates)
+      "https://raw.githubusercontent.com/matesva/Redsea-monitor/data/energy.json?t="+Date.now(),
+      BASE+"&start="+ds(y)+"&end="+ds(d)
     ];
   }
 
