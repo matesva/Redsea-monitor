@@ -1,1 +1,30 @@
-
+name: Energy flows
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Stáhnout toky
+        run: |
+          D=$(date -u +%F)
+          Y=$(date -u -d yesterday +%F)
+          B="https://api.energy-charts.info/cbpf?country=cz"
+          H='Accept: application/json'
+          UA='Mozilla/5.0 (compatible; Redsea-monitor)'
+          curl -fsSL -A "$UA" -H "$H" "$B&start=$Y&end=$D" -o /tmp/e.json \
+            || curl -fsSL -A "$UA" -H "$H" "$B&start=$D" -o /tmp/e.json \
+            || curl -fsSL -A "$UA" -H "$H" "$B" -o /tmp/e.json
+          python3 -c "import json;d=json.load(open('/tmp/e.json'));assert d['countries']"
+          cp /tmp/e.json czechia/energy.json
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add czechia/energy.json
+          git diff --cached --quiet || (git commit -m "Update energy flows" && git pull --rebase && git push)
