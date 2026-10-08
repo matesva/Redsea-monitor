@@ -43,6 +43,32 @@ function morBanner(){
 }
 morBanner();
 
+// ---- Zaměření na Prahu 7 ----
+const P7_RE=/\bPra(?:ha|hy|ze|hu|hou)[\s-]*7\b|holešovic|\bletn[áéěouý]\w*|bubene[čc]|\btroj[aiuíe]\b|výstaviště|stromovk|hrdlořez|čižinsk/iu;
+const p7=a=>P7_RE.test([a.title,a.shrnuti,(a.politici||[]).map(p=>p.jmeno).join(" ")].join(" "));
+function renderP7(){
+  const el=$("p7-list");if(!el)return;
+  const rows=articles.filter(p7).slice(0,8);
+  el.className=rows.length?"":"muted";
+  el.innerHTML=rows.map(a=>`<div class="card">
+    <a href="${esc(a.link)}" target="_blank" rel="noopener">${esc(a.title)}</a>
+    <div class="meta">${esc(a.source)} · ${esc(a.published||a.added)}</div></div>`).join("")||"Zatím žádné zprávy zmiňující Prahu 7.";
+}
+function initP7(){
+  if(![...$("region").options].some(o=>o.text==="Praha 7"))$("region").add(new Option("Praha 7","Praha 7"),1);
+  const first=document.querySelector("#v-zpravy .bulletin");
+  if(first&&!$("p7-box")){
+    const d=document.createElement("div");
+    d.className="bulletin";d.id="p7-box";
+    d.innerHTML=`<h2>Praha 7 · aktuálně</h2><div id="p7-list" class="muted">Načítám…</div>
+      <div class="btns"><button id="p7-all">Všechny zprávy o Praze 7</button></div>
+      <div class="legend">Zprávy vybrané podle zmínek o Praze 7 a jejích čtvrtích. Určeno automaticky, může být nepřesné.</div>`;
+    first.parentNode.insertBefore(d,first);
+    $("p7-all").onclick=()=>{$("region").value="Praha 7";renderNews();$("list").scrollIntoView({behavior:"smooth"})};
+  }
+  renderP7();
+}
+
 // načtení JSON bez cache; při chybě (např. 404) vrátí výchozí hodnotu
 const J=(u,d)=>fetch(u,{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).catch(()=>d);
 
@@ -67,7 +93,7 @@ Promise.all([
   [...new Set(articles.flatMap(x=>x.strany||[]))].sort().forEach(s=>$("strana").add(new Option(s,s)));
   Object.keys(parties).sort().forEach(s=>$("sstrana").add(new Option(s,s)));
   [...new Set(allPromises.map(x=>x.tema).filter(Boolean))].sort().forEach(t=>$("stema").add(new Option(t,t)));
-  renderSum();renderNews();renderPols();renderParties();renderPromises();fillAgencies();
+  initP7();renderSum();renderNews();renderPols();renderParties();renderPromises();fillAgencies();
 });
 
 function tab(n){
@@ -94,7 +120,7 @@ $("sum-days").addEventListener("input",renderSum);
 
 function renderNews(){
   const q=$("q").value.toLowerCase(),r=$("region").value,s=$("strana").value;
-  const out=articles.filter(a=>(!r||a.region===r)&&(!s||(a.strany||[]).includes(s))&&(!q||(a.title+" "+(a.shrnuti||"")+" "+(a.politici||[]).map(p=>p.jmeno).join(" ")).toLowerCase().includes(q)));
+  const out=articles.filter(a=>(!r||(r==="Praha 7"?p7(a):a.region===r))&&(!s||(a.strany||[]).includes(s))&&(!q||(a.title+" "+(a.shrnuti||"")+" "+(a.politici||[]).map(p=>p.jmeno).join(" ")).toLowerCase().includes(q)));
   $("list").innerHTML=out.slice(0,100).map(a=>`<div class="card">
     <a href="${esc(a.link)}" target="_blank" rel="noopener">${esc(a.title)}</a>
     <div>${esc(a.shrnuti)}</div>
