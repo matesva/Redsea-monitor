@@ -166,6 +166,7 @@ function toggleTheme(){
     austria:"Rakousko","österreich":"Rakousko",
     slovakia:"Slovensko",slowakei:"Slovensko"
   };
+  var ORDER=["Německo","Polsko","Rakousko","Slovensko"];
   var tab=document.getElementById("t-energie"),view=document.getElementById("v-energie");
   var tabs=document.querySelectorAll(".tabs button");
   var el=document.getElementById("fbody"),tm=document.getElementById("ftime");
@@ -187,27 +188,34 @@ function toggleTheme(){
   function urls(){
     var d=new Date(),y=new Date(d.getTime()-864e5);
     return [
-      "energy.json?t="+Date.now(),
       BASE+"&start="+ds(y)+"&end="+ds(d),
       BASE
     ];
   }
 
   function render(d){
-    var ts=d.unix_seconds||[],rows=[],last=-1,seen=[];
+    var ts=d.unix_seconds||[],cs=[],seen=[];
     (d.countries||[]).forEach(function(c){
       seen.push(c.name);
       var n=MAP[String(c.name).toLowerCase()];
-      if(!n)return;
-      var v=null,idx=-1;
-      for(var i=c.data.length-1;i>=0;i--){
-        if(c.data[i]!==null&&c.data[i]!==undefined){v=c.data[i];idx=i;break}
-      }
-      if(v===null)return;
-      if(idx>last)last=idx;
-      rows.push({n:n,mw:(POS_IS_IMPORT?v:-v)*1000}); /* API vrací GW */
+      if(n)cs.push({n:n,data:c.data||[]});
     });
-    if(!rows.length)throw new Error("Žádné známé země. Vráceno: "+seen.join(", "));
+    if(!cs.length)throw new Error("Žádné známé země. Vráceno: "+seen.join(", "));
+
+    /* najdi nejnovější čas, kde má aspoň (počet zemí − 1) zemí reálnou nenulovou hodnotu */
+    var need=Math.max(1,cs.length-1),idx=-1,len=ts.length;
+    for(var i=len-1;i>=0;i--){
+      var ok=0;
+      cs.forEach(function(c){var v=c.data[i];if(v!==null&&v!==undefined&&v!==0)ok++});
+      if(ok>=need){idx=i;break}
+    }
+    if(idx<0)throw new Error("Zatím žádná použitelná data");
+
+    var rows=cs.map(function(c){
+      var v=c.data[idx];if(v===null||v===undefined)v=0;
+      return {n:c.n,mw:(POS_IS_IMPORT?v:-v)*1000}; /* API vrací GW */
+    }).sort(function(a,b){return ORDER.indexOf(a.n)-ORDER.indexOf(b.n)});
+
     var max=Math.max.apply(null,rows.map(function(r){return Math.abs(r.mw)}).concat([500]));
     var net=0;
     el.innerHTML=rows.map(function(r){
@@ -218,8 +226,8 @@ function toggleTheme(){
         '<div class="fval">'+(imp?"▶ ":"◀ ")+fmt(r.mw)+' MW</div></div>';
     }).join("")+
     '<div class="fnet">Saldo: <b>'+(net>=0?"import ":"export ")+fmt(net)+' MW</b></div>';
-    var t=ts[last]?new Date(ts[last]*1000):null;
-    tm.textContent=t?"Poslední dostupná hodnota: "+t.toLocaleString("cs-CZ"):"";
+    var t=ts[idx]?new Date(ts[idx]*1000):null;
+    tm.textContent=t?"Poslední kompletní hodnota: "+t.toLocaleString("cs-CZ"):"";
   }
 
   function fail(errs){
