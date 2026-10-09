@@ -1,87 +1,290 @@
 {
-  "last_updated": "2026-10-08T12:34:24Z",
+  "last_updated": "2026-10-09T05:00:08Z",
   "assessment": {
     "threat_level": "HIGH",
-    "sentiment_score": 78,
-    "security_status_cs": "Spojené státy čelí kombinaci prudkého výprodeje v technologickém sektoru vyvolaného obavami z konkurence v oblasti AI (DeepSeek) a rostoucím výnosům státních dluhopisů. Domácí bezpečnostní složky mezitím úspěšně zmařily teroristický útok inspirovaný ISIS v Minnesotě, zatímco blížící se hurikán Isaias ohrožuje pobřeží Mexického zálivu a vyvolává obavy o energetickou infrastrukturu.",
-    "security_status_en": "The United States is facing a combination of a sharp tech sector sell-off sparked by AI competition fears (DeepSeek) and rising Treasury yields. Meanwhile, domestic security agencies successfully thwarted an ISIS-inspired terrorist attack in Minnesota, as approaching Hurricane Isaias threatens the Gulf Coast and raises energy infrastructure concerns.",
+    "sentiment_score": 75,
+    "security_status_cs": "Americké trhy a politickou scénu výrazně rozbouřil propad v sektoru umělé inteligence vyvolaný obavami z konkurenčních modelů a slabších výnosů, doplněný o blížící se hurikán Isaias ohrožující Gulf Coast. Vnitropolitické napětí navíc eskaluje kvůli ostrým debatám před listopadovými midterms volbami, incidentům s ICE v New Yorku a přetrvávajícím geopolitickým rizikům na Blízkém východě.",
+    "security_status_en": "US markets and the political scene were sharply shaken by an AI sector rout driven by concerns over competing models and soft revenue reports, compounded by Hurricane Isaias threatening the Gulf Coast. Domestic political tension is also escalating due to fierce debates ahead of the November midterms, ICE incidents in New York, and lingering geopolitical risks in the Middle East.",
     "recommendations": [
       {
         "sector_cs": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
         "sector_en": "US Broad Equity Market (S&P 500 ETFs, e.g. VOO, SPY)",
-        "action": "SELL",
-        "reason_cs": "Trh čelí silnému tlaku a plošnému výprodeji v důsledku šoku v technologickém sektoru a rostoucích úrokových sazeb.",
-        "reason_en": "The market is facing intense pressure and a broad sell-off driven by the tech sector shock and rising interest rates."
+        "action": "HOLD",
+        "reason_cs": "Trhy vstřebávají masivní výprodej v technologickém sektoru a nervozitu kolem blížících se voleb, což doporučuje vyčkat na stabilizaci.",
+        "reason_en": "Markets are absorbing a massive tech sell-off and election anxiety, advising caution until stabilization occurs."
       },
       {
         "sector_cs": "Státní dluhopisy USA (Treasuries)",
         "sector_en": "US Treasuries",
-        "action": "HOLD",
-        "reason_cs": "Výnosy dluhopisů se pohybují na mnohaletých maximech a Fed signalizuje další možné zvyšování sazeb, což doporučuje opatrnost.",
-        "reason_en": "Bond yields are sitting at multi-decade highs and the Fed signals potential further rate hikes, warranting caution."
+        "action": "BUY",
+        "reason_cs": "Zápis z Fedu signalizuje další možné zvyšování sazeb a geopolitická nejistota zvyšuje poptávku po bezpečných aktivech.",
+        "reason_en": "Fed minutes signal potential further rate hikes, and geopolitical uncertainty increases demand for safe-haven assets."
       },
       {
         "sector_cs": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
         "sector_en": "Defense Industry (RTX, Lockheed Martin, Northrop Grumman)",
         "action": "BUY",
-        "reason_cs": "Eskalace geopolitických napětí na Blízkém východě a globální bezpečnostní rizika udržují vysokou poptávku po obranných systémech.",
-        "reason_en": "Escalating geopolitical tensions in the Middle East and global security risks sustain high demand for defense systems."
+        "reason_cs": "Globální napětí a probíhající konflikty udržují vysokou poptávku po vojenském vybavení a vládních zakázkách.",
+        "reason_en": "Global tensions and ongoing conflicts sustain high demand for military equipment and government contracts."
       },
       {
         "sector_cs": "Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)",
         "sector_en": "Banks & Financials (JPMorgan, Bank of America, Goldman Sachs)",
         "action": "HOLD",
-        "reason_cs": "Finanční instituce čelí protivětrům v podobě rostoucích nákladů na dluh a širší makroekonomické nestability.",
-        "reason_en": "Financial institutions face headwinds from rising debt costs and broader macroeconomic instability."
+        "reason_cs": "Finanční sektor čelí smíšenému prostředí vysokých sazeb, úvěrového rizika a nedávné tržní volatility.",
+        "reason_en": "The financial sector faces a mixed environment of high interest rates, credit risk, and recent market volatility."
       },
       {
         "sector_cs": "Technologický sektor (Apple, Microsoft, Nvidia)",
         "sector_en": "Technology Sector (Apple, Microsoft, Nvidia)",
         "action": "SELL",
-        "reason_cs": "Zprávy o konkurenčních AI modelech a makroekonomický tlak vedly k masivnímu propadu a dvouciferným ztrátám lídrů trhu.",
-        "reason_en": "Reports on competitive AI models and macroeconomic pressure have led to a massive rout and double-digit losses for market leaders."
+        "reason_cs": "Sektor umělé inteligence čelí hluboké korekci po zprávách o konkurenci z Číny a regulačním tlakům na nábor zahraničních pracovníků.",
+        "reason_en": "The AI sector faces a deep correction following news of competition from China and regulatory pressures on foreign hiring."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly zůstávají vůči americkému technologickému šoku relativně izolované, avšak globální averze k riziku omezuje růst.",
-        "reason_en": "Domestic equities remain relatively isolated from the US tech shock, though global risk aversion caps upside potential."
+        "reason_cs": "Domácí tituly jsou primárně pod vlivem evropské makroekonomiky a komoditních cen, s minimálním přímým dopadem z amerických tech výprodejů.",
+        "reason_en": "Domestic stocks are primarily driven by European macroeconomics and commodity prices, with minimal direct impact from the US tech sell-off."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat zvýšenou volatilitu a nervozitu na trzích, přičemž investoři budou nadále přehodnocovat ocenění AI sektoru a sledovat vývoj kolem hurikánu Isaias.",
-    "forecast_en": "Increased volatility and market nervousness are expected in the coming days as investors continue to reassess AI sector valuations and monitor developments around Hurricane Isaias.",
-    "forecast_review_cs": "Předchozí předpověď o pokračující volatilitě a rotaci kapitálu do bezpečnějších aktiv se plně potvrdila dnešním masivním výprodejem v technologickém sektoru.",
-    "forecast_review_en": "The previous forecast regarding continued volatility and capital rotation into safer assets was fully confirmed by today's massive tech sector sell-off."
+    "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na technologických trzích, zvýšenou opatrnost investorů kvůli politické polarizaci před midterms a sledování škod způsobených hurikánem Isaias.",
+    "forecast_en": "Continued volatility in technology markets, heightened investor caution due to political polarization ahead of the midterms, and monitoring of damage caused by Hurricane Isaias are expected in the coming days.",
+    "forecast_review_cs": "Předchozí předpověď o zvýšené volatilitě, přehodnocování AI sektoru a sledování hurikánu Isaias se plně potvrdila.",
+    "forecast_review_en": "The previous forecast regarding increased volatility, reassessment of the AI sector, and monitoring of Hurricane Isaias was fully confirmed."
   },
   "articles": [
     {
-      "title": "Isaias becomes first hurricane of 2026 Atlantic season, threatens Gulf Coast",
-      "summary": "Hurricane Isaias developed late Wednesday as the first Atlantic hurricane of 2026, taking aim at the Gulf Coast from Mississippi to the Florida Panhandle.",
-      "link": "https://www.cbsnews.com/news/hurricane-isaias-first-storm-2026-atlantic-season-record/",
-      "published": "Thu, 08 Oct 2026 08:33:40 -0400",
+      "title": "US midterms: key takeaways from Senate debates in Michigan, Georgia and Maine",
+      "summary": "<p>Candidates traded personal attacks and clashed over a range of issues in closely watched US Senate debates on Thursday, with control of Congress at stake</p><p>With just weeks left in the contentious midterm election campaign, candidates in a trio of highly-competitive Senate races debated Thursday night, clashing over the economy, tariffs, the Iran war and abortion rights, with control of the upper chamber at stake.</p><p>In Georgia, incumbent Democratic senator Jon Ossoff faced GOP representative Mike Collins. In Michigan, Democrat Abdul Al-Sayed and Republican Mike Rogers debated over the state’s open Senate seat. And in Maine, longtime senator Susan Collins met Democratic challenger Troy Jackson. Democrats need to flip four Republican-held Senate seats to win the majority.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/09/us-midterms-michigan-georgia-maine-senate-debate-key-takeaways\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/oct/09/us-midterms-michigan-georgia-maine-senate-debate-key-takeaways",
+      "published": "Fri, 09 Oct 2026 04:48:13 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Mamdani demands Trump release illegal immigrant shot by ICE agent as protests erupt in the Bronx",
+      "summary": "Mayor Zohran Mamdani demanded President Donald Trump release the man shot and injured by an ICE agent on Thursday in an incident that set off protests across New York City.",
+      "link": "https://www.foxnews.com/us/mamdani-demands-trump-release-illegal-immigrant-shot-ice-agent-protests-erupt-bronx",
+      "published": "Fri, 09 Oct 2026 00:40:09 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "ICE agent shoots man in New York City",
+      "summary": "The Department of Homeland Security said ICE was arresting a \"criminal illegal alien\". New York's mayor said early reports suggested a five-year-old child was in the car at the time.",
+      "link": "https://www.bbc.co.uk/news/articles/c59vzk9yypn3o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 09 Oct 2026 04:26:19 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Man shot by ICE agent in New York City's Marble Hill, authorities say",
+      "summary": "A man was hospitalized after being shot by an ICE agent in New York City's Marble Hill neighborhood, according to the DHS and city officials.",
+      "link": "https://www.cbsnews.com/news/ice-agent-shoots-person-in-nycs-marble-hill-law-enforcement-sources-say/",
+      "published": "Fri, 09 Oct 2026 00:23:51 -0400",
       "source": "CBS News"
     },
     {
-      "title": "Trump: Where is Talarico?",
-      "summary": "President Trump on Wednesday accused Texas Senate candidate James Talarico (D) of avoiding a debate with state Attorney General Ken Paxton (R), asking, \"Where is he?\" \"Ladies and Gentlemen, upon information and belief, James TalaFREAKo, who is running for the United States Senate in Texas, is MISSING IN ACTION!\" Trump wrote on Truth Social. \"No...",
-      "link": "https://thehill.com/homenews/campaign/6135832-donald-trump-ken-paxton-james-talarico-texas-senate-race-absence-debate-midterms/",
-      "published": "Thu, 08 Oct 2026 12:23:56 +0000",
+      "title": "ICE officer shoots, wounds man in car on crowded New York street",
+      "summary": "New York Mayor Zohran Mamdani said a 5-year-old child was in the car at the time of the shooting. DHS said that an immigration officer fired his weapon during a “targeted enforcement operation.”",
+      "link": "https://www.washingtonpost.com/immigration/2026/10/08/ice-officer-shoots-wounds-man-new-york-city/",
+      "published": "Fri, 09 Oct 2026 04:05:13 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Bucky Irving runs riot as Buccaneers stun Cowboys for first win of season",
+      "summary": "<ul><li><p>Irving rushes for career-high 165 yards and two TDs</p></li><li><p>Rookie Daniels impresses in second NFL start</p></li><li><p>Prescott throws two picks as Dallas fall to 2-3</p></li></ul><p>Bucky Irving rushed for a career-high 165 yards, including a 72-yard run that set up the go-ahead touchdown, and scored twice as the Tampa Bay Buccaneers beat the Dallas Cowboys 24-16 on Thursday night for their first win of the season.</p><p>Jalon Daniels threw a touchdown pass to Irving in the first half while directing a turnover-free offense in just his second start, taking advantage of several Dallas miscues.</p> <a href=\"https://www.theguardian.com/sport/2026/oct/08/bucky-irving-tampa-bay-buccaneers-dallas-cowboys-nfl\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/sport/2026/oct/08/bucky-irving-tampa-bay-buccaneers-dallas-cowboys-nfl",
+      "published": "Fri, 09 Oct 2026 03:44:15 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Fort Hood attacker's execution by firing squad will be livestreamed, Pentagon says",
+      "summary": "The US Defence Secretary says the execution will be public, but a legal expert says the \"unprecedented\" decision is on \"uncertain legal terrain\".",
+      "link": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 09 Oct 2026 03:36:12 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Takeaways from Michigan Senate debate between Abdul El-Sayed, Mike Rogers",
+      "summary": "Even mothers were not exempt in a fierce debate in the race for a critical U.S. Senate seat.",
+      "link": "https://www.washingtonpost.com/politics/2026/10/08/takeaways-michigan-senate-debate-between-abdul-el-sayed-mike-rogers/",
+      "published": "Fri, 09 Oct 2026 03:11:12 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Nobel Peace Prize 2026: Candidates With Higher Odds Than Donald Trump",
+      "summary": "Here's who has a higher chance of winning the 2026 Nobel Peace Price than President Donald Trump, according to prediction markets.",
+      "link": "https://www.newsweek.com/nobel-peace-prize-2026-winner-trump-award-12541915",
+      "published": "Thu, 08 Oct 2026 23:03:10 -0400",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Hurricane Isaias threatens Gulf Coast with rain, flooding. See its path.",
+      "summary": "Hurricane Isaias, the first Atlantic hurricane of 2026, has strengthened into a Category 2 storm as it takes aim at the Gulf Coast from Mississippi to the Florida Panhandle.",
+      "link": "https://www.cbsnews.com/news/hurricane-isaias-first-storm-2026-atlantic-season-record/",
+      "published": "Thu, 08 Oct 2026 22:56:45 -0400",
+      "source": "CBS News"
+    },
+    {
+      "title": "Takeaways from Georgia Senate debate between Jon Ossoff, Mike Collins",
+      "summary": "The Democratic senator hit GOP Rep. Collins over accusations of ties to white nationalists. “You’ve hired half the Third Reich,” Ossoff said.",
+      "link": "https://www.washingtonpost.com/politics/2026/10/08/takeaways-georgia-senate-debate-between-jon-ossoff-mike-collins/",
+      "published": "Fri, 09 Oct 2026 02:49:29 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Arlington County sues to block Trump arch after project gets key approval",
+      "summary": "Arlington County has filed a lawsuit to block President Trump’s proposed triumphal arch following the project's approval by the U.S. Commission of Fine Arts in April.  The lawsuit opposed the construction of the proposed 250-foot arch, citing concerns about the project’s impact on tourism and safety to local residents. “Using the Arch to store large...",
+      "link": "https://thehill.com/regulation/court-battles/6138098-arlington-county-trump-arch-lawsuit/",
+      "published": "Fri, 09 Oct 2026 02:46:56 +0000",
       "source": "The Hill"
     },
     {
-      "title": "‘People in the U.S. need to wake up’: As a mortgage loan officer, I rejected applications from wealthy couples. Here’s why.",
-      "summary": "“People in the U.S. need to wake up.”",
-      "link": "https://www.marketwatch.com/story/people-in-the-u-s-need-to-wake-up-as-a-mortgage-loan-officer-i-rejected-wealthy-couples-due-to-overspending-were-all-heading-for-trouble-6a52e04e?mod=mw_rss_topstories",
-      "published": "Thu, 08 Oct 2026 12:15:00 GMT",
+      "title": "Trump Approval Hits New Low Compared With Biden Before Midterms",
+      "summary": "Trump's approval has fallen to a second-term low as Democratic voters report greater motivation ahead of the November midterms.",
+      "link": "https://www.newsweek.com/trump-approval-hits-new-low-compared-with-biden-before-midterms-12544183",
+      "published": "Thu, 08 Oct 2026 22:42:24 -0400",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Second Maine Senate debate takes testy turn: 3 takeaways",
+      "summary": "Republican Sen. Susan Collins and Democrat Troy Jackson squared off Thursday in the second Maine Senate debate of the week, sparring over the Iran war and high prices as their battleground race barrels toward Election Day.  The hourlong debate, hosted by WMTW, turned testy at times as the rivals defended their records and re-upped many...",
+      "link": "https://thehill.com/homenews/campaign/6138012-second-maine-senate-debate-collins-jackson-takeaways/",
+      "published": "Fri, 09 Oct 2026 02:17:40 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Bob Cordaro on Prison Life, the Midterms and More",
+      "summary": "",
+      "link": "https://www.realclearpolitics.com/2026/10/06/bob_cordaro_on_prison_life_the_midterms_and_more_713362.html",
+      "published": "Thu, 08 Oct 2026 21:11:05 -0500",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "How Democrats Could Rein In Energy Costs",
+      "summary": "",
+      "link": "https://www.realclearpolitics.com/2026/10/08/how_democrats_could_rein_in_energy_costs_713293.html",
+      "published": "Thu, 08 Oct 2026 21:10:59 -0500",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "The Belated Execution of Major Hasan",
+      "summary": "Secretary of War Pete Hegseth recommended that Hasan be executed by firing squad. President Trump approved it.",
+      "link": "https://www.realclearpolitics.com/2026/10/08/the_belated_execution_of_major_hasan_713583.html",
+      "published": "Thu, 08 Oct 2026 21:10:08 -0500",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Michigan Senate debate goes off the rails: 4 takeaways",
+      "summary": "Republican Mike Rogers and Democrat Abdul El-Sayed's first Senate debate in Michigan turned so contentious it even extended off camera. \"In 30 years of doing debates, I've never seen it continue during the commercial,\" WOOD TV moderator Rick Albin said. \"But it did\" Rogers and El-Sayed participated in a debate hosted by Nexstar's Grand Rapids...",
+      "link": "https://thehill.com/homenews/campaign/6137958-michigan-senate-debate-el-sayed-rogers-takeaways/",
+      "published": "Fri, 09 Oct 2026 02:01:03 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Hegseth falsely claims Obama called 2009 Fort Hood attack ‘workplace violence’ – US politics live",
+      "summary": "<p>Pentagon chief joins Trump in attempt to use deadly shooting at Texas base to attack former Democratic president</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/2026/oct/08/uss-abraham-lincoln-return-san-diego\">Thousands turn out to welcome weary USS Lincoln sailors</a></p></li><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for the US Breaking News email</a></p></li></ul><p>Donald Trump has urged <strong>James Talarico</strong>, the Democratic nominee in the US Senate race in Texas, to debate <strong>Ken Paxton</strong> – Republican attorney general that the president has endorsed in the election.</p><p><strong>On Truth Social, Trump described Paxton as “ready, willing, and able”</strong> to take on Talarico – the 37-year-old state representative who has been leading in several polls.</p><p>In Georgia,<strong> Jon Ossoff</strong>, the Democratic incumbent will face off against <strong>Mike Collins</strong> – a congressman and the Trump-backed Republican nominee at 7pm ET.</p><p>At the same time in Michigan, progressive insurgent <strong>Abdul El-Sayed</strong>, will debate <strong>Mike Rogers</strong>, the Republican nominee also endorsed by the president.</p><p>Finally, it’s the second debate in Maine in as many days. <strong>Susan Collins</strong>, the five-term Republican incumbent will spar (again) with the Democratic nominee, <strong>Troy Jackson</strong>, at 8pm ET.</p> <a href=\"https://www.theguardian.com/us-news/live/2026/oct/08/uss-lincoln-san-diego-donald-trump-republicans-democrats-us-politics-latest-news\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/live/2026/oct/08/uss-lincoln-san-diego-donald-trump-republicans-democrats-us-politics-latest-news",
+      "published": "Fri, 09 Oct 2026 02:00:54 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Vance, Rubio brush off questions about claim that Guilfoyle asked donor to pay $100K Amex bill",
+      "summary": "Allegations by former congressional candidate Eric Deters are the latest controversy to swirl around the U.S. ambassador to Greece.",
+      "link": "https://www.washingtonpost.com/politics/2026/10/08/vance-rubio-brush-off-questions-about-claim-that-guilfoyle-asked-donor-pay-100k-amex-bill/",
+      "published": "Fri, 09 Oct 2026 01:43:57 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Guilfoyle associate says when she asked him for $100K, it was \"quid pro quo\"",
+      "summary": "White House officials were told that text messages between Kimberly Guilfoyle and Eric Deters were real, sources told CBS News.",
+      "link": "https://www.cbsnews.com/news/kimberly-guilfoyle-greece-ambassador-eric-deters-texts-100000/",
+      "published": "Thu, 08 Oct 2026 21:42:49 -0400",
+      "source": "CBS News"
+    },
+    {
+      "title": "Federal grand jury hears evidence in probe of former Trump aide Cassidy Hutchinson's Jan 6 testimony: source",
+      "summary": "A federal grand jury heard evidence about possible false statements Cassidy Hutchinson made to the Jan. 6 House select committee on the Capitol riot.",
+      "link": "https://www.foxnews.com/politics/federal-grand-jury-hears-evidence-probe-former-trump-aide-cassidy-hutchinson-jan-6-testimony",
+      "published": "Thu, 08 Oct 2026 21:33:15 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Mamdani defends Oct. 7 message that angered Jewish leaders, unnerved some Democrats",
+      "summary": "The New York mayor defended his social media post as he navigates mounting criticism for his views on Israel.",
+      "link": "https://www.washingtonpost.com/nation/2026/10/08/outcry-over-mamdanis-oct-7-actions-show-landmines-left/",
+      "published": "Fri, 09 Oct 2026 01:30:26 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Michigan Senate debate erupts into personal attacks as Rogers, El-Sayed clash over Israel, Iran and more",
+      "summary": "Republican Mike Rogers and Democrat Abdul El-Sayed clashed in their first head-to-head public debate during a fiery showdown Thursday night filled with personal attacks and accusations.",
+      "link": "https://www.foxnews.com/politics/michigan-senate-debate-erupts-personal-attacks-rogers-el-sayed-clash-over-israel-iran-more",
+      "published": "Thu, 08 Oct 2026 21:27:41 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "SpaceX’s Starlink Mobile plans are pressuring AT&T and Verizon shares",
+      "summary": "SpaceX plans to purchase Grain Management’s 800 MHz spectrum portfolio in a move to bolster its mobile ambitions. The news is lifting cell-tower stocks.",
+      "link": "https://www.marketwatch.com/story/spacexs-starlink-mobile-plans-are-pressuring-at-t-and-verizon-shares-7cb56764?mod=mw_rss_topstories",
+      "published": "Fri, 09 Oct 2026 00:52:00 GMT",
       "source": "MarketWatch"
     },
     {
-      "title": "USS Lincoln carrier to return to port in San Diego after record-breaking deployment – US politics live",
-      "summary": "<p>Vessel spent over 260 consecutive days at sea without a port call, a US navy record</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for the US Breaking News email</a></p></li></ul><p><strong>Marco Rubio, the US Secretary of State, has been forced to yet again address allegations of misconduct by Kimberly Guilfoyle, America’s ambassador to Greece.</strong></p><p>At the end of an action-packed trip, topped by what US diplomats called an historic policy speech before the Acropolis, Marco Rubio was brought face-to-face, once again, with the grubby allegations of improper behaviour by his top diplomat in Athens.</p><p>You guys walk around thinking that because some source told you something and you reported it, it’s the gospel. It’s not the gospel. It’s not the gospel for me. That’s not the way we do things.</p><p>This is not the forum to address this, as simple as that. Suffice it to say, our embassy here is doing a great job. Our ambassador here has been a strong ambassador here.</p> <a href=\"https://www.theguardian.com/us-news/live/2026/oct/08/uss-lincoln-san-diego-donald-trump-republicans-democrats-us-politics-latest-news\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/live/2026/oct/08/uss-lincoln-san-diego-donald-trump-republicans-democrats-us-politics-latest-news",
-      "published": "Thu, 08 Oct 2026 12:08:26 GMT",
-      "source": "The Guardian"
+      "title": "Feel like a pumpkin-spice burrito? Analysts try to wrap their heads around a possible Starbucks-Chipotle tie-up.",
+      "summary": "Starbucks investors would likely not be happy about the company adding debt to finance a deal to buy Chipotle, given that it already has a high debt load.",
+      "link": "https://www.marketwatch.com/story/feel-like-a-pumpkin-spice-burrito-analysts-try-to-wrap-their-heads-around-a-possible-starbucks-chipotle-tie-up-5b8519fd?mod=mw_rss_topstories",
+      "published": "Thu, 08 Oct 2026 23:14:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Micron, Nvidia and AI chip stocks fall as report on OpenAI’s revenue causes ‘undue concern’",
+      "summary": "OpenAI’s annualized revenue reportedly fell short of expectations — but analysts say that reflects differences in how the figure is reported, not weakness in AI demand.",
+      "link": "https://www.marketwatch.com/story/micron-nvidia-and-ai-chip-stocks-fall-as-report-on-openais-revenue-causes-undue-concern-2a2bcf53?mod=mw_rss_topstories",
+      "published": "Thu, 08 Oct 2026 22:08:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "White House blocks Microsoft from foreign worker hiring program",
+      "summary": "An international visa program has for years allowed US tech companies to hire highly skilled workers from abroad.",
+      "link": "https://www.bbc.co.uk/news/articles/ck5yngl2y4gpo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 08 Oct 2026 21:37:35 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Trump bought up to $25 million in Meta and millions in SpaceX debt in August",
+      "summary": "Trump disclosed 517 August trades, including up to $5 million in debt from SpaceX, a major Pentagon contractor and NASA launch provider.",
+      "link": "https://www.cnbc.com/2026/10/08/trump-august-trades-meta-spacex-financial-disclosure.html",
+      "published": "Thu, 08 Oct 2026 18:16:53 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Hurricane Isaias tracker: Map and projected storm path",
+      "summary": "Isaias is the ninth named storm of the Atlantic hurricane season.",
+      "link": "https://www.washingtonpost.com/weather/2026/10/07/tropical-storm-isaias-tracker-map-projected-storm-path/",
+      "published": "Thu, 08 Oct 2026 17:55:45 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Little relief expected for gas prices ahead of Election Day, according to prediction markets",
+      "summary": "Gas prices are expected to remain above $4 per gallon on Nov. 3, according to traders on prediction market platform Kalshi.",
+      "link": "https://www.cnbc.com/2026/10/08/little-relief-expected-for-gas-prices-ahead-of-election-day.html",
+      "published": "Thu, 08 Oct 2026 17:51:51 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Trump says U.S. will not attack Iran before midterm election",
+      "summary": "Trump said talks with Tehran were “productive” as the Iran war pushes oil and gas prices higher and support for the conflict falls.",
+      "link": "https://www.cnbc.com/2026/10/08/iran-war-trump-midterm-election.html",
+      "published": "Thu, 08 Oct 2026 17:41:20 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "White House correspondent April Ryan reflects on reporting while under attack",
+      "summary": "Ryan has spent decades pressing presidents for answers. She talks about access, power, race and how asking questions put her in President Trump's crosshairs. Her new book is <em>Notes on a Blacklash</em>.",
+      "link": "https://www.npr.org/2026/10/08/nx-s1-5994416/white-house-correspondent-april-ryan-reflects-on-reporting-while-under-attack",
+      "published": "Thu, 08 Oct 2026 11:24:23 -0400",
+      "source": "NPR"
     },
     {
       "title": "South Korea test-flies its first domestically developed hypersonic weapon",
@@ -91,165 +294,11 @@
       "source": "NPR"
     },
     {
-      "title": "On the Ballot: The state of the states: Which states are most likely to see trifectas in November",
-      "summary": "While much of the national focus this cycle has been centered on the competitive Senate and House races that will determine which parties control Congress, there’s plenty of reasons why folks should also be turning their attention to state Capitols and gubernatorial elections next month. State legislative races used to be sleepier affairs, but they’ve...",
-      "link": "https://thehill.com/newsletters/on-the-ballot/6134155-midterm-trifecta-projections-gop-democrats/",
-      "published": "Thu, 08 Oct 2026 12:00:00 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Trump expanded mandatory immigration detention. Will the Supreme Court uphold it?",
-      "summary": "How can an immigrant in the country illegally be treated as an applicant for admission if he has already lived here for 20 years?",
-      "link": "https://thehill.com/opinion/immigration/6134573-scotus-reviews-mandatory-detention/",
-      "published": "Thu, 08 Oct 2026 12:00:00 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Nicolás Maduro’s wife to appear in court to push for release from New York jail",
-      "summary": "<p>Lawyers for Cilia Flores, wife of the ousted Venezuelan president, to urge judge to put her under house arrest</p><p>The wife of ousted Venezuelan president Nicolás Maduro was set to be back in court Thursday, where her lawyers will urge a judge to free her from jail and put her under house arrest because she has heart problems.</p><p>Maduro and his wife, Cilia Flores, have been behind bars in New York since early January when forces seized them from their Caracas home in a middle-of-the-night raid.</p> <a href=\"https://www.theguardian.com/world/2026/oct/08/cilia-flores-nicolas-maduro-new-york-court\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/oct/08/cilia-flores-nicolas-maduro-new-york-court",
-      "published": "Thu, 08 Oct 2026 11:46:58 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Higher yields are taking their toll on all areas of the stock market, except the one that matters",
-      "summary": "Technology is the only one of the S&P 500’s 11 sectors that gained since Sept. 1, as Treasury yields have climbed to multi-decade highs.",
-      "link": "https://www.marketwatch.com/story/higher-yields-are-taking-their-toll-on-all-areas-of-the-stock-market-except-the-one-that-matters-69a90322?mod=mw_rss_topstories",
-      "published": "Thu, 08 Oct 2026 11:43:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Trump says he doesn't want Iran deal as U.S. reportedly prepares for 'massive bombing'",
-      "summary": "The U.S. president and his national security team have discussed possibly resuming large-scale U.S. military operations in the coming weeks, NBC News reported.",
-      "link": "https://www.cnbc.com/2026/10/08/us-iran-war-trump-hormuz.html",
-      "published": "Thu, 08 Oct 2026 11:42:48 GMT",
-      "source": "CNBC"
-    },
-    {
       "title": "Isaias intensifies to hurricane. And, judge orders Pike execution evidence preserved",
       "summary": "People in the Gulf are preparing for bad weather this weekend after Isaias intensified into a hurricane. And, a judge has ordered Christa Pike's failed execution evidence be preserved.",
       "link": "https://www.npr.org/2026/10/08/g-s1-147105/up-first-newsletter-hurricane-isaias-house-elections-christa-pike-nidal-hasan-cnn-ms-now-politico",
       "published": "Thu, 08 Oct 2026 07:35:22 -0400",
       "source": "NPR"
-    },
-    {
-      "title": "Will the Supreme Court Stop Climate Lawsuits?",
-      "summary": "",
-      "link": "https://www.realclearpolitics.com/2026/10/08/will_the_supreme_court_stop_climate_lawsuits_713491.html",
-      "published": "Thu, 08 Oct 2026 06:28:32 -0500",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Political Class in France Needs To Heed the Voice of Students",
-      "summary": "",
-      "link": "https://www.realclearpolitics.com/2026/10/08/political_class_in_france_needs_to_heed_the_voice_of_students_713570.html",
-      "published": "Thu, 08 Oct 2026 06:28:14 -0500",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Strike on Ukrainian public bus leaves 30 dead as blackouts worsen in Kyiv",
-      "summary": "Russian strikes in eastern Ukraine have killed 30 people and injured at least 18, according to authorities. The attacks included a strike on a public bus and have worsened power outages in Kyiv.",
-      "link": "https://www.npr.org/2026/10/08/g-s1-147106/russia-ukraine-war",
-      "published": "Thu, 08 Oct 2026 07:25:28 -0400",
-      "source": "NPR"
-    },
-    {
-      "title": "France Should Try Secure Borders and Fiscal Discipline",
-      "summary": "",
-      "link": "https://www.realclearpolitics.com/2026/10/08/france_should_try_secure_borders_and_fiscal_discipline_713557.html",
-      "published": "Thu, 08 Oct 2026 06:25:27 -0500",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Biden-era FBI records reveal sprawling Wiles monitoring and more top headlines",
-      "summary": "Get all the stories you need-to-know from the most powerful name in news delivered first thing every morning to your inbox.",
-      "link": "https://www.foxnews.com/us/biden-era-fbi-records-reveal-sprawling-wiles-monitoring-more-top-headlines",
-      "published": "Thu, 08 Oct 2026 07:12:05 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "Oil prices jump 5% on Middle East tensions and US hurricane threat",
-      "summary": "<p>Global bond market sell-off continues and stocks fall amid reports White House has asked to see options for more strikes against Iran</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates\">Business live – latest updates</a></p></li></ul><p>Oil prices have risen sharply amid fears about escalating tensions in the Middle East and a squeeze on production from the threat of a hurricane off the US coast.</p><p>Brent crude, the international benchmark, rose by 5% to $105.3 a barrel on Thursday, triggering a wave of selling in the global bond and stock markets.</p> <a href=\"https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/business/2026/oct/08/oil-prices-rise-middle-east-tensions-us-hurricane-threat",
-      "published": "Thu, 08 Oct 2026 11:11:47 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "House Republican warns CBDC 'communist money' could lead US to 'dystopian' future",
-      "summary": "Republican Rep. Warren Davidson of Ohio plans to introduce legislation that seeks to prevent the creation of a central bank digital currency.",
-      "link": "https://www.foxnews.com/politics/house-republican-warns-communist-money-lead-us-dystopian-future",
-      "published": "Thu, 08 Oct 2026 07:11:37 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "Obama endorses Troy Jackson in Maine Senate race",
-      "summary": "The former president told voters he is “proud to be on board” the Democrats’ campaign to oust Republican Sen. Susan Collins.",
-      "link": "https://www.washingtonpost.com/politics/2026/10/08/obama-endorses-troy-jackson-maine-senate-race/",
-      "published": "Thu, 08 Oct 2026 11:00:00 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Rising yields are quietly crashing the stock market’s earlier winners of 2026",
-      "summary": "Surging Treasury yields have begun to hammer parts of the stock market that might easily be overlooked, especially with the spotlight once again shining brightly on a small group of glamorous tech companies.",
-      "link": "https://www.marketwatch.com/story/rising-yields-are-quietly-crashing-the-stock-markets-earlier-winners-of-2026-a29f2863?mod=mw_rss_topstories",
-      "published": "Thu, 08 Oct 2026 11:00:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Colorado police sergeant reveals how human traffickers target vulnerable children: ‘Happening in our backyard’",
-      "summary": "The Aurora Police Department Human Trafficking Unit recovered 29 survivors, including 15 minors, in its first year by targeting exploitation of vulnerable youth.",
-      "link": "https://www.foxnews.com/us/colorado-police-sergeant-reveals-human-traffickers-target-vulnerable-children-happening-backyard",
-      "published": "Thu, 08 Oct 2026 06:30:54 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "Donald Trump Praises Attendance at Texas Rally: What Videos Show",
-      "summary": "Trump said \"there's never been anything like it,\" but what does footage show about San Antonio rally attendance?",
-      "link": "https://www.newsweek.com/donald-trump-praises-attendance-texas-rally-what-videos-show-12539456",
-      "published": "Thu, 08 Oct 2026 06:08:00 -0400",
-      "source": "Newsweek"
-    },
-    {
-      "title": "CNN, MS NOW, Politico due back in court to fight White House ban",
-      "summary": "Lawyers for CNN, MS NOW and Politico will be back in court as the legal battle continues over President Trump's decision to ban their reporters from the White House.",
-      "link": "https://www.cbsnews.com/news/cnn-ms-now-politico-trump-white-house-ban-hearing/",
-      "published": "Thu, 08 Oct 2026 06:00:10 -0400",
-      "source": "CBS News"
-    },
-    {
-      "title": "Republican megadonors dominate 2026 midterm election as crypto and AI money surges, CNBC analysis finds",
-      "summary": "Fourteen of the 20 biggest donor groups CNBC analyzed are Republican-aligned as crypto, AI and betting money reshapes 2026 midterm spending.",
-      "link": "https://www.cnbc.com/2026/10/08/2026-midterm-election-megadonors.html",
-      "published": "Thu, 08 Oct 2026 10:00:02 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Bodycam Footage of 6-Year-Old Shows Aftermath of Teacher Shooting",
-      "summary": "The first-grader can be seen shouting \"y'all want a f****** piece of me\" at officers during the incident in January 2023.",
-      "link": "https://www.newsweek.com/bodycam-footage-6-year-old-who-shot-teacher-goes-viral-abby-zwerner-richneck-school-12539641",
-      "published": "Thu, 08 Oct 2026 05:21:37 -0400",
-      "source": "Newsweek"
-    },
-    {
-      "title": "The October Surprise isn’t what it used to be",
-      "summary": "The idea of one news story remaking an entire election in the final weeks of the campaign might be from a bygone era.",
-      "link": "https://www.washingtonpost.com/politics/2026/10/08/october-surprise-isnt-what-it-used-be/",
-      "published": "Thu, 08 Oct 2026 09:20:10 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Number of teens who identify themselves as gay or bisexual is in ‘free fall’",
-      "summary": "Conservatives have trumpeted the data from the Centers for Disease Control and Prevention, but researchers say the reasons for the decline are unclear.",
-      "link": "https://www.washingtonpost.com/nation/2026/10/08/number-teens-who-identify-themselves-gay-or-bisexual-free-fall/",
-      "published": "Thu, 08 Oct 2026 09:00:00 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Alaska found a way to elect more moderates. Now voters might end it.",
-      "summary": "Alaskans will decide in November whether to ditch a system that allows four primary candidates, regardless of party, to advance to the general election.",
-      "link": "https://www.washingtonpost.com/politics/2026/10/08/alaska-found-way-elect-more-moderate-candidates-now-it-might-end-it/",
-      "published": "Thu, 08 Oct 2026 09:00:00 +0000",
-      "source": "Washington Post"
     },
     {
       "title": "Huawei doubles down on smartphones as EV sales slow",
@@ -259,59 +308,10 @@
       "source": "CNBC"
     },
     {
-      "title": "Man eyed Mall of America for attack, pledged allegiance to ISIS, FBI says",
-      "summary": "An 18-year-old Twin Cities man accused of telling an FBI informant he planned to carry out an attack later this month at Mall of America was arrested at gunpoint Tuesday in Richfield, Minnesota, during an arranged meeting to buy an assault rifle, according to a federal criminal complaint filed Wednesday.",
-      "link": "https://www.cbsnews.com/news/doj-fbi-minnesota-counterterrorism-action/",
-      "published": "Wed, 07 Oct 2026 23:37:56 -0400",
-      "source": "CBS News"
-    },
-    {
-      "title": "Trump wants a new Camp David-like retreat at his Florida golf club",
-      "summary": "Trump's estate would stand in stark contrast to the rustic Camp David and mark another tradition transformed by Trump.",
-      "link": "https://www.bbc.co.uk/news/articles/c9gkvxjvl7v3o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 08 Oct 2026 03:00:50 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "New York court hears arguments in ongoing 9/11 families' lawsuit against Saudi Arabia",
-      "summary": "The families allege that men with links to the Saudi government helped those who carried out the 2001 attacks, something the country denies.",
-      "link": "https://www.bbc.co.uk/news/articles/cwvgrxlylj72o?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 07 Oct 2026 23:18:40 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "How oil-rich Alberta's economy might fare if it broke away from Canada",
-      "summary": "Albertans vote this month on staying in Canada or moving ahead to a binding independence referendum.",
-      "link": "https://www.bbc.co.uk/news/articles/cy745jznvxpo?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 07 Oct 2026 23:10:13 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "FBI says it stopped teen’s plan for ISIS-inspired attack at Mall of America",
-      "summary": "The 18-year-old allegedly tried to buy an assault rifle, intending to harm shoppers at the Minnesota mall, according to court records.",
-      "link": "https://www.washingtonpost.com/nation/2026/10/07/fbi-says-it-stopped-teens-plan-isis-inspired-attack-mall-america/",
-      "published": "Wed, 07 Oct 2026 22:58:34 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Trump prods parents to claim child investment accounts as auto-enrollment begins",
-      "summary": "The change has been long sought by economists and advocates who argued that self-selection would benefit wealthier families.",
-      "link": "https://www.washingtonpost.com/business/2026/10/07/trump-touts-auto-enrollment-child-investment-accounts/",
-      "published": "Wed, 07 Oct 2026 22:29:29 +0000",
-      "source": "Washington Post"
-    },
-    {
       "title": "Fed officials see another hike coming, but no sign as to when, minutes show",
       "summary": "The Federal Reserve on Wednesday released minutes from its Sept. 15-16 policy meeting.",
       "link": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html",
       "published": "Wed, 07 Oct 2026 18:42:36 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Why AI is both the hope and the hazard for world leaders, according to IMF chief Georgieva",
-      "summary": "Kristalina Georgieva warns that the technology lifting growth hopes is also pushing up inflation and yields, just as public debt levels rose.",
-      "link": "https://www.cnbc.com/2026/10/07/economy-inflation-ai-trade-imf-iran-hormuz-trump-.html",
-      "published": "Wed, 07 Oct 2026 06:16:39 GMT",
       "source": "CNBC"
     },
     {
@@ -337,15 +337,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-09-23 10:33",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 68,
-      "incidents": 20,
-      "sp500": 7764.64,
-      "usd_czk": null
-    },
     {
       "date": "2026-09-24 10:51",
       "threat_level": "MEDIUM",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "sp500": 7801.77,
       "usd_czk": null
+    },
+    {
+      "date": "2026-10-09 05:00",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 75,
+      "incidents": 40,
+      "sp500": 7765.36,
+      "usd_czk": null
     }
   ],
   "locations": [
@@ -638,18 +638,18 @@
       "name_en": "Florida"
     },
     {
-      "key": "California",
-      "lat": 36.7783,
-      "lon": -119.4179,
-      "name_cs": "Kalifornie",
-      "name_en": "California"
-    },
-    {
       "key": "Border",
       "lat": 31.7619,
       "lon": -106.485,
       "name_cs": "Hranice s Mexikem (El Paso)",
       "name_en": "US-Mexico Border (El Paso)"
+    },
+    {
+      "key": "Capitol",
+      "lat": 38.8899,
+      "lon": -77.0091,
+      "name_cs": "Kapitol",
+      "name_en": "US Capitol"
     },
     {
       "key": "Wall Street",
@@ -659,25 +659,18 @@
       "name_en": "Wall Street"
     },
     {
-      "key": "Ohio",
-      "lat": 40.4173,
-      "lon": -82.9071,
-      "name_cs": "Ohio",
-      "name_en": "Ohio"
+      "key": "Michigan",
+      "lat": 44.3148,
+      "lon": -85.6024,
+      "name_cs": "Michigan",
+      "name_en": "Michigan"
     },
     {
-      "key": "Minnesota",
-      "lat": 46.7296,
-      "lon": -94.6859,
-      "name_cs": "Minnesota",
-      "name_en": "Minnesota"
-    },
-    {
-      "key": "Colorado",
-      "lat": 39.5501,
-      "lon": -105.7821,
-      "name_cs": "Colorado",
-      "name_en": "Colorado"
+      "key": "Georgia",
+      "lat": 32.1656,
+      "lon": -82.9001,
+      "name_cs": "Georgie (USA)",
+      "name_en": "Georgia (US)"
     },
     {
       "key": "Maine",
@@ -687,41 +680,11 @@
       "name_en": "Maine"
     },
     {
-      "key": "Alaska",
-      "lat": 64.2008,
-      "lon": -149.4937,
-      "name_cs": "Aljaška",
-      "name_en": "Alaska"
-    },
-    {
-      "key": "Canada",
-      "lat": 56.1304,
-      "lon": -106.3468,
-      "name_cs": "Kanada",
-      "name_en": "Canada"
-    },
-    {
-      "key": "Venezuela",
-      "lat": 7,
-      "lon": -66,
-      "name_cs": "Venezuela",
-      "name_en": "Venezuela",
-      "auto": true
-    },
-    {
-      "key": "Ukrain",
-      "lat": 50.45,
-      "lon": 30.52,
-      "name_cs": "Ukrajina",
-      "name_en": "Ukrain",
-      "auto": true
-    },
-    {
-      "key": "Russia",
-      "lat": 55.75,
-      "lon": 37.62,
-      "name_cs": "Rusko",
-      "name_en": "Russia",
+      "key": "Israel",
+      "lat": 31.5,
+      "lon": 34.8,
+      "name_cs": "Izrael",
+      "name_en": "Israel",
       "auto": true
     },
     {
@@ -765,14 +728,6 @@
       "auto": true
     },
     {
-      "key": "France",
-      "lat": 48.86,
-      "lon": 2.35,
-      "name_cs": "Paříž",
-      "name_en": "France",
-      "auto": true
-    },
-    {
       "key": "Colombia",
       "lat": 4.57,
       "lon": -74.3,
@@ -782,22 +737,22 @@
     }
   ],
   "location_counts": {
-    "Florida": 15,
-    "Texas": 22,
-    "Washington": 15,
-    "New York": 18,
+    "Florida": 16,
+    "Texas": 23,
+    "Washington": 16,
+    "New York": 19,
     "California": 14,
-    "Capitol": 10,
-    "Border": 7,
+    "Capitol": 11,
+    "Border": 8,
     "Los Angeles": 7,
-    "Wall Street": 9,
+    "Wall Street": 10,
     "Illinois": 6,
     "Colorado": 8,
     "Canada": 8,
     "Brazílie": 1,
     "Ukrajina": 1,
     "Rusko": 1,
-    "Írán": 2,
+    "Írán": 4,
     "Čína": 3,
     "Tchaj-wan": 1,
     "Japonsko": 1,
@@ -811,9 +766,9 @@
     "Hongkong": 1,
     "Indie": 1,
     "Berlín": 1,
-    "Michigan": 1,
-    "Georgia": 2,
-    "Maine": 2,
+    "Michigan": 2,
+    "Georgia": 3,
+    "Maine": 3,
     "Mexico": 2,
     "Singapur": 1,
     "Chicago": 1,
@@ -821,7 +776,7 @@
     "Arizona": 1,
     "Minnesota": 2,
     "Virginia": 1,
-    "Izrael": 1,
+    "Izrael": 2,
     "Austrálie": 1,
     "Alaska": 1,
     "Jižní Korea": 1,
@@ -831,17 +786,9 @@
     "key": "Texas",
     "name_cs": "Texas",
     "name_en": "Texas",
-    "count": 22
+    "count": 23
   },
   "archive": [
-    {
-      "date": "2026-10-04 11:13",
-      "threat_level": "HIGH",
-      "security_status_cs": "Blížící se midterm volby přinášejí vyostřenou politickou rétoriku, obavy z ruských dezinformačních kampaní a spory o prezidentské pravomoci. Makroekonomické prostředí zatěžují slabší data z trhu práce a rostoucí inflace, zatímco Nejvyšší soud zahajuje kontroverzní zasedání ohledně klimatických žalob, zbraní a občanství.",
-      "security_status_en": "The upcoming midterm elections are driving intense political rhetoric, concerns over Russian disinformation campaigns, and disputes regarding presidential powers. The macroeconomic environment is weighed down by softer labor market data and sticky inflation, while the Supreme Court opens a controversial term tackling climate lawsuits, gun rights, and citizenship.",
-      "forecast_cs": "V nejbližších dnech lze očekávat stupňování politické kampaně před volbami, pokračující reakce trhů na slabší data z trhu práce a zvýšenou pozornost vůči rozhodnutím Nejvyššího soudu.",
-      "forecast_en": "Over the coming days, political campaign intensity is expected to ramp up ahead of the midterms, with markets continuing to digest soft labor data and Supreme Court updates."
-    },
     {
       "date": "2026-10-04 11:36",
       "threat_level": "MEDIUM",
@@ -945,24 +892,32 @@
       "security_status_en": "The United States is facing a combination of a sharp tech sector sell-off sparked by AI competition fears (DeepSeek) and rising Treasury yields. Meanwhile, domestic security agencies successfully thwarted an ISIS-inspired terrorist attack in Minnesota, as approaching Hurricane Isaias threatens the Gulf Coast and raises energy infrastructure concerns.",
       "forecast_cs": "V nejbližších dnech lze očekávat zvýšenou volatilitu a nervozitu na trzích, přičemž investoři budou nadále přehodnocovat ocenění AI sektoru a sledovat vývoj kolem hurikánu Isaias.",
       "forecast_en": "Increased volatility and market nervousness are expected in the coming days as investors continue to reassess AI sector valuations and monitor developments around Hurricane Isaias."
+    },
+    {
+      "date": "2026-10-09 05:00",
+      "threat_level": "HIGH",
+      "security_status_cs": "Americké trhy a politickou scénu výrazně rozbouřil propad v sektoru umělé inteligence vyvolaný obavami z konkurenčních modelů a slabších výnosů, doplněný o blížící se hurikán Isaias ohrožující Gulf Coast. Vnitropolitické napětí navíc eskaluje kvůli ostrým debatám před listopadovými midterms volbami, incidentům s ICE v New Yorku a přetrvávajícím geopolitickým rizikům na Blízkém východě.",
+      "security_status_en": "US markets and the political scene were sharply shaken by an AI sector rout driven by concerns over competing models and soft revenue reports, compounded by Hurricane Isaias threatening the Gulf Coast. Domestic political tension is also escalating due to fierce debates ahead of the November midterms, ICE incidents in New York, and lingering geopolitical risks in the Middle East.",
+      "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na technologických trzích, zvýšenou opatrnost investorů kvůli politické polarizaci před midterms a sledování škod způsobených hurikánem Isaias.",
+      "forecast_en": "Continued volatility in technology markets, heightened investor caution due to political polarization ahead of the midterms, and monitoring of damage caused by Hurricane Isaias are expected in the coming days."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 7× HIGH.",
   "market_data": {
     "sp500": {
-      "value": 7801.77,
-      "date": "2026-10-07",
+      "value": 7765.36,
+      "date": "2026-10-08",
       "cached": false
     },
     "dow": {
-      "value": 51179.87,
-      "date": "2026-10-07",
+      "value": 51231.64,
+      "date": "2026-10-08",
       "cached": false
     },
     "yield10y": {
-      "value": 0.53,
-      "date": "2026-10-07",
+      "value": 0.52,
+      "date": "2026-10-08",
       "cached": false
     }
   },
