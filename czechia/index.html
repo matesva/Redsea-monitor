@@ -25,12 +25,6 @@
 #v-energie .fnet{margin-top:16px;padding-top:12px;border-top:1px solid rgba(184,134,59,.35);font-family:'IBM Plex Mono',monospace;font-size:.85em}
 #v-energie .flegend{display:flex;justify-content:space-between;margin-top:14px;font-family:'IBM Plex Mono',monospace;font-size:.66em;opacity:.7}
 #v-energie .ferr{margin-top:14px;font-family:'IBM Plex Mono',monospace;font-size:.78em}
-#v-praha7 details{border-top:1px solid rgba(184,134,59,.35);padding-top:10px}
-#v-praha7 summary{cursor:pointer;font-family:'IBM Plex Mono',monospace;font-weight:600}
-#v-praha7 table{margin-top:8px;border-collapse:collapse;width:100%;font-size:.9em}
-#v-praha7 td{padding:4px 10px 4px 0;vertical-align:top}
-#v-praha7 .n,#v-praha7 .a{white-space:nowrap;opacity:.7}
-#v-praha7 .j span{opacity:.75}
 </style>
 <link rel="icon" type="image/svg+xml" href="/Redsea-monitor/favicon.svg">
 <link rel="apple-touch-icon" href="/Redsea-monitor/icons/apple-touch-icon.png">
@@ -80,7 +74,6 @@
     <button id="t-sliby">SLIBY</button>
     <button id="t-pruzkumy">PRŮZKUMY</button>
     <button id="t-energie">ENERGIE</button>
-    <button id="t-praha7">PRAHA 7</button>
   </nav>
 
   <section id="v-zpravy">
@@ -144,15 +137,6 @@
       <div id="fbody"></div>
       <div class="flegend"><span>◀ export z ČR</span><span>import do ČR ▶</span></div>
       <div class="legend">Fyzické toky na hraničních profilech (ENTSO-E přes Energy-Charts). Obchodní výměna se od fyzických toků může výrazně lišit. Aktualizace každých 15 minut. (v8)</div>
-    </div>
-  </section>
-
-  <section id="v-praha7" hidden>
-    <div class="bulletin">
-      <h2>Praha 7 · kandidátky do zastupitelstva 2026</h2>
-      <div class="filters"><input id="p7q" placeholder="Hledat jméno nebo povolání…"></div>
-      <div id="p7body"></div>
-      <div class="legend">Zdroj: oficiální kandidátní listiny (ČSÚ). 6 listin, 29 kandidátů na každé. Povolání a funkce jsou údaje, které kandidáti uvedli při registraci, u listiny SPOLU PRO PRAHU 7 je v závorce politická příslušnost. Hlubší minulost kandidátů zde není ověřena. Vždy ověřte v původním zdroji.</div>
     </div>
   </section>
 
@@ -314,236 +298,6 @@ function toggleTheme(){
       });
     })(0);
   }
-})();
-</script>
-
-<script>
-/* ---- Záložka PRAHA 7: kandidátky do zastupitelstva 2026 ---- */
-(function(){
-  var D=[
-  {s:"PRAHA 7 SOBĚ",c:[
-  "Mgr. Jan Čižinský|48|starosta Prahy 7, historik, středoškolský učitel",
-  "MgA. Hana Třeštíková|44|místostarostka Prahy 7 pro kulturu, sport a sousedské vztahy, producentka dokumentárních filmů",
-  "doc. PhDr. Richard Biegel Ph.D.|50|historik umění, vysokoškolský pedagog, předseda Komise rozvoje Prahy 7",
-  "Mgr. Hana Šišková|48|překladatelka, muzikoložka, místostarostka Prahy 7 pro vzdělávání",
-  "Ing. Kamil Vavřinec Mareš Ph.D.|39|místostarosta Prahy 7 pro majetek a energetiku, jaderný chemik",
-  "PhDr. Ing. arch. Lenka Burgerová Ph.D.|48|místostarostka Prahy 7 pro rozvoj, urbanistka, vysokoškolská pedagožka",
-  "Ing. Jakob Hurrle Ph.D.|50|geograf, radní Prahy 7 pro sociální oblast a zdravotnictví",
-  "Ing. Jan Rosypal|39|projektant a revizní technik energetických zařízení",
-  "Pavel Zelenka|55|grafický designer, místostarosta Prahy 7 pro investice a dopravu",
-  "Mgr. Ondřej Mirovský M.EM|47|ředitel Centra pro dopravu a energetiku, podnikatel",
-  "Bc. Sylva Svobodová|51|pedagožka, metodička vzdělávání, předsedkyně výboru Prahy 7 pro vzdělávání, sociální politiku a zdravotnictví",
-  "Mgr. Jiří Knitl|51|etnolog, radní Prahy 7 pro životní prostředí a veřejný prostor",
-  "Martin Tománek|55|grafik, oddávající a vítač občánků, radní Prahy 7 pro finance",
-  "Ing. arch. Barbora Feret|39|architektka, vysokoškolská pedagožka",
-  "Ignác Okamura|22|student právnické fakulty",
-  "Mgr. et Mgr. Vladan Brož|49|advokát, spoluzakladatel pivovaru Lajka, předseda Finančního výboru Zastupitelstva hl. m. Prahy",
-  "Ing. Jiří Štěpán|57|podnikatel v oblasti výroby a distribuce krmiv pro zvířata",
-  "Bc. Vratislav Freund Lima|43|vedoucí kanceláře starosty Prahy 7",
-  "Mgr. Jana Jebavá|43|grafička",
-  "doc. PhDr. Alice Velková Ph.D.|54|historická demografka, vysokoškolská pedagožka",
-  "Jiří Hromas|55|vedoucí přípravy a realizace staveb",
-  "Rijád Matyáš El Mohammadi|18|student",
-  "MgA. Klára Lidová Ph.D.|47|choreografka, specialistka v oblasti pohybové a sportovní medicíny",
-  "Mgr. et Ing. Žaneta Vávrová|44|manažerka kulturních projektů, doktorandka oboru vizuální komunikace",
-  "Ing. Marie Sehnalová|45|jednatelka obchodu s přírodními barvami, rodič",
-  "PhDr. Miroslav Kunštát Ph.D.|68|vysokoškolský pedagog FSV UK",
-  "RNDr. Pavel Řepa|75|geolog",
-  "Ing. Aleš Navrátil|47|ekonom",
-  "MgA. Silvie Ježková|48|klavíristka, pedagožka SŠ a VŠ, koordinátorka Rodinného Centra Letná"]},
-  {s:"Spojená levice pro Prahu 7",c:[
-  "Mgr. Martin Suchánek|47|zastupitel městské části Praha 7",
-  "Jiří Bláha|68|bývalý tajemník ČSSD, důchodce",
-  "Jan Záhořík|50|učitel autoškoly",
-  "Marek Hlaváček|26|student",
-  "Jakub Růžička|50|knihkupec",
-  "Jana Novotná|47|zdravotní sestra",
-  "Patrik Tobola|37|kuchař",
-  "Jan Ernst|72|technik",
-  "Jan Babický|76|důchodce",
-  "Ing. Richard Wiener|62|technik",
-  "PhDr. Miroslava Moučková|72|novinářka, spisovatelka",
-  "Felicita Carmenatová|41|uklízečka",
-  "Jaroslav Jelínek|58|údržbář",
-  "Jindřich Gogela|83|důchodce",
-  "PhDr. Rostislav Plachý|73|důchodce",
-  "Mgr. Jana Volfová|68|místopředsedkyně ČSSD, učitelka",
-  "Josef Mourek|69|důchodce",
-  "Richard Kaňka|37|skladník",
-  "PhDr. Vladimír Waage|75|archivář",
-  "Felix Tobola|72|důchodce",
-  "Martina Danišová|50|kvalitářka",
-  "Jaroslava Růžičková|85|asistentka služeb",
-  "Zdeněk Klvaňa|74|technik",
-  "Mgr. Petr Vondruška|48|učitel",
-  "Jana Vernerová|47|pracovnice obchodního provozu",
-  "Jana Polčáková|43|pracovnice v gastronomii",
-  "Miroslav Baláž|53|zahradník",
-  "Jana Vondrušková|47|vychovatelka",
-  "Žaneta Bandová|33|uklízečka"]},
-  {s:"SPOLU PRO PRAHU 7",c:[
-  "Petr Mairych|42|konzultant (ODS)",
-  "Ing. Jan Ladin|47|tajemník FIT ČVUT, pedagog, systémový architekt",
-  "Mgr. Jáchym Vrecion|34|živnostník, idea maker a meme producent",
-  "Mgr. Jiří Hejnic|56|manažer kvality",
-  "Josef Neuberg|69|zastupitel MČ Praha 7",
-  "Bc. Kristýna Myersová|25|studentka magisterského oboru žurnalistiky, Karlova univerzita",
-  "Zdeňka Polterová|69|OSVČ",
-  "Josef Machač|64|živnostník",
-  "Mgr. Sabina Krchová|40|právnička",
-  "Zuzana Machotková|61|asistentka v poradenství v oblasti nakládání s odpady a recyklace",
-  "Noam Behar|29|revenue manager",
-  "Šárka Vyhlídalová|57|vnitřní služba České pošty",
-  "Bc. Šimon Slivanský|24|student",
-  "Pavlína Lacková|51|systémový analytik",
-  "Petra Gonnot|48|analytička, bankovní sektor",
-  "Ing. Aleš Zmeškal|58|jednatel společnosti",
-  "Jana Topolovová|83|důchodkyně",
-  "Ing. Ondřej Gajoš|44|bankovní specialista, vinař (bez PP)",
-  "Jaroslav Sládek|40|řidič (ODS)",
-  "Mgr. Michaela Volná|50|vedoucí obchodního týmu (bez PP)",
-  "MUDr. Ing. Mgr. Pavel Douda MBA|72|lékař (ODS)",
-  "akad. soch. Pavel Humhal Ph.D.|61|výtvarný umělec, pedagog (TOP 09)",
-  "Eva Pekarová|48|obchodní zástupce (ODS)",
-  "Mgr. et Mgr. Lenka Holubová Mikolášová Ph.D.|50|právnička (bez PP)",
-  "Ing. Josef Dušek|70|důchodce (ODS)",
-  "MUDr. Emil Wagner|70|lékař, praktický lékař pro dospělé (bez PP)",
-  "Ing. Vít Konopa|44|Cisco cyber security group lead ve společnosti Alef Group (ODS)",
-  "Ing. Věněk Šilhán|74|projektant (TOP 09)",
-  "PhDr. Simona Šonová MBA|36|podnikatelka (ODS)"]},
-  {s:"ANO s podporou Motoristů",c:[
-  "Radek Mikšík|60|podnikatel ve stavebnictví a zastupitel MČ Praha 7",
-  "Jana Machová DiS.|54|bankovní specialistka, zastupitelka MČ Praha 7",
-  "Bc. Michelle Kushnir|26|výzkumná a vývojová pracovnice",
-  "Ing. Adam Kalous|47|náměstek ministra dopravy, zastupitel MČ Praha 7",
-  "David Frankošvili|24|projektant",
-  "Zdeňka Benešová|74|předsedkyně SVJ, odb. konzultantka",
-  "Jaromír Horyna|56|manažer ve správě nemovitostí",
-  "Ing. Marcel Salvino Božek|53|odborný referent ministerstvo zahraničních věcí",
-  "Jan Svoboda|82|důchodce, člen kontrolního výboru MČ Praha 7",
-  "Kristýna Hatoňová|39|technička LBD",
-  "Věra Křížová|67|podnikatelka",
-  "Ing. Jarmila Horníčková|80|podnikatelka",
-  "Bc. Robert Mikšík|29|podnikatel - IT technik",
-  "Šárka Kokešová|61|jednatelka obchodní společnosti",
-  "Ladislav Nedvěd|83|důchodce",
-  "Richard Kareta|84|důchodce",
-  "Eliška Chmelová|82|důchodkyně",
-  "Markéta Fürbachová|49|asistentka prodeje",
-  "Ilona Thérolová|56|podnikatelka",
-  "David Kotouček|27|delivery manager",
-  "Antonín Matoušek|26|řidič",
-  "Jiřina Nedvědová|77|důchodkyně",
-  "Jiřina Floriánová|64|důchodkyně",
-  "Jan Kotouček|33|technický support - IT",
-  "Monika Hronová|53|asistentka managementu",
-  "Tomáš Mára|52|jednatel obchodní společnosti",
-  "Nadežda Hoffmannová|74|důchodkyně",
-  "Zdeňka Balounová|85|důchodkyně",
-  "Pavla Mikšíková|20|studentka"]},
-  {s:"SPD pro Prahu 7 s podporou PRO a nezávislých kandidátů",c:[
-  "MUDr. Vlasta Příkaská|49|lékařka",
-  "Roman Zikmund MBA|60|fotbalový trenér mládeže",
-  "PhDr. Alina Akhmetshina|47|spisovatelka, překladatelka, socioložka",
-  "Bc. Patricia Fialová|33|marketingový specialista",
-  "Ing. Tomáš Kulman|60|projektový manažer",
-  "Ing. Lukáš Tittelbach|48|ekonom, podnikatel v e-commerce",
-  "Tomáš Fejt|58|elektromechanik",
-  "Bc. Radek Vaisocher|52|podnikatel v potravinářství",
-  "Vladimír Babuška|54|IT administrátor sítí",
-  "Jiří Havlíček DiS.|50|stavební technik",
-  "Mgr. Marie Kmoníčková|55|učitelka",
-  "Michala Zikmund|49|účetní",
-  "Ladislav Froněk|86|novinář",
-  "Arnošt Drozd|65|profesionální fotograf",
-  "Michal Grznár|59|manažer prodeje",
-  "RNDr. Viktor Rylko|72|překladatel, tlumočník",
-  "Zuzana Kailová|63|prodavačka",
-  "Miroslav Valenta|45|IT specialista",
-  "Michal Benko|63|geodet",
-  "Eva Pokorná Charousová|71|osobní asistentka, pečovatelka",
-  "Libor Hlaváček DiS.|62|zdravotnický záchranář",
-  "Martin Řezníček|59|programátor",
-  "Petr Pejsar|61|podnikatel v autodopravě",
-  "Petr Štolfa|62|recepční",
-  "Vojtěch Janinda|41|pracovník ostrahy",
-  "Mgr. Ludmila Molkupová|81|učitelka",
-  "Václav Krliš|61|recepční",
-  "Filip Halaška|54|kameraman",
-  "Anna Machová|68|knihovnice"]},
-  {s:"Piráti a Starostové",c:[
-  "Bc. Ondřej Melena|42|zastupitel a předseda Kontrolního výboru MČ P7, předseda pražských Pirátů, truhlář",
-  "Ing. Bc. Lukáš Tůma MBA|39|ekolog, vedoucí odboru",
-  "Mgr. Jakub Wolf|47|manažer ve výzkumu, za minulé vlády poradce ministra zahraničí",
-  "Mgr. Jiří Vavera|29|právník",
-  "Ing. Lenka Nováková MBA|73|lektorka Elpida Praha 7, VŠ pedagog",
-  "Mgr. Miloslav Mejzlík|75|herec",
-  "Marko Prole|20|student, manažer akcí",
-  "Michaela Králová DiS.|46|personalistka",
-  "Michaela Samiecová|29|retail media specialista",
-  "Matej Páleník|29|softwarový inženýr",
-  "Ondřej Pastyřík|28|IT administrátor, fotograf",
-  "Mgr. Zdeněk Prokeš|74|choreograf",
-  "Victor Christophe Sontag|21|student",
-  "prof. ak. arch. Jiří Pelcl|76|designer",
-  "MUDr. Lenka Mrázková|52|lékařka",
-  "Kristýna Burešová|19|studentka",
-  "Bc. Vojtěch Šána|34|podnikatel v telekomunikacích",
-  "Jessica Johnová|29|holička",
-  "Daniel Maximilian Schuschu|19|student",
-  "Iveta Matysová|61|administrativa",
-  "Bc. Daniel Dobr|24|ministerský rada",
-  "Mgr. Filip Reinöhl|40|marketér",
-  "MgA. Tereza Melenová Ph.D.|44|VŠ pedagog, grafická designérka",
-  "Ing. Michal Zvolský|33|auditor",
-  "Petr Dvořák|35|lektor, ředitel bankovní pobočky",
-  "Jakub Kučera|43|ekonom",
-  "Mgr. Petr Paščenko|42|AR architekt",
-  "MgA. Klára Cibulková|51|herečka",
-  "Mgr. David Lenský|47|právník"]}
-  ];
-
-  var tab=document.getElementById("t-praha7"),view=document.getElementById("v-praha7");
-  var body=document.getElementById("p7body"),q=document.getElementById("p7q");
-  var tabs=document.querySelectorAll(".tabs button");
-  var built=false;
-
-  function esc(s){
-    return String(s).replace(/[&<>"]/g,function(c){
-      return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];
-    });
-  }
-
-  function build(){
-    var f=(q.value||"").toLowerCase().trim();
-    var html="";
-    D.forEach(function(p,pi){
-      var rows="",n=0;
-      p.c.forEach(function(x,i){
-        var a=x.split("|");
-        if(f&&(a[0]+" "+a[2]).toLowerCase().indexOf(f)<0)return;
-        n++;
-        rows+='<tr><td class="n">'+(i+1)+'.</td>'+
-          '<td class="j"><b>'+esc(a[0])+'</b><br><span>'+esc(a[2])+'</span></td>'+
-          '<td class="a">'+esc(a[1])+' let</td></tr>';
-      });
-      if(!n)return;
-      html+='<details style="margin-top:14px"'+((f||pi===0)?' open':'')+'><summary>'+
-        (pi+1)+'. '+esc(p.s)+' ('+n+')</summary><table>'+rows+'</table></details>';
-    });
-    body.innerHTML=html||'<div class="muted">Nic nenalezeno.</div>';
-  }
-
-  function show(){
-    document.querySelectorAll("section[id^='v-']").forEach(function(s){s.hidden=(s!==view)});
-    tabs.forEach(function(b){b.classList.toggle("on",b===tab)});
-    if(!built){built=true;build()}
-  }
-  tab.addEventListener("click",show);
-  tabs.forEach(function(b){
-    if(b!==tab)b.addEventListener("click",function(){view.hidden=true;tab.classList.remove("on")});
-  });
-  q.addEventListener("input",build);
 })();
 </script>
     <script src="/Redsea-monitor/nav.js"></script>
