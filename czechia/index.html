@@ -328,7 +328,7 @@ function toggleTheme(){
       body.innerHTML=(shown.map(function(o){
         return cityBlock({
           name:o.n,size:o.size||null,turnout:o.ucast,
-          status:(o.sec!=null&&o.sec>=99.995)?"konečné, sečteno 100 %":"průběžné, sečteno "+(o.sec!=null?f1(o.sec):"?")+" %",
+          status:(o.sec!=null&&o.sec>=99.995)?"konečné, sečteno 100 %":"průběžné"+(o.sec!=null?", sečteno "+f1(o.sec)+" %":""),
           rows:(o.rows||[]).map(function(r){return {n:r[0],pct:r[1],seats:r[2]}})
         });
       }).join("")||'<div class="legend">Nic nenalezeno.</div>')+
