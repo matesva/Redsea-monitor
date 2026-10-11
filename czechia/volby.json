@@ -2,7 +2,7 @@
   "meta": {
     "region": "Praha – zastupitelstvo hl. m. Prahy",
     "status": "PRŮBĚŽNÉ VÝSLEDKY – sečteno 83,13 % okrsků (volby 9.–10. 10. 2026)",
-    "updated": "2026-10-11T12:00:00+02:00",
+    "updated": "2026-10-11T18:00:00+02:00",
     "polls": {
       "median": "Median pro Praha In, sběr 31.8.–3.9.2026",
       "ipsos": "Ipsos pro SPOLU, srpen 2026"
@@ -16,5 +16,73 @@
     {"n": "Piráti",          "res": 9.45,  "median": 10.8, "ipsos": 12},
     {"n": "SPD",             "res": 3.59,  "median": 5.4,  "ipsos": 5},
     {"n": "AUTO",            "res": 2.93,  "median": 5.0,  "ipsos": 4}
-  ]
+  ],
+  "cities": [
+    {
+      "name": "Brno", "size": 55, "status": "průběžné, sečteno 92,92 %", "turnout": 43.29,
+      "note": "Třetí kandidátka (17,40 %) bez názvu ve zdroji, uvedeno ANO dle zpráv – ověřit.",
+      "rows": [
+        {"n": "KDU-ČSL + STAN", "pct": 27.48},
+        {"n": "ODS + TOP 09 + NK", "pct": 18.59},
+        {"n": "ANO (?)", "pct": 17.40},
+        {"n": "Zelení a spol.", "pct": 8.86},
+        {"n": "Piráti + Fakt Brno + GEN", "pct": 6.63},
+        {"n": "Za Lužánky", "pct": 5.25},
+        {"n": "SPD + NK", "pct": 3.89},
+        {"n": "AUTO", "pct": 2.71}
+      ]
+    },
+    {
+      "name": "Ostrava", "size": 55, "status": "průběžné, sečteno 97,15 %", "turnout": 35.01,
+      "note": "ANO ztrácí proti minulým volbám cca 7 p. b.",
+      "rows": [
+        {"n": "ANO", "pct": 26.62},
+        {"n": "KDU + ODS + TOP 09", "pct": 18.98},
+        {"n": "Starostové (NEZ + STAN)", "pct": 16.42},
+        {"n": "Ostravak", "pct": 10.30},
+        {"n": "AUTO / Motoristé", "pct": 7.79},
+        {"n": "Piráti", "pct": 4.94},
+        {"n": "SPD", "pct": 4.65},
+        {"n": "Stačilo! + NK", "pct": 2.64}
+      ]
+    },
+    {
+      "name": "Plzeň", "size": 47, "status": "průběžné, sečteno 98,28 %", "turnout": 41.16,
+      "note": "Dostupné jen mandáty (36 z 47); ANO má přes 32 % hlasů.",
+      "rows": [
+        {"n": "ANO (>32 %)", "seats": 18},
+        {"n": "STAN", "seats": 10},
+        {"n": "ODS", "seats": 8}
+      ]
+    },
+    {
+      "name": "Olomouc", "size": 45, "status": "konečné, sečteno 100 %", "turnout": 38.58,
+      "note": "Vítěz označen ANO dle zpráv; dvě kandidátky (8,18 % a 7,63 %) bez názvu ve zdroji.",
+      "rows": [
+        {"n": "ANO", "pct": 25.89, "seats": 13},
+        {"n": "Starostové a nezávislí", "pct": 19.73, "seats": 9},
+        {"n": "ProOlomouc", "pct": 10.30, "seats": 5},
+        {"n": "KDU-ČSL", "pct": 9.92, "seats": 4},
+        {"n": "ODS", "pct": 9.21, "seats": 4},
+        {"n": "(název neověřen)", "pct": 8.18, "seats": 4},
+        {"n": "(název neověřen)", "pct": 7.63, "seats": 3},
+        {"n": "SPD + Svobodní + Trikolora", "pct": 6.56, "seats": 3}
+      ]
+    }
+  ],
+  "national": {
+    "status": "průběžné, sečteno 84,48 % okrsků (5 884 z 6 388 obcí)",
+    "turnout": 48.02,
+    "total": 52362,
+    "rows": [
+      {"n": "Sdružení nezávislých kandidátů", "seats": 37715},
+      {"n": "Nezávislý kandidát", "seats": 5501},
+      {"n": "KDU-ČSL", "seats": 1680},
+      {"n": "STAN, NK", "seats": 1279},
+      {"n": "KDU-ČSL, NK", "seats": 698},
+      {"n": "Starostové a nezávislí", "seats": 565},
+      {"n": "ANO 2011", "seats": 539},
+      {"n": "ODS", "seats": 519}
+    ]
+  }
 }
