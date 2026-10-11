@@ -1,8 +1,8 @@
 name: Volby – ČSÚ data
 
 on:
-  # schedule:
-  #   - cron: "*/10 * * * *"
+  schedule:
+    - cron: "*/10 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -15,7 +15,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - name: Checkout main (skript)
         uses: actions/checkout@v4
@@ -40,6 +40,10 @@ jobs:
 
       - name: Stáhnout výsledky z ČSÚ
         run: python3 main/scripts/volby_update.py data --debug
+
+      - name: Zvolení zastupitelé (registr kandidátů)
+        continue-on-error: true
+        run: python3 main/scripts/zastupitele.py data
 
       - name: Commit, pokud se něco změnilo
         working-directory: data
