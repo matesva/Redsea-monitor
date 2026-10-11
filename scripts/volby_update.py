@@ -3,6 +3,7 @@
 
 Použití:  python volby_update.py <adresář větve data> [--debug]
 """
+import io
 import json
 import sys
 import time
@@ -10,17 +11,24 @@ import unicodedata
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
+import zipfile
 from datetime import datetime, timezone, timedelta
 
 BASE = "https://volby.gov.cz/appdata/kv2026/20261009/odata"
+REG = "https://volby.gov.cz/opendata/kv2026/KV2026reg20261007_{}.zip"
 OUT = next((a for a in sys.argv[1:] if not a.startswith("--")), ".")
 DEBUG = "--debug" in sys.argv
 UA = {"User-Agent": "Redsea-monitor/1.0 (+https://matesva.github.io/Redsea-monitor/)"}
 MAX_SECONDS = 420
 TOP_ROWS = 10
 
-CITIES = ["Praha", "Brno", "Ostrava", "Plzeň", "Liberec", "Olomouc", "České Budějovice",
-          "Hradec Králové", "Ústí nad Labem", "Pardubice", "Zlín", "Jihlava", "Karlovy Vary"]
+# krajská města: název -> kód obce (stejný kód jako v datech ČSÚ)
+CITY_CODES = {
+    "Praha": "554782", "Brno": "582786", "Ostrava": "554821", "Plzeň": "554791",
+    "Liberec": "563889", "Olomouc": "552003", "České Budějovice": "544256",
+    "Hradec Králové": "569810", "Ústí nad Labem": "554804", "Pardubice": "555134",
+    "Zlín": "585068", "Jihlava": "586846", "Karlovy Vary": "554961",
+}
 
 # Praha: štítek v tabulce průzkumů -> část názvu kandidátky v datech ČSÚ
 PRAGUE_MAP = {
@@ -59,7 +67,7 @@ def get(url):
     for attempt in range(3):
         try:
             req = urllib.request.Request(url, headers=UA)
-            with urllib.request.urlopen(req, timeout=30) as r:
+            with urllib.request.urlopen(req, timeout=60) as r:
                 return r.read()
         except urllib.error.HTTPError as e:
             if e.code == 404:
@@ -126,6 +134,75 @@ def save_if_changed(path, obj, indent=None):
     print("zapsáno:", path)
 
 
+# ---------- názvy obcí z registru ČSÚ ----------
+CODE_KEYS = ("KODZASTUP", "CIS_OBEC", "KOD_OBEC")
+NAME_KEYS = ("NAZEVZAST", "NAZEV_ZAST", "NAZEVOBCE", "NAZEV_OBCE", "NAZ_OBEC", "NAZEVZASTUP", "NAZEV")
+
+
+def extract_pairs(obj, out):
+    if isinstance(obj, dict):
+        up = {str(k).upper(): v for k, v in obj.items()}
+        code = next((str(up[k]) for k in CODE_KEYS if up.get(k) not in (None, "")), None)
+        name = next((up[k] for k in NAME_KEYS if isinstance(up.get(k), str) and up[k].strip()), None)
+        if code and name:
+            out[code.strip()] = name.strip()
+        for v in obj.values():
+            extract_pairs(v, out)
+    elif isinstance(obj, list):
+        for v in obj:
+            extract_pairs(v, out)
+
+
+def extract_pairs_xml(root, out):
+    for el in root.iter():
+        d = dict(el.attrib)
+        for c in el:
+            if len(c) == 0 and c.text and c.text.strip():
+                d[ln(c.tag)] = c.text.strip()
+        extract_pairs(d, out)
+
+
+def load_names():
+    path = f"{OUT}/obce_nazvy.json"
+    names = load_json(path, {})
+    if not names:
+        for kind in ("json", "xml"):
+            try:
+                raw = get(REG.format(kind))
+            except Exception as e:
+                print("registr", kind, "nelze stáhnout:", e)
+                continue
+            if not raw:
+                print("registr", kind, "neexistuje (404)")
+                continue
+            try:
+                z = zipfile.ZipFile(io.BytesIO(raw))
+            except zipfile.BadZipFile:
+                print("registr", kind, "není zip")
+                continue
+            print("soubory v registru", kind + ":", z.namelist())
+            for m in z.namelist():
+                if "RZCOCO" not in m.upper():
+                    continue
+                data = z.read(m)
+                try:
+                    if m.lower().endswith(".json"):
+                        extract_pairs(json.loads(data.decode("utf-8-sig")), names)
+                    elif m.lower().endswith(".xml"):
+                        extract_pairs_xml(ET.fromstring(data), names)
+                except Exception as e:
+                    print("chyba při čtení", m, e)
+            if names:
+                break
+        print("názvů obcí z registru:", len(names))
+        if names:
+            with open(path, "w", encoding="utf-8") as f:
+                json.dump(names, f, ensure_ascii=False, separators=(",", ":"))
+    for city, code in CITY_CODES.items():
+        names[code] = city
+    return names
+
+
 # ---------- celá ČR ----------
 def parse_national():
     raw = get(BASE + "/vysledky.xml")
@@ -160,6 +237,14 @@ def parse_national():
 
 
 # ---------- obce po dávkách ----------
+def find_attr_anywhere(el, name):
+    for e in el.iter():
+        v = attr(e, name)
+        if v is not None:
+            return v
+    return None
+
+
 def handle_obec(el, typ, obce):
     if typ == "MCMO":
         return
@@ -167,7 +252,6 @@ def handle_obec(el, typ, obce):
     if not kod:
         return
     name = attr(el, "NAZ_OBEC", "NAZEV_OBCE", "NAZEV_OBEC", "NAZ_ZASTUP", "NAZEV")
-    ucast = next((c for c in el if ln(c.tag) == "UCAST"), None)
     parties = []
     for c in el.iter():
         if ln(c.tag) != "VOLEBNI_STRANA":
@@ -188,10 +272,14 @@ def handle_obec(el, typ, obce):
     parties.sort(key=lambda p: -p["h"])
     size = sum(p["s"] for p in parties)
     prev = obce.get(kod, {})
+    ucast = num(find_attr_anywhere(el, "UCAST_PROC"))
+    sec = num(find_attr_anywhere(el, "OKRSKY_ZPRAC_PROC"))
+    if size > 0:
+        sec = 100.0  # mandáty se dělí až po sečtení všech okrsků
     obce[kod] = {
         "n": name or prev.get("n") or f"obec {kod}",
-        "ucast": num(attr(ucast, "UCAST_PROC")) if ucast is not None else prev.get("ucast"),
-        "sec": num(attr(ucast, "OKRSKY_ZPRAC_PROC")) if ucast is not None else prev.get("sec"),
+        "ucast": ucast if ucast is not None else prev.get("ucast"),
+        "sec": sec if sec is not None else prev.get("sec"),
         "size": size or prev.get("size") or 0,
         "rows": [[p["n"], round(p["p"], 2), p["s"] if size else None]
                  for p in parties[:TOP_ROWS]],
@@ -226,19 +314,35 @@ def update_obce():
     obce = state.get("obce", {})
     n = state.get("last_batch", 0) + 1
     t0 = time.time()
+    got = 0
     while time.time() - t0 < MAX_SECONDS:
-        raw = get(f"{BASE}/obce_d/vysledky_obce_{n:05d}.xml")
+        url = f"{BASE}/obce_d/vysledky_obce_{n:05d}.xml"
+        raw = get(url)
         if raw is None:
             break
         try:
             root = ET.fromstring(raw)
         except ET.ParseError:
+            print("chybné XML:", url)
             break
         if has_error(root):
+            print("ČSÚ vrací chybu:", url)
             break
         walk(root, None, obce)
         state["last_batch"] = n
+        got += 1
         n += 1
+    print(f"dávek načteno: {got}, obcí celkem: {len(obce)}")
+
+    names = load_names()
+    for kod, o in obce.items():
+        if str(o.get("n", "")).startswith("obec ") and kod in names:
+            o["n"] = names[kod]
+        if kod in CITY_CODES.values():
+            o["n"] = names[kod]
+    unnamed = sum(1 for o in obce.values() if str(o["n"]).startswith("obec "))
+    print("obcí bez názvu:", unnamed)
+
     state["obce"] = obce
     state["generated"] = datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds")
     save_if_changed(path, state)
@@ -248,17 +352,17 @@ def update_obce():
 # ---------- volby.json ----------
 def status_txt(sec):
     if sec is None:
-        return "bez údaje o sečtení"
+        return "průběžné"
     if sec >= 99.995:
         return "konečné, sečteno 100 %"
     return f"průběžné, sečteno {fmt(sec)} % okrsků"
 
 
 def build_city(name, obce):
-    cands = [o for o in obce.values() if norm(o.get("n")) == norm(name)]
-    if not cands:
+    o = obce.get(CITY_CODES[name])
+    if not o:
+        print("město nenalezeno:", name, CITY_CODES[name])
         return None
-    o = max(cands, key=lambda x: x.get("size") or 0)
     return {
         "name": name,
         "size": o.get("size") or None,
@@ -271,7 +375,7 @@ def build_city(name, obce):
 def update_volby(obce, national):
     path = f"{OUT}/volby.json"
     v = load_json(path, DEFAULT_VOLBY)
-    cities = [c for c in (build_city(n, obce) for n in CITIES) if c]
+    cities = [c for c in (build_city(n, obce) for n in CITY_CODES) if c]
     v["cities"] = cities
     if national:
         v["national"] = national
@@ -282,8 +386,10 @@ def update_volby(obce, national):
             row = next((r for r in prague["rows"] if key and key.lower() in r["n"].lower()), None)
             if row:
                 d["res"] = row["pct"]
-        v["meta"]["status"] = prague["status"].upper().replace("KONEČNÉ,", "KONEČNÉ VÝSLEDKY –") \
-            .replace("PRŮBĚŽNÉ,", "PRŮBĚŽNÉ VÝSLEDKY –") + " (volby 9.–10. 10. 2026)"
+        st = prague["status"]
+        v["meta"]["status"] = ("KONEČNÉ VÝSLEDKY" if st.startswith("konečné") else "PRŮBĚŽNÉ VÝSLEDKY") + \
+            " – " + st.split(", ", 1)[-1] + " (volby 9.–10. 10. 2026)" if ", " in st else \
+            "PRŮBĚŽNÉ VÝSLEDKY (volby 9.–10. 10. 2026)"
     tz = timezone(timedelta(hours=2))
     v["meta"]["updated"] = datetime.now(tz).isoformat(timespec="seconds")
     save_if_changed(path, v, indent=2)
