@@ -85,6 +85,14 @@ jobs:
           mkdir -p south-america
           python fetch_southamerica.py
 
+      - name: Fetch and Analyze (AI monitor)
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          mkdir -p ai
+          python fetch_ai.py
+
       - name: Doplnění lokalit pro mapu
         run: python enrich_locations.py
 
@@ -92,7 +100,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data.json rss.xml usa/data.json usa/rss.xml europe/data.json europe/rss.xml middle-east/data.json middle-east/rss.xml asia/data.json asia/rss.xml japan/data.json japan/rss.xml south-america/data.json south-america/rss.xml
-          git commit -m "Auto-update AI Monitors (Red Sea + USA + Europe + Middle East + China & Asia + Japan + South America)" || exit 0
+          git add data.json rss.xml usa/data.json usa/rss.xml europe/data.json europe/rss.xml middle-east/data.json middle-east/rss.xml asia/data.json asia/rss.xml japan/data.json japan/rss.xml south-america/data.json south-america/rss.xml ai/data.json
+          git commit -m "Auto-update AI Monitors (Red Sea + USA + Europe + Middle East + China & Asia + Japan + South America + AI)" || exit 0
           git push
-
