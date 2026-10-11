@@ -157,8 +157,10 @@
           <option value="median">Praha: výsledky vs. Median (31.8.–3.9.)</option>
           <option value="ipsos">Praha: výsledky vs. Ipsos (srpen)</option>
           <option value="cities">Krajská města</option>
+          <option value="obce">Obce a vesnice – hledat</option>
           <option value="national">ČR celkem – mandáty</option>
         </select>
+        <input id="vq" placeholder="Název obce (např. Žihle, Blatno, Plzeň…)" hidden>
       </div>
       <div class="legend" id="vmeta">Načítání…</div>
       <div id="vbody"></div>
@@ -193,17 +195,18 @@ function toggleTheme(){
 <script src="app.js"></script>
 
 <script>
-/* ---- Záložka VOLBY: Praha vs. průzkumy, krajská města, ČR celkem; průběžně se obnovuje ---- */
+/* ---- Záložka VOLBY: Praha vs. průzkumy, krajská města, obce a vesnice, ČR celkem ---- */
 (function(){
-  var URL_JSON="https://raw.githubusercontent.com/matesva/Redsea-monitor/data/volby.json";
-  var REFRESH_MS=5*60*1000, TIMEOUT_MS=8000, THR=5;
-  var CACHE_KEY="volby_cache_v2";
+  var RAW="https://raw.githubusercontent.com/matesva/Redsea-monitor/data/";
+  var URL_JSON=RAW+"volby.json", URL_OBCE=RAW+"obce.json";
+  var REFRESH_MS=5*60*1000, TIMEOUT_MS=15000, THR=5;
+  var CACHE_KEY="volby_cache_v3";
 
-  /* záloha, když JSON nejde načíst */
+  /* záloha, když JSON nejde načíst (starší průběžný stav) */
   var STATE={
     meta:{
       region:"Praha – zastupitelstvo hl. m. Prahy",
-      status:"PRŮBĚŽNÉ VÝSLEDKY – sečteno 83,13 % okrsků (volby 9.–10. 10. 2026)",
+      status:"PRŮBĚŽNÉ VÝSLEDKY – starší stav (sečteno 83,13 % okrsků)",
       updated:null,
       polls:{median:"Median pro Praha In, sběr 31.8.–3.9.2026",ipsos:"Ipsos pro SPOLU, srpen 2026"}
     },
@@ -216,25 +219,10 @@ function toggleTheme(){
       {n:"SPD",res:3.59,median:5.4,ipsos:5},
       {n:"AUTO",res:2.93,median:5.0,ipsos:4}
     ],
-    cities:[
-      {name:"Brno",size:55,status:"průběžné, sečteno 92,92 %",turnout:43.29,
-       note:"Třetí kandidátka (17,40 %) bez názvu ve zdroji, uvedeno ANO dle zpráv – ověřit.",
-       rows:[{n:"KDU-ČSL + STAN",pct:27.48},{n:"ODS + TOP 09 + NK",pct:18.59},{n:"ANO (?)",pct:17.40},{n:"Zelení a spol.",pct:8.86},{n:"Piráti + Fakt Brno + GEN",pct:6.63},{n:"Za Lužánky",pct:5.25},{n:"SPD + NK",pct:3.89},{n:"AUTO",pct:2.71}]},
-      {name:"Ostrava",size:55,status:"průběžné, sečteno 97,15 %",turnout:35.01,
-       note:"ANO ztrácí proti minulým volbám cca 7 p. b.",
-       rows:[{n:"ANO",pct:26.62},{n:"KDU + ODS + TOP 09",pct:18.98},{n:"Starostové (NEZ + STAN)",pct:16.42},{n:"Ostravak",pct:10.30},{n:"AUTO / Motoristé",pct:7.79},{n:"Piráti",pct:4.94},{n:"SPD",pct:4.65},{n:"Stačilo! + NK",pct:2.64}]},
-      {name:"Plzeň",size:47,status:"průběžné, sečteno 98,28 %",turnout:41.16,
-       note:"Dostupné jen mandáty (36 z 47); ANO má přes 32 % hlasů.",
-       rows:[{n:"ANO (>32 %)",seats:18},{n:"STAN",seats:10},{n:"ODS",seats:8}]},
-      {name:"Olomouc",size:45,status:"konečné, sečteno 100 %",turnout:38.58,
-       note:"Vítěz označen ANO dle zpráv; dvě kandidátky (8,18 % a 7,63 %) bez názvu ve zdroji.",
-       rows:[{n:"ANO",pct:25.89,seats:13},{n:"Starostové a nezávislí",pct:19.73,seats:9},{n:"ProOlomouc",pct:10.30,seats:5},{n:"KDU-ČSL",pct:9.92,seats:4},{n:"ODS",pct:9.21,seats:4},{n:"(název neověřen)",pct:8.18,seats:4},{n:"(název neověřen)",pct:7.63,seats:3},{n:"SPD + Svobodní + Trikolora",pct:6.56,seats:3}]}
-    ],
-    national:{
-      status:"průběžné, sečteno 84,48 % okrsků (5 884 z 6 388 obcí)",turnout:48.02,total:52362,
-      rows:[{n:"Sdružení nezávislých kandidátů",seats:37715},{n:"Nezávislý kandidát",seats:5501},{n:"KDU-ČSL",seats:1680},{n:"STAN, NK",seats:1279},{n:"KDU-ČSL, NK",seats:698},{n:"Starostové a nezávislí",seats:565},{n:"ANO 2011",seats:539},{n:"ODS",seats:519}]
-    }
+    cities:[],
+    national:null
   };
+  var OBCE=null,obceErr=null;
   var src="vestavěná kopie";
 
   var tab=document.getElementById("t-volby"),view=document.getElementById("v-volby");
@@ -242,12 +230,14 @@ function toggleTheme(){
   var sel=document.getElementById("vsel"),body=document.getElementById("vbody");
   var meta=document.getElementById("vmeta"),note=document.getElementById("vnote");
   var leg=document.getElementById("vleg"),title=document.getElementById("vtitle");
+  var vq=document.getElementById("vq");
   var timer=null;
 
   function f1(v){return v.toFixed(1).replace(".",",")}
   function f0(v){return Math.round(v).toLocaleString("cs-CZ")}
   function sg(v){return (v>0?"+":v<0?"−":"±")+f1(Math.abs(v))}
   function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+  function norm(s){return String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()}
 
   function srcTxt(){
     var u=STATE.meta&&STATE.meta.updated?new Date(STATE.meta.updated):null;
@@ -280,35 +270,71 @@ function toggleTheme(){
     leg.style.display="";
     meta.textContent=m.region+" · "+m.status+srcTxt();
     var pn=(m.polls&&m.polls[k])||"";
-    note.textContent="Průzkum: "+pn+". Rozdíl = průzkum − výsledek. ⚠ = kandidátka na opačné straně 5% hranice než ve výsledku. Průběžné výsledky se mění; průzkumy zachycují stav několik týdnů před volbami a nejsou předpovědí. Ověřte na volby.cz. Obnova každých 5 minut.";
+    note.textContent="Průzkum: "+pn+". Rozdíl = průzkum − výsledek. ⚠ = kandidátka na opačné straně 5% hranice než ve výsledku. Procenta jsou podíl na odevzdaných hlasech (voliči mají více hlasů). Průzkumy zachycují stav několik týdnů před volbami a nejsou předpovědí. Ověřte na volby.gov.cz. Obnova každých 5 minut.";
+  }
+
+  /* --- blok jednoho města/obce --- */
+  function cityBlock(c){
+    var rows=c.rows||[],mx=1;
+    rows.forEach(function(r){
+      r._w=(r.pct!=null)?r.pct:(r.seats!=null&&c.size?r.seats/c.size*100:0);
+      mx=Math.max(mx,r._w);
+    });
+    var hasPct=rows.some(function(r){return r.pct!=null});
+    var thr=hasPct?THR/mx*100:null;
+    return '<div class="vcity"><b>'+esc(c.name)+'</b> · '+esc(c.status||"")+
+      (c.turnout!=null?' · účast '+f1(c.turnout)+' %':'')+
+      (c.size?' · '+c.size+' zastupitelů':'')+
+      (c.note?'<small>'+esc(c.note)+'</small>':'')+
+      rows.map(function(r){
+        var v=(r.pct!=null?f1(r.pct)+' %':'')+(r.pct!=null&&r.seats!=null?' · ':'')+(r.seats!=null?r.seats+' mand.':'');
+        return '<div class="vrow2"><div>'+esc(r.n)+'</div><div class="vbar2"><i style="width:'+(r._w/mx*100)+'%"></i>'+
+          (thr!==null&&thr<100?'<span class="thr" style="left:'+thr+'%"></span>':'')+'</div><div class="vval">'+v+'</div></div>';
+      }).join("")+'</div>';
   }
 
   /* --- Krajská města --- */
   function renderCities(){
     var cs=STATE.cities||[];
-    body.innerHTML=cs.map(function(c){
-      var rows=c.rows||[],mx=1;
-      rows.forEach(function(r){
-        r._w=(r.pct!=null)?r.pct:(r.seats!=null&&c.size?r.seats/c.size*100:0);
-        mx=Math.max(mx,r._w);
-      });
-      var hasPct=rows.some(function(r){return r.pct!=null});
-      var thr=hasPct?THR/mx*100:null;
-      return '<div class="vcity"><b>'+esc(c.name)+'</b> · '+esc(c.status||"")+
-        (c.turnout!=null?' · účast '+f1(c.turnout)+' %':'')+
-        (c.size?' · '+c.size+' zastupitelů':'')+
-        (c.note?'<small>'+esc(c.note)+'</small>':'')+
-        rows.map(function(r){
-          var v=(r.pct!=null?f1(r.pct)+' %':'')+(r.pct!=null&&r.seats!=null?' · ':'')+(r.seats!=null?r.seats+' mand.':'');
-          var tl=thr!==null?'<span class="thr" style="left:'+(thr/ (mx? 1:1))+'%"></span>':'';
-          return '<div class="vrow2"><div>'+esc(r.n)+'</div><div class="vbar2"><i style="width:'+(r._w/mx*100)+'%"></i>'+
-            (thr!==null?'<span class="thr" style="left:'+thr+'%"></span>':'')+'</div><div class="vval">'+v+'</div></div>';
-        }).join("")+'</div>';
-    }).join("")||'<div class="legend">Zatím bez dat.</div>';
+    body.innerHTML=cs.map(cityBlock).join("")||'<div class="legend">Zatím bez dat – spusť workflow „Volby – ČSÚ data“.</div>';
     title.textContent="Komunální volby: krajská města";
     leg.style.display="none";
     meta.textContent="Výsledky do zastupitelstev krajských měst (9.–10. 10. 2026)"+srcTxt();
-    note.textContent="Čárkovaná čára = 5% hranice (kde jsou k dispozici procenta). U koalic jsou uvedeny společné kandidátky. Průběžné výsledky se mění; názvy označené „?“ nebo „neověřen“ ověřte na volby.cz. Obnova každých 5 minut.";
+    note.textContent="Čárkovaná čára = 5% hranice. U koalic jsou uvedeny společné kandidátky; zobrazeno nejvýše 10 kandidátek. Procenta jsou podíl na odevzdaných hlasech. Zdroj: ČSÚ (volby.gov.cz). Obnova každých 5 minut.";
+  }
+
+  /* --- Obce a vesnice --- */
+  function renderObce(){
+    title.textContent="Komunální volby: obce a vesnice";
+    leg.style.display="none";
+    vq.hidden=false;
+    if(!OBCE){
+      body.innerHTML=obceErr?'<div class="legend">Data obcí se nepodařilo načíst ('+esc(obceErr)+'). Zkontroluj, že workflow vytvořil obce.json ve větvi data.</div>'
+                            :'<div class="legend">Načítám obce…</div>';
+      meta.textContent="";note.textContent="";
+      return;
+    }
+    var q=norm(vq.value.trim()),all=OBCE.obce||{},keys=Object.keys(all);
+    meta.textContent=keys.length+" obcí v databázi"+(OBCE.generated?" · data z "+new Date(OBCE.generated).toLocaleString("cs-CZ"):"")+" · zdroj: ČSÚ";
+    if(q.length<2){
+      body.innerHTML='<div class="legend">Zadej aspoň dvě písmena z názvu obce.</div>';
+    }else{
+      var hits=keys.filter(function(k){return norm(all[k].n).indexOf(q)>=0||k===q}).map(function(k){return all[k]});
+      hits.sort(function(a,b){
+        var sa=norm(a.n).indexOf(q)===0?0:1,sb=norm(b.n).indexOf(q)===0?0:1;
+        return sa-sb||(b.size||0)-(a.size||0);
+      });
+      var shown=hits.slice(0,12);
+      body.innerHTML=(shown.map(function(o){
+        return cityBlock({
+          name:o.n,size:o.size||null,turnout:o.ucast,
+          status:(o.sec!=null&&o.sec>=99.995)?"konečné, sečteno 100 %":"průběžné, sečteno "+(o.sec!=null?f1(o.sec):"?")+" %",
+          rows:(o.rows||[]).map(function(r){return {n:r[0],pct:r[1],seats:r[2]}})
+        });
+      }).join("")||'<div class="legend">Nic nenalezeno.</div>')+
+      (hits.length>12?'<div class="legend">Zobrazeno 12 z '+hits.length+' nalezených – upřesni hledání.</div>':'');
+    }
+    note.textContent="U malých obcí kandidují převážně nezávislé kandidátky, názvy mohou být dlouhé. Procenta jsou podíl na odevzdaných hlasech (voliči mají tolik hlasů, kolik se volí zastupitelů). Oficiální výsledky: volby.gov.cz. Obnova každých 5 minut.";
   }
 
   /* --- ČR celkem: mandáty --- */
@@ -325,12 +351,14 @@ function toggleTheme(){
     title.textContent="Komunální volby: celá ČR";
     leg.style.display="none";
     meta.textContent="ČR celkem – "+(n.status||"")+(n.turnout!=null?" · účast "+f1(n.turnout)+" %":"")+" · zvoleno "+f0(total)+" zastupitelů"+srcTxt();
-    note.textContent="Podíl na všech dosud přidělených mandátech v obcích, nikoli podíl hlasů. Většinu mandátů získávají sdružení nezávislých kandidátů v malých obcích, takže údaj neodpovídá celostátní podpoře stran. Průběžné výsledky se mění. Obnova každých 5 minut.";
+    note.textContent="Podíl na přidělených mandátech v obcích, nikoli podíl hlasů. Většinu mandátů získávají sdružení nezávislých kandidátů v malých obcích, takže údaj neodpovídá celostátní podpoře stran. Obnova každých 5 minut.";
   }
 
   function render(){
     var k=sel.value;
+    vq.hidden=(k!=="obce");
     if(k==="cities")renderCities();
+    else if(k==="obce")renderObce();
     else if(k==="national")renderNational();
     else renderCompare(k);
   }
@@ -347,6 +375,17 @@ function toggleTheme(){
 
   function valid(j){return j&&Array.isArray(j.data)&&j.data.length&&j.meta}
 
+  function loadObce(){
+    fetchT(URL_OBCE+"?t="+Date.now()).then(function(j){
+      if(!j||!j.obce)throw new Error("neplatný formát");
+      OBCE=j;obceErr=null;
+      if(sel.value==="obce")render();
+    }).catch(function(e){
+      obceErr=e&&e.message?e.message:String(e);
+      if(sel.value==="obce")render();
+    });
+  }
+
   function load(){
     fetchT(URL_JSON+"?t="+Date.now()).then(function(j){
       if(!valid(j))throw new Error("neplatný formát");
@@ -359,6 +398,7 @@ function toggleTheme(){
       if(valid(c)){STATE=c;src="uložená kopie (offline)"}
       render();
     });
+    if(sel.value==="obce")loadObce();
   }
 
   function show(){
@@ -371,7 +411,11 @@ function toggleTheme(){
   tabs.forEach(function(b){
     if(b!==tab)b.addEventListener("click",function(){view.hidden=true;tab.classList.remove("on")});
   });
-  sel.addEventListener("change",render);
+  sel.addEventListener("change",function(){
+    if(sel.value==="obce"&&!OBCE)loadObce();
+    render();
+  });
+  vq.addEventListener("input",function(){if(sel.value==="obce")render()});
 })();
 </script>
 
