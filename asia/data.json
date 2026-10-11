@@ -1,122 +1,178 @@
 {
-  "last_updated": "2026-10-11T11:54:36Z",
+  "last_updated": "2026-10-11T21:40:31Z",
   "assessment": {
     "threat_level": "HIGH",
     "sentiment_score": 72,
-    "security_status_cs": "Asijské trhy a globální technologický sektor čelí silným otřesům po šoku způsobeném novým čínským modelem umělé inteligence DeepSeek, který vyvolal masivní výprodej amerických i asijských AI titulů. Současně eskaluje politická nestabilita v Jižní Asii, zejména v Pákistánu, kde byla vyhlášena nouzová stav, a v Indii čelící masivním protivládním protestům mladé generace.",
-    "security_status_en": "Asian markets and the global tech sector are facing severe disruptions following the shock caused by China's new DeepSeek AI model, which triggered a massive sell-off in US and Asian AI equities. Simultaneously, political instability is escalating in South Asia, notably in Pakistan where a state of emergency was declared, and in India, which faces sweeping youth-led anti-government protests.",
+    "security_status_cs": "Trhy zažívají silné otřesy po úspěchu čínského AI modelu DeepSeek, který vyvolal prudký propad amerických technologických akcií a útěk investorů k bezpečným aktivům, jako je japonský jen. V regionu mezitím roste politické napětí v Pákistánu po vyhlášení výjimečného stavu a pokračují obchodní jednání mezi Čínou a Evropou ohledně hybridních vozidel.",
+    "security_status_en": "Markets are experiencing severe turbulence following the rise of Chinese AI startup DeepSeek, triggering a sharp plunge in US tech stocks and a flight to safe havens like the Japanese yen. Meanwhile, regional political tensions are escalating in Pakistan following the declaration of a state of emergency, alongside ongoing trade talks between China and Europe regarding hybrid vehicles.",
     "recommendations": [
       {
         "sector_cs": "Polovodiče (TSMC, Samsung, ASML)",
         "sector_en": "Semiconductors (TSMC, Samsung, ASML)",
-        "action": "SELL",
-        "reason_cs": "Globální technologický výprodej spuštěný čínským AI průlomem DeepSeek a obavy z přehodnocení kapitálových výdajů na AI infrastrukturu drtí ocenění v celém sektoru.",
-        "reason_en": "The global tech sell-off triggered by China's DeepSeek AI breakthrough and fears of capital expenditure reassessments in AI infrastructure are crushing valuations across the sector."
+        "action": "HOLD",
+        "reason_cs": "Sektor čelí vysoké volatilitě kvůli otřesům v oblasti AI infrastruktury a posunu dodavatelských řetězců v Japonsku, doporučuje se vyčkat na stabilizaci.",
+        "reason_en": "The sector faces high volatility due to shocks in AI infrastructure and Japanese supply chain pivots, advising a wait-and-see approach for stabilization."
       },
       {
         "sector_cs": "Čínské akcie (ETF FXI, MCHI)",
         "sector_en": "Chinese Equities (FXI, MCHI ETFs)",
         "action": "HOLD",
-        "reason_cs": "Ačkoliv technologický pokrok v oblasti AI ukazuje na inovativní sílu Číny, přetrvávající regulační rizika a obchodní napětí s EU ohledně vozidel a technologií vyžadují opatrnost.",
-        "reason_en": "While technological progress in AI highlights China's innovative strength, persistent regulatory risks and trade tensions with the EU regarding vehicles and tech warrant caution."
+        "reason_cs": "Technologický pokrok (DeepSeek) sice ukazuje sílu čínského inovačního sektoru, ale regulační rizika a napětí v obchodu s EU omezují prostor pro růst.",
+        "reason_en": "While technological breakthroughs (DeepSeek) highlight China's innovation strength, regulatory risks and trade tensions with the EU cap immediate upside potential."
       },
       {
         "sector_cs": "Japonské akcie (Nikkei 225 ETF)",
         "sector_en": "Japanese Equities (Nikkei 225 ETFs)",
-        "action": "HOLD",
-        "reason_cs": "Silný japonský jen působí jako bezpečný přístav v době globálních výkyvů, ale zároveň vytváří tlak na exportně orientované japonské tituly.",
-        "reason_en": "The strong Japanese yen acts as a safe haven during global turbulence, but simultaneously pressures export-oriented Japanese equities."
+        "action": "BUY",
+        "reason_cs": "Silná pozice japonského jenu jako bezpečného přístavu a transformace bývalých továrních kapacit do čipového dodavatelského řetězce podporují atraktivitu trhu.",
+        "reason_en": "The strong safe-haven appeal of the Japanese yen and the pivot of former manufacturing facilities into the chip supply chain enhance market attractiveness."
       },
       {
         "sector_cs": "Obranný průmysl (Lockheed Martin, RTX, Mitsubishi Heavy)",
         "sector_en": "Defense Industry (Lockheed Martin, RTX, Mitsubishi Heavy)",
         "action": "BUY",
-        "reason_cs": "Geopolitické napětí v regionu APAC, přetrvávající problémy s tchajwanskou obranyschopností a poptávka po údržbových základnách udržují obranný sektor v silné pozici.",
-        "reason_en": "Geopolitical tensions in the APAC region, ongoing concerns over Taiwan's defense readiness, and demand for maintenance bases keep the defense sector in a strong position."
+        "reason_cs": "Trvající geopolitická nestabilita v Asii a Tichomoří a rostoucí poptávka po regionálním obranném vybavení udržují silnou poptávku po titulech.",
+        "reason_en": "Persistent geopolitical instability across the Asia-Pacific and rising demand for regional defense equipment maintain strong sector tailwinds."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí bankovní a energetický sektor zůstává primárně navázán na evropské makroekonomické prostředí, přímý dopad asijských technologických šoků je omezený.",
-        "reason_en": "The domestic banking and energy sectors remain primarily tied to the European macroeconomic environment, with direct exposure to Asian tech shocks remaining limited."
+        "reason_cs": "Domácí tituly jsou vůči asijským technologickým otřesům izolovány, jejich výkonnost však nadále závisí na evropské makroekonomické situaci a sazbách.",
+        "reason_en": "Domestic stocks are largely insulated from Asian tech shocks, though their performance continues to depend on broader European macroeconomic conditions and rates."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na globálních trzích se zvýšeným zájmem o bezpečné přístavy (japonský jen, švýcarský frank) kvůli dozvukům AI šoku.",
-    "forecast_en": "Continued volatility in global markets is expected over the coming days, with heightened demand for safe havens (Japanese yen, Swiss franc) due to the lingering effects of the AI shock.",
-    "forecast_review_cs": "Předchozí předpověď o přetrvávající volatilitě na technologických trzích a opatrnosti investorů vůči AI a obchodu se plně potvrdila.",
-    "forecast_review_en": "The previous forecast regarding persistent volatility in technology markets and cautious investor sentiment toward AI and trade was fully confirmed."
+    "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající zvýšenou volatilitu na globálních trzích a silný důraz na ochranu kapitálu v reakci na šok v sektoru AI.",
+    "forecast_en": "Persistent elevated volatility in global markets and a strong focus on capital preservation are expected over the coming days in response to the AI sector shock.",
+    "forecast_review_cs": "Předchozí předpověď o volatilitě a poptávce po bezpečných přístavech se plně potvrdila díky globálním dopadům vývoje kolem čínského DeepSeeku.",
+    "forecast_review_en": "The previous forecast regarding volatility and safe-haven demand was fully confirmed due to the global fallout from developments surrounding China's DeepSeek."
   },
   "articles": [
     {
-      "title": "Arsenal forward Russo voted as England women's player of the year",
+      "title": "Despite a China-India thaw, military relations are stuck in 2020",
+      "summary": "Chinese President Xi Jinping has met Indian Prime Minister Narendra Modi three times in the past three years. Indian pilgrims are back at Kailash, the Tibetan mountain sacred to Hindus and Buddhists. Air China has restarted flights to New Delhi. But can trust grow between two armies that meet only in a crisis?\nAnd why does the Pentagon now talk to the People’s Liberation Army (PLA) more easily than India’s army does?\nIn September, Xi made his first visit to India in nearly seven years; Beijing...",
+      "link": "https://www.scmp.com/opinion/asia-opinion/article/3370226/despite-china-india-thaw-military-relations-are-stuck-2020?utm_source=rss_feed",
+      "published": "Sun, 11 Oct 2026 21:30:05 +0000",
+      "source": "SCMP"
+    },
+    {
+      "title": "From buses to boats and helicopters? Jakarta dreams of taking public transport sky-high",
+      "summary": "<p>shorter 1 line\nJakarta plans to expand public transport offerings from buses to boats and potentially helicopters, raising questions about cost and affordability.</p>",
+      "link": "https://www.straitstimes.com/asia/se-asia/from-buses-to-boats-and-helicopters-jakarta-dreams-of-taking-public-transport-sky-high",
+      "published": "Mon, 12 Oct 2026 05:00:00 +0800",
+      "source": "Straits Times"
+    },
+    {
+      "title": "Pakistan suspends Imran Khan’s party-led provincial government",
+      "summary": "Pakistan has suspended Khyber Pakhtunkhwa's PTI-led government after declaring a state of emergency in the province.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/11/pakistan-suspends-imran-khans-party-led-provincial-government?traffic_source=rss",
+      "published": "Sun, 11 Oct 2026 20:21:13 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "US homeland security chief dismisses security threat from live-streaming execution",
+      "summary": "A top Trump administration official said on Sunday that the planned live stream execution of the perpetrator of a mass killing of US soldiers would not pose an additional security risk to the United States.\n“I don’t see an elevated risk at this point at all because of this,” US Homeland Security chief Markwayne Mullin told CBS News’ Face the Nation, when asked if it risked turning the perpetrator into a martyr for his cause.\n“I think people need to understand … if you attack America, we will...",
+      "link": "https://www.scmp.com/news/world/united-states-canada/article/3370516/us-homeland-security-chief-dismisses-security-threat-live-streaming-execution?utm_source=rss_feed",
+      "published": "Sun, 11 Oct 2026 20:10:32 +0000",
+      "source": "SCMP"
+    },
+    {
+      "title": "Two Indian sailors missing after vessel attacked off Oman",
+      "summary": "<p>The tanker MT Petro Dolphin, with 11 Indian seafarers on board, was attacked at the anchorage area for the port of Sohar in northern Oman.</p>",
+      "link": "https://www.straitstimes.com/asia/south-asia/two-indian-sailors-missing-after-vessel-attacked-off-oman",
+      "published": "Mon, 12 Oct 2026 03:36:55 +0800",
+      "source": "Straits Times"
+    },
+    {
+      "title": "Pakistan imposes emergency rule over Imran Khan’s provincial government",
+      "summary": "<p>Khan’s party has been rallying for several days to pressure the government for his release.</p>",
+      "link": "https://www.straitstimes.com/asia/south-asia/imran-khans-partys-provincial-government-suspended-by-pakistan-president",
+      "published": "Mon, 12 Oct 2026 02:30:00 +0800",
+      "source": "Straits Times"
+    },
+    {
+      "title": "Millions of Americans will have fewer options during Medicare open enrollment this year",
+      "summary": "There will be no Medicare Advantage plans in 181 counties in 2027, up from 67 in 2026.",
+      "link": "https://www.marketwatch.com/story/millions-of-americans-will-have-fewer-options-during-medicare-open-enrollment-this-year-6b56698b?mod=mw_rss_topstories",
+      "published": "Sun, 11 Oct 2026 16:35:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "At least five people missing as flash floods in Nepal sweep away houses",
+      "summary": "Authorities urge villagers to move to safer places after a river in the central part of the country bursts its banks.",
+      "link": "https://www.aljazeera.com/news/2026/10/11/at-least-five-people-missing-as-flash-floods-in-nepal-sweep-away-houses?traffic_source=rss",
+      "published": "Sun, 11 Oct 2026 16:00:48 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Putin aide looks to boost Russian shipbuilding ties with China during visit",
+      "summary": "Russia is looking to expand shipbuilding cooperation with China through technology partnerships and joint investment, visiting presidential aide and Maritime Board chairman Nikolai Patrushev said.\nPatrushev held talks in Beijing with Ke Jixin, Chinese vice-minister of industry and information technology, the Russian Maritime Board said in a statement on Saturday.\nIt said the two sides discussed the possibility of Chinese shipbuilders becoming technology partners and equipment suppliers for new...",
+      "link": "https://www.scmp.com/news/china/diplomacy/article/3370497/putin-aide-looks-boost-russian-shipbuilding-ties-china-during-visit?utm_source=rss_feed",
+      "published": "Sun, 11 Oct 2026 16:00:11 +0000",
+      "source": "SCMP"
+    },
+    {
+      "title": "Dissanayake highlights ‘good relations’ with India, points to New Delhi’s Katchatheevu stance",
+      "summary": "Sri Lankan President says India has acknowledged before its Supreme Court that Katchatheevu belongs to Sri Lanka. Last week, Attorney General R. Venkataramani told the court that India did not intend reopening the Katchatheevu agreements of 1974 and 1976 with Sri Lanka",
+      "link": "https://www.thehindu.com/news/international/dissanayake-highlights-good-relations-with-india-points-to-new-delhis-katchatheevu-stance/article71572026.ece",
+      "published": "Sun, 11 Oct 2026 21:20:45 +0530",
+      "source": "The Hindu"
+    },
+    {
+      "title": "Power bank fire forces plane to emergency land in India",
+      "summary": "A plane flying from Delhi to Chennai made an emergency landing after a power bank reportedly caught fire on board.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/11/power-bank-fire-forces-plane-to-emergency-land-in-india?traffic_source=rss",
+      "published": "Sun, 11 Oct 2026 15:26:29 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Russia hits Ukraine power plants despite Trump’s energy ceasefire claim",
+      "summary": "Russian strikes hit multiple Ukrainian power plants on Sunday after US President Donald Trump’s claim that both sides had agreed to stop hitting each other’s energy infrastructure, Ukraine’s President Volodymyr Zelensky said.\nZelensky, in a post on social media, said a drone had hit a Kyiv power plant, leading to power cuts in the capital.\nSoon after, he said there had been a strike on the CHP-5 power plant in the eastern city of Kharkiv, while adding that “Ukrainian skies have been infested...",
+      "link": "https://www.scmp.com/news/world/europe/article/3370510/trump-says-russia-ukraine-agree-energy-ceasefire?utm_source=rss_feed",
+      "published": "Sun, 11 Oct 2026 15:12:04 +0000",
+      "source": "SCMP"
+    },
+    {
+      "title": "Russia hits Ukraine power plants despite Trump energy ceasefire claim",
+      "summary": "Zelenskyy expressed surprise at President Trump's announcement of an energy ceasefire and said he was seeking further details, while Russia has yet to confirm its agreement.",
+      "link": "https://www.channelnewsasia.com/world/russia-hits-ukraine-power-plants-despite-trump-energy-ceasefire-claim-6450451",
+      "published": "Sun, 11 Oct 2026 22:59:00 +0800",
+      "source": "CNA"
+    },
+    {
+      "title": "In pictures: Full throttle at the F1 Singapore Grand Prix 2026",
       "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/arsenal-forward-russo-voted-england-womens-player-year-6450231",
-      "published": "Sun, 11 Oct 2026 19:48:20 +0800",
+      "link": "https://www.channelnewsasia.com/singapore/f1-singapore-grand-prix-2026-photos-6450296",
+      "published": "Sun, 11 Oct 2026 22:59:00 +0800",
       "source": "CNA"
     },
     {
-      "title": "The EU’s China dilemma: how to counter Beijing without alienating friends",
-      "summary": "In September, the Jaecoo 7 – a budget SUV from China’s Chery Automobile – made headlines when it shifted more than 10,000 units to become Britain’s bestselling car.\nChristened the “Temu Range Rover” online, a nod to the cheap goods available on the Chinese online marketplace and the luxury 4X4 made by Jaguar Land Rover that it resembles, its success showed British drivers’ new-found taste for cut-price Chinese cars.\nOverall, 23 per cent of new cars bought in Britain last month were Chinese...",
-      "link": "https://www.scmp.com/news/china/diplomacy/article/3370482/eus-china-dilemma-how-counter-beijing-without-alienating-friends?utm_source=rss_feed",
-      "published": "Sun, 11 Oct 2026 11:00:14 +0000",
-      "source": "SCMP"
+      "title": "We’re about to get a huge read on whether earnings can keep propping up the stock market",
+      "summary": "High hopes for third-quarter earnings are outweighing concerns around interest rates and oil prices — but one expert warns markets have gotten “extremely complacent.”",
+      "link": "https://www.marketwatch.com/story/were-about-to-get-a-huge-read-on-whether-earnings-can-keep-propping-up-the-stock-market-459b565b?mod=mw_rss_topstories",
+      "published": "Sun, 11 Oct 2026 14:00:00 GMT",
+      "source": "MarketWatch"
     },
     {
-      "title": "Hong Kong hiker dies, Singaporean teen discharged after 2 trail emergencies",
-      "summary": "At least two people were airlifted to hospital in the past two days after falling ill while hiking in Hong Kong, with a 17-year-old Singaporean girl discharged and the other dying.\nThe teenager was flown to Ruttonjee Hospital in Wan Chai on Saturday morning after vomiting and experiencing chills while hiking on Lion Rock, a 495-metre peak.\nIn a separate incident, a middle-aged man suddenly felt unwell and collapsed while hiking with a friend of a similar age near Ha Miu Tin, Wu Kau Tang, in...",
-      "link": "https://www.scmp.com/news/hong-kong/health-environment/article/3370498/hong-kong-hiker-dies-singaporean-teen-discharged-after-2-trail-emergencies?utm_source=rss_feed",
-      "published": "Sun, 11 Oct 2026 10:56:25 +0000",
-      "source": "SCMP"
-    },
-    {
-      "title": "Mohamed Salah sets Turkish Super Lig record for Trabzonspor",
-      "summary": "Salah becomes first player with 10 goal contributions, seven goals and three assists after Trabzonspor beat Samsunspor.",
-      "link": "https://www.aljazeera.com/sports/2026/10/11/mohamed-salah-sets-turkish-super-lig-record-for-trabzonspor?traffic_source=rss",
-      "published": "Sun, 11 Oct 2026 10:48:34 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Modi is in trouble",
-      "summary": "The CJP protests sweeping through the country have exposed India’s hollowed-out democracy.",
-      "link": "https://www.aljazeera.com/opinions/2026/10/11/modi-is-in-trouble?traffic_source=rss",
-      "published": "Sun, 11 Oct 2026 10:31:45 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Marco Bezzecchi wins in Indonesia as Martin takes MotoGP lead",
-      "summary": "Bezzecchi's win, the 300th victory for an Italian in MotoGP, also kept his faint championship ​hopes alive.",
-      "link": "https://www.aljazeera.com/sports/2026/10/11/indonesia-gp-motogp-bezzecchi-martin-world-championship?traffic_source=rss",
-      "published": "Sun, 11 Oct 2026 10:28:08 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "South Africa in peril as Australia take three wickets in Sunday's opening session",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/south-africa-in-peril-australia-take-three-wickets-in-sundays-opening-session-6450166",
-      "published": "Sun, 11 Oct 2026 18:06:42 +0800",
+      "title": "Max Verstappen wins Singapore Grand Prix for first time",
+      "summary": "The four-time world champion had never won or even achieved a pole position in nine previous attempts going back to his debut for Toro Rosso in 2015.",
+      "link": "https://www.channelnewsasia.com/sport/max-verstappen-singapore-grand-prix-first-win-6450371",
+      "published": "Sun, 11 Oct 2026 21:59:00 +0800",
       "source": "CNA"
     },
     {
-      "title": "‘Special-forces’ travel: Chinese woman wins admiration after climbing 5 famous peaks in 5 days",
-      "summary": "A woman from southwestern China has climbed five famous mountains in five provinces in five days, earning widespread admiration on social media.\nThe climber, surnamed Peng, began her journey in her hometown of Guiyang, Guizhou province, on September 23, the Xiaoxiang Morning Herald reported.\nShe climbed Mount Hua in northwestern Shaanxi province the following day, then Mount Heng in neighbouring Shanxi province on September 25, Mount Tai in eastern Shandong province on September 26, Mount Song...",
-      "link": "https://www.scmp.com/news/people-culture/environment/article/3370493/special-forces-travel-chinese-woman-wins-admiration-after-climbing-5-famous-peaks-5-days?utm_source=rss_feed",
-      "published": "Sun, 11 Oct 2026 10:00:15 +0000",
-      "source": "SCMP"
+      "title": "Cheong Wa Dae says Lee ordered rescue operations for Daegu incident while on golf course",
+      "summary": "SEOUL, Oct. 11 (Yonhap) -- President Lee Jae Myung was indeed playing golf when ...",
+      "link": "https://en.yna.co.kr/view/AEN20261011003200315",
+      "published": "Sun, 11 Oct 2026 22:00:18 +0900",
+      "source": "Yonhap"
     },
     {
-      "title": "How Taiwan’s military manpower shortage is undermining its ability to fight",
-      "summary": "Taiwan’s military is grappling with a worsening manpower shortage, with its volunteer staffing rate remaining below the 80 per cent target for a third consecutive year and concerns mounting over the impact on combat readiness, according to the island’s legislature.\nThe shortages extend deep into frontline formations – including infantry, artillery, missile and air defence units – raising questions over whether Taiwan will have enough trained personnel to operate and maintain the vast quantities...",
-      "link": "https://www.scmp.com/news/china/military/article/3370477/how-taiwans-military-manpower-shortage-undermining-its-ability-fight?utm_source=rss_feed",
-      "published": "Sun, 11 Oct 2026 10:00:12 +0000",
-      "source": "SCMP"
-    },
-    {
-      "title": "Pakistan imposes emergency rule in northern province after protests",
-      "summary": "The province of Khyber Pakhtunkhwa is a stronghold of jailed former prime minister Imran Khan's Pakistan Tehreek-e-Insaf (PTI) party.",
-      "link": "https://www.channelnewsasia.com/asia/pakistan-province-emergency-rule-imran-khan-supporters-6450151",
-      "published": "Sun, 11 Oct 2026 17:52:25 +0800",
-      "source": "CNA"
+      "title": "Foreign ministry recommends S. Koreans in Saudi Arabia leave country amid Houthi attacks",
+      "summary": "SEOUL, Oct. 11 (Yonhap) -- The foreign ministry said Sunday it raised a travel w...",
+      "link": "https://en.yna.co.kr/view/AEN20261011002900315",
+      "published": "Sun, 11 Oct 2026 20:58:25 +0900",
+      "source": "Yonhap"
     },
     {
       "title": "Pakistan President declares emergency in Khyber Pakhtunkhwa, provincial government ceases to exist",
@@ -124,13 +180,6 @@
       "link": "https://www.thehindu.com/news/international/pakistan-president-declares-emergency-in-khyber-pakhtunkhwa-provincial-government-ceases-to-exist/article71571044.ece",
       "published": "Sun, 11 Oct 2026 15:09:16 +0530",
       "source": "The Hindu"
-    },
-    {
-      "title": "Two men die, 16 injured in float festival accidents in Japan’s Osaka prefecture",
-      "summary": "<p>Both victims were trapped underneath when the floats they were on overturned when turning corners.</p>",
-      "link": "https://www.straitstimes.com/asia/east-asia/two-men-die-16-injured-in-float-festival-accidents-in-japans-osaka-prefecture",
-      "published": "Sun, 11 Oct 2026 17:27:00 +0800",
-      "source": "Straits Times"
     },
     {
       "title": "The do’s, don’ts and pitfalls when applying for permanent residency in Japan",
@@ -145,20 +194,6 @@
       "link": "https://www.japantimes.co.jp/culture/2026/10/11/tv-streaming/netflix-strategy-plastic-beauty/",
       "published": "Sun, 11 Oct 2026 18:00:00 +0900",
       "source": "Japan Times"
-    },
-    {
-      "title": "Imran Khan's party's provincial government suspended by Pakistan president",
-      "summary": "<p>ISLAMABAD, Oct 11 - Pakistan's president suspended the government in a province ruled by the party of jailed former Prime Minister Imran Khan after declaring a state of emergency on Sunday, his office said, stripping its elected administration of its powers.</p>",
-      "link": "https://www.straitstimes.com/asia/imran-khans-partys-provincial-government-suspended-by-pakistan-president",
-      "published": "Sun, 11 Oct 2026 16:55:21 +0800",
-      "source": "Straits Times"
-    },
-    {
-      "title": "Schools in some Malaysian states to reopen on Oct 12 as air quality improves",
-      "summary": "<p>Any changes to operating directives would be communicated through the Melaka Education Department.</p>",
-      "link": "https://www.straitstimes.com/asia/se-asia/schools-in-melaka-parts-of-perak-and-kl-to-reopen-on-oct-12-as-air-quality-improves",
-      "published": "Sun, 11 Oct 2026 16:50:00 +0800",
-      "source": "Straits Times"
     },
     {
       "title": "Starlink row: Musk shares reports on Reliance-linked firm's BJP campaign role, political donations",
@@ -179,27 +214,6 @@
       "summary": "SEOUL, Oct. 11 (Yonhap) -- Two human rights groups called Sunday for the immedia...",
       "link": "https://en.yna.co.kr/view/AEN20261011002000315",
       "published": "Sun, 11 Oct 2026 16:24:14 +0900",
-      "source": "Yonhap"
-    },
-    {
-      "title": "India condemns attack on King Khalid International Airport in Riyadh",
-      "summary": "The Ministry of External Affairs called the October 10 attack, which killed 12 and injured over 300, “completely unacceptable,” as Saudi Arabia blamed Houthi militants",
-      "link": "https://www.thehindu.com/news/national/india-condemns-attack-on-king-khalid-international-airport-in-riyadh/article71570790.ece",
-      "published": "Sun, 11 Oct 2026 12:38:08 +0530",
-      "source": "The Hindu"
-    },
-    {
-      "title": "Yonhap News to co-host special exhibition on ancient Egyptian mummies",
-      "summary": "SEOUL, Oct. 11 (Yonhap) -- Yonhap News Agency, South Korea's key newswire servic...",
-      "link": "https://en.yna.co.kr/view/AEN20261011001900315",
-      "published": "Sun, 11 Oct 2026 14:10:47 +0900",
-      "source": "Yonhap"
-    },
-    {
-      "title": "Today in Korean history",
-      "summary": "Oct. 12",
-      "link": "https://en.yna.co.kr/view/AEN20261011000900315",
-      "published": "Sun, 11 Oct 2026 14:00:01 +0900",
       "source": "Yonhap"
     },
     {
@@ -229,13 +243,6 @@
       "link": "https://thediplomat.com/2026/10/chinas-bid-to-define-the-global-south/",
       "published": "Sun, 11 Oct 2026 05:29:00 +0900",
       "source": "The Diplomat"
-    },
-    {
-      "title": "Millions of Americans will have fewer options during Medicare open enrollment this year",
-      "summary": "There will be no Medicare Advantage plans in 181 counties in 2027, up from 67 in 2026.",
-      "link": "https://www.marketwatch.com/story/millions-of-americans-will-have-fewer-options-during-medicare-open-enrollment-this-year-6b56698b?mod=mw_rss_topstories",
-      "published": "Sat, 10 Oct 2026 19:44:00 GMT",
-      "source": "MarketWatch"
     },
     {
       "title": "Why Japan's 7-Eleven store closures in India don’t signal an exit",
@@ -273,13 +280,6 @@
       "source": "BBC News"
     },
     {
-      "title": "Meet India's feisty Gen Z protester who is taking on Modi",
-      "summary": "Neha Bora has emerged as one of the most recognisable faces from India's recent Gen Z-led protests.",
-      "link": "https://www.bbc.co.uk/news/articles/c5n49xln3lz0o?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 09 Oct 2026 07:19:24 GMT",
-      "source": "BBC News"
-    },
-    {
       "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
       "summary": "U.S. stocks were mostly lower, with the Nasdaq leading declines as makers of AI infrastructure suffered steep falls, many in the double digits. Nvidia was down 16%.",
       "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
@@ -301,44 +301,35 @@
       "source": "WSJ Markets"
     },
     {
-      "title": "Afghanistan opens potential China trade route to Persian Gulf",
+      "title": "Investors bet on Japan, Australia rental housing as rates, home prices rise",
       "summary": "",
-      "link": "https://asia.nikkei.com/spotlight/belt-and-road/afghanistan-opens-potential-china-trade-route-to-persian-gulf",
-      "published": "2026-10-11 11:54",
+      "link": "https://asia.nikkei.com/business/markets/trading-asia/investors-bet-on-japan-australia-rental-housing-as-rates-home-prices-rise",
+      "published": "2026-10-11 21:40",
       "source": "Nikkei Asia"
     },
     {
-      "title": "Vietnam opens 'landmark' piracy prosecution protecting Japanese IP",
+      "title": "Former iPhone display plant in Japan to start new life in chip supply chain",
       "summary": "",
-      "link": "https://asia.nikkei.com/business/media-entertainment/vietnam-opens-landmark-piracy-prosecution-protecting-japanese-ip",
-      "published": "2026-10-11 11:54",
+      "link": "https://asia.nikkei.com/spotlight/supply-chain/former-iphone-display-plant-in-japan-to-start-new-life-in-chip-supply-chain",
+      "published": "2026-10-11 21:40",
       "source": "Nikkei Asia"
     },
     {
-      "title": "Robot baristas and K-pop dancers lead South Korea's physical AI boom",
+      "title": "The Pentagon- and Toyota-backed startup trying to cut US reliance on China iron",
       "summary": "",
-      "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/robot-baristas-and-k-pop-dancers-lead-south-korea-s-physical-ai-boom",
-      "published": "2026-10-11 11:54",
+      "link": "https://asia.nikkei.com/business/materials/the-pentagon-and-toyota-backed-startup-trying-to-cut-us-reliance-on-china-iron",
+      "published": "2026-10-11 21:40",
       "source": "Nikkei Asia"
     },
     {
-      "title": "French defense contractor Thales to open Japan maintenance base",
+      "title": "Pakistan suspends Imran Khan followers' provincial government",
       "summary": "",
-      "link": "https://asia.nikkei.com/business/aerospace-defense-industries/french-defense-contractor-thales-to-open-japan-maintenance-base",
-      "published": "2026-10-11 11:54",
+      "link": "https://asia.nikkei.com/politics/pakistan-suspends-imran-khan-followers-provincial-government",
+      "published": "2026-10-11 21:40",
       "source": "Nikkei Asia"
     }
   ],
   "history": [
-    {
-      "date": "2026-09-29 01:50",
-      "threat_level": "MEDIUM",
-      "value": 2,
-      "sentiment_score": 45,
-      "incidents": 20,
-      "hangseng": 24532.12,
-      "usd_czk": null
-    },
     {
       "date": "2026-09-29 11:54",
       "threat_level": "MEDIUM",
@@ -599,6 +590,15 @@
       "incidents": 40,
       "hangseng": 24211.35,
       "usd_czk": null
+    },
+    {
+      "date": "2026-10-11 21:40",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 72,
+      "incidents": 40,
+      "hangseng": 24211.35,
+      "usd_czk": null
     }
   ],
   "locations": [
@@ -608,13 +608,6 @@
       "lon": 116.4074,
       "name_cs": "Peking",
       "name_en": "Beijing"
-    },
-    {
-      "key": "Taipei",
-      "lat": 25.033,
-      "lon": 121.5654,
-      "name_cs": "Tchaj-pej",
-      "name_en": "Taipei"
     },
     {
       "key": "Tokyo",
@@ -659,13 +652,6 @@
       "name_en": "Bangkok"
     },
     {
-      "key": "Hanoi",
-      "lat": 21.0285,
-      "lon": 105.8542,
-      "name_cs": "Hanoj",
-      "name_en": "Hanoi"
-    },
-    {
       "key": "Jakarta",
       "lat": -6.2088,
       "lon": 106.8456,
@@ -680,13 +666,6 @@
       "name_en": "Singapore"
     },
     {
-      "key": "Kuala Lumpur",
-      "lat": 3.139,
-      "lon": 101.6869,
-      "name_cs": "Kuala Lumpur",
-      "name_en": "Kuala Lumpur"
-    },
-    {
       "key": "Canberra",
       "lat": -35.2809,
       "lon": 149.13,
@@ -694,18 +673,19 @@
       "name_en": "Canberra"
     },
     {
-      "key": "Kabul",
-      "lat": 34.5553,
-      "lon": 69.2075,
-      "name_cs": "Kábul",
-      "name_en": "Kabul"
-    },
-    {
       "key": "Yangon",
       "lat": 16.8409,
       "lon": 96.1735,
       "name_cs": "Rangún",
       "name_en": "Yangon"
+    },
+    {
+      "key": "Washington",
+      "lat": 38.9,
+      "lon": -77.04,
+      "name_cs": "Washington, D.C.",
+      "name_en": "Washington",
+      "auto": true
     },
     {
       "key": "New York",
@@ -716,19 +696,19 @@
       "auto": true
     },
     {
-      "key": "Turkey",
-      "lat": 39,
-      "lon": 35,
-      "name_cs": "Turecko",
-      "name_en": "Turkey",
+      "key": "Ukrain",
+      "lat": 50.45,
+      "lon": 30.52,
+      "name_cs": "Ukrajina",
+      "name_en": "Ukrain",
       "auto": true
     },
     {
-      "key": "Egypt",
-      "lat": 26.8,
-      "lon": 30.8,
-      "name_cs": "Egypt",
-      "name_en": "Egypt",
+      "key": "Russia",
+      "lat": 55.75,
+      "lon": 37.62,
+      "name_cs": "Rusko",
+      "name_en": "Russia",
       "auto": true
     },
     {
@@ -772,38 +752,6 @@
       "auto": true
     },
     {
-      "key": "London",
-      "lat": 51.5,
-      "lon": -0.12,
-      "name_cs": "Londýn",
-      "name_en": "London",
-      "auto": true
-    },
-    {
-      "key": "France",
-      "lat": 48.86,
-      "lon": 2.35,
-      "name_cs": "Paříž",
-      "name_en": "France",
-      "auto": true
-    },
-    {
-      "key": "Italy",
-      "lat": 41.9,
-      "lon": 12.5,
-      "name_cs": "Řím",
-      "name_en": "Italy",
-      "auto": true
-    },
-    {
-      "key": "South Africa",
-      "lat": -30.6,
-      "lon": 22.9,
-      "name_cs": "Jihoafrická republika",
-      "name_en": "South Africa",
-      "auto": true
-    },
-    {
       "key": "Colombia",
       "lat": 4.57,
       "lon": -74.3,
@@ -813,57 +761,57 @@
     }
   ],
   "location_counts": {
-    "Beijing": 40,
-    "Hong Kong": 39,
-    "Tokyo": 15,
+    "Beijing": 41,
+    "Hong Kong": 40,
+    "Tokyo": 16,
     "Shanghai": 7,
-    "Seoul": 17,
+    "Seoul": 18,
     "South China Sea": 5,
     "Taipei": 14,
     "Manila": 7,
     "Pyongyang": 8,
-    "Washington, D.C.": 2,
+    "Washington, D.C.": 3,
     "Los Angeles": 2,
     "Florida": 1,
-    "Rusko": 1,
+    "Rusko": 3,
     "Írán": 1,
     "Čína": 7,
     "Tchaj-wan": 3,
     "Japonsko": 1,
-    "Indie": 8,
+    "Indie": 9,
     "Londýn": 2,
     "Berlín": 1,
     "Paříž": 1,
-    "Pákistán": 3,
+    "Pákistán": 4,
     "San Francisco": 1,
     "Kanada": 1,
-    "Ukrajina": 1,
+    "Ukrajina": 2,
     "Singapur": 1,
     "Austrálie": 1,
-    "Delhi": 8,
-    "Singapore": 8,
+    "Delhi": 9,
+    "Singapore": 9,
     "Kuala Lumpur": 8,
-    "Canberra": 7,
+    "Canberra": 8,
     "New York": 1,
     "Ithaca (Cornell)": 1,
     "Argentina": 1,
     "Súdán": 1,
-    "Kolumbie": 1,
-    "Islamabad": 6,
-    "Jakarta": 7,
+    "Kolumbie": 2,
+    "Islamabad": 7,
+    "Jakarta": 8,
     "Izrael": 1,
     "Turecko": 1,
     "Indonésie": 3,
     "Kabul": 5,
     "Dhaka": 2,
-    "Yangon": 6,
+    "Yangon": 7,
     "Venezuela": 1,
     "Egypt": 1,
     "SAE": 1,
     "Řím": 1,
     "Brusel": 1,
     "Jihoafrická republika": 1,
-    "Bangkok": 4,
+    "Bangkok": 5,
     "Hanoi": 2,
     "Taiwan Strait": 1,
     "Kalifornie": 1
@@ -872,17 +820,9 @@
     "key": "Beijing",
     "name_cs": "Peking",
     "name_en": "Beijing",
-    "count": 40
+    "count": 41
   },
   "archive": [
-    {
-      "date": "2026-10-06 04:18",
-      "threat_level": "MEDIUM",
-      "security_status_cs": "Geopolitické napětí v Asii zůstává pod drobnohledem po amerických zákrocích proti čínské špionáži a sledování tchajwanského vedení. Paříž a Berlín zároveň tlačí na nová obchodní pravidla vůči Číně, zatímco Tchaj-wan čelí dlouhodobým plánům Pekingu na poválečnou správu.",
-      "security_status_en": "Geopolitical tensions in Asia remain under close watch following US actions against Chinese espionage and surveillance of Taiwan's leadership. Simultaneously, Paris and Berlin are pushing for aggressive new trade defensive tools against China, while Beijing works on long-term post-reunification governance scenarios for Taiwan.",
-      "forecast_cs": "V nejbližších dnech lze očekávat zostřenou rétoriku ohledně nových obchodních nástrojů EU proti Číně a pokračující diplomatické vyrovnávání se s bezpečnostními incidenty.",
-      "forecast_en": "Over the coming days, heightened rhetoric regarding the EU's proposed trade defense tools against China and ongoing diplomatic fallout from security incidents are expected."
-    },
     {
       "date": "2026-10-06 04:23",
       "threat_level": "HIGH",
@@ -986,6 +926,14 @@
       "security_status_en": "Asian markets and the global tech sector are facing severe disruptions following the shock caused by China's new DeepSeek AI model, which triggered a massive sell-off in US and Asian AI equities. Simultaneously, political instability is escalating in South Asia, notably in Pakistan where a state of emergency was declared, and in India, which faces sweeping youth-led anti-government protests.",
       "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na globálních trzích se zvýšeným zájmem o bezpečné přístavy (japonský jen, švýcarský frank) kvůli dozvukům AI šoku.",
       "forecast_en": "Continued volatility in global markets is expected over the coming days, with heightened demand for safe havens (Japanese yen, Swiss franc) due to the lingering effects of the AI shock."
+    },
+    {
+      "date": "2026-10-11 21:40",
+      "threat_level": "HIGH",
+      "security_status_cs": "Trhy zažívají silné otřesy po úspěchu čínského AI modelu DeepSeek, který vyvolal prudký propad amerických technologických akcií a útěk investorů k bezpečným aktivům, jako je japonský jen. V regionu mezitím roste politické napětí v Pákistánu po vyhlášení výjimečného stavu a pokračují obchodní jednání mezi Čínou a Evropou ohledně hybridních vozidel.",
+      "security_status_en": "Markets are experiencing severe turbulence following the rise of Chinese AI startup DeepSeek, triggering a sharp plunge in US tech stocks and a flight to safe havens like the Japanese yen. Meanwhile, regional political tensions are escalating in Pakistan following the declaration of a state of emergency, alongside ongoing trade talks between China and Europe regarding hybrid vehicles.",
+      "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající zvýšenou volatilitu na globálních trzích a silný důraz na ochranu kapitálu v reakci na šok v sektoru AI.",
+      "forecast_en": "Persistent elevated volatility in global markets and a strong focus on capital preservation are expected over the coming days in response to the AI sector shock."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
@@ -1002,7 +950,7 @@
       "cached": false
     },
     "usdcny": {
-      "value": 6.69,
+      "value": 6.68,
       "date": "2026-10-11",
       "cached": false
     }
