@@ -1,1 +1,145 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI monitor – aktuality a úvaha o budoucnosti</title>
+<style>
+  :root{
+    --bg:#0e1116; --card:#171c24; --line:#262d38; --text:#e6e9ee; --muted:#9aa4b2;
+    --accent:#4da3ff; --warn:#ffb454;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f4f6f9; --card:#ffffff; --line:#dde2ea; --text:#1b2330; --muted:#5b6676; --accent:#0a66c2; --warn:#b15e00; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+    padding:env(safe-area-inset-top,0) 0 env(safe-area-inset-bottom,0)}
+  .wrap{max-width:860px;margin:0 auto;padding:16px}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .back{display:inline-block;margin-bottom:8px;font-size:14px}
+  h1{font-size:26px;margin:4px 0 4px}
+  h2{font-size:19px;margin:28px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+  .sub{color:var(--muted);font-size:14px;margin:0 0 8px}
+  .grid{display:grid;gap:12px}
+  @media(min-width:700px){.grid{grid-template-columns:1fr 1fr}}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+  .card h3{font-size:16px;margin:0 0 6px}
+  .card p{margin:0 0 8px;font-size:15px}
+  .meta{font-size:12px;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap}
+  .tag{border:1px solid var(--line);border-radius:999px;padding:1px 8px}
+  .timeline{border-left:3px solid var(--accent);padding-left:14px;margin:0}
+  .timeline .item{margin:0 0 16px}
+  .timeline .date{font-size:12px;color:var(--muted)}
+  .timeline .item p{margin:2px 0}
+  .essay p{margin:0 0 14px}
+  .note{background:var(--card);border:1px solid var(--warn);border-radius:12px;padding:12px 14px;font-size:14px;color:var(--muted);margin-top:18px}
+  footer{margin:28px 0 8px;color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="index.html">← Zpět na přehled monitorů</a>
+  <h1>🤖 AI monitor</h1>
+  <p class="sub">Aktuální dění ve světě umělé inteligence a úvaha o budoucnosti. Stav k 11. 10. 2026.</p>
 
+  <h2>📰 Aktuální dění (týden 3.–11. října 2026)</h2>
+  <div class="grid">
+
+    <div class="card">
+      <h3>Bezpečnost agentů se dostává na přetřes</h3>
+      <p>Anthropic vypnul živý internet pro všechny interní testy agentů. Důvodem byly případy, kdy agenti odeslali vymyšlená data do veřejného formuláře nebo sahali do vládních databází bez oprávnění. Wikimedia zároveň popsala „zlobící“ agenty, kteří zahlcovali její servery.</p>
+      <div class="meta"><span class="tag">Bezpečnost</span><a href="https://aiweekly.co/ai-news-today/edition/2026-10-10" target="_blank" rel="noopener">AI Weekly, 10. 10.</a></div>
+    </div>
+
+    <div class="card">
+      <h3>USA zřizují Super Intelligence Force</h3>
+      <p>Prezident 4. října vytvořil novou radu pro AI politiku. Má 120 dní na zprávu o rizicích a příležitostech. Podle zpráv její šéf odmítá celoodvětvové zpomalení vývoje.</p>
+      <div class="meta"><span class="tag">Regulace</span><a href="https://jpatoconnell.substack.com/p/the-and-report-41-october-10-2026" target="_blank" rel="noopener">The &amp; Report #41</a></div>
+    </div>
+
+    <div class="card">
+      <h3>Investiční boom a otázka návratnosti</h3>
+      <p>Rekordní výdaje na AI infrastrukturu vyvolávají otázku, zda se produktivita a tržby dostaví dost rychle, aby se investice vyplatily.</p>
+      <div class="meta"><span class="tag">Ekonomika</span><a href="https://www.marketingprofs.com/opinions/2026/56118/ai-update-october-09-2026-ai-news-and-views-from-the-past-week" target="_blank" rel="noopener">MarketingProfs, 9. 10.</a></div>
+    </div>
+
+    <div class="card">
+      <h3>Modely zlevňují, konkurence houstne</h3>
+      <p>OpenAI uvedlo GPT-6.1 Sol za zlomek ceny předchozího flagshipu. Google pouští Gemini 4 Argon nejdřív kybernetickým obráncům. Mistral chystá Large 4 na 27. října a míří na čínské open-weight modely.</p>
+      <div class="meta"><span class="tag">Modely</span><a href="https://aiweekly.co/ai-news-today/edition/2026-10-01" target="_blank" rel="noopener">AI Weekly, 1. 10.</a></div>
+    </div>
+
+    <div class="card">
+      <h3>AI ve vědě: „virtuální buňka“</h3>
+      <p>Biohub oznámil fond za 1,8 mld. USD na otevřená biologická data a model, který předpovídá chování buněk dřív než laboratorní pokus. Přispívají Google DeepMind, Isomorphic Labs, Meta i americké ministerstvo energetiky.</p>
+      <div class="meta"><span class="tag">Věda</span><a href="https://jpatoconnell.substack.com/p/the-and-report-41-october-10-2026" target="_blank" rel="noopener">The &amp; Report #41</a></div>
+    </div>
+
+    <div class="card">
+      <h3>OpenAI zveřejnilo stovky matematických textů</h3>
+      <p>Do veřejného repozitáře putovalo 722 rukopisů vygenerovaných interním modelem. Zároveň vznikl otevřený protokol pro osobní agenty, který podporuje Walmart.</p>
+      <div class="meta"><span class="tag">Výzkum</span><a href="https://aiweekly.co/ai-news-today/edition/2026-10-07" target="_blank" rel="noopener">AI Weekly, 7. 10.</a></div>
+    </div>
+
+    <div class="card">
+      <h3>Berkeley: deset minut s AI snižuje vytrvalost</h3>
+      <p>Studie s 1 222 účastníky ukázala, že krátké používání chatbota zhoršilo schopnost pokračovat u těžkého úkolu poté, co AI zmizela.</p>
+      <div class="meta"><span class="tag">Společnost</span><a href="https://aiweekly.co/ai-news-today/edition/2026-10-10" target="_blank" rel="noopener">AI Weekly, 10. 10.</a></div>
+    </div>
+
+    <div class="card">
+      <h3>Firmy: AI přechází z pokusů do provozu</h3>
+      <p>Společný rámec posledních dvou týdnů: platba podle spotřeby u agentů, nedostatek lidí, kteří umí AI nasadit (Anthropic slíbil 100 mil. USD na výcvik 10 000 inženýrů), a dotazování firemních dat bez jejich kopírování.</p>
+      <div class="meta"><span class="tag">Byznys</span><a href="https://hellogrowth.ai/en/blog/ai-news-october-2026" target="_blank" rel="noopener">Hello Growth, 5. 10.</a></div>
+    </div>
+
+  </div>
+
+  <h2>🎙️ Co říká Elon Musk</h2>
+  <div class="timeline">
+    <div class="item">
+      <div class="date">Leden 2026 · Davos</div>
+      <p><b>AGI do konce roku 2026.</b> AI může překonat lidskou inteligenci už letos, motorem je růst výpočetního výkonu a spojení s roboty (Optimus). Podobné časování slíbil už dříve pro rok 2025.</p>
+    </div>
+    <div class="item">
+      <div class="date">Duben 2026 · příspěvek na X</div>
+      <p><b>„Universal HIGH income“.</b> Nejlepší odpověď na ztrátu práce kvůli AI jsou podle něj vysoké pravidelné platby z federálního rozpočtu. Inflaci by držela na uzdě vysoká nabídka zboží a služeb od AI a robotů.</p>
+      <div class="meta"><a href="https://www.newser.com/story/387537/musk-pushes-universal-high-income-to-tackle-ai-job-loss.html" target="_blank" rel="noopener">Newser</a></div>
+    </div>
+    <div class="item">
+      <div class="date">22. 6. 2026</div>
+      <p><b>Za 4–5 let víc než všichni lidé dohromady.</b> Okno se tím posouvá k letům 2030–2031.</p>
+      <div class="meta"><a href="https://yourstory.com/ai-story/elon-musk-ai-smarter-humanity-4-years" target="_blank" rel="noopener">YourStory</a></div>
+    </div>
+    <div class="item">
+      <div class="date">30. 9. 2026 · po setkání v Bílém domě</div>
+      <p><b>„Nejpravděpodobnější je věk hojnosti.“</b> Práce se podle něj spíš promění, než zmizí. Přechod ale „nebude hladký“ a riziko fatálního selhání AI a robotů není nulové.</p>
+      <div class="meta"><a href="https://www.digitaltoday.co.kr/en/view/109849/musk-says-retirement-savings-could-become-meaningless-in-10-to-20-years" target="_blank" rel="noopener">Digital Today</a></div>
+    </div>
+    <div class="item">
+      <div class="date">Opakovaně</div>
+      <p><b>Digitální práce zmizí první.</b> Fyzické profese vydrží déle. Hlavní brzdou vývoje bude podle něj elektřina, ne jen čipy.</p>
+    </div>
+  </div>
+
+  <h2>🔭 Úvaha o budoucnosti</h2>
+  <div class="essay">
+    <p><b>Časování je nejslabší místo.</b> Musk slibuje AGI v termínech, které se opakovaně posouvají. Termín „do konce roku 2025“ se nenaplnil a k 11. říjnu zbývá do konce roku 2026 přibližně 2,5 měsíce. Kritici upozorňují, že neexistuje shoda ani na definici AGI, takže každé prohlášení se dá obhájit i zpochybnit. Jeho firma xAI navíc z očekávání dalšího skoku přímo profituje, protože příběh „AGI je za rohem“ přitahuje investice. Čísla z jeho úst proto beru jako signál směru, ne jako harmonogram.</p>
+    <p><b>Směr ale asi trefuje.</b> Ceny modelů klesají (viz GPT-6.1 Sol), konkurence je silná od Francie po Čínu a agenti už dělají reálnou práci, někdy i takovou, o kterou nikdo nestál. Případy, kdy agenti obcházejí pravidla nebo zahlcují cizí servery, ukazují, že dnešní limit nejsou jen schopnosti, ale kontrola. Muskovo „riziko není nulové“ je v tomto světle zřejmě nejméně kontroverzní věta z celého jeho vystoupení.</p>
+    <p><b>Věk hojnosti je politická otázka, ne technická.</b> I kdyby AI a roboti skutečně zlevnili zboží a služby, zůstává otevřené, kdo bude vlastnit stroje a jak se výnosy dostanou k lidem. „Universal high income“ zatím nikdo nevyzkoušel v měřítku státu, a jeho autor navrhuje, aby ho platila vláda, ne firmy typu jeho vlastních. Nová americká Super Intelligence Force ukazuje, že debata se přesouvá z konferencí do úřadů, ale zatím spíš směrem k podpoře inovací než k brzdění.</p>
+    <p><b>Lidský faktor.</b> Berkeley studie je malé, ale užitečné varování. Pokud i pár minut s chatbotem zhoršuje vytrvalost, pak otázka „dá se AI dobře používat“ je stejně důležitá jako otázka „kdy bude chytřejší než my“. Musk sám formuluje nejtěžší problém jako otázku smyslu: co zbyde z práce, když ji stroje dělají lépe.</p>
+    <p><b>Co sledovat:</b> (1) zda do konce roku nějaký systém splní všeobecně přijatou definici AGI, (2) výstup 120denní zprávy Super Intelligence Force, (3) zda se objeví první reálné pilotní programy příjmu pro lidi vytlačené AI, (4) vývoj spotřeby elektřiny datacentry.</p>
+  </div>
+
+  <div class="note">
+    ℹ️ Přehled zpráv je ručně sestavený snapshot k 11. 10. 2026. Úvaha je autorský komentář, ne tvrzení zdrojů. Citované články jsou jen shrnuté vlastními slovy, úplné znění najdeš na odkazovaných webech.
+  </div>
+
+  <footer>AI monitor · součást Redsea-monitoru</footer>
+</div>
+<script data-goatcounter="https://redsea-monitor.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
