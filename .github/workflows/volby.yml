@@ -1,1 +1,45 @@
+name: Volby – ČSÚ data
 
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: volby-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout main (skript)
+        uses: actions/checkout@v4
+        with:
+          path: main
+
+      - name: Checkout data
+        uses: actions/checkout@v4
+        with:
+          ref: data
+          path: data
+
+      - name: Stáhnout výsledky z ČSÚ
+        run: python3 main/scripts/volby_update.py data
+
+      - name: Commit, pokud se něco změnilo
+        working-directory: data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add volby.json obce.json
+          if git diff --cached --quiet; then
+            echo "Beze změny"
+          else
+            git commit -m "volby: aktualizace $(date -u +%H:%M)"
+            git push origin data
+          fi
