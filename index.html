@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Monitory · přehled</title>
-<meta name="description" content="Přehled AI monitorů: Rudé moře, USA, Evropa, Blízký východ, Čína a Asie, Japonsko, Jižní Amerika, Česko">
+<meta name="description" content="Přehled AI monitorů: Rudé moře, USA, Evropa, Blízký východ, Čína a Asie, Japonsko, Jižní Amerika, Česko, AI a technologie">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://matesva.github.io/Redsea-monitor/">
 <meta name="theme-color" content="#0b1d26">
@@ -40,7 +40,7 @@ footer{margin-top:34px;text-align:center;font-family:'IBM Plex Mono',monospace;f
 <meta property="og:type" content="website">
 <meta property="og:locale" content="cs_CZ">
 <meta property="og:title" content="Monitory · přehled">
-<meta property="og:description" content="Přehled AI monitorů: Rudé moře, USA, Evropa, Blízký východ, Čína a Asie, Japonsko, Jižní Amerika, Česko">
+<meta property="og:description" content="Přehled AI monitorů: Rudé moře, USA, Evropa, Blízký východ, Čína a Asie, Japonsko, Jižní Amerika, Česko, AI a technologie">
 <meta property="og:url" content="https://matesva.github.io/Redsea-monitor/">
 <meta property="og:image" content="https://matesva.github.io/Redsea-monitor/og.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -74,12 +74,14 @@ var M=[
  {dir:"asia/",name:"Čína a Asie",desc:"Politika, ekonomika a bezpečnost v Asii",data:"asia/data.json",type:"t"},
  {dir:"japan/",name:"Japonsko",desc:"Situace v Japonsku, trhy a investiční dopady",data:"japan/data.json",type:"t"},
  {dir:"south-america/",name:"Jižní Amerika",desc:"Politika, ekonomika, měny a komodity v Jižní Americe",data:"south-america/data.json",type:"t"},
- {dir:"czechia/",name:"Česko",desc:"Politika a volby v ČR a Praze: zprávy, strany, sliby, průzkumy",data:"czechia/summary.json",type:"c"}
+ {dir:"czechia/",name:"Česko",desc:"Politika a volby v ČR a Praze: zprávy, strany, sliby, průzkumy",data:"czechia/summary.json",type:"c"},
+ {dir:"ai.html",name:"AI a technologie",desc:"Aktuality ze světa AI a úvaha o budoucnosti s ohledem na Elona Muska",data:"ai/data.json",type:"a"}
 ];
 var G=[
  {t:"Domácí",k:[7]},
  {t:"Geopolitika a doprava",k:[0,3,4,5]},
- {t:"Západní svět",k:[1,2,6]}
+ {t:"Západní svět",k:[1,2,6]},
+ {t:"AI a technologie",k:[8]}
 ];
 var LV={STABLE:["STABILNÍ","#6a9b6e"],MEDIUM:["STŘEDNÍ","#b8863b"],HIGH:["VYSOKÁ","#c07a3a"],CRITICAL:["KRITICKÁ","#a13d2b"]};
 function rel(s){
@@ -101,6 +103,8 @@ M.forEach(function(m,i){
     if(m.type==="t"){
       var k=String((d.assessment&&d.assessment.threat_level)||"").split(" ")[0].split("/")[0].trim().toUpperCase();
       if(LV[k])h+='Hrozba: <span class="lvl" style="color:'+LV[k][1]+'">'+LV[k][0]+'</span><br>';
+      h+="Aktualizováno "+rel(d.last_updated);
+    }else if(m.type==="a"){
       h+="Aktualizováno "+rel(d.last_updated);
     }else{
       h+="Aktualizováno "+rel(d.updated);
