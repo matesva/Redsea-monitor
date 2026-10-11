@@ -43,6 +43,11 @@
 #v-volby .vcity{margin-top:22px;padding-top:12px;border-top:1px solid rgba(184,134,59,.35);font-family:'IBM Plex Mono',monospace;font-size:.85em}
 #v-volby .vcity:first-child{margin-top:8px;padding-top:0;border-top:0}
 #v-volby .vcity small{display:block;opacity:.65;font-size:.82em;margin-top:2px}
+#v-volby details.vzd{margin-top:12px;font-family:'IBM Plex Mono',monospace;font-size:.8em}
+#v-volby details.vzd summary{cursor:pointer;color:#b8863b;padding:4px 0}
+#v-volby ol.vz{margin:8px 0 0;padding-left:26px}
+#v-volby ol.vz li{margin-top:8px;line-height:1.35}
+#v-volby ol.vz li small{display:block;opacity:.65;font-size:.88em;margin-top:1px}
 </style>
 <link rel="icon" type="image/svg+xml" href="/Redsea-monitor/favicon.svg">
 <link rel="apple-touch-icon" href="/Redsea-monitor/icons/apple-touch-icon.png">
@@ -195,10 +200,10 @@ function toggleTheme(){
 <script src="app.js"></script>
 
 <script>
-/* ---- Záložka VOLBY: Praha vs. průzkumy, krajská města, obce a vesnice, ČR celkem ---- */
+/* ---- Záložka VOLBY: Praha vs. průzkumy, krajská města, obce a vesnice, ČR celkem, zvolení zastupitelé ---- */
 (function(){
   var RAW="https://raw.githubusercontent.com/matesva/Redsea-monitor/data/";
-  var URL_JSON=RAW+"volby.json", URL_OBCE=RAW+"obce.json";
+  var URL_JSON=RAW+"volby.json", URL_OBCE=RAW+"obce.json", URL_ZAST=RAW+"zast/";
   var REFRESH_MS=5*60*1000, TIMEOUT_MS=15000, THR=5;
   var CACHE_KEY="volby_cache_v3";
 
@@ -222,7 +227,7 @@ function toggleTheme(){
     cities:[],
     national:null
   };
-  var OBCE=null,obceErr=null;
+  var OBCE=null,obceErr=null,ZC={};
   var src="vestavěná kopie";
 
   var tab=document.getElementById("t-volby"),view=document.getElementById("v-volby");
@@ -238,6 +243,7 @@ function toggleTheme(){
   function sg(v){return (v>0?"+":v<0?"−":"±")+f1(Math.abs(v))}
   function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
   function norm(s){return String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()}
+  function anyOpen(){return !!body.querySelector("details[open]")}
 
   function srcTxt(){
     var u=STATE.meta&&STATE.meta.updated?new Date(STATE.meta.updated):null;
@@ -273,7 +279,7 @@ function toggleTheme(){
     note.textContent="Průzkum: "+pn+". Rozdíl = průzkum − výsledek. ⚠ = kandidátka na opačné straně 5% hranice než ve výsledku. Procenta jsou podíl na odevzdaných hlasech (voliči mají více hlasů). Průzkumy zachycují stav několik týdnů před volbami a nejsou předpovědí. Ověřte na volby.gov.cz. Obnova každých 5 minut.";
   }
 
-  /* --- blok jednoho města/obce --- */
+  /* --- blok jednoho města/obce (včetně rozbalovacího seznamu zastupitelů) --- */
   function cityBlock(c){
     var rows=c.rows||[],mx=1;
     rows.forEach(function(r){
@@ -290,8 +296,39 @@ function toggleTheme(){
         var v=(r.pct!=null?f1(r.pct)+' %':'')+(r.pct!=null&&r.seats!=null?' · ':'')+(r.seats!=null?r.seats+' mand.':'');
         return '<div class="vrow2"><div>'+esc(r.n)+'</div><div class="vbar2"><i style="width:'+(r._w/mx*100)+'%"></i>'+
           (thr!==null&&thr<100?'<span class="thr" style="left:'+thr+'%"></span>':'')+'</div><div class="vval">'+v+'</div></div>';
-      }).join("")+'</div>';
+      }).join("")+
+      (c.code?'<details class="vzd" data-k="'+esc(c.code)+'"><summary>Zvolení zastupitelé</summary><div class="vzb">Načítám…</div></details>':'')+
+      '</div>';
   }
+
+  /* --- zvolení zastupitelé (lazy načtení souboru podle prvních 3 číslic kódu) --- */
+  function loadZast(k,box){
+    var sh=k.slice(0,3);
+    var p=ZC[sh]?Promise.resolve(ZC[sh]):fetchT(URL_ZAST+sh+".json?t="+Date.now()).then(function(j){ZC[sh]=j;return j});
+    p.then(function(j){
+      var L=j[k];
+      if(!L||!L.length){box.innerHTML='<div class="legend">Zvolení zastupitelé zatím nejsou k dispozici.</div>';return}
+      box.innerHTML='<ol class="vz">'+L.map(function(z){
+        var line=[];
+        if(z[3])line.push(esc(z[3]));
+        if(z[2])line.push(esc(z[2]));
+        if(z[6])line.push(esc(z[6]));
+        if(z[4]!=null)line.push(f0(z[4])+' hl.');
+        return '<li><b>'+esc(z[0])+'</b>'+(z[1]?' ('+z[1]+')':'')+'<small>'+line.join(' · ')+'</small></li>';
+      }).join("")+'</ol>';
+    }).catch(function(){
+      delete ZC[sh];
+      box.innerHTML='<div class="legend">Zvolení zastupitelé zatím nejsou k dispozici.</div>';
+    });
+  }
+  /* událost „toggle“ nebublá, proto capture */
+  body.addEventListener("toggle",function(e){
+    var d=e.target;
+    if(d&&d.classList&&d.classList.contains("vzd")&&d.open&&!d.dataset.l){
+      d.dataset.l="1";
+      loadZast(d.dataset.k,d.querySelector(".vzb"));
+    }
+  },true);
 
   /* --- Krajská města --- */
   function renderCities(){
@@ -300,7 +337,7 @@ function toggleTheme(){
     title.textContent="Komunální volby: krajská města";
     leg.style.display="none";
     meta.textContent="Výsledky do zastupitelstev krajských měst (9.–10. 10. 2026)"+srcTxt();
-    note.textContent="Čárkovaná čára = 5% hranice. U koalic jsou uvedeny společné kandidátky; zobrazeno nejvýše 10 kandidátek. Procenta jsou podíl na odevzdaných hlasech. Zdroj: ČSÚ (volby.gov.cz). Obnova každých 5 minut.";
+    note.textContent="Čárkovaná čára = 5% hranice. U koalic jsou uvedeny společné kandidátky; zobrazeno nejvýše 10 kandidátek. Procenta jsou podíl na odevzdaných hlasech. Seznam zvolených zastupitelů se rozbalí klepnutím. Zdroj: ČSÚ (volby.gov.cz). Obnova každých 5 minut.";
   }
 
   /* --- Obce a vesnice --- */
@@ -319,22 +356,23 @@ function toggleTheme(){
     if(q.length<2){
       body.innerHTML='<div class="legend">Zadej aspoň dvě písmena z názvu obce.</div>';
     }else{
-      var hits=keys.filter(function(k){return norm(all[k].n).indexOf(q)>=0||k===q}).map(function(k){return all[k]});
+      var hits=keys.filter(function(k){return norm(all[k].n).indexOf(q)>=0||k===q}).map(function(k){return {k:k,o:all[k]}});
       hits.sort(function(a,b){
-        var sa=norm(a.n).indexOf(q)===0?0:1,sb=norm(b.n).indexOf(q)===0?0:1;
-        return sa-sb||(b.size||0)-(a.size||0);
+        var sa=norm(a.o.n).indexOf(q)===0?0:1,sb=norm(b.o.n).indexOf(q)===0?0:1;
+        return sa-sb||(b.o.size||0)-(a.o.size||0);
       });
       var shown=hits.slice(0,12);
-      body.innerHTML=(shown.map(function(o){
+      body.innerHTML=(shown.map(function(h){
+        var o=h.o;
         return cityBlock({
-          name:o.n,size:o.size||null,turnout:o.ucast,
+          name:o.n,code:h.k,size:o.size||null,turnout:o.ucast,
           status:(o.sec!=null&&o.sec>=99.995)?"konečné, sečteno 100 %":"průběžné"+(o.sec!=null?", sečteno "+f1(o.sec)+" %":""),
           rows:(o.rows||[]).map(function(r){return {n:r[0],pct:r[1],seats:r[2]}})
         });
       }).join("")||'<div class="legend">Nic nenalezeno.</div>')+
       (hits.length>12?'<div class="legend">Zobrazeno 12 z '+hits.length+' nalezených – upřesni hledání.</div>':'');
     }
-    note.textContent="U malých obcí kandidují převážně nezávislé kandidátky, názvy mohou být dlouhé. Procenta jsou podíl na odevzdaných hlasech (voliči mají tolik hlasů, kolik se volí zastupitelů). Oficiální výsledky: volby.gov.cz. Obnova každých 5 minut.";
+    note.textContent="U malých obcí kandidují převážně nezávislé kandidátky, názvy mohou být dlouhé. Procenta jsou podíl na odevzdaných hlasech (voliči mají tolik hlasů, kolik se volí zastupitelů). Seznam zvolených zastupitelů se rozbalí klepnutím. Oficiální výsledky: volby.gov.cz. Obnova každých 5 minut.";
   }
 
   /* --- ČR celkem: mandáty --- */
@@ -379,10 +417,10 @@ function toggleTheme(){
     fetchT(URL_OBCE+"?t="+Date.now()).then(function(j){
       if(!j||!j.obce)throw new Error("neplatný formát");
       OBCE=j;obceErr=null;
-      if(sel.value==="obce")render();
+      if(sel.value==="obce"&&!anyOpen())render();
     }).catch(function(e){
       obceErr=e&&e.message?e.message:String(e);
-      if(sel.value==="obce")render();
+      if(sel.value==="obce"&&!anyOpen())render();
     });
   }
 
@@ -391,12 +429,12 @@ function toggleTheme(){
       if(!valid(j))throw new Error("neplatný formát");
       STATE=j;src="volby.json";
       try{localStorage.setItem(CACHE_KEY,JSON.stringify(j))}catch(e){}
-      render();
+      if(!anyOpen())render();
     }).catch(function(){
       var c=null;
       try{c=JSON.parse(localStorage.getItem(CACHE_KEY))}catch(e){}
       if(valid(c)){STATE=c;src="uložená kopie (offline)"}
-      render();
+      if(!anyOpen())render();
     });
     if(sel.value==="obce")loadObce();
   }
@@ -566,4 +604,4 @@ function toggleTheme(){
 </script>
     <script src="/Redsea-monitor/nav.js"></script>
 </body>
-</html>
+  </html>
