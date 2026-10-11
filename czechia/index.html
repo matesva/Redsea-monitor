@@ -23,8 +23,19 @@
 #v-energie .imp{background:#6a9b6e}
 #v-energie .exp{background:#c07a3a}
 #v-energie .fnet{margin-top:16px;padding-top:12px;border-top:1px solid rgba(184,134,59,.35);font-family:'IBM Plex Mono',monospace;font-size:.85em}
-#v-energie .flegend{display:flex;justify-content:space-between;margin-top:14px;font-family:'IBM Plex Mono',monospace;font-size:.66em;opacity:.7}
+#v-energie .flegend,#v-volby .flegend{display:flex;justify-content:space-between;margin-top:14px;font-family:'IBM Plex Mono',monospace;font-size:.66em;opacity:.7}
 #v-energie .ferr{margin-top:14px;font-family:'IBM Plex Mono',monospace;font-size:.78em}
+
+#v-volby .vrow{display:grid;grid-template-columns:96px 1fr 150px;gap:10px;align-items:center;margin-top:12px;font-family:'IBM Plex Mono',monospace;font-size:.78em}
+#v-volby .vbar{position:relative;height:18px;background:rgba(128,128,128,.14);border:1px solid rgba(184,134,59,.35)}
+#v-volby .vbar::before{content:"";position:absolute;left:50%;top:-3px;bottom:-3px;width:1px;background:#9aa8ac}
+#v-volby .vbar i{position:absolute;top:0;bottom:0}
+#v-volby .up{background:#6a9b6e}
+#v-volby .dn{background:#c07a3a}
+#v-volby .vval{text-align:right;white-space:nowrap}
+#v-volby .vsub{opacity:.65;font-size:.9em}
+#v-volby .vthr{color:#c07a3a}
+#v-volby .vmae{margin-top:16px;padding-top:12px;border-top:1px solid rgba(184,134,59,.35);font-family:'IBM Plex Mono',monospace;font-size:.85em}
 </style>
 <link rel="icon" type="image/svg+xml" href="/Redsea-monitor/favicon.svg">
 <link rel="apple-touch-icon" href="/Redsea-monitor/icons/apple-touch-icon.png">
@@ -73,6 +84,7 @@
     <button id="t-strany">STRANY</button>
     <button id="t-sliby">SLIBY</button>
     <button id="t-pruzkumy">PRŮZKUMY</button>
+    <button id="t-volby">VOLBY</button>
     <button id="t-energie">ENERGIE</button>
   </nav>
 
@@ -130,6 +142,22 @@
     <div class="bulletin"><h2>Zaznamenané průzkumy</h2><div id="poll-list"></div></div>
   </section>
 
+  <section id="v-volby" hidden>
+    <div class="bulletin">
+      <h2>Výsledky voleb vs. průzkumy</h2>
+      <div class="filters">
+        <select id="vsel">
+          <option value="median">Porovnat s: Median (31.8.–3.9.)</option>
+          <option value="ipsos">Porovnat s: Ipsos (srpen)</option>
+        </select>
+      </div>
+      <div class="legend" id="vmeta">Načítání…</div>
+      <div id="vbody"></div>
+      <div class="flegend"><span>◀ průzkum podcenil</span><span>průzkum nadhodnotil ▶</span></div>
+      <div class="legend" id="vnote"></div>
+    </div>
+  </section>
+
   <section id="v-energie" hidden>
     <div class="bulletin">
       <h2>Toky elektřiny přes hranice ČR</h2>
@@ -154,6 +182,109 @@ function toggleTheme(){
 }
 </script>
 <script src="app.js"></script>
+
+<script>
+/* ---- Záložka VOLBY: výsledky vs. průzkumy, průběžně se obnovuje ---- */
+(function(){
+  var URL_JSON="https://raw.githubusercontent.com/matesva/Redsea-monitor/data/volby.json";
+  var REFRESH_MS=5*60*1000, TIMEOUT_MS=8000, THR=5;
+  var CACHE_KEY="volby_cache_v1";
+
+  /* záloha, když JSON nejde načíst */
+  var STATE={
+    meta:{
+      region:"Praha – zastupitelstvo hl. m. Prahy",
+      status:"PRŮBĚŽNÉ VÝSLEDKY – sečteno 83,13 % okrsků (volby 9.–10. 10. 2026)",
+      updated:null,
+      polls:{median:"Median pro Praha In, sběr 31.8.–3.9.2026",ipsos:"Ipsos pro SPOLU, srpen 2026"}
+    },
+    data:[
+      {n:"STAN",res:23.20,median:22.6,ipsos:22},
+      {n:"SPOLU (ODS+TOP)",res:21.74,median:13.9,ipsos:20},
+      {n:"Praha sobě",res:17.36,median:12.9,ipsos:9},
+      {n:"ANO",res:14.93,median:23.3,ipsos:20},
+      {n:"Piráti",res:9.45,median:10.8,ipsos:12},
+      {n:"SPD",res:3.59,median:5.4,ipsos:5},
+      {n:"AUTO",res:2.93,median:5.0,ipsos:4}
+    ]
+  };
+  var src="vestavěná kopie";
+
+  var tab=document.getElementById("t-volby"),view=document.getElementById("v-volby");
+  var tabs=document.querySelectorAll(".tabs button");
+  var sel=document.getElementById("vsel"),body=document.getElementById("vbody");
+  var meta=document.getElementById("vmeta"),note=document.getElementById("vnote");
+  var timer=null;
+
+  function f1(v){return v.toFixed(1).replace(".",",")}
+  function sg(v){return (v>0?"+":v<0?"−":"±")+f1(Math.abs(v))}
+
+  function render(){
+    var k=sel.value,rows=[],sum=0,cnt=0,mx=2;
+    STATE.data.forEach(function(d){
+      var p=d[k];
+      if(p===null||p===undefined||d.res===null||d.res===undefined)return;
+      var diff=p-d.res;               /* kladné = průzkum nadhodnotil */
+      rows.push({n:d.n,res:d.res,p:p,diff:diff});
+      sum+=Math.abs(diff);cnt++;
+      mx=Math.max(mx,Math.abs(diff));
+    });
+    body.innerHTML=rows.map(function(r){
+      var w=Math.min(50,Math.abs(r.diff)/mx*50),over=r.diff>=0;
+      var st=over?"left:50%;width:"+w+"%":"left:"+(50-w)+"%;width:"+w+"%";
+      var mark=(r.res>=THR)!==(r.p>=THR)?' <span class="vthr" title="Liší se vstup přes 5% hranici">⚠</span>':"";
+      return '<div class="vrow"><div>'+r.n+mark+'</div>'+
+        '<div class="vbar"><i class="'+(over?"dn":"up")+'" style="'+st+'"></i></div>'+
+        '<div class="vval"><b>'+sg(r.diff)+' p. b.</b><br><span class="vsub">výsl. '+f1(r.res)+' % · prům. '+f1(r.p)+' %</span></div></div>';
+    }).join("")+
+    '<div class="vmae">Průměrná absolutní odchylka: <b>'+(cnt?f1(sum/cnt):"–")+' p. b.</b> ('+cnt+' kandidátek)</div>';
+
+    var m=STATE.meta,u=m.updated?new Date(m.updated):null;
+    meta.textContent=m.region+" · "+m.status+
+      (u&&!isNaN(u)?" · data z "+u.toLocaleString("cs-CZ"):"")+" · zdroj: "+src;
+    var pn=(m.polls&&m.polls[k])||"";
+    note.textContent="Průzkum: "+pn+". Rozdíl = průzkum − výsledek. ⚠ = kandidátka na opačné straně 5% hranice než ve výsledku. Průběžné výsledky se mění; průzkumy zachycují stav několik týdnů před volbami a nejsou předpovědí. Ověřte na volby.cz. Obnova každých 5 minut.";
+  }
+
+  function fetchT(u){
+    var ctl=(typeof AbortController!=="undefined")?new AbortController():null;
+    var t=setTimeout(function(){if(ctl)ctl.abort()},TIMEOUT_MS);
+    return fetch(u,ctl?{signal:ctl.signal}:{}).then(function(r){
+      clearTimeout(t);
+      if(!r.ok)throw new Error("HTTP "+r.status);
+      return r.json();
+    }).catch(function(e){clearTimeout(t);throw e});
+  }
+
+  function valid(j){return j&&Array.isArray(j.data)&&j.data.length&&j.meta}
+
+  function load(){
+    fetchT(URL_JSON+"?t="+Date.now()).then(function(j){
+      if(!valid(j))throw new Error("neplatný formát");
+      STATE=j;src="volby.json";
+      try{localStorage.setItem(CACHE_KEY,JSON.stringify(j))}catch(e){}
+      render();
+    }).catch(function(){
+      var c=null;
+      try{c=JSON.parse(localStorage.getItem(CACHE_KEY))}catch(e){}
+      if(valid(c)){STATE=c;src="uložená kopie (offline)"}
+      render();
+    });
+  }
+
+  function show(){
+    document.querySelectorAll("section[id^='v-']").forEach(function(s){s.hidden=(s!==view)});
+    tabs.forEach(function(b){b.classList.toggle("on",b===tab)});
+    render();load();
+    if(!timer)timer=setInterval(function(){if(!view.hidden)load()},REFRESH_MS);
+  }
+  tab.addEventListener("click",show);
+  tabs.forEach(function(b){
+    if(b!==tab)b.addEventListener("click",function(){view.hidden=true;tab.classList.remove("on")});
+  });
+  sel.addEventListener("change",render);
+})();
+</script>
 
 <script>
 /* ---- Záložka ENERGIE (v8): přepínání + toky elektřiny ---- */
