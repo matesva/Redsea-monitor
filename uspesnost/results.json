@@ -1,16 +1,16 @@
 {
- "updated": "2026-10-10T01:44",
+ "updated": "2026-10-11T00:57",
  "band": {
   "7": 2.0,
   "30": 5.0
  },
- "signals_total": 112,
+ "signals_total": 114,
  "summary": {
   "7": {
    "ALL": {
-    "n": 68,
-    "ok": 41,
-    "avg": -0.05
+    "n": 69,
+    "ok": 42,
+    "avg": -0.07
    },
    "BUY": {
     "n": 27,
@@ -18,9 +18,9 @@
     "avg": -0.18
    },
    "SELL": {
-    "n": 5,
-    "ok": 3,
-    "avg": -3.11
+    "n": 6,
+    "ok": 4,
+    "avg": -2.74
    },
    "HOLD": {
     "n": 36,
@@ -54,9 +54,9 @@
  "by_monitor": {
   "Rudé moře": {
    "7": {
-    "n": 16,
-    "ok": 10,
-    "avg": -0.63
+    "n": 17,
+    "ok": 11,
+    "avg": -0.65
    }
   },
   "USA": {
@@ -96,6 +96,35 @@
   }
  },
  "signals": [
+  {
+   "monitor": "Rudé moře",
+   "sector": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)",
+   "action": "HOLD",
+   "date": "2026-10-10",
+   "tickers": [
+    "MAERSK-B.CO",
+    "HLAG.DE",
+    "ZIM"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Japonsko",
+   "sector": "Technologie (Sony, SoftBank)",
+   "action": "SELL",
+   "date": "2026-10-10",
+   "tickers": [
+    "6758.T",
+    "9984.T"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
   {
    "monitor": "USA",
    "sector": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
@@ -732,8 +761,8 @@
     "VOLV-B.ST",
     "BMW.DE"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": -0.88,
+   "ok7": true,
    "ret30": null,
    "ok30": null
   },
@@ -1197,35 +1226,6 @@
    ],
    "ret7": -4.45,
    "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Japonsko",
-   "sector": "Technologie (Sony, SoftBank)",
-   "action": "HOLD",
-   "date": "2026-09-25",
-   "tickers": [
-    "6758.T",
-    "9984.T"
-   ],
-   "ret7": 1.88,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Rudé moře",
-   "sector": "Ropa a Plyn (např. Shell, BP, Chevron)",
-   "action": "BUY",
-   "date": "2026-09-24",
-   "tickers": [
-    "SHEL",
-    "BP",
-    "CVX"
-   ],
-   "ret7": 0.31,
-   "ok7": true,
    "ret30": null,
    "ok30": null
   }
