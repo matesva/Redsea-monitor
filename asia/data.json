@@ -1,53 +1,60 @@
 {
-  "last_updated": "2026-10-12T13:48:25Z",
+  "last_updated": "2026-10-12T13:57:15Z",
   "assessment": {
     "threat_level": "HIGH",
     "sentiment_score": 75,
-    "security_status_cs": "Asijský region čelí zvýšenému napětí kvůli probíhajícím čínským ostrým vojenským cvičením v okolí Tchaj-wanu a pokračujícím severokorejským raketovým testům. Globální trhy zároveň trápí šok v technologickém sektoru způsobený pokročilým čínským AI modelem DeepSeek, který vyvolal prudký propad amerických a asijských technologických akcií.",
-    "security_status_en": "The Asian region faces heightened tensions due to ongoing Chinese live-fire military drills around Taiwan and continuous North Korean missile tests. Simultaneously, global markets are grappling with a tech sector shock triggered by Chinese startup DeepSeek's advanced AI model, causing steep drops in U.S. and Asian tech equities.",
+    "security_status_cs": "Region Asie a Tichomoří čelí zvýšenému napětí v souvislosti s rozsáhlými čínskými vojenskými cvičeními v okolí Tchaj-wanu a pokračujícími raketovými testy Severní Koreje. Globální trhy zároveň vstřebávají šok v technologickém sektoru vyvolaný novým čínským AI modelem DeepSeek, který způsobil prudký propad akcií výrobců AI infrastruktury.",
+    "security_status_en": "The Asia-Pacific region faces heightened tensions driven by extensive Chinese live-fire military drills around Taiwan and ongoing North Korean missile tests. Simultaneously, global markets are absorbing a major technology sector shock triggered by Chinese startup DeepSeek's new AI model, which caused a steep sell-off in AI infrastructure stocks.",
     "recommendations": [
       {
         "sector_cs": "Polovodiče (TSMC, Samsung, ASML)",
         "sector_en": "Semiconductors (TSMC, Samsung, ASML)",
         "action": "SELL",
-        "reason_cs": "Globální výprodej v AI sektoru vyvolaný čínským DeepSeekem a rostoucí geopolitické napětí v Tchajwanské úžině zvyšují riziko pro celý dodavatelský řetězec.",
-        "reason_en": "The global AI sell-off triggered by China's DeepSeek and rising geopolitical tensions in the Taiwan Strait elevate risks for the entire supply chain."
+        "reason_cs": "Sektor čelí masivnímu výprodeji a zvýšenému geopolitickému riziku v důsledku šoku v oblasti AI a probíhajících čínských vojenských manévrů.",
+        "reason_en": "The sector is facing a massive sell-off and heightened geopolitical risk due to the AI disruption shock and ongoing Chinese military maneuvers."
       },
       {
         "sector_cs": "Čínské akcie (ETF FXI, MCHI)",
         "sector_en": "Chinese Equities (FXI, MCHI ETFs)",
         "action": "HOLD",
-        "reason_cs": "Zatímco technologické inovace jako DeepSeek ukazují silný potenciál, slabší domácí data (např. pokles prodejů automobilů) a rekordní nákupy zlata odrážejí přetrvávající ekonomickou nejistotu.",
-        "reason_en": "While tech innovations like DeepSeek show strong potential, weaker domestic data (such as declining auto sales) and record gold buying reflect ongoing economic uncertainty."
+        "reason_cs": "Zatímco technologická inovace (DeepSeek) ukazuje sílu čínského sektoru, domácí poptávka zůstává slabá s propadem prodejů automobilů a růstem zlatých rezerv.",
+        "reason_en": "While technological innovation (DeepSeek) highlights China's sector capabilities, domestic demand remains soft with slumping auto sales and rising gold reserves."
       },
       {
         "sector_cs": "Japonské akcie (Nikkei 225 ETF)",
         "sector_en": "Japanese Equities (Nikkei 225 ETFs)",
         "action": "HOLD",
-        "reason_cs": "Japonský jen těží z pozice bezpečí (safe haven) po propadu v technologickém sektoru, avšak širší regionální nestabilita a tlak na globální trhy omezují růstový potenciál.",
-        "reason_en": "The Japanese yen is benefiting from safe-haven flows following the tech sector rout, but broader regional instability and pressure on global markets limit upside potential."
+        "reason_cs": "Japonský jen těží z pozice bezpečného útočiště, nicméně širší regionální nestabilita a technologický výprodej omezují růstový potenciál.",
+        "reason_en": "The Japanese yen is benefiting from safe-haven flows, but broader regional instability and the tech sell-off limit upside potential."
       },
       {
         "sector_cs": "Obranný průmysl (Lockheed Martin, RTX, Mitsubishi Heavy)",
         "sector_en": "Defense Industry (Lockheed Martin, RTX, Mitsubishi Heavy)",
         "action": "BUY",
-        "reason_cs": "Intenzivní čínská cvičení v Tchajwanské úžině a pokračující raketové testy Severní Koreje udržují vysokou poptávku po obranných technologiích.",
-        "reason_en": "Intensive Chinese drills in the Taiwan Strait and ongoing North Korean missile tests maintain robust demand for defense technologies."
+        "reason_cs": "Eskalující vojenská cvičení kolem Tchaj-wanu a provokace Severní Koreje dlouhodobě podporují poptávku po obranných systémech.",
+        "reason_en": "Escalating military drills around Taiwan and North Korean provocations provide strong long-term support for defense systems demand."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly jsou primárně ovlivněny evropským makroekonomickým prostředím, přičemž asijské šoky mají na jejich likviditu a ocenění jen minimální nepřímý dopad.",
-        "reason_en": "Domestic stocks are primarily driven by the European macroeconomic environment, with Asian shocks having only minimal indirect impact on their liquidity and valuations."
+        "reason_cs": "Akcie na PSE jsou vůči asijským technologickým šokům primárně imunní, avšak globální makroekonomická nervozita omezuje výraznější růst.",
+        "reason_en": "PSE stocks are largely insulated from Asian tech shocks, though global macroeconomic nervousness limits significant upside."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající volatilitu na globálních trzích v důsledku vstřebávání šoku v AI sektoru a sledování vojenských manévrů kolem Tchaj-wanu.",
-    "forecast_en": "Over the coming days, persistent volatility is expected across global markets as they digest the AI sector shock and monitor military maneuvers around Taiwan.",
-    "forecast_review_cs": "Předchozí předpověď se plně potvrdila, neboť šok v AI sektoru a čínská vojenská cvičení v Tchajwanské úžině skutečně vyvolaly výraznou volatilitu a útěk k bezpečným aktivům.",
-    "forecast_review_en": "The previous forecast was fully confirmed, as the AI sector shock and Chinese military exercises in the Taiwan Strait indeed triggered significant volatility and a flight to safe havens."
+    "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na globálních trzích, kde se bude nadále vyhodnocovat dopad čínského AI průlomu a vývoj kolem tchajwanské úžiny.",
+    "forecast_en": "Over the coming days, continued volatility is expected across global markets as they continue to digest the fallout from China's AI breakthrough and developments around the Taiwan Strait.",
+    "forecast_review_cs": "Předchozí předpověď týkající se volatility v důsledku šoku v AI sektoru a vojenských manévrů kolem Tchaj-wanu se plně potvrdila.",
+    "forecast_review_en": "The previous forecast regarding market volatility driven by the AI sector shock and military maneuvers around Taiwan was fully confirmed."
   },
   "articles": [
+    {
+      "title": "Selfies, queues and confusion, but Huanggang Port’s wow factor shines through",
+      "summary": "The much-anticipated opening of the revamped Huanggang Port border crossing between Hong Kong and Shenzhen on Monday was marked by excitement, eagerness and confusion.\nAt around 8am, 1½ hours after the control point opened, many private vehicles were neatly lining up for immigration clearance. The use of new technology, a new location and a new facility meant that extra time and patience were needed.\nVisitors, mostly tourists and retirees travelling on foot, had a wow moment inside the modern...",
+      "link": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3370632/selfies-queues-and-confusion-huanggang-ports-wow-factor-shines-through?utm_source=rss_feed",
+      "published": "Mon, 12 Oct 2026 13:53:58 +0000",
+      "source": "SCMP"
+    },
     {
       "title": "Victor Reyes tops KBO with record 211 hits",
       "summary": "SEOUL, Oct. 12 (Yonhap) -- Victor Reyes of the Lotte Giants topped South Korean ...",
@@ -96,13 +103,6 @@
       "link": "https://www.aljazeera.com/sports/2026/10/12/which-banners-did-liverpool-fans-display-at-anfield-against-man-city?traffic_source=rss",
       "published": "Mon, 12 Oct 2026 12:21:56 +0000",
       "source": "Al Jazeera"
-    },
-    {
-      "title": "China’s top diplomat to visit Azerbaijan, Croatia, Montenegro and Bulgaria to boost ties",
-      "summary": "Chinese Foreign Minister Wang Yi will visit Azerbaijan and three Balkan countries amid Beijing’s push to shore up its trade corridors and geopolitical influence in the regions.\nWang will attend the seventh summit of the Conference on Interaction and Confidence-Building Measures in Asia (CICA) in Baku, Azerbaijan, on Thursday “as special representative of President Xi Jinping”, according to China’s foreign ministry.\nAside from Azerbaijan, Beijing’s top diplomat will visit Croatia, Montenegro and...",
-      "link": "https://www.scmp.com/news/china/diplomacy/article/3370626/chinas-top-diplomat-visit-azerbaijan-croatia-montenegro-and-bulgaria-boost-ties?utm_source=rss_feed",
-      "published": "Mon, 12 Oct 2026 12:11:19 +0000",
-      "source": "SCMP"
     },
     {
       "title": "Gaza: Still Reporting",
@@ -304,41 +304,32 @@
       "title": "Vietjet's maiden Prague flight reveals Vietnamese carrier's global ambition",
       "summary": "",
       "link": "https://asia.nikkei.com/business/transportation/vietjet-s-maiden-prague-flight-reveals-vietnamese-carrier-s-global-ambition2",
-      "published": "2026-10-12 13:48",
+      "published": "2026-10-12 13:57",
       "source": "Nikkei Asia"
     },
     {
       "title": "Trump's Russia-Ukraine truce claim comes as India urges peace",
       "summary": "",
       "link": "https://asia.nikkei.com/politics/ukraine-war/trump-s-russia-ukraine-truce-claim-comes-as-india-urges-peace",
-      "published": "2026-10-12 13:48",
+      "published": "2026-10-12 13:57",
       "source": "Nikkei Asia"
     },
     {
       "title": "India's Kaynes Semicon eyes foreign help as it targets $31m revenue",
       "summary": "",
       "link": "https://asia.nikkei.com/editor-s-picks/interview/india-s-kaynes-semicon-eyes-foreign-help-as-it-targets-31m-revenue",
-      "published": "2026-10-12 13:48",
+      "published": "2026-10-12 13:57",
       "source": "Nikkei Asia"
     },
     {
       "title": "China's peak-season auto sales flop with sharpest monthly drop of year",
       "summary": "",
       "link": "https://asia.nikkei.com/business/automobiles/china-s-peak-season-auto-sales-flop-with-sharpest-monthly-drop-of-year",
-      "published": "2026-10-12 13:48",
+      "published": "2026-10-12 13:57",
       "source": "Nikkei Asia"
     }
   ],
   "history": [
-    {
-      "date": "2026-10-01 12:10",
-      "threat_level": "MEDIUM",
-      "value": 2,
-      "sentiment_score": 45,
-      "incidents": 20,
-      "hangseng": 24613.27,
-      "usd_czk": null
-    },
     {
       "date": "2026-10-02 05:01",
       "threat_level": "MEDIUM",
@@ -599,6 +590,15 @@
       "incidents": 40,
       "hangseng": 24271.2,
       "usd_czk": null
+    },
+    {
+      "date": "2026-10-12 13:57",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 75,
+      "incidents": 40,
+      "hangseng": 24271.2,
+      "usd_czk": null
     }
   ],
   "locations": [
@@ -806,21 +806,21 @@
     }
   ],
   "location_counts": {
-    "Beijing": 45,
-    "Hong Kong": 44,
-    "Tokyo": 20,
-    "Shanghai": 9,
-    "Seoul": 22,
+    "Beijing": 46,
+    "Hong Kong": 45,
+    "Tokyo": 21,
+    "Shanghai": 10,
+    "Seoul": 23,
     "South China Sea": 5,
-    "Taipei": 18,
-    "Manila": 10,
-    "Pyongyang": 12,
+    "Taipei": 19,
+    "Manila": 11,
+    "Pyongyang": 13,
     "Washington, D.C.": 2,
     "Los Angeles": 2,
     "Florida": 1,
     "Rusko": 1,
     "Írán": 1,
-    "Čína": 9,
+    "Čína": 8,
     "Tchaj-wan": 3,
     "Japonsko": 1,
     "Indie": 9,
@@ -833,9 +833,9 @@
     "Ukrajina": 2,
     "Singapur": 1,
     "Austrálie": 2,
-    "Delhi": 13,
+    "Delhi": 14,
     "Singapore": 10,
-    "Kuala Lumpur": 12,
+    "Kuala Lumpur": 13,
     "Canberra": 9,
     "New York": 1,
     "Ithaca (Cornell)": 1,
@@ -843,21 +843,21 @@
     "Súdán": 1,
     "Kolumbie": 1,
     "Islamabad": 8,
-    "Jakarta": 12,
+    "Jakarta": 13,
     "Izrael": 1,
     "Turecko": 1,
     "Indonésie": 3,
     "Kabul": 5,
     "Dhaka": 2,
-    "Yangon": 11,
+    "Yangon": 12,
     "Venezuela": 1,
     "Egypt": 1,
     "SAE": 1,
     "Řím": 1,
     "Brusel": 1,
     "Jihoafrická republika": 1,
-    "Bangkok": 9,
-    "Hanoi": 5,
+    "Bangkok": 10,
+    "Hanoi": 6,
     "Taiwan Strait": 1,
     "Kalifornie": 1,
     "Paraguay": 3,
@@ -867,17 +867,9 @@
     "key": "Beijing",
     "name_cs": "Peking",
     "name_en": "Beijing",
-    "count": 45
+    "count": 46
   },
   "archive": [
-    {
-      "date": "2026-10-06 12:32",
-      "threat_level": "MEDIUM",
-      "security_status_cs": "Geopolitické napětí v Asii zůstává podpořeno eskalací na Blízkém východě a korejském poloostrově, zatímco Evropská unie v čele s Francií a Německem přitvrzuje vůči čínským obchodním praktikám. Technologický sektor mezitím zažívá prudký vývoj v oblasti AI a IPO aktivit, např. primární úpis společnosti Transsion v Hongkongu.",
-      "security_status_en": "Geopolitical tensions in Asia remain underpinned by escalations in the Middle East and the Korean Peninsula, while the European Union, led by France and Germany, is hardening its stance against Chinese trade practices. Meanwhile, the tech sector is experiencing rapid developments in AI and IPO activities, such as Transsion's upcoming Hong Kong listing.",
-      "forecast_cs": "V nejbližších dnech lze očekávat detailnější vyjednávání mezi Pekingem a Bruselem ohledně nových obchodních bariér a sledování reakcí Soulu na incidenty na hranicích s KLDR.",
-      "forecast_en": "Over the coming days, expect heightened scrutiny on trade negotiations between Beijing and Brussels over new defensive tools, alongside monitoring of Seoul's diplomatic response to DMZ landmine incidents."
-    },
     {
       "date": "2026-10-07 05:00",
       "threat_level": "HIGH",
@@ -981,6 +973,14 @@
       "security_status_en": "The Asian region faces heightened tensions due to ongoing Chinese live-fire military drills around Taiwan and continuous North Korean missile tests. Simultaneously, global markets are grappling with a tech sector shock triggered by Chinese startup DeepSeek's advanced AI model, causing steep drops in U.S. and Asian tech equities.",
       "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající volatilitu na globálních trzích v důsledku vstřebávání šoku v AI sektoru a sledování vojenských manévrů kolem Tchaj-wanu.",
       "forecast_en": "Over the coming days, persistent volatility is expected across global markets as they digest the AI sector shock and monitor military maneuvers around Taiwan."
+    },
+    {
+      "date": "2026-10-12 13:57",
+      "threat_level": "HIGH",
+      "security_status_cs": "Region Asie a Tichomoří čelí zvýšenému napětí v souvislosti s rozsáhlými čínskými vojenskými cvičeními v okolí Tchaj-wanu a pokračujícími raketovými testy Severní Koreje. Globální trhy zároveň vstřebávají šok v technologickém sektoru vyvolaný novým čínským AI modelem DeepSeek, který způsobil prudký propad akcií výrobců AI infrastruktury.",
+      "security_status_en": "The Asia-Pacific region faces heightened tensions driven by extensive Chinese live-fire military drills around Taiwan and ongoing North Korean missile tests. Simultaneously, global markets are absorbing a major technology sector shock triggered by Chinese startup DeepSeek's new AI model, which caused a steep sell-off in AI infrastructure stocks.",
+      "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na globálních trzích, kde se bude nadále vyhodnocovat dopad čínského AI průlomu a vývoj kolem tchajwanské úžiny.",
+      "forecast_en": "Over the coming days, continued volatility is expected across global markets as they continue to digest the fallout from China's AI breakthrough and developments around the Taiwan Strait."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
