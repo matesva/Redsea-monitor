@@ -1,69 +1,145 @@
 {
-  "last_updated": "2026-10-11T21:40:12Z",
+  "last_updated": "2026-10-12T05:00:12Z",
   "assessment": {
     "threat_level": "HIGH",
     "sentiment_score": 72,
-    "security_status_cs": "Evropa čelí stupňujícím se bezpečnostním rizikům včetně pokusu o atentát na polského premiéra Tuska a intenzivních ruských útoků na Ukrajině. Na politické scéně probíhají ostré spory ohledně návrhů EU rozpočtu, zatímco hospodářské trhy vstřebávají dopady amerických sankcí a nové dohody EU ohledně čínských elektromobilů.",
-    "security_status_en": "Europe faces escalating security risks including an attempted assassination plot against Polish Prime Minister Tusk and intense Russian strikes in Ukraine. The political scene sees sharp disputes over EU budget proposals, while economic markets absorb the impacts of US sanctions and a new EU agreement on Chinese electric vehicles.",
+    "security_status_cs": "Evropa čelí zvýšenému napětí v důsledku eskalace ruských útoků na ukrajinskou energetickou infrastrukturu navzdory údajnému příměří, které oznámil Donald Trump. Vnitřní stabilitu regionu navíc zatěžují domácí politické krize, sociální nepokoje ve Francii a odhalená hrozba atentátu na polského premiéra Donalda Tuska.",
+    "security_status_en": "Europe faces heightened tension due to escalating Russian strikes on Ukrainian energy infrastructure despite a claimed ceasefire announced by Donald Trump. Regional stability is further strained by domestic political crises, social unrest in France, and a foiled assassination threat against Polish Prime Minister Donald Tusk.",
     "recommendations": [
       {
         "sector_cs": "Široký evropský akciový trh (Euro Stoxx 50 ETF)",
         "sector_en": "Broad European Equities (Euro Stoxx 50 ETFs)",
         "action": "HOLD",
-        "reason_cs": "Trhy čelí zvýšené volatilitě kvůli geopolitickému napětí na Ukrajině a neshodám ohledně financování EU rozpočtu.",
-        "reason_en": "Markets face heightened volatility due to geopolitical tensions in Ukraine and disagreements over EU budget financing."
+        "action_type": "HOLD",
+        "reason_cs": "Trhy čelí nejistotě kvůli geopolitickým šokům, kolísajícím cenám energií a rostoucímu napětí na Ukrajině i na Blízkém východě.",
+        "reason_en": "Markets face uncertainty due to geopolitical shocks, fluctuating energy prices, and rising tensions in Ukraine and the Middle East."
       },
       {
         "sector_cs": "Evropské banky (BNP Paribas, Deutsche Bank, Santander)",
         "sector_en": "European Banks (BNP Paribas, Deutsche Bank, Santander)",
-        "action": "HOLD",
-        "reason_cs": "Výsledková sezóna velkých bank přinese klíčové ukazatele o zdraví ekonomiky v prostředí vyšších výnosů a měnové politiky ECB.",
-        "reason_en": "Major bank earnings season will provide key indicators on economic health in a rising-yield environment and ECB monetary policy."
+        "action": "BUY",
+        "action_type": "BUY",
+        "reason_cs": "Zahájení výsledkové sezóny přinese klíčové informace o odolnosti bankovního sektoru v prostředí vyšších úrokových sazeb.",
+        "reason_en": "The kickoff of the earnings season will provide critical insights into the banking sector's resilience in a higher-yield environment."
       },
       {
         "sector_cs": "Obranný průmysl (Rheinmetall, Thales, Leonardo)",
         "sector_en": "Defense Industry (Rheinmetall, Thales, Leonardo)",
         "action": "BUY",
-        "reason_cs": "Pokračující válka na Ukrajině a rostoucí bezpečnostní hrozby udržují silnou poptávku po vojenském vybavení a navyšování obranných rozpočtů.",
-        "reason_en": "The ongoing war in Ukraine and rising security threats maintain strong demand for military equipment and defense budget increases."
+        "action_type": "BUY",
+        "reason_cs": "Rostoucí hrozba ruských hybridních útoků a pokračující válka na Ukrajině udržují vysokou poptávku po obranných systémech a financování armád.",
+        "reason_en": "The rising threat of Russian hybrid attacks and the ongoing war in Ukraine maintain high demand for defense systems and military funding."
       },
       {
         "sector_cs": "Energetika (TotalEnergies, Shell, RWE)",
         "sector_en": "Energy (TotalEnergies, Shell, RWE)",
         "action": "HOLD",
-        "reason_cs": "Debaty o energetickém příměří a stabilní export ruské ropy navzdory sankcím udržují smíšený výhled pro komoditní trhy.",
-        "reason_en": "Debates over an energy ceasefire and stable Russian crude exports despite sanctions maintain a mixed outlook for commodity markets."
+        "action_type": "HOLD",
+        "reason_cs": "Ceny ropy a plynu reagují volatilně na zprávy o údajných energetických příměřích, amerických sankcích a útokech na infrastrukturu.",
+        "reason_en": "Oil and gas prices react volatilely to news of alleged energy ceasefires, US sanctions, and infrastructure attacks."
       },
       {
         "sector_cs": "Automobilový průmysl (Volkswagen, BMW, Stellantis)",
         "sector_en": "Automotive Industry (Volkswagen, BMW, Stellantis)",
         "action": "HOLD",
-        "reason_cs": "Nová dohoda EU poskytuje určitou ochranu před levnými čínskými dovozy hybridů, ale strukturální výzvy a tlak na marže přetrvávají.",
-        "reason_en": "The new EU deal provides some protection against cheap Chinese hybrid imports, but structural challenges and margin pressures persist."
+        "action_type": "HOLD",
+        "reason_cs": "Podpora evropských pravidel 'Made in Europe' ze strany vedení VW pomáhá chránit domácí trh, ale čelí silnému tlaku levnější konkurence z Číny.",
+        "reason_en": "VW management's backing of 'Made in Europe' rules helps protect the domestic market, but faces intense pressure from lower-cost Chinese competition."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly reagují na lokální politický vývoj a napětí v regionu střední Evropy, podpořené stabilní poptávkou po bankovních službách.",
-        "reason_en": "Domestic equities respond to local political developments and regional Central European tensions, supported by stable banking demand."
+        "action_type": "HOLD",
+        "reason_cs": "Domácí tituly jsou ovlivněny politickou stabilitou v Polsku a regionálním sentimentem, zatímco bankovní akcie sledují evropský finanční trend.",
+        "reason_en": "Domestic equities are influenced by political stability in Poland and regional sentiment, while bank stocks track broader European financial trends."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat kolísání trhů pod vlivem geopolitických zpráv z Ukrajiny a probíhajících výsledkových zpráv evropských bank.",
-    "forecast_en": "Over the coming days, market fluctuations are expected under the influence of geopolitical news from Ukraine and ongoing European bank earnings reports.",
-    "forecast_review_cs": "Předchozí předpověď o zvýšené volatilitě v důsledku geopolitického napětí a bezpečnostních incidentů se plně potvrdila.",
-    "forecast_review_en": "The previous forecast regarding heightened volatility due to geopolitical tensions and security incidents was fully confirmed."
+    "forecast_cs": "V nejbližších dnech lze očekávat volatilitu na energetických trzích a opatrnost investorů kvůli eskalaci konfliktu na Ukrajině a výsledkovým zprávám velkých bank.",
+    "forecast_en": "Over the coming days, volatility in energy markets and investor caution are expected due to the escalation of the conflict in Ukraine and major bank earnings reports.",
+    "forecast_review_cs": "Předchozí předpověď o kolísání trhů vlivem geopolitických zpráv a bankovních výsledků se plně potvrdila.",
+    "forecast_review_en": "The previous forecast regarding market fluctuations driven by geopolitical news and bank earnings has been fully confirmed."
   },
   "articles": [
     {
+      "title": "Oil prices fall after Trump claims ‘energy ceasefire’ in Ukraine war",
+      "summary": "Announcement follows diesel deal with Putin as US president tries to contain impact of higher fuel costs ahead of election",
+      "link": "https://www.ft.com/content/a663781e-2709-41f2-99df-4fb5a6162e6b?syn-25a6b1a6=1",
+      "published": "Mon, 12 Oct 2026 04:43:13 GMT",
+      "source": "Financial Times"
+    },
+    {
+      "title": "The EU budget battle just got nastier",
+      "summary": "Germany has rejected Ireland’s proposal for the EU’s next seven-year budget, despite €159 billion in cuts. And it’s not alone: Governments are divided over where the cuts should fall, while the European Parliament is threatening to block the deal. Zoya Sheftalovich and Nick Vinocur unpack the backlash and what it means for this week’s EU […]",
+      "link": "https://www.politico.eu/podcast/brussels-playbook-podcast/the-eu-budget-battle-just-got-nastier/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Mon, 12 Oct 2026 04:30:00 +0000",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Nato should prepare for deadly Russian ‘hybrid’ attack, says Poland",
+      "summary": "Foreign minister Radosław Sikorski says risk of casualties is rising as Moscow escalates sabotage campaign on European soil",
+      "link": "https://www.ft.com/content/0c5a10f4-5aca-456e-9c3a-4c4dc8132a63?syn-25a6b1a6=1",
+      "published": "Mon, 12 Oct 2026 04:00:16 GMT",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Wie Trumps Ölkrise zur Ukraine-Frage wird",
+      "summary": "Donald Trump verkündet eine „Energie-Waffenruhe“ zwischen der Ukraine und Russland an. Fraglich allerdings ist, was die beiden Länder davon wirklich wissen. Um den heimischen Druck durch steigende Ölpreise abzufedern, lockert Trump zuvor die Sanktionen gegen Russland. Weil er dafür von Wolodymyr Selenskyj kritisiert wird, fordert er, die Ukraine brauche einen neuen Präsidenten. Währenddessen ringen die […]",
+      "link": "https://www.politico.eu/podcast/berlin-playbook-podcast/wie-trumps-olkrise-zur-ukraine-frage-wird/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Mon, 12 Oct 2026 03:30:00 +0000",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Ukraine war briefing: Russia attacks multiple power plants after Trump energy ceasefire claim",
+      "summary": "<p>Zelenskyy says Ukrainian skies filled with Russian drones after truce claim, which Moscow has yet to confirm, as six killed in strikes. What we know on day 1,692</p><p><strong>Russian strikes hit multiple Ukrainian power plants after Donald Trump claimed both sides had agreed to stop hitting each other’s energy infrastructure, Volodymyr Zelenskyy said</strong>. The Ukrainian president said on social media a drone had hit a power plant in Kyiv on Sunday, leading to power outages in the capital. Shortly after, he said there had been a strike on the CHP-5 power plant in the eastern city of Kharkiv, adding:“Ukrainian skies have been infested with Russian ‘shaheds’ [drones] all day.”</p><p><strong>Trump said earlier that “effective immediately, there is an energy ceasefire</strong> in the war between Russia and Ukraine”. “Both parties have agreed. Do not break it!” the US president wrote on his Truth Social platform on Sunday morning in Washington, without further details. Zelenskyy expressed surprise at the announcement, saying the deal was <a href=\"https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire\">“news to me”</a> and he was seeking further details. Russia has yet to confirm it agreed.</p><p><strong>The ceasefire appeared to garner support on Sunday from Ukraine’s key western allies</strong>, including the UK, France, Canada and the European Commission. British prime minister Andy Burnham said a sustained energy ceasefire was “the best route to get energy and fuel back into world markets”. French president Emmanuel Macron said Paris supported a “real energy ceasefire” between Russia and Ukraine.</p><p><strong>Ukrainian officials said Russian ⁠attacks killed six people ⁠in two Ukrainian ⁠cities ​on Sunday</strong>, including a strike ⁠on a grocery store in Kharkiv, Ukraine’s second-largest city, ​where ‌three people died ‌and 20 were ‌injured. Two children were ‌among the injured, regional governor Oleh Syniehubov said. In a separate ​attack ​in western ​Ukraine, officials ​said ‌a Russian strike ​killed ​three people.</p><p><strong>Trump’s energy truce claim came two days after he announced a controversial agreement to buy Russian diesel fuel </strong>while temporarily easing US sanctions, prompting <a href=\"https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine\">outrage from Ukraine</a> and its European allies, who said it would embolden Moscow. Canadian prime minister Mark Carney added to the chorus of disapproval after a Sunday call with Zelenskyy, saying the diesel deal “is in direct opposition to the efforts of Ukraine, Canada and our allies to create peace and stability in Europe”. EU chief Ursula von der Leyen also backed Zelenskyy “as he leads the fight for his people’s freedom”, while Germany foreign minister Johann Wadephul said Berlin continued to “fully support” him.</p><p><strong>Trump lashed out at Zelenskyy when asked about criticism of the Russia diesel deal</strong>, saying it was <a href=\"https://www.theguardian.com/world/2026/oct/10/ukraine-russia-strikes-war-trump-diesel-deal-zelenskyy\">“time for Ukraine to get a new president”</a> who would finally settle the war. Zelenskyy pushed back, telling US ABC News on Sunday: “First of all, with all respect to President Trump, it’s up to our society, up to our people to choose one or another leader.”</p><p><strong>The Trump administration is threatening to stop the procurement system that provides Ukraine with weapons</strong> in order to press Kyiv to halt its deep strikes on Russian energy infrastructure, the <a href=\"https://www.ft.com/content/68fd8c4f-6f34-4f6e-a52c-76f635164031?syn-25a6b1a6=1\">Financial Times</a> quoted officials in Europe as saying. The US was lobbying European capitals and Kyiv in an attempt to end the attacks on Russian oil refineries, they said.</p><p><strong>A Ukrainian ⁠drone killed one ⁠person in Russia’s ⁠border ​Belgorod region on Sunday</strong>, ⁠officials said. The operational headquarters ⁠in Belgorod ​region said the drone struck a car on a road ‌near the border. In the ​part of Ukraine’s eastern Donetsk region ⁠held by Russian ​forces, Moscow-installed ​officials ​said one ​person ‌had been killed ​in ​a Ukrainian attack.</p><p><strong>Russia’s military ⁠said it ⁠struck ⁠a logistics ​centre in southern Ukraine’s ⁠Mykolaiv region</strong> and a cargo vessel ⁠in the ​Black ‌Sea. The logistics centre in the town ‌of Ternivka was used to ​store military and dual-use cargoes for the ⁠Ukrainian military, the ‌Russian defence ministry ‌claimed on Sunday.</p> <a href=\"https://www.theguardian.com/world/2026/oct/12/ukraine-war-briefing-russia-attacks-multiple-power-plants-after-trump-energy-ceasefire-claim\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/oct/12/ukraine-war-briefing-russia-attacks-multiple-power-plants-after-trump-energy-ceasefire-claim",
+      "published": "Mon, 12 Oct 2026 02:05:26 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "From farms to high schools, France is a nation on edge",
+      "summary": "The country is wavering between revolt and despair as it faces a whirlwind of crises: devastating heatwaves, spiralling debt, spiking interest rates, rising cost of living, housing shortages, increasing unemployment, and protests over conditions in high schools.",
+      "link": "https://www.lemonde.fr/en/france/article/2026/10/12/from-farms-to-high-schools-a-france-on-edge_6758493_7.html",
+      "published": "Mon, 12 Oct 2026 04:00:04 +0200",
+      "source": "Le Monde"
+    },
+    {
+      "title": "EU lacks influence(rs): No content creators at leaders’ summit",
+      "summary": "The Council wanted social media stars to cover its meetings, but EU countries failed to pick any for this week's big meeting.",
+      "link": "https://www.politico.eu/article/eu-council-summit-no-content-creators/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Mon, 12 Oct 2026 02:00:00 +0000",
+      "source": "Politico Europe"
+    },
+    {
       "title": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
-      "summary": "Zelensky says Kyiv would support such a truce. Moscow has yet to comment.",
+      "summary": "Ukraine's leader says he will support such a truce if Moscow does, after initially expressing surprise at Donald Trump's announcement.",
       "link": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
       "published": "Sun, 11 Oct 2026 21:36:40 GMT",
       "source": "BBC News"
     },
     {
-      "title": "Raphaël Glucksmann wins nomination for France’s centre-left",
+      "title": "Trump faces Republican opposition to his diesel deal with Russia’s Putin",
+      "summary": "Lawmakers from both parties say the agreement would finance Putin’s war machine in Ukraine and violate US law",
+      "link": "https://www.ft.com/content/debf0be6-d5aa-4ba7-bb66-7daf770d99ff?syn-25a6b1a6=1",
+      "published": "Sun, 11 Oct 2026 21:17:58 GMT",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Putin has already broken Trump's 'energy ceasefire' with attack on power plant, says Zelenskyy",
+      "summary": "Volodymyr Zelenskyy has accused Russia of striking a Ukrainian power plant and energy facilities after Donald Trump claimed an \"energy ceasefire\" was in place.",
+      "link": "https://news.sky.com/story/putin-has-already-broken-trumps-energy-ceasefire-with-attack-on-power-plant-says-zelenskyy-13597989",
+      "published": "Sun, 11 Oct 2026 21:58:00 +0100",
+      "source": "Sky News"
+    },
+    {
+      "title": "Watch: What's behind Trump's energy ceasefire claim?",
+      "summary": "The US president made the announcement in a social media post, which was an apparent surprise to Ukraine and Russia is yet to comment.",
+      "link": "https://www.bbc.co.uk/news/videos/cwvgde9vrdd9o?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 11 Oct 2026 20:55:02 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Glucksmann wins presidential nomination for France’s centre-left",
       "summary": "Pro-European MEP beats Socialist party rival as he bids to unite the ‘democratic left’ ahead of next year’s presidential election",
       "link": "https://www.ft.com/content/655af6f3-552f-4f51-aa52-02168cdae4fa?syn-25a6b1a6=1",
       "published": "Sun, 11 Oct 2026 20:50:57 GMT",
@@ -75,27 +151,6 @@
       "link": "https://www.politico.eu/article/lukasz-gibala-wins-krakow-mayoral-runoff-donald-tusk-setback/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "Sun, 11 Oct 2026 20:32:22 +0000",
       "source": "Politico Europe"
-    },
-    {
-      "title": "EU ‘safeguards’ hybrid car sector from Chinese imports under new deal",
-      "summary": "Auto sector welcomes ‘understanding’ reached with Beijing but other industries warn China’s huge trade surplus will persist without further action",
-      "link": "https://www.ft.com/content/7e48dd50-957c-4f45-ad24-ce628ca7e06a?syn-25a6b1a6=1",
-      "published": "Sun, 11 Oct 2026 20:00:01 GMT",
-      "source": "Financial Times"
-    },
-    {
-      "title": "US threatens to block arms for Ukraine over attacks on Russian refineries",
-      "summary": "Officials lobby European capitals and Kyiv following Trump’s diesel deal with Putin",
-      "link": "https://www.ft.com/content/68fd8c4f-6f34-4f6e-a52c-76f635164031?syn-25a6b1a6=1",
-      "published": "Sun, 11 Oct 2026 18:40:51 GMT",
-      "source": "Financial Times"
-    },
-    {
-      "title": "VW chief calls for France and Germany to co-operate on China car fightback",
-      "summary": "‘When it matters, we have found solutions together’, Oliver Blume says ahead of Paris Motor Show",
-      "link": "https://www.ft.com/content/258611cc-d4ec-40f7-9d3e-930991725837?syn-25a6b1a6=1",
-      "published": "Sun, 11 Oct 2026 18:09:24 GMT",
-      "source": "Financial Times"
     },
     {
       "title": "France investigates Thales contracts in Azerbaijan denounced by jailed former employee",
@@ -141,16 +196,9 @@
     },
     {
       "title": "New Houthi strike hits Riyadh airport, day after deadly strike",
-      "summary": "The attack comes a day after a strike by Yemen's Houthis killed 12 people and injured hundreds in the Saudi capital's airport.",
+      "summary": "The attack, which killed one person, comes a day after a strike by Yemen's Houthis killed 12 people and injured hundreds in the Saudi capital's airport.",
       "link": "https://www.lemonde.fr/en/international/article/2026/10/11/new-attack-hits-riyadh-airport-says-saudi-coalition_6758484_4.html",
       "published": "Sun, 11 Oct 2026 18:08:30 +0200",
-      "source": "Le Monde"
-    },
-    {
-      "title": "Trump says Russia and Ukraine agree to 'energy ceasefire,' Zelensky says 'news for me'",
-      "summary": "Donald Trump said Russia and Ukraine had agreed to halt strikes on each other's energy infrastructure. Russia did not comment.",
-      "link": "https://www.lemonde.fr/en/international/article/2026/10/11/trump-says-russia-and-ukraine-agree-to-energy-ceasefire-zelensky-says-news-for-me_6758483_4.html",
-      "published": "Sun, 11 Oct 2026 18:04:02 +0200",
       "source": "Le Monde"
     },
     {
@@ -161,39 +209,11 @@
       "source": "The Guardian"
     },
     {
-      "title": "Trump’s deal with Putin will have little impact on US diesel prices, experts say",
-      "summary": "<p>Analysts say fuel will take weeks to ship and quantity is too small to affect prices, while full deal is unlikely to be met given damage to Russian refineries</p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire\">Trump announces partial ceasefire but Zelenskyy says deal is ‘news to me’</a></p></li></ul><p>Donald Trump’s deal with Vladimir Putin to temporarily lift sanctions on US imports of Russian diesel will have little “meaningful” effect on motorists and businesses in the US and overseas, energy and foreign policy analysts have predicted.</p><p>The US president <a href=\"https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine\">infuriated Volodymyr Zelenskyy</a> when he announced the deal on Friday, writing on Truth Social that the agreement with his Russia counterpart to supply millions of tonnes of diesel was essential to reduce fuel prices in the US, which have soared after his decision to go to war against Iran.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/11/trump-russia-diesel-deal-putin-little-impact-prices\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/oct/11/trump-russia-diesel-deal-putin-little-impact-prices",
-      "published": "Sun, 11 Oct 2026 15:56:25 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Europeans back Zelenskyy after Trump calls for new Ukrainian leader",
-      "summary": "Several European countries reiterated their support for Ukraine's president following a spat between Washington and Kyiv.",
-      "link": "https://www.politico.eu/article/europe-back-volodymyr-zelenskyy-after-donald-trump-calls-for-new-ukrainian-leader/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sun, 11 Oct 2026 15:26:18 +0000",
-      "source": "Politico Europe"
-    },
-    {
       "title": "Poland stabbings driven by online glorification of violence, Tusk says",
       "summary": "The PM was speaking after violent attacks at Polish schools this week left one dead and others injured.",
       "link": "https://www.bbc.co.uk/news/articles/ckp8gyd65z2go?at_medium=RSS&at_campaign=rss",
       "published": "Sun, 11 Oct 2026 15:18:52 GMT",
       "source": "BBC News"
-    },
-    {
-      "title": "Ukraine strikes Yandex data centre in third attack on Russian tech giant",
-      "summary": "It is the third time this week that Ukraine has targeted Russian tech giant Yandex, forcing the company to suspend its operations.",
-      "link": "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 11 Oct 2026 14:38:10 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Man arrested in connection with alleged assassination plot against Donald Tusk",
-      "summary": "\"We are treating this matter very seriously,\" said a government spokesperson.",
-      "link": "https://www.politico.eu/article/poland-donald-tusk-police-warn-of-possible-plot-against-pm/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sun, 11 Oct 2026 13:27:16 +0000",
-      "source": "Politico Europe"
     },
     {
       "title": "At least 139 migrants dead after boat capsizes off Djibouti, UN says",
@@ -210,13 +230,6 @@
       "source": "Euronews"
     },
     {
-      "title": "Deutschland reicht Irlands Vorschlag zur Kürzung des EU-Haushaltsentwurfs nicht aus",
-      "summary": "Kanzler Merz und eine Gruppe von sechs großen Geberländern sehen eine Einigung noch in weiter Ferne.",
-      "link": "https://www.politico.eu/article/deutschland-reicht-irlands-vorschlag-zur-kuerzung-des-eu-haushaltsentwurfs-nicht-aus/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sun, 11 Oct 2026 12:31:14 +0000",
-      "source": "Politico Europe"
-    },
-    {
       "title": "Bank earnings to shed the first light on how higher yields are affecting the economy",
       "summary": "The big banks kick off earnings season on Tuesday, to provide a first read on the health of the economy in a rising-yield environment.",
       "link": "https://www.marketwatch.com/story/bank-earnings-to-shed-the-first-light-on-how-higher-yields-are-affecting-the-economy-cf3763ef?mod=mw_rss_topstories",
@@ -231,7 +244,7 @@
       "source": "Euronews"
     },
     {
-      "title": "At least 139 dead and 84 missing after boat capsizes",
+      "title": "Children among at least 139 dead after migrant boat capsizes",
       "summary": "A boat has capsized off the coast of Djibouti leaving at least 139 migrants dead and 84 missing, a United Nations agency has reported.",
       "link": "https://news.sky.com/story/109-dead-after-ship-sinks-off-coast-of-djibouti-un-agency-says-13597707",
       "published": "Sun, 11 Oct 2026 11:08:00 +0100",
@@ -250,13 +263,6 @@
       "link": "https://www.euronews.com/2026/10/10/evacuations-and-injuries-reported-at-riyadh-airport-after-another-alleged-houthi-attack",
       "published": "Sat, 10 Oct 2026 17:48:55 +0200",
       "source": "Euronews"
-    },
-    {
-      "title": "Founder of India's 'Cockroach' movement among hundreds detained amid mass protest",
-      "summary": "The leaders of India's \"Cockroach\" movement have been detained by police, along with hundreds of protesters, in a major crackdown to stop a mass demonstration.",
-      "link": "https://news.sky.com/story/indias-cockroach-movement-founder-detained-along-with-scores-of-protesters-13597121",
-      "published": "Sat, 10 Oct 2026 07:57:00 +0100",
-      "source": "Sky News"
     },
     {
       "title": "Abuse in France: \"Is Anyone Thinking of the Children?\"",
@@ -337,15 +343,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-09-29 11:54",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 72,
-      "incidents": 20,
-      "stoxx50": 6361.24,
-      "eur_czk": null
-    },
     {
       "date": "2026-09-30 05:48",
       "threat_level": "HIGH",
@@ -606,6 +603,15 @@
       "incidents": 40,
       "stoxx50": 6173.37,
       "eur_czk": null
+    },
+    {
+      "date": "2026-10-12 05:00",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 72,
+      "incidents": 40,
+      "stoxx50": 6173.37,
+      "eur_czk": null
     }
   ],
   "locations": [
@@ -645,6 +651,13 @@
       "name_en": "Frankfurt"
     },
     {
+      "key": "Strasbourg",
+      "lat": 48.5734,
+      "lon": 7.7521,
+      "name_cs": "Štrasburk",
+      "name_en": "Strasbourg"
+    },
+    {
       "key": "Kyiv",
       "lat": 50.4501,
       "lon": 30.5234,
@@ -652,11 +665,25 @@
       "name_en": "Kyiv"
     },
     {
+      "key": "London",
+      "lat": 51.5072,
+      "lon": -0.1276,
+      "name_cs": "Londýn",
+      "name_en": "London"
+    },
+    {
       "key": "Moscow",
       "lat": 55.7558,
       "lon": 37.6173,
       "name_cs": "Moskva",
       "name_en": "Moscow"
+    },
+    {
+      "key": "Dublin",
+      "lat": 53.3498,
+      "lon": -6.2603,
+      "name_cs": "Dublin",
+      "name_en": "Dublin"
     },
     {
       "key": "Istanbul",
@@ -730,14 +757,6 @@
       "auto": true
     },
     {
-      "key": "India",
-      "lat": 20.6,
-      "lon": 79,
-      "name_cs": "Indie",
-      "name_en": "India",
-      "auto": true
-    },
-    {
       "key": "Sudan",
       "lat": 15.5,
       "lon": 32.5,
@@ -763,29 +782,29 @@
     }
   ],
   "location_counts": {
-    "Brussels": 29,
-    "Strasbourg": 16,
-    "Kyiv": 38,
-    "Berlin": 27,
+    "Brussels": 30,
+    "Strasbourg": 17,
+    "Kyiv": 39,
+    "Berlin": 28,
     "Prague": 1,
-    "Paris": 30,
-    "Warsaw": 14,
+    "Paris": 31,
+    "Warsaw": 15,
     "Madrid": 21,
     "Rome": 10,
-    "Frankfurt": 14,
-    "London": 13,
-    "Moscow": 14,
+    "Frankfurt": 15,
+    "London": 14,
+    "Moscow": 15,
     "Budapest": 5,
     "Texas": 1,
     "Oklahoma": 1,
-    "Kanada": 1,
+    "Kanada": 2,
     "Izrael": 1,
-    "Írán": 2,
-    "Čína": 4,
+    "Írán": 1,
+    "Čína": 2,
     "Kolumbie": 1,
-    "Dublin": 4,
+    "Dublin": 5,
     "Chisinau": 1,
-    "Istanbul": 4,
+    "Istanbul": 5,
     "Brazílie": 1,
     "Turecko": 1,
     "Pákistán": 2,
@@ -818,17 +837,9 @@
     "key": "Kyiv",
     "name_cs": "Kyjev",
     "name_en": "Kyiv",
-    "count": 38
+    "count": 39
   },
   "archive": [
-    {
-      "date": "2026-10-06 04:23",
-      "threat_level": "HIGH",
-      "security_status_cs": "Evropa čelí kombinaci politické nestability po vyhlášení předčasných voleb ve Španělsku, hlubokým rozpočtovým obavám ve Francii provázeným sociálními nepokojy a zvýšenému geopolitickému napětí s Ruskem. Trhy nervózně sledují vysoké výnosy dluhopisů a dopady přetrvávajícího konfliktu na Ukrajině na energetickou i ekonomickou stabilitu.",
-      "security_status_en": "Europe faces a combination of political instability following snap elections in Spain, deep budgetary concerns in France accompanied by social unrest, and heightened geopolitical tensions with Russia. Markets are anxiously monitoring elevated bond yields and the impacts of the ongoing conflict in Ukraine on energy and economic stability.",
-      "forecast_cs": "V nejbližších dnech se očekává přetrvávající volatilita na dluhopisových trzích a pokračující napětí v souvislosti s francouzskými protesty a španělskou volební kampaní. Geopolitická konfrontace na východní hranici EU bude nadále tlumit ochotu investorů k riziku.",
-      "forecast_en": "Over the coming days, persistent volatility in bond markets and ongoing tensions related to French protests and the Spanish election campaign are expected. Geopolitical confrontation on the EU's eastern border will continue to dampen investor risk appetite."
-    },
     {
       "date": "2026-10-06 04:42",
       "threat_level": "HIGH",
@@ -932,6 +943,14 @@
       "security_status_en": "Europe faces escalating security risks including an attempted assassination plot against Polish Prime Minister Tusk and intense Russian strikes in Ukraine. The political scene sees sharp disputes over EU budget proposals, while economic markets absorb the impacts of US sanctions and a new EU agreement on Chinese electric vehicles.",
       "forecast_cs": "V nejbližších dnech lze očekávat kolísání trhů pod vlivem geopolitických zpráv z Ukrajiny a probíhajících výsledkových zpráv evropských bank.",
       "forecast_en": "Over the coming days, market fluctuations are expected under the influence of geopolitical news from Ukraine and ongoing European bank earnings reports."
+    },
+    {
+      "date": "2026-10-12 05:00",
+      "threat_level": "HIGH",
+      "security_status_cs": "Evropa čelí zvýšenému napětí v důsledku eskalace ruských útoků na ukrajinskou energetickou infrastrukturu navzdory údajnému příměří, které oznámil Donald Trump. Vnitřní stabilitu regionu navíc zatěžují domácí politické krize, sociální nepokoje ve Francii a odhalená hrozba atentátu na polského premiéra Donalda Tuska.",
+      "security_status_en": "Europe faces heightened tension due to escalating Russian strikes on Ukrainian energy infrastructure despite a claimed ceasefire announced by Donald Trump. Regional stability is further strained by domestic political crises, social unrest in France, and a foiled assassination threat against Polish Prime Minister Donald Tusk.",
+      "forecast_cs": "V nejbližších dnech lze očekávat volatilitu na energetických trzích a opatrnost investorů kvůli eskalaci konfliktu na Ukrajině a výsledkovým zprávám velkých bank.",
+      "forecast_en": "Over the coming days, volatility in energy markets and investor caution are expected due to the escalation of the conflict in Ukraine and major bank earnings reports."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 6× HIGH, 1× CRITICAL.",
@@ -948,8 +967,8 @@
       "cached": false
     },
     "eurusd": {
-      "value": 1.1194,
-      "date": "2026-10-11",
+      "value": 1.1211,
+      "date": "2026-10-12",
       "cached": false
     }
   },
