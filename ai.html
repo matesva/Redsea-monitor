@@ -1,145 +1,111 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>AI monitor – aktuality a úvaha o budoucnosti</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI: aktuality a úvaha · Monitory</title>
+<meta name="description" content="Aktuální zprávy ze světa umělé inteligence a úvaha o budoucnosti s ohledem na vyjádření Elona Muska">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://matesva.github.io/Redsea-monitor/ai.html">
+<meta name="theme-color" content="#0b1d26">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script data-goatcounter="https://redsea-monitor.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<link rel="icon" type="image/svg+xml" href="/Redsea-monitor/favicon.svg">
+<link rel="manifest" href="/Redsea-monitor/app.webmanifest">
 <style>
-  :root{
-    --bg:#0e1116; --card:#171c24; --line:#262d38; --text:#e6e9ee; --muted:#9aa4b2;
-    --accent:#4da3ff; --warn:#ffb454;
-  }
-  @media (prefers-color-scheme: light){
-    :root{ --bg:#f4f6f9; --card:#ffffff; --line:#dde2ea; --text:#1b2330; --muted:#5b6676; --accent:#0a66c2; --warn:#b15e00; }
-  }
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--text);
-    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
-    padding:env(safe-area-inset-top,0) 0 env(safe-area-inset-bottom,0)}
-  .wrap{max-width:860px;margin:0 auto;padding:16px}
-  a{color:var(--accent);text-decoration:none}
-  a:hover{text-decoration:underline}
-  .back{display:inline-block;margin-bottom:8px;font-size:14px}
-  h1{font-size:26px;margin:4px 0 4px}
-  h2{font-size:19px;margin:28px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--line)}
-  .sub{color:var(--muted);font-size:14px;margin:0 0 8px}
-  .grid{display:grid;gap:12px}
-  @media(min-width:700px){.grid{grid-template-columns:1fr 1fr}}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
-  .card h3{font-size:16px;margin:0 0 6px}
-  .card p{margin:0 0 8px;font-size:15px}
-  .meta{font-size:12px;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap}
-  .tag{border:1px solid var(--line);border-radius:999px;padding:1px 8px}
-  .timeline{border-left:3px solid var(--accent);padding-left:14px;margin:0}
-  .timeline .item{margin:0 0 16px}
-  .timeline .date{font-size:12px;color:var(--muted)}
-  .timeline .item p{margin:2px 0}
-  .essay p{margin:0 0 14px}
-  .note{background:var(--card);border:1px solid var(--warn);border-radius:12px;padding:12px 14px;font-size:14px;color:var(--muted);margin-top:18px}
-  footer{margin:28px 0 8px;color:var(--muted);font-size:13px}
+*{box-sizing:border-box}
+:root{--ink:#0b1d26;--ink2:#142c3a;--brass:#b8863b;--text:#e7e0cd;--text-dim:#9aa8ac;--rule:rgba(184,134,59,.35)}
+body.light{--ink:#ece6d6;--ink2:#e0d8c0;--text:#1c2b2e;--text-dim:#5c6b6e;--rule:rgba(11,29,38,.18)}
+body{margin:0;font-family:'Spectral',Georgia,serif;background-color:var(--ink);background-image:radial-gradient(circle at 1px 1px,rgba(184,134,59,.06) 1px,transparent 0);background-size:22px 22px;color:var(--text);min-height:100vh;padding-bottom:60px;line-height:1.6}
+.wrap{max-width:780px;margin:0 auto;padding:0 20px}
+a{color:var(--brass);text-decoration:none}
+a:hover{text-decoration:underline}
+header{border-bottom:3px double var(--brass);padding:28px 0 16px}
+.top{font-family:'IBM Plex Mono',monospace;font-size:.72em;letter-spacing:.04em;color:var(--brass);margin-bottom:12px}
+h1{font-size:2.1em;margin:0 0 6px;line-height:1.15}
+.sub{font-family:'IBM Plex Mono',monospace;font-size:.78em;color:var(--text-dim)}
+.gt{font-family:'IBM Plex Mono',monospace;font-size:.78em;letter-spacing:.06em;text-transform:uppercase;color:var(--brass);margin:30px 0 0;font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-top:12px}
+.card{border:1px solid var(--rule);background:var(--ink2);padding:16px;border-radius:2px}
+.card h3{font-size:1.1em;margin:0 0 6px;line-height:1.3}
+.card p{margin:0 0 10px;font-size:.92em;line-height:1.5}
+.meta{font-family:'IBM Plex Mono',monospace;font-size:.68em;color:var(--text-dim);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.tag{border:1px solid var(--rule);padding:1px 7px;color:var(--brass)}
+.tl{border-left:2px solid var(--brass);margin:14px 0 0 4px;padding-left:16px}
+.tl .it{margin:0 0 18px}
+.tl .d{font-family:'IBM Plex Mono',monospace;font-size:.7em;color:var(--brass);letter-spacing:.03em}
+.tl .it p{margin:3px 0;font-size:.95em}
+.essay{margin-top:12px}
+.essay p{margin:0 0 14px}
+.watch{border-left:2px solid var(--brass);padding-left:12px;margin-top:6px}
+.note{border:1px solid var(--rule);background:var(--ink2);padding:12px 14px;margin-top:22px;font-family:'IBM Plex Mono',monospace;font-size:.7em;color:var(--text-dim);line-height:1.7}
+.err{color:var(--text-dim);font-family:'IBM Plex Mono',monospace;font-size:.8em;margin-top:14px}
+footer{margin-top:34px;text-align:center;font-family:'IBM Plex Mono',monospace;font-size:.66em;color:var(--text-dim)}
+@media (max-width:600px){h1{font-size:1.6em}}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <a class="back" href="index.html">← Zpět na přehled monitorů</a>
-  <h1>🤖 AI monitor</h1>
-  <p class="sub">Aktuální dění ve světě umělé inteligence a úvaha o budoucnosti. Stav k 11. 10. 2026.</p>
+  <header>
+    <div class="top"><a href="/Redsea-monitor/">← PŘEHLED MONITORŮ</a> · AI A TECHNOLOGIE</div>
+    <h1>AI: aktuality a úvaha</h1>
+    <div class="sub" id="upd">načítání…</div>
+  </header>
 
-  <h2>📰 Aktuální dění (týden 3.–11. října 2026)</h2>
-  <div class="grid">
+  <h2 class="gt">Aktuální dění</h2>
+  <div class="grid" id="articles"></div>
 
-    <div class="card">
-      <h3>Bezpečnost agentů se dostává na přetřes</h3>
-      <p>Anthropic vypnul živý internet pro všechny interní testy agentů. Důvodem byly případy, kdy agenti odeslali vymyšlená data do veřejného formuláře nebo sahali do vládních databází bez oprávnění. Wikimedia zároveň popsala „zlobící“ agenty, kteří zahlcovali její servery.</p>
-      <div class="meta"><span class="tag">Bezpečnost</span><a href="https://aiweekly.co/ai-news-today/edition/2026-10-10" target="_blank" rel="noopener">AI Weekly, 10. 10.</a></div>
-    </div>
+  <h2 class="gt">Co říká Elon Musk</h2>
+  <div class="tl" id="musk"></div>
 
-    <div class="card">
-      <h3>USA zřizují Super Intelligence Force</h3>
-      <p>Prezident 4. října vytvořil novou radu pro AI politiku. Má 120 dní na zprávu o rizicích a příležitostech. Podle zpráv její šéf odmítá celoodvětvové zpomalení vývoje.</p>
-      <div class="meta"><span class="tag">Regulace</span><a href="https://jpatoconnell.substack.com/p/the-and-report-41-october-10-2026" target="_blank" rel="noopener">The &amp; Report #41</a></div>
-    </div>
-
-    <div class="card">
-      <h3>Investiční boom a otázka návratnosti</h3>
-      <p>Rekordní výdaje na AI infrastrukturu vyvolávají otázku, zda se produktivita a tržby dostaví dost rychle, aby se investice vyplatily.</p>
-      <div class="meta"><span class="tag">Ekonomika</span><a href="https://www.marketingprofs.com/opinions/2026/56118/ai-update-october-09-2026-ai-news-and-views-from-the-past-week" target="_blank" rel="noopener">MarketingProfs, 9. 10.</a></div>
-    </div>
-
-    <div class="card">
-      <h3>Modely zlevňují, konkurence houstne</h3>
-      <p>OpenAI uvedlo GPT-6.1 Sol za zlomek ceny předchozího flagshipu. Google pouští Gemini 4 Argon nejdřív kybernetickým obráncům. Mistral chystá Large 4 na 27. října a míří na čínské open-weight modely.</p>
-      <div class="meta"><span class="tag">Modely</span><a href="https://aiweekly.co/ai-news-today/edition/2026-10-01" target="_blank" rel="noopener">AI Weekly, 1. 10.</a></div>
-    </div>
-
-    <div class="card">
-      <h3>AI ve vědě: „virtuální buňka“</h3>
-      <p>Biohub oznámil fond za 1,8 mld. USD na otevřená biologická data a model, který předpovídá chování buněk dřív než laboratorní pokus. Přispívají Google DeepMind, Isomorphic Labs, Meta i americké ministerstvo energetiky.</p>
-      <div class="meta"><span class="tag">Věda</span><a href="https://jpatoconnell.substack.com/p/the-and-report-41-october-10-2026" target="_blank" rel="noopener">The &amp; Report #41</a></div>
-    </div>
-
-    <div class="card">
-      <h3>OpenAI zveřejnilo stovky matematických textů</h3>
-      <p>Do veřejného repozitáře putovalo 722 rukopisů vygenerovaných interním modelem. Zároveň vznikl otevřený protokol pro osobní agenty, který podporuje Walmart.</p>
-      <div class="meta"><span class="tag">Výzkum</span><a href="https://aiweekly.co/ai-news-today/edition/2026-10-07" target="_blank" rel="noopener">AI Weekly, 7. 10.</a></div>
-    </div>
-
-    <div class="card">
-      <h3>Berkeley: deset minut s AI snižuje vytrvalost</h3>
-      <p>Studie s 1 222 účastníky ukázala, že krátké používání chatbota zhoršilo schopnost pokračovat u těžkého úkolu poté, co AI zmizela.</p>
-      <div class="meta"><span class="tag">Společnost</span><a href="https://aiweekly.co/ai-news-today/edition/2026-10-10" target="_blank" rel="noopener">AI Weekly, 10. 10.</a></div>
-    </div>
-
-    <div class="card">
-      <h3>Firmy: AI přechází z pokusů do provozu</h3>
-      <p>Společný rámec posledních dvou týdnů: platba podle spotřeby u agentů, nedostatek lidí, kteří umí AI nasadit (Anthropic slíbil 100 mil. USD na výcvik 10 000 inženýrů), a dotazování firemních dat bez jejich kopírování.</p>
-      <div class="meta"><span class="tag">Byznys</span><a href="https://hellogrowth.ai/en/blog/ai-news-october-2026" target="_blank" rel="noopener">Hello Growth, 5. 10.</a></div>
-    </div>
-
-  </div>
-
-  <h2>🎙️ Co říká Elon Musk</h2>
-  <div class="timeline">
-    <div class="item">
-      <div class="date">Leden 2026 · Davos</div>
-      <p><b>AGI do konce roku 2026.</b> AI může překonat lidskou inteligenci už letos, motorem je růst výpočetního výkonu a spojení s roboty (Optimus). Podobné časování slíbil už dříve pro rok 2025.</p>
-    </div>
-    <div class="item">
-      <div class="date">Duben 2026 · příspěvek na X</div>
-      <p><b>„Universal HIGH income“.</b> Nejlepší odpověď na ztrátu práce kvůli AI jsou podle něj vysoké pravidelné platby z federálního rozpočtu. Inflaci by držela na uzdě vysoká nabídka zboží a služeb od AI a robotů.</p>
-      <div class="meta"><a href="https://www.newser.com/story/387537/musk-pushes-universal-high-income-to-tackle-ai-job-loss.html" target="_blank" rel="noopener">Newser</a></div>
-    </div>
-    <div class="item">
-      <div class="date">22. 6. 2026</div>
-      <p><b>Za 4–5 let víc než všichni lidé dohromady.</b> Okno se tím posouvá k letům 2030–2031.</p>
-      <div class="meta"><a href="https://yourstory.com/ai-story/elon-musk-ai-smarter-humanity-4-years" target="_blank" rel="noopener">YourStory</a></div>
-    </div>
-    <div class="item">
-      <div class="date">30. 9. 2026 · po setkání v Bílém domě</div>
-      <p><b>„Nejpravděpodobnější je věk hojnosti.“</b> Práce se podle něj spíš promění, než zmizí. Přechod ale „nebude hladký“ a riziko fatálního selhání AI a robotů není nulové.</p>
-      <div class="meta"><a href="https://www.digitaltoday.co.kr/en/view/109849/musk-says-retirement-savings-could-become-meaningless-in-10-to-20-years" target="_blank" rel="noopener">Digital Today</a></div>
-    </div>
-    <div class="item">
-      <div class="date">Opakovaně</div>
-      <p><b>Digitální práce zmizí první.</b> Fyzické profese vydrží déle. Hlavní brzdou vývoje bude podle něj elektřina, ne jen čipy.</p>
-    </div>
-  </div>
-
-  <h2>🔭 Úvaha o budoucnosti</h2>
-  <div class="essay">
-    <p><b>Časování je nejslabší místo.</b> Musk slibuje AGI v termínech, které se opakovaně posouvají. Termín „do konce roku 2025“ se nenaplnil a k 11. říjnu zbývá do konce roku 2026 přibližně 2,5 měsíce. Kritici upozorňují, že neexistuje shoda ani na definici AGI, takže každé prohlášení se dá obhájit i zpochybnit. Jeho firma xAI navíc z očekávání dalšího skoku přímo profituje, protože příběh „AGI je za rohem“ přitahuje investice. Čísla z jeho úst proto beru jako signál směru, ne jako harmonogram.</p>
-    <p><b>Směr ale asi trefuje.</b> Ceny modelů klesají (viz GPT-6.1 Sol), konkurence je silná od Francie po Čínu a agenti už dělají reálnou práci, někdy i takovou, o kterou nikdo nestál. Případy, kdy agenti obcházejí pravidla nebo zahlcují cizí servery, ukazují, že dnešní limit nejsou jen schopnosti, ale kontrola. Muskovo „riziko není nulové“ je v tomto světle zřejmě nejméně kontroverzní věta z celého jeho vystoupení.</p>
-    <p><b>Věk hojnosti je politická otázka, ne technická.</b> I kdyby AI a roboti skutečně zlevnili zboží a služby, zůstává otevřené, kdo bude vlastnit stroje a jak se výnosy dostanou k lidem. „Universal high income“ zatím nikdo nevyzkoušel v měřítku státu, a jeho autor navrhuje, aby ho platila vláda, ne firmy typu jeho vlastních. Nová americká Super Intelligence Force ukazuje, že debata se přesouvá z konferencí do úřadů, ale zatím spíš směrem k podpoře inovací než k brzdění.</p>
-    <p><b>Lidský faktor.</b> Berkeley studie je malé, ale užitečné varování. Pokud i pár minut s chatbotem zhoršuje vytrvalost, pak otázka „dá se AI dobře používat“ je stejně důležitá jako otázka „kdy bude chytřejší než my“. Musk sám formuluje nejtěžší problém jako otázku smyslu: co zbyde z práce, když ji stroje dělají lépe.</p>
-    <p><b>Co sledovat:</b> (1) zda do konce roku nějaký systém splní všeobecně přijatou definici AGI, (2) výstup 120denní zprávy Super Intelligence Force, (3) zda se objeví první reálné pilotní programy příjmu pro lidi vytlačené AI, (4) vývoj spotřeby elektřiny datacentry.</p>
-  </div>
+  <h2 class="gt">Úvaha o budoucnosti</h2>
+  <div class="essay" id="essay"></div>
+  <div class="watch" id="watch"></div>
 
   <div class="note">
-    ℹ️ Přehled zpráv je ručně sestavený snapshot k 11. 10. 2026. Úvaha je autorský komentář, ne tvrzení zdrojů. Citované články jsou jen shrnuté vlastními slovy, úplné znění najdeš na odkazovaných webech.
+    Zprávy se sbírají automaticky z RSS zdrojů a shrnuje je model Gemini. Úvaha je generovaná AI a není tvrzením zdrojů. Články jsou shrnuté vlastními slovy, úplné znění najdeš na odkazovaných webech.
   </div>
+  <div class="err" id="err"></div>
 
-  <footer>AI monitor · součást Redsea-monitoru</footer>
+  <footer>AKTUALIZOVÁNO AUTOMATICKY · Vždy ověřte v původním zdroji</footer>
 </div>
-<script data-goatcounter="https://redsea-monitor.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+<script>
+if(localStorage.getItem('theme')==='light')document.body.classList.add('light');
+var BASE="/Redsea-monitor/";
+function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+function safeUrl(u){return /^https?:\/\//i.test(u||"")?u:"#"}
+function fd(s){
+  var m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(s||"");
+  if(m)return +m[3]+". "+ +m[2]+". "+m[1];
+  m=/^(\d{4})-(\d{2})$/.exec(s||"");
+  if(m)return +m[2]+"/"+m[1];
+  return s||"";
+}
+function rel(s){
+  if(!s)return"";var f=String(s).replace(" ","T");if(!/Z$|\+/.test(f))f+="Z";
+  var d=new Date(f);if(isNaN(d))return"";
+  var m=Math.round((Date.now()-d)/6e4);if(m<60)return"před "+Math.max(m,0)+" min";
+  var h=Math.round(m/60);if(h<24)return"před "+h+" h";
+  return"před "+Math.round(h/24)+" dny";
+}
+fetch(BASE+"ai/data.json",{cache:"no-store"}).then(function(r){return r.json()}).then(function(d){
+  document.getElementById("upd").textContent="Aktualizováno "+rel(d.last_updated);
+  document.getElementById("articles").innerHTML=(d.articles||[]).map(function(a){
+    return '<div class="card"><h3>'+esc(a.title)+'</h3><p>'+esc(a.summary)+'</p><div class="meta"><span class="tag">'+esc(a.tag)+'</span><a href="'+esc(safeUrl(a.url))+'" target="_blank" rel="noopener">'+esc(a.source)+', '+esc(fd(a.date))+'</a></div></div>';
+  }).join("");
+  document.getElementById("musk").innerHTML=(d.musk||[]).map(function(m){
+    return '<div class="it"><div class="d">'+esc(fd(m.date)).toUpperCase()+'</div><p><b>'+esc(m.headline)+'.</b> '+esc(m.text)+' <a href="'+esc(safeUrl(m.url))+'" target="_blank" rel="noopener">zdroj</a></p></div>';
+  }).join("");
+  document.getElementById("essay").innerHTML=(d.essay||[]).map(function(p){return "<p>"+esc(p)+"</p>"}).join("");
+  if(d.watch)document.getElementById("watch").innerHTML="<p><b>Co sledovat:</b> "+esc(d.watch)+"</p>";
+}).catch(function(){
+  document.getElementById("upd").textContent="";
+  document.getElementById("err").textContent="Data se nepodařilo načíst (chybí ai/data.json nebo VPN).";
+});
+</script>
+<script src="/Redsea-monitor/nav.js"></script>
 </body>
 </html>
