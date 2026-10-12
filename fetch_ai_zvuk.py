@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Sbírá články o AI ve zvukové postprodukci a shrnuje je přes Gemini."""
-import html, json, os, re, sys, time, urllib.parse, urllib.request
+import html, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 
 OUT = "ai-zvuk-data.json"
 MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+FALLBACK = os.environ.get("GEMINI_FALLBACK_MODEL", "gemini-2.5-flash")
 KEY = os.environ.get("GEMINI_API_KEY", "")
 MAX_KEEP, MAX_AGE_DAYS, MAX_NEW = 30, 60, 8
 UA = {"User-Agent": "Mozilla/5.0 (compatible; ai-zvuk-bot/1.0)"}
@@ -24,7 +25,7 @@ FEEDS = [
     ("A Sound Effect", "https://www.asoundeffect.com/feed/", True),
     ("Designing Sound", "https://designingsound.org/feed/", True),
     ("postPerspective", "https://postperspective.com/feed/", True),
-    ("Google News", gnews('AI ("audio post" OR "sound design" OR ADR OR "re-recording mixer") when:14d'), False),
+    ("Google News", gnews('AI ("audio post-production" OR "sound design" OR "dialogue replacement" OR "re-recording mixer" OR "sound editor") when:14d'), False),
     ("Google News", gnews('AI dubbing voice cloning film when:14d'), False),
     ("Google News", gnews('AI dabing OR "zvuková postprodukce" when:30d', "cs", "CZ", "CZ:cs"), False),
 ]
@@ -32,6 +33,12 @@ FEEDS = [
 KEYWORDS = re.compile(
     r"\bAI\b|artificial intelligence|generative|machine learning|neural|"
     r"voice clon|dubbing|synthetic|deepfake|text-to-speech|\bTTS\b", re.I)
+
+
+AUDIO = re.compile(
+    r"sound|audio|dubb|dabing|dabér|dabing|zvuk|voice|vocal|dialogue|dialog|foley|"
+    r"re-recording|mixer|mixing|post-production|postprodukc|speech|izotope|pro tools|"
+    r"soundtrack|sfx", re.I)
 
 
 def get(url):
@@ -76,9 +83,14 @@ def collect():
                 continue
             text = ""
             source = name
+            if not AUDIO.search(title):
+                if not direct:
+                    continue
             if direct:
                 text = clean(it.findtext(CONTENT) or it.findtext("description"))[:3500]
                 if not KEYWORDS.search(title + " " + text):
+                    continue
+                if not AUDIO.search(title + " " + text):
                     continue
             else:
                 s = it.find("source")
@@ -96,21 +108,27 @@ def collect():
 
 
 def gemini(prompt):
-    url = (f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}"
-           f":generateContent?key={KEY}")
     body = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"responseMimeType": "application/json", "temperature": 0.3},
     }).encode()
-    for attempt in range(3):
-        try:
-            req = urllib.request.Request(url, body, {"Content-Type": "application/json"})
-            with urllib.request.urlopen(req, timeout=90) as r:
-                data = json.load(r)
-            return json.loads(data["candidates"][0]["content"]["parts"][0]["text"])
-        except Exception as e:
-            print(f"[gemini] pokus {attempt + 1}: {e}", file=sys.stderr)
-            time.sleep(5 * (attempt + 1))
+    models = [MODEL] + ([FALLBACK] if FALLBACK and FALLBACK != MODEL else [])
+    for model in models:
+        url = (f"https://generativelanguage.googleapis.com/v1beta/models/{model}"
+               f":generateContent?key={KEY}")
+        for attempt in range(4):
+            try:
+                req = urllib.request.Request(url, body, {"Content-Type": "application/json"})
+                with urllib.request.urlopen(req, timeout=90) as r:
+                    data = json.load(r)
+                return json.loads(data["candidates"][0]["content"]["parts"][0]["text"])
+            except urllib.error.HTTPError as e:
+                print(f"[gemini] {model} pokus {attempt + 1}: HTTP {e.code}", file=sys.stderr)
+                if e.code in (400, 401, 403, 404):
+                    break  # špatný model nebo klíč, další pokusy nemají smysl
+            except Exception as e:
+                print(f"[gemini] {model} pokus {attempt + 1}: {e}", file=sys.stderr)
+            time.sleep(10 * (attempt + 1))
     return None
 
 
@@ -120,17 +138,22 @@ def summarize(batch):
         lines.append(f"ID {i}\nTitulek: {a['title']}\nZdroj: {a['source']}\n"
                      f"Text: {a['text'] or '(není k dispozici, jen titulek)'}\n")
     prompt = (
-        "Jsi redaktor webu o zvukové postprodukci (dialogy, ADR, dabing, sound design, mix). "
-        "Ke každému článku napiš česky shrnutí o 2–3 větách, vlastními slovy, bez doslovných citací, "
+        "Jsi redaktor webu o zvukové postprodukci (dialogy, ADR = automated dialogue replacement, "
+        "dabing, sound design, střih zvuku, mix, hudba a zvuk pro film a TV). "
+        "U každého článku nejprve posuď, zda se skutečně týká zvuku, zvukové postprodukce, dabingu nebo hlasů "
+        "ve filmu a médiích ve spojení s AI. Články o čemkoli jiném (např. finance, ADR jako "
+        "depozitní certifikáty, medicína, právo) označ relevant=false. "
+        "U relevantních napiš česky shrnutí o 2–3 větách, vlastními slovy, bez doslovných citací, "
         "se zaměřením na dopad AI na tuto profesi. Pokud je k dispozici jen titulek, napiš jednu "
         "krátkou větu o čem titulek je a nic nepřidávej ani nedomýšlej. "
-        "Vrať POUZE JSON pole objektů {\"id\": číslo, \"summary\": \"...\"}.\n\n" + "\n".join(lines))
+        "Vrať POUZE JSON pole objektů {\"id\": číslo, \"relevant\": true/false, \"summary\": \"...\"}.\n\n"
+        + "\n".join(lines))
     res = gemini(prompt)
     out = {}
     if isinstance(res, list):
         for r in res:
             try:
-                out[int(r["id"])] = str(r["summary"]).strip()
+                out[int(r["id"])] = (bool(r.get("relevant", True)), str(r.get("summary", "")).strip())
             except Exception:
                 pass
     return out
@@ -152,43 +175,53 @@ def main():
         old = json.load(open(OUT, encoding="utf-8"))
     except Exception:
         old = {"articles": [], "overview": ""}
-    known = {a["link"] for a in old.get("articles", [])}
+    rejected = list(old.get("rejected", []))
+    # vyčistit dříve uložené články, které se zvuku netýkají
+    kept_old = [a for a in old.get("articles", [])
+                if AUDIO.search(a.get("title", "") + " " + a.get("summary", ""))]
+    removed = len(old.get("articles", [])) - len(kept_old)
+    known = {a["link"] for a in kept_old} | set(rejected)
     limit = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
 
     fresh = [a for a in collect()
              if a["link"] not in known and parse_date_iso(a["published"]) > limit]
     fresh.sort(key=lambda a: a["published"], reverse=True)
     fresh = fresh[:MAX_NEW]
-    print(f"Nových kandidátů: {len(fresh)}")
+    print(f"Nových kandidátů: {len(fresh)}, vyřazeno starých nerelevantních: {removed}")
 
     added = []
     if fresh and KEY:
         sums = summarize(fresh)
         for i, a in enumerate(fresh):
-            if sums.get(i):
+            if i not in sums:
+                continue  # Gemini neodpovědělo, zkusí se příště
+            relevant, summ = sums[i]
+            if relevant and summ:
                 added.append({
                     "title": a["title"], "link": a["link"], "source": a["source"],
-                    "published": a["published"], "summary": sums[i],
+                    "published": a["published"], "summary": summ,
                     "basis": "text" if a["text"] else "titulek",
                 })
+            elif not relevant:
+                rejected.append(a["link"])
     elif fresh:
         print("Chybí GEMINI_API_KEY, shrnutí přeskočena.", file=sys.stderr)
 
-    arts = [a for a in added + old.get("articles", [])
+    arts = [a for a in added + kept_old
             if parse_date_iso(a["published"]) > limit]
     arts.sort(key=lambda a: a["published"], reverse=True)
     arts = arts[:MAX_KEEP]
 
     ov = old.get("overview", "")
-    if KEY and arts and (added or not ov):
+    if KEY and arts and (added or removed or not ov):
         ov = overview(arts) or ov
 
     now = datetime.now(timezone.utc).isoformat()
     out = {"updated": now, "last_updated": now,
-           "overview": ov, "articles": arts}
+           "overview": ov, "articles": arts, "rejected": rejected[-300:]}
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
-    print(f"Hotovo: {len(arts)} článků, {len(added)} nových.")
+    print(f"Hotovo: {len(arts)} článků, {len(added)} nových, {len(rejected)} odmítnutých.")
 
 
 if __name__ == "__main__":
