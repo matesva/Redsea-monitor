@@ -13,7 +13,7 @@ import feedparser
 from google import genai
 from google.genai import types
 
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")  # viz fetch_usa.py
+MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")  # viz fetch_usa.py
 OUT = "ai/data.json"
 
 NEWS_FEEDS = [
