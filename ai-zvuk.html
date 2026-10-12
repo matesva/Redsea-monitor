@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI ve zvukové postprodukci · monitory</title>
+<meta name="description" content="Vliv AI na zvukovou postprodukci, dabing a sound design a vyjádření lidí z oboru. Automaticky aktualizované články se shrnutím.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://matesva.github.io/Redsea-monitor/ai-zvuk.html">
+<meta name="theme-color" content="#0b1d26">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script data-goatcounter="https://redsea-monitor.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<style>
+*{box-sizing:border-box}
+:root{--ink:#0b1d26;--ink2:#142c3a;--brass:#b8863b;--text:#e7e0cd;--text-dim:#9aa8ac;--rule:rgba(184,134,59,.35)}
+body.light{--ink:#ece6d6;--ink2:#e0d8c0;--text:#1c2b2e;--text-dim:#5c6b6e;--rule:rgba(11,29,38,.18)}
+body{margin:0;font-family:'Spectral',Georgia,serif;background-color:var(--ink);background-image:radial-gradient(circle at 1px 1px,rgba(184,134,59,.06) 1px,transparent 0);background-size:22px 22px;color:var(--text);min-height:100vh;padding-bottom:60px}
+.wrap{max-width:780px;margin:0 auto;padding:0 20px}
+header{border-bottom:3px double var(--brass);padding:28px 0 16px}
+.top{font-family:'IBM Plex Mono',monospace;font-size:.72em;letter-spacing:.04em;color:var(--brass);margin-bottom:12px}
+h1{font-size:2.1em;margin:0 0 6px;line-height:1.15}
+.sub{font-family:'IBM Plex Mono',monospace;font-size:.78em;color:var(--text-dim)}
+.gt{font-family:'IBM Plex Mono',monospace;font-size:.78em;letter-spacing:.06em;text-transform:uppercase;color:var(--brass);margin:28px 0 0;font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;margin-top:12px}
+.list{display:grid;gap:14px;margin-top:12px}
+.card{display:block;border:1px solid var(--rule);background:var(--ink2);padding:16px;color:var(--text);border-radius:2px}
+.card h2,.card h3{font-size:1.25em;margin:0 0 6px;font-weight:600}
+.card p{margin:0 0 10px;color:var(--text-dim);font-size:.92em;line-height:1.55}
+.card p:last-child{margin-bottom:0}
+.card a{color:var(--brass);text-decoration:none;border-bottom:1px solid var(--rule)}
+.card a:hover{border-bottom-color:var(--brass)}
+.who,.meta,.src{font-family:'IBM Plex Mono',monospace;font-size:.72em;line-height:1.7;color:var(--text-dim)}
+.card p.who,.card p.meta,.card p.src{font-size:.72em}
+.tags{font-family:'IBM Plex Mono',monospace;font-size:.68em;letter-spacing:.04em;color:var(--brass);margin-bottom:8px}
+.ov{border-left:3px solid var(--brass)}
+.badge{font-family:'IBM Plex Mono',monospace;font-size:.9em;color:var(--brass);border:1px solid var(--rule);padding:0 6px;margin-left:8px;border-radius:2px}
+.upd{font-family:'IBM Plex Mono',monospace;font-size:.72em;color:var(--text-dim);margin:10px 0 0}
+.warn{font-family:'IBM Plex Mono',monospace;font-size:.68em;color:var(--text-dim);margin:12px 0 0}
+footer{margin-top:34px;text-align:center;font-family:'IBM Plex Mono',monospace;font-size:.66em;color:var(--text-dim);line-height:1.7}
+@media (max-width:600px){h1{font-size:1.6em}}
+</style>
+<link rel="icon" type="image/svg+xml" href="/Redsea-monitor/favicon.svg">
+<link rel="apple-touch-icon" href="/Redsea-monitor/icons/apple-touch-icon.png">
+<link rel="manifest" href="/Redsea-monitor/app.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="cs_CZ">
+<meta property="og:title" content="AI ve zvukové postprodukci · monitory">
+<meta property="og:description" content="Vliv AI na zvukovou postprodukci, dabing a sound design a vyjádření lidí z oboru.">
+<meta property="og:url" content="https://matesva.github.io/Redsea-monitor/ai-zvuk.html">
+<meta property="og:image" content="https://matesva.github.io/Redsea-monitor/og.png">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="top">AI MONITORY · AI VE ZVUKU</div>
+    <h1>AI ve zvukové postprodukci</h1>
+    <div class="sub">Dialogy, ADR, dabing a sound design · stav k 12. 10. 2026</div>
+  </header>
+
+  <h2 class="gt">Kde AI už dnes zasahuje</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Čištění dialogů</h3>
+      <p>Neuronové odšumění, de-reverb a nově „generative fill“ v iZotope RX 12 (2026), který místo ticha po vystřižení kašle nebo ruchu dogeneruje zvuk odpovídající okolní místnosti.</p>
+      <p class="src"><a href="https://www.foximusic.com/blog/ai-in-audio-post-production-glossary/" target="_blank" rel="noopener">Foxi Blog</a></p>
+    </div>
+    <div class="card">
+      <h3>Separace stop</h3>
+      <p>Nástroje jako SpectraLayers nebo MVSEP rozdělí hotový mix na jednotlivé stopy. John „Wheels“ Hurlbut takto rozložil čtyřstopou nahrávku Beatles na 38 stop.</p>
+      <p class="src"><a href="https://www.production-expert.com/" target="_blank" rel="noopener">Production Expert</a></p>
+    </div>
+    <div class="card">
+      <h3>Přepis a generativní SFX</h3>
+      <p>Mike Thornton popisuje, že AI se v postprodukci prosazuje od převodu řeči na text a separace stop až po první fáze generativních zvukových efektů.</p>
+      <p class="src"><a href="https://www.production-expert.com/" target="_blank" rel="noopener">Production Expert</a></p>
+    </div>
+    <div class="card">
+      <h3>ADR a dabing</h3>
+      <p>Klonování hlasu a automatická synchronizace rtů umožňují zkoušet varianty replik bez návratu do studia. Zároveň otevírají otázky práv k hlasu a souhlasu herců.</p>
+      <p class="src"><a href="https://www.resemble.ai/resources/ai-voice-synthesis-tools-film-adr" target="_blank" rel="noopener">Resemble AI</a> · informace od výrobce</p>
+    </div>
+  </div>
+
+  <h2 class="gt">Vyjádření lidí z oboru</h2>
+  <div class="list">
+    <div class="card">
+      <div class="tags">SOUND DESIGN · MIX</div>
+      <h3>Charles Maynes</h3>
+      <p class="who">Sound designer a re-recording mixer, přes 30 let v Hollywoodu, 200+ titulů (Twister, Spider-Man, Evil Dead Rise), člen správní rady MPSE</p>
+      <p>Souhlasí, že AI nedokáže nahradit lidské tvůrčí myšlení, ale tvrdí, že skutečné nebezpečí je jinde: klienti tlačící na cenu, pronajímané (předplatné) nástroje, nejasná autorská práva a postupná eroze trhu odspodu. Podle něj by se zvuková komunita měla věnovat právě těmto rizikům, ne otázce, zda AI umí „kreativně“.</p>
+      <p class="src"><a href="https://www.production-expert.com/production-expert-1/our-sound-design-skills-are-safe-from-ai-our-industry-may-not-be" target="_blank" rel="noopener">Production Expert · 11. 10. 2026</a></p>
+    </div>
+    <div class="card">
+      <div class="tags">SOUND DESIGN</div>
+      <h3>René Coronado</h3>
+      <p class="who">Autor protipólu, na který Maynes reaguje</p>
+      <p>Ve svém textu „Why This Sound Designer Isn't Afraid Of Generative AI SFX“ zastává pohled, že se generativních SFX bát nemusíme, protože lidskou kreativitu AI nenahradí.</p>
+      <p class="src"><a href="https://www.production-expert.com/" target="_blank" rel="noopener">Production Expert</a></p>
+    </div>
+    <div class="card">
+      <div class="tags">STŘIH SFX · PRAXE</div>
+      <h3>Střihač efektů seriálu The Four Seasons</h3>
+      <p class="who">Příklad praktického nasazení AI</p>
+      <p>Použil AI ambience jako výchozí bod: vložil snímek ze scény, nástroj vrátil klíčová slova, ptáky a potoky osadil, vše doladil po svém a předal stopy re-recording mixérovi. Do generátoru nahrál i vlastní nahrávku ptáků z newyorského venkova a zrnitým enginem zajistil, aby se stejný pták neopakoval každou minutu.</p>
+      <p class="src"><a href="https://www.production-expert.com/production-expert-1/can-ai-replace-sound-design-what-the-craft-still-requires" target="_blank" rel="noopener">Production Expert · Can AI replace sound design?</a></p>
+    </div>
+    <div class="card">
+      <div class="tags">KOMENTÁŘ</div>
+      <h3>Generativní AI a „šťastné náhody“</h3>
+      <p class="who">Komentář Production Expert · 27. 9. 2026</p>
+      <p>Generativní AI hledá nejpravděpodobnější odpověď, a tím vylučuje právě šťastné náhody, z nichž vznikly třeba gated reverb efekty. Autor z toho vyvozuje, že se bez lidského experimentování ztrácí část toho, co dělá zvuk výjimečným.</p>
+      <p class="src"><a href="https://www.production-expert.com/" target="_blank" rel="noopener">Production Expert</a></p>
+    </div>
+    <div class="card">
+      <div class="tags">DABING · VÝZKUM</div>
+      <h3>Laurena Bernabo</h3>
+      <p class="who">University of Georgia · studie mezi profesionály v dabingu · březen 2025</p>
+      <p>Mnoho profesionálů by AI nasadilo spíš při psaní dabingového scénáře a hlasy nechalo nahrávat lidem. Diváci ve Španělsku navíc podle studie nechtějí „cizí“ hlas svého oblíbeného herce a mají rádi ten zdomácnělý.</p>
+      <p class="src"><a href="https://grady.uga.edu/?p=27491" target="_blank" rel="noopener">Grady College, UGA</a></p>
+    </div>
+  </div>
+
+  <h2 class="gt">Hlavní témata</h2>
+  <div class="list">
+    <div class="card">
+      <p><b style="color:var(--text)">Rutinní práce:</b> čištění, separace, přepis a první návrhy ruchů AI zrychluje a zlevňuje.</p>
+      <p><b style="color:var(--text)">Tvorba:</b> většina hlasů z oboru ji vidí jako nástroj v rukou zkušeného člověka, ne jako náhradu.</p>
+      <p><b style="color:var(--text)">Rizika:</b> tlak na rozpočty, autorská práva, práva k hlasům a ztráta juniorských pozic.</p>
+    </div>
+  </div>
+
+  <h2 class="gt">Aktuální články</h2>
+  <div class="upd" id="ai-upd">načítání…</div>
+  <div class="list" id="ai-auto"></div>
+  <div class="warn">SHRNUTÍ VYTVÁŘÍ AI A MŮŽE OBSAHOVAT CHYBY · VŽDY OVĚŘTE V PŮVODNÍM ZDROJI</div>
+
+  <footer>Výtahy jsou parafrázemi veřejných článků, ne doslovnými citáty · odkazy vedou k původním textům</footer>
+</div>
+
+<script>
+if(localStorage.getItem('theme')==='light')document.body.classList.add('light');
+(function(){
+  var box=document.getElementById('ai-auto'),upd=document.getElementById('ai-upd');
+  function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e;}
+  function fmt(s){var d=new Date(s);return isNaN(d)?'':d.toLocaleDateString('cs-CZ');}
+  fetch('/Redsea-monitor/ai-zvuk-data.json',{cache:'no-store'})
+    .then(function(r){if(!r.ok)throw 0;return r.json();})
+    .then(function(d){
+      var u=d.last_updated||d.updated;
+      upd.textContent='Aktualizováno '+(u?new Date(u).toLocaleString('cs-CZ'):'–');
+      if(d.overview){
+        var o=el('div','card ov');
+        o.appendChild(el('h3',null,'Co je nového'));
+        o.appendChild(el('p',null,d.overview));
+        box.appendChild(o);
+      }
+      (d.articles||[]).forEach(function(a){
+        var c=el('div','card'),h=el('h3'),link=el('a',null,a.title||'Bez titulku');
+        if(/^https?:\/\//.test(a.link||'')){link.href=a.link;link.target='_blank';link.rel='noopener';}
+        h.appendChild(link);c.appendChild(h);
+        var m=el('p','meta',(a.source||'')+' · '+fmt(a.published));
+        if(a.basis==='titulek')m.appendChild(el('span','badge','jen z titulku'));
+        c.appendChild(m);
+        c.appendChild(el('p',null,a.summary||''));
+        box.appendChild(c);
+      });
+      if(!box.children.length)box.appendChild(el('p','upd','Zatím žádné články.'));
+    })
+    .catch(function(){upd.textContent='Data se zatím nenačetla · spusťte workflow „AI zvuk“ v Actions';});
+})();
+</script>
+<script src="/Redsea-monitor/nav.js"></script>
+</body>
+</html>
