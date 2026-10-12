@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-11T00:57",
+ "updated": "2026-10-12T01:17",
  "band": {
   "7": 2.0,
   "30": 5.0
  },
- "signals_total": 114,
+ "signals_total": 120,
  "summary": {
   "7": {
    "ALL": {
@@ -96,6 +96,92 @@
   }
  },
  "signals": [
+  {
+   "monitor": "Rudé moře",
+   "sector": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)",
+   "action": "BUY",
+   "date": "2026-10-11",
+   "tickers": [
+    "MAERSK-B.CO",
+    "HLAG.DE",
+    "ZIM"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "USA",
+   "sector": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
+   "action": "BUY",
+   "date": "2026-10-11",
+   "tickers": [
+    "LMT",
+    "RTX",
+    "NOC"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Evropa",
+   "sector": "Automobilový průmysl (Volkswagen, BMW, Stellantis)",
+   "action": "HOLD",
+   "date": "2026-10-11",
+   "tickers": [
+    "BMW.DE"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Polovodiče (TSMC, Samsung, ASML)",
+   "action": "HOLD",
+   "date": "2026-10-11",
+   "tickers": [
+    "TSM",
+    "005930.KS",
+    "ASML"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Japonské akcie (Nikkei 225 ETF)",
+   "action": "BUY",
+   "date": "2026-10-11",
+   "tickers": [
+    "^N225"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
+   "action": "HOLD",
+   "date": "2026-10-11",
+   "tickers": [
+    "JBS",
+    "BG",
+    "CSAN"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
   {
    "monitor": "Rudé moře",
    "sector": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)",
@@ -197,12 +283,13 @@
   },
   {
    "monitor": "Jižní Amerika",
-   "sector": "Brazilský akciový trh (Bovespa, EWZ ETF)",
-   "action": "HOLD",
+   "sector": "Argentina (Merval, YPF, MercadoLibre)",
+   "action": "BUY",
    "date": "2026-10-09",
    "tickers": [
-    "^BVSP",
-    "EWZ"
+    "^MERV",
+    "MELI",
+    "YPF"
    ],
    "ret7": null,
    "ok7": null,
@@ -211,13 +298,12 @@
   },
   {
    "monitor": "Jižní Amerika",
-   "sector": "Argentina (Merval, YPF, MercadoLibre)",
-   "action": "BUY",
+   "sector": "Brazilský akciový trh (Bovespa, EWZ ETF)",
+   "action": "HOLD",
    "date": "2026-10-09",
    "tickers": [
-    "^MERV",
-    "MELI",
-    "YPF"
+    "^BVSP",
+    "EWZ"
    ],
    "ret7": null,
    "ok7": null,
@@ -339,13 +425,12 @@
   },
   {
    "monitor": "Jižní Amerika",
-   "sector": "Argentina (Merval, YPF, MercadoLibre)",
+   "sector": "Brazilský akciový trh (Bovespa, ETF EWZ)",
    "action": "HOLD",
    "date": "2026-10-08",
    "tickers": [
-    "^MERV",
-    "MELI",
-    "YPF"
+    "^BVSP",
+    "EWZ"
    ],
    "ret7": null,
    "ok7": null,
@@ -354,12 +439,13 @@
   },
   {
    "monitor": "Jižní Amerika",
-   "sector": "Brazilský akciový trh (Bovespa, ETF EWZ)",
+   "sector": "Argentina (Merval, YPF, MercadoLibre)",
    "action": "HOLD",
    "date": "2026-10-08",
    "tickers": [
-    "^BVSP",
-    "EWZ"
+    "^MERV",
+    "MELI",
+    "YPF"
    ],
    "ret7": null,
    "ok7": null,
@@ -498,7 +584,7 @@
   },
   {
    "monitor": "Jižní Amerika",
-   "sector": "Brazilský akciový trh (Bovespa, EWZ ETF)",
+   "sector": "Brazilský akciový trh (Bovespa, ETF EWZ)",
    "action": "BUY",
    "date": "2026-10-06",
    "tickers": [
@@ -587,7 +673,7 @@
   },
   {
    "monitor": "Jižní Amerika",
-   "sector": "Brazilský akciový trh (Bovespa, ETF EWZ)",
+   "sector": "Brazilský akciový trh (Bovespa, EWZ ETF)",
    "action": "BUY",
    "date": "2026-10-06",
    "tickers": [
@@ -1143,88 +1229,6 @@
     "TTE.PA"
    ],
    "ret7": -2.6,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Čína a Asie",
-   "sector": "Japonské akcie (Nikkei 225 ETF)",
-   "action": "HOLD",
-   "date": "2026-09-26",
-   "tickers": [
-    "^N225"
-   ],
-   "ret7": 6.18,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Japonsko",
-   "sector": "Automobilový průmysl (Toyota, Honda)",
-   "action": "HOLD",
-   "date": "2026-09-26",
-   "tickers": [
-    "7203.T"
-   ],
-   "ret7": -3.11,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Japonsko",
-   "sector": "Technologie (Sony, SoftBank)",
-   "action": "BUY",
-   "date": "2026-09-26",
-   "tickers": [
-    "6758.T",
-    "9984.T"
-   ],
-   "ret7": 2.61,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Rudé moře",
-   "sector": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
-   "action": "BUY",
-   "date": "2026-09-25",
-   "tickers": [
-    "RHM.DE",
-    "TTE.PA",
-    "AIR.PA",
-    "ALV.DE"
-   ],
-   "ret7": -3.21,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Čína a Asie",
-   "sector": "Japonské akcie (Nikkei 225 ETF)",
-   "action": "BUY",
-   "date": "2026-09-25",
-   "tickers": [
-    "^N225"
-   ],
-   "ret7": 2.93,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Japonsko",
-   "sector": "Automobilový průmysl (Toyota, Honda)",
-   "action": "BUY",
-   "date": "2026-09-25",
-   "tickers": [
-    "7203.T"
-   ],
-   "ret7": -4.45,
    "ok7": false,
    "ret30": null,
    "ok30": null
