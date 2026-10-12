@@ -1,66 +1,234 @@
 {
-  "last_updated": "2026-10-12T05:00:04Z",
+  "last_updated": "2026-10-12T12:48:09Z",
   "assessment": {
     "threat_level": "HIGH",
     "sentiment_score": 72,
-    "security_status_cs": "Americké trhy a politickou scénu otřásá prudký výprodej v technologickém sektoru vyvolaný novým modelem DeepSeek z Číny a rostoucí politická polarizace před nadcházejícími midtermy. DOJ mezitím zahájilo antimonopolní vyšetřování mediálních domů, zatímco se objevují obavy z vývoje inflace, cen pohonných hmot a dopadů hurikánů na jihovýchodě USA.",
-    "security_status_en": "U.S. markets and the political landscape are rattled by a sharp tech sector sell-off sparked by China's DeepSeek model and intensifying political polarization ahead of the midterms. Meanwhile, the DOJ launched an antitrust probe into media networks, amid ongoing concerns over inflation, fuel prices, and hurricane impacts in the Southeast.",
+    "security_status_cs": "Americké trhy a politickou scénu otřásá náhlý výprodej v technologickém sektoru vyvolaný čínským modelem DeepSeek a rostoucí geopolitické napětí spojené s energetickým příměřím na Ukrajině. Blížící se midterm volby mezitím zvyšují politickou polarizaci, zatímco Federální rezervní systém čelí tlaku ohledně budoucího směřování úrokových sazeb.",
+    "security_status_en": "U.S. markets and the political landscape are shaken by a sudden sell-off in the tech sector triggered by China's DeepSeek model and rising geopolitical tensions surrounding a Ukraine energy ceasefire. Meanwhile, upcoming midterm elections are intensifying political polarization as the Federal Reserve navigates mounting pressures on interest rate policy.",
     "recommendations": [
       {
         "sector_cs": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
         "sector_en": "US Broad Equity Market (S&P 500 ETFs, e.g. VOO, SPY)",
         "action": "HOLD",
-        "reason_cs": "Trh prochází ostrou korekcí v důsledku technologického propadu, avšak blížící se výsledková sezóna velkých bank poskytne lepší obraz o reálném zdraví ekonomiky.",
-        "reason_en": "The market is undergoing a sharp correction driven by the tech slump, though the upcoming major bank earnings season will provide a clearer picture of the economy's health."
+        "reason_cs": "Široký trh čelí prudkému tlaku a volatilitě způsobené propadem v technologickém sektoru a obavami z inflace, což vyžaduje vyčkávací postoj.",
+        "reason_en": "The broader market faces sharp pressure and volatility caused by the tech sector slump and inflation concerns, warranting a cautious holding stance."
       },
       {
         "sector_cs": "Státní dluhopisy USA (Treasuries)",
         "sector_en": "US Treasuries",
         "action": "BUY",
-        "reason_cs": "Zvýšená nervozita na trzích a poptávka po bezpečných přístavech v kombinaci s očekáváním dalšího vývoje sazeb Fedu tlačí investory do bezpečnějších dluhopisových instrumentů.",
-        "reason_en": "Heightened market nervousness and demand for safe havens, combined with expectations around future Fed rate moves, are driving investors toward safer fixed-income instruments."
+        "reason_cs": "V prostředí rostoucí averze k riziku a útěku investorů do bezpečí (safe havens) roste poptávka po amerických dluhopisech.",
+        "reason_en": "In an environment of increasing risk aversion and a flight to safe havens, demand for U.S. government bonds is strengthening."
       },
       {
         "sector_cs": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
         "sector_en": "Defense Industry (RTX, Lockheed Martin, Northrop Grumman)",
         "action": "BUY",
-        "reason_cs": "Geopolitické napětí na Blízkém východě a diskuze o případném zapojení USA do konfliktů udržují vysokou poptávku po obranných rozpočtech a kontraktech.",
-        "reason_en": "Geopolitical tensions in the Middle East and discussions regarding potential U.S. involvement in conflicts maintain robust demand for defense budgets and contracts."
+        "reason_cs": "Přetrvávající geopolitická nestabilita a pokračující konflikty zajišťují stabilní vládní zakázky a poptávku po obranných systémech.",
+        "reason_en": "Persistent geopolitical instability and ongoing conflicts ensure steady government orders and robust demand for defense systems."
       },
       {
         "sector_cs": "Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)",
         "sector_en": "Banks & Financials (JPMorgan, Bank of America, Goldman Sachs)",
         "action": "HOLD",
-        "reason_cs": "Zahájení výsledkové sezóny velkých bank v prostředí vyšších výnosů a rostoucí doby hledání práce přinese klíčové informace o úvěrovém portfoliu.",
-        "reason_en": "The kickoff of big bank earnings in a higher-yield environment and rising job-search times will provide critical insights into loan portfolio health."
+        "reason_cs": "Zatímco výsledková sezóna velkých bank poskytne důležitý pohled na zdraví ekonomiky v prostředí vyšších výnosů, makroekonomická nejistota přetrvává.",
+        "reason_en": "While major bank earnings kick off to provide vital insight into economic health amid rising yields, macroeconomic uncertainty remains high."
       },
       {
         "sector_cs": "Technologický sektor (Apple, Microsoft, Nvidia)",
         "sector_en": "Technology Sector (Apple, Microsoft, Nvidia)",
         "action": "SELL",
-        "reason_cs": "Vektorově ostrý výprodej vyvolaný konkurenčním tlakem čínského DeepSeeku a obavami z nadhodnocení AI infrastruktury vytváří silný prodejní tlak.",
-        "reason_en": "A sharply acute sell-off triggered by Chinese DeepSeek's competitive pressure and concerns over AI infrastructure overvaluation creates heavy downward pressure."
+        "reason_cs": "Masivní výprodej AI infrastruktury a polovodičů vyvolaný konkurencí z Číny (DeepSeek) signalizuje krátkodobé až střednědobé riziko přehodnocení valuací.",
+        "reason_en": "The massive sell-off in AI infrastructure and semiconductors triggered by Chinese competition (DeepSeek) signals short- to medium-term valuation re-pricing risks."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Globální technologický výprodej a nervozita na vyspělých trzích se přenášejí i do středoevropského regionu, kde dominuje opatrnost a vyčkávání na globální trend.",
-        "reason_en": "The global tech sell-off and developed market nervousness are spilling over into the Central European region, where caution and waiting for a global trend prevail."
+        "reason_cs": "Domácí tituly zůstávají vůči americkým technologickým šokům relativně izolované, avšak celková globální nálada omezuje prostor pro výraznější růst.",
+        "reason_en": "Domestic stocks remain relatively insulated from U.S. tech shocks, though overarching global risk-off sentiment caps significant upward momentum."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu v technologickém sektoru a zvýšenou pozornost investorů vůči výsledkům bankovního sektoru, které mohou stabilizovat širší trh.",
-    "forecast_en": "Over the coming days, continued volatility in the tech sector is expected, alongside heightened investor focus on bank earnings results which could help stabilize the broader market.",
-    "forecast_review_cs": "Předchozí předpověď o pokračující nervozitě na technologických trzích, přílivu do bezpečných přístavů a startu bankovních výsledků se plně potvrdila.",
-    "forecast_review_en": "The previous forecast anticipating continued nervousness in tech markets, safe-haven inflows, and the start of bank earnings was fully confirmed."
+    "forecast_cs": "V nejbližších dnech lze očekávat zvýšenou volatilitu a nervozitu na akciových trzích s důrazem na reakci technologického sektoru na vývoj kolem čínského DeepSeek a nadcházející inflační data CPI.",
+    "forecast_en": "Over the coming days, heightened volatility and nervousness are expected in equity markets, with a strong focus on the tech sector's reaction to Chinese competition and upcoming CPI inflation data.",
+    "forecast_review_cs": "Předchozí předpověď očekávající volatilitu v technologickém sektoru a sledování bankovních výsledků byla plně potvrzena masivním výprobojem v oblasti AI a začátkem výsledkové sezóny.",
+    "forecast_review_en": "The previous forecast anticipating volatility in the tech sector and focus on bank earnings was fully confirmed by the massive AI sell-off and the start of earnings season."
   },
   "articles": [
     {
-      "title": "Pope Leo denounces death penalty as 'inadmissible' ahead of Pentagon's planned livestreamed execution",
-      "summary": "Pope Leo XIV called the death penalty \"inadmissible\" on World Day Against the Death Penalty after the Pentagon announced plans to livestream an execution.",
-      "link": "https://www.foxnews.com/world/pope-leo-denounces-death-penalty-inadmissible-ahead-pentagons-planned-livestreamed-execution",
-      "published": "Mon, 12 Oct 2026 00:06:59 -0400",
+      "title": "Who Could Replace Zelensky: 4 Contenders as Trump Calls for Change",
+      "summary": "Zelensky's elected term in office was due to end in May 2024, but elections are forbidden under wartime conditions in Ukraine.",
+      "link": "https://www.newsweek.com/who-could-replace-zelensky-4-contenders-as-trump-calls-for-change-12553846",
+      "published": "Mon, 12 Oct 2026 08:40:46 -0400",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Zelenskyy accuses Russia of violating Trump’s energy ceasefire as drone attacks continue",
+      "summary": "If Russia doesn't agree to Trump's energy ceasefire, Ukraine will respond, Zelenskyy said Monday morning.",
+      "link": "https://www.cnbc.com/2026/10/12/russia-ukraine-energy-ceasefire-trump.html",
+      "published": "Mon, 12 Oct 2026 12:36:21 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Donald Trump Shares Debunked Denzel Washington Endorsement",
+      "summary": "Trump's Truth Social account shared a quote falsely attributed to Hollywood star Denzel Washington.",
+      "link": "https://www.newsweek.com/donald-trump-shares-debunked-denzel-washington-endorsement-12555123",
+      "published": "Mon, 12 Oct 2026 08:35:53 -0400",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Vance’s sympathetic push exposes his 2028 ambitions",
+      "summary": "While Democrats continue surveying the field, their most likely Republican opponent has already begun staking out his lane to the White House.",
+      "link": "https://thehill.com/opinion/campaign/6139869-vance-gop-presidential-ambitions/",
+      "published": "Mon, 12 Oct 2026 12:30:00 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Abdul El-Sayed's Unanswered Questions",
+      "summary": "The Michigan Democrat refuses to clarify his most controversial positions with less than a month until Election Day, writes Audrey Fahlberg.",
+      "link": "https://www.realclearpolitics.com/2026/10/12/abdul_el-sayeds_unanswered_questions_713933.html",
+      "published": "Mon, 12 Oct 2026 07:24:15 -0500",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Trump, Rubio consider firing Kimberly Guilfoyle as ambassador to Greece: AP source",
+      "summary": "President Trump and Secretary of State Marco Rubio are considering firing U.S. Ambassador to Greece Kimberly Guilfoyle after a series of explosive reports alleging she engaged in misconduct during her tenure in Athens. A senior U.S. official told The Associated Press on Sunday that Trump and Rubio are “extremely pissed off” over Guilfoyle’s questionable actions...",
+      "link": "https://thehill.com/homenews/administration/6142176-donald-trump-marco-rubio-kimberly-guilfoyle-job-uncertainty-greece/",
+      "published": "Mon, 12 Oct 2026 12:13:00 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Man hospitalized after being hit by ICE vehicle ICE in west Houston, officials say",
+      "summary": "\"We demand full transparency, accountability, and respect for the rule of law.\"",
+      "link": "https://thehill.com/homenews/state-watch/6140891-ice-vehicle-strikes-man-houston/",
+      "published": "Mon, 12 Oct 2026 12:12:17 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "As US medical debt grows, AI will be used more to collect it",
+      "summary": "<p>The debt-collection ecosystem will change as AI takes notes in exam rooms, codes visits and sends billing messages</p><p>Medical debt is expected to grow in coming years as Republican-led health cuts come into force this winter. As it does, a changing world of medical billing and debt collection awaits patients: one where artificial intelligence increasingly listens, codes, bills and collects.</p><p>Artificial intelligence takes notes in exam rooms, codes visits, sends out billing messages and powers AI agents who text patients in billing portals – all changing the debt-collection ecosystem.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/12/ai-medical-debt-billing\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/oct/12/ai-medical-debt-billing",
+      "published": "Mon, 12 Oct 2026 12:00:55 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "One essential ingredient for AI safety? Democracy | Matthew Botvinick",
+      "summary": "<p>The rise of AI makes the preservation of democracy even more urgent – especially as the technology threatens institutions</p><p><a href=\"https://www.theguardian.com/technology/artificialintelligenceai\">AI</a> safety is having a moment. After years as a topic for techies and futurists, the potential risks from artificial intelligence systems – from cyberattacks to hyper-persuasion to rogue behavior – are suddenly under discussion both in the corridors of power and around kitchen tables.</p><p>In fact, the conversation now reaches beyond classical safety concerns, getting into AI’s impact on economic life and the environment, as well as possible responses, from alignment research to government regulation.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/oct/12/ai-safety-democracy\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/commentisfree/2026/oct/12/ai-safety-democracy",
+      "published": "Mon, 12 Oct 2026 12:00:54 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Drag queens, trans pastor, abortion rallies: Inside Dem governor hopeful's progressive church",
+      "summary": "Rob Sand regularly attended Plymouth Congregational United Church of Christ, which has hosted drag queen concerts and invited a transgender pastor.",
+      "link": "https://www.foxnews.com/politics/drag-queens-trans-pastor-abortion-rallies-inside-dem-governor-hopefuls-progressive-church",
+      "published": "Mon, 12 Oct 2026 08:00:17 -0400",
       "source": "Fox News"
+    },
+    {
+      "title": "Zelenskyy blindsided after Trump announces ‘energy ceasefire’ in Ukraine war | First Thing",
+      "summary": "<p>Ukrainian president says the deal is ‘news to me’ and that Russia is still attacking energy infrastructure. Plus, investigation into continuing mystery of Havana syndrome</p><ul><li><p><a href=\"https://www.theguardian.com/info/2018/sep/17/guardian-us-morning-briefing-sign-up-to-stay-informed\"><strong>Don’t already get First Thing in your inbox? Sign up here</strong></a></p></li></ul><p>Good morning. The Ukrainian president, <a href=\"https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire\">Volodymyr Zelenskyy, has said</a> it was “news to me” after Donald Trump announced a partial ceasefire deal in the Ukraine war. The US president had posted to social media to say: “Effective immediately, there is an ENERGY CEASEFIRE in the War between Russia and Ukraine. Both parties have agreed.”</p><p>There was no sign that the Kremlin was observing Trump’s ceasefire. According to Zelenskyy, Russian drones took to the sky “throughout the day” on Sunday and there were several airstrikes, including on energy infrastructure. He said Russia hit a power station in Kharkiv – the latest of more than 200 strikes during the past week against electricity generation and transmission facilities in Ukraine.</p><p><strong>How has the prospect of a deal been welcomed?</strong> Despite the unconventional nature of the announcement, the ceasefire appeared to garner support from Ukraine’s key western allies. The French president, Emmanuel Macron, said Paris supported a “real energy ceasefire” and the UK prime minister, Andy Burnham, said a sustained energy ceasefire was “the best route to get energy and fuel back into world markets”.</p><p><strong>Will Trump’s deal with Putin bring down gas prices?</strong> The agreement to temporarily lift sanctions on US imports of Russian diesel will have little “meaningful” effect on motorists and businesses in the US and overseas, <a href=\"https://www.theguardian.com/us-news/2026/oct/11/trump-russia-diesel-deal-putin-little-impact-prices\">energy and foreign policy analysts have predicted</a>.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/12/first-thing-zelenskyy-blindsided-trump-announces-energy-ceasefire-ukraine-war-russia\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/oct/12/first-thing-zelenskyy-blindsided-trump-announces-energy-ceasefire-ukraine-war-russia",
+      "published": "Mon, 12 Oct 2026 11:38:00 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Federal agents raid Ilhan Omar’s DC home amid immigration fraud investigation",
+      "summary": "Rep. Ilhan Omar's home was the subject of a pre-dawn HSI raid.",
+      "link": "https://www.foxnews.com/politics/ilhan-omars-home-dc-searched-hsi-pre-dawn-raid",
+      "published": "Mon, 12 Oct 2026 07:37:57 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "It Can Be Done: Trump Shrinks Federal Bureaucracy",
+      "summary": "",
+      "link": "https://www.realclearpolitics.com/2026/10/11/it_can_be_done_trump_shrinks_federal_bureaucracy_713842.html",
+      "published": "Mon, 12 Oct 2026 06:32:45 -0500",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Why El-Sayed Is Struggling w/Black Voters in Michigan",
+      "summary": "The Michigan candidate for US Senate seat is running without directly acknowledging specific constituent groups",
+      "link": "https://www.realclearpolitics.com/2026/10/12/why_el-sayed_is_struggling_wblack_voters_in_michigan_713905.html",
+      "published": "Mon, 12 Oct 2026 06:31:21 -0500",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Mired in their worst losing streak in years, small caps could be the best way for investors to play crucial CPI data",
+      "summary": "Stuart Kaiser, of Citigroup, recommends buying iShares Russell 2000 exchange-traded fund call options before the consumer-price index for September is released on Wednesday.",
+      "link": "https://www.marketwatch.com/story/mired-in-their-worst-losing-streak-in-years-small-caps-could-be-the-best-way-for-investors-to-play-crucial-cpi-data-40e2f716?mod=mw_rss_topstories",
+      "published": "Mon, 12 Oct 2026 11:30:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "DOJ launches antitrust probe of TV networks. And, Trump says Ukraine needs new leader",
+      "summary": "The Justice Department is investigating several TV networks for possible antitrust violations. And, President Trump pressures Ukrainians to elect a new leader.",
+      "link": "https://www.npr.org/2026/10/12/g-s1-147772/up-first-newsletter-trump-ukraine-russia-antitrust-investigation-hurricane-isaias-saudi-airport",
+      "published": "Mon, 12 Oct 2026 07:29:56 -0400",
+      "source": "NPR"
+    },
+    {
+      "title": "Bank earnings to shed the first light on how higher yields are affecting the economy",
+      "summary": "The big banks kick off earnings season on Tuesday, to provide a first read on the health of the economy in a rising-yield environment.",
+      "link": "https://www.marketwatch.com/story/bank-earnings-to-shed-the-first-light-on-how-higher-yields-are-affecting-the-economy-cf3763ef?mod=mw_rss_topstories",
+      "published": "Mon, 12 Oct 2026 11:07:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Judge orders Trump administration to immediately stop taxpayer-funded TV ads",
+      "summary": "The ads featuring President Trump have been criticized as government propaganda and as aimed at influencing the outcome of the midterm election.",
+      "link": "https://www.cnbc.com/2026/10/11/trump-ads-dhs-judge-order.html",
+      "published": "Mon, 12 Oct 2026 11:04:24 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Trump's backyard is quietly transforming into 'Silicon Valley South' as wealthy Americans flock in",
+      "summary": "Palm Beach is drawing tech giants and Wall Street executives, says real estate expert Margit Brandt, who compares the region to Silicon Valley.",
+      "link": "https://www.foxnews.com/politics/trumps-backyard-quietly-transforming-silicon-valley-south-wealthy-americans-flock",
+      "published": "Mon, 12 Oct 2026 07:00:30 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Fed officials want to hold off a rate hike this month. Will this week’s inflation data let them?",
+      "summary": "A troubling rise in prices might trigger an interest-rate move at the Fed’s meeting in late October.",
+      "link": "https://www.marketwatch.com/story/fed-officials-want-to-hold-off-a-rate-hike-this-month-will-this-weeks-inflation-data-let-them-a82754d1?mod=mw_rss_topstories",
+      "published": "Mon, 12 Oct 2026 11:00:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "How the Supreme Court is reshaping the limits of religious rights in America",
+      "summary": "The Roberts court has redefined the separation of church and state. This term may show how far it will go.",
+      "link": "https://www.washingtonpost.com/politics/2026/10/11/how-supreme-court-is-reshaping-limits-religious-rights-america/",
+      "published": "Mon, 12 Oct 2026 10:00:00 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Trump’s diesel deal with Russia shows how tied the prices are to Republican success this year",
+      "summary": "Trump has largely dismissed the focus on higher gas prices, but this deal with Russia suggests the president knows what’s at stake.",
+      "link": "https://www.washingtonpost.com/politics/2026/10/12/trumps-diesel-deal-with-russia-shows-how-tied-prices-are-republican-success-this-year/",
+      "published": "Mon, 12 Oct 2026 09:21:38 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "U.S. restrictions on Chinese drones are leaving police departments in the lurch",
+      "summary": "The U.S. government is trying to end the dominance of high-quality, low-cost drones made in China. But more restrictions mean higher costs for cash-strapped police forces that rely on those drones.",
+      "link": "https://www.npr.org/2026/10/12/nx-s1-5888604/police-chinese-drones-bans-costs",
+      "published": "Mon, 12 Oct 2026 05:00:00 -0400",
+      "source": "NPR"
+    },
+    {
+      "title": "Trump’s midterm road show reveals GOP troubles — and his own priorities",
+      "summary": "Republicans need the president to mobilize voters, but his low approval ratings limit where he can help.",
+      "link": "https://www.washingtonpost.com/politics/2026/10/12/trumps-midterm-roadshow-reveals-gop-troubles-his-own-priorities/",
+      "published": "Mon, 12 Oct 2026 09:00:00 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "2 Americans win Nobel Prize in economics for work on boom-bust cycles",
+      "summary": "Two Americans have won the Nobel Prize in economics for their work on how to smooth boom-and-bust cycles to limit unemployment and inflation.",
+      "link": "https://www.npr.org/2026/10/09/nx-s1-5996634/nobel-prize-in-economics",
+      "published": "Mon, 12 Oct 2026 04:35:16 -0400",
+      "source": "NPR"
     },
     {
       "title": "Trump administration ordered to cancel taxpayer-funded TV ads",
@@ -77,76 +245,6 @@
       "source": "CBS News"
     },
     {
-      "title": "Brewers edge Dodgers in NLCS opener as Turang homers and bullpen holds",
-      "summary": "<ul><li><p>Turang homers off Skubal as Brewers take Game 1</p></li><li><p>Lara’s fifth-inning single breaks 1-1 deadlock</p></li><li><p>Milwaukee end seven-game playoff skid against LA</p></li></ul><p>Brice Turang homered off Tarik Skubal and Milwaukee’s bullpen shut down the Los Angeles Dodgers after Jacob Misiorowski’s taxing outing, sending the Brewers to a 2-1 victory in the National League Championship Series opener on Sunday night.</p><p>Luis Lara hit a tiebreaking single off Skubal in the fifth inning as Milwaukee took Game 1 in the first NLCS matchup of 100-win teams since the Cincinnati Reds eliminated the Philadelphia Phillies in 1976. The Brewers had lost seven consecutive postseason games against the Dodgers, including a sweep in last year’s NLCS.</p> <a href=\"https://www.theguardian.com/sport/2026/oct/11/brewers-dodgers-nlcs-game-1-turang-skubal\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/sport/2026/oct/11/brewers-dodgers-nlcs-game-1-turang-skubal",
-      "published": "Mon, 12 Oct 2026 03:29:39 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Top Senate Republican calls Guilfoyle reports ‘very troubling’",
-      "summary": "Sen. John Barrasso (R-Wyo.), the Senate Majority Whip, on Sunday expressed concern about the recent reporting on U.S. Ambassador to Greece Kimberly Guilfoyle and her finances. “Well, what we've seen in the reports is very troubling. It's concerning. And I'm sure there's going to be an investigation. I would assume the State Department would be...",
-      "link": "https://thehill.com/homenews/senate/6142003-barrasso-concerns-guilfoyle-finances/",
-      "published": "Mon, 12 Oct 2026 03:10:35 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Judge orders Trump administration to immediately stop taxpayer-funded TV ads",
-      "summary": "The ads featuring President Trump have been criticized as government propaganda and as aimed at influencing the outcome of the midterm election.",
-      "link": "https://www.cnbc.com/2026/10/11/trump-ads-dhs-judge-order.html",
-      "published": "Mon, 12 Oct 2026 02:28:54 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Takeaways from first S.C. Senate debate between Darline Graham, Annie Andrews",
-      "summary": "Sen. Darline Graham (R-South Carolina) clashed with Democrat Annie Andrews in their only scheduled debate of a Senate race that has become unexpectedly competitive.",
-      "link": "https://www.washingtonpost.com/politics/2026/10/11/takeaways-first-south-carolina-senate-debate-between-darline-graham-annie-andrews/",
-      "published": "Mon, 12 Oct 2026 02:28:38 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "What Will Trump Do After the Midterms With Nothing To Lose?",
-      "summary": "",
-      "link": "https://www.realclearpolitics.com/2026/10/10/what_will_trump_do_after_the_midterms_with_nothing_to_lose_713731.html",
-      "published": "Sun, 11 Oct 2026 21:14:23 -0500",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Why Are Some Adults Regressing?",
-      "summary": "Adults who do not have children are taking over Disneyland, purchasing the majority of ToysRUs products, and sleeping with stuffed bears, writes Kat Rosenfield. Why can't they put childish things away?",
-      "link": "https://www.realclearpolitics.com/2026/10/09/why_are_some_adults_regressing_713701.html",
-      "published": "Sun, 11 Oct 2026 21:14:19 -0500",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Trump's All-Out War on Journalists",
-      "summary": "",
-      "link": "https://www.realclearpolitics.com/2026/10/11/trumps_all-out_war_on_journalists_713870.html",
-      "published": "Sun, 11 Oct 2026 21:14:14 -0500",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Greene calls Trump ‘America last’ in scathing attack",
-      "summary": "Former Rep. Marjorie Taylor Greene (R-Ga.) again slammed President Trump on Sunday, continuing a longstanding feud between the president and his former supporter, calling him “America last.” Greene on Sunday posted a screenshot of an email from what appeared to be Trump’s campaign, with a line in the message reading “Congresswoman Marjorie Taylor, did I...",
-      "link": "https://thehill.com/homenews/administration/6141980-greene-slams-trump-america-last/",
-      "published": "Mon, 12 Oct 2026 02:10:22 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Lone debate for South Carolina Senate gets testy: 5 takeaways",
-      "summary": "Sen. Darline Graham (R) and pediatrician Annie Andrews (D) faced off in their one and only debate on Sunday in the South Carolina Senate race, which quickly became testy as Graham sought to tie the physician to the Democratic Socialists of America (DSA) while Andrews suggested the GOP senator wouldn't be able to stand up...",
-      "link": "https://thehill.com/homenews/campaign/6141971-sc-senate-debate-graham-andrews/",
-      "published": "Mon, 12 Oct 2026 01:53:32 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Darline Graham Hits Back at Annie Andrews Over Last Name Remark",
-      "summary": "Darline Graham and Annie Andrews sparred over Graham’s name during a debate in the tightening South Carolina Senate race.",
-      "link": "https://www.newsweek.com/darline-graham-annie-andrews-last-name-sc-senate-debate-12553534",
-      "published": "Sun, 11 Oct 2026 20:38:23 -0400",
-      "source": "Newsweek"
-    },
-    {
       "title": "As high diesel prices hit Great Plains, some considering all options in midterms",
       "summary": "Republicans have dominated elections in Great Plains states for a generation. But with the midterms fast approaching, Ed O'Keefe reports that some voters in Iowa now say they're considering all of their options.",
       "link": "https://www.cbsnews.com/video/high-diesel-prices-hit-great-plains-considering-midterms/",
@@ -154,32 +252,11 @@
       "source": "CBS News"
     },
     {
-      "title": "Ella Langley says canceled concert was ‘not worth a human life’ after bomb threat",
-      "summary": "Ella Langley became emotional during her Texas concert explaining why she canceled her sold-out BOK Center show despite Tulsa police finding no credible threat.",
-      "link": "https://www.foxnews.com/entertainment/ella-langley-canceled-concert-not-worth-human-life-bomb-threat",
-      "published": "Sun, 11 Oct 2026 20:21:36 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "Tom Emmer tells Jon Karl there are 'communists' on the midterm ballot in heated ABC exchange",
-      "summary": "House Majority Whip Tom Emmer clashed with Jon Karl on ABC's \"This Week,\" insisting that Democratic socialists on the ballot are actually communists.",
-      "link": "https://www.foxnews.com/media/tom-emmer-tells-jon-karl-communists-midterm-ballot-heated-abc-exchange",
-      "published": "Sun, 11 Oct 2026 20:19:34 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "Pennsylvania shooter who killed eight was a grandfather, says slain child’s dad",
-      "summary": "<p>Father of toddler killed in Erie mass shooting says reported gunman never seemed distressed or out of the ordinary</p><p>The man who killed eight people, before turning the gun on himself, in a <a href=\"https://www.theguardian.com/us-news/2026/oct/10/nine-people-mass-shooting-pennsylvania\">mass</a> shooting in a home in Erie, Pennsylvania, on Friday was a grandfather who had not shown signs that he was capable of such violence, according to people who knew the shooter.</p><p>A man whose toddler was among those killed said on Sunday that the man never seemed distressed or out of the ordinary, the <a href=\"https://apnews.com/article/erie-pennsylvania-mass-shooting-39b4a740f23f081d23bb2028a9f669a0\">Associated Press reports</a>.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/11/erie-pennsylvania-mass-shooting-grandfather\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/oct/11/erie-pennsylvania-mass-shooting-grandfather",
-      "published": "Sun, 11 Oct 2026 23:48:23 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Barrasso Expects Guilfoyle Investigation Amid 'Troubling' Reports",
-      "summary": "Top Senate Republican John Barrasso expects a Kimberly Guilfoyle investigation amid mounting scrutiny of the ambassador.",
-      "link": "https://www.newsweek.com/john-barrasso-expects-kimberly-guilfoyle-investigation-12553462",
-      "published": "Sun, 11 Oct 2026 18:45:42 -0400",
-      "source": "Newsweek"
+      "title": "Trump faces growing backlash over plans to import diesel from Russia",
+      "summary": "Both Republican and Democratic lawmakers have criticised the deal, which was announced weeks before the US midterm elections.",
+      "link": "https://www.bbc.co.uk/news/articles/cjn5v21py07vo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 11 Oct 2026 23:18:45 GMT",
+      "source": "BBC News"
     },
     {
       "title": "Trump Media advisor Katie Zacharia named White House press secretary",
@@ -189,32 +266,11 @@
       "source": "CNBC"
     },
     {
-      "title": "Trump could face a new threat in January: A Democratic Senate",
-      "summary": "Republicans predict that Democrats will not confirm Supreme Court and Cabinet nominees if they retake the Senate in the midterm elections.",
-      "link": "https://www.washingtonpost.com/politics/2026/10/12/trump-could-face-new-threat-january-democratic-senate/",
-      "published": "Sun, 11 Oct 2026 21:45:15 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Trump's 'energy ceasefire' claim welcomed by Zelensky but Russia silent",
+      "title": "Zelensky backs Trump's 'energy ceasefire' but says Russia continues to hit power plants",
       "summary": "Ukraine's leader says he will support such a truce if Moscow does, after initially expressing surprise at Donald Trump's announcement.",
       "link": "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
       "published": "Sun, 11 Oct 2026 21:36:40 GMT",
       "source": "BBC News"
-    },
-    {
-      "title": "Trump says he is 'going to look at' joining Saudi Arabia in the fight against Iran-backed Houthis after deadly airport strike",
-      "summary": "U.S. military involvement in the fight against the Houthis would stretch resources in the Middle East already committed to fighting Iran, analysts said.",
-      "link": "https://www.cnbc.com/2026/10/11/trump-saudi-arabia-iran-houthis.html",
-      "published": "Sun, 11 Oct 2026 21:30:45 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Abdul El-Sayed walks back Obama criticism ahead of their campaign event",
-      "summary": "The Michigan Democratic Senate nominee wrote an op-ed in 2012 expressing dismay at what he said were \"failures' by Obama. In an NBC interview, El-Sayed blamed the comments on his youth.",
-      "link": "https://www.washingtonpost.com/politics/2026/10/11/abdul-el-sayed-walks-back-obama-criticism-ahead-their-campaign-event/",
-      "published": "Sun, 11 Oct 2026 21:04:03 +0000",
-      "source": "Washington Post"
     },
     {
       "title": "Watch: What's behind Trump's energy ceasefire claim?",
@@ -222,48 +278,6 @@
       "link": "https://www.bbc.co.uk/news/videos/cwvgde9vrdd9o?at_medium=RSS&at_campaign=rss",
       "published": "Sun, 11 Oct 2026 20:55:02 GMT",
       "source": "BBC News"
-    },
-    {
-      "title": "‘I have no children’: My aunt gave me $50,000 for a down payment. Now she wants me to leave my home to her two children.",
-      "summary": "“The house cost $385,000. With my savings, her $50,000 and a small mortgage, I was able to close.”",
-      "link": "https://www.marketwatch.com/story/i-have-no-children-my-aunt-gave-me-50-000-for-a-down-payment-she-wants-me-to-leave-my-home-to-her-two-children-24fad94c?mod=mw_rss_topstories",
-      "published": "Sun, 11 Oct 2026 20:15:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Zelenskyy signals surprise at Trump claim of Russia-Ukraine ‘energy ceasefire’ but would back it if Moscow does – as it happened",
-      "summary": "<p>Ukraine’s president reportedly says Kyiv would accept a deal if Moscow does after US president posts announcement with no detail on social media</p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire\">Trump announces partial ceasefire in Ukraine war as Zelenskyy says deal is ‘news to me’</a></p></li><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for the US Breaking News email</a></p></li></ul><p>The president of the EU Commission, Ursula von der Leyen, has expressed her “full support for President Zelenskyy” amid calls for a ceasefire.</p><p>In a telephone call with the Ukrainian leader, von der Leyen posted on X that she “fully supported the call of President Zelenskyy for a ceasefire that would protect global food supplies and energy infrastructure in Ukraine and Russia.</p><p>“Ukraine supports the ceasefire, and it’s important for Russia to support it as well. We are awaiting details from the American side. From our Ukrainian side, there is always FULL support for de-escalation steps, protection of lives, and the necessary decisions to end the war and ensure lasting peace.”</p> <a href=\"https://www.theguardian.com/us-news/live/2026/oct/11/donald-trump-ukraine-russia-energy-ceasefire-diesel-latest-updates\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/live/2026/oct/11/donald-trump-ukraine-russia-energy-ceasefire-diesel-latest-updates",
-      "published": "Sun, 11 Oct 2026 18:36:54 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "We’re about to get a huge read on whether earnings can keep propping up the stock market",
-      "summary": "High hopes for third-quarter earnings are outweighing concerns around interest rates and oil prices — but one expert warns markets have gotten “extremely complacent.”",
-      "link": "https://www.marketwatch.com/story/were-about-to-get-a-huge-read-on-whether-earnings-can-keep-propping-up-the-stock-market-459b565b?mod=mw_rss_topstories",
-      "published": "Sun, 11 Oct 2026 14:00:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Hurricane Simon nears Mexico with 155 mph winds and flooding fears",
-      "summary": "The eye of Hurricane Simon was just off the Pacific coast of Mexico early Sunday and was expected to move inland later in the day as an extremely powerful storm.",
-      "link": "https://www.npr.org/2026/10/11/nx-s1-5998022/hurricane-simon-nears-mexico-155-mph-winds-flooding-fears",
-      "published": "Sun, 11 Oct 2026 08:10:54 -0400",
-      "source": "NPR"
-    },
-    {
-      "title": "Justice Department investigates TV networks, citing possible anti-trust violations",
-      "summary": "The move escalates Trump's fight with the press amid court battle over barring CNN, Politico and MS NOW from the White House.",
-      "link": "https://www.npr.org/2026/10/11/nx-s1-5997574/the-doj-is-investigating-5-tv-networks-for-suspending-pool-coverage-of-trump",
-      "published": "Sun, 11 Oct 2026 08:04:00 -0400",
-      "source": "NPR"
-    },
-    {
-      "title": "Bank earnings to shed the first light on how higher yields are affecting the economy",
-      "summary": "The big banks kick off earnings season on Tuesday, to provide a first read on the health of the economy in a rising-yield environment.",
-      "link": "https://www.marketwatch.com/story/bank-earnings-to-shed-the-first-light-on-how-higher-yields-are-affecting-the-economy-cf3763ef?mod=mw_rss_topstories",
-      "published": "Sun, 11 Oct 2026 12:00:00 GMT",
-      "source": "MarketWatch"
     },
     {
       "title": "In the race for AI dominance, the U.S. relies on a surprising ally: China",
@@ -277,20 +291,6 @@
       "summary": "Kyiv’s drone operators are targeting critical components that are hard to repair because of international sanctions. The attacks are damaging Russia’s economy.",
       "link": "https://www.washingtonpost.com/investigations/interactive/2026/10/11/how-ukraine-uses-precision-drone-strikes-hobble-russian-oil-refineries/",
       "published": "Sun, 11 Oct 2026 10:00:00 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "It's taking longer to find a new job after losing one",
-      "summary": "People who lose their jobs in this economy are taking longer to find new work. Nearly four in ten people exhaust their unemployment benefits before they land a new job.",
-      "link": "https://www.npr.org/2026/10/11/nx-s1-5995238/jobs-employment-economy-unemployment-benefits",
-      "published": "Sun, 11 Oct 2026 05:00:00 -0400",
-      "source": "NPR"
-    },
-    {
-      "title": "He was a frail shelter pup. Now he works search and rescue in disaster zones.",
-      "summary": "In recent years, Canyon has searched for people amid wildfire ash, along steep muddy banks after floods, and beneath homes destroyed by tornadoes.",
-      "link": "https://www.washingtonpost.com/lifestyle/2026/10/11/he-was-frail-shelter-pup-now-he-works-search-and-rescue-disaster-zones/",
-      "published": "Sun, 11 Oct 2026 09:00:00 +0000",
       "source": "Washington Post"
     },
     {
@@ -337,15 +337,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-09-30 05:48",
-      "threat_level": "MEDIUM",
-      "value": 2,
-      "sentiment_score": 48,
-      "incidents": 20,
-      "sp500": 7670.84,
-      "usd_czk": null
-    },
     {
       "date": "2026-09-30 07:46",
       "threat_level": "MEDIUM",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "sp500": 7811.54,
       "usd_czk": null
+    },
+    {
+      "date": "2026-10-12 12:48",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 72,
+      "incidents": 40,
+      "sp500": 7811.54,
+      "usd_czk": null
     }
   ],
   "locations": [
@@ -615,13 +615,6 @@
       "lon": -77.0369,
       "name_cs": "Washington, D.C.",
       "name_en": "Washington, D.C."
-    },
-    {
-      "key": "Los Angeles",
-      "lat": 34.0522,
-      "lon": -118.2437,
-      "name_cs": "Los Angeles",
-      "name_en": "Los Angeles"
     },
     {
       "key": "Texas",
@@ -638,6 +631,13 @@
       "name_en": "Florida"
     },
     {
+      "key": "California",
+      "lat": 36.7783,
+      "lon": -119.4179,
+      "name_cs": "Kalifornie",
+      "name_en": "California"
+    },
+    {
       "key": "Wall Street",
       "lat": 40.7069,
       "lon": -74.0113,
@@ -652,25 +652,28 @@
       "name_en": "Michigan"
     },
     {
-      "key": "Pennsylvania",
-      "lat": 41.2033,
-      "lon": -77.1945,
-      "name_cs": "Pensylvánie",
-      "name_en": "Pennsylvania"
+      "key": "Los Angeles",
+      "lat": 34.05,
+      "lon": -118.24,
+      "name_cs": "Los Angeles",
+      "name_en": "Los Angeles",
+      "auto": true
     },
     {
-      "key": "Wisconsin",
-      "lat": 43.7844,
-      "lon": -88.7879,
-      "name_cs": "Wisconsin",
-      "name_en": "Wisconsin"
+      "key": "San Francisco",
+      "lat": 37.77,
+      "lon": -122.42,
+      "name_cs": "San Francisco",
+      "name_en": "San Francisco",
+      "auto": true
     },
     {
-      "key": "Mexico",
-      "lat": 23.6345,
-      "lon": -102.5528,
-      "name_cs": "Mexiko",
-      "name_en": "Mexico"
+      "key": "Cuba",
+      "lat": 21.5,
+      "lon": -79,
+      "name_cs": "Kuba",
+      "name_en": "Cuba",
+      "auto": true
     },
     {
       "key": "Ukrain",
@@ -686,14 +689,6 @@
       "lon": 37.62,
       "name_cs": "Rusko",
       "name_en": "Russia",
-      "auto": true
-    },
-    {
-      "key": "Iran",
-      "lat": 32.4,
-      "lon": 53.7,
-      "name_cs": "Írán",
-      "name_en": "Iran",
       "auto": true
     },
     {
@@ -713,11 +708,19 @@
       "auto": true
     },
     {
-      "key": "Brussels",
-      "lat": 50.85,
-      "lon": 4.35,
-      "name_cs": "Brusel",
-      "name_en": "Brussels",
+      "key": "London",
+      "lat": 51.5,
+      "lon": -0.12,
+      "name_cs": "Londýn",
+      "name_en": "London",
+      "auto": true
+    },
+    {
+      "key": "France",
+      "lat": 48.86,
+      "lon": 2.35,
+      "name_cs": "Paříž",
+      "name_en": "France",
       "auto": true
     },
     {
@@ -730,27 +733,27 @@
     }
   ],
   "location_counts": {
-    "Florida": 21,
-    "Texas": 28,
-    "Washington": 22,
+    "Florida": 22,
+    "Texas": 29,
+    "Washington": 23,
     "New York": 24,
-    "California": 14,
+    "California": 15,
     "Capitol": 11,
     "Border": 8,
-    "Los Angeles": 8,
-    "Wall Street": 16,
+    "Los Angeles": 1,
+    "Wall Street": 17,
     "Illinois": 6,
     "Colorado": 8,
     "Canada": 9,
     "Brazílie": 1,
-    "Ukrajina": 4,
-    "Rusko": 4,
+    "Ukrajina": 7,
+    "Rusko": 7,
     "Írán": 1,
-    "Čína": 4,
+    "Čína": 5,
     "Tchaj-wan": 1,
     "Japonsko": 1,
     "Pákistán": 1,
-    "Londýn": 2,
+    "Londýn": 1,
     "Paříž": 1,
     "Madrid": 1,
     "Kolumbie": 1,
@@ -759,7 +762,7 @@
     "Hongkong": 1,
     "Indie": 1,
     "Berlín": 1,
-    "Michigan": 6,
+    "Michigan": 7,
     "Georgia": 4,
     "Maine": 6,
     "Mexico": 4,
@@ -781,23 +784,16 @@
     "Pennsylvania": 3,
     "North Carolina": 1,
     "Brusel": 1,
-    "Wisconsin": 1
+    "Wisconsin": 1,
+    "Kuba": 1
   },
   "top_location": {
     "key": "Texas",
     "name_cs": "Texas",
     "name_en": "Texas",
-    "count": 28
+    "count": 29
   },
   "archive": [
-    {
-      "date": "2026-10-06 04:41",
-      "threat_level": "HIGH",
-      "security_status_cs": "Americké trhy a politickou scénu otřásá prudký výprodej v technologickém sektoru vyvolaný čínským modelem DeepSeek a rostoucí politické napětí před blížícími se midtermy. Administrativa čelí kritice kvůli financování kampaně, zatímco geopolitická rizika rostou v souvislosti s obavami o globální dodavatelské řetězce a bezpečnostními incidenty včetně zadržení údajného čínského agenta.",
-      "security_status_en": "US markets and the political landscape are rattled by a sharp tech sector sell-off triggered by China's DeepSeek model and mounting political tension ahead of the upcoming midterms. The administration faces criticism over campaign-style ad funding, while geopolitical risks rise amid concerns over global supply chains and security incidents including the arrest of an alleged Chinese agent.",
-      "forecast_cs": "V následujících dnech lze očekávat pokračující volatilitu v technologickém sektoru a zvýšený tlak na administrativu kvůli domácím politickým kontroverzím. Investoři budou nadále bedlivě sledovat vývoj bezpečnějších aktiv a politické signály před volbami.",
-      "forecast_en": "Over the coming days, continued volatility in the tech sector and mounting pressure on the administration over domestic political controversies are expected. Investors will closely monitor safe-haven assets and pre-election political signals."
-    },
     {
       "date": "2026-10-06 04:51",
       "threat_level": "HIGH",
@@ -901,6 +897,14 @@
       "security_status_en": "U.S. markets and the political landscape are rattled by a sharp tech sector sell-off sparked by China's DeepSeek model and intensifying political polarization ahead of the midterms. Meanwhile, the DOJ launched an antitrust probe into media networks, amid ongoing concerns over inflation, fuel prices, and hurricane impacts in the Southeast.",
       "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu v technologickém sektoru a zvýšenou pozornost investorů vůči výsledkům bankovního sektoru, které mohou stabilizovat širší trh.",
       "forecast_en": "Over the coming days, continued volatility in the tech sector is expected, alongside heightened investor focus on bank earnings results which could help stabilize the broader market."
+    },
+    {
+      "date": "2026-10-12 12:48",
+      "threat_level": "HIGH",
+      "security_status_cs": "Americké trhy a politickou scénu otřásá náhlý výprodej v technologickém sektoru vyvolaný čínským modelem DeepSeek a rostoucí geopolitické napětí spojené s energetickým příměřím na Ukrajině. Blížící se midterm volby mezitím zvyšují politickou polarizaci, zatímco Federální rezervní systém čelí tlaku ohledně budoucího směřování úrokových sazeb.",
+      "security_status_en": "U.S. markets and the political landscape are shaken by a sudden sell-off in the tech sector triggered by China's DeepSeek model and rising geopolitical tensions surrounding a Ukraine energy ceasefire. Meanwhile, upcoming midterm elections are intensifying political polarization as the Federal Reserve navigates mounting pressures on interest rate policy.",
+      "forecast_cs": "V nejbližších dnech lze očekávat zvýšenou volatilitu a nervozitu na akciových trzích s důrazem na reakci technologického sektoru na vývoj kolem čínského DeepSeek a nadcházející inflační data CPI.",
+      "forecast_en": "Over the coming days, heightened volatility and nervousness are expected in equity markets, with a strong focus on the tech sector's reaction to Chinese competition and upcoming CPI inflation data."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
@@ -918,7 +922,7 @@
     },
     "yield10y": {
       "value": 0.52,
-      "date": "2026-10-09",
+      "date": "2026-10-12",
       "cached": false
     }
   },
