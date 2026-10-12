@@ -25,65 +25,73 @@ jobs:
           pip install feedparser google-genai
 
       - name: Fetch and Analyze (Red Sea)
+        continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-        run: python fetch_news.py
+        run: |
+          python fetch_news.py || { sleep 60; python fetch_news.py; } || { sleep 120; python fetch_news.py; }
 
       - name: Fetch and Analyze (USA)
+        continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
           NTFY_TOPIC_USA: ${{ secrets.NTFY_TOPIC_USA }}
         run: |
           mkdir -p usa
-          python fetch_usa.py
+          python fetch_usa.py || { sleep 60; python fetch_usa.py; } || { sleep 120; python fetch_usa.py; }
 
       - name: Fetch and Analyze (Europe)
+        continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
           NTFY_TOPIC_EUROPE: ${{ secrets.NTFY_TOPIC_EUROPE }}
         run: |
           mkdir -p europe
-          python fetch_europe.py
+          python fetch_europe.py || { sleep 60; python fetch_europe.py; } || { sleep 120; python fetch_europe.py; }
 
       - name: Fetch and Analyze (Middle East)
+        continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
           NTFY_TOPIC_MIDEAST: ${{ secrets.NTFY_TOPIC_MIDEAST }}
         run: |
           mkdir -p middle-east
-          python fetch_middleeast.py
+          python fetch_middleeast.py || { sleep 60; python fetch_middleeast.py; } || { sleep 120; python fetch_middleeast.py; }
 
       - name: Fetch and Analyze (China & Asia)
+        continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
           NTFY_TOPIC_ASIA: ${{ secrets.NTFY_TOPIC_ASIA }}
         run: |
           mkdir -p asia
-          python fetch_asia.py
+          python fetch_asia.py || { sleep 60; python fetch_asia.py; } || { sleep 120; python fetch_asia.py; }
 
       - name: Fetch and Analyze (Japan)
+        continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
           NTFY_TOPIC_JAPAN: ${{ secrets.NTFY_TOPIC_JAPAN }}
         run: |
           mkdir -p japan
-          python fetch_japan.py
+          python fetch_japan.py || { sleep 60; python fetch_japan.py; } || { sleep 120; python fetch_japan.py; }
 
       - name: Fetch and Analyze (South America)
+        continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
           NTFY_TOPIC_SOUTHAMERICA: ${{ secrets.NTFY_TOPIC_SOUTHAMERICA }}
         run: |
           mkdir -p south-america
-          python fetch_southamerica.py
+          python fetch_southamerica.py || { sleep 60; python fetch_southamerica.py; } || { sleep 120; python fetch_southamerica.py; }
 
       - name: Fetch and Analyze (AI monitor)
         continue-on-error: true
@@ -91,12 +99,14 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           mkdir -p ai
-          python fetch_ai.py
+          python fetch_ai.py || { sleep 60; python fetch_ai.py; } || { sleep 120; python fetch_ai.py; }
 
       - name: Doplnění lokalit pro mapu
+        continue-on-error: true
         run: python enrich_locations.py
 
       - name: Commit and Push
+        if: always()
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
