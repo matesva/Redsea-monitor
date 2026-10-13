@@ -1,30 +1,30 @@
 {
- "updated": "2026-10-12T01:17",
+ "updated": "2026-10-13T03:01",
  "band": {
   "7": 2.0,
   "30": 5.0
  },
- "signals_total": 120,
+ "signals_total": 124,
  "summary": {
   "7": {
    "ALL": {
-    "n": 69,
-    "ok": 42,
-    "avg": -0.07
+    "n": 78,
+    "ok": 46,
+    "avg": -0.21
    },
    "BUY": {
-    "n": 27,
-    "ok": 15,
-    "avg": -0.18
+    "n": 31,
+    "ok": 17,
+    "avg": -0.33
    },
    "SELL": {
-    "n": 6,
-    "ok": 4,
-    "avg": -2.74
+    "n": 7,
+    "ok": 5,
+    "avg": -3.47
    },
    "HOLD": {
-    "n": 36,
-    "ok": 23,
+    "n": 40,
+    "ok": 24,
     "avg": 0.47
    }
   },
@@ -61,9 +61,9 @@
   },
   "USA": {
    "7": {
-    "n": 8,
-    "ok": 6,
-    "avg": 0.53
+    "n": 10,
+    "ok": 8,
+    "avg": 0.7
    }
   },
   "Evropa": {
@@ -75,27 +75,84 @@
   },
   "Blízký východ": {
    "7": {
-    "n": 6,
-    "ok": 4,
-    "avg": 0.37
+    "n": 9,
+    "ok": 5,
+    "avg": 1.62
    }
   },
   "Čína a Asie": {
    "7": {
-    "n": 16,
+    "n": 17,
     "ok": 10,
-    "avg": 1.09
+    "avg": 0.81
    }
   },
   "Japonsko": {
    "7": {
-    "n": 13,
-    "ok": 7,
-    "avg": -0.58
+    "n": 16,
+    "ok": 8,
+    "avg": -1.9
    }
   }
  },
  "signals": [
+  {
+   "monitor": "Evropa",
+   "sector": "Energetika (TotalEnergies, Shell, RWE)",
+   "action": "BUY",
+   "date": "2026-10-12",
+   "tickers": [
+    "SHEL",
+    "TTE.PA"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Japonské akcie (Nikkei 225 ETF)",
+   "action": "HOLD",
+   "date": "2026-10-12",
+   "tickers": [
+    "^N225"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Argentina (Merval, YPF, MercadoLibre)",
+   "action": "HOLD",
+   "date": "2026-10-12",
+   "tickers": [
+    "^MERV",
+    "MELI",
+    "YPF"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
+   "action": "BUY",
+   "date": "2026-10-12",
+   "tickers": [
+    "CVX",
+    "PBR",
+    "EC"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
   {
    "monitor": "Rudé moře",
    "sector": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)",
@@ -577,8 +634,8 @@
     "6758.T",
     "9984.T"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": -7.13,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -709,8 +766,8 @@
     "RTX",
     "NOC"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 1.39,
+   "ok7": true,
    "ret30": null,
    "ok30": null
   },
@@ -722,8 +779,8 @@
    "tickers": [
     "CVX"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 4.13,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -735,8 +792,8 @@
    "tickers": [
     "^N225"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": -3.79,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -749,8 +806,8 @@
     "6758.T",
     "9984.T"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": -7.84,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -764,8 +821,8 @@
     "RTX",
     "NOC"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 1.39,
+   "ok7": true,
    "ret30": null,
    "ok30": null
   },
@@ -777,8 +834,8 @@
    "tickers": [
     "CVX"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 4.13,
+   "ok7": true,
    "ret30": null,
    "ok30": null
   },
@@ -791,8 +848,8 @@
     "6758.T",
     "9984.T"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": -7.84,
+   "ok7": true,
    "ret30": null,
    "ok30": null
   },
@@ -818,8 +875,8 @@
    "tickers": [
     "CVX"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 4.13,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -1173,65 +1230,6 @@
    "ok7": true,
    "ret30": null,
    "ok30": null
-  },
-  {
-   "monitor": "Čína a Asie",
-   "sector": "Obranný průmysl (Lockheed Martin, RTX, Mitsubishi Heavy)",
-   "action": "HOLD",
-   "date": "2026-09-27",
-   "tickers": [
-    "LMT",
-    "RTX",
-    "7011.T"
-   ],
-   "ret7": -1.46,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Japonsko",
-   "sector": "Technologie (Sony, SoftBank)",
-   "action": "HOLD",
-   "date": "2026-09-27",
-   "tickers": [
-    "6758.T",
-    "9984.T"
-   ],
-   "ret7": 2.61,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Rudé moře",
-   "sector": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
-   "action": "HOLD",
-   "date": "2026-09-26",
-   "tickers": [
-    "RHM.DE",
-    "TTE.PA",
-    "AIR.PA",
-    "ALV.DE"
-   ],
-   "ret7": -1.84,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Evropa",
-   "sector": "Energetika (TotalEnergies, Shell, RWE)",
-   "action": "BUY",
-   "date": "2026-09-26",
-   "tickers": [
-    "SHEL",
-    "TTE.PA"
-   ],
-   "ret7": -2.6,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
   }
  ],
  "unknown": [
@@ -1240,6 +1238,12 @@
   "Evropa: Široký evropský akciový trh (Euro Stoxx 50 ETF)",
   "Japonsko: Průmyslová robotika (Fanuc, Mitsubishi Electric)",
   "USA: Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)",
-  "USA: Státní dluhopisy USA (Treasuries)"
+  "USA: Globální nervozita a výprodeje na amerických trzích mohou přechodně zatížit i středoevropský region, tuzemské fundamenty však zůstávají stabilní.",
+  "USA: Investoři hledají bezpečné přístavy v reakci na propad akcií a rostoucí geopolitické riziko, což zvyšuje poptávku po státních dluhopisech.",
+  "USA: Pokračující konflikty a geopolitické napětí spojené s Ukrajinou a dodávkami energie udržují poptávku po obranných systémech na vysoké úrovni.",
+  "USA: Sektor utrpěl masivní výprodej kvůli konkurenčnímu tlaku z Číny a obavám o udržitelnost AI valuací. Doporučujeme redukovat expozici.",
+  "USA: Státní dluhopisy USA (Treasuries)",
+  "USA: Trh prochází prudkou korekcí po propadu v technologickém sektoru, přičemž blížící se makrodata a volby zvyšují nejistotu. Doporučujeme vyčkat na stabilizaci.",
+  "USA: Zahájení výsledkové sezóny velkých bank přinese důležité informace o dopadu vyšších výnosů na zdraví ekonomiky. Pozice zatím držíme."
  ]
 }
