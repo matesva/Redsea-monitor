@@ -48,6 +48,20 @@
 #v-volby ol.vz{margin:8px 0 0;padding-left:26px}
 #v-volby ol.vz li{margin-top:8px;line-height:1.35}
 #v-volby ol.vz li small{display:block;opacity:.65;font-size:.88em;margin-top:1px}
+
+#v-senat .sobv{margin-top:18px;padding-top:12px;border-top:1px solid rgba(184,134,59,.35);font-family:'IBM Plex Mono',monospace;font-size:.85em}
+#v-senat .sobv:first-child{margin-top:8px;padding-top:0;border-top:0}
+#v-senat .sobv small{display:block;opacity:.65;font-size:.82em;margin-top:2px}
+#v-senat .srow{display:grid;grid-template-columns:1fr 90px;gap:10px;align-items:center;margin-top:10px;font-family:'IBM Plex Mono',monospace;font-size:.78em}
+#v-senat .sbar{height:16px;background:rgba(128,128,128,.14);border:1px solid rgba(184,134,59,.35);position:relative;margin-top:3px}
+#v-senat .sbar i{position:absolute;left:0;top:0;bottom:0;background:#b8863b}
+#v-senat .sbar .half{position:absolute;top:-3px;bottom:-3px;left:50%;border-left:1px dashed #9aa8ac}
+#v-senat .srow.win .sbar i{background:#6a9b6e}
+#v-senat .srow.adv .sbar i{background:#c07a3a}
+#v-senat .sval{text-align:right;white-space:nowrap}
+#v-senat .sbadge{font-size:.85em;padding:1px 6px;border:1px solid rgba(184,134,59,.5);margin-left:6px;white-space:nowrap}
+#v-senat .ssum{display:flex;flex-wrap:wrap;gap:8px 16px;font-family:'IBM Plex Mono',monospace;font-size:.82em;margin-top:10px}
+#v-senat .ssum b{color:#b8863b}
 </style>
 <link rel="icon" type="image/svg+xml" href="/Redsea-monitor/favicon.svg">
 <link rel="apple-touch-icon" href="/Redsea-monitor/icons/apple-touch-icon.png">
@@ -98,6 +112,7 @@
     <button id="t-pruzkumy">PRŮZKUMY</button>
     <button id="t-volby">VOLBY</button>
     <button id="t-energie">ENERGIE</button>
+    <button id="t-senat">SENÁT</button>
   </nav>
 
   <section id="v-zpravy">
@@ -181,6 +196,24 @@
       <div id="fbody"></div>
       <div class="flegend"><span>◀ export z ČR</span><span>import do ČR ▶</span></div>
       <div class="legend">Fyzické toky na hraničních profilech (ENTSO-E přes Energy-Charts). Obchodní výměna se od fyzických toků může výrazně lišit. Aktualizace každých 15 minut. (v8)</div>
+    </div>
+  </section>
+
+  <section id="v-senat" hidden>
+    <div class="bulletin">
+      <h2>Senát: volby 2026</h2>
+      <div class="filters">
+        <input id="snq" placeholder="Obvod, město nebo jméno (např. Plzeň, Rakovník…)">
+        <select id="snf">
+          <option value="">Všechny obvody</option>
+          <option value="elected">Zvoleni v 1. kole</option>
+          <option value="runoff">Postupují do 2. kola</option>
+        </select>
+      </div>
+      <div class="legend" id="snmeta">Načítání…</div>
+      <div class="ssum" id="snsum"></div>
+      <div id="snbody"></div>
+      <div class="legend" id="snnote"></div>
     </div>
   </section>
 
@@ -600,6 +633,114 @@ function toggleTheme(){
       });
     })(0);
   }
+})();
+</script>
+
+<script>
+/* ---- Záložka SENÁT: obvody, zvolení senátoři, postup do 2. kola ---- */
+(function(){
+  var URL_JSON="https://raw.githubusercontent.com/matesva/Redsea-monitor/data/senat.json";
+  var REFRESH_MS=5*60*1000,TIMEOUT_MS=15000,CACHE_KEY="senat_cache_v1";
+  var STATE=null,src="–",timer=null;
+
+  var tab=document.getElementById("t-senat"),view=document.getElementById("v-senat");
+  var tabs=document.querySelectorAll(".tabs button");
+  var body=document.getElementById("snbody"),meta=document.getElementById("snmeta");
+  var sum=document.getElementById("snsum"),note=document.getElementById("snnote");
+  var q=document.getElementById("snq"),flt=document.getElementById("snf");
+
+  function f1(v){return v.toFixed(1).replace(".",",")}
+  function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+  function norm(s){return String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()}
+
+  function fetchT(u){
+    var ctl=(typeof AbortController!=="undefined")?new AbortController():null;
+    var t=setTimeout(function(){if(ctl)ctl.abort()},TIMEOUT_MS);
+    return fetch(u,ctl?{signal:ctl.signal}:{}).then(function(r){
+      clearTimeout(t);
+      if(!r.ok)throw new Error("HTTP "+r.status);
+      return r.json();
+    }).catch(function(e){clearTimeout(t);throw e});
+  }
+  function valid(j){return j&&Array.isArray(j.obvody)&&j.obvody.length}
+
+  function status(o){
+    var w=(o.cand||[]).filter(function(c){return c.elected});
+    if(w.length)return "elected";
+    if((o.cand||[]).some(function(c){return c.runoff}))return "runoff";
+    return "open";
+  }
+
+  function block(o){
+    var st=status(o),cands=(o.cand||[]).slice().sort(function(a,b){return (b.pct||0)-(a.pct||0)});
+    var mx=Math.max.apply(null,cands.map(function(c){return c.pct||0}).concat([10]));
+    var badge=st==="elected"?'<span class="sbadge">zvolen/a</span>':(st==="runoff"?'<span class="sbadge">2. kolo</span>':'');
+    return '<div class="sobv"><b>'+(o.c!=null?esc(o.c)+' – ':'')+esc(o.n)+'</b>'+badge+
+      (o.turnout!=null?' · účast '+f1(o.turnout)+' %':'')+
+      (o.sec!=null?' · sečteno '+f1(o.sec)+' %':'')+
+      (o.note?'<small>'+esc(o.note)+'</small>':'')+
+      cands.map(function(c){
+        var cls=c.elected?" win":(c.runoff?" adv":"");
+        var w=(c.pct||0)/mx*100,half=50/mx*100;
+        return '<div class="srow'+cls+'"><div>'+esc(c.n)+
+          '<small style="opacity:.65"> '+esc(c.party||"")+'</small>'+
+          '<div class="sbar"><i style="width:'+w+'%"></i>'+(half<=100?'<span class="half" style="left:'+half+'%"></span>':'')+'</div></div>'+
+          '<div class="sval"><b>'+(c.pct!=null?f1(c.pct)+' %':'–')+'</b>'+(c.votes!=null?'<br><span style="opacity:.65">'+c.votes.toLocaleString("cs-CZ")+' hl.</span>':'')+'</div></div>';
+      }).join("")+'</div>';
+  }
+
+  function render(){
+    if(!STATE){
+      body.innerHTML='<div class="legend">Data Senátu se nepodařilo načíst. Zkontroluj, že workflow vytvořil senat.json ve větvi data.</div>';
+      meta.textContent="";sum.innerHTML="";note.textContent="";return;
+    }
+    var m=STATE.meta||{},all=STATE.obvody;
+    var nEl=0,nRun=0;
+    all.forEach(function(o){var s=status(o);if(s==="elected")nEl++;else if(s==="runoff")nRun++});
+
+    var u=m.updated?new Date(m.updated):null;
+    meta.textContent=(m.status||"Senát")+(u&&!isNaN(u)?" · data z "+u.toLocaleString("cs-CZ"):"")+" · zdroj: "+src;
+
+    var parties=(STATE.seats||[]).map(function(s){return '<span>'+esc(s.party)+': <b>'+s.n+'</b></span>'}).join("");
+    sum.innerHTML='<span>Zvoleno: <b>'+nEl+'</b></span><span>2. kolo: <b>'+nRun+'</b></span><span>Obvodů: <b>'+all.length+'</b></span>'+parties;
+
+    var qq=norm(q.value.trim()),f=flt.value;
+    var list=all.filter(function(o){
+      if(f&&status(o)!==f)return false;
+      if(qq.length<2)return true;
+      var hay=norm((o.c||"")+" "+o.n+" "+(o.cand||[]).map(function(c){return c.n+" "+(c.party||"")}).join(" "));
+      return hay.indexOf(qq)>=0;
+    });
+    body.innerHTML=list.map(block).join("")||'<div class="legend">Nic nenalezeno.</div>';
+    note.textContent="Do Senátu se volí třetina křesel (27 obvodů). Zvolen je kandidát s více než 50 % hlasů, jinak postupují dva nejlepší do 2. kola ("+(m.second_round||"16.–17. 10. 2026")+"). Procenta jsou podíl na platných hlasech. Oficiální výsledky: volby.gov.cz. Obnova každých 5 minut.";
+  }
+
+  function load(){
+    fetchT(URL_JSON+"?t="+Date.now()).then(function(j){
+      if(!valid(j))throw new Error("neplatný formát");
+      STATE=j;src="senat.json";
+      try{localStorage.setItem(CACHE_KEY,JSON.stringify(j))}catch(e){}
+      render();
+    }).catch(function(){
+      var c=null;
+      try{c=JSON.parse(localStorage.getItem(CACHE_KEY))}catch(e){}
+      if(valid(c)){STATE=c;src="uložená kopie (offline)"}
+      render();
+    });
+  }
+
+  function show(){
+    document.querySelectorAll("section[id^='v-']").forEach(function(s){s.hidden=(s!==view)});
+    tabs.forEach(function(b){b.classList.toggle("on",b===tab)});
+    render();load();
+    if(!timer)timer=setInterval(function(){if(!view.hidden)load()},REFRESH_MS);
+  }
+  tab.addEventListener("click",show);
+  tabs.forEach(function(b){
+    if(b!==tab)b.addEventListener("click",function(){view.hidden=true;tab.classList.remove("on")});
+  });
+  q.addEventListener("input",render);
+  flt.addEventListener("change",render);
 })();
 </script>
     <script src="/Redsea-monitor/nav.js"></script>
