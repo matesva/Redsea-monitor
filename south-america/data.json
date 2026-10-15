@@ -1,66 +1,220 @@
 {
-  "last_updated": "2026-10-15T10:39:28Z",
+  "last_updated": "2026-10-15T21:14:45Z",
   "assessment": {
-    "threat_level": "MEDIUM",
-    "sentiment_score": 52,
-    "security_status_cs": "Jižní Amerika čelí smíšenému vývoji, kde politické napětí před brazilským runofem a protesty v Kolumbii kontrastují s ekonomickými stabilizačními kroky, jako je upgrade chilského retailového gigantu Falabella od Fitch. Komoditní trhy nadále reagují na globální geopolitické otřesy, přičemž ceny kávy a ropy zůstávají pod vlivem vnějších obchodních sporů.",
-    "security_status_en": "South America faces a mixed environment, where political tensions ahead of the Brazilian runoff and protests in Colombia contrast with economic stabilization steps such as Fitch's upgrade of Chilean retail giant Falabella. Commodity markets continue to respond to global geopolitical shocks, with coffee and oil prices remaining sensitive to external trade disputes.",
+    "threat_level": "HIGH",
+    "sentiment_score": 68,
+    "security_status_cs": "Region čelí stupňujícímu se napětí před druhým kolem prezidentských voleb v Brazílii, kde průzkumy ukazují velmi těsný souboj. V Argentině mezitím sílí sociální neklid a protesty proti úsporným opatřením prezidenta Mileie, zatímco rostou geopolitické třenice kolem Falklandských ostrovů.",
+    "security_status_en": "The region faces escalating tensions ahead of the presidential runoff in Brazil, where polls show an extremely tight race. In Argentina, social unrest and protests against President Milei's austerity measures are intensifying, alongside rising geopolitical friction over the Falkland Islands.",
     "recommendations": [
       {
         "sector_cs": "Brazilský akciový trh (Bovespa, ETF EWZ)",
         "sector_en": "Brazilian Equities (Bovespa, EWZ ETF)",
         "action": "HOLD",
-        "reason_cs": "Schválení zkráceného pracovního týdne posiluje pozici prezidenta Lula před nadcházejícím runofem, což zvyšuje politickou nejistotu na trzích.",
-        "reason_en": "The approval of a shortened workweek boosts President Lula's standing ahead of the upcoming runoff, increasing political uncertainty in the markets."
+        "reason_cs": "Těsné předvolební průzkumy a schválení 40hodinového pracovního týdne zvyšují politickou nejistotu a tlak na firemní marže.",
+        "reason_en": "Tight pre-election polls and the approval of a 40-hour workweek increase political uncertainty and pressure on corporate margins."
       },
       {
         "sector_cs": "Argentina (Merval, YPF, MercadoLibre)",
         "sector_en": "Argentina (Merval, YPF, MercadoLibre)",
-        "action": "BUY",
-        "reason_cs": "Prezident Milei nadále prosazuje tržně orientované reformy a silně se orientuje na americké spojenectví, což přitahuje zahraniční kapitál navzdory lokálním protestům.",
-        "reason_en": "President Milei continues to push market-oriented reforms and aligns strongly with US ties, attracting foreign capital despite local protests."
+        "action": "HOLD",
+        "reason_cs": "Zastavení domácího vydávání dolarových dluhopisů, rostoucí protesty proti reformám a kontroverze kolem těžby ve Vaca Muerta brzdí růstový potenciál.",
+        "reason_en": "The pause in domestic dollar bond issuance, rising protests against reforms, and controversies surrounding Vaca Muerta operations weigh on growth potential."
       },
       {
         "sector_cs": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
         "sector_en": "Mining: Copper & Lithium (Southern Copper, SQM, Freeport)",
         "action": "BUY",
-        "reason_cs": "Vylepšení ratingu chilských firem (Falabella) signalizuje celkově stabilní korporátní prostředí v regionu, zatímco poptávka po průmyslových kovech zůstává robustní.",
-        "reason_en": "Rating upgrades for Chilean firms (Falabella) signal a generally stable corporate environment in the region, while demand for industrial metals remains robust."
+        "reason_cs": "Globální poptávka po tranzici k čisté energii a stabilní komoditní trhy poskytují těžařům solidní oporu navzdory regionálním politickým rizikům.",
+        "reason_en": "Global demand for clean energy transition and stable commodity markets provide solid support for miners despite regional political risks."
       },
       {
         "sector_cs": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
         "sector_en": "Oil & Energy (Petrobras, Ecopetrol, Chevron)",
         "action": "HOLD",
-        "reason_cs": "Globální ceny ropy těží z geopolitických rizik, ale regionální energetický sektor čelí regulačním tlakům a eskalujícím politickým sporům.",
-        "reason_en": "Global oil prices benefit from geopolitical risks, but the regional energy sector faces regulatory pressures and escalating political disputes."
+        "reason_cs": "Ecopetrol čelí snahám o obměnu správní rady a globální trhy s ropou zůstávají volatilní kvůli geopolitickým šokům.",
+        "reason_en": "Ecopetrol faces board overhaul attempts and global oil markets remain volatile due to geopolitical shocks."
       },
       {
         "sector_cs": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
         "sector_en": "Agriculture & Food (JBS, Bunge, Cosan)",
         "action": "BUY",
-        "reason_cs": "Ceny arabiky dosáhly rekordních maxim v důsledku kolísavých obchodních jednání a hrozeb cel, což nahrává velkým exportérům v Latinské Americe.",
-        "reason_en": "Arabica prices hit record highs due to fluctuating trade talks and tariff threats, benefiting major Latin American exporters."
+        "reason_cs": "Rekordní ceny arabiky a ústup od hrozeb amerických cel na kolumbijskou kávu vytvářejí příznivé prostředí pro agroexportéry.",
+        "reason_en": "Record arabica coffee prices and the retreat from US tariff threats on Colombian coffee create a favorable environment for agro-exporters."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Dění v Jižní Americe má na tyto středoevropské tituly jen minimální nepřímý vliv; hlavní zůstávají domácí makrodata a globální měnová politika.",
-        "reason_en": "South American developments have minimal indirect impact on these Central European stocks; domestic macroeconomic data and global monetary policy remain primary."
+        "reason_cs": "Dění v Jižní Americe má na tyto domácí tituly jen minimální nepřímý vliv, primárně reagují na evropskou monetární politiku.",
+        "reason_en": "South American developments have minimal indirect impact on these domestic stocks, which primarily react to European monetary policy."
       }
     ],
-    "forecast_cs": "V nejbližších dnech se pozornost soustředí na závěrečnou fázi kampaně před brazilským prezidentským runofem a reakce investorů na globální inflační data.",
-    "forecast_en": "Over the coming days, attention will focus on the final campaign stretch ahead of Brazil's presidential runoff and investor reactions to global inflation data.",
-    "forecast_review_cs": "Předchozí předpověď o gradaci kampaně v Brazílii a napětí v Kolumbii byla plně potvrzena aktuálním politickým vývojem a zprávami o protestech.",
-    "forecast_review_en": "The previous forecast regarding the campaign escalation in Brazil and tensions in Colombia was fully confirmed by current political developments and protest reports."
+    "forecast_cs": "V nejbližších dnech se pozornost investorů plně soustředí na finální kampaň před druhým kolem prezidentských voleb v Brazílii a vývoj na komoditních trzích.",
+    "forecast_en": "Over the coming days, investor attention will focus fully on the final campaign stretch ahead of Brazil's presidential runoff and developments in commodity markets.",
+    "forecast_review_cs": "Předchozí předpověď se potvrdila, jelikož se pozornost trhů skutečně upnula na závěr brazilské kampaně.",
+    "forecast_review_en": "The previous forecast was confirmed as market attention indeed focused on the final stretch of the Brazilian campaign."
   },
   "articles": [
     {
-      "title": "Fitch Upgrades Chile Retail Giant Falabella",
-      "summary": "<p>Fitch lifted Grupo Falabella, the Chilean owner of stores, a bank and malls, to BBB from BBB- after it cut debt and improved its margins.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/fitch-upgrades-chile-retail-giant-falabella-2026/\">Fitch Upgrades Chile Retail Giant Falabella</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/fitch-upgrades-chile-retail-giant-falabella-2026/",
-      "published": "Thu, 15 Oct 2026 10:08:12 +0000",
+      "title": "Argentina’s bill toughening sanctions over Sea Lion stalls in Congress",
+      "summary": "<p>\n\t   \t      <img alt=\"The bill, sent to Congress in September, has 133 articles. The first 40 repeal the 2011 law penalising hydrocarbon exploration not authorised by Argentina and create a broader regime with fines\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111777/100x80/congr.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         The National Sovereignty Defence bill, with which Javier Milei’s government seeks to toughen sanctions against those involved in exploiting resources in the Falklands, failed to secure committee approval in the Chamber of Deputies and will not reach the special session planned for October 21, according to the Argentine press. The opposition is demanding that the text, which besides sanctions reforms security, defence and intelligence, be split.</p>",
+      "link": "https://en.mercopress.com/2026/10/15/argentina-s-bill-toughening-sanctions-over-sea-lion-stalls-in-congress?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Thu, 15 Oct 2026 20:59:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "Brazil approves a 40-hour week and two days off ten days before the runoff",
+      "summary": "<p>\n\t   \t      <img alt=\"Lula’s campaign hopes the reform will help him overturn the nearly two-point deficit with which he ended the first round\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111775/100x80/asd.jpeg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Brazil’s Senate on Wednesday approved, by 75 votes to one, a cut in the maximum working week from 44 to 40 hours with no reduction in pay, ending the so-called 6x1 schedule of six working days and one day off and extending to two the days off for formal-sector workers. The reform, which according to Reuters benefits some 37 million people, comes ten days before the presidential runoff between Luiz Inácio Lula da Silva and Flávio Bolsonaro.</p>",
+      "link": "https://en.mercopress.com/2026/10/15/brazil-approves-a-40-hour-week-and-two-days-off-ten-days-before-the-runoff?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Thu, 15 Oct 2026 20:54:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "Argentina pauses local dollar bond sales as debt wall nears",
+      "summary": "<p><img alt=\"The Puerto Madero neighbourhood of Buenos Aires.  \" src=\"https://fotos.perfil.com/2026/10/15/trim/540/304/the-puerto-madero-neighbourhood-of-buenos-aires-2349362.jpg\" /></p>Government hasn’t issued a Bonar dollar bond at home in two months – its longest pause since launching the programme. <a href=\"https://www.batimes.com.ar/news/economy/argentina-pauses-local-dollar-bond-sales-as-debt-wall-nears.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/economy/argentina-pauses-local-dollar-bond-sales-as-debt-wall-nears.phtml",
+      "published": "Thu, 15 Oct 2026 20:27:16 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Students, unions stage fifth ‘federal march’ over university funding",
+      "summary": "<p><img alt=\"Protesters demonstrate during the fifth 'Marcha Federal Universitara' in Buenos Aires.\" src=\"https://fotos.perfil.com/2026/10/15/trim/540/304/protesters-demonstrate-during-the-fifth-marcha-federal-universitara-in-buenos-aires-2349350.jpg\" /></p>Thousands of students and lecturers march against Milei’s higher education cuts; State employees also stage a 24-hour strike as thousands demand immediate implementation of the university funding legislation. <a href=\"https://www.batimes.com.ar/news/argentina/students-unions-stage-fifth-federal-march-over-university-funding.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/argentina/students-unions-stage-fifth-federal-march-over-university-funding.phtml",
+      "published": "Thu, 15 Oct 2026 20:16:17 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Argentine Police Clash With University March",
+      "summary": "<p>Police used tear gas and water cannons at the fifth Marcha Federal Universitaria in Buenos Aires; five officers and two protesters were injured.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/argentina-police-clash-university-march-buenos-aires-2026/\">Argentine Police Clash With University March</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/argentina-police-clash-university-march-buenos-aires-2026/",
+      "published": "Thu, 15 Oct 2026 20:10:58 +0000",
       "source": "The Rio Times"
+    },
+    {
+      "title": "Poll shows Bolsonaro with slight lead over Lula ahead of Brazilian run-off",
+      "summary": "Poll shows right-wing candidate with two percent advantage over Lula going into second round of voting on October 25.",
+      "link": "https://www.aljazeera.com/news/2026/10/15/poll-shows-bolsonaro-with-slight-lead-over-lula-ahead-of-brazilian-run-off?traffic_source=rss",
+      "published": "Thu, 15 Oct 2026 20:07:58 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Somalia says it will hold elections in 2027",
+      "summary": "Critics say unilateral decision to call polls is a recipe for more conflict.",
+      "link": "https://www.aljazeera.com/news/2026/10/15/somalia-says-it-will-hold-elections-in-2027?traffic_source=rss",
+      "published": "Thu, 15 Oct 2026 20:04:02 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Ecopetrol Seeks Grid Firm ISA Board Overhaul",
+      "summary": "<p>ISA says Ecopetrol sent a draft letting shareholders replace its whole board and easing CEO selection; shareholders vote on 28 October.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/ecopetrol-isa-board-overhaul-ceo-selection-rules-2026/\">Ecopetrol Seeks Grid Firm ISA Board Overhaul</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/ecopetrol-isa-board-overhaul-ceo-selection-rules-2026/",
+      "published": "Thu, 15 Oct 2026 20:00:40 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Fake AI images of protester go viral after woman punched at Trump's Ohio rally",
+      "summary": "A protester who heckled Donald Trump at his midterm rally in Youngstown, Ohio, was physically assaulted and removed from the event, but fake AI-generated photos recreating the incident are going viral online. The images carry digital watermarks identifying them as AI-generated. While footage confirms the woman was punched, there is no evidence to support Trump’s claim that the protester was \"paid\" to disrupt his speech, as he mocked the protester's weight. Vedika Bahl explains in Truth or Fake.",
+      "link": "https://www.france24.com/en/fake-ai-images-of-protester-go-viral-after-woman-punched-at-trump-s-ohio-rally",
+      "published": "Thu, 15 Oct 2026 19:47:44 GMT",
+      "source": "France 24"
+    },
+    {
+      "title": "Nigeria September Inflation Falls to 14.63%",
+      "summary": "<p>Nigeria's annual inflation slowed to 14.63% in September from 15.39% in August, while core prices rose 1.11% in the month, official data show.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/nigeria-september-inflation-14-63-2026/\">Nigeria September Inflation Falls to 14.63%</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/nigeria-september-inflation-14-63-2026/",
+      "published": "Thu, 15 Oct 2026 19:47:31 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "This one governor’s race could derail the AI trade that’s powered the stock market",
+      "summary": "Here’s the Nov. 3 contest that “presents the biggest election-specific risk,” analysts say.",
+      "link": "https://www.marketwatch.com/story/this-one-governors-race-could-derail-the-ai-trade-thats-powered-the-stock-market-6bbf06f8?mod=mw_rss_topstories",
+      "published": "Thu, 15 Oct 2026 19:00:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Ahead of US midterms, voters are frustrated with Trump, want change: Poll",
+      "summary": "Widespread voter disillusionment and pocketbook anxieties set a volatile stage for the GOP weeks before election night.",
+      "link": "https://www.aljazeera.com/news/2026/10/15/ahead-of-us-midterms-voters-are-frustrated-with-trump-want-change-poll?traffic_source=rss",
+      "published": "Thu, 15 Oct 2026 18:17:57 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Venezuela's Nicolas Maduro and wife Cilia Flores deny US torture charges as 'false accusations'",
+      "summary": "Ousted Venezuelan president Nicolas Maduro and his wife Cilia Flores pleaded not guilty on Thursday to new torture charges brought against them by US authorities, calling them “false allegations\". The couple has been held in a New York jail since their capture in early January and is facing a new indictment accusing them of conspiring to torture political opponents and US citizens.",
+      "link": "https://www.france24.com/en/americas/20261015-venezuela-s-nicolas-maduro-and-wife-cilia-flores-deny-us-torture-charges-as-false-accusations",
+      "published": "Thu, 15 Oct 2026 18:11:23 GMT",
+      "source": "France 24"
+    },
+    {
+      "title": "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
+      "summary": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
+      "link": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
+      "published": "Thu, 15 Oct 2026 18:01:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Ex-OFAC Official: The Cartel Risk Companies Can’t See | The InSight Take",
+      "summary": "<p><a href=\"https://insightcrime.org/news/ex-ofac-official-the-cartel-risk-companies-cant-see-the-insight-take/\">Ex-OFAC Official: The Cartel Risk Companies Can’t See | The InSight Take</a></p>\n<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2026/10/17.jpg?fit=1024%2C576&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>Claire McCleskey, former head of compliance at the US Treasury’s OFAC, on what the cartel terrorist designations really change for companies — and why counter-terrorism tools may not fit criminal groups embedded in legitimate business.</p>\n<p>The post <a href=\"https://insightcrime.org/news/ex-ofac-official-the-cartel-risk-companies-cant-see-the-insight-take/\">Ex-OFAC Official: The Cartel Risk Companies Can’t See | The InSight Take</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
+      "link": "https://insightcrime.org/news/ex-ofac-official-the-cartel-risk-companies-cant-see-the-insight-take/",
+      "published": "Thu, 15 Oct 2026 17:54:17 +0000",
+      "source": "InSight Crime"
+    },
+    {
+      "title": "Opposition falls short for Congress session to overturn Milei decree",
+      "summary": "<p><img alt=\"Lower House Chamber of Deputies\" src=\"https://fotos.perfil.com/2026/10/15/trim/540/304/lower-house-chamber-of-deputies-2349353.jpg\" /></p>Government celebrates as provincial lawmakers stay away from a session also due to address disability benefits and household debt. Only 121 deputies show up with 129 needed for quorum. <a href=\"https://www.batimes.com.ar/news/argentina/opposition-falls-short-for-congress-session-to-overturn-milei-decree.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/argentina/opposition-falls-short-for-congress-session-to-overturn-milei-decree.phtml",
+      "published": "Thu, 15 Oct 2026 17:54:00 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "DR Congo protests Formula 1’s ‘indefensible’ decision to race in Rwanda",
+      "summary": "Formula One returns to Africa for the first time since 1993, but DRC slams decision to stage race in Rwanda.",
+      "link": "https://www.aljazeera.com/sports/2026/10/15/congo-protests-formula-1s-indefensible-decision-to-race-in-rwanda?traffic_source=rss",
+      "published": "Thu, 15 Oct 2026 17:13:17 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Did this year’s COLA beat inflation? Here’s how spending by American seniors stacks up so far in 2026.",
+      "summary": "The cost-of-living adjustment for 2027 will be 3.6%, which will give Social Security recipients an average of $75 more per month.",
+      "link": "https://www.marketwatch.com/story/did-this-years-cola-beat-inflation-heres-how-spending-by-american-seniors-stacks-up-so-far-in-2026-917c400c?mod=mw_rss_topstories",
+      "published": "Thu, 15 Oct 2026 17:07:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Maduro pleads not guilty to new torture-related charges in New York",
+      "summary": "\"I reject this document entirely,\" Maduro said in court, responding to newly added torture-related charges.",
+      "link": "https://www.bbc.co.uk/news/articles/cqwyrn1l74zro?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 15 Oct 2026 16:52:44 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Nicolás Maduro tells New York court new torture allegations are ‘false’",
+      "summary": "<p>Rewritten indictment accuses ex-Venezuela president and wife Cilia Flores of leading campaign of torture</p><p>Nicolás Maduro insisted on Thursday during an appearance in a New York court that torture allegations in a rewritten drug trafficking indictment against the deposed Venezuelan president and his wife were “false accusations”.</p><p>Maduro, shackled at the ankles, was brought to court to face the new charges accusing the couple of leading a state-sponsored campaign of repression that tortured scores of victims, including three Americans.</p> <a href=\"https://www.theguardian.com/world/2026/oct/15/nicolas-maduro-torture-allegations-cilia-flores\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/oct/15/nicolas-maduro-torture-allegations-cilia-flores",
+      "published": "Thu, 15 Oct 2026 16:38:32 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "'We're done': Ukraine resumes strikes on Russian oil refineries as 'only leverage' for peace talks",
+      "summary": "Delano D'Souza is pleased to welcome Peter Zalmayev, Founder and Director of the Eurasia Democracy Initiative, LIVE from Kyiv. As Zelensky declares Ukraine \"done\" with Trump's self-declared energy ceasefire and resumes strikes on Russian oil refineries, Zalmayev warns: \"When you talk about the energy ceasefire, it presupposes two to be able to tango and to dance this dance.\" He challenges the legitimacy of Trump's unilateral announcement, made without agreement between Moscow and Kyiv, as Russia continues attacking Ukraine's energy infrastructure. Yet he cautions that Zelensky may need tactical restraint to preserve vital US support. Zalmayev also examines Western sanctions, frozen Russian assets, and Washington's pursuit of economic normalization with Moscow without meaningful Russian concessions.",
+      "link": "https://www.france24.com/en/video/20261015-we-re-done-ukraine-resumes-strikes-on-russian-oil-refineries-as-only-leverage-for-peace-talks-1",
+      "published": "Thu, 15 Oct 2026 16:14:25 GMT",
+      "source": "France 24"
+    },
+    {
+      "title": "Why Ecuador Is Losing Its Fight Against Organized Crime",
+      "summary": "<p><a href=\"https://insightcrime.org/news/why-ecuador-is-losing-its-fight-against-organized-crime/\">Why Ecuador Is Losing Its Fight Against Organized Crime</a></p>\n<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"768\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2026/10/Ecuador-profile-teaser-Uphill-Battle-Against-Organized-Crime.jpg?fit=1024%2C768&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>Ecuador’s militarized organized crime crackdown has failed to translate into a sustained reduction in violence. Three years in, President Daniel Noboa’s government is now making tentative moves toward a more holistic approach while at the same time embracing the new hyper-militaristic security paradigm of the United States and its regional allies.</p>\n<p>The post <a href=\"https://insightcrime.org/news/why-ecuador-is-losing-its-fight-against-organized-crime/\">Why Ecuador Is Losing Its Fight Against Organized Crime</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
+      "link": "https://insightcrime.org/news/why-ecuador-is-losing-its-fight-against-organized-crime/",
+      "published": "Thu, 15 Oct 2026 15:09:57 +0000",
+      "source": "InSight Crime"
+    },
+    {
+      "title": "Milei adviser claims UK being ‘colonised by Islam’ as Falklands row grows",
+      "summary": "<p>Santiago Caputo cites election of Sagal Abdi-Wali as MP and calls UK a threat to the west in post shared by Argentina’s president</p><p>The chief adviser to Argentina’s president, Javier Milei, has cited the election of Sagal Abdi-Wali to the UK parliament as evidence of the Islamisation of Britain and further reason for Argentina to take sovereignty over the Falkland Islands.</p><p>In a post on social media, Santiago Caputo, who is reportedly taking a key role in Argentina’s strategy over the Falklands, suggested that the taking of the south Atlantic islands was necessary to prevent the “interference of an Islamic state” in the region.</p> <a href=\"https://www.theguardian.com/uk-news/2026/oct/15/falklands-javier-milei-adviser-santiago-caputo-uk-islam-argentina\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/uk-news/2026/oct/15/falklands-javier-milei-adviser-santiago-caputo-uk-islam-argentina",
+      "published": "Thu, 15 Oct 2026 15:00:23 GMT",
+      "source": "The Guardian"
     },
     {
       "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce",
@@ -77,13 +231,6 @@
       "source": "BBC News"
     },
     {
-      "title": "Russia says Ukraine resumes attacks on oil refineries",
-      "summary": "Ukraine's president earlier said Kyiv was 'done' with energy ceasefire and that strikes on Russian oil refineries would resume.",
-      "link": "https://www.aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries?traffic_source=rss",
-      "published": "Thu, 15 Oct 2026 10:02:17 +0000",
-      "source": "Al Jazeera"
-    },
-    {
       "title": "The hidden costs of fracking: boom in Argentina linked to trail of sickness",
       "summary": "<p>Families in Vaca Muerta, the centre of Patagonia’s shale operation, report cancers, miscarriages and pollution</p><p>In Allen, a small town in Argentine Patagonia, many people living on the same street ended up falling ill. For some, it was severe migraines, nausea or skin irritation. For others, cancers, congenital abnormalities, miscarriages or stillbirth seemed to affect foetuses or children. People say it all started 13 years ago – when a well was drilled near their homes to extract gas and oil.</p><p><a href=\"https://opsur.org.ar/2021/11/08/saquennos-de-aca-rodeado-por-52-pozos-un-barrio-de-allen-reclama-su-relocalizacion/\">Calle Ciega 10</a> [Dead-end Street 10] lies on the eastern edge of Vaca Muerta, a vital area for <a href=\"https://www.theguardian.com/world/argentina\">Argentina</a>’s economy, home to the <a href=\"https://www.theguardian.com/world/argentina\">world’s second-largest reserve of shale gas</a> and fourth-largest reserve of shale oil. The region has more than <a href=\"https://www.shale24.com/oil-gas/vaca-muerta-ya-tiene-2667-pozos-activos-claves-entender-potencial-proyectado-22000-n1464\">2,600 active wells</a>, including one on this small street where about 20 families live, most of them seasonal workers on fruit farms.</p> <a href=\"https://www.theguardian.com/global-development/2026/oct/15/the-hidden-costs-of-fracking-boom-in-argentina-linked-to-trail-of-sickness\">Continue reading...</a>",
       "link": "https://www.theguardian.com/global-development/2026/oct/15/the-hidden-costs-of-fracking-boom-in-argentina-linked-to-trail-of-sickness",
@@ -91,88 +238,11 @@
       "source": "The Guardian"
     },
     {
-      "title": "Jamaican Drug Lord’s US Release Pushed Back",
-      "summary": "<p>US prison records now put Jamaican drug lord Christopher Coke's release a year later, in January 2029, as reports spread of a prison fight with Diddy.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/jamaican-drug-lord-us-release-pushed-back-2026/\">Jamaican Drug Lord’s US Release Pushed Back</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/jamaican-drug-lord-us-release-pushed-back-2026/",
-      "published": "Thu, 15 Oct 2026 09:57:09 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Peru’s Fujimori Approval Falls to 28%",
-      "summary": "<p>Approval of Peru's President Keiko Fujimori fell from 42.8% to 28.3% in a month, and half of Peruvians reject joint military operations with the US.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/peru-fujimori-approval-falls-28-percent-2026/\">Peru’s Fujimori Approval Falls to 28%</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/peru-fujimori-approval-falls-28-percent-2026/",
-      "published": "Thu, 15 Oct 2026 09:55:49 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Man United’s Martinez takes to social media to defend his criticism of club",
-      "summary": "Argentina defender Lisandro Martinez follows up criticism of his club with social media explanation of frustration.",
-      "link": "https://www.aljazeera.com/sports/2026/10/15/man-uniteds-martinez-takes-to-social-media-to-defend-his-criticism-of-club?traffic_source=rss",
-      "published": "Thu, 15 Oct 2026 08:27:32 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "From Morocco to South Africa, Israel election watched closely across Africa",
-      "summary": "October 27 vote could test whether Israel's ties with African countries withstand the fallout from the war on Gaza.",
-      "link": "https://www.aljazeera.com/news/2026/10/15/from-morocco-to-south-africa-israel-election-watched-closely-across-africa?traffic_source=rss",
-      "published": "Thu, 15 Oct 2026 06:46:52 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "G20 finance ministers, central bankers gather amid fallout from Iran war",
-      "summary": "Officials meet in Thailand as conflict drives energy prices higher and casts uncertainty over global economy.",
-      "link": "https://www.aljazeera.com/economy/2026/10/15/g20-finance-ministers-central-bankers-gather-amid-fallout-from-iran-war?traffic_source=rss",
-      "published": "Thu, 15 Oct 2026 06:16:46 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Milei: It’s important Trump ‘emerges stronger’ from US midterms",
-      "summary": "<p><img alt=\"Argentina's President Javier Milei and Brazilian politician Eduardo Bolsonaro\" src=\"https://fotos.perfil.com/2026/10/15/trim/540/304/argentinas-president-javier-milei-and-brazilian-politician-eduardo-bolsonaro-2348750.jpg\" /></p>President firmly backs his US counterpart in speech to Hispanic association gala; La Libertad Avanza leader says Trump victory is “important for the entire West.” <a href=\"https://www.batimes.com.ar/news/world/milei-its-important-trump-emerges-stronger-from-us-midterms.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/world/milei-its-important-trump-emerges-stronger-from-us-midterms.phtml",
-      "published": "Thu, 15 Oct 2026 04:23:34 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
-      "title": "Argentina's government prepares for possibility Pope Leo may not visit",
-      "summary": "<p><img alt=\"Pope Leo\" src=\"https://fotos.perfil.com/2026/10/15/trim/540/304/pope-leo-2348744.jpg\" /></p>Officials publicly insist preparations for the papal visit are continuing, but Javier Milei and his top spokesman have acknowledged that the dates could change. Other government sources believe the trip could be cancelled altogether.\n <a href=\"https://www.batimes.com.ar/news/opinion-and-analysis/argentinas-government-prepares-for-possibility-pope-leo-may-not-visit.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/opinion-and-analysis/argentinas-government-prepares-for-possibility-pope-leo-may-not-visit.phtml",
-      "published": "Thu, 15 Oct 2026 03:33:59 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
       "title": "Brazil cuts work week to 40 hours in win for Lula ahead of runoff",
-      "summary": "<p>Congress approves constitutional amendment that bans six-day workweeks, which could effect up to 30 million </p><p>Brazil’s congress has approved a constitutional amendment to shorten the working week to a maximum of 40 hours, a move that could affect 30 million workers and that will hand a political victory to the leftist president Luiz Inácio Lula da Silva ahead of the <a href=\"https://www.theguardian.com/world/2026/oct/13/scandal-brazil-court-jair-flavio-bolsonaro-power-election-moraes-lula\">presidential runoff</a> in under two weeks.</p><p>In an attempt to overturn the <a href=\"https://www.theguardian.com/world/2026/oct/10/marina-silva-flavio-bolsonaro-the-amazon-brazil-president-far-right\">first-round lead</a> secured by his opponent, far-right senator Flávio Bolsonaro, Lula has strongly championed the amendment, which will give some workers an extra day off each week.</p> <a href=\"https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff\">Continue reading...</a>",
+      "summary": "<p>Congress approves constitutional amendment that bans six-day workweeks, which could affect up to 30 million</p><p>Brazil’s congress has approved a constitutional amendment to shorten the working week to a maximum of 40 hours, a move that could affect 30 million workers and that will hand a political victory to the leftist president Luiz Inácio Lula da Silva ahead of the <a href=\"https://www.theguardian.com/world/2026/oct/13/scandal-brazil-court-jair-flavio-bolsonaro-power-election-moraes-lula\">presidential runoff</a> in under two weeks.</p><p>In an attempt to overturn the <a href=\"https://www.theguardian.com/world/2026/oct/10/marina-silva-flavio-bolsonaro-the-amazon-brazil-president-far-right\">first-round lead</a> secured by his opponent, far-right senator Flávio Bolsonaro, Lula has strongly championed the amendment, which will give some workers an extra day off each week.</p> <a href=\"https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff\">Continue reading...</a>",
       "link": "https://www.theguardian.com/world/2026/oct/15/brazil-cuts-work-week-to-40-hours-lula-bolsonaro-election-runoff",
       "published": "Thu, 15 Oct 2026 02:45:42 GMT",
       "source": "The Guardian"
-    },
-    {
-      "title": "Prosecution arguments conclude in Diego Maradona death trial",
-      "summary": "<p><img alt=\"Medical doctor Nancy Forlini \" src=\"https://fotos.perfil.com/2026/10/15/trim/540/304/medical-doctor-nancy-forlini-2348734.jpg\" /></p>Closing arguments by prosecutors and the family’s lawyers; Lawyers seek prison terms of up to 16 years for six of seven defendants; Defence due to present its case next week. <a href=\"https://www.batimes.com.ar/news/argentina/prosecution-arguments-conclude-in-diego-maradona-death-trial.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/argentina/prosecution-arguments-conclude-in-diego-maradona-death-trial.phtml",
-      "published": "Thu, 15 Oct 2026 02:44:40 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
-      "title": "Thousands of Colombians march against new right-wing president's policies",
-      "summary": "Thousands of Colombians protested peacefully across the country on Wednesday against right-wing President Abelardo de la Espriella, in the opposition’s first major demonstrations since he took office in August. Former leftist president Gustavo Petro led a rally in Bogota joined by trade unionists, Indigenous groups, students and feminist activists.",
-      "link": "https://www.france24.com/en/americas/20261015-thousands-protest-colombia-right-wing-president",
-      "published": "Thu, 15 Oct 2026 01:57:26 GMT",
-      "source": "France 24"
-    },
-    {
-      "title": "Lula's party to file complaint against Meta over Brazil election interference",
-      "summary": "Brazilian President Luiz Inacio Lula da Silva’s party plans to file a complaint against Meta with the Organisation of American States alleging election interference, his campaign said Wednesday. The party accuses Meta of restricting Lula’s online content ahead of the October 25 presidential runoff against far-right Senator Flavio Bolsonaro. Meta denies the allegations.",
-      "link": "https://www.france24.com/en/americas/20261014-lula-party-meta-election-interference-brazil-runoff",
-      "published": "Wed, 14 Oct 2026 23:52:58 GMT",
-      "source": "France 24"
-    },
-    {
-      "title": "The AI trade is splintering as inflation fears rattle hyped-up tech stocks",
-      "summary": "Investors are wondering if steep inflation and increased borrowing costs could derail the AI buildout.",
-      "link": "https://www.marketwatch.com/story/the-ai-trade-is-splintering-as-inflation-fears-rattle-hyped-up-tech-stocks-dbf49369?mod=mw_rss_topstories",
-      "published": "Wed, 14 Oct 2026 23:36:00 GMT",
-      "source": "MarketWatch"
     },
     {
       "title": "Badenoch accuses Farage of trading Chagos for Trump’s silence on the Falklands",
@@ -180,55 +250,6 @@
       "link": "https://en.mercopress.com/2026/10/14/badenoch-accuses-farage-of-trading-chagos-for-trump-s-silence-on-the-falklands?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
       "published": "Wed, 14 Oct 2026 22:05:00 GMT",
       "source": "MercoPress"
-    },
-    {
-      "title": "US lifts sanctions on Jorge Rodríguez, president of Venezuela’s National Assembly",
-      "summary": "<p>\n\t   \t      <img alt=\"\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111771/100x80/img.rtve.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         The US Treasury Department on Wednesday removed from its sanctions list Jorge Rodríguez, president of Venezuela’s National Assembly and brother of acting president Delcy Rodríguez. The Treasury did not explain the reasons for the decision.</p>",
-      "link": "https://en.mercopress.com/2026/10/14/us-lifts-sanctions-on-jorge-rodriguez-president-of-venezuela-s-national-assembly?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Wed, 14 Oct 2026 22:02:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Farage proposes offering Trump Diego Garcia in exchange for his silence on the Falklands",
-      "summary": "<p>\n\t   \t      <img alt=\"“I’d have gone in and said, ‘Right, you know what mate? Chagos, it’s yours. Diego Garcia, in perpetuity, the most strategic American military base in the world’,” Farage said\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111768/100x80/1-far.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Reform UK leader c has said that, if he were prime minister, he would offer US President Donald Trump the use in perpetuity of the Diego Garcia military base, in the Chagos archipelago, in exchange for him to stop talking about the Falklands. The proposal sparked a clash with Conservative leader Kemi Badenoch, who called it “humiliating”, and prompted the White House to come to Farage’s defence.</p>",
-      "link": "https://en.mercopress.com/2026/10/14/farage-proposes-offering-trump-diego-garcia-in-exchange-for-his-silence-on-the-falklands?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Wed, 14 Oct 2026 21:53:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "What are the red notices Argentina has sought from Interpol over Sea Lion",
-      "summary": "<p>\n\t   \t      <img alt=\"The chief executive of the islands’ government, Andrea Clausen, acknowledged that the use of Interpol poses a threat\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111767/100x80/interpol.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Argentina has requested Interpol red notices against individuals linked to the Sea Lion oil project north of the Falklands, and the United Kingdom has asked the organisation to reject them as “politically motivated”, according to the British newspaper The Guardian. Interpol responded by reaffirming Article 3 of its constitution, which prohibits any intervention or activity of a political character.</p>",
-      "link": "https://en.mercopress.com/2026/10/14/what-are-the-red-notices-argentina-has-sought-from-interpol-over-sea-lion?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Wed, 14 Oct 2026 21:45:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "In Phoenix, young ultra-conservatives look to carry on Charlie Kirk’s legacy",
-      "summary": "More than a year after the assassination of far-right influencer Charlie Kirk in September 2025, young activists from the organisation he co-founded, Turning Point USA, are working tirelessly to honour his legacy by rallying the youth vote ahead of the US midterm elections.",
-      "link": "https://www.france24.com/en/americas/20261014-in-phoenix-young-ultra-conservatives-look-to-carry-on-charlie-kirk-s-legacy",
-      "published": "Wed, 14 Oct 2026 14:37:37 GMT",
-      "source": "France 24"
-    },
-    {
-      "title": "Mistura review – ice queen brings Peruvian culinary drama to a gentle simmer",
-      "summary": "<p>Bárbara Mori stars in tepid tale of a high-society wife who opens a restaurant in her home after her husband leaves her </p><p>What you expect from a film about a fancy high-end restaurant is a certain amount of heat: the roiling intensity of staff pushed to their absolute limits in the pursuit of gastronomic perfection. But this 1960s-set Peruvian drama instead maintains a gentle simmer, sedate and elegant. Perhaps it’s too elegant given the circumstances of its chef-proprietor, a high-society trophy wife with no catering experience who makes a high-stakes gamble on opening a successful restaurant.</p><p>Bárbara Mori is Norma, a glacial beauty who cultivates a kind of Jackie Onassis chic: huge sunglasses, massive blow-dry, makeup thickly applied like armour. One night, Norma’s husband humiliatingly leaves her for a beauty queen. You’d be sympathetic if Norma wasn’t so foul to the staff, lashing out at housekeeper Rosa (Hermelinda Luján) and chauffeur Oscar (Cesar Ballumbrosio). It’s Oscar (who is a bit in love with Norma) who suggests she opens a restaurant in the house to pay the mortgage. Norma’s father was the French ambassador to Peru, and she has picked up his passion for gastronomy. Although the script is a bit inconsistent on this, since Oscar also says he’s never seen her so much as light the oven.</p> <a href=\"https://www.theguardian.com/film/2026/oct/14/mistura-review-peruvian-drama-barbara-mori\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/film/2026/oct/14/mistura-review-peruvian-drama-barbara-mori",
-      "published": "Wed, 14 Oct 2026 10:00:03 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Joni Mitchell becomes US citizen: ‘A journey that began 62 years ago’",
-      "summary": "<p>Canada-born singer-songwriter, 82, posts footage of citizenship ceremony to Instagram</p><p>Joni Mitchell has become a US citizen, after first moving to the country in the mid-1960s. The Canada-born singer-songwriter, 82, posted footage of her citizenship ceremony on her Instagram account, along with a photo of her next to an American flag, accompanied by the caption: “A journey that began 62 years ago.”</p><p>It means that Mitchell can now vote in US elections, something that she had complained she wasn’t able to do.</p> <a href=\"https://www.theguardian.com/music/2026/oct/14/joni-mitchell-becomes-us-citizen-a-journey-that-began-62-years-ago\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/music/2026/oct/14/joni-mitchell-becomes-us-citizen-a-journey-that-began-62-years-ago",
-      "published": "Wed, 14 Oct 2026 08:39:00 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Former gang leader sentenced to 40 years to life for Tupac Shakur murder",
-      "summary": "Duane “Keffe D” Davis, the former Los Angeles gang leader who boasted in books and interviews of his involvement in the killing of rapper Tupac Shakur, only to deny it when he came to trial, was sentenced to a minimum 40 years in prison on Tuesday.",
-      "link": "https://www.france24.com/en/americas/20261013-former-gang-leader-sentenced-to-40-years-to-life-for-tupac-shakur-murder",
-      "published": "Tue, 13 Oct 2026 19:57:31 GMT",
-      "source": "France 24"
     },
     {
       "title": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
@@ -273,13 +294,6 @@
       "source": "InSight Crime"
     },
     {
-      "title": "US detains man accused in multi-billion Venezuelan money laundering scheme",
-      "summary": "US officials had been offering a reward of $10m (£7.5m) for information leading to Álvaro Pulido's arrest.",
-      "link": "https://www.bbc.co.uk/news/articles/crp3gy0x0dd1o?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 12 Oct 2026 13:49:05 GMT",
-      "source": "BBC News"
-    },
-    {
       "title": "What’s behind Venezuela’s mounting electricity crisis?",
       "summary": "<p>Corruption, poor maintenance, and brain drain have exacerbated the electricity crisis in Venezuela.</p>\n<p>The post <a href=\"https://www.latinamericareports.com/whats-behind-venezuelas-mounting-electricity-crisis/15370/\">What’s behind Venezuela’s mounting electricity crisis?</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
       "link": "https://www.latinamericareports.com/whats-behind-venezuelas-mounting-electricity-crisis/15370/",
@@ -299,20 +313,6 @@
       "link": "https://www.latinamericareports.com/nicaragua-withdraws-from-central-american-parliament-amid-rising-criticism-from-regional-governments/15360/",
       "published": "Fri, 09 Oct 2026 14:55:09 +0000",
       "source": "Latin America Reports"
-    },
-    {
-      "title": "Two Years On, the Sinaloa Cartel War Changes Shape | The InSight Take",
-      "summary": "<p><a href=\"https://insightcrime.org/uncategorized/sinaloa-cartel-war-culiacan-two-years/\">Two Years On, the Sinaloa Cartel War Changes Shape | The InSight Take</a></p>\n<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2026/10/Octobre-Plantilla-Insight-Take-Youtube.jpg?fit=1024%2C576&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>Two years after Ismael Zambada Garcia, alias \"El Mayo,\" was handed over to US authorities in what was deemed a traitorous act by one faction against another, the war between the Chapitos and the Mayiza factions of the Sinaloa Cartel continues to roil the area. The conflict has implications for the criminal superstructure throughout the country.</p>\n<p>InSight Crime's Victoria Dittmar and co-director Steven Dudley were recently in Culiacán, Sinaloa, where they interviewed drug producers, residents, and local sources. They found a city where the war is less visible than it was but no less present.</p>\n<p>The post <a href=\"https://insightcrime.org/uncategorized/sinaloa-cartel-war-culiacan-two-years/\">Two Years On, the Sinaloa Cartel War Changes Shape | The InSight Take</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
-      "link": "https://insightcrime.org/uncategorized/sinaloa-cartel-war-culiacan-two-years/",
-      "published": "Thu, 08 Oct 2026 16:36:22 +0000",
-      "source": "InSight Crime"
-    },
-    {
-      "title": "Social Media is Fertile Ground for Illegal Mining Players in Peru",
-      "summary": "<p><a href=\"https://insightcrime.org/news/social-media-is-fertile-ground-for-illegal-mining-players-in-peru/\">Social Media is Fertile Ground for Illegal Mining Players in Peru</a></p>\n<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2026/10/Flagship-Mining-Madre-de-Dios-Peru-InSightCrime-Oct-2026.jpg?fit=1024%2C576&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>Posing as a would-be miner, InSight Crime answered a Facebook advert offering land with mining permits in Peru's Madre de Dios region. The permits are meant to help informal miners go legal, but experts say they are often used as a front for illegal mining, and to launder black-market gold. </p>\n<p>The post <a href=\"https://insightcrime.org/news/social-media-is-fertile-ground-for-illegal-mining-players-in-peru/\">Social Media is Fertile Ground for Illegal Mining Players in Peru</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
-      "link": "https://insightcrime.org/news/social-media-is-fertile-ground-for-illegal-mining-players-in-peru/",
-      "published": "Tue, 06 Oct 2026 20:36:44 +0000",
-      "source": "InSight Crime"
     },
     {
       "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
@@ -561,6 +561,15 @@
       "incidents": 40,
       "bovespa": 206505.98,
       "brl_czk": null
+    },
+    {
+      "date": "2026-10-15 21:14",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 68,
+      "incidents": 40,
+      "bovespa": 204324.27,
+      "brl_czk": null
     }
   ],
   "locations": [
@@ -584,13 +593,6 @@
       "lon": -70.6693,
       "name_cs": "Santiago",
       "name_en": "Santiago"
-    },
-    {
-      "key": "Lima",
-      "lat": -12.0464,
-      "lon": -77.0428,
-      "name_cs": "Lima",
-      "name_en": "Lima"
     },
     {
       "key": "Bogota",
@@ -640,40 +642,152 @@
       "lon": -77.0369,
       "name_cs": "Washington, D.C.",
       "name_en": "Washington, D.C."
+    },
+    {
+      "key": "New York",
+      "lat": 40.71,
+      "lon": -74,
+      "name_cs": "New York",
+      "name_en": "New York",
+      "auto": true
+    },
+    {
+      "key": "Ohio",
+      "lat": 40.4,
+      "lon": -82.8,
+      "name_cs": "Ohio",
+      "name_en": "Ohio",
+      "auto": true
+    },
+    {
+      "key": "Mexico",
+      "lat": 23.6,
+      "lon": -102.5,
+      "name_cs": "Mexiko",
+      "name_en": "Mexico",
+      "auto": true
+    },
+    {
+      "key": "Venezuela",
+      "lat": 7,
+      "lon": -66,
+      "name_cs": "Venezuela",
+      "name_en": "Venezuela",
+      "auto": true
+    },
+    {
+      "key": "Brazil",
+      "lat": -14.2,
+      "lon": -51.9,
+      "name_cs": "Brazílie",
+      "name_en": "Brazil",
+      "auto": true
+    },
+    {
+      "key": "Argentin",
+      "lat": -34,
+      "lon": -64,
+      "name_cs": "Argentina",
+      "name_en": "Argentin",
+      "auto": true
+    },
+    {
+      "key": "Ukrain",
+      "lat": 50.45,
+      "lon": 30.52,
+      "name_cs": "Ukrajina",
+      "name_en": "Ukrain",
+      "auto": true
+    },
+    {
+      "key": "Russia",
+      "lat": 55.75,
+      "lon": 37.62,
+      "name_cs": "Rusko",
+      "name_en": "Russia",
+      "auto": true
+    },
+    {
+      "key": "Singapore",
+      "lat": 1.35,
+      "lon": 103.8,
+      "name_cs": "Singapur",
+      "name_en": "Singapore",
+      "auto": true
+    },
+    {
+      "key": "London",
+      "lat": 51.5,
+      "lon": -0.12,
+      "name_cs": "Londýn",
+      "name_en": "London",
+      "auto": true
+    },
+    {
+      "key": "Italy",
+      "lat": 41.9,
+      "lon": 12.5,
+      "name_cs": "Řím",
+      "name_en": "Italy",
+      "auto": true
+    },
+    {
+      "key": "Spain",
+      "lat": 40.4,
+      "lon": -3.7,
+      "name_cs": "Madrid",
+      "name_en": "Spain",
+      "auto": true
+    },
+    {
+      "key": "Somalia",
+      "lat": 5.2,
+      "lon": 46.2,
+      "name_cs": "Somálsko",
+      "name_en": "Somalia",
+      "auto": true
+    },
+    {
+      "key": "Nigeria",
+      "lat": 9.1,
+      "lon": 8.7,
+      "name_cs": "Nigérie",
+      "name_en": "Nigeria",
+      "auto": true
     }
   ],
   "location_counts": {
-    "Brasilia": 25,
+    "Brasilia": 26,
     "Sao Paulo": 18,
     "Rio de Janeiro": 4,
-    "Buenos Aires": 25,
-    "Santiago": 24,
+    "Buenos Aires": 26,
+    "Santiago": 25,
     "Lima": 24,
-    "Bogota": 25,
-    "Caracas": 24,
-    "Quito": 10,
+    "Bogota": 26,
+    "Caracas": 25,
+    "Quito": 11,
     "La Paz": 12,
     "Asuncion": 4,
-    "Washington": 25,
-    "New York": 1,
+    "Washington": 26,
+    "New York": 4,
     "Texas": 1,
     "Colorado": 1,
     "Kanada": 1,
-    "Mexiko": 2,
-    "Venezuela": 4,
+    "Mexiko": 1,
+    "Venezuela": 3,
     "Brazílie": 4,
-    "Argentina": 5,
-    "Ukrajina": 1,
-    "Rusko": 1,
+    "Argentina": 7,
+    "Ukrajina": 2,
+    "Rusko": 3,
     "Pákistán": 1,
-    "Londýn": 4,
+    "Londýn": 3,
     "Paříž": 1,
     "Madrid": 1,
     "Peru": 2,
     "Bolívie": 1,
     "Montevideo": 12,
-    "Falklands": 10,
-    "Ohio": 1,
+    "Falklands": 11,
+    "Ohio": 2,
     "Michigan": 1,
     "Severní Karolína": 1,
     "Georgie (USA)": 1,
@@ -682,10 +796,10 @@
     "Atacama": 8,
     "Beijing": 12,
     "Čína": 1,
-    "Amazon": 14,
+    "Amazon": 15,
     "Medellin": 1,
     "Tchaj-wan": 1,
-    "Řím": 2,
+    "Řím": 1,
     "Ithaca (Cornell)": 2,
     "Írán": 1,
     "Berlín": 1,
@@ -701,23 +815,16 @@
     "Los Angeles": 1,
     "Paramaribo": 1,
     "Arizona": 1,
-    "Patagonia": 1
+    "Patagonia": 2,
+    "Somálsko": 1
   },
   "top_location": {
     "key": "Brasilia",
     "name_cs": "Brasília",
     "name_en": "Brasília",
-    "count": 25
+    "count": 26
   },
   "archive": [
-    {
-      "date": "2026-10-11 11:54",
-      "threat_level": "HIGH",
-      "security_status_cs": "Jižní Amerika čelí politické polarizaci před druhým kolem prezidentských voleb v Brazílii, kde pravicový kandidát Flávio Bolsonaro posiluje svou pozici. Regionální ekonomiku a infrastrukturu mezitím zasáhly silné záplavy a sesuvy půdy v Chile, zatímco mezinárodní napětí ovlivňuje komoditní trhy včetně historických maxim cen arabiky kvůli obchodním sporům s Kolumbií.",
-      "security_status_en": "South America faces intense political polarization ahead of the Brazilian presidential runoff, where right-wing candidate Flávio Bolsonaro is strengthening his position. Meanwhile, regional infrastructure has been hit by severe flooding and mudslides in Chile, while international tensions impact commodity markets, including record-high Arabica coffee prices driven by trade spats with Colombia.",
-      "forecast_cs": "V příštích dnech se očekává vyostření kampaně před druhým kolem v Brazílii a pokračující odstraňování škod po silných deštích v Chile.",
-      "forecast_en": "The coming days will likely see intensified campaigning ahead of the Brazilian runoff and ongoing infrastructure recovery following heavy rains in Chile."
-    },
     {
       "date": "2026-10-11 21:40",
       "threat_level": "HIGH",
@@ -821,23 +928,31 @@
       "security_status_en": "South America faces a mixed environment, where political tensions ahead of the Brazilian runoff and protests in Colombia contrast with economic stabilization steps such as Fitch's upgrade of Chilean retail giant Falabella. Commodity markets continue to respond to global geopolitical shocks, with coffee and oil prices remaining sensitive to external trade disputes.",
       "forecast_cs": "V nejbližších dnech se pozornost soustředí na závěrečnou fázi kampaně před brazilským prezidentským runofem a reakce investorů na globální inflační data.",
       "forecast_en": "Over the coming days, attention will focus on the final campaign stretch ahead of Brazil's presidential runoff and investor reactions to global inflation data."
+    },
+    {
+      "date": "2026-10-15 21:14",
+      "threat_level": "HIGH",
+      "security_status_cs": "Region čelí stupňujícímu se napětí před druhým kolem prezidentských voleb v Brazílii, kde průzkumy ukazují velmi těsný souboj. V Argentině mezitím sílí sociální neklid a protesty proti úsporným opatřením prezidenta Mileie, zatímco rostou geopolitické třenice kolem Falklandských ostrovů.",
+      "security_status_en": "The region faces escalating tensions ahead of the presidential runoff in Brazil, where polls show an extremely tight race. In Argentina, social unrest and protests against President Milei's austerity measures are intensifying, alongside rising geopolitical friction over the Falkland Islands.",
+      "forecast_cs": "V nejbližších dnech se pozornost investorů plně soustředí na finální kampaň před druhým kolem prezidentských voleb v Brazílii a vývoj na komoditních trzích.",
+      "forecast_en": "Over the coming days, investor attention will focus fully on the final campaign stretch ahead of Brazil's presidential runoff and developments in commodity markets."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 6× HIGH, 1× MEDIUM.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 6× HIGH, 1× MEDIUM.",
   "market_data": {
     "bovespa": {
-      "value": 206505.98,
-      "date": "2026-10-14",
+      "value": 204324.27,
+      "date": "2026-10-15",
       "cached": false
     },
     "merval": {
-      "value": 2835843.0,
-      "date": "2026-10-14",
+      "value": 2859051.2,
+      "date": "2026-10-15",
       "cached": false
     },
     "usdbrl": {
-      "value": 5.0299,
+      "value": 5.0931,
       "date": "2026-10-15",
       "cached": false
     }
