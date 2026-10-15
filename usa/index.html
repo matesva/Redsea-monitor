@@ -87,7 +87,7 @@
             font-family: 'IBM Plex Mono', monospace; font-size: 0.78em; color: var(--text-dim);
             display: flex; gap: 16px; flex-wrap: wrap; align-items: center;
         }
-        .share-row { display: flex; gap: 14px; margin-top: 14px; }
+        .share-row { display: flex; gap: 14px; margin-top: 14px; flex-wrap: wrap; }
         .share-btn {
             font-family: 'IBM Plex Mono', monospace; font-size: 0.75em;
             color: var(--brass); text-decoration: none; border-bottom: 1px solid transparent;
@@ -155,6 +155,36 @@
         .action-SELL { color: var(--alert); }
         .action-HOLD { color: var(--brass); }
         .action::before { content: "▸ "; }
+
+        /* Výroky prezidenta */
+        .pres-list { display: flex; flex-direction: column; gap: 14px; }
+        .pres-card {
+            border: 1px solid var(--rule); background: var(--ink2);
+            border-left: 4px solid var(--brass); padding: 14px 16px; border-radius: 2px;
+        }
+        .pres-card.impact-POSITIVE { border-left-color: #6a9b6e; }
+        .pres-card.impact-NEGATIVE { border-left-color: var(--alert); }
+        .pres-card.impact-NEUTRAL  { border-left-color: var(--brass); }
+        .pres-head {
+            display: flex; justify-content: space-between; align-items: baseline;
+            gap: 10px; flex-wrap: wrap; margin-bottom: 8px;
+        }
+        .pres-topic {
+            font-family: 'IBM Plex Mono', monospace; font-size: 0.72em; font-weight: 600;
+            letter-spacing: 0.04em; text-transform: uppercase; color: var(--brass);
+        }
+        .pres-impact { font-family: 'IBM Plex Mono', monospace; font-size: 0.68em; font-weight: 600; letter-spacing: 0.03em; }
+        .pres-impact.impact-POSITIVE { color: #6a9b6e; }
+        .pres-impact.impact-NEGATIVE { color: var(--alert); }
+        .pres-impact.impact-NEUTRAL  { color: var(--brass); }
+        .pres-statement { margin: 0 0 10px; font-size: 1em; font-weight: 500; line-height: 1.55; font-style: italic; }
+        .pres-comment { margin: 0; color: var(--text-dim); font-size: 0.92em; line-height: 1.65; }
+        .pres-label {
+            font-family: 'IBM Plex Mono', monospace; font-size: 0.66em; letter-spacing: 0.05em;
+            text-transform: uppercase; color: var(--text-dim); display: block; margin-bottom: 3px; opacity: 0.8;
+        }
+        .pres-source { font-family: 'IBM Plex Mono', monospace; font-size: 0.66em; color: var(--text-dim); margin-top: 10px; display: block; }
+        .pres-note { font-family: 'IBM Plex Mono', monospace; font-size: 0.66em; color: var(--text-dim); margin-top: 12px; opacity: 0.85; }
 
         .timeline { position: relative; }
         .news-item { padding: 10px 0; border-top: 1px solid var(--rule); }
@@ -265,6 +295,11 @@
         </div>
 
         <div class="bulletin">
+            <h2 id="sec-president">Výroky prezidenta USA</h2>
+            <div id="president-comments" class="skeleton">Načítání…</div>
+        </div>
+
+        <div class="bulletin">
             <h2 id="sec-weekly">Týdenní shrnutí</h2>
             <p id="weekly-summary" class="skeleton">Načítání…</p>
         </div>
@@ -325,6 +360,7 @@
                 updated: 'Aktualizováno',
                 secMarket: 'Trh: akciové indexy a výnosy',
                 secThreat: 'Úroveň napětí',
+                secPresident: 'Výroky prezidenta USA',
                 secWeekly: 'Týdenní shrnutí',
                 secRecs: 'Investiční doporučení',
                 secForecast: 'Předpověď vývoje',
@@ -337,9 +373,15 @@
                 loading: 'Načítání…',
                 noData: 'Data nejsou k dispozici.',
                 noRecs: 'Žádná doporučení k dispozici.',
+                noPresident: 'V posledních 24 h nebyly zachyceny výrazné výroky prezidenta.',
                 noWeekly: 'Zatím není dostatek dat.',
                 noNews: 'Žádné relevantní zprávy.',
                 noArchive: 'Archiv se teprve buduje.',
+                presStatement: 'Výrok (parafráze)',
+                presComment: 'Komentář',
+                presSource: 'Zdroj:',
+                presDisclaimer: 'Výroky jsou parafráze AI ze zpravodajských článků, komentáře jsou analytický odhad. Vždy ověřte v původním zdroji.',
+                impactLabel: { POSITIVE: 'TRHY: POZITIVNÍ', NEGATIVE: 'TRHY: NEGATIVNÍ', NEUTRAL: 'TRHY: NEUTRÁLNÍ' },
                 sentimentLabel: 'Sentiment napětí',
                 cachedNote: 'poslední známá hodnota',
                 topLoc: (name, count) => `Nejzmiňovanější lokalita: ${name} (${count}× od začátku sledování)`,
@@ -362,6 +404,7 @@
                 updated: 'Updated',
                 secMarket: 'Market: Equity Indices & Yields',
                 secThreat: 'Tension Level',
+                secPresident: 'Statements of the US President',
                 secWeekly: 'Weekly Summary',
                 secRecs: 'Investment Insights',
                 secForecast: 'Outlook & Forecast',
@@ -374,9 +417,15 @@
                 loading: 'Loading…',
                 noData: 'Data unavailable.',
                 noRecs: 'No recommendations available.',
+                noPresident: 'No significant presidential statements were detected in the last 24 hours.',
                 noWeekly: 'Not enough data available yet.',
                 noNews: 'No relevant news.',
                 noArchive: 'Archive is currently being built.',
+                presStatement: 'Statement (paraphrase)',
+                presComment: 'Commentary',
+                presSource: 'Source:',
+                presDisclaimer: 'Statements are AI paraphrases of news articles; commentary is an analytical estimate. Always verify in the original source.',
+                impactLabel: { POSITIVE: 'MARKETS: POSITIVE', NEGATIVE: 'MARKETS: NEGATIVE', NEUTRAL: 'MARKETS: NEUTRAL' },
                 sentimentLabel: 'Tension Sentiment',
                 cachedNote: 'last known value',
                 topLoc: (name, count) => `Most mentioned location: ${name} (${count}× since monitoring began)`,
@@ -438,6 +487,14 @@
             return '';
         }
 
+        function esc(s) {
+            return String(s ?? '')
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;');
+        }
+
         function relativeTime(dateStr) {
             if (!dateStr) return '';
             try {
@@ -470,6 +527,44 @@
             return String(value).split(' ')[0].split('/')[0].trim().toUpperCase();
         }
 
+        function renderPresident(data, t) {
+            const container = document.getElementById('president-comments');
+            container.className = '';
+            container.innerHTML = '';
+            const items = data.assessment?.president_comments;
+            if (!items || items.length === 0) {
+                container.innerText = t.noPresident;
+                return;
+            }
+            const list = document.createElement('div');
+            list.className = 'pres-list';
+            items.forEach(it => {
+                let impact = normalizeEnum(it.market_impact);
+                if (!['POSITIVE', 'NEGATIVE', 'NEUTRAL'].includes(impact)) impact = 'NEUTRAL';
+                const topic = esc(pick(it, 'topic'));
+                const statement = esc(pick(it, 'statement'));
+                const comment = esc(pick(it, 'comment'));
+                const source = esc(it.source || '');
+                list.innerHTML += `
+                    <div class="pres-card impact-${impact}">
+                        <div class="pres-head">
+                            <span class="pres-topic">${topic}</span>
+                            <span class="pres-impact impact-${impact}">${t.impactLabel[impact]}</span>
+                        </div>
+                        <span class="pres-label">${t.presStatement}</span>
+                        <p class="pres-statement">${statement}</p>
+                        <span class="pres-label">${t.presComment}</span>
+                        <p class="pres-comment">${comment}</p>
+                        ${source ? `<span class="pres-source">${t.presSource} ${source}</span>` : ''}
+                    </div>`;
+            });
+            container.appendChild(list);
+            const note = document.createElement('div');
+            note.className = 'pres-note';
+            note.innerText = t.presDisclaimer;
+            container.appendChild(note);
+        }
+
         function renderUI() {
             if (!globalData) return;
             const data = globalData;
@@ -481,6 +576,7 @@
             document.getElementById('lbl-updated').innerText = t.updated;
             document.getElementById('sec-market').innerText = t.secMarket;
             document.getElementById('sec-threat').innerText = t.secThreat;
+            document.getElementById('sec-president').innerText = t.secPresident;
             document.getElementById('sec-weekly').innerText = t.secWeekly;
             document.getElementById('sec-recs').innerText = t.secRecs;
             document.getElementById('sec-forecast').innerText = t.secForecast;
@@ -514,6 +610,8 @@
             bar.style.width = score + '%';
             bar.style.background = sentimentColor(score);
             document.getElementById('sentiment-label').innerText = `${t.sentimentLabel}: ${score}/100`;
+
+            renderPresident(data, t);
 
             document.getElementById('weekly-summary').className = '';
             document.getElementById('weekly-summary').innerText =
