@@ -88,7 +88,7 @@ THREAT_MAP = {"STABLE": 1, "MEDIUM": 2, "HIGH": 3, "CRITICAL": 4}
 
 def is_president_related(text):
     t = text.lower()
-    return any(term in t for term in PRESIDENT_TERMS)
+    return any(term in t for term in PRESIDENT_TERMS) or "trump" in t
 
 
 def _loc(lat, lon, cs, en=None, terms=None):
@@ -245,7 +245,7 @@ def fetch_yahoo_price(symbol, divisor=1):
 
 def fetch_market_data(previous):
     data = {"sp500": None, "dow": None, "yield10y": None}
-    symbols = {"sp500": ("^GSPC", 1), "dow": ("^DJI", 1), "yield10y": ("^TNX", 10)}
+    symbols = {"sp500": ("^GSPC", 1), "dow": ("^DJI", 1), "yield10y": ("^TNX", 1)}
 
     for label, (symbol, divisor) in symbols.items():
         try:
