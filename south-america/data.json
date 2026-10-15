@@ -1,60 +1,130 @@
 {
-  "last_updated": "2026-10-15T05:00:40Z",
+  "last_updated": "2026-10-15T10:39:28Z",
   "assessment": {
-    "threat_level": "HIGH",
-    "sentiment_score": 68,
-    "security_status_cs": "Jižní Amerika čelí rostoucímu napětí spojenému s blížícím se brazilským prezidentským koly a legislativními změnami, zatímco Argentina vyostřuje právní spory ohledně ropných projektů u Falkland. Regionální trhy nadále oslabují kvůli silnému dolaru a globálním inflačním tlakům, přičemž Kolumbie zažívá protivládní protesty proti novému pravicovému prezidentovi.",
-    "security_status_en": "South America faces mounting tensions ahead of Brazil's presidential runoff and legislative shifts, while Argentina escalates legal disputes regarding Falklands oil projects. Regional markets continue to weaken due to a strong US dollar and global inflation concerns, alongside anti-government protests in Colombia against the new right-wing president.",
+    "threat_level": "MEDIUM",
+    "sentiment_score": 52,
+    "security_status_cs": "Jižní Amerika čelí smíšenému vývoji, kde politické napětí před brazilským runofem a protesty v Kolumbii kontrastují s ekonomickými stabilizačními kroky, jako je upgrade chilského retailového gigantu Falabella od Fitch. Komoditní trhy nadále reagují na globální geopolitické otřesy, přičemž ceny kávy a ropy zůstávají pod vlivem vnějších obchodních sporů.",
+    "security_status_en": "South America faces a mixed environment, where political tensions ahead of the Brazilian runoff and protests in Colombia contrast with economic stabilization steps such as Fitch's upgrade of Chilean retail giant Falabella. Commodity markets continue to respond to global geopolitical shocks, with coffee and oil prices remaining sensitive to external trade disputes.",
     "recommendations": [
       {
         "sector_cs": "Brazilský akciový trh (Bovespa, ETF EWZ)",
         "sector_en": "Brazilian Equities (Bovespa, EWZ ETF)",
         "action": "HOLD",
-        "reason_cs": "Schválení zkráceného pracovního týdne a politické manévry před druhým kolem vytvářejí volatilitu při mírném poklesu indexu Ibovespa. Doporučujeme vyčkat na výsledek volebního klání.",
-        "reason_en": "Approval of the shortened workweek and political maneuvers ahead of the runoff create volatility amid a slight dip in the Ibovespa. We advise waiting for the election outcome."
+        "reason_cs": "Schválení zkráceného pracovního týdne posiluje pozici prezidenta Lula před nadcházejícím runofem, což zvyšuje politickou nejistotu na trzích.",
+        "reason_en": "The approval of a shortened workweek boosts President Lula's standing ahead of the upcoming runoff, increasing political uncertainty in the markets."
       },
       {
         "sector_cs": "Argentina (Merval, YPF, MercadoLibre)",
         "sector_en": "Argentina (Merval, YPF, MercadoLibre)",
-        "action": "HOLD",
-        "reason_cs": "Vláda prezidenta Mileie čelí domácí nespokojenosti kvůli prodeji půdy a stupňuje diplomaticko-právní tlak na Velkou Británii kvůli Falklandám. Trhy zůstávají vysoce citlivé na politický vývoj.",
-        "reason_en": "President Milei's government faces domestic pushback over land sales and is escalating legal pressure on the UK over the Falklands. Markets remain highly sensitive to political developments."
+        "action": "BUY",
+        "reason_cs": "Prezident Milei nadále prosazuje tržně orientované reformy a silně se orientuje na americké spojenectví, což přitahuje zahraniční kapitál navzdory lokálním protestům.",
+        "reason_en": "President Milei continues to push market-oriented reforms and aligns strongly with US ties, attracting foreign capital despite local protests."
       },
       {
         "sector_cs": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
         "sector_en": "Mining: Copper & Lithium (Southern Copper, SQM, Freeport)",
-        "action": "SELL",
-        "reason_cs": "Silnější americký dolar a pokles cen lithných společností jako SQM v důsledku inflačních tlaků a globálních makrotrendů zatěžují těžařský sektor. Doporučujeme redukovat pozice.",
-        "reason_en": "A stronger US dollar and falling lithium shares like SQM due to inflation pressures and global macro trends are weighing on the mining sector. Reducing exposure is advised."
+        "action": "BUY",
+        "reason_cs": "Vylepšení ratingu chilských firem (Falabella) signalizuje celkově stabilní korporátní prostředí v regionu, zatímco poptávka po průmyslových kovech zůstává robustní.",
+        "reason_en": "Rating upgrades for Chilean firms (Falabella) signal a generally stable corporate environment in the region, while demand for industrial metals remains robust."
       },
       {
         "sector_cs": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
         "sector_en": "Oil & Energy (Petrobras, Ecopetrol, Chevron)",
         "action": "HOLD",
-        "reason_cs": "Zatímco Petrobras vykazuje mírný růst, širší energetický sektor v regionu čelí geopolitickým rizikům a sankčním pohybům kolem Venezuely. Pozice doporučujeme držet se zvýšenou ostražitostí.",
-        "reason_en": "While Petrobras shows modest gains, the broader regional energy sector faces geopolitical risks and sanctions shifts regarding Venezuela. Holding positions with heightened vigilance is recommended."
+        "reason_cs": "Globální ceny ropy těží z geopolitických rizik, ale regionální energetický sektor čelí regulačním tlakům a eskalujícím politickým sporům.",
+        "reason_en": "Global oil prices benefit from geopolitical risks, but the regional energy sector faces regulatory pressures and escalating political disputes."
       },
       {
         "sector_cs": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
         "sector_en": "Agriculture & Food (JBS, Bunge, Cosan)",
         "action": "BUY",
-        "reason_cs": "Ceny kávy dosáhly rekordních úrovní po zmírnění obav z amerických cel vůči Kolumbii, což podporuje exportéry. Zemědělské komodity nabízejí zajímavé příležitosti.",
-        "reason_en": "Coffee prices hit record levels after fears of US tariffs on Colombia eased, providing a tailwind for exporters. Agricultural commodities offer attractive opportunities."
+        "reason_cs": "Ceny arabiky dosáhly rekordních maxim v důsledku kolísavých obchodních jednání a hrozeb cel, což nahrává velkým exportérům v Latinské Americe.",
+        "reason_en": "Arabica prices hit record highs due to fluctuating trade talks and tariff threats, benefiting major Latin American exporters."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Události v Jižní Americe mají na tyto středoevropské tituly pouze zanedbatelný nepřímý vliv prostřednictvím globální nálady. Hlavním faktorem pro ně nadále zůstává domácí měnová politika a energetická regulace.",
-        "reason_en": "South American events have a negligible indirect impact on these Central European stocks via global sentiment. Domestic monetary policy and energy regulation remain their primary drivers."
+        "reason_cs": "Dění v Jižní Americe má na tyto středoevropské tituly jen minimální nepřímý vliv; hlavní zůstávají domácí makrodata a globální měnová politika.",
+        "reason_en": "South American developments have minimal indirect impact on these Central European stocks; domestic macroeconomic data and global monetary policy remain primary."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat gradaci kampaně před brazilským prezidentským runofem a pokračující napětí v Kolumbii. Trhy budou nadále citlivě reagovat na data o americké inflaci a sílu dolaru.",
-    "forecast_en": "Over the coming days, campaign intensity ahead of the Brazilian presidential runoff and ongoing tensions in Colombia are expected to grow. Markets will remain sensitive to US inflation data and the strength of the dollar.",
-    "forecast_review_cs": "Předchozí předpověď se potvrdila, neboť Argentina skutečně podala mezinárodní právní žaloby ohledně falklandských projektů a v Brazílii nadále přetrvává politické a sociální napětí před volbami.",
-    "forecast_review_en": "The previous forecast was confirmed, as Argentina indeed filed international legal claims regarding Falklands projects and political/social tensions persisted in Brazil ahead of the elections."
+    "forecast_cs": "V nejbližších dnech se pozornost soustředí na závěrečnou fázi kampaně před brazilským prezidentským runofem a reakce investorů na globální inflační data.",
+    "forecast_en": "Over the coming days, attention will focus on the final campaign stretch ahead of Brazil's presidential runoff and investor reactions to global inflation data.",
+    "forecast_review_cs": "Předchozí předpověď o gradaci kampaně v Brazílii a napětí v Kolumbii byla plně potvrzena aktuálním politickým vývojem a zprávami o protestech.",
+    "forecast_review_en": "The previous forecast regarding the campaign escalation in Brazil and tensions in Colombia was fully confirmed by current political developments and protest reports."
   },
   "articles": [
+    {
+      "title": "Fitch Upgrades Chile Retail Giant Falabella",
+      "summary": "<p>Fitch lifted Grupo Falabella, the Chilean owner of stores, a bank and malls, to BBB from BBB- after it cut debt and improved its margins.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/fitch-upgrades-chile-retail-giant-falabella-2026/\">Fitch Upgrades Chile Retail Giant Falabella</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/fitch-upgrades-chile-retail-giant-falabella-2026/",
+      "published": "Thu, 15 Oct 2026 10:08:12 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Ukraine resumes attacks on Russian oil refineries, officials say, after brief truce",
+      "summary": "Ukrainian drones attacked a refinery in Russia's Ryazan region early Thursday, hours after Ukrainian President Volodymyr Zelenskyy said that a brief truce spurned by Moscow was over.",
+      "link": "https://www.npr.org/2026/10/15/g-s1-148194/russia-ukraine-war",
+      "published": "Thu, 15 Oct 2026 06:05:58 -0400",
+      "source": "NPR"
+    },
+    {
+      "title": "Brazil's Congress approves shorter working week in win for Lula",
+      "summary": "Lula's supporters hope the measure will boost his popularity ahead of a presidential run-off in 10 days.",
+      "link": "https://www.bbc.co.uk/news/articles/cmwy43pp08elo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 15 Oct 2026 10:05:17 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Russia says Ukraine resumes attacks on oil refineries",
+      "summary": "Ukraine's president earlier said Kyiv was 'done' with energy ceasefire and that strikes on Russian oil refineries would resume.",
+      "link": "https://www.aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries?traffic_source=rss",
+      "published": "Thu, 15 Oct 2026 10:02:17 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "The hidden costs of fracking: boom in Argentina linked to trail of sickness",
+      "summary": "<p>Families in Vaca Muerta, the centre of Patagonia’s shale operation, report cancers, miscarriages and pollution</p><p>In Allen, a small town in Argentine Patagonia, many people living on the same street ended up falling ill. For some, it was severe migraines, nausea or skin irritation. For others, cancers, congenital abnormalities, miscarriages or stillbirth seemed to affect foetuses or children. People say it all started 13 years ago – when a well was drilled near their homes to extract gas and oil.</p><p><a href=\"https://opsur.org.ar/2021/11/08/saquennos-de-aca-rodeado-por-52-pozos-un-barrio-de-allen-reclama-su-relocalizacion/\">Calle Ciega 10</a> [Dead-end Street 10] lies on the eastern edge of Vaca Muerta, a vital area for <a href=\"https://www.theguardian.com/world/argentina\">Argentina</a>’s economy, home to the <a href=\"https://www.theguardian.com/world/argentina\">world’s second-largest reserve of shale gas</a> and fourth-largest reserve of shale oil. The region has more than <a href=\"https://www.shale24.com/oil-gas/vaca-muerta-ya-tiene-2667-pozos-activos-claves-entender-potencial-proyectado-22000-n1464\">2,600 active wells</a>, including one on this small street where about 20 families live, most of them seasonal workers on fruit farms.</p> <a href=\"https://www.theguardian.com/global-development/2026/oct/15/the-hidden-costs-of-fracking-boom-in-argentina-linked-to-trail-of-sickness\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/global-development/2026/oct/15/the-hidden-costs-of-fracking-boom-in-argentina-linked-to-trail-of-sickness",
+      "published": "Thu, 15 Oct 2026 10:00:10 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Jamaican Drug Lord’s US Release Pushed Back",
+      "summary": "<p>US prison records now put Jamaican drug lord Christopher Coke's release a year later, in January 2029, as reports spread of a prison fight with Diddy.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/jamaican-drug-lord-us-release-pushed-back-2026/\">Jamaican Drug Lord’s US Release Pushed Back</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/jamaican-drug-lord-us-release-pushed-back-2026/",
+      "published": "Thu, 15 Oct 2026 09:57:09 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Peru’s Fujimori Approval Falls to 28%",
+      "summary": "<p>Approval of Peru's President Keiko Fujimori fell from 42.8% to 28.3% in a month, and half of Peruvians reject joint military operations with the US.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/peru-fujimori-approval-falls-28-percent-2026/\">Peru’s Fujimori Approval Falls to 28%</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/peru-fujimori-approval-falls-28-percent-2026/",
+      "published": "Thu, 15 Oct 2026 09:55:49 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Man United’s Martinez takes to social media to defend his criticism of club",
+      "summary": "Argentina defender Lisandro Martinez follows up criticism of his club with social media explanation of frustration.",
+      "link": "https://www.aljazeera.com/sports/2026/10/15/man-uniteds-martinez-takes-to-social-media-to-defend-his-criticism-of-club?traffic_source=rss",
+      "published": "Thu, 15 Oct 2026 08:27:32 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "From Morocco to South Africa, Israel election watched closely across Africa",
+      "summary": "October 27 vote could test whether Israel's ties with African countries withstand the fallout from the war on Gaza.",
+      "link": "https://www.aljazeera.com/news/2026/10/15/from-morocco-to-south-africa-israel-election-watched-closely-across-africa?traffic_source=rss",
+      "published": "Thu, 15 Oct 2026 06:46:52 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "G20 finance ministers, central bankers gather amid fallout from Iran war",
+      "summary": "Officials meet in Thailand as conflict drives energy prices higher and casts uncertainty over global economy.",
+      "link": "https://www.aljazeera.com/economy/2026/10/15/g20-finance-ministers-central-bankers-gather-amid-fallout-from-iran-war?traffic_source=rss",
+      "published": "Thu, 15 Oct 2026 06:16:46 +0000",
+      "source": "Al Jazeera"
+    },
     {
       "title": "Milei: It’s important Trump ‘emerges stronger’ from US midterms",
       "summary": "<p><img alt=\"Argentina's President Javier Milei and Brazilian politician Eduardo Bolsonaro\" src=\"https://fotos.perfil.com/2026/10/15/trim/540/304/argentinas-president-javier-milei-and-brazilian-politician-eduardo-bolsonaro-2348750.jpg\" /></p>President firmly backs his US counterpart in speech to Hispanic association gala; La Libertad Avanza leader says Trump victory is “important for the entire West.” <a href=\"https://www.batimes.com.ar/news/world/milei-its-important-trump-emerges-stronger-from-us-midterms.phtml\">Leer más</a>",
@@ -63,39 +133,11 @@
       "source": "Buenos Aires Times"
     },
     {
-      "title": "Heavy rain causes mass pileup in Brazil tunnel",
-      "summary": "Flooding left vehicles piled up and people stranded inside Sao Paulo’s Anhangabau tunnel.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/15/heavy-rain-causes-mass-pileup-in-brazil-tunnel?traffic_source=rss",
-      "published": "Thu, 15 Oct 2026 04:19:06 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "X suspends 13,000 accounts, alleging foreign influence ahead of US midterms",
-      "summary": "The social platform says networks targeted US political debate across the spectrum ahead of midterm elections.",
-      "link": "https://www.aljazeera.com/news/2026/10/15/x-suspends-13000-accounts-alleging-foreign-influence-ahead-of-us-midterms?traffic_source=rss",
-      "published": "Thu, 15 Oct 2026 04:15:55 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Argentina’s Milei backs Trump for US midterms, calls vote crucial for West",
-      "summary": "The US President's ally says conservatives “cannot give an inch” in Latin America as he accepts an award in Washington.",
-      "link": "https://www.aljazeera.com/news/2026/10/15/argentinas-milei-backs-trump-for-us-midterms-calls-vote-crucial-for-west?traffic_source=rss",
-      "published": "Thu, 15 Oct 2026 03:50:14 +0000",
-      "source": "Al Jazeera"
-    },
-    {
       "title": "Argentina's government prepares for possibility Pope Leo may not visit",
       "summary": "<p><img alt=\"Pope Leo\" src=\"https://fotos.perfil.com/2026/10/15/trim/540/304/pope-leo-2348744.jpg\" /></p>Officials publicly insist preparations for the papal visit are continuing, but Javier Milei and his top spokesman have acknowledged that the dates could change. Other government sources believe the trip could be cancelled altogether.\n <a href=\"https://www.batimes.com.ar/news/opinion-and-analysis/argentinas-government-prepares-for-possibility-pope-leo-may-not-visit.phtml\">Leer más</a>",
       "link": "https://www.batimes.com.ar/news/opinion-and-analysis/argentinas-government-prepares-for-possibility-pope-leo-may-not-visit.phtml",
       "published": "Thu, 15 Oct 2026 03:33:59 GMT",
       "source": "Buenos Aires Times"
-    },
-    {
-      "title": "Albanian Ministry of Justice on fire as education protesters riot",
-      "summary": "Hundreds of students joined anti-government protests in Tirana, demanding education reforms.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/15/albanian-ministry-of-justice-on-fire-as-education-protesters-riot?traffic_source=rss",
-      "published": "Thu, 15 Oct 2026 03:30:42 +0000",
-      "source": "Al Jazeera"
     },
     {
       "title": "Brazil cuts work week to 40 hours in win for Lula ahead of runoff",
@@ -112,36 +154,15 @@
       "source": "Buenos Aires Times"
     },
     {
-      "title": "Thousands protest across Colombia against new right-wing president",
-      "summary": "Thousands of Colombians protested peacefully across the country on Wednesday against right-wing President Abelardo de la Espriella, in the opposition’s first major demonstrations since he took office in August. Former leftist President Gustavo Petro led a rally in Bogota, joined by trade unionists, Indigenous groups, students and feminist activists.",
+      "title": "Thousands of Colombians march against new right-wing president's policies",
+      "summary": "Thousands of Colombians protested peacefully across the country on Wednesday against right-wing President Abelardo de la Espriella, in the opposition’s first major demonstrations since he took office in August. Former leftist president Gustavo Petro led a rally in Bogota joined by trade unionists, Indigenous groups, students and feminist activists.",
       "link": "https://www.france24.com/en/americas/20261015-thousands-protest-colombia-right-wing-president",
       "published": "Thu, 15 Oct 2026 01:57:26 GMT",
       "source": "France 24"
     },
     {
-      "title": "Chile Stocks Fall 0.5% as Peso Weakens | Chile Market Report, Oct 14",
-      "summary": "<p>Chile’s IPSA fell 0.49% to 10,966 on Wednesday 14 October as US inflation lifted the dollar, the peso slid to about 985 and SQM fell 1.9%.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/chile-markets-ipsa-peso-wednesday-october-14-2026/\">Chile Stocks Fall 0.5% as Peso Weakens | Chile Market Report, Oct 14</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/chile-markets-ipsa-peso-wednesday-october-14-2026/",
-      "published": "Thu, 15 Oct 2026 00:49:36 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Mexico Stocks Slip 0.3% as Peso Weakens 0.6% | Mexico Market Report, Oct 14",
-      "summary": "<p>Mexico’s S&P/BMV IPC fell 0.26% to 66,790.38 on Wednesday 14 October as US inflation lifted the dollar and the peso weakened 0.6% to 18.49 per dollar.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/mexico-markets-ipc-peso-wednesday-october-14-2026/\">Mexico Stocks Slip 0.3% as Peso Weakens 0.6% | Mexico Market Report, Oct 14</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/mexico-markets-ipc-peso-wednesday-october-14-2026/",
-      "published": "Thu, 15 Oct 2026 00:49:33 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Brazil Stocks Slip 0.2% as Petrobras Gains | Brazil Market Report, Oct 14",
-      "summary": "<p>Brazil’s Ibovespa fell 0.18% to 206,505.98 on Wednesday 14 October as US inflation beat forecasts, while Petrobras rose 2.22% and the real held near 5.03.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/brazil-markets-ibovespa-real-wednesday-october-14-2026/\">Brazil Stocks Slip 0.2% as Petrobras Gains | Brazil Market Report, Oct 14</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/brazil-markets-ibovespa-real-wednesday-october-14-2026/",
-      "published": "Thu, 15 Oct 2026 00:49:30 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Lula’s party accuses Meta of election interference ahead of Brazil runoff",
-      "summary": "Brazilian President Luiz Inacio Lula da Silva’s party plans to file a complaint against Meta with the Organisation of American States, alleging election interference, his campaign said Wednesday. The party accuses Meta of restricting Lula’s online content ahead of the October 25 presidential runoff against Senator Flavio Bolsonaro. Meta denies the allegations.",
+      "title": "Lula's party to file complaint against Meta over Brazil election interference",
+      "summary": "Brazilian President Luiz Inacio Lula da Silva’s party plans to file a complaint against Meta with the Organisation of American States alleging election interference, his campaign said Wednesday. The party accuses Meta of restricting Lula’s online content ahead of the October 25 presidential runoff against far-right Senator Flavio Bolsonaro. Meta denies the allegations.",
       "link": "https://www.france24.com/en/americas/20261014-lula-party-meta-election-interference-brazil-runoff",
       "published": "Wed, 14 Oct 2026 23:52:58 GMT",
       "source": "France 24"
@@ -151,13 +172,6 @@
       "summary": "Investors are wondering if steep inflation and increased borrowing costs could derail the AI buildout.",
       "link": "https://www.marketwatch.com/story/the-ai-trade-is-splintering-as-inflation-fears-rattle-hyped-up-tech-stocks-dbf49369?mod=mw_rss_topstories",
       "published": "Wed, 14 Oct 2026 23:36:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
-      "summary": "The 3.6% COLA for 2027 is aimed at helping more than 68 million beneficiaries keep pace with the cost of living",
-      "link": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
-      "published": "Wed, 14 Oct 2026 22:24:00 GMT",
       "source": "MarketWatch"
     },
     {
@@ -207,13 +221,6 @@
       "summary": "<p>Canada-born singer-songwriter, 82, posts footage of citizenship ceremony to Instagram</p><p>Joni Mitchell has become a US citizen, after first moving to the country in the mid-1960s. The Canada-born singer-songwriter, 82, posted footage of her citizenship ceremony on her Instagram account, along with a photo of her next to an American flag, accompanied by the caption: “A journey that began 62 years ago.”</p><p>It means that Mitchell can now vote in US elections, something that she had complained she wasn’t able to do.</p> <a href=\"https://www.theguardian.com/music/2026/oct/14/joni-mitchell-becomes-us-citizen-a-journey-that-began-62-years-ago\">Continue reading...</a>",
       "link": "https://www.theguardian.com/music/2026/oct/14/joni-mitchell-becomes-us-citizen-a-journey-that-began-62-years-ago",
       "published": "Wed, 14 Oct 2026 08:39:00 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "What is state capture and why does it matter?",
-      "summary": "<p>Different forms are distinguished by who exercises control and which institutions they target</p><p>Read more: <a href=\"https://www.theguardian.com/global-development/ng-interactive/2026/oct/14/europes-most-wanted-cocaine-trafficker-sierra-leone-crime-drugs-narco-state\">How Europe’s most wanted cocaine trafficker turned Sierra Leone into the world’s first true narco state</a></p><p>Two crypto-billionaires pour millions into a political party and its wannabe prime minister in return for legislation that favours their businesses. A drug trafficker’s bribe to a senior official buys a cocaine shipment safe passage across a border. Human traffickers installing loyalists in the agencies mandated to stop them. A foreign power uses evidence of a president’s sexual abuse of children to dictate government policy. An influential lobby group donates to both a ruling party and opposition members to hedge their bets on influence. All are routes to state capture.</p><p>The <a href=\"https://www.cambridge.org/core/books/abs/dictionary-of-corruption/s/206C5C64631195D67865601E812E0665\">Dictionary of Corruption</a> defines state capture as systematic corruption whereby narrow interest groups take control of the institutions and processes through which public policy is made, directing it away from the common good and towards their own interests.</p> <a href=\"https://www.theguardian.com/global-development/2026/oct/14/what-is-state-capture-why-does-it-matter\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/global-development/2026/oct/14/what-is-state-capture-why-does-it-matter",
-      "published": "Wed, 14 Oct 2026 06:00:46 GMT",
       "source": "The Guardian"
     },
     {
@@ -292,13 +299,6 @@
       "link": "https://www.latinamericareports.com/nicaragua-withdraws-from-central-american-parliament-amid-rising-criticism-from-regional-governments/15360/",
       "published": "Fri, 09 Oct 2026 14:55:09 +0000",
       "source": "Latin America Reports"
-    },
-    {
-      "title": "Venezuela's ex-leader Nicolás Maduro charged with conspiracy to commit torture",
-      "summary": "The new accusations relate to the alleged torture of US citizens held in Venezuela while Maduro was in power.",
-      "link": "https://www.bbc.co.uk/news/articles/c5pvgn7xvxpzo?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 08 Oct 2026 17:38:59 GMT",
-      "source": "BBC News"
     },
     {
       "title": "Two Years On, the Sinaloa Cartel War Changes Shape | The InSight Take",
@@ -552,6 +552,15 @@
       "incidents": 40,
       "bovespa": 206505.98,
       "brl_czk": null
+    },
+    {
+      "date": "2026-10-15 10:39",
+      "threat_level": "MEDIUM",
+      "value": 2,
+      "sentiment_score": 52,
+      "incidents": 40,
+      "bovespa": 206505.98,
+      "brl_czk": null
     }
   ],
   "locations": [
@@ -561,13 +570,6 @@
       "lon": -47.8828,
       "name_cs": "Brasília",
       "name_en": "Brasília"
-    },
-    {
-      "key": "Sao Paulo",
-      "lat": -23.5505,
-      "lon": -46.6333,
-      "name_cs": "São Paulo",
-      "name_en": "São Paulo"
     },
     {
       "key": "Buenos Aires",
@@ -619,6 +621,13 @@
       "name_en": "Amazon"
     },
     {
+      "key": "Patagonia",
+      "lat": -41.8,
+      "lon": -68.9,
+      "name_cs": "Patagonie",
+      "name_en": "Patagonia"
+    },
+    {
       "key": "Falklands",
       "lat": -51.7963,
       "lon": -59.5236,
@@ -631,141 +640,21 @@
       "lon": -77.0369,
       "name_cs": "Washington, D.C.",
       "name_en": "Washington, D.C."
-    },
-    {
-      "key": "New York",
-      "lat": 40.71,
-      "lon": -74,
-      "name_cs": "New York",
-      "name_en": "New York",
-      "auto": true
-    },
-    {
-      "key": "Los Angeles",
-      "lat": 34.05,
-      "lon": -118.24,
-      "name_cs": "Los Angeles",
-      "name_en": "Los Angeles",
-      "auto": true
-    },
-    {
-      "key": "Arizona",
-      "lat": 34.2,
-      "lon": -111.7,
-      "name_cs": "Arizona",
-      "name_en": "Arizona",
-      "auto": true
-    },
-    {
-      "key": "Ohio",
-      "lat": 40.4,
-      "lon": -82.8,
-      "name_cs": "Ohio",
-      "name_en": "Ohio",
-      "auto": true
-    },
-    {
-      "key": "Canada",
-      "lat": 56.1,
-      "lon": -106.3,
-      "name_cs": "Kanada",
-      "name_en": "Canada",
-      "auto": true
-    },
-    {
-      "key": "Mexico",
-      "lat": 23.6,
-      "lon": -102.5,
-      "name_cs": "Mexiko",
-      "name_en": "Mexico",
-      "auto": true
-    },
-    {
-      "key": "Venezuela",
-      "lat": 7,
-      "lon": -66,
-      "name_cs": "Venezuela",
-      "name_en": "Venezuela",
-      "auto": true
-    },
-    {
-      "key": "Brazil",
-      "lat": -14.2,
-      "lon": -51.9,
-      "name_cs": "Brazílie",
-      "name_en": "Brazil",
-      "auto": true
-    },
-    {
-      "key": "Argentin",
-      "lat": -34,
-      "lon": -64,
-      "name_cs": "Argentina",
-      "name_en": "Argentin",
-      "auto": true
-    },
-    {
-      "key": "Russia",
-      "lat": 55.75,
-      "lon": 37.62,
-      "name_cs": "Rusko",
-      "name_en": "Russia",
-      "auto": true
-    },
-    {
-      "key": "Singapore",
-      "lat": 1.35,
-      "lon": 103.8,
-      "name_cs": "Singapur",
-      "name_en": "Singapore",
-      "auto": true
-    },
-    {
-      "key": "London",
-      "lat": 51.5,
-      "lon": -0.12,
-      "name_cs": "Londýn",
-      "name_en": "London",
-      "auto": true
-    },
-    {
-      "key": "France",
-      "lat": 48.86,
-      "lon": 2.35,
-      "name_cs": "Paříž",
-      "name_en": "France",
-      "auto": true
-    },
-    {
-      "key": "Spain",
-      "lat": 40.4,
-      "lon": -3.7,
-      "name_cs": "Madrid",
-      "name_en": "Spain",
-      "auto": true
-    },
-    {
-      "key": "Peru",
-      "lat": -9.2,
-      "lon": -75.0,
-      "name_cs": "Peru",
-      "name_en": "Peru",
-      "auto": true
     }
   ],
   "location_counts": {
-    "Brasilia": 24,
+    "Brasilia": 25,
     "Sao Paulo": 18,
     "Rio de Janeiro": 4,
-    "Buenos Aires": 24,
-    "Santiago": 23,
-    "Lima": 23,
-    "Bogota": 24,
-    "Caracas": 23,
-    "Quito": 9,
+    "Buenos Aires": 25,
+    "Santiago": 24,
+    "Lima": 24,
+    "Bogota": 25,
+    "Caracas": 24,
+    "Quito": 10,
     "La Paz": 12,
     "Asuncion": 4,
-    "Washington": 24,
+    "Washington": 25,
     "New York": 1,
     "Texas": 1,
     "Colorado": 1,
@@ -783,7 +672,7 @@
     "Peru": 2,
     "Bolívie": 1,
     "Montevideo": 12,
-    "Falklands": 9,
+    "Falklands": 10,
     "Ohio": 1,
     "Michigan": 1,
     "Severní Karolína": 1,
@@ -793,7 +682,7 @@
     "Atacama": 8,
     "Beijing": 12,
     "Čína": 1,
-    "Amazon": 13,
+    "Amazon": 14,
     "Medellin": 1,
     "Tchaj-wan": 1,
     "Řím": 2,
@@ -811,23 +700,16 @@
     "Súdán": 1,
     "Los Angeles": 1,
     "Paramaribo": 1,
-    "Arizona": 1
+    "Arizona": 1,
+    "Patagonia": 1
   },
   "top_location": {
     "key": "Brasilia",
     "name_cs": "Brasília",
     "name_en": "Brasília",
-    "count": 24
+    "count": 25
   },
   "archive": [
-    {
-      "date": "2026-10-10 11:41",
-      "threat_level": "MEDIUM",
-      "security_status_cs": "Jižní Ameriku ovlivňují eskalující politické bitvy před brazilským druhým kolem prezidentských voleb a rostoucí regionální napětí kolem Venezuely po nových amerických obviněních vůči Nicolásovi Madurovi. Ekologické katastrofy, jako jsou ničivé sesuvy půdy v chilském Santiagu, navíc zatěžují infrastrukturu a lokální ekonomiky.",
-      "security_status_en": "South America is shaped by intensifying political battles ahead of Brazil's presidential runoff and rising regional tensions surrounding Venezuela following new U.S. charges against Nicolás Maduro. Meanwhile, extreme weather events like destructive mudslides in Santiago, Chile, continue to strain local infrastructure and economies.",
-      "forecast_cs": "V příštích dnech se očekává vyostření kampaně před brazilským druhým kolem voleb a pokračující sanace škod po silných deštích v Chile.",
-      "forecast_en": "The coming days will likely see intensified campaigning ahead of the Brazilian presidential runoff and ongoing infrastructure recovery following heavy rains in Chile."
-    },
     {
       "date": "2026-10-11 11:54",
       "threat_level": "HIGH",
@@ -931,10 +813,18 @@
       "security_status_en": "South America faces mounting tensions ahead of Brazil's presidential runoff and legislative shifts, while Argentina escalates legal disputes regarding Falklands oil projects. Regional markets continue to weaken due to a strong US dollar and global inflation concerns, alongside anti-government protests in Colombia against the new right-wing president.",
       "forecast_cs": "V nejbližších dnech lze očekávat gradaci kampaně před brazilským prezidentským runofem a pokračující napětí v Kolumbii. Trhy budou nadále citlivě reagovat na data o americké inflaci a sílu dolaru.",
       "forecast_en": "Over the coming days, campaign intensity ahead of the Brazilian presidential runoff and ongoing tensions in Colombia are expected to grow. Markets will remain sensitive to US inflation data and the strength of the dollar."
+    },
+    {
+      "date": "2026-10-15 10:39",
+      "threat_level": "MEDIUM",
+      "security_status_cs": "Jižní Amerika čelí smíšenému vývoji, kde politické napětí před brazilským runofem a protesty v Kolumbii kontrastují s ekonomickými stabilizačními kroky, jako je upgrade chilského retailového gigantu Falabella od Fitch. Komoditní trhy nadále reagují na globální geopolitické otřesy, přičemž ceny kávy a ropy zůstávají pod vlivem vnějších obchodních sporů.",
+      "security_status_en": "South America faces a mixed environment, where political tensions ahead of the Brazilian runoff and protests in Colombia contrast with economic stabilization steps such as Fitch's upgrade of Chilean retail giant Falabella. Commodity markets continue to respond to global geopolitical shocks, with coffee and oil prices remaining sensitive to external trade disputes.",
+      "forecast_cs": "V nejbližších dnech se pozornost soustředí na závěrečnou fázi kampaně před brazilským prezidentským runofem a reakce investorů na globální inflační data.",
+      "forecast_en": "Over the coming days, attention will focus on the final campaign stretch ahead of Brazil's presidential runoff and investor reactions to global inflation data."
     }
   ],
-  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
-  "weekly_summary_en": "Over the last 7 recorded analyses: 7× HIGH.",
+  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 6× HIGH, 1× MEDIUM.",
+  "weekly_summary_en": "Over the last 7 recorded analyses: 6× HIGH, 1× MEDIUM.",
   "market_data": {
     "bovespa": {
       "value": 206505.98,
@@ -947,7 +837,7 @@
       "cached": false
     },
     "usdbrl": {
-      "value": 5.0474,
+      "value": 5.0299,
       "date": "2026-10-15",
       "cached": false
     }

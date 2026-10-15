@@ -1,66 +1,248 @@
 {
-  "last_updated": "2026-10-15T04:59:33Z",
+  "last_updated": "2026-10-15T10:38:18Z",
   "assessment": {
     "threat_level": "CRITICAL",
     "sentiment_score": 92,
-    "security_status_cs": "Bezpečnostní situace v oblasti Perského zálivu a Rudého moře se nadále vyostřuje po útocích na ropnou infrastrukturu Saudi Aramco a potopení několika plavidel v Hormuzském průlivu. Hútijové stupňují raketové útoky a rozsáhlá kybernetická vydírání logistických společností prohlubují nestabilitu v klíčových námořních koridorech.",
-    "security_status_en": "The security situation in the Persian Gulf and Red Sea continues to escalate following attacks on Saudi Aramco's oil infrastructure and the sinking of multiple vessels in the Strait of Hormuz. Houthi missile strikes and widespread cyber extortion campaigns against logistics companies are further deepening instability in key maritime corridors.",
+    "security_status_cs": "Situace v oblasti Perského zálivu a Rudého moře zůstává kritická kvůli pokračujícím raketovým útokům Houthiů na saúdskou infrastrukturu a potápění komerčních lodí. Uzavření Hormuzského průlivu a útoky na ropná zařízení, včetně centrály Saudi Aramco, vyvolávají obavy z globální ekonomické destabilizace.",
+    "security_status_en": "The situation in the Persian Gulf and Red Sea remains critical due to ongoing Houthi missile attacks on Saudi infrastructure and the sinking of commercial vessels. The closure of the Strait of Hormuz and strikes on oil facilities, including the Saudi Aramco headquarters, are fueling concerns of global economic destabilization.",
     "recommendations": [
       {
         "sector_cs": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)",
         "sector_en": "Maritime Shipping (e.g. Maersk, Hapag-Lloyd, ZIM)",
-        "action": "HOLD",
-        "reason_cs": "Přetrvávající útoky a potápění lodí v Hormuzském průlivu spolu s přetrvávajícími zpožděními drží ziskovost sazeb na vysoké úrovni, ale kybernetická rizika a bezpečnostní hrozby představují vysokou volatilitu.",
-        "reason_en": "Persistent attacks and vessel sinkings in the Strait of Hormuz alongside ongoing delays keep freight rate profitability high, but cyber risks and security threats present high volatility."
+        "action": "BUY",
+        "reason_cs": "Výrazné prodlužování tras, uzavření Hormuzského průlivu a růst sazeb za přepravu (VLCC, FFA) ženou zisky lodních přepravců vzhůru.",
+        "reason_en": "Significant route extensions, the closure of the Strait of Hormuz, and soaring freight rates (VLCC, FFA) are driving shipping carrier profits higher."
       },
       {
         "sector_cs": "Obranný průmysl (např. RTX, Lockheed Martin, BAE Systems)",
         "sector_en": "Defense Industry (e.g. RTX, Lockheed Martin, BAE Systems)",
         "action": "BUY",
-        "reason_cs": "Intenzivní vojenské operace, integrace nových systémů (např. LRASM do B-52) a poptávka po protiraketové obraně silně podporují dlouhodobé zakázky obranného sektoru.",
-        "reason_en": "Intensive military operations, integration of new systems (e.g., LRASM into B-52s), and demand for missile defense strongly support long-term defense sector orders."
+        "reason_cs": "Eskalace konfliktů na Blízkém východě i v Evropě a poptávka po vylepšených protivzdušných systémech zajišťují tomuto sektoru silný dlouhodobý výhled.",
+        "reason_en": "Escalating conflicts in the Middle East and Europe alongside demand for enhanced air defense systems ensure a strong long-term outlook for this sector."
       },
       {
         "sector_cs": "Ropa a Plyn (např. Shell, BP, Chevron)",
         "sector_en": "Oil & Gas (e.g. Shell, BP, Chevron)",
         "action": "BUY",
-        "reason_cs": "Ceny Brentu nad 106 USD a masivní pokles amerických ropných zásob spolu s útoky na infrastrukturu Saudi Aramco ženou marže upstream segmentu prudce nahoru.",
-        "reason_en": "Brent prices above $106, a massive drop in US crude inventories, and attacks on Saudi Aramco infrastructure are driving upstream margins sharply higher."
+        "reason_cs": "Útoky na ropnou infrastrukturu v Saúdské Arábii a přerušení dodávek drží ceny komodit a marže rafinérií na vysokých úrovních.",
+        "reason_en": "Attacks on oil infrastructure in Saudi Arabia and supply disruptions are keeping commodity prices and refining margins at elevated levels."
       },
       {
         "sector_cs": "Evropský Spotřební sektor & Autoprůmysl (např. Volvo, BMW)",
         "sector_en": "European Consumer & Automotive (e.g. Volvo, BMW)",
         "action": "SELL",
-        "reason_cs": "Přetrvávající zpoždění v dodavatelských řetězcích z Asie a rostoucí náklady na energie a paliva negativně doléhají na marže a poptávku po zboží.",
-        "reason_en": "Persistent supply chain delays from Asia and rising energy and fuel costs are negatively impacting margins and consumer goods demand."
+        "reason_cs": "Rostoucí náklady na energie, narušené dodavatelské řetězce a propad poptávky po lithiu a některých vozech vytvářejí silný tlak na marže.",
+        "reason_en": "Rising energy costs, disrupted supply chains, and falling demand for lithium and certain vehicles create heavy pressure on margins."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Bankovní tituly čelí makroekonomické nejistotě v regionu, zatímco energetický sektor je stabilizovaný v prostředí vysokých cen komodit.",
-        "reason_en": "Banking titles face regional macroeconomic uncertainty, while the energy sector remains stabilized in an environment of high commodity prices."
+        "reason_cs": "Domácí tituly těží ze stabilní dividendové politiky, ale jsou pod vlivem globální nervozity na energetických trzích a makroekonomické nejistoty.",
+        "reason_en": "Domestic equities benefit from stable dividend policies, but remain exposed to global nervousness in energy markets and macroeconomic uncertainty."
       },
       {
         "sector_cs": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
         "sector_en": "European blue-chips (e.g. Airbus, TotalEnergies, Allianz, Rheinmetall)",
-        "action": "HOLD",
-        "reason_cs": "Energetické a zbrojní tituly profitují z krize, avšak celoevropské blue-chips brzdí obavy z širších dopadů na logistiku a dodavatelské řetězce.",
-        "reason_en": "Energy and defense stocks benefit from the crisis, but broader European blue-chips are weighed down by concerns over logistics and supply chain impacts."
+        "action": "BUY",
+        "reason_cs": "Firmy zaměřené na energetiku (TotalEnergies) a obranu těží z aktuálního válečného makroekonomického prostředí a generují silné marže.",
+        "reason_en": "Energy-focused firms (TotalEnergies) and defense players benefit from the current wartime macroeconomic environment, generating robust margins."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat udržení cen ropy na zvýšených úrovních nad 106 USD a pokračující volatilitu v námořní dopravě kvůli stupňujícím se útokům v oblasti Perského zálivu. Reakce trhů budou nadále citlivě reagovat na jakékoliv zprávy o bezpečnostních opatřeních v Saúdské Arábii.",
-    "forecast_en": "Over the coming days, oil prices are expected to remain elevated above $106 alongside continued volatility in maritime shipping due to escalating attacks in the Persian Gulf. Markets will remain highly sensitive to any updates regarding security measures in Saudi Arabia.",
-    "forecast_review_cs": "Předchozí předpověď se plně potvrdila, neboť ceny ropy se udržely nad hranicí 106 USD a došlo k další eskalaci útoků v oblasti Perského zálivu a na saúdskou infrastrukturu.",
-    "forecast_review_en": "The previous forecast was fully confirmed as oil prices remained above $106 and attacks in the Persian Gulf and on Saudi infrastructure further escalated."
+    "forecast_cs": "V nejbližších dnech lze očekávat další růst cen ropy a přetrvávající extrémní volatilitu v námořní dopravě kvůli stupňujícím se útokům v oblasti Perského zálivu. Trhy budou extrémně citlivě reagovat na jakékoliv zprávy o vojenské odvetě vůči Íránu a Houthiům.",
+    "forecast_en": "Over the coming days, oil prices are expected to rise further alongside persistent extreme volatility in maritime shipping due to escalating attacks in the Persian Gulf. Markets will remain extremely sensitive to any news regarding military retaliation against Iran and the Houthis.",
+    "forecast_review_cs": "Předchozí předpověď se zcela potvrdila, neboť ceny ropy zůstaly na vysokých úrovních a útoky v Perském zálivu a na saúdskou infrastrukturu dále eskalovaly.",
+    "forecast_review_en": "The previous forecast was fully confirmed as oil prices remained elevated and attacks in the Persian Gulf and on Saudi infrastructure escalated further."
   },
   "articles": [
     {
-      "title": "Failure to activate Hormuz fertilizer plan could trigger food crisis, UN official says",
-      "summary": "<img align=\"right\" alt=\"A view of shipping containers near a docked container ship at the Aqaba Container Terminal (ACT), which has seen increased vessel traffic amid disruptions to shipping through the Strait of Hormuz, in Aqaba Tuesday, 1st September 2026 (photo credit: REUTERS/ALAA AL SUKHNI)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_5464,w_8192/741993\" title=\"A view of shipping containers near a docked container ship at the Aqaba Container Terminal (ACT), which has seen increased vessel traffic amid disruptions to shipping through the Strait of Hormuz, in Aqaba Tuesday, 1st September 2026 (photo credit: REUTERS/ALAA AL SUKHNI)\" /><br />\"It's absolutely crucial to get the deal in the next few weeks. Otherwise, we will miss the planting season,\" the official said.<br />",
-      "link": "https://www.jpost.com/international/article-911756",
-      "published": "Thu, 15 Oct 2026 05:32:42 GMT",
+      "title": "Basij female unit commander assassinated in latest attack targeting Iranian armed forces",
+      "summary": "<img align=\"right\" alt=\"Illustrative: An Iranian woman member of the Basij militia\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_537,w_822/742103\" /><br />Aqila, commander of the Afzal Sisters’ Basij unit in Mehrestan, was reportedly assassinated outside her home in front of her children.<br />",
+      "link": "https://www.jpost.com/middle-east/iran-news/article-911783",
+      "published": "Thu, 15 Oct 2026 11:45:13 GMT",
       "source": "Jerusalem Post"
+    },
+    {
+      "title": "Could Israeli technology aid Saudi Arabia's struggles to stop Houthi missile attacks? - analysis",
+      "summary": "<img align=\"right\" alt=\" In this handout screengrab released by the Houthi group Media Center on September 16, 2024, Yemen\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_649,w_1024/742102\" /><br />Attacks on Riyadh’s airport and Saudi Aramco’s headquarters exposed gaps in the kingdom’s air defenses. Israeli technology and intelligence could help, but political barriers complicate cooperation.<br />",
+      "link": "https://www.jpost.com/middle-east/article-911780",
+      "published": "Thu, 15 Oct 2026 11:27:50 GMT",
+      "source": "Jerusalem Post"
+    },
+    {
+      "title": "TotalEnergies Eyes Massive Profit Windfall as Refining Margins Soar",
+      "summary": "TotalEnergies expects to report strong third-quarter results later this month as the Middle East conflict has driven up refining margins and LNG prices in a bull market, the French oil and gas supermajor said on Thursday. TotalEnergies said in a trading update its European refining margin soared to as much as $33.20 per barrel in the third quarter, nearly tripled from $13.50 for the second quarter, and quadrupled from the $8.40 refining margin in the third quarter last year.   “Downstream results and cash flow are expected to reach exceptional…",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/TotalEnergies-Eyes-Massive-Profit-Windfall-as-Refining-Margins-Soar.html",
+      "published": "Thu, 15 Oct 2026 05:30:00 -0500",
+      "source": "OilPrice"
+    },
+    {
+      "title": "COSCO lands ten-year Chinese car-export deal",
+      "summary": "<p>COSCO Shipping Specialized Carriers’ car-carrier business has signed a 10-year contract of affreightment with Chinese automaker DFSK, securing a long-term vehicle-export cargo relationship. The agreement was signed with Chongqing Xiaokang Import & Export, DFSK’s export operation. The companies said they intend to expand shipping volumes, allocate vessel capacity and develop the global route network serving …</p>\n</p>",
+      "link": "https://splash247.com/cosco-lands-ten-year-chinese-car-export-deal/",
+      "published": "Thu, 15 Oct 2026 10:22:54 +0000",
+      "source": "Splash247"
+    },
+    {
+      "title": "Russia and Ukraine resume energy strikes despite Trump warnings",
+      "summary": "<p>Moscow sends swarms of drones to attack infrastructure in central Ukraine as Zelenskyy says Kyiv will restart strikes on Russian oil refineries</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/oct/15/ukraine-russia-war-starlink-zelenskyy-putin-elon-musk-trump-europe-latest-news\">Europe live – latest updates</a></p></li></ul><p>The White House’s unilateral effort to negotiate an energy ceasefire between Russia and Ukraine has collapsed as Moscow sent a record swarm of drones overnight to attack infrastructure in central Ukraine and Kyiv appeared to resume strikes on Russian oil refineries – despite warnings from Donald Trump.</p><p>Moscow accused Ukraine of launching its first strike against a Russian oil refinery in the Ryazan region since <a href=\"https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire\">Trump abruptly declared an “energy ceasefire” that neither Russia nor Ukraine said they had agreed to</a>. Trump has demanded that Volodymyr Zelenskyy stop attacking Russian oil refineries, claiming that it was the cause of a global rise in the price of diesel fuel.</p> <a href=\"https://www.theguardian.com/world/2026/oct/15/us-effort-to-get-russia-ukraine-energy-ceasefire-collapses\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/oct/15/us-effort-to-get-russia-ukraine-energy-ceasefire-collapses",
+      "published": "Thu, 15 Oct 2026 10:14:49 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Israel: Netanyahu and Eisenkot clash over Palestinian statehood ahead of elections",
+      "summary": "<article class=\"story default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/news/israel-netanyahu-and-eisenkot-clash-over-palestinian-statehood-ahead-elections\" rel=\"bookmark\">\n<span class=\"field field-title\">Israel: Netanyahu and Eisenkot clash over Palestinian statehood ahead of elections</span>\n</a>\n    </h2>\n    \n\n          <footer>\n      \n      <div class=\"author\">\n        Submitted by \n<span class=\"field field-uid\"><a href=\"https://www.middleeasteye.net/users/nadav-rapaport\" lang=\"lang\" title=\"View user profile.\">Nadav Rapaport</a></span>\n on \n<span class=\"field field-created\"><time datetime=\"2026-10-15T10:22:04+01:00\" title=\"15 October 2026 10:22 BST\">Thu, 10/15/2026 - 10:22</time>\n</span>\n        \n      </div>\n    </footer>\n      \n    <div class=\"content\">\n                <div class=\"field field-field-subhead\">Election rivals trade accusations over support for Palestinian statehood, military recruitment and Israel’s wars</div>\n                  <div class=\"field field-field-main-image\">    \n                  <source height=\"787\" type=\"image/webp\" width=\"1400\" />\n                  <img alt=\"Pedestrians walk past an advertisement featuring Israel's Prime Minister Benjamin Netanyahu (R) of the Likud party and country's former chief of the general staff and leader of the Yashar party Gadi Eisenkot, along a street in Ramat Gan on 23 September 2026 (Jack Guez/AFP)\" height=\"787\" src=\"https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_C94B9W9%20%281%29.jpg.jpg?itok=fKUz7p5q\" width=\"1400\" />\n\n  \n\n</div>\n                  <div class=\"field field-field-cutline\">An advert in Ramat Gan shows Benjamin Netanyahu (R) and former chief of the general staff and leader of the Yashar party Gadi Eisenkot, on 23 September 2026 (Jack Guez/AFP)</div>\n                  <div class=\"field field-field-wide-photo-video\">Off</div>\n                  <div class=\"field field-body clearfix\"><p>As <a href=\"https://www.middleeasteye.net/countries/israel\">Israel</a>'s elections draw closer, the establishment of a <a href=\"https://www.middleeasteye.net/countries/palestine\">Palestinian</a> state has taken centre stage in the campaigns of Prime Minister Benjamin Netanyahu and his leading opponent, former army chief Gadi Eisenkot.</p>\n\n<p>The two politicians have traded barbs, accusing each other of supporting a Palestinian state.</p>\n\n<p>On Tuesday, Eisenkot posted a video on X showing Netanyahu shaking hands with the late Palestinian leader Yasser Arafat. In the footage, Netanyahu can be heard expressing support for a Palestinian state.</p>\n\n<p>Eisenkot, who hopes to replace Netanyahu, has repeatedly rejected the idea of a Palestinian state alongside Israel.</p>\n\n<p>“Benjamin is Palestine” read the <a href=\"https://x.com/gadi_eisenkot/status/2110034758860427627?s=20\">caption</a> on Eisenkot’s X account. His post said that in the 27 October elections, Israelis would have to choose between “the man who spoke in favour of two states dozens of times and will form a draft-evasion government, or a Zionist conscription government of Yashar with Eisenkot”.</p><div class=\"block-adsense block-adsense-managed-ad-block\"><div>\n  <div class=\"adsense responsive\">\n    \n<!-- responsive -->\n<ins class=\"adsbygoogle mee-auto-ad-wrapper \" style=\"display: block;\"></ins>\n\n  </div>\n</div>\n</div>\n\n<p>Eisenkot’s Yashar party has pledged to <a href=\"https://www.middleeasteye.net/explainers/israel-gaza-ultra-orthodox-jews-haredim-oppose-conscription\">conscript ultra-Orthodox</a> young men into the army. It has accused the governing coalition of failing to recruit enough soldiers to meet the demands of Israel’s multi-front wars.</p>\n\n<p>Tuesday’s video was not the first time Eisenkot had rejected the prospect of a Palestinian state.</p>\n\n<p>“There is no Palestinian state, and in the government that we will form, a Palestinian state will not be established,” he <a href=\"https://x.com/gadi_eisenkot/status/2091209017259368960?s=20\">wrote</a> on X in August, responding to comments by Mansour Abbas in support of Palestinian statehood.</p>\n\n<p>Abbas, leader of the Arab-led Ra’am party, is seen by many opposition voters as a potential partner for Eisenkot’s bloc. His support could prove crucial in securing the seats needed to form a government.</p>\n\n<p>“I am against the establishment of a Palestinian state,” Eisenkot <a href=\"https://13tv.co.il/item/vod/news/moriah-berko/clips/qep1l-905330387/\">told</a> Israel’s Channel 13 News days after his response to Abbas. “I have never said that the solution is two states for two peoples.”</p>\n\n<h3>War rhetoric</h3>\n\n<p>Eisenkot has also accused Netanyahu of weakness towards Israel’s enemies, while criticising what he describes as the prime minister’s militaristic campaign rhetoric.</p>\n\n<p>“Three years and the war’s objectives have not been achieved,” Eisenkot <a href=\"https://x.com/gadi_eisenkot/status/2109969977042215058?s=20\">wrote</a> in another post on X on Tuesday. “Hamas, Hezbollah and Iran are already ready for the next round.” </p>\n\n<div class=\"mee-readmore mee-readmore-article-opinion mee-readmore-type-text align-right\">\n    <div class=\"mee-readmore-description\">Amid Israel's 'forever wars', Palestinians must not abandon the one-state solution</div>\n  <div class=\"mee-readmore-author\">Awad Abdelfattah</div>  <a class=\"mee-readmore-link\" href=\"https://www.middleeasteye.net/opinion/amid-israels-forever-wars-one-state-solution-palestine\">Read More »</a>\n</div>\n\n<p>“Netanyahu is the king of draws,” he added, alongside a split image of the two politicians. The words “wars forever” appeared above Netanyahu, while “to win wars” appeared above Eisenkot.</p>\n\n<p>The post urged Israeli voters to choose between “Netanyahu’s government of draft evaders” and “a Zionist government of enlistment of fighters”.</p>\n\n<p>Earlier this week, Eisenkot <a href=\"https://x.com/gadi_eisenkot/status/2109267579369882062?s=20\">wrote</a> on X that “Netanyahu is Hamas’s fuel”, urging Israelis to choose between “a government of fighters against Hamas” and “a government of draft evaders that empowers Hamas”.</p>\n\n<h3>Netanyahu responds </h3>\n\n<p>Israelis are due to vote in less than two weeks, with opinion polls suggesting neither bloc is on course to secure the 61 seats needed for a parliamentary majority and form a government.</p>\n\n<p>Amid the heated campaign, Netanyahu has also made Palestinian statehood a central election issue, warning that an Eisenkot-led government would lead to the establishment of a Palestinian state.</p>\n\n<p>“It’s either right-wing or Palestine,” Netanyahu <a href=\"https://x.com/netanyahu/status/2106810877227971071?s=20\">said</a> earlier this month, framing the upcoming election as a choice between the two. </p>\n\n<div class=\"mee-readmore mee-readmore-article-profiles mee-readmore-type-image align-right\">\n  <a class=\"mee-readmore-img-link\" href=\"https://www.middleeasteye.net/profile/israel-gadi-eisenkot\"><img alt=\"alt\" class=\"mee-readmore-image\" height=\"250\" src=\"https://www.middleeasteye.net/sites/default/files/styles/read_more/public/images-story/israel-gadi-eisenkot-herzliya-24-jun-2024-afp.jpg.webp?itok=90C3chst\" width=\"400\" />\n\n</a>  <div class=\"mee-readmore-description\">Who is Gadi Eisenkot, the former army chief challenging Netanyahu?</div>\n    <a class=\"mee-readmore-link\" href=\"https://www.middleeasteye.net/profile/israel-gadi-eisenkot\">Read More »</a>\n</div>\n\n<p>Last week, Netanyahu <a href=\"https://x.com/netanyahu/status/2106810877227971071?s=20\">posted</a> an AI-generated video on X depicting Eisenkot and right-wing opposition leader Avigdor Lieberman stealing votes from the right. The video received 5.9m views.</p>\n\n<p>“Eisenkot and Lieberman will establish a Palestinian state before GTA 6 comes out,” the 76-year-old prime minister wrote, referring to the long-awaited video game.</p>\n\n<p>On Tuesday, Netanyahu, like Eisenkot in August, seized on comments about statehood by a Palestinian political leader to attack his main opponent.</p>\n\n<p>He shared on X remarks by Yousef Jabareen, a leader of the Palestinian-led Joint List alliance, about the alliance’s support for the establishment of a Palestinian state.</p>\n\n<p>“If we don’t go out to vote, we’ll get a left-wing government of Eisenkot and Lieberman that will establish a Palestinian state,” Netanyahu <a href=\"https://x.com/netanyahu/status/2109894436410867810?s=20\">wrote</a>, referring to a potential inclusion of the Joint List in Eisenkot’s bloc. </p>\n\n<p>“Only a vote for Likud will stop this,” he added, referring to his own party.</p>\n</div>\n                  <div class=\"field field-field-topic\"><a href=\"https://www.middleeasteye.net/topics/israeli-elections\" hreflang=\"en\">Israeli Elections</a></div>\n            <div class=\"field field-field-coauthor-location\">\n              <div> </div>\n              <div> </div>\n              <div> </div>\n              <div> </div>\n          </div>\n              <div class=\"field field-field-article-location\"> </div>\n                  <div class=\"field field-field-landing-title\">Netanyahu and Eisenkot clash over Palestinian statehood ahead of Israeli elections</div>\n                  <div class=\"field field-field-section\"><a href=\"https://www.middleeasteye.net/news/all\" hreflang=\"en\">News</a></div>\n        <div class=\"field field-field-post-date-override\">\n    <div>Post Date Override</div>\n              <div>0</div>\n          </div>\n  <div class=\"field field-field-update-date-override\">\n    <div>Update Date</div>\n              <div><time datetime=\"2020-05-04T21:19:45+01:00\">Mon, 05/04/2020 - 21:19</time>\n</div>\n          </div>\n  <div class=\"field field-field-update-date-check\">\n    <div>Update Date Override</div>\n              <div>0</div>\n          </div>\n\n  </div>\n  \n</article>",
+      "link": "https://www.middleeasteye.net/news/israel-netanyahu-and-eisenkot-clash-over-palestinian-statehood-ahead-elections",
+      "published": "Thu, 15 Oct 2026 11:07:30 +0100",
+      "source": "Middle East Eye"
+    },
+    {
+      "title": "Jinhui cashes in on veteran bulker",
+      "summary": "<p>Hong Kong-based dry bulk owner Jinhui Shipping and Transportation has agreed to sell another ageing supramax, continuing its fleet renewal drive with a $14.6m deal involving a Hong Kong buyer. The Oslo-listed company, majority-owned by Hong Kong-listed Jinhui Holdings, has signed a memorandum of agreement to offload the 2007-built, 55,496 dwt Jin Xing to Heng …</p>\n</p>",
+      "link": "https://splash247.com/jinhui-cashes-in-on-veteran-bulker/",
+      "published": "Thu, 15 Oct 2026 10:04:00 +0000",
+      "source": "Splash247"
+    },
+    {
+      "title": "Russia says Ukraine resumes attacks on oil refineries",
+      "summary": "Ukraine's president earlier said Kyiv was 'done' with energy ceasefire and that strikes on Russian oil refineries would resume.",
+      "link": "https://www.aljazeera.com/news/2026/10/15/russia-says-ukraine-resumes-attacks-on-oil-refineries?traffic_source=rss",
+      "published": "Thu, 15 Oct 2026 10:02:17 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "TD34 FFA trades outpace TD3C in debut week as market seeks greater Gulf freight cover",
+      "summary": "The launch of the Forward Freight Agreement (FFA) for the Baltic’s TD34 route (Gulf of Oman to China) by Intercontinental Exchange (ICE) has seen near-record volumes since its launch on 5 October. The cash-settled freight futures contract, based on the Baltic Exchange’s TD34 price assessments, has been embraced by tanker freight traders from the outset, ...",
+      "link": "https://www.hellenicshippingnews.com/td34-ffa-trades-outpace-td3c-in-debut-week-as-market-seeks-greater-gulf-freight-cover/",
+      "published": "Thu, 15 Oct 2026 10:00:57 +0000",
+      "source": "Hellenic Shipping News"
+    },
+    {
+      "title": "IMO seeks Net-Zero Framework deal as support grows for GHG standards",
+      "summary": "International Maritime Organization member states are seeking to compromise on the Net-Zero Framework, with more consensus forming around regulating marine energy’s greenhouse gas emissions intensity, a senior official of the UN agency said Oct. 13. In October 2025, IMO member states voted to delay the framework’s adoption by a year amid strong opposition from the ...",
+      "link": "https://www.hellenicshippingnews.com/imo-seeks-net-zero-framework-deal-as-support-grows-for-ghg-standards/",
+      "published": "Thu, 15 Oct 2026 10:00:55 +0000",
+      "source": "Hellenic Shipping News"
+    },
+    {
+      "title": "Middle East war lifts VLCC rates, spurs global replacement orders",
+      "summary": "Freight rates and charter fees for very large crude carriers (VLCCs) that transport crude oil are soaring as the Hormuz Strait remains closed for an extended period due to the Middle East war and as Iran-aligned Houthi rebels attack Saudi Arabia. With the VLCC market booming, there is an outlook that shipping companies could increase ...",
+      "link": "https://www.hellenicshippingnews.com/middle-east-war-lifts-vlcc-rates-spurs-global-replacement-orders/",
+      "published": "Thu, 15 Oct 2026 10:00:53 +0000",
+      "source": "Hellenic Shipping News"
+    },
+    {
+      "title": "Maritime safety depends on human factors and leadership, not procedures alone",
+      "summary": "Seafarers may misjudge when and where they are most at risk on board, according to experts speaking at a maritime safety and human factors panel in London recently. The discussion explored how fatigue, stress and leadership culture affect safety and why procedures alone cannot address every risk. Panellists called for prevention efforts to account for ...",
+      "link": "https://www.hellenicshippingnews.com/maritime-safety-depends-on-human-factors-and-leadership-not-procedures-alone/",
+      "published": "Thu, 15 Oct 2026 10:00:51 +0000",
+      "source": "Hellenic Shipping News"
+    },
+    {
+      "title": "Germany puts $448m behind 47-point green shipping plan",
+      "summary": "<p>Germany has approved a national shipping decarbonisation programme backed by €400m ($448.8m) in funding, including proposals for greener shipping corridors, alternative fuel infrastructure and financial incentives for vessel renewal. The federal cabinet adopted the National Action Plan for Climate-Friendly Shipping yesterday, establishing 47 measures aimed at accelerating the transition of both seagoing and inland fleets. …</p>\n</p>",
+      "link": "https://splash247.com/germany-puts-448m-behind-47-point-green-shipping-plan/",
+      "published": "Thu, 15 Oct 2026 10:00:00 +0000",
+      "source": "Splash247"
+    },
+    {
+      "title": "Suez tightens transit rules for ageing ships",
+      "summary": "<p>The Suez Canal Authority (SCA) has introduced mandatory inspections and trials for vessels aged 25 years and older, adding further costs and potential delays for operators of ageing tonnage. The new regulations, already effective, require vessels to undergo a comprehensive inspection and trials before securing permission to transit the canal, with all applicable fees payable …</p>\n</p>",
+      "link": "https://splash247.com/suez-tightens-transit-rules-for-ageing-ships/",
+      "published": "Thu, 15 Oct 2026 09:55:00 +0000",
+      "source": "Splash247"
+    },
+    {
+      "title": "Israel’s 2026 election: Who are the main leaders and where do they stand on the key issues?",
+      "summary": "<article class=\"explainers default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/explainers/election-israel-gaza-netanyahu-eisenkot-policy-draft\" rel=\"bookmark\">\n<span class=\"field field-title\">Israel’s 2026 election: Who are the main leaders and where do they stand on the key issues?</span>\n</a>\n    </h2>\n    \n\n          <footer>\n      \n      <div class=\"author\">\n        Submitted by \n<span class=\"field field-uid\"><a href=\"https://www.middleeasteye.net/users/daniel-tester\" lang=\"lang\" title=\"View user profile.\">Daniel Tester</a></span>\n on \n<span class=\"field field-created\"><time datetime=\"2026-10-14T12:55:52+01:00\" title=\"14 October 2026 12:55 BST\">Wed, 10/14/2026 - 12:55</time>\n</span>\n        \n      </div>\n    </footer>\n      \n    <div class=\"content\">\n                <div class=\"field field-field-subhead\">How Netanyahu, Eisenkot, Bennett, and Golan compare on Gaza, West Bank security, the ultra-Orthodox military draft, and future Knesset coalitions.</div>\n                  <div class=\"field field-field-main-image\">    \n                  <source height=\"787\" type=\"image/webp\" width=\"1400\" />\n                  <img alt=\"alt\" height=\"787\" src=\"https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/israel-election-graphic-collage.jpg.jpg?itok=366KHBgO\" width=\"1400\" />\n\n  \n\n</div>\n                  <div class=\"field field-field-wide-photo-video\">On</div>\n                  <div class=\"field field-body clearfix\"><p>The <a href=\"https://www.middleeasteye.net/countries/israel\">Israeli</a> election on 27 October is one of the most important in the country’s history, the first since 2022 and the <a href=\"https://www.middleeasteye.net/news/gaza-israel-surprise-attack-pictures\">Hamas-led attacks</a> of 2023, the <a href=\"https://www.middleeasteye.net/topics/israel-genocide-gaza\">genocide in Gaza</a> and the <a href=\"https://www.middleeasteye.net/topics/war-on-iran\">war on Iran.</a></p>\n\n<p>Prime Minister <a href=\"https://www.middleeasteye.net/big-story/israel-who-benjamin-netanyahu-early-years-palestine\">Benjamin Netanyahu</a>, Israel’s longest-serving premier and now seeking a seventh term, faces wide criticism for his handling of the wars, which have isolated Israel internationally.</p>\n\n<p>Other issues facing Israelis include the security of the occupied West Bank, including the growth of settlements, and compulsory military <a href=\"https://www.middleeasteye.net/explainers/israel-gaza-ultra-orthodox-jews-haredim-oppose-conscription\">conscription</a> for ultra-Orthodox communities. </p>\n\n<p>Israel uses proportional representation to elect 120 members to the Knesset, although no single party since the nation was founded in 1948 has won a 61-seat majority. Instead, politicians and parties cut deals and form coalitions to win power. </p>\n\n<p>The anti-Netanyahu Change bloc, for example, led by front-runner Gadi Eisenkot, includes ex-PM Naftali Bennett (B’Yachad) and former deputy prime minister Avigdor Liberman (Yisrael Beiteinu) among others.</p>\n\n<p><a href=\"https://www.haaretz.com/israel-news/elections/2026-06-29/ty-article-static/israel-2026-election-poll-tracker-the-latest-projections/0000019e-35f6-d813-adde-77fe823d0000\">Polls</a> at the time of writing forecast a deadlock. Netanyahu or his rivals will need to once again reach out to smaller parties, such as those backed by ultra-Orthodox voters or the Israeli far right, to form a government. </p>\n\n<p>Millions of <a href=\"http://google.com/search?q=palestine+middle+east+eye&sca_esv=d7631e5fdb0e26e7&rlz=1C5OZZY_enGB1129GB1130&sxsrf=APpeQnu1StH_IPtXOjjHv6Vvn4lzzesOOg%3A1791897137302&ei=MS7OapD5EZqC9u8PuP-euA8&uact=5&oq=palestine+middle+east+eye&gs_lp=Egxnd3Mtd2l6LXNlcnAiGXBhbGVzdGluZSBtaWRkbGUgZWFzdCBleWUyCRAAGBYYHhjHAzIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjILEAAYgAQYigUYhgMyCxAAGIAEGIoFGIYDMgUQABjvBTIIEAAYiQUYogQyBRAAGO8FMgUQABjvBUjjHlD-BVjGHXADeACQAQGYAYwBoAGzEaoBBTEwLjExuAEDyAEA-AEBmAIUoALTEcICBBAjGCfCAgsQLhiABBiKBRiRAsICDRAAGIAEGIoFGJECGArCAgsQLhiABBixAxiDAcICDhAuGIAEGLEDGMcBGNEDwgILEAAYgAQYsQMYgwHCAgsQABiABBiKBRiRAsICChAuGIAEGIoFGEPCAg4QABiABBiKBRiRAhixA8ICERAuGIAEGIoFGJECGMcBGK8BwgIREC4YgAQYigUYkQIYxwEY0QPCAg0QLhiABBiKBRhDGLEDwgINEAAYgAQYigUYQxixA8ICChAjGPAFGMkCGCfCAg0QABiABBgUGIcCGLEDwgIUEC4YgAQYsQMYgwEYxwEYrwEYjgXCAggQABiABBixA8ICBRAAGIAEwgIKEAAYgAQYFBiHAsICChAuGIAEGBQYhwLCAg4QLhiABBjHARivARiOBcICCBAAGIAEGLQHwgIZEC4YgAQYFBiHAhiXBRjcBBjeBBjgBNgBAcICCxAuGIAEGMcBGK8BwgIIEAAYFhgeGAqYAwCIBgG6BgYIARABGBSSBwQ4LjEyoAfE7AGyBwQ4LjEyuAfTEcIHBjAuNS4xNcgHTIAIAQ&sclient=gws-wiz-serp\">Palestinians</a> in the West Bank, <a href=\"https://www.middleeasteye.net/news/could-britain-defy-israels-order-shut-down-its-east-jerusalem-consulate\">East Jerusalem</a> and Gaza, occupied by Israel for nearly 60 years, do not have Israeli <a href=\"https://www.middleeasteye.net/opinion/why-palestinians-should-demand-israeli-citizenship\">citizenship</a> and so cannot vote, in contrast to Israeli settlers living in the occupied territories. </p>\n\n<div style=\"width: 100%; height: 0px; padding: 68.68% 0px 0px; overflow: hidden;\"></div>\n\n<p>Arab parties that draw support from the two million-plus <a href=\"http://google.com/search?q=palestinians+israeli+citizenship+middle+east+eye&sca_esv=074237d04407bddc&rlz=1C5OZZY_enGB1129GB1130&sxsrf=APpeQntFZkevy3i2bf0jowkG5waSbOGImA%3A1791904378537&ei=ekrOapScIPeBhbIP0ZnTmAE&uact=5&oq=palestinians+israeli+citizenship+middle+east+eye&gs_lp=Egxnd3Mtd2l6LXNlcnAiMHBhbGVzdGluaWFucyBpc3JhZWxpIGNpdGl6ZW5zaGlwIG1pZGRsZSBlYXN0IGV5ZTIFEAAY7wUyCBAAGIkFGKIEMgUQABjvBTIFEAAY7wVIvg9QAFipDXAAeACQAQCYAbwBoAHTDaoBBDAuMTO4AQPIAQD4AQGYAgegApwHwgIHECMYsAIYJ8ICCBAAGIAEGKIEmAMAkgcDMC43oAeTMrIHAzAuN7gHnAfCBwUwLjMuNMgHF4AIAQ&sclient=gws-wiz-serp\">Palestinians living inside Israel</a> were initially banned from entering the race in September, before the ban was overturned earlier this month. Arab voter turnout in national elections is <a href=\"https://theicenter.org/icenter_resources/faq-arab-citizens-of-israel/\">usually below average</a> amid <a href=\"https://www.middleeasteye.net/news/palestinian-citizens-israel-split-over-election-boycott-joint-list\">boycotts</a>. </p>\n\n<p>But for this election, more Palestinian citizens of Israel are predicted to vote than usual according to polls, with the Palestinian-led Joint List <a href=\"https://www.mekomit.co.il/%D7%A4%D7%97%D7%93-%D7%A7%D7%99%D7%95%D7%9E%D7%99-%D7%95%D7%A8%D7%A6%D7%95%D7%9F-%D7%A2%D7%96-%D7%91%D7%A9%D7%99%D7%A0%D7%95%D7%99-%D7%A2%D7%9C%D7%99%D7%99%D7%94-%D7%91%D7%A0%D7%9B%D7%95%D7%A0%D7%95/\">expecting </a>70 percent voter turnout. These are the main candidates and their parties.</p>\n\n<hr />\n<h3>Benjamin Netanyahu / Likud</h3>\n\n<p><strong>Current seats: 32/120</strong></p>\n\n<p>Netanyahu, first elected in 1996 and prime minister for 20 of the last 30 years, faces his toughest election yet. His career has been built on <a href=\"https://www.middleeasteye.net/opinion/netanyahu-rejects-gospel-christ-doctrine-genghis-khan\">hawkish</a> stances against Israel’s enemies, <a href=\"https://www.middleeasteye.net/news/netanyahu-approves-e1-plan-bisect-west-bank-israeli-forces-raid-cities\">expanding</a> West Bank settlements and <a href=\"http://google.com/search?q=site%3Amiddleeasteye.net+netanyahu+no+palestine+state&sca_esv=074237d04407bddc&rlz=1C5OZZY_enGB1129GB1130&biw=1552&bih=1167&sxsrf=APpeQnvyWtu8_rY4Itp1RP46dno5oJkmXA%3A1791904562225&ei=MkvOatKUDYGChbIP5ZP-gAM&uact=5&oq=site%3Amiddleeasteye.net+netanyahu+no+palestine+state&gs_lp=Egxnd3Mtd2l6LXNlcnAiM3NpdGU6bWlkZGxlZWFzdGV5ZS5uZXQgbmV0YW55YWh1IG5vIHBhbGVzdGluZSBzdGF0ZUi3ElAAWN4RcAB4AJABAJgBR6AB-QiqAQIxOLgBA8gBAPgBAZgCAKACAJgDAJIHAKAH2AGyBwC4BwDCBwDIBwCACAE&sclient=gws-wiz-serp\">blocking</a> Palestinian statehood. His current government, in power since 2022, is the most right-wing in Israeli history and has overseen genocide and war crimes in Gaza, for which Netanyahu faces an <a href=\"https://www.google.com/search?q=netanyahu+arrest+warrant+middle+east+eey&rlz=1C5OZZY_enGB1129GB1130&oq=netanyahu+arrest+warrant+middle+east+eey&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKABMgkIAhAhGAoYoAEyBwgDECEYjwIyBwgEECEYjwIyBwgFECEYjwLSAQg2MDE0ajBqOagCALACAQ&sourceid=chrome&source=chrome.ob&ie=UTF-8\">arrest warrant</a> from the International Criminal Court.  </p>\n\n  <figure class=\"media-block\">\n  <div class=\"group-inner\">\n    <div alt=\"Israeli Prime Minister Benjamin Netanyahu delivers a speech to members of the Likud party in Tel Aviv on 17 September 2026 (AFP) \" class=\"embedded-entity\">  <img alt=\"Israeli Prime Minister Benjamin Netanyahu delivers a speech to members of the Likud party in Tel Aviv on 17 September 2026 (AFP) \" height=\"787\" src=\"https://www.middleeasteye.net/sites/default/files/styles/article_page/public/israel-tel-aviv-benjamin-netanyahu-election-17-september-2026-afp.jpg.webp?itok=dDKwZqMr\" width=\"1400\" />\n\n\n</div>\n\n    <figcaption>Israeli Prime Minister Benjamin Netanyahu delivers a speech to members of the Likud party in Tel Aviv on 17 September 2026 (AFP)</figcaption>\n  </div>\n</figure>\n\n\n<p><span><img height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span>Many Israelis have questioned his decisions leading up to 7 October 2023, including <a href=\"https://www.haaretz.com/israel-news/2023-10-20/ty-article-opinion/.premium/a-brief-history-of-the-netanyahu-hamas-alliance/0000018b-47d9-d242-abef-57ff1be90000\" style=\"background-color: rgb(255, 255, 255);\">playing off</a> Hamas against Fatah to weaken the Palestine Authority; also whether he <a href=\"https://www.middleeasteye.net/news/netanyahu-asked-uae-leader-to-publicly-deny-7-october-warning-Israel-report\" style=\"background-color: rgb(255, 255, 255);\">ignored warnings</a> of the attack which killed 1,200 people. Netanyahu opposes an official commission of inquiry. </p>\n\n<p>The Israeli-US war on Iran has failed to secure a decisive victory. Tens of thousands of Israelis are still displaced amid attacks from <a href=\"https://www.google.com/search?q=hezbollah+middle+east+eye&sca_esv=074237d04407bddc&rlz=1C5OZZY_enGB1129GB1130&biw=1552&bih=1118&sxsrf=APpeQnt6kJjQOcPbrvocYKXnvQMpIl_o0A%3A1791904851087&ei=U0zOarPiBJi4hbIPv_KO4AQ&oq=hezbollah+middle+&gs_lp=Egxnd3Mtd2l6LXNlcnAiEWhlemJvbGxhaCBtaWRkbGUgKgUIABiABDIFEAAYgAQyBhAAGBYYHjILEAAYgAQYigUYhgMyCxAAGIAEGIoFGIYDMgsQABiABBiKBRiGAzIFEAAY7wUyCBAAGIkFGKIEMgUQABjvBTIFEAAY7wVIgyxQxQtY7ydwBHgAkAEAmAGJAaAB0g2qAQQxMi42uAEDyAEA-AEBmAIVoALkDcICChAAGEcY1gQYsAPCAgQQIxgnwgILEAAYgAQYigUYkQLCAgsQLhiABBiKBRiRAsICCxAAGIAEGLEDGIMBwgIIEAAYgAQYsQPCAhMQLhiABBiKBRhDGLEDGMcBGNEDwgIKEAAYgAQYigUYQ8ICDRAAGIAEGIoFGEMYsQPCAg4QABiABBiKBRiRAhixA8ICDhAAGIAEGIoFGJECGMcDwgIIEC4YgAQYsQPCAg0QABiABBiKBRhDGMcDwgILEC4YgAQYxwEYrwHCAgoQABiABBgUGIcCmAMAiAYBkAYIkgcEMTMuOKAH6pEBsgcDOS44uAfTDcIHBjAuNi4xNcgHSYAIAQ&sclient=gws-wiz-serp\">Hezbollah</a> in <a href=\"https://www.middleeasteye.net/countries/lebanon\">Lebanon</a>. Controversial proposals to weaken the judiciary have mostly been shelved amid <a href=\"https://www.middleeasteye.net/news/israelis-protest-after-netanyahu-vows-judicial-reform-moves\">protests</a>. </p>\n\n<p>But Netanyahu and Likud (which translates as “The Gathering”) still retain strong support among many on the Israeli right, where they are seen as no-nonsense protectors of Israel who have <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-says-hamas-must-disarm-leave-gaza-final-truce-deal\">pledged</a> to disarm Hamas and <a href=\"https://www.middleeasteye.net/news/netanyahu-and-katz-say-israel-remain-lebanon-syria-and-gaza-without-time-limit\">maintain</a> “<a href=\"https://www.middleeasteye.net/news/ceasefires-and-construction-how-israel-cementing-its-presence-lebanon-and-syria\">security zones</a>” in Lebanon. </p>\n\n<p>The government is also seeking to push ahead with the <a href=\"https://www.middleeasteye.net/news/israel-approves-e1-settlement-smotrich-says-palestinian-state-being-erased\">E1 settlement project</a> east of Jerusalem, which will divide the West Bank, amid international condemnation.</p>\n\n<hr />\n<h3>Gadi Eisenkot / Yashar</h3>\n\n<p><strong>Current seats: </strong>New party</p>\n\n<p>Gadi Eisenkot, Netanyahu’s biggest rival, heads <a href=\"https://yasharwitheisenkot.com/en/\">Yashar</a> (“Honest” in Hebrew), the party he founded in September 2025.  An ex-chief of staff in the military (2015 to 2019), Eisenkot, 66, has served in the Knesset since 2022 but has limited ministerial experience save eight months in the emergency government formed after 7 October.</p>\n\n  <figure class=\"media-block\">\n  <div class=\"group-inner\">\n    <div alt=\"Gadi Eisenkot (centre) holds a meet-and-greet at a coffee shop in Jerusalem on 12 August 2026 (AFP) \" class=\"embedded-entity\">  <img alt=\"Gadi Eisenkot (centre) holds a meet-and-greet at a coffee shop in Jerusalem on 12 August 2026 (AFP) \" height=\"787\" src=\"https://www.middleeasteye.net/sites/default/files/styles/article_page/public/jerusalem-gadi-eisenkot-israel-election-12-august-2026-afp.jpg.webp?itok=gz3ZLkOl\" width=\"1400\" />\n\n\n</div>\n\n    <figcaption>Gadi Eisenkot (centre) holds a meet-and-greet at a coffee shop in Jerusalem on 12 August 2026 (AFP)</figcaption>\n  </div>\n</figure>\n\n\n<p><span><img height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span>He is of <a href=\"https://www.middleeasteye.net/countries/morocco\" style=\"background-color: rgb(255, 255, 255);\">Moroccan</a> Jewish heritage and, if elected, would be Israel’s first Mizrahi prime minister. His upbringing in Eilat, far from the elite of Tel Aviv and Jerusalem, and his <a href=\"https://www.jpost.com/opinion/article-899851\" style=\"background-color: rgb(255, 255, 255);\">faltering English</a>, have added to his image as a political outsider.</p>\n\n<p>Many Palestinians and human rights campaigners question Eisenkot’s military past: during Israel’s 2006 invasion of Lebanon, he formulated the<a href=\"https://www.middleeasteye.net/explainers/israels-war-lebanon-what-exactly-dahieh-doctrine\"> Dahieh Doctrine</a>, which advocated “<a href=\"https://www.theguardian.com/commentisfree/2023/dec/05/israel-disproportionate-force-tactic-infrastructure-economy-civilian-casualties\">disproportionate force</a>” in civilian areas to deter attacks. A <a href=\"https://www.haaretz.com/israel-news/elections/2026-07-14/ty-article-magazine/.premium/netanyahus-biggest-challenger-who-is-gadi-eisenkot-and-what-does-he-stand-for/0000019f-600d-d0b9-ab9f-727d015b0000\">self-styled moderate</a>, Eisenkot has been critical of aspects of Netanyahu’s approach on Gaza, not least the long-stalled hostage talks.</p>\n\n<p>His personal story is well-known to many Israelis: Eisenkot’s son, Gal, and two of his nephews were killed in Gaza in 2023 and 2024, with Gal’s<a href=\"https://www.jpost.com/israel-news/article-777228\"> funeral</a> broadcast on national TV.</p>\n\n<p>Eisenkot <a href=\"https://www.jpost.com/opinion/article-907320\">opposes</a> the two-state solution, which he says is unviable after 7 October, and the formal <a href=\"https://yaffaps.com/en/page-135194.html\">annexation</a> of the West Bank, which he says will only worsen security. </p>\n\n<p>Leading the polls, he has become the unofficial leader of the Change bloc but will likely need more parliamentary partners to govern. He has <a href=\"https://www.haaretz.com/israel-news/elections/2026-09-26/ty-article/.premium/eisenkot-says-no-arab-party-meets-demands-for-government-led-by-him/000001a0-debc-d135-a1f7-fefc033a0000\">said</a> that allies will need to agree that Israel is a Jewish and democratic state; that military service must be universal; and that Hamas is a terrorist organisation that must be dismantled. </p>\n\n<p>While Eisenkot has rejected the option of relying on the Palestinian parties, he also <a href=\"https://www.ynet.co.il/news/elections2026/article/yokra14920134\">vowed </a>to form a government \"even if we don't have 61 seats\". This, coupled with statements from some of the Palestinian parties, is seen as indicating there may be options for some form of cooperation.</p>\n\n<p>His conditions about military service likely rules out partnering with ultra-Orthodox parties who want to keep the Haredim’s draft exemption.</p>\n\n<hr />\n<h3>Itamar Ben-Gvir / Otzma Yehudit</h3>\n\n<p><strong>Current seats: </strong>6/120</p>\n\n<p>Once shunned as too extreme for mainstream politics, Otzma Yehudit (“Jewish Power”), led by <a href=\"https://www.google.com/search?q=itamar+ben+gvir+middle+east+eye&sca_esv=074237d04407bddc&rlz=1C5OZZY_enGB1129GB1130&biw=1552&bih=1118&sxsrf=APpeQnseWWt7zxkSz8wsaQQSKhXI0nTwMg%3A1791905495202&ei=107Oas_pC72yhbIPrNLK-AE&oq=itamar+ben-gvir+middl&gs_lp=Egxnd3Mtd2l6LXNlcnAiFWl0YW1hciBiZW4tZ3ZpciBtaWRkbCoJCAAYFhgeGMcDMgkQABgWGB4YxwMyCxAAGIAEGIoFGIYDMgUQABjvBTIIEAAYgAQYogRI0RhQAFj2E3ABeACQAQCYAYUBoAH_CaoBAzQuOLgBA8gBAPgBAZgCDaACwAqoAhTCAgQQIxgnwgILEAAYgAQYigUYkQLCAgsQABiABBixAxiDAcICCBAuGIAEGLEDwgIFEC4YgATCAg4QLhiABBixAxjHARjRA8ICCBAAGIAEGLEDwgIHECMY6gIYJ8ICBxAuGOoCGCfCAhoQABiABBiKBRiRAhjnBhi0BxjqAhi0AtgBAcICFxAAGIAEGIoFGJECGOcGGOoCGLQC2AEBwgIQEAAYAxiPARjqAhi0AtgBAcICChAAGIAEGIoFGEPCAg0QABiABBiKBRhDGLQHwgILEC4YgAQYigUYkQLCAg0QLhiABBiKBRhDGLEDwgINEAAYgAQYigUYQxixA8ICChAuGIAEGIoFGEPCAgsQABiABBixAxiSA8ICGhAuGIAEGIoFGJECGJcFGNwEGN4EGN8E2AEBwgIFEAAYgATCAg0QLhiABBjHARjRAxgKwgIcEC4YgAQYigUYQxixAxiXBRjcBBjeBBjfBNgBAcICCxAuGIAEGMcBGNEDwgIOEAAYgAQYigUYkQIYxwPCAggQABiABBjHA8ICBhAAGBYYHsICCxAAGBYYHhjHAxgKmAME8QWH_MUpm15hJLoGBggBEAEYAZIHAzQuOaAHtZYBsgcDMy45uAe7CsIHBTIuNC43yAcsgAgB&sclient=gws-wiz-serp\">Itamar Ben Gvir</a>, has pulled Netanyahu’s government further to the right since 2022. In September it avoided a <a href=\"https://www.haaretz.com/israel-news/elections/2026-09-24/ty-article/.premium/israels-election-committee-to-consider-bids-to-bar-otzma-yehudit-democrats/000001a0-d214-d18d-afbf-f3d6c7c70000\">vote</a> in Israel’s <a href=\"https://www.gov.il/en/pages/cec-headquarter\">Central Election Committee</a> to bar it from standing. Now it is likely to increase its seats. </p>\n\n  <figure class=\"media-block\">\n  <div class=\"group-inner\">\n    <div alt=\"A Kippah bearing a portrait of Otzma Yehudit leader Itamar Ben Gvir, at a shop in Jerusalem on 4 October 2026 (AFP) \" class=\"embedded-entity\">  <img alt=\"A Kippah bearing a portrait of Otzma Yehudit leader Itamar Ben Gvir, at a shop in Jerusalem on 4 October 2026 (AFP) \" height=\"787\" src=\"https://www.middleeasteye.net/sites/default/files/styles/article_page/public/jerusalem-itamar-ben-gvir-kippah-israel-election-4-october-2026-afp.jpg.webp?itok=z1IrT5fA\" width=\"1400\" />\n\n\n</div>\n\n    <figcaption>A kippah-bearing a portrait of Otzma Yehudit leader Itamar Ben Gvir, at a shop in Jerusalem on 4 October 2026 (AFP)</figcaption>\n  </div>\n</figure>\n\n\n<p><span><img height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span>It has heavy support from Israeli settlers, and it backs annexing the West Bank (Ben Gvir, 50, lives in the settlement of Kiryat Arba).</p>\n\n<p>Relations between Ben Gvir and Netanyahu have often been tense during the past two decades, with the Otzma Yehudit leader recently <a href=\"https://www.haaretz.co.il/news/elections/2026-10-06/ty-article/000001a1-104d-d4b5-afff-b6cfa31b0000\">saying </a>that the prime minister wants to form a government without him.</p>\n\n<p>A Knesset member since 2021, Ben Gvir became national security minister in 2022 when his party unexpectedly won seven seats, despite his criminal convictions for incitement to racism and support for terrorism.</p>\n\n<p>He has been sanctioned by the UK, France and others for backing the <a href=\"https://www.middleeasteye.net/topics/israel-genocide-gaza\">genocide in Gaza</a>; led invasions of <a href=\"https://www.middleeasteye.net/explainers/al-aqsa-holy-sepulchre-how-has-israel-undermined-status-quo\">al-Aqsa mosque</a>, over which he proclaims Jewish sovereignty; and <a href=\"https://www.middleeasteye.net/news/far-right-minister-ben-gvir-visits-and-taunts-captured-flotilla-activists\">taunted </a>detained activists from the Global Sumud Flotilla. </p>\n\n<p>Otzma Yehudit advocates the “<a href=\"https://www.middleeasteye.net/news/ben-gvir-set-unveil-20-billion-plan-ethnically-cleanse-gaza-within-seven-years\">voluntary emigration</a>” of Palestinians from Gaza; rallies draw <a href=\"https://www.haaretz.com/middle-east-news/2021-04-26/ty-article-opinion/.premium/death-to-arabs-palestinians-need-protection-from-israels-racist-jewish-thugs/0000017f-e86b-dc7e-adff-f8ef8b800000\">chants</a> of “death to Arabs”. In government, it has sponsored judicial reforms and the <a href=\"https://www.middleeasteye.net/news/israels-ben-gvir-celebrates-death-penalty-law-drinking-wine-parliament\">death penalty</a> for Palestinians. Its junior ministers have <a href=\"https://www.middleeasteye.net/news/israel-palestine-war-minister-nuking-gaza-option\">discussed</a> nuking Gaza.</p>\n\n<p>But Otzma Yehudit has <a href=\"https://www.haaretz.com/israel-news/2024-04-20/ty-article/.premium/the-haredi-war-on-ben-gvir-is-about-power-money-and-jealousy/0000018e-f131-dfe0-a1af-f1fdda740000\">tense relations</a> with ultra-Orthodox communities because it backs universal conscription.</p>\n\n<hr />\n<h3>Bezalel Smotrich / Religious Zionism</h3>\n\n<p><strong>Current seats: </strong>7/120</p>\n\n<p>Once a marginal extreme-right faction, the Religious Zionist Party (RZP) has ascended as a partner in the ruling coalition. It had a strong showing in 2022 amid an electoral pact with Otzma Yehudit, but the parties have now severed this to run as competitors, despite Netanyahu’s <a href=\"https://www.timesofisrael.com/liveblog_entry/pm-invites-smotrich-ben-gvir-to-discuss-running-together-gets-swift-refusal/\">pleas</a> for an alliance.</p>\n\n  <figure class=\"media-block\">\n  <div class=\"group-inner\">\n    <div alt=\"Finance Minister Bezalel Smotrich arrives at the Israeli settlement of Maale Arugot in Gush Etzion, occupied West Bank on 2 September 2026 (AFP)\" class=\"embedded-entity\">  <img alt=\"Finance Minister Bezalel Smotrich arrives at the Israeli settlement of Maale Arugot in Gush Etzion, occupied West Bank on 2 September 2026 (AFP)\" height=\"787\" src=\"https://www.middleeasteye.net/sites/default/files/styles/article_page/public/maale-arugot-west-bank-bezalel-smotrich-2-september-2026-afp.jpg.webp?itok=vdR5J5oE\" width=\"1400\" />\n\n\n</div>\n\n    <figcaption>Finance Minister Bezalel Smotrich arrives at the Israeli settlement of Maale Arugot in Gush Etzion, occupied West Bank on 2 September 2026 (AFP)</figcaption>\n  </div>\n</figure>\n\n\n<p><span><img height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span>Leader Bezalel Smotrich, 46, the son of an Orthodox rabbi, draws support from a more religious base than Ben Gvir, wants the implementation of <a href=\"https://www.jpost.com/israel-elections/smotrich-says-again-he-wants-a-torah-run-state-597817\" style=\"background-color: rgb(255, 255, 255);\">Jewish law</a> (halacha), and says Torah scripture has <a href=\"https://www.timesofisrael.com/next-treasury-chief-smotrich-following-the-torah-will-lead-to-financial-abundance/\" style=\"background-color: rgb(255, 255, 255);\">underpinned</a> his strategy as finance minister since 2022.  </p>\n\n<p>Smotrich also wants a judicial overhaul, the abolition of the <a href=\"https://www.middleeasteye.net/opinion/oslo-accords-thirty-years-peace-distortion\">Oslo Accords</a>, the dismantlement of the Palestinian Authority, and the Israeli settlement of Gaza and the West Bank. He calls himself a “<a href=\"https://www.timesofisrael.com/jewish-home-hopeful-boasts-of-being-proud-homophobe/\">proud homophobe</a>”.</p>\n\n<p>Like Ben Gvir, prosecutors at the ICC have <a href=\"https://www.middleeasteye.net/news/exclusive-icc-prosecutor-seeks-arrest-warrant-israeli-minister-smotrich-apartheid-charges\">sought warrants</a> for Smotrich’s arrest for war crimes and crimes against humanity against Palestinians in the West Bank. </p>\n\n<p>RZP backs military conscription for ultra-Orthodox communities but, sitting alongside Haredi parties in Netanyahu’s fragile coalition, has <a href=\"https://www.timesofisrael.com/knesset-passes-law-banning-arrests-of-haredi-draft-dodgers-legitimizing-ongoing-non-enlistment/\">voted</a> for Haredi-backed laws, such as stopping arrests of Haredi draft dodgers.</p>\n\n<hr />\n<h3>Naftali Bennett and Yair Lapid / Together</h3>\n\n<p><strong>Current seats: </strong>24/120 </p>\n\n<p>Former prime ministers Naftali Bennett (2021-22) and Yair Lapid (July-December 2022) <a href=\"https://www.middleeasteye.net/news/former-israeli-pm-and-opposition-leader-merge-parties-against-netanyahu\">announced</a> a joint ticket in April, later named B'Yachad (“Together”). Bennett will be prime minister if the party wins. The pair unseated Netanyahu in 2021 amid an <a href=\"https://www.haaretz.com/israel-news/israel-politics/2026-04-27/ty-article/.premium/a-short-history-of-the-bennett-lapid-political-bromance/0000019d-cf36-dbce-adff-df3e70f00000\">on-off political partnership</a> that has lasted more than a decade.</p>\n\n  <figure class=\"media-block\">\n  <div class=\"group-inner\">\n    <div alt=\"Yair Lapid, left, and Naftali Bennett hold their inaugural conference of their \" class=\"embedded-entity\">  <img alt=\"Yair Lapid, left, and Naftali Bennett hold their inaugural conference of their \" height=\"787\" src=\"https://www.middleeasteye.net/sites/default/files/styles/article_page/public/israel-tel-aviv-yair-lapid-naftali-bennett-election-12-may-2026-afp.jpg.webp?itok=KH5_IGNi\" width=\"1400\" />\n\n\n</div>\n\n    <figcaption>Yair Lapid, left, and Naftali Bennett hold their inaugural conference of their \"Together - Under Bennett's Leadership\" party in Tel Aviv, Israel, on 12 May 2026 (AFP)</figcaption>\n  </div>\n</figure>\n\n\n<p><span><img height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span>Bennett, 54, sits on the right, is a longtime opponent of Palestinian statehood and ex-leader of <a href=\"https://myesha.org.il/?CategoryID=419\" style=\"background-color: rgb(255, 255, 255);\">The Yesha Council</a> that represents West Bank settlers. A software multimillionaire, he was Netanyahu’s chief of staff from 2006 to 2008, when they fell out. </p>\n\n<p>Lapid, already known as a TV host and writer, founded Yesh Atid (“There is a Future”) in 2012. A secular centrist, he opposes Palestinian statehood and, like many Jewish politicians, supports the settler movement in principle, while distancing himself from Ben Gvir and Smotrich.</p>\n\n<p>In April, Lapid, 62, <a href=\"https://www.haaretz.com/israel-news/israel-politics/2026-04-26/ty-article/.premium/former-pms-bennett-lapid-say-they-will-merge-parties-in-2026-election/0000019d-ca12-d11b-a7df-ef5ad0650000\">said</a>: “Bennett is a clear right-winger, but he is a liberal, decent, law-abiding right-winger, who did not sell his values - neither to Haredi extortion nor to corruption.”</p>\n\n<p>Both men oppose the ultra-Orthodox draft exemption and have pledged a commission of inquiry into 7 October.</p>\n\n<hr />\n<h3>Yair Golan / The Democrats </h3>\n\n<p><strong>Current seats:</strong> 4/120 </p>\n\n<p>The centre-left Democrats, who regard themselves as a <a href=\"https://www.ynetnews.com/article/syvpczkd0\">“liberal-democratic Zionist party”</a>, formed in 2024 from the Labor Party and the smaller Meretz. They are led by Yair Golan, 64, one of the few Israeli politicians to criticise the killing of Palestinians in Gaza, <a href=\"https://www.nytimes.com/2026/02/04/magazine/yair-golan-israel-palestine-gaza-war.html?eafs_enabled=false\">calling it</a> a “national psychosis”.</p>\n\n  <figure class=\"media-block\">\n  <div class=\"group-inner\">\n    <div alt=\"The Democrats leader Yair Golan meets with potential voters in Tel Aviv, Israel, on 24 September 2026 (AFP) \" class=\"embedded-entity\">  <img alt=\"The Democrats leader Yair Golan meets with potential voters in Tel Aviv, Israel, on 24 September 2026 (AFP) \" height=\"787\" src=\"https://www.middleeasteye.net/sites/default/files/styles/article_page/public/israel-tel-aviv-yair-golan-election-24-september-2026-afp.jpg.webp?itok=bfxHlaXa\" width=\"1400\" />\n\n\n</div>\n\n    <figcaption>The Democrats leader Yair Golan meets with potential voters in Tel Aviv, Israel, on 24 September 2026 (AFP)</figcaption>\n  </div>\n</figure>\n\n\n<p><span><img height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span>Amid a <a href=\"https://www.haaretz.com/israel-news/haaretz-today/2025-05-21/ty-article/.highlight/its-not-a-disgraceful-antisemitic-blood-libel-to-say-israel-is-killing-babies-in-gaza/00000196-edcb-d86e-abb7-fdfb11270000\" style=\"background-color: rgb(255, 255, 255);\">massive backlash</a>, he has qualified that he blames the government, <a href=\"https://www.timesofisrael.com/liveblog_entry/yair-golan-defends-charge-israel-killing-babies-as-a-hobby-as-criticism-against-failed-government-not-idf/\" style=\"background-color: rgb(255, 255, 255);\">not the military</a>. He was deputy chief of staff from 2014 to 2017, re-enlisted on 7 October and is credited with <a href=\"https://www.timesofisrael.com/ex-idf-deputy-chief-of-staff-yair-golan-wins-plaudits-for-saving-partygoers/\" style=\"background-color: rgb(255, 255, 255);\">saving</a> several Israelis amid the Hamas-led attacks, for which many Israelis regard him as a <a href=\"https://www.lemonde.fr/en/m-le-mag/article/2024/01/29/yair-golan-the-october-7-hero-defying-benjamin-netanyahu_6474117_117.html?srsltid=AU7gw4WIqG0y_acxteOEUL-Ie_nUwvb2e3vNFirZkpXD4bF6Dg08ladd\" style=\"background-color: rgb(255, 255, 255);\">war hero</a>. </p>\n\n<p>The Democrats have <a href=\"https://www.middleeasteye.net/news/israel-vast-protests-mps-meet-judicial-coup-reforms\">led</a> protests against judicial reforms, oppose annexing the West Bank, and <a href=\"http://google.com/search?q=do+the+democrats+israel+support+two+state+solution+golan&rlz=1C5OZZY_enGB1129GB1130&oq=do+the+democrats+israel+support+two+state+solution+golan&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRiPAtIBCDgyMThqMGo3qAIAsAIA&sourceid=chrome&source=chrome.ob&ie=UTF-8\">back</a> the two-state solution. </p>\n\n<p>They have an Arab candidate in Soumaya Bashir, and are the only major party to <a href=\"https://www.haaretz.com/israel-news/elections/2026-09-27/ty-article/.premium/golan-backs-arab-role-in-knesset-but-understands-right-wing-hesitation/000001a0-e1a5-d272-adf6-fde7501e0000\">openly support</a> joining Arab parties in a coalition. </p>\n\n<hr />\n<h3>Avigdor Lieberman / Yisrael Beiteinu</h3>\n\n<p><strong>Current seats: </strong>6/120</p>\n\n<p>The right-wing Yisrael Beiteunu (“Our Home”), which relies on Israel’s 1.5 million Russian speakers for support, has been led since 1998 by its founder, <a href=\"https://www.middleeasteye.net/news/avigdor-lieberman-nightclub-bouncer-israels-new-doorman\">Avigdor Lieberman</a>, 68, an emigre from Soviet-era eastern Europe. The party has never finished higher than third, but has been in coalition with seven of the last 10 governments.</p>\n\n  <figure class=\"media-block\">\n  <div class=\"group-inner\">\n    <div alt=\"Avigdor Lieberman, centre, in Tel Aviv, Israel, on 26 September 2026 (AFP)\" class=\"embedded-entity\">  <img alt=\"Avigdor Lieberman, centre, in Tel Aviv, Israel, on 26 September 2026 (AFP)\" height=\"875\" src=\"https://www.middleeasteye.net/sites/default/files/styles/article_page/public/israel-tel-aviv-avigdor-lieberman-26-september-2026-afp.jpg.webp?itok=NNNshA2H\" width=\"1400\" />\n\n\n</div>\n\n    <figcaption>Avigdor Lieberman, centre, in Tel Aviv, Israel, on 26 September 2026 (AFP)</figcaption>\n  </div>\n</figure>\n\n\n<p><span><img height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span>Yisrael Beiteinu backs universal conscription, the expansion of settlements and <a href=\"https://www.middleeasteye.net/news/opposition-leader-says-israel-must-use-all-means-destroy-irans-nuclear-programme\" style=\"background-color: rgb(255, 255, 255);\">tougher stances</a> against <a href=\"https://www.middleeasteye.net/countries/iran\" style=\"background-color: rgb(255, 255, 255);\">Iran</a>, <a href=\"https://www.middleeasteye.net/news/israel-opposition-leader-says-netanyahu-arming-criminal-gangs-gaza\" style=\"background-color: rgb(255, 255, 255);\">Hamas</a> and Hezbollah.</p>\n\n<p>Lieberman has held all the key cabinet roles, including deputy prime minister (2009 - 2012). He has faced probes over alleged <a href=\"https://www.theguardian.com/world/2015/jan/03/israel-avigdor-lieberman-poll-meltdown-corruption-probe\">corruption</a>, allegations of an <a href=\"https://www.middleeasteye.net/news/israel-elections-murder-plot-allegations-battle-russian-votes\">assasination plot</a>, and was <a href=\"https://www.haaretz.com/2001-09-25/ty-article/lieberman-admits-to-assaulting-boy/0000017f-db51-d3ff-a7ff-fbf1d55c0000\">convicted</a> of physically assaulting a 12-year-old boy in 2001.</p>\n\n<p>Known for his <a href=\"https://www.middleeasteye.net/news/five-avigdor-liebermans-worst-outbursts-israels-defence-minister\">brash statements</a>, he was an ally of Netanyahu and served under him in his first term. But their relationship is <a href=\"https://www.newyorker.com/news/daily-comment/a-climax-to-the-saga-of-benjamin-netanyahu-and-avigdor-lieberman\">rocky</a> and Yisrael Beiteinu is now outside Netanyahu’s ruling coalition. Lieberman <a href=\"https://www.timesofisrael.com/liberman-tells-unofficial-oct-7-probe-he-warned-of-hamas-invasion-threat-in-2016/\">claims</a> he warned Netanyahu and Eisenkot of a potential Hamas attack ahead of 7 October. </p>\n\n<hr />\n<h3>The Joint List </h3>\n\n<p><strong>Current seats</strong>: 5/120</p>\n\n<p>Three of Israel’s four major Arab-led parties, Hadash, Ta’al and Balad, are standing together as the Joint List, led by Hadash leader Yousef Jabareen, 54.</p>\n\n  <figure class=\"media-block\">\n  <div class=\"group-inner\">\n    <div alt=\"Avigdor Lieberman, centre, in Tel Aviv, Israel, on 26 September 2026 (AFP)\" class=\"embedded-entity\">  <img alt=\"Avigdor Lieberman, centre, in Tel Aviv, Israel, on 26 September 2026 (AFP)\" height=\"787\" src=\"https://www.middleeasteye.net/sites/default/files/styles/article_page/public/israel-tel-aviv-yousef-jabareen-election-5-october-2026-afp.jpg.webp?itok=PrfYuGKs\" width=\"1400\" />\n\n\n</div>\n\n    <figcaption>Avigdor Lieberman, centre, in Tel Aviv, Israel, on 26 September 2026 (AFP) WRONG CAPTION</figcaption>\n  </div>\n</figure>\n\n\n<p><span><img height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span>The Central Electoral Committee <a href=\"https://www.middleeasteye.net/news/israeli-election-committee-bans-arab-parties-standing-next-months-vote\" style=\"background-color: rgb(255, 255, 255);\">banned</a> the parties from participating in September amid claims that they denied Israel’s existence as a Jewish and democratic state, before that was <a href=\"https://www.aljazeera.com/news/2026/10/2/israels-supreme-court-overturns-election-panel-ban-on-arab-parties\" style=\"background-color: rgb(255, 255, 255);\">overturned</a> by the Supreme Court on 2 October. (Balad leader <a href=\"https://www.middleeasteye.net/opinion/israeli-elections-grotesque-court-spectacle-sets-chilling-precedent\" style=\"background-color: rgb(255, 255, 255);\">Sami Abu Shehadeh</a> has dropped out of the election after the court signalled it would uphold the ban against him for an <a href=\"https://www.arab48.com/%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%D9%88%D8%A2%D8%B1%D8%A7%D8%A1/%D8%B1%D8%A3%D9%8A/2023/10/08/-%D8%B7%D9%88%D9%81%D8%A7%D9%86-%D8%A7%D9%84%D8%A3%D9%82%D8%B5%D9%89--%D9%85%D9%84%D8%A7%D8%AD%D8%B8%D8%A7%D8%AA-%D8%A3%D9%88%D9%84%D9%8A%D8%A9\" style=\"background-color: rgb(255, 255, 255);\">article</a> he wrote regarded as celebrating the Hamas attacks). </p>\n\n<p>All three parties, which are secular, want greater rights for Palestinians in Israel, especially when it comes to <a href=\"https://www.middleeasteye.net/news/palestinian-citizens-israel-protest-against-police-complicity-rising-crime-rates\">crime and policing</a>, condemn Israeli conduct in Gaza and settlements in the West Bank and supports a two-state solution.</p>\n\n<p>Jabareen <a href=\"https://x.com/DrJabareen/status/2108999250579165560?s=20\">said </a>recently in a clear message to the Change Bloc: “Removing the threat called the Netanyahu-Ben Gvir-Smotrich government is our central goal, and we will act in every possible way to send this criminal government home.\"  But past attempts within the List to present a unified front have <a href=\"https://www.middleeasteye.net/opinion/collapse-joint-list-wake-call-palestinian-politicians\">collapsed</a> over ideology.</p>\n\n<p>Hadash, led by <a href=\"http://dleeasteye.net/news/israel-knesset-votes-advance-impeachment-arab-lawmaker-ayman-odeh\">Ayman Odeh</a> until his retirement in May, includes communist and left-wing groups that back Arab and Jewish candidates, including draft refuser <a href=\"https://www.middleeasteye.net/unapologetic-podcast-israel-mp-ofer-cassif-standing-against-genocide\">Ofer Cassif</a>. Ta’al, led by <a href=\"https://www.middleeasteye.net/users/ahmad-tibi\">Ahmad Tibi</a> is regarded as a moderate Arab nationalist party. Balad has proposed a Jewish candidate.</p>\n\n<p>The Joint List hopes to gain enough seats to be a powerbroker in the Knesset, although none of its members have ever been invited to form a coalition. Most Jewish-led parties say they will not work with it. </p>\n\n<hr />\n<h3>Mansour Abbas / Ra’am</h3>\n\n<p><strong>Current seats: </strong>5/120</p>\n\n<p>Ra’am (the Hebrew acronym for the United Arab List), is led by Palestinian citizen of Israel, Mansour Abbas, 52. It is the only Arab-led party to have served in government, during the short-lived Bennett-Lapid coalition from 2021-22. Alongside the Joint List, it was banned in September, before that decision was overturned.</p>\n\n  <figure class=\"media-block\">\n  <div class=\"group-inner\">\n    <div alt=\"Leader of the Arab Israeli party Ra'am Mansour Abbas campaigns in Ka'abiyye-Tabbash-Hajajre, Israel, on 26 September 2026 (AFP)\" class=\"embedded-entity\">  <img alt=\"Leader of the Arab Israeli party Ra'am Mansour Abbas campaigns in Ka'abiyye-Tabbash-Hajajre, Israel, on 26 September 2026 (AFP)\" height=\"787\" src=\"https://www.middleeasteye.net/sites/default/files/styles/article_page/public/israel-mansour-abbas-election-26-september-2026-afp.jpg.webp?itok=TRvEW8OP\" width=\"1400\" />\n\n\n</div>\n\n    <figcaption>Leader of the Palestinian Israeli party Ra'am Mansour Abbas campaigns in Ka'abiyye-Tabbash-Hajajre, Israel, on 26 September 2026 (AFP)</figcaption>\n  </div>\n</figure>\n\n\n<p><span><img height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span>Rooted in political Islam, Ra’am is socially conservative, and <a href=\"https://www.timesofisrael.com/raam-says-israel-committing-unforgivable-crimes-against-humanity-in-gaza/\" style=\"background-color: rgb(255, 255, 255);\">criticises</a> Israeli conduct in Gaza and illegal settlements in the West Bank. But it has more <a href=\"https://www.timesofisrael.com/liveblog_entry/report-raam-party-tells-zionist-opposition-party-heads-it-wont-demand-palestine-recognition-in-coalition-talks/\" style=\"background-color: rgb(255, 255, 255);\">moderate stances</a> toward Israel than other Arab-led parties and is seen by many Jewish Israelis as preferable to the Joint List. </p>\n\n<p>Abbas’ demands from potential Jewish partners include prioritising the civil rights of Palestinian citizens of Israel instead of the Palestinians in the occupied territories.</p>\n\n<p>For the first time it has put forward a <a href=\"https://www.haaretz.com/israel-news/podcasts/2026-08-03/ty-article-podcast/could-a-jewish-politician-joining-an-islamist-party-shake-up-israels-election/0000019f-c6da-d2d0-af9f-fefa76c80000\">Jewish candidate</a>, former police chief and Yesh Atid lawmaker Yoav Segalovitz. </p>\n\n<hr />\n<h3>Aryeh Deri / Shas</h3>\n\n<p><strong>Current seats:</strong> 11/120</p>\n\n<p>Two parties draw strong support from the Haredim, Israel’s ultra-Orthodox Jews, who make up around 14 percent of Israel’s population. Each believes religious authority should govern politics and play a more decisive role in political life.</p>\n\n  <figure class=\"media-block\">\n  <div class=\"group-inner\">\n    <div alt=\"alt\" class=\"embedded-entity\" title=\"Israeli Prime Minister Benjamin Netanyahu, left, and Aryeh Deri, of the Shas party at the Knesset, Jerusalem, in May 2023 (AFP)\">  <img alt=\"alt\" height=\"787\" src=\"https://www.middleeasteye.net/sites/default/files/styles/article_page/public/jerusalem-benjamin-netanyahu-aryeh-deri-23-may-2023-afpjpg.jpg.webp?itok=i32hcXZj\" title=\"Israeli Prime Minister Benjamin Netanyahu, left, and Aryeh Deri, of the Shas party at the Knesset, Jerusalem, in May 2023 (AFP)\" width=\"1400\" />\n\n\n</div>\n\n    <figcaption>Israeli Prime Minister Benjamin Netanyahu, left, and Aryeh Deri, of the Shas party at the Knesset, Jerusalem, in May 2023 (AFP)</figcaption>\n  </div>\n</figure>\n\n\n<p><span><img height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span>Shas is the bigger of the two, backed principally by Sephardic and Mizrahi ultra-Orthodox. It has sat in seven of the last 10 Israeli governments and is part of the ruling coalition. In recent years it has moved further to the right, aligning itself with Ben Gvir.</p>\n\n<p>The party is chaired in the Knesset by rabbi Aryeh Deri, 67, who has had 10 ministerial roles since the 1980s. He <a href=\"http://news.bbc.co.uk/1/hi/world/middle_east/319863.stm\">served</a> two years in prison for taking bribes in the early 2000s.</p>\n\n<p>Shas is focused on protecting Torah study and the rights of its ultra-conservative voter base. In government, it has demanded funding for Haredi institutions and welfare benefits: more than half of the Haredim do not work, prioritising Torah study. In exchange, it has voted with Netanyahu on issues such as the genocide in Gaza and West Bank expansion. </p>\n\n<p>Shas ministers quit the cabinet in 2025 over Netanyahu’s plans to end Haredim military exemption, although continued to back him on other key issues. </p>\n\n<hr />\n<h3>Yaakov Asher / United Torah Judaism </h3>\n\n<p><strong>Current seats:</strong> 7/120</p>\n\n<p>United Torah Judaism (UTJ) is heavily backed by Ashkenazi branches of Judaism and is itself a union between two groups that occasionally <a href=\"https://www.jpost.com/israel-news/haredi-parties-split-up-in-jerusalem-elections-first-time-in-30-years-565542\">fall out</a>: the Hasidic Agudat Yisrael and the Lithuanian Degel HaTorah. It is chaired in the Knesset by Yaakov Asher, although its ultimate authorities are more senior rabbis. </p>\n\n  <figure class=\"media-block\">\n  <div class=\"group-inner\">\n    <div alt=\"alt\" class=\"embedded-entity\">  <img alt=\"alt\" height=\"1086\" src=\"https://www.middleeasteye.net/sites/default/files/yaakev-asher-israel-utj-creative-commons.jpg\" width=\"1400\" />\n\n</div>\n\n    <figcaption>The UTJ is chaired in the Knesset by Yaakov Asher, although its ultimate authorities are more senior rabbis (Creative Commons).</figcaption>\n  </div>\n</figure>\n\n\n<p><span><img height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span>Like Shas, its priorities centre around preserving ultra-Orthodox life. Although many of the party’s voters live in settlements, the party is officially<a href=\"https://blogs.timesofisrael.com/united-torah-judaism-lithuanian-and-hasidic-judaism-at-the-heart-of-israeli-politics/\" style=\"background-color: rgb(255, 255, 255);\"> not Zionist</a>, instead believing that a Jewish state should only be established after the Messiah arrives. Some rabbis from the party have <a href=\"https://www.timesofisrael.com/senior-haredi-lawmaker-i-dont-understand-what-we-are-fighting-for-in-gaza/\" style=\"background-color: rgb(255, 255, 255);\">criticised</a> the war on Gaza, citing the deaths of Israeli soldiers. </p>\n\n<p>But it is conscription that has all but undone the party’s alliance with Netanyahu.</p>\n\n<p>In May, UTJ <a href=\"https://www.aljazeera.com/news/2026/5/16/how-ultra-orthodox_recruitment_could_unseat_netanyahu_in_israeli_elections\">pulled support</a> and called for the collapse of the government after it failed to pass laws securing their military exemption. It had done so previously in 2025, though continued voting with Netanyahu on key decisions. </p>\n\n<p>The party now <a href=\"https://www.timesofisrael.com/liveblog_entry/report-angry-with-netanyahu-haredi-utj-wont-oppose-eisenkot-led-government/\">reportedly</a> sees Eisenkot as a preferred coalition partner to Netanyahu. </p>\n</div>\n                  <div class=\"field field-field-topic\"><a href=\"https://www.middleeasteye.net/topics/israeli-elections\" hreflang=\"en\">Israeli Elections</a></div>\n                  <div class=\"field field-field-landing-title\">Israel’s election: Who are the main leaders and where do they stand on key issues?</div>\n                  <div class=\"field field-field-section\"><a href=\"https://www.middleeasteye.net/explainers/all\" hreflang=\"en\">Explainers</a></div>\n        <div class=\"field field-field-post-date-override\">\n    <div>Post Date Override</div>\n              <div>0</div>\n          </div>\n  <div class=\"field field-field-update-date-override\">\n    <div>Update Date</div>\n              <div><time datetime=\"2020-05-04T21:29:16+01:00\">Mon, 05/04/2020 - 21:29</time>\n</div>\n          </div>\n  <div class=\"field field-field-update-date-check\">\n    <div>Update Date Override</div>\n              <div>0</div>\n          </div>\n\n  </div>\n  \n</article>",
+      "link": "https://www.middleeasteye.net/explainers/election-israel-gaza-netanyahu-eisenkot-policy-draft",
+      "published": "Thu, 15 Oct 2026 10:41:13 +0100",
+      "source": "Middle East Eye"
+    },
+    {
+      "title": "Ukraine to Resume Russian Oil Refinery Strikes After Failed Energy Ceasefire",
+      "summary": "Ukraine will resume drone strikes on Russian refineries after Russia kept hitting energy infrastructure and killing civilians in Ukraine despite U.S. President Trump’s claim of an “energy ceasefire”, Ukrainian President Volodymyr Zelenskyy told the Financial Times. In the interview in London, the Ukrainian President told FT he had ordered a pause in strikes on Russian refineries for three days to comply with the U.S. wishes. Meanwhile, Russia continued to strike Ukraine’s energy infrastructure and kill civilians, Zelenskyy…",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Ukraine-to-Resume-Russian-Oil-Refinery-Strikes-After-Failed-Energy-Ceasefire.html",
+      "published": "Thu, 15 Oct 2026 04:30:00 -0500",
+      "source": "OilPrice"
+    },
+    {
+      "title": "Houthis say no attacks against Saudi Arabia conducted today, after coalition forces report missile downed",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-no-attacks-against-saudi-arabia-conducted-today-after\" rel=\"bookmark\">\n<span class=\"field field-title\">Houthis say no attacks against Saudi Arabia conducted today, after coalition forces report missile downed</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Yahya Saree, the Houthi military spokesperson, has confirmed that the group has not launched any attacks against Saudi Arabia on Thursday.</p>\n\n<p>This comes after Saudi-led coalition forces reported that they had downed a cruise missile fired towards Medina.</p>\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-say-no-attacks-against-saudi-arabia-conducted-today-after",
+      "published": "Thu, 15 Oct 2026 10:28:18 +0100",
+      "source": "Middle East Eye"
+    },
+    {
+      "title": "Netanyahu's dilemma: Iran escalation risks handing election win to Eisenkot",
+      "summary": "<img align=\"right\" alt=\"(L-R): Yashar head Gadi Eisenkot; Prime Minister Benjamin Netanyahu (photo credit: FLASH90)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1289/740535\" title=\"(L-R): Yashar head Gadi Eisenkot; Prime Minister Benjamin Netanyahu (photo credit: FLASH90)\" /><br />Israel has told Washington it would prefer military action against Iran to begin after the October 27 election, according to sources familiar with the matter.<br />",
+      "link": "https://www.jpost.com/israel-election-2026/article-911761",
+      "published": "Thu, 15 Oct 2026 09:22:39 GMT",
+      "source": "Jerusalem Post"
+    },
+    {
+      "title": "Saudi-led coalition says it intercepted and destroyed missile over Medina",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-intercepted-and-destroyed-missile-over\" rel=\"bookmark\">\n<span class=\"field field-title\">Saudi-led coalition says it intercepted and destroyed missile over Medina</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Saudi-led coalition forces intercepted and destroyed a cruise missile in the Medina area, Turki al-Maliki, the coalition spokesperson reports.</p>\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-it-intercepted-and-destroyed-missile-over",
+      "published": "Thu, 15 Oct 2026 10:13:53 +0100",
+      "source": "Middle East Eye"
+    },
+    {
+      "title": "‘New Girl’ star Jake Johnson lists lush and private Pasadena estate for $3.3 million",
+      "summary": "Jake Johnson is looking to sell his four-bedroom, four-bathroom Southern California property, which offers approximately 3,153 square feet of living space.",
+      "link": "https://www.marketwatch.com/story/new-girl-star-jake-johnson-lists-lush-and-private-pasadena-estate-for-3-3-million-b6788838?mod=mw_rss_topstories",
+      "published": "Thu, 15 Oct 2026 09:01:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "UK threatens to ban Eritreans over returns policy",
+      "summary": "<p>Move comes after east African country abruptly withdrew returns cooperation earlier this year</p><ul><li><p><a href=\"https://www.theguardian.com/politics/live/2026/oct/15/uk-politics-latest-news-updates-nigel-farage-reform-labour-conservatives\">UK politics live – latest updates</a></p></li></ul><p>Eritreans could be stopped from coming to the UK unless the country agrees to accept more rejected asylum seekers and criminals, Shabana Mahmood has warned.</p><p>VIPs and officials from the east African country have already been stripped of fast-track access to UK visas after their government refused to cooperate with the return of its nationals, the home secretary said.</p> <a href=\"https://www.theguardian.com/uk-news/2026/oct/15/uk-threatens-to-ban-eritreans-over-returns-policy\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/uk-news/2026/oct/15/uk-threatens-to-ban-eritreans-over-returns-policy",
+      "published": "Thu, 15 Oct 2026 08:45:43 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "'Mother of all bombs': US potential Iran strike plans include largest non-nuclear weapon - report",
+      "summary": "<img align=\"right\" alt=\"This US Department of Defense (DoD) handout photo shows the Massive Ordinance Air Blast (MOAB) weapon March 11, 2003 at Eglin Air Force Base, Florida. (photo credit: DoD/Getty Images)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_537,w_822/742076\" title=\"This US Department of Defense (DoD) handout photo shows the Massive Ordinance Air Blast (MOAB) weapon March 11, 2003 at Eglin Air Force Base, Florida. (photo credit: DoD/Getty Images)\" /><br />According to CNN, multiple US officials said that the plans called for the MOAB to be used against Iranian energy infrastructure and nuclear sites, including Pickaxe Mountain.<br />",
+      "link": "https://www.jpost.com/middle-east/iran-news/article-911758",
+      "published": "Thu, 15 Oct 2026 08:11:09 GMT",
+      "source": "Jerusalem Post"
+    },
+    {
+      "title": "Containers and debris captured floating around the Strait of Hormuz",
+      "summary": "Video shows containers and debris scattered around the Strait of Hormuz due to the recent attacks on vessels.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/15/containers-and-debris-captured-floating-around-the-strait-of-hormuz?traffic_source=rss",
+      "published": "Thu, 15 Oct 2026 08:06:06 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "IMF Warns of Worldwide Fallout as Attacks on Saudi Arabia Escalate",
+      "summary": "Strikes on Saudi infrastructure by the Yemeni Houthis could affect the global economy, the managing director of the International Monetary Fund has warned. Speaking at a joint event with the World Bank in Thailand, Kristalina Georgieva said that despite this danger, Saudi Arabia remains resilient and has a better economic outlook than most of its neighbors thanks to its diversification efforts in recent years as it aimed to reduce the share of oil revenues in its budget. Still, the situation remains difficult, with a high risk of further rises…",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/IMF-Warns-of-Worldwide-Fallout-as-Attacks-on-Saudi-Arabia-Escalate.html",
+      "published": "Thu, 15 Oct 2026 03:00:00 -0500",
+      "source": "OilPrice"
+    },
+    {
+      "title": "Lithium Prices Plunge as EU-China Trade Deal Sparks Demand Fears",
+      "summary": "Lithium prices have slumped, following a deal between the European Union and China that will cut Chinese hybrid car exports to the bloc. Since the start of the week, China’s most actively traded lithium futures contract has dropped by 14%, Bloomberg reported earlier today. The oil crisis caused by the war in the Middle East had sparked hopes that battery demand will expand, as drivers increasingly switch from gasoline and diesel cars to electric vehicles. However, protectionist measures taken by European Union authorities against Chinese…",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Lithium-Prices-Plunge-as-EU-China-Trade-Deal-Sparks-Demand-Fears.html",
+      "published": "Thu, 15 Oct 2026 02:00:00 -0500",
+      "source": "OilPrice"
+    },
+    {
+      "title": "G20 finance ministers, central bankers gather amid fallout from Iran war",
+      "summary": "Officials meet in Thailand as conflict drives energy prices higher and casts uncertainty over global economy.",
+      "link": "https://www.aljazeera.com/economy/2026/10/15/g20-finance-ministers-central-bankers-gather-amid-fallout-from-iran-war?traffic_source=rss",
+      "published": "Thu, 15 Oct 2026 06:16:46 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Thursday briefing: Thanks to an erratic Trump, peace in Ukraine is still far away",
+      "summary": "<p>In today’s newsletter: As Russia resists a ceasefire and Trump’s shifting priorities unsettle allies, an end to the conflict isn’t getting any closer</p><p>Good morning. In his usual <s>asinine</s> unconventional approach to international relations, Donald Trump announced on Sunday (via Truth Social, how else) an “ENERGY CEASEFIRE in the War between Russia and Ukraine”, apparently without checking with either side. Volodymyr Zelenskyy, who said any such deal was “news to me,” nonetheless declared he was “ready and we will accept it”. Vladimir Putin responded by <a href=\"https://www.theguardian.com/world/2026/oct/12/ukraine-war-briefing-russia-attacks-multiple-power-plants-after-trump-energy-ceasefire-claim\">blowing up</a> some Ukrainian power plants.</p><p>This has been the tenor of much diplomacy during Trump’s tenure: false starts, U-turns, incoherent positions (and some <a href=\"https://www.reuters.com/world/neither-putin-nor-trump-wanted-hang-up-first-kremlin-aide-says-after-very-2026-10-10/\">playful flirting</a> with Vlad). Meanwhile fighting continues, and America’s allies attempt to manage the fallout. Andy Burnham <a href=\"https://www.theguardian.com/politics/live/2026/oct/14/pmqs-andy-burnham-kemi-badenoch-zelenskyy-uk-politics-latest-news\">hosted Zelenskyy</a> at Downing Street yesterday, stating the UK is doubling down on its support for Ukraine, and pointedly calling on others to “follow suit”.</p><p><em><strong>UK </strong></em>| Sally Rooney has said she is being forced to <a href=\"https://www.theguardian.com/uk-news/2026/oct/14/sally-rooney-says-she-can-no-longer-sell-books-in-the-uk-because-of-palestine-action-support\">withdraw her books from sale</a> in the UK because of her support for the banned organisation Palestine Action.</p><p><em><strong>Gaza </strong></em>| Israel is <a href=\"https://www.theguardian.com/us-news/2026/oct/14/israel-trump-peace-board-gaza-base\">refusing to allow a key military outpost</a> project for Donald Trump’s Board of Peace to proceed in Gaza, the Guardian has learned.</p><p><em><strong>EU </strong></em>| Britain will benefit from much closer trading relations with the EU even if that means giving up its ability to negotiate free trade agreements, the <a href=\"https://www.theguardian.com/politics/2026/oct/14/closer-eu-trade-ties-uk-europe-douglas-alexander\">Scotland secretary has said</a>.</p><p><em><strong>Ukraine </strong></em>| Ukraine’s military has suddenly had its access to Starlink <a href=\"https://www.theguardian.com/world/2026/oct/14/ukraine-soldiers-combat-access-starlink-satellite-internet-restricted\">satellite internet terminals restricted</a> as the Trump administration has increased pressure on Ukraine to immediately halt long-range strikes on Russia’s oil industry.</p><p><em><strong>Vaccine </strong></em>| Guinea-Bissau <a href=\"https://www.theguardian.com/world/2026/oct/14/guinea-bissau-vaccine-hepatitis-b-trial-denial\">has not approved</a> the controversial hepatitis B study in newborns that would be funded by the US government and private partners, the African country’s minister of health said.</p> <a href=\"https://www.theguardian.com/world/2026/oct/15/thursday-briefing-thanks-to-an-erratic-trump-peace-in-ukraine-is-still-far-away\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/oct/15/thursday-briefing-thanks-to-an-erratic-trump-peace-in-ukraine-is-still-far-away",
+      "published": "Thu, 15 Oct 2026 05:44:12 GMT",
+      "source": "The Guardian"
     },
     {
       "title": "Albanian Ministry of Justice on fire as education protesters riot",
@@ -70,144 +252,11 @@
       "source": "Al Jazeera"
     },
     {
-      "title": "OpenAI bugging suspect allegedly booked one-way trip to Saudi Arabia",
-      "summary": "Saudi national Abdulrahman Alfozan was due to fly to Saudi Arabia on October 12, US prosecutors say in court filing.",
-      "link": "https://www.aljazeera.com/economy/2026/10/15/openai-bugging-suspect-allegedly-booked-one-way-trip-to-saudi-arabia?traffic_source=rss",
-      "published": "Thu, 15 Oct 2026 03:28:44 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "US Space Force electromagnetic weapons played key role in Venezuela, Iran operations - report",
-      "summary": "<img align=\"right\" alt=\"The Axiom Mission 3 launches to the International Space Station at Cape Canaveral, Florida, U.S. January 18, 2024. (photo credit: JOE SKIPPER/REUTERS)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_3075,w_4683/585970\" title=\"The Axiom Mission 3 launches to the International Space Station at Cape Canaveral, Florida, U.S. January 18, 2024. (photo credit: JOE SKIPPER/REUTERS)\" /><br />The US Space Force has also accelerated the deployment of a new jamming system, allowing US personnel to deploy electronic warfare capabilities quickly.<br />",
-      "link": "https://www.jpost.com/defense-and-tech/article-911749",
-      "published": "Thu, 15 Oct 2026 03:13:56 GMT",
-      "source": "Jerusalem Post"
-    },
-    {
-      "title": "US considers easing sanctions on shadow fleet vessels to cut freight rates, official says",
-      "summary": "<img align=\"right\" alt=\"A sailboat sails as a boat approaches to the boarding ladder of the Iranian oil tanker Grace 1 as it sits anchored after it was seized in July by British Royal Marines off the coast of the British Mediterranean territory on suspicion of violating sanctions against Syria, in the Strait of Gibraltar,  (photo credit: REUTERS/JON NAZCA)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_1538,w_2595/687209\" title=\"A sailboat sails as a boat approaches to the boarding ladder of the Iranian oil tanker Grace 1 as it sits anchored after it was seized in July by British Royal Marines off the coast of the British Mediterranean territory on suspicion of violating sanctions against Syria, in the Strait of Gibraltar,  (photo credit: REUTERS/JON NAZCA)\" /><br />The new talks center on the United States potentially allowing \"legal oil\" to flow on previously sanctioned vessels, the US official said.<br />",
-      "link": "https://www.jpost.com/international/article-911750",
-      "published": "Thu, 15 Oct 2026 03:10:44 GMT",
-      "source": "Jerusalem Post"
-    },
-    {
-      "title": "X suspends 13,000 accounts linked to Iran, China and Russia 'targeting US politics'",
-      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/x-suspends-13000-accounts-linked-iran-china-and-russia-targeting-us\" rel=\"bookmark\">\n<span class=\"field field-title\">X suspends 13,000 accounts linked to Iran, China and Russia 'targeting US politics'</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Social media platform X says it has recently identified and suspended more than 13,000 accounts involved in three suspected foreign influence operations, linked to Iran, Russia and China, that targeted US “political conversation”.</p>\n\n<p>The company did not specify how many accounts were linked to each of the three countries.</p>\n\n<p>In a post on the platform, X’s Global Government Affairs said the networks “used inauthentic accounts to post and amplify content about US politics, targeting candidates and public figures across the political spectrum”.</p>\n\n<p>X said its Safety team uses a variety of detection methods to proactively find and act on activity that breaks its rules, as the platform prepares for the upcoming 2026 US midterms. The company said its Authenticity Policy is central to this work, whether the target is spam networks or entities engaged in influence operations.</p>\n\n<blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"en\">People come to X to talk about what's happening in the world, including the upcoming 2026 US midterms. Free speech is the bedrock of a functioning democracy, and we are proud that X is the global town square where these debates happen. Our job is to keep that conversation authentic, open, and safe. To ensure these fundamental values are protected during elections, our Safety team uses a variety of detection methods to proactively find and act on activity that breaks the X Rules. These measures build on the safety protections we run 24/7, year-round. X's Authenticity Policy is particularly important to this work. Whether it is spam networks or entities engaged in influence operations, we are actively working to identify and stop coordinated inauthentic behavior that undermines the integrity of our platform.  Through proactive sweeps and investigations, X recently identified and suspended more than 13,000 accounts involved in three suspected foreign influence operations linked to Iran, Russia, and China that targeted US political conversation. The networks used inauthentic accounts to post and amplify content about US politics, targeting candidates and public figures across the political spectrum.  X's Civic Integrity policy addresses misleading content that could affect participation in elections or other civic processes. This includes content that may confuse people about how, when, or where to participate, or that aims to discourage participation. X relies on Community Notes, which let people add context and credible sources, alongside platform moderation. Users can report content under \"Civic Integrity\" in our in-app reporting flow, and their submission will be routed to request a Community Note, a collaborative way to add helpful context to posts and keep people better informed. Additionally, in critical escalations, X may apply a Civic Integrity label to posts that violate our policy. We remain committed to X as a global town square where people openly debate topics of public interest and engage with election-related information. Our work continues through Election Day and beyond. See our Civic Integrity Policy for more information: https://t.co/FJFuvEC9RE</p>\n— Global Government Affairs (@GlobalAffairs) <a href=\"https://x.com/GlobalAffairs/status/2110430142199644314?ref_src=twsrc%5Etfw\">October 14, 2026</a></blockquote>\n</div>\n      \n  </div>\n\n</article>",
-      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/x-suspends-13000-accounts-linked-iran-china-and-russia-targeting-us",
-      "published": "Thu, 15 Oct 2026 03:14:04 +0100",
-      "source": "Middle East Eye"
-    },
-    {
-      "title": "Saudi-led coalition intercepts drone over Saudi airspace, spokesman says",
-      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-intercepts-drone-over-saudi-airspace-spokesman-says\" rel=\"bookmark\">\n<span class=\"field field-title\">Saudi-led coalition intercepts drone over Saudi airspace, spokesman says</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>The Saudi-led coalition in Yemen has intercepted and destroyed an incoming drone over Saudi Arabia’s Eastern Province, spokesperson Major General Turki al-Maliki said in a post on X.</p>\n\n<p>Earlier,  Houthis claimed they targeted a Saudi military aircraft, a Eurofighter Typhoon, with an air-to-air missile in the airspace over Yemen’s Saada governorate.</p>\n</div>\n      \n  </div>\n\n</article>",
-      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-intercepts-drone-over-saudi-airspace-spokesman-says",
-      "published": "Thu, 15 Oct 2026 02:48:44 +0100",
-      "source": "Middle East Eye"
-    },
-    {
-      "title": "Trump again: 'Iran lost all its defences, war will end soon, fuel prices drop'",
-      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/trump-again-iran-lost-all-its-defences-war-will-end-soon-fuel-prices\" rel=\"bookmark\">\n<span class=\"field field-title\">Trump again: 'Iran lost all its defences, war will end soon, fuel prices drop'</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>US President Donald Trump has reiterated that the war on Iran will end “very soon”, while claiming Washington was in \"total control\" of the Strait of Hormuz.</p>\n\n<p>Speaking at a rally in Bullhead City, Arizona, Trump said Iran had lost its navy, air force, radar systems, and air defences.</p>\n\n<p>“Their first level leaders are gone. They picked a second level. Their second level leaders have gone. They picked the third level. Half of them are gone, they made me promise not to take out anymore. And I did. I promised them. he said.</p>\n\n<p>“So I probably went a little too far. I’m sorry, because I don’t know who the hell we’re dealing with anymore.”</p>\n\n<p>Trump said the conflict had pushed up fuel prices, but will drop \"very soon\" when the war ends.</p>\n</div>\n      \n  </div>\n\n</article>",
-      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-again-iran-lost-all-its-defences-war-will-end-soon-fuel-prices",
-      "published": "Thu, 15 Oct 2026 02:33:51 +0100",
-      "source": "Middle East Eye"
-    },
-    {
-      "title": "US employees 'need' special authorisation to use Saudi airports",
-      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/us-employees-need-special-authorisation-use-saudi-airports\" rel=\"bookmark\">\n<span class=\"field field-title\">US employees 'need' special authorisation to use Saudi airports</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>The United States embassy in Saudi Arabia has said US government employees require special authorisation from Chief of Mission to use any airport in the kingdom following recent Houthi missile and drone attacks.</p>\n\n<p>In a security alert, the embassy urged US citizens to follow alerts released by Saudi Arabia’s Civil Defence via cellular broadcast, while warning them of potential attacks on airports, airspace closures, flight cancellations and other travel disruptions.</p>\n\n<p>It urged US citizens to exercise “extreme caution” when using Saudi airports and to check flight statuses directly with airlines.</p>\n\n<blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"en\">Saudi Arabia: U.S. citizens are reminded to follow the guidance of national alerts released by Saudi Arabia’s Civil Defense via cellular broadcast. U.S. government employees working in Saudi Arabia require special authorization from Chief of Mission to use any airport in Saudi Arabia following recent missile and UAV attacks on airports in the Kingdom. Saudi Arabia’s General Authority of Civil Aviation extended the suspension of operations at King Khalid International Airport in Riyadh through October 17. King Abdulaziz International Airport in Jeddah and King Fahd International Airport in Dammam are operational with some delays and cancellations. U.S. citizens should be aware of potential attacks on airports, airspace closures, flight cancellations, and travel disruptions. Please take extreme caution if you choose to use airports in Saudi Arabia. We recommend checking your flight departure status directly with the airline and with the airport. More at https://t.co/40vTFgJuRu</p>\n— TravelGov (@TravelGov) <a href=\"https://x.com/TravelGov/status/2110459800618471660?ref_src=twsrc%5Etfw\">October 14, 2026</a></blockquote>\n</div>\n      \n  </div>\n\n</article>",
-      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/us-employees-need-special-authorisation-use-saudi-airports",
-      "published": "Thu, 15 Oct 2026 02:05:25 +0100",
-      "source": "Middle East Eye"
-    },
-    {
-      "title": "Trump says ‘leakers should be shot’ at Arizona rally, days after approving firing-squad execution",
-      "summary": "<img align=\"right\" alt=\"US President Donald Trump attends a campaign rally at Laughlin/Bullhead International Airport in Bullhead City, Arizona, US, October 14, 2026. (photo credit: REUTERS/Evan Vucci)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_3767,w_5650/742064\" title=\"US President Donald Trump attends a campaign rally at Laughlin/Bullhead International Airport in Bullhead City, Arizona, US, October 14, 2026. (photo credit: REUTERS/Evan Vucci)\" /><br />Recalling a leak Trump said delayed the June 2025 B-2 strikes on Iran’s nuclear facilities, the president declared: “In the old days, we used to shoot leakers.”<br />",
-      "link": "https://www.jpost.com/international/article-911745",
-      "published": "Thu, 15 Oct 2026 00:41:17 GMT",
-      "source": "Jerusalem Post"
-    },
-    {
-      "title": "Iran war live: Tehran vows to fight until US yields as ships sink in Hormuz",
-      "summary": "Iran says it does not seek an endless war, but vows to fight until the US accepts its demands as ships sink in Hormuz.",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/10/15/iran-war-live-tehran-vows-to-fight-until-us-yields-as-ships-sink-in-hormuz?traffic_source=rss",
-      "published": "Thu, 15 Oct 2026 00:00:00 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "US destroys dhow suspected of Iranian command and control",
-      "summary": "The US says it destroyed an Iran-affiliated boat in the Gulf of Oman, accusing it of conducting surveillance.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/14/us-destroys-dhow-suspected-of-iranian-command-and-control?traffic_source=rss",
-      "published": "Wed, 14 Oct 2026 23:58:13 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Student protests in Albania turn violent as demonstrators clash with police",
-      "summary": "<p>Dozens of people detained after government building and two banks set on fire  as tens of thousands march over education costs and corruption</p><p>Tens of thousands of students have taken to the streets of Tirana, the Albanian capital, setting alight a government building and two banks and hurling stones at police during a protest over rising education costs and ⁠corruption.</p><p>Police responded with water ⁠cannon and teargas to disperse protesters who started a fire at the ministry of education building, overturned bins and smashed the fronts of local businesses. A branch of Raiffeisen Bank near the education ministry also caught fire.</p> <a href=\"https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes",
-      "published": "Wed, 14 Oct 2026 23:19:43 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Oil Market Tightens as Tanker Attacks and Inventory Draws Mount",
-      "summary": "Brent crude is once again over $106, Iran is intensifying attacks on tankers in Hormuz, and global inventories are draining, while OPEC just forecast stronger demand for next year. Six months ago, one well-timed TruthSocial post by President Trump would have calmed traders down. Now, this no longer works as fundamentals trump talk. Earlier in the war between the United States and Israel, and Iran, U.S. top officials could push prices lower with a statement about peace talks. There was even a brief ceasefire in June that pressured prices for weeks,…",
-      "link": "https://oilprice.com/Energy/Crude-Oil/Oil-Market-Tightens-as-Tanker-Attacks-and-Inventory-Draws-Mount.html",
-      "published": "Wed, 14 Oct 2026 18:00:00 -0500",
-      "source": "OilPrice"
-    },
-    {
-      "title": "US Crude Oil Inventories See Massive Drop Off",
-      "summary": "The American Petroleum Institute (API) estimated that crude oil inventories in the United States fell by a massive 11.12 million barrels in the week ending October 9. In the week prior, US crude oil inventories fell by 2.09 million barrels. Commercial crude oil inventories excluding the SPR have lost more than 51 million barrels over the last 26 weeks, but US crude inventories are at roughly the same level as they were at the beginning of the year, according to API data, kept in check in part thanks to draws from the SPR. For the week ending October…",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/US-Crude-Oil-Inventories-See-Massive-Drop-Off.html",
-      "published": "Wed, 14 Oct 2026 16:43:47 -0500",
-      "source": "OilPrice"
-    },
-    {
-      "title": "Deliveries Are Still Being Delayed As Container Freight Rates Fluctuate",
-      "summary": "Container freight rates from Asia to Europe have fallen significantly since July, but shipping delays remain a challenge for importers in Europe, according to Sogese’s October Europe Container Market Update, published earlier this week. Drewry’s Shanghai–Genoa spot rate fell from $6,463 per 40-foot container on 9 July to $3,702 on 1 October, a reduction of ...",
-      "link": "https://www.hellenicshippingnews.com/deliveries-are-still-being-delayed-as-container-freight-rates-fluctuate/",
-      "published": "Wed, 14 Oct 2026 21:00:59 +0000",
-      "source": "Hellenic Shipping News"
-    },
-    {
-      "title": "Suez Canal container ship transits exceed 50% of pre-disruption levels",
-      "summary": "“During the first two weeks of October, weekly container ship capacity transiting the Suez Canal averaged 753k TEU, according to Clarksons Research, compared with 1,457k TEU during the same period in 2023. Since the Houthi attacks began in the Red Sea, this is the first time that transits have exceeded 50% of pre-disruption levels,” says ...",
-      "link": "https://www.hellenicshippingnews.com/suez-canal-container-ship-transits-exceed-50-of-pre-disruption-levels/",
-      "published": "Wed, 14 Oct 2026 21:00:58 +0000",
-      "source": "Hellenic Shipping News"
-    },
-    {
-      "title": "MPA, CMA CGM and SLNG Sign Memorandum of Understanding to Advance Liquefied Bio-Methane as Marine Fuel Pathway",
-      "summary": "The Maritime and Port Authority of Singapore (MPA), the CMA CGM Group, and Singapore LNG Corporation Pte Ltd (SLNG) have signed a Memorandum of Understanding (MOU) to explore the supply and use of liquefied bio-methane as a marine fuel in Singapore. The MOU was signed by Mr Ang Wee Keong, Chief Executive of MPA, Mr ...",
-      "link": "https://www.hellenicshippingnews.com/mpa-cma-cgm-and-slng-sign-memorandum-of-understanding-to-advance-liquefied-bio-methane-as-marine-fuel-pathway/",
-      "published": "Wed, 14 Oct 2026 21:00:57 +0000",
-      "source": "Hellenic Shipping News"
-    },
-    {
-      "title": "Trump Announces $80 Billion Taiwan LNG Deal",
-      "summary": "President Donald Trump has announced a massive new energy agreement with Taiwan, claiming the island will purchase between $70 billion and $80 billion worth of liquefied natural gas from Alaska over the next two decades, as Asian importers scramble to secure supplies beyond the increasingly dangerous Strait of Hormuz. In a Truth Social post on Wednesday, Trump said Taiwan had committed to purchasing 30% of the planned Alaska LNG project's output for 20 years, alongside a $4.4 billion equity investment. The president described the arrangement as…",
-      "link": "https://oilprice.com/Energy/Natural-Gas/Trump-Announces-80-Billion-Taiwan-LNG-Deal.html",
-      "published": "Wed, 14 Oct 2026 16:00:00 -0500",
-      "source": "OilPrice"
-    },
-    {
       "title": "U.S. Forces Destroy Iranian-Linked Dhow Accused of Targeting Navy Ships",
       "summary": "U.S. forces destroyed an Iranian-affiliated dhow in the Gulf of Oman on October 6 after determining that the vessel was conducting surveillance and helping target American warships, U.S. Central Command...",
       "link": "https://gcaptain.com/u-s-forces-destroy-iranian-linked-dhow-accused-of-targeting-navy-ships/",
       "published": "Wed, 14 Oct 2026 20:01:31 +0000",
       "source": "gCaptain"
-    },
-    {
-      "title": "Britain's $47 Billion North Sea Oil Decision Hangs in the Balance",
-      "summary": "Approval for more oil and gas drilling at the North Sea sites Jackdaw and Rosebank have been delayed by “government process” and lengthy bureaucratic wrangling, Prime Minister Andy Burnham has said.  Burnham told MPs that he would take a “pragmatic approach” on oil and gas drilling amid calls from energy bosses for drilling to go ahead at the two sites, which were blocked by Scottish courts on environmental grounds in 2024.  The energy secretary, Miatta Fahnbulleh, is expected to make a decision on whether to give…",
-      "link": "https://oilprice.com/Energy/Energy-General/Britains-47-Billion-North-Sea-Oil-Decision-Hangs-in-the-Balance.html",
-      "published": "Wed, 14 Oct 2026 15:00:00 -0500",
-      "source": "OilPrice"
-    },
-    {
-      "title": "In Ukraine, civilian casualties were already rising. Restrictions on Starlink will only worsen the death toll",
-      "summary": "<p>Throttling of mobile internet system will affect Kyiv’s air defences more than its strikes on oil refineries. Now Zelenskyy must be hoping that US intel holds</p><p>In Ukraine the situation was already jittery enough. Donald Trump has been inventing ceasefires and buying Russian diesel to shore up his flagging popularity, while a sinister new wave of faster, jet-powered drones are breaking through Kyiv’s stretched air defences. Casualties are rising as the weather turns.</p><p>Overnight, Russia bombed three power plants that supply Kyiv, aiming to cut off heating and electricity to the city. According to the president, Volodymyr Zelenskyy, for a second night in a row no warning came from Ukraine’s western allies of the incoming ballistic missiles – and so no air raid alert was issued.</p> <a href=\"https://www.theguardian.com/world/2026/oct/14/ukraine-starlink-civilian-casualties-death-toll\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/oct/14/ukraine-starlink-civilian-casualties-death-toll",
-      "published": "Wed, 14 Oct 2026 18:54:34 GMT",
-      "source": "The Guardian"
     },
     {
       "title": "Bulk Carrier Sinks Weeks After Deadly Strait of Hormuz Strike",
@@ -238,13 +287,6 @@
       "source": "gCaptain"
     },
     {
-      "title": "Ukrainian military’s access to Starlink satellite internet suddenly restricted",
-      "summary": "<p>Launch of Russian ballistic missiles on Ukraine, with no US warning, coincides with outage of Starlink managed by Musk’s SpaceX</p><p>Ukraine’s military has suddenly had its access to Starlink satellite internet terminals restricted as the Trump administration has increased pressure on Ukraine to halt long-range strikes on Russia’s oil industry immediately.</p><p>The terminals, which are produced by Elon Musk’s SpaceX but managed by the US government, are a key component of Ukraine’s military operations and the sudden restrictions on the terminals travelling at high speeds on Tuesday evening led to the failure of several combat missions, said an adviser on military technology to Ukraine’s president, Volodymyr Zelenskyy.</p> <a href=\"https://www.theguardian.com/world/2026/oct/14/ukraine-soldiers-combat-access-starlink-satellite-internet-restricted\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/oct/14/ukraine-soldiers-combat-access-starlink-satellite-internet-restricted",
-      "published": "Wed, 14 Oct 2026 16:18:46 GMT",
-      "source": "The Guardian"
-    },
-    {
       "title": "Container ship hit by projectile sinks in Strait of Hormuz, Singapore says",
       "summary": "All 21 sailors on the Singapore-flagged GFS Pride were evacuated safely after it was hit by an projectile on Tuesday, maritime authorities say.",
       "link": "https://www.bbc.co.uk/news/articles/crkg7q97z078o?at_medium=RSS&at_campaign=rss",
@@ -264,41 +306,6 @@
       "link": "https://www.navalnews.com/naval-news/2026/10/hellenic-navy-tests-saronics-corsair-usv-ahead-of-major-order/",
       "published": "Wed, 14 Oct 2026 10:28:21 +0000",
       "source": "Naval News"
-    },
-    {
-      "title": "Shipping firms and ports caught in mass cyber extortion claim",
-      "summary": "<p>A cyber extortion group has threatened to publish data it claims it stole from 38 shipping, port, and logistics companies unless they pay multimillion-dollar ransoms by October 19. Cybersecurity firm SOCRadar said the group, known as n0n, added the 38 organisations to its dark web leak site in a single batch on October 12, marking …</p>\n</p>",
-      "link": "https://splash247.com/shipping-firms-and-ports-caught-in-mass-cyber-extortion-claim/",
-      "published": "Wed, 14 Oct 2026 10:00:00 +0000",
-      "source": "Splash247"
-    },
-    {
-      "title": "Zhonggu steps up boxship investments with larger newbuilds",
-      "summary": "<p>China’s Zhonggu Shipping Group has signed up for two 14,000 teu containerships at Hudong-Zhonghua Shipbuilding, moving into significantly larger tonnage as investment across the group gathers pace. The Shanghai-based company has contracted the conventionally fuelled pair, without disclosing the value or delivery dates. The agreement adds another large containership series to Hudong-Zhonghua’s expanding orderbook. Last …</p>\n</p>",
-      "link": "https://splash247.com/zhonggu-steps-up-boxship-investments-with-larger-newbuilds/",
-      "published": "Wed, 14 Oct 2026 09:29:47 +0000",
-      "source": "Splash247"
-    },
-    {
-      "title": "More explosions heard in Saudi Arabia as pressure mounts on US to respond",
-      "summary": "More explosions have been heard in the Saudi capital, with suspicions once again falling on the Houthi rebels from Yemen.",
-      "link": "https://news.sky.com/story/more-explosions-heard-in-saudi-arabia-as-pressure-mounts-on-us-to-respond-13599168",
-      "published": "Wed, 14 Oct 2026 10:25:00 +0100",
-      "source": "Sky News"
-    },
-    {
-      "title": "Japan prepares to pay for oil’s long way round",
-      "summary": "<p>Japan is preparing to subsidise the additional cost of importing oil from suppliers outside the Strait of Hormuz, in a significant government intervention aimed at reducing the country’s dependence on the increasingly dangerous waterway. The Japanese cabinet approved three bills yesterday designed to diversify energy imports, support tanker insurance and finance alternative oil transport infrastructure. …</p>\n</p>",
-      "link": "https://splash247.com/japan-prepares-to-pay-for-oils-long-way-round/",
-      "published": "Wed, 14 Oct 2026 08:30:40 +0000",
-      "source": "Splash247"
-    },
-    {
-      "title": "India’s Aegis takes over Dubai tanker and logistics group Tristar",
-      "summary": "<p>India’s Aegis Logistics has struck a deal to acquire 89.8% of Dubai-based Tristar for $809m, taking control of a global energy logistics group with a sizeable tanker and dry bulk shipping operation. The Mumbai-listed group is buying the stake through Singapore-based Aegis Logistics International from shareholders including Agility, Gulf Investment Corporation and Diamond Holdings. The …</p>\n</p>",
-      "link": "https://splash247.com/indias-aegis-takes-over-dubai-tanker-and-logistics-group-tristar/",
-      "published": "Wed, 14 Oct 2026 08:15:28 +0000",
-      "source": "Splash247"
     },
     {
       "title": "Trump says 'massive' oil, gas and mineral exploration will begin in 'our' Greenland",
@@ -327,25 +334,9 @@
       "link": "https://www.navalnews.com/naval-news/2026/10/french-navy-intercepts-and-boards-shadow-fleet-tanker-df-peak-south-of-reunion/",
       "published": "Mon, 12 Oct 2026 20:35:27 +0000",
       "source": "Naval News"
-    },
-    {
-      "title": "U.S. Navy to Integrate LRASM into USAF’s B-52 Strategic Bombers",
-      "summary": "<p>The U.S. Navy plans to contract Lockheed Martin to integrate AGM-158C LRASM anti-ship missiles onto the Air Force's B-52 bombers, boosting Indo-Pacific maritime strike capabilities.</p>\n<p>The post <a href=\"https://www.navalnews.com/naval-news/2026/10/u-s-navy-to-integrate-lrasm-into-usafs-b-52-strategic-bombers/\">U.S. Navy to Integrate LRASM into USAF’s B-52 Strategic Bombers</a> appeared first on <a href=\"https://www.navalnews.com\">Naval News</a>.</p>",
-      "link": "https://www.navalnews.com/naval-news/2026/10/u-s-navy-to-integrate-lrasm-into-usafs-b-52-strategic-bombers/",
-      "published": "Mon, 12 Oct 2026 12:30:03 +0000",
-      "source": "Naval News"
     }
   ],
   "history": [
-    {
-      "date": "2026-10-04 11:36",
-      "threat_level": "CRITICAL",
-      "value": 4,
-      "sentiment_score": 88,
-      "incidents": 20,
-      "brent": 102.25,
-      "usd_czk": null
-    },
     {
       "date": "2026-10-05 04:59",
       "threat_level": "HIGH",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "brent": 104.22,
       "usd_czk": null
+    },
+    {
+      "date": "2026-10-15 10:38",
+      "threat_level": "CRITICAL",
+      "value": 4,
+      "sentiment_score": 92,
+      "incidents": 40,
+      "brent": 104.2,
+      "usd_czk": null
     }
   ],
   "locations": [
@@ -615,13 +615,6 @@
       "lon": 48.5164,
       "name_cs": "Jemen",
       "name_en": "Yemen"
-    },
-    {
-      "key": "Red Sea",
-      "lat": 20.5,
-      "lon": 38.0,
-      "name_cs": "Rudé moře",
-      "name_en": "Red Sea"
     },
     {
       "key": "Hormuz",
@@ -652,11 +645,11 @@
       "name_en": "Oman"
     },
     {
-      "key": "Jeddah",
-      "lat": 21.4858,
-      "lon": 39.1925,
-      "name_cs": "Džidda",
-      "name_en": "Jeddah"
+      "key": "Eritrea",
+      "lat": 15.3229,
+      "lon": 38.9251,
+      "name_cs": "Eritrea",
+      "name_en": "Eritrea"
     },
     {
       "key": "Iran",
@@ -671,134 +664,6 @@
       "lon": 34.9519,
       "name_cs": "Ejlat",
       "name_en": "Eilat"
-    },
-    {
-      "key": "Washington",
-      "lat": 38.9,
-      "lon": -77.04,
-      "name_cs": "Washington, D.C.",
-      "name_en": "Washington",
-      "auto": true
-    },
-    {
-      "key": "Arizona",
-      "lat": 34.2,
-      "lon": -111.7,
-      "name_cs": "Arizona",
-      "name_en": "Arizona",
-      "auto": true
-    },
-    {
-      "key": "Alaska",
-      "lat": 64.2,
-      "lon": -149.5,
-      "name_cs": "Aljaška",
-      "name_en": "Alaska",
-      "auto": true
-    },
-    {
-      "key": "Venezuela",
-      "lat": 7,
-      "lon": -66,
-      "name_cs": "Venezuela",
-      "name_en": "Venezuela",
-      "auto": true
-    },
-    {
-      "key": "Ukrain",
-      "lat": 50.45,
-      "lon": 30.52,
-      "name_cs": "Ukrajina",
-      "name_en": "Ukrain",
-      "auto": true
-    },
-    {
-      "key": "Russia",
-      "lat": 55.75,
-      "lon": 37.62,
-      "name_cs": "Rusko",
-      "name_en": "Russia",
-      "auto": true
-    },
-    {
-      "key": "Egypt",
-      "lat": 26.8,
-      "lon": 30.8,
-      "name_cs": "Egypt",
-      "name_en": "Egypt",
-      "auto": true
-    },
-    {
-      "key": "Qatar",
-      "lat": 25.3,
-      "lon": 51.2,
-      "name_cs": "Katar",
-      "name_en": "Qatar",
-      "auto": true
-    },
-    {
-      "key": "China",
-      "lat": 35.9,
-      "lon": 104.2,
-      "name_cs": "Čína",
-      "name_en": "China",
-      "auto": true
-    },
-    {
-      "key": "Taiwan",
-      "lat": 23.7,
-      "lon": 121,
-      "name_cs": "Tchaj-wan",
-      "name_en": "Taiwan",
-      "auto": true
-    },
-    {
-      "key": "Japan",
-      "lat": 36.2,
-      "lon": 138.3,
-      "name_cs": "Japonsko",
-      "name_en": "Japan",
-      "auto": true
-    },
-    {
-      "key": "India",
-      "lat": 20.6,
-      "lon": 79,
-      "name_cs": "Indie",
-      "name_en": "India",
-      "auto": true
-    },
-    {
-      "key": "Singapore",
-      "lat": 1.35,
-      "lon": 103.8,
-      "name_cs": "Singapur",
-      "name_en": "Singapore",
-      "auto": true
-    },
-    {
-      "key": "London",
-      "lat": 51.5,
-      "lon": -0.12,
-      "name_cs": "Londýn",
-      "name_en": "London",
-      "auto": true
-    },
-    {
-      "key": "France",
-      "lat": 48.86,
-      "lon": 2.35,
-      "name_cs": "Paříž",
-      "name_en": "France",
-      "auto": true
-    },
-    {
-      "key": "Colombia",
-      "lat": 4.57,
-      "lon": -74.3,
-      "name_cs": "Kolumbie",
-      "name_en": "Colombia",
-      "auto": true
     }
   ],
   "location_counts": {
@@ -811,14 +676,14 @@
     "Irák": 5,
     "Bab-el-Mandeb": 14,
     "Suezský průplav": 2,
-    "Yemen": 57,
+    "Yemen": 58,
     "Red Sea": 49,
-    "Hormuz": 51,
+    "Hormuz": 52,
     "Mecca": 30,
-    "Saudi Arabia": 57,
-    "Oman": 33,
+    "Saudi Arabia": 58,
+    "Oman": 34,
     "Iraq": 22,
-    "Suez": 18,
+    "Suez": 19,
     "Mokha": 16,
     "Los Angeles": 1,
     "Kalifornie": 1,
@@ -841,9 +706,9 @@
     "Paříž": 1,
     "Súdán": 1,
     "Somálsko": 1,
-    "Eritrea": 3,
-    "Iran": 20,
-    "Eilat": 17,
+    "Eritrea": 4,
+    "Iran": 21,
+    "Eilat": 18,
     "Maine": 1,
     "Kanada": 1,
     "Venezuela": 1,
@@ -883,17 +748,9 @@
     "key": "Yemen",
     "name_cs": "Jemen",
     "name_en": "Yemen",
-    "count": 57
+    "count": 58
   },
   "archive": [
-    {
-      "date": "2026-10-10 11:40",
-      "threat_level": "CRITICAL",
-      "security_status_cs": "Bezpečnostní situace v oblasti Perského zálivu a Rudého moře se nadále vyostřuje po útocích Houthiů na civilní infrastrukturu a komerční tankery. Eskalace konfliktů a zapojení regionálních aktérů drží námořní trhy ve vysoké pohotovosti.",
-      "security_status_en": "The security situation in the Persian Gulf and Red Sea continues to deteriorate following Houthi attacks on civilian infrastructure and commercial tankers. Escalating conflicts and regional involvement keep maritime markets on high alert.",
-      "forecast_cs": "V nejbližších dnech lze očekávat pokračující vojenské operace v regionu a zvýšenou nervozitu na trzích s ropou, přičemž riziko dalších útoků na námořní dopravu zůstane kritické.",
-      "forecast_en": "Continued military operations in the region and heightened nervousness in oil markets are expected over the coming days, with the risk of further attacks on maritime shipping remaining critical."
-    },
     {
       "date": "2026-10-11 11:53",
       "threat_level": "CRITICAL",
@@ -997,18 +854,26 @@
       "security_status_en": "The security situation in the Persian Gulf and Red Sea continues to escalate following attacks on Saudi Aramco's oil infrastructure and the sinking of multiple vessels in the Strait of Hormuz. Houthi missile strikes and widespread cyber extortion campaigns against logistics companies are further deepening instability in key maritime corridors.",
       "forecast_cs": "V nejbližších dnech lze očekávat udržení cen ropy na zvýšených úrovních nad 106 USD a pokračující volatilitu v námořní dopravě kvůli stupňujícím se útokům v oblasti Perského zálivu. Reakce trhů budou nadále citlivě reagovat na jakékoliv zprávy o bezpečnostních opatřeních v Saúdské Arábii.",
       "forecast_en": "Over the coming days, oil prices are expected to remain elevated above $106 alongside continued volatility in maritime shipping due to escalating attacks in the Persian Gulf. Markets will remain highly sensitive to any updates regarding security measures in Saudi Arabia."
+    },
+    {
+      "date": "2026-10-15 10:38",
+      "threat_level": "CRITICAL",
+      "security_status_cs": "Situace v oblasti Perského zálivu a Rudého moře zůstává kritická kvůli pokračujícím raketovým útokům Houthiů na saúdskou infrastrukturu a potápění komerčních lodí. Uzavření Hormuzského průlivu a útoky na ropná zařízení, včetně centrály Saudi Aramco, vyvolávají obavy z globální ekonomické destabilizace.",
+      "security_status_en": "The situation in the Persian Gulf and Red Sea remains critical due to ongoing Houthi missile attacks on Saudi infrastructure and the sinking of commercial vessels. The closure of the Strait of Hormuz and strikes on oil facilities, including the Saudi Aramco headquarters, are fueling concerns of global economic destabilization.",
+      "forecast_cs": "V nejbližších dnech lze očekávat další růst cen ropy a přetrvávající extrémní volatilitu v námořní dopravě kvůli stupňujícím se útokům v oblasti Perského zálivu. Trhy budou extrémně citlivě reagovat na jakékoliv zprávy o vojenské odvetě vůči Íránu a Houthiům.",
+      "forecast_en": "Over the coming days, oil prices are expected to rise further alongside persistent extreme volatility in maritime shipping due to escalating attacks in the Persian Gulf. Markets will remain extremely sensitive to any news regarding military retaliation against Iran and the Houthis."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× CRITICAL.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 7× CRITICAL.",
   "oil_prices": {
     "brent": {
-      "value": 104.22,
+      "value": 104.2,
       "date": "2026-10-15",
       "cached": false
     },
     "wti": {
-      "value": 93.94,
+      "value": 93.71,
       "date": "2026-10-15",
       "cached": false
     }
