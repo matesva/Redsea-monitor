@@ -1,60 +1,74 @@
 {
-  "last_updated": "2026-10-15T21:13:45Z",
+  "last_updated": "2026-10-15T21:23:03Z",
   "assessment": {
     "threat_level": "HIGH",
-    "sentiment_score": 78,
-    "security_status_cs": "Spojené státy čelí vlně znepokojivých incidentů včetně podezřelých zásilek s neznámou látkou na volebních úřadech a incidentu na základní škole v Oregonu, což zvyšuje domácí bezpečnostní napětí. Politická polarizace navíc eskaluje kvůli blížícím se midterms a ostrým sporům mezi federální vládou a státem Kalifornie ohledně volebních seznamů.",
-    "security_status_en": "The United States is facing a wave of concerning incidents including suspicious mailings with unknown substances at election offices and a school shooting incident in Oregon, heightening domestic security tensions. Political polarization is further escalating ahead of the midterms and sharp disputes between the federal government and California over voter rolls.",
+    "sentiment_score": 72,
+    "security_status_cs": "Spojené státy čelí kombinaci prudkého výprodeje v technologickém sektoru vyvolaného obavami z vývoje AI a eskalujícím politickým napětím před blížícími se volbami. Bezpečnostní složky vyšetřují vlnu podezřelých zásilek s bílým práškem zaslaných volebním úředníkům, zatímco makrodata ukazují přetrvávající inflační tlaky a obavy z měnové politiky Fedu.",
+    "security_status_en": "The United States is facing a combination of a sharp tech sector sell-off driven by AI fears and escalating political tensions ahead of the upcoming midterms. Law enforcement is investigating a wave of suspicious mailings containing white powder sent to election officials, while macroeconomic data highlights persistent inflation pressures and monetary policy uncertainty.",
     "recommendations": [
       {
         "sector_cs": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
         "sector_en": "US Broad Equity Market (S&P 500 ETFs, e.g. VOO, SPY)",
-        "action": "SELL",
-        "reason_cs": "Trhy čelí prudkému výprodeji v technologickém sektoru a rostoucím inflačním tlakům doloženým 1,3% nárůstem PPI. Zvýšená nejistota před volbami tlačí akcie níže.",
-        "reason_en": "Markets face a sharp tech selloff and rising inflationary pressures evidenced by a 1.3% PPI spike. Heightened pre-election uncertainty is driving equities lower."
+        "action": "HOLD",
+        "reason_cs": "Trh prochází silnou volatilitou a korekcí v důsledku výprodeje v technologickém sektoru a obav z inflace, což doporučuje vyčkat na stabilizaci.",
+        "reason_en": "The market is experiencing strong volatility and correction due to the tech sector sell-off and inflation concerns, warranting a wait-and-see approach."
       },
       {
         "sector_cs": "Státní dluhopisy USA (Treasuries)",
         "sector_en": "US Treasuries",
         "action": "BUY",
-        "reason_cs": "Investoři v panice hromadně opouštějí riziková aktiva a technologické tituly, přičemž bezpečný přístav nalézají vládních dluhopisech. Výnosy reagují na sílící obavy z inflace a budoucí měnové politiky Fedu.",
-        "reason_en": "Investors are fleeing risk assets and tech stocks in a panic, seeking safety in government bonds. Yields are responding to intensifying inflation fears and future Fed policy."
+        "reason_cs": "Investoři v rámci útěku do bezpečí (safe-haven flows) po propadu v technologickém sektoru masivně nakupují dluhopisy, což tlačí výnosy dolů a zvyšuje jejich hodnotu.",
+        "reason_en": "Investors are shifting toward safe-haven assets following the tech sector crash, driving up demand and prices for government debt."
       },
       {
         "sector_cs": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
         "sector_en": "Defense Industry (RTX, Lockheed Martin, Northrop Grumman)",
         "action": "HOLD",
-        "reason_cs": "Sektor nabízí stabilní protiváhu vůči probíhajícímu 'tech wrecku' a geopolitickému napětí. Současné rozpočtové a politické debaty však omezují výraznější růstový potenciál.",
-        "reason_en": "The sector offers a stable counterweight to the ongoing tech wreck and geopolitical tensions. However, current budget and political debates limit significant upside potential."
+        "reason_cs": "Sektor si drží stabilní pozici podpořenou dlouhodobými vládními zakázkami, avšak aktuální tržní výprodeje omezují krátkodobý růstový potenciál.",
+        "reason_en": "The sector maintains a stable position backed by long-term government contracts, though broader market sell-offs limit short-term upside."
       },
       {
         "sector_cs": "Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)",
         "sector_en": "Banks & Financials (JPMorgan, Bank of America, Goldman Sachs)",
-        "action": "HOLD",
-        "reason_cs": "Finanční instituce zatěžují regulační pokuty, jako v případě Bank of America, a slabší výnosy z obchodování. Na druhou stranu profitují z rotace kapitálu ze zasažených technologických titulů.",
-        "reason_en": "Financial institutions are weighed down by regulatory fines, as seen with Bank of America, and weaker trading revenue. On the flip side, they benefit from capital rotation out of battered tech names."
+        "action": "SELL",
+        "reason_cs": "Finanční instituce čelí negativním zprávám včetně regulačních pokut, slabších příjmů z obchodování a nejistotě ohledně budoucího směřování úrokových sazeb Fedu.",
+        "reason_en": "Financial institutions face headwinds including regulatory fines, weaker trading revenues, and uncertainty surrounding the Fed's future rate path."
       },
       {
         "sector_cs": "Technologický sektor (Apple, Microsoft, Nvidia)",
         "sector_en": "Technology Sector (Apple, Microsoft, Nvidia)",
-        "action": "SELL",
-        "reason_cs": "Globální šok v oblasti umělé inteligence vyvolaný konkurenčním tlakem a zprávami o DeepSeek odstartoval masivní výprodej AI infrastruktury. Wall Street je hluboce rozpolcená ohledně udržitelnosti obřích výdajů na AI.",
-        "reason_en": "A global AI shock driven by competitive pressure and DeepSeek news has triggered a massive sell-off in AI infrastructure. Wall Street remains deeply divided on the sustainability of massive AI spending."
+        "action": "HOLD",
+        "reason_cs": "Výprodej vyvolaný obavami o návratnost investic do AI a globální konkurenci (DeepSeek) přináší extrémní volatilitu, která vyžaduje selektivní přístup místo plošných nákupů.",
+        "reason_en": "The sell-off driven by AI ROI concerns and foreign competition creates extreme volatility, demanding selective positioning rather than broad accumulation."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly zůstávají vůči americkému výprodeji AI relativně imunní, avšak celková nervozitní nálada na globálních trzích omezuje ochotu k nákupům. Regionální banky a energetika drží stabilní pozice.",
-        "reason_en": "Domestic stocks remain relatively immune to the US AI selloff, but the overall nervous sentiment in global markets limits buying appetite. Regional banks and utilities are holding stable positions."
+        "reason_cs": "Domácí tituly zůstávají primárně pod vlivem evropského makroekonomického prostředí a lokálních fundamentů, přičemž globální nervozitě se zcela nevyhnou.",
+        "reason_en": "Domestic equities remain primarily influenced by the European macroeconomic environment and local fundamentals while absorbing some spillover from global nervousness."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na akciových trzích pod vlivem technologického výprodeje a obav z inflace. Bezpečnostní složky budou nadále řešit vyšetřování podezřelých zásilek.",
-    "forecast_en": "Continued volatility in equity markets is expected over the coming days driven by the tech selloff and inflation fears. Law enforcement will continue addressing investigations into suspicious mailings.",
-    "forecast_review_cs": "Předchozí předpověď o přetrvávající volatilitě a sledování inflace se plně potvrdila.",
-    "forecast_review_en": "The previous forecast regarding persistent volatility and monitoring inflation was fully confirmed."
+    "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající volatilitu na akciových trzích kvůli doznívajícímu šoku v technologickém sektoru a napjaté politické atmosféře před volbami. Bezpečnostní složky budou nadále prověřovat hrozby spojené s podezřelými zásilkami.",
+    "forecast_en": "Over the coming days, continued volatility in equity markets is expected due to the lingering shock in the tech sector and tense pre-election political dynamics. Law enforcement will remain focused on investigating threats related to suspicious mailings.",
+    "forecast_review_cs": "Předchozí předpověď se zcela potvrdila, neboť trhy skutečně zasáhl silný technologický výprodej a bezpečnostní složky řeší vlnu podezřelých zásilek.",
+    "forecast_review_en": "The previous forecast was fully confirmed as markets were indeed hit by a major tech sell-off and law enforcement addressed a wave of suspicious mailings."
   },
   "articles": [
+    {
+      "title": "Don’t ditch tech stocks just yet. Make these moves to take advantage of the latest AI reset.",
+      "summary": "Investors have a ‘love-hate relationship’ with tech stocks now — and experts recommend selectively hunting for bargains while also betting on the major cloud companies.",
+      "link": "https://www.marketwatch.com/story/dont-ditch-tech-stocks-just-yet-make-these-moves-to-take-advantage-of-the-latest-ai-reset-cb70c7b2?mod=mw_rss_topstories",
+      "published": "Thu, 15 Oct 2026 21:21:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Active Shooter Reported at Oregon Elementary School: What We Know",
+      "summary": "Police are responding to an active shooter report at Silver Rail Elementary School in Bend, Oregon on Thursday afternoon.",
+      "link": "https://www.newsweek.com/active-shooter-reported-at-oregon-elementary-school-what-we-know-12575787",
+      "published": "Thu, 15 Oct 2026 17:20:29 -0400",
+      "source": "Newsweek"
+    },
     {
       "title": "Reported shooting at Oregon elementary school prompts police response",
       "summary": "The school district confirmed there was an active shooting incident but did not provide any further details.",
@@ -106,8 +120,8 @@
     },
     {
       "title": "DOJ sues California after pushing state to match voter list with USB drive",
-      "summary": "The Justice Department sued the state of California Thursday after giving them a USB drive and demanding that within 48 hours they compare their data rolls with information provided by the Department of Homeland Security (DHS). DOJ sent the letter to the state as well as local election officials Tuesday, threatening legal action if they...",
-      "link": "https://thehill.com/homenews/state-watch/6152422-doj-sues-california-election-officials/",
+      "summary": "The Department of Justice (DOJ) sued the state of California on Thursday after giving it a USB drive and demanding that within 48 hours it compare its data rolls with information provided by the Department of Homeland Security (DHS). The DOJ sent the letter to the state and local election officials Tuesday, threatening legal action...",
+      "link": "https://thehill.com/homenews/6152422-doj-sues-california-election-officials/",
       "published": "Thu, 15 Oct 2026 20:56:28 +0000",
       "source": "The Hill"
     },
@@ -175,13 +189,6 @@
       "source": "Fox News"
     },
     {
-      "title": "Big pharma stocks close near all-time highs as tech selloff pushes investors toward safer bets",
-      "summary": "Shares of AbbVie, Eli Lilly and Gilead Sciences closed near record highs",
-      "link": "https://www.marketwatch.com/story/big-pharma-stocks-near-all-time-highs-as-tech-selloff-pushes-investors-toward-safer-bets-0a5d5d07?mod=mw_rss_topstories",
-      "published": "Thu, 15 Oct 2026 20:29:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
       "title": "Ilhan Omar's husband snaps over rumors she fled US after federal immigration fraud raid",
       "summary": "Tim Mynett was spotted at the couple's D.C. home as HSI's fraud investigation into Ilhan Omar's immigration paperwork intensifies with new subpoenas.",
       "link": "https://www.foxnews.com/politics/ilhan-omar-husband-snaps-rumors-fled-us-federal-immigration-fraud-raid",
@@ -208,13 +215,6 @@
       "link": "https://www.foxnews.com/media/mamdani-team-clashing-socialist-candidate-endorsed-ice-shooting",
       "published": "Thu, 15 Oct 2026 15:51:03 -0400",
       "source": "Fox News"
-    },
-    {
-      "title": "Katie Zacharia Explains White House Press Conference and Bar Exam Dispute",
-      "summary": "White House press secretary Katie Zacharia dismissed her California bar results as \"somewhat inconsequential.\"",
-      "link": "https://www.newsweek.com/katie-zacharia-bar-exam-press-secretary-lawyer-china-12575597",
-      "published": "Thu, 15 Oct 2026 15:44:40 -0400",
-      "source": "Newsweek"
     },
     {
       "title": "Democrats Have a Plan To Change the Government for Good",
@@ -337,15 +337,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-05 13:11",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 68,
-      "incidents": 20,
-      "sp500": 7722.72,
-      "usd_czk": null
-    },
     {
       "date": "2026-10-05 19:06",
       "threat_level": "HIGH",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "sp500": 7744.06,
       "usd_czk": null
+    },
+    {
+      "date": "2026-10-15 21:23",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 72,
+      "incidents": 40,
+      "sp500": 7744.06,
+      "usd_czk": null
     }
   ],
   "locations": [
@@ -714,14 +714,14 @@
   ],
   "location_counts": {
     "Florida": 29,
-    "Texas": 35,
-    "Washington": 34,
-    "New York": 35,
-    "California": 18,
+    "Texas": 36,
+    "Washington": 35,
+    "New York": 36,
+    "California": 19,
     "Capitol": 11,
     "Border": 8,
     "Los Angeles": 3,
-    "Wall Street": 28,
+    "Wall Street": 29,
     "Illinois": 6,
     "Colorado": 8,
     "Canada": 9,
@@ -748,8 +748,8 @@
     "Mexico": 4,
     "Singapur": 1,
     "Chicago": 3,
-    "Ohio": 10,
-    "Arizona": 7,
+    "Ohio": 11,
+    "Arizona": 8,
     "Minnesota": 9,
     "Virginia": 3,
     "Izrael": 1,
@@ -759,7 +759,7 @@
     "Severní Korea": 1,
     "New Jersey": 1,
     "Afghánistán": 1,
-    "Louisiana": 3,
+    "Louisiana": 4,
     "Egypt": 1,
     "Pennsylvania": 5,
     "North Carolina": 2,
@@ -771,25 +771,17 @@
     "Nevada": 2,
     "Las Vegas": 1,
     "Řím": 1,
-    "Oregon": 1,
-    "Oklahoma": 1,
+    "Oregon": 2,
+    "Oklahoma": 2,
     "Jihoafrická republika": 1
   },
   "top_location": {
     "key": "Texas",
     "name_cs": "Texas",
     "name_en": "Texas",
-    "count": 35
+    "count": 36
   },
   "archive": [
-    {
-      "date": "2026-10-11 21:40",
-      "threat_level": "HIGH",
-      "security_status_cs": "Trhy zažívají výraznou volatilitu v důsledku šoku v sektoru umělé inteligence způsobeného čínským modelem DeepSeek, zatímco napětí mezi Bílým domem a médii a geopolitické třenice ohledně Ukrajiny a Blízkého východu eskalují. Rostoucí výnosy dluhopisů a pomalejší obnova na trhu práce komplikují makroekonomické prostředí před blížícími se midterm volbami.",
-      "security_status_en": "Markets are experiencing heavy volatility due to an AI sector shock triggered by China's DeepSeek model, while White House-media tensions and geopolitical friction regarding Ukraine and the Middle East escalate. Rising bond yields and a slower labor market recovery complicate the macroeconomic environment ahead of upcoming midterm elections.",
-      "forecast_cs": "V příštích dnech lze očekávat pokračující nervozitu na technologických trzích a zvýšený příliv kapitálu do bezpečných přístavů, přičemž pozornost investorů se upře na start výsledkové sezóny velkých bank.",
-      "forecast_en": "Over the coming days, continued nervousness in tech markets and increased safe-haven capital flows are expected, with investor attention pivoting to the kickoff of major bank earnings."
-    },
     {
       "date": "2026-10-12 05:00",
       "threat_level": "HIGH",
@@ -893,6 +885,14 @@
       "security_status_en": "The United States is facing a wave of concerning incidents including suspicious mailings with unknown substances at election offices and a school shooting incident in Oregon, heightening domestic security tensions. Political polarization is further escalating ahead of the midterms and sharp disputes between the federal government and California over voter rolls.",
       "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na akciových trzích pod vlivem technologického výprodeje a obav z inflace. Bezpečnostní složky budou nadále řešit vyšetřování podezřelých zásilek.",
       "forecast_en": "Continued volatility in equity markets is expected over the coming days driven by the tech selloff and inflation fears. Law enforcement will continue addressing investigations into suspicious mailings."
+    },
+    {
+      "date": "2026-10-15 21:23",
+      "threat_level": "HIGH",
+      "security_status_cs": "Spojené státy čelí kombinaci prudkého výprodeje v technologickém sektoru vyvolaného obavami z vývoje AI a eskalujícím politickým napětím před blížícími se volbami. Bezpečnostní složky vyšetřují vlnu podezřelých zásilek s bílým práškem zaslaných volebním úředníkům, zatímco makrodata ukazují přetrvávající inflační tlaky a obavy z měnové politiky Fedu.",
+      "security_status_en": "The United States is facing a combination of a sharp tech sector sell-off driven by AI fears and escalating political tensions ahead of the upcoming midterms. Law enforcement is investigating a wave of suspicious mailings containing white powder sent to election officials, while macroeconomic data highlights persistent inflation pressures and monetary policy uncertainty.",
+      "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající volatilitu na akciových trzích kvůli doznívajícímu šoku v technologickém sektoru a napjaté politické atmosféře před volbami. Bezpečnostní složky budou nadále prověřovat hrozby spojené s podezřelými zásilkami.",
+      "forecast_en": "Over the coming days, continued volatility in equity markets is expected due to the lingering shock in the tech sector and tense pre-election political dynamics. Law enforcement will remain focused on investigating threats related to suspicious mailings."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",

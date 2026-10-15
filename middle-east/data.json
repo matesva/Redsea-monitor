@@ -1,44 +1,44 @@
 {
-  "last_updated": "2026-10-15T21:14:05Z",
+  "last_updated": "2026-10-15T21:23:26Z",
   "assessment": {
-    "threat_level": "HIGH",
-    "sentiment_score": 78,
-    "security_status_cs": "Bezpečnostní situace v regionu zůstává vysoce napjatá kvůli eskalujícím hrozbám vůči Íránu, incidentům v Hormuzském průlivu a přetrvávajícím střetům v Libanonu a na Západním břehu. Diplomatické snahy USA a regionálních aktérů nedokázaly zcela utlumit riziko širší konfrontace.",
-    "security_status_en": "The regional security situation remains highly tense due to escalating threats against Iran, incidents in the Strait of Hormuz, and ongoing clashes in Lebanon and the West Bank. Diplomatic efforts by the US and regional actors have failed to fully mitigate the risk of a broader confrontation.",
+    "threat_level": "CRITICAL",
+    "sentiment_score": 85,
+    "security_status_cs": "Napětí v regionu prudce eskaluje kvůli přímým vojenským hrozbám vůči Íránu, incidentům v Hormuzském průlivu a politickým tlakům na Libanon. Vnitřní nestabilita v Izraeli a Gaze spolu s kybernetickými útoky na novináře nadále prohlubují bezpečnostní rizika.",
+    "security_status_en": "Regional tensions are escalating sharply due to direct military threats against Iran, incidents in the Strait of Hormuz, and political pressure on Lebanon. Internal instability in Israel and Gaza, alongside cyberattacks on journalists, continue to deepen security risks.",
     "recommendations": [
       {
         "sector_cs": "Obranný průmysl (Elbit Systems, RTX, Lockheed Martin)",
         "sector_en": "Defense Industry (Elbit Systems, RTX, Lockheed Martin)",
         "action": "BUY",
-        "reason_cs": "Přetrvávající napětí kolem Íránu a aktivní vojenské operace udržují vysokou poptávku po obranných systémech.",
-        "reason_en": "Persisting tensions surrounding Iran and active military operations maintain strong demand for defense systems."
+        "reason_cs": "Vysoké riziko vojenského konfliktu s Íránem a přetrvávající operace v regionu zajišťují silnou poptávku po obranných technologiích.",
+        "reason_en": "High risk of military conflict with Iran and ongoing regional operations ensure strong demand for defense technologies."
       },
       {
         "sector_cs": "Ropa a plyn (Chevron, ExxonMobil)",
         "sector_en": "Oil & Gas (Chevron, ExxonMobil)",
         "action": "BUY",
-        "reason_cs": "Incidenty a spory ohledně kontroly nad Hormuzským průlivem zvyšují riziko výpadků dodávek a tlačí ceny nahoru.",
-        "reason_en": "Incidents and disputes over control of the Strait of Hormuz increase supply disruption risks and push prices upward."
+        "reason_cs": "Incidenty a spory o kontrolu v Hormuzském průlivu přímo ohrožují dodávky energie a ženou ceny ropy vzhůru.",
+        "reason_en": "Incidents and disputes over control in the Strait of Hormuz directly threaten energy supplies and drive up oil prices."
       },
       {
         "sector_cs": "Izraelské akcie (Tel Aviv 35)",
         "sector_en": "Israeli Equities (Tel Aviv 35)",
         "action": "HOLD",
-        "reason_cs": "Trhy čelí vnitropolitickému tlaku a geopolitickým rizikům, což omezuje prostor pro výraznější růst.",
-        "reason_en": "Markets face domestic political pressure and geopolitical risks, limiting room for significant growth."
+        "reason_cs": "Trhy čelí tlaku kvůli politické nejistotě, bezpečnostním hrozbám a rostoucímu mezinárodnímu tlaku, což omezuje krátkodobý růstový potenciál.",
+        "reason_en": "Markets face pressure due to political uncertainty, security threats, and rising international pressure, limiting short-term upside."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly na BCPP jsou vůči blízkovýchodnímu dění primárně izolovány, reagují spíše na evropské makroekonomické prostředí.",
-        "reason_en": "Domestic Prague SE stocks are largely insulated from Middle East developments, reacting more to the European macroeconomic environment."
+        "reason_cs": "Dění na Blízkém východě má na tyto středoevropské tituly pouze nepřímý vliv prostřednictvím globálních energetických trhů a sentimentu.",
+        "reason_en": "Middle Eastern developments affect these Central European equities only indirectly through global energy markets and investor sentiment."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat další diplomatické manévry ohledně Íránu a zvýšenou nervozitu na trzích s energetickými komoditami. Politické napětí uvnitř Izraele a USA bude nadále ovlivňovat regionální stabilitu.",
-    "forecast_en": "Over the coming days, further diplomatic maneuvers regarding Iran and heightened nervousness in energy commodity markets are expected. Political tensions within Israel and the US will continue to influence regional stability.",
-    "forecast_review_cs": "Předchozí předpověď se potvrdila, neboť politická polarizace v Izraeli a napětí kolem Íránu zůstávají hlavními hybateli dění.",
-    "forecast_review_en": "The previous forecast was confirmed, as political polarization in Israel and tensions surrounding Iran remain the primary drivers of events."
+    "forecast_cs": "V nejbližších dnech lze očekávat pokračující eskalaci rétoriky kolem Íránu a zvýšenou ostražitost v oblasti námořní dopravy v Zálivu. Diplomatické tlaky na Izrael a Libanon budou nadále zatěžovat regionální stabilitu.",
+    "forecast_en": "Over the coming days, continued escalation of rhetoric surrounding Iran and heightened vigilance in Gulf shipping lanes are expected. Diplomatic pressures on Israel and Lebanon will continue to strain regional stability.",
+    "forecast_review_cs": "Předchozí předpověď o zvýšené nervozitě na trzích s energetickými komoditami a diplomatických manévrech ohledně Íránu se plně potvrdila.",
+    "forecast_review_en": "The previous forecast regarding heightened nervousness in energy commodity markets and diplomatic maneuvers regarding Iran was fully confirmed."
   },
   "articles": [
     {
@@ -68,6 +68,13 @@
       "link": "https://www.jpost.com/middle-east/article-911874",
       "published": "Thu, 15 Oct 2026 21:24:27 GMT",
       "source": "Jerusalem Post"
+    },
+    {
+      "title": "Israeli ‘ad’ firm helped infect spyware into Al Jazeera devices",
+      "summary": "An Israeli spyware disguised as a digital advertisement firm has targeted journalists’ devices at Al Jazeera.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/15/israeli-ad-firm-helped-infect-spyware-into-al-jazeera-devices?traffic_source=rss",
+      "published": "Thu, 15 Oct 2026 21:05:01 +0000",
+      "source": "Al Jazeera"
     },
     {
       "title": "US, Iranian military issue contesting claims over control of Strait of Hormuz",
@@ -175,13 +182,6 @@
       "source": "Middle East Monitor"
     },
     {
-      "title": "Jerusalem Daily: Ultra-Orthodox Jews storm Israeli army base",
-      "summary": "Jerusalem Daily: Ultra-Orthodox Jews storm Israeli army base",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/15/jerusalem-daily-ultra-orthodox-jews-storm-israeli-army-base?traffic_source=rss",
-      "published": "Thu, 15 Oct 2026 16:19:08 +0000",
-      "source": "Al Jazeera"
-    },
-    {
       "title": "Hundreds of IDF investigations into killings still have no public outcome, BBC Verify finds",
       "summary": "BBC Verify has identified 254 incidents from the past three years the Israeli military said it is reviewing after being accused of harm.",
       "link": "https://www.bbc.co.uk/news/articles/c574e228vlygo?at_medium=RSS&at_campaign=rss",
@@ -211,15 +211,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-05 13:12",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 78,
-      "incidents": 20,
-      "brent": 102.14,
-      "usd_czk": null
-    },
     {
       "date": "2026-10-05 19:07",
       "threat_level": "HIGH",
@@ -480,6 +471,15 @@
       "incidents": 24,
       "brent": 105.73,
       "usd_czk": null
+    },
+    {
+      "date": "2026-10-15 21:23",
+      "threat_level": "CRITICAL",
+      "value": 4,
+      "sentiment_score": 85,
+      "incidents": 24,
+      "brent": 105.73,
+      "usd_czk": null
     }
   ],
   "locations": [
@@ -671,14 +671,14 @@
     }
   ],
   "location_counts": {
-    "Jerusalem": 56,
-    "Gaza": 56,
-    "Tel Aviv": 53,
-    "Tehran": 34,
-    "West Bank": 40,
-    "Baghdad": 17,
-    "Beirut": 23,
-    "Damascus": 21,
+    "Jerusalem": 57,
+    "Gaza": 57,
+    "Tel Aviv": 54,
+    "Tehran": 35,
+    "West Bank": 41,
+    "Baghdad": 18,
+    "Beirut": 24,
+    "Damascus": 22,
     "Londýn": 1,
     "Súdán": 1,
     "Brazílie": 1,
@@ -690,11 +690,11 @@
     "Čína": 1,
     "Japonsko": 1,
     "Somálsko": 1,
-    "Riyadh": 20,
+    "Riyadh": 21,
     "Dubai": 18,
-    "Cairo": 19,
-    "Muscat": 9,
-    "Hormuz": 19,
+    "Cairo": 20,
+    "Muscat": 10,
+    "Hormuz": 20,
     "New York": 2,
     "Los Angeles": 2,
     "Kalifornie": 1,
@@ -705,8 +705,8 @@
     "Madrid": 2,
     "Washington, D.C.": 3,
     "Doha": 15,
-    "Amman": 9,
-    "Ankara": 8,
+    "Amman": 10,
+    "Ankara": 9,
     "Texas": 1,
     "Rusko": 1,
     "Georgie (USA)": 1,
@@ -744,17 +744,9 @@
     "key": "Jerusalem",
     "name_cs": "Jeruzalém",
     "name_en": "Jerusalem",
-    "count": 56
+    "count": 57
   },
   "archive": [
-    {
-      "date": "2026-10-11 21:40",
-      "threat_level": "CRITICAL",
-      "security_status_cs": "Bezpečnostní situace v regionu zůstává kritická kvůli odmítnutí amerického návrhu na otevření Hormuzského průlivu ze strany Íránu a přetrvávajícím vojenským operacím v Gaze a Jižním Libanonu navzdory formálním příměřím. Diplomatické vztahy mezi USA a Izraelem navíc čelí vážným tlakům a incidenty v oblasti Perského zálivu zvyšují riziko eskalace energetické krize.",
-      "security_status_en": "The security situation in the region remains critical due to Iran's rejection of the US proposal to reopen the Strait of Hormuz and ongoing military operations in Gaza and southern Lebanon despite formal ceasefires. Furthermore, diplomatic relations between the US and Israel face severe strains, and maritime incidents in the Persian Gulf elevate the risk of an energy crisis escalation.",
-      "forecast_cs": "V nejbližších dnech lze očekávat další eskalaci kolem námořní dopravy v Perském zálivu a pokračující diplomatické třenice mezi USA a Íránem ohledně Hormuzského průlivu. Operace v Gaze a jižním Libanonu budou nadále zatěžovat regionální stabilitu.",
-      "forecast_en": "Over the coming days, further escalation surrounding maritime traffic in the Persian Gulf and ongoing diplomatic friction between the US and Iran over the Strait of Hormuz are expected. Operations in Gaza and southern Lebanon will continue to strain regional stability."
-    },
     {
       "date": "2026-10-12 05:00",
       "threat_level": "CRITICAL",
@@ -858,6 +850,14 @@
       "security_status_en": "The regional security situation remains highly tense due to escalating threats against Iran, incidents in the Strait of Hormuz, and ongoing clashes in Lebanon and the West Bank. Diplomatic efforts by the US and regional actors have failed to fully mitigate the risk of a broader confrontation.",
       "forecast_cs": "V nejbližších dnech lze očekávat další diplomatické manévry ohledně Íránu a zvýšenou nervozitu na trzích s energetickými komoditami. Politické napětí uvnitř Izraele a USA bude nadále ovlivňovat regionální stabilitu.",
       "forecast_en": "Over the coming days, further diplomatic maneuvers regarding Iran and heightened nervousness in energy commodity markets are expected. Political tensions within Israel and the US will continue to influence regional stability."
+    },
+    {
+      "date": "2026-10-15 21:23",
+      "threat_level": "CRITICAL",
+      "security_status_cs": "Napětí v regionu prudce eskaluje kvůli přímým vojenským hrozbám vůči Íránu, incidentům v Hormuzském průlivu a politickým tlakům na Libanon. Vnitřní nestabilita v Izraeli a Gaze spolu s kybernetickými útoky na novináře nadále prohlubují bezpečnostní rizika.",
+      "security_status_en": "Regional tensions are escalating sharply due to direct military threats against Iran, incidents in the Strait of Hormuz, and political pressure on Lebanon. Internal instability in Israel and Gaza, alongside cyberattacks on journalists, continue to deepen security risks.",
+      "forecast_cs": "V nejbližších dnech lze očekávat pokračující eskalaci rétoriky kolem Íránu a zvýšenou ostražitost v oblasti námořní dopravy v Zálivu. Diplomatické tlaky na Izrael a Libanon budou nadále zatěžovat regionální stabilitu.",
+      "forecast_en": "Over the coming days, continued escalation of rhetoric surrounding Iran and heightened vigilance in Gulf shipping lanes are expected. Diplomatic pressures on Israel and Lebanon will continue to strain regional stability."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 4× HIGH, 3× CRITICAL.",
