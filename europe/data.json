@@ -1,115 +1,241 @@
 {
-  "last_updated": "2026-10-14T10:57:19Z",
+  "last_updated": "2026-10-15T05:00:07Z",
   "assessment": {
     "threat_level": "HIGH",
     "sentiment_score": 75,
-    "security_status_cs": "Evropa čelí stupňujícím se bezpečnostním rizikům kvůli ruským útokům na ukrajinskou energetickou infrastrukturu a technologickým omezením na frontě. Politická nestabilita roste v důsledku fiskálních tlaků ve Francii, sociálních nepokojů a rostoucího vlivu krajní pravice ohrožující financování Ukrajiny.",
-    "security_status_en": "Europe faces escalating security risks due to Russian strikes on Ukrainian energy infrastructure and frontline technological restrictions. Political instability is growing amid fiscal pressures in France, social unrest, and the rising influence of the far-right threatening Ukraine funding.",
+    "security_status_cs": "Evropa čelí stupňujícím se geopolitickým a ekonomickým tlakům, podpořeným eskalací války na Ukrajině, kde Kyjev obnovuje údery na ruské rafinerie kvůli oslabené americké podpoře. Na domácí scéně zatěžují trhy obavy z francouzského dluhu a politické napětí, zatímco EU se potýká s rozpočtovými spory a krizí na hranicích.",
+    "security_status_en": "Europe faces escalating geopolitical and economic pressures driven by intensifying warfare in Ukraine as Kyiv resumes refinery strikes amid waning US intelligence sharing. Domestically, French fiscal worries and political strains weigh heavily on markets, while the EU grapples with stubborn budget disputes and border management challenges.",
     "recommendations": [
       {
         "sector_cs": "Široký evropský akciový trh (Euro Stoxx 50 ETF)",
         "sector_en": "Broad European Equities (Euro Stoxx 50 ETFs)",
-        "action": "HOLD",
-        "reason_cs": "Trhy jsou pod tlakem rostoucích výnosů dluhopisů, francouzské dluhové krize a geopolitického napětí kolem Ukrajiny.",
-        "reason_en": "Markets are under pressure from rising bond yields, the French debt crisis, and geopolitical tensions surrounding Ukraine."
+        "action": "SELL",
+        "reason_cs": "Trhy jsou pod tlakem rostoucích nákladů na půjčky, politické nestability ve Francii a nejistoty ohledně vývoje inflace a technologického sektoru.",
+        "reason_en": "Markets face downward pressure from rising borrowing costs, French political instability, and mounting uncertainty surrounding inflation and tech sector valuations."
       },
       {
         "sector_cs": "Evropské banky (BNP Paribas, Deutsche Bank, Santander)",
         "sector_en": "European Banks (BNP Paribas, Deutsche Bank, Santander)",
         "action": "HOLD",
-        "reason_cs": "Vyšší náklady na půjčky a fiskální napětí v členských státech představují rostoucí riziko pro bankovní sektor.",
-        "reason_en": "Higher borrowing costs and fiscal tensions in member states pose mounting risks to the banking sector."
+        "reason_cs": "Ačkoliv banky těží z úrokových sazeb ECB, obavy o francouzský dluh a zhoršující se makroekonomické prostředí zvyšují riziko tvorby opravných položek.",
+        "reason_en": "While banks benefit from ECB interest rates, concerns over French public debt and a deteriorating macroeconomic backdrop elevate risk premiums and provisioning."
       },
       {
         "sector_cs": "Obranný průmysl (Rheinmetall, Thales, Leonardo)",
         "sector_en": "Defense Industry (Rheinmetall, Thales, Leonardo)",
         "action": "BUY",
-        "reason_cs": "Intenzivní ruské útoky a nejistota ohledně americké podpory udržují vysokou poptávku po evropských výdajích na obranu.",
-        "reason_en": "Intense Russian attacks and uncertainty regarding US support maintain robust demand for European defense spending."
+        "reason_cs": "Pokračující konflikt na Ukrajině a obavy o spolehlivost americké podpory nutí evropské státy masivně navyšovat investice do obranných kapacit.",
+        "reason_en": "The ongoing war in Ukraine and lingering doubts over long-term US security commitments continue to drive heavy European investments into defense and munitions."
       },
       {
         "sector_cs": "Energetika (TotalEnergies, Shell, RWE)",
         "sector_en": "Energy (TotalEnergies, Shell, RWE)",
-        "action": "BUY",
-        "reason_cs": "Útoky na ukrajinskou energetickou infrastrukturu a nestabilita dodávek udržují energetická aktiva silná navzdory sankčním limitům.",
-        "reason_en": "Attacks on Ukrainian energy infrastructure and supply instability keep energy assets strong despite sanction limits."
+        "action": "HOLD",
+        "reason_cs": "Ruské vývozy ropy zůstávají navzdory sankcím stabilní, nicméně pokračující útoky na ukrajinskou energetickou infrastrukturu udržují komoditní trhy ve vysoké volatilitě.",
+        "reason_en": "Russian crude exports remain resilient despite sanctions, but ongoing infrastructure strikes in Ukraine keep energy and power markets exposed to high volatility."
       },
       {
         "sector_cs": "Automobilový průmysl (Volkswagen, BMW, Stellantis)",
         "sector_en": "Automotive Industry (Volkswagen, BMW, Stellantis)",
         "action": "SELL",
-        "reason_cs": "Slabnoucí poptávka, protesty a rostoucí regulatorní i mzdové tlaky vytvářejí silný tlak na marže automobilek.",
-        "reason_en": "Weakening demand, protests, and rising regulatory and wage pressures create severe margin pressure for automakers."
+        "reason_cs": "Tradiční automobilky čelí silnému konkurenčnímu tlaku ze strany levných čínských elektromobilů a jsou nuceny experimentovat s drahými strategiemi včetně retro modelů.",
+        "reason_en": "Legacy automakers face severe margin pressure from cheap Chinese EVs and are resorting to niche nostalgic EV revivals to protect market share."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly těží z relativní stability, ale čelí nepřímému tlaku širších evropských makroekonomických obav.",
-        "reason_en": "Domestic stocks benefit from relative stability but face indirect pressure from broader European macroeconomic concerns."
+        "reason_cs": "Domácí tituly zůstávají stabilní, ale jsou citlivé na celkovou nervozitu v evropském bankovním sektoru a vývoj energetické legislativy.",
+        "reason_en": "Domestic equities remain relatively resilient but are sensitive to broader European banking sentiment shifts and ongoing regional regulatory pressures."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající napětí na frontě na Ukrajině, pokračující rozpočtové spory v EU a nervozitu na trzích ohledně francouzského dluhu.",
-    "forecast_en": "Persistent tension on the Ukrainian frontline, ongoing EU budget disputes, and market anxiety regarding French debt are expected in the coming days.",
-    "forecast_review_cs": "Předchozí předpověď ohledně kybernetické bezpečnosti, protestů ve Francii a obranné připravenosti se plně potvrdila v dnešních zprávách.",
-    "forecast_review_en": "The previous forecast regarding cybersecurity, French protests, and defense readiness was fully confirmed by today's news."
+    "forecast_cs": "V nejbližších dnech lze očekávat pokračující nervozitu na trzích kvůli francouzskému dluhu, zostřené boje na ukrajinské frontě a pokračující napětí v unijních rozpočtových jednáních.",
+    "forecast_en": "Persistent market anxiety over French public debt, intensified frontline fighting in Ukraine, and ongoing friction in EU budget negotiations are expected in the coming days.",
+    "forecast_review_cs": "Předchozí předpověď se zcela potvrdila, neboť napětí na Ukrajině, spory o rozpočet EU i obavy z francouzského dluhu dominovaly zpravodajství posledních 24 hodin.",
+    "forecast_review_en": "The previous forecast was fully confirmed, as frontline tensions in Ukraine, EU budget disputes, and French debt concerns dominated the news cycle over the past 24 hours."
   },
   "articles": [
     {
-      "title": "Russia arrests Japanese Hokkaido Shimbun journalist on suspicion of spying",
-      "summary": "According to Russian security services, he gathered data on \"Russia's military readiness\" and on mobilised troops and volunteers for the war in Ukraine.",
-      "link": "https://www.euronews.com/2026/10/14/russia-arrests-japanese-hokkaido-shimbun-journalist-on-suspicion-of-spying",
-      "published": "Wed, 14 Oct 2026 12:55:54 +0200",
-      "source": "Euronews"
+      "title": "Ukraine to resume strikes on Russian refineries, Zelenskyy says",
+      "summary": "Ukrainian president expresses anger in FT interview at ‘dangerous’ withdrawal of US intelligence sharing and weakening of Starlink satellite internet service",
+      "link": "https://www.ft.com/content/4d79b52f-1f0d-4739-82ab-7ecfb4251326?syn-25a6b1a6=1",
+      "published": "Thu, 15 Oct 2026 04:00:39 GMT",
+      "source": "Financial Times"
     },
     {
-      "title": "Russian attacks on Ukraine leave 600,000 without power as Zelenskyy says Moscow ‘disrespecting’ US – Europe live",
-      "summary": "<p>Zelenskyy says Russia attacked ‘infrastructure covered by the ceasefire announced by the American president’</p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/oct/14/ukraine-soldiers-combat-access-starlink-satellite-internet-restricted\">Ukrainian soldiers have access to Starlink satellite internet restricted</a></p></li></ul><p><strong>Rutte gets asked “is Russia foolish enough to consider attacking any of Nato countries?”</strong></p><p>He says <strong>“we don’t think so” and that there is “no imminent threat against Nato territory,”</strong> but stresses that “if we see a build up, we will react to it.”</p><p><em>“We will never, ever mount a attack towards anyone else because that is not in our interest. We are a defensive alliance.”</em></p><p><em>“<strong>But here’s the main thing: we are stronger. Russia is not in a good place.</strong> These hybrid attacks, whatever it is, are a sign of weakness. What they allow us to do is to talk about it the whole day and to be rattled and to have press conferences on it. We’re not going to do that. We will react where we need to react.”</em></p> <a href=\"https://www.theguardian.com/world/live/2026/oct/14/russia-ukraine-war-latest-updates-zelenskyy-europe\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/live/2026/oct/14/russia-ukraine-war-latest-updates-zelenskyy-europe",
-      "published": "Wed, 14 Oct 2026 10:44:17 GMT",
+      "title": "EU carmakers bet on nostalgia to fight Chinese EVs",
+      "summary": "Citroën is reviving its postwar-era 2CV as manufacturers turn to electric versions of classic cars",
+      "link": "https://www.ft.com/content/2174fa8e-5b5e-4b1c-9a92-7afc3b9a52c3?syn-25a6b1a6=1",
+      "published": "Thu, 15 Oct 2026 04:00:29 GMT",
+      "source": "Financial Times"
+    },
+    {
+      "title": "French debt worries spill into stocks, driving biggest underperformance since 2010",
+      "summary": "Investors demand big discounts against regional peers to reflect troubled public finances and looming presidential election",
+      "link": "https://www.ft.com/content/69bfdf93-cbba-477c-9fb0-5978d1d4f506?syn-25a6b1a6=1",
+      "published": "Thu, 15 Oct 2026 04:00:29 GMT",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Verse from the waste land: Rotterdam’s poetic bin lorries granted cultural status",
+      "summary": "<p>Lyrical lines printed on side of city’s fleet of rubbish trucks now recognised as one of Netherlands’ proud traditions</p><p>It is best known for its rich migration history and striking modern architecture. But now the Dutch city of Rotterdam is seeking recognition for a rather different characteristic: its tradition of printing poetry on bin trucks.</p><p>Since a poetry festival first came up with the idea in 1988, lines of verse have been printed on all of the city’s waste vehicles. The practice was this week elevated to the status of <a href=\"https://www.immaterieelerfgoed.nl/nl/gedichten-op-vuilniswagens\">intangible cultural heritage</a>, with formal recognition from a Dutch body that guards the nation’s traditions.</p> <a href=\"https://www.theguardian.com/world/2026/oct/15/rotterdam-poems-bin-lorries-granted-cultural-status\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/oct/15/rotterdam-poems-bin-lorries-granted-cultural-status",
+      "published": "Thu, 15 Oct 2026 04:00:23 GMT",
       "source": "The Guardian"
     },
     {
-      "title": "BlackRock now has assets equal to half the size of the U.S. economy after 15% growth",
-      "summary": "Fund-management giant BlackRock on Wednesday said assets under management are nearly $15.5 trillion after growth of 15%.",
-      "link": "https://www.marketwatch.com/story/blackrock-now-has-assets-equal-to-half-the-size-of-the-u-s-economy-after-15-growth-c382b289?mod=mw_rss_topstories",
-      "published": "Wed, 14 Oct 2026 10:41:00 GMT",
-      "source": "MarketWatch"
+      "title": "How Gaza changed Europe, exposing cracks that grow bigger by the week | Shada Islam",
+      "summary": "<p>Solidarity with Palestine’s suffering is punished but MEPs allow a witch-hunt of European Muslims</p><p>For three painful years, Israel’s genocidal war in Gaza, in retaliation for the Hamas terror attacks on 7 October 2023, has <a href=\"https://www.bostonglobe.com/2026/09/27/world/palestinian-death-toll-in-gaza-war-rises-above-74000-since-the-war-began/\">killed more than 74,000 Palestinians</a>, wounded thousands more and reduced most of the territory to rubble. It has changed views of Israel <a href=\"https://www.pewresearch.org/short-reads/2026/06/04/most-people-across-36-countries-have-negative-views-of-israel-and-little-confidence-in-netanyahu/\">across the world</a>, increased support for Palestine and <a href=\"https://www.pewresearch.org/global/2026/06/23/trump-gets-negative-reviews-internationally-as-fewer-say-u-s-is-a-reliable-partner/\">raised questions</a> about US power.</p><p>Europe’s failure to hold Israel’s government to account has cost it <a href=\"https://www.theguardian.com/commentisfree/2024/apr/10/europe-gaza-betrayal-broken-trust-global-south-israel\">global credibility</a> and influence. But I fear something even more consequential than that: Gaza is changing Europe itself.</p><p>Shada Islam is a Brussels-based commentator on EU affairs. She runs New Horizons project, a strategy, analysis and advisory company</p><p><em><strong>Do you have an opinion on the issues raised in this article? If you would like to submit a response of up to 300 words by email to be considered for publication in our <a href=\"https://www.theguardian.com/letters\">letters</a> section, please <a href=\"mailto:guardian.letters@theguardian.com?body=Please%20include%20your%20name,%20full%20postal%20address%20and%20phone%20number%20underneath%20your%20letter.%20Letters%20are%20usually%20published%20with%20the%20author’s%20name%20and%20city/town/village.%20The%20rest%20of%20the%20information%20is%20for%20verification%20only%20and%20to%20contact%20you%20if%20your%20letter%20is%20used.\">click here</a>.</strong></em></p> <a href=\"https://www.theguardian.com/commentisfree/2026/oct/15/how-gaza-changed-europe-exposing-cracks-that-grow-bigger-by-the-week\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/commentisfree/2026/oct/15/how-gaza-changed-europe-exposing-cracks-that-grow-bigger-by-the-week",
+      "published": "Thu, 15 Oct 2026 04:00:21 GMT",
+      "source": "The Guardian"
     },
     {
-      "title": "My wife says we can’t afford to retire, so I vetoed her $8,000 trip to Italy. We have $4 million saved. Do I keep working?",
-      "summary": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
-      "link": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
-      "published": "Wed, 14 Oct 2026 10:16:00 GMT",
-      "source": "MarketWatch"
+      "title": "EU leaders face off over the budget",
+      "summary": "EU leaders meet today for their first chance to beef about the budget face to face. On the show, Zoya Sheftalovich and Sarah Wheaton dive deeper into why leaders look increasingly unlikely to reach an agreement on the EU’s next money pot by December. Plus, Zoya obtained a document revealing deepening relations between Russia and […]",
+      "link": "https://www.politico.eu/podcast/brussels-playbook-podcast/eu-leaders-face-off-over-the-budget/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Thu, 15 Oct 2026 04:00:00 +0000",
+      "source": "Politico Europe"
     },
     {
-      "title": "Higher borrowing costs an 'alarm signal' for France, says finance minister",
-      "summary": "French public debt is projected to reach a record high of 121.7% of GDP in 2027 under the government's budget proposal, up from 119% at the end of June.",
-      "link": "https://www.lemonde.fr/en/france/article/2026/10/14/higher-borrowing-costs-an-alarm-signal-for-france-says-finance-minister_6758598_7.html",
-      "published": "Wed, 14 Oct 2026 12:09:40 +0200",
+      "title": "Zelenskyy on Trump's relationship with Putin | FT Interview",
+      "summary": "Ukrainian president Volodymyr Zelenskyy lambasted Washington’s eagerness to strike business deals with Moscow",
+      "link": "https://www.ft.com/video/ca7652de-937e-4ba3-89a4-17dd427cc919?syn-25a6b1a6=1",
+      "published": "Thu, 15 Oct 2026 04:00:00 GMT",
+      "source": "Financial Times"
+    },
+    {
+      "title": "French high school protests: Mélenchon has young people's support. How will that translate electorally?",
+      "summary": "Now seen as the 'political embodiment' of the high school protest movement, hard-left candidate Jean-Luc Mélenchon hopes to benefit from longstanding engagement with young people.",
+      "link": "https://www.lemonde.fr/en/france/article/2026/10/15/melenchon-has-young-people-s-support-how-will-that-translate-electorally_6758627_7.html",
+      "published": "Thu, 15 Oct 2026 05:00:07 +0200",
       "source": "Le Monde"
     },
     {
-      "title": "Ukrainian soldiers in combat have access to Starlink satellite internet restricted",
-      "summary": "<p>Outage of terminals managed by Elon Musk’s SpaceX comes as Russia launches ballistic missiles at Ukraine without any advance warning from US</p><p>Ukrainian soldiers in combat have suddenly had their access to Starlink satellite internet terminals restricted as the Trump administration has increased pressure on Ukraine to halt long-range strikes on Russia’s oil industry immediately.</p><p>The terminals, which are distributed and managed by Elon Musk’s SpaceX, are a key component of Ukraine’s military operations and the sudden restrictions on the terminals travelling at high speeds on Tuesday evening led to the failure of several combat missions, said an adviser on military technology to Ukraine’s president, Volodymyr Zelenskyy.</p> <a href=\"https://www.theguardian.com/world/2026/oct/14/ukraine-soldiers-combat-access-starlink-satellite-internet-restricted\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/oct/14/ukraine-soldiers-combat-access-starlink-satellite-internet-restricted",
-      "published": "Wed, 14 Oct 2026 10:05:36 GMT",
+      "title": "In Italy, Giorgia Meloni seeks to trademark her voice to fight 'deepfakes'",
+      "summary": "The prime minister aims to protect herself from ultra-realistic AI-generated videos that use the likeness of public figures to spread disinformation.",
+      "link": "https://www.lemonde.fr/en/international/article/2026/10/15/in-italy-giorgia-meloni-seeks-to-trademark-her-voice-to-fight-deepfakes_6758625_4.html",
+      "published": "Thu, 15 Oct 2026 04:07:33 +0200",
+      "source": "Le Monde"
+    },
+    {
+      "title": "Frontex suspends reintegration program after blowing through its budget",
+      "summary": "The pause comes ahead of a proposed expansion of the EU border agency's role in returns, sharpening questions over how Brussels will fund its tougher deportation policy.",
+      "link": "https://www.politico.eu/article/frontex-suspends-reintegration-program-after-blowing-through-its-budget/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Thu, 15 Oct 2026 02:00:00 +0000",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "How Russia plans to revive its ties with Slovakia",
+      "summary": "With Viktor Orbán gone, Slovak Prime Minister Robert Fico is emerging as Vladimir Putin’s most prominent ally in the EU.",
+      "link": "https://www.politico.eu/article/russia-plans-revive-slovakia-ties/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Thu, 15 Oct 2026 02:00:00 +0000",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "How Putin’s favorite sport reopened the door to international contests",
+      "summary": "Brussels officials are grappling with the gradual reintegration of Moscow’s athletes, according to a document viewed by POLITICO.",
+      "link": "https://www.politico.eu/article/putins-favorite-sport-leads-russian-charge-toward-la-olympics/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Thu, 15 Oct 2026 02:00:00 +0000",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Ukraine war briefing: UK pledges £17m to repair Chornobyl attack damage amid fears of slipping US support",
+      "summary": "<p>A Russian strike last year is estimated to have inflicted tens of millions worth of damage to the site of the nuclear power plant. What we know on day 1,695</p><p><strong>Britain will provide £17m ($23m) to fund critical repairs to the Chornobyl power plant hit by a Russian drone attack</strong>, as Andy Burnham seeks to bolster support for Ukraine amid doubts about long-term US commitment. The UK will help restore its protective shelter and ventilation, which were <a href=\"https://www.theguardian.com/world/2025/may/07/russian-drone-strike-caused-tens-of-millions-worth-of-damage-to-chornobyl\">damaged by an attack last year</a>, amid concerns that corrosion could create longer-term environmental and safety risks, the chancellor and foreign secretary announced on Thursday. The pledge comes after Burnham hosted Volodymyr Zelenskyy in Downing Street, where he told the Ukrainian president the UK was “behind you and that will not change”.</p><p><strong>The meeting came during a period of strained relations between Kyiv and Washington</strong> after it emerged that Ukraine’s military has had its <a href=\"https://www.theguardian.com/world/2026/oct/14/volodymyr-zelenskyy-feels-betrayed-by-donald-trump-over-starlink-access\">access to Elon Musk’s Starlink technology throttled</a> in key areas, in effect rendering most of the drones used to strike behind the frontlines inoperable and reducing its air defences.</p><p><strong>Russia is already at war with Nato, a former top commander of the military alliance has said.</strong> Retired four-star general Curtis Scaparrotti, who served as Nato’s supreme allied commander Europe from 2016 to 2019, warned there was a long-term plan behind the Kremlin’s “spurious activities” against member countries and stressed the need to protect critical facilities. “If you looked at it from their spectrum, we’re at war with Russia today, within the alliance, because they’re taking actions that are intended to undermine individual countries’ capability to support warfare, undermine their civilians’ confidence in their own government or within Nato, and to break Nato,” he said in Washington.</p><p><strong>The US proposed European countries ⁠unfreeze some ⁠Russian ​sovereign assets</strong> and transfer them to ⁠a vehicle overseen ​by ‌Washington in ‌an attempt to ‌revive peace talks, the Financial Times reported on Wednesday. European delegates reportedly rebuffed the plan from US special envoy Steve Witkoff ⁠and Donald ​Trump’s son-in-law ​Jared Kushner.</p><p><strong>Questions over the future of support in Europe for Ukraine were highlighted on Wednesday by surging far-right parties</strong>. France’s<strong> </strong><strong>Marine</strong><strong> Le ⁠Pen, </strong>who on current polling is predicted to win next ​year’s presidential ‌vote, said Paris ⁠cannot keep financing Ukraine due ⁠to the “perilous” ⁠state ​of the euro zone’s second-biggest ⁠economy. <strong>Germany’s far-right Alternative for Germany (AfD) and the small leftist BSW</strong> party joined forces on ⁠Wednesday to pass ⁠a symbolic motion ​in the state parliament of Saxony-Anhalt calling for an end to Berlin’s military support for Ukraine. The motion has no practical effect, because state parliaments have no role in foreign ‌policy.</p><p><strong>Shares in European satellite operator Eutelsat have soared following news of Ukraine’s difficulties with Starlink technology</strong>, fuelled by investor bets that European providers could benefit from growing strains between Washington and Kyiv. But experts say Europe does not have a ready-made alternative that Ukrainian soldiers could attach to their drones. Christian Freiherr von der Ropp, an ‌independent satellite consultant, said Eutelsat’s OneWeb network was not well suited to wartime use and would require the replacement of thousands of Starlink terminals. European defence commissioner ​Andrius Kubilius said at a conference in Brussels on Wednesday that the continent was quite dependent on American space capabilities. “The answer to that situation is to develop our own capabilities,” he said.</p> <a href=\"https://www.theguardian.com/world/2026/oct/15/ukraine-war-briefing-uk-pledges-17m-to-repair-chornobyl-attack-damage-amid-fears-of-slipping-us-support\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/oct/15/ukraine-war-briefing-uk-pledges-17m-to-repair-chornobyl-attack-damage-amid-fears-of-slipping-us-support",
+      "published": "Thu, 15 Oct 2026 01:03:29 GMT",
       "source": "The Guardian"
     },
     {
-      "title": "Russian strikes leave 600,000 without power in Ukraine, as Starlink restrictions affect front line",
-      "summary": "Critical energy infrastructure is hit, as Ukraine says speed restrictions of Elon Musk's Starlink are disrupting battlefield missions.",
-      "link": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 14 Oct 2026 10:04:28 GMT",
+      "title": "2026 midterms: 'Trump has many levers to disrupt the election, but far fewer means to turn defeat into victory'",
+      "summary": "The US president will likely not be able to 'steal' the November 3 midterm elections. However, he is expected to revive the narrative of electoral illegitimacy in order to make the 2028 presidential election a contest for revenge, writes US specialist Lauric Henneton in this op-ed for Le Monde.",
+      "link": "https://www.lemonde.fr/en/opinion/article/2026/10/15/2026-midterms-trump-has-many-levers-to-disrupt-the-election-but-far-fewer-means-to-turn-defeat-into-victory_6758622_23.html",
+      "published": "Thu, 15 Oct 2026 02:39:31 +0200",
+      "source": "Le Monde"
+    },
+    {
+      "title": "The AI trade is splintering as inflation fears rattle hyped-up tech stocks",
+      "summary": "Investors are wondering if steep inflation and increased borrowing costs could derail the AI buildout.",
+      "link": "https://www.marketwatch.com/story/the-ai-trade-is-splintering-as-inflation-fears-rattle-hyped-up-tech-stocks-dbf49369?mod=mw_rss_topstories",
+      "published": "Wed, 14 Oct 2026 23:36:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Student protests in Albania turn violent as demonstrators clash with police",
+      "summary": "<p>Dozens of people detained after government building and two banks set on fire  as tens of thousands march over education costs and corruption</p><p>Tens of thousands of students have taken to the streets of Tirana, the Albanian capital, setting alight a government building and two banks and hurling stones at police during a protest over rising education costs and ⁠corruption.</p><p>Police responded with water ⁠cannon and teargas to disperse protesters who started a fire at the ministry of education building, overturned bins and smashed the fronts of local businesses. A branch of Raiffeisen Bank near the education ministry also caught fire.</p> <a href=\"https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/oct/14/student-protests-tirana-albania-police-clashes",
+      "published": "Wed, 14 Oct 2026 23:19:43 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "In Brazil, evangelicals grow frustrated with the politicization of their faith: 'It's disheartening to see religion used by the far right'",
+      "summary": "While 69% of evangelicals said they would vote for Flavio Bolsonaro, compared to 25% for the left-wing president Luiz Inacio Lula da Silva, most worshippers do not accept political issues being raised during services or religious events in the run-up to the election.",
+      "link": "https://www.lemonde.fr/en/international/article/2026/10/15/in-brazil-evangelicals-grow-frustrated-with-the-politicization-of-their-faith-it-s-disheartening-to-see-religion-used-by-the-far-right_6758621_4.html",
+      "published": "Thu, 15 Oct 2026 01:04:55 +0200",
+      "source": "Le Monde"
+    },
+    {
+      "title": "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
+      "summary": "The 3.6% COLA for 2027 is aimed at helping more than 68 million beneficiaries keep pace with the cost of living",
+      "link": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
+      "published": "Wed, 14 Oct 2026 22:24:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Why Zelensky's meeting with Burnham matters",
+      "summary": "Prime Minister Andy Burnham welcomed President Zelensky to Downing Street on Wednesday, as Ukraine's leader looks to shore up his European allies five years into Russia's war on Ukraine.",
+      "link": "https://www.bbc.co.uk/news/videos/c65yngxdzdd5o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 14 Oct 2026 20:41:03 GMT",
       "source": "BBC News"
     },
     {
-      "title": "Ukraine blindsided by Starlink restrictions and intelligence gaps",
-      "summary": "Moscow ignores Donald Trump’s ‘energy ceasefire’ while Kyiv’s forces experience connectivity problems on Elon Musk’s satellite network",
-      "link": "https://www.ft.com/content/37085602-726a-44dc-a859-51caab38eb75?syn-25a6b1a6=1",
-      "published": "Wed, 14 Oct 2026 09:47:59 GMT",
-      "source": "Financial Times"
+      "title": "Burnham treads carefully with Zelensky visit, balancing Trump and Ukraine",
+      "summary": "The UK's prime minister meets with Volodymyr Zelensky after a rocky week for the Ukraine president.",
+      "link": "https://www.bbc.co.uk/news/articles/cmx23q4dwvneo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 14 Oct 2026 20:09:05 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Russia and Ukraine trade blame over Trump’s ‘energy ceasefire’ after deadly Kyiv strike",
+      "summary": "A ballistic missile hit a power plant that supplies the Ukrainian capital with heat and electricity, as Moscow said it had downed 900 drones overnight.",
+      "link": "https://www.euronews.com/2026/10/14/one-person-killed-and-20-others-injured-in-overnight-russian-attacks-on-kyiv",
+      "published": "Wed, 14 Oct 2026 17:29:56 +0200",
+      "source": "Euronews"
+    },
+    {
+      "title": "Germany: Supporters rally in Hamburg as trial opens over Nord Stream pipeline blasts",
+      "summary": "Supporters waving Ukrainian flags gathered outside a court in Hamburg on Wednesday, 14 October, in solidarity with a former Ukrainian army officer accused of involvement in the 2022 Nord Stream pipeline explosions in the Baltic Sea.",
+      "link": "https://www.euronews.com/video/2026/10/14/germany-supporters-rally-in-hamburg-as-trial-opens-over-nord-stream-pipeline-blasts",
+      "published": "Wed, 14 Oct 2026 15:42:25 +0200",
+      "source": "Euronews"
+    },
+    {
+      "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
+      "summary": "Four years after the attacks, Serhii Kuznetsov appears in court accused of a plot to destroy Russia's gas pipelines to Germany.",
+      "link": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 14 Oct 2026 13:41:51 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Starlink restrictions in Ukraine war linked to political situation, Zelensky aide says",
+      "summary": "Elon Musk's system allows Kyiv to protect Ukrainian skies and effectively guide drones to Russian targets.",
+      "link": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 14 Oct 2026 13:11:17 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Ukrainian on trial in Germany over gas pipeline bombing",
+      "summary": "The trial has begun of a Ukrainian man accused of leading an elaborate plot to blow up an undersea pipeline carrying Russian gas to Germany.",
+      "link": "https://news.sky.com/story/ukrainian-on-trial-in-germany-over-war-crime-bombing-of-nord-stream-pipeline-13599215",
+      "published": "Wed, 14 Oct 2026 12:47:00 +0100",
+      "source": "Sky News"
+    },
+    {
+      "title": "Japan summons Russian ambassador to protest journalist's arrest on spying charges",
+      "summary": "Moscow's FSB security service said a Japanese national was arrested on the Far East island of Sakhalin, near a disputed cluster of islands, but did not name the individual.",
+      "link": "https://www.euronews.com/2026/10/14/russia-arrests-japanese-hokkaido-shimbun-journalist-on-suspicion-of-spying",
+      "published": "Wed, 14 Oct 2026 12:55:54 +0200",
+      "source": "Euronews"
     },
     {
       "title": "Iran executes man accused of armed attacks during US-Israeli strikes",
@@ -119,137 +245,11 @@
       "source": "Euronews"
     },
     {
-      "title": "Submit your questions: Who’s winning the trade war with China — the EU or US?",
-      "summary": "Senior trade writer Alan Beattie and economics columnist Soumaya Keynes will answer reader questions in a live Q&A on Thursday October 15 at 1pm (BST)",
-      "link": "https://www.ft.com/content/0a39fcdb-860c-4739-8454-21fb429f6336?syn-25a6b1a6=1",
-      "published": "Wed, 14 Oct 2026 09:38:11 GMT",
-      "source": "Financial Times"
-    },
-    {
-      "title": "Germany puts Ukrainian on trial accused of blowing up Nord Stream pipelines",
-      "summary": "Four years after the attacks, Serhii K is in court accused of a plot to destroy Russia's gas pipelines to Germany.",
-      "link": "https://www.bbc.co.uk/news/articles/cw99zpmnxzmjo?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 14 Oct 2026 09:32:54 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "'We ask for teachers, they send us police': This Paris suburb school has become a symbol of the protest movement",
-      "summary": "High school students, teachers and lawyers were joined by the Swedish activist Greta Thunberg on Tuesday outside a high school in Saint-Denis, the largest suburb of Paris and one of the most underprivileged.",
-      "link": "https://www.lemonde.fr/en/france/article/2026/10/14/we-ask-for-teachers-they-send-us-police-this-paris-suburb-school-has-become-a-symbol-of-the-protest-movement_6758593_7.html",
-      "published": "Wed, 14 Oct 2026 11:32:02 +0200",
-      "source": "Le Monde"
-    },
-    {
-      "title": "Ukrainian soldier goes on trial over sabotage of Nord Stream gas pipelines",
-      "summary": "<p>Special forces officer Serhii Kuznetsov denies involvement in the 2022 blasts that left pipelines badly damaged </p><p>A Ukrainian soldier has gone on trial in Hamburg accused of taking part in one of the most brazen acts of sabotage in postwar European history – the 2022 attack on the Nord Stream gas pipelines between Russia and Germany.</p><p>Serhii Kuznetsov, a special forces officer from the Ukrainian military, is accused by prosecutors of being an accomplice to war crimes by attacking civilian infrastructure, causing an explosion, damaging property and disrupting public services.</p> <a href=\"https://www.theguardian.com/business/2026/oct/14/ukrainian-soldier-to-go-on-trial-over-sabotage-of-nord-stream-gas-pipelines\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/business/2026/oct/14/ukrainian-soldier-to-go-on-trial-over-sabotage-of-nord-stream-gas-pipelines",
-      "published": "Wed, 14 Oct 2026 09:24:46 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Albania: Student protests in Tirana turn violent as Flamingo Revolution escalates",
-      "summary": "Albania's capital, Tirana, saw violent clashes between student protesters and police on Tuesday, 13 October, as demonstrations continued overnight into Wednesday.",
-      "link": "https://www.euronews.com/video/2026/10/14/albania-student-protests-in-tirana-turn-violent-as-flamingo-revolution-escalates",
-      "published": "Wed, 14 Oct 2026 11:22:10 +0200",
-      "source": "Euronews"
-    },
-    {
-      "title": "EU capitals weaken end-of-year deadline for budget deal",
-      "summary": "Italy and France are resisting European Council President António Costa's push to secure a deal in 2026.",
-      "link": "https://www.politico.eu/article/eu-capitals-weaken-end-of-year-deadline-for-budget-deal/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Wed, 14 Oct 2026 09:13:54 +0000",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Turkish police take pro-opposition channel Halk TV off air and arrest 11 in Istanbul raid",
-      "summary": "The move came just hours before the start of the defence's arguments in the sprawling corruption trial of jailed Istanbul mayor Ekrem İmamoğlu and some 400 other defendants.",
-      "link": "https://www.euronews.com/2026/10/14/turkish-police-take-pro-opposition-channel-halk-tv-off-air-and-arrest-11-in-istanbul-raid",
-      "published": "Wed, 14 Oct 2026 10:11:22 +0200",
-      "source": "Euronews"
-    },
-    {
-      "title": "Russia arrests Japanese journalist on spying charges",
-      "summary": "The Hokkaido Shimbun journalist is accused of collecting information on Moscow's defence capabilities for Tokyo.",
-      "link": "https://www.bbc.co.uk/news/articles/cwp9g1el7x9zo?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 14 Oct 2026 08:00:03 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Budget ‘beerlaterals’: How Burnham and Healey really work",
-      "summary": "As President Volodymyr Zelenskyy arrives in Downing Street, is the balance of the Ukraine war shifting? Andy Burnham will reaffirm Britain’s support for Ukraine after Presidents Trump and Putin reached a diesel deal – but can the UK still make a difference without putting its relationship with Washington at risk? Sam Coates and Anne McElvoy […]",
-      "link": "https://www.politico.eu/podcast/eu-confidential/budget-beerlaterals-how-burnham-and-healey-really-work/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Wed, 14 Oct 2026 07:52:24 +0000",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Joining Shakhtar as they make base in London: ‘We’re here to show the world that we are alive’",
-      "summary": "<p>With no ‘home’ games in Ukraine, Arda Turan’s side hit the road again, with Chelsea’s Stamford Bridge hosting their Champions League campaign</p><p>The morning has thinned out into low, wispy cloud. Beneath it, Shakhtar Donetsk’s players are going through their paces. It is a light session for those who did not start against Veres Rivne the previous day; that means Arda Turan observes from the side, watching with the director of football, Darijo Srna. A stray ball zips towards them and Srna, after juggling it up, bends it into the goal with a familiar right-footed arc. “Modric!” exclaims Turan. But the two men are football legends in their own right and, as they continue to joke before Srna dashes away to take another phone call, the thought occurs that this happy scene could be played out almost anywhere else. Nearby, just beyond the team’s accommodation, a lake shimmers under the emerging sun.</p><p>It masks the fact that, around dawn, air raid sirens disrupted the peace for everyone in view. Even here, in Shakhtar’s bucolic spa hotel base 15 minutes outside Lviv, nobody is safe from the threat of Russian rockets and drones. In Rivne, three hours’ drive to the north-east, another alarm had sent the players and staff down to the stadium’s shelter. The second half was delayed by 20 minutes and that, no matter the corner of the country or the vividness of the autumn colours, is a weekly reality.</p> <a href=\"https://www.theguardian.com/football/2026/oct/14/shakhtar-donetsk-champions-league-arda-turan-london-stamford-bridge-aek-athens\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/football/2026/oct/14/shakhtar-donetsk-champions-league-arda-turan-london-stamford-bridge-aek-athens",
-      "published": "Wed, 14 Oct 2026 07:00:47 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Russian strikes on Ukraine energy sites leave 600,000 without power, says Zelensky",
-      "summary": "Ukrainian President Volodymyr Zelensky said a Russian ballistic missile strike had 'targeted' Ukraine's energy infrastructure, despite a purported 'energy ceasefire' announced by Trump.",
-      "link": "https://www.lemonde.fr/en/international/article/2026/10/14/russian-energy-strikes-leave-600-000-people-without-power-says-zelensky_6758587_4.html",
-      "published": "Wed, 14 Oct 2026 08:50:32 +0200",
-      "source": "Le Monde"
-    },
-    {
-      "title": "Le Pen casts doubt on future EU funding for Ukraine",
-      "summary": "Also in this newsletter: EU leaders urged to rethink carbon costs for industry",
-      "link": "https://www.ft.com/content/45e8941a-9f4d-4186-baec-eef5be5ce495?syn-25a6b1a6=1",
-      "published": "Wed, 14 Oct 2026 05:00:01 GMT",
-      "source": "Financial Times"
-    },
-    {
-      "title": "Marine Le Pen vows ‘trial of strength’ with EU",
-      "summary": "Far-right leader aims for radical change in bloc’s powers and budget even as she tries to reassure voters over her pragmatism",
-      "link": "https://www.ft.com/content/60d09841-052a-44f3-a8ae-52c38fdbb5ab?syn-25a6b1a6=1",
-      "published": "Wed, 14 Oct 2026 04:00:21 GMT",
-      "source": "Financial Times"
-    },
-    {
       "title": "The US journalist who became Putin's political prisoner - with Evan Gershkovich",
       "summary": "<a href=\"https://podfollow.com/the-world-with-richard-and-yalda\">👉Listen to The World With Richard Engel and Yalda Hakim on your podcast app👈</a>",
       "link": "https://news.sky.com/story/the-us-journalist-who-became-putins-political-prisoner-with-evan-gershkovich-13598924",
       "published": "Wed, 14 Oct 2026 05:00:00 +0100",
       "source": "Sky News"
-    },
-    {
-      "title": "Europe’s development aid dilemma",
-      "summary": "The Commission is grappling with two goals that may be counterproductive: cutting migration and slashing development aid. The EU executive’s argument is that a slash in development funding will likely result in people showing up at European borders in search of a better life. And that’s a problem for the bloc, since it’s looking to […]",
-      "link": "https://www.politico.eu/podcast/brussels-playbook-podcast/europes-development-aid-dilemma/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Wed, 14 Oct 2026 04:00:00 +0000",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "In the occupied West Bank, one Palestinian family's story shows the limits of the Israeli court system",
-      "summary": "Far from being enforced, the rare rulings handed down by the Israeli Supreme Court in favor of Palestinians who have been dispossessed of their land or homes by Israeli settlers have been overturned either by force or by the military authorities.",
-      "link": "https://www.lemonde.fr/en/international/article/2026/10/14/in-the-occupied-west-bank-one-palestinian-family-s-story-shows-the-limits-of-the-israeli-court-system_6758585_4.html",
-      "published": "Wed, 14 Oct 2026 05:30:08 +0200",
-      "source": "Le Monde"
-    },
-    {
-      "title": "Schaffe, schaffe, Rentenreform: Merz und sein neuer Arbeitsminister",
-      "summary": "Ein verschnupfter und heiser Kanzler im Angriffsmodus – wohl auch heute bei der Regierungserklärung am Nachmittag im Bundestag. Beim Arbeitgebertag gestern hat der Regierungschef Merz gut ausgeteilt und seinen neuen Arbeits- und Sozialminister Alexander Schweitzer öffentlich unter Druck gesetzt. Die Rentenreform soll im Eiltempo durchs Kabinett, doch in der SPD brodelt es gewaltig. Die Analyse […]",
-      "link": "https://www.politico.eu/podcast/berlin-playbook-podcast/schaffe-schaffe-rentenreform-merz-und-sein-neuer-arbeitsminister/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Wed, 14 Oct 2026 03:30:00 +0000",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Japanese journalist arrested in Russia on suspicion of spying",
-      "summary": "A Japanese journalist has been arrested in Russia and accused of gathering information on its defence capabilities, news agencies report.",
-      "link": "https://news.sky.com/story/japanese-journalist-arrested-in-russia-on-suspicion-of-spying-13598988",
-      "published": "Tue, 13 Oct 2026 21:17:00 +0100",
-      "source": "Sky News"
-    },
-    {
-      "title": "'If we don't scream, they won't listen to us': Student protesters speak to BBC in Paris",
-      "summary": "Student protesters in France have told the BBC's James Waterhouse that they will continue to take action until change has been made. The protests have now entered their fourth week.",
-      "link": "https://www.bbc.co.uk/news/videos/ckg5jqg1npd7o?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 13 Oct 2026 18:23:22 GMT",
-      "source": "BBC News"
     },
     {
       "title": "Abuse in France: \"Is Anyone Thinking of the Children?\"",
@@ -323,15 +323,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-04 11:13",
-      "threat_level": "CRITICAL",
-      "value": 4,
-      "sentiment_score": 82,
-      "incidents": 20,
-      "stoxx50": 6238.5,
-      "eur_czk": null
-    },
     {
       "date": "2026-10-04 11:36",
       "threat_level": "HIGH",
@@ -592,6 +583,15 @@
       "incidents": 38,
       "stoxx50": 6194.29,
       "eur_czk": null
+    },
+    {
+      "date": "2026-10-15 05:00",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 75,
+      "incidents": 38,
+      "stoxx50": 6190.37,
+      "eur_czk": null
     }
   ],
   "locations": [
@@ -652,25 +652,25 @@
       "name_en": "Moscow"
     },
     {
-      "key": "Stockholm",
-      "lat": 59.3293,
-      "lon": 18.0686,
-      "name_cs": "Stockholm",
-      "name_en": "Stockholm"
+      "key": "Budapest",
+      "lat": 47.4979,
+      "lon": 19.0402,
+      "name_cs": "Budapešť",
+      "name_en": "Budapest"
     },
     {
-      "key": "Athens",
-      "lat": 37.9838,
-      "lon": 23.7275,
-      "name_cs": "Athény",
-      "name_en": "Athens"
+      "key": "Amsterdam",
+      "lat": 52.3676,
+      "lon": 4.9041,
+      "name_cs": "Amsterdam",
+      "name_en": "Amsterdam"
     },
     {
-      "key": "Istanbul",
-      "lat": 41.0082,
-      "lon": 28.9784,
-      "name_cs": "Istanbul",
-      "name_en": "Istanbul"
+      "key": "Bratislava",
+      "lat": 48.1486,
+      "lon": 17.1077,
+      "name_cs": "Bratislava",
+      "name_en": "Bratislava"
     },
     {
       "key": "Washington",
@@ -705,6 +705,14 @@
       "auto": true
     },
     {
+      "key": "Brazil",
+      "lat": -14.2,
+      "lon": -51.9,
+      "name_cs": "Brazílie",
+      "name_en": "Brazil",
+      "auto": true
+    },
+    {
       "key": "Israel",
       "lat": 31.5,
       "lon": 34.8,
@@ -718,14 +726,6 @@
       "lon": 53.7,
       "name_cs": "Írán",
       "name_en": "Iran",
-      "auto": true
-    },
-    {
-      "key": "Turkey",
-      "lat": 39,
-      "lon": 35,
-      "name_cs": "Turecko",
-      "name_en": "Turkey",
       "auto": true
     },
     {
@@ -754,19 +754,19 @@
     }
   ],
   "location_counts": {
-    "Brussels": 39,
+    "Brussels": 40,
     "Strasbourg": 17,
-    "Kyiv": 48,
-    "Berlin": 37,
+    "Kyiv": 49,
+    "Berlin": 38,
     "Prague": 1,
-    "Paris": 40,
+    "Paris": 41,
     "Warsaw": 23,
     "Madrid": 28,
-    "Rome": 12,
-    "Frankfurt": 24,
-    "London": 22,
-    "Moscow": 24,
-    "Budapest": 6,
+    "Rome": 13,
+    "Frankfurt": 25,
+    "London": 23,
+    "Moscow": 25,
+    "Budapest": 7,
     "Texas": 1,
     "Oklahoma": 1,
     "Kanada": 1,
@@ -783,10 +783,10 @@
     "Lisbon": 1,
     "Athens": 3,
     "Bucharest": 1,
-    "Washington, D.C.": 2,
+    "Washington, D.C.": 3,
     "Katar": 1,
     "Indie": 1,
-    "Japonsko": 3,
+    "Japonsko": 1,
     "Jižní Korea": 2,
     "Severní Korea": 2,
     "Etiopie": 1,
@@ -798,7 +798,7 @@
     "Jihoafrická republika": 1,
     "Peru": 1,
     "Vienna": 1,
-    "Amsterdam": 2,
+    "Amsterdam": 3,
     "Oslo": 1,
     "Florida": 1,
     "Džibutsko": 1,
@@ -808,23 +808,16 @@
     "Chile": 1,
     "Copenhagen": 1,
     "Stockholm": 2,
-    "Sofia": 1
+    "Sofia": 1,
+    "Bratislava": 1
   },
   "top_location": {
     "key": "Kyiv",
     "name_cs": "Kyjev",
     "name_en": "Kyiv",
-    "count": 48
+    "count": 49
   },
   "archive": [
-    {
-      "date": "2026-10-10 05:00",
-      "threat_level": "HIGH",
-      "security_status_cs": "Evropa čelí vlně sociálních nepokojů a protestů proti úsporným opatřením a vládním výdajům (zejména ve Francii a Belgii), zatímco geopolitické napětí eskaluje kvůli dohodám USA o ruské ropě a pokračujícím útokům na Ukrajině. Evropská centrální banka nadále upravuje své měnové směrnice v prostředí přetrvávající ekonomické nestability a globálních obchodních třenic.",
-      "security_status_en": "Europe is facing a wave of social unrest and protests against austerity measures and government spending (particularly in France and Belgium), while geopolitical tensions escalate due to US deals on Russian oil and ongoing attacks in Ukraine. The European Central Bank continues to adjust its monetary guidelines amid persistent economic instability and global trade friction.",
-      "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající volatilitu na trzích v důsledku geopolitického napětí a probíhajících politických změn v členských státech EU.",
-      "forecast_en": "Over the coming days, continued market volatility is expected due to ongoing geopolitical tensions and ongoing political adjustments across EU member states."
-    },
     {
       "date": "2026-10-10 11:41",
       "threat_level": "HIGH",
@@ -928,24 +921,32 @@
       "security_status_en": "Europe faces escalating security risks due to Russian strikes on Ukrainian energy infrastructure and frontline technological restrictions. Political instability is growing amid fiscal pressures in France, social unrest, and the rising influence of the far-right threatening Ukraine funding.",
       "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající napětí na frontě na Ukrajině, pokračující rozpočtové spory v EU a nervozitu na trzích ohledně francouzského dluhu.",
       "forecast_en": "Persistent tension on the Ukrainian frontline, ongoing EU budget disputes, and market anxiety regarding French debt are expected in the coming days."
+    },
+    {
+      "date": "2026-10-15 05:00",
+      "threat_level": "HIGH",
+      "security_status_cs": "Evropa čelí stupňujícím se geopolitickým a ekonomickým tlakům, podpořeným eskalací války na Ukrajině, kde Kyjev obnovuje údery na ruské rafinerie kvůli oslabené americké podpoře. Na domácí scéně zatěžují trhy obavy z francouzského dluhu a politické napětí, zatímco EU se potýká s rozpočtovými spory a krizí na hranicích.",
+      "security_status_en": "Europe faces escalating geopolitical and economic pressures driven by intensifying warfare in Ukraine as Kyiv resumes refinery strikes amid waning US intelligence sharing. Domestically, French fiscal worries and political strains weigh heavily on markets, while the EU grapples with stubborn budget disputes and border management challenges.",
+      "forecast_cs": "V nejbližších dnech lze očekávat pokračující nervozitu na trzích kvůli francouzskému dluhu, zostřené boje na ukrajinské frontě a pokračující napětí v unijních rozpočtových jednáních.",
+      "forecast_en": "Persistent market anxiety over French public debt, intensified frontline fighting in Ukraine, and ongoing friction in EU budget negotiations are expected in the coming days."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 7× HIGH.",
   "market_data": {
     "stoxx50": {
-      "value": 6194.29,
+      "value": 6190.37,
       "date": "2026-10-14",
       "cached": false
     },
     "dax": {
-      "value": 25372.99,
+      "value": 25298.61,
       "date": "2026-10-14",
       "cached": false
     },
     "eurusd": {
-      "value": 1.1193,
-      "date": "2026-10-14",
+      "value": 1.122,
+      "date": "2026-10-15",
       "cached": false
     }
   },
