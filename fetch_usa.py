@@ -2,15 +2,28 @@ import feedparser
 import json
 import os
 import re
+import time
 import calendar
 import urllib.request
 import html
 from datetime import datetime, timezone
 from xml.sax.saxutils import escape
 from google import genai
+from google.genai import types
 
 client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY"))
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC_USA") or os.environ.get("NTFY_TOPIC")
+
+# Články starší než tento limit se zahazují (hodiny)
+MAX_AGE_HOURS = 48
+# Jak dlouho se zobrazují poslední známé výroky, když AI žádné nové nevrátí (hodiny)
+PRESIDENT_KEEP_HOURS = 72
+
+INCIDENT_KEYWORDS = [
+    "shooting", "killed", "attack", "explosion", "wildfire", "hurricane",
+    "protest", "riot", "threat", "suspicious", "evacuat", "arrest",
+    "shutdown", "cyberattack", "crash", "storm", "earthquake", "stabbing"
+]
 
 RSS_FEEDS = [
     "https://feeds.npr.org/1001/rss.xml",
@@ -134,8 +147,15 @@ def entry_ts(entry):
         return 0
 
 
+def prompt_summary(text, limit=300):
+    s = re.sub(r"<[^>]*>", " ", text or "")
+    s = re.sub(r"\s+", " ", s).strip()
+    return s[:limit]
+
+
 def fetch_articles():
     per_feed = []
+    cutoff = time.time() - MAX_AGE_HOURS * 3600
     for feed_url in RSS_FEEDS:
         items = []
         name = source_name(feed_url, "News")
@@ -143,6 +163,10 @@ def fetch_articles():
             feed = feedparser.parse(feed_url)
             name = source_name(feed_url, feed.feed.get("title", "News"))
             for entry in sorted(feed.entries, key=entry_ts, reverse=True):
+                ts = entry_ts(entry)
+                # bez data nebo starší než limit = zahodit
+                if ts == 0 or ts < cutoff:
+                    continue
                 title = html.unescape(entry.get("title", ""))
                 summary = html.unescape(entry.get("summary", ""))
                 if any(kw.lower() in (title + summary).lower() for kw in KEYWORDS):
@@ -152,7 +176,7 @@ def fetch_articles():
                         "link": entry.get("link", "#"),
                         "published": entry.get("published", datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")),
                         "source": name,
-                        "_ts": entry_ts(entry)
+                        "_ts": ts
                     })
                     if len(items) >= PER_FEED_MAX:
                         break
@@ -181,6 +205,15 @@ def fetch_articles():
     for a in result:
         a.pop("_ts", None)
     return result
+
+
+def count_incidents(articles):
+    n = 0
+    for a in articles:
+        blob = (a["title"] + " " + prompt_summary(a["summary"])).lower()
+        if any(k in blob for k in INCIDENT_KEYWORDS):
+            n += 1
+    return n
 
 
 def extract_locations(articles):
@@ -223,13 +256,19 @@ def fetch_yahoo_price(symbol, divisor=1):
 
 def fetch_market_data(previous):
     data = {"sp500": None, "dow": None, "yield10y": None}
-    symbols = {"sp500": ("^GSPC", 1), "dow": ("^DJI", 1), "yield10y": ("^TNX", 10)}
+    symbols = {"sp500": ("^GSPC", 1), "dow": ("^DJI", 1), "yield10y": ("^TNX", 1)}
 
     for label, (symbol, divisor) in symbols.items():
         try:
             data[label] = fetch_yahoo_price(symbol, divisor)
         except Exception as e:
             print(f"Error fetching {label} ({symbol}): {e}")
+
+    # Yahoo dříve vracelo ^TNX v desetinách procenta (45.0 = 4.5 %), dnes přímo v %.
+    # Když je hodnota nesmyslně vysoká, vydělíme deseti.
+    y = data.get("yield10y")
+    if y and y["value"] > 20:
+        y["value"] = round(y["value"] / 10, 2)
 
     if previous:
         for label in symbols:
@@ -241,17 +280,26 @@ def fetch_market_data(previous):
     return data
 
 
-def fetch_usd_czk():
-    try:
-        url = "https://api.frankfurter.app/latest?from=USD&to=CZK"
-        with urllib.request.urlopen(url, timeout=10) as resp:
-            result = json.loads(resp.read().decode("utf-8"))
+def fetch_usd_czk(previous=None):
+    sources = [
+        "https://api.frankfurter.dev/v1/latest?base=USD&symbols=CZK",
+        "https://api.frankfurter.app/latest?from=USD&to=CZK",
+        "https://open.er-api.com/v6/latest/USD",
+    ]
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; RedseaMonitor/1.0)"}
+    for url in sources:
+        try:
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                result = json.loads(resp.read().decode("utf-8"))
             rate = result.get("rates", {}).get("CZK")
-            date = result.get("date")
             if rate:
-                return {"value": round(rate, 3), "date": date}
-    except Exception as e:
-        print(f"Error fetching USD/CZK rate: {e}")
+                date = result.get("date") or datetime.now(timezone.utc).strftime("%Y-%m-%d")
+                return {"value": round(float(rate), 3), "date": date}
+        except Exception as e:
+            print(f"Error fetching USD/CZK from {url}: {e}")
+    if previous and previous.get("value"):
+        return previous
     return None
 
 
@@ -271,6 +319,7 @@ def fallback_assessment():
         "sentiment_score": 20,
         "security_status_cs": "Za posledních 24h nebyly zachyceny žádné nové zásadní události v USA.",
         "security_status_en": "No significant new developments in the US were detected in the last 24 hours.",
+        "president_comments": [],
         "recommendations": [
             {"sector_cs": "Široký americký akciový trh (S&P 500)", "sector_en": "US Broad Equity Market (S&P 500)", "action": "HOLD",
              "reason_cs": "Trhy jsou bez výrazných impulzů stabilní.", "reason_en": "Markets remain stable without major triggers."},
@@ -292,22 +341,44 @@ def fallback_assessment():
     }
 
 
-def prompt_summary(text, limit=300):
-    s = re.sub(r"<[^>]*>", " ", text or "")
-    s = re.sub(r"\s+", " ", s).strip()
-    return s[:limit]
+def merge_president_comments(new_items, old_items):
+    now = datetime.now(timezone.utc)
+    now_iso = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    cleaned = []
+    for c in (new_items or []):
+        if not isinstance(c, dict) or not (c.get("statement_cs") or c.get("statement_en")):
+            continue
+        impact = str(c.get("market_impact", "NEUTRAL")).split(" ")[0].split("/")[0].strip().upper()
+        c["market_impact"] = impact if impact in ("POSITIVE", "NEGATIVE", "NEUTRAL") else "NEUTRAL"
+        c["date"] = now_iso
+        cleaned.append(c)
+    if cleaned:
+        return cleaned[:4]
+
+    # AI nic nového nevrátila -> ponech poslední známé výroky, pokud nejsou příliš staré
+    kept = []
+    for c in (old_items or []):
+        try:
+            d = datetime.strptime(c.get("date", ""), "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+            if (now - d).total_seconds() <= PRESIDENT_KEEP_HOURS * 3600:
+                kept.append(c)
+        except Exception:
+            continue
+    return kept[:4]
 
 
 def analyze_with_ai(articles, previous_forecast_cs, previous_forecast_en):
     if not articles:
         return fallback_assessment()
 
-    news_text = "\n".join([f"- {a['title']}: {prompt_summary(a['summary'])}" for a in articles])
+    news_text = "\n".join([
+        f"- [{a['source']}] {a['title']}: {prompt_summary(a['summary'], 400)}" for a in articles
+    ])
     prev_cs = previous_forecast_cs or "Žádná předchozí předpověď."
     prev_en = previous_forecast_en or "No previous forecast."
 
     prompt = f"""
-    You are a top-tier portfolio manager and political/security analyst covering the United States. Based on the following news from the last 24 hours about US politics, economy, markets, and domestic security, produce an analytical overview and investment recommendations in BOTH Czech and English. Consider the full breadth of domestic developments: politics and elections, Congress and the White House, the Federal Reserve and macroeconomic policy, trade and tariffs, immigration and border security, civil unrest, natural disasters, and any acute security incidents.
+    You are a top-tier portfolio manager and political/security analyst covering the United States. Based on the following news from the last 48 hours about US politics, economy, markets, and domestic security, produce an analytical overview and investment recommendations in BOTH Czech and English. Consider the full breadth of domestic developments: politics and elections, Congress and the White House, the Federal Reserve and macroeconomic policy, trade and tariffs, immigration and border security, civil unrest, natural disasters, and any acute security incidents.
 
     News:
     {news_text}
@@ -318,12 +389,17 @@ def analyze_with_ai(articles, previous_forecast_cs, previous_forecast_en):
     Previous forecast, English (from the last run, for review purposes):
     "{prev_en}"
 
-    Return the response STRICTLY AS VALID JSON with no introductory text or markdown formatting. Provide every text field in both languages using the _cs and _en suffixes as shown. Keep threat_level and action as the exact English enum values shown (do not translate them):
+    PRESIDENT STATEMENTS RULES: "president_comments" must contain statements, decisions or announcements of the current US President (Donald Trump) that are explicitly reported in the news above. Include at most 4, choose the ones most relevant for politics or markets. Paraphrase them, never invent or extrapolate anything that is not in the news. "source" is the outlet name from the square brackets of the article. If the news contain no such statement, return an empty array [].
+
+    Return the response STRICTLY AS VALID JSON with no introductory text or markdown formatting. Provide every text field in both languages using the _cs and _en suffixes as shown. Keep threat_level, action and market_impact as the exact English enum values shown (do not translate them):
     {{
         "threat_level": "CRITICAL / HIGH / MEDIUM / STABLE",
         "sentiment_score": <integer 0-100, where 0 = completely calm situation, 100 = extreme crisis>,
         "security_status_cs": "2-3 věty o aktuálním politickém, ekonomickém a bezpečnostním vývoji v USA, česky.",
         "security_status_en": "2-3 sentences on the current political, economic and security developments in the US, in English.",
+        "president_comments": [
+            {{"topic_cs": "Krátké téma česky (např. Ukrajina, cla, Fed)", "topic_en": "Short topic in English", "statement_cs": "Parafráze výroku nebo kroku prezidenta, 1 věta česky.", "statement_en": "Paraphrase of the president's statement or action, 1 sentence in English.", "comment_cs": "1-2 věty analytického komentáře dopadu na politiku a trhy, česky.", "comment_en": "1-2 sentences of analytical commentary on political and market impact, in English.", "market_impact": "POSITIVE / NEGATIVE / NEUTRAL", "source": "Název zdroje"}}
+        ],
         "recommendations": [
             {{"sector_cs": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)", "sector_en": "US Broad Equity Market (S&P 500 ETFs, e.g. VOO, SPY)", "action": "BUY / SELL / HOLD", "reason_cs": "1-2 věty zdůvodnění.", "reason_en": "1-2 sentences of reasoning."}},
             {{"sector_cs": "Státní dluhopisy USA (Treasuries)", "sector_en": "US Treasuries", "action": "BUY / SELL / HOLD", "reason_cs": "1-2 věty zdůvodnění na základě výnosů a měnové politiky Fedu.", "reason_en": "1-2 sentences based on yields and Fed policy."}},
@@ -339,14 +415,19 @@ def analyze_with_ai(articles, previous_forecast_cs, previous_forecast_en):
     }}
     """
 
-    response = client.models.generate_content(model='gemini-3.5-flash-lite', contents=prompt)
-
     try:
+        response = client.models.generate_content(
+            model='gemini-3.5-flash-lite',
+            contents=prompt,
+            config=types.GenerateContentConfig(response_mime_type="application/json"),
+        )
         clean_json = response.text.strip().removeprefix("```json").removeprefix("```").removesuffix("```").strip()
         parsed = json.loads(clean_json)
         parsed["threat_level"] = str(parsed.get("threat_level", "HIGH")).split(" ")[0].split("/")[0].strip().upper()
         for rec in parsed.get("recommendations", []):
             rec["action"] = str(rec.get("action", "HOLD")).split(" ")[0].split("/")[0].strip().upper()
+        if not isinstance(parsed.get("president_comments"), list):
+            parsed["president_comments"] = []
         return parsed
     except Exception as e:
         print("Error processing AI response:", e)
@@ -355,6 +436,7 @@ def analyze_with_ai(articles, previous_forecast_cs, previous_forecast_en):
             "sentiment_score": 70,
             "security_status_cs": "Chyba při automatické analýze AI.",
             "security_status_en": "Error during automated AI analysis.",
+            "president_comments": [],
             "recommendations": [],
             "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
             "forecast_en": "Failed to generate forecast.",
@@ -449,16 +531,21 @@ def top_location(location_counts):
 
 def run():
     old_data = load_previous_data()
-    previous_forecast_cs = old_data.get("assessment", {}).get("forecast_cs", "")
-    previous_forecast_en = old_data.get("assessment", {}).get("forecast_en", "")
+    old_assessment = old_data.get("assessment", {})
+    previous_forecast_cs = old_assessment.get("forecast_cs", "")
+    previous_forecast_en = old_assessment.get("forecast_en", "")
     previous_market = old_data.get("market_data")
     previous_location_counts = old_data.get("location_counts", {})
 
     articles = fetch_articles()
     ai_assessment = analyze_with_ai(articles, previous_forecast_cs, previous_forecast_en)
+    ai_assessment["president_comments"] = merge_president_comments(
+        ai_assessment.get("president_comments"),
+        old_assessment.get("president_comments"),
+    )
     locations = extract_locations(articles)
     market_data = fetch_market_data(previous_market)
-    usd_czk = fetch_usd_czk()
+    usd_czk = fetch_usd_czk(old_data.get("usd_czk"))
     location_counts = update_location_counts(previous_location_counts, locations)
 
     history = old_data.get("history", [])
@@ -472,7 +559,7 @@ def run():
         "threat_level": threat_key,
         "value": threat_value,
         "sentiment_score": ai_assessment.get("sentiment_score", 0),
-        "incidents": len(articles),
+        "incidents": count_incidents(articles),
         "sp500": market_data.get("sp500", {}).get("value") if market_data.get("sp500") else None,
         "usd_czk": usd_czk.get("value") if usd_czk else None
     })
