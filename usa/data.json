@@ -1,206 +1,269 @@
 {
-  "last_updated": "2026-10-15T21:23:03Z",
+  "last_updated": "2026-10-16T05:00:02Z",
   "assessment": {
     "threat_level": "HIGH",
-    "sentiment_score": 72,
-    "security_status_cs": "Spojené státy čelí kombinaci prudkého výprodeje v technologickém sektoru vyvolaného obavami z vývoje AI a eskalujícím politickým napětím před blížícími se volbami. Bezpečnostní složky vyšetřují vlnu podezřelých zásilek s bílým práškem zaslaných volebním úředníkům, zatímco makrodata ukazují přetrvávající inflační tlaky a obavy z měnové politiky Fedu.",
-    "security_status_en": "The United States is facing a combination of a sharp tech sector sell-off driven by AI fears and escalating political tensions ahead of the upcoming midterms. Law enforcement is investigating a wave of suspicious mailings containing white powder sent to election officials, while macroeconomic data highlights persistent inflation pressures and monetary policy uncertainty.",
+    "sentiment_score": 75,
+    "security_status_cs": "Spojené státy čelí kombinaci prudkého propadu technologických trhů kvůli obavám z umělé inteligence, vyhrocené politické atmosféře před mezidobí volbami a bezpečnostním incidentům včetně tragické střelby na škole v Oregonu a podezřelých zásilek úřadům. Federální rezervní systém mezitím čelí rozporuplným signálům ohledně inflace a budoucího vývoje úrokových sazeb.",
+    "security_status_en": "The United States is facing a combination of a sharp tech market slump driven by AI fears, a heated political atmosphere ahead of the midterms, and security incidents including a tragic school shooting in Oregon and suspicious mailings to officials. Meanwhile, the Federal Reserve faces mixed signals regarding inflation and the future path of interest rates.",
     "recommendations": [
       {
         "sector_cs": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
         "sector_en": "US Broad Equity Market (S&P 500 ETFs, e.g. VOO, SPY)",
-        "action": "HOLD",
-        "reason_cs": "Trh prochází silnou volatilitou a korekcí v důsledku výprodeje v technologickém sektoru a obav z inflace, což doporučuje vyčkat na stabilizaci.",
-        "reason_en": "The market is experiencing strong volatility and correction due to the tech sector sell-off and inflation concerns, warranting a wait-and-see approach."
+        "action": "SELL",
+        "reason_cs": "Trhy čelí silnému tlaku a masivnímu výprodeji v technologickém sektoru, který stahuje dolů celé indexy před blížícími se volbami.",
+        "reason_en": "Markets face intense pressure and a massive tech sell-off dragging down broader indices ahead of upcoming elections."
       },
       {
         "sector_cs": "Státní dluhopisy USA (Treasuries)",
         "sector_en": "US Treasuries",
         "action": "BUY",
-        "reason_cs": "Investoři v rámci útěku do bezpečí (safe-haven flows) po propadu v technologickém sektoru masivně nakupují dluhopisy, což tlačí výnosy dolů a zvyšuje jejich hodnotu.",
-        "reason_en": "Investors are shifting toward safe-haven assets following the tech sector crash, driving up demand and prices for government debt."
+        "reason_cs": "Investoři v období vysoké nejistoty, technologického výprodeje a geopolitického napětí masivně přecházejí do bezpečnějších aktiv.",
+        "reason_en": "Investors are shifting massively into safe-haven assets amid high uncertainty, tech sector liquidations, and geopolitical tensions."
       },
       {
         "sector_cs": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
         "sector_en": "Defense Industry (RTX, Lockheed Martin, Northrop Grumman)",
         "action": "HOLD",
-        "reason_cs": "Sektor si drží stabilní pozici podpořenou dlouhodobými vládními zakázkami, avšak aktuální tržní výprodeje omezují krátkodobý růstový potenciál.",
-        "reason_en": "The sector maintains a stable position backed by long-term government contracts, though broader market sell-offs limit short-term upside."
+        "reason_cs": "Sektor zůstává stabilní, avšak vládní politické třenice a vnitřní spory ohledně vedení Pentagonu vytvářejí mírnou nepohodu.",
+        "reason_en": "The sector remains stable, though governmental political friction and internal disputes over Pentagon leadership create slight discomfort."
       },
       {
         "sector_cs": "Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)",
         "sector_en": "Banks & Financials (JPMorgan, Bank of America, Goldman Sachs)",
-        "action": "SELL",
-        "reason_cs": "Finanční instituce čelí negativním zprávám včetně regulačních pokut, slabších příjmů z obchodování a nejistotě ohledně budoucího směřování úrokových sazeb Fedu.",
-        "reason_en": "Financial institutions face headwinds including regulatory fines, weaker trading revenues, and uncertainty surrounding the Fed's future rate path."
+        "action": "HOLD",
+        "reason_cs": "Finanční domy se potýkají s regulačními pokutami a slabšími příjmy z tradingu, což tlumí okamžitý růstový potenciál.",
+        "reason_en": "Financial institutions are dealing with regulatory fines and weaker trading revenues, dampening immediate growth potential."
       },
       {
         "sector_cs": "Technologický sektor (Apple, Microsoft, Nvidia)",
         "sector_en": "Technology Sector (Apple, Microsoft, Nvidia)",
-        "action": "HOLD",
-        "reason_cs": "Výprodej vyvolaný obavami o návratnost investic do AI a globální konkurenci (DeepSeek) přináší extrémní volatilitu, která vyžaduje selektivní přístup místo plošných nákupů.",
-        "reason_en": "The sell-off driven by AI ROI concerns and foreign competition creates extreme volatility, demanding selective positioning rather than broad accumulation."
+        "action": "SELL",
+        "reason_cs": "Hluboká korekce v oblasti AI infrastruktury a obavy o udržitelnost růstu vyvolaly panické výprodeje klíčových titulů.",
+        "reason_en": "A deep correction in AI infrastructure and concerns over growth sustainability have triggered panic selling of key stocks."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly zůstávají primárně pod vlivem evropského makroekonomického prostředí a lokálních fundamentů, přičemž globální nervozitě se zcela nevyhnou.",
-        "reason_en": "Domestic equities remain primarily influenced by the European macroeconomic environment and local fundamentals while absorbing some spillover from global nervousness."
+        "reason_cs": "Domácí tituly jsou primárně ovlivněny evropským prostředím, avšak globální nákaza z amerických trhů omezuje ochotu k riziku.",
+        "reason_en": "Domestic stocks are primarily driven by the European environment, though global contagion from US markets limits risk appetite."
       }
     ],
     "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající volatilitu na akciových trzích kvůli doznívajícímu šoku v technologickém sektoru a napjaté politické atmosféře před volbami. Bezpečnostní složky budou nadále prověřovat hrozby spojené s podezřelými zásilkami.",
     "forecast_en": "Over the coming days, continued volatility in equity markets is expected due to the lingering shock in the tech sector and tense pre-election political dynamics. Law enforcement will remain focused on investigating threats related to suspicious mailings.",
-    "forecast_review_cs": "Předchozí předpověď se zcela potvrdila, neboť trhy skutečně zasáhl silný technologický výprodej a bezpečnostní složky řeší vlnu podezřelých zásilek.",
-    "forecast_review_en": "The previous forecast was fully confirmed as markets were indeed hit by a major tech sell-off and law enforcement addressed a wave of suspicious mailings."
+    "forecast_review_cs": "Předchozí předpověď se plně potvrdila, neboť trhy zasáhl masivní výprodej technologií a bezpečnostní složky nadále vyšetřují hrozby spojené s podezřelými zásilkami.",
+    "forecast_review_en": "The previous forecast was fully confirmed as markets experienced a massive tech sell-off and law enforcement continued to investigate threats related to suspicious mailings."
   },
   "articles": [
     {
-      "title": "Don’t ditch tech stocks just yet. Make these moves to take advantage of the latest AI reset.",
-      "summary": "Investors have a ‘love-hate relationship’ with tech stocks now — and experts recommend selectively hunting for bargains while also betting on the major cloud companies.",
-      "link": "https://www.marketwatch.com/story/dont-ditch-tech-stocks-just-yet-make-these-moves-to-take-advantage-of-the-latest-ai-reset-cb70c7b2?mod=mw_rss_topstories",
-      "published": "Thu, 15 Oct 2026 21:21:00 GMT",
-      "source": "MarketWatch"
+      "title": "Jerry Seinfeld turns tables on radical anti-Israel agitators after chaotic Chicago stunt backfires",
+      "summary": "Viral video shows Jerry Seinfeld dancing and mocking anti-Israel hecklers at the Chicago Theatre as security escorted protesters from the venue.",
+      "link": "https://www.foxnews.com/media/jerry-seinfeld-turns-tables-radical-anti-israel-agitators-chaotic-chicago-stunt-backfires",
+      "published": "Sat, 17 Oct 2026 06:00:48 -0400",
+      "source": "Fox News"
     },
     {
-      "title": "Active Shooter Reported at Oregon Elementary School: What We Know",
-      "summary": "Police are responding to an active shooter report at Silver Rail Elementary School in Bend, Oregon on Thursday afternoon.",
-      "link": "https://www.newsweek.com/active-shooter-reported-at-oregon-elementary-school-what-we-know-12575787",
-      "published": "Thu, 15 Oct 2026 17:20:29 -0400",
+      "title": "Super Bowl champions slump again as Darnold’s picks cost Seahawks against Broncos",
+      "summary": "<ul><li><p>Seattle Seahawks 14-17 Denver Broncos (OT)</p></li><li><p>Darnold intercepted twice late in game</p></li><li><p>Denver move to 4-2 despite offensive struggles</p></li></ul><p>Wil Lutz kicked a 53-yard field goal in overtime as the host Denver Broncos defeated the defending ⁠Super Bowl champion Seattle Seahawks 17-14 on Thursday night.</p><p>The result means the Broncos emerged from a tough six-week season-opening stretch with a 4-2 record despite an injury-riddled roster and a shaky offense. The 3-3 Seahawks, meanwhile, lost for the second time in five days. They also matched their loss total from last season, <a href=\"https://www.theguardian.com/sport/2026/feb/08/super-bowl-lx-seahawks-patriots\">when they won their second Super Bowl title</a>.</p> <a href=\"https://www.theguardian.com/sport/2026/oct/16/seahawks-broncos-nfl-thursday-night-football\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/sport/2026/oct/16/seahawks-broncos-nfl-thursday-night-football",
+      "published": "Fri, 16 Oct 2026 04:00:03 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Three children and teacher killed in US primary school shooting",
+      "summary": "The suspect was shot dead by a community member who followed him into the Oregon school, police said.",
+      "link": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 16 Oct 2026 03:45:09 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "FBI returns 'Most Wanted' fraudster to US after India arrest in alleged $600K SNAP food stamp scheme",
+      "summary": "FBI Director Kash Patel announced Manjit Singh Bedi, accused of stealing over $600,000 in SNAP benefits in Tacoma, has been returned from India.",
+      "link": "https://www.foxnews.com/us/fbi-returns-most-wanted-fraudster-us-after-india-arrest-alleged-600k-snap-food-stamp-fraud-scheme",
+      "published": "Thu, 15 Oct 2026 23:29:29 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Bryson Fire Erupts in Malibu as Evacuation Orders Issued: What We Know",
+      "summary": "A fast-moving wildfire has burned more than 100 acres in Malibu amid dangerous Santa Ana winds.",
+      "link": "https://www.newsweek.com/bryson-fire-spreads-in-malibu-as-evacuation-orders-are-issued-what-we-know-12576764",
+      "published": "Thu, 15 Oct 2026 23:03:26 -0400",
       "source": "Newsweek"
     },
     {
-      "title": "Reported shooting at Oregon elementary school prompts police response",
-      "summary": "The school district confirmed there was an active shooting incident but did not provide any further details.",
+      "title": "Katie Zacharia addresses brevity of first press briefing, defends legal credentials after criticism",
+      "summary": "Katie Zacharia defended her debut White House press briefing and addressed California bar exam scrutiny during interview with Sean Hannity.",
+      "link": "https://www.foxnews.com/media/katie-zacharia-addresses-brevity-first-press-briefing-defends-legal-credentials-criticism",
+      "published": "Thu, 15 Oct 2026 23:01:19 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Zacharia confirms she did not pass bar exam",
+      "summary": "White House press secretary Katie Zacharia said late Thursday that she did not pass the bar exam after her legal background prior to joining the Trump administration was called into question. Zacharia, who has previously claimed to be a lawyer and was described as an “attorney” by President Trump, faced scrutiny in her first week...",
+      "link": "https://thehill.com/homenews/administration/6152937-zacharia-bar-exam-white-house/",
+      "published": "Fri, 16 Oct 2026 02:56:42 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Massie: Trump should fire Hegseth before he is impeached",
+      "summary": "Rep. Thomas Massie (R-Ky.) suggested that President Trump should remove Defense Secretary Pete Hegseth from his position before the House votes to impeach him. The Kentucky Republican, who often finds himself in the crosshairs of Trump for frequently breaking with the party, was responding to a report claiming that the president was considering firing the...",
+      "link": "https://thehill.com/homenews/house/6152919-massie-calls-trump-fire-hegseth/",
+      "published": "Fri, 16 Oct 2026 02:38:59 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Midterms Look Good for Dems, But That's Not a Guarantee",
+      "summary": "There's still almost three weeks until Election Day. Things look good for Democrats but that's not a guarantee for victory.",
+      "link": "https://www.realclearpolitics.com/2026/10/15/midterms_look_good_for_dems_but_thats_not_a_guarantee_714299.html",
+      "published": "Thu, 15 Oct 2026 21:29:42 -0500",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Oregon elementary school shooting: what we know so far",
+      "summary": "<p>A teenage gunman opened fire in the city of Bend, killing four people and leaving two more in critical condition, before he was shot and killed by a bystander</p><p><strong>A 16-year-old gunman opened fire at the Silver Rail</strong> <strong>elementary school in Bend, Oregon,</strong> authorities said on Thursday, killing three children and a teacher.</p><p><strong>The student</strong><strong> victims are aged five, eight and 11.</strong> Their names have not yet been released, and authorities said their families have been notified.</p><p><strong>The 16-year-old shooter was found dead at the scene. </strong>Police said that an armed bystander apprehended and shot him inside the school.</p><p><strong>Two other victims, a</strong> <strong>seven-year-old and a 54-year-old,</strong> have been hospitalized. As of Thursday evening they remained in critical condition, according to police.</p><p><strong>Police arrived at the school at 1.02pm local time after receiving multiple reports of a shooting.</strong> One 911 caller reported an individual armed with a long gun firing upon their car. Police said the gunman forced entry into the building by shooting at locked doors, but did not identify the make of the firearm they used.</p><p><strong>The teenage shooter was a resident of the town, police said, but their name has not been released</strong>. Police have yet to provide a motive for the shooting and said they are still investigating if he had ties to the school.</p><p><strong>The attack has rocked the small city of</strong> <strong>Bend, which is home to 100,000 residents</strong> and is located on the Deschutes River, about 170 miles south-east of Portland. The school district plans to close all schools on Friday due to the tragedy.</p><p><strong>Officials have praised the swift actions of law enforcement and of the community member who intervened.</strong> The Oregon governor, Tina Kotek, praised the intervention as heroic and extended her thoughts to the bystander. “Your actions carry a heavy emotional burden,” she said on Thursday evening.</p><p><strong>The FBI is helping local authorities investigate the shooting</strong>, according to the agency’s director Kash Patel.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/16/oregon-silver-rail-elementary-school-shooting-what-we-know-so-far\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/oct/16/oregon-silver-rail-elementary-school-shooting-what-we-know-so-far",
+      "published": "Fri, 16 Oct 2026 02:26:26 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "The Green Ideology That Nearly Conquered U.S.",
+      "summary": "President Trump has permanently changed the politics of climate change. Net zero will never happen in America.",
+      "link": "https://www.realclearpolitics.com/2026/10/15/the_green_ideology_that_nearly_conquered_us_714296.html",
+      "published": "Thu, 15 Oct 2026 21:25:22 -0500",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Trump's Diesel Deal Is Shameful",
+      "summary": "If President Donald Trump does not understand what will happen to him if he proceeds with his plan to trade away support for Ukraine's democracy for Russian diesel, let me",
+      "link": "https://www.realclearpolitics.com/2026/10/15/trumps_diesel_deal_is_shameful_714307.html",
+      "published": "Thu, 15 Oct 2026 21:25:18 -0500",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Pentagon says Trump and Hegseth ‘completely aligned’ on decision to cancel livestream of firing squad execution – as it happened",
+      "summary": "<p>This live blog is now closed.</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email</a></p></li></ul><p>The US government could <strong>spend hundreds of thousands of dollars on a media campaign in South Africa to figure out why more white Afrikaners are not applying to become refugees to the US</strong>, as <a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> had hoped.</p><p>State department officials, according to an August proposal seen by the Guardian, outlined <strong>a roughly $335,000 research and advertising effort </strong>after applications to the refugee program “trended lower than expected” since Afrikaners were allowed to apply directly online in November 2025. The document, written by the US mission in <a href=\"https://www.theguardian.com/world/southafrica\">South Africa</a> with a department research unit for the embassy in Pretoria, admits officials know little about why.</p> <a href=\"https://www.theguardian.com/us-news/live/2026/oct/15/donald-trump-midterms-rallies-iran-ukraine-starlink-intelligence-fuel-gas-cost-of-living-latest-news-updates\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/live/2026/oct/15/donald-trump-midterms-rallies-iran-ukraine-starlink-intelligence-fuel-gas-cost-of-living-latest-news-updates",
+      "published": "Fri, 16 Oct 2026 01:59:51 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Evacuations issued as multiple wildfires ignite in hot, windy California",
+      "summary": "<p>Largest blaze the Henderson fire near San Diego as strong winds and severe heat could fuel rapid spread</p><p>Multiple wildfires ignited across California on Thursday as the state braced for more strong winds and high temperatures that could fuel rapid fire growth over the next several days.</p><p>The largest blaze, dubbed the Henderson fire, erupted in Camp Pendleton, a San Diego Marine Corps training base, and quickly consumed more than 1,000 acres. Evacuations have been issued and officials briefly closed part of the Interstate 5, a major highway in the region.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/15/wildfire-california-high-temperatures-strong-winds\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/oct/15/wildfire-california-high-temperatures-strong-winds",
+      "published": "Fri, 16 Oct 2026 01:58:52 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "3 children, 1 teacher killed in Oregon school shooting, police say",
+      "summary": "Three children and a teacher were killed, and two others critically wounded, in a shooting at Silver Rail Elementary School in Bend, Oregon. The suspect was shot and killed by a bystander.",
       "link": "https://www.cbsnews.com/live-updates/oregon-silver-rail-elementary-shooting-bend/",
-      "published": "Thu, 15 Oct 2026 17:05:20 -0400",
+      "published": "Thu, 15 Oct 2026 21:45:00 -0400",
       "source": "CBS News"
     },
     {
-      "title": "Trump Suffers Double Inflation Blow Within 48 Hours as Midterms Loom",
-      "summary": "The Producer Price Index for final demand rose 1.3 percent in September, accelerating from 0.5 percent in August.",
-      "link": "https://www.newsweek.com/trump-suffers-double-inflation-blow-within-48-hours-as-midterms-loom-12575708",
-      "published": "Thu, 15 Oct 2026 17:03:23 -0400",
-      "source": "Newsweek"
+      "title": "US police identify remains of man found in barrel in shrinking reservoir",
+      "summary": "Edward \"Buddy\" Jackson's body was found stuffed in a barrel in 2022, with a gunshot wound to the head. Police say he likely was killed four decades ago.",
+      "link": "https://www.bbc.co.uk/news/articles/c670pnlgzq7po?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 16 Oct 2026 01:35:40 GMT",
+      "source": "BBC News"
     },
     {
-      "title": "CoreWeave’s polarizing stock rebounds as Wall Street squares off about AI spending",
-      "summary": "Wall Street’s views on CoreWeave are starkly divisive as investors pay more attention to the financial details of big artificial-intelligence companies.",
-      "link": "https://www.marketwatch.com/story/coreweave-investors-are-feeling-spooked-as-the-companys-stock-and-bonds-see-fresh-pressure-ba39a931?mod=mw_rss_topstories",
-      "published": "Thu, 15 Oct 2026 21:03:00 GMT",
+      "title": "'Oh, shut up!': Democrat snaps at Collins after heckler drives Maine Senate debate off the rails",
+      "summary": "A protester yelling about AI data centers sparked a fiery clash between Republican Sen. Susan Collins and Democratic challenger Troy Jackson.",
+      "link": "https://www.foxnews.com/politics/shut-democrat-snaps-collins-heckler-drives-maine-senate-debate-rails",
+      "published": "Thu, 15 Oct 2026 21:13:04 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Collins, Jackson trade jabs in final Maine Senate debate: 3 takeaways",
+      "summary": "Sen. Susan Collins (R-Maine) faced off against Democratic candidate Troy Jackson on Thursday in the final Senate debate before Maine voters head to the polls. The two traded jabs over President Trump, campaign financing, immigration reform and their voting record as the Senate race enters its final stretch. Collins stressed her bipartisan approach to voting...",
+      "link": "https://thehill.com/homenews/campaign/6152820-susan-collins-troy-jackson-debate-takeaways/",
+      "published": "Fri, 16 Oct 2026 01:08:02 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "5 dead, including suspect, after Oregon elementary school shooting",
+      "summary": "Five people are dead, including the suspect, after an active shooting incident at Silver Rail Elementary School in Bend, Ore., police confirmed at a media conference Thursday night. Bend Police Chief Mike Krantz said three children died at the scene, including a 5-year-old, an 8-year-old and an 11-year-old. One teacher was also killed. Two others...",
+      "link": "https://thehill.com/homenews/state-watch/6152592-bend-oregon-elementary-school-shooting/",
+      "published": "Fri, 16 Oct 2026 01:02:04 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Elon Musk helps GOP Senate super PAC raise record $273 million",
+      "summary": "Elon Musk gave a record $158 million to the GOP’s Senate Leadership Fund, boosting its war chest as Republicans pour money into Texas to defend Ken Paxton.",
+      "link": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html",
+      "published": "Thu, 15 Oct 2026 23:53:29 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Justice Dept. sues California, claims noncitizens were sent ballots",
+      "summary": "The Justice Department sued California, alleging that the federal government has identified more than 20,000 noncitizens who are unlawfully registered to vote.",
+      "link": "https://www.cbsnews.com/news/justice-department-california-lawsuit-mail-ballots-noncitizens/",
+      "published": "Thu, 15 Oct 2026 19:51:30 -0400",
+      "source": "CBS News"
+    },
+    {
+      "title": "Soaring heating oil prices put struggling Maine families in a bind",
+      "summary": "The price of heating oil in Maine has soared from $3.34 per gallon one year ago to $5.97 today, a jump of roughly 79%.",
+      "link": "https://www.cbsnews.com/news/soaring-heating-oil-prices-struggling-maine-families-winter/",
+      "published": "Thu, 15 Oct 2026 19:42:00 -0400",
+      "source": "CBS News"
+    },
+    {
+      "title": "Maine couple forced to choose food or heat as oil prices skyrocket",
+      "summary": "Along with diesel and gas, the price of heating oil is up, and no state depends on it more than Maine. Meg Oliver spoke with residents there, now forced to make some tough decisions.",
+      "link": "https://www.cbsnews.com/video/maine-couple-forced-choose-food-heat-heating-oil-prices-skyrocket/",
+      "published": "Thu, 15 Oct 2026 19:32:30 -0400",
+      "source": "CBS News"
+    },
+    {
+      "title": "Tip-off foiled US teen's plot to attack Hindu temple, police say",
+      "summary": "The alleged plot only failed because the 19-year-old suspect's gun jammed outside the place of worship, say police.",
+      "link": "https://www.bbc.co.uk/news/articles/cqgm0j4kjvevo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 15 Oct 2026 23:27:21 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Letters with 'suspicious substances' sent to US senators and election offices",
+      "summary": "A number of states have confirmed they were targeted by the mailings, including Oklahoma, Ohio and Louisiana.",
+      "link": "https://www.bbc.co.uk/news/articles/cmq8n513x523o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 15 Oct 2026 22:46:49 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
+      "summary": "”I earn $110,000 a year.”",
+      "link": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
+      "published": "Thu, 15 Oct 2026 22:31:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "How a midterm sweep by Democrats could turn this tech selloff into a tech crash",
+      "summary": "Popular AI names are under pressure again this week — but the pain could worsen after the Nov. 3 election.",
+      "link": "https://www.marketwatch.com/story/how-a-midterm-sweep-by-democrats-could-turn-this-tech-selloff-into-a-tech-crash-a1d1a82f?mod=mw_rss_topstories",
+      "published": "Thu, 15 Oct 2026 21:56:00 GMT",
       "source": "MarketWatch"
     },
     {
       "title": "Trump says 'if Ken Paxton loses' Texas Senate race, blame Cornyn and Karl Rove",
       "summary": "Polls show GOP Attorney General Ken Paxton trailing Democratic Rep. James Talarico in the Texas Senate race.",
       "link": "https://www.cnbc.com/2026/10/15/trump-paxton-texas-talarico.html",
-      "published": "Thu, 15 Oct 2026 21:00:03 GMT",
+      "published": "Thu, 15 Oct 2026 21:42:14 GMT",
       "source": "CNBC"
     },
     {
-      "title": "Feds probing suspicious letters to election officials, lawmakers",
-      "summary": "Federal investigators said they are looking into suspicious letters containing unknown substances that were mailed to state election officials and congressional offices.",
-      "link": "https://www.cbsnews.com/news/suspicious-letters-election-officials-congressional-offices-fbi-us-postal-service/",
-      "published": "Thu, 15 Oct 2026 16:59:57 -0400",
-      "source": "CBS News"
+      "title": "U.S. sues California in fight over checking citizenship of mail voters",
+      "summary": "The lawsuit by the Trump administration comes less than a month before the midterm election that will determine which party controls both chambers of Congress.",
+      "link": "https://www.cnbc.com/2026/10/15/california-mail-ballots-voting-lawsuit.html",
+      "published": "Thu, 15 Oct 2026 21:24:57 GMT",
+      "source": "CNBC"
     },
     {
-      "title": "Pentagon says Trump and Hegseth ‘completely aligned’ on decision to cancel livestream of firing squad execution – live",
-      "summary": "<p>Pentagon spokesperson says pair spoke before announcement canceling plan to broadcast execution of Nidal Hasan, who killed 13 people at Fort Hood</p><ul><li><p>Q&A: <a href=\"https://www.theguardian.com/community/live/2026/oct/14/us-economy-affordability-midterm-elections-republicans-trump\">Our reporters answered your questions about the US economy and the midterm elections</a></p></li><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email</a></p></li></ul><p>The US government could <strong>spend hundreds of thousands of dollars on a media campaign in South Africa to figure out why more white Afrikaners are not applying to become refugees to the US</strong>, as <a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> had hoped.</p><p>State department officials, according to an August proposal seen by the Guardian, outlined <strong>a roughly $335,000 research and advertising effort </strong>after applications to the refugee program “trended lower than expected” since Afrikaners were allowed to apply directly online in November 2025. The document, written by the US mission in <a href=\"https://www.theguardian.com/world/southafrica\">South Africa</a> with a department research unit for the embassy in Pretoria, admits officials know little about why.</p> <a href=\"https://www.theguardian.com/us-news/live/2026/oct/15/donald-trump-midterms-rallies-iran-ukraine-starlink-intelligence-fuel-gas-cost-of-living-latest-news-updates\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/live/2026/oct/15/donald-trump-midterms-rallies-iran-ukraine-starlink-intelligence-fuel-gas-cost-of-living-latest-news-updates",
-      "published": "Thu, 15 Oct 2026 20:59:27 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Active shooter report at Oregon elementary school draws large police response",
-      "summary": "Bend police responded to Silver Rail Elementary School after an active shooter report, directing families to a nearby church for reunification.",
-      "link": "https://www.foxnews.com/us/active-shooter-report-oregon-elementary-school-draws-large-police-response",
-      "published": "Thu, 15 Oct 2026 16:58:45 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "DOJ sues California after pushing state to match voter list with USB drive",
-      "summary": "The Department of Justice (DOJ) sued the state of California on Thursday after giving it a USB drive and demanding that within 48 hours it compare its data rolls with information provided by the Department of Homeland Security (DHS). The DOJ sent the letter to the state and local election officials Tuesday, threatening legal action...",
-      "link": "https://thehill.com/homenews/6152422-doj-sues-california-election-officials/",
-      "published": "Thu, 15 Oct 2026 20:56:28 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "California faces more extreme weather as hot, windy days set to raise wildfire risk",
-      "summary": "<p>Warnings come as Californians have already in autumn felt brutal heatwave and storm surge that battered coast</p><p>Communities across California are bracing for more dangerous weather this week, with strong winds and high temperatures that could set the stage for rapid wildfire growth over the next several days.</p><p>“A moderate to strong Santa Ana wind will bring widespread strong winds and critical fire weather conditions to much of south-west California through Saturday,” the National Weather Service said in a forecast issued on Thursday.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/15/wildfire-california-high-temperatures-strong-winds\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/oct/15/wildfire-california-high-temperatures-strong-winds",
-      "published": "Thu, 15 Oct 2026 20:56:02 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Exclusive video shows Cornell University Faculty Senate meeting",
-      "summary": "Exclusive video offers insight into Wednesday's high-stakes meeting at Cornell University.",
-      "link": "https://www.cbsnews.com/news/cornell-university-faculty-senate-meeting-video/",
-      "published": "Thu, 15 Oct 2026 16:53:00 -0400",
-      "source": "CBS News"
-    },
-    {
-      "title": "Democratic senators set up vote on blocking Saudi nuclear deal",
-      "summary": "Sens. Jeff Merkley (D-Ore.) and Ed Markey (D-Mass.) introduced a measure Thursday that would block President Trump’s deal to allow Saudi Arabia to build a civilian nuclear program. The Democrats’ measure is a joint resolution of disapproval, a legislative tool that requires a vote after Nov. 29. The senators expressed concern that the deal gives...",
-      "link": "https://thehill.com/homenews/senate/6152383-senators-block-saudi-nuclear-deal/",
-      "published": "Thu, 15 Oct 2026 20:52:59 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Letters with 'suspicious substances' sent to US election offices",
-      "summary": "A number of states have confirmed they were targeted by the mailings, including Oklahoma, Ohio and Louisiana.",
-      "link": "https://www.bbc.co.uk/news/articles/cmq8n513x523o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 15 Oct 2026 20:52:13 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Petey Halpin’s two-run homer lifts Guardians past Rays for 2-1 ALCS lead",
-      "summary": "<ul><li><p>Halpin’s first playoff homer puts Cleveland ahead</p></li><li><p>Williams strikes out nine as Guardians win 3-2</p></li><li><p>Cleveland bullpen retires 11 of final 12 Rays batters</p></li></ul><p>Petey Halpin hit a go-ahead two-run homer, Gavin Williams struck out nine over five innings and the Cleveland Guardians beat the Tampa Bay Rays 3-2 in Game 3 of the American League Championship Series on Thursday to take a 2-1 lead.</p><p>Game 4 of the best-of-seven series is scheduled for Friday, though rain is forecast.</p> <a href=\"https://www.theguardian.com/sport/2026/oct/15/guardians-rays-alcs-game-3-petey-halpin-home-run\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/sport/2026/oct/15/guardians-rays-alcs-game-3-petey-halpin-home-run",
-      "published": "Thu, 15 Oct 2026 20:51:23 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Trump: Musk has 'a little problem'",
-      "summary": "President Trump took a slight jab Wednesday at tech mogul Elon Musk, who remains a close ally despite a rollercoaster relationship between the two. Trump made the swipe while going after Arizona Gov. Katie Hobbs (D) while speaking at a rally in the state, calling the Democrat “horrible.” “First of all, she’s a dumb person....",
-      "link": "https://thehill.com/homenews/administration/6152303-trump-mocks-musk-arizona-rally/",
-      "published": "Thu, 15 Oct 2026 20:45:23 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Trump Calls Paxton ‘a Little Bit Controversial’ as Talarico Gains Momentum",
-      "summary": "President Trump praised Paxton as Texas’ best-ever attorney general but called him “a little bit controversial” on Thursday.",
-      "link": "https://www.newsweek.com/trump-paxton-little-bit-controversial-talarico-texas-senate-12575705",
-      "published": "Thu, 15 Oct 2026 16:40:54 -0400",
-      "source": "Newsweek"
-    },
-    {
-      "title": "Investors are dumping AI stocks as ‘tech wreck’ worsens. Here’s where they’re turning now.",
-      "summary": "A continued selloff in the AI trade is forcing investors to move from tech names to the relative safety of government bonds and defensive stock sectors.",
-      "link": "https://www.marketwatch.com/story/traders-pile-into-bonds-and-defensive-stocks-as-the-tech-wreck-picks-up-steam-48c04374?mod=mw_rss_topstories",
-      "published": "Thu, 15 Oct 2026 20:40:00 GMT",
+      "title": "Nvidia and other chip stocks face renewed pressure as AI fears swell",
+      "summary": "Reported details about Anthropic’s financial progress are adding to concerns about the health of the AI ecosystem.",
+      "link": "https://www.marketwatch.com/story/micron-nvidia-and-other-chip-stocks-face-renewed-pressure-as-ai-fears-swell-4e0dc989?mod=mw_rss_topstories",
+      "published": "Thu, 15 Oct 2026 21:23:00 GMT",
       "source": "MarketWatch"
-    },
-    {
-      "title": "Democratic senator accuses Biden administration of 'completely' chickening out on Supreme Court reform",
-      "summary": "Sheldon Whitehouse said the Biden administration was \"completely chicken\" on Supreme Court reform, while Kamala Harris now pushes court expansion.",
-      "link": "https://www.foxnews.com/media/democratic-senator-accuses-biden-administration-completely-chickening-supreme-court-reform",
-      "published": "Thu, 15 Oct 2026 16:30:15 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "Ilhan Omar's husband snaps over rumors she fled US after federal immigration fraud raid",
-      "summary": "Tim Mynett was spotted at the couple's D.C. home as HSI's fraud investigation into Ilhan Omar's immigration paperwork intensifies with new subpoenas.",
-      "link": "https://www.foxnews.com/politics/ilhan-omar-husband-snaps-rumors-fled-us-federal-immigration-fraud-raid",
-      "published": "Thu, 15 Oct 2026 16:10:41 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "FBI investigates letters with ‘unknown substance’ sent to US election officials",
-      "summary": "<p>Election officers in Louisiana and Oklahoma receive a powdery substance, prompting evacuations</p><p>The FBI and the US Postal Inspection Service are investigating letters sent to state officials and election offices across the country containing an “unknown substance”.</p><p>Just weeks before November’s <a href=\"https://www.theguardian.com/us-news/us-midterm-elections-2026\">US midterm elections</a>, election officers in Louisiana and Oklahoma received envelopes containing a powdery substance, leading to evacuations. A similar package containing white powder was also sent to the Ohio secretary of state, but the US Postal Service intercepted the package.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/15/fbi-usps-letters-unknown-substance-election\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/oct/15/fbi-usps-letters-unknown-substance-election",
-      "published": "Thu, 15 Oct 2026 20:06:24 GMT",
-      "source": "The Guardian"
     },
     {
       "title": "Suspicious mailings to election officials, congressional offices under investigation",
@@ -210,74 +273,11 @@
       "source": "NPR"
     },
     {
-      "title": "Mamdani's team reportedly clashing with socialist candidate he endorsed over ICE shooting",
-      "summary": "NYC Mayor Zohran Mamdani's staff reportedly denounced Darializa Avila Chevalier after she publicly demanded NYPD Commissioner Jessica Tisch's removal.",
-      "link": "https://www.foxnews.com/media/mamdani-team-clashing-socialist-candidate-endorsed-ice-shooting",
-      "published": "Thu, 15 Oct 2026 15:51:03 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "Democrats Have a Plan To Change the Government for Good",
-      "summary": "Donald Trump started his second term in office with a plan: Project 2025.",
-      "link": "https://www.realclearpolitics.com/2026/10/15/democrats_have_a_plan_to_change_the_government_for_good_714294.html",
-      "published": "Thu, 15 Oct 2026 14:32:36 -0500",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Did the Democrats Peak Too Soon?",
-      "summary": "Analysis of Democrats' peak and 2026 midterm election outlook with Republican strategies.",
-      "link": "https://www.realclearpolitics.com/2026/10/15/did_the_democrats_peak_too_soon_714276.html",
-      "published": "Thu, 15 Oct 2026 14:28:27 -0500",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "U.S. sues California in fight over checking citizenship of mail voters",
-      "summary": "The lawsuit by the Trump administration comes less than a month before the midterm election that will determine which party controls both chambers of Congress.",
-      "link": "https://www.cnbc.com/2026/10/15/california-mail-ballots-voting-lawsuit.html",
-      "published": "Thu, 15 Oct 2026 19:26:13 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Why Some MI Democrats Are Torn Over Voting for El-Sayed",
-      "summary": "Jewish voters are torn between their often lifelong support for the Democratic Party and their deep concerns about El-Sayed's rhetoric.",
-      "link": "https://www.realclearpolitics.com/2026/10/15/why_some_mi_democrats_are_torn_over_voting_for_el-sayed_714210.html",
-      "published": "Thu, 15 Oct 2026 14:24:33 -0500",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Banks with Jeffrey Epstein ties eyed by Democrats Warren and Garcia",
-      "summary": "Sen. Elizabeth Warren and Rep. Robert Garcia are leading new legislation to force banks and some executives to release records related to Jeffrey Epstein.",
-      "link": "https://www.cnbc.com/2026/10/15/banks-congress-jeffrey-epstein-oversight.html",
-      "published": "Thu, 15 Oct 2026 19:07:36 GMT",
-      "source": "CNBC"
-    },
-    {
       "title": "U.S. historic preservation law faces the most serious threat in its 60-year history",
       "summary": "Congress and a federal agency are threatening to weaken the country's historic preservation law, fueling a backlash that critics say is as fiery as the one that led to the law's creation 60 years ago.",
       "link": "https://www.npr.org/2026/10/15/nx-s1-6001504/section-106-historic-preservation-act-threats-anniversary",
       "published": "Thu, 15 Oct 2026 14:38:05 -0400",
       "source": "NPR"
-    },
-    {
-      "title": "Trump calls off livestream of Fort Hood attacker's execution by firing squad",
-      "summary": "Trump said some would \"rather not watch\" the killing of Nidal Hasan, the first military execution in over 60 years.",
-      "link": "https://www.bbc.co.uk/news/articles/crx23qlnj27qo?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 15 Oct 2026 17:47:22 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "What we know about the criminal investigation into US congresswoman Ilhan Omar",
-      "summary": "The nature of the investigation is unclear but comes after officials cast doubt on her US citizenship.",
-      "link": "https://www.bbc.co.uk/news/articles/cq98zpk30pd5o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 15 Oct 2026 16:59:31 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Maduro pleads not guilty to new torture-related charges in New York",
-      "summary": "\"I reject this document entirely,\" Maduro said in court, responding to newly added torture-related charges.",
-      "link": "https://www.bbc.co.uk/news/articles/cqwyrn1l74zro?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 15 Oct 2026 16:52:44 GMT",
-      "source": "BBC News"
     },
     {
       "title": "Social Security benefits to get a boost. And, Hasan Piker defends his rhetoric",
@@ -337,15 +337,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-05 19:06",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 65,
-      "incidents": 20,
-      "sp500": 7788.08,
-      "usd_czk": null
-    },
     {
       "date": "2026-10-06 04:18",
       "threat_level": "HIGH",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "sp500": 7744.06,
       "usd_czk": null
+    },
+    {
+      "date": "2026-10-16 05:00",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 75,
+      "incidents": 40,
+      "sp500": 7744.06,
+      "usd_czk": null
     }
   ],
   "locations": [
@@ -622,6 +622,13 @@
       "lon": -74.006,
       "name_cs": "New York",
       "name_en": "New York"
+    },
+    {
+      "key": "Chicago",
+      "lat": 41.8781,
+      "lon": -87.6298,
+      "name_cs": "Chicago",
+      "name_en": "Chicago"
     },
     {
       "key": "Texas",
@@ -652,11 +659,11 @@
       "name_en": "Ohio"
     },
     {
-      "key": "Arizona",
-      "lat": 34.0489,
-      "lon": -111.0937,
-      "name_cs": "Arizona",
-      "name_en": "Arizona"
+      "key": "Colorado",
+      "lat": 39.5501,
+      "lon": -105.7821,
+      "name_cs": "Colorado",
+      "name_en": "Colorado"
     },
     {
       "key": "Louisiana",
@@ -666,6 +673,13 @@
       "name_en": "Louisiana"
     },
     {
+      "key": "Maine",
+      "lat": 45.2538,
+      "lon": -69.4455,
+      "name_cs": "Maine",
+      "name_en": "Maine"
+    },
+    {
       "key": "Oregon",
       "lat": 43.8041,
       "lon": -120.5542,
@@ -673,11 +687,42 @@
       "name_en": "Oregon"
     },
     {
+      "key": "Seattle",
+      "lat": 47.6062,
+      "lon": -122.3321,
+      "name_cs": "Seattle",
+      "name_en": "Seattle"
+    },
+    {
       "key": "Oklahoma",
       "lat": 35.0078,
       "lon": -97.0929,
       "name_cs": "Oklahoma",
       "name_en": "Oklahoma"
+    },
+    {
+      "key": "Ukrain",
+      "lat": 50.45,
+      "lon": 30.52,
+      "name_cs": "Ukrajina",
+      "name_en": "Ukrain",
+      "auto": true
+    },
+    {
+      "key": "Russia",
+      "lat": 55.75,
+      "lon": 37.62,
+      "name_cs": "Rusko",
+      "name_en": "Russia",
+      "auto": true
+    },
+    {
+      "key": "Israel",
+      "lat": 31.5,
+      "lon": 34.8,
+      "name_cs": "Izrael",
+      "name_en": "Israel",
+      "auto": true
     },
     {
       "key": "China",
@@ -693,6 +738,14 @@
       "lon": 138.3,
       "name_cs": "Japonsko",
       "name_en": "Japan",
+      "auto": true
+    },
+    {
+      "key": "India",
+      "lat": 20.6,
+      "lon": 79,
+      "name_cs": "Indie",
+      "name_en": "India",
       "auto": true
     },
     {
@@ -714,20 +767,20 @@
   ],
   "location_counts": {
     "Florida": 29,
-    "Texas": 36,
-    "Washington": 35,
-    "New York": 36,
-    "California": 19,
+    "Texas": 37,
+    "Washington": 36,
+    "New York": 37,
+    "California": 20,
     "Capitol": 11,
     "Border": 8,
     "Los Angeles": 3,
-    "Wall Street": 29,
+    "Wall Street": 30,
     "Illinois": 6,
-    "Colorado": 8,
+    "Colorado": 9,
     "Canada": 9,
     "Brazílie": 1,
     "Ukrajina": 1,
-    "Rusko": 4,
+    "Rusko": 1,
     "Írán": 1,
     "Čína": 2,
     "Tchaj-wan": 1,
@@ -744,11 +797,11 @@
     "Berlín": 1,
     "Michigan": 14,
     "Georgia": 8,
-    "Maine": 6,
+    "Maine": 7,
     "Mexico": 4,
     "Singapur": 1,
-    "Chicago": 3,
-    "Ohio": 11,
+    "Chicago": 4,
+    "Ohio": 12,
     "Arizona": 8,
     "Minnesota": 9,
     "Virginia": 3,
@@ -759,7 +812,7 @@
     "Severní Korea": 1,
     "New Jersey": 1,
     "Afghánistán": 1,
-    "Louisiana": 4,
+    "Louisiana": 5,
     "Egypt": 1,
     "Pennsylvania": 5,
     "North Carolina": 2,
@@ -771,25 +824,18 @@
     "Nevada": 2,
     "Las Vegas": 1,
     "Řím": 1,
-    "Oregon": 2,
-    "Oklahoma": 2,
-    "Jihoafrická republika": 1
+    "Oregon": 3,
+    "Oklahoma": 3,
+    "Jihoafrická republika": 1,
+    "Seattle": 1
   },
   "top_location": {
     "key": "Texas",
     "name_cs": "Texas",
     "name_en": "Texas",
-    "count": 36
+    "count": 37
   },
   "archive": [
-    {
-      "date": "2026-10-12 05:00",
-      "threat_level": "HIGH",
-      "security_status_cs": "Americké trhy a politickou scénu otřásá prudký výprodej v technologickém sektoru vyvolaný novým modelem DeepSeek z Číny a rostoucí politická polarizace před nadcházejícími midtermy. DOJ mezitím zahájilo antimonopolní vyšetřování mediálních domů, zatímco se objevují obavy z vývoje inflace, cen pohonných hmot a dopadů hurikánů na jihovýchodě USA.",
-      "security_status_en": "U.S. markets and the political landscape are rattled by a sharp tech sector sell-off sparked by China's DeepSeek model and intensifying political polarization ahead of the midterms. Meanwhile, the DOJ launched an antitrust probe into media networks, amid ongoing concerns over inflation, fuel prices, and hurricane impacts in the Southeast.",
-      "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu v technologickém sektoru a zvýšenou pozornost investorů vůči výsledkům bankovního sektoru, které mohou stabilizovat širší trh.",
-      "forecast_en": "Over the coming days, continued volatility in the tech sector is expected, alongside heightened investor focus on bank earnings results which could help stabilize the broader market."
-    },
     {
       "date": "2026-10-12 12:48",
       "threat_level": "HIGH",
@@ -891,6 +937,14 @@
       "threat_level": "HIGH",
       "security_status_cs": "Spojené státy čelí kombinaci prudkého výprodeje v technologickém sektoru vyvolaného obavami z vývoje AI a eskalujícím politickým napětím před blížícími se volbami. Bezpečnostní složky vyšetřují vlnu podezřelých zásilek s bílým práškem zaslaných volebním úředníkům, zatímco makrodata ukazují přetrvávající inflační tlaky a obavy z měnové politiky Fedu.",
       "security_status_en": "The United States is facing a combination of a sharp tech sector sell-off driven by AI fears and escalating political tensions ahead of the upcoming midterms. Law enforcement is investigating a wave of suspicious mailings containing white powder sent to election officials, while macroeconomic data highlights persistent inflation pressures and monetary policy uncertainty.",
+      "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající volatilitu na akciových trzích kvůli doznívajícímu šoku v technologickém sektoru a napjaté politické atmosféře před volbami. Bezpečnostní složky budou nadále prověřovat hrozby spojené s podezřelými zásilkami.",
+      "forecast_en": "Over the coming days, continued volatility in equity markets is expected due to the lingering shock in the tech sector and tense pre-election political dynamics. Law enforcement will remain focused on investigating threats related to suspicious mailings."
+    },
+    {
+      "date": "2026-10-16 05:00",
+      "threat_level": "HIGH",
+      "security_status_cs": "Spojené státy čelí kombinaci prudkého propadu technologických trhů kvůli obavám z umělé inteligence, vyhrocené politické atmosféře před mezidobí volbami a bezpečnostním incidentům včetně tragické střelby na škole v Oregonu a podezřelých zásilek úřadům. Federální rezervní systém mezitím čelí rozporuplným signálům ohledně inflace a budoucího vývoje úrokových sazeb.",
+      "security_status_en": "The United States is facing a combination of a sharp tech market slump driven by AI fears, a heated political atmosphere ahead of the midterms, and security incidents including a tragic school shooting in Oregon and suspicious mailings to officials. Meanwhile, the Federal Reserve faces mixed signals regarding inflation and the future path of interest rates.",
       "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající volatilitu na akciových trzích kvůli doznívajícímu šoku v technologickém sektoru a napjaté politické atmosféře před volbami. Bezpečnostní složky budou nadále prověřovat hrozby spojené s podezřelými zásilkami.",
       "forecast_en": "Over the coming days, continued volatility in equity markets is expected due to the lingering shock in the tech sector and tense pre-election political dynamics. Law enforcement will remain focused on investigating threats related to suspicious mailings."
     }
