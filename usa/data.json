@@ -1,16 +1,93 @@
 {
-  "last_updated": "2026-10-16T15:00:29Z",
+  "last_updated": "2026-10-16T21:18:39Z",
   "assessment": {
     "threat_level": "HIGH",
-    "sentiment_score": 70,
-    "security_status_cs": "Chyba při automatické analýze AI.",
-    "security_status_en": "Error during automated AI analysis.",
-    "president_comments": [],
-    "recommendations": [],
-    "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
-    "forecast_en": "Failed to generate forecast.",
-    "forecast_review_cs": "N/A",
-    "forecast_review_en": "N/A"
+    "sentiment_score": 75,
+    "security_status_cs": "Spojené státy čelí vysokému napětí v důsledku tragické střelby na základní škole v Oregonu, politických turbulencí kolem rychlého odchodu mluvčí Bílého domu Katie Zacharia a blížících se mezidobí voleb (midterms). Mezinárodní trhy a geopolitiku navíc zatěžuje růst ceny ropy nad 110 dolarů za barel kvůli přetrvávajícím konfliktům.",
+    "security_status_en": "The United States is facing high tension following a tragic elementary school shooting in Oregon, political turbulence surrounding the rapid departure of White House press secretary Katie Zacharia, and upcoming midterm elections. Furthermore, international markets and geopolitics are burdened by oil prices surging past $110 per barrel due to ongoing conflicts.",
+    "president_comments": [
+      {
+        "topic_cs": "Podpora v Georgii",
+        "topic_en": "Georgia Support",
+        "statement_cs": "Prezident Trump uspořádal rally v Georgii na podporu republikánských nominantů do blížících se voleb.",
+        "statement_en": "President Trump rallied in Georgia to support Republican nominees for the upcoming elections.",
+        "comment_cs": "Snaha o mobilizaci voličů přichází v době, kdy masivní výdaje republikánů zatím výrazně nezvedly průzkumy veřejného mínění.",
+        "comment_en": "The effort to mobilize voters comes at a time when massive Republican spending has not yet significantly boosted poll numbers.",
+        "market_impact": "NEUTRAL",
+        "source": "The Guardian",
+        "date": "2026-10-16T21:18:39Z"
+      },
+      {
+        "topic_cs": "Vývoj na Ukrajině a Starlink",
+        "topic_en": "Ukraine Developments and Starlink",
+        "statement_cs": "Prezident Trump popřel, že by on nebo Elon Musk způsobili výpadek systému Starlink na Ukrajině, a dostal se do sporu s ukrajinským prezidentem kvůli útokům na ruské rafinerie.",
+        "statement_en": "President Trump claimed that neither he nor Elon Musk caused the Starlink outage in Ukraine and clashed with the Ukrainian president over resumed strikes on Russian oil refineries.",
+        "comment_cs": "Tento postoj podtrhuje složitou dynamiku kolem americké podpory Ukrajiny a geopolitických rizik tlačených ropou vzhůru.",
+        "comment_en": "This stance highlights the complex dynamics surrounding U.S. support for Ukraine and geopolitical risks pushing oil prices higher.",
+        "market_impact": "NEGATIVE",
+        "source": "The Hill",
+        "date": "2026-10-16T21:18:39Z"
+      },
+      {
+        "topic_cs": "Zrušení živého přenosu popravy",
+        "topic_en": "Scrapping Execution Livestream",
+        "statement_cs": "Prezident Trump změnil směr a zrušil plánovaný veřejný živý přenos popravy Nidala Hasana, čímž korigoval dřívější oznámení ministra obrany Peta Hegsetha.",
+        "statement_en": "President director reversed course and scrapped the planned public execution livestream of Nidal Hasan, contradicting an earlier announcement by Defense Secretary Pete Hegseth.",
+        "comment_cs": "Změna administrativního kurzu poukazuje na vnitřní diskuse o komunikaci citlivých justičních kroků veřejnosti.",
+        "comment_cs_en": "The shift in administrative course points to internal discussions on communicating sensitive judicial steps to the public.",
+        "market_impact": "NEUTRAL",
+        "source": "RealClearPolitics",
+        "date": "2026-10-16T21:18:39Z"
+      }
+    ],
+    "recommendations": [
+      {
+        "sector_cs": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
+        "sector_en": "US Broad Equity Market (S&P 500 ETFs, e.g. VOO, SPY)",
+        "action": "HOLD",
+        "reason_cs": "Trh čelí technickému tlaku v technologickém sektoru a geopolitickým rizikům, proto je vhodné vyčkat na stabilizaci.",
+        "reason_en": "The market faces technical pressure in the tech sector and geopolitical risks, making it wise to wait for stabilization."
+      },
+      {
+        "sector_cs": "Státní dluhopisy USA (Treasuries)",
+        "sector_en": "US Treasuries",
+        "action": "BUY",
+        "reason_cs": "Růst geopolitického napětí a rostoucí ceny ropy zvyšují poptávku po bezpečných aktivech.",
+        "reason_en": "Rising geopolitical tensions and increasing oil prices are driving demand for safe-haven assets."
+      },
+      {
+        "sector_cs": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
+        "sector_en": "Defense Industry (RTX, Lockheed Martin, Northrop Grumman)",
+        "action": "BUY",
+        "reason_cs": "Trvající mezinárodní konflikty a vysoké ceny komodit udržují poptávku po obranných systémech na vysoké úrovni.",
+        "reason_en": "Ongoing international conflicts and high commodity prices keep demand for defense systems elevated."
+      },
+      {
+        "sector_cs": "Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)",
+        "sector_en": "Banks & Financials (JPMorgan, Bank of America, Goldman Sachs)",
+        "action": "HOLD",
+        "reason_cs": "Finanční sektor čelí smíšenému makroekonomickému prostředí a nejistotě ohledně budoucího směřování sazeb.",
+        "reason_en": "The financial sector faces a mixed macroeconomic environment and uncertainty regarding the future path of interest rates."
+      },
+      {
+        "sector_cs": "Technologický sektor (Apple, Microsoft, Nvidia)",
+        "sector_en": "Technology Sector (Apple, Microsoft, Nvidia)",
+        "action": "SELL",
+        "reason_cs": "Technické ukazatele naznačují pokračující pokles a varují před unáhleným nákupem propadu.",
+        "reason_en": "Technical indicators suggest continued downside and warn against premature dip-buying in tech."
+      },
+      {
+        "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
+        "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
+        "action": "HOLD",
+        "reason_cs": "Domácí tituly reagují primárně na evropský kontext, přičemž globální nejistota omezuje výraznější růstový potenciál.",
+        "reason_en": "Domestic stocks primarily react to the European context, while global uncertainty limits significant upside potential."
+      }
+    ],
+    "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na technologických trzích a zvýšenou politickou rétoriku před blížícími se volbami do Kongresu. Ropný trh zůstane pod vlivem blízkovýchodního a východoevropského napětí.",
+    "forecast_en": "In the coming days, continued volatility in tech markets and heightened political rhetoric ahead of the congressional elections are expected. The oil market will remain influenced by Middle Eastern and Eastern European tensions.",
+    "forecast_review_cs": "Předchozí předpověď nebyla k dispozici.",
+    "forecast_review_en": "No previous forecast to evaluate."
   },
   "articles": [
     {
@@ -21,137 +98,242 @@
       "source": "Fox News"
     },
     {
-      "title": "Josh Jacobs sues police to permanently seal video evidence in battery case against him",
-      "summary": "Josh Jacobs filed a lawsuit to permanently seal evidence in his battery case, including garage video the NFL is seeking for its own investigation.",
-      "link": "https://www.foxnews.com/outkick-sports/josh-jacobs-sues-police-permanently-seal-video-evidence-battery-case",
-      "published": "Fri, 16 Oct 2026 10:58:46 -0400",
-      "source": "Fox News"
+      "title": "5-year-old victim identified in Oregon school shooting",
+      "summary": "Memorials with flowers,​ balloons and stuffed animals popped up around Silver Rail Elementary School in Bend, Oregon, after the shooting.",
+      "link": "https://www.cbsnews.com/news/bend-oregon-elementary-school-shooting-victims/",
+      "published": "Fri, 16 Oct 2026 17:08:03 -0400",
+      "source": "CBS News"
     },
     {
-      "title": "Troy Jackson Massively Outraising Susan Collins, Last-Minute Filing Shows",
-      "summary": "The two U.S. Senate candidates just concluded a four-debate showdown in Maine ahead of Election Day on November 3.",
-      "link": "https://www.newsweek.com/troy-jackson-massively-outraising-susan-collins-last-minute-filing-shows-12579447",
-      "published": "Fri, 16 Oct 2026 10:56:23 -0400",
-      "source": "Newsweek"
+      "title": "Oregon school shooter ID'd, used shotgun bought by mother, sources say",
+      "summary": "Investigators are combing through the 16-year-old's computer, phone, social media and search history for clues after the shooting at Silver Rail Elementary School in Bend, Oregon, sources say.",
+      "link": "https://www.cbsnews.com/news/oregon-school-shooter-identified-silver-rail-elementary/",
+      "published": "Fri, 16 Oct 2026 17:08:00 -0400",
+      "source": "CBS News"
     },
     {
-      "title": "Mary Peltola Angles to Escape the Democratic Brand in Trump Country",
-      "summary": "Peltola's Alaskan identity has been a core part of her messaging, focusing on her understanding of life in the state.",
-      "link": "https://www.newsweek.com/mary-peltola-angles-to-escape-the-democratic-brand-in-trump-country-12573404",
-      "published": "Fri, 16 Oct 2026 10:50:50 -0400",
-      "source": "Newsweek"
-    },
-    {
-      "title": "Peltola, Sullivan spar in fiery final Alaska Senate debate: ‘Let’s have some decorum’",
-      "summary": "Democrat former Rep. Mary Peltola and Republican Sen. Dan Sullivan sparred on Wednesday in a fiery final debate for Senate in Alaska.  They tackled the Iran war, economic woes and fisheries in an hourlong debate hosted by Alaska Public Media in partnership with Alaska's News Source and KTOO. Both Sullivan, who’s seeking a third term,...",
-      "link": "https://thehill.com/homenews/campaign/6153803-peltola-sullivan-final-alaska-senate-debate/",
-      "published": "Fri, 16 Oct 2026 14:46:59 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Katie Zacharia admits she never passed legal exam as scrutiny mounts over her past claims of being a lawyer – live",
-      "summary": "<p>Trump’s new and already under fire press secretary was asked on Fox News if she still had the confidence of the president, to which she said ‘I’m standing here’</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email</a></p></li></ul><p><strong>Attorneys and experts are raising the alarm that immigrants at <a href=\"https://www.theguardian.com/us-news/2026/apr/15/ice-desert-detention-camp-east-montana\">Camp East Montana</a>, the sprawling desert detention camp on the Fort Bliss military base in west Texas, face a risk of serious injury or death because of ongoing, extreme health and safety hazards there, according to a fresh court filing, the Guardian can reveal.</strong></p><p>The allegedly dangerous conditions persist at the tent jail, the <a href=\"https://tracreports.org/immigration/quickfacts/detention.html#detention_held\">largest</a> immigration detention facility in the US, despite regular reports from inside and outside the federal government that it has violated dozens of official standards since it opened last year.</p> <a href=\"https://www.theguardian.com/us-news/live/2026/oct/16/trump-texas-senate-race-midterms-paxton-talarico-zacharia-ukraine-starlink-diesel-oregon-latest-news-updates\">Continue reading...</a>",
+      "title": "Trump rallies in Georgia as new White House press secretary is fired after five days on the job - live",
+      "summary": "<p>The president is rallying to support Republican nominees shortly after the White House confirmed Katie Zacharia is ‘transitioning out’ of her role as press secretary</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/2026/oct/16/katie-zacharia-fired-press-secretary\">Full story: Katie Zacharia fired after five days as White House press secretary</a></p></li><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email</a></p></li></ul><p>In Maine, <strong>Troy Jackson</strong>, the Democratic nominee for US Senate, and <strong>Susan Collins</strong>, the five-term Republican incumbent traded barbs on Thursday in their final debate ahead of the November midterms.</p><p>This was the fourth showdown between the pair. Collins has tried to cast Jackson as an inexperienced state lawmaker, and attempted to yoke him to the former nominee, <strong>Graham Platner</strong>, who <a href=\"https://www.theguardian.com/us-news/2026/jul/08/graham-platner-maine-senate-campaign\">dropped out</a> of the race earlier this year following allegations of rape and sexual assault (which he still denies). Meanwhile, Jackson accused his opponent of corruption, and castigated her for her “moderate” persona in Congress.</p> <a href=\"https://www.theguardian.com/us-news/live/2026/oct/16/trump-texas-senate-race-midterms-paxton-talarico-zacharia-ukraine-starlink-diesel-oregon-latest-news-updates\">Continue reading...</a>",
       "link": "https://www.theguardian.com/us-news/live/2026/oct/16/trump-texas-senate-race-midterms-paxton-talarico-zacharia-ukraine-starlink-diesel-oregon-latest-news-updates",
-      "published": "Fri, 16 Oct 2026 14:40:41 GMT",
+      "published": "Fri, 16 Oct 2026 21:05:24 GMT",
       "source": "The Guardian"
-    },
-    {
-      "title": "Bolton: Zelensky lecturing Trump won't end well",
-      "summary": "John Bolton, President Trump’s former national security adviser, said Thursday that Ukrainian President Volodymyr Zelensky lecturing the president won’t end well for him, “given Trump's difficult political position here at home.” Appearing on NewsNation’s “On Balance,” Bolton told host Leland Vittert that Zelensky’s criticism of Trump would “end well” for him. “Let's face it, everything...",
-      "link": "https://thehill.com/policy/international/6153675-bolton-criticizes-zelensky-trump/",
-      "published": "Fri, 16 Oct 2026 14:35:56 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Warsh offers no fresh signals on interest rates",
-      "summary": "Federal Reserve Chair Kevin Warsh declined Friday to predict central bank officials’ future course on interest rates, less than two weeks before they meet to discuss monetary policy.  “I don’t prejudge meetings. I don’t believe in saying now what I might do at the meetings that we have in the balance of this year,” Warsh...",
-      "link": "https://thehill.com/business/6153621-fed-kevin-warsh-interest-rate-forecast/",
-      "published": "Fri, 16 Oct 2026 14:31:52 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Trump should try to mediate Turkish-Israeli tensions in the Horn of Africa",
-      "summary": "Tensions could explode into a new war between any two of the countries that are at loggerheads there, and that could in turn draw in both of those powerful states.",
-      "link": "https://thehill.com/opinion/national-security/6148364-israel-turkey-horn-africa/",
-      "published": "Fri, 16 Oct 2026 14:30:00 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "The stock market has already crashed: Why a Wall Street veteran says Nike is the ultimate turnaround trade.",
-      "summary": "Larry McDonald says the S&P 500’s record chasing is hiding lots of companies with sliding stocks. He has ideas on how to play that.",
-      "link": "https://www.marketwatch.com/story/the-stock-market-has-already-crashed-why-a-wall-street-veteran-says-nike-is-the-ultimate-turnaround-trade-f4429eb3?mod=mw_rss_topstories",
-      "published": "Fri, 16 Oct 2026 14:28:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Businesses Need to Prepare for Customers Who Talk, Not Type",
-      "summary": "Voice AI could make everyday tasks easier, but businesses need proof it works for customers before redesigning services around it.",
-      "link": "https://www.newsweek.com/voice-ai-is-changing-how-businesses-operate-12578208",
-      "published": "Fri, 16 Oct 2026 10:21:36 -0400",
-      "source": "Newsweek"
-    },
-    {
-      "title": "A stock-market ‘sell’ signal has been silenced — but these Bank of America strategists say it’s too early to buy",
-      "summary": "Even though October’s correction has brought about some relief for bond markets and revivified the rate sensitive sectors of the stock market, Bank of America’s strategists recommend staying risk-off until after the midterms and the next Fed meeting.",
-      "link": "https://www.marketwatch.com/story/a-stock-market-sell-signal-has-been-silenced-but-these-bank-of-america-strategists-say-its-too-early-to-buy-8cdf98c8?mod=mw_rss_topstories",
-      "published": "Fri, 16 Oct 2026 14:14:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Video shows moment Utah police dog seriously injured in leap from overpass",
-      "summary": "<p>Bomb-sniffing dog Bruno is recovering after surgery having broken several bones while responding to suspect package</p><p>Video of the moment a police dog named Bruno leapt from a freeway overpass and received serious injuries has been released by authorities in Utah, as the animal continues to recover at home.</p><p>Bruno, a bomb-sniffing dog, suffered two broken legs and a fractured jaw in the September incident as he helped Utah state troopers investigate a suspicious package found abandoned on the roadside in Summit county.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/16/utah-police-dog-injured-video\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/oct/16/utah-police-dog-injured-video",
-      "published": "Fri, 16 Oct 2026 14:13:46 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "How Big Money Is Pulling the Democrats Left",
-      "summary": "This week, the Wall Street Journal published a fascinating analysis detailing how a contingent of wealthy donors is fueling the rise of far-Left candidates in the Democratic Party. The report details two crops of donors, some newer and others more established. But both appear to share the same fundamental goal: electing more progressives and shifting the Democratic Party's center of gravity Leftward.",
-      "link": "https://www.realclearpolitics.com/2026/10/16/how_big_money_is_pulling_the_democrats_left_714321.html",
-      "published": "Fri, 16 Oct 2026 09:07:11 -0500",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "AI 'espionage' is a reality that companies need to be 'wary of,' DNI Jay Clayton says",
-      "summary": "AI \"amplifies\" existing cybersecurity risks toward U.S. digital infrastructure, Clayton said on \"Squawk Box.\"",
-      "link": "https://www.cnbc.com/2026/10/16/ai-espionage-openai-jay-clayton.html",
-      "published": "Fri, 16 Oct 2026 14:02:14 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Alaska Considers Economic Suicide",
-      "summary": "The state has prospered under Trump, and the vulnerable Sen. Dan Sullivan deserves credit.",
-      "link": "https://www.realclearpolitics.com/2026/10/16/alaska_considers_economic_suicide_714306.html",
-      "published": "Fri, 16 Oct 2026 09:01:28 -0500",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Zelenskyy smiles when asked if Trump is treating him as a 'scapegoat' – video",
-      "summary": "<p>Ukraine's president, Volodymyr Zelenskyy, was asked by Sky News at a press conference in Brussels, Belgium, if he felt he was being made a 'scapegoat' by his US counterpart, Donald Trump, for domestic problems including high diesel prices before midterm elections. Zelenskyy paused for 15 seconds, before he eventually smiled and said: 'This is my answer.'</p><ul><li><p><a href=\"https://viewer.gutools.co.uk/world/live/2026/oct/16/eu-von-der-leyen-russia-sanctions-diesel-fuel-zelenskyy-donald-trump-membership-migration-latest-news-updates\">Europe live – latest updates</a></p></li></ul> <a href=\"https://www.theguardian.com/world/video/2026/oct/16/zelenskyy-smiles-when-asked-if-trump-is-treating-him-as-a-scapegoat-video\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/video/2026/oct/16/zelenskyy-smiles-when-asked-if-trump-is-treating-him-as-a-scapegoat-video",
-      "published": "Fri, 16 Oct 2026 14:01:21 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Poll: Majority Wants Less Red Tape To Cut Energy Costs",
-      "summary": "With less than three weeks until the midterm elections, affordability continues to rank as the most important issue for Americans. According to a new RealClearEnergy poll, 37% of likely voters say a candidate's stance on affordability is most likely to influence their vote for Congress.",
-      "link": "https://www.realclearpolitics.com/articles/2026/10/16/rcenergy_poll_majority_wants_less_red_tape_to_cut_energy_costs_154584.html",
-      "published": "Fri, 16 Oct 2026 08:59:26 -0500",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Midterms Look Good for Dems, But That's Not a Guarantee",
-      "summary": "It's great to see Democrats emboldened and going on the offensive as the GOP retrenches. But the fact is that even the most favorable polls can't be fully trusted, not given how many of the closest races sit within the margin of error.",
-      "link": "https://www.realclearpolitics.com/2026/10/16/midterms_look_good_for_dems_but_thats_not_a_guarantee_714299.html",
-      "published": "Fri, 16 Oct 2026 08:58:52 -0500",
-      "source": "RealClearPolitics"
     },
     {
       "title": "3 children, 1 teacher killed in Oregon school shooting, police say",
       "summary": "Three children and a teacher were killed, and two others critically wounded, in a shooting at Silver Rail Elementary School in Bend, Oregon. The suspect was shot and killed by a bystander.",
       "link": "https://www.cbsnews.com/live-updates/oregon-silver-rail-elementary-shooting-bend/",
-      "published": "Fri, 16 Oct 2026 09:46:18 -0400",
+      "published": "Fri, 16 Oct 2026 17:03:00 -0400",
       "source": "CBS News"
+    },
+    {
+      "title": "Democrats' latest gun-control push runs into inconvenient fact about how school killer was stopped",
+      "summary": "An armed bystander helped end the deadly Oregon school shooting, but the gun control debate now centers on whether gun-free zones made it worse.",
+      "link": "https://www.foxnews.com/politics/democrats-latest-gun-control-push-runs-inconvenient-fact-about-how-school-killer-stopped",
+      "published": "Fri, 16 Oct 2026 17:00:16 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Zelensky Warns of More Trump-Russia Deals as Putin Envoy Eyes Expansion",
+      "summary": "Zelensky warns Trump’s Russia diesel deal could lead to more deals and broader sanctions relief.",
+      "link": "https://www.newsweek.com/zelensky-trump-russia-deals-putin-dmitriev-sanctions-12580951",
+      "published": "Fri, 16 Oct 2026 16:58:25 -0400",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Don’t buy this dip: Several signs suggest there’s more pain ahead for tech stocks",
+      "summary": "Thinking of buying the dip in technology stocks? The Nasdaq Composite’s technical outlook suggests don’t do it — at least not yet.",
+      "link": "https://www.marketwatch.com/story/dont-buy-this-dip-several-signs-suggest-theres-more-pain-ahead-for-tech-stocks-83f971d7?mod=mw_rss_topstories",
+      "published": "Fri, 16 Oct 2026 20:58:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Unauthorized drones banned along US-Mexico border: FAA",
+      "summary": "The Federal Aviation Administration (FAA) said Friday it is restricting unauthorized drones along the ​U.S.-Mexico border. This move comes as the government ramps up efforts to address concerns about illegal drug shipments across the border, Reuters reported Friday. It is a temporary flight restriction that bars any unauthorized drone activity up to 400 feet above...",
+      "link": "https://thehill.com/homenews/administration/6155022-us-mexico-border-drone-ban/",
+      "published": "Fri, 16 Oct 2026 20:55:59 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Vance says admin. must take action when ICE agents \"screw up\"",
+      "summary": "Vice President JD Vance acknowledged Thursday that there are some federal immigration officers \"who really screw up.\"",
+      "link": "https://www.cbsnews.com/news/vance-ice-investigate-agents-screw-up/",
+      "published": "Fri, 16 Oct 2026 16:55:41 -0400",
+      "source": "CBS News"
+    },
+    {
+      "title": "Judge tosses Timothy Busfield's indictment on child sex abuse charges",
+      "summary": "District Court Judge Joseph Montano granted Busfield's motion to throw out the grand jury indictment on Friday. Prosecutors can refile.",
+      "link": "https://www.foxnews.com/entertainment/judge-tosses-timothy-busfields-indictment-child-sex-abuse-charges",
+      "published": "Fri, 16 Oct 2026 16:52:31 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Oil hits $110 per barrel for first time since May",
+      "summary": "An international oil benchmark hit $110 per barrel on Friday, as the industry faces persistent shocks from the U.S.-Iran and Russia-Ukraine wars. The price of Brent crude oil, the international standard, hit $110 during Friday trading. That marked the first time it has reached that high since May 20, less than three months after the...",
+      "link": "https://thehill.com/policy/energy-environment/6155062-brent-crude-hits-110/",
+      "published": "Fri, 16 Oct 2026 20:48:33 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "'The View' co-hosts cast doubt on Kamala Harris viability as 2028 candidate",
+      "summary": "\"The View\" co-hosts debated former Vice President Kamala Harris' 2028 prospects, with Sara Haines pointing to the public's desire for fresher Democratic candidates",
+      "link": "https://www.foxnews.com/media/the-view-co-hosts-cast-doubt-kamala-harris-viability-2028-candidate",
+      "published": "Fri, 16 Oct 2026 16:46:15 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Who could replace Katie Zacharia as White House press secretary?",
+      "summary": "<p>Her abrupt firing five days after assuming the position reopened the contest for one of the most prominent roles in the Trump administration</p><p>The White House is without a press secretary again after the ousting of Katie Zacharia, just five days into her appointment as Donald Trump’s spokesperson.</p><p>Zacharia’s departure comes just months after Karoline Leavitt unexpectedly resigned as the White House press secretary to focus on her family.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/16/who-replace-katie-zacharia-white-house-press-secretary\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/oct/16/who-replace-katie-zacharia-white-house-press-secretary",
+      "published": "Fri, 16 Oct 2026 20:41:12 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Katie Zacharia out as Trump's White House press secretary",
+      "summary": "Zacharia was on shaky ground from her first White House press conference and over questions about her claims of being a lawyer despite not passing a bar exam.",
+      "link": "https://www.cnbc.com/2026/10/16/trump-katie-zacharia-white-house.html",
+      "published": "Fri, 16 Oct 2026 20:40:58 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Bystander who killed Oregon shooter identified as father of girls at elementary school",
+      "summary": "<p>Kaylub Giamanco, who was reportedly driving home when he heard gunshots, ‘not seeking recognition’, family says</p><p>Details are beginning to emerge about Kaylub Giamanco, the man who brought the deadly <a href=\"https://www.theguardian.com/us-news/2026/oct/16/oregon-school-shooting-latest\">shooting at elementary school in Bend, Oregon on Thursday</a>, to an end by fatally shooting the 16-year-old suspect in the midst of a violent rampage.</p><p>Authorities have yet to officially release the man’s identity, but Kaylub Giamanco’s family <a href=\"https://www.centraloregondaily.com/news/local/man-who-killed-silver-rail-elementary-gunman-identified-kaylub-giamanco/article_bccec384-c838-4dde-bb0d-396cd512be51.html\">issued a statement on Friday</a> confirming that he shot and killed the suspect.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/16/bystander-parent-oregon-school-shooting\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/oct/16/bystander-parent-oregon-school-shooting",
+      "published": "Fri, 16 Oct 2026 20:37:21 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Katie Zacharia Is What Happens When Loyalty Replaces Competence",
+      "summary": "Katie Zacharia's five-day tenure exposes the danger of a White House where loyalty appears to matter more than competence.",
+      "link": "https://www.newsweek.com/katie-zacharia-firing-trump-loyalty-competence-white-house-12582067",
+      "published": "Fri, 16 Oct 2026 16:35:09 -0400",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Live updates: Zacharia exits White House post; Trump stumps for Collins in Georgia",
+      "summary": "Katie Zacharia is on her way to being a former White House press secretary, after President Trump told reporters he told her to “reconsider” the position and amid a rocky start to the job this week, a White House official told The Hill. Zacharia faced scrutiny over her legal credentials and held a short press...",
+      "link": "https://thehill.com/homenews/administration/6152806-live-updates-trump-georgia-midterm-elections-katie-zacharia/",
+      "published": "Fri, 16 Oct 2026 20:33:42 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "EchoStar’s stock looks like a stealthy way to ride the SpaceX wave, J.P. Morgan says",
+      "summary": "Investors aren’t giving EchoStar enough credit for the value of its future SpaceX stake or its potential to strike more spectrum deals, an analyst argues.",
+      "link": "https://www.marketwatch.com/story/echostars-stock-looks-like-a-stealthy-way-to-ride-the-spacex-wave-j-p-morgan-says-c4effa5d?mod=mw_rss_topstories",
+      "published": "Fri, 16 Oct 2026 20:05:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Who Could Replace Katie Zacharia? Laura Loomer Eyes White House Role",
+      "summary": "Katie Zacharia left the press secretary role after five days, prompting a new search for who will stand behind the famous podium.",
+      "link": "https://www.newsweek.com/who-could-replace-katie-zacharia-white-house-press-secretary-12581932",
+      "published": "Fri, 16 Oct 2026 15:50:49 -0400",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Your Social Security check will rise an average of $75 a month — will it be able to keep up with inflation?",
+      "summary": "The 3.6% COLA for 2027 is aimed at helping more than 68 million beneficiaries keep pace with the cost of living",
+      "link": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2?mod=mw_rss_topstories",
+      "published": "Fri, 16 Oct 2026 19:45:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Did this year’s COLA beat inflation? Here’s how spending by American seniors stacks up so far in 2026.",
+      "summary": "The cost-of-living adjustment for 2027 will be 3.6%, which will give Social Security recipients an average of $75 more per month.",
+      "link": "https://www.marketwatch.com/story/did-this-years-cola-beat-inflation-heres-how-spending-by-american-seniors-stacks-up-so-far-in-2026-917c400c?mod=mw_rss_topstories",
+      "published": "Fri, 16 Oct 2026 19:45:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Trump claims neither he nor Musk caused Ukraine Starlink outage",
+      "summary": "President Trump claimed on Friday that neither he nor SpaceX founder Elon Musk caused Ukraine’s Starlink outage earlier this week as the president clashed with Ukrainian President Volodymyr Zelensky over resumed strikes on Russian oil refineries. “I didn’t do that. No, we didn’t do that at all. In fact, I don’t even think it was...",
+      "link": "https://thehill.com/homenews/administration/6154786-trump-denies-starlink-outage-cause/",
+      "published": "Fri, 16 Oct 2026 19:39:12 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Talarico's Record Is Scarier Than Halloween",
+      "summary": "Now that U.S. Senate hopeful James Talarico has returned to Texas' campaign trail, he should explain his more troubling actions as a Lone Star State lawmaker.",
+      "link": "https://www.realclearpolitics.com/2026/10/16/talaricos_record_is_scarier_than_halloween_714313.html",
+      "published": "Fri, 16 Oct 2026 14:37:35 -0500",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Downvoting Data Centers in Maine",
+      "summary": "During the final debate between Troy Jackson and Susan Collins, a contrite protester puts the issue back on the table.",
+      "link": "https://www.realclearpolitics.com/2026/10/16/downvoting_data_centers_in_maine_714389.html",
+      "published": "Fri, 16 Oct 2026 14:36:53 -0500",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Do Republicans Have an Opening in Arizona?",
+      "summary": "Brand new polling from Arizona reveals a paradox that should alarm Democrats who believe they're guaranteed a sweeping blue wave victory in the midterm elections. Grand Canyon State voters are frustrated with the economy, yet they're far from thrilled with the Democrats as an alternative.",
+      "link": "https://www.realclearpolicy.com/articles/2026/10/16/arizona_polling_and_the_america_first_agenda_1212034.html",
+      "published": "Fri, 16 Oct 2026 14:36:07 -0500",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Trump Scraps Execution Livestream, Contradicting Hegseth",
+      "summary": "Seven days after Defense Secretary Pete Hegseth announced plans for Nidal Hasan's public execution, the president changed direction.",
+      "link": "https://www.realclearpolitics.com/2026/10/16/trump_scraps_execution_livestream_contradicting_hegseth_714300.html",
+      "published": "Fri, 16 Oct 2026 14:34:49 -0500",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Katie Zacharia fired after five days as White House press secretary",
+      "summary": "<p>Zacharia hosted widely panned first briefing on Tuesday and faced scrutiny after admitting she didn’t pass bar exam</p><p>Donald Trump’s new press secretary, Katie Zacharia, <a href=\"https://www.theguardian.com/us-news/live/2026/oct/16/trump-texas-senate-race-midterms-paxton-talarico-zacharia-ukraine-starlink-diesel-oregon-latest-news-updates\">was fired</a> on Friday, just five days after she assumed the role, according to a White House official.</p><p>The person was not authorized to speak publicly about the personnel decision that had not yet been formally announced. Zacharia, a little-known conservative political commentator prior to her selection as Trump’s chief spokesperson, came under immediate scrutiny after a widely panned <a href=\"https://www.theguardian.com/us-news/2026/oct/13/katie-zacharia-trump-press-briefing\">inaugural</a><strong><a href=\"https://www.theguardian.com/us-news/2026/oct/13/katie-zacharia-trump-press-briefing\"> </a></strong><a href=\"https://www.theguardian.com/us-news/2026/oct/13/katie-zacharia-trump-press-briefing\">briefing on Tuesday</a>. The 14-minute exchange was soon followed by a barrage of questions over her legal credentials after she admitted she did not pass the bar exam.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/16/katie-zacharia-fired-press-secretary\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/oct/16/katie-zacharia-fired-press-secretary",
+      "published": "Fri, 16 Oct 2026 19:29:43 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Who Was John J. Griffin II? Oregon Elementary School Shooter Identified",
+      "summary": "The suspected gunman who allegedly killed 4 in a school shooting in Bend, Oregon, has been identified as John J. Griffin.",
+      "link": "https://www.newsweek.com/john-griffin-oregon-elementary-school-shooter-bend-12580608",
+      "published": "Fri, 16 Oct 2026 15:25:18 -0400",
+      "source": "Newsweek"
+    },
+    {
+      "title": "What we learned from heated US midterm Senate debates",
+      "summary": "As the 3 November election approaches and both parties fight for control of Congress, some clear themes have emerged.",
+      "link": "https://www.bbc.co.uk/news/articles/cqly03y3zg7lo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 16 Oct 2026 19:09:37 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Where the US midterm elections will be won and lost",
+      "summary": "An in-depth look at the key polling, races and issues ahead of an election that will define Trump’s final two years as president.",
+      "link": "https://www.bbc.co.uk/news/articles/cr20wlp09gn3o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 16 Oct 2026 18:41:54 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Katie Zacharia is 'transitioning out' as press secretary, White House says",
+      "summary": "Katie Zacharia's first official day was on Monday.",
+      "link": "https://www.npr.org/2026/10/16/nx-s1-6005317/trump-casts-doubt-on-press-secretarys-future",
+      "published": "Fri, 16 Oct 2026 14:08:33 -0400",
+      "source": "NPR"
+    },
+    {
+      "title": "Why Trump and the GOP's billion-dollar midterm blitz isn’t working",
+      "summary": "Trump-aligned groups and Elon Musk have poured hundreds of millions into the midterm election, but the GOP spending surge has barely moved polls or the map.",
+      "link": "https://www.cnbc.com/2026/10/16/republicans-midterms-spending-trump-musk-2026.html",
+      "published": "Fri, 16 Oct 2026 17:55:05 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says",
+      "summary": "The U.S. raised market access issues for Mastercard and Citigroup in China during bilateral meetings in Bangkok this week, a U.S. Treasury official says.",
+      "link": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html",
+      "published": "Fri, 16 Oct 2026 16:46:18 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "OpenAI Saudi national bugging case shows threat to U.S. leadership in AI: DNI Clayton",
+      "summary": "AI \"amplifies\" existing cybersecurity risks toward U.S. digital infrastructure, Clayton said on \"Squawk Box.\"",
+      "link": "https://www.cnbc.com/2026/10/16/ai-espionage-openai-jay-clayton.html",
+      "published": "Fri, 16 Oct 2026 16:27:44 GMT",
+      "source": "CNBC"
     },
     {
       "title": "Crowds throng New Delhi and wave Indian flags amid escalating protests",
@@ -161,67 +343,11 @@
       "source": "NPR"
     },
     {
-      "title": "Vance says he'll \"follow the law\" if subpoenaed by Democrats",
-      "summary": "\"CBS Evening News\" anchor Tony Dokoupil sat down with Vice President JD Vance for a CBS News \"Things That Matter\" town hall airing Saturday. Discussing Kimberly Guilfoyle, Vance said anyone \"selling access to the White House\" should \"suffer consequences.\"",
-      "link": "https://www.cbsnews.com/video/vance-says-hell-follow-the-law-if-subpoenaed-by-democrats/",
-      "published": "Fri, 16 Oct 2026 09:18:45 -0400",
-      "source": "CBS News"
-    },
-    {
-      "title": "Powerful Santa Ana winds fueling wildfires in Southern California",
-      "summary": "Firefighters are battling new wildfires in Southern California fueled by powerful wind gusts. Rob Marciano has more.",
-      "link": "https://www.cbsnews.com/video/powerful-santa-ana-winds-fueling-wildfires-in-southern-california/",
-      "published": "Fri, 16 Oct 2026 09:18:10 -0400",
-      "source": "CBS News"
-    },
-    {
-      "title": "Democrats call for gun control after Oregon school shooter reportedly uses shotgun purchased by his mother",
-      "summary": "A 16-year-old gunman broke into Silver Rail Elementary School in Bend, Oregon, killing three children and a teacher before an armed bystander intervened.",
-      "link": "https://www.foxnews.com/politics/democrats-call-gun-control-oregon-school-shooter-shotgun-purchased-mother",
-      "published": "Fri, 16 Oct 2026 09:12:06 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "Oregon mom says she \"started running over to the school\" when she heard of deadly shooting",
-      "summary": "A teen gunman killed three children and a teacher at Silver Rail Elementary School in Bend, Oregon, before he was killed by a bystander, police say. Kayla and Tyler Major are the parents of a child who was in school at the time of the shooting but was not injured. They share their experiences.",
-      "link": "https://www.cbsnews.com/video/oregon-mom-says-she-started-running-over-to-the-school-when-she-heard-of-deadly-shooting/",
-      "published": "Fri, 16 Oct 2026 09:02:24 -0400",
-      "source": "CBS News"
-    },
-    {
-      "title": "Elon Musk cash infusion helps GOP Senate super PAC raise record $273 million",
-      "summary": "Elon Musk gave a record $158 million to the GOP’s Senate Leadership Fund, boosting its war chest as Republicans pour money into Texas to defend Ken Paxton.",
-      "link": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html",
-      "published": "Fri, 16 Oct 2026 12:17:29 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Trump's Capitol Hill whisperer reveals secrets to president's dealmaking as he heads for exit",
-      "summary": "James Braid spoke with Fox News Digital about his work the last two years on his way out of the Trump administration.",
-      "link": "https://www.foxnews.com/politics/trumps-capitol-hill-whisperer-reveals-secrets-presidents-deal-making-he-heads-exit",
-      "published": "Fri, 16 Oct 2026 08:02:30 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "Oregon elementary school shooting: what we know so far",
-      "summary": "<p>A teenage gunman opened fire in the city of Bend, killing four people and leaving two more in critical condition, before he was shot and killed by a bystander</p><p><strong>A 16-year-old gunman opened fire at the Silver Rail</strong> <strong>elementary school in Bend, Oregon,</strong> on Thursday, authorities said, killing three children and a teacher.</p><p><strong>The student</strong><strong> victims are aged five, eight and 11.</strong> Their names have not yet been released, and authorities said their families had been notified.</p><p><strong>The 16-year-old shooter was found dead at the scene. </strong>Police said that an armed bystander pursued the suspect and shot him inside the school shortly before officers arrived.</p><p><strong>Two other victims, a</strong> <strong>seven-year-old and a 54-year-old,</strong> have been hospitalized. As of Friday morning they remained in critical condition, according to police.</p><p><strong>Police arrived at the school at 1.02pm local time after receiving multiple reports of a shooting.</strong> One 911 caller reported an individual armed with a long gun firing upon their car. Police said the gunman forced entry into the building by shooting at locked doors, but did not identify the make of the firearm they used.</p><p><strong>The teenage shooter was a resident of the town, police said, but their name has not been released</strong>. Police have yet to provide a motive for the shooting and said they were still investigating if he had ties to the school.</p><p><strong>The attack has rocked the small city of</strong> <strong>Bend, which is home to 100,000 residents</strong> and is located on the Deschutes River, about 170 miles south-east of Portland. All public schools in the district, and campuses of Oregon State University-Cascades and Central Oregon Community College, will be closed on Friday.</p><p><strong>Hundreds gathered at nearby Drake Park on Thursday night at a somber</strong><strong> candlelight ceremony to remember the victims.</strong> Some attenders called on authorities to harden gun laws in Oregon, already some of the tightest in the nation.</p><p><strong>Officials have praised the swift actions of law enforcement officers and of the community member who intervened.</strong> The Oregon governor, Tina Kotek, praised the intervention as heroic and extended her thoughts to the bystander. “Your actions carry a heavy emotional burden,” she said on Thursday evening.</p><p><strong>The FBI is helping local authorities investigate the shooting</strong>, according to the agency’s director, Kash Patel.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/16/oregon-silver-rail-elementary-school-shooting-what-we-know-so-far\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/oct/16/oregon-silver-rail-elementary-school-shooting-what-we-know-so-far",
-      "published": "Fri, 16 Oct 2026 11:44:30 GMT",
-      "source": "The Guardian"
-    },
-    {
       "title": "Children aged 5, 8 and 11 killed in US school shooting before suspect shot by bystander",
       "summary": "A teacher was also killed in the attack at the Silver Rail Elementary School in the city of Bend, Oregon, police say.",
       "link": "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss",
       "published": "Fri, 16 Oct 2026 11:41:58 GMT",
       "source": "BBC News"
-    },
-    {
-      "title": "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
-      "summary": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
-      "link": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
-      "published": "Fri, 16 Oct 2026 11:15:00 GMT",
-      "source": "MarketWatch"
     },
     {
       "title": "Teen kills 4 at Oregon school. And, DOJ sues California over alleged noncitizens",
@@ -231,37 +357,9 @@
       "source": "NPR"
     },
     {
-      "title": "Nearly 40% of the S&P 500 is in a bear market. Here are 10 of those stocks that analysts say can gain up to 81%.",
-      "summary": "The S&P 500’s strong overall performance reflects its heavy weighting at the top. Under the surface, nearly 40% of the index’s stocks are down at least 20% from their 52-week highs.",
-      "link": "https://www.marketwatch.com/story/nearly-40-of-the-s-p-500-is-in-a-bear-market-here-are-10-of-those-stocks-that-analysts-say-can-gain-up-to-81-93a51af6?mod=mw_rss_topstories",
-      "published": "Fri, 16 Oct 2026 10:56:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "U.S. Starlink curbs embolden Russia to intensify attacks on Ukraine, minister tells CNBC",
-      "summary": "Ukraine is seeking winter energy and air-defense support as Russian strikes intensify and Starlink limits disrupt military operations.",
-      "link": "https://www.cnbc.com/2026/10/16/zelenskyy-trump-eu-summit-russia-ukraine.html",
-      "published": "Fri, 16 Oct 2026 10:25:46 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Trump says he won't use nuclear weapons or send ground troops to Iran",
-      "summary": "Trump said he would not use nuclear weapons against Iran or send ground troops as the U.S. reportedly weighs new strike options.",
-      "link": "https://www.cnbc.com/2026/10/16/us-iran-war-trump-hormuz.html",
-      "published": "Fri, 16 Oct 2026 09:46:54 GMT",
-      "source": "CNBC"
-    },
-    {
       "title": "How much money has Musk given to Republican groups since July? The quiz knows",
       "summary": "Plus, this week saw comings and goings at the White House, the revenge of a child (reality) star, and Elon Musk doing Elon Musk things.",
       "link": "https://www.npr.org/2026/10/16/g-s1-148041/pope-leo-musk-mamdani-trump-guilfoyle-news-quiz",
-      "published": "Fri, 16 Oct 2026 05:00:00 -0400",
-      "source": "NPR"
-    },
-    {
-      "title": "Do Americans own the president's papers? Appeals court to weigh in",
-      "summary": "The administration says papers created in the White House belong to Donald Trump, not to the American people. The case could ultimately end up at the conservative-leaning Supreme Court.",
-      "link": "https://www.npr.org/2026/10/16/nx-s1-5996836/trump-who-owns-presidential-records-act-appeals-court",
       "published": "Fri, 16 Oct 2026 05:00:00 -0400",
       "source": "NPR"
     },
@@ -271,39 +369,9 @@
       "link": "https://www.bbc.co.uk/news/articles/c670pnlgzq7po?at_medium=RSS&at_campaign=rss",
       "published": "Fri, 16 Oct 2026 01:35:40 GMT",
       "source": "BBC News"
-    },
-    {
-      "title": "Tip-off foiled US teen's plot to attack Hindu temple, police say",
-      "summary": "The alleged plot only failed because the 19-year-old suspect's gun jammed outside the place of worship, say police.",
-      "link": "https://www.bbc.co.uk/news/articles/cqgm0j4kjvevo?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 15 Oct 2026 23:27:21 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Letters with 'suspicious substances' sent to US senators and election offices",
-      "summary": "A number of states have confirmed they were targeted by the mailings, including Oklahoma, Ohio and Louisiana.",
-      "link": "https://www.bbc.co.uk/news/articles/cmq8n513x523o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 15 Oct 2026 22:46:49 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Bank of America shares drop after third-quarter revenue miss and regulatory penalty",
-      "summary": "Bank of America shares fell Wednesday after the company posted weaker-than-expected trading revenue and the impact of a $1.2 billion Treasury fine.",
-      "link": "https://www.cnbc.com/2026/10/14/bank-of-america-bac-q3-2026-earnings.html",
-      "published": "Wed, 14 Oct 2026 20:20:46 GMT",
-      "source": "CNBC"
     }
   ],
   "history": [
-    {
-      "date": "2026-10-06 04:41",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 72,
-      "incidents": 40,
-      "sp500": 7773.95,
-      "usd_czk": null
-    },
     {
       "date": "2026-10-06 04:51",
       "threat_level": "HIGH",
@@ -564,6 +632,15 @@
       "incidents": 12,
       "sp500": 7737.07,
       "usd_czk": 21.615
+    },
+    {
+      "date": "2026-10-16 21:18",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 75,
+      "incidents": 12,
+      "sp500": 7659.44,
+      "usd_czk": 21.615
     }
   ],
   "locations": [
@@ -596,11 +673,11 @@
       "name_en": "California"
     },
     {
-      "key": "Capitol",
-      "lat": 38.8899,
-      "lon": -77.0091,
-      "name_cs": "Kapitol",
-      "name_en": "US Capitol"
+      "key": "Border",
+      "lat": 31.7619,
+      "lon": -106.485,
+      "name_cs": "Hranice s Mexikem (El Paso)",
+      "name_en": "US-Mexico Border (El Paso)"
     },
     {
       "key": "Wall Street",
@@ -610,18 +687,18 @@
       "name_en": "Wall Street"
     },
     {
-      "key": "Ohio",
-      "lat": 40.4173,
-      "lon": -82.9071,
-      "name_cs": "Ohio",
-      "name_en": "Ohio"
+      "key": "Georgia",
+      "lat": 32.1656,
+      "lon": -82.9001,
+      "name_cs": "Georgie (USA)",
+      "name_en": "Georgia (US)"
     },
     {
-      "key": "Louisiana",
-      "lat": 31.2448,
-      "lon": -92.145,
-      "name_cs": "Louisiana",
-      "name_en": "Louisiana"
+      "key": "Arizona",
+      "lat": 34.0489,
+      "lon": -111.0937,
+      "name_cs": "Arizona",
+      "name_en": "Arizona"
     },
     {
       "key": "Maine",
@@ -638,25 +715,11 @@
       "name_en": "Oregon"
     },
     {
-      "key": "Utah",
-      "lat": 39.321,
-      "lon": -111.0937,
-      "name_cs": "Utah",
-      "name_en": "Utah"
-    },
-    {
-      "key": "Oklahoma",
-      "lat": 35.0078,
-      "lon": -97.0929,
-      "name_cs": "Oklahoma",
-      "name_en": "Oklahoma"
-    },
-    {
-      "key": "Alaska",
-      "lat": 64.2008,
-      "lon": -149.4937,
-      "name_cs": "Aljaška",
-      "name_en": "Alaska"
+      "key": "Mexico",
+      "lat": 23.6345,
+      "lon": -102.5528,
+      "name_cs": "Mexiko",
+      "name_en": "Mexico"
     },
     {
       "key": "Ukrain",
@@ -691,11 +754,11 @@
       "auto": true
     },
     {
-      "key": "Turkey",
-      "lat": 39,
-      "lon": 35,
-      "name_cs": "Turecko",
-      "name_en": "Turkey",
+      "key": "China",
+      "lat": 35.9,
+      "lon": 104.2,
+      "name_cs": "Čína",
+      "name_en": "China",
       "auto": true
     },
     {
@@ -705,42 +768,26 @@
       "name_cs": "Indie",
       "name_en": "India",
       "auto": true
-    },
-    {
-      "key": "Italy",
-      "lat": 41.9,
-      "lon": 12.5,
-      "name_cs": "Řím",
-      "name_en": "Italy",
-      "auto": true
-    },
-    {
-      "key": "Brussels",
-      "lat": 50.85,
-      "lon": 4.35,
-      "name_cs": "Brusel",
-      "name_en": "Brussels",
-      "auto": true
     }
   ],
   "location_counts": {
     "Florida": 29,
-    "Texas": 39,
-    "Washington": 38,
+    "Texas": 40,
+    "Washington": 39,
     "New York": 38,
-    "California": 22,
+    "California": 23,
     "Capitol": 12,
-    "Border": 9,
+    "Border": 10,
     "Los Angeles": 3,
-    "Wall Street": 32,
+    "Wall Street": 33,
     "Illinois": 6,
     "Colorado": 9,
     "Canada": 9,
     "Brazílie": 1,
     "Ukrajina": 2,
-    "Rusko": 1,
-    "Írán": 2,
-    "Čína": 3,
+    "Rusko": 3,
+    "Írán": 1,
+    "Čína": 1,
     "Tchaj-wan": 1,
     "Japonsko": 1,
     "Pákistán": 1,
@@ -754,16 +801,16 @@
     "Indie": 1,
     "Berlín": 1,
     "Michigan": 14,
-    "Georgia": 9,
-    "Maine": 9,
-    "Mexico": 4,
+    "Georgia": 10,
+    "Maine": 10,
+    "Mexico": 5,
     "Singapur": 1,
-    "Chicago": 6,
+    "Chicago": 7,
     "Ohio": 14,
-    "Arizona": 8,
+    "Arizona": 9,
     "Minnesota": 9,
     "Virginia": 4,
-    "Izrael": 2,
+    "Izrael": 1,
     "Austrálie": 1,
     "Alaska": 6,
     "Jižní Korea": 1,
@@ -782,7 +829,7 @@
     "Nevada": 2,
     "Las Vegas": 1,
     "Řím": 1,
-    "Oregon": 5,
+    "Oregon": 6,
     "Oklahoma": 5,
     "Jihoafrická republika": 1,
     "Seattle": 1,
@@ -793,17 +840,9 @@
     "key": "Texas",
     "name_cs": "Texas",
     "name_en": "Texas",
-    "count": 39
+    "count": 40
   },
   "archive": [
-    {
-      "date": "2026-10-12 13:47",
-      "threat_level": "HIGH",
-      "security_status_cs": "Spojené státy čelí silnému tlaku kvůli prudkému výprodeji v technologickém sektoru vyvolanému obavami z konkurence v AI a geopolitickému napětí spojenému s administrativou a energetickou politikou. Blížící se midtermy vyostřují politickou polarizaci, zatímco Federální rezervní systém signalizuje pokračující přísnost měnové politiky v prostředí rostoucích výnosů dluhopisů.",
-      "security_status_en": "The United States is facing severe pressure due to a sharp sell-off in the tech sector triggered by AI competition fears and geopolitical tensions surrounding administration and energy policies. Approaching midterms are sharpening political polarization, while the Federal Reserve signals ongoing monetary tightening amid rising bond yields.",
-      "forecast_cs": "V nejbližších dnech lze očekávat zvýšenou volatilitu a nervozitu na trzích v důsledku dozvuků technologického výprodeje a nadcházejících dat o inflaci CPI.",
-      "forecast_en": "Over the coming days, heightened volatility and market nervousness can be expected as a result of the tech sell-off fallout and upcoming CPI inflation data."
-    },
     {
       "date": "2026-10-12 13:56",
       "threat_level": "HIGH",
@@ -907,23 +946,31 @@
       "security_status_en": "Error during automated AI analysis.",
       "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
       "forecast_en": "Failed to generate forecast."
+    },
+    {
+      "date": "2026-10-16 21:18",
+      "threat_level": "HIGH",
+      "security_status_cs": "Spojené státy čelí vysokému napětí v důsledku tragické střelby na základní škole v Oregonu, politických turbulencí kolem rychlého odchodu mluvčí Bílého domu Katie Zacharia a blížících se mezidobí voleb (midterms). Mezinárodní trhy a geopolitiku navíc zatěžuje růst ceny ropy nad 110 dolarů za barel kvůli přetrvávajícím konfliktům.",
+      "security_status_en": "The United States is facing high tension following a tragic elementary school shooting in Oregon, political turbulence surrounding the rapid departure of White House press secretary Katie Zacharia, and upcoming midterm elections. Furthermore, international markets and geopolitics are burdened by oil prices surging past $110 per barrel due to ongoing conflicts.",
+      "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na technologických trzích a zvýšenou politickou rétoriku před blížícími se volbami do Kongresu. Ropný trh zůstane pod vlivem blízkovýchodního a východoevropského napětí.",
+      "forecast_en": "In the coming days, continued volatility in tech markets and heightened political rhetoric ahead of the congressional elections are expected. The oil market will remain influenced by Middle Eastern and Eastern European tensions."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 7× HIGH.",
   "market_data": {
     "sp500": {
-      "value": 7737.07,
+      "value": 7659.44,
       "date": "2026-10-16",
       "cached": false
     },
     "dow": {
-      "value": 52395.55,
+      "value": 52002.41,
       "date": "2026-10-16",
       "cached": false
     },
     "yield10y": {
-      "value": 5.09,
+      "value": 5.1,
       "date": "2026-10-16",
       "cached": false
     }
