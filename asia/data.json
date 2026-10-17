@@ -1,101 +1,192 @@
 {
-  "last_updated": "2026-10-17T05:00:27Z",
+  "last_updated": "2026-10-17T09:58:07Z",
   "assessment": {
     "threat_level": "HIGH",
     "sentiment_score": 72,
-    "security_status_cs": "Trhy v regionu i globálně zažívají otřesy vyvolané technologickým průlomem čínského startupu DeepSeek, který vyústil v masivní výprodej AI infrastruktury a polovodičů. Geopolitické napětí zároveň eskaluje v důsledku kroků Severní Koreje, která testovala nový torpédový systém s umělou inteligencí, a pokračujícího tlaku USA na bilaterální a obchodní koncese v Asii.",
-    "security_status_en": "Regional and global markets are experiencing severe turbulence triggered by the technological breakthrough of Chinese startup DeepSeek, resulting in a massive selloff in AI infrastructure and semiconductors. Concurrently, geopolitical tensions are escalating due to North Korea testing a new AI-enabled torpedo system and ongoing U.S. pressure regarding bilateral and trade concessions in Asia.",
+    "security_status_cs": "Trhy v Asii a globálně reagují na technologický šok po vstupu čínského start-upu DeepSeek, který vyvolal silný výprodej v sektoru polovodičů a umělé inteligence. Geopolitické napětí se projevuje také v testování AI asistovaných torpéd Severní Koreou a zvýšeným důrazem Tchaj-wanu na obranu.",
+    "security_status_en": "Markets in Asia and globally are reacting to a major tech shock following Chinese start-up DeepSeek's AI breakthrough, triggering a sharp sell-off in semiconductors and AI infrastructure. Geopolitical tensions are also underscored by North Korea's AI-assisted torpedo testing and Taiwan's rising defense spending.",
     "recommendations": [
       {
         "sector_cs": "Polovodiče (TSMC, Samsung, ASML)",
         "sector_en": "Semiconductors (TSMC, Samsung, ASML)",
         "action": "SELL",
-        "reason_cs": "Globální výprodej v sektoru vyvolaný obavami z konkurenceschopnosti AI modelů z Číny (DeepSeek) a rostoucí tlak na dodavatelské řetězce vytvářejí silný prodejní tlak.",
-        "reason_en": "Global selloffs in the sector sparked by fears over Chinese AI model competitiveness (DeepSeek) and rising supply chain pressures create heavy downside momentum."
+        "reason_cs": "Globální sektor polovodičů čelí masivnímu výprodeji a zvýšené volatilitě kvůli novým obavám z konkurenčního tlaku z Číny a nasycení AI poptávky.",
+        "reason_en": "The global semiconductor sector is facing a massive sell-off and heightened volatility driven by new concerns over Chinese competition and AI demand saturation."
       },
       {
         "sector_cs": "Čínské akcie (ETF FXI, MCHI)",
         "sector_en": "Chinese Equities (FXI, MCHI ETFs)",
         "action": "HOLD",
-        "reason_cs": "Ačkoliv technologický pokrok ukazuje silnou inovační kapacitu, přetrvávající regulační rizika a přísný dohled nad trhem vyžadují opatrnost.",
-        "reason_en": "While technological advancements show strong local innovation capacity, persistent regulatory risks and strict market oversight warrant a cautious stance."
+        "reason_cs": "Rychlý technologický pokrok a inovace (např. DeepSeek) ukazují na sílu čínského AI sektoru, avšak přetrvávající regulační rizika a napětí s USA doporučují opatrnost.",
+        "reason_en": "Rapid tech advancements (such as DeepSeek) highlight the strength of China's AI sector, but ongoing regulatory risks and US tensions warrant caution."
       },
       {
         "sector_cs": "Japonské akcie (Nikkei 225 ETF)",
         "sector_en": "Japanese Equities (Nikkei 225 ETFs)",
         "action": "HOLD",
-        "reason_cs": "Posilující japonský jen jako bezpečný přístav v kombinaci s globální volatilitou technologií omezuje krátkodobý růstový potenciál trhu.",
-        "reason_en": "The strengthening Japanese yen acting as a safe haven, combined with global tech volatility, limits the short-term upside potential of the market."
+        "reason_cs": "Japonský trh těží z přílivu kapitálu do bezpečných přístavů (posilující jen), avšak globální technologický výprodes nese riziko negativního přelivu.",
+        "reason_en": "The Japanese market benefits from safe-haven capital inflows (strengthening yen), but the global tech sell-off carries spillover risks."
       },
       {
         "sector_cs": "Obranný průmysl (Lockheed Martin, RTX, Mitsubishi Heavy)",
         "sector_en": "Defense Industry (Lockheed Martin, RTX, Mitsubishi Heavy)",
         "action": "BUY",
-        "reason_cs": "Eskalace severokorejských zbrojních testů s AI a přetrvávající regionální hrozby zajišťují stabilní poptávku po obranných systémech.",
-        "reason_en": "The escalation of North Korean AI-enabled weapons tests and ongoing regional threats ensure steady, high demand for defense systems."
+        "reason_cs": "Zvyšování výdajů na obranu na Tchaj-wanu a provokativní kroky Severní Koreje (včetně testů torpéd) udržují silnou poptávku po obranných systémech.",
+        "reason_en": "Rising defense spending in Taiwan and provocative North Korean actions (including torpedo tests) sustain strong demand for defense systems."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly jsou vůči asijským technologickým výkyvům fundamentálně izolované, jejich vývoj však ovlivňuje širší globální nálada vůči rizikovým aktivům.",
-        "reason_en": "Domestic equities are fundamentally insulated from Asian tech shocks, though their performance remains tied to broader global risk sentiment."
+        "reason_cs": "Domácí tituly zůstávají vůči asijským technologickým šokům primárně imunní, jejich vývoj však ovlivňuje celková averze k riziku na evropských trzích.",
+        "reason_en": "Domestic equities remain largely insulated from Asian tech shocks, though their performance is influenced by broader risk aversion in European markets."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající volatilitu na globálních trzích a zvýšený tlak na kapitálové toky do bezpečnějších měn, jako je jen.",
-    "forecast_en": "Over the coming days, continued volatility in global markets and heightened pressure on capital flows into safe-haven currencies like the yen are expected.",
-    "forecast_review_cs": "Předchozí předpověď o volatilitě na technologických trzích a tlaku na dodavatelské řetězce v důsledku posunu v AI paradigmatu se dnešními zprávami o výprodejích vyvolaných čínským DeepSeekem plně potvrdila.",
-    "forecast_review_en": "The previous forecast regarding technology market volatility and supply chain pressures due to the AI paradigm shift was fully confirmed by today's news of selloffs triggered by China's DeepSeek."
+    "forecast_cs": "V nejbližších dnech lze očekávat pokračující nervozitu na globálních akciových trzích, zejména v technologickém sektoru, a zvýšený tlak na poptávku po bezpečných aktivech, jako je japonský jen.",
+    "forecast_en": "Continued nervousness in global equity markets, particularly in the tech sector, and heightened demand for safe-haven assets like the Japanese yen are expected over the coming days.",
+    "forecast_review_cs": "Předchozí předpověď o volatilitě a přílivu kapitálu do bezpečných měn se díky šoku z čínského AI sektoru plně potvrdila.",
+    "forecast_review_en": "The previous forecast regarding market volatility and capital flows into safe-haven currencies was fully confirmed due to the Chinese AI sector shock."
   },
   "articles": [
     {
-      "title": "North Korea says it tested new torpedo system with AI capabilities",
-      "summary": "North Korea has been ramping up weapons demonstrations in recent weeks, including conducting its first underwater-launched missile tests in nearly three years",
-      "link": "https://www.thehindu.com/news/international/north-korea-claims-to-have-tested-a-new-ai-enabled-zam-20-torpedo-system/article71595423.ece",
-      "published": "Sat, 17 Oct 2026 10:24:28 +0530",
+      "title": "Bangladesh celebrates Durga Puja under heavy security; PM and President stress communal harmony",
+      "summary": "A total of 33,851 puja mandaps have been set up across Bangladesh this year, including 258 in the capital city Dhaka, according to the Bangladesh Puja Udjapan Parishad. The number has increased by nearly 1,500 from last year, according to BSS",
+      "link": "https://www.thehindu.com/news/international/bangladesh-celebrates-durga-puja-under-heavy-security-pm-and-president-stress-communal-harmony/article71595967.ece",
+      "published": "Sat, 17 Oct 2026 15:12:43 +0530",
       "source": "The Hindu"
     },
     {
-      "title": "Donald Trump waives sanctions, tariffs on purchase of Russian oil and gas",
-      "summary": "Trump said he had submitted to Congress a certification that issuing such a waiver at this time is in the national interest of the United States",
-      "link": "https://www.thehindu.com/news/international/donald-trump-waives-sanctions-tariffs-on-purchase-of-russian-oil-and-gas/article71595243.ece",
-      "published": "Sat, 17 Oct 2026 10:12:00 +0530",
+      "title": "Taiwan's leader says increasing defence spending to 'deter war'",
+      "summary": "",
+      "link": "https://www.thehindu.com/news/international/taiwan-to-deter-war-by-boosting-defense-spending/article71567211.ece",
+      "published": "Sat, 17 Oct 2026 14:47:27 +0530",
       "source": "The Hindu"
     },
     {
-      "title": "Former Dior Men artistic director Kim Jones is reviving his own label with a Hong Kong flagship",
-      "summary": "The British designer is returning to the brand he first launched in 2003, with a new collection due in 2027 and more stores across Asia planned.",
-      "link": "https://www.channelnewsasia.com/obsessions/kim-jones-dior-namesake-label-hong-kong-6467906",
-      "published": "Sat, 17 Oct 2026 12:31:41 +0800",
+      "title": "Rights group says paramilitary drone strike in Sudan killed 41 near Ethiopian border",
+      "summary": "A drone strike blamed on Sudan’s paramilitaries has killed 41 displaced people near the Ethiopian border",
+      "link": "https://www.thehindu.com/news/international/rights-group-says-paramilitary-drone-strike-in-sudan-killed-41-near-ethiopian-border/article71569304.ece",
+      "published": "Sat, 17 Oct 2026 14:46:18 +0530",
+      "source": "The Hindu"
+    },
+    {
+      "title": "Man arrested for alleged HK$450,000 theft of wife’s Chanel and Hermes bags, Rolex",
+      "summary": "Hong Kong police have arrested the husband of a 34-year-old woman for allegedly stealing luxury goods worth HK$450,000 (US$57,700) from her at home.\nThe woman, surnamed Chan, reported the case to police at around 8.30am on Saturday morning at their home in the Ocean One residential development in Yau Tong.\nAccording to police, Chan suspected that her 40-year-old husband, surnamed Lam, had stolen goods worth HK$450,000 in total. The items involved were Chanel and Hermes bags worth HK$300,000 and...",
+      "link": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3371250/man-arrested-alleged-hk450000-theft-wifes-chanel-and-hermes-bags-rolex?utm_source=rss_feed",
+      "published": "Sat, 17 Oct 2026 09:07:59 +0000",
+      "source": "SCMP"
+    },
+    {
+      "title": "Shisha smoking will cause 1 million new lung cancer cases globally by 2050: WHO study",
+      "summary": "Water pipe smoking will contribute to about 1 million new lung cancer cases globally by 2050, with the Western Pacific region bearing the brunt, according to a study led by a World Health Organization (WHO) research agency that was recently presented in Hong Kong.\nThe study, which is yet to be published, was headed by Dr Mahdi Sheikh, a scientist of the early detection, prevention and infections branch at the International Agency for Research on Cancer (IARC). It estimated that there would be 82...",
+      "link": "https://www.scmp.com/news/hong-kong/health-environment/article/3371189/shisha-smoking-will-cause-1-million-new-lung-cancer-cases-globally-2050-who-study?utm_source=rss_feed",
+      "published": "Sat, 17 Oct 2026 09:00:06 +0000",
+      "source": "SCMP"
+    },
+    {
+      "title": "PM Wong to visit Qatar, UAE in first trip to Middle East since taking office",
+      "summary": "The visits will provide an opportunity for Singapore to exchange views on recent developments in the region and strengthen cooperation with both countries in areas of mutual interest, such as in energy security and economic resilience, said the PMO.",
+      "link": "https://www.channelnewsasia.com/singapore/lawrence-wong-qatar-uae-middle-east-visit-6468046",
+      "published": "Sat, 17 Oct 2026 17:00:00 +0800",
       "source": "CNA"
     },
     {
-      "title": "Ex-Malaysian minister Nik Nazmi admits lapse in judgment after ‘khalwat’ arrest",
-      "summary": "Former Malaysian minister Nik Nazmi Nik Ahmad has confirmed that he was one of two individuals detained by the Selangor Islamic Religious Department (Jais) over an alleged khalwat case.\nNik Nazmi, who helms Parti Bersama Malaysia, said he was at a residence in Petaling Jaya on Thursday with a woman after they decided to continue a discussion about a project there.\n“We had initially started the discussion with friends at a studio in Brickfields, Kuala Lumpur, before moving to Petaling Jaya to...",
-      "link": "https://www.scmp.com/news/asia/southeast-asia/article/3371234/ex-malaysian-minister-nik-nazmi-admits-lapse-judgment-after-khalwat-arrest?utm_source=rss_feed",
-      "published": "Sat, 17 Oct 2026 04:26:46 +0000",
+      "title": "Murder in Malaysia: Justice for Altantuya Shaariibuu",
+      "summary": "101 East investigates if power and politics are shielding those behind the 2006 murder of a Mongolian woman in Malaysia.",
+      "link": "https://www.aljazeera.com/video/101-east/2026/10/17/murder-in-malaysia-justice-for-altantuya-shaariibuu?traffic_source=rss",
+      "published": "Sat, 17 Oct 2026 08:40:47 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Language matters in Hong Kong’s birth rate debate, not just money",
+      "summary": "When Hong Kong debates how to raise its birth rate, the conversation usually revolves around money: bigger baby bonuses, tax concessions, housing support, cheaper childcare and so on. These economic measures are necessary. Lowering the cost of raising a child removes some real and immediate barriers.\nHowever, there is another, lesser-known factor that works more subtly and implicitly. It comes not from economics but from the structure of the language or languages we speak each day.\nConsider a...",
+      "link": "https://www.scmp.com/opinion/hong-kong-opinion/article/3370807/language-matters-hong-kongs-birth-rate-debate-not-just-money?utm_source=rss_feed",
+      "published": "Sat, 17 Oct 2026 08:30:06 +0000",
       "source": "SCMP"
     },
     {
-      "title": "Sri Lanka says no immediate plan to help Iranian ships near its waters with depleting food, fuel",
-      "summary": "Foreign Ministry Spokesman Thushara Rodrigo said Sri Lanka will put its national interest first before considering any help",
-      "link": "https://www.thehindu.com/news/international/sri-lanka-says-no-immediate-plan-to-help-iranian-ships-near-its-waters-with-depleting-food-fuel/article71564238.ece",
-      "published": "Sat, 17 Oct 2026 09:49:03 +0530",
-      "source": "The Hindu"
+      "title": "Japan bullet train fares for some routes to go up from July 2027",
+      "summary": "<p>With the increase, the fare between Tokyo and Shin-Osaka will rise by ¥700 (S$5) to ¥15,420.</p>",
+      "link": "https://www.straitstimes.com/asia/east-asia/japan-bullet-train-fares-for-some-routes-to-go-up-from-july-2027",
+      "published": "Sat, 17 Oct 2026 16:04:00 +0800",
+      "source": "Straits Times"
     },
     {
-      "title": "The butterfly effect: one man’s mission to help nature and communities coexist",
-      "summary": "Hong Kong’s next phase of development should make room for both butterflies and buildings, conservationist Dr Yau Wing-kwong has said, arguing that biodiversity can be incorporated into parks, schools and neighbourhoods without holding back the city’s growth.\nYau, founder of Environmental Association Limited, has spent nearly three decades promoting community-based conservation. He is a finalist for the Spirit of Community Award in this year’s Spirit of Hong Kong Awards, co-organised by Sino...",
-      "link": "https://www.scmp.com/news/hong-kong/society/article/3371129/butterfly-effect-one-mans-mission-help-nature-and-communities-coexist?utm_source=rss_feed",
-      "published": "Sat, 17 Oct 2026 04:15:05 +0000",
+      "title": "Reporter’s notebook: Kimi’s AI credit card turns spending into computing quotas – with limits",
+      "summary": "China’s artificial intelligence companies have spent years persuading consumers to pay for their technology. Now, Moonshot AI, the start-up behind Kimi, is taking a different approach: offering AI computing benefits through a credit card.\nThe company has teamed up with the Agricultural Bank of China (ABC) and American Express for what it calls “the world’s first AI native credit card”. After getting one for myself, the experience offered an intriguing way to bring AI services into everyday...",
+      "link": "https://www.scmp.com/tech/tech-trends/article/3371226/reporters-notebook-kimis-ai-credit-card-turns-spending-computing-quotas-limits?utm_source=rss_feed",
+      "published": "Sat, 17 Oct 2026 08:00:11 +0000",
       "source": "SCMP"
     },
     {
-      "title": "Chinese kindergarten owner given life sentence over lead paint poisoning scandal",
-      "summary": "The owner of a Chinese kindergarten has been jailed for life after more than 200 children were poisoned by lead in the country’s worst food safety scandal for almost two decades.\nA total of six people were jailed on Friday for making or selling harmful foodstuffs by Lanzhou Intermediate People’s Court in Gansu province.\nLi Huifang, owner of the Peixin Kindergarten in Tianshui, was handed a life sentence and fined 500,000 yuan (US$75,000), while Zhu Jinglin, the principal, was jailed for 15 years...",
-      "link": "https://www.scmp.com/news/china/politics/article/3371229/chinese-kindergarten-owner-given-life-sentence-over-lead-paint-poisoning-scandal?utm_source=rss_feed",
-      "published": "Sat, 17 Oct 2026 04:10:18 +0000",
-      "source": "SCMP"
+      "title": "Jayawardene leaves role as Mumbai Indians head coach",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/jayawardene-leaves-role-mumbai-indians-head-coach-6468071",
+      "published": "Sat, 17 Oct 2026 15:41:03 +0800",
+      "source": "CNA"
+    },
+    {
+      "title": "Japan to raise youth awareness about Northern Territories",
+      "summary": "Such efforts will include attracting school trips to areas close to the islands and sharing relevant information on social media.",
+      "link": "https://www.japantimes.co.jp/news/2026/10/17/japan/northern-territories-youth-awareness/",
+      "published": "Sat, 17 Oct 2026 16:17:00 +0900",
+      "source": "Japan Times"
+    },
+    {
+      "title": "Malaysia Airlines to resume flights to Saudi Arabia",
+      "summary": "<p>The Malaysian carrier will resume scheduled flight operations to and from Jeddah and Madinah on Oct 18.</p>",
+      "link": "https://www.straitstimes.com/asia/se-asia/malaysia-airlines-to-resume-flights-to-saudi-arabia",
+      "published": "Sat, 17 Oct 2026 15:15:00 +0800",
+      "source": "Straits Times"
+    },
+    {
+      "title": "IMF official welcomes Japan’s temporary tax cut plan",
+      "summary": "Rahul Anand, IMF assistant director and mission chief for Japan, said the approach was \"a very welcome step.\"",
+      "link": "https://www.japantimes.co.jp/business/2026/10/17/economy/imf-official-japan-tax-cut-plan/",
+      "published": "Sat, 17 Oct 2026 15:46:00 +0900",
+      "source": "Japan Times"
+    },
+    {
+      "title": "Japan retracts mistaken magnitude 9.9 quake alert",
+      "summary": "The alert set off loud emergency alerts on millions of mobile phones in Japan. Japan's weather agency clarified later that a 6.9-magnitude quake occurred near Russia's Kamchatka Peninsula at a depth of 160 kilometres (100 miles).",
+      "link": "https://www.channelnewsasia.com/east-asia/japan-retracts-mistaken-magnitude-99-quake-alert-6468016",
+      "published": "Sat, 17 Oct 2026 14:13:00 +0800",
+      "source": "CNA"
+    },
+    {
+      "title": "Gov't expresses regret over Takaichi's offering to controversial war shrine",
+      "summary": "SEOUL, Oct. 17 (Yonhap) -- The South Korean government expressed regret Saturday...",
+      "link": "https://en.yna.co.kr/view/AEN20261017002300315",
+      "published": "Sat, 17 Oct 2026 15:06:56 +0900",
+      "source": "Yonhap"
+    },
+    {
+      "title": "Three Mexicans jailed for 158 years each for killing Australian, US surfers",
+      "summary": "A Mexican judge sentenced the three men for the 2024 murders a week after they were found guilty.",
+      "link": "https://www.aljazeera.com/news/2026/10/17/three-mexicans-jailed-for-158-years-each-for-killing-australian-us-surfers?traffic_source=rss",
+      "published": "Sat, 17 Oct 2026 05:01:14 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "The Israeli politicians seeking to replace Netanyahu",
+      "summary": "A look at Israel's main opposition leaders, their parties and their largely shared positions on Gaza and other wars.",
+      "link": "https://www.aljazeera.com/news/2026/10/17/the-israeli-politicians-seeking-to-replace-netanyahu?traffic_source=rss",
+      "published": "Sat, 17 Oct 2026 05:00:58 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Today in Korean history",
+      "summary": "Oct. 18",
+      "link": "https://en.yna.co.kr/view/AEN20261017001400315",
+      "published": "Sat, 17 Oct 2026 14:00:00 +0900",
+      "source": "Yonhap"
+    },
+    {
+      "title": "North Korea says tested AI-assisted torpedo system",
+      "summary": "The announcement came days after Pyongyang said it had test-fired two types of cruise missiles from a submarine.",
+      "link": "https://www.japantimes.co.jp/news/2026/10/17/asia-pacific/north-korea-ai-torpedo/",
+      "published": "Sat, 17 Oct 2026 13:51:00 +0900",
+      "source": "Japan Times"
     },
     {
       "title": "Tigers manager banking on top of lineup to do damage in KBO postseason game",
@@ -105,88 +196,11 @@
       "source": "Yonhap"
     },
     {
-      "title": "Hong Kong touts distinct features to set it apart from London in global gold hub push",
-      "summary": "Distinctive features will set Hong Kong apart from London, a major bullion hub, as the city accelerates efforts to develop an international gold and precious metals trading ecosystem covering the entire value chain, a minister has told the South China Morning Post.\nIn an exclusive interview on Thursday, Secretary for Financial Services and the Treasury Christopher Hui Ching-yu said the city would officially launch a central gold clearing platform in the first quarter of next year. It would...",
-      "link": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3371228/hong-kong-touts-distinct-features-set-it-apart-london-global-gold-hub-push?utm_source=rss_feed",
-      "published": "Sat, 17 Oct 2026 04:01:11 +0000",
-      "source": "SCMP"
-    },
-    {
-      "title": "Malaysia ex-minister Nik Nazmi apologises for lapse in judgment following khalwat raid",
+      "title": "Malaysia ex-minister Nik Nazmi suspended from Bersama party activities after alleged khalwat case",
       "summary": "<p>Nik Nazmi said he was with a woman at a Petaling Jaya residence, where they were discussing a project.</p>",
       "link": "https://www.straitstimes.com/asia/se-asia/malaysia-ex-minister-nik-nazmi-apologises-for-lapse-in-judgment-following-khalwat-raid",
       "published": "Sat, 17 Oct 2026 12:00:00 +0800",
       "source": "Straits Times"
-    },
-    {
-      "title": "Japan says it is hosting record number of foreigners",
-      "summary": "<p>Growing anti-immigration sentiment in Japan has prompted Prime Minister Sanae Takaichi to push for stricter regulations.</p>",
-      "link": "https://www.straitstimes.com/asia/east-asia/japan-says-it-is-hosting-record-number-of-foreigners",
-      "published": "Sat, 17 Oct 2026 12:00:00 +0800",
-      "source": "Straits Times"
-    },
-    {
-      "title": "Australia confirms first H5N1 bird flu case on sub-Antarctic Macquarie Island",
-      "summary": "<p>SYDNEY, Oct 17 - Australia on Saturday confirmed its first case of H5N1 bird flu on the sub-Antarctic Macquarie Island, with the deadly virus found in the remote territory's vulnerable elephant seal population.</p>",
-      "link": "https://www.straitstimes.com/asia/australia-confirms-first-h5n1-bird-flu-case-on-sub-antarctic-macquarie-island",
-      "published": "Sat, 17 Oct 2026 11:05:24 +0800",
-      "source": "Straits Times"
-    },
-    {
-      "title": "Singapore FA Cup final postponed due to haze as more outdoor events called off",
-      "summary": "Several other outdoor events have already been called off or rescheduled because of the haze, including the Great Eastern Women's Run and the Purple Parade.",
-      "link": "https://www.channelnewsasia.com/singapore/singapore-haze-psi-fa-cup-final-postponed-events-6467816",
-      "published": "Sat, 17 Oct 2026 10:59:15 +0800",
-      "source": "CNA"
-    },
-    {
-      "title": "(2nd LD) N. Korea tests new precision-guided torpedo using AI: KCNA",
-      "summary": "SEOUL, Oct. 17 (Yonhap) -- North Korea said Saturday it has conducted an underwa...",
-      "link": "https://en.yna.co.kr/view/AEN20261017000752315",
-      "published": "Sat, 17 Oct 2026 11:44:36 +0900",
-      "source": "Yonhap"
-    },
-    {
-      "title": "North Korea says tested AI-assisted torpedo system",
-      "summary": "The announcement came days after Pyongyang said it had test-fired two types of cruise missiles from a submarine after weeks of friction with Seoul over a landmine explosion along their border.",
-      "link": "https://www.channelnewsasia.com/east-asia/north-korea-ai-torpedo-system-6467791",
-      "published": "Sat, 17 Oct 2026 10:11:00 +0800",
-      "source": "CNA"
-    },
-    {
-      "title": "Cyberattacks continue to menace Japan as more firms disclose data breaches",
-      "summary": "More firms have disclosed details of data breaches that could affect millions of customers.",
-      "link": "https://www.japantimes.co.jp/news/2026/10/17/japan/crime-legal/more-data-breaches-japan/",
-      "published": "Sat, 17 Oct 2026 11:04:00 +0900",
-      "source": "Japan Times"
-    },
-    {
-      "title": "Japan’s leader says she loses hours to makeup and chores. Opinions abound.",
-      "summary": "Sanae Takaichi said she has a busier schedule than her male predecessors, a nod to the disproportionate share of household tasks in Japan that fall to women.",
-      "link": "https://www.japantimes.co.jp/news/2026/10/17/japan/politics/takaichi-makeup-chores/",
-      "published": "Sat, 17 Oct 2026 11:03:00 +0900",
-      "source": "Japan Times"
-    },
-    {
-      "title": "U.S. holds more secret talks with Myanmar’s military-backed rulers in Tokyo, sources say",
-      "summary": "It was their second meeting in a month as Washington steps up reengagement with the generals it shunned after their 2021 coup.",
-      "link": "https://www.japantimes.co.jp/news/2026/10/17/asia-pacific/politics/us-myanmar-secret-talks/",
-      "published": "Sat, 17 Oct 2026 10:51:00 +0900",
-      "source": "Japan Times"
-    },
-    {
-      "title": "Top headlines in major S. Korean newspapers",
-      "summary": "SEOUL, Oct. 17 (Yonhap) -- The following are the top headlines in major South Ko...",
-      "link": "https://en.yna.co.kr/view/AEN20261017001300315",
-      "published": "Sat, 17 Oct 2026 09:06:49 +0900",
-      "source": "Yonhap"
-    },
-    {
-      "title": "Families demand justice after Pakistan school collapse",
-      "summary": "Parents are demanding accountability after a school roof collapse in Pakistan's Peshawar killed 34 children.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/16/families-demand-justice-after-pakistan-school-collapse?traffic_source=rss",
-      "published": "Fri, 16 Oct 2026 22:38:04 +0000",
-      "source": "Al Jazeera"
     },
     {
       "title": "Nowhere to hide: Tech selloff hits software and chip stocks alike",
@@ -201,20 +215,6 @@
       "link": "https://www.marketwatch.com/story/its-a-wait-and-see-situation-im-63-and-diagnosed-with-lymphoma-should-i-take-my-social-security-next-year-ea88b419?mod=mw_rss_topstories",
       "published": "Fri, 16 Oct 2026 21:15:00 GMT",
       "source": "MarketWatch"
-    },
-    {
-      "title": "Meta employees say Lula’s accounts restricted in Brazil election: Report",
-      "summary": "The messages, reported by a Brazilian daily, say the platform recommended Bolsonaro's profile and his WhatsApp channel.",
-      "link": "https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report?traffic_source=rss",
-      "published": "Fri, 16 Oct 2026 21:08:50 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Food affordability fears plague Gaza as Israel halts commercial goods",
-      "summary": "Commercial goods, such as fresh fruit, vegetables, meat and winter clothing, have not entered Gaza for two days.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/16/food-affordability-fears-plague-gaza-as-israel-halts-commercial-goods?traffic_source=rss",
-      "published": "Fri, 16 Oct 2026 20:37:22 +0000",
-      "source": "Al Jazeera"
     },
     {
       "title": "Are we spending our retirement money in the right order? Our plan is: Social Security, annuities, cash — then IRA.",
@@ -308,37 +308,28 @@
       "source": "WSJ Markets"
     },
     {
+      "title": "Taiwan bulks up on protein-packed bentos as obesity rates rise",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/food-beverage/taiwan-bulks-up-on-protein-packed-bentos-as-obesity-rates-rise",
+      "published": "2026-10-17 09:57",
+      "source": "Nikkei Asia"
+    },
+    {
       "title": "Delhi crackdown fosters Gen Z defenders of Indian democracy",
       "summary": "",
       "link": "https://asia.nikkei.com/politics/delhi-crackdown-fosters-gen-z-defenders-of-indian-democracy",
-      "published": "2026-10-17 05:00",
+      "published": "2026-10-17 09:57",
       "source": "Nikkei Asia"
     },
     {
       "title": "Intel chief says White House will not meddle in its semiconductor business",
       "summary": "",
       "link": "https://asia.nikkei.com/business/tech/semiconductors/intel-chief-says-white-house-will-not-meddle-in-its-semiconductor-business",
-      "published": "2026-10-17 05:00",
-      "source": "Nikkei Asia"
-    },
-    {
-      "title": "Japan's Sumitomo, Hankyu to test Philippine power-saving rail system",
-      "summary": "",
-      "link": "https://asia.nikkei.com/business/transportation/japan-s-sumitomo-hankyu-to-test-philippine-power-saving-rail-system",
-      "published": "2026-10-17 05:00",
+      "published": "2026-10-17 09:57",
       "source": "Nikkei Asia"
     }
   ],
   "history": [
-    {
-      "date": "2026-10-06 05:00",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 68,
-      "incidents": 20,
-      "hangseng": 24228.47,
-      "usd_czk": null
-    },
     {
       "date": "2026-10-06 12:32",
       "threat_level": "MEDIUM",
@@ -599,6 +590,15 @@
       "incidents": 40,
       "hangseng": 24186.83,
       "usd_czk": null
+    },
+    {
+      "date": "2026-10-17 09:58",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 72,
+      "incidents": 40,
+      "hangseng": 24186.83,
+      "usd_czk": null
     }
   ],
   "locations": [
@@ -608,6 +608,13 @@
       "lon": 116.4074,
       "name_cs": "Peking",
       "name_en": "Beijing"
+    },
+    {
+      "key": "Taipei",
+      "lat": 25.033,
+      "lon": 121.5654,
+      "name_cs": "Tchaj-pej",
+      "name_en": "Taipei"
     },
     {
       "key": "Tokyo",
@@ -652,13 +659,6 @@
       "name_en": "New Delhi"
     },
     {
-      "key": "Islamabad",
-      "lat": 33.6844,
-      "lon": 73.0479,
-      "name_cs": "Islámábád",
-      "name_en": "Islamabad"
-    },
-    {
       "key": "Bangkok",
       "lat": 13.7563,
       "lon": 100.5018,
@@ -694,6 +694,13 @@
       "name_en": "Canberra"
     },
     {
+      "key": "Dhaka",
+      "lat": 23.8103,
+      "lon": 90.4125,
+      "name_cs": "Dháka",
+      "name_en": "Dhaka"
+    },
+    {
       "key": "Yangon",
       "lat": 16.8409,
       "lon": 96.1735,
@@ -717,19 +724,19 @@
       "auto": true
     },
     {
+      "key": "Mexico",
+      "lat": 23.6,
+      "lon": -102.5,
+      "name_cs": "Mexiko",
+      "name_en": "Mexico",
+      "auto": true
+    },
+    {
       "key": "Venezuela",
       "lat": 7,
       "lon": -66,
       "name_cs": "Venezuela",
       "name_en": "Venezuela",
-      "auto": true
-    },
-    {
-      "key": "Brazil",
-      "lat": -14.2,
-      "lon": -51.9,
-      "name_cs": "Brazílie",
-      "name_en": "Brazil",
       "auto": true
     },
     {
@@ -749,11 +756,19 @@
       "auto": true
     },
     {
-      "key": "Iran",
-      "lat": 32.4,
-      "lon": 53.7,
-      "name_cs": "Írán",
-      "name_en": "Iran",
+      "key": "Uae",
+      "lat": 24.3,
+      "lon": 54.4,
+      "name_cs": "SAE",
+      "name_en": "Uae",
+      "auto": true
+    },
+    {
+      "key": "Qatar",
+      "lat": 25.3,
+      "lon": 51.2,
+      "name_cs": "Katar",
+      "name_en": "Qatar",
       "auto": true
     },
     {
@@ -773,14 +788,6 @@
       "auto": true
     },
     {
-      "key": "Pakistan",
-      "lat": 30.4,
-      "lon": 69.3,
-      "name_cs": "Pákistán",
-      "name_en": "Pakistan",
-      "auto": true
-    },
-    {
       "key": "Indonesia",
       "lat": -2.5,
       "lon": 118,
@@ -797,11 +804,19 @@
       "auto": true
     },
     {
-      "key": "London",
-      "lat": 51.5,
-      "lon": -0.12,
-      "name_cs": "Londýn",
-      "name_en": "London",
+      "key": "Ethiopia",
+      "lat": 9.1,
+      "lon": 40.5,
+      "name_cs": "Etiopie",
+      "name_en": "Ethiopia",
+      "auto": true
+    },
+    {
+      "key": "Sudan",
+      "lat": 15.5,
+      "lon": 32.5,
+      "name_cs": "Súdán",
+      "name_en": "Sudan",
       "auto": true
     },
     {
@@ -814,24 +829,24 @@
     }
   ],
   "location_counts": {
-    "Beijing": 60,
-    "Hong Kong": 57,
-    "Tokyo": 35,
+    "Beijing": 61,
+    "Hong Kong": 58,
+    "Tokyo": 36,
     "Shanghai": 14,
-    "Seoul": 37,
+    "Seoul": 38,
     "South China Sea": 6,
-    "Taipei": 25,
-    "Manila": 20,
-    "Pyongyang": 25,
-    "Washington, D.C.": 3,
+    "Taipei": 26,
+    "Manila": 21,
+    "Pyongyang": 26,
+    "Washington, D.C.": 1,
     "Los Angeles": 2,
     "Florida": 1,
     "Rusko": 1,
     "Írán": 1,
-    "Čína": 6,
+    "Čína": 5,
     "Tchaj-wan": 3,
     "Japonsko": 1,
-    "Indie": 5,
+    "Indie": 6,
     "Londýn": 2,
     "Berlín": 1,
     "Paříž": 1,
@@ -841,30 +856,30 @@
     "Ukrajina": 1,
     "Singapur": 1,
     "Austrálie": 1,
-    "Delhi": 28,
-    "Singapore": 23,
-    "Kuala Lumpur": 25,
-    "Canberra": 15,
+    "Delhi": 29,
+    "Singapore": 24,
+    "Kuala Lumpur": 26,
+    "Canberra": 16,
     "New York": 1,
     "Ithaca (Cornell)": 1,
     "Argentina": 1,
     "Súdán": 1,
     "Kolumbie": 1,
     "Islamabad": 18,
-    "Jakarta": 26,
+    "Jakarta": 27,
     "Izrael": 2,
     "Turecko": 1,
     "Indonésie": 1,
     "Kabul": 9,
-    "Dhaka": 6,
-    "Yangon": 20,
+    "Dhaka": 7,
+    "Yangon": 21,
     "Venezuela": 1,
     "Egypt": 1,
     "SAE": 1,
     "Řím": 1,
     "Brusel": 1,
     "Jihoafrická republika": 1,
-    "Bangkok": 16,
+    "Bangkok": 17,
     "Hanoi": 11,
     "Taiwan Strait": 1,
     "Kalifornie": 1,
@@ -879,23 +894,16 @@
     "Madrid": 1,
     "Brazílie": 1,
     "Texas": 1,
-    "Katar": 1
+    "Katar": 1,
+    "Etiopie": 1
   },
   "top_location": {
     "key": "Beijing",
     "name_cs": "Peking",
     "name_en": "Beijing",
-    "count": 60
+    "count": 61
   },
   "archive": [
-    {
-      "date": "2026-10-12 14:03",
-      "threat_level": "HIGH",
-      "security_status_cs": "Trhy zažívají silnou volatilitu v důsledku čínského technologického průlomu DeepSeek, který vyvolal prudký výprodej v globálním sektoru umělé inteligence a posílil bezpečné přístavy jako jenu. Současně probíhají rozsáhlé čínské vojenské cvičení v blízkosti Tchaj-wanu a pokračují severokorejské raketové testy, což udržuje vysoké geopolitické napětí v regionu.",
-      "security_status_en": "Markets are experiencing heavy volatility driven by China's DeepSeek AI breakthrough, triggering a sharp sell-off in global AI infrastructure and boosting safe-havens like the yen. Simultaneously, extensive Chinese live-fire drills near Taiwan and ongoing North Korean missile tests maintain high geopolitical tension across the region.",
-      "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající nervozitu na trzích a rebalancování portfolií kvůli dopadům čínského AI vývoje a stupňujícímu se vojenskému napětí v Asii.",
-      "forecast_en": "Over the coming days, lingering market nervousness and portfolio rebalancing are expected due to the fallout from China's AI development and escalating military tensions in Asia."
-    },
     {
       "date": "2026-10-13 05:00",
       "threat_level": "HIGH",
@@ -999,6 +1007,14 @@
       "security_status_en": "Regional and global markets are experiencing severe turbulence triggered by the technological breakthrough of Chinese startup DeepSeek, resulting in a massive selloff in AI infrastructure and semiconductors. Concurrently, geopolitical tensions are escalating due to North Korea testing a new AI-enabled torpedo system and ongoing U.S. pressure regarding bilateral and trade concessions in Asia.",
       "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající volatilitu na globálních trzích a zvýšený tlak na kapitálové toky do bezpečnějších měn, jako je jen.",
       "forecast_en": "Over the coming days, continued volatility in global markets and heightened pressure on capital flows into safe-haven currencies like the yen are expected."
+    },
+    {
+      "date": "2026-10-17 09:58",
+      "threat_level": "HIGH",
+      "security_status_cs": "Trhy v Asii a globálně reagují na technologický šok po vstupu čínského start-upu DeepSeek, který vyvolal silný výprodej v sektoru polovodičů a umělé inteligence. Geopolitické napětí se projevuje také v testování AI asistovaných torpéd Severní Koreou a zvýšeným důrazem Tchaj-wanu na obranu.",
+      "security_status_en": "Markets in Asia and globally are reacting to a major tech shock following Chinese start-up DeepSeek's AI breakthrough, triggering a sharp sell-off in semiconductors and AI infrastructure. Geopolitical tensions are also underscored by North Korea's AI-assisted torpedo testing and Taiwan's rising defense spending.",
+      "forecast_cs": "V nejbližších dnech lze očekávat pokračující nervozitu na globálních akciových trzích, zejména v technologickém sektoru, a zvýšený tlak na poptávku po bezpečných aktivech, jako je japonský jen.",
+      "forecast_en": "Continued nervousness in global equity markets, particularly in the tech sector, and heightened demand for safe-haven assets like the Japanese yen are expected over the coming days."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
