@@ -62,6 +62,8 @@
 #v-senat .sbadge{font-size:.85em;padding:1px 6px;border:1px solid rgba(184,134,59,.5);margin-left:6px;white-space:nowrap}
 #v-senat .ssum{display:flex;flex-wrap:wrap;gap:8px 16px;font-family:'IBM Plex Mono',monospace;font-size:.82em;margin-top:10px}
 #v-senat .ssum b{color:#b8863b}
+#v-senat .sr2{margin-top:14px;padding-top:10px;border-top:1px dashed rgba(184,134,59,.5)}
+#v-senat .sr2h{font-family:'IBM Plex Mono',monospace;font-size:.8em;color:#b8863b;font-weight:600}
 </style>
 <link rel="icon" type="image/svg+xml" href="/Redsea-monitor/favicon.svg">
 <link rel="apple-touch-icon" href="/Redsea-monitor/icons/apple-touch-icon.png">
@@ -207,7 +209,8 @@
         <select id="snf">
           <option value="">Všechny obvody</option>
           <option value="elected">Zvoleni v 1. kole</option>
-          <option value="runoff">Postupují do 2. kola</option>
+          <option value="elected2">Zvoleni ve 2. kole</option>
+          <option value="runoff">Čeká se na 2. kolo</option>
         </select>
       </div>
       <div class="legend" id="snmeta">Načítání…</div>
@@ -637,10 +640,10 @@ function toggleTheme(){
 </script>
 
 <script>
-/* ---- Záložka SENÁT: obvody, zvolení senátoři, postup do 2. kola ---- */
+/* ---- Záložka SENÁT: obvody, 1. a 2. kolo, zvolení senátoři ---- */
 (function(){
   var URL_JSON="https://raw.githubusercontent.com/matesva/Redsea-monitor/data/senat.json";
-  var REFRESH_MS=5*60*1000,TIMEOUT_MS=15000,CACHE_KEY="senat_cache_v1";
+  var REFRESH_MS=5*60*1000,TIMEOUT_MS=15000,CACHE_KEY="senat_cache_v2";
   var STATE=null,src="–",timer=null;
 
   var tab=document.getElementById("t-senat"),view=document.getElementById("v-senat");
@@ -664,29 +667,78 @@ function toggleTheme(){
   }
   function valid(j){return j&&Array.isArray(j.obvody)&&j.obvody.length}
 
-  function status(o){
+  /* 2. kolo obvodu (nebo null) */
+  function r2(o){return (o.r2&&Array.isArray(o.r2.cand)&&o.r2.cand.length)?o.r2:null}
+
+  /* vítěz 2. kola: příznak elected, jinak při 100% sečtení kandidát s nejvíc hlasy */
+  function r2winner(o){
+    var r=r2(o);if(!r)return null;
+    var w=r.cand.filter(function(c){return c.elected});
+    if(w.length)return w[0];
+    if(r.sec!=null&&r.sec>=99.995){
+      var s=r.cand.slice().sort(function(a,b){return (b.votes||b.pct||0)-(a.votes||a.pct||0)});
+      return s[0]||null;
+    }
+    return null;
+  }
+  function r1winner(o){
     var w=(o.cand||[]).filter(function(c){return c.elected});
-    if(w.length)return "elected";
+    return w[0]||null;
+  }
+
+  /* elected = 1. kolo, elected2 = 2. kolo, runoff = čeká se / sčítá se 2. kolo, open = nic */
+  function status(o){
+    if(r1winner(o))return "elected";
+    if(r2winner(o))return "elected2";
     if((o.cand||[]).some(function(c){return c.runoff}))return "runoff";
     return "open";
   }
 
+  function bars(cands,winner,mx){
+    return cands.map(function(c){
+      var isW=winner&&c.n===winner.n;
+      var cls=isW?" win":"";
+      var w=(c.pct||0)/mx*100,half=50/mx*100;
+      return '<div class="srow'+cls+'"><div>'+esc(c.n)+
+        '<small style="opacity:.65"> '+esc(c.party||"")+'</small>'+
+        '<div class="sbar"><i style="width:'+w+'%"></i>'+(half<=100?'<span class="half" style="left:'+half+'%"></span>':'')+'</div></div>'+
+        '<div class="sval"><b>'+(c.pct!=null?f1(c.pct)+' %':'–')+'</b>'+(c.votes!=null?'<br><span style="opacity:.65">'+c.votes.toLocaleString("cs-CZ")+' hl.</span>':'')+'</div></div>';
+    }).join("");
+  }
+
   function block(o){
-    var st=status(o),cands=(o.cand||[]).slice().sort(function(a,b){return (b.pct||0)-(a.pct||0)});
+    var st=status(o),r=r2(o);
+    var cands=(o.cand||[]).slice().sort(function(a,b){return (b.pct||0)-(a.pct||0)});
     var mx=Math.max.apply(null,cands.map(function(c){return c.pct||0}).concat([10]));
-    var badge=st==="elected"?'<span class="sbadge">zvolen/a</span>':(st==="runoff"?'<span class="sbadge">2. kolo</span>':'');
+    var badge=st==="elected"?'<span class="sbadge">zvolen/a v 1. kole</span>'
+             :st==="elected2"?'<span class="sbadge">zvolen/a ve 2. kole</span>'
+             :st==="runoff"?'<span class="sbadge">2. kolo'+(r?' – sčítá se':'')+'</span>':'';
+
+    /* 1. kolo: zvýrazni vítěze, nebo postupující */
+    var html1=cands.map(function(c){
+      var cls=c.elected?" win":(c.runoff?" adv":"");
+      var w=(c.pct||0)/mx*100,half=50/mx*100;
+      return '<div class="srow'+cls+'"><div>'+esc(c.n)+
+        '<small style="opacity:.65"> '+esc(c.party||"")+'</small>'+
+        '<div class="sbar"><i style="width:'+w+'%"></i>'+(half<=100?'<span class="half" style="left:'+half+'%"></span>':'')+'</div></div>'+
+        '<div class="sval"><b>'+(c.pct!=null?f1(c.pct)+' %':'–')+'</b>'+(c.votes!=null?'<br><span style="opacity:.65">'+c.votes.toLocaleString("cs-CZ")+' hl.</span>':'')+'</div></div>';
+    }).join("");
+
+    var html2="";
+    if(r){
+      var c2=r.cand.slice().sort(function(a,b){return (b.pct||0)-(a.pct||0)});
+      var mx2=Math.max.apply(null,c2.map(function(c){return c.pct||0}).concat([50]));
+      html2='<div class="sr2"><div class="sr2h">2. KOLO'+
+        (r.turnout!=null?' · účast '+f1(r.turnout)+' %':'')+
+        (r.sec!=null?' · sečteno '+f1(r.sec)+' %':'')+'</div>'+
+        bars(c2,r2winner(o),mx2)+'</div>';
+    }
+
     return '<div class="sobv"><b>'+(o.c!=null?esc(o.c)+' – ':'')+esc(o.n)+'</b>'+badge+
-      (o.turnout!=null?' · účast '+f1(o.turnout)+' %':'')+
+      (o.turnout!=null?' · 1. kolo: účast '+f1(o.turnout)+' %':'')+
       (o.sec!=null?' · sečteno '+f1(o.sec)+' %':'')+
       (o.note?'<small>'+esc(o.note)+'</small>':'')+
-      cands.map(function(c){
-        var cls=c.elected?" win":(c.runoff?" adv":"");
-        var w=(c.pct||0)/mx*100,half=50/mx*100;
-        return '<div class="srow'+cls+'"><div>'+esc(c.n)+
-          '<small style="opacity:.65"> '+esc(c.party||"")+'</small>'+
-          '<div class="sbar"><i style="width:'+w+'%"></i>'+(half<=100?'<span class="half" style="left:'+half+'%"></span>':'')+'</div></div>'+
-          '<div class="sval"><b>'+(c.pct!=null?f1(c.pct)+' %':'–')+'</b>'+(c.votes!=null?'<br><span style="opacity:.65">'+c.votes.toLocaleString("cs-CZ")+' hl.</span>':'')+'</div></div>';
-      }).join("")+'</div>';
+      html1+html2+'</div>';
   }
 
   function render(){
@@ -695,24 +747,36 @@ function toggleTheme(){
       meta.textContent="";sum.innerHTML="";note.textContent="";return;
     }
     var m=STATE.meta||{},all=STATE.obvody;
-    var nEl=0,nRun=0;
-    all.forEach(function(o){var s=status(o);if(s==="elected")nEl++;else if(s==="runoff")nRun++});
+    var n1=0,n2=0,nRun=0,pc={};
+    all.forEach(function(o){
+      var s=status(o),w=null;
+      if(s==="elected"){n1++;w=r1winner(o)}
+      else if(s==="elected2"){n2++;w=r2winner(o)}
+      else if(s==="runoff")nRun++;
+      if(w){var p=w.party||"neuvedeno";pc[p]=(pc[p]||0)+1}
+    });
 
     var u=m.updated?new Date(m.updated):null;
     meta.textContent=(m.status||"Senát")+(u&&!isNaN(u)?" · data z "+u.toLocaleString("cs-CZ"):"")+" · zdroj: "+src;
 
-    var parties=(STATE.seats||[]).map(function(s){return '<span>'+esc(s.party)+': <b>'+s.n+'</b></span>'}).join("");
-    sum.innerHTML='<span>Zvoleno: <b>'+nEl+'</b></span><span>2. kolo: <b>'+nRun+'</b></span><span>Obvodů: <b>'+all.length+'</b></span>'+parties;
+    var parties=Object.keys(pc).sort(function(a,b){return pc[b]-pc[a]}).map(function(p){
+      return '<span>'+esc(p)+': <b>'+pc[p]+'</b></span>';
+    }).join("");
+    sum.innerHTML='<span>Zvoleno celkem: <b>'+(n1+n2)+'</b></span>'+
+      '<span>v 1. kole: <b>'+n1+'</b></span>'+
+      '<span>ve 2. kole: <b>'+n2+'</b></span>'+
+      '<span>čeká na 2. kolo: <b>'+nRun+'</b></span>'+
+      '<span>Obvodů: <b>'+all.length+'</b></span>'+parties;
 
     var qq=norm(q.value.trim()),f=flt.value;
     var list=all.filter(function(o){
       if(f&&status(o)!==f)return false;
       if(qq.length<2)return true;
-      var hay=norm((o.c||"")+" "+o.n+" "+(o.cand||[]).map(function(c){return c.n+" "+(c.party||"")}).join(" "));
+      var hay=norm((o.c||"")+" "+o.n+" "+(o.cand||[]).concat((r2(o)||{}).cand||[]).map(function(c){return c.n+" "+(c.party||"")}).join(" "));
       return hay.indexOf(qq)>=0;
     });
     body.innerHTML=list.map(block).join("")||'<div class="legend">Nic nenalezeno.</div>';
-    note.textContent="Do Senátu se volí třetina křesel (27 obvodů). Zvolen je kandidát s více než 50 % hlasů, jinak postupují dva nejlepší do 2. kola ("+(m.second_round||"16.–17. 10. 2026")+"). Procenta jsou podíl na platných hlasech. Oficiální výsledky: volby.gov.cz. Obnova každých 5 minut.";
+    note.textContent="Do Senátu se volí třetina křesel (27 obvodů). V 1. kole je zvolen kandidát s více než 50 % platných hlasů, jinak postupují dva nejlepší do 2. kola ("+(m.second_round||"16.–17. 10. 2026")+"), kde rozhoduje prostá většina. Počty křesel stran vycházejí z vítězů uvedených v datech. Oficiální výsledky: volby.gov.cz. Obnova každých 5 minut.";
   }
 
   function load(){
