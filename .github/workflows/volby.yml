@@ -45,6 +45,10 @@ jobs:
         continue-on-error: true
         run: python3 main/scripts/zastupitele.py data
 
+      - name: Senát (1. a 2. kolo)
+        continue-on-error: true
+        run: python3 main/scripts/senat_update.py data --debug
+
       - name: Commit, pokud se něco změnilo
         working-directory: data
         run: |
