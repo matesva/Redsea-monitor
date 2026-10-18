@@ -1,66 +1,199 @@
 {
-  "last_updated": "2026-10-18T05:00:22Z",
+  "last_updated": "2026-10-18T10:10:50Z",
   "assessment": {
     "threat_level": "HIGH",
     "sentiment_score": 72,
-    "security_status_cs": "Globální finanční trhy a technologický sektor čelí silnému otřesu v důsledku technologického pokroku čínského startupu DeepSeek, který vyvolal prudký propad amerických a asijských akcií. Současně Čína zvažuje radikální exportní omezení na klíčové technologie včetně AI a solárních systémů, což dále zostřuje obchodní napětí se Západem.",
-    "security_status_en": "Global financial markets and the tech sector are facing a major shock driven by Chinese startup DeepSeek's AI advancements, sparking a sharp sell-off in US and Asian equities. Simultaneously, China is considering radical export curbs on key technologies including AI and solar systems, further intensifying trade tensions with the West.",
+    "security_status_cs": "Trhy zažívají otřesy v důsledku šoku v sektoru umělé inteligence způsobeného čínským startupem DeepSeek, což vyvolalo prudký propad technologických akcií a útěk investorů do bezpečných aktiv, jako jsou jene a švýcarské franky. Geopolitické napětí se projevuje i v regionální diplomacii, včetně návštěvy amerického ministra zahraničí Marca Rubia v Indii a přetrvávajících obchodních a vzdušných restrikcí.",
+    "security_status_en": "Markets are experiencing turbulence following an AI sector shock triggered by Chinese startup DeepSeek, prompting a sharp drop in tech equities and a flight to safe havens like the yen and Swiss franc. Geopolitical tensions are also evident in regional diplomacy, including U.S. Secretary of State Marco Rubio's visit to India and lingering trade and airspace restrictions.",
     "recommendations": [
       {
         "sector_cs": "Polovodiče (TSMC, Samsung, ASML)",
         "sector_en": "Semiconductors (TSMC, Samsung, ASML)",
-        "action": "HOLD",
-        "reason_cs": "Silná poptávka po čipech sice podporuje korejské hospodářství, ale sektor čelí masivnímu tlaku vyvolanému širším výprodejem v AI sektoru a hrozbou nových čínských exportních restrikcí.",
-        "reason_en": "While robust chip demand supports the Korean economy, the sector faces massive pressure from the broader AI sell-off and the threat of new Chinese export restrictions."
+        "action": "SELL",
+        "reason_cs": "Globální výprodej technologických titulů a obavy z konkurenčního tlaku z Číny vytvářejí silný prodejní tlak na celý polovodičový řetězec.",
+        "reason_en": "Global tech sell-offs and fears of competitive pressure from China create intense selling pressure across the semiconductor supply chain."
       },
       {
         "sector_cs": "Čínské akcie (ETF FXI, MCHI)",
         "sector_en": "Chinese Equities (FXI, MCHI ETFs)",
-        "action": "SELL",
-        "reason_cs": "Inovace v oblasti AI a regulatorní tlaky spolu s rostoucími obchodními třenicemi se Spojenými státy zvyšují volatilitu a riziko pro čínské trhy.",
-        "reason_en": "AI breakthroughs and regulatory pressures alongside mounting trade frictions with the United States increase volatility and downside risks for Chinese markets."
+        "action": "HOLD",
+        "reason_cs": "Zatímco technologické inovace jako DeepSeek ukazují sílu čínského sektoru, zpřísňující se exportní kontroly solárních technologií a regulační rizika nabádají k opatrnosti.",
+        "reason_en": "While tech innovations like DeepSeek showcase China's sectoral strength, tightening solar tech export controls and regulatory risks warrant caution."
       },
       {
         "sector_cs": "Japonské akcie (Nikkei 225 ETF)",
         "sector_en": "Japanese Equities (Nikkei 225 ETFs)",
         "action": "HOLD",
-        "reason_cs": "Japonský jen těží z poptávky po bezpečných přístavech v důsledku globální technologické korekce, což však mírně tlumí výkonnost exportně orientovaných japonských titulů.",
-        "reason_en": "The Japanese yen is benefiting from safe-haven flows amid the global tech correction, which moderately dampens the performance of export-oriented Japanese equities."
+        "reason_cs": "Pokles popularity premiérky Takaichi spolu se sídlícím jenem jako bezpečným přístavem vytváří smíšený makroekonomický obraz pro japonský trh.",
+        "reason_en": "Falling approval ratings for PM Takaichi alongside a strengthening safe-haven yen create a mixed macroeconomic picture for the Japanese market."
       },
       {
         "sector_cs": "Obranný průmysl (Lockheed Martin, RTX, Mitsubishi Heavy)",
         "sector_en": "Defense Industry (Lockheed Martin, RTX, Mitsubishi Heavy)",
         "action": "BUY",
-        "reason_cs": "Přetrvávající geopolitické napětí v Indo-Pacifiku a regionální závody ve zbrojení udržují vysokou poptávku po obranných systémech a zakázkách.",
-        "reason_en": "Persistent geopolitical tensions in the Indo-Pacific and regional defense buildups sustain high demand for defense systems and military procurement."
+        "reason_cs": "Přetrvávající geopolitická nestabilita v Asii a posilování regionálních bezpečnostních vazeb udržují vysokou poptávku po obranných aktivech.",
+        "reason_en": "Persistent geopolitical instability in Asia and the strengthening of regional security ties sustain high demand for defense assets."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "České instituce a energetické tituly jsou vůči asijským technologickým šokům primárně imunní, avšak globální makroekonomická nejistota omezuje prostor pro výrazný růst.",
-        "reason_en": "Czech financials and energy titles are largely immune to Asian tech shocks, though broader global macroeconomic uncertainty caps significant upside potential."
+        "reason_cs": "České blue chips zůstávají vůči asijským technologickým šokům izolované, jejich vývoj však nadále určují domácí monetární podmínky a evropský sentiment.",
+        "reason_en": "Czech blue chips remain isolated from Asian tech shocks, though their trajectory continues to be driven by domestic monetary conditions and European sentiment."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající zvýšenou volatilitu v technologickém sektoru a pokračující poptávku investorů po bezpečných aktivech v reakci na asijské technologické novinky.",
-    "forecast_en": "Continued elevated volatility in the technology sector and sustained investor demand for safe-haven assets are expected over the coming days in response to Asian tech developments.",
-    "forecast_review_cs": "Předchozí předpověď o nervozitě na trzích a poptávce po bezpečných aktivech se plně potvrdila díky výprodejům vyvolaným čínským AI sektorem.",
-    "forecast_review_en": "The previous forecast of market nervousness and safe-haven demand was fully confirmed by the sell-offs triggered by China's AI sector developments."
+    "forecast_cs": "V příštích dnech lze očekávat pokračující volatilitu v technologickém sektoru a zvýšenou pozornost vůči asijským měnám a bezpečným aktivům v reakci na šok způsobený čínskou AI.",
+    "forecast_en": "Continued volatility in the tech sector and heightened focus on Asian currencies and safe-haven assets are expected over the coming days in response to the Chinese AI shock.",
+    "forecast_review_cs": "Předchozí předpověď o zvýšené volatilitě v technologickém sektoru a poptávce po bezpečných aktivech se plně potvrdila díky nečekanému dopadu nových čínských AI modelů na globální trhy.",
+    "forecast_review_en": "The previous forecast regarding elevated tech sector volatility and demand for safe-haven assets was fully confirmed by the unexpected impact of new Chinese AI models on global markets."
   },
   "articles": [
     {
-      "title": "Eagles place QB Jalen Hurts on injured reserve with blood clot",
-      "summary": "Hurts will undergo treatment for the clot, which had already ensured he would miss Sunday's game against the Carolina Panthers in favor of backup Tanner McKee.",
-      "link": "https://www.japantimes.co.jp/sports/2026/10/18/more-sports/hurts-blood-clot-injured-reserve/",
-      "published": "Sun, 18 Oct 2026 13:49:00 +0900",
+      "title": "Hong Kong’s primary residential market sees wave of launches, successful sales",
+      "summary": "Hong Kong homebuyers are poised to see new residential launches in the coming days and weeks following a sell-out weekend of more than 360 flats in two major projects in the city.\nSun Hung Kai Properties (SHKP), one of Hong Kong’s major developers and landlords, was set to hold a second round of sales for Sierra Sea Phase 2C(2) in Shap Sze Heung, which is between Sai Kung and Ma On Shan, with 152 flats on offer on Wednesday, it said in a statement.\nAmong them, 128 flats would be sold via a...",
+      "link": "https://www.scmp.com/business/article/3371302/hong-kongs-primary-residential-market-sees-wave-launches-successful-sales?utm_source=rss_feed",
+      "published": "Sun, 18 Oct 2026 10:01:52 +0000",
+      "source": "SCMP"
+    },
+    {
+      "title": "Why stealing pumpkins for newlyweds is a blessing in ancient Chinese tradition",
+      "summary": "In ancient China, welcoming autumn could involve stealing pumpkins, sitting on giant hanging scales and eating extra meat – rituals reflecting how people connected seasonal change with fertility, health and good fortune.\nHistorical records show that during the Qing dynasty (1644–1912), groups of young people would gather on the night of the Mid-Autumn Festival to sneak into fields and take pumpkins.\nFar from being considered wrongdoing, the practice was often tolerated – and even welcomed – by...",
+      "link": "https://www.scmp.com/news/people-culture/trending-china/article/3371301/why-stealing-pumpkins-newlyweds-blessing-ancient-chinese-tradition?utm_source=rss_feed",
+      "published": "Sun, 18 Oct 2026 10:01:39 +0000",
+      "source": "SCMP"
+    },
+    {
+      "title": "Qian Jiang, former Johns Hopkins’ eye institute expert, joins hospital in China",
+      "summary": "Professor Qian Jiang, a senior eye expert at Johns Hopkins University in the United States, has moved back to China full time to pursue research on eye transplants.\nFor more than two decades, Qian built and ran the genetic data hub at Johns Hopkins’ renowned Wilmer Eye Institute. He was welcomed at a ceremony on October 5 at Sir Run Run Shaw Hospital in Hangzhou, part of Zhejiang University, the hospital said.\nAt the ceremony, Qian said he would also work on “virtual cells” – computer models...",
+      "link": "https://www.scmp.com/news/china/science/article/3370936/qian-jiang-former-johns-hopkins-eye-institute-expert-joins-hospital-china?utm_source=rss_feed",
+      "published": "Sun, 18 Oct 2026 10:00:07 +0000",
+      "source": "SCMP"
+    },
+    {
+      "title": "Rokid launches ‘no man’s land’ retail experience with Hong Kong flagship store opening",
+      "summary": "When shoppers step into Rokid’s brand new flagship store in Hong Kong, they are greeted not by eager sales associates, but by glowing monitor screens and a robotic system waiting at the exit.\nIn what the Chinese augmented reality (AR) gadget pioneer called an experiment in “no man’s land” retail, customers navigate the entire journey independently: testing artificial intelligence smart glasses, making payments on a screen and receiving their new devices directly from an automated system on their...",
+      "link": "https://www.scmp.com/tech/tech-trends/article/3371300/rokid-launches-no-mans-land-retail-experience-hong-kong-flagship-store-opening?utm_source=rss_feed",
+      "published": "Sun, 18 Oct 2026 09:36:17 +0000",
+      "source": "SCMP"
+    },
+    {
+      "title": "Japan PM Takaichi's support rate falls below 50%, lowest since taking office, Kyodo reports",
+      "summary": "<p>TOKYO, Oct 18 - The approval rating for Japanese Prime Minister Sanae Takaichi's administration fell below 50% to its lowest level since she took office in October last year, Kyodo News Agency reported on Sunday.</p>",
+      "link": "https://www.straitstimes.com/asia/japan-pm-takaichis-support-rate-falls-below-50-lowest-since-taking-office-kyodo-reports",
+      "published": "Sun, 18 Oct 2026 17:35:47 +0800",
+      "source": "Straits Times"
+    },
+    {
+      "title": "Australia's Smith says head blow left him anxious in first test concussion scare",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/australias-smith-says-head-blow-left-him-anxious-in-first-test-concussion-scare-6469461",
+      "published": "Sun, 18 Oct 2026 17:27:40 +0800",
+      "source": "CNA"
+    },
+    {
+      "title": "Japan to launch historic round-trip mission to Mars moon",
+      "summary": "The flagship H3 rocket carrying the MMX is set to blast off from the Tanegashima Space Center on Tuesday (Oct 20) at 4.41am.",
+      "link": "https://www.channelnewsasia.com/east-asia/japan-launch-historic-round-trip-mission-mars-moon-6469436",
+      "published": "Sun, 18 Oct 2026 17:20:00 +0800",
+      "source": "CNA"
+    },
+    {
+      "title": "Haze disrupts daily routines, hits businesses in Singapore's west as PSI reaches very unhealthy level",
+      "summary": "Singapore's west has seen some of the highest haze readings in recent days, but experts say this may not continue as the situation remains dynamic.",
+      "link": "https://www.channelnewsasia.com/singapore/haze-western-region-daily-routines-psi-businesses-6469406",
+      "published": "Sun, 18 Oct 2026 17:17:00 +0800",
+      "source": "CNA"
+    },
+    {
+      "title": "India urges nationals in Saudi Arabia to follow safety directives amid security concerns",
+      "summary": "People have been advised not to leave their homes or buildings until the threat has passed, stay away from open areas, windows and glass, and avoid standing on balconies or rooftops",
+      "link": "https://www.thehindu.com/news/international/india-urges-nationals-in-saudi-arabia-to-follow-safety-directives-amid-security-concerns/article71599498.ece",
+      "published": "Sun, 18 Oct 2026 14:45:09 +0530",
+      "source": "The Hindu"
+    },
+    {
+      "title": "In tourist-weary Kyoto, U.S. college targets deeper ties between students and residents",
+      "summary": "Pepperdine University's new year-round Japan program aims to give students an immersive experience while they continue their usual areas of study.",
+      "link": "https://www.japantimes.co.jp/community/2026/10/18/pepperdine-university-kyoto-program/",
+      "published": "Sun, 18 Oct 2026 18:00:00 +0900",
       "source": "Japan Times"
     },
     {
-      "title": "Malaysia’s BN to announce candidates for Melaka polls on Oct 28: State chairman",
-      "summary": "Ab Rauf Yusoh, who is also Melaka’s caretaker chief minister, said the candidates would carry the responsibility of continuing the coalition’s mandate and securing victory at the polls.",
-      "link": "https://www.channelnewsasia.com/asia/malaysias-bn-announce-candidates-melaka-polls-oct-28-state-chairman-6469281",
-      "published": "Sun, 18 Oct 2026 12:40:00 +0800",
-      "source": "CNA"
+      "title": "Nepal seeks legal amendments to expedite death certificates for 54 Malaysians, says foreign minister",
+      "summary": "<p>Current laws require 3-year wait but victims' families need to handle financial, insurance affairs.</p>",
+      "link": "https://www.straitstimes.com/asia/se-asia/nepal-seeks-legal-amendments-to-expedite-death-certificates-for-54-malaysians-says-foreign-minister",
+      "published": "Sun, 18 Oct 2026 16:42:00 +0800",
+      "source": "Straits Times"
+    },
+    {
+      "title": "Haze in Malaysia: Schools in Kuala Lumpur to remain open on Oct 19, outdoor activities suspended",
+      "summary": "<p>KL’s Education Department said students and school staff should wear face masks to protect themselves from the haze.</p>",
+      "link": "https://www.straitstimes.com/asia/se-asia/haze-in-malaysia-schools-in-kuala-lumpur-to-remain-open-on-oct-19-outdoor-activities-suspended",
+      "published": "Sun, 18 Oct 2026 16:25:00 +0800",
+      "source": "Straits Times"
+    },
+    {
+      "title": "Pakistan extends airspace ban on Indian aircraft till November 24",
+      "summary": "India and Pakistan imposed reciprocal airspace restrictions on each other’s aircraft following the April 2025 Pahalgam terror attack in Jammu and Kashmir",
+      "link": "https://www.thehindu.com/news/international/pakistan-extends-airspace-ban-on-indian-aircraft-till-november-24/article71599424.ece",
+      "published": "Sun, 18 Oct 2026 13:47:50 +0530",
+      "source": "The Hindu"
+    },
+    {
+      "title": "China proposes export controls on solar-manufacturing technologies",
+      "summary": "Analysts say China is seeking to preserve its dominance as India tries to build up domestic manufacturing ‌and shake off reliance on China",
+      "link": "https://www.thehindu.com/news/international/china-proposes-export-controls-on-12-solar-manufacturing-technologies/article71599338.ece",
+      "published": "Sun, 18 Oct 2026 13:02:00 +0530",
+      "source": "The Hindu"
+    },
+    {
+      "title": "Choi Hye-jin blows late lead, settles for 2nd place in LPGA event in Shanghai",
+      "summary": "SEOUL, Oct. 18 (Yonhap) -- On the verge of claiming her maiden LPGA Tour victory...",
+      "link": "https://en.yna.co.kr/view/AEN20261018002500315",
+      "published": "Sun, 18 Oct 2026 16:31:34 +0900",
+      "source": "Yonhap"
+    },
+    {
+      "title": "Scottish teen chases judo dreams through unique Japanese homestay",
+      "summary": "Teenager Lexi Buchanan puts in around four hours of work each day, balancing weightlifting with sparring alongside university athletes.",
+      "link": "https://www.japantimes.co.jp/sports/2026/10/18/more-sports/judoka-homestay-japan-scotland-exchange/",
+      "published": "Sun, 18 Oct 2026 16:20:00 +0900",
+      "source": "Japan Times"
+    },
+    {
+      "title": "As Yokohama’s Green Expo nears, organizers draw inspiration from the past",
+      "summary": "From cutting-edge tech to lessons from the Edo Period, the six-month event will seek to help develop solutions to the planet's environmental crises.",
+      "link": "https://www.japantimes.co.jp/environment/2026/10/18/sustainability/yokohama-green-expo/",
+      "published": "Sun, 18 Oct 2026 16:12:00 +0900",
+      "source": "Japan Times"
+    },
+    {
+      "title": "AI tool helps stranded protesters find their way home in the Indian capital",
+      "summary": "A lifeline that connects people detained and dropped off at distant locations with volunteers who ensure a safe return.",
+      "link": "https://www.aljazeera.com/news/2026/10/18/ai-tool-helps-stranded-protesters-find-their-way-home-in-the-indian-capital?traffic_source=rss",
+      "published": "Sun, 18 Oct 2026 05:37:36 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Why Marco Rubio’s visit to Mumbai has ruffled feathers in India",
+      "summary": "US secretary of state is skipping New Delhi, and opposition leaders complain his arrangements are humiliating.",
+      "link": "https://www.aljazeera.com/news/2026/10/18/why-marco-rubios-visit-to-mumbai-has-ruffled-feathers-in-india?traffic_source=rss",
+      "published": "Sun, 18 Oct 2026 05:16:49 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "PM vows continued efforts to resume inter-Korean dialogue",
+      "summary": "SEOUL, Oct. 18 (Yonhap) -- Prime Minister Han Seong-sook said Sunday that the go...",
+      "link": "https://en.yna.co.kr/view/AEN20261018001700315",
+      "published": "Sun, 18 Oct 2026 14:01:25 +0900",
+      "source": "Yonhap"
+    },
+    {
+      "title": "Today in Korean history",
+      "summary": "Oct. 19",
+      "link": "https://en.yna.co.kr/view/AEN20261018000900315",
+      "published": "Sun, 18 Oct 2026 14:00:00 +0900",
+      "source": "Yonhap"
     },
     {
       "title": "At least 19 dead in stampede at Kolkata Hindu festival",
@@ -70,137 +203,11 @@
       "source": "Al Jazeera"
     },
     {
-      "title": "Cherish peace and stability, John Lee urges Hongkongers during Chung Yeung Festival",
-      "summary": "Hong Kong’s leader has urged residents to cherish peace and stability as senior officials marked Chung Yeung Festival with tributes to the city’s wartime defenders and public servants who died in the line of duty.\nChief Executive John Lee Ka-chiu attended the annual ceremony at the Hong Kong City Hall Memorial Garden in Central on Sunday, laying a wreath to honour those who died defending the city between 1941 and 1945.\n“As we remember the heroes who sacrificed their lives in war and our...",
-      "link": "https://www.scmp.com/news/hong-kong/society/article/3371284/cherish-peace-and-stability-john-lee-urges-hongkongers-during-chung-yeung-festival?utm_source=rss_feed",
-      "published": "Sun, 18 Oct 2026 04:18:30 +0000",
-      "source": "SCMP"
-    },
-    {
-      "title": "Banking on bricks: entrepreneur builds a business case for recycling plastic waste",
-      "summary": "Former investment banker Shervin Sharghy takes a practical approach to plastic recycling, first asking whether it makes financial sense before tackling the technical challenges.\nThe founder of Hong Kong-based EcoBricks said the main obstacle to recycling plastic was often economic rather than scientific.\nCollecting, sorting, cleaning and processing waste plastic typically costs more than producing new materials from oil and gas, particularly at the small scale at which most recyclers...",
-      "link": "https://www.scmp.com/news/hong-kong/society/article/3371254/banking-bricks-entrepreneur-builds-business-case-recycling-plastic-waste?utm_source=rss_feed",
-      "published": "Sun, 18 Oct 2026 04:15:04 +0000",
-      "source": "SCMP"
-    },
-    {
-      "title": "Western brands under pressure as ‘pre-owned’ luxury booms in China",
-      "summary": "<p>Chinese were once massive buyers of luxury Western brands, accounting for around a third of worldwide spending.</p>",
-      "link": "https://www.straitstimes.com/asia/east-asia/western-brands-under-pressure-as-pre-owned-luxury-booms-in-china",
-      "published": "Sun, 18 Oct 2026 12:05:00 +0800",
-      "source": "Straits Times"
-    },
-    {
-      "title": "China’s youth draw upon Long March spirit to navigate modern uncertainties",
-      "summary": "As China marks the 90th anniversary of the Red Army’s victory in the Long March, some young Chinese are looking to the historic journey for guidance as they face uncertainty in their lives and future.\nFor Lyu Leiyiyi, a 22-year-old student at the Communication University of China, the spirit of the Long March offers a sense of stability at a time when people and the environment around her are changing at a dizzying pace.\n“People in their 20s are going through a period of uncertainty,” Lyu said....",
-      "link": "https://www.scmp.com/news/china/politics/article/3371269/chinas-youth-draw-upon-long-march-spirit-navigate-modern-uncertainties?utm_source=rss_feed",
-      "published": "Sun, 18 Oct 2026 04:00:19 +0000",
-      "source": "SCMP"
-    },
-    {
-      "title": "Harvard and Cambridge to attend Hong Kong forum on role of humanities in AI age",
-      "summary": "The organiser of a forum that will bring together Hong Kong and overseas universities later this month has said it hopes to spark debate on the role of humanities programmes in an era increasingly dominated by artificial intelligence (AI).\nThe Global University Presidents and Leaders Summit, organised by the Hong Kong Association for External Friendship, will be held on October 27 and 28 at the Convention and Exhibition Centre in Wan Chai.\nPresidents or senior management from more than 50...",
-      "link": "https://www.scmp.com/news/hong-kong/education/article/3371253/harvard-and-cambridge-attend-hong-kong-forum-role-humanities-ai-age?utm_source=rss_feed",
-      "published": "Sun, 18 Oct 2026 04:00:16 +0000",
-      "source": "SCMP"
-    },
-    {
-      "title": "Rubio says Trump to take up to 60 days to weigh Russia sanctions",
-      "summary": "<p>Oct 17 - The day after waiving sanctions and tariffs related to Russian exports, US President Donald Trump said on Saturday he has yet to announce a final decision on the matter as Secretary of State Marco Rubio said officials want more time to evaluate the situation.</p>",
-      "link": "https://www.straitstimes.com/asia/rubio-says-trump-to-take-up-to-60-days-to-weigh-russia-sanctions",
-      "published": "Sun, 18 Oct 2026 11:40:42 +0800",
-      "source": "Straits Times"
-    },
-    {
-      "title": "U.S. President wants 60 days to analyse impact of Russia sanctions law, says Marco Rubio",
-      "summary": "On October 16, Mr. Trump waived key provisions of the Graham Act that authorised punitive tariffs on countries purchasing Russian oil, offering relief to India",
-      "link": "https://www.thehindu.com/news/international/secretary-of-state-marco-rubio-comments-before-departing-to-uzbekistan-and-india/article71599016.ece",
-      "published": "Sun, 18 Oct 2026 09:08:53 +0530",
-      "source": "The Hindu"
-    },
-    {
-      "title": "AI boom sustains S. Korea's growth despite global headwinds: IMF official",
-      "summary": "BANGKOK, Oct. 18 (Yonhap) -- South Korea appears to be weathering global economi...",
-      "link": "https://en.yna.co.kr/view/AEN20261017001100320",
-      "published": "Sun, 18 Oct 2026 12:00:18 +0900",
-      "source": "Yonhap"
-    },
-    {
-      "title": "China considers new export curbs on solar, AI, biotech",
-      "summary": "The draft plan, “Announcement No. 48”, proposes a complete export ban on 14 technologies and restrictions on 26 more, including next-generation solar technologies that could affect countries such as India seeking to reduce dependence on China",
-      "link": "https://www.thehindu.com/news/international/china-considers-new-export-curbs-on-solar-ai-biotech/article71591880.ece",
-      "published": "Sun, 18 Oct 2026 08:27:39 +0530",
-      "source": "The Hindu"
-    },
-    {
-      "title": "Indonesia drops 2.4 tonnes of dry ice over South Sumatra to tackle haze",
-      "summary": "The province is among six prioritised by Indonesia for forest and land fire prevention and response.",
-      "link": "https://www.channelnewsasia.com/asia/indonesia-drops-24-tonnes-dry-ice-over-south-sumatra-tackle-haze-6469171",
-      "published": "Sun, 18 Oct 2026 10:55:00 +0800",
-      "source": "CNA"
-    },
-    {
-      "title": "Won strengthens on robust exports, increased dollar supply",
-      "summary": "SEOUL, Oct. 18 (Yonhap) -- The Korean won has strengthened against the U.S. doll...",
-      "link": "https://en.yna.co.kr/view/AEN20261018001000320",
-      "published": "Sun, 18 Oct 2026 11:51:13 +0900",
-      "source": "Yonhap"
-    },
-    {
-      "title": "Sri Lanka’s Tamil parties seek sustained Indian push to realise spirit of Indo-Lanka Accord",
-      "summary": "Vice-President ‘assures’ them that India’s position on devolution stands; provincial polls discussed with Sri Lankan side",
-      "link": "https://www.thehindu.com/news/international/sri-lankas-tamil-parties-seek-sustained-indian-push-to-realise-spirit-of-indo-lanka-accord/article70883508.ece",
-      "published": "Sun, 18 Oct 2026 08:00:28 +0530",
-      "source": "The Hindu"
-    },
-    {
-      "title": "Japan to launch historic round-trip mission to Mars moon",
-      "summary": "<p>It could also help lay the groundwork for eventual human exploration.</p>",
-      "link": "https://www.straitstimes.com/asia/east-asia/japan-to-launch-historic-round-trip-mission-to-mars-moon",
-      "published": "Sun, 18 Oct 2026 10:28:00 +0800",
-      "source": "Straits Times"
-    },
-    {
-      "title": "Russia may seek prisoner swap after detaining Japanese journalist",
-      "summary": "Some say the detention of the reporter is linked to the handover to Germany this month of a Russian hacker detained in Japan in May.",
-      "link": "https://www.japantimes.co.jp/news/2026/10/18/japan/crime-legal/russia-japan-prisoner-swap-speculation/",
-      "published": "Sun, 18 Oct 2026 11:27:00 +0900",
-      "source": "Japan Times"
-    },
-    {
-      "title": "S. Korea's growth momentum to strengthen amid chip boom: finance minister",
-      "summary": "BANGKOK, Oct. 18 (Yonhap) -- Finance Minister Lee Hyoung-il has stressed South K...",
-      "link": "https://en.yna.co.kr/view/AEN20261017001900320",
-      "published": "Sun, 18 Oct 2026 11:00:01 +0900",
-      "source": "Yonhap"
-    },
-    {
-      "title": "Takaichi to attend APEC in China if parliament allows",
-      "summary": "The APEC summit often serves as an opportunity for Japanese and Chinese leaders to meet, but questions remain amid a deep freeze in ties.",
-      "link": "https://www.japantimes.co.jp/news/2026/10/18/japan/politics/takaichi-china-apec-parliament/",
-      "published": "Sun, 18 Oct 2026 10:58:00 +0900",
-      "source": "Japan Times"
-    },
-    {
       "title": "Photos show luxury boat with 50m pool and water slides near Kim Jong Un's summer retreat",
       "summary": "Satellite images give clues about how Kim spends his holidays - something far out of reach for most North Koreans.",
       "link": "https://www.bbc.co.uk/news/articles/cmy4xnyyg1lyo?at_medium=RSS&at_campaign=rss",
       "published": "Sat, 17 Oct 2026 22:09:50 GMT",
       "source": "BBC News"
-    },
-    {
-      "title": "Ten killed in fire at beach resort in Bangladesh",
-      "summary": "Ten people, including six members of the same family, were killed in a fire at a beach resort in Bangladesh.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/17/17-10-sv-coxsbazaar-hotel-blaze-_-bd?traffic_source=rss",
-      "published": "Sat, 17 Oct 2026 20:50:01 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "At least 17 killed in stampede at religious gathering in India",
-      "summary": "Incident took place at festival in north Kolkata, in India's West Bengal state, amid big crowds and rainfall, police said.",
-      "link": "https://www.aljazeera.com/news/2026/10/17/at-least-17-killed-in-stampede-at-religious-gathering-in-india?traffic_source=rss",
-      "published": "Sat, 17 Oct 2026 19:48:54 +0000",
-      "source": "Al Jazeera"
     },
     {
       "title": "At least 17 dead in crush at Hindu festival event in India",
@@ -242,13 +249,6 @@
       "summary": "The youth-led movement had called for a Delhi protest after mass detentions last week and the jailing of two leaders.",
       "link": "https://www.bbc.co.uk/news/articles/cmx237n1y9lzo?at_medium=RSS&at_campaign=rss",
       "published": "Fri, 16 Oct 2026 11:44:31 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "China tells Israel to stop 'forced establishment' of West Bank settlements",
-      "summary": "Chinese Foreign Minister Wang Yi spoke to Israeli President Isaac Herzog on the sidelines of a conference.",
-      "link": "https://www.bbc.co.uk/news/articles/cq1j3wdxy48ro?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 16 Oct 2026 08:45:54 GMT",
       "source": "BBC News"
     },
     {
@@ -304,41 +304,32 @@
       "title": "The US-China grand bargain remains out of reach",
       "summary": "",
       "link": "https://asia.nikkei.com/spotlight/comment/the-us-china-grand-bargain-remains-out-of-reach",
-      "published": "2026-10-18 05:00",
+      "published": "2026-10-18 10:10",
       "source": "Nikkei Asia"
     },
     {
       "title": "AI and US-China rivalry put universities to the test: Vanderbilt head",
       "summary": "",
       "link": "https://asia.nikkei.com/editor-s-picks/interview/ai-and-us-china-rivalry-put-universities-to-the-test-vanderbilt-head",
-      "published": "2026-10-18 05:00",
+      "published": "2026-10-18 10:10",
       "source": "Nikkei Asia"
     },
     {
       "title": "Australian home prices tumble as tax rules, rate hikes bite",
       "summary": "",
       "link": "https://asia.nikkei.com/business/markets/property/australian-home-prices-tumble-as-tax-rules-rate-hikes-bite",
-      "published": "2026-10-18 05:00",
+      "published": "2026-10-18 10:10",
       "source": "Nikkei Asia"
     },
     {
       "title": "US and China must ensure AI dialogue is more than just hot air",
       "summary": "",
       "link": "https://asia.nikkei.com/opinion/us-and-china-must-ensure-ai-dialogue-is-more-than-just-hot-air",
-      "published": "2026-10-18 05:00",
+      "published": "2026-10-18 10:10",
       "source": "Nikkei Asia"
     }
   ],
   "history": [
-    {
-      "date": "2026-10-07 05:00",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 78,
-      "incidents": 40,
-      "hangseng": 24151.9,
-      "usd_czk": null
-    },
     {
       "date": "2026-10-07 12:25",
       "threat_level": "HIGH",
@@ -599,6 +590,15 @@
       "incidents": 40,
       "hangseng": 24186.83,
       "usd_czk": null
+    },
+    {
+      "date": "2026-10-18 10:10",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 72,
+      "incidents": 40,
+      "hangseng": 24186.83,
+      "usd_czk": null
     }
   ],
   "locations": [
@@ -631,6 +631,13 @@
       "name_en": "Pyongyang"
     },
     {
+      "key": "Shanghai",
+      "lat": 31.2304,
+      "lon": 121.4737,
+      "name_cs": "Šanghaj",
+      "name_en": "Shanghai"
+    },
+    {
       "key": "Hong Kong",
       "lat": 22.3193,
       "lon": 114.1694,
@@ -652,6 +659,13 @@
       "name_en": "New Delhi"
     },
     {
+      "key": "Islamabad",
+      "lat": 33.6844,
+      "lon": 73.0479,
+      "name_cs": "Islámábád",
+      "name_en": "Islamabad"
+    },
+    {
       "key": "Bangkok",
       "lat": 13.7563,
       "lon": 100.5018,
@@ -664,6 +678,13 @@
       "lon": 106.8456,
       "name_cs": "Jakarta",
       "name_en": "Jakarta"
+    },
+    {
+      "key": "Singapore",
+      "lat": 1.3521,
+      "lon": 103.8198,
+      "name_cs": "Singapur",
+      "name_en": "Singapore"
     },
     {
       "key": "Kuala Lumpur",
@@ -680,26 +701,11 @@
       "name_en": "Canberra"
     },
     {
-      "key": "Dhaka",
-      "lat": 23.8103,
-      "lon": 90.4125,
-      "name_cs": "Dháka",
-      "name_en": "Dhaka"
-    },
-    {
       "key": "Yangon",
       "lat": 16.8409,
       "lon": 96.1735,
       "name_cs": "Rangún",
       "name_en": "Yangon"
-    },
-    {
-      "key": "Washington",
-      "lat": 38.9,
-      "lon": -77.04,
-      "name_cs": "Washington, D.C.",
-      "name_en": "Washington",
-      "auto": true
     },
     {
       "key": "New York",
@@ -715,22 +721,6 @@
       "lon": -66,
       "name_cs": "Venezuela",
       "name_en": "Venezuela",
-      "auto": true
-    },
-    {
-      "key": "Russia",
-      "lat": 55.75,
-      "lon": 37.62,
-      "name_cs": "Rusko",
-      "name_en": "Russia",
-      "auto": true
-    },
-    {
-      "key": "Israel",
-      "lat": 31.5,
-      "lon": 34.8,
-      "name_cs": "Izrael",
-      "name_en": "Israel",
       "auto": true
     },
     {
@@ -750,6 +740,14 @@
       "auto": true
     },
     {
+      "key": "Pakistan",
+      "lat": 30.4,
+      "lon": 69.3,
+      "name_cs": "Pákistán",
+      "name_en": "Pakistan",
+      "auto": true
+    },
+    {
       "key": "Indonesia",
       "lat": -2.5,
       "lon": 118,
@@ -766,14 +764,6 @@
       "auto": true
     },
     {
-      "key": "Germany",
-      "lat": 52.52,
-      "lon": 13.4,
-      "name_cs": "Berlín",
-      "name_en": "Germany",
-      "auto": true
-    },
-    {
       "key": "Colombia",
       "lat": 4.57,
       "lon": -74.3,
@@ -783,15 +773,15 @@
     }
   ],
   "location_counts": {
-    "Beijing": 62,
-    "Hong Kong": 59,
-    "Tokyo": 37,
-    "Shanghai": 14,
-    "Seoul": 39,
+    "Beijing": 63,
+    "Hong Kong": 60,
+    "Tokyo": 38,
+    "Shanghai": 15,
+    "Seoul": 40,
     "South China Sea": 6,
     "Taipei": 26,
-    "Manila": 22,
-    "Pyongyang": 27,
+    "Manila": 23,
+    "Pyongyang": 28,
     "Washington, D.C.": 1,
     "Los Angeles": 2,
     "Florida": 1,
@@ -800,7 +790,7 @@
     "Čína": 11,
     "Tchaj-wan": 3,
     "Japonsko": 1,
-    "Indie": 9,
+    "Indie": 10,
     "Londýn": 2,
     "Berlín": 1,
     "Paříž": 1,
@@ -809,31 +799,31 @@
     "Kanada": 1,
     "Ukrajina": 1,
     "Singapur": 1,
-    "Austrálie": 1,
-    "Delhi": 30,
-    "Singapore": 24,
-    "Kuala Lumpur": 27,
-    "Canberra": 17,
+    "Austrálie": 2,
+    "Delhi": 31,
+    "Singapore": 25,
+    "Kuala Lumpur": 28,
+    "Canberra": 18,
     "New York": 2,
     "Ithaca (Cornell)": 1,
     "Argentina": 1,
     "Súdán": 1,
     "Kolumbie": 1,
-    "Islamabad": 18,
-    "Jakarta": 28,
+    "Islamabad": 19,
+    "Jakarta": 29,
     "Izrael": 1,
     "Turecko": 1,
-    "Indonésie": 2,
+    "Indonésie": 1,
     "Kabul": 9,
     "Dhaka": 8,
-    "Yangon": 22,
+    "Yangon": 23,
     "Venezuela": 1,
     "Egypt": 1,
     "SAE": 1,
     "Řím": 1,
     "Brusel": 1,
     "Jihoafrická republika": 1,
-    "Bangkok": 18,
+    "Bangkok": 19,
     "Hanoi": 11,
     "Taiwan Strait": 1,
     "Kalifornie": 1,
@@ -855,17 +845,9 @@
     "key": "Beijing",
     "name_cs": "Peking",
     "name_en": "Beijing",
-    "count": 62
+    "count": 63
   },
   "archive": [
-    {
-      "date": "2026-10-13 13:29",
-      "threat_level": "HIGH",
-      "security_status_cs": "Globální technologické trhy zasáhl prudký výprodej vyvolaný úspěchy čínských inovací v oblasti umělé inteligence (DeepSeek) a pokroky v domácí výrobě paměťových čipů (Micron pod tlakem). V regionálním měřítku přetrvává napětí kolem Tchaj-wanu, na Korejském poloostrově (včetně nových zbrojních výstav KLDR) a vnitřní politické turbulence v Indii a Hongkongu.",
-      "security_status_en": "Global tech markets faced a sharp sell-off sparked by Chinese breakthroughs in artificial intelligence (DeepSeek) and domestic memory chip advancements, putting giants like Micron under pressure. Regionally, tensions persist around Taiwan, on the Korean Peninsula (including North Korea's new strategic weapons displays), alongside internal political turbulence in India and Hong Kong.",
-      "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na světových burzách kvůli přecenění hodnoty technologických firem po čínském šoku. Investoři budou nadále vyhledávat bezpečné přístavy jako zlato, jen a švýcarský frank.",
-      "forecast_en": "Over the coming days, continued volatility in global stock exchanges is expected as tech valuations undergo a painful repricing following the Chinese shock. Investors will continue to seek safe havens such as gold, the yen, and the Swiss franc."
-    },
     {
       "date": "2026-10-14 05:00",
       "threat_level": "HIGH",
@@ -969,6 +951,14 @@
       "security_status_en": "Global financial markets and the tech sector are facing a major shock driven by Chinese startup DeepSeek's AI advancements, sparking a sharp sell-off in US and Asian equities. Simultaneously, China is considering radical export curbs on key technologies including AI and solar systems, further intensifying trade tensions with the West.",
       "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající zvýšenou volatilitu v technologickém sektoru a pokračující poptávku investorů po bezpečných aktivech v reakci na asijské technologické novinky.",
       "forecast_en": "Continued elevated volatility in the technology sector and sustained investor demand for safe-haven assets are expected over the coming days in response to Asian tech developments."
+    },
+    {
+      "date": "2026-10-18 10:10",
+      "threat_level": "HIGH",
+      "security_status_cs": "Trhy zažívají otřesy v důsledku šoku v sektoru umělé inteligence způsobeného čínským startupem DeepSeek, což vyvolalo prudký propad technologických akcií a útěk investorů do bezpečných aktiv, jako jsou jene a švýcarské franky. Geopolitické napětí se projevuje i v regionální diplomacii, včetně návštěvy amerického ministra zahraničí Marca Rubia v Indii a přetrvávajících obchodních a vzdušných restrikcí.",
+      "security_status_en": "Markets are experiencing turbulence following an AI sector shock triggered by Chinese startup DeepSeek, prompting a sharp drop in tech equities and a flight to safe havens like the yen and Swiss franc. Geopolitical tensions are also evident in regional diplomacy, including U.S. Secretary of State Marco Rubio's visit to India and lingering trade and airspace restrictions.",
+      "forecast_cs": "V příštích dnech lze očekávat pokračující volatilitu v technologickém sektoru a zvýšenou pozornost vůči asijským měnám a bezpečným aktivům v reakci na šok způsobený čínskou AI.",
+      "forecast_en": "Continued volatility in the tech sector and heightened focus on Asian currencies and safe-haven assets are expected over the coming days in response to the Chinese AI shock."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
