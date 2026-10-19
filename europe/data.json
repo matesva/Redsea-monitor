@@ -1,60 +1,228 @@
 {
-  "last_updated": "2026-10-19T05:00:07Z",
+  "last_updated": "2026-10-19T11:43:57Z",
   "assessment": {
     "threat_level": "HIGH",
     "sentiment_score": 78,
-    "security_status_cs": "Evropa čelí souběhu vážných krizí včetně rozsáhlých nepokojů a násilí ve Francii a Itálii, eskalace války na Ukrajině s útoky na infrastrukturu a rostoucích tlaků na dluhopisových trzích. Politickou scénu komplikují nejistoty ohledně budoucího postojů USA a Washingtonu k sankcím vůči Rusku.",
-    "security_status_en": "Europe faces a convergence of severe crises including widespread rioting and violence in France and Italy, escalating war in Ukraine with infrastructure strikes, and mounting pressures in bond markets. The political landscape is further complicated by uncertainties surrounding Washington's stance on Russia sanctions.",
+    "security_status_cs": "Evropa čelí vlně vnitřních i vnějších otřesů, dominuje hluboká politická a bezpečnostní krize ve Francii poznamenaná rozsáhlými nepokoji, útoky na veřejný pořádek a výprodejem francouzských dluhopisů. Na východě mezitím pokračuje eskalace války na Ukrajině, kde Kyiv hlásí bezprecedentní použití dronů a roste napětí kolem americké politiky vůči Rusku.",
+    "security_status_en": "Europe is facing a wave of internal and external shocks, dominated by a deep political and security crisis in France marked by widespread riots, attacks on public order, and a sell-off in French bonds. Meanwhile, the escalation of the war in Ukraine continues in the east, where Kyiv reports unprecedented drone usage and tensions rise over US policy towards Russia.",
     "recommendations": [
       {
         "sector_cs": "Široký evropský akciový trh (Euro Stoxx 50 ETF)",
         "sector_en": "Broad European Equities (Euro Stoxx 50 ETFs)",
-        "action": "HOLD",
-        "reason_cs": "Trhy čelí střetu silných podnikových výsledků s rostoucími výnosy dluhopisů a politickou nestabilitou v klíčových zemích.",
-        "reason_en": "Markets face a collision between strong corporate earnings and rising bond yields alongside political instability in key nations."
+        "action": "SELL",
+        "reason_cs": "Trhy jsou pod tlakem kvůli fiskální nestabilitě ve Francii, sociálním nepokojům a geopolitickému napětí v souvislosti s Ruskem.",
+        "reason_en": "Markets are under pressure due to French fiscal instability, social unrest, and geopolitical tensions regarding Russia."
       },
       {
         "sector_cs": "Evropské banky (BNP Paribas, Deutsche Bank, Santander)",
         "sector_en": "European Banks (BNP Paribas, Deutsche Bank, Santander)",
-        "action": "HOLD",
-        "reason_cs": "Vyšší úrokové sazby a rostoucí výnosy dluhopisů vytvářejí tlak na ocenění nemovitostí a úvěrová portfolia bank.",
-        "reason_en": "Higher interest rates and surging bond yields are placing pressure on real estate valuations and bank loan portfolios."
+        "action": "SELL",
+        "reason_cs": "Francouzský dluhový výprodej a politická nejistota přímo zatěžují expozici francouzských bankovních domů.",
+        "reason_en": "The French debt sell-off and political uncertainty are directly burdening the exposure of French banking institutions."
       },
       {
         "sector_cs": "Obranný průmysl (Rheinmetall, Thales, Leonardo)",
         "sector_en": "Defense Industry (Rheinmetall, Thales, Leonardo)",
         "action": "BUY",
-        "reason_cs": "Trvající válka na Ukrajině, rozšiřující se útoky dronů a nové požadavky NATO na vojenské kapacity udržují poptávku po obraně silnou.",
-        "reason_en": "The ongoing war in Ukraine, expanding drone strikes, and new NATO military requirements keep defense demand robust."
+        "reason_cs": "Pokračující konflikt na Ukrajině a rostoucí bezpečnostní rizika na kontinentu udržují vysokou poptávku po vojenském vybavení.",
+        "reason_en": "The ongoing conflict in Ukraine and rising security risks across the continent sustain high demand for military equipment."
       },
       {
         "sector_cs": "Energetika (TotalEnergies, Shell, RWE)",
         "sector_en": "Energy (TotalEnergies, Shell, RWE)",
-        "action": "BUY",
-        "reason_cs": "Globální ceny plynů a energií zůstávají napjaté kvůli geopolitickým konfliktům na Blízkém východě a útokům na energetickou infrastrukturu.",
-        "reason_en": "Global gas and energy prices remain tight due to Middle Eastern geopolitical conflicts and strikes on energy infrastructure."
+        "action": "HOLD",
+        "reason_cs": "Sankce na ruskou ropu a plyn sice drží stabilní ceny, ale sektor čelí regulačním tlakům a globální makroekonomické nejistotě.",
+        "reason_en": "While sanctions on Russian oil and gas keep prices stable, the sector faces regulatory pressures and global macroeconomic uncertainty."
       },
       {
         "sector_cs": "Automobilový průmysl (Volkswagen, BMW, Stellantis)",
         "sector_en": "Automotive Industry (Volkswagen, BMW, Stellantis)",
         "action": "SELL",
-        "reason_cs": "Sektor čelí slabé domácí poptávce, obchodním třenicím, celním opatřením a rostoucím sociálním nepokojům na domácím trhu.",
-        "reason_en": "The sector faces weak domestic demand, trade friction, tariff measures, and rising domestic social unrest."
+        "reason_cs": "Slabá poptávka, politická kritika evropské automobilové strategie a rostoucí tlak konkurence a cel zhoršují výhled sektoru.",
+        "reason_en": "Weak demand, political criticism of European automotive strategy, and mounting competition and tariff pressures worsen the sector's outlook."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly jsou ovlivněny širší evropskou makroekonomickou nestabilitou a vývojem regulace a nákladů na energie.",
-        "reason_en": "Domestic titles are impacted by broader European macroeconomic instability and developments in regulation and energy costs."
+        "reason_cs": "Domácí tituly vykazují určitou odolnost, ale jsou citlivé na širší evropskou náladu v bankovním sektoru a regulaci energetiky.",
+        "reason_en": "Domestic stocks show some resilience but remain sensitive to broader European sentiment in the banking sector and energy regulation."
       }
     ],
-    "forecast_cs": "V následujících dnech se očekává pokračování politického tlaku na francouzskou vládu kvůli nepokojům a zvýšená ostražitost na východním křídle NATO v reakci na eskalující útoky dronů.",
-    "forecast_en": "In the coming days, political pressure on the French government over riots is expected to persist, alongside heightened vigilance on NATO's eastern flank in response to escalating drone attacks.",
-    "forecast_review_cs": "Předchozí předpověď bezpečnostních operací a politických debat ve Francii a Německu byla plně potvrzena rozsáhlými nepokoji a vlnou násilí.",
-    "forecast_review_en": "The previous forecast regarding security operations and political debates in France and Germany was fully confirmed by widespread riots and a wave of violence."
+    "forecast_cs": "V nejbližších dnech lze očekávat pokračující bezpečnostní opatření a curfews ve francouzských městech a nervozitu na dluhopisových trzích. Diplomatické napětí mezi Evropou a USA ohledně strategie vůči Ukrajině zůstane na vysoké úrovni.",
+    "forecast_en": "In the coming days, continued security measures and curfews in French cities and nervousness in bond markets are expected. Diplomatic tensions between Europe and the US regarding the strategy toward Ukraine will remain high.",
+    "forecast_review_cs": "Předchozí předpověď ohledně politického tlaku ve Francii a ostražitosti na východním křídle NATO se plně potvrdila.",
+    "forecast_review_en": "The previous forecast regarding political pressure in France and vigilance on NATO's eastern flank was fully confirmed."
   },
   "articles": [
+    {
+      "title": "The self-destructive wishful thinking about European autos and trade",
+      "summary": "France and Germany have synthesised their bad ideas about cars into a terrible plan",
+      "link": "https://www.ft.com/content/7dbe983c-fcd2-41dd-bbe4-9f38a489e6c2?syn-25a6b1a6=1",
+      "published": "Mon, 19 Oct 2026 11:31:05 GMT",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Macron rejects interior minister’s resignation after French riots",
+      "summary": "Political recriminations fly and bonds fall as authorities admit that police botched oversight of protests",
+      "link": "https://www.ft.com/content/cc7e577a-db7a-4e12-9a42-443696b98ec5?syn-25a6b1a6=1",
+      "published": "Mon, 19 Oct 2026 11:29:41 GMT",
+      "source": "Financial Times"
+    },
+    {
+      "title": "French PM blames ‘ultra-left’ for exploiting protests as he seeks partial curfews – Europe live",
+      "summary": "<p>Sébastien Lecornu says new measures will be put in place from tonight</p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/oct/18/french-government-crisis-talks-violent-unrest-policing-macron\">Macron criticises ‘unbridled violence’ after 2,400 arrests across France</a></p></li></ul><p><strong>French PM Lecornu says he has asked prefects to implement “a number of partial curfews” in certain “localised” urban areas to stop further disorder, </strong>which he attributes to “the extreme-left” and some criminal elements.</p><p><strong>We will no doubt hear more on this from local authorities,</strong> as in the example of Marseille (<a href=\"https://www.theguardian.com/world/live/2026/oct/19/europe-france-protests-riots-macron-ukraine-russia-zelenskyy-sweden-latest-news-updates?page=with%3Ablock-6ad5d5088f0862b813bc4c4a#block-6ad5d5088f0862b813bc4c4a\">10:32</a>).</p> <a href=\"https://www.theguardian.com/world/live/2026/oct/19/europe-france-protests-riots-macron-ukraine-russia-zelenskyy-sweden-latest-news-updates\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/live/2026/oct/19/europe-france-protests-riots-macron-ukraine-russia-zelenskyy-sweden-latest-news-updates",
+      "published": "Mon, 19 Oct 2026 11:29:30 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Ukraine says it evacuated a wounded soldier with a heavy-lift drone",
+      "summary": "Kyiv claims it's the first time this has ever been done",
+      "link": "https://www.rapporteur.com/news/ukraine-says-it-evacuated-a-wounded-soldier-with-a-heavy-lift-drone/",
+      "published": "Mon, 19 Oct 2026 11:25:46 +0000",
+      "source": "Euractiv"
+    },
+    {
+      "title": "Zelenskyy, Europe and the end of Trump whispering",
+      "summary": "This new crisis looks different and the bloc’s leaders are preparing to talk directly to Putin",
+      "link": "https://www.ft.com/content/92f271fd-f96c-4723-91f2-48363b98127f?syn-25a6b1a6=1",
+      "published": "Mon, 19 Oct 2026 11:21:25 GMT",
+      "source": "Financial Times"
+    },
+    {
+      "title": "French police ‘lost control’ during riots, concedes interior minister",
+      "summary": "<p>Forces in cities including Paris and Lyon were overwhelmed after ‘lack of anticipation’, says Laurent Nuñez</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/oct/19/europe-france-protests-riots-macron-ukraine-russia-zelenskyy-sweden-latest-news-updates\">Europe live – latest updates</a></p></li></ul><p>France’s interior minister has conceded police “lost control” in some cities during violent protests at the weekend, as the country’s president, Emmanuel Macron, demanded a full security review and “new operational methods” to end the rioting and looting.</p><p>Laurent Nuñez said on Monday there had been a “lack of anticipation” in preparations for Saturday’s protests and acknowledged that police numbers had sometimes been inadequate to deal with rioters and looters on the fringes of the demonstrations.</p> <a href=\"https://www.theguardian.com/world/2026/oct/19/french-police-lost-control-during-riots-concedes-interior-minister\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/oct/19/french-police-lost-control-during-riots-concedes-interior-minister",
+      "published": "Mon, 19 Oct 2026 11:18:39 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "EU countries seal deal on agricultural market rules",
+      "summary": "A separate deal on the post-2027 farm policy is expected next week",
+      "link": "https://www.rapporteur.com/news/eu-countries-seal-deal-on-agricultural-market-rules/",
+      "published": "Mon, 19 Oct 2026 11:16:50 +0000",
+      "source": "Euractiv"
+    },
+    {
+      "title": "Protestors block Louvre as France grapples with continuing unrest",
+      "summary": "The French prime minister said he had asked regional authorities to impose curfews in some cities on Monday evening. Authorities in Marseille said that public gatherings would be banned from noon to 8 pm.",
+      "link": "https://www.lemonde.fr/en/france/article/2026/10/19/protestors-block-louvre-as-france-grapples-with-continuing-unrest_6758795_7.html",
+      "published": "Mon, 19 Oct 2026 12:55:05 +0200",
+      "source": "Le Monde"
+    },
+    {
+      "title": "Europe’s big four telcos confirm bid for EU satellite spectrum",
+      "summary": "But operators have no plan to invest in European satellite constellation yet",
+      "link": "https://www.rapporteur.com/news/europes-big-four-telcos-confirm-bid-for-eu-satellite-spectrum/",
+      "published": "Mon, 19 Oct 2026 10:53:26 +0000",
+      "source": "Euractiv"
+    },
+    {
+      "title": "EU to finance new undersea cable to Greenland",
+      "summary": "The initiative is part of a €200 million investment package announced by von der Leyen last month",
+      "link": "https://www.rapporteur.com/news/eu-to-finance-new-undersea-cable-to-greenland/",
+      "published": "Mon, 19 Oct 2026 10:52:45 +0000",
+      "source": "Euractiv"
+    },
+    {
+      "title": "Russia woos Asian tourists in attempt to counter European visits collapse",
+      "summary": "EU tourist arrivals fell from 5 million in 2019 to 160,000 in 2025 as sanctions, cancelled flights and other restrictions due to Russia's ongoing war in Ukraine severed Western leisure travel, prompting Moscow to look east.",
+      "link": "https://www.euronews.com/2026/10/19/russia-woos-asian-tourists-in-attempt-to-counter-european-visits-collapse",
+      "published": "Mon, 19 Oct 2026 12:48:05 +0200",
+      "source": "Euronews"
+    },
+    {
+      "title": "Violence in France is a consequence of the last decade's political reconfiguration",
+      "summary": "The violence on the fringes of protests across France on Saturday is the result of the evolution of the political system during Emmanuel Macron's presidency, marked by the rise of radical parties that promote a conflict-driven vision of society and a confrontational approach.",
+      "link": "https://www.lemonde.fr/en/politics/article/2026/10/19/violence-in-the-french-protests-stems-from-a-political-system-dominated-by-two-forms-of-radicalism_6758793_5.html",
+      "published": "Mon, 19 Oct 2026 12:34:32 +0200",
+      "source": "Le Monde"
+    },
+    {
+      "title": "EU eyes Rome for 2027 summit ahead of Italian election",
+      "summary": "Hosting EU leaders in Rome would give Italian Prime Minister Giorgia Meloni a high-profile international stage in an election year.",
+      "link": "https://www.politico.eu/article/eu-rome-2027-summit-italy-election/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Mon, 19 Oct 2026 10:28:59 +0000",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "No Kings Day: Thousands rally across US against Trump",
+      "summary": "Thousands marched in US cities for a nationwide ‘No Kings’ protest against President Donald Trump, urging equal rights and early voting.",
+      "link": "https://www.euronews.com/video/2026/10/19/no-kings-day-thousands-rally-across-us-against-trump",
+      "published": "Mon, 19 Oct 2026 12:21:29 +0200",
+      "source": "Euronews"
+    },
+    {
+      "title": "France riots: Presidential hopeful Attal pitches social media blackout",
+      "summary": "The former PM said measures must be “temporary” and “limited to the area where the riots are taking place.”",
+      "link": "https://www.politico.eu/article/france-gabriel-attal-social-media-blackout-riot/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Mon, 19 Oct 2026 10:10:31 +0000",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "‘Ghost Shark’: Australia unveils submarine drone's secret weapons",
+      "summary": "Australia has unveiled three previously secret payloads for its Ghost Shark autonomous submarine drone: sea mines, logistical caches and Altius aerial drones capable of surveillance and strikes.",
+      "link": "https://www.euronews.com/2026/10/19/ghost-shark-australia-unveils-submarine-drones-secret-weapons",
+      "published": "Mon, 19 Oct 2026 11:33:06 +0200",
+      "source": "Euronews"
+    },
+    {
+      "title": "France and the U.S. share the same debt trap. Only one has a global lifeline.",
+      "summary": "France and the U.S. have similar debt dynamics.",
+      "link": "https://www.marketwatch.com/story/france-and-the-u-s-share-the-same-debt-trap-only-one-has-a-global-lifeline-3ae61b42?mod=mw_rss_topstories",
+      "published": "Mon, 19 Oct 2026 09:30:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Lula and Bolsonaro trade insults in TV debate ahead of weekend presidential runoff",
+      "summary": "Corruption is a top concern for many Brazilian voters ahead of the weekend runoff vote but experts say its greatest impact may not be on which candidates voters choose, but on whether they decide to sit out of the election altogether.",
+      "link": "https://www.euronews.com/2026/10/19/lula-and-bolsonaro-trade-insults-in-tv-debate-ahead-of-weekend-presidential-runoff",
+      "published": "Mon, 19 Oct 2026 11:21:10 +0200",
+      "source": "Euronews"
+    },
+    {
+      "title": "US gave us no warning of Russian strikes on Kyiv power plants, Zelenskyy says",
+      "summary": "<p>Ukrainian president accuses Washington of ‘denial of reality’ in ongoing row with Trump over apparent support for Moscow</p><p>Ukraine did not receive a warning from the US about an impending Russian missile attack on Sunday evening, Volodymyr Zelenskyy has said, reviving concerns that Washington is withholding intelligence in order to bully Kyiv into capitulating to Moscow.</p><p>Yuri Ihnat, a spokesperson for the Ukrainian Air Force, said on television on Monday morning that Ukraine had not received a warning before a Russian missile barrage hit power plants in Kyiv at around 11pm. Earlier, a Ukrainian government official had told the Guardian the US had not warned the capital about the impending missile strike.</p> <a href=\"https://www.theguardian.com/world/2026/oct/19/no-us-warning-russian-strikes-kyiv-power-plants-zelenskyy-ukraine-trump\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/oct/19/no-us-warning-russian-strikes-kyiv-power-plants-zelenskyy-ukraine-trump",
+      "published": "Mon, 19 Oct 2026 09:03:55 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Trump and Putin claim French protests are evidence of 'migrant chaos' and 'Europe's decline'",
+      "summary": "The MAGA movement and the Kremlin, along with European far-right groups, described the demonstrations in France as a consequence of immigration and the decline of 'Western civilization,' while other observers saw them as a sign of the Macron era's twilight.",
+      "link": "https://www.lemonde.fr/en/international/article/2026/10/19/trump-and-putin-claim-french-protests-are-evidence-of-migrant-chaos-and-europe-s-decline_6758781_4.html",
+      "published": "Mon, 19 Oct 2026 10:12:54 +0200",
+      "source": "Le Monde"
+    },
+    {
+      "title": "Katya Adler: France's government under pressure after weekend of widespread violence",
+      "summary": "Political tension grips France after rioting marred protests over the cost of living and struggling public services, Katya Adler writes.",
+      "link": "https://www.bbc.co.uk/news/articles/crwyd02yz22vo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 19 Oct 2026 07:46:54 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "France hit by debt sell-off as protests unnerve investors",
+      "summary": "<p>Difference between French and German 10-year borrowing costs widens after violence breaks out</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/oct/19/exports-lift-china-economic-growth-french-protests-pressure-euro-bonds-latest-business-live-updates\">Business live – latest updates</a></p></li></ul><p>France has been hit by a fresh wave of selling in its bond and stock markets after <a href=\"https://www.theguardian.com/world/2026/oct/18/french-government-crisis-talks-violent-unrest-policing-macron\">violent protests </a>over the weekend left public buildings burned, hundreds of shops looted and thousands of arrests across the country.</p><p>Almost 2,400 people have been arrested in France, the interior ministry said on Sunday, with police <a href=\"https://www.theguardian.com/world/2026/oct/17/protests-france-high-prices-social-security-gilets-jaunes\">deploying teargas in confrontations with protesters</a>.</p> <a href=\"https://www.theguardian.com/world/2026/oct/19/france-hit-by-debt-sell-off-as-protests-unnerve-investors\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/oct/19/france-hit-by-debt-sell-off-as-protests-unnerve-investors",
+      "published": "Mon, 19 Oct 2026 07:32:59 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Where’s Burnham really on welfare reform?",
+      "summary": "Having more than a million young people not in education, employment or training is an “economic catastrophe” according to the prime minister. So, what will the government do about it? With Alan Milburn’s long-awaited review due next month, is Andy Burnham laying the groundwork for tougher benefit conditions in the budget – as ministers look […]",
+      "link": "https://www.politico.eu/podcast/politics-at-sam-and-annes/wheres-burnham-really-on-welfare-reform/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Mon, 19 Oct 2026 07:12:15 +0000",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Watch: Shops looted and restaurants gutted in Paris riots",
+      "summary": "Violence broke out across France, with more than half a million people taking to the streets over the weekend.",
+      "link": "https://www.bbc.co.uk/news/videos/cmn5vey19q3go?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 19 Oct 2026 06:40:35 GMT",
+      "source": "BBC News"
+    },
     {
       "title": "Trump’s Russia rethink — and Europe’s response",
       "summary": "Donald Trump’s latest moves on Russia and Ukraine have alarmed Kyiv and European capitals alike. But rather than scrambling to contain the fallout, EU leaders are keeping their cool. Zoya Sheftalovich and Nick Vinocur explore Europe’s strategy for weathering Trump’s midterm storm — and what it means for Ukraine. Then, France reels from a weekend […]",
@@ -63,74 +231,11 @@
       "source": "Politico Europe"
     },
     {
-      "title": "France's government under pressure after weekend of widespread violence",
-      "summary": "Political tension grips France after rioting marred protests over the cost of living and struggling public services, Katya Adler writes.",
-      "link": "https://www.bbc.co.uk/news/articles/crwyd02yz22vo?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 19 Oct 2026 04:16:46 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "China’s economy grows 4.5% on robust exports as domestic weakness persists",
-      "summary": "The official growth figure from the July-September quarter beat expectations and picked up from 4.3% in April-June, the slowest pace in more than three years.",
-      "link": "https://www.euronews.com/2026/10/19/chinas-economy-grows-45-on-robust-exports-as-domestic-weakness-persists",
-      "published": "Mon, 19 Oct 2026 06:11:21 +0200",
-      "source": "Euronews"
-    },
-    {
-      "title": "'Crisis simulation' asks what if Russia was pushed into wider war?",
+      "title": "Wargame with a difference as Russia faces dilemma",
       "summary": "Mutiny erupts in the Russian exclave of Kaliningrad in an uncomfortable test for the Kremlin.",
       "link": "https://news.sky.com/story/sky-news-defence-insider-gets-exclusive-access-to-staged-kaliningrad-crisis-simulation-13600825",
       "published": "Mon, 19 Oct 2026 05:11:00 +0100",
       "source": "Sky News"
-    },
-    {
-      "title": "‘Narcos have one language – violence’: the activist defying France’s biggest drug cartel after his brothers’ murder",
-      "summary": "<p>Amine Kessaci, 23, lives under constant threat as trial of five men becomes focus of nation’s battle with mafia-style crime</p><p>At 23, he is one of the most heavily protected people in France, constantly sleeping in different locations to escape the threat of contract killers from the country’s biggest drug cartel.</p><p>“Narcos and drug traffickers only have one language, one method: violence,” said Amine Kessaci, a young law student from a Marseille housing estate, who, after the murder of his two brothers, has become the most outspoken voice against the Latin American-style narco gangs expanding their reach across <a href=\"https://www.theguardian.com/world/france\">France</a>.</p> <a href=\"https://www.theguardian.com/world/2026/oct/19/france-anti-narco-activist-amine-kessaci-defying-biggest-drug-cartel-murder-trial-brothers\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/oct/19/france-anti-narco-activist-amine-kessaci-defying-biggest-drug-cartel-murder-trial-brothers",
-      "published": "Mon, 19 Oct 2026 04:00:19 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Rising interest rates derail property recovery as buyers recut deals",
-      "summary": "‘Dire’ mood in sector as surging bond yields threaten deals agreed just a few months ago",
-      "link": "https://www.ft.com/content/aef890f1-e3f5-4add-b1fc-6187e2658106?syn-25a6b1a6=1",
-      "published": "Mon, 19 Oct 2026 04:00:06 GMT",
-      "source": "Financial Times"
-    },
-    {
-      "title": "Trump endorses Netanyahu nine days before Israeli election, breaking months of silence",
-      "summary": "Trump's late backing comes as the two leaders’ strategies on Iran and Gaza have diverged, and he warns the US may not “do this work” if Israel changes leaders.",
-      "link": "https://www.euronews.com/2026/10/19/trump-endorses-netanyahu-days-before-israeli-election-breaking-months-of-silence",
-      "published": "Mon, 19 Oct 2026 05:44:41 +0200",
-      "source": "Euronews"
-    },
-    {
-      "title": "Wie die Hauptstadt für die Bundesregierung zur Belastungsprobe wird",
-      "summary": "Ein mögliches rot-grün-rotes Bündnis in Berlin schlägt bundespolitisch hohe Wellen. Während z.B. Grünen-Chef Felix Banaszak vor radikalen Kräften warnt und die Tür zur CDU taktisch offen halten will, ist Friedrich Merz wiederum hart und unerbittlich im Ton gegenüber Grünen und der SPD, wenn es um die Gespräche mit radikalen linken Kräften geht. Rasmus Buchsteiner ordnet […]",
-      "link": "https://www.politico.eu/podcast/berlin-playbook-podcast/wie-die-hauptstadt-fur-die-bundesregierung-zur-belastungsprobe-wird/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Mon, 19 Oct 2026 03:30:00 +0000",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Lula and Bolsonaro trade insults during debate: 'Liar,' 'thug'",
-      "summary": "A week before the presidential election runoff, the two men sparred over the economy, public security, healthcare, corruption, and Brazil's ties to the United States.",
-      "link": "https://www.lemonde.fr/en/international/article/2026/10/19/lula-and-bolsonaro-trade-insults-during-debate-liar-thug_6758744_4.html",
-      "published": "Mon, 19 Oct 2026 05:07:54 +0200",
-      "source": "Le Monde"
-    },
-    {
-      "title": "5 fights that will shape NATO’s next Russia war plans",
-      "summary": "NATO allies are beginning talks on new military requirements as fears of a Russian confrontation grow.",
-      "link": "https://www.politico.eu/article/5-fights-nato-russia-war-plan/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Mon, 19 Oct 2026 02:00:00 +0000",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "The EU heads into a perfect political storm",
-      "summary": "Last week's summit gave Brussels a taste of how hard it's going to be to get a deal on the budget — or anything else.",
-      "link": "https://www.politico.eu/article/the-eu-heads-into-a-perfect-political-storm/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Mon, 19 Oct 2026 02:00:00 +0000",
-      "source": "Politico Europe"
     },
     {
       "title": "Inside the shadowy world of anti-Putin sabotage from within Russia",
@@ -147,81 +252,11 @@
       "source": "BBC News"
     },
     {
-      "title": "Zelensky speaks to US envoys as Trump accuses him of not wanting to end the war",
-      "summary": "Zelensky spoke to Steve Witkoff and Jared Kushner on Sunday as Russia and Ukraine carried out drone strikes on each other's energy sites.",
-      "link": "https://www.lemonde.fr/en/international/article/2026/10/19/zelensky-speaks-to-us-envoys-as-trump-accuses-him-of-not-wanting-to-end-the-war_6758742_4.html",
-      "published": "Mon, 19 Oct 2026 01:24:31 +0200",
-      "source": "Le Monde"
-    },
-    {
-      "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
-      "summary": "The US president blocked numerous sanctions on Russia two days before they were due to take effect.",
-      "link": "https://www.bbc.co.uk/news/articles/c9p8gz7zx4peo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 18 Oct 2026 23:20:15 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Electricity costs put UK steelmakers in worst position in three years against EU rivals",
-      "summary": "<p>Premium paid over French counterparts has risen to almost £30 a megawatt hour, analysis by lobby group finds</p><p>British steelmakers have been pushed further behind European rivals on electricity costs after the US-Israeli war on Iran caused a surge in global gas prices.</p><p>The premium paid by the British industry over its French counterpart has risen to almost £30 a megawatt hour (MWh), its highest level in three years, according to analysis by the lobby group UK Steel.</p> <a href=\"https://www.theguardian.com/business/2026/oct/19/electricity-costs-uk-steelmakers-worst-position-three-years-eu-rivals\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/business/2026/oct/19/electricity-costs-uk-steelmakers-worst-position-three-years-eu-rivals",
-      "published": "Sun, 18 Oct 2026 23:01:12 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Macron faces political firestorm after riots",
-      "summary": "Worst street violence in years comes six months before one of Europe’s most closely watched elections",
-      "link": "https://www.ft.com/content/19495e50-0f55-44b1-8d19-19244163a4e8?syn-25a6b1a6=1",
-      "published": "Sun, 18 Oct 2026 19:55:48 GMT",
-      "source": "Financial Times"
-    },
-    {
-      "title": "France reels after ‘unprecedented’ violence from protesters",
-      "summary": "Government under pressure after struggle to contain attacks on stores and official buildings",
-      "link": "https://www.ft.com/content/369eba8b-246d-405f-b0d8-6c676b0b6dab?syn-25a6b1a6=1",
-      "published": "Sun, 18 Oct 2026 19:52:26 GMT",
-      "source": "Financial Times"
-    },
-    {
-      "title": "Macron criticises ‘unbridled violence’ after days of unrest and 2,400 arrests across France",
-      "summary": "<p>Ministers, officials and police under pressure over response to protests as government holds crisis talks amid ‘colossal failure of the state’</p><p>The French president, Emmanuel Macron, has criticised “unbridled violence” after one of the most violent days of unrest in years left public buildings burned, hundreds of shops destroyed and looted and at least 2,400 <a href=\"https://www.theguardian.com/world/2026/oct/17/protests-france-high-prices-social-security-gilets-jaunes\">people arrested in cities across the country</a>.</p><p>“Watching these images, we have all asked ourselves how could French people do this to France?” he said in a televised address.</p> <a href=\"https://www.theguardian.com/world/2026/oct/18/french-government-crisis-talks-violent-unrest-policing-macron\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/oct/18/french-government-crisis-talks-violent-unrest-policing-macron",
-      "published": "Sun, 18 Oct 2026 18:57:48 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Macron says nothing justifies 'unbridled' violence in France protests",
-      "summary": "'Tonight, we all feel anger and shame,' said the French president in an address to the nation, adding that there must be a distinction between protesters with 'legitimate demands' and 'those who destroyed, smashed and looted.'",
-      "link": "https://www.lemonde.fr/en/france/article/2026/10/18/macron-says-nothing-justifies-unbridled-violence-in-france-protests_6758738_7.html",
-      "published": "Sun, 18 Oct 2026 20:56:00 +0200",
-      "source": "Le Monde"
-    },
-    {
       "title": "Second day of violence in Milan as protesters clash with police",
       "summary": "Protesters have clashed with police in a second day of violence in the Italian city of Milan.",
       "link": "https://news.sky.com/story/second-day-of-violence-in-milan-as-protesters-clash-with-police-13600765",
       "published": "Sun, 18 Oct 2026 19:37:00 +0100",
       "source": "Sky News"
-    },
-    {
-      "title": "St Petersburg endures biggest Ukrainian drone attack",
-      "summary": "Strikes hit tech infrastructure after Russia targets electricity substations in Ukraine",
-      "link": "https://www.ft.com/content/734dad42-2eef-4a70-8947-c73997e49fd1?syn-25a6b1a6=1",
-      "published": "Sun, 18 Oct 2026 18:30:14 GMT",
-      "source": "Financial Times"
-    },
-    {
-      "title": "Shabana Mahmood to hold talks with EU over law enforcement cooperation",
-      "summary": "<p>UK home secretary’s meeting comes after PM said he wanted to rejoin European law enforcement databases</p><p>The UK home secretary, Shabana Mahmood, will meet the EU’s home affairs commissioner on Monday for further talks just days after Andy Burnham said he wanted to rejoin European law enforcement databases from which the UK has been locked out of since Brexit.</p><p>According to the European Commission, they will discuss “migration, border management, law enforcement cooperation and counter-terrorism”, with the latest Frontex data published on Monday showing a 43% decline in small boats crossing the Channel.</p> <a href=\"https://www.theguardian.com/politics/2026/oct/18/shabana-mahmood-talks-eu-law-enforcement-cooperation-magnus-brunner\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/politics/2026/oct/18/shabana-mahmood-talks-eu-law-enforcement-cooperation-magnus-brunner",
-      "published": "Sun, 18 Oct 2026 18:13:11 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "'A tsunami of Jewish terrorism': Settler violence in occupied West Bank conceals ethnic cleansing",
-      "summary": "Ahead of Israel's upcoming October 27 parliamentary elections, several NGOs describe the methods settlers use to drive Palestinians from their land and the obstacles they place in the way of local olive harvests.",
-      "link": "https://www.lemonde.fr/en/international/article/2026/10/18/a-tsunami-of-jewish-terrorism-settler-violence-in-occupied-west-bank-conceals-ethnic-cleansing_6758736_4.html",
-      "published": "Sun, 18 Oct 2026 19:35:35 +0200",
-      "source": "Le Monde"
     },
     {
       "title": "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
@@ -231,13 +266,6 @@
       "source": "MarketWatch"
     },
     {
-      "title": "France: Paris, Lyon and Marseille count the cost after violent protests",
-      "summary": "Streets littered with broken glass, burnt bicycles and debris greeted residents in France on Sunday 18 October, following demonstrations that left extensive damage across Paris, Lyon and Marseille.",
-      "link": "https://www.euronews.com/video/2026/10/18/france-paris-lyon-and-marseille-count-the-cost-after-violent-protests",
-      "published": "Sun, 18 Oct 2026 17:56:49 +0200",
-      "source": "Euronews"
-    },
-    {
       "title": "Trump endorses Netanyahu ahead of Israeli elections, calling him 'great warrior prime minister'",
       "summary": "Donald Trump has endorsed Benjamin Netanyahu ahead of the Israeli elections later this month, calling him a \"great warrior prime minister\".",
       "link": "https://news.sky.com/story/trump-endorses-netanyahu-ahead-of-israeli-elections-calling-him-great-warrior-prime-minister-13600658",
@@ -245,25 +273,11 @@
       "source": "Sky News"
     },
     {
-      "title": "Russia: Huge flames and smoke rise over St Petersburg after drone strikes",
-      "summary": "Huge plumes of black smoke billowed over St Petersburg, Russia’s second-largest city, on Sunday, 18 October, as a large-scale Ukrainian drone attack sparked fires at industrial and logistics facilities. Russian officials said 126 drones had been intercepted in the surrounding region.",
-      "link": "https://www.euronews.com/video/2026/10/18/russia-huge-flames-and-smoke-rise-over-st-petersburg-after-drone-strikes",
-      "published": "Sun, 18 Oct 2026 16:45:31 +0200",
-      "source": "Euronews"
-    },
-    {
       "title": "Zelenskyy says US taking Putin's side would be 'historic mistake' - as Russian oil sites attacked",
       "summary": "Volodymyr Zelenskyy has warned that the US formally siding with Russia would be a \"historic mistake\" - as Ukrainian drones attacked oil facilities in St Petersburg.",
       "link": "https://news.sky.com/story/zelenskyy-says-us-taking-putins-side-would-be-historic-mistake-as-russian-oil-sites-attacked-13600632",
       "published": "Sun, 18 Oct 2026 14:49:00 +0100",
       "source": "Sky News"
-    },
-    {
-      "title": "Stocks are heading for a high-stakes showdown, as strong earnings collide with rising borrowing costs",
-      "summary": "The idea that the AI trade has been mostly immune to rising bond yields isn’t quite right, one strategist notes.",
-      "link": "https://www.marketwatch.com/story/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs-6f8ea5b8?mod=mw_rss_topstories",
-      "published": "Sun, 18 Oct 2026 13:00:00 GMT",
-      "source": "MarketWatch"
     },
     {
       "title": "Abuse in France: \"Is Anyone Thinking of the Children?\"",
@@ -301,13 +315,6 @@
       "source": "Der Spiegel"
     },
     {
-      "title": "Fake Jewish Lineage: The Passport Scheme that Exploited Germany’s Nazi History",
-      "summary": "DER SPIEGEL has learned that a large number of fraudsters have obtained German citizenship by claiming to be the descendants of Jews persecuted by the Nazis. The real families are furious.",
-      "link": "https://www.spiegel.de/international/germany/fake-jewish-lineage-the-passport-scheme-that-exploited-germanys-nazi-history-a-215f2f6a-613e-4371-8786-054ed3a90f98#ref=rss",
-      "published": "Thu, 3 Sep 2026 09:41:00 +0200",
-      "source": "Der Spiegel"
-    },
-    {
       "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
       "summary": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump’s threats to impose tariffs and economic sanctions on Colombia.",
       "link": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main",
@@ -327,25 +334,9 @@
       "link": "https://www.wsj.com/articles/oil-futures-fall-after-trump-calls-for-tariffs-on-colombia-5b2a178c?mod=rss_markets_main",
       "published": "Mon, 27 Jan 2025 04:46:00 -0500",
       "source": "WSJ Markets"
-    },
-    {
-      "title": "In China, a Cat-and-Mouse Game to Rein In Crypto",
-      "summary": "Recent court cases reveal how middlemen are facilitating a booming trade, eluding a crackdown.",
-      "link": "https://www.wsj.com/articles/china-cryptocurrency-market-trading-restrictions-3e050cd9?mod=rss_markets_main",
-      "published": "Sun, 26 Jan 2025 00:01:00 -0500",
-      "source": "WSJ Markets"
     }
   ],
   "history": [
-    {
-      "date": "2026-10-08 12:34",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 75,
-      "incidents": 40,
-      "stoxx50": 6126.32,
-      "eur_czk": null
-    },
     {
       "date": "2026-10-09 05:00",
       "threat_level": "HIGH",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "stoxx50": 6204.23,
       "eur_czk": null
+    },
+    {
+      "date": "2026-10-19 11:43",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 78,
+      "incidents": 40,
+      "stoxx50": 6133.69,
+      "eur_czk": null
     }
   ],
   "locations": [
@@ -652,18 +652,25 @@
       "name_en": "Kyiv"
     },
     {
-      "key": "London",
-      "lat": 51.5072,
-      "lon": -0.1276,
-      "name_cs": "Londýn",
-      "name_en": "London"
-    },
-    {
       "key": "Moscow",
       "lat": 55.7558,
       "lon": 37.6173,
       "name_cs": "Moskva",
       "name_en": "Moscow"
+    },
+    {
+      "key": "Stockholm",
+      "lat": 59.3293,
+      "lon": 18.0686,
+      "name_cs": "Stockholm",
+      "name_en": "Stockholm"
+    },
+    {
+      "key": "Copenhagen",
+      "lat": 55.6761,
+      "lon": 12.5683,
+      "name_cs": "Kodaň",
+      "name_en": "Copenhagen"
     },
     {
       "key": "Washington",
@@ -714,19 +721,19 @@
       "auto": true
     },
     {
-      "key": "Iran",
-      "lat": 32.4,
-      "lon": 53.7,
-      "name_cs": "Írán",
-      "name_en": "Iran",
-      "auto": true
-    },
-    {
       "key": "China",
       "lat": 35.9,
       "lon": 104.2,
       "name_cs": "Čína",
       "name_en": "China",
+      "auto": true
+    },
+    {
+      "key": "Australia",
+      "lat": -25.3,
+      "lon": 133.8,
+      "name_cs": "Austrálie",
+      "name_en": "Australia",
       "auto": true
     },
     {
@@ -739,25 +746,25 @@
     }
   ],
   "location_counts": {
-    "Brussels": 52,
+    "Brussels": 53,
     "Strasbourg": 17,
-    "Kyiv": 61,
-    "Berlin": 50,
+    "Kyiv": 62,
+    "Berlin": 51,
     "Prague": 2,
-    "Paris": 53,
+    "Paris": 54,
     "Warsaw": 26,
     "Madrid": 33,
-    "Rome": 22,
-    "Frankfurt": 37,
+    "Rome": 23,
+    "Frankfurt": 38,
     "London": 34,
-    "Moscow": 37,
+    "Moscow": 38,
     "Budapest": 11,
     "Texas": 1,
     "Oklahoma": 1,
     "Kanada": 1,
-    "Izrael": 4,
+    "Izrael": 1,
     "Írán": 2,
-    "Čína": 3,
+    "Čína": 1,
     "Kolumbie": 1,
     "Dublin": 11,
     "Chisinau": 2,
@@ -768,7 +775,7 @@
     "Lisbon": 1,
     "Athens": 3,
     "Bucharest": 6,
-    "Washington, D.C.": 1,
+    "Washington, D.C.": 2,
     "Katar": 1,
     "Indie": 1,
     "Japonsko": 1,
@@ -791,8 +798,8 @@
     "Súdán": 1,
     "SAE": 1,
     "Chile": 1,
-    "Copenhagen": 3,
-    "Stockholm": 2,
+    "Copenhagen": 4,
+    "Stockholm": 3,
     "Sofia": 7,
     "Bratislava": 2,
     "Zagreb": 2,
@@ -800,23 +807,16 @@
     "Aljaška": 1,
     "Kalifornie": 1,
     "Afghánistán": 1,
-    "Sýrie": 1
+    "Sýrie": 1,
+    "Austrálie": 1
   },
   "top_location": {
     "key": "Kyiv",
     "name_cs": "Kyjev",
     "name_en": "Kyiv",
-    "count": 61
+    "count": 62
   },
   "archive": [
-    {
-      "date": "2026-10-14 10:57",
-      "threat_level": "HIGH",
-      "security_status_cs": "Evropa čelí stupňujícím se bezpečnostním rizikům kvůli ruským útokům na ukrajinskou energetickou infrastrukturu a technologickým omezením na frontě. Politická nestabilita roste v důsledku fiskálních tlaků ve Francii, sociálních nepokojů a rostoucího vlivu krajní pravice ohrožující financování Ukrajiny.",
-      "security_status_en": "Europe faces escalating security risks due to Russian strikes on Ukrainian energy infrastructure and frontline technological restrictions. Political instability is growing amid fiscal pressures in France, social unrest, and the rising influence of the far-right threatening Ukraine funding.",
-      "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající napětí na frontě na Ukrajině, pokračující rozpočtové spory v EU a nervozitu na trzích ohledně francouzského dluhu.",
-      "forecast_en": "Persistent tension on the Ukrainian frontline, ongoing EU budget disputes, and market anxiety regarding French debt are expected in the coming days."
-    },
     {
       "date": "2026-10-15 05:00",
       "threat_level": "HIGH",
@@ -920,23 +920,31 @@
       "security_status_en": "Europe faces a convergence of severe crises including widespread rioting and violence in France and Italy, escalating war in Ukraine with infrastructure strikes, and mounting pressures in bond markets. The political landscape is further complicated by uncertainties surrounding Washington's stance on Russia sanctions.",
       "forecast_cs": "V následujících dnech se očekává pokračování politického tlaku na francouzskou vládu kvůli nepokojům a zvýšená ostražitost na východním křídle NATO v reakci na eskalující útoky dronů.",
       "forecast_en": "In the coming days, political pressure on the French government over riots is expected to persist, alongside heightened vigilance on NATO's eastern flank in response to escalating drone attacks."
+    },
+    {
+      "date": "2026-10-19 11:43",
+      "threat_level": "HIGH",
+      "security_status_cs": "Evropa čelí vlně vnitřních i vnějších otřesů, dominuje hluboká politická a bezpečnostní krize ve Francii poznamenaná rozsáhlými nepokoji, útoky na veřejný pořádek a výprodejem francouzských dluhopisů. Na východě mezitím pokračuje eskalace války na Ukrajině, kde Kyiv hlásí bezprecedentní použití dronů a roste napětí kolem americké politiky vůči Rusku.",
+      "security_status_en": "Europe is facing a wave of internal and external shocks, dominated by a deep political and security crisis in France marked by widespread riots, attacks on public order, and a sell-off in French bonds. Meanwhile, the escalation of the war in Ukraine continues in the east, where Kyiv reports unprecedented drone usage and tensions rise over US policy towards Russia.",
+      "forecast_cs": "V nejbližších dnech lze očekávat pokračující bezpečnostní opatření a curfews ve francouzských městech a nervozitu na dluhopisových trzích. Diplomatické napětí mezi Evropou a USA ohledně strategie vůči Ukrajině zůstane na vysoké úrovni.",
+      "forecast_en": "In the coming days, continued security measures and curfews in French cities and nervousness in bond markets are expected. Diplomatic tensions between Europe and the US regarding the strategy toward Ukraine will remain high."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 7× HIGH.",
   "market_data": {
     "stoxx50": {
-      "value": 6204.23,
-      "date": "2026-10-16",
+      "value": 6133.69,
+      "date": "2026-10-19",
       "cached": false
     },
     "dax": {
-      "value": 25622.61,
-      "date": "2026-10-16",
+      "value": 25301.32,
+      "date": "2026-10-19",
       "cached": false
     },
     "eurusd": {
-      "value": 1.1235,
+      "value": 1.1227,
       "date": "2026-10-19",
       "cached": false
     }
