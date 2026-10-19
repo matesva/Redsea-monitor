@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-18T00:00",
+ "updated": "2026-10-19T00:11",
  "band": {
   "7": 2.0,
   "30": 5.0
  },
- "signals_total": 146,
+ "signals_total": 152,
  "summary": {
   "7": {
    "ALL": {
@@ -103,6 +103,94 @@
   }
  },
  "signals": [
+  {
+   "monitor": "Rudé moře",
+   "sector": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
+   "action": "HOLD",
+   "date": "2026-10-18",
+   "tickers": [
+    "RHM.DE",
+    "TTE.PA",
+    "AIR.PA",
+    "ALV.DE"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "USA",
+   "sector": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
+   "action": "BUY",
+   "date": "2026-10-18",
+   "tickers": [
+    "LMT",
+    "RTX",
+    "NOC"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "USA",
+   "sector": "Technologický sektor (Apple, Microsoft, Nvidia)",
+   "action": "BUY",
+   "date": "2026-10-18",
+   "tickers": [
+    "NVDA",
+    "AAPL",
+    "MSFT"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Evropa",
+   "sector": "Energetika (TotalEnergies, Shell, RWE)",
+   "action": "HOLD",
+   "date": "2026-10-18",
+   "tickers": [
+    "SHEL",
+    "TTE.PA"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Evropa",
+   "sector": "Automobilový průmysl (Volkswagen, BMW, Stellantis)",
+   "action": "SELL",
+   "date": "2026-10-18",
+   "tickers": [
+    "BMW.DE"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Argentina (Merval, YPF, MercadoLibre)",
+   "action": "HOLD",
+   "date": "2026-10-18",
+   "tickers": [
+    "^MERV",
+    "MELI",
+    "YPF"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
   {
    "monitor": "Rudé moře",
    "sector": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
@@ -1165,91 +1253,6 @@
     "CVX"
    ],
    "ret7": 4.13,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Japonsko",
-   "sector": "Technologie (Sony, SoftBank)",
-   "action": "SELL",
-   "date": "2026-10-04",
-   "tickers": [
-    "6758.T",
-    "9984.T"
-   ],
-   "ret7": -7.91,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Evropa",
-   "sector": "Energetika (TotalEnergies, Shell, RWE)",
-   "action": "HOLD",
-   "date": "2026-10-03",
-   "tickers": [
-    "SHEL",
-    "TTE.PA"
-   ],
-   "ret7": 4.72,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Blízký východ",
-   "sector": "Ropa a plyn (Chevron, ExxonMobil)",
-   "action": "HOLD",
-   "date": "2026-10-03",
-   "tickers": [
-    "CVX"
-   ],
-   "ret7": 4.13,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Rudé moře",
-   "sector": "Ropa a Plyn (např. Shell, BP, Chevron)",
-   "action": "BUY",
-   "date": "2026-10-02",
-   "tickers": [
-    "SHEL",
-    "BP",
-    "CVX"
-   ],
-   "ret7": 3.31,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Rudé moře",
-   "sector": "Evropský Spotřební sektor & Autoprůmysl (např. Volvo, BMW)",
-   "action": "SELL",
-   "date": "2026-10-02",
-   "tickers": [
-    "VOLV-B.ST",
-    "BMW.DE"
-   ],
-   "ret7": -0.88,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "USA",
-   "sector": "Technologický sektor (Apple, Microsoft, Nvidia)",
-   "action": "HOLD",
-   "date": "2026-10-02",
-   "tickers": [
-    "NVDA",
-    "AAPL",
-    "MSFT"
-   ],
-   "ret7": 0.76,
    "ok7": true,
    "ret30": null,
    "ok30": null
