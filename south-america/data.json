@@ -1,60 +1,193 @@
 {
-  "last_updated": "2026-10-19T11:44:37Z",
+  "last_updated": "2026-10-20T05:00:56Z",
   "assessment": {
     "threat_level": "HIGH",
     "sentiment_score": 68,
-    "security_status_cs": "Brazílie čelí vyhrocené předvolební konfrontaci před druhým kolem mezi Lulou a Flavio Bolsonarem, zatímco v Kolumbii probíhají protesty a rostou ceny arabiky kvůli celním sporům s USA. Argentina mezitím stupňuje diplomatický a právní tlak kolem Falkland, což vyvolává obavy o ropný a rybářský průmysl.",
-    "security_status_en": "Brazil faces a heated presidential run-off battle between Lula and Flavio Bolsonaro, while Colombia sees museum protests and Arabica coffee prices surge amid U.S. tariff disputes. Meanwhile, Argentina escalates diplomatic and legal pressure over the Falklands, raising concerns for the local oil and fisheries industries.",
+    "security_status_cs": "Jižní Amerikou zmítá vyhrocená předvolební kampaň v Brazílii před druhým kolem, kde úřadující prezident Lula čelí Fláviu Bolsonaro, zatímco v Kolumbii nadále rezonuje bezpečnostní krize po nelegálním kolapsu dolu a diplomatickém napětí. Argentina pod vedením prezidenta Mileie pokračuje v radikálních ekonomických škrtech a rekordní produkci ropy, navzdory přetrvávajícímu geopolitickému napětí kolem Falkland.",
+    "security_status_en": "South America is gripped by a fiercely contested presidential runoff campaign in Brazil as incumbent Lula faces Flávio Bolsonaro, while Colombia continues to grapple with security crises following an illegal gold mine collapse and diplomatic tensions. Argentina under President Milei presses ahead with radical economic cuts and record oil production, despite persistent geopolitical friction over the Falklands.",
     "recommendations": [
       {
         "sector_cs": "Brazilský akciový trh (Bovespa, ETF EWZ)",
         "sector_en": "Brazilian Equities (Bovespa, EWZ ETF)",
         "action": "HOLD",
-        "reason_cs": "Trhy vyčkávají na výsledek blížícího se prezidentského run-offu a sledují pokles zemědělských insolvencí i rekordně nízkou odlesněnost v Amazonii.",
-        "reason_en": "Markets are awaiting the outcome of the upcoming presidential run-off while digesting falling farm insolvencies and record-low Amazon deforestation."
+        "reason_cs": "Trhy vyčkávají na výsledek těsného druhého kola mezi Lulou a Bolsonarem a na regulační zásahy do sociálních médií a práce.",
+        "reason_en": "Markets are awaiting the outcome of the tight runoff between Lula and Bolsonaro, alongside regulatory interventions in social media and labor."
       },
       {
         "sector_cs": "Argentina (Merval, YPF, MercadoLibre)",
         "sector_en": "Argentina (Merval, YPF, MercadoLibre)",
-        "action": "HOLD",
-        "reason_cs": "Napětí kolem Falklandských ostrovů a nové právní kroky vůči těžařům zvyšují geopolitické riziko pro argentinské energetické tituly.",
-        "reason_en": "Tensions surrounding the Falkland Islands and new legal steps against explorers elevate geopolitical risk for Argentine energy equities."
+        "action": "BUY",
+        "reason_cs": "Rekordní produkce ropy v Neuquénu a masivní škrty ve veřejném sektoru posilují fiskální disciplínu a zájem investorů.",
+        "reason_en": "Record oil production in Neuquén and aggressive public sector spending cuts are bolstering fiscal discipline and investor interest."
       },
       {
         "sector_cs": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
         "sector_en": "Mining: Copper & Lithium (Southern Copper, SQM, Freeport)",
         "action": "HOLD",
-        "reason_cs": "Globální makroekonomická nejistota a výhled sazeb Fedu udržují těžařské tituly v bočním trendu bez jasného směru.",
-        "reason_en": "Global macroeconomic uncertainty and Fed rate expectations keep mining equities trading sideways without a clear directional breakout."
+        "reason_cs": "Ceny kovů zůstávají stabilní, avšak strukturální rizika nelegální těžby a politických zásahů v Andách vyžadují obezřetnost.",
+        "reason_en": "Metal prices remain stable, but structural risks from illegal mining and political intervention in the Andes warrant caution."
       },
       {
         "sector_cs": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
         "sector_en": "Oil & Energy (Petrobras, Ecopetrol, Chevron)",
-        "action": "HOLD",
-        "reason_cs": "Ceny ropy zůstávají relativně stabilní i přes sankční šumy, avšak regionální politická rizika v Kolumbii a Venezuele tlačí na opatrnost.",
-        "reason_en": "Oil prices remain relatively stable despite sanction noise, though regional political risks in Colombia and Venezuela warrant caution."
+        "action": "BUY",
+        "reason_cs": "Argentinský energetický přebytek a stabilní globální poptávka po ropě kompenzují lokální regulační a geopolitická rizika.",
+        "reason_en": "Argentina's energy surplus and stable global oil demand offset local regulatory and geopolitical risks."
       },
       {
         "sector_cs": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
         "sector_en": "Agriculture & Food (JBS, Bunge, Cosan)",
-        "action": "BUY",
-        "reason_cs": "Ceny arabiky dosahují rekordních hodnot vlivem obav z celních sporů mezi USA a Kolumbií, což nahrává producentům komodit.",
-        "reason_en": "Arabica coffee prices hit record highs due to U.S.-Colombia tariff fears, providing strong tailwinds for soft commodity producers."
+        "action": "HOLD",
+        "reason_cs": "Ceny kávy dosáhly rekordů kvůli kolísání cel a obchodním sporům mezi USA a Kolumbií, což zvyšuje maržovou volatilitu.",
+        "reason_en": "Coffee prices hit records amid tariff fluctuations and US-Colombia trade disputes, increasing margin volatility."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Dění v Jižní Americe má na tyto domácí a středoevropsky orientované tituly minimální přímý vliv, rozhodující je globální likvidita.",
-        "reason_en": "South American developments have minimal direct impact on these domestic and Central European-focused stocks, which are driven by global liquidity."
+        "reason_cs": "Dění v Jižní Americe nemá na české banky a energetiku přímý vliv, klíčové zůstávají domácí faktory a politika ECB.",
+        "reason_en": "South American developments have no direct impact on Czech banks and utilities, with domestic factors and ECB policy remaining key."
       }
     ],
-    "forecast_cs": "V příštích dnech se očekává vyvrcholení kampaně před brazilským druhým kolem a reakce trhů na vývoj kolem kolumbijského obchodu a komoditních cen.",
+    "forecast_cs": "V nejbližších dnech se očekává vyvrcholení kampaně před brazilským druhým kolem a reakce trhů na vývoj kolem kolumbijského obchodu a komoditních cen.",
     "forecast_en": "Over the coming days, expect the climax of the campaign ahead of the Brazilian runoff and market reactions to Colombian trade developments and commodity prices.",
-    "forecast_review_cs": "Předchozí předpověď se plně potvrdila, neboť kampaň před brazilským druhým kolem graduje a regionální napětí kolem zdrojů a ekonomiky roste.",
-    "forecast_review_en": "The previous forecast was fully confirmed as the campaign ahead of the Brazilian runoff culminates and regional tensions over resources and economics intensify."
+    "forecast_review_cs": "Předchozí předpověď se plně potvrdila, jelikož trhy i politická scéna se soustředí na finále brazilských voleb a komoditní výkyvy v Kolumbii.",
+    "forecast_review_en": "The previous forecast was fully confirmed as markets and the political arena focus squarely on the finale of the Brazilian election and Colombian commodity fluctuations."
   },
   "articles": [
+    {
+      "title": "LatAm Expat & Nomad Daily Guide for Tuesday, October 20, 2026",
+      "summary": "<p>Your Tuesday LatAm guide: Hurricane Trudy ends offshore, Colombia's visa deadline, Brazil's runoff and today's exchange rates.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/latam-expat-nomad-daily-guide-for-tuesday-october-20-2026/\">LatAm Expat & Nomad Daily Guide for Tuesday, October 20, 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/latam-expat-nomad-daily-guide-for-tuesday-october-20-2026/",
+      "published": "Tue, 20 Oct 2026 04:40:14 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Lula Campaign Says Meta Defies Court Order",
+      "summary": "<p>Lula's campaign told Brazil's electoral court Meta is not obeying its order to treat both runoff campaigns equally; Meta denies bias.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/lula-campaign-tse-meta-not-complying-court-order-2026/\">Lula Campaign Says Meta Defies Court Order</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/lula-campaign-tse-meta-not-complying-court-order-2026/",
+      "published": "Tue, 20 Oct 2026 04:01:08 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Fourteen dead in illegal Colombian gold mine collapse",
+      "summary": "Fourteen dead in illegal Colombian gold mine collapse",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/20/fourteen-dead-in-illegal-colombian-gold-mine-collapse?traffic_source=rss",
+      "published": "Tue, 20 Oct 2026 03:55:27 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "US Visa Limits Brazilians to 3 Date Changes",
+      "summary": "<p>Since 29 September, Brazil's US visa system allows only three interview cancellations or reschedulings per appointment. After that, the date is locked.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/us-visa-scheduling-limits-changes-brazil/\">US Visa Limits Brazilians to 3 Date Changes</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/us-visa-scheduling-limits-changes-brazil/",
+      "published": "Tue, 20 Oct 2026 03:34:38 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Milei hails Argentina's ‘underground revolution’",
+      "summary": "<p><img alt=\"President Javier Milei. \" src=\"https://fotos.perfil.com/2026/10/20/trim/540/304/president-javier-milei-2352060.jpg\" /></p>President boasts of record oil production, growing exports and an energy surplus of more than US$10 billion during speech to oil and gas expo in Neuquén. <a href=\"https://www.batimes.com.ar/news/economy/milei-hails-vaca-muerta-formation-as-underground-revolution.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/economy/milei-hails-vaca-muerta-formation-as-underground-revolution.phtml",
+      "published": "Tue, 20 Oct 2026 00:45:47 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "‘Release Epstein files’, protester interrupts JD Vance’s speech",
+      "summary": "A protester demanding the release of the Epstein files interrupted US Vice President JD Vance's speech.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/20/release-epstein-files-protester-interrupts-jd-vances-speech?traffic_source=rss",
+      "published": "Tue, 20 Oct 2026 00:18:48 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Hegseth meets Netanyahu in unannounced Israel visit",
+      "summary": "Hegseth has travelled to Israel to meet Netanyahu ahead of a closely contested election, Axios reported, citing sources.",
+      "link": "https://www.aljazeera.com/news/2026/10/20/hegseth-meets-netanyahu-in-unannounced-israel-visit?traffic_source=rss",
+      "published": "Tue, 20 Oct 2026 00:08:01 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Colombia illegal gold mine collapse kills 14 people",
+      "summary": "Illegal gold mine collapse in southwestern Colombia leaves 14 people dead, 7 injured.",
+      "link": "https://www.aljazeera.com/news/2026/10/19/colombia-illegal-gold-mine-collapse-kills-14-people?traffic_source=rss",
+      "published": "Mon, 19 Oct 2026 23:56:17 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Alberta voters decide whether to take a step toward separating from Canada",
+      "summary": "In Canada, the oil-rich province of Alberta votes in a referendum that could set it on a path toward separation, as Prime Minister Mark Carney warns of threats to Canadian unity.",
+      "link": "https://www.npr.org/2026/10/19/nx-s1-6005810/alberta-voters-decide-whether-to-take-a-step-toward-separating-from-canada",
+      "published": "Mon, 19 Oct 2026 18:29:57 -0400",
+      "source": "NPR"
+    },
+    {
+      "title": "Colombia reignites territorial dispute with Nicaragua over Caribbean islands",
+      "summary": "<p>President Abelardo de la Espriella reignited a decades-long dispute with Nicaragua.</p>\n<p>The post <a href=\"https://www.latinamericareports.com/colombia-reignites-territorial-dispute-with-nicaragua-over-caribbean-islands/15405/\">Colombia reignites territorial dispute with Nicaragua over Caribbean islands</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
+      "link": "https://www.latinamericareports.com/colombia-reignites-territorial-dispute-with-nicaragua-over-caribbean-islands/15405/",
+      "published": "Mon, 19 Oct 2026 22:28:50 +0000",
+      "source": "Latin America Reports"
+    },
+    {
+      "title": "Why the midterm elections are likely to become a strong tailwind for the stock market",
+      "summary": "The six months subsequent to midterm elections have seen strong gains, historically",
+      "link": "https://www.marketwatch.com/story/why-the-midterm-elections-are-likely-to-become-a-strong-tailwind-for-the-stock-market-3edfca6c?mod=mw_rss_topstories",
+      "published": "Mon, 19 Oct 2026 21:00:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "US calls at the UN for an end to the Decolonisation Committee, key to Argentina’s claim",
+      "summary": "<p>\n\t   \t      <img alt=\"The Argentine government has not commented on the US position, which contrasts with the close alliance between Milei and President Donald Trump\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111816/100x80/ustr.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         The United States has called at the UN for an end to the mandate of the Special Committee on Decolonisation, the body before which Argentina presents its sovereignty claim over the Falklands every year, and described some of its activities as “a waste of resources”, according to the official summary of the General Assembly Fourth Committee session held on October 15.</p>",
+      "link": "https://en.mercopress.com/2026/10/19/us-calls-at-the-un-for-an-end-to-the-decolonisation-committee-key-to-argentina-s-claim?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Mon, 19 Oct 2026 19:50:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "Argentina spent US$445 million on weapons and military equipment under Milei",
+      "summary": "<p>\n\t   \t      <img alt=\"The largest acquisition was 24 F-16 fighters from Denmark, agreed in April 2024 for US$301.2 million payable in five annual instalments\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111814/100x80/milei.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Argentina’s government spent some US$445 million on weapons, military and security equipment from when Javier Milei took office in December 2023 to August 2026, according to an analysis by the newspaper Infobae based on the state’s official procurement system and agreements signed with other countries. The figure already exceeds what was invested during the full terms of Alberto Fernández and Mauricio Macri.</p>",
+      "link": "https://en.mercopress.com/2026/10/19/argentina-spent-us-445-million-on-weapons-and-military-equipment-under-milei?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Mon, 19 Oct 2026 19:46:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "De la Espriella resets relations between Colombia and Israel",
+      "summary": "<p>Colombia became only the tenth country to relocate its embassy from Tel Aviv to Jerusalem.</p>\n<p>The post <a href=\"https://www.latinamericareports.com/de-la-espriella-resets-relations-between-colombia-and-israel/15402/\">De la Espriella resets relations between Colombia and Israel</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
+      "link": "https://www.latinamericareports.com/de-la-espriella-resets-relations-between-colombia-and-israel/15402/",
+      "published": "Mon, 19 Oct 2026 19:43:30 +0000",
+      "source": "Latin America Reports"
+    },
+    {
+      "title": "Two top Trump officials set for Buenos Aires visit",
+      "summary": "<p><img alt=\"Milei Trump meeting UNGA\" src=\"https://fotos.perfil.com/2025/09/23/trim/540/304/milei-trump-meeting-unga-2104424.jpg\" /></p>Christopher Landau and Juan Pablo Segura, from the Bureau of Western Hemisphere Affairs, are visiting Paraguay and Argentina. Drug-trafficking, security and investment top the agenda as Washington steps up engagement with Argentina. <a href=\"https://www.batimes.com.ar/news/world/two-top-trump-officials-set-for-buenos-aires-visit.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/world/two-top-trump-officials-set-for-buenos-aires-visit.phtml",
+      "published": "Mon, 19 Oct 2026 18:45:03 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Argentina steps up drive to shrink public-sector workforce",
+      "summary": "<p><img alt=\"milei, sturzenegger STOCK\" src=\"https://fotos.perfil.com/2026/10/19/trim/540/304/milei-sturzenegger-stock-2351690.jpg\" /></p>Milei government launches voluntary redundancy scheme aimed at cutting 20,000 jobs from the public sector; More than 77,000 state workers have lost posts since December 2023.  <a href=\"https://www.batimes.com.ar/news/economy/argentina-steps-up-drive-to-shrink-public-sector-workforce.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/economy/argentina-steps-up-drive-to-shrink-public-sector-workforce.phtml",
+      "published": "Mon, 19 Oct 2026 18:30:24 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Four soldiers dead, dozens injured in fire at Canada military base",
+      "summary": "Four soldiers were killed and dozens injured in a fire at a military base in Alberta province, one of the worst peacetime tragedies to hit Canada's armed forces on home soil, Prime Minister Mark Carney said Sunday.",
+      "link": "https://www.france24.com/en/video/20261019-four-soldiers-dead-dozens-injured-in-fire-at-canada-military-base",
+      "published": "Mon, 19 Oct 2026 14:25:09 GMT",
+      "source": "France 24"
+    },
+    {
+      "title": "Brazil court orders Meta to prove it gives Lula, Bolsonaro campaign content equal treatment",
+      "summary": "Brazil’s top electoral court has given Meta 24 hours to prove it is treating campaign content from incumbent President Luiz Inácio Lula da Silva and Senator Flavio Bolsonaro equally on its online platforms, threatening a daily fine for noncompliance. The ruling follows allegations from Lula's campaign that the social media giant is suppressing Lula’s campaign content ahead of Sunday’s closely contested presidential runoff.",
+      "link": "https://www.france24.com/en/americas/20261019-brazil-court-orders-meta-prove-gives-lula-bolsonaro-campaign-content-equal-treatment",
+      "published": "Mon, 19 Oct 2026 14:16:05 GMT",
+      "source": "France 24"
+    },
+    {
+      "title": "Personal attacks fire up debate before Brazil's run-off vote",
+      "summary": "The race heats up just days before the run-off between the left-wing incumbent and his right-wing challenger.",
+      "link": "https://www.bbc.co.uk/news/articles/ck98zlzyqle3o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 19 Oct 2026 11:41:24 GMT",
+      "source": "BBC News"
+    },
     {
       "title": "2026 midterms could be the most expensive on record. And, Macron condemns protests",
       "summary": "More than $15 billion has been raised in this year's midterm elections. And, France's president is condemning the violent protests erupting across the country.",
@@ -63,53 +196,11 @@
       "source": "NPR"
     },
     {
-      "title": "Museum protesters in Colombia accuse gov’t of erasing history",
-      "summary": "Police used tear gas and water cannon to disperse protesters outside Colombia’s National Museum in Bogota.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/19/museum-protesters-in-colombia-accuse-govt-of-erasing-history?traffic_source=rss",
-      "published": "Mon, 19 Oct 2026 10:55:23 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Brazil Farm Insolvency Filings Fall 20.7%",
-      "summary": "<p>Brazil's farms filed 448 court-supervised debt restructurings in Q2 2026, 20.7% fewer than a year ago and the end of three straight second-quarter rises.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/brazil-farm-insolvency-filings-fall-q2-serasa-2026/\">Brazil Farm Insolvency Filings Fall 20.7%</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/brazil-farm-insolvency-filings-fall-q2-serasa-2026/",
-      "published": "Mon, 19 Oct 2026 10:45:25 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Mexican protesters demanding clean water storm state congress",
-      "summary": "Mexican protesters demanding clean water storm state congress",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/19/mexican-protesters-demanding-clean-water-storm-state-congress?traffic_source=rss",
-      "published": "Mon, 19 Oct 2026 10:08:01 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Brazil Events Calendar: Carnival, Réveillon and Festivals",
-      "summary": "<p>A month-by-month calendar of Brazil's biggest events from November 2026 to October 2027, with confirmed dates, cities and links to our guides.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/brazil-events-calendar-2026-2027/\">Brazil Events Calendar: Carnival, Réveillon and Festivals</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/brazil-events-calendar-2026-2027/",
-      "published": "Mon, 19 Oct 2026 09:51:00 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Brazil Carnival 2027: Dates, Parades and Tickets",
-      "summary": "<p>Carnival 2027 in Brazil runs from 6 to 9 February, with samba parades in Rio and São Paulo and street parties in Salvador and Recife. Dates, tickets and tips.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/brazil-carnival-2027-dates-rio-sao-paulo-salvador-recife/\">Brazil Carnival 2027: Dates, Parades and Tickets</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/brazil-carnival-2027-dates-rio-sao-paulo-salvador-recife/",
-      "published": "Mon, 19 Oct 2026 09:50:43 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "France’s Macron declines minister’s resignation after violent protests",
-      "summary": "Interior Minister Laurent Nunez acknowledges that police 'lost control' during weekend protests.",
-      "link": "https://www.aljazeera.com/news/2026/10/19/frances-macron-declines-ministers-resignation-after-violent-protests?traffic_source=rss",
-      "published": "Mon, 19 Oct 2026 08:25:27 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Elderly man forcibly detained at Elbit Systems protest in Germany",
-      "summary": "An elderly man was forcibly restrained by police during a protest against Elbit Systems in Ulm, Germany.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/19/elderly-man-forcibly-detained-at-elbit-systems-protest-in-germany?traffic_source=rss",
-      "published": "Mon, 19 Oct 2026 08:04:03 +0000",
-      "source": "Al Jazeera"
+      "title": "Alberta voters weigh future in Canada",
+      "summary": "On Monday voters in the oil-rich Canadian province of Alberta are deciding whether to take the first step toward a future referendum on independence.",
+      "link": "https://www.npr.org/2026/10/18/nx-s1-6004877/alberta-referendum-canada-vote",
+      "published": "Mon, 19 Oct 2026 04:45:01 -0400",
+      "source": "NPR"
     },
     {
       "title": "Lula asks Bolsonaro whether he will wield “Milei’s chainsaw” in a heated debate",
@@ -117,20 +208,6 @@
       "link": "https://en.mercopress.com/2026/10/19/lula-asks-bolsonaro-whether-he-will-wield-milei-s-chainsaw-in-a-heated-debate?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
       "published": "Mon, 19 Oct 2026 06:15:00 GMT",
       "source": "MercoPress"
-    },
-    {
-      "title": "Rioting returns to Paris after a day of protests that saw 1,800 arrests across France",
-      "summary": "<p>\n\t   \t      <img alt=\"From early afternoon, groups built barricades from burning rental bicycles in the streets around the square and looted some shops, while police responded with tear gas\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111810/100x80/ph.jpeg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Clashes between police and groups of protesters returned to central Paris on Sunday around the Place de la République, a day after a nationwide day of protests against the cost of living and conditions in schools ended with the looting of hundreds of shops and at least 1,800 arrests across the country, according to police.</p>",
-      "link": "https://en.mercopress.com/2026/10/19/rioting-returns-to-paris-after-a-day-of-protests-that-saw-1-800-arrests-across-france?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Mon, 19 Oct 2026 06:13:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Trump endorses embattled Israeli Prime Minister Benjamin Netanyahu for reelection",
-      "summary": "Trump said in a post on social media that Netanyahu \"has been a Great Warrior Prime Minister, and an even greater Partner for Peace in combatting the Islamic Republic of Iran.\"",
-      "link": "https://www.npr.org/2026/10/19/g-s1-148731/trump-endorses-netanyahu",
-      "published": "Mon, 19 Oct 2026 01:35:39 -0400",
-      "source": "NPR"
     },
     {
       "title": "Brazil's Lula, Bolsonaro clash in bitter debate ahead of election run-off",
@@ -147,27 +224,6 @@
       "source": "The Guardian"
     },
     {
-      "title": "US fears Falklands-related sanctions could hit American companies",
-      "summary": "<p>\n\t   \t      <img alt=\"According to Clarín, Washington has put forward two options: freezing the bill, its preferred choice, or amending it so that US companies are excluded\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111808/100x80/sen.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         The US government has conveyed to Javier Milei’s administration its concern that the National Sovereignty Defence bill, which toughens sanctions against those involved in exploiting resources in the Falklands, could reach American companies, the Argentine newspaper Clarín reported, citing unnamed officials in Washington.</p>",
-      "link": "https://en.mercopress.com/2026/10/18/us-fears-falklands-related-sanctions-could-hit-american-companies?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Sun, 18 Oct 2026 21:56:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
-      "summary": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
-      "link": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
-      "published": "Sun, 18 Oct 2026 17:00:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Carney says 4 service members killed and dozens injured in fire at Alberta military base",
-      "summary": "Canadian Prime Minister Mark Carney described the incident as one of the worst peacetime tragedies for Canada's military on domestic soil.",
-      "link": "https://www.npr.org/2026/10/18/nx-s1-6007276/fire-alberta-deadly-canada-military-base",
-      "published": "Sun, 18 Oct 2026 03:56:08 -0400",
-      "source": "NPR"
-    },
-    {
       "title": "‘4,000 people minding our own business’: four decades on, Falklands again face a hostile Argentina",
       "summary": "<p>Facing a slump in the polls, Argentina’s president is making economic attacks on the islands’ oil industry, and suggesting its key fisheries industry could be next </p><p>A dozen local people and a uniformed military police officer (“Do you mind if I sit in?”) took their seats at the back of the handsome wood-panelled courtroom that doubles as the Falkland Islands’ legislative assembly. Outside, it was a typically blowy early evening. It may nominally be spring in the south Atlantic, but Stanley harbour, with its dark grey water speckled with historical shipwrecks, was a cauldron of swells and churn.</p><p>Six of the assembly’s eight members – five men, one woman – waited patiently at a row of desks and microphones. The heating had been turned up to just short of uncomfortable. Behind them, a portrait of King Charles. From the other walls, dusty photographs of governors peered down on the scene.</p> <a href=\"https://www.theguardian.com/news/ng-interactive/2026/oct/18/4000-people-minding-our-own-business-four-decades-on-falklands-again-face-a-hostile-argentina\">Continue reading...</a>",
       "link": "https://www.theguardian.com/news/ng-interactive/2026/oct/18/4000-people-minding-our-own-business-four-decades-on-falklands-again-face-a-hostile-argentina",
@@ -175,46 +231,11 @@
       "source": "The Guardian"
     },
     {
-      "title": "Rubio says Trump to 'analyze' global impact of Russia sanctions during pause",
-      "summary": "US Secretary of State Marco Rubio said Saturday that US President Donald Trump’s decision to waive sanctions and tariffs on Russia would last 60 days, as the move drew bipartisan criticism and raised fears in Ukraine that Washington could ease further restrictions on Moscow.",
-      "link": "https://www.france24.com/en/americas/20261018-rubio-says-trump-russia-sanctions-waiver-designed-to-analyze-global-impact",
-      "published": "Sun, 18 Oct 2026 02:39:29 GMT",
-      "source": "France 24"
-    },
-    {
-      "title": "‘Standing up for democracy’: Atlanta ‘No Kings’ rally draws Trump critics ahead of midterms",
-      "summary": "“No Kings, Vote Now” was the theme of a rally in Atlanta, one of many organised across the US on Saturday. While many demonstrators denounced US President Donald Trump’s policies, organisers said the rally was aimed at getting out the vote in the November 3 midterm elections and protecting democracy in America.",
-      "link": "https://www.france24.com/en/americas/20261018-standing-up-for-democracy-atlanta-no-kings-rally-draws-trump-critics-ahead-of-us-midterms",
-      "published": "Sun, 18 Oct 2026 01:50:29 GMT",
-      "source": "France 24"
-    },
-    {
-      "title": "Brazil's right embraces election betting odds amid polls scepticism",
-      "summary": "<p><img alt=\"Flávio Bolsonaro STOCK\" src=\"https://fotos.perfil.com/2026/10/06/trim/540/304/flavio-bolsonaro-stock-2342145.jpg\" /></p>Rght-wing figures in Brazil are embracing the Polymarket prediction market's odds as an accurate litmus test of voter intent ahead of next weekend's election run-off.\n <a href=\"https://www.batimes.com.ar/news/latin-america/brazils-right-embraces-election-betting-odds-amid-polls-scepticism.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/latin-america/brazils-right-embraces-election-betting-odds-amid-polls-scepticism.phtml",
-      "published": "Sun, 18 Oct 2026 01:06:25 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
-      "title": "‘Peronism will return to power in Argentina,’ declares Kicillof at loyalty day rally",
-      "summary": "<p><img alt=\"Buenos Aires Province Governor Axel Kicillof leads a rally marking Peronist Loyalty Day on October 17, 2026.\" src=\"https://fotos.perfil.com/2026/10/17/trim/540/304/buenos-aires-province-governor-axel-kicillof-leads-a-rally-marking-peronist-loyalty-day-on-october-17-2026-2350694.jpg\" /></p>Buenos Aires Province governor and Máximo Kirchner stage separate Peronist Loyalty Day rallies, exposing the divisions among opposition ahead of next year’s presidential election.\n <a href=\"https://www.batimes.com.ar/news/argentina/peronism-will-return-to-power-in-argentina-declares-kicillof-at-loyalty-day-rally.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/argentina/peronism-will-return-to-power-in-argentina-declares-kicillof-at-loyalty-day-rally.phtml",
-      "published": "Sat, 17 Oct 2026 21:01:19 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
       "title": "‘I spent five years with criminals’: dissident Cuban artist embraces new life in US after prison release",
       "summary": "<p>Luis Manuel Otero Alcántara tells of the reality of prison, drinking whisky with his captors, and being painted by George W Bush</p><p>When Luis Manuel Otero Alcántara was pushed into the back of a police car on 11 July 2021, during the biggest protests Cuba had seen in nearly three decades, he expected to be in custody for “one, maybe two days”. Instead five years would pass before he was free, and only then after he’d agreed to exile.</p><p>“I remember that Sunday,” he says as he opens a beer in El Espacio 23, an art gallery in the Allapattah neighbourhood of Miami. “I was at my girlfriend’s. Friends started writing to tell me there were demonstrations in the streets. It felt like the day we all longed for had arrived – the end of the dictatorship – and I went out into the street.”</p> <a href=\"https://www.theguardian.com/world/2026/oct/17/cuban-dissident-artist-luis-manuel-otero-alcantara\">Continue reading...</a>",
       "link": "https://www.theguardian.com/world/2026/oct/17/cuban-dissident-artist-luis-manuel-otero-alcantara",
       "published": "Sat, 17 Oct 2026 11:00:30 GMT",
       "source": "The Guardian"
-    },
-    {
-      "title": "Lula and Milei in the mirror",
-      "summary": "<p><img alt=\"Incidents between police and protesters at the fifth Marcha Federal Universitaria.\" src=\"https://fotos.perfil.com/2026/10/16/trim/540/304/incidents-between-police-and-protesters-at-the-fifth-marcha-federal-universitaria-2349555.jpg\" /></p>While in Brazil, President Luiz Inacio Lula da Silva’s chances of re-election are extremely slim despite what appears to be a situation of economic strength, in Argentina, President Javier Milei is still totally in the game as the economy stumbles on its way to a technical recession. <a href=\"https://www.batimes.com.ar/news/opinion-and-analysis/lula-and-milei-in-the-mirror.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/opinion-and-analysis/lula-and-milei-in-the-mirror.phtml",
-      "published": "Sat, 17 Oct 2026 03:10:00 GMT",
-      "source": "Buenos Aires Times"
     },
     {
       "title": "Brazil sees record fall in Amazon deforestation as key election looms",
@@ -236,13 +257,6 @@
       "link": "https://www.theguardian.com/environment/2026/oct/16/brazil-amazon-deforestation-lowest-on-record-election",
       "published": "Fri, 16 Oct 2026 19:37:53 GMT",
       "source": "The Guardian"
-    },
-    {
-      "title": "US troop deployment to Latin America deepens drug fight",
-      "summary": "<p>The soldiers will reportedly train counterparts in Panama, Honduras, and Colombia and participate in joint military exercises.</p>\n<p>The post <a href=\"https://www.latinamericareports.com/us-troop-deployment-to-latin-america-deepens-drug-fight/15394/\">US troop deployment to Latin America deepens drug fight </a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
-      "link": "https://www.latinamericareports.com/us-troop-deployment-to-latin-america-deepens-drug-fight/15394/",
-      "published": "Thu, 15 Oct 2026 22:18:12 +0000",
-      "source": "Latin America Reports"
     },
     {
       "title": "Ex-OFAC Official: The Cartel Risk Companies Can’t See | The InSight Take",
@@ -280,13 +294,6 @@
       "source": "CNBC"
     },
     {
-      "title": "Argentina targets UK in legal claim over Falklands oil exploration",
-      "summary": "The action filed with an international maritime tribunal is the latest development in an escalating row over the Falkland Islands.",
-      "link": "https://www.bbc.co.uk/news/articles/cmp3g14p3z2ko?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 13 Oct 2026 17:36:43 GMT",
-      "source": "BBC News"
-    },
-    {
       "title": "Higher rates could be needed to avoid 'inflationary mindset' taking hold, says Fed's Hammack",
       "summary": "The Cleveland Fed president said that tighter monetary policy would be needed to bring down inflation.",
       "link": "https://www.cnbc.com/2026/10/12/beth-hammack-fed-inflation-policy.html",
@@ -306,13 +313,6 @@
       "link": "https://insightcrime.org/news/tiguerones-leader-willy-spain/",
       "published": "Mon, 12 Oct 2026 18:19:10 +0000",
       "source": "InSight Crime"
-    },
-    {
-      "title": "What’s behind Venezuela’s mounting electricity crisis?",
-      "summary": "<p>Corruption, poor maintenance, and brain drain have exacerbated the electricity crisis in Venezuela.</p>\n<p>The post <a href=\"https://www.latinamericareports.com/whats-behind-venezuelas-mounting-electricity-crisis/15370/\">What’s behind Venezuela’s mounting electricity crisis?</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
-      "link": "https://www.latinamericareports.com/whats-behind-venezuelas-mounting-electricity-crisis/15370/",
-      "published": "Mon, 12 Oct 2026 13:00:11 +0000",
-      "source": "Latin America Reports"
     },
     {
       "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
@@ -337,15 +337,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-09 05:01",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 72,
-      "incidents": 40,
-      "bovespa": 206220.23,
-      "brl_czk": null
-    },
     {
       "date": "2026-10-09 12:23",
       "threat_level": "HIGH",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "bovespa": 205430.33,
       "brl_czk": null
+    },
+    {
+      "date": "2026-10-20 05:00",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 68,
+      "incidents": 40,
+      "bovespa": 205079.25,
+      "brl_czk": null
     }
   ],
   "locations": [
@@ -652,6 +652,13 @@
       "name_en": "Quito"
     },
     {
+      "key": "Asuncion",
+      "lat": -25.2637,
+      "lon": -57.5759,
+      "name_cs": "Asunción",
+      "name_en": "Asunción"
+    },
+    {
       "key": "Amazon",
       "lat": -3.4653,
       "lon": -62.2159,
@@ -659,18 +666,18 @@
       "name_en": "Amazon"
     },
     {
+      "key": "Patagonia",
+      "lat": -41.8,
+      "lon": -68.9,
+      "name_cs": "Patagonie",
+      "name_en": "Patagonia"
+    },
+    {
       "key": "Falklands",
       "lat": -51.7963,
       "lon": -59.5236,
       "name_cs": "Falklandy",
       "name_en": "Falkland Islands"
-    },
-    {
-      "key": "Panama",
-      "lat": 8.9824,
-      "lon": -79.5199,
-      "name_cs": "Panama",
-      "name_en": "Panama"
     },
     {
       "key": "Cuba",
@@ -703,14 +710,6 @@
       "auto": true
     },
     {
-      "key": "Atlanta",
-      "lat": 33.75,
-      "lon": -84.39,
-      "name_cs": "Atlanta",
-      "name_en": "Atlanta",
-      "auto": true
-    },
-    {
       "key": "Ohio",
       "lat": 40.4,
       "lon": -82.8,
@@ -724,22 +723,6 @@
       "lon": -106.3,
       "name_cs": "Kanada",
       "name_en": "Canada",
-      "auto": true
-    },
-    {
-      "key": "Mexico",
-      "lat": 23.6,
-      "lon": -102.5,
-      "name_cs": "Mexiko",
-      "name_en": "Mexico",
-      "auto": true
-    },
-    {
-      "key": "Venezuela",
-      "lat": 7,
-      "lon": -66,
-      "name_cs": "Venezuela",
-      "name_en": "Venezuela",
       "auto": true
     },
     {
@@ -759,14 +742,6 @@
       "auto": true
     },
     {
-      "key": "Ukrain",
-      "lat": 50.45,
-      "lon": 30.52,
-      "name_cs": "Ukrajina",
-      "name_en": "Ukrain",
-      "auto": true
-    },
-    {
       "key": "Russia",
       "lat": 55.75,
       "lon": 37.62,
@@ -783,14 +758,6 @@
       "auto": true
     },
     {
-      "key": "Iran",
-      "lat": 32.4,
-      "lon": 53.7,
-      "name_cs": "Írán",
-      "name_en": "Iran",
-      "auto": true
-    },
-    {
       "key": "Singapore",
       "lat": 1.35,
       "lon": 103.8,
@@ -799,35 +766,11 @@
       "auto": true
     },
     {
-      "key": "London",
-      "lat": 51.5,
-      "lon": -0.12,
-      "name_cs": "Londýn",
-      "name_en": "London",
-      "auto": true
-    },
-    {
-      "key": "Germany",
-      "lat": 52.52,
-      "lon": 13.4,
-      "name_cs": "Berlín",
-      "name_en": "Germany",
-      "auto": true
-    },
-    {
       "key": "France",
       "lat": 48.86,
       "lon": 2.35,
       "name_cs": "Paříž",
       "name_en": "France",
-      "auto": true
-    },
-    {
-      "key": "Italy",
-      "lat": 41.9,
-      "lon": 12.5,
-      "name_cs": "Řím",
-      "name_en": "Italy",
       "auto": true
     },
     {
@@ -840,36 +783,36 @@
     }
   ],
   "location_counts": {
-    "Brasilia": 37,
-    "Sao Paulo": 21,
+    "Brasilia": 38,
+    "Sao Paulo": 22,
     "Rio de Janeiro": 6,
-    "Buenos Aires": 37,
+    "Buenos Aires": 38,
     "Santiago": 35,
     "Lima": 28,
-    "Bogota": 37,
-    "Caracas": 36,
-    "Quito": 22,
+    "Bogota": 38,
+    "Caracas": 37,
+    "Quito": 23,
     "La Paz": 15,
-    "Asuncion": 6,
-    "Washington": 37,
+    "Asuncion": 7,
+    "Washington": 38,
     "New York": 2,
     "Texas": 1,
     "Colorado": 1,
-    "Kanada": 2,
+    "Kanada": 4,
     "Mexiko": 1,
     "Venezuela": 1,
     "Brazílie": 10,
-    "Argentina": 6,
+    "Argentina": 7,
     "Ukrajina": 1,
-    "Rusko": 2,
+    "Rusko": 1,
     "Pákistán": 1,
     "Londýn": 1,
-    "Paříž": 3,
+    "Paříž": 1,
     "Madrid": 1,
     "Peru": 1,
     "Bolívie": 1,
     "Montevideo": 17,
-    "Falklands": 22,
+    "Falklands": 23,
     "Ohio": 1,
     "Michigan": 1,
     "Severní Karolína": 1,
@@ -879,7 +822,7 @@
     "Atacama": 8,
     "Beijing": 13,
     "Čína": 1,
-    "Amazon": 24,
+    "Amazon": 25,
     "Medellin": 1,
     "Tchaj-wan": 1,
     "Řím": 1,
@@ -888,7 +831,7 @@
     "Berlín": 1,
     "Panama": 16,
     "Austrálie": 1,
-    "Izrael": 1,
+    "Izrael": 2,
     "Detroit": 1,
     "Etiopie": 1,
     "Nigérie": 1,
@@ -898,28 +841,20 @@
     "Los Angeles": 1,
     "Paramaribo": 1,
     "Arizona": 1,
-    "Patagonia": 6,
+    "Patagonia": 7,
     "Somálsko": 1,
     "Atlanta": 1,
     "Georgetown": 4,
     "Kalifornie": 1,
-    "Cuba": 4
+    "Cuba": 5
   },
   "top_location": {
     "key": "Brasilia",
     "name_cs": "Brasília",
     "name_en": "Brasília",
-    "count": 37
+    "count": 38
   },
   "archive": [
-    {
-      "date": "2026-10-15 05:00",
-      "threat_level": "HIGH",
-      "security_status_cs": "Jižní Amerika čelí rostoucímu napětí spojenému s blížícím se brazilským prezidentským koly a legislativními změnami, zatímco Argentina vyostřuje právní spory ohledně ropných projektů u Falkland. Regionální trhy nadále oslabují kvůli silnému dolaru a globálním inflačním tlakům, přičemž Kolumbie zažívá protivládní protesty proti novému pravicovému prezidentovi.",
-      "security_status_en": "South America faces mounting tensions ahead of Brazil's presidential runoff and legislative shifts, while Argentina escalates legal disputes regarding Falklands oil projects. Regional markets continue to weaken due to a strong US dollar and global inflation concerns, alongside anti-government protests in Colombia against the new right-wing president.",
-      "forecast_cs": "V nejbližších dnech lze očekávat gradaci kampaně před brazilským prezidentským runofem a pokračující napětí v Kolumbii. Trhy budou nadále citlivě reagovat na data o americké inflaci a sílu dolaru.",
-      "forecast_en": "Over the coming days, campaign intensity ahead of the Brazilian presidential runoff and ongoing tensions in Colombia are expected to grow. Markets will remain sensitive to US inflation data and the strength of the dollar."
-    },
     {
       "date": "2026-10-15 10:39",
       "threat_level": "MEDIUM",
@@ -1023,14 +958,22 @@
       "security_status_en": "Brazil faces a heated presidential run-off battle between Lula and Flavio Bolsonaro, while Colombia sees museum protests and Arabica coffee prices surge amid U.S. tariff disputes. Meanwhile, Argentina escalates diplomatic and legal pressure over the Falklands, raising concerns for the local oil and fisheries industries.",
       "forecast_cs": "V příštích dnech se očekává vyvrcholení kampaně před brazilským druhým kolem a reakce trhů na vývoj kolem kolumbijského obchodu a komoditních cen.",
       "forecast_en": "Over the coming days, expect the climax of the campaign ahead of the Brazilian runoff and market reactions to Colombian trade developments and commodity prices."
+    },
+    {
+      "date": "2026-10-20 05:00",
+      "threat_level": "HIGH",
+      "security_status_cs": "Jižní Amerikou zmítá vyhrocená předvolební kampaň v Brazílii před druhým kolem, kde úřadující prezident Lula čelí Fláviu Bolsonaro, zatímco v Kolumbii nadále rezonuje bezpečnostní krize po nelegálním kolapsu dolu a diplomatickém napětí. Argentina pod vedením prezidenta Mileie pokračuje v radikálních ekonomických škrtech a rekordní produkci ropy, navzdory přetrvávajícímu geopolitickému napětí kolem Falkland.",
+      "security_status_en": "South America is gripped by a fiercely contested presidential runoff campaign in Brazil as incumbent Lula faces Flávio Bolsonaro, while Colombia continues to grapple with security crises following an illegal gold mine collapse and diplomatic tensions. Argentina under President Milei presses ahead with radical economic cuts and record oil production, despite persistent geopolitical friction over the Falklands.",
+      "forecast_cs": "V nejbližších dnech se očekává vyvrcholení kampaně před brazilským druhým kolem a reakce trhů na vývoj kolem kolumbijského obchodu a komoditních cen.",
+      "forecast_en": "Over the coming days, expect the climax of the campaign ahead of the Brazilian runoff and market reactions to Colombian trade developments and commodity prices."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 7× HIGH.",
   "market_data": {
     "bovespa": {
-      "value": 205430.33,
-      "date": "2026-10-16",
+      "value": 205079.25,
+      "date": "2026-10-19",
       "cached": false
     },
     "merval": {
@@ -1039,8 +982,8 @@
       "cached": false
     },
     "usdbrl": {
-      "value": 5.0722,
-      "date": "2026-10-19",
+      "value": 5.0402,
+      "date": "2026-10-20",
       "cached": false
     }
   },

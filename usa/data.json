@@ -1,32 +1,43 @@
 {
-  "last_updated": "2026-10-19T11:43:35Z",
+  "last_updated": "2026-10-20T05:00:09Z",
   "assessment": {
     "threat_level": "HIGH",
-    "sentiment_score": 68,
-    "security_status_cs": "Americká politická scéna je vysoce napjatá kvůli blížícím se nejdražším střednědobým volbám v historii, přičemž administrativa čelí střetům ohledně projektů ve Washingtonu D.C. a kontroverzním rozhodnutím o sankciích vůči Rusku. Na ekonomické frontě zápasí technologické akcie s korekcí během klíčového týdne výsledkové sezóny, zatímco domácí bezpečnost čelí incidentům včetně střelby v hlavním městě.",
-    "security_status_en": "The US political landscape is highly tense ahead of the most expensive midterm elections in history, with the administration facing clashes over D.C. projects and controversial decisions on Russia sanctions. On the economic front, tech stocks struggle with a correction during a crucial earnings week, while domestic security faces incidents including a shooting in the capital.",
+    "sentiment_score": 72,
+    "security_status_cs": "Spojené státy čelí rostoucímu napětí vnitřní bezpečnosti, které zahrnuje narůstající násilí vůči příslušníkům orgánů činných v trestním řízení a podezřelé zásilky směřované na úřady. Blížící se kongresové volby vyvolávají silnou politickou polarizaci a obavy z volebních nepokojů živené domácím děním i nepokoji v zahraničí. Trhy mezitím vyhlížejí výsledkovou sezónu velkých technologií a reagují na nové vládní programy podpory.",
+    "security_status_en": "The United States is facing mounting domestic security tensions, including rising violence against law enforcement officers and suspicious mail packages sent to officials. Upcoming midterm elections are driving intense political polarization and fears of electoral unrest fueled by both domestic events and foreign protests. Meanwhile, markets are anticipating major tech earnings and reacting to new government relief programs.",
     "president_comments": [
       {
-        "topic_cs": "Projekt golfového hřiště v D.C.",
-        "topic_en": "D.C. Golf Course Project",
-        "statement_cs": "Prezident Trump pokračuje v prosazování renovace golfového hřiště East Potomac v rámci snahy přetvořit památky v D.C. navzdory odporu federální soudkyně.",
-        "statement_en": "President Trump continues to pursue the renovation of the East Potomac golf course as part of efforts to reshape D.C. landmarks despite resistance from a federal judge.",
-        "comment_cs": "Tento spor podtrhuje pokračující střety exekutivy s justicí, což zvyšuje politickou polarizaci bez přímého dopadu na širší trhy.",
-        "comment_en": "This dispute highlights ongoing executive-judicial clashes, increasing political polarization without a direct impact on broader markets.",
-        "market_impact": "NEUTRAL",
-        "source": "The Guardian",
-        "date": "2026-10-19T11:43:34Z"
+        "topic_cs": "Zemědělský program",
+        "topic_en": "Agriculture Program",
+        "statement_cs": "Prezident Trump oznámil nový program Harvest Fuel Relief v hodnotě 8 miliard dolarů na pomoc farmářům během sklizně.",
+        "statement_en": "President Trump announced a new $8 billion Harvest Fuel Relief Program to help farmers during the harvest season.",
+        "comment_cs": "Tento krok cílí na voliče v zemědělských oblastech a řeší obavy z vysokých cen pohonných hmot, což má posílit pozici Republikánské strany před volbami.",
+        "comment_en": "This move targets voters in agricultural areas and addresses concerns over high fuel prices, aiming to strengthen the Republican party's position ahead of the elections.",
+        "market_impact": "POSITIVE",
+        "source": "Newsweek",
+        "date": "2026-10-20T05:00:08Z"
       },
       {
-        "topic_cs": "Pozastavení sankcí vůči Rusku",
-        "topic_en": "Waiving of Russia Sanctions",
-        "statement_cs": "Prezident Trump dočasně zrušil řadu nedávno schválených sankcí vůči Moskvě s odkazem na obavy o národní bezpečnost, což vyvolalo ostrou kritiku ukrajinského prezidenta Zelenského.",
-        "statement_en": "President Trump temporarily waived several recently passed sanctions against Moscow citing national security concerns, drawing sharp criticism from Ukrainian President Zelenskyy.",
-        "comment_cs": "Krok komplikuje geopolitické vztahy a vytváří tlak na republikánskou jednotu v Kongresu ohledně zahraniční politiky.",
-        "comment_en": "The move complicates geopolitical relations and strains Republican unity in Congress regarding foreign policy.",
-        "market_impact": "NEGATIVE",
-        "source": "BBC News",
-        "date": "2026-10-19T11:43:34Z"
+        "topic_cs": "Zahraniční politika a summity",
+        "topic_en": "Foreign Policy and Summits",
+        "statement_cs": "Trump uvedl, že by se setkal s ruským prezidentem Putinem a čínským vůdcem Si Ťin-pchingem, a zároveň kritizoval ukrajinského prezidenta Zelenského.",
+        "statement_en": "Trump stated he would meet with Russian President Putin and Chinese leader Xi Jinping while criticizing Ukrainian President Zelenskyy.",
+        "comment_cs": "Tyto výroky naznačují možný posun v americké zahraniční politice a vyvolávají nervozitu ohledně budoucí podpory Ukrajiny.",
+        "comment_en": "These remarks signal a potential shift in US foreign policy and create nervousness regarding future support for Ukraine.",
+        "market_impact": "NEUTRAL",
+        "source": "CNBC",
+        "date": "2026-10-20T05:00:08Z"
+      },
+      {
+        "topic_cs": "Varování před nepokoji",
+        "topic_en": "Warning on Unrest",
+        "statement_cs": "Trump použil probíhající násilné protesty ve Francii jako varovný příklad pro americké voliče před možnými dopady porážky republikánů.",
+        "statement_en": "Trump used the ongoing violent protests in France as a cautionary tale for American voters regarding the potential impacts of a Republican defeat.",
+        "comment_cs": "Snaha propojit domácí politické soupeření s mezinárodním chaosem zvyšuje rétorické napětí v zemi.",
+        "comment_en": "The effort to link domestic political competition with international chaos heightens rhetorical tensions within the country.",
+        "market_impact": "NEUTRAL",
+        "source": "The Guardian",
+        "date": "2026-10-20T05:00:08Z"
       }
     ],
     "recommendations": [
@@ -34,85 +45,295 @@
         "sector_cs": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
         "sector_en": "US Broad Equity Market (S&P 500 ETFs, e.g. VOO, SPY)",
         "action": "HOLD",
-        "reason_cs": "Trhy procházejí zkouškou během klíčového týdne výsledků velkých technologických firem a předvolební nejistoty.",
-        "reason_en": "Markets are being tested during a crucial week of big tech earnings and pre-election uncertainty."
+        "reason_cs": "Trhy vykazují zvýšenou volatilitu kvůli blížícím se drahým volbám a geopolitickému napětí, což doporučuje opatrnost.",
+        "reason_en": "Markets are showing increased volatility due to approaching expensive elections and geopolitical tensions, advising caution."
       },
       {
         "sector_cs": "Státní dluhopisy USA (Treasuries)",
         "sector_en": "US Treasuries",
         "action": "BUY",
-        "reason_cs": "Zvýšená geopolitická rizika a volatilita na akciovém trhu zvyšují poptávku po bezpečných aktivech.",
-        "reason_en": "Elevated geopolitical risks and stock market volatility increase demand for safe-haven assets."
+        "reason_cs": "V období rostoucí politické nejistoty a bezpečnostních rizik hledají investoři bezpečné přístavy v dluhopisech.",
+        "reason_en": "During periods of rising political uncertainty and security risks, investors seek safe havens in government bonds."
       },
       {
         "sector_cs": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
         "sector_en": "Defense Industry (RTX, Lockheed Martin, Northrop Grumman)",
         "action": "BUY",
-        "reason_cs": "Pokračující globální napětí na Ukrajině a na Blízkém východě udržuje vysokou poptávku po obranných systémech.",
-        "reason_en": "Ongoing global tensions in Ukraine and the Middle East maintain high demand for defense systems."
+        "reason_cs": "Přetrvávající mezinárodní napětí a globální konflikty zajišťují stabilní poptávku po vojenském vybavení.",
+        "reason_en": "Persistent international tensions and global conflicts ensure stable demand for military equipment."
       },
       {
         "sector_cs": "Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)",
         "sector_en": "Banks & Financials (JPMorgan, Bank of America, Goldman Sachs)",
         "action": "HOLD",
-        "reason_cs": "Finanční sektor sleduje vývoj úrokových sazeb Fedu a zpomalující růst výnosů.",
-        "reason_en": "The financial sector is monitoring Fed interest rate trends and slowing earnings growth."
+        "reason_cs": "Finanční sektor čelí smíšeným signálům z makroekonomiky a nejistotě ohledně budoucí regulace.",
+        "reason_en": "The financial sector faces mixed macroeconomic signals and uncertainty regarding future regulation."
       },
       {
         "sector_cs": "Technologický sektor (Apple, Microsoft, Nvidia)",
         "sector_en": "Technology Sector (Apple, Microsoft, Nvidia)",
-        "action": "HOLD",
-        "reason_cs": "Velké technologické tituly čelí korekci a tlaku investorů na prokázání udržitelnosti růstu.",
-        "reason_en": "Major tech stocks face a correction and investor pressure to prove growth sustainability."
+        "action": "BUY",
+        "reason_cs": "Probíhající výsledková sezóna a zájem o inovace včetně AI nadále podporují silný fundament technologických gigantů.",
+        "reason_en": "The ongoing earnings season and interest in innovations including AI continue to support the strong fundamentals of tech giants."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly na pražské burze jsou primárně ovlivněny evropským makroekonomickým prostředím a lokální regulací.",
-        "reason_en": "Domestic stocks on the Prague Stock Exchange are primarily driven by the European macroeconomic environment and local regulation."
+        "reason_cs": "Domácí tituly jsou ovlivněny spíše evropským kontextem a místními faktory, přičemž globální vlnu sledují s odstupem.",
+        "reason_en": "Domestic stocks are influenced more by the European context and local factors, following global trends from a distance."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat volatilitu na akciových trzích poháněnou výsledkovou sezónou velkých technologií a stupňující se rétorikou před volbami.",
-    "forecast_en": "In the coming days, volatility in equity markets is expected, driven by big tech earnings season and intensifying pre-election rhetoric.",
-    "forecast_review_cs": "Předchozí předpověď se potvrdila, neboť nervozita na trzích a politické napětí před volbami nadále dominují.",
-    "forecast_review_en": "The previous forecast was confirmed as market nervousness and pre-election political tensions continue to dominate."
+    "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na trzích vlivem blížících se voleb a výsledků velkých technologických firem.",
+    "forecast_en": "In the coming days, continued market volatility is expected due to approaching elections and earnings results from major tech companies.",
+    "forecast_review_cs": "Předchozí předpověď o volatilitě poháněné výsledkovou sezónou a předvolební rétorikou se plně potvrdila.",
+    "forecast_review_en": "The previous forecast regarding volatility driven by earnings season and pre-election rhetoric was fully confirmed."
   },
   "articles": [
     {
-      "title": "Tech stocks stumbled. Now comes a crucial week for Wall Street.",
-      "summary": "A wave of corporate results that could help determine whether the stock-market rally has more room to run — or whether investors are growing wary of the companies that powered it.",
-      "link": "https://www.marketwatch.com/story/tech-stocks-stumbled-now-comes-a-crucial-week-for-wall-street-2a093abe?mod=mw_rss_topstories",
-      "published": "Mon, 19 Oct 2026 11:30:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Trump brands federal judge a ‘crazed lunatic’ amid clashes over his golf course project – US politics live",
-      "summary": "<p>East Potomac course in Washington DC among a number of projects Trump is pursuing to reshape landmarks </p><ul><li><p><a href=\"https://www.theguardian.com/us-news/2026/oct/18/trump-dc-golf-course-renovation\">Trump plans DC golf course renovation in defiance of judge’s order</a></p></li><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for US Breaking News email</a></p></li></ul><p><strong>The US ambassador to Israel, Mike Huckabee, has denounced the settler attack that left the <a href=\"https://www.theguardian.com/media/washington-post\">Washington Post</a> photojournalist Heidi Levine badly beaten and needing surgery as a “despicable act of terror” and called for the arrest and prosecution of those responsible.</strong></p><p>Levine, 63, an award-winning journalist who lives in Israel, was <a href=\"https://www.theguardian.com/world/2026/oct/16/israeli-settlers-attack-olive-farmers-west-bank-washington-post-journalist-heidi-levine\">set upon last Friday</a> by masked Israeli settlers who used clubs and other weapons to attack Palestinian people attempting to harvest their olives in occupied <a href=\"https://www.theguardian.com/world/west-bank\">West Bank</a> towns.</p><p>“We have called for a full investigation, arrest, and prosecution to the fullest extent of the law to whoever participated in this,” Huckabee added. “Attacking a female photographer is despicable act of terror carried out by masked cowards. Dishonorable act of senseless violence.”</p><p>“The United States Department of Interior wants to take a terrible and very unsafe golf course, and make it into a great, safe, and prestigious golf course. They have an absolute right to do so. It’s as simple as that! The judge on the case is a crazed lunatic whose courthouse tapes will reveal, may be insane? The tapes have been blocked from usage by the judge.</p><p>“The random golfer bringing the ridiculous lawsuit has ZERO STANDING! The experts at “Interior” are allowed to do this First Class renovation “as of right.” They do not need an approval. Work is scheduled to begin IMMEDIATELY! The finished product will be World Class, and bring income and great prestige back to D.C. Thank you for your attention to this matter! President DJT.”</p> <a href=\"https://www.theguardian.com/us-news/live/2026/oct/19/donald-trump-kansas-roger-marshall-golf-ukraine-midterms-latest-news-updates\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/live/2026/oct/19/donald-trump-kansas-roger-marshall-golf-ukraine-midterms-latest-news-updates",
-      "published": "Mon, 19 Oct 2026 11:26:33 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Trump heads to unlikely battleground as GOP fights to hold Senate and more top headlines",
-      "summary": "Get all the stories you need-to-know from the most powerful name in news delivered first thing every morning to your inbox.",
-      "link": "https://www.foxnews.com/us/trump-heads-unlikely-battleground-gop-hold-senate-more-top-headlines",
-      "published": "Mon, 19 Oct 2026 07:25:37 -0400",
+      "title": "UNC settles Trump admin probes into alleged campus antisemitism, race-based admissions",
+      "summary": "The University of North Carolina at Chapel Hill settled 18 Trump administration probes over alleged campus antisemitism and race-based admissions",
+      "link": "https://www.foxnews.com/us/unc-settles-trump-admin-probes-alleged-campus-antisemitism-race-based-admissions",
+      "published": "Tue, 20 Oct 2026 00:43:57 -0400",
       "source": "Fox News"
     },
     {
-      "title": "First Thing: US ambassador in rare diplomatic break with Israel over attack on US journalist",
-      "summary": "<p>Mike Huckabee condemns attack on Washington Post photojournalist that has drawn lukewarm response from Israeli authorities. Plus, Japan is attempting to boldly go where no space mission has gone before</p><p>Good morning. The US ambassador to Israel, Mike Huckabee, has <a href=\"https://www.theguardian.com/world/2026/oct/18/us-ambassador-israel-mike-huckabee-west-bank-settler-attack-photojournalist-heidi-levine\">denounced a settler attack</a> that left the Washington Post photojournalist Heidi Levine badly beaten and needing surgery as a “despicable act of terror”.</p><p>Levine, 63, an award-winning journalist who lives in Israel, was set upon last Friday by masked Israeli settlers who used clubs and other weapons to attack Palestinian people attempting to harvest their olives. The photographer, who is in hospital recovering from hand surgery, broken ribs and other injuries, said she was beaten for more than 10 minutes.</p><p><strong>What else has Heidi Levine said about the attack?</strong> She said: “I was attacked, pushed to the ground. Luckily, I had my flak jacket and helmet, otherwise I probably wouldn’t even be here, because they just kept kicking and kicking me. I’ve been covering this region for over 40 years and I have never seen this country in such a state as it is today. I’ve invested decades of blood, sweat and tears into this. They cracked my bones, they haven’t cracked my spirit.”</p><p><strong>How have Israeli authorities responded</strong><strong>?</strong> In a move Levine said left her “shocked and insulted”, Israel’s prime minister, Benjamin Netanyahu, has been ambiguous in addressing the assault. He said he condemned “violence against anyone” but referred to the attack as “alleged” and said its circumstances remained unclear.</p><p><strong>What is causing the wave of protests across Europe?</strong> School conditions, housing costs and the cost of living have <a href=\"https://www.theguardian.com/world/2026/oct/18/europe-protests-france-spain-portugal-2026-explainer\">brought demonstrators on to the streets in several countries</a> including Spain, France and Portugal. Protests in Albania against the prime minister, Edi Rama, entered their sixth day on Sunday. Demonstrators there have said they are unhappy with perceived corruption, a lack of jobs and poor education standards.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/19/first-thing-us-ambassador-mike-huckabee-israel-heidi-levine-attack\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/oct/19/first-thing-us-ambassador-mike-huckabee-israel-heidi-levine-attack",
-      "published": "Mon, 19 Oct 2026 11:23:24 GMT",
+      "title": "In ruby-red Kansas, Trump contemplates the possibility of a Democratic win in the state",
+      "summary": "<p>The president came out in support of Senator Roger Marshall, who is facing and unexpectedly strong challenge from Democrat Adam Hamilton </p><p>The fact that Donald Trump was here at all said more about a looming electoral disaster facing his Republican party next month than anything contained in his dark and discursive 98-minute stump speech.</p><p>On Monday, amid raucous chants of “USA! USA!”, the president held his first campaign rally in Kansas for eight years. No Democrat has won a US Senate seat in this ruby-red state since 1932, the year Herbert Hoover was president, <a href=\"https://www.theguardian.com/us-news/2026/oct/19/amelia-earhart-purdue-expedition-clump-of-trees-nikumaroro-kiribati\">Amelia Earhart</a> was the first woman to fly solo across the Atlantic and the Nazis became the biggest party in the German Reichstag.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/20/trump-kansas-rally-us-midterm-election-possibility-state-democratic-win\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/oct/20/trump-kansas-rally-us-midterm-election-possibility-state-democratic-win",
+      "published": "Tue, 20 Oct 2026 04:13:28 GMT",
       "source": "The Guardian"
     },
     {
-      "title": "Judge refuses DOJ’s demand to step aside from golf course hearing",
-      "summary": "A federal judge refused the Justice Department’s (DOJ) demand to step aside from a key hearing on Monday over the future of East Potomac Park, which President Trump wants to renovate into a championship-style golf course.  The Trump administration has accused U.S. District Judge Ana Reyes of bias after she yelled at a government attorney last week...",
-      "link": "https://thehill.com/regulation/court-battles/6157323-judge-ana-reyes-donald-trump-east-potomac-park-tree-clearing-case/",
-      "published": "Mon, 19 Oct 2026 11:18:05 +0000",
+      "title": "Trump Announces $8B Harvest Fuel Relief Program for Farmers: What We Know",
+      "summary": "The announcement comes amid concerns of higher fuel prices as Americans are consistently flagging affordability as a top issue.",
+      "link": "https://www.newsweek.com/trump-announces-8b-harvest-fuel-relief-program-for-farmers-what-we-know-12591337",
+      "published": "Mon, 19 Oct 2026 23:32:37 -0400",
+      "source": "Newsweek"
+    },
+    {
+      "title": "World Series will have first-time champion as Rays set up showdown with Brewers",
+      "summary": "<ul><li><p>Tampa Bay beat Guardians to seal ALCS in six games</p></li><li><p>7-3 Game 6 win set up by strong Freddy Peralta start</p></li></ul><p>Freddy Peralta threw 5.1 gritty innings, Junior Caminero and Yandy Díaz each hit a two-run homer and the Tampa Bay Rays beat the Cleveland Guardians 7-3 in Game 6 of the American League Championship Series on Monday night to advance to the World Series for the third time in the franchise’s 29 seasons.</p><p>The Rays will face the Milwaukee Brewers who, like Tampa Bay, are seeking to win their first-ever World Series. A sellout crowd of 40,230 fans waved yellow-and-blue rally towels, rang cowbells and chanted “Let’s go Rays!” throughout the night at Tropicana Field, which needed major renovations after Hurricane Milton shredded the roof two years ago and caused extensive damage throughout the stadium.</p> <a href=\"https://www.theguardian.com/sport/2026/oct/19/rays-guardians-mlb-playoffs-world-series-alcs\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/sport/2026/oct/19/rays-guardians-mlb-playoffs-world-series-alcs",
+      "published": "Tue, 20 Oct 2026 03:13:00 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Democratic lawmaker says ICE officers broke US citizen's arm",
+      "summary": "Rep. Robert Garcia (D-Calif.) said that Immigration and Customs Enforcement (ICE) officers broke an American citizen’s arm over the weekend. “ICE agents brutally attacked and broke the arm of a North Long Beach resident and U.S. citizen. The videos are horrific and should concern not just our community but the country,” Garcia said in a...",
+      "link": "https://thehill.com/homenews/state-watch/6159451-ice-broke-us-citizen-arm/",
+      "published": "Tue, 20 Oct 2026 02:58:41 +0000",
       "source": "The Hill"
+    },
+    {
+      "title": "New Mexico Republican Rejects Trump’s Push to Rename State",
+      "summary": "This is not the first time the president has floated the idea of renaming the state \"New America.\"",
+      "link": "https://www.newsweek.com/new-mexico-republican-rejects-trumps-push-to-rename-state-12591230",
+      "published": "Mon, 19 Oct 2026 22:54:02 -0400",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Kansas man arrested after 'let's shoot Trump' social media post",
+      "summary": "A Kansas man allegedly vowed to shoot President Trump and researched nearby rooftops last week ahead of his Wichita-area rally. Jaden J. Read, 24, was charged Saturday for making threats against the president. “Let’s shoot Trump honestly, where’s our shooter? I’m tired of living this money life,” he wrote on Facebook in response to a...",
+      "link": "https://thehill.com/homenews/state-watch/6159458-kansas-man-trump-threats/",
+      "published": "Tue, 20 Oct 2026 02:52:11 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Trump Says America Could Mirror France if Republicans Lose Midterms",
+      "summary": "Trump’s comments come as protests in France spilled into violence, including looting, fires and clashes with police.",
+      "link": "https://www.newsweek.com/trump-says-america-could-mirror-france-if-republicans-lose-midterms-12591198",
+      "published": "Mon, 19 Oct 2026 22:39:08 -0400",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Vance declines to offer endorsement in Netanyahu election",
+      "summary": "Vice President Vance said he was “not getting involved” on Monday when asked if he endorses Israeli Prime Minister Benjamin Netanyahu for reelection. “I'm not anti-endorsing him. I'm not pro-endorsing him,” he said during an interview on 2WAY Tonight with Mark Halperin on Air Force Two. The question came after President Trump endorsed Netanyahu on...",
+      "link": "https://thehill.com/homenews/administration/6159434-vance-declines-netanyahu-endorsement/",
+      "published": "Tue, 20 Oct 2026 02:29:38 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Assaults on ICE Officers Surge",
+      "summary": "",
+      "link": "https://www.realclearpolitics.com/2026/10/16/assaults_on_ice_officers_surge_714308.html",
+      "published": "Mon, 19 Oct 2026 21:28:32 -0500",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "GOP's Midterm Deja Vu Should Make Them Very Worried",
+      "summary": "Things were bad for Republicans heading into the 2018 midterms: an unpopular president, an oft-forgotten tax cut bill and Democrats far ahead in the polls. Things are worse now.",
+      "link": "https://www.realclearpolitics.com/2026/10/19/gops_midterm_deja_vu_should_make_them_very_worried_714657.html",
+      "published": "Mon, 19 Oct 2026 21:28:13 -0500",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Trump announces $8B relief program for farmers",
+      "summary": "President Trump announced Monday that a new $8 billion program will help provide temporary relief to farmers during the harvest season. Trump announced the Harvest Fuel Relief Program during his rally in Kansas stumping for GOP Sen. Roger Marshall, who is running for reelection in a competitive race against his Democratic opponent Adam Hamilton. He...",
+      "link": "https://thehill.com/homenews/administration/6159427-trump-announces-8-billion-harvest-relief/",
+      "published": "Tue, 20 Oct 2026 02:10:24 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Rogers warns Michigan voters against El-Sayed’s ‘extreme’ agenda ahead of election",
+      "summary": "Mike Rogers warned Michigan voters against Abdul El-Sayed’s agenda while touting his campaign’s momentum during a town hall with Sean Hannity.",
+      "link": "https://www.foxnews.com/politics/rogers-warns-michigan-voters-against-el-sayeds-extreme-agenda-ahead-election",
+      "published": "Mon, 19 Oct 2026 22:08:18 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Trump attacks ‘migrants and communists’ as he tries to exploit France unrest",
+      "summary": "<p>President at Kansas rally tries to turn protests into cautionary tale for US as Republicans face midterm losses</p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/oct/18/europe-protests-france-spain-portugal-2026-explainer\">Explainer: why are people protesting across Europe?</a></p></li></ul><p>As Republicans confront mounting political headwinds ahead of November’s midterm elections, Donald Trump is attempting to turn unrest in France into a cautionary tale for American voters, recasting the demonstrations that began as student protests against crumbling schools and the soaring <a href=\"https://www.theguardian.com/commentisfree/2026/oct/19/the-guardian-view-on-frances-protests-a-polarised-country-is-in-a-perilous-political-moment\">cost of living</a> as evidence of the dangers of immigration and the erosion of western civilization.</p><p>At a rally in Kansas on Monday evening, Trump described France as a once-great nation that had been “conquered, looted, and burned to the ground by migrants, jihadists, and communists”.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/19/trump-france-protests\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/oct/19/trump-france-protests",
+      "published": "Tue, 20 Oct 2026 02:01:22 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "At Kansas rally, Trump focuses closing midterm message on anti-Muslim racism – as it happened",
+      "summary": "<p>This live blog is now closed.</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for US Breaking News email</a></p></li></ul><p>A new Washington Post-ABC <a href=\"https://www.washingtonpost.com/politics/2026/10/18/trump-approval-hits-record-low-handing-democrats-clear-midterm-edge/\">poll</a> shows that <strong>Donald Trump’s approval rating has reached a new low – 33%</strong>.</p><p>This comes, just over two weeks away from the November midterms, as the president continues crisscrossing the country as part of his campaign blitz for embattled Republicans.</p> <a href=\"https://www.theguardian.com/us-news/live/2026/oct/19/donald-trump-kansas-roger-marshall-golf-ukraine-midterms-latest-news-updates\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/live/2026/oct/19/donald-trump-kansas-roger-marshall-golf-ukraine-midterms-latest-news-updates",
+      "published": "Tue, 20 Oct 2026 01:57:40 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "JD Vance refrains from endorsing Israeli leader Netanyahu as Trump offers praise",
+      "summary": "Vice President JD Vance declined to follow Trump in endorsing Netanyahu, saying he’s “not getting involved in Israeli elections” a week before Israelis vote.",
+      "link": "https://www.cnbc.com/2026/10/20/vance-israel-netanyahu-midterms-election-.html",
+      "published": "Tue, 20 Oct 2026 01:53:34 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "McDonald's ransacked and wrecked as stores, restaurants suffer from violence and rioting",
+      "summary": "Some looters attempted to cook french fries inside a ransacked and wrecked McDonald's in Paris as protests spiraled into widespread destruction.",
+      "link": "https://www.foxnews.com/food-drink/mcdonalds-ransacked-wrecked-stores-restaurants-suffer-from-violence-rioting",
+      "published": "Mon, 19 Oct 2026 21:39:20 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Elissa Slotkin calls backlash to threat of prosecution comments 'manufactured outrage'",
+      "summary": "Sen. Elissa Slotkin, D-Mich., dismissed criticism on CNN as \"manufactured outrage\" after her viral remarks about prosecuting Trump administration enablers.",
+      "link": "https://www.foxnews.com/media/elissa-slotkin-calls-backlash-threat-prosecution-comments-manufactured-outrage",
+      "published": "Mon, 19 Oct 2026 21:30:17 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Police used 'justified' force in fatal shooting of one-year-old, says Mississippi attorney general",
+      "summary": "The boy was sitting in his mum's lap in the passenger seat of a car that police say was allegedly being driven at officers.",
+      "link": "https://www.bbc.co.uk/news/articles/cwj0l72d5pygo?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 20 Oct 2026 00:53:37 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Two Colts Pro Bowlers Could Be Traded After GM Chris Ballard’s Firing",
+      "summary": "After firing GM Chris Ballard, the Colts could have a fire sale. If so, there's two Pro Bowl players who could fetch nice returns.",
+      "link": "https://www.newsweek.com/sports/nfl/two-colts-pro-bowlers-could-be-traded-after-gm-chris-ballards-firing-12591210",
+      "published": "Mon, 19 Oct 2026 20:20:18 -0400",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Air Force member dies in rappelling incident at UT San Antonio football game",
+      "summary": "A service member was injured and later died after falling while rappelling from the ceiling of the University of Texas at San Antonio football stadium on Saturday.",
+      "link": "https://www.cbsnews.com/news/us-air-force-member-dies-injury-ut-san-antonio-football-stadium/",
+      "published": "Mon, 19 Oct 2026 19:56:53 -0400",
+      "source": "CBS News"
+    },
+    {
+      "title": "Feds probing suspicious letters to election officials, lawmakers",
+      "summary": "Federal investigators said they are looking into suspicious letters containing unknown substances that were mailed to state election officials and congressional offices.",
+      "link": "https://www.cbsnews.com/news/suspicious-letters-election-officials-congressional-offices-fbi-us-postal-service/",
+      "published": "Mon, 19 Oct 2026 19:41:25 -0400",
+      "source": "CBS News"
+    },
+    {
+      "title": "Gun used in Bend school shooting was birthday gift from shooter's mom",
+      "summary": "The Maverick 88 pump-action 12-gauge shotgun was purchased legally in August 2026 by Shauntai Nickerson, the mother of the shooter, and given to him for recreational use, sources told CBS News.",
+      "link": "https://www.cbsnews.com/news/bend-oregon-elementary-school-shooting-gun-birthday-gift-mom/",
+      "published": "Mon, 19 Oct 2026 19:35:02 -0400",
+      "source": "CBS News"
+    },
+    {
+      "title": "Video shows police taking mother into custody after plowing through youth soccer game",
+      "summary": "Police are investigating why a mother in a pickup truck plowed through a youth soccer game in Kansas, killing two people, including a 6-year-old. Ian Lee reports with latest developments.",
+      "link": "https://www.cbsnews.com/video/video-police-mother-custody-plowing-youth-soccer-game/",
+      "published": "Mon, 19 Oct 2026 19:34:31 -0400",
+      "source": "CBS News"
+    },
+    {
+      "title": "DOJ charges 28 in California with voting crimes as election tensions escalate",
+      "summary": "The DOJ also filed an emergency request in federal court to stop California from processing ballots returned by people on the voter rolls the federal government says are \"likely noncitizens.\"",
+      "link": "https://www.npr.org/2026/10/19/nx-s1-6007908/election-tensions-escalate-in-california-as-doj-charges-28-people-with-voting-crimes",
+      "published": "Mon, 19 Oct 2026 18:10:06 -0400",
+      "source": "NPR"
+    },
+    {
+      "title": "Judge chastises Trump administration plan to push ahead overhaul of DC golf course",
+      "summary": "The Trump administration wants to turn a historic public golf course into championship links. Despite a judge's order, hundreds of trees were cut down to make way for the renovation.",
+      "link": "https://www.npr.org/2026/10/19/nx-s1-6007746/golf-course-potomac-white-house-tree-removal",
+      "published": "Mon, 19 Oct 2026 17:56:37 -0400",
+      "source": "NPR"
+    },
+    {
+      "title": "Ex-OpenAI worker accused of planting device had Saudi support, says court filing",
+      "summary": "The Saudi government did not immediately respond to BBC requests for comment.",
+      "link": "https://www.bbc.co.uk/news/articles/c6gel2dlyxvyo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 19 Oct 2026 21:12:30 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Micron and other chip stocks spring back to life after bruising selloff",
+      "summary": "It’s a key week for tech stocks as Nvidia gears up for a European conference and Meta prepares to report earnings.",
+      "link": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-spring-back-to-life-after-bruising-selloff-16486541?mod=mw_rss_topstories",
+      "published": "Mon, 19 Oct 2026 21:06:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Trump says he'd meet with Putin and Xi, criticizes Zelenskyy",
+      "summary": "Tensions between Trump and Zelenskyy have steadily risen in recent weeks, while Russia, which invaded Ukraine, has received multiple breaks from the U.S.",
+      "link": "https://www.cnbc.com/2026/10/19/trump-putin-xi-zelenskyy.html",
+      "published": "Mon, 19 Oct 2026 21:00:02 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Why the midterm elections are likely to become a strong tailwind for the stock market",
+      "summary": "The six months subsequent to midterm elections have seen strong gains, historically",
+      "link": "https://www.marketwatch.com/story/why-the-midterm-elections-are-likely-to-become-a-strong-tailwind-for-the-stock-market-3edfca6c?mod=mw_rss_topstories",
+      "published": "Mon, 19 Oct 2026 21:00:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "OpenAI bugging suspect Alfozan held without bail after Saudi government offers to pay",
+      "summary": "Saudi national Abdulrahman Alfozan is accused of planting a recording device in an executive conference room at OpenAI headquarters in San Francisco.",
+      "link": "https://www.cnbc.com/2026/10/19/openai-bugging-suspect-alfozan-saudi-royal-family.html",
+      "published": "Mon, 19 Oct 2026 20:54:40 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "If SCOTUS Wants To Protect Free Press, Here Is a Chance",
+      "summary": "Below is my column in The Hill on an important case currently before the Supreme Court on the free press and the ability to protect confidential sources. The underlying facts may seem like something out of The Onion: an accused Chinese operative and PLA Colonel who was viewed as a national security risk is successfully using the Privacy Act to get a respected journalist to reveal her confidential sources. However, it is very serious and, unless the Court reviews the case, investigative journalism in the United States could suffer a debilitating blow with little more than a shrug from the...",
+      "link": "https://www.realclearpolitics.com/2026/10/19/if_scotus_wants_to_protect_free_press_here_is_a_chance_714573.html",
+      "published": "Mon, 19 Oct 2026 14:24:39 -0500",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Republicans Don't Know How To Handle El-Sayed",
+      "summary": "Republicans don't know how to handle this Michigan Democrat",
+      "link": "https://www.realclearpolitics.com/2026/10/19/republicans_dont_know_how_to_handle_el-sayed_714661.html",
+      "published": "Mon, 19 Oct 2026 14:18:54 -0500",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Obama blasts federal probe of congresswoman Ilhan Omar as 'so appalling'",
+      "summary": "Obama says federal agents' search of the Democrat's home was an effort to intimidate a Trump critic.",
+      "link": "https://www.bbc.co.uk/news/articles/cr15jl7dd42vo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 19 Oct 2026 16:16:51 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Apu returns to The Simpsons with new voice after race row",
+      "summary": "The much-loved shopkeeper has been seen but not heard around Springfield for eight years, until now.",
+      "link": "https://www.bbc.co.uk/news/articles/cw33x6gzgdm0o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 19 Oct 2026 13:22:24 GMT",
+      "source": "BBC News"
     },
     {
       "title": "2026 midterms could be the most expensive on record. And, Macron condemns protests",
@@ -122,143 +343,10 @@
       "source": "NPR"
     },
     {
-      "title": "The Rams have managed to transform themselves from a superteam to a midteam",
-      "summary": "<p>Los Angeles were tipped as a Super Bowl contender after assembling a star studded lineup. Now they’ve lost three of their last four games</p><p>The Rams were supposed to be the closest thing the NFL had seen to a superteam in some time. Instead, they’re 2-4, have lost three of their last four games and are last in the NFC West. So much has gone awry, so quickly.</p><p>Sunday was rock bottom (for now). The Rams lost to the division’s ugly stepchild, the Cardinals – a team they had beaten in 16 of their last 19 meetings – on a day when Arizona didn’t manage to score a touchdown. They didn’t need to, because Arizona kicker Chad Ryland connected on six field goal attempts, the last one a 43-yarder as time expired. The game was a tale of two kickers, in that the Cardinals had a superb one and the Rams didn’t have one at all. Days after releasing Harrison Mevis following a league-worst four misses in the season’s first five weeks, the Rams came into this game with Blake Grupe, whom they’d plucked off the Jets practice squad. Grupe got hurt covering a kickoff return in the first quarter, leaving the Rams literally kickerless for the duration. (Mevis, a big fella whose nickname is the Thick Kicker, or “Thiccer,” has about 80lbs on the 5ft 7in Grupe.)</p> <a href=\"https://www.theguardian.com/sport/2026/oct/19/los-angeles-rams-superteam-struggles-nfl-football\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/sport/2026/oct/19/los-angeles-rams-superteam-struggles-nfl-football",
-      "published": "Mon, 19 Oct 2026 11:11:00 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Trump tests GOP resolve on Russia, Ukraine",
-      "summary": "In today's issue: ▪ Zelensky raises pressure ▪ No Kings protest as early vote starts ▪ Experts see weak measles messaging ▪ Trump endorses Netanyahu Republicans are growing increasingly frustrated over President Trump’s recent moves that have advantaged Russia on the battlefield at the cost of the U.S.’s ally Ukraine, but whether they can force the...",
-      "link": "https://thehill.com/newsletters/morning-report/6157316-donald-trump-gop-frustration-russia-ukraine/",
-      "published": "Mon, 19 Oct 2026 11:10:37 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "End of Illegal Immigration Is Reshaping Border Towns",
-      "summary": "",
-      "link": "https://www.realclearpolitics.com/video/2026/10/18/sharyl_attkisson_border_town_economies.html",
-      "published": "Mon, 19 Oct 2026 06:05:43 -0500",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Democrats' Sanctuary House of Cards",
-      "summary": "",
-      "link": "https://www.realclearpolitics.com/2026/10/16/democrats_sanctuary_house_of_cards_714203.html",
-      "published": "Mon, 19 Oct 2026 06:01:24 -0500",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Saudi Arabia is learning the hard way: they can’t count on Trump for protection | Mohamad Bazzi",
-      "summary": "<p>After Houthis escalated their attacks on Saudi Arabia, the US turned down calls from MBS for help</p><p>For years, Saudi Arabia’s crown prince, Mohammed bin Salman, cultivated a close relationship with Donald Trump and his son-in-law and former top adviser, Jared Kushner. The prince understood the president’s transactional approach to power: he signed deals to buy billions of dollars’ worth of US weapons and invested billions more in American companies.</p><p>Days after Trump returned to the White House in January 2025, Prince Mohammed pledged to expand investment and trade with the US <a href=\"https://www.pbs.org/newshour/world/saudi-crown-prince-says-kingdom-intends-to-invest-600-billion-in-u-s-over-next-4-years\">by $600bn</a> over four years. He later promised to increase that investment to nearly $1tn, although it wasn’t entirely clear how Saudi Arabia would manage to plough a sum close to the kingdom’s<a href=\"https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=SA\"> entire annual GDP</a> into a foreign economy over a few years.</p><p>Mohamad Bazzi is a Guardian US columnist. He is also director of the Hagop Kevorkian Center for Near Eastern Studies and a journalism professor at New York University</p> <a href=\"https://www.theguardian.com/commentisfree/2026/oct/19/saudi-arabia-trump-relationship\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/commentisfree/2026/oct/19/saudi-arabia-trump-relationship",
-      "published": "Mon, 19 Oct 2026 11:00:55 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Trump and Dugin’s Shared Recipe: Let Them Eat Borscht",
-      "summary": "Blood-red and sour. Is there a more fitting dish for the Russian solution to European problems?",
-      "link": "https://www.newsweek.com/trump-and-dugins-shared-recipe-let-them-eat-borscht-12587316",
-      "published": "Mon, 19 Oct 2026 06:54:03 -0400",
-      "source": "Newsweek"
-    },
-    {
-      "title": "US lawmakers sound alarm as violence grips NATO ally Albania amid anti-government protests",
-      "summary": "Student-led protests in Tirana have turned violent as thousands demand Prime Minister's Edi Rama's resignation amid allegations of corruption. Rama has blamed outside agitators for the violence.",
-      "link": "https://www.foxnews.com/world/us-lawmakers-sound-alarm-violence-grips-nato-ally-albania-amid-anti-government-protests",
-      "published": "Mon, 19 Oct 2026 06:43:50 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "Autistic People Need Choices, Not Care Gaps | Opinion",
-      "summary": "Service shortages can force autistic people and families to accept what's available over support tailored to individual needs.",
-      "link": "https://www.newsweek.com/autistic-people-need-real-choices-in-care-12586983",
-      "published": "Mon, 19 Oct 2026 06:42:27 -0400",
-      "source": "Newsweek"
-    },
-    {
-      "title": "GOP Must Make Election About Performance, Not Personality",
-      "summary": "",
-      "link": "https://www.realclearpolitics.com/articles/2026/10/19/trump_vs_trump_154594.html",
-      "published": "Mon, 19 Oct 2026 05:41:19 -0500",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Is It True That If You're Explaining, You're Losing?",
-      "summary": "Senate candidates Abdul El-Sayed and James Talarico have taken opposite approaches to fending off Republican attacks.",
-      "link": "https://www.realclearpolitics.com/2026/10/17/is_it_true_that_if_youre_explaining_youre_losing_714444.html",
-      "published": "Mon, 19 Oct 2026 05:41:18 -0500",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Nate Silver Revises Democrats’ Chances of Winning the Senate",
-      "summary": "Nate Silver has upgraded Democrats’ chances of winning Senate to “Likely D,” with his forecast putting their odds at 75 percent.",
-      "link": "https://www.newsweek.com/nate-silver-revises-democrats-chances-winning-senate-12586949",
-      "published": "Mon, 19 Oct 2026 06:25:13 -0400",
-      "source": "Newsweek"
-    },
-    {
-      "title": "Trump Reveals East Potomac Park Golf Plans: 6 Major Changes",
-      "summary": "Trump’s updated golf course plans appear to extend it further onto public parkland, amid an ongoing legal fight.",
-      "link": "https://www.newsweek.com/potomac-park-golf-plans-compared-key-changes-12586991",
-      "published": "Mon, 19 Oct 2026 06:14:32 -0400",
-      "source": "Newsweek"
-    },
-    {
-      "title": "The Rock's protein-heavy post-workout smoothie may not be right for everyone",
-      "summary": "A post-workout protein shake that Dwayne \"The Rock\" Johnson swears by packs 70 grams of protein powder, creatine and a surprising rice ingredient into one smoothie.",
-      "link": "https://www.foxnews.com/food-drink/rocks-protein-heavy-post-workout-smoothie-may-not-right-everyone",
-      "published": "Mon, 19 Oct 2026 06:00:00 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "Before, during, after: Outside groups race to counter any election interference by Trump",
-      "summary": "Outside good-government groups are scrambling this month to secure the midterm results, bracing for the possibility that the Trump administration will interfere in the process to keep Republicans in power. The campaign, which features a who’s who of pro-democracy advocates, comes in direct response to vows by President Trump and top Cabinet officials that the...",
-      "link": "https://thehill.com/homenews/campaign/6154952-outside-groups-midterm-election-interference/",
-      "published": "Mon, 19 Oct 2026 10:00:00 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Early childhood educators fear tougher working conditions amid Trump proposals",
-      "summary": "Early childhood educators are sounding the alarm at changes proposed by the Trump administration to loosen regulations on the industry such as staff-to-child ratios.   Advocates are on the edge of their seats after the public comment period closed on a proposal from the administration that would take a unified Head Start, a program that...",
-      "link": "https://thehill.com/homenews/education/6154587-head-start-deregulation-concerns/",
-      "published": "Mon, 19 Oct 2026 10:00:00 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Big tech is wobbling. Goldman Sachs says it’s time to buy these 23 unloved stocks instead.",
-      "summary": "Goldman Sachs says consumer-facing laggard stocks are the best way forward as earnings growth is set to slow next year and big tech stocks struggle.",
-      "link": "https://www.marketwatch.com/story/big-tech-is-wobbling-goldman-sachs-says-its-time-to-buy-these-23-unloved-stocks-instead-cff7a9e0?mod=mw_rss_topstories",
-      "published": "Mon, 19 Oct 2026 09:58:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "National Guard member shot in DC, police chief says",
-      "summary": "Three National Guard members returned fire after a suspect allegedly opened fire during a confrontation in Washington, D.C., police said. Two people were wounded.",
-      "link": "https://www.foxnews.com/us/national-guard-member-shot-washington-dc",
-      "published": "Mon, 19 Oct 2026 05:20:15 -0400",
-      "source": "Fox News"
-    },
-    {
       "title": "The real reason it's going to take a while to know who won in some midterm races",
       "summary": "Hint: It's not <em>only </em>because California counts slowly.",
       "link": "https://www.npr.org/2026/10/19/nx-s1-5982027/california-vote-counting-margins",
       "published": "Mon, 19 Oct 2026 05:00:00 -0400",
-      "source": "NPR"
-    },
-    {
-      "title": "Morning news brief",
-      "summary": "Ukraine and Russia exchange strikes as relations between U.S. and Ukraine deteriorate, the midterms are on track to be the most expensive on record, French president denounces violent protests.",
-      "link": "https://www.npr.org/2026/10/19/nx-s1-6003499/morning-news-brief",
-      "published": "Mon, 19 Oct 2026 04:46:44 -0400",
-      "source": "NPR"
-    },
-    {
-      "title": "Michigan's Democratic Senate candidate Abdul El-Sayed campaigns in GOP stronghold",
-      "summary": "Michigan's Democratic U.S. Senate candidate Abdul El-Sayed is campaigning in the GOP stronghold of Michigan's Upper Peninsula, an area that hasn't voted for a Democrat in Congress in over a decade.",
-      "link": "https://www.npr.org/2026/10/19/nx-s1-6005195/michigans-democratic-senate-candidate-abdul-el-sayed-campaigns-in-gop-stronghold",
-      "published": "Mon, 19 Oct 2026 04:46:18 -0400",
       "source": "NPR"
     },
     {
@@ -267,102 +355,9 @@
       "link": "https://www.cnbc.com/2026/10/19/france-protests-paris-violence-pictures.html",
       "published": "Mon, 19 Oct 2026 08:10:26 GMT",
       "source": "CNBC"
-    },
-    {
-      "title": "OpenAI bugging suspect WhatsApp'ed Saudi royal days before arrest, feds reveal",
-      "summary": "Saudi national Abdulrahman Alfozan is accused of planting a recording device in an executive conference room at OpenAI headquarters in San Francisco.",
-      "link": "https://www.cnbc.com/2026/10/19/openai-bugging-suspect-alfozan-saudi-royal-family.html",
-      "published": "Mon, 19 Oct 2026 06:06:58 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Air Force member dies in rappelling incident at UT San Antonio football game",
-      "summary": "A service member was injured and later died after falling while rappelling from the ceiling of the University of Texas at San Antonio football stadium on Saturday.",
-      "link": "https://www.cbsnews.com/news/us-air-force-member-dies-injury-ut-san-antonio-football-stadium/",
-      "published": "Mon, 19 Oct 2026 00:11:37 -0400",
-      "source": "CBS News"
-    },
-    {
-      "title": "Could Kansas elect its first Democrat to Senate since 1932?",
-      "summary": "President Trump will return to the campaign trail on Monday in Kansas, a red state, with the midterms fast approaching. Polls there show Republican Sen. Roger Marshall one point behind Democrat Adam Hamilton. Caitlin Huey Burns has more.",
-      "link": "https://www.cbsnews.com/video/inside-kansas-unexpected-toss-up-in-midterms/",
-      "published": "Sun, 18 Oct 2026 20:59:29 -0400",
-      "source": "CBS News"
-    },
-    {
-      "title": "2 killed after pickup truck plows through Wichita field during youth soccer game",
-      "summary": "Police in Wichita, Kansas, are investigating why the driver of a pickup truck sped onto a youth soccer field, killing a man and a 6-year-old boy. Ian Lee has the latest.",
-      "link": "https://www.cbsnews.com/video/wichita-youth-soccer-game-crash/",
-      "published": "Sun, 18 Oct 2026 20:53:32 -0400",
-      "source": "CBS News"
-    },
-    {
-      "title": "10/18: CBS Weekend News",
-      "summary": "Americans pessimistic about economic outlook, polls show. Trump defends position on Russia and Ukraine.",
-      "link": "https://www.cbsnews.com/video/101826-cbs-weekend-news/",
-      "published": "Sun, 18 Oct 2026 18:30:00 -0400",
-      "source": "CBS News"
-    },
-    {
-      "title": "My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?",
-      "summary": "“I worry about healthcare, long-term care, inflation, a long bear market and living to 95.”",
-      "link": "https://www.marketwatch.com/story/my-wife-says-we-cant-afford-to-retire-we-have-4-million-do-i-just-keep-working-f1b6b085?mod=mw_rss_topstories",
-      "published": "Sun, 18 Oct 2026 17:00:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "‘Some people did everything right’: I lost my home in the Great Recession. I rent in my 50s. Why is that judged as failure?",
-      "summary": "”I earn $110,000 a year.”",
-      "link": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67?mod=mw_rss_topstories",
-      "published": "Sun, 18 Oct 2026 16:15:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Iran says it has a 'new operational plan' if the U.S. resumes attacks, as shipping vessels report strikes",
-      "summary": "Mohsen Rezaei, secretary of Iran's Supreme National Security Council, said the country's military has prepared a response to any new attacks.",
-      "link": "https://www.cnbc.com/2026/10/18/iran-us-war-rezaei-operational-plan-shipping-attacks.html",
-      "published": "Sun, 18 Oct 2026 13:52:24 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Trump waives broad new Russia sanctions, Zelenskyy condemns it as 'wrong'",
-      "summary": "Trump signed the Graham Bill, which targeted Russia over its invasion of Ukraine, into law in September.",
-      "link": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html",
-      "published": "Sun, 18 Oct 2026 12:50:33 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
-      "summary": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
-      "link": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 18 Oct 2026 01:10:25 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Three takeaways from Elon Musk's latest political donations",
-      "summary": "New filings show the world's richest person spent this summer again trying to help Republicans win office, with most of his focus on one candidate.",
-      "link": "https://www.bbc.co.uk/news/articles/ckx2dgq8jljjo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 18 Oct 2026 00:41:06 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Fast-moving California wildfire burns homes as people are ordered to leave",
-      "summary": "Fanned by the fierce Santa Ana winds, the Norte Fire is one of 13 burning across the state.",
-      "link": "https://www.bbc.co.uk/news/articles/c6vgjnk8nw2wo?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 17 Oct 2026 19:13:21 GMT",
-      "source": "BBC News"
     }
   ],
   "history": [
-    {
-      "date": "2026-10-09 05:00",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 75,
-      "incidents": 40,
-      "sp500": 7765.36,
-      "usd_czk": null
-    },
     {
       "date": "2026-10-09 12:22",
       "threat_level": "HIGH",
@@ -623,6 +618,15 @@
       "incidents": 13,
       "sp500": 7659.44,
       "usd_czk": 21.615
+    },
+    {
+      "date": "2026-10-20 05:00",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 72,
+      "incidents": 11,
+      "sp500": 7690.73,
+      "usd_czk": 21.686
     }
   ],
   "locations": [
@@ -632,20 +636,6 @@
       "lon": -77.0369,
       "name_cs": "Washington, D.C.",
       "name_en": "Washington, D.C."
-    },
-    {
-      "key": "New York",
-      "lat": 40.7128,
-      "lon": -74.006,
-      "name_cs": "New York",
-      "name_en": "New York"
-    },
-    {
-      "key": "Los Angeles",
-      "lat": 34.0522,
-      "lon": -118.2437,
-      "name_cs": "Los Angeles",
-      "name_en": "Los Angeles"
     },
     {
       "key": "Texas",
@@ -662,18 +652,11 @@
       "name_en": "California"
     },
     {
-      "key": "Border",
-      "lat": 31.7619,
-      "lon": -106.485,
-      "name_cs": "Hranice s Mexikem (El Paso)",
-      "name_en": "US-Mexico Border (El Paso)"
-    },
-    {
-      "key": "Wall Street",
-      "lat": 40.7069,
-      "lon": -74.0113,
-      "name_cs": "Wall Street",
-      "name_en": "Wall Street"
+      "key": "Ohio",
+      "lat": 40.4173,
+      "lon": -82.9071,
+      "name_cs": "Ohio",
+      "name_en": "Ohio"
     },
     {
       "key": "Michigan",
@@ -683,11 +666,25 @@
       "name_en": "Michigan"
     },
     {
-      "key": "Arizona",
-      "lat": 34.0489,
-      "lon": -111.0937,
-      "name_cs": "Arizona",
-      "name_en": "Arizona"
+      "key": "Wisconsin",
+      "lat": 43.7844,
+      "lon": -88.7879,
+      "name_cs": "Wisconsin",
+      "name_en": "Wisconsin"
+    },
+    {
+      "key": "North Carolina",
+      "lat": 35.7596,
+      "lon": -79.0193,
+      "name_cs": "Severní Karolína",
+      "name_en": "North Carolina"
+    },
+    {
+      "key": "Mexico",
+      "lat": 23.6345,
+      "lon": -102.5528,
+      "name_cs": "Mexiko",
+      "name_en": "Mexico"
     },
     {
       "key": "San Francisco",
@@ -722,19 +719,19 @@
       "auto": true
     },
     {
-      "key": "Iran",
-      "lat": 32.4,
-      "lon": 53.7,
-      "name_cs": "Írán",
-      "name_en": "Iran",
+      "key": "China",
+      "lat": 35.9,
+      "lon": 104.2,
+      "name_cs": "Čína",
+      "name_en": "China",
       "auto": true
     },
     {
-      "key": "Japan",
-      "lat": 36.2,
-      "lon": 138.3,
-      "name_cs": "Japonsko",
-      "name_en": "Japan",
+      "key": "Germany",
+      "lat": 52.52,
+      "lon": 13.4,
+      "name_cs": "Berlín",
+      "name_en": "Germany",
       "auto": true
     },
     {
@@ -744,30 +741,14 @@
       "name_cs": "Paříž",
       "name_en": "France",
       "auto": true
-    },
-    {
-      "key": "Italy",
-      "lat": 41.9,
-      "lon": 12.5,
-      "name_cs": "Řím",
-      "name_en": "Italy",
-      "auto": true
-    },
-    {
-      "key": "Spain",
-      "lat": 40.4,
-      "lon": -3.7,
-      "name_cs": "Madrid",
-      "name_en": "Spain",
-      "auto": true
     }
   ],
   "location_counts": {
     "Florida": 29,
-    "Texas": 46,
-    "Washington": 45,
+    "Texas": 47,
+    "Washington": 46,
     "New York": 42,
-    "California": 29,
+    "California": 30,
     "Capitol": 14,
     "Border": 12,
     "Los Angeles": 5,
@@ -776,15 +757,15 @@
     "Colorado": 10,
     "Canada": 9,
     "Brazílie": 1,
-    "Ukrajina": 4,
-    "Rusko": 6,
+    "Ukrajina": 1,
+    "Rusko": 1,
     "Írán": 1,
     "Čína": 1,
     "Tchaj-wan": 1,
     "Japonsko": 1,
     "Pákistán": 1,
     "Londýn": 1,
-    "Paříž": 4,
+    "Paříž": 5,
     "Madrid": 1,
     "Kolumbie": 1,
     "San Francisco": 1,
@@ -792,13 +773,13 @@
     "Hongkong": 1,
     "Indie": 1,
     "Berlín": 1,
-    "Michigan": 18,
+    "Michigan": 19,
     "Georgia": 12,
     "Maine": 13,
-    "Mexico": 8,
+    "Mexico": 9,
     "Singapur": 1,
     "Chicago": 11,
-    "Ohio": 16,
+    "Ohio": 17,
     "Arizona": 13,
     "Minnesota": 10,
     "Virginia": 4,
@@ -812,9 +793,9 @@
     "Louisiana": 7,
     "Egypt": 1,
     "Pennsylvania": 9,
-    "North Carolina": 2,
+    "North Carolina": 3,
     "Brusel": 1,
-    "Wisconsin": 2,
+    "Wisconsin": 3,
     "Kuba": 1,
     "Somálsko": 1,
     "Tennessee": 1,
@@ -833,17 +814,9 @@
     "key": "Texas",
     "name_cs": "Texas",
     "name_en": "Texas",
-    "count": 46
+    "count": 47
   },
   "archive": [
-    {
-      "date": "2026-10-15 04:59",
-      "threat_level": "HIGH",
-      "security_status_cs": "Spojené státy čelí silnému ekonomickému tlaku v důsledku inflačního oživení (CPI vzrostl na 3,7 %) a prudkého propadu technologických akcií vyvolaného čínským modelem DeepSeek. Politická scéna je napjatá kvůli blížícím se midterms, právním sporům Bílé domu ohledně přístupu médií a vyšetřování kongresmanky Ilhan Omar.",
-      "security_status_en": "The United States is facing intense economic pressure due to a rebound in inflation (CPI rising to 3.7%) and a steep plunge in tech stocks sparked by China's DeepSeek model. The political scene is strained ahead of the midterms, alongside White House legal disputes over media access and a federal inquiry into Rep. Ilhan Omar.",
-      "forecast_cs": "V nejbližších dnech lze očekávat pokračující nervozitu na trzích, neboť investoři přehodnocují valuace technologických firem a reagují na zhoršující se inflační data.",
-      "forecast_en": "Continued market nervousness can be expected over the coming days as investors reassess tech valuations and respond to worsening inflation data."
-    },
     {
       "date": "2026-10-15 10:38",
       "threat_level": "HIGH",
@@ -947,29 +920,37 @@
       "security_status_en": "The US political landscape is highly tense ahead of the most expensive midterm elections in history, with the administration facing clashes over D.C. projects and controversial decisions on Russia sanctions. On the economic front, tech stocks struggle with a correction during a crucial earnings week, while domestic security faces incidents including a shooting in the capital.",
       "forecast_cs": "V nejbližších dnech lze očekávat volatilitu na akciových trzích poháněnou výsledkovou sezónou velkých technologií a stupňující se rétorikou před volbami.",
       "forecast_en": "In the coming days, volatility in equity markets is expected, driven by big tech earnings season and intensifying pre-election rhetoric."
+    },
+    {
+      "date": "2026-10-20 05:00",
+      "threat_level": "HIGH",
+      "security_status_cs": "Spojené státy čelí rostoucímu napětí vnitřní bezpečnosti, které zahrnuje narůstající násilí vůči příslušníkům orgánů činných v trestním řízení a podezřelé zásilky směřované na úřady. Blížící se kongresové volby vyvolávají silnou politickou polarizaci a obavy z volebních nepokojů živené domácím děním i nepokoji v zahraničí. Trhy mezitím vyhlížejí výsledkovou sezónu velkých technologií a reagují na nové vládní programy podpory.",
+      "security_status_en": "The United States is facing mounting domestic security tensions, including rising violence against law enforcement officers and suspicious mail packages sent to officials. Upcoming midterm elections are driving intense political polarization and fears of electoral unrest fueled by both domestic events and foreign protests. Meanwhile, markets are anticipating major tech earnings and reacting to new government relief programs.",
+      "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na trzích vlivem blížících se voleb a výsledků velkých technologických firem.",
+      "forecast_en": "In the coming days, continued market volatility is expected due to approaching elections and earnings results from major tech companies."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 7× HIGH.",
   "market_data": {
     "sp500": {
-      "value": 7659.44,
-      "date": "2026-10-16",
+      "value": 7690.73,
+      "date": "2026-10-19",
       "cached": false
     },
     "dow": {
-      "value": 52002.41,
-      "date": "2026-10-16",
+      "value": 51966.03,
+      "date": "2026-10-19",
       "cached": false
     },
     "yield10y": {
-      "value": 5.1,
-      "date": "2026-10-16",
+      "value": 5.14,
+      "date": "2026-10-19",
       "cached": false
     }
   },
   "usd_czk": {
-    "value": 21.615,
-    "date": "2026-10-16"
+    "value": 21.686,
+    "date": "2026-10-19"
   }
 }

@@ -1,66 +1,241 @@
 {
-  "last_updated": "2026-10-19T11:43:06Z",
+  "last_updated": "2026-10-20T04:59:39Z",
   "assessment": {
     "threat_level": "CRITICAL",
     "sentiment_score": 92,
-    "security_status_cs": "Situace v Rudém moři a Hormuzském průlivu zůstává kritická kvůli probíhajícím útokům na tankery, námořní minám a rostoucím rizikům pro globální energetické toky. Válka v regionu nadále destabilizuje námořní obchod a žene náklady na přepravu a pojištění prudce vzhůru.",
-    "security_status_en": "The situation in the Red Sea and the Strait of Hormuz remains critical due to ongoing attacks on tankers, naval mines, and escalating risks to global energy flows. The regional conflict continues to destabilize maritime trade and drive shipping and insurance costs sharply higher.",
+    "security_status_cs": "Bezpečnostní situace v oblasti Rudého moře a Hormuzského průlivu zůstává kritická kvůli stupňujícím se útokům Houthiů a íránským operacím, které ochromují klíčové námořní trasy. Zprávy o potopených kontejnerových lodích, zasažených tankerech a narušených dodávkách ropy vedou k masivnímu růstu rizikových přirážek a globálních námořních zmatků.",
+    "security_status_en": "The security situation in the Red Sea and the Strait of Hormuz remains critical due to escalating Houthi attacks and Iranian operations that are paralyzing key maritime trade routes. Reports of sunken container ships, targeted tankers, and disrupted oil supplies are driving massive risk premiums and global shipping disruptions.",
     "recommendations": [
       {
         "sector_cs": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)",
         "sector_en": "Maritime Shipping (e.g. Maersk, Hapag-Lloyd, ZIM)",
         "action": "BUY",
-        "reason_cs": "Rostoucí náklady na přepravu a delší objízdné trasy nadále generují nadstandardní zisky navzdory rizikům.",
-        "reason_en": "Surging shipping costs and longer alternative routes continue to generate exceptional profits despite the elevated risks."
+        "reason_cs": "Přetrvávající krize v Hormuzském průlivu a Rudém moři prodlužuje trasy a žene spotové sazby za přepravu prudce nahoru. To generuje nadstandardní příjmy pro provozovatele kontejnerových flotil a tankerů.",
+        "reason_en": "The ongoing crisis in the Strait of Hormuz and Red Sea extends shipping routes and drives spot freight rates sharply higher. This generates exceptional revenues for container and tanker fleet operators."
       },
       {
         "sector_cs": "Obranný průmysl (např. RTX, Lockheed Martin, BAE Systems)",
         "sector_en": "Defense Industry (e.g. RTX, Lockheed Martin, BAE Systems)",
         "action": "BUY",
-        "reason_cs": "Trvající eskalace konfliktů na Blízkém východě a v Evropě zajišťuje vysokou poptávku po vojenském vybavení a protivzdušné obraně.",
-        "reason_en": "Ongoing conflict escalation in the Middle East and Europe ensures sustained high demand for military equipment and air defense systems."
+        "reason_cs": "Eskalace konfliktů na Středním východě a přímé vojenské akce USA a Izraele proti Íránu zajišťují dlouhodobě vysokou poptávku po protivzdušné obraně, dronech a vojenském vybavení. Obranné rozpočty zůstávají podpořeny geopolitickými riziky.",
+        "reason_en": "Middle East escalations and direct US-Israeli military actions against Iran ensure sustained high demand for air defense, drones, and military equipment. Defense budgets remain underpinned by geopolitical risks."
       },
       {
         "sector_cs": "Ropa a Plyn (např. Shell, BP, Chevron)",
         "sector_en": "Oil & Gas (e.g. Shell, BP, Chevron)",
         "action": "BUY",
-        "reason_cs": "Hrozby v Hormuzském průlivu a Rudém moři tlačí ceny energií a rizikové prémie vzhůru, což posiluje marže těžařů.",
-        "reason_en": "Threats in the Strait of Hormuz and the Red Sea are pushing energy prices and risk premiums higher, boosting producer margins."
+        "reason_cs": "Cena Brentu překročila 110 dolarů za barel v důsledku blokády perského zálivu a útoků na tankery, což energetickým gigantům přináší enormní marže a silný růst cash flow.",
+        "reason_en": "Brent crude topping $110 per barrel due to the Persian Gulf blockade and attacks on tankers delivers enormous margins and strong cash flow growth for energy majors."
       },
       {
         "sector_cs": "Evropský Spotřební sektor & Autoprůmysl (např. Volvo, BMW)",
         "sector_en": "European Consumer & Automotive (e.g. Volvo, BMW)",
         "action": "SELL",
-        "reason_cs": "Vysoké náklady na dopravu, drahé energie a nejistota spotřebitelů v důsledku inflace silně doléhají na marže.",
-        "reason_en": "High freight costs, expensive energy, and inflation-driven consumer uncertainty are heavily weighing on profit margins."
+        "reason_cs": "Rostoucí náklady na námořní dopravu, prodloužené dodací lhůty kolem Afriky a inflační tlaky z drahých energií silně zatěžují výrobní marže a spotřebitelskou poptávku v Evropě.",
+        "reason_en": "Rising maritime shipping costs, extended delivery routes around Africa, and inflationary pressures from expensive energy heavily weigh on manufacturing margins and European consumer demand."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly jsou vůči geopolitickému šoku částečně izolované, ale globální makroekonomická nejistota omezuje výraznější růst.",
-        "reason_en": "Domestic equities are partially insulated from the geopolitical shock, but broader macroeconomic uncertainty limits significant upside."
+        "reason_cs": "Domácí tituly jsou imunní vůči přímým dopadům lodní krize, avšak celkově opatrná nálada na globálních trzích a riziko přetrvávající inflace doporučují vyčkávanou pozici.",
+        "reason_en": "Domestic equities are largely immune to direct shipping crisis impacts, but a cautious global market sentiment and persistent inflation risks call for a neutral, holding stance."
       },
       {
         "sector_cs": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
         "sector_en": "European blue-chips (e.g. Airbus, TotalEnergies, Allianz, Rheinmetall)",
         "action": "HOLD",
-        "reason_cs": "Smíšený dopad: energetické a zbrojní tituly těží z krize, zatímco průmyslové a finanční akcie čelí rostoucím nákladům.",
-        "reason_en": "Mixed impact: energy and defense stocks benefit from the crisis, while industrial and financial equities face rising operational costs."
+        "reason_cs": "Portfolia těží z expozice vůči energetickému a obrannému sektoru (např. TotalEnergies, Rheinmetall), ale širší makroekonomická nestabilita a hrozba širší války v regionu brzdí agresivnější nákupy.",
+        "reason_en": "Portfolios benefit from energy and defense exposure (e.g., TotalEnergies, Rheinmetall), but broader macroeconomic instability and regional war threats restrain more aggressive buying."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající extrémní napětí v Hormuzském průlivu a Rudém moři, což udrží ceny komodit a rizikové prémie na vysokých hodnotách.",
-    "forecast_en": "Over the coming days, persistent extreme tension in the Strait of Hormuz and the Red Sea is expected to keep commodity prices and risk premiums elevated.",
-    "forecast_review_cs": "Předchozí předpověď byla zcela potvrzena dnešními zprávami o útocích na tankery v Hormuzském průlivu a přetrvávajících dodavatelských rizicích.",
-    "forecast_review_en": "The previous forecast was fully confirmed by today's news regarding tanker attacks in the Strait of Hormuz and persistent supply chain risks."
+    "forecast_cs": "V nejbližších dnech lze očekávat udržení extrémních rizikových prémií a vysokých cen ropy nad 110 USD, neboť napětí v Hormuzském průlivu a Rudém moři nadále eskaluje bez náznaku diplomatického řešení.",
+    "forecast_en": "Over the coming days, extreme risk premiums and high oil prices above $110 are expected to persist as tensions in the Strait of Hormuz and the Red Sea escalate further with no sign of a diplomatic resolution.",
+    "forecast_review_cs": "Předchozí předpověď o přetrvávajícím extrémním napětí a vysokých komoditních prémiích byla dnešními zprávami o útocích na tankery a růstu Brentu nad 110 USD plně potvrzena.",
+    "forecast_review_en": "The previous forecast of persistent extreme tension and high commodity premiums was fully confirmed by today's news of tanker attacks and Brent climbing above $110."
   },
   "articles": [
     {
-      "title": "Iranian Ambassador to Germany summoned over attempted attack on Jewish community leader",
-      "summary": "<img align=\"right\" alt=\"Majid Nili Ahmadabadi, Iran\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_5317,w_7975/742583\" /><br />\"We do not tolerate attacks on Jewish life or on those who defend it—not anywhere, and certainly not in Germany,\" the ministry wrote on X/Twitter.<br />",
-      "link": "https://www.jpost.com/diaspora/antisemitism/article-912150",
-      "published": "Mon, 19 Oct 2026 12:21:47 GMT",
+      "title": "Brent Tops $110 as Tanker Attacks Threaten Persian Gulf Supply",
+      "summary": "Crude oil prices extended their climb today, with Brent topping $110 per barrel again earlier in the day, and WTI back at over $100, as traders turn increasingly pessimistic about the resumption of normal oil flows out of the Persian Gulf. At the time of writing, Brent crude was trading at $109.68 per barrel, with West Texas Intermediate at $98.55 per barrel. Brent crude is trading at its highest in five months. The price trend follows reports of intensive tanker attacks in the Strait of Hormuz, which have severely affected oil flows, according…",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Tops-110-as-Tanker-Attacks-Threaten-Persian-Gulf-Supply.html",
+      "published": "Mon, 19 Oct 2026 23:56:06 -0500",
+      "source": "OilPrice"
+    },
+    {
+      "title": "Trump accuses Iran of killing 75,000, says asking NATO for help during war was test",
+      "summary": "<img align=\"right\" alt=\"US President Donald Trump arrives to speak during a midterm rally at Truist Arena on the Northern Kentucky University campus on October 17, 2026 in Highland Heights, Kentucky. (photo credit: Eric Lee/Getty Images)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_682,w_1024/742705\" title=\"US President Donald Trump arrives to speak during a midterm rally at Truist Arena on the Northern Kentucky University campus on October 17, 2026 in Highland Heights, Kentucky. (photo credit: Eric Lee/Getty Images)\" /><br />“Somebody said, I wonder why they don't protest. Well, well, it's a little hard when you got machine guns at the end of the street shooting you down,” he added.<br />",
+      "link": "https://www.jpost.com/middle-east/iran-news/article-912228",
+      "published": "Tue, 20 Oct 2026 04:50:50 GMT",
       "source": "Jerusalem Post"
+    },
+    {
+      "title": "Netanyahu calls Trump 'by far, the greatest friend Israel has ever had'",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-calls-trump-far-greatest-friend-israel-has-ever-had\" rel=\"bookmark\">\n<span class=\"field field-title\">Netanyahu calls Trump 'by far, the greatest friend Israel has ever had'</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Israeli Prime Minister Benjamin Netanyahu called US President Donald Trump “by far, the greatest friend Israel has ever had”, in footage he shared a day after Trump endorsed him ahead of Israel’s upcoming elections.</p>\n\n<p>On Sunday, Trump praised Netanyahu as a “great warrior prime minister” and a partner for peace, crediting him with joining the United States in launching strikes on Iran in February.</p>\n\n<p>The conflict, now in its seventh month, has disrupted global energy markets and caused widespread damage across the Middle East, including to critical infrastructure and regional economies.</p>\n\n<blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"en\">Israeli Prime Minister Benjamin Netanyahu called Donald Trump “the greatest friend Israel has ever had”, a day after the US president endorsed him ahead of Israel’s elections and praised him as a “great warrior prime minister”. https://t.co/BS7XF1osIq</p>\n— Middle East Eye (@MiddleEastEye) <a href=\"https://x.com/MiddleEastEye/status/2112338681214144585?ref_src=twsrc%5Etfw\">October 20, 2026</a></blockquote>\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/netanyahu-calls-trump-far-greatest-friend-israel-has-ever-had",
+      "published": "Tue, 20 Oct 2026 05:23:28 +0100",
+      "source": "Middle East Eye"
+    },
+    {
+      "title": "IRGC says it downed US MQ-9 drone over Hormuz Strait",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-downed-us-mq-9-drone-over-hormuz-strait\" rel=\"bookmark\">\n<span class=\"field field-title\">IRGC says it downed US MQ-9 drone over Hormuz Strait</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Iran’s Islamic Revolutionary Guard Corps (IRGC) has said that it intercepted and destroyed a US MQ-9 drone over the Strait of Hormuz early on Tuesday.</p>\n\n<p>The statement, carried by state media, announced that an advanced air defence system operated by the IRGC’s aerospace force had shot down the drone. </p>\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-it-downed-us-mq-9-drone-over-hormuz-strait",
+      "published": "Tue, 20 Oct 2026 04:33:01 +0100",
+      "source": "Middle East Eye"
+    },
+    {
+      "title": "Trump says Nato 'weren't there to help' during war on Iran",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-nato-werent-there-help-during-war-iran\" rel=\"bookmark\">\n<span class=\"field field-title\">Trump says Nato 'weren't there to help' during war on Iran</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>US President Donald Trump has slammed Nato allies, saying they \"weren't there to help\" Washington during its war on Iran. </p>\n\n<p>\"We stand with Europe despite its flaws, its weaknesses…But if they don't soon find their way, and they have to find their way, we will have no choice but to leave,\" he said at a campaign rally.</p>\n\n<p>\"We spend hundreds of billions of dollars a year on Nato protecting them, but when we said, 'Would you like to help?' 'No, thank you.' 'Oh, no thank you?' What does that mean, 'No, thank you'?\"</p>\n\n<p>Trump added that the US spent \"so much money on Nato\", adding that they \"weren't there to help\" and that its something Washington \"can never really forget\".</p>\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-nato-werent-there-help-during-war-iran",
+      "published": "Tue, 20 Oct 2026 03:14:48 +0100",
+      "source": "Middle East Eye"
+    },
+    {
+      "title": "The human cost of surging US air strikes in Somalia",
+      "summary": "Families recount deaths, injuries and displacement as Trump accelerates US strikes against armed groups in Somalia.",
+      "link": "https://www.aljazeera.com/news/2026/10/20/us-air-strikes-surge-in-somalia-as-families-seek-answers?traffic_source=rss",
+      "published": "Tue, 20 Oct 2026 01:52:32 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Netanyahu, Hegseth hold covert meeting at Israel's Ovda air base days before Israel's election",
+      "summary": "<img align=\"right\" alt=\"Secretary of Defense Pete Hegseth (R) and Prime Minister Benjamin Netanyahu (L) during an arrival ceremony at the Pentagon in Washington D.C., on July 9, 2025. (photo credit: MEHMET ESER/Middle East Images/AFP via Getty Images)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_396,w_594/742714\" title=\"Secretary of Defense Pete Hegseth (R) and Prime Minister Benjamin Netanyahu (L) during an arrival ceremony at the Pentagon in Washington D.C., on July 9, 2025. (photo credit: MEHMET ESER/Middle East Images/AFP via Getty Images)\" /><br />The unannounced meeting comes eight days before Israeli elections and amid US-Israel discussions to resume combat operations against Iran, according to the report.<br />",
+      "link": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-912217",
+      "published": "Tue, 20 Oct 2026 01:48:47 GMT",
+      "source": "Jerusalem Post"
+    },
+    {
+      "title": "Watch: Iran's Araghchi says US the ‘main cause of insecurity’ in region",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/watch-irans-araghchi-says-us-main-cause-insecurity-region\" rel=\"bookmark\">\n<span class=\"field field-title\">Watch: Iran's Araghchi says US the ‘main cause of insecurity’ in region</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Iranian Foreign Minister Abbas Araghchi told reporters on Monday that regional issues should be resolved through diplomacy, blaming the US for insecurity and tensions in the Strait of Hormuz and the wider region.</p>\n\n<blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"en\">Iranian Foreign Minister Abbas Araghchi told reporters on Monday that regional issues should be resolved through diplomacy and blamed the United States for insecurity and tensions in the Strait of Hormuz. https://t.co/fpB2RrCKCP</p>\n— Middle East Eye (@MiddleEastEye) <a href=\"https://x.com/MiddleEastEye/status/2112352549932089797?ref_src=twsrc%5Etfw\">October 20, 2026</a></blockquote>\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/watch-irans-araghchi-says-us-main-cause-insecurity-region",
+      "published": "Tue, 20 Oct 2026 02:47:45 +0100",
+      "source": "Middle East Eye"
+    },
+    {
+      "title": "Saudi Arabia cancels 2026 ‘Davos in the Desert’ amid Houthi attacks",
+      "summary": "Riyadh postpones flagship investment conference until 2027, orders government staff to work from home.",
+      "link": "https://www.aljazeera.com/news/2026/10/20/saudi-arabia-cancels-2026-davos-in-the-desert-amid-houthi-attacks?traffic_source=rss",
+      "published": "Tue, 20 Oct 2026 01:05:31 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Who owns shipping’s carbon decisions?",
+      "summary": "<p>In an industry where a position list is a competitive weapon, the question is no longer just how to comply—but where carbon decisions are made and who controls the data behind them, argues Argyris Zafeiropoulos, principal advisor at Resilience & Compliance Advisory. With the EU Emissions Trading System fully phased into shipping and FuelEU Maritime …</p>\n</p>",
+      "link": "https://splash247.com/who-owns-shippings-carbon-decisions/",
+      "published": "Tue, 20 Oct 2026 00:00:00 +0000",
+      "source": "Splash247"
+    },
+    {
+      "title": "Iran war live: Trump says US hits Iran hard ‘economically and militarily’",
+      "summary": "Trump says US continues to hit Iran 'economically and militarily' while praising Russia for doing 'nothing' to aid Iran.",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/10/20/draft-3?traffic_source=rss",
+      "published": "Tue, 20 Oct 2026 00:00:00 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "U.S. to Allow Dark-Fleet Tankers to Shed Sanctions, Wright Says",
+      "summary": "The Trump administration is authorizing the sale of sanctioned oil tankers in an effort to allow the vessels to start legitimately shipping crude, US Energy Secretary Chris Wright said.",
+      "link": "https://gcaptain.com/u-s-to-allow-dark-fleet-tankers-to-shed-sanctions-wright-says/",
+      "published": "Mon, 19 Oct 2026 23:33:26 +0000",
+      "source": "gCaptain"
+    },
+    {
+      "title": "US, Israel weigh renewed strikes on Iran as experts warn renewed conflict may be inevitable",
+      "summary": "<img align=\"right\" alt=\"A giant anti-Israel and anti-Netanyahu billboard is displayed at Enghelab Square in Tehran as tensions between Iran and the United States and Israel continue, on October 12, 2026 in Tehran, Iran.  (photo credit: Fatemeh Bahrami/Anadolu via Getty Images)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/742672\" title=\"A giant anti-Israel and anti-Netanyahu billboard is displayed at Enghelab Square in Tehran as tensions between Iran and the United States and Israel continue, on October 12, 2026 in Tehran, Iran.  (photo credit: Fatemeh Bahrami/Anadolu via Getty Images)\" /><br />A possible US military campaign against Iran could target missile facilities and nuclear infrastructure, but experts caution that even a brief operation risks triggering a prolonged conflict.<br />",
+      "link": "https://www.jpost.com/middle-east/article-912207",
+      "published": "Mon, 19 Oct 2026 22:52:21 GMT",
+      "source": "Jerusalem Post"
+    },
+    {
+      "title": "Egyptian parliament delays vote on military support for Saudi Arabia",
+      "summary": "Lawmakers adjourn session as opposition party tells members to abstain over unclear commitment.",
+      "link": "https://www.aljazeera.com/news/2026/10/19/egyptian-parliament-delays-vote-on-military-support-for-saudi-arabia?traffic_source=rss",
+      "published": "Mon, 19 Oct 2026 21:46:00 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Shipping: The El Niño Effect",
+      "summary": "The El Niño impact on shipping is one to consider, when considering potential 2027 freight disruptions. In its latest weekly report, shipbroker Intermodal said that “with El Niño now established and forecasters pointing to a strong event, the question for shipping is where it affects freight first. Timing matters as much as strength: the largest ...",
+      "link": "https://www.hellenicshippingnews.com/shipping-the-el-nino-effect/",
+      "published": "Mon, 19 Oct 2026 21:00:59 +0000",
+      "source": "Hellenic Shipping News"
+    },
+    {
+      "title": "How Conflict in the Middle East is Impacting Maritime",
+      "summary": "Middle Eastern buyers have been far more active in the Tanker S&P market over the past quarter. Between July 1 and Oct. 5, they made 34 Tanker purchases, up from 21 in the same period last year, an increase of more than 60%. The rise is concentrated at the top end of the fleet. VLCC ...",
+      "link": "https://www.hellenicshippingnews.com/how-conflict-in-the-middle-east-is-impacting-maritime-3/",
+      "published": "Mon, 19 Oct 2026 21:00:58 +0000",
+      "source": "Hellenic Shipping News"
+    },
+    {
+      "title": "InterManager Warns Enclosed Space Deaths Demand Urgent Industry Action",
+      "summary": "InterManager has called for urgent industry action on enclosed space safety after its latest research highlighted persistent failures in procedures, training, leadership and accident prevention. The organisation has recorded 354 enclosed space accidents over the past 30 years, between 1996 and 2026, across tankers, bulkers, general cargo ships, passenger vessels, containerships and other vessel types. ...",
+      "link": "https://www.hellenicshippingnews.com/intermanager-warns-enclosed-space-deaths-demand-urgent-industry-action/",
+      "published": "Mon, 19 Oct 2026 21:00:55 +0000",
+      "source": "Hellenic Shipping News"
+    },
+    {
+      "title": "Xclusiv Shipbrokers Weekly 19th October 2026",
+      "summary": "The product tanker market has experienced an extraordinary freight rally between early August and mid-October   Source: Xclusiv Shipbrokers Inc.",
+      "link": "https://www.hellenicshippingnews.com/xclusiv-shipbrokers-weekly-19th-october-2026/",
+      "published": "Mon, 19 Oct 2026 21:00:54 +0000",
+      "source": "Hellenic Shipping News"
+    },
+    {
+      "title": "Why Invading Iran Could Become America's Biggest Military Mistake",
+      "summary": "The ghosts of Baghdad and Kabul should be enough to silence any talk of sending American troops into Iran. Yet here we are, more than seven months into a war that began on 28 February with U.S.-Israeli strikes that killed Supreme Leader Ali Khamenei, and voices in Washington and Tel Aviv are again whispering that only boots on the ground can finish the job. Plans to seize Kharg Island, Iran’s main oil export terminal, or push inland to seize Iran’s enriched uranium have circulated since March. They are wrong. An invasion would be a…",
+      "link": "https://oilprice.com/Energy/Energy-General/Why-Invading-Iran-Could-Become-Americas-Biggest-Military-Mistake.html",
+      "published": "Mon, 19 Oct 2026 16:00:00 -0500",
+      "source": "OilPrice"
+    },
+    {
+      "title": "New Oil Fields Should Have to Build the Carbon Storage Market",
+      "summary": "The debate over new oil and gas fields usually ends in a familiar deadlock. Industry argues that production will still be needed for decades, supports jobs and reduces dependence on imports. Climate campaigners respond that every new field locks in emissions incompatible with net zero. Both sides then discuss carbon capture and storage as an afterthought: either a technological excuse for continued extraction or a costly public project unrelated to the licence being approved. There is a more useful option. If a government decides that a new oil…",
+      "link": "https://oilprice.com/Energy/Energy-General/New-Oil-Fields-Should-Have-to-Build-the-Carbon-Storage-Market.html",
+      "published": "Mon, 19 Oct 2026 15:00:00 -0500",
+      "source": "OilPrice"
+    },
+    {
+      "title": "The Sulfur Crisis Threatening the World's Food Supply",
+      "summary": "Sulfur has become an indispensable element for the modern industrial system, including agriculture. Before the outbreak of the Iran war, 24 percent of the world's supply of sulfur passed through the Strait of Hormuz. I can find no reliable information on whether sulfur is being shipped through the strait now after the Iranian government claimed control. I suspect the amount is close to zero. The sulfur price at the start of the Iran conflict was approximately $500 per metric ton for sulfur originating from the Middle East. It now sits above $800.…",
+      "link": "https://oilprice.com/Energy/Energy-General/The-Sulfur-Crisis-Threatening-the-Worlds-Food-Supply.html",
+      "published": "Mon, 19 Oct 2026 13:30:00 -0500",
+      "source": "OilPrice"
+    },
+    {
+      "title": "Houthi attack kills 53 in biggest single loss of life since Yemen civil war reignited",
+      "summary": "<p>More than 200 mostly young people said to be injured after ballistic missile attack on training camp for government forces </p><p>At least 53 people have been killed in a Houthi ballistic missile attack on a training camp for Yemeni government security forces, making it the largest single loss of life since the country’s civil war reignited in September.</p><p>The attack on al-Alam camp in the southern Shabwa province was said to have injured more than 200 others, mostly young recruits, and was described as a disaster by the country’s UN-recognised government. The injured were taken from the police and army training camp in the Jardan district to a hospital in the local capital, Ataq, where pleas for blood donations were made.</p> <a href=\"https://www.theguardian.com/world/2026/oct/19/houthi-attack-yemen-al-alam-camp-biggest-single-loss-of-life-civil-war\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/oct/19/houthi-attack-yemen-al-alam-camp-biggest-single-loss-of-life-civil-war",
+      "published": "Mon, 19 Oct 2026 17:15:23 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Russian Oil Exports by Arctic Route Jump Amid World Freight Crisis",
+      "summary": "Russia's oil exports through its Northern Sea Route (NSR) in 2026 have already exceeded last year's by nearly 50%, with some 20 million barrels shipped to Asia from the start of navigation in July to mid-October, traders said and data showed.",
+      "link": "https://gcaptain.com/russian-oil-exports-by-arctic-route-jump-amid-world-freight-crisis/",
+      "published": "Mon, 19 Oct 2026 17:04:12 +0000",
+      "source": "gCaptain"
+    },
+    {
+      "title": "Iran’s Main Oil Terminals Remain Empty as US Blockade Bites",
+      "summary": "Iran’s main oil-loading terminals have remained empty for weeks, adding to signs that a US naval blockade of the country is throttling Tehran’s exports.",
+      "link": "https://gcaptain.com/irans-main-oil-terminals-remain-empty-as-us-blockade-bites/",
+      "published": "Mon, 19 Oct 2026 16:26:30 +0000",
+      "source": "gCaptain"
+    },
+    {
+      "title": "King Charles 'sends books about soil' to Aung San Suu Kyi",
+      "summary": "Myanmar's detained former leader Aung San Suu Kyi has been photographed receiving books and letters from the King Charles, officials said.",
+      "link": "https://news.sky.com/story/king-charles-sends-books-and-letters-to-detained-aung-san-suu-kyi-officials-say-13601026",
+      "published": "Mon, 19 Oct 2026 15:53:00 +0100",
+      "source": "Sky News"
+    },
+    {
+      "title": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships",
+      "summary": "<p>At least 15 vessels struck in waterway in past 10 days, with rumours that they were carrying valuable goods</p><p>People have been scouring the strait of Hormuz for spilt cargo after Iran attacked at least 15 container ships passing through the crucial waterway in the past 10 days.</p><p>Some ships have been hit by drones, others by mines. On Sunday, a ship was struck by a rocket-propelled grenade launched from a small boat 75 miles (120km) north-east of the Saudi port of Jubail.</p> <a href=\"https://www.theguardian.com/world/2026/oct/19/strait-of-hormuz-spilt-cargo-iran-attacks-container-ships\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/oct/19/strait-of-hormuz-spilt-cargo-iran-attacks-container-ships",
+      "published": "Mon, 19 Oct 2026 14:48:56 GMT",
+      "source": "The Guardian"
     },
     {
       "title": "Ithaca Energy chief executive to retire",
@@ -68,13 +243,6 @@
       "link": "https://splash247.com/ithaca-energy-chief-executive-to-retire/",
       "published": "Mon, 19 Oct 2026 11:30:00 +0000",
       "source": "Splash247"
-    },
-    {
-      "title": "Scottish Labour becomes second biggest party at Holyrood after MSP quits Reform UK – UK politics live",
-      "summary": "<p>Reform UK and Scottish Labour came joint second in terms of seats at the May elections, with both parties having 17 MSPs</p><p>Asked why the Lib Dems were opposed to a third runway at Heathrow when they professed to be in favour of growth, <strong>Cooper</strong> said she did not accept that a third runway would produce all the benefits its supporters claimed.</p><p>She explained:</p><p>On Heathrow, it is clear from looking at all of the economic analysis of airport growth over the last few years that many of the promises made by all sorts of different airport companies simply haven’t come to bear.</p><p>The promise of higher wage jobs hasn’t been substantiated. Often it’s lower paid jobs, and often not as many as they’ve claimed.</p> <a href=\"https://www.theguardian.com/politics/live/2026/oct/19/andy-burnham-labour-children-welfare-neets-kemi-badenoch-conservatives-nigel-farage-reform-latest-news-updates\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/politics/live/2026/oct/19/andy-burnham-labour-children-welfare-neets-kemi-badenoch-conservatives-nigel-farage-reform-latest-news-updates",
-      "published": "Mon, 19 Oct 2026 11:21:14 GMT",
-      "source": "The Guardian"
     },
     {
       "title": "Norway ends one offshore wage row only for Reach Subsea strike to begin",
@@ -91,102 +259,11 @@
       "source": "gCaptain"
     },
     {
-      "title": "Qatar LNG Cargo Makes Rare Red Sea Journey to Get Gas to Europe",
-      "summary": "A carrier loaded with Qatari liquefied natural gas is sailing north through the Red Sea, potentially speeding up delivery to European customers with a rare transit through waters vulnerable to renewed attacks from Houthi rebels.",
-      "link": "https://gcaptain.com/qatar-lng-cargo-makes-rare-red-sea-journey-to-get-gas-to-europe/",
-      "published": "Mon, 19 Oct 2026 10:50:00 +0000",
-      "source": "gCaptain"
-    },
-    {
-      "title": "Iran support for Houthis probed as Yemen war re-erupts and Saudi cities hit",
-      "summary": "There have been new reports of Iranian support for the Houthis in Yemen amid a wave of attacks on Saudi cities.",
-      "link": "https://www.aljazeera.com/news/2026/10/19/iran-support-for-houthis-probed-as-yemen-war-re-erupts-and-saudi-cities-hit?traffic_source=rss",
-      "published": "Mon, 19 Oct 2026 10:49:23 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "West Bank: Israeli forces detain Palestinian teachers and issue widespread demolition notices, while settlers attempt school raid",
-      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/west-bank-israeli-forces-detain-palestinian-teachers-and-issue\" rel=\"bookmark\">\n<span class=\"field field-title\">West Bank: Israeli forces detain Palestinian teachers and issue widespread demolition notices, while settlers attempt school raid</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Israeli troops have detained several Palestinians, including teachers, and issued demoilition notices across the occupied West Bank, Wafa reports.</p>\n\n<p>According to the report, Israeli troops detained two Palestinian residents and two foreign solidarity activists following an attack by settlers on the home of Musab Rab’i in the village of al-Tuwani, in Masafer Yatta.</p>\n\n<p>Meanwhile, in Susiya, soldiers intercepted a group of Palestinian teachers who were trying to reach the the local primary school. They detained one of the teachers, Ismail al-Nawaj’ah, and seized the vehicle in which the group was travelling, forcing the remaining teachers to reach the school on foot.</p>\n\n<p>In Nablus, the Jalud Co-educational Elementary School evacuated its students following an attempt by settlers to raid the building.</p>\n\n<p>Meanwhile, in Jenin City, Israeli soldiers raided four neighbourhoods, detaining dozens of Palestinians and subjecting them to hours-long field interrogations.</p>\n\n<p>The authorities also issued over 20 demolition notices across the Jenin governorate, including greenhouses, agricultural sheds, a park, and a car dealership.</p>\n\n<p>In the Negev, the Israeli authorities razed three homes in the village of Umm Numaila, and other buildings in the village of Abu Quraynat, amid an escalation in Israeli demolitions targeting Palestinian villages in the area.</p>\n\n<p>Israeli military raids were also reported in Qalqiya, while in Ramallah, two Palestinians were wounded after being beaten by settlers in the town of Turmus Ayya and the village of Deir Abu Mash'al. The settlers tried to set two houses ablaze after first settling light to a vehicle parked in front of them.</p>\n\n\n</div>\n      \n  </div>\n\n</article>",
-      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/west-bank-israeli-forces-detain-palestinian-teachers-and-issue",
-      "published": "Mon, 19 Oct 2026 11:31:02 +0100",
-      "source": "Middle East Eye"
-    },
-    {
-      "title": "At least 40 killed, wounded in Houthi strike on Yemen camp",
-      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/least-40-killed-wounded-houthi-strike-yemen-camp\" rel=\"bookmark\">\n<span class=\"field field-title\">At least 40 killed, wounded in Houthi strike on Yemen camp</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>At least 40 people have been killed or wounded in a Houthi strike on al-Ilm camp in the Jardan district in Yemen’s Shabwa governorate, Al Jazeera reports citing deputy of the provincial governor </p>\n</div>\n      \n  </div>\n\n</article>",
-      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/least-40-killed-wounded-houthi-strike-yemen-camp",
-      "published": "Mon, 19 Oct 2026 11:08:18 +0100",
-      "source": "Middle East Eye"
-    },
-    {
-      "title": "LNG, Gas Shipping Rates Under Pressure",
-      "summary": "LNG The LNG market remained under pressure this week, despite a number of cross-basin requirements emerging from both the US Gulf and West Africa. With the fixing window moving into November and early December, vessel availability continues to outweigh cargo demand, limiting the usual seasonal uplift in freight rates around this time. On the BLNG1 ...",
-      "link": "https://www.hellenicshippingnews.com/lng-gas-shipping-rates-under-pressure/",
-      "published": "Mon, 19 Oct 2026 10:00:59 +0000",
-      "source": "Hellenic Shipping News"
-    },
-    {
-      "title": "Shipping industry sets out blueprint for a workable UK maritime fuel standard",
-      "summary": "Drawing on industry experience since FuelEU Maritime came into force in January 2025, the paper offers practical recommendations to inform the Department for Transport’s development of a domestic maritime fuel standard, as proposed in the Maritime Decarbonisation Strategy. The UK Chamber supports the objective of accelerating maritime decarbonisation but warns that successful regulation depends not ...",
-      "link": "https://www.hellenicshippingnews.com/shipping-industry-sets-out-blueprint-for-a-workable-uk-maritime-fuel-standard/",
-      "published": "Mon, 19 Oct 2026 10:00:57 +0000",
-      "source": "Hellenic Shipping News"
-    },
-    {
-      "title": "Future Fuel Talks: Ammonia bunkering needs customers beyond early adopters – CMB.TECH",
-      "summary": "CMB.TECH’s fleet will generate initial demand for the Walvis Bay ammonia bunkering terminal, but third-party demand will underpin its commercial viability, Roy Campe told ENGINE. Campe is the chief technology officer at CMB.TECH, which plans to expand its ammonia-capable fleet to 21 vessels by 2029, comprising 18 bulk carriers, one container ship and two chemical ...",
-      "link": "https://www.hellenicshippingnews.com/future-fuel-talks-ammonia-bunkering-needs-customers-beyond-early-adopters-cmb-tech/",
-      "published": "Mon, 19 Oct 2026 10:00:55 +0000",
-      "source": "Hellenic Shipping News"
-    },
-    {
-      "title": "AEMA offers specialized training to steer ammonia-fueled ships",
-      "summary": "World’s leading shipping conglomerate based in Hong Kong and one of the largest employers of Indian seafarers, Anglo-Eastern features specialized facilities like the LNG and ammonia bunkering station skid and alternative fuel training simulators at the Anglo-Eastern Maritime Academy and training centres located in India state to train seafarers for steering next-generation and specialized green ...",
-      "link": "https://www.hellenicshippingnews.com/aema-offers-specialized-training-to-steer-ammonia-fueled-ships/",
-      "published": "Mon, 19 Oct 2026 10:00:51 +0000",
-      "source": "Hellenic Shipping News"
-    },
-    {
       "title": "Nanjing Tanker picks Dalian for LR2 quartet",
       "summary": "<p>China Merchants-controlled Nanjing Tanker has selected Dalian Shipbuilding Industry Corporation (DSIC) to build four more LR2 product and crude tankers, taking its planned newbuilding programme in the segment at the Chinese yard to six vessels. The Shanghai-listed owner named DSIC as the winning bidder, following a tender launched last month. The newbuildings will have to …</p>\n</p>",
       "link": "https://splash247.com/nanjing-tanker-picks-dalian-for-lr2-quartet/",
       "published": "Mon, 19 Oct 2026 10:00:00 +0000",
       "source": "Splash247"
-    },
-    {
-      "title": "MSC joins Rheinmetall in €138m Romanian shipyard takeover",
-      "summary": "<p>Mediterranean Shipping Co (MSC) has been confirmed as a joint buyer of Romania’s bankrupt Mangalia shipyard, teaming up with German defence giant Rheinmetall in a €138m deal to revive one of Europe’s largest shipbuilding facilities. As Splash reported last week, Rheinmetall secured the Black Sea yard at auction, but today’s announcement confirms that the Aponte-controlled …</p>\n</p>",
-      "link": "https://splash247.com/msc-joins-rheinmetall-in-e138m-romanian-shipyard-takeover/",
-      "published": "Mon, 19 Oct 2026 09:30:00 +0000",
-      "source": "Splash247"
-    },
-    {
-      "title": "Qatar warns global energy shockwaves from Iran war have yet to peak",
-      "summary": "Deputy PM calls for dialogue with Tehran, highlights US defence ties and rejects Strait of Hormuz transit fees.",
-      "link": "https://www.aljazeera.com/news/2026/10/19/qatar-warns-global-energy-shockwaves-from-iran-war-have-yet-to-peak?traffic_source=rss",
-      "published": "Mon, 19 Oct 2026 09:18:24 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "More than half of UK first-time buyers paying more for mortgage than they did for rent",
-      "summary": "<p>Hamptons says figure of 56% is highest in at least a decade, with mortgage rates rising since start of Iran war</p><p>A majority of first-time UK buyers now pay more towards their monthly mortgage bills than they used to pay in rent, the estate agent Hamptons has found.</p><p>Last month 56% of first-time buyers said their monthly mortgage bills exceeded their previous rent, the highest proportion in at least a decade, according to Hamptons. They paid £39 more on average.</p> <a href=\"https://www.theguardian.com/money/2026/oct/19/uk-first-time-buyers-paying-more-mortgage-rent\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/money/2026/oct/19/uk-first-time-buyers-paying-more-mortgage-rent",
-      "published": "Mon, 19 Oct 2026 09:10:41 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "India's Crude Oil Import Bill Soars 46% as Middle East Crisis Drives Up Prices",
-      "summary": "India paid $15.4 billion to import crude oil in September, up by 46% from the year-ago import bill of $10.5 billion, as international oil prices and the Indian import crude basket soared amid reignited tensions in the Middle East. India, the world’s third-largest crude oil importer, saw its crude imports rise by 7% in September from a year earlier. But the price to pay for crude oil imports soared by 46%, according to data from the Oil Ministry’s Petroleum Planning and Analysis Cell (PPAC) cited by the Times of India. The Indian basket…",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Crude-Oil-Import-Bill-Soars-46-as-Middle-East-Crisis-Drives-Up-Prices.html",
-      "published": "Mon, 19 Oct 2026 03:35:00 -0500",
-      "source": "OilPrice"
-    },
-    {
-      "title": "Hezbollah funding plan indicates a new challenge to Lebanon’s government",
-      "summary": "The reported $200m in aid from Iran to Hezbollah has put the Lebanese government under increased pressure from the US.",
-      "link": "https://www.aljazeera.com/news/2026/10/19/hezbollah-funding-plan-indicates-a-new-challenge-to-lebanons-government?traffic_source=rss",
-      "published": "Mon, 19 Oct 2026 08:34:56 +0000",
-      "source": "Al Jazeera"
     },
     {
       "title": "Bangladesh says it was not informed of its citizens' execution by Saudi Arabia",
@@ -196,32 +273,11 @@
       "source": "BBC News"
     },
     {
-      "title": "No ‘turmoil’ at the White House",
-      "summary": "The media had a field day with Zacharia’s short tenure, but claims of chaos in Trump administration are exaggerated.",
-      "link": "https://www.aljazeera.com/opinions/2026/10/19/no-turmoil-at-the-white-house?traffic_source=rss",
-      "published": "Mon, 19 Oct 2026 06:50:43 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Morning update",
-      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-645\" rel=\"bookmark\">\n<span class=\"field field-title\">Morning update</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Good morning Middle East Eye readers,</p>\n\n<p>Here are the latest developments: </p>\n\n<ul>\n\t<li>\n\t<p>Israeli prime minister Benjamin Netanyahu warned US citizens of Iranian access to nuclear weapons, claiming that gas prices will decrease once Tehran's \"regime disappears\". In a video message addressed to Americans, Netanyahu says \"if you're worried about today's gas prices, think of what will happen if Iran gets nuclear weapons, something that Donald Trump and I will never allow\".</p>\n\t</li>\n\t<li>\n\t<p>An  Austrian Airlines flight from Tel Aviv made an emergency landing in Bulgarian capital Sofia after a threat was made against the aircraft, according to Reuters citing an airline spokesperson. The plane, carrying 57 people, was heading from Tel Aviv to Vienna. Earlier, Sky News reported based on a statement from Bulgaria’s transport ministry that the plane landed after a \"bomb threat signal\".</p>\n\t</li>\n\t<li>\n\t<p>The Saudi National Centre for Security Operations against the filming and publishing of details related to attacks on the kingdom. \"Filming, publishing, or sharing information related to countering missiles and drones and their impact sites exposes you to legal liability,\" the agency said in a post on X.</p>\n\t</li>\n\t<li>\n\t<p>An oil tanker caught fire and exploded after striking a naval mine in the southern part of the Strait of Hormuz, Iran's Islamic Revolutionary Guard Corps (IRGC) navy said on Sunday, according to Iranian media. The vessel violated Iran-imposed “regulations” by switching off its navigation system while transiting the waterway, the IRGC said.</p>\n\t</li>\n\t<li>\n\t<p>Iranian Foreign Minister Abbas Araghchi has accused Israeli Prime Minister Benjamin Netanyahu of “driving America into another war to stay out of jail”. \"Last time you wanted to \"finish the job\", Iran emerged even stronger. Want to try your luck again? Be our guest. But be careful; we have unfinished jobs too,\" the Iranian minister added.</p>\n\t</li>\n</ul>\n</div>\n      \n  </div>\n\n</article>",
-      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/morning-update-645",
-      "published": "Mon, 19 Oct 2026 06:42:22 +0100",
-      "source": "Middle East Eye"
-    },
-    {
-      "title": "Oil Prices Slip as Trump-Putin Diesel Deal Raises Supply Hopes",
-      "summary": "Crude oil prices began the week with a dip on traders' expectations of a boost in diesel fuel supply under the deal agreed by the presidents of Russia and the United States. However, the dip in oil benchmarks came from a much higher point than a week ago, leaving prices palpably elevated. At the time of writing, Brent crude was changing hands for $107.84 per barrel, with West Texas Intermediate trading at $100.29 per barrel. This compares to $105.61 for a barrel of Brent crude last Monday and $93.37 for a barrel of WTI crude a week ago. The modest…",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slip-as-Trump-Putin-Diesel-Deal-Raises-Supply-Hopes.html",
-      "published": "Mon, 19 Oct 2026 00:25:00 -0500",
-      "source": "OilPrice"
-    },
-    {
-      "title": "US Embassy in UAE urges citizens exercise ‘heightened vigilance’ in the Middle East",
-      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/us-embassy-uae-urges-citizens-exercise-heightened-vigilance-middle-east\" rel=\"bookmark\">\n<span class=\"field field-title\">US Embassy in UAE urges citizens exercise ‘heightened vigilance’ in the Middle East</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>The US Embassy in UAE issued a security alert warning its citizens in the Middle East to \"exercise heightened vigilance\" amid escalations in the region. </p>\n\n<p>\"Americans currently in the Middle East should exercise heightened vigilance due to the complex security environment. Be aware of potential flight cancellations, airspace closures, and travel disruptions,\" it said in its statement. </p>\n\n<p>It referenced Houthi attacks against Saudi Arabia, adding that \"hostilities have the potential to escalate rapidly beyond that immediate area\".</p>\n\n<p>\"Americans traveling to or from the Middle East should monitor information about airport and airline operations and develop contingency plans in advance.</p>\n\n<p>\"Iran and groups supportive of Iran may target other U.S. interests overseas or at locations associated with the United States and Americans throughout the world, including U.S. businesses and other institutions.\"</p>\n</div>\n      \n  </div>\n\n</article>",
-      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/us-embassy-uae-urges-citizens-exercise-heightened-vigilance-middle-east",
-      "published": "Mon, 19 Oct 2026 04:27:26 +0100",
-      "source": "Middle East Eye"
+      "title": "Rheinmetall to take over the Mangalia shipyard in Romania",
+      "summary": "<p>Rheinmetall and MSC acquire Romania’s Mangalia shipyard for €138M to establish a dual-use hub for civil and military naval shipbuilding in South-Eastern Europe. Rheinmteall press release Rheinmetall and the Swiss shipping company MSC intend to acquire the Romanian Mangalia shipyard, located south of Constanța. They have now been awarded the bid following an auction. The ...</p>\n<p>The post <a href=\"https://www.navalnews.com/naval-news/2026/10/rheinmetall-to-take-over-the-mangalia-shipyard-in-romania/\">Rheinmetall to take over the Mangalia shipyard in Romania</a> appeared first on <a href=\"https://www.navalnews.com\">Naval News</a>.</p>",
+      "link": "https://www.navalnews.com/naval-news/2026/10/rheinmetall-to-take-over-the-mangalia-shipyard-in-romania/",
+      "published": "Mon, 19 Oct 2026 07:36:36 +0000",
+      "source": "Naval News"
     },
     {
       "title": "Four people killed in ‘violent, fast-moving’ fire at Canadian military base",
@@ -231,60 +287,11 @@
       "source": "The Guardian"
     },
     {
-      "title": "How much will Trump’s endorsement help Netanyahu? - analysis",
-      "summary": "<img align=\"right\" alt=\"US President Donald Trump welcomes Israeli prime Minister Benjamin Netanyahu at the White House in Washington D.C., April 7, 2025. (photo credit: Liri Agami/Flash90)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_1200,w_2160/742536\" title=\"US President Donald Trump welcomes Israeli prime Minister Benjamin Netanyahu at the White House in Washington D.C., April 7, 2025. (photo credit: Liri Agami/Flash90)\" /><br />Some pundits speaking on Israeli news outlets criticized Trump for “interfering” in Israel’s election, while others put it down to the fact that Trump does not want the US to fight Iran alone.<br />",
-      "link": "https://www.jpost.com/israel-election-2026/article-912104",
-      "published": "Sun, 18 Oct 2026 23:48:27 GMT",
-      "source": "Jerusalem Post"
-    },
-    {
-      "title": "Record Shipping Costs Force Oil Producers to Slash Prices",
-      "summary": "Freight is reshaping global oil trade and the prices producers can command for their crude. Soaring shipping costs are pushing delivered prices beyond what refiners are willing to pay, forcing sellers to cut differentials or find buyers closer to home. With Chinese refiners inclined to wait for transport costs to ease, some producers are committing barrels for future loading at prices that leave little room for today’s freight bill. Their returns increasingly depend on shipping becoming cheaper before those cargoes sail. The pressure is most…",
-      "link": "https://oilprice.com/Energy/Crude-Oil/Record-Shipping-Costs-Force-Oil-Producers-to-Slash-Prices.html",
-      "published": "Sun, 18 Oct 2026 18:00:00 -0500",
-      "source": "OilPrice"
-    },
-    {
-      "title": "Hormuz Is Turning Shipping’s Fuel Bill Into a Supply Crisis",
-      "summary": "The Hormuz crisis is not only hitting crude oil and gas, but also container shipping. It is also tightening its grip on global shipping through the fuel tanks of vessels carrying world trade. Disrupted exports, constrained refinery supplies, and increasingly unreliable deliveries are clearly at present pushing the bunker market into a dangerous position. Fuel remains available internationally, but securing the right grade at the right port within a commercially workable window is becoming harder. The consequences will be severe, especially for…",
-      "link": "https://oilprice.com/Geopolitics/Middle-East/Hormuz-Is-Turning-Shippings-Fuel-Bill-Into-a-Supply-Crisis.html",
-      "published": "Sun, 18 Oct 2026 16:00:00 -0500",
-      "source": "OilPrice"
-    },
-    {
-      "title": "Trump endorses Netanyahu days before Israeli election, warns US could face Iran alone if PM loses",
-      "summary": "<img align=\"right\" alt=\"US President Donald Trump with Prime Minister Benjamin Netanyahu during a special plenum session in honor of  Trump at the Knesset on October 13, 2025.  (photo credit: YONATAN SINDEL/FLASH 90)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_533,w_800/741580\" title=\"US President Donald Trump with Prime Minister Benjamin Netanyahu during a special plenum session in honor of  Trump at the Knesset on October 13, 2025.  (photo credit: YONATAN SINDEL/FLASH 90)\" /><br />Trump endorses PM nine days before the October 27 election, says Netanyahu \"will never let you down\" • US president suggests  alternative leaders would leave Washington to face Iran alone<br />",
-      "link": "https://www.jpost.com/israel-election-2026/article-912080",
-      "published": "Sun, 18 Oct 2026 18:01:39 GMT",
-      "source": "Jerusalem Post"
-    },
-    {
-      "title": "Iran Urges US To Accept Proposal To Reopen Strait Of Hormuz",
-      "summary": "DUBAI, Oct 18 (Reuters) – Iran’s offer to the United States to reopen the Strait of Hormuz within seven days is still on the table, Foreign Minister Abbas Araqchi told Iranian media...",
-      "link": "https://gcaptain.com/iran-urges-us-to-accept-proposal-to-reopen-strait-of-hormuz/",
-      "published": "Sun, 18 Oct 2026 16:07:02 +0000",
-      "source": "gCaptain"
-    },
-    {
-      "title": "Zelenskyy says US taking Putin's side would be 'historic mistake' - as Russian oil sites attacked",
-      "summary": "Volodymyr Zelenskyy has warned that the US formally siding with Russia would be a \"historic mistake\" - as Ukrainian drones attacked oil facilities in St Petersburg.",
-      "link": "https://news.sky.com/story/zelenskyy-says-us-taking-putins-side-would-be-historic-mistake-as-russian-oil-sites-attacked-13600632",
-      "published": "Sun, 18 Oct 2026 14:49:00 +0100",
-      "source": "Sky News"
-    },
-    {
       "title": "‘4,000 people minding our own business’: four decades on, Falklands again face a hostile Argentina",
       "summary": "<p>Facing a slump in the polls, Argentina’s president is making economic attacks on the islands’ oil industry, and suggesting its key fisheries industry could be next </p><p>A dozen local people and a uniformed military police officer (“Do you mind if I sit in?”) took their seats at the back of the handsome wood-panelled courtroom that doubles as the Falkland Islands’ legislative assembly. Outside, it was a typically blowy early evening. It may nominally be spring in the south Atlantic, but Stanley harbour, with its dark grey water speckled with historical shipwrecks, was a cauldron of swells and churn.</p><p>Six of the assembly’s eight members – five men, one woman – waited patiently at a row of desks and microphones. The heating had been turned up to just short of uncomfortable. Behind them, a portrait of King Charles. From the other walls, dusty photographs of governors peered down on the scene.</p> <a href=\"https://www.theguardian.com/news/ng-interactive/2026/oct/18/4000-people-minding-our-own-business-four-decades-on-falklands-again-face-a-hostile-argentina\">Continue reading...</a>",
       "link": "https://www.theguardian.com/news/ng-interactive/2026/oct/18/4000-people-minding-our-own-business-four-decades-on-falklands-again-face-a-hostile-argentina",
       "published": "Sun, 18 Oct 2026 04:00:49 GMT",
       "source": "The Guardian"
-    },
-    {
-      "title": "Iran’s Guards Say Two Tankers Hit Mines In Strait Of Hormuz",
-      "summary": "DUBAI, Oct 17 (Reuters) – Iran’s Revolutionary Guards Navy said on Saturday that two oil tankers had caught fire after hitting naval mines while crossing the Strait of Hormuz, the official Iranian news agency...",
-      "link": "https://gcaptain.com/irans-guards-say-two-tankers-hit-mines-in-strait-of-hormuz/",
-      "published": "Sat, 17 Oct 2026 14:44:46 +0000",
-      "source": "gCaptain"
     },
     {
       "title": "Ship attack reports near Hormuz reach record high as oil exports slow",
@@ -309,15 +316,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-09 04:59",
-      "threat_level": "CRITICAL",
-      "value": 4,
-      "sentiment_score": 90,
-      "incidents": 40,
-      "brent": 102.94,
-      "usd_czk": null
-    },
     {
       "date": "2026-10-09 12:21",
       "threat_level": "CRITICAL",
@@ -578,6 +576,15 @@
       "incidents": 36,
       "brent": 108.5,
       "usd_czk": null
+    },
+    {
+      "date": "2026-10-20 04:59",
+      "threat_level": "CRITICAL",
+      "value": 4,
+      "sentiment_score": 92,
+      "incidents": 37,
+      "brent": 109.79,
+      "usd_czk": null
     }
   ],
   "locations": [
@@ -587,13 +594,6 @@
       "lon": 48.5164,
       "name_cs": "Jemen",
       "name_en": "Yemen"
-    },
-    {
-      "key": "Red Sea",
-      "lat": 20.5,
-      "lon": 38.0,
-      "name_cs": "Rudé moře",
-      "name_en": "Red Sea"
     },
     {
       "key": "Hormuz",
@@ -610,6 +610,13 @@
       "name_en": "Saudi Arabia"
     },
     {
+      "key": "Gulf of Aden",
+      "lat": 12.0,
+      "lon": 47.0,
+      "name_cs": "Adenský záliv",
+      "name_en": "Gulf of Aden"
+    },
+    {
       "key": "Iran",
       "lat": 32.4279,
       "lon": 53.688,
@@ -622,6 +629,13 @@
       "lon": 34.9519,
       "name_cs": "Ejlat",
       "name_en": "Eilat"
+    },
+    {
+      "key": "Egypt",
+      "lat": 26.8206,
+      "lon": 30.8025,
+      "name_cs": "Egypt",
+      "name_en": "Egypt"
     },
     {
       "key": "Washington",
@@ -664,22 +678,6 @@
       "auto": true
     },
     {
-      "key": "Lebanon",
-      "lat": 33.9,
-      "lon": 35.9,
-      "name_cs": "Libanon",
-      "name_en": "Lebanon",
-      "auto": true
-    },
-    {
-      "key": "Qatar",
-      "lat": 25.3,
-      "lon": 51.2,
-      "name_cs": "Katar",
-      "name_en": "Qatar",
-      "auto": true
-    },
-    {
       "key": "China",
       "lat": 35.9,
       "lon": 104.2,
@@ -688,19 +686,11 @@
       "auto": true
     },
     {
-      "key": "Hong Kong",
-      "lat": 22.3,
-      "lon": 114.2,
-      "name_cs": "Hongkong",
-      "name_en": "Hong Kong",
-      "auto": true
-    },
-    {
-      "key": "India",
-      "lat": 20.6,
-      "lon": 79,
-      "name_cs": "Indie",
-      "name_en": "India",
+      "key": "Afghanistan",
+      "lat": 33.9,
+      "lon": 67.7,
+      "name_cs": "Afghánistán",
+      "name_en": "Afghanistan",
       "auto": true
     },
     {
@@ -720,19 +710,19 @@
       "auto": true
     },
     {
-      "key": "Germany",
-      "lat": 52.52,
-      "lon": 13.4,
-      "name_cs": "Berlín",
-      "name_en": "Germany",
+      "key": "Brussels",
+      "lat": 50.85,
+      "lon": 4.35,
+      "name_cs": "Brusel",
+      "name_en": "Brussels",
       "auto": true
     },
     {
-      "key": "Colombia",
-      "lat": 4.57,
-      "lon": -74.3,
-      "name_cs": "Kolumbie",
-      "name_en": "Colombia",
+      "key": "Somalia",
+      "lat": 5.2,
+      "lon": 46.2,
+      "name_cs": "Somálsko",
+      "name_en": "Somalia",
       "auto": true
     }
   ],
@@ -746,11 +736,11 @@
     "Irák": 5,
     "Bab-el-Mandeb": 22,
     "Suezský průplav": 2,
-    "Yemen": 70,
+    "Yemen": 71,
     "Red Sea": 58,
-    "Hormuz": 64,
+    "Hormuz": 65,
     "Mecca": 30,
-    "Saudi Arabia": 70,
+    "Saudi Arabia": 71,
     "Oman": 39,
     "Iraq": 26,
     "Suez": 28,
@@ -771,18 +761,18 @@
     "Brazílie": 1,
     "Argentina": 1,
     "Izrael": 1,
-    "Egypt": 5,
-    "Londýn": 5,
+    "Egypt": 6,
+    "Londýn": 2,
     "Paříž": 2,
     "Súdán": 1,
     "Somálsko": 1,
     "Eritrea": 8,
-    "Iran": 33,
-    "Eilat": 30,
+    "Iran": 34,
+    "Eilat": 31,
     "Maine": 1,
     "Kanada": 1,
     "Venezuela": 1,
-    "Čína": 2,
+    "Čína": 1,
     "Indie": 2,
     "Djibouti": 9,
     "Jeddah": 10,
@@ -792,7 +782,7 @@
     "Mexiko": 1,
     "Turecko": 1,
     "Austrálie": 1,
-    "Gulf of Aden": 12,
+    "Gulf of Aden": 13,
     "Texas": 1,
     "Boston": 1,
     "Libanon": 1,
@@ -822,17 +812,9 @@
     "key": "Yemen",
     "name_cs": "Jemen",
     "name_en": "Yemen",
-    "count": 70
+    "count": 71
   },
   "archive": [
-    {
-      "date": "2026-10-15 04:59",
-      "threat_level": "CRITICAL",
-      "security_status_cs": "Bezpečnostní situace v oblasti Perského zálivu a Rudého moře se nadále vyostřuje po útocích na ropnou infrastrukturu Saudi Aramco a potopení několika plavidel v Hormuzském průlivu. Hútijové stupňují raketové útoky a rozsáhlá kybernetická vydírání logistických společností prohlubují nestabilitu v klíčových námořních koridorech.",
-      "security_status_en": "The security situation in the Persian Gulf and Red Sea continues to escalate following attacks on Saudi Aramco's oil infrastructure and the sinking of multiple vessels in the Strait of Hormuz. Houthi missile strikes and widespread cyber extortion campaigns against logistics companies are further deepening instability in key maritime corridors.",
-      "forecast_cs": "V nejbližších dnech lze očekávat udržení cen ropy na zvýšených úrovních nad 106 USD a pokračující volatilitu v námořní dopravě kvůli stupňujícím se útokům v oblasti Perského zálivu. Reakce trhů budou nadále citlivě reagovat na jakékoliv zprávy o bezpečnostních opatřeních v Saúdské Arábii.",
-      "forecast_en": "Over the coming days, oil prices are expected to remain elevated above $106 alongside continued volatility in maritime shipping due to escalating attacks in the Persian Gulf. Markets will remain highly sensitive to any updates regarding security measures in Saudi Arabia."
-    },
     {
       "date": "2026-10-15 10:38",
       "threat_level": "CRITICAL",
@@ -936,19 +918,27 @@
       "security_status_en": "The situation in the Red Sea and the Strait of Hormuz remains critical due to ongoing attacks on tankers, naval mines, and escalating risks to global energy flows. The regional conflict continues to destabilize maritime trade and drive shipping and insurance costs sharply higher.",
       "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající extrémní napětí v Hormuzském průlivu a Rudém moři, což udrží ceny komodit a rizikové prémie na vysokých hodnotách.",
       "forecast_en": "Over the coming days, persistent extreme tension in the Strait of Hormuz and the Red Sea is expected to keep commodity prices and risk premiums elevated."
+    },
+    {
+      "date": "2026-10-20 04:59",
+      "threat_level": "CRITICAL",
+      "security_status_cs": "Bezpečnostní situace v oblasti Rudého moře a Hormuzského průlivu zůstává kritická kvůli stupňujícím se útokům Houthiů a íránským operacím, které ochromují klíčové námořní trasy. Zprávy o potopených kontejnerových lodích, zasažených tankerech a narušených dodávkách ropy vedou k masivnímu růstu rizikových přirážek a globálních námořních zmatků.",
+      "security_status_en": "The security situation in the Red Sea and the Strait of Hormuz remains critical due to escalating Houthi attacks and Iranian operations that are paralyzing key maritime trade routes. Reports of sunken container ships, targeted tankers, and disrupted oil supplies are driving massive risk premiums and global shipping disruptions.",
+      "forecast_cs": "V nejbližších dnech lze očekávat udržení extrémních rizikových prémií a vysokých cen ropy nad 110 USD, neboť napětí v Hormuzském průlivu a Rudém moři nadále eskaluje bez náznaku diplomatického řešení.",
+      "forecast_en": "Over the coming days, extreme risk premiums and high oil prices above $110 are expected to persist as tensions in the Strait of Hormuz and the Red Sea escalate further with no sign of a diplomatic resolution."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× CRITICAL.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 7× CRITICAL.",
   "oil_prices": {
     "brent": {
-      "value": 108.5,
-      "date": "2026-10-19",
+      "value": 109.79,
+      "date": "2026-10-20",
       "cached": false
     },
     "wti": {
-      "value": 98.2,
-      "date": "2026-10-19",
+      "value": 98.63,
+      "date": "2026-10-20",
       "cached": false
     }
   },
