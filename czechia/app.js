@@ -44,8 +44,9 @@ function morBanner(){
 morBanner();
 
 // ---- Zaměření na Prahu 7 ----
-const P7_RE=/\bPra(?:ha|hy|ze|hu|hou)[\s-]*7\b|holešovic|\bletn[áéěouý]\w*|bubene[čc]|\btroj[aiuíe]\b|výstaviště|stromovk|hrdlořez|čižinsk/iu;
-const p7=a=>P7_RE.test([a.title,a.shrnuti,(a.politici||[]).map(p=>p.jmeno).join(" ")].join(" "));
+// Rozpoznání: pole "mc" z AI (nové články) nebo zmínky v textu (starší články)
+const P7_RE=/\bPra(?:ha|hy|ze|hu|hou)[\s-]*7\b|holešovic|\bletn[áéěouý]\w*|bubene[čc]|\btroj(?:a|i|u|ou)\b|výstaviště|stromovk|hrdlořez|čižinsk|hobulet/iu;
+const p7=a=>a.mc==="Praha 7"||P7_RE.test([a.title,a.shrnuti,(a.politici||[]).map(p=>p.jmeno).join(" ")].join(" "));
 function renderP7(){
   const el=$("p7-list");if(!el)return;
   const rows=articles.filter(p7).slice(0,8);
@@ -126,6 +127,7 @@ function renderNews(){
     <div>${esc(a.shrnuti)}</div>
     <div class="meta">${esc(a.source)} · ${esc(a.published||a.added)}<br>
       <span class="tag">${esc(a.region)}</span>
+      ${a.mc==="Praha 7"?`<span class="tag">Praha 7</span>`:""}
       ${(a.strany||[]).map(x=>`<span class="tag"><i class="dot" style="background:${col(x)}"></i>${esc(x)}</span>`).join("")}
       <span class="tag">tón: ${esc(a.ton)}</span>
       ${a.overeni?`<span class="tag">ověřeno: ${esc(a.overeni)}</span>`:""}
