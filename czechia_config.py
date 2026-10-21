@@ -75,10 +75,24 @@ FEEDS += [gnews(q) for q in [
     "volební model STEM", "volební model NMS", "volební model Median",
 ]]
 
+# ---- Praha 7 (městská část) ----
+_PRAHA7_QUERIES = [
+    "Praha 7 radnice", "Praha 7 zastupitelstvo", "Praha 7 starosta",
+    "Praha 7 volby", "Praha 7 komunální volby kandidátka",
+    "Holešovice radnice", "Letná radnice", "Bubeneč radnice", "Troja radnice",
+    "Bubny Zátory Praha 7", "Holešovická tržnice", "Praha 7 parkování zóny",
+    "Praha 7 rozpočet", "Hobulet Praha 7", "Praha 7 opozice koalice",
+    "site:praha7.cz",
+]
+FEEDS += [gnews(q, days=7) for q in _PRAHA7_QUERIES]
+FEEDS += [
+    "https://www.praha7.cz/feed/",   # ověřit v prohlížeči, jinak smazat
+]
+
 KEYWORDS = re.compile(
     r"vol[bby]|politi|kandid|strana|hnutí|koalic|opozic|vláda|parlament|"
     r"senát|primátor|zastupitel|slib|program|průzkum|preferenc|ANO|ODS|"
-    r"STAN|Piráti|SPD|TOP 09|KDU|ČSSD|Praha",
+    r"STAN|Piráti|SPD|TOP 09|KDU|ČSSD|Praha|Holešovic|Letn[áé]|Bubene[čc]|Troj[ae]|Hobulet",
     re.I,
 )
 POLL_RE = re.compile(r"průzkum|preferenc|volební model|odhad", re.I)
@@ -88,6 +102,9 @@ se stejným pořadím a těmito klíči:
 - "id": beze změny
 - "shrnuti": 1–2 věcné české věty, vlastními slovy, bez hodnocení
 - "region": "Praha" | "ČR" | "Jiný"
+- "mc": "Praha 7" pokud se článek týká městské části Praha 7 (Holešovice, Letná,
+  Bubeneč, Troja, Bubny, radnice Prahy 7, její zastupitelstvo či starosta),
+  jinak "". Praha 7 má v "region" stále hodnotu "Praha".
 - "temata": pole 1–3 krátkých témat (např. "doprava", "bydlení", "rozpočet")
 - "strany": pole zmíněných stran, POUZE z tohoto seznamu: {PARTIES}. Ostatní vynech.
 - "politici": pole max. 4 objektů {"jmeno": "celé jméno v 1. pádu bez titulů a
