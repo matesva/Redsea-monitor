@@ -15,6 +15,16 @@ from czechia_notify import notify_czechia
 from czechia_topics import build_topics
 import czechia_moratorium as moratorium
 
+# ---- Praha 7 ----
+P7_RESERVE = 30   # kolik míst z MAX_NEW je přednostně vyhrazeno pro Prahu 7
+# volnější vzor: slouží jen k přednostnímu řazení při sběru
+P7_RE = re.compile(
+    r"Prah[auye]\s*7\b|Praze\s*7\b|Holešovic|Hobulet|praha7\.cz|Bubene[čc]|Letn[áé]\b",
+    re.I,
+)
+# přísnější vzor: záloha pro pole "mc", když ho Gemini nevyplní
+P7_STRONG = re.compile(r"Prah[auye]\s*7\b|Praze\s*7\b|Holešovic|Hobulet|praha7\.cz", re.I)
+
 
 def load_json(path, default):
     try:
@@ -68,7 +78,13 @@ def collect(existing_ids):
     print(f"Feedy OK: {ok}/{len(FEEDS)}")
     for u, why in failed:
         print("  SELHAL:", u, why)
-    return new[:MAX_NEW]
+
+    # Praha 7 má vyhrazená místa, aby ji nevytlačily celostátní zprávy
+    p7 = [a for a in new if P7_RE.search(a["title"] + " " + a["snippet"])][:P7_RESERVE]
+    p7_ids = {a["id"] for a in p7}
+    rest = [a for a in new if a["id"] not in p7_ids]
+    print(f"Praha 7: nových kandidátů na zpracování: {len(p7)}")
+    return (p7 + rest)[:MAX_NEW]
 
 
 def fetch_text(url):
@@ -144,6 +160,8 @@ def clean_fields(r):
         r["overeni"] = None
     r["pruzkum"] = clean_pruzkum(r.get("pruzkum"))
     r["politici"] = clean_politici(r.get("politici"), PARTY_LIST)
+    # městská část: povolena jen hodnota "Praha 7", jinak prázdný řetězec
+    r["mc"] = "Praha 7" if str(r.get("mc") or "").strip() == "Praha 7" else ""
     return r
 
 
@@ -273,9 +291,12 @@ def main():
             if not r or not r.get("relevantni", True):
                 continue
             r = clean_fields(r)
+            # záloha: Gemini pole "mc" nevyplnilo, ale text Prahu 7 výslovně zmiňuje
+            if not r["mc"] and P7_STRONG.search(a["title"] + " " + a["snippet"]):
+                r["mc"] = "Praha 7"
             a.update({k: r.get(k) for k in
                       ("shrnuti", "region", "temata", "strany", "ton",
-                       "sliby", "overeni", "pruzkum", "politici")})
+                       "sliby", "overeni", "pruzkum", "politici", "mc")})
             a.pop("snippet", None)
             a["added"] = datetime.datetime.utcnow().isoformat(timespec="minutes")
             if mor and moratorium.is_poll_article(a):
