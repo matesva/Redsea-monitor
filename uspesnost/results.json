@@ -1,43 +1,43 @@
 {
- "updated": "2026-10-21T00:35",
+ "updated": "2026-10-22T00:39",
  "band": {
   "7": 2.0,
   "30": 5.0
  },
- "signals_total": 165,
+ "signals_total": 171,
  "summary": {
   "7": {
    "ALL": {
-    "n": 127,
-    "ok": 73,
-    "avg": -0.53
+    "n": 131,
+    "ok": 74,
+    "avg": -0.4
    },
    "BUY": {
-    "n": 47,
+    "n": 48,
     "ok": 29,
-    "avg": 0.13
+    "avg": 0.07
    },
    "SELL": {
-    "n": 14,
+    "n": 16,
     "ok": 11,
-    "avg": -4.56
+    "avg": -3.06
    },
    "HOLD": {
-    "n": 66,
-    "ok": 33,
-    "avg": -0.14
+    "n": 67,
+    "ok": 34,
+    "avg": -0.1
    }
   },
   "30": {
    "ALL": {
-    "n": 18,
-    "ok": 11,
-    "avg": -1.54
+    "n": 25,
+    "ok": 16,
+    "avg": 0.21
    },
    "BUY": {
-    "n": 7,
-    "ok": 2,
-    "avg": 1.16
+    "n": 9,
+    "ok": 4,
+    "avg": 2.18
    },
    "SELL": {
     "n": 2,
@@ -45,9 +45,9 @@
     "avg": -4.67
    },
    "HOLD": {
-    "n": 9,
-    "ok": 7,
-    "avg": -2.95
+    "n": 14,
+    "ok": 10,
+    "avg": -0.36
    }
   }
  },
@@ -78,14 +78,14 @@
   },
   "Evropa": {
    "7": {
-    "n": 14,
+    "n": 15,
     "ok": 6,
-    "avg": 1.04
+    "avg": 1.37
    },
    "30": {
-    "n": 4,
-    "ok": 3,
-    "avg": 0.78
+    "n": 6,
+    "ok": 4,
+    "avg": 3.92
    }
   },
   "Blízký východ": {
@@ -93,18 +93,23 @@
     "n": 10,
     "ok": 6,
     "avg": 1.83
+   },
+   "30": {
+    "n": 3,
+    "ok": 2,
+    "avg": 2.5
    }
   },
   "Čína a Asie": {
    "7": {
-    "n": 28,
+    "n": 29,
     "ok": 13,
-    "avg": -2.25
+    "avg": -1.83
    },
    "30": {
-    "n": 4,
-    "ok": 1,
-    "avg": -7.48
+    "n": 6,
+    "ok": 3,
+    "avg": -4.14
    }
   },
   "Japonsko": {
@@ -116,13 +121,100 @@
   },
   "Jižní Amerika": {
    "7": {
-    "n": 18,
-    "ok": 15,
-    "avg": 0.39
+    "n": 20,
+    "ok": 16,
+    "avg": 0.27
    }
   }
  },
  "signals": [
+  {
+   "monitor": "Evropa",
+   "sector": "Automobilový průmysl (Volkswagen, BMW, Stellantis)",
+   "action": "HOLD",
+   "date": "2026-10-21",
+   "tickers": [
+    "BMW.DE"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Argentina (Merval, YPF, MercadoLibre)",
+   "action": "HOLD",
+   "date": "2026-10-21",
+   "tickers": [
+    "^MERV",
+    "MELI",
+    "YPF"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
+   "action": "BUY",
+   "date": "2026-10-21",
+   "tickers": [
+    "SCCO",
+    "SQM",
+    "FCX"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
+   "action": "HOLD",
+   "date": "2026-10-21",
+   "tickers": [
+    "CVX",
+    "PBR",
+    "EC"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
+   "action": "BUY",
+   "date": "2026-10-21",
+   "tickers": [
+    "JBS",
+    "BG",
+    "CSAN"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Brazilský akciový trh (Bovespa, EWZ)",
+   "action": "HOLD",
+   "date": "2026-10-21",
+   "tickers": [
+    "^BVSP",
+    "EWZ"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
   {
    "monitor": "Evropa",
    "sector": "Energetika (TotalEnergies, Shell, RWE)",
@@ -587,8 +679,8 @@
     "005930.KS",
     "ASML"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 6.19,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -616,7 +708,7 @@
     "005930.KS",
     "ASML"
    ],
-   "ret7": -4.74,
+   "ret7": -3.66,
    "ok7": false,
    "ret30": null,
    "ok30": null
@@ -658,8 +750,8 @@
    "tickers": [
     "BMW.DE"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 5.92,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -673,7 +765,7 @@
     "005930.KS",
     "ASML"
    ],
-   "ret7": -8.84,
+   "ret7": -6.13,
    "ok7": true,
    "ret30": null,
    "ok30": null
@@ -688,8 +780,8 @@
     "PBR",
     "EC"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 1.79,
+   "ok7": true,
    "ret30": null,
    "ok30": null
   },
@@ -703,8 +795,8 @@
     "BG",
     "CSAN"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": -3.01,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -717,7 +809,7 @@
     "^BVSP",
     "EWZ"
    ],
-   "ret7": 0.68,
+   "ret7": 0.42,
    "ok7": true,
    "ret30": null,
    "ok30": null
@@ -1190,92 +1282,6 @@
    ],
    "ret7": -3.27,
    "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Japonsko",
-   "sector": "Technologie (Sony, SoftBank)",
-   "action": "HOLD",
-   "date": "2026-10-07",
-   "tickers": [
-    "6758.T",
-    "9984.T"
-   ],
-   "ret7": -6.05,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Jižní Amerika",
-   "sector": "Argentina (Merval, YPF, MercadoLibre)",
-   "action": "BUY",
-   "date": "2026-10-07",
-   "tickers": [
-    "^MERV",
-    "MELI",
-    "YPF"
-   ],
-   "ret7": 1.41,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Jižní Amerika",
-   "sector": "Brazilský akciový trh (Bovespa, EWZ)",
-   "action": "HOLD",
-   "date": "2026-10-07",
-   "tickers": [
-    "^BVSP",
-    "EWZ"
-   ],
-   "ret7": 0.81,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "USA",
-   "sector": "Technologický sektor (Apple, Microsoft, Nvidia)",
-   "action": "SELL",
-   "date": "2026-10-06",
-   "tickers": [
-    "NVDA",
-    "AAPL",
-    "MSFT"
-   ],
-   "ret7": 0.16,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Japonsko",
-   "sector": "Technologie (Sony, SoftBank)",
-   "action": "BUY",
-   "date": "2026-10-06",
-   "tickers": [
-    "6758.T",
-    "9984.T"
-   ],
-   "ret7": -7.21,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Jižní Amerika",
-   "sector": "Brazilský akciový trh (Bovespa, ETF EWZ)",
-   "action": "BUY",
-   "date": "2026-10-06",
-   "tickers": [
-    "^BVSP",
-    "EWZ"
-   ],
-   "ret7": 0.1,
-   "ok7": true,
    "ret30": null,
    "ok30": null
   }
