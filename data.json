@@ -1,94 +1,262 @@
 {
-  "last_updated": "2026-10-22T04:59:38Z",
+  "last_updated": "2026-10-22T10:55:38Z",
   "assessment": {
     "threat_level": "CRITICAL",
     "sentiment_score": 92,
-    "security_status_cs": "Situace v Rudém moři, Perském zálivu a okolních průlivech zůstává extrémně napjatá kvůli stupňujícím se útokům Houthiů a hrozbám širšího konfliktu s Iránem. Námořní doprava čelí rekordnímu počtu útoků na tankery, což vyhání náklady na přepravu do závratných výšin navzdory pokračujícím exportům ropy.",
-    "security_status_en": "The situation in the Red Sea, Persian Gulf, and surrounding straits remains extremely tense due to escalating Houthi attacks and threats of a broader conflict with Iran. Maritime transport faces a record number of tanker attacks, driving shipping costs to astronomical heights despite ongoing oil exports.",
+    "security_status_cs": "Bezpečnostní situace v regionu prudce eskaluje v důsledku Hútíjských útoků na saúdská letiště a ropná zařízení, na což USA reagovaly evakuací diplomatů. Iránské plovoucí rezervy ropy jsou zcela vyčerpány vlivem námořní blokády, což drží ceny ropy nad 111 USD za barel a námořní přepravní náklady na extrémních úrovních.",
+    "security_status_en": "The security situation in the region is escalating sharply due to Houthi attacks on Saudi airports and oil facilities, prompting the U.S. to evacuate diplomats. Iran's floating oil reserves are completely depleted due to the naval blockade, keeping crude prices above $111 per barrel and maritime shipping costs at extreme levels.",
     "recommendations": [
       {
         "sector_cs": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)",
         "sector_en": "Maritime Shipping (e.g. Maersk, Hapag-Lloyd, ZIM)",
         "action": "BUY",
-        "reason_cs": "Extrémně vysoké náklady na přepravu a sankční úlevy na stínovou flotilu hrají do karet ziskovosti přepravců navzdory rizikům.",
-        "reason_en": "Extremely high shipping costs and sanctions relief on shadow fleets play into the profitability of carriers despite the risks."
+        "reason_cs": "Dlouhodobé objížďky kolem Afriky a vysoké náklady na přepravu (přes 37 USD za barel v Perském zálivu) generují rekordní marže pro dopravce.",
+        "reason_en": "Long-term detours around Africa and high shipping costs (over $37 per barrel in the Persian Gulf) are generating record margins for carriers."
       },
       {
         "sector_cs": "Obranný průmysl (např. RTX, Lockheed Martin, BAE Systems)",
         "sector_en": "Defense Industry (e.g. RTX, Lockheed Martin, BAE Systems)",
         "action": "BUY",
-        "reason_cs": "Očekávání nových útoků, nasazení protivzdušné obrany a rostoucí geopolitické napětí zajišťují trvalý přísun vládních zakázek.",
-        "reason_en": "Expectations of new strikes, air defense deployments, and rising geopolitical tensions ensure a steady stream of government contracts."
+        "reason_cs": "Zintenzivnění dronových a raketových útoků Hútíů na Saúdskou Arábii a hrozby přímého střetu s Iránem zvyšují poptávku po protivzdušné obraně.",
+        "reason_en": "The intensification of Houthi drone and missile attacks on Saudi Arabia and threats of direct conflict with Iran are driving demand for air defense."
       },
       {
         "sector_cs": "Ropa a Plyn (např. Shell, BP, Chevron)",
         "sector_en": "Oil & Gas (e.g. Shell, BP, Chevron)",
         "action": "BUY",
-        "reason_cs": "Ropní giganti generují robustní zisky díky rizikové přirážce na komoditě, přestože exporty z Perského zálivu zatím drží objem.",
-        "reason_en": "Oil supermajors are generating robust profits thanks to the risk premium on the commodity, even though Gulf exports are holding volume."
+        "reason_cs": "Ceny ropy Brent se drží nad 111 USD za barel podpořené výpadky íránských dodávek a útoky na infrastrukturu, což zajišťuje obří zisky těžařům.",
+        "reason_en": "Brent crude prices remain above $111 per barrel supported by Iranian supply disruptions and attacks on infrastructure, ensuring massive profits for producers."
       },
       {
         "sector_cs": "Evropský Spotřební sektor & Autoprůmysl (např. Volvo, BMW)",
         "sector_en": "European Consumer & Automotive (e.g. Volvo, BMW)",
         "action": "SELL",
-        "reason_cs": "Riziko energetických šoků a narušených dodavatelských řetězců zvyšuje náklady a ohrožuje marže těchto společností.",
-        "reason_en": "The risk of energy shocks and disrupted supply chains increases costs and threatens the profit margins of these companies."
+        "reason_cs": "Přetrvávající narušení dodavatelských řetězců, drahá doprava a rostoucí inflace v Evropě negativně dopadají na marže a spotřebitelskou poptávku.",
+        "reason_en": "Persistent supply chain disruptions, expensive shipping, and rising inflation in Europe are negatively impacting margins and consumer demand."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly jsou vůči přímému blízkovýchodnímu konfliktu imunní, ale globální makroekonomická nejistota omezuje prostor k růstu.",
-        "reason_en": "Domestic equities are immune to direct Middle East conflict, but global macroeconomic uncertainty limits room for growth."
+        "reason_cs": "Domácí bankovní sektor a energetika jsou imunní vůči přímému blízkovýchodnímu konfliktu, ale čelí makroekonomické nejistotě v EU.",
+        "reason_en": "The domestic banking and energy sectors are immune to the direct Middle East conflict but face macroeconomic uncertainty in the EU."
       },
       {
         "sector_cs": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
         "sector_en": "European blue-chips (e.g. Airbus, TotalEnergies, Allianz, Rheinmetall)",
         "action": "HOLD",
-        "reason_cs": "Smíšený dopad: energetické a zbrojní tituly těží z krize, zatímco širší evropský průmysl čelí inflačním tlakům a nejistotě.",
-        "reason_en": "Mixed impact: energy and defense stocks benefit from the crisis, while broader European industry faces inflationary pressures and uncertainty."
+        "reason_cs": "Energetické a zbrojní tituly těží z krize, avšak celoevropské trhy zatěžuje rozpočtová nestabilita (např. ve Francii) a drahé energie.",
+        "reason_en": "Energy and defense stocks benefit from the crisis, but pan-European markets are weighed down by budget instability (e.g., in France) and high energy costs."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající extrémní volatilitu v Hormuzském průlivu a vysoké marže v námořní dopravě, jelikož riziko vojenské eskalace mezi USA, Izraelem a Iránem zůstává kritické.",
-    "forecast_en": "Over the coming days, persistent extreme volatility in the Strait of Hormuz and high margins in maritime shipping are expected as the risk of military escalation between the US, Israel, and Iran remains critical.",
-    "forecast_review_cs": "Předchozí předpověď o setrvání cen ropy nad 100 USD a pokračující volatilitě v dopravě se plně potvrdila na pozadí stupňujících se útoků a rekordních nákladů na přepravu.",
-    "forecast_review_en": "The previous forecast regarding oil prices remaining elevated and ongoing shipping volatility was fully confirmed against the backdrop of escalating attacks and record shipping costs."
+    "forecast_cs": "V nejbližších dnech lze očekávat další eskalaci napětí a pokračující útoky na energetickou infrastrukturu v Zálivu, což udrží ceny ropy a zajištění námořní dopravy na maximálních hodnotách.",
+    "forecast_en": "Over the coming days, further escalation of tensions and continued attacks on energy infrastructure in the Gulf are expected, keeping oil prices and maritime shipping insurance at maximum levels.",
+    "forecast_review_cs": "Předchozí předpověď se plně potvrdila, jelikož eskalace v Hormuzském průlivu a regionu vedla k dalšímu růstu volatility a cen ropy.",
+    "forecast_review_en": "The previous forecast was fully confirmed as escalation in the Strait of Hormuz and the region led to further volatility and higher oil prices."
   },
   "articles": [
     {
-      "title": "Gulf exports more oil than it did before Iran war despite surge in Hormuz attacks",
-      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/gulf-exports-more-oil-it-did-iran-war-despite-surge-hormuz-attacks-0\" rel=\"bookmark\">\n<span class=\"field field-title\">Gulf exports more oil than it did before Iran war despite surge in Hormuz attacks</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>The Middle East is now exporting more oil than it did before the US-Israeli war on Iran began on 28 February, posing a challenge to the Islamic Republic as it looks to cement its control over the Strait of Hormuz and as the US and Israel threaten a new attack.</p>\n\n<p>Gulf countries exported 24.6 million barrels per day (bpd) in the week ending 18 October, surpassing prewar levels of 23.3 million bpd, according to data released by energy analytics firm Kpler.</p>\n\n<p>The surge in exports comes at a time when Iran's attacks on vessels in the Strait of Hormuz have also surged.</p>\n\n<p>At least 12 attacks took place last week, according to the United Kingdom Maritime Trade Operations (UKMTO).</p>\n\n<h3>Read more: <a href=\"https://www.middleeasteye.net/news/gulf-exports-more-oil-it-did-iran-war-despite-surge-hormuz-attacks\">Gulf exports more oil than it did before Iran war despite surge in Hormuz attacks</a></h3>\n\n<div alt=\"tankers-hormuz-october-2026\" class=\"embedded-entity\">  <img alt=\"tankers-hormuz-october-2026\" height=\"675\" src=\"https://www.middleeasteye.net/sites/default/files/images-story/Tankers-Hormuz-October-2026.jpg\" width=\"1200\" />\n\n</div>\n\n</div>\n      \n  </div>\n\n</article>",
-      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/gulf-exports-more-oil-it-did-iran-war-despite-surge-hormuz-attacks-0",
-      "published": "Thu, 22 Oct 2026 05:43:51 +0100",
+      "title": "Iran's floating oil reserves, used for China sales, completely depleted, analysts say - report",
+      "summary": "<img align=\"right\" alt=\"Vessels near the Strait of Hormuz, as seen from Musandam, Oman, August 31, 2026. (photo credit: REUTERS/STRINGER)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_537,w_822/736137\" title=\"Vessels near the Strait of Hormuz, as seen from Musandam, Oman, August 31, 2026. (photo credit: REUTERS/STRINGER)\" /><br />At their peak, these reserves consisted of almost 90 million barrels of oil, according to Kpler. By October 5, the reserves dropped to fewer than one million barrels, and have since been exhausted.<br />",
+      "link": "https://www.jpost.com/middle-east/iran-news/article-912528",
+      "published": "Thu, 22 Oct 2026 12:30:31 GMT",
+      "source": "Jerusalem Post"
+    },
+    {
+      "title": "Striking Iran ahead of elections could constitute political interference, officials warn - report",
+      "summary": "<img align=\"right\" alt=\"Smoke rises following an explosion in Tehran amid the war with Iran, March 7, 2026. Picture taken with a mobile phone.  (photo credit: MAJID ASGARIPOUR/WANA (WEST ASIA NEWS AGENCY) VIA REUTERS)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_537,w_822/719779\" title=\"Smoke rises following an explosion in Tehran amid the war with Iran, March 7, 2026. Picture taken with a mobile phone.  (photo credit: MAJID ASGARIPOUR/WANA (WEST ASIA NEWS AGENCY) VIA REUTERS)\" /><br />Lapid says available intelligence does not justify an attack before the vote, while former air force chief Norkin questions whether a limited campaign could topple Tehran’s regime.<br />",
+      "link": "https://www.jpost.com/israel-election-2026/article-912507",
+      "published": "Thu, 22 Oct 2026 11:12:00 GMT",
+      "source": "Jerusalem Post"
+    },
+    {
+      "title": "Houthis attempt to rescue boat carrying Indians near Red Sea island",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/houthis-attempt-rescue-boat-carrying-indians-near-red-sea-island\" rel=\"bookmark\">\n<span class=\"field field-title\">Houthis attempt to rescue boat carrying Indians near Red Sea island</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Yemen's Houthis said on Thursday that they were attempting to rescue a boat carrying 14 Indians near Zuqar island in the Red Sea.</p>\n\n<p><em>Reporting by Reuters</em></p>\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-attempt-rescue-boat-carrying-indians-near-red-sea-island",
+      "published": "Thu, 22 Oct 2026 11:44:29 +0100",
       "source": "Middle East Eye"
     },
     {
-      "title": "Two civilians killed from Houthi attacks in Yemen’s Taiz",
-      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/two-civilians-killed-houthi-attacks-yemens-taiz\" rel=\"bookmark\">\n<span class=\"field field-title\">Two civilians killed from Houthi attacks in Yemen’s Taiz</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Yemen’s Interior Ministry said that a civilian and a young girl have been killed and five others left injured following Houthi shelling across the Taiz governorate.</p>\n</div>\n      \n  </div>\n\n</article>",
-      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/two-civilians-killed-houthi-attacks-yemens-taiz",
-      "published": "Thu, 22 Oct 2026 04:55:04 +0100",
+      "title": "Saudi-led coalition claims drone downed over Riyadh",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-claims-drone-downed-over-riyadh\" rel=\"bookmark\">\n<span class=\"field field-title\">Saudi-led coalition claims drone downed over Riyadh</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Saudi-led coalition forces downed a drone over Riyadh, official spokesperson Major General Turki Al-Maliki has said.</p>\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-claims-drone-downed-over-riyadh",
+      "published": "Thu, 22 Oct 2026 11:40:40 +0100",
       "source": "Middle East Eye"
+    },
+    {
+      "title": "Iran preparing to reveal 'Father of All Bombs,' IRGC spox. warns in wake of Trump's MOAB threat",
+      "summary": "<img align=\"right\" alt=\" An Iranian missile is displayed during a rally marking the annual Quds Day, or Jerusalem Day, on the last Friday of the holy month of Ramadan in Tehran, Iran April 29, 2022. (photo credit: MAJID ASGARIPOUR/WANA (WEST ASIA NEWS AGENCY) VIA REUTERS)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_537,w_822/508037\" title=\" An Iranian missile is displayed during a rally marking the annual Quds Day, or Jerusalem Day, on the last Friday of the holy month of Ramadan in Tehran, Iran April 29, 2022. (photo credit: MAJID ASGARIPOUR/WANA (WEST ASIA NEWS AGENCY) VIA REUTERS)\" /><br />The announcement comes amid rising security tensions between Tehran and Washington and the possibility of renewed US strikes on Iranian territory.<br />",
+      "link": "https://www.jpost.com/middle-east/iran-news/article-912509",
+      "published": "Thu, 22 Oct 2026 10:37:19 GMT",
+      "source": "Jerusalem Post"
+    },
+    {
+      "title": "Eastern Pacific takes wraps off first ammonia dual-fuel VLAC",
+      "summary": "<p>Idan Ofer’s Eastern Pacific Shipping (EPS) has named its first ammonia dual-fuel very large ammonia carrier (VLAC) at HD Hyundai Heavy Industries in South Korea, bringing the 93,000 cu m vessel closer to its commercial debut. The Singapore-based owner christened the vessel Terra Clove at the Ulsan yard, with delivery scheduled for November following sea …</p>\n</p>",
+      "link": "https://splash247.com/eastern-pacific-takes-wraps-off-first-ammonia-dual-fuel-vlac/",
+      "published": "Thu, 22 Oct 2026 10:30:00 +0000",
+      "source": "Splash247"
+    },
+    {
+      "title": "Barclays boss indicates bank taxes in budget ‘bearable’ and backs Healey – UK politics live",
+      "summary": "<p>CEO of Barclays tells reporters: ‘I deeply respect the responsibility that the chancellor has and he has our full support and backing’</p><p>The <strong>Office for National Statistics</strong> has also published <a href=\"https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/genderpaygapintheuk/2026\">a report on the gender pay gap</a>. It says:</p><p>The gender pay gap for full-time employees has continued to decline in the UK. It was 6.8% in April 2026, down from 7.2% in April 2025. This compares with 9.4% a decade ago and 16.4% 25 years ago.</p><p>Secondly, I asked <strong>Healey</strong> whether he sees the banks as making excessive profits, which would be the coherent justification for him to increase the surcharge on bank profits – as he is expected to do in the Budget next week.</p><p>He said: “You know the banks are the engine of investment in this country. The banks are doing well at the moment and that is good to see.</p> <a href=\"https://www.theguardian.com/politics/live/2026/oct/22/john-healey-chancellor-budget-red-tape-small-businsesses-jackdaw-oil-latest-news-updates\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/politics/live/2026/oct/22/john-healey-chancellor-budget-red-tape-small-businsesses-jackdaw-oil-latest-news-updates",
+      "published": "Thu, 22 Oct 2026 10:28:03 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Shipowners warn fuel transition could slip beyond 2030 as methanol demand remains uncertain",
+      "summary": "Regulatory uncertainty and limited shipbuilding capacity could delay the wider adoption of alternative marine fuels beyond 2030, shipping executives said, while orders for methanol-capable vessels may not translate directly into demand for the fuel. Speaking at the tenth Annual International Shipping Forum in Pudong, Shanghai, Safe Bulkers president Loukas Barmparis said ambiguity over decarbonization rules ...",
+      "link": "https://www.hellenicshippingnews.com/shipowners-warn-fuel-transition-could-slip-beyond-2030-as-methanol-demand-remains-uncertain/",
+      "published": "Thu, 22 Oct 2026 10:00:59 +0000",
+      "source": "Hellenic Shipping News"
+    },
+    {
+      "title": "Drewry: Suez Traffic Showing Strong Momentum",
+      "summary": "With regional security changing rapidly, Drewry’s Red Sea Diversion Tracker delivers timely intelligence to shippers, carriers, ports and other stakeholders on the evolving structure of carrier networks. This tracker page is updated fortnightly (every other Tuesday). Steady transit traffic via Suez During the week ended 18 Oct, 55 containership transited the Suez Canal (in either ...",
+      "link": "https://www.hellenicshippingnews.com/drewry-suez-traffic-showing-strong-momentum/",
+      "published": "Thu, 22 Oct 2026 10:00:57 +0000",
+      "source": "Hellenic Shipping News"
+    },
+    {
+      "title": "The Unbroken Glass: Bab al-Mandab and the risk of asymmetric escalation",
+      "summary": "Alliances are drafted for contingencies their signatories hope will remain theoretical. The Makkah Joint Defense Agreement – concluded in August by Saudi Arabia, Turkey and Pakistan – was one such instrument, yet early this week, less than two months after it was signed, the three states announced the activation of its collective deterrence measures. What ...",
+      "link": "https://www.hellenicshippingnews.com/the-unbroken-glass-bab-al-mandab-and-the-risk-of-asymmetric-escalation-2/",
+      "published": "Thu, 22 Oct 2026 10:00:53 +0000",
+      "source": "Hellenic Shipping News"
+    },
+    {
+      "title": "Maersk expects full return of shipping services to Suez Canal by March 2027",
+      "summary": "Denmark-based shipping group A.P. Moller-Maersk expects all its shipping services to return to the Suez Canal by March 2027, according to a statement from the Suez Canal Authority (SCA). The outlook was unveiled during a videoconference between Ossama Rabiee, Chairman and Managing Director of the SCA, and Rabab Boulos, Maersk’s Chief Operating Officer and a ...",
+      "link": "https://www.hellenicshippingnews.com/maersk-expects-full-return-of-shipping-services-to-suez-canal-by-march-2027/",
+      "published": "Thu, 22 Oct 2026 10:00:51 +0000",
+      "source": "Hellenic Shipping News"
+    },
+    {
+      "title": "Trump’s war and tariffs have battered Alaska. A pro-oil Democrat could flip the key Senate seat",
+      "summary": "<p>Democrats believe circumstances have aligned for them to win a slew of competitive elections in the state</p><p>Mary Peltola’s campaign to represent <a href=\"https://www.theguardian.com/us-news/alaska\">Alaska</a> in the <a href=\"https://www.theguardian.com/us-news/us-senate\">US Senate</a> has taken her to parts of the massive state’s interior that are inaccessible by road and on the frontlines of the cost-of-living crisis she hopes will make her the first <a href=\"https://www.theguardian.com/us-news/democrats\">Democrat</a> to win the seat in nearly two decades.</p><p>She has been to towns where paper towels retail for $40, a half gallon of oat milk goes for $21 and the cost of a new freezer can be quadruple what it is in the state’s largest city, Anchorage, simply because it’s so complicated to get there. Along the Arctic Ocean, she’s heard of communities where power bills have climbed to $1,500 a month because they rely on generators for power and the Iran war has pushed the cost of diesel to <a href=\"https://www.theguardian.com/us-news/2026/oct/03/diesel-prices-midwest-farmers\">new heights</a>.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/22/alaska-mary-peltola-senate-midterms\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/oct/22/alaska-mary-peltola-senate-midterms",
+      "published": "Thu, 22 Oct 2026 10:00:39 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Iran Claims Seven Ships Hit in Persian Gulf as Oil Prices Surge",
+      "summary": "Iran’s Islamic Revolutionary Guard Corps (IRGC) Navy on Thursday claimed that seven vessels, including oil tankers, were either hit by Iranian forces or struck mines in the Persian Gulf over the past day, as tensions in the region flared up again this week.   The IRGC Navy said that its forces had tracked and hit four tankers carrying out oil transfers in the northern Persian Gulf, while three other vessels hit mines west of the Strait of Hormuz.   The IRGC Navy also warned the United States that continued provocations could lead…",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Claims-Seven-Ships-Hit-in-Persian-Gulf-as-Oil-Prices-Surge.html",
+      "published": "Thu, 22 Oct 2026 04:30:00 -0500",
+      "source": "OilPrice"
+    },
+    {
+      "title": "Maersk Tankers lines up EU backing for four VLAC ammonia conversions",
+      "summary": "<p>Danish shipowner Maersk Tankers has moved closer to converting four very large ammonia carriers to run on the cargo they transport after its retrofit proposal was selected for support under the European Union’s Innovation Fund. The project, known as RIPPLE, involves installing dual-fuel, two-stroke ammonia engines on four vessels in the company’s expanding gas carrier …</p>\n</p>",
+      "link": "https://splash247.com/maersk-tankers-lines-up-eu-backing-for-four-vlac-ammonia-conversions/",
+      "published": "Thu, 22 Oct 2026 09:30:00 +0000",
+      "source": "Splash247"
+    },
+    {
+      "title": "Two killed in attack on airport in eastern Saudi Arabia, authorities say",
+      "summary": "It is the latest in a series of attacks by the Houthi movement which have targeted airports and other sites in the kingdom.",
+      "link": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 22 Oct 2026 09:14:48 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Fighting rages in Yemen’s Taiz as UN warns nearly 260,000 displaced",
+      "summary": "Yemen's government forces launched hundreds of strikes on Houthi locations, a spokesperson says.",
+      "link": "https://www.aljazeera.com/news/2026/10/22/fighting-rages-in-yemens-taiz-as-un-warns-nearly-260000-now-displaced?traffic_source=rss",
+      "published": "Thu, 22 Oct 2026 09:00:05 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Saudi Arabia Seeks Access to Overseas Oil Storage for Aramco",
+      "summary": "Saudi Arabia is in talks with foreign governments to give state-owned Aramco access to their strategic oil storage, as the kingdom seeks to make its supplies to customers more resilient during disruptions, Chief Executive Officer Amin Nasser said.",
+      "link": "https://gcaptain.com/saudi-arabia-seeks-access-to-overseas-oil-storage-for-aramco/",
+      "published": "Thu, 22 Oct 2026 08:57:11 +0000",
+      "source": "gCaptain"
+    },
+    {
+      "title": "What does the UAE own in the UK? Football clubs, London landmarks and billion-pound assets",
+      "summary": "<article class=\"explainers default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/what-uae-own-uk-invest-manchester-city\" rel=\"bookmark\">\n<span class=\"field field-title\">What does the UAE own in the UK? Football clubs, London landmarks and billion-pound assets</span>\n</a>\n    </h2>\n    \n\n          <footer>\n      \n      <div class=\"author\">\n        Submitted by \n<span class=\"field field-uid\"><a href=\"https://www.middleeasteye.net/users/daniel-tester\" lang=\"lang\" title=\"View user profile.\">Daniel Tester</a></span>\n on \n<span class=\"field field-created\"><time datetime=\"2026-10-19T14:44:32+01:00\" title=\"19 October 2026 14:44 BST\">Mon, 10/19/2026 - 14:44</time>\n</span>\n        \n      </div>\n    </footer>\n      \n    <div class=\"content\">\n                <div class=\"field field-field-subhead\">Abu Dhabi and Dubai's vast investments are facing scrutiny amid allegations against Manchester City Football Club and pressure on PM Andy Burnham</div>\n                  <div class=\"field field-field-main-image\">    \n                  <source height=\"801\" type=\"image/webp\" width=\"1400\" />\n                  <img alt=\"alt\" height=\"801\" src=\"https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/uae-uk-collage-afp%20%281%29.jpg.jpg?itok=aJ8ASO4w\" width=\"1400\" />\n\n  \n\n</div>\n                  <div class=\"field field-field-cutline\">UAE investments in the UK include, from left, DP World, owner of P&O Ferries; parts of Berkeley Square in Mayfair, London; and Manchester City Football Club (all AFP).</div>\n                  <div class=\"field field-field-wide-photo-video\">On</div>\n                  <div class=\"field field-body clearfix\"><p style=\"line-height: 1.38;\">The <a href=\"https://www.middleeasteye.net/countries/uae\">UAE</a> is one of the world’s richest countries, with its seven monarchies owning sovereign wealth funds worth in excess of $2 trillion. </p>\n\n<p>Fuelled by revenues from oil as well as finance, tourism and the gold trade, it has invested billions internationally, holding vast stakes in everything from banks to airports and restaurant chains across North America, Europe and beyond.  </p>\n\n<p>But this partnership is facing unprecedented scrutiny in the UK, where the UAE has committed to invest <a href=\"https://www.mofa.gov.ae/en/mediahub/news/2026/4/22/uae-special-envoy\">almost $30bn</a> for the period 2021-2026 through the UAE–UK Sovereign Investment Partnership.</p>\n\n<p>In September, Manchester City Football Club, owned by Emirati royal and vice-president Sheikh Mansour bin Zayed Al Nayhan, was found to have breached 114 Premier League financial rules by disguising more than £830m ($1.1bn) in illicit funding. The club denies the claims.</p>\n\n<p><a href=\"https://www.middleeasteye.net/countries/uk\">UK</a> Prime Minister Andy Burnham is at the heart of the storm, having served as Manchester mayor from 2017 until June, during which time Emirati cash transformed both Manchester City football club and the <a href=\"https://www.middleeasteye.net/big-story/how-abu-dhabi-shaped-modern-manchester\">wider city</a>. </p>\n\n<p>Doing business with the UAE has only become more controversial given its role in <a href=\"https://www.middleeasteye.net/countries/sudan\">Sudan</a>’s <a href=\"https://www.middleeasteye.net/topics/sudan-war\">civil war</a>, where it is accused of supporting the Rapid Support Forces, a paramilitary group whose mass killings UN investigators say bear the “<a href=\"https://news.un.org/en/story/2026/02/1166997\">hallmarks of genocide</a>”. The UAE denies the allegations. </p>\n\n<p>But Burnham is also keen to balance public uproar against the UAE with the steady flow of Gulf investment, which both defenders of the football club and the <a href=\"https://www.gov.uk/government/news/uk-and-gulf-strike-historic-multi-billion-pound-trade-deal\">government</a> say has boosted economic growth. </p>\n\n<p>If nothing else, the rows have exposed just how many UK institutions Abu Dhabi and Dubai, the wealthiest emirates and biggest investors, have a stake in.</p>\n\n<h3>Sport</h3>\n\n<p>Manchester City was bought by Abu Dhabi United Group, a private equity firm owned by the Emirati royal Mansour bin Zayed, in 2008 for £200m. </p>\n\n<p>At the time, Manchester City was not an elite club, usually finishing mid-table and getting relegated in 2001. </p>\n\n<p>But since the sale, the club has dominated top-flight English football, winning eight Premier League titles, plus the Uefa Champions League. <a href=\"https://www.middleeasteye.net/news/manchester-city-chairs-uk-diplomatic-immunity-could-complicate-legal-action\">Khaldoon al-Mubarak</a>, an adviser to Abu Dhabi’s royal family and CEO of its Mubadala sovereign wealth fund, is the club’s chairman, while the club’s stadium is named the Etihad Arena, after Abu Dhabi’s government-owned airline. </p>\n\n  <figure class=\"media-block\">\n  <div class=\"group-inner\">\n    <div alt=\"​  The airline Emirates sponsors both Arsenal Football Club (left) and the FA Cup (both AFP); the UAE-owned Godolphin stable has produced winners, including Sakhee, pictured here being ridden by Frankie Dettori after winning the Prix de L'Arc de Triomphe in 2001 (Reuters)  ​\" class=\"embedded-entity\">  <img alt=\"​  The airline Emirates sponsors both Arsenal Football Club (left) and the FA Cup (both AFP); the UAE-owned Godolphin stable has produced winners, including Sakhee, pictured here being ridden by Frankie Dettori after winning the Prix de L'Arc de Triomphe in 2001 (Reuters)  ​\" height=\"716\" src=\"https://www.middleeasteye.net/sites/default/files/styles/article_page/public/uae-uk-sport-collage-afp.jpg.webp?itok=2x5E6MU8\" width=\"1400\" />\n\n\n</div>\n\n    <figcaption>Emirates sponsors both Arsenal (left) and the FA Cup (both AFP); the UAE-owned Godolphin stable has produced winners, including Sakhee, here ridden by Frankie Dettori in 2001 (Reuters)</figcaption>\n  </div>\n</figure>\n\n\n<p><span><img height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span>The UAE also has stakes elsewhere in the Premier League. In 2004, the airline Emirates, owned by the government of Dubai, purchased naming rights to Arsenal’s home ground, now called the Emirates Stadium, and the club’s shirt sponsorship for <a href=\"https://www.theguardian.com/media/2004/oct/05/business.marketingandpr\" style=\"background-color: rgb(255, 255, 255);\">£100m</a>. The deal was <a href=\"https://www.arsenal.com/news/arsenal-and-emirates-renew-landmark-partnership-aNgdG4z8FpG8\" style=\"background-color: rgb(255, 255, 255);\">renewed</a> in August until 2033 for an undisclosed fee.</p>\n\n<p>The airline has also sponsored the FA Cup since 2015, and Lancashire Cricket Club since 2013. </p>\n\n<p>Abu Dhabi’s <a href=\"https://www.cyvnholdings.com/\">CYVN Holdings</a> has a minority stake in McLaren Racing, which owns McLaren’s Formula One team, based in Woking, southern England and was the winner of back-to-back Teams’ Championships in 2025. <a href=\"https://www.middleeasteye.net/countries/bahrain\">Bahrain’s </a>Mumtalakat fund owns the rest of the stake, as well as parent company McLaren Group<a href=\"https://www.middleeasteye.net/countries/bahrain\">. </a></p>\n\n<p>CYVN separately <a href=\"https://www.pitpass.com/80970/Abu-Dhabis-CYVN-Holdings-takes-full-ownership-of-McLaren-Automotive\">bought</a> McLaren’s car manufacturing business, McLaren Automotive, outright in 2025 for an undisclosed fee. </p>\n\n<p>Dubai’s royal family owns Godolphin, the world’s largest horseracing team that operates the biggest stable in the UK outside Newmarket in Suffolk, eastern England. Through Godolphin and other horses, Dubai royals have won the British Flat Racing Champion Owner title 31 times since 1985, including <a href=\"https://www.godolphin.com/news/godolphin-crowned-uk-champion-owner\">this year.</a></p>\n\n<hr />\n<h3>Property</h3>\n\n<p>Besides owning Manchester City football club, the UAE also owns lucrative property developments across the city. Among the largest is <a href=\"https://www.middleeasteye.net/big-story/how-abu-dhabi-shaped-modern-manchester\">Manchester Life</a>, a glitzy, mixed-use regeneration project in Manchester’s Ancoats area launched in 2014 in a deal between Manchester City Council and the Abu Dhabi United Group <a href=\"https://www.theguardian.com/commentisfree/2022/jul/21/great-english-city-sold-abu-dhabis-elite-manchester\">reportedly</a> worth £1bn. </p>\n\n<p>Abu Dhabi also invested an undisclosed figure in Manchester’s Co-Op Live arena, through its 81 percent share of the City Football Group, which in turn owns 47.5 percent of the UK's largest indoor venue.</p>\n\n  <figure class=\"media-block\">\n  <div class=\"group-inner\">\n    <div alt=\"Berkeley Square in Mayfair is among the London land owned by the UAE (AFP)\" class=\"embedded-entity\">  <img alt=\"Berkeley Square in Mayfair is among the London land owned by the UAE (AFP)\" height=\"787\" src=\"https://www.middleeasteye.net/sites/default/files/styles/article_page/public/uk-london-berkeley-square-22-april-2008-afp.jpg.webp?itok=chCiuvLe\" width=\"1400\" />\n\n\n</div>\n\n    <figcaption>Berkeley Square in Mayfair is among the London properties owned by the UAE (AFP)</figcaption>\n  </div>\n</figure>\n\n\n<p><span><img height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span>It <a href=\"https://www.thetimes.com/uk/politics/article/manchester-city-council-uae-firm-sweetheart-property-deal-fh8x7b2b8\" style=\"background-color: rgb(255, 255, 255);\">emerged</a> in October that Manchester City Council gave Sheikh Mansour’s Abu Dhabi United Group the right of first refusal on some of these projects in what critics have dubbed a “sweetheart deal” that sidelined rival developers.</p>\n\n<p>In London, the Emirati royal family amassed a property empire under Sheikh Khalifa bin Zayed bin Sultan al-Nahyan, ruler of the UAE from 2004 until his death in 2022. Valued in 2020 at over £5bn, this includes luxury properties in some of London’s most expensive areas, including Mayfair and Knightsbridge, much of which was <a href=\"https://www.theguardian.com/uk-news/ng-interactive/2020/oct/18/revealed-sheikh-khalifas-5bn-london-property-empire\">acquired</a> via opaque companies registered in tax havens. </p>\n\n<p>Abu Dhabi also picked up country estates in the Scottish Highlands and Surrey, and owns London’s Excel exhibition centre, the city’s largest conference hall. Much of this property has since been <a href=\"https://www.theguardian.com/world/2021/apr/14/revealed-the-huge-british-property-empire-of-sheikh-mohammed\">divided up</a> among Khalifa’s heirs, although which Emirati royal owns what isn’t always clear. </p>\n\n<p>Since then, the UAE’s property spree has continued. In 2023, a <a href=\"https://www.aldar.com/properties/en/uk/london\">real estate firm</a> owned by Abu Dhabi’s government <a href=\"https://www.standard.co.uk/business/business-news/abu-dhabi-firm-buys-nine-elms-developer-london-square-for-ps230m-b1124114.html\">bought</a> <a href=\"https://londonsquare.co.uk/\">London Square</a>, the developer behind London’s <a href=\"https://www.theguardian.com/artanddesign/2021/feb/02/penthouses-poor-doors-nine-elms-battersea-london-luxury-housing-development\">controversial</a> Nine Elms regeneration project, for $291m. It announced earlier this month <a href=\"https://www.thenationalnews.com/business/property/2026/10/14/aldar-international-unit-plans-to-deliver-9000-homes-in-next-five-years/\">plans</a> to build a further 9,000 homes at the site.</p>\n\n<hr />\n<h3>Ports, shipping and infrastructure</h3>\n\n<p>DP World, the Dubai government’s ports and logistics giant, owns London Gateway and Southampton, the UK’s second and third largest shipping terminals by container volume. The London site was <a href=\"https://www.bbc.co.uk/news/articles/c39lyx43x93o\">approved</a> for a £1bn expansion by the government in 2024. </p>\n\n<p>Part of the UK’s <a href=\"https://ukfreeports.campaign.gov.uk/list-of-uk-freeports/#solent\">freeports scheme</a>, the ports are <a href=\"https://www.gov.uk/guidance/enterprise-zones\">special economic zones</a> in which DP World and other businesses pay less tax and face weaker regulation than they would elsewhere in the UK. </p>\n\n<p>DP World also owns P&O, the UK’s long-established shipping company, sold off from public ownership in 2006 for £3.6bn. It separately <a href=\"https://www.dpworld.com/en/news/dp-world-acquires-leading-european-transportation-and-logistics-provider\">bought</a> P&O Ferries in 2019 for £322m.</p>\n\n  <figure class=\"media-block\">\n  <div class=\"group-inner\">\n    <div alt=\"alt\" class=\"embedded-entity\">  <img alt=\"alt\" height=\"852\" src=\"https://www.middleeasteye.net/sites/default/files/styles/article_page/public/uk-uae-po-ferry-2022-afp.jpg.webp?itok=nJqEzLwm\" width=\"1400\" />\n\n\n</div>\n\n    <figcaption>DP World, owned by Dubai, bought UK ferry operator P&O Ferries in 2019 (AFP)</figcaption>\n  </div>\n</figure>\n\n\n<p><span><img height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span>In 2022, DP World faced heavy criticism, including from <a href=\"https://www.reuters.com/world/uk/uks-sunak-says-treatment-po-staff-appalling-2022-03-20/\" style=\"background-color: rgb(255, 255, 255);\">the UK government</a>, for sacking 800 of P&O Ferries’ British staff and replacing them with foreign agency workers paid less than the UK minimum wage. </p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span>But DP World consolidated its logistics empire further in August when it purchased <a href=\"https://www.propertyweek.com/news/over-2m-sq-ft-of-warehousing-transferred-from-gxo-to-dp-world\" style=\"background-color: rgb(255, 255, 255);\">six grocery distribution centres</a> serving Asda, Sainsbury’s and the Co-op from the US conglomerate GXO Logistics. </p>\n\n<p>The UAE has also targeted tech. Abu Dhabi's Mubadala <a href=\"https://www.mubadala.com/en/news/mubadala-invests-in-leading-global-hyperscale-data-center-developer-yondr-group\">invested</a> an undisclosed sum into <a href=\"https://www.yondrgroup.com/\">Yondr</a> in 2024, one of the operators of a <a href=\"https://www.yondrgroup.com/newsroom/press-release/yondr-groups-second-data-center-at-100mw-london-campus-goes-live/\">data centre campus</a> in Slough on the outskirts of London. And Masdar, the UAE’s state-owned renewable energy company, has stakes in the UK’s wind farms, including the <a href=\"https://www.thenationalnews.com/business/energy/2024/02/29/masdar-completes-49-stake-acquisition-in-uk-offshore-wind-project/\">London Array</a> off the coast of Kent and <a href=\"https://www.thenationalnews.com/business/energy/2024/02/29/masdar-completes-49-stake-acquisition-in-uk-offshore-wind-project/\">Dogger Bank South</a> in the North Sea. Mubadala meanwhile holds a minority stake in CityFibre, the UK’s third largest network provider, as of 2021.  </p>\n\n<p>In 2011 Abu Dhabi bought a 9.9 percent stake in Thames Water, although the UAE <a href=\"https://www.ft.com/content/6a86cacd-f0f6-484f-b820-1e10d5d2dc4a?syn-25a6b1a6=1\">wrote off </a>the investment as worthless in its 2024 accounts, amid the utility firm’s financial toils.</p>\n\n<p>Abu Dhabi’s sovereign wealth fund also owns nearly eight percent of London Gatwick, the UK’s second busiest airport, having sold down its stake from 15 percent in 2018. It has <a href=\"https://www.bloomberg.com/news/articles/2024-02-20/abu-dhabi-s-uae-fund-mubadala-considering-stake-in-london-heathrow-airport\">coveted</a> owning part of Heathrow.</p>\n\n<p>Abu Dhabi was also approached as a potential investor into the Sizewell C nuclear power plant in <a href=\"https://www.theguardian.com/business/2023/nov/27/uae-approached-to-invest-sizewell-c-nuclear-power-plant\">2023</a>, before the shares were instead sold to the French state-owned energy firm EDF and a Canadian pension fund, among other investors.</p>\n\n<p>In July, Etisalat, a telecoms firm majority-owned by the UAE government, <a href=\"https://www.telegraph.co.uk/business/2026/07/10/uae-sells-6bn-vodafone-stake-to-french-telecoms-tycoon/\">sold</a> its £4.4bn stake in Vodafone, the British telecoms multinational, after its ownership was <a href=\"https://www.theguardian.com/business/2024/jan/25/emirates-backed-stake-vodafone-security-risk-uae-uk-government\">called</a> a “national security risk” by the UK government and it was forced to establish a special committee overseeing sensitive work. </p>\n\n<hr />\n<h3>Finance and research</h3>\n\n<p>In 2024, Abu Dhabi <a href=\"https://www.theguardian.com/business/nils-pratley-on-finance/article/2024/aug/09/hargreaves-private-equity-cvc-bid\">gained</a> a one-third stake in Hargreaves Lansdown, the UK’s largest retail investment house, in a £5.4bn takeover alongside American and European private equity firms. Later that year, Mubadala <a href=\"https://www.ft.com/content/c718dcac-f3d4-4507-b4af-4cebfcfc0a05?syn-25a6b1a6=1\">bought</a> an undisclosed stake in the British digital bank Revolut as part of a $500m secondary share sale.</p>\n\n  <figure class=\"media-block\">\n  <div class=\"group-inner\">\n    <div alt=\"alt\" class=\"embedded-entity\">  <img alt=\"alt\" height=\"787\" src=\"https://www.middleeasteye.net/sites/default/files/styles/article_page/public/uk-london-hq-barclays-bank-june-2017-afp.jpg.webp?itok=Sy-8CKrX\" width=\"1400\" />\n\n\n</div>\n\n    <figcaption>The Barclays HQ in Canary Wharf: the UAE invested in the bank after the financial crash of 2008 (AFP)</figcaption>\n  </div>\n</figure>\n\n\n<p><span><img height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p>Sheikh Mansour attracted controversy in 2008 when he and investors from <a href=\"https://www.middleeasteye.net/countries/qatar\">Qatar</a> bought a 16 percent share in Barclays during the global financial crisis. Worth an estimated £4bn, the deal helped the bank avoid a government bailout imposed on some of its rivals, to which conditions were attached.</p>\n\n<p>The Financial Conduct Authority in 2024 <a href=\"https://www.bbc.co.uk/news/articles/cgqydn4qe0no\">fined</a> Barclays £40m for misleading its shareholders about payments of over £300m to Qatari investors involved in the deal. Abu Dhabi sold all of its stakes by 2013.</p>\n\n<p>The UK is also courting Emirati investment for a “growth corridor” located between Oxford and Cambridge that the government has <a href=\"https://www.gov.uk/government/news/oxford-cambridge-corridor-to-be-uks-silicon-valley\">dubbed</a> \"the UK’s Silicon Valley”. But the UAE is now <a href=\"https://www.telegraph.co.uk/news/2026/10/02/uae-threatens-burnham-over-man-city-pull-billions-out-of-uk/\">reportedly</a> threatening to pull out of the plans amid fallout over its guilty verdict in the Manchester City case.</p>\n\n<hr />\n<h3>Hospitality and retail</h3>\n\n<p>The UAE has stakes on British high streets, much of which it acquired in 2024 when Mubadala bought a 68 percent share of equity owned by Fortress Investment Group, a US firm with over $55bn of assets under management.</p>\n\n  <figure class=\"media-block\">\n  <div class=\"group-inner\">\n    <div alt=\"Customers wait outside The Ivy restaurant in the city centre of Manchester in October 2020 (AFP) \" class=\"embedded-entity\">  <img alt=\"Customers wait outside The Ivy restaurant in the city centre of Manchester in October 2020 (AFP) \" height=\"788\" src=\"https://www.middleeasteye.net/sites/default/files/styles/article_page/public/uk-manchester-ivy-restaurant-8-october-2020-afp.jpg.webp?itok=ErREEwJV\" width=\"1400\" />\n\n\n</div>\n\n    <figcaption>Customers wait outside The Ivy restaurant in the city centre of Manchester in October 2020 (AFP)</figcaption>\n  </div>\n</figure>\n\n\n<p><span><img height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span>In the UK, Fortress <a href=\"https://www.fortress.com/what-we-do/private-equity/middle-market-private-equity\" style=\"background-color: rgb(255, 255, 255);\">owns</a> Punch Pubs, which operates 1,400 pubs and bars across the country, the cinema chain Curzon, the budget shop Poundstretcher, and the wine retailer Majestic. </p>\n\n<p>In April, Sheikh Tahnoon's International Holding Company paid £1.4bn for the restaurant empire of hospitality mogul Richard Caring, which includes the Ivy chain and the elite member’s club Annabel’s in Mayfair’s Berkeley Square, where the UAE also owns other properties. </p>\n\n<hr />\n<h3>Media</h3>\n\n<p>Abu Dhabi launched a <a href=\"https://www.middleeasteye.net/news/uk-100-mps-sign-against-uae-deal-own-telegraph\">bid</a> to buy the Telegraph newspaper and Spectator magazine in 2023 alongside the US private equity firm Redbird Capital Partners.  </p>\n\n<p>The deal, which was headed by Sheikh Mansour, <a href=\"https://www.middleeasteye.net/opinion/telegraph-sale-uae-bid-risk-press-freedom\">sparked</a> massive <a href=\"https://www.independent.co.uk/news/business/uae-ofcom-cma-competition-and-markets-authority-axel-springer-b3068037.html\">scrutiny</a> over censorship concerns, and ultimately fell through after the UK government introduced new laws barring leaders of foreign governments from owning media companies. The Telegraph was instead sold to the German media giant <a href=\"https://www.middleeasteye.net/news/telegraph-and-politico-owner-says-journalists-must-support-israel-or-resign\">Axel Springer</a> in June, while the Spectator was bought by GB News co-owner <a href=\"https://www.middleeasteye.net/big-story/reform-uks-love-affair-middle-eastern-dictatorship\">Paul Marshall</a> in September 2024.  </p>\n\n<p>But Abu Dhabi has gained a stake in media elsewhere via its takeover of Fortress, which led a lender consortium that <a href=\"https://variety.com/2023/tv/news/vice-media-sells-fortress-investment-group-1235652034/\">bought</a> Vice Media Group in 2023 after the broadcaster and magazine filed for bankruptcy. </p>\n\n<p>Vice had months earlier <a href=\"https://observer.com/2023/01/vice-media-will-create-arabic-content-with-saudi-backed-mbc-group/\">signed</a> a lucrative partnership with the MBC Group, a media company backed by the UAE’s sometime rival, <a href=\"https://www.middleeasteye.net/countries/saudi-arabia\">Saudi Arabia</a>. </p>\n</div>\n                  <div class=\"field field-field-topic\"><a href=\"https://www.middleeasteye.net/topics/inside-uae\" hreflang=\"en\">Inside UAE</a></div>\n                  <div class=\"field field-field-section\"><a href=\"https://www.middleeasteye.net/explainers/all\" hreflang=\"en\">Explainers</a></div>\n                  <div class=\"field field-field-landing-photo\">    \n                  <source height=\"787\" type=\"image/webp\" width=\"1400\" />\n                  <img alt=\"alt\" height=\"787\" src=\"https://www.middleeasteye.net/sites/default/files/styles/max_2600x2600/public/2026-10/manchester-city-fans-2022-afp.jpg.jpg?itok=z-Z5czMx\" width=\"1400\" />\n\n  \n\n</div>\n        <div class=\"field field-field-post-date-override\">\n    <div>Post Date Override</div>\n              <div>0</div>\n          </div>\n  <div class=\"field field-field-update-date-override\">\n    <div>Update Date</div>\n              <div><time datetime=\"2020-05-04T21:29:16+01:00\">Mon, 05/04/2020 - 21:29</time>\n</div>\n          </div>\n  <div class=\"field field-field-update-date-check\">\n    <div>Update Date Override</div>\n              <div>0</div>\n          </div>\n\n  </div>\n  \n</article>",
+      "link": "https://www.middleeasteye.net/what-uae-own-uk-invest-manchester-city",
+      "published": "Thu, 22 Oct 2026 09:49:27 +0100",
+      "source": "Middle East Eye"
+    },
+    {
+      "title": "French borrowing costs overtake US amid budget turmoil",
+      "summary": "<p>France’s bond market hit by another bout of selling as country recovers from weekend protests</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/oct/22/barclays-profits-jump-looming-bank-tax-french-bond-yields-hit-fresh-24-year-high-latest-live-updates\">Business live – latest updates</a></p></li></ul><p>French borrowing costs continued to rise on Thursday, as investors fret that France’s government is struggling to pass a federal budget after public protests gripped the country.</p><p>France’s bond market was hit with another bout of selling, with the difference between French and German 10-year borrowing costs – a metric for the risk premium attached to French debt – rising to its highest level in almost 15 years.</p> <a href=\"https://www.theguardian.com/world/2026/oct/22/french-borrowing-costs-overtake-us-amid-budget-turmoil\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/oct/22/french-borrowing-costs-overtake-us-amid-budget-turmoil",
+      "published": "Thu, 22 Oct 2026 08:40:36 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Global shipbuilding boom moves into overdrive",
+      "summary": "<p>The global shipbuilding boom is gathering pace, with orderbooks surpassing their previous 2008 peak, Chinese yards tightening their grip on the market and tanker owners increasingly turning to inexperienced builders to secure delivery slots. New figures from BIMCO put the global orderbook at 203.2m compensated gross tonnes (cgt) at the start of September, up 13% …</p>\n</p>",
+      "link": "https://splash247.com/global-shipbuilding-boom-moves-into-overdrive/",
+      "published": "Thu, 22 Oct 2026 08:16:42 +0000",
+      "source": "Splash247"
+    },
+    {
+      "title": "Can Russia broker a new US-Iran deal?",
+      "summary": "Russia’s nuclear expertise, close ties with Tehran and negotiation experience could give Moscow an edge as a mediator.",
+      "link": "https://www.aljazeera.com/opinions/2026/10/22/can-russia-broker-a-new-us-iran-deal?traffic_source=rss",
+      "published": "Thu, 22 Oct 2026 08:00:48 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "China adds new state-owned shipbuilding player in Guangzhou",
+      "summary": "<p>Guangzhou has formally launched a new state-owned maritime industrial group as the southern Chinese shipbuilding hub looks to expand its manufacturing capacity and bring more of the industry’s supply chain under local ownership. Guangzhou Marine Equipment Group, established with registered capital of RMB2bn ($300m), has begun operations following an unveiling ceremony this week. The company …</p>\n</p>",
+      "link": "https://splash247.com/china-adds-new-state-owned-shipbuilding-player-in-guangzhou/",
+      "published": "Thu, 22 Oct 2026 07:56:26 +0000",
+      "source": "Splash247"
+    },
+    {
+      "title": "Are we not allowed to say a genocide began on 7 October, too?",
+      "summary": "<article class=\"opinion default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/opinion/why-are-palestinians-footnote-7-october-anniversary-coverage\" rel=\"bookmark\">\n<span class=\"field field-title\">Are we not allowed to say a genocide began on 7 October, too? </span>\n</a>\n    </h2>\n    \n\n          <footer>\n      \n      <div class=\"author\">\n        Submitted by \n<span class=\"field field-uid\"><a href=\"https://www.middleeasteye.net/users/barry-malone\" lang=\"lang\" title=\"View user profile.\">Barry Malone</a></span>\n on \n<span class=\"field field-created\"><time datetime=\"2026-10-21T21:19:11+01:00\" title=\"21 October 2026 21:19 BST\">Wed, 10/21/2026 - 21:19</time>\n</span>\n        \n      </div>\n    </footer>\n      \n    <div class=\"content\">\n                <div class=\"field field-field-subhead\">Western media commemorate the Israelis killed three years ago, while largely ignoring the genocide that began the same day</div>\n                  <div class=\"field field-field-main-image\">    \n                  <source height=\"576\" type=\"image/webp\" width=\"1024\" />\n                  <img alt=\"A girl looks at the temporary tents of displaced Palestinians, alongside destroyed buildings, in Gaza City on 7 October 2026 (Omar al-Qattaa/AFP)\" height=\"576\" src=\"https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/palestine-gaza-tents-october-2026-omar-al-qattaa-afp.jpg.jpg?itok=IohWU83m\" width=\"1024\" />\n\n  \n\n</div>\n                  <div class=\"field field-field-cutline\">A girl looks at the temporary tents of displaced Palestinians, alongside destroyed buildings, in Gaza City on 7 October 2026 (Omar al-Qattaa/AFP)</div>\n                  <div class=\"field field-field-wide-photo-video\">Off</div>\n                  <div class=\"field field-body clearfix\"><p>Just after 4pm local time on 7 October 2023, Al Jazeera’s Youmna El Sayed stood on a rooftop to update her audience on the latest from Gaza City, which was already under bombardment following the Hamas-led attacks on <a href=\"https://www.middleeasteye.net/countries/israel\">Israel</a> early that same morning. </p>\n\n<p>Live on air, as she was about to answer a question from a news anchor, <a href=\"https://x.com/malonebarry/status/1710682108610396595\">we heard the sound of a missile</a> scream down from the sky before thumping into a tower block with a horrible boom, the orange flash of an explosion appearing over her shoulder.</p>\n\n<p>Sayed cried out in shock and ducked from view, but as so many brave <a href=\"https://www.middleeasteye.net/countries/palestine\">Palestinian</a> journalists would do over the next three years, she tried to continue reporting.</p>\n\n<p>“We have just witnessed live what an Israeli air raid looks like on a populated area of Gaza City,” said the anchor, Cyril Vanier. “What we believe is a residential building.”</p>\n\n<p>That initial strike on <a href=\"https://www.middleeasteye.net/news/israel-palestine-war-gaza-tower-razes-ground\">Palestine Tower</a>, which indeed was a mixed-use residential and office building, was what the Israelis call a “roof knock” - a warning that a building is about to be destroyed, giving people an absurdly short time to escape. </p><div class=\"block-adsense block-adsense-managed-ad-block\"><div>\n  <div class=\"adsense responsive\">\n    \n<!-- responsive -->\n<ins class=\"adsbygoogle mee-auto-ad-wrapper \" style=\"display: block;\"></ins>\n\n  </div>\n</div>\n</div>\n\n<p>Minutes later, the rockets intended to obliterate <a href=\"https://x.com/MiddleEastEye/status/1710730311514959997\">the tower arrived</a>, and about 80 apartments - homes that would have had family photos on the walls, toys on the floor and dishes in the sink - were instantly reduced to a painful memory.</p>\n\n<p>Vanier’s words were a portent of what was to come, because what we witnessed in that viral moment has since been repeated daily. </p>\n\n<p>Israel’s campaign of extermination against the Palestinian people had begun. The genocide started on 7 October.  </p>\n\n<h3>'Wicked city'</h3>\n\n<p>In fact, it started just hours after Hamas and other groups launched their dawn attack. By 8:24am, the <a href=\"https://www.timesofisrael.com/liveblog_entry/idf-carries-out-retaliatory-strikes-on-gaza-amid-infiltrations-massive-rocket-barrages/\">Times of Israel reported</a> that Israeli strikes were under way. </p>\n\n<p>The Indonesian Hospital in Beit Lahiya <a href=\"https://www.ochaopt.org/content/escalation-gaza-strip-and-israel-flash-update-1\">was struck</a> a short while after, killing two people, including a member of staff. This set in motion what would become a pattern of attacking medical facilities, doctors, patients and employees: over the next three years, <a href=\"https://www.aljazeera.com/news/2025/11/15/gazas-medical-students-help-health-system-decimated-by-israels-war\">more than 1,700</a> healthcare workers were killed, many in targeted attacks.</p>\n\n<p>Journalist Mohammad al-Salhi <a href=\"https://cpj.org/2023/10/cpj-calls-for-investigation-into-killing-of-palestinian-journalist-mohammad-el-salhi-in-gaza/\">was shot dead</a> by Israeli forces in al-Bureij on 7 October, and ambulances were hit outside Nasser Hospital in Khan Younis and in Jabalia, where <a href=\"https://www.hrw.org/news/2023/11/14/gaza-unlawful-israeli-hospital-strikes-worsen-health-crisis\">two paramedics lost their lives</a> and several others were wounded.</p>\n\n<p>The industrial-scale slaughter of Palestinian children also began on 7 October. Just after 8pm, with the attack on Gaza ongoing for 12 hours, the Israelis <a href=\"https://time.com/6330210/israel-hamas-gaza-families-amnesty-international/\">hit a three-storey building</a> in the Zeitoun neighbourhood, where three generations of the al-Dos family lived. Fifteen family members, including <a href=\"https://www.theguardian.com/commentisfree/2023/oct/23/israel-palestine-children-onslaught-gaza-survivors-killed-traumatised\">seven children</a>, were killed. Adam al-Dos, 18 months old, was the youngest.</p>\n\n<blockquote>\n<p>The entries on Gaza were so fleeting and by-the-numbers that all they did was underline the disparity. They reeked of afterthought</p>\n</blockquote>\n\n<p> Children were also killed in other strikes that day. By 9pm, a provisional death toll of 232 Palestinians <a href=\"https://www.timesofisrael.com/liveblog_entry/hamas-run-health-ministry-says-232-killed-in-gaza-since-start-of-terror-group-assault-on-israel/\">was reported</a>. </p>\n\n<p>Israeli Prime Minister Benjamin Netanyahu and other politicians were not shy about making their intentions immediately clear, with intent a key component of legally determining that a <a href=\"https://www.middleeasteye.net/explainers/meaning-definition-what-genocide-israel-gaza\">genocide</a> has been committed. </p>\n\n<p>“We will take mighty vengeance for this black day,” <a href=\"https://www.aljazeera.com/news/2023/10/7/world-is-watching-fears-grow-of-a-massive-gaza-invasion-by-israel\">Netanyahu said</a> in a televised address. “We will take revenge for all the young people who lost their lives … We will turn Gaza into a deserted island.” </p>\n\n<p>Gaza was “a wicked city”, <a href=\"https://www.gov.il/en/pages/statement-by-pm-netanyahu-7-oct-2023\">he added</a>.</p>\n\n<p><a href=\"https://edition.cnn.com/middleeast/live-news/al-aqsa-storm-militants-infiltrate-israel-after-gaza-rockets-10-07-intl-hnk#h_10cc7432bf9099ab8d48cfed3f0bc81c\">Yoav Gallant</a>, then the defence minister, vowed to “change reality on the ground in Gaza for the next 50 years”, while Finance Minister Bezalel Smotrich <a href=\"https://www.haaretz.com/israel-news/2023-10-08/ty-article/.premium/israel-believes-dozens-of-captives-held-in-gaza-freeing-them-remains-an-elusive-challenge/0000018b-0f62-dfff-a7eb-affac4440000\">reportedly told</a> a cabinet meeting that Israel must “be cruel now and not think too much about the hostages”. An army general made the sinister promise that Hamas had “opened the <a href=\"https://www.timesofisrael.com/promising-merciless-war-on-hamas-netanyahu-says-israel-will-avenge-this-black-day/\">gates of hell</a> on the Gaza Strip”. </p>\n\n<p>All of these statements, and more, were made on 7 October. It is clear that the genocide began that morning.</p><div class=\"block-adsense block-adsense-managed-ad-block\"><div>\n  <div class=\"adsense responsive\">\n    \n<!-- responsive -->\n<ins class=\"adsbygoogle mee-auto-ad-wrapper \" style=\"display: block;\"></ins>\n\n  </div>\n</div>\n</div>\n\n<h3>Hierarchy of suffering</h3>\n\n<p>Why, then, did much of the western media this month mark the anniversary with wall-to-wall reporting of Israeli commemorations - and only the paltriest of mentions for Palestinians?</p>\n\n<p>Why did the BBC run <a href=\"https://www.bbc.co.uk/news/live/cq2e9kyzer2nt\">a live blog</a> with pages of stories humanising Israelis killed three years ago, while Palestinians continue to be massacred? Why <a href=\"https://www.theguardian.com/world/2026/oct/06/trauma-of-7-october-israel-survivors-three-years-hamas-after-attacks?utm_source=chatgpt.com\">did the Guardian</a>?</p>\n\n<p>To be clear, it’s not the fact that there was coverage. It’s the immense scale and prominence of it: a scale that amounted to tens of thousands of words and hours of television, yet found little room for Gaza.</p>\n\n<p>This highlights the hierarchy of suffering that western media has applied to the events of the last three years. It’s more than a hierarchy of suffering: it’s a hierarchy of peoples. </p>\n\n<div class=\"mee-readmore mee-readmore-article-opinion mee-readmore-type-image align-right\">\n  <a class=\"mee-readmore-img-link\" href=\"https://www.middleeasteye.net/opinion/why-gaza-genocide-ranks-among-gravest-horrors-human-history\"><img alt=\"alt\" class=\"mee-readmore-image\" height=\"250\" src=\"https://www.middleeasteye.net/sites/default/files/styles/read_more/public/images-story/palestine-gaza-react-strikes-hospital-july-2025-afp.jpg.webp?itok=06RbVe1f\" width=\"400\" />\n\n</a>  <div class=\"mee-readmore-description\">Why Gaza's genocide ranks among the gravest horrors of human history</div>\n    <a class=\"mee-readmore-link\" href=\"https://www.middleeasteye.net/opinion/why-gaza-genocide-ranks-among-gravest-horrors-human-history\">Read More »</a>\n</div>\n\n<p>The BBC’s blog was headlined “Israeli families mourn 7 October victims as memorials held around world”. Its lead image was a girl placing a candle at a fountain in Tel Aviv’s Dizengoff Square, where photos of victims of the attack on Israel sat alongside photos of Israeli soldiers killed while committing genocide in Gaza.</p>\n\n<p>The pages featured dozens of images of Israeli commemorations; of people weeping, embracing and bowing their heads in remembrance, as they should, because they deserve to heal and to remember their loved ones like anyone else.</p>\n\n<p>The point, though, is that with the genocide ongoing, there were only a handful of Palestinians briefly featured, all of them currently living through hell - and not a single blog post was reserved for the Palestinians killed by Israel on 7 October 2023 itself.</p>\n\n<p>The entries on Gaza were so fleeting and by-the-numbers that all they did was underline the disparity. They reeked of afterthought, or of an attempt to see off criticism.</p>\n\n<p>There was no space for the seven Dos children, who were wiped from mainstream media memory as 7 October victims because they were Palestinian.</p>\n\n<h3>Taboo subject</h3>\n\n<p>The Guardian’s <a href=\"https://www.theguardian.com/world/live/2026/oct/07/israel-october-7-anniversary-hamas-gaza-netanyahu-iran-latest-news-updates\">live blog</a>, headlined “World leaders pay tribute to victims as Israel marks three years since 7 October attack by Hamas - as it happened”, was more of the same. Palestinians were featured, but as footnotes drowned out by Israel’s mourning. </p>\n\n<p>In the <a href=\"https://www.middleeasteye.net/countries/us\">US</a>, <a href=\"https://www.nbcnews.com/world/middle-east/live-blog/live-updates-israel-marks-three-year-anniversary-oct-7-attack-rcna601912\">NBC’s live updates</a>, which focused on how Israel was marking the anniversary with memorials “at homes, roadsides, kibbutzim and a music festival site”, gave more room than others to Palestinians - but in doing so, exposed another dichotomy. </p>\n\n<p>It communicated, or at least implied, to the reader that the Israelis killed three years ago were more important than the Palestinians it rightly pointed out were still being killed. Even on the anniversary itself, <a href=\"https://www.arabnews.com/middle-east/israel-strikes-gaza-on-october-7-anniversary-five-dead-officials-3005003\">at least five Palestinians were killed</a>, including a <a href=\"https://www.aljazeera.com/news/2026/10/7/israeli-attacks-across-gaza-kill-at-least-four-palestinians\">17-year-old boy</a> and a rescue worker responding to a previous strike.</p>\n\n<p>The fact is, talking about the Palestinians killed on 7 October is a taboo - one fiercely policed by pro-Israel lobbying groups and the western media and political classes.</p>\n\n<p></p>\n\n<p>The opening line of <a href=\"https://www.bbc.com/news/live/cq2e9kyzer2nt?post=asset%3A1de8f485-4292-487a-87ea-83841ee66e12#post\">a BBC report</a> on an anniversary march in London to demand an end to the genocide said that organisers were “ignoring a request by the Metropolitan Police” for it to be called off. Police, it continued, were worried that the march, organised by the University of London coalition, would distress Jewish students and staff. </p>\n\n<p>It then quoted the Union of Jewish Students as saying that the protest was “provocative, deliberate and must be condemned”.</p>\n\n<p>The BBC only briefly - without naming or, it appears, interviewing anyone - mentioned that protest organisers said they wanted to denounce genocide and fight for a free Palestine.</p>\n\n<p>Over <a href=\"https://www.theguardian.com/world/live/2026/oct/07/israel-october-7-anniversary-hamas-gaza-netanyahu-iran-latest-news-updates?CMP=share_btn_url&page=with%3Ablock-6ac642398f08a023f09c0326#block-6ac642398f08a023f09c0326\">on the Guardian</a>, a statement from the Board of Deputies of British Jews was published in full, calling the protesters, some of whom were Jewish, a “small and extremist minority of British society”. The <a href=\"https://www.middleeasteye.net/countries/uk\">UK</a>’s defence secretary, Wes Streeting, was featured labelling the march “shameful”. Not a single marcher was quoted. </p>\n\n<h3>Media manipulation</h3>\n\n<p>The strength of the taboo was also demonstrated by the hysterical reactions from the pro-Israel lobby, along with right-wing and centrist politicians, <a href=\"https://x.com/NYCMayor/status/2107813239585120609\">to New York Mayor Zohran Mamdani’s statement</a> on the day, to which the media hungrily responded.</p><div class=\"block-adsense block-adsense-managed-ad-block\"><div>\n  <div class=\"adsense responsive\">\n    \n<!-- responsive -->\n<ins class=\"adsbygoogle mee-auto-ad-wrapper \" style=\"display: block;\"></ins>\n\n  </div>\n</div>\n</div>\n\n<p>News stories in the US were not framed around what Mamdani actually said. Instead, they centred on the absurd response to it. It’s worth noting that his statement began not with Gaza, but with a condemnation of the Hamas-led attacks, which he called “horrific war crimes” that were “profoundly painful for so many New Yorkers”.</p>\n\n<p>But that wasn’t enough. Mamdani’s transgression, it seems, was that he went on to condemn the genocide, pointing out how many people were killed and underscoring the fact that despite the “so-called ceasefire”, the slaughter continues.</p>\n\n<blockquote>\n<p>Israel's genocide against the Palestinian people began on 7 October 2023. It continues. And Palestinian lives are as important as Israeli lives</p>\n</blockquote>\n\n<p>The New York Times, CNN and Politico all centred their stories around the three paragraphs in which the mayor focused on Palestinians. </p>\n\n<p>Mamdani “draws anger”, the New York Times <a href=\"https://www.nytimes.com/2026/10/07/nyregion/oct-7-anniversary-israel-nyc-mamdani.html\">headline said</a>. <a href=\"https://edition.cnn.com/2026/10/07/us/mamdani-october-7-anniversary-israel-statement\">For CNN</a>, he drew “ire”. And in the telling of <a href=\"https://www.politico.com/news/2026/10/07/mamdani-draws-bipartisan-backlash-for-criticizing-israel-on-oct-7-anniversary-01111311\">Politico’s headline</a>, he was subject to “bipartisan backlash”.</p>\n\n<p>Those three stories, from some of the most esteemed outlets in the US, collectively provide a pitch-perfect example of media manipulation in action at the highest levels.</p>\n\n<p>Here are the facts: <a href=\"https://www.middleeasteye.net/topics/israel-genocide-gaza\">Israel’s genocide</a> against the Palestinian people began on 7 October 2023. It continues. And Palestinian lives are as important as Israeli lives.</p>\n\n<p>That’s the simple truth, whether the western media wants to tell it or not. </p>\n\n<p><i>The views expressed in this article belong to the author and do not necessarily reflect the editorial policy of Middle East Eye.</i></p>\n</div>\n                  <div class=\"field field-field-topic\"><a href=\"https://www.middleeasteye.net/topics/israel-genocide-gaza\" hreflang=\"en\">Israel's genocide in Gaza</a></div>\n                  <div class=\"field field-field-section\"><a href=\"https://www.middleeasteye.net/opinion/all\" hreflang=\"en\">Opinion</a></div>\n        <div class=\"field field-field-post-date-override\">\n    <div>Post Date Override</div>\n              <div>0</div>\n          </div>\n  <div class=\"field field-field-update-date-override\">\n    <div>Update Date</div>\n              <div><time datetime=\"2020-05-04T21:29:16+01:00\">Mon, 05/04/2020 - 21:29</time>\n</div>\n          </div>\n  <div class=\"field field-field-update-date-check\">\n    <div>Update Date Override</div>\n              <div>0</div>\n          </div>\n\n  </div>\n  \n</article>",
+      "link": "https://www.middleeasteye.net/opinion/why-are-palestinians-footnote-7-october-anniversary-coverage",
+      "published": "Thu, 22 Oct 2026 08:15:27 +0100",
+      "source": "Middle East Eye"
+    },
+    {
+      "title": "Wrong national anthems played three times at Asian Para Games in Japan",
+      "summary": "The Iranian national anthem was played for athletes from Taiwan and Mongolia, prompting Nagoya's mayor to apologise.",
+      "link": "https://www.aljazeera.com/sports/2026/10/22/wrong-national-anthems-played-three-times-at-asian-para-games-in-japan?traffic_source=rss",
+      "published": "Thu, 22 Oct 2026 07:10:55 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Iran’s Oil Reserves Run Dry as U.S. Naval Blockade Tightens",
+      "summary": "Iranian oil in floating storage has been drained amid the U.S. Navy blockade, the Wall Street Journal has reported, citing Kpler data that suggests further tightening in global oil supply. “There’s no more oil to discharge to China anymore,” Kpler’s head of crude oil analysis, Homayoun Falakshahi, said, as quoted by the WSJ. Before the United States imposed a blockade on Iranian ports in April, Iran had close to 150 million barrels in floating storage, the report said. That dipped to less than 50 million barrels by mid-June,…",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Irans-Oil-Reserves-Run-Dry-as-US-Naval-Blockade-Tightens.html",
+      "published": "Thu, 22 Oct 2026 02:00:00 -0500",
+      "source": "OilPrice"
+    },
+    {
+      "title": "Cookies and weapons: Women in Yemen’s Taiz find ways to help the city’s defence",
+      "summary": "Amid growing threats, a grassroots aid effort has transformed into an initiative to get more ammunition to the front.",
+      "link": "https://www.aljazeera.com/features/2026/10/22/cookies-and-weapons-women-in-yemens-taiz-find-ways-to-help-the-citys-defence?traffic_source=rss",
+      "published": "Thu, 22 Oct 2026 06:06:28 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Oil Prices Surge Above $111 as Houthis Strike Saudi Targets",
+      "summary": "Crude oil prices extended their earlier gains today, with Brent crude keeping above $111 per barrel after the latest reports from the Middle East, featuring more Houthi attacks on Saudi targets. An order by the U.S. federal government for non-emergency personnel in the kingdom to leave contributed to the perception of an unstable security situation in a key oil region. At the time of writing, Brent crude was trading at $111.10 per barrel, with West Texas Intermediate at $98.98 per barrel, both up by more around 2% from Wednesday, after the Yemeni…",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Surge-Above-111-as-Houthis-Strike-Saudi-Targets.html",
+      "published": "Thu, 22 Oct 2026 00:30:00 -0500",
+      "source": "OilPrice"
     },
     {
       "title": "US, Israel plan renewed Iran strikes after US midterms, focusing on short, intense attacks - report",
-      "summary": "<img align=\"right\" alt=\" A joint exercise between the IAF and US Air Force (photo credit: IDF SPOKESPERSON\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_537,w_822/652958\" /><br />According to the report, the plans focus on a short, intensive military operation that could last approximately three days and include strikes on Iran's nuclear facilities.<br />",
+      "summary": "<img align=\"right\" alt=\" A joint exercise between the IAF and US Air Force (photo credit: IDF SPOKESPERSON\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_1332,w_2048/652958\" /><br />According to the report, the plans focus on a short, intensive military operation that could last approximately three days and include strikes on Iran's nuclear facilities.<br />",
       "link": "https://www.jpost.com/middle-east/iran-news/article-912476",
       "published": "Thu, 22 Oct 2026 03:18:33 GMT",
       "source": "Jerusalem Post"
     },
     {
-      "title": "Iran calls on UN to slam 'unlawful threats' from US, Israel",
-      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/iran-calls-un-slam-us-naval-blockade-hormuz-strait\" rel=\"bookmark\">\n<span class=\"field field-title\">Iran calls on UN to slam 'unlawful threats' from US, Israel</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Iran’s envoy to the United Nations, Gholamhossein Darzi, has urged the UN secretary-general and the president of the Security Council to reject and denounce the US and Israel for their repeated \"threats\" against Tehran.</p>\n\n<p>In a letter addressed to the UN, Darzi said that Tehran has the right to self-defence as a response to any act of aggression. </p>\n\n<p>He also warned of \"continuous threats\" from the US and Israel, including the possible usage of the \"Mother of All Bombs\" - known officially as the Massive Ordnance Air Blast (MOAB) - against Iran. </p>\n\n<p>\"Threatening to use the 'MOAB' bomb (the Mother of All Bombs) against Iran's civilian infrastructure and to target all of the country's energy infrastructure constitutes, among other things, a flagrant violation of international law,\" he added.</p>\n\n<p>Iran called on the the security council to demand Washington and Tel Aviv put an end to their \"unlawful threats\", as well as ensure accountability and reparations for damage from \"wrongful acts committed by the United States and the Israeli regime against Iran\".</p>\n</div>\n      \n  </div>\n\n</article>",
-      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-calls-un-slam-us-naval-blockade-hormuz-strait",
-      "published": "Thu, 22 Oct 2026 03:47:08 +0100",
-      "source": "Middle East Eye"
-    },
-    {
-      "title": "Qatar, France call for opening of Hormuz and Gaza ceasefire implementation",
-      "summary": "Qatari and French leaders stress need to restore freedom of navigation in Strait of Hormuz.",
-      "link": "https://www.aljazeera.com/news/2026/10/22/qatar-france-call-for-opening-of-hormuz-and-gaza-ceasefire-implementation?traffic_source=rss",
-      "published": "Thu, 22 Oct 2026 01:45:48 +0000",
-      "source": "Al Jazeera"
+      "title": "US orders some diplomats to leave Saudi Arabia as Houthi attacks escalate",
+      "summary": "The warning to US officials comes as at least three people die in the latest strikes at an airport and an oil field.",
+      "link": "https://www.bbc.co.uk/news/articles/c6x2vpk93770o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 22 Oct 2026 01:07:34 GMT",
+      "source": "BBC News"
     },
     {
       "title": "Some US diplomats told to leave Saudi Arabia amid Houthi attacks",
@@ -98,116 +266,11 @@
       "source": "The Guardian"
     },
     {
-      "title": "One killed, eight injured in attack on Saudi Arabia’s King Fahd airport",
-      "summary": "Injured immediately transported to hospitals as aviation authority says updates will be forthcoming.",
-      "link": "https://www.aljazeera.com/news/2026/10/22/one-killed-eight-injured-in-attack-on-saudi-arabias-king-fahd-airport-2?traffic_source=rss",
-      "published": "Thu, 22 Oct 2026 00:25:41 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Iran war live: IRGC vows invasion as defence doctrine turns ‘offensive’",
-      "summary": "Iran's IRGC threatens to invade any country that attacks it under a new 'offensive and asymmetrical' doctrine.",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/10/22/iran-war-live-irgc-vows-invasion-as-defence-doctrine-turns-offensive?traffic_source=rss",
-      "published": "Thu, 22 Oct 2026 00:00:00 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "US orders departure of personnel from Saudi Arabia, citing Houthi threat",
-      "summary": "US State Department says Iran-aligned Houthis have 'increasingly ⁠⁠engaged in hostilities' against Saudi Arabia.",
-      "link": "https://www.aljazeera.com/news/2026/10/21/us-orders-departure-of-personnel-from-saudi-arabia-citing-houthi-threat?traffic_source=rss",
-      "published": "Wed, 21 Oct 2026 23:13:35 +0000",
-      "source": "Al Jazeera"
-    },
-    {
       "title": "Big Oil Eyes Record Profits but Keeps Spending in Check",
       "summary": "Oil supermajors have been raking it in since the war in the Middle East began. They are now set to report another robust quarter, even as some jurisdictions where they operate plan to slap windfall taxes on them. The question now is what Big Oil will do with these profits. The answer: it probably won’t be a spending spree. They sure have the money for a spree. If the second quarter is any indication—and it is—oil and gas majors are having a really strong year. Out of all S&P 500 sectors, Energy booked annual growth of 128.2%…",
       "link": "https://oilprice.com/Energy/Energy-General/Big-Oil-Eyes-Record-Profits-but-Keeps-Spending-in-Check.html",
       "published": "Wed, 21 Oct 2026 18:00:00 -0500",
       "source": "OilPrice"
-    },
-    {
-      "title": "Saudi-led coalition says four drones intercepted and destroyed in Eastern Province",
-      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-four-drones-intercepted-and-destroyed-eastern\" rel=\"bookmark\">\n<span class=\"field field-title\">Saudi-led coalition says four drones intercepted and destroyed in Eastern Province</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>The official spokesperson for the Saudi-led coalition in Yemen, Turki Al-Maliki, wrote in a post on X on Wednesday that air defences had intercepted and destroyed four drones in Saudi Arabia’s Eastern Province.</p>\n\n<p>Earlier on Wednesday, Al-Maliki announced drones had also been intercepted in the eastern and southern regions.</p>\n\n<blockquote class=\"twitter-tweet\">\n<p dir=\"rtl\" lang=\"ar\">التحالف: اعتراض وتدمير 4 طائرات مسيّرة بالمنطقة الشرقية. https://t.co/Tu6O6HSn9c</p>\n— المتحدث الرسمي باسم قوات التحالف (@CJFCSpox) <a href=\"https://x.com/CJFCSpox/status/2113028583933309223?ref_src=twsrc%5Etfw\">October 21, 2026</a></blockquote>\n</div>\n      \n  </div>\n\n</article>",
-      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-led-coalition-says-four-drones-intercepted-and-destroyed-eastern",
-      "published": "Wed, 21 Oct 2026 23:38:35 +0100",
-      "source": "Middle East Eye"
-    },
-    {
-      "title": "Dozens of IAF jets, refueling aircraft flew 'as far as Iran border' in practice sortie - report",
-      "summary": "<img align=\"right\" alt=\"An Israeli Air Force fighter jet flies over central Israel amid the ongoing war between Israel, Iran and Hezbollah, March 12, 2026. (photo credit: NATI SHOHAT/FLASH90)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_537,w_822/715464\" title=\"An Israeli Air Force fighter jet flies over central Israel amid the ongoing war between Israel, Iran and Hezbollah, March 12, 2026. (photo credit: NATI SHOHAT/FLASH90)\" /><br />Later on Wednesday, Iran's Islamic Revolutionary Guard Corps (IRGC)-run Fars News Agency reported that the regime is operating on the assumption that a US-Israeli attack is a \"certainty.\"<br />",
-      "link": "https://www.jpost.com/middle-east/iran-news/article-912463",
-      "published": "Wed, 21 Oct 2026 21:52:38 GMT",
-      "source": "Jerusalem Post"
-    },
-    {
-      "title": "Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.",
-      "summary": "Oil flows out of the Persian Gulf in October nearly returned to levels seen before the start of the Iran war, but traders remain wary about a fragile recovery.",
-      "link": "https://www.marketwatch.com/story/oil-is-now-flowing-out-of-the-persian-gulf-like-before-the-iran-war-why-prices-may-still-not-come-down-anytime-soon-56df2f48?mod=mw_rss_topstories",
-      "published": "Wed, 21 Oct 2026 21:14:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "US sanctions relief could lift tanker rates in Russia, inject capacity to Gulf shuttles: analysts",
-      "summary": "US sanctions relief on shadow-fleet tankers could redirect ships from Russian oil trades toward the Middle East, potentially raising Russian freight costs while easing some of the tanker shortages around the Strait of Hormuz, shipping analysts said. In recent public remarks, Energy Secretary Chris Wright said the US will allow legitimate businesses to acquire sanctioned ...",
-      "link": "https://www.hellenicshippingnews.com/us-sanctions-relief-could-lift-tanker-rates-in-russia-inject-capacity-to-gulf-shuttles-analysts/",
-      "published": "Wed, 21 Oct 2026 21:00:59 +0000",
-      "source": "Hellenic Shipping News"
-    },
-    {
-      "title": "New and Established Yards Enter Tanker Market for the First Time",
-      "summary": "The list of yards building Tankers is widening, with a mix of brand new builders and established builders extending into the sector for the first time. Fifty-one vessels have been ordered for the first time at newbuild yards in 2026, up 34% from 38 in 2025, according to VesselsValue’s newbuild orderbook data. Eighteen more-established yards ...",
-      "link": "https://www.hellenicshippingnews.com/new-and-established-yards-enter-tanker-market-for-the-first-time/",
-      "published": "Wed, 21 Oct 2026 21:00:58 +0000",
-      "source": "Hellenic Shipping News"
-    },
-    {
-      "title": "Venezuela’s oil trade reopened. The risk moved to the vessel",
-      "summary": "Venezuela is not a binary, open-or-closed sanctions story. Trade responds to restrictions, but it also responds to waivers, licences and commercial incentives. For anyone shipping, financing or screening Venezuelan cargoes, the question is no longer only, “Is this vessel on a list?” It is, “What is this vessel doing, and what does the evidence say?” ...",
-      "link": "https://www.hellenicshippingnews.com/venezuelas-oil-trade-reopened-the-risk-moved-to-the-vessel/",
-      "published": "Wed, 21 Oct 2026 21:00:57 +0000",
-      "source": "Hellenic Shipping News"
-    },
-    {
-      "title": "S&P Global Warns Hormuz Energy Shock Could Become a Global Food Crisis",
-      "summary": "The world’s ongoing energy crisis is quickly turning into a global food security crisis. Ongoing conflict between some of the world’s most prominent economies on two major fronts – Russia’s war in Ukraine and the United States’ and Israel’s war in Iran – is creating geopolitical shockwaves through critical global trade routes and threatening some of humanity’s most essential commodities, from oil and gas to grain and fertilizer.  A \"multidirectional squeeze on world agriculture\" is taking form,…",
-      "link": "https://oilprice.com/Energy/Energy-General/SP-Global-Warns-Hormuz-Energy-Shock-Could-Become-a-Global-Food-Crisis.html",
-      "published": "Wed, 21 Oct 2026 16:00:00 -0500",
-      "source": "OilPrice"
-    },
-    {
-      "title": "OCIUS’ New Bluebottle Hybrid USV Demonstrates Capability at Maritime Big Play Pacific",
-      "summary": "<p>Two diesel-hybrid variants of Ocius’ renewably powered Bluebottle Uncrewed Surface Vessel (USV), ‘Bluebottle Hybrid’, are participating in the US Navy-led Maritime Big Play Pacific exercise, which runs throughout October. Ocius press release The exercise will mark the first time the Bluebottle Hybrid has participated in a Navy exercise anywhere in the world. The vessels will carry ThayerMahan ...</p>\n<p>The post <a href=\"https://www.navalnews.com/naval-news/2026/10/ocius-new-bluebottle-hybrid-usv-demonstrates-capability-at-maritime-big-play-pacific/\">OCIUS’ New Bluebottle Hybrid USV Demonstrates Capability at Maritime Big Play Pacific</a> appeared first on <a href=\"https://www.navalnews.com\">Naval News</a>.</p>",
-      "link": "https://www.navalnews.com/naval-news/2026/10/ocius-new-bluebottle-hybrid-usv-demonstrates-capability-at-maritime-big-play-pacific/",
-      "published": "Wed, 21 Oct 2026 20:50:30 +0000",
-      "source": "Naval News"
-    },
-    {
-      "title": "As BP Leaves the North Sea, These Independents Are Buying In",
-      "summary": "Back in July, UK oil and gas major BP Plc. (NYSE:BP) announced that it was putting its entire UK North Sea oil and gas business up for sale as part of a broader $20-billion portfolio overhaul, marking the end of a 60-year era as a leading player in Europe's largest oil basin. BP's North Sea operations produced about 117,000 barrels of oil equivalent per day in 2025 (roughly 5% of BP's total global output) and employed around 1,100 people. BP is hardly alone. Exxon Mobil (NYSE:XOM) and Chevron (NYSE:CVX) have sold their UK North Sea assets in recent…",
-      "link": "https://oilprice.com/Energy/Energy-General/As-BP-Leaves-the-North-Sea-These-Independents-Are-Buying-In.html",
-      "published": "Wed, 21 Oct 2026 15:00:00 -0500",
-      "source": "OilPrice"
-    },
-    {
-      "title": "Why Netanyahu is making the Iranian regime’s overthrow a personal promise - analysis",
-      "summary": "<img align=\"right\" alt=\"Prime Minister Benjamin Netanyahu talks to The Jerusalem Post, October 21, 2026. (photo credit: MARC ISRAEL SELLEM/THE JERUSALEM POST)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_2024,w_3035/742964\" title=\"Prime Minister Benjamin Netanyahu talks to The Jerusalem Post, October 21, 2026. (photo credit: MARC ISRAEL SELLEM/THE JERUSALEM POST)\" /><br />Netanyahu's argument was that any agreement or accommodation leaving the regime in power would leave it determined to pursue a nuclear bomb and rebuild its network of proxies surrounding Israel.<br />",
-      "link": "https://www.jpost.com/israel-news/article-912452",
-      "published": "Wed, 21 Oct 2026 19:07:43 GMT",
-      "source": "Jerusalem Post"
-    },
-    {
-      "title": "Russia’s Northern Sea Route Workaround Supplying Asian Buyers",
-      "summary": "Asia-bound Russian crude and fuel supplies are being rerouted as the US-Israeli war on Iran and disruptions in the straits of Hormuz and Bab al-Mandab choke off traditional crude flows from the Persian Gulf. Indeed, Russia increased oil and LNG shipments via the Northern Sea Route (NSR) and utilized shadow fleets to bypass chokepoints and fulfill Asian demand. Reuters reports that Russia’s oil exports through its NSR in 2026 have already exceeded last year’s by nearly 50%, with 20 million barrels shipped to Asia from the July to mid-October…",
-      "link": "https://oilprice.com/Energy/Crude-Oil/Russias-Northern-Sea-Route-Workaround-Supplying-Asian-Buyers.html",
-      "published": "Wed, 21 Oct 2026 14:00:00 -0500",
-      "source": "OilPrice"
-    },
-    {
-      "title": "Netanyahu orders Iranian regime's downfall, Katz warns 'Iran will burn' at IDF cadets' graduation",
-      "summary": "<img align=\"right\" alt=\"Prime Minister Benjamin Netanyahu giving a speech at the IDF Combat Infantry Officer\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_1066,w_1600/742971\" /><br />Speaking at the IDF officer cadets' graduation ceremony, Netanyahu declared regime change in Iran a military objective, while Defense Minister Katz warned that \"Iran will burn\" if it attacks Israel.<br />",
-      "link": "https://www.jpost.com/israel-news/defense-news/article-912445",
-      "published": "Wed, 21 Oct 2026 18:26:51 GMT",
-      "source": "Jerusalem Post"
     },
     {
       "title": "U.S. Sanctions Law Firm, Shipping Agents and Nine Vessels in Iran Shadow Fleet Crackdown",
@@ -231,69 +294,6 @@
       "source": "gCaptain"
     },
     {
-      "title": "Two More Tankers Struck as Maritime Attacks Spread Across Persian Gulf",
-      "summary": "Two more tankers have been struck by unidentified projectiles in separate incidents near the Strait of Hormuz and in the northern Persian Gulf, adding to a growing series of attacks...",
-      "link": "https://gcaptain.com/two-more-tankers-struck-as-maritime-attacks-spread-across-persian-gulf/",
-      "published": "Wed, 21 Oct 2026 15:12:23 +0000",
-      "source": "gCaptain"
-    },
-    {
-      "title": "Besieged Yemeni city on verge of ‘unmanageable’ crisis, aid workers warn",
-      "summary": "<p>Water and fresh food running out in Taiz as fighting intensifies and Houthi advance cuts off most supply routes</p><p>The humanitarian crisis in the besieged Yemeni city of Taiz is becoming unmanageable as the city runs out of water, fuel and fresh food, Oxfam aid workers in the country have warned.</p><p>Iran-allied Houthi forces have largely encircled the city of more than 900,000 people, cutting it off from most supply routes. This week, heavy fighting has raged around the city’s old airport, causing extensive damage in a densely populated residential area.</p> <a href=\"https://www.theguardian.com/world/2026/oct/21/besieged-yemeni-city-taiz-houthis-humanitarian-crisis-aid-workers\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/oct/21/besieged-yemeni-city-taiz-houthis-humanitarian-crisis-aid-workers",
-      "published": "Wed, 21 Oct 2026 14:24:02 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "EDGE Leads Integration of Sovereign Autonomous Systems in UAE Navy Demonstration with Allied Forces",
-      "summary": "<p>EDGE has led the integration of sovereign autonomous systems for a UAE Navy demonstration of national and allied unmanned maritime capabilities, conducted with the participation of the United States Navy. The Group contributed planning expertise, host facilities and operational assets, with EDGE specialists working alongside both navies on its design and execution. EDGE Group press ...</p>\n<p>The post <a href=\"https://www.navalnews.com/naval-news/2026/10/edge-leads-integration-of-sovereign-autonomous-systems-in-uae-navy-demonstration-with-allied-forces/\">EDGE Leads Integration of Sovereign Autonomous Systems in UAE Navy Demonstration with Allied Forces</a> appeared first on <a href=\"https://www.navalnews.com\">Naval News</a>.</p>",
-      "link": "https://www.navalnews.com/naval-news/2026/10/edge-leads-integration-of-sovereign-autonomous-systems-in-uae-navy-demonstration-with-allied-forces/",
-      "published": "Wed, 21 Oct 2026 14:17:06 +0000",
-      "source": "Naval News"
-    },
-    {
-      "title": "Shipping equities turn geopolitical risk into an advantage",
-      "summary": "<p>New research from investment bank Jefferies charts how shipping shares have shifted from being negatively correlated with geopolitical risk during the first decade of this century to moving increasingly in tandem with global instability since 2021. The new report is bullish on tankers, predicting that shares have further room to run, with rates forecast to …</p>\n</p>",
-      "link": "https://splash247.com/shipping-equities-turn-geopolitical-risk-into-an-advantage/",
-      "published": "Wed, 21 Oct 2026 08:27:34 +0000",
-      "source": "Splash247"
-    },
-    {
-      "title": "NATO boosts Black Sea surveillance amid attacks on shipping",
-      "summary": "<p>NATO is deploying additional maritime patrol aircraft, drones and radar systems to the Black Sea following a series of deadly attacks on merchant shipping off Romania and Bulgaria. The move follows a meeting of the alliance’s North Atlantic Council in Brussels on Tuesday, with members also sending intelligence personnel and explosives investigation teams to the …</p>\n</p>",
-      "link": "https://splash247.com/nato-boosts-black-sea-surveillance-amid-attacks-on-shipping/",
-      "published": "Wed, 21 Oct 2026 08:19:36 +0000",
-      "source": "Splash247"
-    },
-    {
-      "title": "Iraqi Line returns to Gulf container trade after 50 years",
-      "summary": "<p>Iraq’s national shipping line is returning to scheduled container services in the Gulf after more than half a century, as the country seeks to rebuild maritime connections disrupted by the Strait of Hormuz crisis. According to Alphaliner, Iraqi Maritime Line is deploying the 902 teu Basrah on an eight-day shuttle linking Jebel Ali in Dubai …</p>\n</p>",
-      "link": "https://splash247.com/iraqi-line-returns-to-gulf-container-trade-after-50-years/",
-      "published": "Wed, 21 Oct 2026 07:41:22 +0000",
-      "source": "Splash247"
-    },
-    {
-      "title": "Gestion Maritime makes ultramax debut with China order",
-      "summary": "<p>Monaco-based shipowner Gestion Maritime is moving into the ultramax segment with an order for three 64,000 dwt bulk carriers at China’s Nantong Xiangyu Shipbuilding & Offshore Engineering. The Danilo Fumarola-led company has booked the trio for delivery between late 2028 and early 2029, expanding beyond its traditional panamax and kamsarmax fleet. The vessels are costing …</p>\n</p>",
-      "link": "https://splash247.com/gestion-maritime-makes-ultramax-debut-with-china-order/",
-      "published": "Wed, 21 Oct 2026 06:55:11 +0000",
-      "source": "Splash247"
-    },
-    {
-      "title": "Troubled waters: life during wartime for Iranians on the strait of Hormuz",
-      "summary": "<p>Despite US-Israeli airstrikes and Tehran’s attacks on shipping, the waterway still has to provide a lifeline for those that live and work there</p><p>Capt Farouq turns the wheel as he watches the ferry terminal of Bandar Abbas grow smaller, its bright lights flickering in the distance.</p><p>In front of him, the navigation radar beeps periodically, its green and pink lights glowing in the darkness. The ferry, today at about half capacity with roughly 100 passengers, turns and heads into the darkness of the strait of Hormuz.</p><p>Capt Farouq pulls into the deeper waters</p> <a href=\"https://www.theguardian.com/artanddesign/2026/oct/21/strait-of-hormuz-life-amid-wartime-iran\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/artanddesign/2026/oct/21/strait-of-hormuz-life-amid-wartime-iran",
-      "published": "Wed, 21 Oct 2026 05:00:02 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "HAVELSAN Demonstrates Coordinated Unmanned Air and Maritime Operations",
-      "summary": "<p>HAVELSAN has demonstrated its ability to integrate unmanned air and maritime platforms for coordinated missions. HAVELSAN press release The demonstration brought together the USV-12 unmanned surface vessel (USV), manufactured by VN MARITIME, and the SAGAN unmanned aerial vehicle (UAV), developed by ASİSGUARD. During the demonstration, the USV navigated autonomously. The UAV took off autonomously from the vessel, ...</p>\n<p>The post <a href=\"https://www.navalnews.com/naval-news/2026/10/havelsan-demonstrates-coordinated-unmanned-air-and-maritime-operations/\">HAVELSAN Demonstrates Coordinated Unmanned Air and Maritime Operations</a> appeared first on <a href=\"https://www.navalnews.com\">Naval News</a>.</p>",
-      "link": "https://www.navalnews.com/naval-news/2026/10/havelsan-demonstrates-coordinated-unmanned-air-and-maritime-operations/",
-      "published": "Tue, 20 Oct 2026 18:40:15 +0000",
-      "source": "Naval News"
-    },
-    {
       "title": "Hegseth discusses Iran with Netanyahu in unannounced visit to Israel, officials say",
       "summary": "Netanyahu and Hegseth discussed “the threats in the region” and the U.S.-Israel partnership in dealing both offensively and defensively with those threats.",
       "link": "https://www.defensenews.com/news/pentagon-congress/2026/10/20/hegseth-discusses-iran-with-netanyahu-in-unannounced-visit-to-israel-officials-say/",
@@ -313,39 +313,9 @@
       "link": "https://www.bbc.co.uk/news/articles/ckr5yqe1r1llo?at_medium=RSS&at_campaign=rss",
       "published": "Tue, 20 Oct 2026 13:54:35 GMT",
       "source": "BBC News"
-    },
-    {
-      "title": "Myanmar’s ousted leader Aung San Suu Kyi seen in rare photos after receiving gift from King Charles",
-      "summary": "<p>Critics said images of detained former leader were a stunt by the military to end country’s diplomatic isolation</p><p>Myanmar has delivered presents from Britain’s ​King Charles to <a href=\"https://www.theguardian.com/world/aung-san-suu-kyi\">Aung San Suu Kyi</a>, releasing rare photos of the imprisoned former leader in what critics said was a stunt by the country’s military to end diplomatic isolation.</p><p>A presidential spokesperson said <a href=\"https://www.facebook.com/61590345011686/posts/122143435659344833/?mibextid=wwXIfr&rdid=87EGEjBYeLatGeUb\">on social media</a> that home ministry officials handed over two gardening books on soil, “along with one sealed envelope and a sealed diplomatic pouch”, from King Charles, who is known to have an interest in planting and the environment.</p> <a href=\"https://www.theguardian.com/world/2026/oct/20/myanmar-aung-san-suu-kyi-rare-photos-gift-king-charles\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/oct/20/myanmar-aung-san-suu-kyi-rare-photos-gift-king-charles",
-      "published": "Tue, 20 Oct 2026 05:07:00 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Bangladesh says it was not informed of its citizens' execution by Saudi Arabia",
-      "summary": "Saudi Arabia said it executed two Bangladeshis last week for committing an \"indecent act\" in a mosque.",
-      "link": "https://www.bbc.co.uk/news/articles/cmde83w13p00o?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 19 Oct 2026 08:17:19 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Ship attack reports near Hormuz reach record high as oil exports slow",
-      "summary": "BBC Verify analysis of data from a UK maritime agency shows 12 vessels were struck in a week.",
-      "link": "https://www.bbc.co.uk/news/articles/cmde8dpg8g0no?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 16 Oct 2026 05:00:17 GMT",
-      "source": "BBC News"
     }
   ],
   "history": [
-    {
-      "date": "2026-10-11 21:39",
-      "threat_level": "CRITICAL",
-      "value": 4,
-      "sentiment_score": 92,
-      "incidents": 40,
-      "brent": 104.72,
-      "usd_czk": null
-    },
     {
       "date": "2026-10-12 04:59",
       "threat_level": "CRITICAL",
@@ -606,6 +576,15 @@
       "incidents": 40,
       "brent": 110.85,
       "usd_czk": null
+    },
+    {
+      "date": "2026-10-22 10:55",
+      "threat_level": "CRITICAL",
+      "value": 4,
+      "sentiment_score": 92,
+      "incidents": 37,
+      "brent": 111.84,
+      "usd_czk": null
     }
   ],
   "locations": [
@@ -615,6 +594,13 @@
       "lon": 48.5164,
       "name_cs": "Jemen",
       "name_en": "Yemen"
+    },
+    {
+      "key": "Red Sea",
+      "lat": 20.5,
+      "lon": 38.0,
+      "name_cs": "Rudé moře",
+      "name_en": "Red Sea"
     },
     {
       "key": "Bab-el-Mandeb",
@@ -631,6 +617,13 @@
       "name_en": "Strait of Hormuz"
     },
     {
+      "key": "Suez",
+      "lat": 30.5852,
+      "lon": 32.2654,
+      "name_cs": "Suezský průplav",
+      "name_en": "Suez Canal"
+    },
+    {
       "key": "Saudi Arabia",
       "lat": 23.8859,
       "lon": 45.0792,
@@ -638,11 +631,18 @@
       "name_en": "Saudi Arabia"
     },
     {
-      "key": "Iraq",
-      "lat": 33.2232,
-      "lon": 43.6793,
-      "name_cs": "Irák",
-      "name_en": "Iraq"
+      "key": "Oman",
+      "lat": 21.4735,
+      "lon": 55.9754,
+      "name_cs": "Omán",
+      "name_en": "Oman"
+    },
+    {
+      "key": "Port Sudan",
+      "lat": 19.6158,
+      "lon": 37.2164,
+      "name_cs": "Port Sudán",
+      "name_en": "Port Sudan"
     },
     {
       "key": "Iran",
@@ -675,19 +675,35 @@
       "auto": true
     },
     {
-      "key": "Venezuela",
-      "lat": 7,
-      "lon": -66,
-      "name_cs": "Venezuela",
-      "name_en": "Venezuela",
+      "key": "San Francisco",
+      "lat": 37.77,
+      "lon": -122.42,
+      "name_cs": "San Francisco",
+      "name_en": "San Francisco",
       "auto": true
     },
     {
-      "key": "Ukrain",
-      "lat": 50.45,
-      "lon": 30.52,
-      "name_cs": "Ukrajina",
-      "name_en": "Ukrain",
+      "key": "Texas",
+      "lat": 31,
+      "lon": -99,
+      "name_cs": "Texas",
+      "name_en": "Texas",
+      "auto": true
+    },
+    {
+      "key": "Alaska",
+      "lat": 64.2,
+      "lon": -149.5,
+      "name_cs": "Aljaška",
+      "name_en": "Alaska",
+      "auto": true
+    },
+    {
+      "key": "Canada",
+      "lat": 56.1,
+      "lon": -106.3,
+      "name_cs": "Kanada",
+      "name_en": "Canada",
       "auto": true
     },
     {
@@ -696,6 +712,22 @@
       "lon": 37.62,
       "name_cs": "Rusko",
       "name_en": "Russia",
+      "auto": true
+    },
+    {
+      "key": "Turkey",
+      "lat": 39,
+      "lon": 35,
+      "name_cs": "Turecko",
+      "name_en": "Turkey",
+      "auto": true
+    },
+    {
+      "key": "Egypt",
+      "lat": 26.8,
+      "lon": 30.8,
+      "name_cs": "Egypt",
+      "name_en": "Egypt",
       "auto": true
     },
     {
@@ -715,6 +747,54 @@
       "auto": true
     },
     {
+      "key": "Taiwan",
+      "lat": 23.7,
+      "lon": 121,
+      "name_cs": "Tchaj-wan",
+      "name_en": "Taiwan",
+      "auto": true
+    },
+    {
+      "key": "Japan",
+      "lat": 36.2,
+      "lon": 138.3,
+      "name_cs": "Japonsko",
+      "name_en": "Japan",
+      "auto": true
+    },
+    {
+      "key": "South Korea",
+      "lat": 36.5,
+      "lon": 127.9,
+      "name_cs": "Jižní Korea",
+      "name_en": "South Korea",
+      "auto": true
+    },
+    {
+      "key": "Pakistan",
+      "lat": 30.4,
+      "lon": 69.3,
+      "name_cs": "Pákistán",
+      "name_en": "Pakistan",
+      "auto": true
+    },
+    {
+      "key": "Indonesia",
+      "lat": -2.5,
+      "lon": 118,
+      "name_cs": "Indonésie",
+      "name_en": "Indonesia",
+      "auto": true
+    },
+    {
+      "key": "Singapore",
+      "lat": 1.35,
+      "lon": 103.8,
+      "name_cs": "Singapur",
+      "name_en": "Singapore",
+      "auto": true
+    },
+    {
       "key": "London",
       "lat": 51.5,
       "lon": -0.12,
@@ -723,11 +803,27 @@
       "auto": true
     },
     {
+      "key": "Germany",
+      "lat": 52.52,
+      "lon": 13.4,
+      "name_cs": "Berlín",
+      "name_en": "Germany",
+      "auto": true
+    },
+    {
       "key": "France",
       "lat": 48.86,
       "lon": 2.35,
       "name_cs": "Paříž",
       "name_en": "France",
+      "auto": true
+    },
+    {
+      "key": "Sudan",
+      "lat": 15.5,
+      "lon": 32.5,
+      "name_cs": "Súdán",
+      "name_en": "Sudan",
       "auto": true
     }
   ],
@@ -739,21 +835,21 @@
     "Saúdská Arábie": 6,
     "Omán": 6,
     "Irák": 5,
-    "Bab-el-Mandeb": 23,
+    "Bab-el-Mandeb": 24,
     "Suezský průplav": 2,
-    "Yemen": 75,
-    "Red Sea": 59,
-    "Hormuz": 69,
+    "Yemen": 76,
+    "Red Sea": 60,
+    "Hormuz": 70,
     "Mecca": 31,
-    "Saudi Arabia": 75,
-    "Oman": 40,
+    "Saudi Arabia": 76,
+    "Oman": 41,
     "Iraq": 28,
-    "Suez": 28,
+    "Suez": 29,
     "Mokha": 16,
     "Los Angeles": 1,
     "Kalifornie": 1,
     "Ukrajina": 1,
-    "Rusko": 3,
+    "Rusko": 1,
     "Írán": 4,
     "Katar": 2,
     "Jižní Korea": 1,
@@ -766,23 +862,23 @@
     "Brazílie": 1,
     "Argentina": 1,
     "Izrael": 1,
-    "Egypt": 7,
+    "Egypt": 2,
     "Londýn": 4,
-    "Paříž": 1,
+    "Paříž": 2,
     "Súdán": 1,
     "Somálsko": 1,
     "Eritrea": 8,
-    "Iran": 38,
-    "Eilat": 35,
+    "Iran": 39,
+    "Eilat": 36,
     "Maine": 1,
     "Kanada": 1,
     "Venezuela": 1,
-    "Čína": 1,
+    "Čína": 5,
     "Indie": 2,
     "Djibouti": 9,
     "Jeddah": 10,
-    "Port Sudan": 4,
-    "New York": 1,
+    "Port Sudan": 5,
+    "New York": 2,
     "Chicago": 1,
     "Mexiko": 1,
     "Turecko": 1,
@@ -813,23 +909,16 @@
     "Guyana": 1,
     "Nigérie": 1,
     "Severní Karolína": 1,
-    "Louisiana": 1
+    "Louisiana": 1,
+    "San Francisco": 1
   },
   "top_location": {
     "key": "Yemen",
     "name_cs": "Jemen",
     "name_en": "Yemen",
-    "count": 75
+    "count": 76
   },
   "archive": [
-    {
-      "date": "2026-10-16 10:25",
-      "threat_level": "CRITICAL",
-      "security_status_cs": "Situace v oblasti Rudého moře a Perského zálivu nadále eskaluje, přičemž Houthiové stupňují útoky na obchodní plavidla a energetickou infrastrukturu. Rekordní počty útoků a rostoucí náklady na přepravu, jakož i zásahy tankerů a kontejnerových lodí, zásadně narušují globální dodavatelské řetězce.",
-      "security_status_en": "The situation in the Red Sea and the Persian Gulf continues to escalate as the Houthis intensify attacks on commercial vessels and energy infrastructure. Record numbers of attacks, surging shipping costs, and direct hits on tankers and container ships are severely disrupting global supply chains.",
-      "forecast_cs": "V nejbližších dnech lze očekávat pokračující extrémní volatilitu cen ropy a přetrvávající tlak na námořní přepravu. Jakékoliv další incidenty v oblasti Perského zálivu či Rudého moře mohou vyvolat okamžitou skokovou reakci trhů.",
-      "forecast_en": "Over the coming days, continued extreme volatility in oil prices and persistent pressure on maritime shipping are expected. Any further incidents in the Persian Gulf or Red Sea could trigger an immediate, sharp market reaction."
-    },
     {
       "date": "2026-10-16 14:59",
       "threat_level": "CRITICAL",
@@ -933,18 +1022,26 @@
       "security_status_en": "The situation in the Red Sea, Persian Gulf, and surrounding straits remains extremely tense due to escalating Houthi attacks and threats of a broader conflict with Iran. Maritime transport faces a record number of tanker attacks, driving shipping costs to astronomical heights despite ongoing oil exports.",
       "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající extrémní volatilitu v Hormuzském průlivu a vysoké marže v námořní dopravě, jelikož riziko vojenské eskalace mezi USA, Izraelem a Iránem zůstává kritické.",
       "forecast_en": "Over the coming days, persistent extreme volatility in the Strait of Hormuz and high margins in maritime shipping are expected as the risk of military escalation between the US, Israel, and Iran remains critical."
+    },
+    {
+      "date": "2026-10-22 10:55",
+      "threat_level": "CRITICAL",
+      "security_status_cs": "Bezpečnostní situace v regionu prudce eskaluje v důsledku Hútíjských útoků na saúdská letiště a ropná zařízení, na což USA reagovaly evakuací diplomatů. Iránské plovoucí rezervy ropy jsou zcela vyčerpány vlivem námořní blokády, což drží ceny ropy nad 111 USD za barel a námořní přepravní náklady na extrémních úrovních.",
+      "security_status_en": "The security situation in the region is escalating sharply due to Houthi attacks on Saudi airports and oil facilities, prompting the U.S. to evacuate diplomats. Iran's floating oil reserves are completely depleted due to the naval blockade, keeping crude prices above $111 per barrel and maritime shipping costs at extreme levels.",
+      "forecast_cs": "V nejbližších dnech lze očekávat další eskalaci napětí a pokračující útoky na energetickou infrastrukturu v Zálivu, což udrží ceny ropy a zajištění námořní dopravy na maximálních hodnotách.",
+      "forecast_en": "Over the coming days, further escalation of tensions and continued attacks on energy infrastructure in the Gulf are expected, keeping oil prices and maritime shipping insurance at maximum levels."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× CRITICAL.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 7× CRITICAL.",
   "oil_prices": {
     "brent": {
-      "value": 110.85,
+      "value": 111.84,
       "date": "2026-10-22",
       "cached": false
     },
     "wti": {
-      "value": 98.63,
+      "value": 99.28,
       "date": "2026-10-22",
       "cached": false
     }
