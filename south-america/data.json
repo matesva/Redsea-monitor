@@ -1,73 +1,220 @@
 {
-  "last_updated": "2026-10-22T10:56:47Z",
+  "last_updated": "2026-10-23T05:00:55Z",
   "assessment": {
     "threat_level": "HIGH",
     "sentiment_score": 72,
-    "security_status_cs": "Jižní Amerika čelí vysokému napětí kvůli vyvrcholení prezidentského souboje v Brazílii mezi Luisou Ináciem Lulou da Silvou a Fláviem Bolsonarem, které provádí ostrá rétorika a obavy z technologického vměšování. Bezpečnostní situaci komplikují také regionální narušení infrastruktury v Brazílii vlivem bouří a přetrvávající drogové a kriminální násilí v Ekvádoru či Kolumbii.",
-    "security_status_en": "South America faces heightened tension due to the climax of Brazil's presidential runoff between Luiz Inácio Lula da Silva and Flávio Bolsonaro, marked by fierce rhetoric and fears of technological interference. The security landscape is further complicated by severe infrastructure damage from storms in Brazil and persistent drug-related violence and cartel activity in Ecuador and Colombia.",
+    "security_status_cs": "Jižní čelí napjatému období před rozhodujícím brazilským prezidentským run-offem mezi prezidentem Luizem Ináciem Lulou da Silvom a Fláviem Bolsonarem, přičemž průzkumy ukazují těsný stav. Region zároveň bojuje s makroekonomickým tlakem globálních trhů, včetně růstu cen ropy na 109 USD za barel, a geopolitickým napětím spojeným s americko-argentinskými dohodami proti organizovanému zločinu.",
+    "security_status_en": "South America faces a tense period ahead of a neck-and-neck Brazilian presidential run-off between President Luiz Inácio Lula da Silva and Flávio Bolsonaro. The region is simultaneously grappling with macroeconomic pressures from global markets, including Brent oil rising to $109/bbl, alongside heightened geopolitical cooperation between the US and Argentina targeting organized crime.",
     "recommendations": [
       {
-        "sector_cs": "Brazilský akciový trh (Bovespa, ETF EWZ)",
+        "sector_cs": "Brazilský akciový trh (Bovespa, EWZ ETF)",
         "sector_en": "Brazilian Equities (Bovespa, EWZ ETF)",
         "action": "HOLD",
-        "reason_cs": "Trhy vyčkávají na výsledek napínavého druhého kola prezidentských voleb mezi Lulou a Fláviem Bolsonarem, což přináší krátkodobou volatilitu.",
-        "reason_en": "Markets are awaiting the outcome of the tense presidential runoff between Lula and Flávio Bolsonaro, driving short-term volatility."
+        "reason_cs": "Extrémně vyrovnané prezidentské volby a obvinění z vměšování Meta přinášejí vysokou politickou nejistotu a volatilitu. Doporučujeme vyčkat na konečný výsledek voleb před úpravou expozice.",
+        "reason_en": "Extremely tight presidential polls and allegations of Meta interference introduce high political uncertainty and volatility. Investors should wait for the election results before adjusting exposure."
       },
       {
         "sector_cs": "Argentina (Merval, YPF, MercadoLibre)",
         "sector_en": "Argentina (Merval, YPF, MercadoLibre)",
         "action": "BUY",
-        "reason_cs": "Prezident Milei pokračuje v diplomatických i strukturálních krocích (včetně otázky ropného projektu Sea Lion), což posiluje důvěru investorů v dlouhodobé reformy.",
-        "reason_en": "President Milei continues advancing diplomatic and structural steps (including the Sea Lion oil project dispute), boosting investor confidence in long-term reforms."
+        "reason_cs": "Pokračující privatizační úspěchy vlády Javiera Milei (prodej podílů v AySA) a posilování bezpečnostních i diplomatických vazeb s USA vytvářejí příznivé prostředí pro reformy. To posiluje důvěru trhů v argentinská aktiva.",
+        "reason_en": "Ongoing privatization wins under Javier Milei (selling shares in AySA) and strengthening security and diplomatic ties with the US create a favorable environment for structural reforms. This bolsters market confidence in Argentine assets."
       },
       {
         "sector_cs": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
         "sector_en": "Mining: Copper & Lithium (Southern Copper, SQM, Freeport)",
         "action": "HOLD",
-        "reason_cs": "Ceny kovů reagují na globální makroekonomická data a opatrný vývoj úrokových sazeb Fedu, zatímco regionální poptávka zůstává stabilní.",
-        "reason_en": "Metal prices are reacting to global macroeconomic data and cautious Fed interest rate paths, while regional demand remains steady."
+        "reason_cs": "Globální technologický výprodej a rostoucí ceny energií vytvářejí smíšený tlak na nákladovou efektivitu těžařů. Výhled poptávky po přechodu na zelenou energiku však nadále poskytuje strukturální podporu.",
+        "reason_en": "A global tech sell-off and rising energy costs create mixed pressure on miners' cost efficiency. However, long-term green transition demand continues to provide structural support."
       },
       {
         "sector_cs": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
         "sector_en": "Oil & Energy (Petrobras, Ecopetrol, Chevron)",
-        "action": "HOLD",
-        "reason_cs": "Ceny ropy mírně klesají navzdory sankcím vůči Rusku a energetická politika v regionu čelí místním infrastrukturním výzvám.",
-        "reason_en": "Oil prices edge lower despite Russian sanctions, and regional energy policy faces localized infrastructure and political challenges."
+        "action": "BUY",
+        "reason_cs": "Ceny ropy Brent na úrovni 109 USD za barel posilují marže a cash flow ropných společností v regionu. Potenciální spory o ropné vrty u Falklandských ostrovů jsou zatím spíše právního než operativního charakteru.",
+        "reason_en": "Brent crude prices near $109 per barrel are boosting margins and cash flows for regional oil companies. Potential disputes over Falkland Islands drilling projects remain largely legal rather than operational."
       },
       {
         "sector_cs": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
         "sector_en": "Agriculture & Food (JBS, Bunge, Cosan)",
-        "action": "BUY",
-        "reason_cs": "Ceny arabiky dosahují rekordních úrovní kvůli napjatým obchodním vztahům a úlevě od hrozeb kolumbijských cel.",
-        "reason_en": "Arabica coffee prices have hit record levels due to trade tensions and the withdrawal of tariff threats on Colombia."
+        "action": "HOLD",
+        "reason_cs": "Rekordní ceny arabské kávy v důsledku kolumbijských celních sporů a geopolitických třenic podporují tržby, avšak obavy z klimatických dopadů (Super El Niño) a regulací v Amazonii zvyšují provozní rizika.",
+        "reason_en": "Record Arabica coffee prices driven by Colombian tariff spats and geopolitical friction support revenues, but climate impacts (Super El Niño) and Amazonian regulatory risks elevate operational concerns."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Dění v Jižní Americe má na české tituly minimální přímý vliv, banky a energetika se řídí primárně evropským makroekonomickým kontextem.",
-        "reason_en": "South American developments have minimal direct impact on Czech blue chips, with local banks and energy firms driven primarily by European macro context."
+        "reason_cs": "Dění v Jižní Americe nemá na tuzemský bankovní sektor a energetiku přímý vliv. Akcie reagují primárně na evropské makrodata a měnovou politiku ČNB a ECB.",
+        "reason_en": "South American developments have no direct bearing on the domestic banking sector and energy firm. These stocks react primarily to European macroeconomic data and the monetary policies of the CNB and ECB."
       }
     ],
-    "forecast_cs": "V nejbližších dnech se veškerá pozornost upře na výsledky brazilského prezidentského run-offu, které určí politické a ekonomické směřování největší latinskoamerické ekonomiky. Na komoditních trzích lze sledovat další vývoj cen kávy po dosažení historických maxim.",
-    "forecast_en": "Over the coming days, all attention will focus on the results of the Brazilian presidential runoff, which will determine the political and economic trajectory of Latin America's largest economy. Commodity markets will monitor further coffee price dynamics after hitting record highs.",
-    "forecast_review_cs": "Předchozí předpověď se plně potvrdila, neboť pozornost trhů se soustředila na brazilské volby a pohyb komoditních cen (zejména kávy a ropy).",
-    "forecast_review_en": "The previous forecast was fully confirmed as market attention concentrated on the Brazilian elections and commodity price movements (especially coffee and oil)."
+    "forecast_cs": "V nejbližších hodinách bude veškerá pozornost upřena na výsledky brazilského prezidentského run-offu, které rozhodnou o budoucím směřování země a ochraně amazonských pralesů. Komoditní trhy budou nadále reflektovat vývoj cen ropy a rekordních hodnot kávy.",
+    "forecast_en": "In the coming hours, all attention will focus on the results of the Brazilian presidential run-off, which will determine the country's future direction and Amazon rainforest protections. Commodity markets will continue to reflect oil price dynamics and record coffee valuations.",
+    "forecast_review_cs": "Předchozí předpověď o zaměření na brazilský prezidentský run-off a ceny kávy byla plně potvrzena aktuálním zpravodajstvím.",
+    "forecast_review_en": "The previous forecast focusing on the Brazilian presidential run-off and coffee prices was fully confirmed by today's news."
   },
   "articles": [
     {
-      "title": "Can European leaders fix the cost-of-living crisis?",
-      "summary": "Anger over housing, wages and public services tests European governments facing debt pressures and looming elections.",
-      "link": "https://www.aljazeera.com/video/counting-the-cost/2026/10/22/can-european-leaders-fix-the-cost-of-living-crisis?traffic_source=rss",
-      "published": "Thu, 22 Oct 2026 09:58:21 +0000",
+      "title": "Latin America Sports Daily for Friday, October 23, 2026",
+      "summary": "<p>Estudiantes beat Flamengo on penalties to reach the Libertadores final against Palmeiras. Brazil's title race and the weekend fixtures.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/latin-america-sports-daily-friday-october-23-2026/\">Latin America Sports Daily for Friday, October 23, 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/latin-america-sports-daily-friday-october-23-2026/",
+      "published": "Fri, 23 Oct 2026 03:38:07 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Latin American Pulse for Friday, October 23, 2026",
+      "summary": "<p>Latin American Pulse: Brazil's runoff is a statistical tie, Mexico's health workers protest, and Guatemala mourns a former anti-corruption prosecutor.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/latin-american-pulse-for-friday-october-23-2026/\">Latin American Pulse for Friday, October 23, 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/latin-american-pulse-for-friday-october-23-2026/",
+      "published": "Fri, 23 Oct 2026 03:37:19 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "LatAm Opens After Brazil Stocks Drop 1.15% | Pre-Open, Oct 23",
+      "summary": "<p>Latin America opens after a tech sell-off and a Brent jump to US$109 pushed Brazil, Mexico, Chile, Colombia and Argentina lower on Thursday.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/latam-pre-open-friday-october-23-2026/\">LatAm Opens After Brazil Stocks Drop 1.15% | Pre-Open, Oct 23</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/latam-pre-open-friday-october-23-2026/",
+      "published": "Fri, 23 Oct 2026 03:36:50 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Venezuelans demand elections in first national protest in nearly two years",
+      "summary": "No date has been set to decide on a successor for Nicolas Maduro after the former president was captured by US forces.",
+      "link": "https://www.aljazeera.com/news/2026/10/23/venezuelans-demand-elections-in-first-national-protest-in-nearly-two-years?traffic_source=rss",
+      "published": "Fri, 23 Oct 2026 03:12:12 +0000",
       "source": "Al Jazeera"
     },
     {
-      "title": "Brazil’s president appeals to undecided voters ahead of run-off",
-      "summary": "Brazil’s two presidential candidates Lula and Bolsonaro are trying to win over the 30 million voters.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/22/brazils-president-appeals-to-undecided-voters-ahead-of-run-off?traffic_source=rss",
-      "published": "Thu, 22 Oct 2026 09:42:42 +0000",
+      "title": "Indian developer turns ‘Cockroach’ protests into video game",
+      "summary": "A 27-year-old Indian developer has created a satirical video game inspired by the Cockroach Party-led protests.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/23/indian-developer-turns-cockroach-protests-into-video-game?traffic_source=rss",
+      "published": "Fri, 23 Oct 2026 02:44:35 +0000",
       "source": "Al Jazeera"
+    },
+    {
+      "title": "Brazil’s election and the battle for the Amazon – podcast",
+      "summary": "<p>Our Latin America correspondent, <strong>Tom Phillips, </strong>heads to Roraima to hear what’s at stake for the rainforest and the communities that live there in the Brazilian presidential runoff on Sunday. Send your comments and questions to <a href=\"mailto:tif.questions@theguardian.com\">tif.questions@theguardian.com</a></p><p>For the Amazon and the communities who live there, the stakes in Sunday’s Brazilian presidential election runoff could scarcely be higher.</p><p>Our Latin America correspondent, <strong>Tom Phillips </strong>heads to Roraima, the country’s most northern state, to hear from voters, preachers and politicians in a region that heavily backed Flávio Bolsonaro in the first round.</p> <a href=\"https://www.theguardian.com/news/audio/2026/oct/23/brazil-election-battle-for-amazon-podcast\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/news/audio/2026/oct/23/brazil-election-battle-for-amazon-podcast",
+      "published": "Fri, 23 Oct 2026 02:00:56 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Will ICE agents play a role in the 2026 US midterm elections?",
+      "summary": "Rights groups are worried the agency at the heart of Trump's immigration crackdown could sway the vote on election day.",
+      "link": "https://www.aljazeera.com/news/2026/10/23/will-ice-agents-play-a-role-in-the-2026-us-midterm-elections?traffic_source=rss",
+      "published": "Fri, 23 Oct 2026 01:47:39 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Pollsters point to technical tie in Brazil election run-off",
+      "summary": "<p><img alt=\"Flávio Bolsonaro and Luiz Inácio Lula da Silva.\" src=\"https://fotos.perfil.com/2026/10/23/trim/540/304/flavio-bolsonaro-and-luiz-inacio-lula-da-silva-2354545.jpg\" /></p>What the latest polls in Brazil say about Sunday’s run-off between Lula and Bolsonaro... <a href=\"https://www.batimes.com.ar/news/latin-america/pollsters-point-to-technical-tie-in-brazil-election-run-off.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/latin-america/pollsters-point-to-technical-tie-in-brazil-election-run-off.phtml",
+      "published": "Fri, 23 Oct 2026 00:57:45 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Thousands protest across Poland for access to free and legal abortions",
+      "summary": "Demonstrators gathered on the sixth anniversary of a near-total abortion ban imposed by Poland's highest court.",
+      "link": "https://www.aljazeera.com/news/2026/10/23/thousands-protest-across-poland-for-access-to-free-and-legal-abortions?traffic_source=rss",
+      "published": "Fri, 23 Oct 2026 00:54:51 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Argentina seals water deal in win for Milei’s privatisation push",
+      "summary": "<p><img alt=\"An AYSA truck brings drinking water to Villa Azul in Argentina.\" src=\"https://fotos.perfil.com/2025/03/27/trim/540/304/an-aysa-truck-brings-drinking-water-to-villa-azul-in-argentina-1993139.jpg\" /></p>Government confirms it will sell its shares in AySA to a consortium made up of local and Brazilian companies, with the contract to be signed next month.\n <a href=\"https://www.batimes.com.ar/news/economy/argentina-seals-water-deal-in-win-for-mileis-privatisation-push.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/economy/argentina-seals-water-deal-in-win-for-mileis-privatisation-push.phtml",
+      "published": "Thu, 22 Oct 2026 22:36:23 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "‘No other country is more closely aligned’ – Trump envoy hails US-Argentina ties",
+      "summary": "<p><img alt=\"US Deputy Secretary of State Christopher Landau, Pablo Quirno\" src=\"https://fotos.perfil.com/2026/10/22/trim/540/304/us-deputy-secretary-of-state-christopher-landau-pablo-quirno-2354470.jpg\" /></p>Christopher Landau, number two at the US State Department, meets Foreign Minister Pablo Quirno in Buenos Aires; Alongside Washington’s Western Hemisphere chief Juan Pablo Segura, duo announce funding to combat drug trafficking, human-trafficking and cyberattacks.\n <a href=\"https://www.batimes.com.ar/news/world/no-other-country-is-more-closely-aligned-trump-envoy-hails-us-argentina-ties.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/world/no-other-country-is-more-closely-aligned-trump-envoy-hails-us-argentina-ties.phtml",
+      "published": "Thu, 22 Oct 2026 22:32:14 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze",
+      "summary": "Wall Street may be starting to price in the scenario everyone fears: a full-scale regional conflict that could further choke off global energy supplies and unleash a fresh wave of turmoil across financial markets.",
+      "link": "https://www.marketwatch.com/story/oil-prices-approach-iran-war-highs-as-soaring-tanker-rates-trigger-a-second-energy-squeeze-2d726982?mod=mw_rss_topstories",
+      "published": "Thu, 22 Oct 2026 20:46:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Haiti in Crisis: Why Elections Are Impossible Right Now | The InSight Take",
+      "summary": "<p><a href=\"https://insightcrime.org/news/organized-crime-postponed-democracy-in-haiti-again-the-insight-take/\">Haiti in Crisis: Why Elections Are Impossible Right Now | The InSight Take</a></p>\n<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2026/10/InSight-Take-Cover-Organized-Crime-Postponed-Democracy-in-Haiti-Again-2026-10-22.png?fit=1024%2C576&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>Haiti elections are currently non-existent, leaving a power vacuum that empowers criminal groups. Steven Dudley sits down with investigator Alex Papadovasilakis to analyze the dire political and security landscape in Port-au-Prince. With the absence of elected leadership, the state has struggled to maintain authority, allowing gang control to expand significantly across the nation. We break down how the erosion of democratic institutions has facilitated this shift and what it means for regional stability.</p>\n<p>The post <a href=\"https://insightcrime.org/news/organized-crime-postponed-democracy-in-haiti-again-the-insight-take/\">Haiti in Crisis: Why Elections Are Impossible Right Now | The InSight Take</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
+      "link": "https://insightcrime.org/news/organized-crime-postponed-democracy-in-haiti-again-the-insight-take/",
+      "published": "Thu, 22 Oct 2026 19:17:01 +0000",
+      "source": "InSight Crime"
+    },
+    {
+      "title": "Back to the Bolsonaros? Brazil presidential run-off goes down to the wire",
+      "summary": "Brazil's future within the margin of error ahead of Sunday's presidential runoff: most of the latest polls put the far-right's Flavio Bolsonaro ahead of left-wing incumbent Luiz Inacio Lula da Silva... a lead that's narrowed after last weekend's acrimomious debate.",
+      "link": "https://www.france24.com/en/tv-shows/the-debate/20261022-back-to-the-bolsonaros-brazil-presidential-run-off-goes-down-to-the-wire",
+      "published": "Thu, 22 Oct 2026 18:18:23 GMT",
+      "source": "France 24"
+    },
+    {
+      "title": "Lula says rival should be disqualified over alleged Meta interference ahead of Brazil vote",
+      "summary": "The Brazilian president accuses the tech firm of favouring Flávio Bolsonaro, which it denies.",
+      "link": "https://www.bbc.co.uk/news/articles/c6pwgve2lk5go?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 22 Oct 2026 17:01:47 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Ahead of US and Israeli elections, 3-day joint attack on Iran 'would not radically change conflict'",
+      "summary": "Jean-Emile Jammine is pleased to welcome Federico Donelli, Associate Professor of International Relations in the Department of Political and Social Sciences at the University of Trieste in Italy. Can another three days of military strikes achieve what eight months of confrontation have failed to deliver? Donelli challenges the assumption that a short, intensive offensive would necessarily produce a decisive political outcome. He argues, \"the real question is whether military pressure is intended to constrain Iran's capacity, or to pressure Iran to sit on the table.\" And whether they can translate that capacity into a sustainable political outcome without provoking a wider regional crisis. Regardless, Donelli reminds us that \"Iran still has leverage over the US.\"",
+      "link": "https://www.france24.com/en/ahead-of-us-and-israeli-elections-3-day-joint-attack-on-iran-would-not-radically-change-conflict",
+      "published": "Thu, 22 Oct 2026 16:36:26 GMT",
+      "source": "France 24"
+    },
+    {
+      "title": "Georgia on Democrats’ minds: Powering up the Black vote to counter Trump's meddling",
+      "summary": "President Donald Trump's push to redistrict congressional maps and a Georgia state election law disproportionately affecting African Americans are aimed at diluting the power of the Black vote. Six decades after Atlanta was at the heart of the civil rights movement that granted Blacks in the southern states the right to vote, the community is fighting back.",
+      "link": "https://www.france24.com/en/americas/20261022-georgia-on-democrats-minds-powering-up-black-vote-counter-trump-meddling",
+      "published": "Thu, 22 Oct 2026 15:43:57 GMT",
+      "source": "France 24"
+    },
+    {
+      "title": "Trump won’t betray Britain over the Falklands",
+      "summary": "<p>\n\t   \t      <img alt=\"The King’s visit to US in April was a stunning success: even “No Kings” Democrat Members of Congress giving King Charles a series of standing ovations\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111858/100x80/charles-donald.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         By Nile Gardiner (*) - In his second term, Donald Trump has aggressively pursued an America First foreign policy. And rightly so. The U.S. president represents the American people, and every policy he advances should be in his nation’s interest. But backing British sovereignty over the Falkland Islands fits firmly within this vision, and his administration should stand shoulder to shoulder with the UK on an issue of huge importance to the British people.</p>",
+      "link": "https://en.mercopress.com/2026/10/22/trump-won-t-betray-britain-over-the-falklands?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Thu, 22 Oct 2026 14:40:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "Greetings from the Brazil-Argentina border, where waterfalls are flowing at near-record rates",
+      "summary": "The Iguazú Falls span more than a mile across both countries. A rain-soaked October, which scientists link to the Super El Niño, has sent near-record volumes of water surging over the towering cliffs.",
+      "link": "https://www.npr.org/2026/10/22/g-s1-148553/argentina-brazil-iguazu-falls-waterfalls-super-el-nino",
+      "published": "Thu, 22 Oct 2026 09:50:55 -0400",
+      "source": "NPR"
+    },
+    {
+      "title": "Milei hopes to exploit the Falklands’ oil dispute in next year’s election",
+      "summary": "<p>\n\t   \t      <img alt=\"\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111857/100x80/sea-lion-well.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         By Vicky Kapogianni Associate Professor of International and Environmental Law, University of Reading  - Argentina is trying to stop a planned oil project near the Falkland Islands. On October 13, the government asked the International Tribunal for the Law of the Seas (Itlos), a court in Hamburg that deals with disputes over the sea, to halt the project. Argentina says the UK approved the drilling without its agreement and in breach of Argentina’s rights to the seabed.</p>",
+      "link": "https://en.mercopress.com/2026/10/22/milei-hopes-to-exploit-the-falklands-oil-dispute-in-next-year-s-election?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Thu, 22 Oct 2026 13:35:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "U.S., Israel may attack Iran post-elections. And, SpaceX and Tesla consider merging",
+      "summary": "The U.S. and Israel are planning for a possible post-elections attack on Iran, an anonymous source tells NPR. And, Elon Musk considers merging his companies SpaceX and Tesla.",
+      "link": "https://www.npr.org/2026/10/22/g-s1-149315/up-first-newsletter-midterm-campaign-israel-iran-elon-musk-spacex-tesla",
+      "published": "Thu, 22 Oct 2026 07:28:24 -0400",
+      "source": "NPR"
+    },
+    {
+      "title": "Blockades, checkpoints and court action: fending off Brazil’s biofuel giants in the Amazon",
+      "summary": "<p>After decades of violent displacement and land theft, the country’s <em>quilombola </em>communities are fighting back</p><p>For most of his 39 years, Josias Dias dos Santos, known as Jota, has endured degrading cycles of displacement as a <em>quilombola</em>, a descendant of <a href=\"https://periodicos.ufpa.br/index.php/pnaea/article/viewFile/11672/8058\">Black people once enslaved</a> on <a href=\"https://www.theguardian.com/world/brazil\">Brazil</a>’s sugar cane and coffee plantations. He says his and other quilombola families subsisting in the rainforests in Pará, northern Brazil, were first forced out of their settlements by violent loggers, then by ranchers and miners.</p><p>Yet, they say the worst came with the arrival of the palm oil industry in what is now <a href=\"https://www.gov.br/mma/pt-br/noticias-defeso-eleitoral/dados-do-deter-indicam-reducao-dos-alertas-de-desmatamento-na-amazonia-e-no-cerrado-no-intervalo-de-2025-2026\">the country’s most deforested state</a>. Palm oil companies producing biofuels and supplying global customers, <a href=\"https://docs.google.com/document/d/14uLIRfre7EWz94Qh36YFbptWthLv0EZazUNjKmF_5mg/edit?tab=t.0\">subsidised by</a> the federal government, have laid claim to ever larger tracts of traditional quilombola territory over the past two decades.</p> <a href=\"https://www.theguardian.com/global-development/2026/oct/22/quilombolas-indigenous-amazon-brazil-biofuels-palm-oil\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/global-development/2026/oct/22/quilombolas-indigenous-amazon-brazil-biofuels-palm-oil",
+      "published": "Thu, 22 Oct 2026 11:00:41 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "El Salvador's president threatens Haitian gangs over military hostages",
+      "summary": "Four members of the so-called Gang Suppression Force have been missing since Sunday.",
+      "link": "https://www.bbc.co.uk/news/articles/cq33xpjekve4o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 22 Oct 2026 10:17:48 GMT",
+      "source": "BBC News"
     },
     {
       "title": "See how Big Tech is transforming Spain's landscape",
@@ -77,74 +224,11 @@
       "source": "NPR"
     },
     {
-      "title": "U.S. and Israel are planning for a possible attack on Iran, source tells NPR",
-      "summary": "The U.S. and Israel are preparing plans for a possible attack on Iran in early November, after the U.S. midterm elections, a person briefed on war planning told NPR. Iran said it is prepared.",
-      "link": "https://www.npr.org/2026/10/22/nx-s1-6011514/us-israel-iran-war",
-      "published": "Thu, 22 Oct 2026 04:56:58 -0400",
-      "source": "NPR"
-    },
-    {
-      "title": "Israeli elections: Is it just right wing versus right?",
-      "summary": "Benjamin Netanyahu’s opponents are promising a change to Israeli politics, but are their policies really that different?",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/22/israeli-elections-is-it-just-right-wing-versus-right?traffic_source=rss",
-      "published": "Thu, 22 Oct 2026 08:55:18 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Bukele says military operation launched to rescue Salvadorans held by gangs in Haiti",
-      "summary": "El Salvador's President Nayib Bukele said Wednesday he had launched a military operation to rescue four Salvadoran aviation technicians kidnapped by gangs in Haiti.",
-      "link": "https://www.npr.org/2026/10/22/nx-s1-6012029/bukele-military-operation-haiti",
-      "published": "Thu, 22 Oct 2026 04:39:19 -0400",
-      "source": "NPR"
-    },
-    {
-      "title": "Brazil Grid Loses 191 Towers to Storms",
-      "summary": "<p>Brazil's grid operator ONS says 191 high-voltage transmission towers fell since 26 July as storms hit, and the national grid kept operating.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/brazil-grid-loses-191-towers-storms-ons-2026/\">Brazil Grid Loses 191 Towers to Storms</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/brazil-grid-loses-191-towers-storms-ons-2026/",
-      "published": "Thu, 22 Oct 2026 07:23:59 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Paraguay Gender Bill Seeks Up to 10 Years",
-      "summary": "<p>Paraguay's Senate received a citizen bill with about 50,000 signatures on 21 October that would jail adults for gender content aimed at children.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/paraguay-gender-bill-up-to-10-years-prison-senate-2026/\">Paraguay Gender Bill Seeks Up to 10 Years</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/paraguay-gender-bill-up-to-10-years-prison-senate-2026/",
-      "published": "Thu, 22 Oct 2026 07:14:01 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Bolivia Asks US to Back 2 Elite Police Units",
-      "summary": "<p>Bolivia's interior minister says he asked US partners on 20 October to help build two elite police units in Santa Cruz and Beni.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/bolivia-asks-us-back-two-elite-police-units-santa-cruz-beni-2026/\">Bolivia Asks US to Back 2 Elite Police Units</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/bolivia-asks-us-back-two-elite-police-units-santa-cruz-beni-2026/",
-      "published": "Thu, 22 Oct 2026 07:10:34 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "In Israel election, Palestinian citizens weigh fear against disillusionment",
-      "summary": "With vote at knife’s edge, Palestinian citizens weigh principle against strategic voting in system stacked against them.",
-      "link": "https://www.aljazeera.com/news/2026/10/22/in-israel-election-palestinian-citizens-weigh-fear-against-disillusionment?traffic_source=rss",
-      "published": "Thu, 22 Oct 2026 07:02:10 +0000",
-      "source": "Al Jazeera"
-    },
-    {
       "title": "Strongmen like Trump would destroy the planet out of pure spite – and Brazil shows we’re all in peril | George Monbiot",
       "summary": "<p>If Flávio Bolsonaro is elected, Brazil’s ecosystems will face collapse. The ruling class would rather burn the world than share it with the poor  <br /></p><p>However grim the trajectory might seem, I’ve always believed that sense will ultimately prevail. As the great perils of dismantling the living world become increasingly obvious, even the most rapacious exploiters must come round. Nobody wants to live on a dead planet, do they?</p><p>There are – or <em>were</em> – signs that this wasn’t just wishful thinking. Since 2015, mostly thanks to China, the area of the planet being reforested has <a href=\"https://www.carbonbrief.org/why-land-use-emissions-have-fallen-by-a-third-this-century-in-six-charts\">increased</a>, while thanks in large part to Brazil, the global rate of forest destruction has declined. The area of the Brazilian Amazon forest cleared each year is <a href=\"https://terrabrasilis.dpi.inpe.br/app/dashboard/deforestation/biomes/legal_amazon/rates\">one-sixth of what it was</a> when records began in 1988. In the past four years, as a result of Brazilian government policy, the deforestation rate has <a href=\"https://www.theguardian.com/environment/2026/oct/16/brazil-amazon-deforestation-lowest-on-record-election\">fallen by 71%</a>. If <a href=\"https://www.theguardian.com/world/luiz-inacio-lula-da-silva\">Luiz Inácio Lula da Silva</a> is re-elected president on Sunday, the country could reach zero deforestation by 2030. The arc of the moral universe seems to have bent towards justice.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/oct/22/strongmen-donald-trump-destroy-planet-brazil-flavio-bolsonaro\">Continue reading...</a>",
       "link": "https://www.theguardian.com/commentisfree/2026/oct/22/strongmen-donald-trump-destroy-planet-brazil-flavio-bolsonaro",
       "published": "Thu, 22 Oct 2026 05:00:07 GMT",
       "source": "The Guardian"
-    },
-    {
-      "title": "Reports: Scaloni agrees to extend Argentina contract until 2030",
-      "summary": "<p><img alt=\"Claudio 'Chiqui' Tapia and Lionel Scaloni.\" src=\"https://fotos.perfil.com/2026/10/22/trim/540/304/claudio-chiqui-tapia-and-lionel-scaloni-2353901.jpg\" /></p>World Cup-winning coach has agreed a new deal with the AFA, with an initial two-year contract and a renewal clause that could extend his time in charge of the national team to 2030.\n <a href=\"https://www.batimes.com.ar/news/sports/reports-scaloni-agrees-to-extend-argentina-contract-until-2030.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/sports/reports-scaloni-agrees-to-extend-argentina-contract-until-2030.phtml",
-      "published": "Thu, 22 Oct 2026 03:42:37 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
-      "title": "Maradona’s doctor was made ‘scapegoat’ for his death, court told",
-      "summary": "<p><img alt=\"Maradona death trial\" src=\"https://fotos.perfil.com/2026/10/22/trim/540/304/maradona-death-trial-2353903.jpg\" /></p>Defence lawyers defend clients against negligence charges as trial nears climax; Seven healthcare professionals who treated and cared for late star in dock, with prosecutors seeking sentences of between four and 12 years in jail for six of the accused. <a href=\"https://www.batimes.com.ar/news/argentina/maradonas-doctor-was-made-scapegoat-for-his-death-court-told.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/argentina/maradonas-doctor-was-made-scapegoat-for-his-death-court-told.phtml",
-      "published": "Thu, 22 Oct 2026 03:19:04 GMT",
-      "source": "Buenos Aires Times"
     },
     {
       "title": "A partial win in Hamburg could help Milei in 2027, an analysis suggests",
@@ -154,39 +238,11 @@
       "source": "MercoPress"
     },
     {
-      "title": "Milei says Argentina will pursue the Falklands diplomatically: “We do not believe in military solutions”",
-      "summary": "<p>\n\t   \t      <img alt=\"At the same event, Milei defended his alliance with the United States and Israel\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111848/100x80/jm3.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Argentine President Javier Milei said in Madrid on Wednesday that he is confident of recovering the Falklands through diplomacy and repeated three times that his government “does not believe in military solutions”, amid an escalating dispute with the United Kingdom over the Sea Lion oil project.</p>",
-      "link": "https://en.mercopress.com/2026/10/22/milei-says-argentina-will-pursue-the-falklands-diplomatically-we-do-not-believe-in-military-solutions?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Thu, 22 Oct 2026 00:07:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Competition for Grossi as UAE nominates top official to lead United Nations",
-      "summary": "<p><img alt=\"Lana Nusseibeh.\" src=\"https://fotos.perfil.com/2026/10/21/trim/540/304/lana-nusseibeh-2353711.jpg\" /></p>Argentina's Rafael Grossi faces a new competitor in the rwace to be the next secretary-general of the United Nations. <a href=\"https://www.batimes.com.ar/news/world/competition-for-grossi-as-uae-nominates-top-official-to-lead-united-nations.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/world/competition-for-grossi-as-uae-nominates-top-official-to-lead-united-nations.phtml",
-      "published": "Wed, 21 Oct 2026 20:57:52 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
       "title": "Ex-prosecutor charged with treason in Mexico over US drug raid",
       "summary": "César Jáuregui Moreno is accused of allowing US agents to join a raid on a suspected drugs lab in April.",
       "link": "https://www.bbc.co.uk/news/articles/ckx2qpw4rjd7o?at_medium=RSS&at_campaign=rss",
       "published": "Wed, 21 Oct 2026 20:19:51 GMT",
       "source": "BBC News"
-    },
-    {
-      "title": "Trump exploits France riots to push false immigration claims ahead of midterms",
-      "summary": "Donald Trump and his inner circle are using unrest in France to push unsubstantiated claims blaming the riots on immigration, even showing French protest footage at midterm rallies. But there is no evidence linking immigration to the unrest, and it's prompted French President Emmanuel Macron to accuse world leaders of making “stupid comments” at France’s expense. Trump’s focus comes as Republicans face mounting pressure ahead of the midterms and his approval rating hits a reported record low.",
-      "link": "https://www.france24.com/en/tv-shows/truth-or-fake/20261021-trump-uses-france-riots-to-push-false-immigration-claims-ahead-of-midterms",
-      "published": "Wed, 21 Oct 2026 19:28:54 GMT",
-      "source": "France 24"
-    },
-    {
-      "title": "Paraguay’s president travels to Washington and will meet the CIA director",
-      "summary": "<p>\n\t   \t      <img alt=\"Peña has declared himself an ally of the White House on foreign policy\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111849/100x80/pena.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Paraguayan President Santiago Peña travelled to Washington on Wednesday for a brief visit that includes a meeting with US Central Intelligence Agency (CIA) Director John Ratcliffe and a keynote address at the annual gala of the Inter-American Dialogue think tank.</p>",
-      "link": "https://en.mercopress.com/2026/10/21/paraguay-s-president-travels-to-washington-and-will-meet-the-cia-director?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Wed, 21 Oct 2026 19:14:00 GMT",
-      "source": "MercoPress"
     },
     {
       "title": "Jorge Luis Zambrano, alias “Rasquiña”",
@@ -201,27 +257,6 @@
       "link": "https://www.latinamericareports.com/colombia-president-removes-artefacts-from-national-museum-in-cultural-counter-revolution/15434/",
       "published": "Wed, 21 Oct 2026 17:36:35 +0000",
       "source": "Latin America Reports"
-    },
-    {
-      "title": "Some Brazilians long associated with the left now shift towards Flavio Bolsonaro",
-      "summary": "In the first round of Brazil’s presidential elections, Flavio Bolsonaro got the most votes in 15 electoral districts in the North Zone of Rio de Janeiro, compared with 9 for Lula. This part of the city, long associated with the left and the social policies of Lula’s Workers’ Party, is now shifting towards former president Jair Bolsonaro’s son.",
-      "link": "https://www.france24.com/en/video/20261021-some-brazilians-long-associated-with-the-left-now-shift-towards-flavio-bolsonaro",
-      "published": "Wed, 21 Oct 2026 15:28:09 GMT",
-      "source": "France 24"
-    },
-    {
-      "title": "Concerns mount over artificial intelligence as Silicon Valley sees AI boom",
-      "summary": "Tuesday, October 20 saw protests in more than 50 US cities against the rise of artificial intelligence. Demonstrators are calling for a moratorium on AI development, and the sentiment is shared by many: according to a recent study, 71 percent of Americans believe AI will lead to job losses. In the heart of Silicon Valley, record investment is now on a collision course with public fear and uncertainty. FRANCE 24's Pierrick Leurent and Valérie Defert report, with Wassim Cornet.",
-      "link": "https://www.france24.com/en/tv-shows/focus/20261021-concerns-mount-over-artificial-intelligence-as-silicon-valley-sees-ai-boom",
-      "published": "Wed, 21 Oct 2026 14:15:12 GMT",
-      "source": "France 24"
-    },
-    {
-      "title": "Trump campaigns in deep-red states, fearing Democratic wave",
-      "summary": "The midterm elections are just two weeks away in the United States and Donald Trump is stumping for candidates in states that he won by double digits in 2024. Polls showing support for the Republican Party is slipping drastically, even in some deep red states. Story by Monte Francis.",
-      "link": "https://www.france24.com/en/trump-campaigns-in-deep-red-states-fearing-democratic-wave",
-      "published": "Wed, 21 Oct 2026 13:51:50 GMT",
-      "source": "France 24"
     },
     {
       "title": "What to know about Brazil's run-off as Lula and Flávio Bolsonaro face off",
@@ -245,20 +280,6 @@
       "source": "Latin America Reports"
     },
     {
-      "title": "The Guardian view on Alberta’s referendum: Canada holds together – against Donald Trump | Editorial",
-      "summary": "<p>Voters’ emphatic rejection of separation strengthens Mark Carney’s energy strategy in the face of a US trade war and threats</p><p>Canadians are proving to be a voice of sanity. In roundly <a href=\"https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum\">rejecting</a> the idea of separating from Canada, voters in the oil- and gas-rich province of Alberta sensibly backed the <a href=\"https://www.bbc.co.uk/news/live/cqy7ln0383pnt?post=asset%3Ad1e1d380-7bb0-4609-9289-3f72f5e6d359#post\">nation-building</a> strategy of the prime minister, Mark Carney. He has put Alberta at the centre of his plan to make Canada an energy superpower that is “<a href=\"https://www.pm.gc.ca/en/news/speeches/2026/09/29/prime-minister-carney-announces-historic-investment-protect-canadas-oceans\">much less dependent on the United States</a>”.</p><p>Donald Trump’s trade war and threats <a href=\"https://www.ctvnews.ca/world/trumps-tariffs/article/trump-says-canada-will-end-up-being-the-51st-state-because-thats-the-only-way-it-works/\">last week</a> to make Canada the 51st US state were a fillip for Mr Carney in Alberta, a landlocked western province where Liberal prime ministers have historically been unpopular. The stakes were high: a successful separatist campaign would have handed Mr Trump leverage over Canada’s resource belt. The result instead lets Mr Carney cast Alberta’s mineral wealth as a national asset, rather than allow separatists to define it as a regional grievance.</p><p><em><strong>Do you have an opinion on the issues raised in this article? If you would like to submit a response of up to 300 words by email to be considered for publication in our<a href=\"https://www.theguardian.com/tone/letters\"> letters</a> section, please <a href=\"mailto:guardian.letters@theguardian.com?body=Please%20include%20your%20name,%20full%20postal%20address%20and%20phone%20number%20with%20your%20letter%20below.%20Letters%20are%20usually%20published%20with%20the%20author%27s%20name%20and%20city/town/village.%20The%20rest%20of%20the%20information%20is%20for%20verification%20only%20and%20to%20contact%20you%20where%20necessary.\">click here</a>.</strong></em></p> <a href=\"https://www.theguardian.com/commentisfree/2026/oct/20/the-guardian-view-on-albertas-referendum-canada-holds-together-against-donald-trump\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/commentisfree/2026/oct/20/the-guardian-view-on-albertas-referendum-canada-holds-together-against-donald-trump",
-      "published": "Tue, 20 Oct 2026 17:43:18 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Alberta voters overwhelmingly reject plan to leave Canada in referendum",
-      "summary": "<p>Result is a victory for prime minister Mark Carney and supporters of Canadian unity</p><p>Voters in Canada’s Alberta have overwhelmingly rejected a proposal to begin the process of independence, delivering a decisive victory for supporters of Canadian unity and deepening divisions within the separatist movement.</p><p>With nearly 1.9m votes counted, roughly 76% people supported remaining in Canada, while 24% backed beginning a process toward separation, according to unofficial results from Elections Alberta.</p> <a href=\"https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum",
-      "published": "Tue, 20 Oct 2026 16:24:05 GMT",
-      "source": "The Guardian"
-    },
-    {
       "title": "Latin America Reports’ 15 Best Companies To Work For In 2027",
       "summary": "<p>In August, Great Place To Work published its 2026 ranking of the best workplaces in Latin America after surveying more than 2.4 million employees in over 30 countries. Two hundred organizations made the cut, with Hilton in first place and DHL right behind it. To be considered at all, each company first had to place […]</p>\n<p>The post <a href=\"https://www.latinamericareports.com/latin-america-reports-15-best-companies-to-work-for-in-2027/15408/\">Latin America Reports’ 15 Best Companies To Work For In 2027</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
       "link": "https://www.latinamericareports.com/latin-america-reports-15-best-companies-to-work-for-in-2027/15408/",
@@ -266,31 +287,10 @@
       "source": "Latin America Reports"
     },
     {
-      "title": "Personal attacks fire up debate before Brazil's run-off vote",
-      "summary": "The race heats up just days before the run-off between the left-wing incumbent and his right-wing challenger.",
-      "link": "https://www.bbc.co.uk/news/articles/ck98zlzyqle3o?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 19 Oct 2026 11:41:24 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Brazil sees record fall in Amazon deforestation as key election looms",
-      "summary": "The Amazon rainforest is a crucial buffer against climate change - but deforestation had expanded under former president Jair Bolsonaro.",
-      "link": "https://www.bbc.co.uk/news/articles/cqe8rzg6zl00o?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 17 Oct 2026 02:33:09 GMT",
-      "source": "BBC News"
-    },
-    {
       "title": "Ex-OFAC Official: The Cartel Risk Companies Can’t See | The InSight Take",
       "summary": "<p><a href=\"https://insightcrime.org/news/ex-ofac-official-the-cartel-risk-companies-cant-see-the-insight-take/\">Ex-OFAC Official: The Cartel Risk Companies Can’t See | The InSight Take</a></p>\n<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2026/10/17.jpg?fit=1024%2C576&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>Claire McCleskey, former head of compliance at the US Treasury’s OFAC, on what the cartel terrorist designations really change for companies — and why counter-terrorism tools may not fit criminal groups embedded in legitimate business.</p>\n<p>The post <a href=\"https://insightcrime.org/news/ex-ofac-official-the-cartel-risk-companies-cant-see-the-insight-take/\">Ex-OFAC Official: The Cartel Risk Companies Can’t See | The InSight Take</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
       "link": "https://insightcrime.org/news/ex-ofac-official-the-cartel-risk-companies-cant-see-the-insight-take/",
       "published": "Thu, 15 Oct 2026 17:54:17 +0000",
-      "source": "InSight Crime"
-    },
-    {
-      "title": "Why Ecuador Is Losing Its Fight Against Organized Crime",
-      "summary": "<p><a href=\"https://insightcrime.org/news/why-ecuador-is-losing-its-fight-against-organized-crime/\">Why Ecuador Is Losing Its Fight Against Organized Crime</a></p>\n<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"768\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2026/10/Ecuador-profile-teaser-Uphill-Battle-Against-Organized-Crime.jpg?fit=1024%2C768&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>Ecuador’s militarized organized crime crackdown has failed to translate into a sustained reduction in violence. Three years in, President Daniel Noboa’s government is now making tentative moves toward a more holistic approach while at the same time embracing the new hyper-militaristic security paradigm of the United States and its regional allies.</p>\n<p>The post <a href=\"https://insightcrime.org/news/why-ecuador-is-losing-its-fight-against-organized-crime/\">Why Ecuador Is Losing Its Fight Against Organized Crime</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
-      "link": "https://insightcrime.org/news/why-ecuador-is-losing-its-fight-against-organized-crime/",
-      "published": "Thu, 15 Oct 2026 15:09:57 +0000",
       "source": "InSight Crime"
     },
     {
@@ -337,15 +337,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-12 05:00",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 68,
-      "incidents": 40,
-      "bovespa": 209066.9,
-      "brl_czk": null
-    },
     {
       "date": "2026-10-12 12:49",
       "threat_level": "HIGH",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "bovespa": 206495.23,
       "brl_czk": null
+    },
+    {
+      "date": "2026-10-23 05:00",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 72,
+      "incidents": 40,
+      "bovespa": 204120.12,
+      "brl_czk": null
     }
   ],
   "locations": [
@@ -615,13 +615,6 @@
       "lon": -47.8828,
       "name_cs": "Brasília",
       "name_en": "Brasília"
-    },
-    {
-      "key": "Rio de Janeiro",
-      "lat": -22.9068,
-      "lon": -43.1729,
-      "name_cs": "Rio de Janeiro",
-      "name_en": "Rio de Janeiro"
     },
     {
       "key": "Buenos Aires",
@@ -645,6 +638,13 @@
       "name_en": "Bogotá"
     },
     {
+      "key": "Caracas",
+      "lat": 10.4806,
+      "lon": -66.9036,
+      "name_cs": "Caracas",
+      "name_en": "Caracas"
+    },
+    {
       "key": "Quito",
       "lat": -0.1807,
       "lon": -78.4678,
@@ -652,25 +652,18 @@
       "name_en": "Quito"
     },
     {
-      "key": "La Paz",
-      "lat": -16.4897,
-      "lon": -68.1193,
-      "name_cs": "La Paz",
-      "name_en": "La Paz"
-    },
-    {
-      "key": "Asuncion",
-      "lat": -25.2637,
-      "lon": -57.5759,
-      "name_cs": "Asunción",
-      "name_en": "Asunción"
-    },
-    {
       "key": "Amazon",
       "lat": -3.4653,
       "lon": -62.2159,
       "name_cs": "Amazonie",
       "name_en": "Amazon"
+    },
+    {
+      "key": "Falklands",
+      "lat": -51.7963,
+      "lon": -59.5236,
+      "name_cs": "Falklandy",
+      "name_en": "Falkland Islands"
     },
     {
       "key": "Washington",
@@ -695,11 +688,11 @@
       "auto": true
     },
     {
-      "key": "San Francisco",
-      "lat": 37.77,
-      "lon": -122.42,
-      "name_cs": "San Francisco",
-      "name_en": "San Francisco",
+      "key": "Atlanta",
+      "lat": 33.75,
+      "lon": -84.39,
+      "name_cs": "Atlanta",
+      "name_en": "Atlanta",
       "auto": true
     },
     {
@@ -711,19 +704,19 @@
       "auto": true
     },
     {
-      "key": "Canada",
-      "lat": 56.1,
-      "lon": -106.3,
-      "name_cs": "Kanada",
-      "name_en": "Canada",
-      "auto": true
-    },
-    {
       "key": "Mexico",
       "lat": 23.6,
       "lon": -102.5,
       "name_cs": "Mexiko",
       "name_en": "Mexico",
+      "auto": true
+    },
+    {
+      "key": "Venezuela",
+      "lat": 7,
+      "lon": -66,
+      "name_cs": "Venezuela",
+      "name_en": "Venezuela",
       "auto": true
     },
     {
@@ -767,19 +760,19 @@
       "auto": true
     },
     {
-      "key": "Uae",
-      "lat": 24.3,
-      "lon": 54.4,
-      "name_cs": "SAE",
-      "name_en": "Uae",
-      "auto": true
-    },
-    {
       "key": "China",
       "lat": 35.9,
       "lon": 104.2,
       "name_cs": "Čína",
       "name_en": "China",
+      "auto": true
+    },
+    {
+      "key": "India",
+      "lat": 20.6,
+      "lon": 79,
+      "name_cs": "Indie",
+      "name_en": "India",
       "auto": true
     },
     {
@@ -791,11 +784,19 @@
       "auto": true
     },
     {
-      "key": "France",
-      "lat": 48.86,
-      "lon": 2.35,
-      "name_cs": "Paříž",
-      "name_en": "France",
+      "key": "London",
+      "lat": 51.5,
+      "lon": -0.12,
+      "name_cs": "Londýn",
+      "name_en": "London",
+      "auto": true
+    },
+    {
+      "key": "Italy",
+      "lat": 41.9,
+      "lon": 12.5,
+      "name_cs": "Řím",
+      "name_en": "Italy",
       "auto": true
     },
     {
@@ -807,45 +808,45 @@
       "auto": true
     },
     {
-      "key": "Bolivia",
-      "lat": -16.3,
-      "lon": -63.6,
-      "name_cs": "Bolívie",
-      "name_en": "Bolivia",
+      "key": "Poland",
+      "lat": 52.23,
+      "lon": 21,
+      "name_cs": "Varšava",
+      "name_en": "Poland",
       "auto": true
     }
   ],
   "location_counts": {
-    "Brasilia": 43,
+    "Brasilia": 44,
     "Sao Paulo": 23,
     "Rio de Janeiro": 8,
-    "Buenos Aires": 43,
-    "Santiago": 37,
+    "Buenos Aires": 44,
+    "Santiago": 38,
     "Lima": 28,
-    "Bogota": 43,
-    "Caracas": 41,
-    "Quito": 28,
+    "Bogota": 44,
+    "Caracas": 42,
+    "Quito": 29,
     "La Paz": 17,
     "Asuncion": 10,
-    "Washington": 43,
-    "New York": 1,
+    "Washington": 44,
+    "New York": 2,
     "Texas": 1,
     "Colorado": 1,
     "Kanada": 2,
-    "Mexiko": 1,
+    "Mexiko": 3,
     "Venezuela": 1,
-    "Brazílie": 8,
-    "Argentina": 4,
+    "Brazílie": 13,
+    "Argentina": 6,
     "Ukrajina": 1,
     "Rusko": 1,
     "Pákistán": 1,
     "Londýn": 2,
     "Paříž": 2,
-    "Madrid": 2,
+    "Madrid": 1,
     "Peru": 1,
     "Bolívie": 1,
     "Montevideo": 17,
-    "Falklands": 24,
+    "Falklands": 25,
     "Ohio": 1,
     "Michigan": 1,
     "Severní Karolína": 1,
@@ -853,18 +854,18 @@
     "Maine": 1,
     "Indie": 1,
     "Atacama": 8,
-    "Beijing": 14,
+    "Beijing": 15,
     "Čína": 1,
-    "Amazon": 30,
+    "Amazon": 31,
     "Medellin": 1,
     "Tchaj-wan": 1,
-    "Řím": 2,
+    "Řím": 1,
     "Ithaca (Cornell)": 2,
-    "Írán": 1,
+    "Írán": 3,
     "Berlín": 1,
     "Panama": 17,
     "Austrálie": 1,
-    "Izrael": 3,
+    "Izrael": 2,
     "Detroit": 1,
     "Etiopie": 1,
     "Nigérie": 1,
@@ -882,23 +883,16 @@
     "Cuba": 5,
     "Egypt": 1,
     "San Francisco": 1,
-    "SAE": 1
+    "SAE": 1,
+    "Varšava": 1
   },
   "top_location": {
     "key": "Brasilia",
     "name_cs": "Brasília",
     "name_en": "Brasília",
-    "count": 43
+    "count": 44
   },
   "archive": [
-    {
-      "date": "2026-10-16 15:04",
-      "threat_level": "HIGH",
-      "security_status_cs": "Jižní čelí rostoucímu napětí kvůli eskalujícím sporům kolem Falkland mezi Argentinou a Spojeným královstvím a pokračujícím bezpečnostním výzvám v Andském regionu včetně Ekvádoru a Venezuely. Ekonomická nestabilita a politické manévry před volbami v Brazílii zvyšují tržní volatilitu.",
-      "security_status_en": "South America faces heightened tension due to escalating Falklands disputes between Argentina and the UK, alongside ongoing security challenges in the Andean region including Ecuador and Venezuela. Economic instability and pre-electoral political maneuvering in Brazil are driving market volatility.",
-      "forecast_cs": "V nejbližších dnech lze očekávat další diplomatické třenice mezi Argentinou a Spojeným královstvím a pokračující volatilitu na brazilských trzích před volbami.",
-      "forecast_en": "Over the coming days, expect further diplomatic friction between Argentina and the UK, alongside continued volatility in Brazilian markets ahead of the elections."
-    },
     {
       "date": "2026-10-16 21:19",
       "threat_level": "HIGH",
@@ -1002,14 +996,22 @@
       "security_status_en": "South America faces heightened tension due to the climax of Brazil's presidential runoff between Luiz Inácio Lula da Silva and Flávio Bolsonaro, marked by fierce rhetoric and fears of technological interference. The security landscape is further complicated by severe infrastructure damage from storms in Brazil and persistent drug-related violence and cartel activity in Ecuador and Colombia.",
       "forecast_cs": "V nejbližších dnech se veškerá pozornost upře na výsledky brazilského prezidentského run-offu, které určí politické a ekonomické směřování největší latinskoamerické ekonomiky. Na komoditních trzích lze sledovat další vývoj cen kávy po dosažení historických maxim.",
       "forecast_en": "Over the coming days, all attention will focus on the results of the Brazilian presidential runoff, which will determine the political and economic trajectory of Latin America's largest economy. Commodity markets will monitor further coffee price dynamics after hitting record highs."
+    },
+    {
+      "date": "2026-10-23 05:00",
+      "threat_level": "HIGH",
+      "security_status_cs": "Jižní čelí napjatému období před rozhodujícím brazilským prezidentským run-offem mezi prezidentem Luizem Ináciem Lulou da Silvom a Fláviem Bolsonarem, přičemž průzkumy ukazují těsný stav. Region zároveň bojuje s makroekonomickým tlakem globálních trhů, včetně růstu cen ropy na 109 USD za barel, a geopolitickým napětím spojeným s americko-argentinskými dohodami proti organizovanému zločinu.",
+      "security_status_en": "South America faces a tense period ahead of a neck-and-neck Brazilian presidential run-off between President Luiz Inácio Lula da Silva and Flávio Bolsonaro. The region is simultaneously grappling with macroeconomic pressures from global markets, including Brent oil rising to $109/bbl, alongside heightened geopolitical cooperation between the US and Argentina targeting organized crime.",
+      "forecast_cs": "V nejbližších hodinách bude veškerá pozornost upřena na výsledky brazilského prezidentského run-offu, které rozhodnou o budoucím směřování země a ochraně amazonských pralesů. Komoditní trhy budou nadále reflektovat vývoj cen ropy a rekordních hodnot kávy.",
+      "forecast_en": "In the coming hours, all attention will focus on the results of the Brazilian presidential run-off, which will determine the country's future direction and Amazon rainforest protections. Commodity markets will continue to reflect oil price dynamics and record coffee valuations."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 7× HIGH.",
   "market_data": {
     "bovespa": {
-      "value": 206495.23,
-      "date": "2026-10-21",
+      "value": 204120.12,
+      "date": "2026-10-22",
       "cached": false
     },
     "merval": {
@@ -1018,8 +1020,8 @@
       "cached": false
     },
     "usdbrl": {
-      "value": 5.0276,
-      "date": "2026-10-22",
+      "value": 5.0523,
+      "date": "2026-10-23",
       "cached": false
     }
   },
