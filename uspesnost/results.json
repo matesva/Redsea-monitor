@@ -1,53 +1,53 @@
 {
- "updated": "2026-10-22T00:39",
+ "updated": "2026-10-23T00:37",
  "band": {
   "7": 2.0,
   "30": 5.0
  },
- "signals_total": 171,
+ "signals_total": 176,
  "summary": {
   "7": {
    "ALL": {
-    "n": 131,
-    "ok": 74,
-    "avg": -0.4
+    "n": 133,
+    "ok": 75,
+    "avg": -0.44
    },
    "BUY": {
-    "n": 48,
+    "n": 50,
     "ok": 29,
-    "avg": 0.07
+    "avg": -0.04
    },
    "SELL": {
     "n": 16,
     "ok": 11,
-    "avg": -3.06
+    "avg": -3.31
    },
    "HOLD": {
     "n": 67,
-    "ok": 34,
-    "avg": -0.1
+    "ok": 35,
+    "avg": -0.05
    }
   },
   "30": {
    "ALL": {
-    "n": 25,
-    "ok": 16,
-    "avg": 0.21
+    "n": 29,
+    "ok": 19,
+    "avg": 0.04
    },
    "BUY": {
-    "n": 9,
-    "ok": 4,
-    "avg": 2.18
+    "n": 10,
+    "ok": 5,
+    "avg": 3.23
    },
    "SELL": {
-    "n": 2,
-    "ok": 2,
-    "avg": -4.67
+    "n": 3,
+    "ok": 3,
+    "avg": -6.75
    },
    "HOLD": {
-    "n": 14,
-    "ok": 10,
-    "avg": -0.36
+    "n": 16,
+    "ok": 11,
+    "avg": -0.68
    }
   }
  },
@@ -83,9 +83,9 @@
     "avg": 1.37
    },
    "30": {
-    "n": 6,
-    "ok": 4,
-    "avg": 3.92
+    "n": 7,
+    "ok": 5,
+    "avg": 4.45
    }
   },
   "Blízký východ": {
@@ -102,14 +102,14 @@
   },
   "Čína a Asie": {
    "7": {
-    "n": 29,
-    "ok": 13,
-    "avg": -1.83
+    "n": 30,
+    "ok": 14,
+    "avg": -1.89
    },
    "30": {
     "n": 6,
     "ok": 3,
-    "avg": -4.14
+    "avg": -4.13
    }
   },
   "Japonsko": {
@@ -117,17 +117,93 @@
     "n": 20,
     "ok": 10,
     "avg": -2.6
+   },
+   "30": {
+    "n": 3,
+    "ok": 2,
+    "avg": -3.93
    }
   },
   "Jižní Amerika": {
    "7": {
-    "n": 20,
+    "n": 21,
     "ok": 16,
-    "avg": 0.27
+    "avg": 0.14
    }
   }
  },
  "signals": [
+  {
+   "monitor": "Evropa",
+   "sector": "Energetika (TotalEnergies, Shell, RWE)",
+   "action": "HOLD",
+   "date": "2026-10-22",
+   "tickers": [
+    "SHEL",
+    "TTE.PA"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Evropa",
+   "sector": "Automobilový průmysl (Volkswagen, BMW, Stellantis)",
+   "action": "SELL",
+   "date": "2026-10-22",
+   "tickers": [
+    "BMW.DE"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Čínské akcie (ETF FXI, MCHI)",
+   "action": "SELL",
+   "date": "2026-10-22",
+   "tickers": [
+    "FXI",
+    "MCHI"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Argentina (Merval, YPF, MercadoLibre)",
+   "action": "BUY",
+   "date": "2026-10-22",
+   "tickers": [
+    "^MERV",
+    "MELI",
+    "YPF"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
+   "action": "HOLD",
+   "date": "2026-10-22",
+   "tickers": [
+    "SCCO",
+    "SQM",
+    "FCX"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
   {
    "monitor": "Evropa",
    "sector": "Automobilový průmysl (Volkswagen, BMW, Stellantis)",
@@ -679,7 +755,7 @@
     "005930.KS",
     "ASML"
    ],
-   "ret7": 6.19,
+   "ret7": 2.14,
    "ok7": false,
    "ret30": null,
    "ok30": null
@@ -708,8 +784,8 @@
     "005930.KS",
     "ASML"
    ],
-   "ret7": -3.66,
-   "ok7": false,
+   "ret7": -0.54,
+   "ok7": true,
    "ret30": null,
    "ok30": null
   },
@@ -722,8 +798,8 @@
     "FXI",
     "MCHI"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": -2.71,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -737,8 +813,8 @@
     "SQM",
     "FCX"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": -2.51,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -1209,79 +1285,6 @@
    ],
    "ret7": -1.65,
    "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Jižní Amerika",
-   "sector": "Argentina (Merval, YPF, MercadoLibre)",
-   "action": "HOLD",
-   "date": "2026-10-08",
-   "tickers": [
-    "^MERV",
-    "MELI",
-    "YPF"
-   ],
-   "ret7": 1.13,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Rudé moře",
-   "sector": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
-   "action": "BUY",
-   "date": "2026-10-07",
-   "tickers": [
-    "RHM.DE",
-    "TTE.PA",
-    "AIR.PA",
-    "ALV.DE"
-   ],
-   "ret7": 4.02,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Evropa",
-   "sector": "Energetika (TotalEnergies, Shell, RWE)",
-   "action": "BUY",
-   "date": "2026-10-07",
-   "tickers": [
-    "SHEL",
-    "TTE.PA"
-   ],
-   "ret7": 6.62,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Čína a Asie",
-   "sector": "Polovodiče (TSMC, Samsung, ASML)",
-   "action": "SELL",
-   "date": "2026-10-07",
-   "tickers": [
-    "TSM",
-    "005930.KS",
-    "ASML"
-   ],
-   "ret7": -10.37,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Čína a Asie",
-   "sector": "Japonské akcie (Nikkei 225 ETF)",
-   "action": "HOLD",
-   "date": "2026-10-07",
-   "tickers": [
-    "^N225"
-   ],
-   "ret7": -3.27,
-   "ok7": false,
    "ret30": null,
    "ok30": null
   }
