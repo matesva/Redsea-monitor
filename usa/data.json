@@ -1,31 +1,32 @@
 {
-  "last_updated": "2026-10-24T05:00:06Z",
+  "last_updated": "2026-10-24T10:03:55Z",
   "assessment": {
     "threat_level": "HIGH",
-    "sentiment_score": 68,
-    "security_status_cs": "Spojené státy čelí vysokému napětí v předvečer nadcházejících voleb do Kongresu, přičemž administrativou nařízené právní kroky ohledně volebních lístků a obavy z korupce dominují veřejnému prostoru. Ekonomická nálada voličů klesá na minima navzdory pokračujícím debatám o clech, zatímco technologický a polovodičový sektor zažívá volatilitu kvůli obavám z návratnosti investic do AI.",
-    "security_status_en": "The United States is facing high tension ahead of upcoming midterm elections, with administration-directed legal actions regarding ballots and corruption concerns dominating the public sphere. Consumer and voter sentiment on the economy hits lows despite ongoing tariff debates, while the tech and semiconductor sectors experience volatility over AI return-on-investment fears.",
+    "sentiment_score": 72,
+    "security_status_cs": "Spojené státy čelí vysokému napětí v důsledku blížících se voleb do Kongresu, prudkého nárůstu předčasného hlasování a rostoucích právních sporů ohledně volebních pravidel i žalob ministerstva spravedlnosti. Ekonomická nálada je pod tlakem kvůli rekordně nízké důvěře v hospodářskou politiku, přetrvávajícím cenám pohonných hmot a obavám z návratu celních opatření. Domácí bezpečnostní situaci komplikují incidenty související s radikalizací a vandalismem vůči federálním zařízením.",
+    "security_status_en": "The United States is facing elevated tension driven by the looming midterm elections, surging early voting numbers, and mounting legal disputes over voting procedures and DOJ lawsuits. Economic sentiment is under pressure due to record-low approval ratings on the economy, persistent fuel prices, and concerns over renewed tariff actions. Domestic security is further challenged by incidents of radicalization and vandalism targeting federal facilities.",
     "president_comments": [
       {
-        "topic_cs": "Soudní spory ohledně voleb v Aljašce",
-        "topic_en": "Alaska Election Lawsuits",
-        "statement_cs": "Prezident nařídil podání žaloby ministerstvem spravedlnosti s cílem zablokovat certifikaci voleb do Senátu na Aljašce v případě porážky republikánského kandidáta kvůli dvěma kandidátům se jménem Dan Sullivan.",
-        "statement_en": "The president ordered the Justice Department lawsuit to block the certification of the Alaska Senate race if the Republican candidate loses due to two candidates named Dan Sullivan.",
-        "comment_cs": "Tento krok vyvolává ostrou politickou konfrontaci a obavy z pokusů zpochybnit výsledky voleb, což zvyšuje politickou nestabilitu.",
-        "comment_en": "This move triggers fierce political confrontation and concerns over attempts to contest election results, raising political instability.",
+        "topic_cs": "Volební žaloba na Aljašce",
+        "topic_en": "Alaska Election Lawsuit",
+        "statement_cs": "Prezident Trump potvrdil, že nařídil ministerstvu spravedlnosti podat žalobu s cílem zablokovat certifikaci senátních voleb na Aljašce v případě porážky republikánského kandidáta.",
+        "statement_en": "President Trump confirmed he ordered a DOJ lawsuit to block the certification of the Alaska Senate race if the Republican candidate loses.",
+        "comment_cs": "Tento krok zvyšuje obavy o integritu volebního procesu a přispívá k silné politické polarizaci před volbami, což může negativně doléhat na důvěru investorů v institucionální stabilitu.",
+        "comment_en": "This move heightens concerns over the integrity of the electoral process and contributes to sharp political polarization ahead of the vote, potentially weighing on investor trust in institutional stability.",
         "market_impact": "NEGATIVE",
         "source": "CNBC",
-        "date": "2026-10-24T05:00:05Z"
+        "date": "2026-10-24T10:03:55Z"
       },
       {
         "topic_cs": "Úprava cel na kanadské zboží",
         "topic_en": "Adjustment of Tariffs on Canadian Goods",
-        "statement_cs": "Bílý dům oznámil uvolnění některých cel na vybrané kanadské zboží, avšak zároveň došlo k nahrazení jiných položek novými cly před blížícími se volbami.",
-        "statement_en": "The White House announced the easing of some tariffs on selected Canadian goods while replacing other items with new levies ahead of the upcoming elections.",
-        "comment_cs": "The targeted tariff adjustment strategy creates uncertainty in international trade and provides relief only to specific industrial sectors.",
+        "statement_cs": "Bílý oznámil uvolnění některých cel na kanadské zboží před volbami, avšak současně uvedl, že tato cla budou nahrazena jinými produkty.",
+        "statement_en": "The White House announced the easing of certain tariffs on Canadian goods ahead of the midterms while stating they would be 'replaced' with other products.",
+        "comment_cs": "Taktická úprava cel reaguje na politický tlak ohrožených republikánských zákonodárců, ale nadále udržuje obchodní nejistotu pro průmyslové sektory závislé na dovozu.",
+        "comment_cs_en": "This tactical tariff adjustment responds to political pressure from vulnerable GOP lawmakers, yet it maintains trade uncertainty for import-dependent industrial sectors.",
         "market_impact": "NEUTRAL",
-        "source": "BBC News",
-        "date": "2026-10-24T05:00:05Z"
+        "source": "CNBC",
+        "date": "2026-10-24T10:03:55Z"
       }
     ],
     "recommendations": [
@@ -33,51 +34,170 @@
         "sector_cs": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
         "sector_en": "US Broad Equity Market (S&P 500 ETFs, e.g. VOO, SPY)",
         "action": "HOLD",
-        "reason_cs": "Trhy čelí volatilitě a nejistotě kvůli blížícím se volbám do Kongresu a slábnoucí spotřebitelské důvěře v ekonomiku.",
-        "reason_en": "Markets face volatility and uncertainty due to upcoming midterm elections and weakening consumer confidence in the economy."
+        "reason_cs": "Trhy čelí zvýšené volatilitě kvůli nejistotě ohledně výsledků voleb do Kongresu a rekordně nízké důvěře spotřebitelů v ekonomiku.",
+        "reason_en": "Markets face heightened volatility due to midterm election uncertainty and record-low consumer confidence in the economy."
       },
       {
         "sector_cs": "Státní dluhopisy USA (Treasuries)",
         "sector_en": "US Treasuries",
         "action": "BUY",
-        "reason_cs": "Rostoucí obavy o ekonomický vývoj a politická nestabilita zvyšují poptávku po bezpečných aktivech.",
-        "reason_en": "Growing concerns over economic performance and political instability increase demand for safe-haven assets."
+        "reason_cs": "Rostoucí geopolitická a politická rizika spojená s blížícími se volbami zvyšují poptávku po bezpečných aktivech.",
+        "reason_en": "Growing geopolitical and political risks tied to the approaching midterms are increasing demand for safe-haven assets."
       },
       {
         "sector_cs": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
         "sector_en": "Defense Industry (RTX, Lockheed Martin, Northrop Grumman)",
         "action": "BUY",
-        "reason_cs": "Geopolitické napětí a pokračující diskuze o vojenských technologiích a satelitních systémech udržují silnou poptávku po obranných zakázkách.",
-        "reason_en": "Geopolitical tensions and ongoing discussions regarding military tech and satellite systems sustain strong demand for defense contracts."
+        "reason_cs": "Trvající globální bezpečnostní napětí a rostoucí rizika ve světě podporují stabilní vládní výdaje na obranu.",
+        "reason_en": "Ongoing global security tensions and rising international risks continue to support stable government defense spending."
       },
       {
         "sector_cs": "Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)",
         "sector_en": "Banks & Financials (JPMorgan, Bank of America, Goldman Sachs)",
         "action": "HOLD",
-        "reason_cs": "Finanční sektor zůstává citlivý na politické tlaky a regulační změny spojené s probíhající volební kampaní.",
-        "reason_en": "The financial sector remains sensitive to political pressures and regulatory changes tied to the ongoing election campaign."
+        "reason_cs": "Finanční sektor čelí smíšeným signálům z makroekonomického prostředí a regulatorním tlakům.",
+        "reason_en": "The financial sector faces mixed signals from the macroeconomic environment and regulatory pressures."
       },
       {
         "sector_cs": "Technologický sektor (Apple, Microsoft, Nvidia)",
         "sector_en": "Technology Sector (Apple, Microsoft, Nvidia)",
         "action": "HOLD",
-        "reason_cs": "Trhy vstřebávají obavy z návratnosti investic do umělé inteligence a tlak na polovodičové ETF.",
-        "reason_en": "Markets are absorbing concerns over artificial intelligence investment returns and pressure on semiconductor ETFs."
+        "reason_cs": "Nadšení kolem investic do umělé inteligence se setkává s obavami investorů ohledně návratnosti nákladů a vysoké valuace.",
+        "reason_en": "Enthusiasm around AI investments is meeting investor concerns regarding cost returns and high valuations."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly reagují na evropský sentiment a globální ekonomickou nejistotu bez přímého vlivu aktuálních amerických zpráv.",
-        "reason_en": "Domestic stocks react to European sentiment and global economic uncertainty without direct exposure to current US domestic news."
+        "reason_cs": "Pražská burza zůstává primárně ovlivněna evropským makroekonomickým vývojem a domácí fiskální politikou, přičemž přímé dopady amerických zpráv jsou mírné.",
+        "reason_en": "The Prague Stock Exchange remains primarily driven by European macroeconomic trends and domestic fiscal policy, with direct impacts from US news being moderate."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat zvýšenou nervozitu na trzích a pokračující politické spory spojené s blížícími se volbami do Kongresu a právními kroky ohledně volebních procesů.",
-    "forecast_en": "Over the coming days, heightened market nervousness and ongoing political disputes tied to the upcoming midterm elections and legal actions regarding voting processes are expected.",
-    "forecast_review_cs": "Předchozí předpověď o volatilitě vyvolané inflací a obavami před volbami se úspěšně potvrdila.",
-    "forecast_review_en": "The previous forecast regarding volatility driven by inflation and election fears was successfully confirmed."
+    "forecast_cs": "V nejbližších dnech lze očekávat gradaci kampaně před volbami do Kongresu, zvýšenou volatilitu na trzích a pokračující právní spory ohledně volebních výsledků.",
+    "forecast_en": "Over the coming days, an escalation of the midterm campaign, heightened market volatility, and continued legal disputes over election results are expected.",
+    "forecast_review_cs": "Předchozí předpověď se plně potvrdila, neboť trhy projevují zvýšenou nervozitu a politické spory ohledně volebních procesů nadále eskalují.",
+    "forecast_review_en": "The previous forecast was fully confirmed as markets show heightened nervousness and political disputes surrounding voting processes continue to escalate."
   },
   "articles": [
+    {
+      "title": "Early voting surges in battleground states as Democrats outpace GOP gains",
+      "summary": "Early voting is surging in several key battleground states, giving Democrats hope that their strength in midterm polling could translate into a turnout advantage in November. In North Carolina, more than 1.2 million early ballots have been accepted, a 37 percent increase from the same point leading up to the 2022 midterms, according to an...",
+      "link": "https://thehill.com/homenews/campaign/6169626-early-voting-battleground-states-democrats-republicans/",
+      "published": "Sat, 24 Oct 2026 10:00:00 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Why a blue wave might miss Minnesota's Senate race",
+      "summary": "Political headwinds are blowing in Democrats’ favor nationally, with high gas prices and President Trump’s record-low approval rating creating a difficult midterm environment for Republicans.  But in Minnesota’s open Senate race to replace retiring Sen. Tina Smith (D), Democrats are facing an unexpectedly competitive race.  Lt. Gov. Peggy Flanagan (D) holds a slim lead over...",
+      "link": "https://thehill.com/homenews/campaign/6169517-minnesota-senate-flanagan-tafoya/",
+      "published": "Sat, 24 Oct 2026 10:00:00 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Trump’s $8 billion farm lifeline won’t fully solve farmers’ diesel problem",
+      "summary": "The Trump administration’s $8 billion relief program for farmers is throwing a lifeline to the industry, but producers are still facing lower margins due to high diesel prices amid the Iran war — and experts say the move might only buy time for solving deeper challenges.  Through the initiative announced earlier this week, farmers will...",
+      "link": "https://thehill.com/business/6169485-trump-farm-relief-diesel-prices/",
+      "published": "Sat, 24 Oct 2026 10:00:00 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "GREGG JARRETT: Ilhan Omar could face indictment, denaturalization and deportation",
+      "summary": "Minn. Rep. Ilhan Omar faces a federal probe into alleged identity fraud, marriage fraud, and false statements that could possibly lead to denaturalization and deportation.",
+      "link": "https://www.foxnews.com/opinion/gregg-jarrett-ilhan-omar-could-face-indictment-denaturalization-deportation",
+      "published": "Sat, 24 Oct 2026 05:50:51 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Adolf Hitler's 'Eagle's Nest' Retreat Engulfed by Flames, Arrest Made",
+      "summary": "Hitler's bolt-hole is still burning with the main house \"unlikely to be salvageable,\" police said.",
+      "link": "https://www.newsweek.com/adolf-hitler-eagles-nest-retreat-fire-today-destroyed-who-police-arrest-12614012",
+      "published": "Sat, 24 Oct 2026 05:29:23 -0400",
+      "source": "Newsweek"
+    },
+    {
+      "title": "California must respond to DOJ's emergency request over ballots mailed to alleged noncitizens, court rules",
+      "summary": "The DOJ says roughly 20,000 noncitizens received mail-in ballots in California and is demanding the state sequester those votes before they are processed.",
+      "link": "https://www.foxnews.com/politics/california-must-respond-dojs-emergency-request-over-ballots-mailed-alleged-noncitizens-court-rules",
+      "published": "Sat, 24 Oct 2026 05:21:53 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Vance front and center in Republican midterms push – is this a dry run for a White House bid?",
+      "summary": "<p>Vice-president’s visibility has risen as Trump’s popularity wanes, but path to inherit Maga throne is more complicated than it may seem</p><p>A day after JD Vance <a href=\"https://www.foxnews.com/politics/vance-reveals-trump-dilemma-complicate-2028-white-house-ambitions\">suggested</a> Donald Trump would endorse him if he runs for president, the vice-president shifted awkwardly in the Oval Office as his boss was asked about the remark.</p><p>“He’s a very talented person, and he’s a very good person,” Trump said of the man standing behind him, with a forced smile this week. “But we’ve literally – I don’t think we’ve ever talked about,” the president claimed, leaving the assertion unconfirmed.</p> <a href=\"https://www.theguardian.com/us-news/ng-interactive/2026/oct/24/jd-vance-trump-midterms-white-house\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/ng-interactive/2026/oct/24/jd-vance-trump-midterms-white-house",
+      "published": "Sat, 24 Oct 2026 09:00:28 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Virginia Dems cast doubt on prosecution of colleague after embracing criminal allegations against Trump",
+      "summary": "Virginia Democrats who called allegations and investigations into Trump justified now stress the presumption of innocence after one of their own faces federal charges.",
+      "link": "https://www.foxnews.com/politics/virginia-dems-cast-doubt-prosecution-colleague-embracing-criminal-allegations-trump",
+      "published": "Sat, 24 Oct 2026 05:00:15 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "This decade has been missing its big-impact midterm",
+      "summary": "Every other decade over the past hundred years has produced at least one midterm that made a big difference in Congress and in national politics more broadly.",
+      "link": "https://www.npr.org/2026/10/24/nx-s1-6014811/midterm-election-history-house-senate",
+      "published": "Sat, 24 Oct 2026 05:00:00 -0400",
+      "source": "NPR"
+    },
+    {
+      "title": "Donald Trump’s Approval Rating Quietly Shifts in America’s Cities",
+      "summary": "Trump remains unpopular in cities, but one expert tells Newsweek “an erosion of Democratic dominance” could affect close races.",
+      "link": "https://www.newsweek.com/donald-trump-approval-rating-shifts-america-cities-12613642",
+      "published": "Sat, 24 Oct 2026 05:00:00 -0400",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Bolsonaro Lead Over Lula Shrinks as Trump Stays on Brazil Election Sideline",
+      "summary": "Trump has stayed out of Brazil’s runoff as Bolsonaro’s lead over Lula shrinks, a silence experts say is helping his ally.",
+      "link": "https://www.newsweek.com/bolsonaro-lead-over-lula-shrinks-as-trump-stays-on-brazil-election-sideline-12613289",
+      "published": "Sat, 24 Oct 2026 05:00:00 -0400",
+      "source": "Newsweek"
+    },
+    {
+      "title": "The Kentucky Canary in the Coal Mine for Republicans",
+      "summary": "Early returns from the Central Kentucky district could indicate what kind of election night the GOP is going to have.",
+      "link": "https://www.newsweek.com/the-kentucky-canary-in-the-coal-mine-for-republicans-12612629",
+      "published": "Sat, 24 Oct 2026 05:00:00 -0400",
+      "source": "Newsweek"
+    },
+    {
+      "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+      "summary": "Ukraine and Russia confirm the truce in Russian-occupied Oleshky, where residents have had to eat garden weeds to survive.",
+      "link": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 24 Oct 2026 07:17:44 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "FBI arrests Georgia man accused of throwing Molotov cocktail at Atlanta ICE facility",
+      "summary": "Inique Hinton faces up to 20 years after allegedly throwing a Molotov cocktail at the Atlanta ICE building in an act prosecutors called terrorism.",
+      "link": "https://www.foxnews.com/us/fbi-arrests-georgia-man-accused-throwing-molotov-cocktail-atlanta-ice-facility",
+      "published": "Sat, 24 Oct 2026 02:53:32 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Minneapolis withdrawal was 'surrender', Trump's ex-border patrol chief tells BBC",
+      "summary": "Greg Bovino was the public face of the controversial immigration enforcement operation in the city earlier this year.",
+      "link": "https://www.bbc.co.uk/news/articles/ck20rery78lro?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 24 Oct 2026 05:31:01 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "The rise of AI election ads in US midterms campaign",
+      "summary": "BBC Verify has tracked dozens of AI ads to assess how they are being used by campaigns in the midterms.",
+      "link": "https://www.bbc.co.uk/news/videos/cm62y59zw8zko?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 24 Oct 2026 05:03:44 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "As Trump’s time runs out, this could be his most dangerous legacy: a world divided into three | Steve Bloomfield",
+      "summary": "<p>We’ve heard much about the end of the west. At the proposed summit between Trump, Putin and Xi, those fears could crystallise</p><p>In the final two years of a US presidency, when Congress has been lost, approval ratings have sunk like a stone and their party has started to think about who’s coming next, the person occupying the Oval Office can feel their power draining away. Domestic legislation, particularly in an era where bipartisan cooperation is almost nonexistent, grinds to a halt. But as the days tick by until the end, and as presidents begin to think about their legacy, there is one part of the job where they still have power: the rest of the world.</p><p>In the final weeks of his presidency in 1992 George HW Bush sent 28,000 American troops to Somalia to help end a famine. For Bill Clinton, it was a quixotic attempt to bring peace to the Middle East by ending the Israeli-Palestinian conflict. Barack Obama restored diplomatic ties with Cuba, making a historic visit to Havana, as well as a final, successful push on the Iran nuclear deal.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/oct/24/donald-trump-world-three-summit-vladimir-putin-xi-jinping\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/commentisfree/2026/oct/24/donald-trump-world-three-summit-vladimir-putin-xi-jinping",
+      "published": "Sat, 24 Oct 2026 05:00:24 GMT",
+      "source": "The Guardian"
+    },
     {
       "title": "Brewers survive chaotic ninth-inning replay drama to beat Rays in World Series opener",
       "summary": "<ul><li><p>Brewers claim 3-2 victory in Game 1 of World Series</p></li><li><p>Yelich triples home a run and scores in first inning</p></li><li><p>Misiorowski and Megill hold off late Rays fightback</p></li></ul><p>Trevor Megill struck out Jonny DeLuca with runners on second and third to escape a ninth-inning jam as the Milwaukee Brewers held on for a 3-2 victory over the Tampa Bay Rays in Game 1 of the World Series on Friday night.</p><p>DeLuca’s strikeout came after Tampa Bay’s Liam Hicks had grounded into an apparent game-ending double play that was overturned after a video review. Replays showed that Brewers shortstop Cooper Pratt’s right foot was slightly off the bag when he reached to catch a high throw from second baseman Brice Turang.</p> <a href=\"https://www.theguardian.com/sport/2026/oct/23/brewers-rays-world-series-game-one-christian-yelich\">Continue reading...</a>",
@@ -107,20 +227,6 @@
       "source": "CBS News"
     },
     {
-      "title": "Ramaswamy accuses Acton of ‘lying’ about attack ad, but court records contradict mother’s claim – as it happened",
-      "summary": "<p>This live blog is now closed.</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email</a></p></li></ul><p>With less than two weeks until the midterms, my colleague <strong>Jonathan Freedland</strong> and Guardian US columnist<strong> Moira Donegan are answering your questions in this week’s episode of Politics Weekly America.</strong></p><p>They break down the final stretch ahead of these hugely consequential elections, that will decide control of Congress in Donald Trump’s final two years of office.</p> <a href=\"https://www.theguardian.com/us-news/live/2026/oct/23/trump-florida-midterms-ramaswamy-latest-updates\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/live/2026/oct/23/trump-florida-midterms-ramaswamy-latest-updates",
-      "published": "Sat, 24 Oct 2026 02:01:54 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "California officials ordered by DoJ to set aside ‘likely’ noncitizen ballots",
-      "summary": "<p>Letters from federal prosecutors represent latest escalation as Trump continues to make claims of voter fraud</p><p>Federal prosecutors sent letters to county registrars across California on Friday demanding that local officials set aside and verify ballots that the Department of Justice said may belong to noncitizens, according to the Los Angeles county registrar and a letter obtained by the Associated Press.</p><p>The letters are the latest escalation in a legal battle between California and Donald Trump’s Department of Justice, which has recently focused on the state in its efforts to root out noncitizen voting ahead of the midterm elections.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/23/california-ballots-trump\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/oct/23/california-ballots-trump",
-      "published": "Sat, 24 Oct 2026 02:00:13 GMT",
-      "source": "The Guardian"
-    },
-    {
       "title": "Peltola calls Alaska lawsuit a 'desperate attempt' for GOP to 'cling to power'",
       "summary": "Alaska Senate candidate Mary Peltola (D) responded to the Justice Department's (DOJ) lawsuit seeking to block her state from certifying its election results should her Republican challenger lose, saying Friday the move was \"frivolous.\" “This is clearly corruption. This is clearly a very desperate attempt to cling to power, using his allies in Washington, D.C....",
       "link": "https://thehill.com/blogs/ballot-box/6169725-peltola-slams-alaska-doj-lawsuit-sullivan/",
@@ -128,53 +234,11 @@
       "source": "The Hill"
     },
     {
-      "title": "Vanessa Trump Reveals She's Cancer Free 6 Months After Diagnosis",
-      "summary": "“And it came back clear, so I am finally cancer free,” she said in an Instagram Story on Friday.",
-      "link": "https://www.newsweek.com/vanessa-trump-reveals-shes-cancer-free-6-months-after-diagnosis-12613866",
-      "published": "Fri, 23 Oct 2026 21:50:29 -0400",
-      "source": "Newsweek"
-    },
-    {
-      "title": "Michigan Senate rivals clash over Muslim Brotherhood allegations as Rogers doubles down on El-Sayed",
-      "summary": "The Michigan Senate race heated up on \"Special Report\" as Abdul El-Sayed and Mike Rogers clashed over war powers, Medicare-for-all and Muslim Brotherhood allegations.",
-      "link": "https://www.foxnews.com/media/michigan-senate-rivals-clash-muslim-brotherhood-allegations-rogers-doubles-down-el-sayed",
-      "published": "Fri, 23 Oct 2026 21:45:50 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "Trump's Potomac Golf Course Fight: Judge Orders Phone Records Preserved",
-      "summary": "A judge has ordered a Trump official to preserve his personal phone’s contents in the latest update in a golf course legal battle.",
-      "link": "https://www.newsweek.com/trumps-potomac-golf-course-fight-judge-orders-phone-records-preserved-12612063",
-      "published": "Fri, 23 Oct 2026 21:40:09 -0400",
-      "source": "Newsweek"
-    },
-    {
-      "title": "Fever Make Stephanie White Decision Amid Major Front Office Shakeup",
-      "summary": "The Indiana Fever make a final decision on Stephanie White after another disappointing playoff exit and front-office shakeup.",
-      "link": "https://www.newsweek.com/sports/fever-make-stephanie-white-decision-amid-major-front-office-shakeup-12613829",
-      "published": "Fri, 23 Oct 2026 21:30:51 -0400",
-      "source": "Newsweek"
-    },
-    {
       "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
       "summary": "From 30 October, tariffs will be eased on some products, including certain machinery, and placed on others, such as carpets.",
       "link": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
       "published": "Sat, 24 Oct 2026 00:36:47 GMT",
       "source": "BBC News"
-    },
-    {
-      "title": "McMahon plans to 'fire' herself from a job, striving to show Congress that the Department of Ed is not needed",
-      "summary": "Linda McMahon is shifting Department of Education functions to the departments of Labor and Treasury through interagency agreements as proof of concept.",
-      "link": "https://www.foxnews.com/media/mcmahon-plans-fire-herself-out-job-striving-show-congress-dept-ed-not-needed",
-      "published": "Fri, 23 Oct 2026 20:09:15 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "Vanessa Trump 'finally cancer-free,' she says after health battle in emotional video with daughter Kai",
-      "summary": "Months after revealing her breast cancer diagnosis in April, Vanessa Trump announces she is cancer-free in an emotional video with daughter Kai Trump.",
-      "link": "https://www.foxnews.com/lifestyle/vanessa-trump-finally-cancer-free-after-health-battle-emotional-video-daughter-kai",
-      "published": "Fri, 23 Oct 2026 19:54:55 -0400",
-      "source": "Fox News"
     },
     {
       "title": "Hero dad who stopped Oregon school shooter shares his story",
@@ -191,46 +255,18 @@
       "source": "CBS News"
     },
     {
-      "title": "Rubio urges Cubans to work with CIA to bring political change to communist-run island",
-      "summary": "Secretary of State Marco Rubio urged Cubans to form a \"discrete partnership with the CIA\" as Trump floated sending him to Cuba to cut a deal.",
-      "link": "https://www.foxnews.com/world/rubio-urges-cubans-work-cia-bring-political-change-communist-run-island",
-      "published": "Fri, 23 Oct 2026 19:43:20 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "Kennedy rolls out US-caught seafood labeling, Seafood.gov",
-      "summary": "The Trump administration unveiled new initiatives for U.S. fishermen Friday, including a new government website known as Seafood.gov. At a rally in Fort Myers, Fla., Health and Human Services (HHS) Secretary Robert F. Kennedy Jr. announced the creation of a voluntary label made for U.S.-caught fish, which the Food and Drug Administration (FDA) began offering...",
-      "link": "https://thehill.com/homenews/administration/6169656-trump-rfk-unveil-us-seafood-label/",
-      "published": "Fri, 23 Oct 2026 23:40:48 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Fever Front Office Undergoes Massive Shakeup After Early Playoff Exit",
-      "summary": "A major component of the Indiana Fever's core will no longer be with the franchise as it moves forward.",
-      "link": "https://www.newsweek.com/sports/fever-front-office-undergoes-massive-shakeup-after-early-playoff-exit-12613760",
-      "published": "Fri, 23 Oct 2026 19:02:56 -0400",
-      "source": "Newsweek"
-    },
-    {
-      "title": "About half concerned Republicans could try to overturn midterm results: Survey",
-      "summary": "A new poll released Friday suggests half of Americans are concerned Republicans may try to overturn the results of November’s midterm election. Fifty percent of respondents to the New York Times/Siena University survey said they were either \"very\" or \"somewhat worried\" the GOP may use “illegal means” to overturn the election, compared to 49 percent...",
-      "link": "https://thehill.com/blogs/ballot-box/6169602-americans-fear-gop-overturning-election-poll/",
-      "published": "Fri, 23 Oct 2026 23:01:44 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Pressure mounts on Trump administration over Starlink slowdown",
-      "summary": "Welcome to The Hill's Defense & NatSec newsletter {beacon} Defense &National Security Defense &National Security   The Big Story  Pressure increases on Trump administration over Starlink slowdown Pressure is increasing on the Trump administration to restore and expand Ukraine’s access to Starshield satellite systems, as well as get to the bottom of who ordered the...",
-      "link": "https://thehill.com/newsletters/defense-national-security/6169593-pressure-mounts-on-trump-administration-over-starlink-slowdown/",
-      "published": "Fri, 23 Oct 2026 22:34:38 +0000",
-      "source": "The Hill"
-    },
-    {
       "title": "Investors piled a record sum into a leveraged semiconductor ETF last week. Things didn’t work out.",
       "summary": "Traders making bullish bets on chip stocks are getting walloped this month, as renewed fears emerged about investment returns on the buildout of artificial intelligence.",
       "link": "https://www.marketwatch.com/story/investors-piled-a-record-sum-into-a-leveraged-semiconductor-etf-last-week-things-didnt-work-out-4680b2f3?mod=mw_rss_topstories",
       "published": "Fri, 23 Oct 2026 21:46:00 GMT",
       "source": "MarketWatch"
+    },
+    {
+      "title": "Russia steps up election influence efforts in final stretch of midterms",
+      "summary": "Researchers who track online influence operations say Kremlin-backed groups are renewing tactics they've used to sow distrust and discord in previous elections in the U.S. and around the world.",
+      "link": "https://www.npr.org/2026/10/23/nx-s1-5995508/russia-midterms-election-influence",
+      "published": "Fri, 23 Oct 2026 17:40:02 -0400",
+      "source": "NPR"
     },
     {
       "title": "Trump dropping some Canada tariffs but 'replacing' them with other products",
@@ -310,13 +346,6 @@
       "source": "NPR"
     },
     {
-      "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
-      "summary": "Ukraine and Russia confirm the truce in Russian-occupied Oleshky, where residents have had to eat garden weeds to survive.",
-      "link": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 23 Oct 2026 19:30:19 GMT",
-      "source": "BBC News"
-    },
-    {
       "title": "Corruption is voters' top issue ahead of midterm election, CNBC survey shows",
       "summary": "Democrats have worked to contrast economic hardship with President Trump's surging net worth and his family's lucrative business dealings.",
       "link": "https://www.cnbc.com/2026/10/23/corruption-midterm-election-cnbc-poll-trump.html",
@@ -324,51 +353,14 @@
       "source": "CNBC"
     },
     {
-      "title": "Trump administration sues to block certification of upcoming Alaska election",
-      "summary": "The justice department has filed a lawsuit arguing that the inclusion of two candidates named Dan Sullivan could confuse voters.",
-      "link": "https://www.bbc.co.uk/news/articles/c678pv4krx37o?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 23 Oct 2026 18:49:14 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Bodycam clip released in fatal police shooting of Mississippi one-year-old",
-      "summary": "The family lawyer says an allegation of shoplifting \"does not warrant the death\" of a child.",
-      "link": "https://www.bbc.co.uk/news/articles/ck1wv9p0p9e3o?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 23 Oct 2026 18:45:47 GMT",
-      "source": "BBC News"
-    },
-    {
       "title": "Ohio could decide control of the Senate. Its rural voters might decide the winner",
       "summary": "Ohio has been a reliably red state for several elections but it's competitive this year. If Democrats want to prevail, they'll have to win people who have backed Republicans, like rural voters.",
       "link": "https://www.npr.org/2026/10/23/nx-s1-6012809/ohio-senate-governor-election-rural-voters",
       "published": "Fri, 23 Oct 2026 14:30:00 -0400",
       "source": "NPR"
-    },
-    {
-      "title": "A D.C. park was made 'for the pleasure of the people.' Trump's plan would change that",
-      "summary": "Trump's most recent rendering of East Potomac Park overtakes the D.C. peninsula with a sprawling golf course, without the grassy areas and road beloved by locals. That's prompted grassroots pushback.",
-      "link": "https://www.npr.org/2026/10/23/nx-s1-6010488/east-potomac-trump-golf-hains-point",
-      "published": "Fri, 23 Oct 2026 13:35:14 -0400",
-      "source": "NPR"
-    },
-    {
-      "title": "Ex-FBI employees charged with lying to Congress over Hunter Biden inquiries",
-      "summary": "Republicans have long accused the FBI of mishandling the laptop and the investigations into the younger Biden.",
-      "link": "https://www.npr.org/2026/10/23/g-s1-149534/justice-fbi-charged-hunter-biden-laptop",
-      "published": "Fri, 23 Oct 2026 11:51:04 -0400",
-      "source": "NPR"
     }
   ],
   "history": [
-    {
-      "date": "2026-10-12 13:47",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 72,
-      "incidents": 40,
-      "sp500": 7813.33,
-      "usd_czk": null
-    },
     {
       "date": "2026-10-12 13:56",
       "threat_level": "HIGH",
@@ -629,6 +621,15 @@
       "incidents": 5,
       "sp500": 7623.68,
       "usd_czk": 21.734
+    },
+    {
+      "date": "2026-10-24 10:03",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 72,
+      "incidents": 5,
+      "sp500": 7623.68,
+      "usd_czk": 21.734
     }
   ],
   "locations": [
@@ -640,32 +641,11 @@
       "name_en": "Washington, D.C."
     },
     {
-      "key": "New York",
-      "lat": 40.7128,
-      "lon": -74.006,
-      "name_cs": "New York",
-      "name_en": "New York"
-    },
-    {
-      "key": "Los Angeles",
-      "lat": 34.0522,
-      "lon": -118.2437,
-      "name_cs": "Los Angeles",
-      "name_en": "Los Angeles"
-    },
-    {
       "key": "Texas",
       "lat": 31.9686,
       "lon": -99.9018,
       "name_cs": "Texas",
       "name_en": "Texas"
-    },
-    {
-      "key": "Florida",
-      "lat": 27.6648,
-      "lon": -81.5158,
-      "name_cs": "Florida",
-      "name_en": "Florida"
     },
     {
       "key": "California",
@@ -675,6 +655,13 @@
       "name_en": "California"
     },
     {
+      "key": "Border",
+      "lat": 31.7619,
+      "lon": -106.485,
+      "name_cs": "Hranice s Mexikem (El Paso)",
+      "name_en": "US-Mexico Border (El Paso)"
+    },
+    {
       "key": "Ohio",
       "lat": 40.4173,
       "lon": -82.9071,
@@ -682,11 +669,11 @@
       "name_en": "Ohio"
     },
     {
-      "key": "Michigan",
-      "lat": 44.3148,
-      "lon": -85.6024,
-      "name_cs": "Michigan",
-      "name_en": "Michigan"
+      "key": "Georgia",
+      "lat": 32.1656,
+      "lon": -82.9001,
+      "name_cs": "Georgie (USA)",
+      "name_en": "Georgia (US)"
     },
     {
       "key": "Wisconsin",
@@ -694,6 +681,27 @@
       "lon": -88.7879,
       "name_cs": "Wisconsin",
       "name_en": "Wisconsin"
+    },
+    {
+      "key": "Minnesota",
+      "lat": 46.7296,
+      "lon": -94.6859,
+      "name_cs": "Minnesota",
+      "name_en": "Minnesota"
+    },
+    {
+      "key": "North Carolina",
+      "lat": 35.7596,
+      "lon": -79.0193,
+      "name_cs": "Severní Karolína",
+      "name_en": "North Carolina"
+    },
+    {
+      "key": "Virginia",
+      "lat": 37.4316,
+      "lon": -78.6569,
+      "name_cs": "Virginie",
+      "name_en": "Virginia"
     },
     {
       "key": "Maine",
@@ -732,6 +740,14 @@
       "auto": true
     },
     {
+      "key": "Brazil",
+      "lat": -14.2,
+      "lon": -51.9,
+      "name_cs": "Brazílie",
+      "name_en": "Brazil",
+      "auto": true
+    },
+    {
       "key": "Ukrain",
       "lat": 50.45,
       "lon": 30.52,
@@ -748,30 +764,54 @@
       "auto": true
     },
     {
+      "key": "Israel",
+      "lat": 31.5,
+      "lon": 34.8,
+      "name_cs": "Izrael",
+      "name_en": "Israel",
+      "auto": true
+    },
+    {
+      "key": "Iran",
+      "lat": 32.4,
+      "lon": 53.7,
+      "name_cs": "Írán",
+      "name_en": "Iran",
+      "auto": true
+    },
+    {
       "key": "France",
       "lat": 48.86,
       "lon": 2.35,
       "name_cs": "Paříž",
       "name_en": "France",
       "auto": true
+    },
+    {
+      "key": "Somalia",
+      "lat": 5.2,
+      "lon": 46.2,
+      "name_cs": "Somálsko",
+      "name_en": "Somalia",
+      "auto": true
     }
   ],
   "location_counts": {
     "Florida": 33,
-    "Texas": 54,
-    "Washington": 53,
+    "Texas": 55,
+    "Washington": 54,
     "New York": 47,
-    "California": 37,
+    "California": 38,
     "Capitol": 14,
-    "Border": 13,
+    "Border": 14,
     "Los Angeles": 8,
     "Wall Street": 45,
     "Illinois": 7,
     "Colorado": 10,
-    "Canada": 14,
+    "Canada": 15,
     "Brazílie": 1,
-    "Ukrajina": 3,
-    "Rusko": 1,
+    "Ukrajina": 2,
+    "Rusko": 2,
     "Írán": 2,
     "Čína": 1,
     "Tchaj-wan": 1,
@@ -787,18 +827,18 @@
     "Indie": 1,
     "Berlín": 1,
     "Michigan": 26,
-    "Georgia": 12,
-    "Maine": 15,
+    "Georgia": 13,
+    "Maine": 16,
     "Mexico": 10,
     "Singapur": 1,
     "Chicago": 11,
-    "Ohio": 25,
+    "Ohio": 26,
     "Arizona": 15,
-    "Minnesota": 14,
-    "Virginia": 8,
+    "Minnesota": 15,
+    "Virginia": 9,
     "Izrael": 1,
     "Austrálie": 1,
-    "Alaska": 9,
+    "Alaska": 10,
     "Jižní Korea": 1,
     "Severní Korea": 1,
     "New Jersey": 6,
@@ -806,16 +846,16 @@
     "Louisiana": 8,
     "Egypt": 1,
     "Pennsylvania": 13,
-    "North Carolina": 5,
+    "North Carolina": 6,
     "Brusel": 1,
-    "Wisconsin": 5,
+    "Wisconsin": 6,
     "Kuba": 1,
     "Somálsko": 1,
     "Tennessee": 1,
     "Nevada": 4,
     "Las Vegas": 1,
     "Řím": 1,
-    "Oregon": 11,
+    "Oregon": 12,
     "Oklahoma": 6,
     "Jihoafrická republika": 1,
     "Seattle": 1,
@@ -829,17 +869,9 @@
     "key": "Texas",
     "name_cs": "Texas",
     "name_en": "Texas",
-    "count": 54
+    "count": 55
   },
   "archive": [
-    {
-      "date": "2026-10-17 09:57",
-      "threat_level": "HIGH",
-      "security_status_cs": "Spojené státy čelí zvýšenému napětí v důsledku blížících se kongresových voleb, které ukazují na těsné souboje a finanční mobilizaci obou stran. Trhy mezitím vstřebávají inflační tlaky a výprodeje v technologickém sektoru, zatímco bezpečnostní složky řeší incidenty s podezřelými zásilkami a přírodní katastrofy v podobě lesních požárů v Kalifornii.",
-      "security_status_en": "The United States is facing heightened tension ahead of upcoming congressional elections, which point to tight races and heavy political fundraising. Meanwhile, markets are absorbing inflation pressures and tech sector sell-offs, while security forces respond to suspicious package incidents and natural disasters like the California wildfires.",
-      "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající nervozitu na technologických burzách a intenzivní kampaň před blížícími se volbami do Kongresu.",
-      "forecast_en": "In the coming days, persistent nervousness on tech exchanges and intense campaigning ahead of the congressional elections are expected."
-    },
     {
       "date": "2026-10-18 04:59",
       "threat_level": "HIGH",
@@ -943,6 +975,14 @@
       "security_status_en": "The United States is facing high tension ahead of upcoming midterm elections, with administration-directed legal actions regarding ballots and corruption concerns dominating the public sphere. Consumer and voter sentiment on the economy hits lows despite ongoing tariff debates, while the tech and semiconductor sectors experience volatility over AI return-on-investment fears.",
       "forecast_cs": "V nejbližších dnech lze očekávat zvýšenou nervozitu na trzích a pokračující politické spory spojené s blížícími se volbami do Kongresu a právními kroky ohledně volebních procesů.",
       "forecast_en": "Over the coming days, heightened market nervousness and ongoing political disputes tied to the upcoming midterm elections and legal actions regarding voting processes are expected."
+    },
+    {
+      "date": "2026-10-24 10:03",
+      "threat_level": "HIGH",
+      "security_status_cs": "Spojené státy čelí vysokému napětí v důsledku blížících se voleb do Kongresu, prudkého nárůstu předčasného hlasování a rostoucích právních sporů ohledně volebních pravidel i žalob ministerstva spravedlnosti. Ekonomická nálada je pod tlakem kvůli rekordně nízké důvěře v hospodářskou politiku, přetrvávajícím cenám pohonných hmot a obavám z návratu celních opatření. Domácí bezpečnostní situaci komplikují incidenty související s radikalizací a vandalismem vůči federálním zařízením.",
+      "security_status_en": "The United States is facing elevated tension driven by the looming midterm elections, surging early voting numbers, and mounting legal disputes over voting procedures and DOJ lawsuits. Economic sentiment is under pressure due to record-low approval ratings on the economy, persistent fuel prices, and concerns over renewed tariff actions. Domestic security is further challenged by incidents of radicalization and vandalism targeting federal facilities.",
+      "forecast_cs": "V nejbližších dnech lze očekávat gradaci kampaně před volbami do Kongresu, zvýšenou volatilitu na trzích a pokračující právní spory ohledně volebních výsledků.",
+      "forecast_en": "Over the coming days, an escalation of the midterm campaign, heightened market volatility, and continued legal disputes over election results are expected."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
