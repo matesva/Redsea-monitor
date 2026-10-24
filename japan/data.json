@@ -1,79 +1,84 @@
 {
-  "last_updated": "2026-10-23T10:49:08Z",
+  "last_updated": "2026-10-24T05:01:07Z",
   "assessment": {
-    "threat_level": "STABLE",
-    "sentiment_score": 35,
-    "security_status_cs": "Japonská inflace poprvé v tomto roce překročila 2 %, což zvyšuje tlak na Bank of Japan ohledně možného zvýšení sazeb. Japonský jen mezitím posílil díky svému statusu bezpečného přístavu po globálním poklesu technologických akcií vyvolaném novým čínským modelem AI.",
-    "security_status_en": "Japanese inflation has broken 2% for the first time this year, increasing pressure on the Bank of Japan regarding potential rate hikes. Meanwhile, the Japanese yen strengthened due to its safe-haven status following a global tech stock dip triggered by a new Chinese AI model.",
+    "threat_level": "MEDIUM",
+    "sentiment_score": 45,
+    "security_status_cs": "Japonsko čelí rostoucím fiskálním tlakům kvůli přehodnocování dotací na pohonné hmoty a demografické krizi, kterou odlehlá venkovská sídla řeší náborem zahraničních pracovníků z Peru. Na ekonomické scéně mezitím posiluje japonský jen jako bezpečné útočiště v reakci na globální výkyvy na technologických trzích vyvolané novinkami v oblasti umělé inteligence.",
+    "security_status_en": "Japan faces mounting fiscal pressures due to the review of gasoline subsidies and a demographic crisis, which remote villages are addressing by recruiting foreign workers from Peru. Meanwhile, the Japanese yen has strengthened as a safe haven in response to global technology market volatility driven by artificial intelligence developments.",
     "recommendations": [
       {
         "sector_cs": "Široký japonský akciový trh (Nikkei 225 ETF)",
         "sector_en": "Broad Japanese Equities (Nikkei 225 ETFs)",
         "action": "HOLD",
-        "reason_cs": "Trh čelí protichůdným vlivům rostoucí inflace a tlaku na zvyšování sazeb spolu s globální nervozitou v technologickém sektoru.",
-        "reason_en": "The market faces mixed pressures from rising inflation and rate-hike expectations alongside global tech sector nervousness."
+        "sentiment_score": 50,
+        "reason_cs": "Trh je podpořen poptávkou po bezpečných aktivech, ale globální technologické korekce a rostoucí náklady na vládní subvence omezují prudší růst.",
+        "reason_en": "The market is supported by safe-haven demand, but global tech corrections and rising government subsidy costs cap sharper gains."
       },
       {
         "sector_cs": "Automobilový průmysl (Toyota, Honda)",
         "sector_en": "Automotive Industry (Toyota, Honda)",
         "action": "HOLD",
-        "reason_cs": "Posilující jen snižuje konkurenceschopnost exportérů, což vyvažuje jinak stabilní poptávku.",
-        "reason_en": "A strengthening yen weighs on exporters' competitiveness, offsetting otherwise stable demand."
+        "sentiment__score": 48,
+        "reason_cs": "Posilující jen a rostoucí domácí náklady na energie mírně snižují exportní marže, zatímco poptávka zůstává stabilní.",
+        "reason_en": "A stronger yen and rising domestic energy costs slightly weigh on export margins, while overall demand remains stable."
       },
       {
         "sector_cs": "Technologie (Sony, SoftBank)",
         "sector_en": "Technology (Sony, SoftBank)",
         "action": "SELL",
-        "reason_cs": "Globální tlak na technologické akcie po zprávách o novém AI modelu vyvolává výprodeje i v tomto sektoru.",
-        "reason_en": "Global pressure on tech stocks following news of a new AI model is triggering sell-offs in this sector as well."
+        "sentiment_score": 40,
+        "reason_cs": "Globální propady v technologickém sektoru po zprávách o nových modelech umělé inteligence negativně doléhají na sentiment vůči japonským technologickým firmám.",
+        "reason_en": "Global tech sector drops following news of new AI models are weighing negatively on sentiment toward Japanese tech firms."
       },
       {
         "sector_cs": "Průmyslová robotika (Fanuc, Mitsubishi Electric)",
         "sector_en": "Industrial Robotics (Fanuc, Mitsubishi Electric)",
-        "action": "HOLD",
-        "reason_cs": "Sektor zůstává stabilní, ale silnější měna může mírně přibrzdit zahraniční marže.",
-        "reason_en": "The sector remains stable, though a stronger currency may slightly weigh on overseas margins."
+        "action": "BUY",
+        "sentiment__score": 60,
+        "reason_cs": "Dlouhodobý nedostatek pracovních sil v Japonsku i ve světě udržuje silnou strukturální poptávku po automatizaci a robotických řešeních.",
+        "reason_en": "Long-term labor shortages in Japan and globally maintain robust structural demand for automation and robotic solutions."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Makroekonomický vývoj v Japonsku má na české blue chips jen minimální a zanedbatelný vliv.",
-        "reason_en": "Macroeconomic developments in Japan have minimal and negligible impact on these Czech blue chips."
+        "sentiment_score": 50,
+        "reason_cs": "Dění v Japonsku má na české banky a energetiku jen velmi zprostředkovaný a zanedbatelný vliv, hlavní roli hrají lokální fundamenty a unijní politika.",
+        "reason_en": "Developments in Japan have a very indirect and negligible impact on Czech banks and energy, with local fundamentals and EU policy driving prices."
       }
     ],
-    "forecast_cs": "Očekává se, že Bank of Japan bude pod drobnohledem investorů kvůli inflačním tlakům, zatímco jen může krátkodobě profitovat z globální averze k riziku.",
-    "forecast_en": "The Bank of Japan is expected to remain under investor scrutiny due to inflation pressures, while the yen may benefit short-term from global risk aversion.",
-    "forecast_review_cs": "Předchozí předpověď se potvrdila, jelikož japonský jen skutečně posílil díky statusu bezpečného přístavu a technologické akcie čelily globálnímu tlaku.",
-    "forecast_review_en": "The previous forecast was confirmed as the Japanese yen indeed strengthened due to its safe-haven status and tech stocks faced global pressure."
+    "forecast_cs": "Očekává se, že kurz jenu zůstane silný díky globální nervozitě na trzích, zatímco investoři budou nadále sledovat kroky vlády ohledně fiskálních výdajů a dotací.",
+    "forecast_en": "The yen is expected to remain firm amid global market nervousness, while investors will continue monitoring government moves regarding fiscal spending and subsidies.",
+    "forecast_review_cs": "Předchozí předpověď o pozornosti vůči Bank of Japan a posilování jenu vlivem globální averze k riziku se díky dnešním zprávám zcela potvrdila.",
+    "forecast_review_en": "The previous forecast regarding scrutiny on the Bank of Japan and the yen benefiting from global risk aversion was fully confirmed by today's news."
   },
   "articles": [
     {
-      "title": "Japanese inflation breaks 2% for the first time this year",
-      "summary": "The September reading puts pressure on the Bank of Japan to raise rates by the end of the year.",
-      "link": "https://www.japantimes.co.jp/business/2026/10/23/economy/cpi-september-inflation/",
-      "published": "Fri, 23 Oct 2026 16:21:00 +0900",
+      "title": "Aging Japanese village turns to Peru in search of new residents",
+      "summary": "Village officials in Nanmoku, Gunma Prefecture, are hoping a sister-city agreement will help attract young people from Peru.",
+      "link": "https://www.japantimes.co.jp/news/2026/10/24/japan/society/aging-village-japan-peru/",
+      "published": "Sat, 24 Oct 2026 11:24:00 +0900",
       "source": "Japan Times"
     },
     {
-      "title": "Japan weighs how to evacuate thousands of tourists if Mount Fuji erupts",
-      "summary": "Japan's highest peak is often overlooked as being an active volcano. But with the risk of eruption ever-present, disaster preparedness is key.",
-      "link": "https://www.japantimes.co.jp/news/2026/10/23/japan/mount-fuji-eruption-foreign-tourists/",
-      "published": "Fri, 23 Oct 2026 16:08:00 +0900",
+      "title": "Two Japanese climbers die on remote Himalayan peak in Nepal",
+      "summary": "The climbers were attempting the first summit of the 7,140-meter Gangapurna West in alpine style, but lost contact after Oct. 15.",
+      "link": "https://www.japantimes.co.jp/news/2026/10/24/japan/nepal-japan-climbers-dead/",
+      "published": "Sat, 24 Oct 2026 10:06:00 +0900",
       "source": "Japan Times"
     },
     {
-      "title": "Japanese novelist Ryu Murakami dies at 74",
-      "summary": "Murakami's works, which explored sex, violence, and youth culture, were translated globally.",
-      "link": "https://www.japantimes.co.jp/culture/2026/10/23/books/novelist-ryu-murakami-obituary/",
-      "published": "Fri, 23 Oct 2026 15:25:00 +0900",
+      "title": "Government to review gasoline subsidies as costs mount",
+      "summary": "Japan is providing subsidies to oil wholesalers to curb the average retail price of regular gasoline in the nation at about ¥170 per liter.",
+      "link": "https://www.japantimes.co.jp/news/2026/10/24/japan/gas-subsidies-review/",
+      "published": "Sat, 24 Oct 2026 10:06:00 +0900",
       "source": "Japan Times"
     },
     {
-      "title": "Shigeru Miyamoto named first video game-related recipient of Japan’s Order of Culture",
-      "summary": "The legendary Nintendo figure will be officially conferred with the award in a Nov. 3 ceremony.",
-      "link": "https://www.japantimes.co.jp/life/2026/10/23/digital/order-of-culture-miyamoto/",
-      "published": "Fri, 23 Oct 2026 15:11:00 +0900",
+      "title": "Japan to simulate cyberattacks as PHP flaws roil global internet",
+      "summary": "Websites across the world went offline this week after the disclosure of critical vulnerabilities in the widely used programming language.",
+      "link": "https://www.japantimes.co.jp/news/2026/10/24/japan/japan-cyberattack-simulation/",
+      "published": "Sat, 24 Oct 2026 10:05:00 +0900",
       "source": "Japan Times"
     },
     {
@@ -92,15 +97,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-12 13:36",
-      "threat_level": "MEDIUM",
-      "value": 2,
-      "sentiment_score": 45,
-      "incidents": 5,
-      "nikkei": 69030.92,
-      "usd_czk": null
-    },
     {
       "date": "2026-10-12 13:48",
       "threat_level": "MEDIUM",
@@ -361,6 +357,15 @@
       "incidents": 6,
       "nikkei": 62693.16,
       "usd_czk": null
+    },
+    {
+      "date": "2026-10-24 05:01",
+      "threat_level": "MEDIUM",
+      "value": 2,
+      "sentiment_score": 45,
+      "incidents": 6,
+      "nikkei": 62693.16,
+      "usd_czk": null
     }
   ],
   "locations": [
@@ -378,10 +383,18 @@
       "name_cs": "Čína",
       "name_en": "China",
       "auto": true
+    },
+    {
+      "key": "Peru",
+      "lat": -9.2,
+      "lon": -75.0,
+      "name_cs": "Peru",
+      "name_en": "Peru",
+      "auto": true
     }
   ],
   "location_counts": {
-    "Tokyo": 63,
+    "Tokyo": 64,
     "Okinawa": 26,
     "Nagoya": 11,
     "Hokkaido": 10,
@@ -402,23 +415,16 @@
     "Rusko": 1,
     "Egypt": 1,
     "Turecko": 1,
-    "New York": 1
+    "New York": 1,
+    "Peru": 1
   },
   "top_location": {
     "key": "Tokyo",
     "name_cs": "Tokio",
     "name_en": "Tokyo",
-    "count": 63
+    "count": 64
   },
   "archive": [
-    {
-      "date": "2026-10-17 05:00",
-      "threat_level": "MEDIUM",
-      "security_status_cs": "Japonsko čelí rostoucím kybernetickým hrozbám a datovým únikům, které dopadají na velké korporace. Zatímco globální technologická volatilita vyvolaná novými modely umělé inteligence posílila bezpečný jenu, diplomatická aktivita v Tokiu zahrnuje i citlivá jednání týkající se Myanmaru a zadrženého novináře v Rusku.",
-      "security_status_en": "Japan faces mounting cyber threats and data breaches impacting major corporations. While global tech volatility triggered by new AI models boosted the safe-haven yen, diplomatic activity in Tokyo includes sensitive talks regarding Myanmar and a detained journalist in Russia.",
-      "forecast_cs": "Japonský jen pravděpodobně zůstane silný kvůli pokračující nervozitě na globálních trzích s technologiemi. Domácí akcie budou pod drobnohledem kvůli dopadům silnější měny na exportéry.",
-      "forecast_en": "The Japanese yen will likely remain strong due to ongoing nervousness in global tech markets. Domestic equities will remain under close scrutiny regarding the stronger currency's impact on exporters."
-    },
     {
       "date": "2026-10-17 09:58",
       "threat_level": "MEDIUM",
@@ -522,6 +528,14 @@
       "security_status_en": "Japanese inflation has broken 2% for the first time this year, increasing pressure on the Bank of Japan regarding potential rate hikes. Meanwhile, the Japanese yen strengthened due to its safe-haven status following a global tech stock dip triggered by a new Chinese AI model.",
       "forecast_cs": "Očekává se, že Bank of Japan bude pod drobnohledem investorů kvůli inflačním tlakům, zatímco jen může krátkodobě profitovat z globální averze k riziku.",
       "forecast_en": "The Bank of Japan is expected to remain under investor scrutiny due to inflation pressures, while the yen may benefit short-term from global risk aversion."
+    },
+    {
+      "date": "2026-10-24 05:01",
+      "threat_level": "MEDIUM",
+      "security_status_cs": "Japonsko čelí rostoucím fiskálním tlakům kvůli přehodnocování dotací na pohonné hmoty a demografické krizi, kterou odlehlá venkovská sídla řeší náborem zahraničních pracovníků z Peru. Na ekonomické scéně mezitím posiluje japonský jen jako bezpečné útočiště v reakci na globální výkyvy na technologických trzích vyvolané novinkami v oblasti umělé inteligence.",
+      "security_status_en": "Japan faces mounting fiscal pressures due to the review of gasoline subsidies and a demographic crisis, which remote villages are addressing by recruiting foreign workers from Peru. Meanwhile, the Japanese yen has strengthened as a safe haven in response to global technology market volatility driven by artificial intelligence developments.",
+      "forecast_cs": "Očekává se, že kurz jenu zůstane silný díky globální nervozitě na trzích, zatímco investoři budou nadále sledovat kroky vlády ohledně fiskálních výdajů a dotací.",
+      "forecast_en": "The yen is expected to remain firm amid global market nervousness, while investors will continue monitoring government moves regarding fiscal spending and subsidies."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 4× MEDIUM, 3× STABLE.",
@@ -534,7 +548,7 @@
     },
     "topix": null,
     "usdjpy": {
-      "value": 156.76,
+      "value": 156.81,
       "date": "2026-10-23",
       "cached": false
     }
