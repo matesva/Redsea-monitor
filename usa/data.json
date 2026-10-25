@@ -1,21 +1,41 @@
 {
-  "last_updated": "2026-10-25T06:00:01Z",
+  "last_updated": "2026-10-25T10:29:30Z",
   "assessment": {
     "threat_level": "HIGH",
     "sentiment_score": 72,
-    "security_status_cs": "Spojené státy čelí zvýšenému napětí v závěru kampaně před volbami do Kongresu, rostoucí obavám z íránských útoků na americké cíle a sporům ohledně volebních pravidel a certifikací. Makroekonomické prostředí zatěžují dopady cel na dodavatelské řetězce, vysoké ceny pohonných hmot a debaty o výstavbě datových center AI.",
-    "security_status_en": "The United States is facing heightened tensions in the final stretch of the midterm congressional campaign, rising concerns over Iranian threats against American targets, and disputes regarding voting rules and certifications. The macroeconomic environment is burdened by the impacts of tariffs on supply chains, high fuel prices, and debates over AI data center construction.",
+    "security_status_cs": "Spojené státy čelí vysokému napětí v závěru kampaně před středečními volbami do Kongresu, přičemž administrativu zaměstnávají právní spory ohledně volebních seznamů a bezpečnostní varování před íránskými hrozbami. Pentagon mezitím zavádí přísná nouzová opatření pro případ globálního konfliktu a domácí scénu rozptylují incidenty jako střelba u univerzity virem násilí na Floridě.",
+    "security_status_en": "The United States is facing high tension in the final stretch of the congressional midterm campaigns, with the administration dealing with legal disputes over voter rolls and security warnings regarding Iranian threats. Meanwhile, the Pentagon is implementing strict emergency protocols for potential global conflicts, while domestic security is challenged by incidents like a shooting near a Florida university.",
     "president_comments": [
       {
-        "topic_cs": "Cla a obchody",
-        "topic_en": "Tariffs and Trade",
-        "statement_cs": "Prezident Trump pokračuje v úpravách celní politiky, kdy odstraňuje některá kanadská cla a nahrazuje je jinými produkty.",
-        "statement_en": "President Trump continues to adjust tariff policies, dropping certain Canadian tariffs and replacing them with others.",
-        "comment_cs": "Tento krok vyvolává nejistotu v mezinárodním obchodu a přispívá k inflačním tlakům v některých odvětvích, což negativně doléhá na trhy.",
-        "comment_en": "This move creates uncertainty in international trade and contributes to inflationary pressures in certain sectors, impacting markets negatively.",
+        "topic_cs": "Cla a obchodní politika",
+        "topic_en": "Tariffs and trade policy",
+        "statement_cs": "Bílý dům oznámil, že zrušená cla na kanadské produkty budou nahrazena jinými položkami na seznamu.",
+        "statement_en": "The White House announced that removed Canadian tariffs are being replaced with other products on the list.",
+        "comment_cs": "Pokračující využívání protekcionistických opatření udržuje tlak na dodavatelské řetězce a vyvolává nejistotu na trzích.",
+        "comment_en": "Continued reliance on protectionist measures maintains pressure on supply chains and creates uncertainty in the markets.",
         "market_impact": "NEGATIVE",
         "source": "CNBC",
-        "date": "2026-10-25T06:00:01Z"
+        "date": "2026-10-25T10:29:29Z"
+      },
+      {
+        "topic_cs": "Volební spory a Alaska",
+        "topic_en": "Election disputes and Alaska",
+        "statement_cs": "Ministerstvo spravedlnosti podniká preventivní kroky s cílem zablokovat certifikaci senátních voleb na Aljašce.",
+        "statement_en": "The Justice Department is taking preemptive steps to block the certification of the Senate election in Alaska.",
+        "comment_en": "This legal activity by the DOJ increases political tension and polarization over the integrity of the electoral process.",
+        "market_impact": "NEUTRAL",
+        "source": "The Hill",
+        "date": "2026-10-25T10:29:29Z"
+      },
+      {
+        "topic_cs": "Kontrola registrace voličů v Kalifornii",
+        "topic_en": "Voter registration oversight in California",
+        "statement_cs": "Federální prokurátoři vyzvali kalifornské úřady k prověření a oddělení potenciálních hlasů neobčanů.",
+        "statement_en": "Federal prosecutors demanded that California county registrars set aside and verify potential noncitizen ballots.",
+        "comment_en": "The confrontation between the federal government and California officials deepens concerns over domestic political stability.",
+        "market_impact": "NEUTRAL",
+        "source": "CBS News",
+        "date": "2026-10-25T10:29:29Z"
       }
     ],
     "recommendations": [
@@ -23,57 +43,162 @@
         "sector_cs": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
         "sector_en": "US Broad Equity Market (S&P 500 ETFs, e.g. VOO, SPY)",
         "action": "HOLD",
-        "reason_cs": "Trhy čelí nejistotě spojené s blížícími se volbami do Kongresu, mezinárodními konflikty a celní politikou.",
-        "reason_en": "Markets face uncertainty related to upcoming congressional midterms, international conflicts, and tariff policies."
+        "reason_cs": "Trhy vyčkávají na výsledky nadcházejících voleb do Kongresu a rozhodnutí Federálního rezervního systému.",
+        "reason_en": "Markets are awaiting the outcome of upcoming congressional elections and Federal Reserve decisions."
       },
       {
         "sector_cs": "Státní dluhopisy USA (Treasuries)",
         "sector_en": "US Treasuries",
         "action": "BUY",
-        "reason_cs": "Zvýšené geopolitické napětí a rizika v bezpečnosti a ekonomice zvyšují poptávku po bezpečných přístavech.",
-        "reason_en": "Heightened geopolitical tensions and economic risks increase the demand for safe-haven assets."
+        "reason_cs": "Rostoucí geopolitické napětí a bezpečnostní hrozby zvyšují poptávku investorů po bezpečných aktivech.",
+        "reason_en": "Rising geopolitical tensions and security threats are increasing investor demand for safe-haven assets."
       },
       {
         "sector_cs": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
         "sector_en": "Defense Industry (RTX, Lockheed Martin, Northrop Grumman)",
         "action": "BUY",
-        "reason_cs": "Globální bezpečnostní hrozby včetně zvýšených varování před útoky Íránu podporují poptávku po obranných technologiích.",
-        "reason_en": "Global security threats, including heightened warnings of Iranian attacks, support demand for defense technologies."
+        "reason_cs": "Pentagonem zaváděná opatření a zvýšená globální bezpečnostní rizika podporují dlouhodobý růst sektoru.",
+        "reason_en": "Pentagon readiness initiatives and heightened global security risks support long-term sector growth."
       },
       {
         "sector_cs": "Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)",
         "sector_en": "Banks & Financials (JPMorgan, Bank of America, Goldman Sachs)",
         "action": "HOLD",
-        "reason_cs": "Finanční sektor se potýká s regulatorními spory a nejistotou ohledně budoucího směru úrokových sazeb Fedu.",
-        "reason_en": "The financial sector deals with regulatory disputes and uncertainty regarding the future path of Fed interest rates."
+        "reason_cs": "Finanční instituce čelí regulatorní nejistotě a kolísání úrokových sazeb v citlivém volebním období.",
+        "reason_en": "Financial institutions face regulatory uncertainty and interest rate fluctuations during a sensitive election period."
       },
       {
         "sector_cs": "Technologický sektor (Apple, Microsoft, Nvidia)",
         "sector_en": "Technology Sector (Apple, Microsoft, Nvidia)",
         "action": "HOLD",
-        "reason_cs": "Sektor čelí rostoucímu politickému tlaku kvůli výstavbě AI datových center a debatám o regulaci.",
-        "reason_en": "The sector faces mounting political pressure over AI data center construction and regulatory debates."
+        "reason_cs": "Investoři vyčkávají na vývoj kolem masivního rozvoje umělé inteligence a s tím spojené lokální politické opozice.",
+        "reason_en": "Investors are monitoring developments in massive AI expansion alongside local political opposition."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "České tituly reagují na globální sentiment a vývoj v regionu střední Evropy, přičemž americké vlivy se přenášejí skrze náladu na světových trzích.",
-        "reason_en": "Czech stocks react to global sentiment and Central European developments, with US influences transmitting via global market moods."
+        "reason_cs": "Domácí tituly zůstávají stabilní, ovlivněny primárně evropským makroekonomickým prostředím a energetickou situací.",
+        "reason_en": "Domestic stocks remain stable, influenced primarily by the European macroeconomic environment and energy situation."
       }
     ],
-    "forecast_cs": "V následujících dnech lze očekávat vyvrcholení kampaně před volbami do Kongresu, pokračující napětí kolem bezpečnostních hrozeb a zvýšenou volatilitu na trzích.",
-    "forecast_en": "Over the coming days, an escalation of the congressional midterm campaign, continued tension surrounding security threats, and elevated market volatility are expected.",
-    "forecast_review_cs": "Předchozí předpověď o eskalaci kampaně, volatilitě a právních sporech se plně potvrdila.",
-    "forecast_review_en": "The previous forecast regarding campaign escalation, volatility, and legal disputes was fully confirmed."
+    "forecast_cs": "V nejbližších dnech se očekává maximální mobilizace voličů před kongresovými volbami a pokračující nervozita na trzích ohledně politického směřování země.",
+    "forecast_en": "Over the coming days, maximum voter mobilization ahead of the congressional elections and ongoing market anxiety regarding the nation's political direction are expected.",
+    "forecast_review_cs": "Předchozí předpověď se plně potvrdila, jelikož kampaň dosáhla svého vrcholu a bezpečnostní i tržní volatilita zůstává zvýšená.",
+    "forecast_review_en": "The previous forecast was fully confirmed as the campaign reached its peak and security and market volatility remain elevated."
   },
   "articles": [
     {
-      "title": "At least 12 injured, including 6 children, in Tallahassee shooting",
+      "title": "At least 12 injured, including 6 children, in shooting near Florida A&M",
       "summary": "Police say a fight broke out prior to the shooting.",
       "link": "https://www.cbsnews.com/news/tallahassee-florida-shooting-a-m-university/",
-      "published": "Sun, 25 Oct 2026 01:16:43 -0400",
+      "published": "Sun, 25 Oct 2026 06:21:28 -0400",
       "source": "CBS News"
+    },
+    {
+      "title": "Inside the Pentagon's doomsday plan to keep America fighting if global war erupts",
+      "summary": "The Pentagon's FORTRESS initiative requires every major U.S. military base to sustain operations for 90 days without civilian power or supply chains.",
+      "link": "https://www.foxnews.com/politics/inside-pentagons-doomsday-plan-keep-america-fighting-global-war-erupts",
+      "published": "Sun, 25 Oct 2026 06:00:45 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "New Pentagon UFO files detail FBI agents' sighting of silent triangular object with no visible engines",
+      "summary": "FBI agents described a silent black triangular UAP hovering before accelerating at fighter-jet speeds in newly released Department of War documents.",
+      "link": "https://www.foxnews.com/us/pentagon-ufo-files-detail-fbi-agents-sighting-silent-triangular-object-no-visible-engines",
+      "published": "Sun, 25 Oct 2026 06:00:43 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Former Israeli army chief Gadi Eisenkot emerges as Netanyahu’s leading election challenger",
+      "summary": "A decorated former Israeli army chief has emerged as a leading election challenger after serving in the war cabinet and suffering devastating personal losses following the Oct. 7 attacks.",
+      "link": "https://www.foxnews.com/world/former-israeli-army-chief-gadi-eisenkot-emerges-netanyahus-leading-election-challenger",
+      "published": "Sun, 25 Oct 2026 06:00:15 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "‘Talking to every single person matters’: ‘prairie populists’ canvass the rural US heartland to win in midterms",
+      "summary": "<p>Democratic and independent candidates stump the US midwest and prairie states, hoping to win over Republican strongholds</p><p>In this final stretch of the US midterm elections, <a href=\"https://www.theguardian.com/us-news/democrats\">Democrats</a> and independents could win back communities and towns across America’s rural heartlands through a combination of resurgent “prairie populism”, local despair over the impact of <a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a>’s agenda and an old-fashioned tenet of shoe-leather politics: showing up everywhere.</p><p>When Dan Osborn rolled into one of the most rural counties in <a href=\"https://www.theguardian.com/us-news/nebraska\">Nebraska</a> earlier this month, he started walking into businesses in the tiny main drag of Arthur, ready to meet whomever he could in the town of about 100.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/25/prairie-populists-midwest-prairie-states-midterm-elections\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/oct/25/prairie-populists-midwest-prairie-states-midterm-elections",
+      "published": "Sun, 25 Oct 2026 10:00:02 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "The next wave of Trump cases headed toward the Supreme Court",
+      "summary": "The Supreme Court is already confronting President Trump’s agenda this term, but a lot more is still coming. The administration is petitioning the justices to take up 13 additional cases, The Hill’s analysis of the court’s docket shows.   Unlike lower courts, the justices choose which cases they hear. They’re still taking up cases for...",
+      "link": "https://thehill.com/regulation/court-battles/6169487-supreme-court-trump-administration-petitions/",
+      "published": "Sun, 25 Oct 2026 10:00:00 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "US seized American heir’s cellphone in violation of treaty agreement, lawyer says",
+      "summary": "<p>James ‘Fergie’ Chambers, in prison in Spain, has applied for asylum as US seeks extradition over alleged Hamas support</p><p>US authorities seized wealthy activist James “Fergie” Chambers’s cellphone at some point after Spanish police arrested him <a href=\"https://www.theguardian.com/world/2026/jul/15/james-fergie-chambers-arrest-palestine-aid-trump\">in July</a> without notifying him or his attorneys, the Guardian has learned.</p><p>Chambers, a US citizen and wealthy donor to leftwing and humanitarian projects, is imprisoned in Madrid. His case is the first known instance of the US seeking to extradite a citizen over alleged support for Hamas, an accusation tied to money Chambers has donated to support Palestinians, including the <a href=\"https://thesameerproject.org/\">Sameer Project</a>, in Gaza.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/25/fbi-spain-james-fergie-chambers-cox\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/oct/25/fbi-spain-james-fergie-chambers-cox",
+      "published": "Sun, 25 Oct 2026 09:00:58 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Leavitt says Trump is defying midterm headwinds as he barnstorms country",
+      "summary": "Karoline Leavitt reveals Trump's blunt strategy to combat negative approval ratings and rally MAGA voters who typically skip midterm cycles.",
+      "link": "https://www.foxnews.com/politics/leavitt-says-trump-defying-midterm-headwinds-he-barnstorms-country",
+      "published": "Sun, 25 Oct 2026 05:00:14 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "In Arkansas, Democrats see an opening at the edge of the competitive midterms map",
+      "summary": "In a sign of the potentially dire midterm political environment, Republicans have spent millions of dollars playing defense in Arkansas, one of the most conservative states in the country.",
+      "link": "https://www.npr.org/2026/10/25/nx-s1-6009402/midterm-blue-wave-map-arkansas-democrats-cotton-shoffner-hill-jones",
+      "published": "Sun, 25 Oct 2026 05:00:00 -0400",
+      "source": "NPR"
+    },
+    {
+      "title": "Brazil Election: Trump Ally Bolsonaro vs. Lula Final Polls and Odds",
+      "summary": "Brazil’s pollsters missed Bolsonaro’s first-round lead. Their final runoff surveys show him and Lula in a statistical dead heat.",
+      "link": "https://www.newsweek.com/brazil-election-trump-ally-bolsonaro-vs-lula-final-polls-and-odds-12613505",
+      "published": "Sun, 25 Oct 2026 05:00:00 -0400",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Independent candidates sense a moment in the West. Democrats are hoping they're right",
+      "summary": "As they look to win the Senate, Democrats are hoping that independent candidates in Nebraska and Montana can help them topple Republicans in a part of the country where their own brand is hurting.",
+      "link": "https://www.npr.org/2026/10/25/nx-s1-5995460/midterms-independent-candidates-nebraska-montana",
+      "published": "Sun, 25 Oct 2026 05:00:00 -0400",
+      "source": "NPR"
+    },
+    {
+      "title": "Donald Trump’s Midwest Approval Rating Is a Warning Sign for GOP",
+      "summary": "“It’s a warning Republicans should take seriously,” one strategist told Newsweek, while another argued it was \"not a closed door.\"",
+      "link": "https://www.newsweek.com/donald-trump-midwest-approval-rating-warning-gop-12613343",
+      "published": "Sun, 25 Oct 2026 05:00:00 -0400",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Catching Breast Cancer Early Is Still Hard. Melania Trump Can Help | Opinion",
+      "summary": "\"First Lady Melania Trump's new women's health initiative offers an opportunity for change.\"",
+      "link": "https://www.newsweek.com/catching-breast-cancer-early-is-still-hard-melania-trump-can-help-opinion-12611379",
+      "published": "Sun, 25 Oct 2026 05:00:00 -0400",
+      "source": "Newsweek"
+    },
+    {
+      "title": "How Christianity Became a Battleground in the Texas Senate Race",
+      "summary": "Republican Ken Paxton and Democrat James Talarico have put religion on center stage in their U.S. Senate race in Texas.",
+      "link": "https://www.newsweek.com/how-christianity-became-a-battleground-in-the-texas-senate-race-12606812",
+      "published": "Sun, 25 Oct 2026 05:00:00 -0400",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
+      "summary": "While protests in France have claimed most international attention, large demonstrations also rocked many European cities Saturday from Milan to Rome to Madrid, Lisbon and Tirana.",
+      "link": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe",
+      "published": "Sun, 25 Oct 2026 03:15:00 -0400",
+      "source": "NPR"
+    },
+    {
+      "title": "Eleven sustain gunshot wounds in shooting near Florida university",
+      "summary": "<p>Police said an altercation at a homecoming party escalated into gunfire, resulting in six adults and six juveniles injured</p><p>A shooting ⁠near a Florida university campus in Tallahassee has left 11 people ⁠with gunshot wounds ⁠and ​another person injured, authorities say.</p><p>The shooting took place near the Florida Agricultural + Mechanical University’s campus ⁠on Perry Street on Saturday night, the university said, while police counted six adults and six ⁠juveniles among the injured.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/25/eleven-sustain-gunshot-wounds-in-shooting-near-florida-university\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/oct/25/eleven-sustain-gunshot-wounds-in-shooting-near-florida-university",
+      "published": "Sun, 25 Oct 2026 06:07:47 GMT",
+      "source": "The Guardian"
     },
     {
       "title": "Drought, fire and high diesel prices 'addin' up tough' for Oregon ranchers",
@@ -118,13 +243,6 @@
       "source": "CBS News"
     },
     {
-      "title": "Raiders mourn Super Bowl champion Pete Banaszak, key figure in iconic 'Holy Roller' play",
-      "summary": "Pete Banaszak scored twice in the Raiders' Super Bowl XI victory over the Vikings and played a key role in the infamous \"Holy Roller\" NFL play.",
-      "link": "https://www.foxnews.com/outkick-sports/raiders-mourn-super-bowl-champion-pete-banaszak-key-figure-iconic-holy-roller-play",
-      "published": "Sat, 24 Oct 2026 20:55:03 -0400",
-      "source": "Fox News"
-    },
-    {
       "title": "Musk says he was behind Starlink's slowdown in Ukraine",
       "summary": "Elon Musk on Saturday alluded to being behind last week’s Starlink slowdown in Ukraine which impacted the country’s military capabilities. “Ukraine military violated Starlink terms of service and used it for offensive drone strikes to kill people. That loophole was closed last week,” Musk said in a post on social platform X. The slowdown happened...",
       "link": "https://thehill.com/policy/international/6170415-musk-starlink-ukraine-slowdown/",
@@ -139,74 +257,11 @@
       "source": "CBS News"
     },
     {
-      "title": "Ukraine's Starlink restored as Elon Musk claims Kyiv violated terms of service 'to kill people'",
-      "summary": "Elon Musk claims Ukraine violated Starlink terms of service by using the civilian system for deadly drone strikes, saying the loophole was closed.",
-      "link": "https://www.foxnews.com/politics/ukraines-starlink-restored-elon-musk-claims-kyiv-violated-terms-service-kill-people",
-      "published": "Sat, 24 Oct 2026 20:24:35 -0400",
-      "source": "Fox News"
-    },
-    {
       "title": "California leader calls attack on alleged noncitizen voting ‘weaponizing the law’",
       "summary": "<p>State attorney general said Trump’s justice department’s directive to verify 20,000 ballots is completely improper</p><p>California’s attorney general on Saturday rebuked the Trump administration’s efforts to quash alleged noncitizen voting, calling it “politicizing and weaponizing the law”.</p><p>Rob Bonta, the state’s attorney general, said the justice department acted at Donald Trump’s direction.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/24/california-noncitizen-voting-trump-administration\">Continue reading...</a>",
       "link": "https://www.theguardian.com/us-news/2026/oct/24/california-noncitizen-voting-trump-administration",
       "published": "Sun, 25 Oct 2026 00:16:17 GMT",
       "source": "The Guardian"
-    },
-    {
-      "title": "Obama rallies rapturous Michigan crowd for El-Sayed: ‘He’ll finish the job we started’",
-      "summary": "<p>Former president speaks to crowd of thousands in support of Abdul El-Sayed for US Senate and Democratic ticket</p><p>Barack Obama told a Detroit crowd on Saturday that Abdul El-Sayed was “fighting for change, real change, that will get money out of politics and put money in your pocket”, as he threw his weight behind the Democratic Senate candidate and the rest of the ticket on the first day of early voting in Michigan.</p><p>Obama said in front of thousands of onlookers at Cass technical high school in Detroit that El-Sayed would “finish the job we started with the Affordable Care Act and guarantee quality, affordable healthcare to every single American”.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan",
-      "published": "Sun, 25 Oct 2026 00:14:30 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Obama on Trump White House: ‘Like Saddam Hussein opened a Cheesecake Factory’",
-      "summary": "Former President Barack Obama poked fun at President Trump's various Washington, D.C.-area renovation projects during a campaign stop in Cleveland, Ohio, where he was stumping for Democratic gubernatorial candidate Amy Acton and Senate candidate Sherrod Brown. In his speech, Obama zeroed in on the changes President Trump has made to the White House during his...",
-      "link": "https://thehill.com/homenews/campaign/6170405-obama-mocks-trump-white-house/",
-      "published": "Sun, 25 Oct 2026 00:05:25 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "‘Change is in the air’: Obama praises El-Sayed and attacks Trump at Michigan rally – as it happened",
-      "summary": "<p>This live blog is now closed. For more on the rally, read our full report: </p><ul><li><p><a href=\"https://www.theguardian.com/us-news/2026/oct/24/barack-obama-abdul-el-sayed-michigan\">Obama rallies Michigan crowd for El-Sayed, saying he’s ‘fighting for real change’</a></p></li><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for Breaking News US email</a></p></li></ul><p><strong>Donald Trump voted in West Palm Beach, Florida today, telling reporters at the polls that he voted straight Republican on his ballot.</strong> Trump has historically mailed-in his ballot rather than voting in-person.</p><p>Speaking from the polling site, Trump defended an ad from Ohio gubernatorial candidate Vivek Ramaswamy, his administration’s lawsuit seeking to block certification of the Alaska Senate race if Repubican senator Dan Sullivan loses his race and the war in Iran.</p> <a href=\"https://www.theguardian.com/us-news/live/2026/oct/24/obama-abdul-el-sayed-midterms-rally-michigan-live-updates\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/live/2026/oct/24/obama-abdul-el-sayed-midterms-rally-michigan-live-updates",
-      "published": "Sat, 24 Oct 2026 23:53:19 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Obama compares Trump's White House renovations to 'Saddam Hussein opening a Cheesecake Factory' at Ohio rally",
-      "summary": "Barack Obama compared Trump's White House renovations to a Cheesecake Factory run by Saddam Hussein at a Cleveland rally for Ohio Democrats.",
-      "link": "https://www.foxnews.com/politics/obama-compares-trumps-white-house-renovations-saddam-hussein-opening-cheesecake-factory-ohio-rally",
-      "published": "Sat, 24 Oct 2026 18:35:34 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "Man detained at Georgia immigration detention center dies as hunger strike continues",
-      "summary": "<p>Death inside Folkston facility comes as officials allegedly threaten hunger strikers there with force-feeding</p><p>An immigrant detained at a sprawling detention center complex in Georgia died on Friday, local and federal officials confirmed, after the facility has already faced national scrutiny for its response to an ongoing <a href=\"https://www.theguardian.com/us-news/2026/oct/07/ice-detention-facility-georgia\">hunger strike</a> inside.</p><p>The death inside the D Ray James facility in Folkston, Georgia, comes as federal immigration officials and private contractors are allegedly threatening hunger strikers there with force-feeding, a detained hunger striker, his wife, attorneys and advocates all said this week. Detainees are refusing food to protest prolonged captivity and bad conditions.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/24/georgia-ice-man-dies\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/oct/24/georgia-ice-man-dies",
-      "published": "Sat, 24 Oct 2026 22:06:15 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Democratic senator accused of 'political malpractice' after job ad ignites firestorm over DEI language",
-      "summary": "The Atlantic dissects Edward Markey's intern job posting encouraging BIPOC and LGBTQ+ applicants that sparked accusations of discrimination against White men.",
-      "link": "https://www.foxnews.com/media/democratic-senator-accused-political-malpractice-after-job-ad-ignites-firestorm-over-dei-language",
-      "published": "Sat, 24 Oct 2026 18:00:59 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "Trade tariffs cause whiplash at Port Milwaukee",
-      "summary": "Sacha Pfeiffer visits Port Milwaukee to see how President Trump's tariffs have affected the flow of goods and impacted the regional economy.",
-      "link": "https://www.npr.org/2026/10/24/nx-s1-6011193/trade-tariffs-cause-whiplash-at-port-milwaukee",
-      "published": "Sat, 24 Oct 2026 17:20:55 -0400",
-      "source": "NPR"
-    },
-    {
-      "title": "How data centers became a bipartisan political issue in Wisconsin",
-      "summary": "Data centers are a big issue across the country. As midterms approach, many look to the swing state of Wisconsin for lessons for how that issue could play out nationally.",
-      "link": "https://www.npr.org/2026/10/24/nx-s1-6011182/how-data-centers-became-a-bipartisan-political-issue-in-wisconsin",
-      "published": "Sat, 24 Oct 2026 17:20:53 -0400",
-      "source": "NPR"
     },
     {
       "title": "American embassies tighten security as Iran threat warnings intensify ahead of U.S. midterm elections",
@@ -279,13 +334,6 @@
       "source": "CNBC"
     },
     {
-      "title": "This decade has been missing its big-impact midterm",
-      "summary": "Every other decade over the past hundred years has produced at least one midterm that made a big difference in Congress and in national politics more broadly.",
-      "link": "https://www.npr.org/2026/10/24/nx-s1-6014811/midterm-election-history-house-senate",
-      "published": "Sat, 24 Oct 2026 05:00:00 -0400",
-      "source": "NPR"
-    },
-    {
       "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
       "summary": "Ukraine and Russia confirm the truce in Russian-occupied Oleshky, where residents have had to eat garden weeds to survive.",
       "link": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
@@ -308,15 +356,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-12 14:02",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 72,
-      "incidents": 40,
-      "sp500": 7813.15,
-      "usd_czk": null
-    },
     {
       "date": "2026-10-13 05:00",
       "threat_level": "HIGH",
@@ -577,6 +616,15 @@
       "incidents": 7,
       "sp500": 7623.68,
       "usd_czk": 21.734
+    },
+    {
+      "date": "2026-10-25 10:29",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 72,
+      "incidents": 9,
+      "sp500": 7623.68,
+      "usd_czk": 21.734
     }
   ],
   "locations": [
@@ -586,6 +634,13 @@
       "lon": -77.0369,
       "name_cs": "Washington, D.C.",
       "name_en": "Washington, D.C."
+    },
+    {
+      "key": "Texas",
+      "lat": 31.9686,
+      "lon": -99.9018,
+      "name_cs": "Texas",
+      "name_en": "Texas"
     },
     {
       "key": "Florida",
@@ -614,27 +669,6 @@
       "lon": -82.9071,
       "name_cs": "Ohio",
       "name_en": "Ohio"
-    },
-    {
-      "key": "Michigan",
-      "lat": 44.3148,
-      "lon": -85.6024,
-      "name_cs": "Michigan",
-      "name_en": "Michigan"
-    },
-    {
-      "key": "Georgia",
-      "lat": 32.1656,
-      "lon": -82.9001,
-      "name_cs": "Georgie (USA)",
-      "name_en": "Georgia (US)"
-    },
-    {
-      "key": "Wisconsin",
-      "lat": 43.7844,
-      "lon": -88.7879,
-      "name_cs": "Wisconsin",
-      "name_en": "Wisconsin"
     },
     {
       "key": "Minnesota",
@@ -704,38 +738,70 @@
       "auto": true
     },
     {
+      "key": "Israel",
+      "lat": 31.5,
+      "lon": 34.8,
+      "name_cs": "Izrael",
+      "name_en": "Israel",
+      "auto": true
+    },
+    {
       "key": "Iran",
       "lat": 32.4,
       "lon": 53.7,
       "name_cs": "Írán",
       "name_en": "Iran",
       "auto": true
+    },
+    {
+      "key": "France",
+      "lat": 48.86,
+      "lon": 2.35,
+      "name_cs": "Paříž",
+      "name_en": "France",
+      "auto": true
+    },
+    {
+      "key": "Italy",
+      "lat": 41.9,
+      "lon": 12.5,
+      "name_cs": "Řím",
+      "name_en": "Italy",
+      "auto": true
+    },
+    {
+      "key": "Spain",
+      "lat": 40.4,
+      "lon": -3.7,
+      "name_cs": "Madrid",
+      "name_en": "Spain",
+      "auto": true
     }
   ],
   "location_counts": {
-    "Florida": 34,
-    "Texas": 55,
-    "Washington": 55,
+    "Florida": 35,
+    "Texas": 56,
+    "Washington": 56,
     "New York": 47,
-    "California": 39,
+    "California": 40,
     "Capitol": 14,
-    "Border": 15,
+    "Border": 16,
     "Los Angeles": 8,
     "Wall Street": 45,
     "Illinois": 7,
     "Colorado": 10,
-    "Canada": 16,
-    "Brazílie": 1,
-    "Ukrajina": 3,
+    "Canada": 17,
+    "Brazílie": 2,
+    "Ukrajina": 2,
     "Rusko": 1,
-    "Írán": 2,
+    "Írán": 1,
     "Čína": 1,
     "Tchaj-wan": 1,
     "Japonsko": 1,
     "Pákistán": 1,
     "Londýn": 1,
     "Paříž": 1,
-    "Madrid": 1,
+    "Madrid": 2,
     "Kolumbie": 1,
     "San Francisco": 1,
     "Venezuela": 1,
@@ -744,17 +810,17 @@
     "Berlín": 1,
     "Michigan": 27,
     "Georgia": 14,
-    "Maine": 17,
+    "Maine": 18,
     "Mexico": 10,
     "Singapur": 1,
     "Chicago": 11,
-    "Ohio": 27,
+    "Ohio": 28,
     "Arizona": 15,
-    "Minnesota": 16,
+    "Minnesota": 17,
     "Virginia": 9,
     "Izrael": 1,
     "Austrálie": 1,
-    "Alaska": 11,
+    "Alaska": 12,
     "Jižní Korea": 1,
     "Severní Korea": 1,
     "New Jersey": 6,
@@ -771,7 +837,7 @@
     "Nevada": 4,
     "Las Vegas": 1,
     "Řím": 1,
-    "Oregon": 13,
+    "Oregon": 14,
     "Oklahoma": 6,
     "Jihoafrická republika": 1,
     "Seattle": 1,
@@ -785,17 +851,9 @@
     "key": "Texas",
     "name_cs": "Texas",
     "name_en": "Texas",
-    "count": 55
+    "count": 56
   },
   "archive": [
-    {
-      "date": "2026-10-18 10:10",
-      "threat_level": "HIGH",
-      "security_status_cs": "V USA eskalují politické střety před nadcházejícími mezidobími volbami, přičemž Ministerstvo spravedlnosti čelí obviněním z porušování neutrality a administrativní kroky vyvolávají silné napětí v Kongresu. Geopolitická nestabilita roste kvůli změnám v sankční politice vůči Ruské federaci a výzvám v oblasti obranného zajištění. Domácí bezpečnostní situaci navíc zatěžují přírodní katastrofy v Kalifornii a incidenty s použitím střelných zbraní ve školách.",
-      "security_status_en": "Political clashes are escalating ahead of the upcoming US midterms, with the Department of Justice facing accusations of breaching neutrality and administrative moves triggering intense tension in Congress. Geopolitical instability is growing due to shifts in sanctions policy against Russia and challenges regarding defense supplies. Additionally, domestic security is strained by wildfires in California and school shooting incidents.",
-      "forecast_cs": "V nejbližších dnech lze očekávat další vyostření rétoriky před volbami a pokračující nervozitu na trzích kvůli legislativním sporům v Kongresu.",
-      "forecast_en": "In the coming days, further escalation of pre-election rhetoric and continued market nervousness due to legislative disputes in Congress are expected."
-    },
     {
       "date": "2026-10-19 04:59",
       "threat_level": "HIGH",
@@ -899,6 +957,14 @@
       "security_status_en": "The United States is facing heightened tensions in the final stretch of the midterm congressional campaign, rising concerns over Iranian threats against American targets, and disputes regarding voting rules and certifications. The macroeconomic environment is burdened by the impacts of tariffs on supply chains, high fuel prices, and debates over AI data center construction.",
       "forecast_cs": "V následujících dnech lze očekávat vyvrcholení kampaně před volbami do Kongresu, pokračující napětí kolem bezpečnostních hrozeb a zvýšenou volatilitu na trzích.",
       "forecast_en": "Over the coming days, an escalation of the congressional midterm campaign, continued tension surrounding security threats, and elevated market volatility are expected."
+    },
+    {
+      "date": "2026-10-25 10:29",
+      "threat_level": "HIGH",
+      "security_status_cs": "Spojené státy čelí vysokému napětí v závěru kampaně před středečními volbami do Kongresu, přičemž administrativu zaměstnávají právní spory ohledně volebních seznamů a bezpečnostní varování před íránskými hrozbami. Pentagon mezitím zavádí přísná nouzová opatření pro případ globálního konfliktu a domácí scénu rozptylují incidenty jako střelba u univerzity virem násilí na Floridě.",
+      "security_status_en": "The United States is facing high tension in the final stretch of the congressional midterm campaigns, with the administration dealing with legal disputes over voter rolls and security warnings regarding Iranian threats. Meanwhile, the Pentagon is implementing strict emergency protocols for potential global conflicts, while domestic security is challenged by incidents like a shooting near a Florida university.",
+      "forecast_cs": "V nejbližších dnech se očekává maximální mobilizace voličů před kongresovými volbami a pokračující nervozita na trzích ohledně politického směřování země.",
+      "forecast_en": "Over the coming days, maximum voter mobilization ahead of the congressional elections and ongoing market anxiety regarding the nation's political direction are expected."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",

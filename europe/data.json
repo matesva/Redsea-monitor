@@ -1,60 +1,95 @@
 {
-  "last_updated": "2026-10-25T06:00:11Z",
+  "last_updated": "2026-10-25T10:29:41Z",
   "assessment": {
     "threat_level": "HIGH",
-    "sentiment_score": 75,
-    "security_status_cs": "Evropa čelí vážným vnitřním i vnějším tlakům, v čele s rozsáhlými protivládními protesty a sociálními nepokoji ve Francii a Itálii a přetrvávající bezpečnostní hrozbou spojenou s válkou na Ukrajině. Zatímco Ukrajina stabilizovala své klíčové komunikační linky Starlink a pokračuje v úderech na okupovaný Krym, stupňující se napětí v regionu a eskalující sociální nepokoje vytvářejí silný tlak na evropské trhy a politickou stabilitu.",
-    "security_status_en": "Europe is facing severe internal and external pressures, led by massive anti-government protests and social unrest in France and Italy alongside the enduring security threat of the war in Ukraine. While Ukraine has stabilized its critical Starlink communication lines and continues strikes on occupied Crimea, mounting regional tensions and escalating social unrest exert heavy pressure on European markets and political stability.",
+    "sentiment_score": 78,
+    "security_status_cs": "Evropa čelí vlně masivních protivládních protestů a sociálních nepokojů, zejména ve Francii a Itálii, kde probíhají rozsáhlé demonstrace a střety s policií kvůli životním nákladům. Současně přetrvávají vážná bezpečnostní rizika spojená s válkou na Ukrajině, kde pokračují útoky na Krym a logistická napojení na frontu včetně nedávných výkyvů v síti Starlink.",
+    "security_status_en": "Europe is facing a wave of massive anti-government protests and social unrest, particularly in France and Italy, where widespread demonstrations and clashes with police over the cost of living are taking place. At the same time, severe security risks persist regarding the war in Ukraine, with ongoing strikes on Crimea and front-line logistical dependencies, including recent fluctuations in the Starlink network.",
     "recommendations": [
       {
         "sector_cs": "Široký evropský akciový trh (Euro Stoxx 50 ETF)",
         "sector_en": "Broad European Equities (Euro Stoxx 50 ETFs)",
-        "action": "SELL",
-        "reason_cs": "Rozsáhlé sociální nepokoje ve Francii a Itálii spolu s geopolitickým napětím zvyšují volatilitu a ohrožují hospodářský růst eurozóny.",
-        "reason_en": "Widespread social unrest in France and Italy alongside geopolitical tensions increase volatility and threaten Eurozone economic growth."
+        "action": "HOLD",
+        "reason_cs": "Trhy čelí zvýšené volatilitě kvůli sociálním nepokojům v západní Evropě a geopolitické nejistotě, což doporučuje opatrný vyčkávací postoj.",
+        "reason_en": "Markets face heightened volatility due to social unrest in Western Europe and geopolitical uncertainty, advising a cautious wait-and-see stance."
       },
       {
         "sector_cs": "Evropské banky (BNP Paribas, Deutsche Bank, Santander)",
         "sector_en": "European Banks (BNP Paribas, Deutsche Bank, Santander)",
         "action": "HOLD",
-        "reason_cs": "Bankovní sektor těží z dosavadní měnové politiky ECB a likviditních linek, ale rostoucí politická nestabilita představuje zvýšené úvěrové riziko.",
-        "reason_en": "The banking sector benefits from current ECB monetary policy and liquidity lines, but mounting political instability introduces elevated credit risk."
+        "reason_cs": "Regulační tlaky a měnící se likviditní podmínky v eurozóně udržují bankovní sektor v neutrální pozici.",
+        "reason_en": "Regulatory pressures and changing liquidity conditions in the eurozone keep the banking sector in a neutral position."
       },
       {
         "sector_cs": "Obranný průmysl (Rheinmetall, Thales, Leonardo)",
         "sector_en": "Defense Industry (Rheinmetall, Thales, Leonardo)",
         "action": "BUY",
-        "reason_cs": "Pokračující konflikt na Ukrajině a společná vojenská cvičení NATO udržují vysokou poptávku po vojenském vybavení a zajišťují silný příliv zakázek.",
-        "reason_en": "The ongoing conflict in Ukraine and joint NATO military exercises sustain high demand for military equipment and ensure a strong flow of orders."
+        "reason_cs": "Probíhající vojenská cvičení NATO, napětí na východním křídle a trvalá potřeba podpory Ukrajiny nadále silně podporují poptávku po vojenském vybavení.",
+        "reason_en": "Ongoing NATO military exercises, eastern flank tensions, and the continuous need to support Ukraine continue to strongly support defense equipment demand."
       },
       {
         "sector_cs": "Energetika (TotalEnergies, Shell, RWE)",
         "sector_en": "Energy (TotalEnergies, Shell, RWE)",
-        "action": "HOLD",
-        "reason_cs": "Ceny energií a komodit zůstávají pod vlivem globálních sankčních režimů a geopolitických výkyvů v Černém moři, což vyžaduje opatrný přístup.",
-        "reason_en": "Energy and commodity prices remain influenced by global sanction regimes and geopolitical shifts in the Black Sea, requiring a cautious approach."
+        "action": "BUY",
+        "reason_cs": "Ceny energií a bezpečnost dodávek zůstávají pod tlakem vlivem geopolitických konfliktů a sankcí vůči Rusku, což nahrává energetickým gigantům.",
+        "reason_en": "Energy prices and supply security remain under pressure from geopolitical conflicts and Russian sanctions, favoring energy majors."
       },
       {
         "sector_cs": "Automobilový průmysl (Volkswagen, BMW, Stellantis)",
         "sector_en": "Automotive Industry (Volkswagen, BMW, Stellantis)",
         "action": "SELL",
-        "reason_cs": "Slabnoucí kupní síla spotřebitelů v důsledku inflace a rostoucí sociální napětí negativně dopadají na poptávku po automobilech.",
-        "reason_en": "Weakenening consumer purchasing power driven by inflation and rising social tensions are negatively impacting automotive demand."
+        "reason_cs": "Slabnoucí poptávka, rostoucí náklady a rozsáhlé stíhové protesty napříč Evropou negativně dopadají na marže a prodeje automobilek.",
+        "reason_en": "Slowing demand, rising costs, and widespread protests across Europe are negatively impacting automotive margins and sales."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly zůstávají stabilní, ale jsou pod vlivem celkového negativního sentimentu na širších evropských trzích.",
-        "reason_en": "Domestic equities remain relatively stable but are weighed down by the overall negative sentiment across broader European markets."
+        "reason_cs": "Domácí tituly zůstávají stabilní, ale jsou citlivé na celoevropské makroekonomické výkyvy a diskuse o energetické regulaci.",
+        "reason_en": "Domestic stocks remain resilient but are sensitive to pan-European macroeconomic shifts and energy regulation debates."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající volatilitu na trzích vlivem neustávajících protestů v západní Evropě a bezpečnostních obav spojených s vývojem na Ukrajině.",
-    "forecast_en": "Persistent market volatility is expected over the coming days driven by ongoing protests in Western Europe and security concerns linked to developments in Ukraine.",
-    "forecast_review_cs": "Předchozí předpověď se plně potvrdila, neboť bezpečnostní situace ve Francii a eskalace kolem ukrajinských operací nadále určují nervózní náladu na trzích.",
-    "forecast_review_en": "The previous forecast was fully confirmed, as the security situation in France and the escalation surrounding Ukrainian operations continue to dictate a nervous market sentiment."
+    "forecast_cs": "V příštích dnech lze očekávat přetrvávající napětí na finančních trzích v důsledku probíhajících demonstrací v klíčových evropských zemích a přetrvávajících bezpečnostních rizik na Ukrajině.",
+    "forecast_en": "Over the coming days, persistent tension on financial markets is expected due to ongoing demonstrations in key European countries and lingering security risks in Ukraine.",
+    "forecast_review_cs": "Předchozí předpověď o přetrvávající volatilitě trhů vlivem protestů a ukrajinské krize se plně potvrdila.",
+    "forecast_review_en": "The previous forecast of persistent market volatility driven by protests and the Ukraine crisis was fully confirmed."
   },
   "articles": [
+    {
+      "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+      "summary": "Hundreds of thousands took part in demonstrations in France, with protests also taking place in other European countries.",
+      "link": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 25 Oct 2026 09:32:59 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "US seized American heir’s cellphone in violation of treaty agreement, lawyer says",
+      "summary": "<p>James ‘Fergie’ Chambers, in prison in Spain, has applied for asylum as US seeks extradition over alleged Hamas support</p><p>US authorities seized wealthy activist James “Fergie” Chambers’s cellphone at some point after Spanish police arrested him <a href=\"https://www.theguardian.com/world/2026/jul/15/james-fergie-chambers-arrest-palestine-aid-trump\">in July</a> without notifying him or his attorneys, the Guardian has learned.</p><p>Chambers, a US citizen and wealthy donor to leftwing and humanitarian projects, is imprisoned in Madrid. His case is the first known instance of the US seeking to extradite a citizen over alleged support for Hamas, an accusation tied to money Chambers has donated to support Palestinians, including the <a href=\"https://thesameerproject.org/\">Sameer Project</a>, in Gaza.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/25/fbi-spain-james-fergie-chambers-cox\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/oct/25/fbi-spain-james-fergie-chambers-cox",
+      "published": "Sun, 25 Oct 2026 09:00:58 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
+      "summary": "The tech billionaire accuses Ukraine of violating its terms of service by using the network for military activity.",
+      "link": "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 25 Oct 2026 09:00:00 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Ten days that could shake the world: democratic norms at stake in four pivotal elections",
+      "summary": "<p>Brazil, Israel, Serbia and the US are holding elections within the space of 10 days. Will the authoritarian right cement its global gains, or can pro-democracy forces make a comeback?</p><p>Four elections on four continents within 10 days could profoundly reshape global politics, propelling the world further along its current authoritarian trajectory or marking a limited comeback for democratic norms.</p><p>In all four contests, basic democratic norms are at stake at a time when autocracy is advancing worldwide at an alarming rate. According to the <a href=\"https://www.v-dem.net/documents/75/V-Dem_Institute_Democracy_Report_2026_lowres.pdf\">Sweden-based V-Dem Institute</a>, which uses multivariable assessment tools, the democratic freedoms enjoyed by the average global citizen are down to levels last seen in 1978 – long before the fall of the Berlin Wall and the collapse of communism in Europe.</p> <a href=\"https://www.theguardian.com/world/ng-interactive/2026/oct/25/ten-days-shake-world-democratic-norms-pivotal-elections-brazil-israel-serbia-us\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/ng-interactive/2026/oct/25/ten-days-shake-world-democratic-norms-pivotal-elections-brazil-israel-serbia-us",
+      "published": "Sun, 25 Oct 2026 07:00:56 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "INTERVIEW: Why the EU refuses to die",
+      "summary": "A new book argues that EU's endless negotiations and messy compromises may be the secret to its survival",
+      "link": "https://www.rapporteur.com/news/interview-why-the-eu-refuses-to-die/",
+      "published": "Sun, 25 Oct 2026 07:00:18 +0000",
+      "source": "Euractiv"
+    },
     {
       "title": "Security Sunday: Bringen Frankreichs Proteste Marine Le Pen an die Macht? – mit Martina Meister",
       "summary": "Brennende Mülltonnen, verbarrikadierte Schaufenster und eine unübersichtliche Mischung aus Gelbwesten, Anarchisten und Banlieue-Jugendlichen auf den Straßen. Was als Schülerprotest in Frankreich begann, hat sich an steigenden Energiepreisen zu einer radikalen Bewegung entzündet. Präsident Emmanuel Macron verliert zunehmend die Kontrolle und wirkt in der Krise wie ein Pilot ohne Cockpit. Inmitten der Eskalation positioniert sich Marine […]",
@@ -75,13 +110,6 @@
       "link": "https://www.ft.com/content/8c874f60-0041-476d-9c53-8524c374443f?syn-25a6b1a6=1",
       "published": "Sun, 25 Oct 2026 05:00:02 GMT",
       "source": "Financial Times"
-    },
-    {
-      "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
-      "summary": "Hundreds of thousands took part in demonstrations in France, with protests also taking place in other European countries.",
-      "link": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 25 Oct 2026 04:16:52 GMT",
-      "source": "BBC News"
     },
     {
       "title": "Brazil's Lula and Flavio Bolsonaro neck and neck after bitter runoff campaign",
@@ -109,6 +137,13 @@
       "summary": "'After two years of chaos and cruelty... enough is enough,' said the former president, encouraging voters to cast early ballots for the upcoming midterm elections.",
       "link": "https://www.lemonde.fr/en/international/article/2026/10/25/obama-delivers-scathing-criticisms-of-trump-while-campaigning-for-democrats_6763528_4.html",
       "published": "Sun, 25 Oct 2026 03:03:09 +0100",
+      "source": "Le Monde"
+    },
+    {
+      "title": "Yemen's Houthis launch new attacks on Saudi Arabia after accusing the kingdom of strikes that killed 17",
+      "summary": "The Saudi-led coalition said it had intercepted two missiles targeting Saudi cities Taif and Yanbu on Saturday morning while Yemeni fighters said they targeted three Saudi airports including the international airport in Riyadh, energy installations, a pipeline and an air base.",
+      "link": "https://www.lemonde.fr/en/international/article/2026/10/25/yemen-s-houthis-launch-new-attacks-on-saudi-arabia-after-accusing-the-kingdom-of-strikes-that-killed-17_6763462_4.html",
+      "published": "Sun, 25 Oct 2026 01:34:34 +0200",
       "source": "Le Monde"
     },
     {
@@ -140,25 +175,11 @@
       "source": "Financial Times"
     },
     {
-      "title": "Ukraine’s military says Starlink satellite connection stable after recent restrictions",
-      "summary": "<p>But Elon Musk, whose company SpaceX owns Starlink, accuses Ukrainian military of violating ⁠the company’s terms</p><p>Ukraine’s military has a “stable connection to Starlink”, the Ukrainian government said, 10 days after its ability to use the satellite communications system <a href=\"https://www.theguardian.com/world/2026/oct/14/ukraine-soldiers-combat-access-starlink-satellite-internet-restricted\">was suddenly restricted</a>.</p><p>But hours after the announcement, SpaceX CEO Elon Musk, whose company owns Starlink, <a href=\"https://x.com/elonmusk/status/2114063986744275011\">accused</a> the Ukrainian military of violating ⁠the company’s terms. Neither Musk nor the US government, which operates Starshield using Starlink technology, took responsibility for imposing the curbs.</p> <a href=\"https://www.theguardian.com/world/2026/oct/24/ukraine-zelenskyy-military-starlink-satellite-connection-stable-after-restrictions\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/oct/24/ukraine-zelenskyy-military-starlink-satellite-connection-stable-after-restrictions",
-      "published": "Sat, 24 Oct 2026 21:25:58 GMT",
-      "source": "The Guardian"
-    },
-    {
       "title": "Young protesters clash with police on Rome streets",
       "summary": "Young protesters clashed with police in Rome on Saturday as demonstrations over wages, the cost of living and public services spread across Italy.",
       "link": "https://www.euronews.com/2026/10/24/young-protesters-clash-with-police-on-rome-streets",
       "published": "Sat, 24 Oct 2026 22:51:03 +0200",
       "source": "Euronews"
-    },
-    {
-      "title": "Hundreds of thousands march in France as protests take place across Europe – as it happened",
-      "summary": "<p>French police have made 1,000 arrests and Italian officers have raided homes in Milan, with protests also taking place in Spain and Albania</p><p>Jesse, 40, a charity worker from the north of Paris, had turned out for the street march.</p><p>She said: “I’m so angry. I’m here to support schoolchildren’s demands for better conditions. I’m so proud of them and we have to stand together.”</p> <a href=\"https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news",
-      "published": "Sat, 24 Oct 2026 20:22:18 GMT",
-      "source": "The Guardian"
     },
     {
       "title": "Watch: BBC in Paris as police charge protesters and use tear gas during unrest",
@@ -224,13 +245,6 @@
       "source": "Euractiv"
     },
     {
-      "title": "Ukraine says Starlink connection 'now stable' after network limits",
-      "summary": "The slowed Starlink connections had affected the Ukraine's military and drone operations for a week.",
-      "link": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 24 Oct 2026 12:12:40 GMT",
-      "source": "BBC News"
-    },
-    {
       "title": "Tensions flare up across France as marches come to an end",
       "summary": "Interior Minister Laurent Nuñez told police forces to be \"uncompromising\" with potential rioters.",
       "link": "https://www.politico.eu/article/france-police-deploy-protests/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -245,13 +259,6 @@
       "source": "Politico Europe"
     },
     {
-      "title": "Commission remains on alert after PHP cybersecurity flaws",
-      "summary": "The EU executive kept its websites online, unlike several European governments",
-      "link": "https://www.rapporteur.com/news/commission-remains-on-alert-after-php-cybersecurity-flaws/",
-      "published": "Sat, 24 Oct 2026 10:03:29 +0000",
-      "source": "Euractiv"
-    },
-    {
       "title": "Ein Spaziergang mit Martin Blessing",
       "summary": "Ist Deutschland wirklich der kranke Mann Europas oder steht ein wirtschaftliches Comeback bevor? Nach einem milliardenschweren Investitionsgipfel „Invest in Germany“ mit Tech-Größen wie Nvidia-Chef Jensen Huang zieht Martin Blessing, der persönliche Beauftragte des Bundeskanzlers für Investitionen, eine optimistische Bilanz. Es bleibt die entscheidende Frage, wie viel von den zugesagten Milliarden tatsächlich frisches Geld ist und […]",
       "link": "https://www.politico.eu/podcast/berlin-playbook-podcast/ein-spaziergang-mit-martin-blessing/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
@@ -264,13 +271,6 @@
       "link": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261023~a3d201c97c.en.html",
       "published": "Fri, 23 Oct 2026 10:00:00 +0200",
       "source": "ECB"
-    },
-    {
-      "title": "Terrorist shooting in Paris suburb marks 'turning point for France', Macron says",
-      "summary": "Emmanuel Macron has described the fatal shooting in a Paris suburb as a terrorist and racist attack which \"marked a turning point\" in the history of France.",
-      "link": "https://news.sky.com/story/one-dead-and-several-wounded-after-shooting-in-paris-suburb-13602320",
-      "published": "Fri, 23 Oct 2026 00:01:00 +0100",
-      "source": "Sky News"
     },
     {
       "title": "Philip R. Lane: Euro liquidity lines and the international monetary system",
@@ -337,15 +337,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-12 14:02",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 72,
-      "incidents": 40,
-      "stoxx50": 6197.93,
-      "eur_czk": null
-    },
     {
       "date": "2026-10-13 05:00",
       "threat_level": "HIGH",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "stoxx50": 6068.22,
       "eur_czk": null
+    },
+    {
+      "date": "2026-10-25 10:29",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 78,
+      "incidents": 40,
+      "stoxx50": 6068.22,
+      "eur_czk": null
     }
   ],
   "locations": [
@@ -673,11 +673,25 @@
       "name_en": "Moscow"
     },
     {
+      "key": "Stockholm",
+      "lat": 59.3293,
+      "lon": 18.0686,
+      "name_cs": "Stockholm",
+      "name_en": "Stockholm"
+    },
+    {
       "key": "Sofia",
       "lat": 42.6977,
       "lon": 23.3219,
       "name_cs": "Sofie",
       "name_en": "Sofia"
+    },
+    {
+      "key": "Belgrade",
+      "lat": 44.7866,
+      "lon": 20.4489,
+      "name_cs": "Bělehrad",
+      "name_en": "Belgrade"
     },
     {
       "key": "Washington",
@@ -745,30 +759,30 @@
     }
   ],
   "location_counts": {
-    "Brussels": 64,
+    "Brussels": 65,
     "Strasbourg": 22,
-    "Kyiv": 73,
-    "Berlin": 60,
+    "Kyiv": 74,
+    "Berlin": 61,
     "Prague": 4,
-    "Paris": 65,
+    "Paris": 66,
     "Warsaw": 29,
-    "Madrid": 42,
-    "Rome": 32,
-    "Frankfurt": 49,
-    "London": 43,
-    "Moscow": 49,
+    "Madrid": 43,
+    "Rome": 33,
+    "Frankfurt": 50,
+    "London": 44,
+    "Moscow": 50,
     "Budapest": 16,
     "Texas": 1,
     "Oklahoma": 1,
     "Kanada": 1,
-    "Izrael": 1,
+    "Izrael": 2,
     "Írán": 2,
     "Čína": 1,
     "Kolumbie": 1,
     "Dublin": 12,
     "Chisinau": 2,
     "Istanbul": 17,
-    "Brazílie": 2,
+    "Brazílie": 3,
     "Turecko": 1,
     "Pákistán": 1,
     "Lisbon": 5,
@@ -798,8 +812,8 @@
     "SAE": 1,
     "Chile": 1,
     "Copenhagen": 7,
-    "Stockholm": 4,
-    "Sofia": 10,
+    "Stockholm": 5,
+    "Sofia": 11,
     "Bratislava": 2,
     "Zagreb": 2,
     "Helsinki": 7,
@@ -808,7 +822,7 @@
     "Afghánistán": 1,
     "Sýrie": 1,
     "Austrálie": 1,
-    "Belgrade": 6,
+    "Belgrade": 7,
     "Tallinn": 1,
     "Bern": 2,
     "Nigérie": 1,
@@ -820,17 +834,9 @@
     "key": "Kyiv",
     "name_cs": "Kyjev",
     "name_en": "Kyiv",
-    "count": 73
+    "count": 74
   },
   "archive": [
-    {
-      "date": "2026-10-18 10:10",
-      "threat_level": "HIGH",
-      "security_status_cs": "Evropa čelí rostoucí vlně vnitřních i vnějších krizí, dominovaných masovými nepokoji a žhářstvím v Paříži a dalších francouzských městech kvůli životním nákladům. Na východní frontě eskaluje napětí v Černém moři s přímým ohrožením lodní dopravy a NATO, zatímco politická nestabilita v Německu a rozkoly v podpoře Ukrajiny prohlubují makroekonomickou nejistotu.",
-      "security_status_en": "Europe faces a mounting wave of internal and external crises, dominated by mass riots and arson in Paris and other French cities driven by cost-of-living pressures. On the eastern front, tensions in the Black Sea are escalating with direct risks to shipping and NATO security, while political instability in Germany and fractured support for Ukraine deepen macroeconomic uncertainty.",
-      "forecast_cs": "V nejbližších dnech lze očekávat pokračování bezpečnostních operací a politických debat ve Francii a Německu, přičemž napětí kolem bezpečnosti v Černém moři zůstane zvýšené.",
-      "forecast_en": "In the coming days, security operations and political debates in France and Germany are likely to continue, while Black Sea security tensions remain elevated."
-    },
     {
       "date": "2026-10-19 05:00",
       "threat_level": "HIGH",
@@ -934,6 +940,14 @@
       "security_status_en": "Europe is facing severe internal and external pressures, led by massive anti-government protests and social unrest in France and Italy alongside the enduring security threat of the war in Ukraine. While Ukraine has stabilized its critical Starlink communication lines and continues strikes on occupied Crimea, mounting regional tensions and escalating social unrest exert heavy pressure on European markets and political stability.",
       "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající volatilitu na trzích vlivem neustávajících protestů v západní Evropě a bezpečnostních obav spojených s vývojem na Ukrajině.",
       "forecast_en": "Persistent market volatility is expected over the coming days driven by ongoing protests in Western Europe and security concerns linked to developments in Ukraine."
+    },
+    {
+      "date": "2026-10-25 10:29",
+      "threat_level": "HIGH",
+      "security_status_cs": "Evropa čelí vlně masivních protivládních protestů a sociálních nepokojů, zejména ve Francii a Itálii, kde probíhají rozsáhlé demonstrace a střety s policií kvůli životním nákladům. Současně přetrvávají vážná bezpečnostní rizika spojená s válkou na Ukrajině, kde pokračují útoky na Krym a logistická napojení na frontu včetně nedávných výkyvů v síti Starlink.",
+      "security_status_en": "Europe is facing a wave of massive anti-government protests and social unrest, particularly in France and Italy, where widespread demonstrations and clashes with police over the cost of living are taking place. At the same time, severe security risks persist regarding the war in Ukraine, with ongoing strikes on Crimea and front-line logistical dependencies, including recent fluctuations in the Starlink network.",
+      "forecast_cs": "V příštích dnech lze očekávat přetrvávající napětí na finančních trzích v důsledku probíhajících demonstrací v klíčových evropských zemích a přetrvávajících bezpečnostních rizik na Ukrajině.",
+      "forecast_en": "Over the coming days, persistent tension on financial markets is expected due to ongoing demonstrations in key European countries and lingering security risks in Ukraine."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
