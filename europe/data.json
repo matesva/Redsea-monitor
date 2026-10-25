@@ -1,268 +1,261 @@
 {
-  "last_updated": "2026-10-24T10:04:07Z",
+  "last_updated": "2026-10-25T06:00:11Z",
   "assessment": {
     "threat_level": "HIGH",
-    "sentiment_score": 78,
-    "security_status_cs": "Francie čelí masivním protestům a přísným bezpečnostním opatřením po teroristickém útoku a předchozích nepokojích, což zvyšuje politickou nestabilitu v zemi. Ukrajinské útoky na ruská datová centra a pokračující válka mezitím udržují vysoké geopolitické napětí napříč kontinentem.",
-    "security_status_en": "France is facing massive protests and strict security deployments following a terrorist attack and previous riots, exacerbating political instability in the country. Meanwhile, Ukrainian strikes on Russian data centers and the ongoing war keep geopolitical tensions high across the continent.",
+    "sentiment_score": 75,
+    "security_status_cs": "Evropa čelí vážným vnitřním i vnějším tlakům, v čele s rozsáhlými protivládními protesty a sociálními nepokoji ve Francii a Itálii a přetrvávající bezpečnostní hrozbou spojenou s válkou na Ukrajině. Zatímco Ukrajina stabilizovala své klíčové komunikační linky Starlink a pokračuje v úderech na okupovaný Krym, stupňující se napětí v regionu a eskalující sociální nepokoje vytvářejí silný tlak na evropské trhy a politickou stabilitu.",
+    "security_status_en": "Europe is facing severe internal and external pressures, led by massive anti-government protests and social unrest in France and Italy alongside the enduring security threat of the war in Ukraine. While Ukraine has stabilized its critical Starlink communication lines and continues strikes on occupied Crimea, mounting regional tensions and escalating social unrest exert heavy pressure on European markets and political stability.",
     "recommendations": [
       {
         "sector_cs": "Široký evropský akciový trh (Euro Stoxx 50 ETF)",
         "sector_en": "Broad European Equities (Euro Stoxx 50 ETFs)",
-        "action": "HOLD",
-        "reason_cs": "Trhy čelí zvýšené volatilitě kvůli politické nestabilitě ve Francii a celkovému geopolitickému napětí. Doporučujeme vyčkat na stabilizaci situace.",
-        "reason_en": "Markets face heightened volatility due to French political instability and broader geopolitical tensions. We advise waiting for situation stabilization."
+        "action": "SELL",
+        "reason_cs": "Rozsáhlé sociální nepokoje ve Francii a Itálii spolu s geopolitickým napětím zvyšují volatilitu a ohrožují hospodářský růst eurozóny.",
+        "reason_en": "Widespread social unrest in France and Italy alongside geopolitical tensions increase volatility and threaten Eurozone economic growth."
       },
       {
         "sector_cs": "Evropské banky (BNP Paribas, Deutsche Bank, Santander)",
         "sector_en": "European Banks (BNP Paribas, Deutsche Bank, Santander)",
         "action": "HOLD",
-        "reason_cs": "Francouzské bankovní domy čelí tlakům v důsledku domácí politické krize a rozpočtových nejasností. Celkově sektor zůstává pod drobnohledem kvůli makroekonomickému vývoji.",
-        "reason_en": "French banking institutions face pressures stemming from domestic political crisis and budgetary uncertainty. Overall, the sector remains under scrutiny due to macroeconomic trends."
+        "reason_cs": "Bankovní sektor těží z dosavadní měnové politiky ECB a likviditních linek, ale rostoucí politická nestabilita představuje zvýšené úvěrové riziko.",
+        "reason_en": "The banking sector benefits from current ECB monetary policy and liquidity lines, but mounting political instability introduces elevated credit risk."
       },
       {
         "sector_cs": "Obranný průmysl (Rheinmetall, Thales, Leonardo)",
         "sector_en": "Defense Industry (Rheinmetall, Thales, Leonardo)",
         "action": "BUY",
-        "reason_cs": "Trvající konflikt na Ukrajině a debaty o společném evropském dluhu na obranu poskytují sektoru silnou strukturální podporu. Poptávka po vojenských technologiích zůstává na historických maximech.",
-        "reason_en": "The ongoing conflict in Ukraine and debates over common European defense debt provide strong structural support to the sector. Demand for military tech remains at historic highs."
+        "reason_cs": "Pokračující konflikt na Ukrajině a společná vojenská cvičení NATO udržují vysokou poptávku po vojenském vybavení a zajišťují silný příliv zakázek.",
+        "reason_en": "The ongoing conflict in Ukraine and joint NATO military exercises sustain high demand for military equipment and ensure a strong flow of orders."
       },
       {
         "sector_cs": "Energetika (TotalEnergies, Shell, RWE)",
         "sector_en": "Energy (TotalEnergies, Shell, RWE)",
         "action": "HOLD",
-        "reason_cs": "Ceny komodit a ropných derivátů reagují na geopolitické šumy, zatímco sankce a dodavatelské řetězce zůstávají stabilní navzdory rizikům. Doporučujeme opatrné vyčkávání.",
-        "reason_en": "Commodity prices and oil derivatives react to geopolitical noise, while sanctions and supply chains remain stable despite risks. Cautious holding is recommended."
+        "reason_cs": "Ceny energií a komodit zůstávají pod vlivem globálních sankčních režimů a geopolitických výkyvů v Černém moři, což vyžaduje opatrný přístup.",
+        "reason_en": "Energy and commodity prices remain influenced by global sanction regimes and geopolitical shifts in the Black Sea, requiring a cautious approach."
       },
       {
         "sector_cs": "Automobilový průmysl (Volkswagen, BMW, Stellantis)",
         "sector_en": "Automotive Industry (Volkswagen, BMW, Stellantis)",
         "action": "SELL",
-        "reason_cs": "Sektor čelí slabé poptávce, vnitřním problémům na klíčových trzích a hrozbám narušení provozu vlivem sociálních nepokojů a dopravních komplikací.",
-        "reason_en": "The sector faces weak demand, domestic problems in key markets, and threats of operational disruptions due to social unrest and transit complications."
+        "reason_cs": "Slabnoucí kupní síla spotřebitelů v důsledku inflace a rostoucí sociální napětí negativně dopadají na poptávku po automobilech.",
+        "reason_en": "Weakenening consumer purchasing power driven by inflation and rising social tensions are negatively impacting automotive demand."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly jsou ovlivněny celoevropskou náladou a vývojem sazeb, přičemž banky vykazují odolnost vůči vnějším šokům. Energetický ČEZ se drží v silné korelaci s regionálním vývojem.",
-        "reason_en": "Domestic stocks are influenced by pan-European sentiment and rate trajectories, with banks showing resilience against external shocks. Energy firm ČEZ remains strongly correlated with regional trends."
+        "reason_cs": "Domácí tituly zůstávají stabilní, ale jsou pod vlivem celkového negativního sentimentu na širších evropských trzích.",
+        "reason_en": "Domestic equities remain relatively stable but are weighed down by the overall negative sentiment across broader European markets."
       }
     ],
-    "forecast_cs": "V nejbližších dnech se očekává zvýšená nervozita na trzích v reakci na bezpečnostní situaci ve Francii a vývoj kolem ukrajinských útoků v Rusku. Investoři budou nadále sledovat makroekonomická data a politická rizika v regionu.",
-    "forecast_en": "Increased market nervousness is expected in the coming days in response to the security situation in France and developments surrounding Ukrainian strikes in Russia. Investors will continue monitoring macroeconomic data and regional political risks.",
-    "forecast_review_cs": "Předchozí předpověď se potvrdila, neboť politická nestabilita ve Francii a geopolitické napětí nadále určují hlavní směr evropských trhů.",
-    "forecast_review_en": "The previous forecast was confirmed, as French political instability and geopolitical tensions continue to drive the direction of European markets."
+    "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající volatilitu na trzích vlivem neustávajících protestů v západní Evropě a bezpečnostních obav spojených s vývojem na Ukrajině.",
+    "forecast_en": "Persistent market volatility is expected over the coming days driven by ongoing protests in Western Europe and security concerns linked to developments in Ukraine.",
+    "forecast_review_cs": "Předchozí předpověď se plně potvrdila, neboť bezpečnostní situace ve Francii a eskalace kolem ukrajinských operací nadále určují nervózní náladu na trzích.",
+    "forecast_review_en": "The previous forecast was fully confirmed, as the security situation in France and the escalation surrounding Ukrainian operations continue to dictate a nervous market sentiment."
   },
   "articles": [
     {
-      "title": "France prepares for day of protest a week after nationwide riots",
-      "summary": "Hundreds of thousands are expected to turn out, as more than 70,000 police officers are to be deployed over some may defy restrictions.",
-      "link": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 24 Oct 2026 09:34:32 GMT",
+      "title": "Security Sunday: Bringen Frankreichs Proteste Marine Le Pen an die Macht? – mit Martina Meister",
+      "summary": "Brennende Mülltonnen, verbarrikadierte Schaufenster und eine unübersichtliche Mischung aus Gelbwesten, Anarchisten und Banlieue-Jugendlichen auf den Straßen. Was als Schülerprotest in Frankreich begann, hat sich an steigenden Energiepreisen zu einer radikalen Bewegung entzündet. Präsident Emmanuel Macron verliert zunehmend die Kontrolle und wirkt in der Krise wie ein Pilot ohne Cockpit. Inmitten der Eskalation positioniert sich Marine […]",
+      "link": "https://www.politico.eu/podcast/berlin-playbook-podcast/security-sunday-bringen-frankreichs-proteste-marine-le-pen-an-die-macht-mit-martina-meister/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Sun, 25 Oct 2026 05:48:50 +0000",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Martin Wolf on the US midterms: What’s at stake for the world?",
+      "summary": "The FT’s chief economics commentator speaks to writer and historian Anne Applebaum about why the elections matter beyond America",
+      "link": "https://www.ft.com/content/01119d92-0d23-4d91-8a66-44ebd94c2356?syn-25a6b1a6=1",
+      "published": "Sun, 25 Oct 2026 05:00:10 GMT",
+      "source": "Financial Times"
+    },
+    {
+      "title": "The Black Sea is now the world’s deadliest shipping route",
+      "summary": "Fatalities of commercial sailors caught in battle between Russia and Ukraine are outstripping deaths in the Gulf",
+      "link": "https://www.ft.com/content/8c874f60-0041-476d-9c53-8524c374443f?syn-25a6b1a6=1",
+      "published": "Sun, 25 Oct 2026 05:00:02 GMT",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Almost 1,000 arrested as clashes follow another day of mass protests across France",
+      "summary": "Hundreds of thousands took part in demonstrations in France, with protests also taking place in other European countries.",
+      "link": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 25 Oct 2026 04:16:52 GMT",
       "source": "BBC News"
     },
     {
-      "title": "Hundreds of protests expected across France, with shops, businesses and tourist sites closed – Europe live",
-      "summary": "<p>France will deploy 70,000  officers around the country. Protests are also expected in Italy, Spain, Austria, Portugal, Albania and Ireland</p><p>The mood in Paris was heightened by fear and horror after what the government said was <a href=\"https://www.theguardian.com/world/2026/oct/23/macron-condemns-racism-after-one-killed-in-terrorist-shooting-near-paris\">“racist, terrorist attack”</a> in two towns west of the city on Friday.</p><p>A 26-year-old, well-respected martial arts star from a club outside Paris was killed and five other people were injured, including a 12-year-old girl shot eight times as a gunman pointed an automatic weapon from his car.</p><p><em>I want to express our support and condolences to the victims, their families, and all the residents of Trappes.</em></p><p><em>This violence does not come from nowhere, it comes from speeches that convey racism, anti-Semitism, violence, which essentially come from the speeches of the far right</em>.</p> <a href=\"https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news",
-      "published": "Sat, 24 Oct 2026 09:29:53 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "France prepares for more protests with big police deployment",
-      "summary": "Government puts 20% more officers on the streets for Saturday to boost security following last weekend’s riots",
-      "link": "https://www.ft.com/content/643b2bc6-2963-4759-82ae-03db082c71f7?syn-25a6b1a6=1",
-      "published": "Sat, 24 Oct 2026 09:21:27 GMT",
-      "source": "Financial Times"
-    },
-    {
-      "title": "France braces for new protests, tightening security and boarding up shops",
-      "summary": "About 70,000 security personnel will be deployed on Saturday, according to Interior Minister Laurent Nuñez, while Prime Minister Sébastien Lecornu warned late on Friday that 'the threat' of violence 'remains high.'",
-      "link": "https://www.lemonde.fr/en/france/article/2026/10/24/france-braces-for-new-protests-tightening-security-and-boarding-up-shops_6762835_7.html",
-      "published": "Sat, 24 Oct 2026 10:36:09 +0200",
+      "title": "Brazil's Lula and Flavio Bolsonaro neck and neck after bitter runoff campaign",
+      "summary": "Trailing far-right Flavio Bolsonaro after the first round of the presidential election on October 4, President Lula has since benefited from a massive turnout from supporters. He has also taken a few last-minute measures in an attempt to secure a fourth term.",
+      "link": "https://www.lemonde.fr/en/international/article/2026/10/25/brazil-s-lula-and-flavio-bolsonaro-neck-and-neck-after-bitter-runoff-campaign_6763594_4.html",
+      "published": "Sun, 25 Oct 2026 04:27:57 +0100",
       "source": "Le Monde"
     },
     {
-      "title": "Opposition deepfake video of Spanish PM’s wife sparks outrage before election",
-      "summary": "<p>Video shows AI likenesses of people linked to Pedro Sánchez’s Socialist party appearing to admit to wrongdoing</p><p>A political ad from Spain’s main opposition party that used a deepfake video of the prime minister’s wife has sparked outrage and set off a wider debate on AI, as the deeply polarised country gears up for general elections next month.</p><p>Launched <a href=\"https://x.com/ppopular/status/2113002026204344766\">this week</a> across the social media channels of the conservative People’s party (PP), the video used artificial intelligence to manipulate the likenesses of various people linked to Pedro Sánchez’s Socialist party and appeared to show them admitting to acts such as soliciting prostitutes and taking kickbacks.</p> <a href=\"https://www.theguardian.com/world/2026/oct/23/opposition-deepfake-video-spain-election\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/oct/23/opposition-deepfake-video-spain-election",
-      "published": "Sat, 24 Oct 2026 06:51:53 GMT",
+      "title": "The first time Le Monde wrote Yellow Vests",
+      "summary": "During the October 17 protest, the Yellow Vests showed up to support high school students. The term first appeared in Le Monde as early as 1950, when it referred to the most sophisticated spectators at the Théâtre des Champs-Élysées.",
+      "link": "https://www.lemonde.fr/en/m-le-mag/article/2026/10/25/the-first-time-le-monde-wrote-yellow-vests_6763561_117.html",
+      "published": "Sun, 25 Oct 2026 03:42:25 +0100",
+      "source": "Le Monde"
+    },
+    {
+      "title": "Ukraine war briefing: Kyiv targets Russian-occupied Crimea as UK and France conduct joint military exercise",
+      "summary": "<p>Crimea strikes cause water and power cuts; war game designed to show how Nato countries could be defended amid fears of Russian aggression. What we know on day 1,705</p><p><strong>A Ukrainian attack led to water and power cuts in occupied Crimea on Saturday, as a barrage of drones in several regions inside Russia left several dead,</strong> according to Russian authorities. Sergei Aksyonov, the Moscow-installed head of the Crimean peninsula, wrote on Telegram that due to the drone attack on local power grids “restrictions on the supply of electricity and water have been put in place”. He did not specify how many households had been affected in Crimea, which is home to more than 2.5 million people. The peninsula, which was seized from Ukraine by Russia in 2014, is a regular target for Ukrainian attacks.</p><p><strong>A separate Ukrainian strike in part of the north-eastern Kharkiv region held by Russia killed at least three people and gravely wounded another</strong> on Saturday, the Moscow-backed authorities said.</p><p><strong>Drones also rained down inside Russia</strong>. The country’s defence ministry said 616 of them had been shot down overnight across more than 20 regions of the country. During the day, drones hit Russia’s south-western Bryansk border region, killing at least three people, regional acting governor Yegor Kovalchuc said on Telegram.</p><p><strong>In Ukraine, authorities said that at least five people died in several Russian drone and missile strikes</strong> in the country’s east. Dnipropetrovsk regional governor Oleksandr Ganzha on Saturday evening said three people were killed and at least 12 wounded when a Russian drone strike hit the town of Synelnykove, setting the fourth floor of a high-rise building on fire. Authorities in Sumy meanwhile said a Russian drone hit a farm, killing a 31-year-old woman and injuring four others.</p><p><strong>Thousands of British and French troops have taken part in a military training exercise</strong> that included one of Britain’s largest airborne operations in two decades, the UK government said on Sunday. The war game is designed to show how Nato countries could be defended against a modern-day attack and comes during fears about Russian aggression in Europe amid Moscow’s war against Ukraine.</p><p><strong>About 2,500 troops were involved in the seven-week exercise,</strong> in which 600 British and French paratroopers dropped from four RAF A400M Atlas transport aircraft over Germany. The exercise called Rhino Titan, held at the Sennelager military training centre in Germany, has been testing British troops’ ability against an enemy equipped with drones and electronic warfare. “The threats we face in the 21st century require an updated, modern approach to warfare – and our adaptable armed forces are preparing accordingly,” British defence minister Wes Streeting said in a statement.</p><p><strong>Ukraine’s military <a href=\"https://www.theguardian.com/world/2026/oct/24/ukraine-zelenskyy-military-starlink-satellite-connection-stable-after-restrictions\">has a “stable connection to Starlink”</a>, the Ukrainian government said</strong>, 10 days after its ability to use the satellite communications system <a href=\"https://www.theguardian.com/world/2026/oct/14/ukraine-soldiers-combat-access-starlink-satellite-internet-restricted\">was suddenly restricted</a>. But hours after the announcement, SpaceX CEO Elon Musk, whose company owns Starlink, <a href=\"https://x.com/elonmusk/status/2114063986744275011\">accused</a> the Ukrainian military of violating ⁠the company’s terms. Neither Musk nor the US government, which operates Starshield using Starlink technology, took responsibility for imposing the curbs.</p><p><strong>Bulgarians will vote ​in presidential elections on Sunday</strong> as Russia’s war in Ukraine spreads to the waters off Bulgaria’s Black Sea coast. Polls place acting president Iliana ⁠Iotova and ex-caretaker prime minister Andrey Gyurov as leaders in a race of 27 candidates. While the presidency is largely ceremonial, Sunday’s vote has taken ⁠on added significance after a series of drone attacks on merchant ships off Bulgaria’s Black Sea ​coast that likely killed about two-dozen international ‌seafarers.</p> <a href=\"https://www.theguardian.com/world/2026/oct/25/ukraine-war-briefing-kyiv-targets-russian-occupied-crimea-as-uk-and-france-conduct-joint-military-exercise\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/oct/25/ukraine-war-briefing-kyiv-targets-russian-occupied-crimea-as-uk-and-france-conduct-joint-military-exercise",
+      "published": "Sun, 25 Oct 2026 02:37:44 GMT",
       "source": "The Guardian"
     },
     {
-      "title": "Blaze engulfs Hitler’s ‘Eagle’s Nest’ mountain retreat in Bavaria",
-      "summary": "<p>About 200 firefighters deployed to tackle the blaze at former Nazi retreat in a remote part of southern Germany</p><p>German police said Saturday they had detained a suspect after a fire at Adolf Hitler’s former mountain retreat, known as the Eagle’s Nest, in the state of Bavaria.</p><p>About 200 firefighters were deployed to tackle the blaze at the Nazi dictator’s remote and difficult-to-access Kehlsteinhaus residence, on the peak of Obersalzberg in southern Germany.</p> <a href=\"https://www.theguardian.com/world/2026/oct/24/blaze-engulfs-hitlers-eagles-nest-mountain-retreat-in-bavaria\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/oct/24/blaze-engulfs-hitlers-eagles-nest-mountain-retreat-in-bavaria",
-      "published": "Sat, 24 Oct 2026 06:21:44 GMT",
+      "title": "Obama delivers scathing criticisms of Trump while campaigning for Democrats",
+      "summary": "'After two years of chaos and cruelty... enough is enough,' said the former president, encouraging voters to cast early ballots for the upcoming midterm elections.",
+      "link": "https://www.lemonde.fr/en/international/article/2026/10/25/obama-delivers-scathing-criticisms-of-trump-while-campaigning-for-democrats_6763528_4.html",
+      "published": "Sun, 25 Oct 2026 03:03:09 +0100",
+      "source": "Le Monde"
+    },
+    {
+      "title": "Hundreds of thousands protest in France in second weekend of mass demonstrations",
+      "summary": "Government puts 70,000 police officers on the streets to boost security after last weekend’s riots",
+      "link": "https://www.ft.com/content/643b2bc6-2963-4759-82ae-03db082c71f7?syn-25a6b1a6=1",
+      "published": "Sat, 24 Oct 2026 23:23:01 GMT",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Andy Burnham says he wants ‘honest discussion’ about freedom of movement with EU",
+      "summary": "<p>Prime minister is considering different options for new relationship with Brussels ahead of summit in November</p><p>Andy Burnham says he wants an “honest discussion” with the British public about the possibility of a return to free movement between the UK and the EU as part of his plans for a new relationship with the bloc.</p><p>The prime minister has been open about his desire to revisit the relationship between Britain and Brussels. He has said a new deal could mean the <a href=\"https://www.theguardian.com/politics/2026/sep/30/andy-burnham-uk-could-go-all-the-way-rejoining-eu\">UK goes “all the way”</a> and rejoins the EU.</p> <a href=\"https://www.theguardian.com/politics/2026/oct/25/andy-burnham-says-he-wants-honest-discussion-about-freedom-of-movement-with-eu\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/politics/2026/oct/25/andy-burnham-says-he-wants-honest-discussion-about-freedom-of-movement-with-eu",
+      "published": "Sat, 24 Oct 2026 23:07:12 GMT",
       "source": "The Guardian"
     },
     {
-      "title": "‘It’s part of our history’: can the menú del día survive Spain’s changing eating habits?",
-      "summary": "<p>Established under the Franco dictatorship, the lunchtime ritual is in decline but all is not lost</p><p>A little before lunchtime each working day across Spain, evidence of one of the lingering, if less notorious, legacies of the Franco dictatorship is carefully traced in chalk, marker pen and printer ink.</p><p>Beckoning to hungry workers from blackboards, whiteboards and pieces of paper hastily taped to windows, the competitively priced <em><a href=\"https://www.theguardian.com/cities/2019/nov/11/no-more-two-hour-lunch-breaks-the-slow-death-of-spains-menu-del-dia\">menú del día</a></em><a href=\"https://www.theguardian.com/cities/2019/nov/11/no-more-two-hour-lunch-breaks-the-slow-death-of-spains-menu-del-dia\">,</a> or daily set-price lunch, has been part of everyday Spanish life for more than half a century. But while <a href=\"https://elpais.com/gastronomia/2025-02-12/ha-muerto-el-menu-del-dia.html\">4m </a><em><a href=\"https://elpais.com/gastronomia/2025-02-12/ha-muerto-el-menu-del-dia.html\">menús</a></em><a href=\"https://elpais.com/gastronomia/2025-02-12/ha-muerto-el-menu-del-dia.html\"> are still served</a> each weekday, Spain is slowly losing its appetite for the familiar ritual.</p> <a href=\"https://www.theguardian.com/world/2026/oct/24/spain-diners-food-restaurants-menu-del-dia\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/oct/24/spain-diners-food-restaurants-menu-del-dia",
-      "published": "Sat, 24 Oct 2026 06:00:26 GMT",
+      "title": "UK, France stage mock airborne assault in Germany",
+      "summary": "It marks one of Britain’s largest airborne operations in a generation",
+      "link": "https://www.rapporteur.com/news/uk-france-stage-mock-airborne-assault-in-germany/",
+      "published": "Sat, 24 Oct 2026 23:05:47 +0000",
+      "source": "Euractiv"
+    },
+    {
+      "title": "Ukraine military says Starlink service restrictions have been lifted",
+      "summary": "Slowdown in drone communication system had hampered Kyiv’s ability to defend itself against Russian strikes",
+      "link": "https://www.ft.com/content/5b5592f4-c59d-4eb1-af78-078dc32fcab8",
+      "published": "Sat, 24 Oct 2026 21:30:37 GMT",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Ukraine’s military says Starlink satellite connection stable after recent restrictions",
+      "summary": "<p>But Elon Musk, whose company SpaceX owns Starlink, accuses Ukrainian military of violating ⁠the company’s terms</p><p>Ukraine’s military has a “stable connection to Starlink”, the Ukrainian government said, 10 days after its ability to use the satellite communications system <a href=\"https://www.theguardian.com/world/2026/oct/14/ukraine-soldiers-combat-access-starlink-satellite-internet-restricted\">was suddenly restricted</a>.</p><p>But hours after the announcement, SpaceX CEO Elon Musk, whose company owns Starlink, <a href=\"https://x.com/elonmusk/status/2114063986744275011\">accused</a> the Ukrainian military of violating ⁠the company’s terms. Neither Musk nor the US government, which operates Starshield using Starlink technology, took responsibility for imposing the curbs.</p> <a href=\"https://www.theguardian.com/world/2026/oct/24/ukraine-zelenskyy-military-starlink-satellite-connection-stable-after-restrictions\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/oct/24/ukraine-zelenskyy-military-starlink-satellite-connection-stable-after-restrictions",
+      "published": "Sat, 24 Oct 2026 21:25:58 GMT",
       "source": "The Guardian"
     },
     {
-      "title": "Suspect arrested after fire at Hitler's 'Eagle's Nest' retreat",
-      "summary": "Police have detained a suspect after a fire erupted at a historic Nazi mountain retreat known as \"Eagle's Nest\" in Germany.",
-      "link": "https://news.sky.com/story/suspect-arrested-after-fire-at-nazis-wwii-eagles-nest-mountain-retreat-13602938",
-      "published": "Sat, 24 Oct 2026 05:15:00 +0100",
+      "title": "Young protesters clash with police on Rome streets",
+      "summary": "Young protesters clashed with police in Rome on Saturday as demonstrations over wages, the cost of living and public services spread across Italy.",
+      "link": "https://www.euronews.com/2026/10/24/young-protesters-clash-with-police-on-rome-streets",
+      "published": "Sat, 24 Oct 2026 22:51:03 +0200",
+      "source": "Euronews"
+    },
+    {
+      "title": "Hundreds of thousands march in France as protests take place across Europe – as it happened",
+      "summary": "<p>French police have made 1,000 arrests and Italian officers have raided homes in Milan, with protests also taking place in Spain and Albania</p><p>Jesse, 40, a charity worker from the north of Paris, had turned out for the street march.</p><p>She said: “I’m so angry. I’m here to support schoolchildren’s demands for better conditions. I’m so proud of them and we have to stand together.”</p> <a href=\"https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/live/2026/oct/24/france-demonstrations-police-macron-italy-albania-belgium-spain-ukraine-russia-europe-latest-news",
+      "published": "Sat, 24 Oct 2026 20:22:18 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Watch: BBC in Paris as police charge protesters and use tear gas during unrest",
+      "summary": "The BBC's Europe correspondent reports from Paris where mostly peaceful protests turned into unrest after nightfall.",
+      "link": "https://www.bbc.co.uk/news/videos/cm89zqw9lx1do?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 24 Oct 2026 19:37:35 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Milan braces for protests as police flood streets",
+      "summary": "Shopkeepers boarded up windows as thousands of demonstrators took to the streets",
+      "link": "https://www.rapporteur.com/news/milan-braces-for-protests-as-police-flood-streets/",
+      "published": "Sat, 24 Oct 2026 18:13:31 +0000",
+      "source": "Euractiv"
+    },
+    {
+      "title": "Rallies, opinion polls and a final debate - Brazil gets ready for Sunday's knife-edge presidential election",
+      "summary": "Lula against Flavio - both candidates in the second-round presidential election in Brazil hold rallies in major cities on the last day of campaigning. With around 20% of the electorate having abstained in the first round, the result is wide open and opinion polls show them neck and neck.",
+      "link": "https://www.euronews.com/2026/10/24/rallies-opinion-polls-and-a-final-debate-brazil-gets-ready-for-sundays-knife-edge-presiden",
+      "published": "Sat, 24 Oct 2026 19:54:38 +0200",
+      "source": "Euronews"
+    },
+    {
+      "title": "Man arrested after fire at Hitler's mountaintop Eagle's Nest retreat",
+      "summary": "Some 200 emergency personnel were deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.",
+      "link": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 24 Oct 2026 15:21:44 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Israel removes around 250 Palestinian families from West Bank city of Hebron after soldier deaths",
+      "summary": "Days before tight elections are due to be held in Israel, Prime Minister Benjamin Netanyahu has announced a massive operation on the West Bank after two Israeli soldiers were killed by militants at a checkpoint.",
+      "link": "https://www.euronews.com/2026/10/24/israel-removes-around-250-palestinian-families-from-west-bank-city-of-hebron-after-soldier",
+      "published": "Sat, 24 Oct 2026 16:31:04 +0200",
+      "source": "Euronews"
+    },
+    {
+      "title": "Fire engulfs Hitler’s former Eagle’s Nest retreat in Germany",
+      "summary": "A fire broke out at the Eagle's Nest, Adolf Hitler's former mountain retreat in southern Germany. Police say a suspect has been detained, and around 200 firefighters were deployed to tackle the blaze.",
+      "link": "https://www.euronews.com/2026/10/24/fire-engulfs-hitlers-former-eagles-nest-retreat-in-germany",
+      "published": "Sat, 24 Oct 2026 16:11:34 +0200",
+      "source": "Euronews"
+    },
+    {
+      "title": "British and French paratroopers take part in major wargame in Germany",
+      "summary": "Over 2,500 British and French troops have taken part in a wargame in Germany designed to show how NATO territory could be defended against an attack.",
+      "link": "https://news.sky.com/story/british-and-french-paratroopers-take-part-in-major-wargame-in-germany-13603116",
+      "published": "Sat, 24 Oct 2026 15:07:00 +0100",
       "source": "Sky News"
     },
     {
-      "title": "France is looking ungovernable. And it’s going to get worse",
-      "summary": "As disorder engulfs Paris and Marine Le Pen waits in the wings, the country is running out of money, patience and answers",
-      "link": "https://www.ft.com/content/62b83fcf-efad-418d-ba6a-569344fa7ecb",
-      "published": "Sat, 24 Oct 2026 04:00:23 GMT",
-      "source": "Financial Times"
+      "title": "Starlink back to 'the level ⁠we need' in Ukraine, Zelenskyy says",
+      "summary": "The Starlink satellite system is back to operating at the speed Ukraine needs after slowing down for more than a week, damaging Kyiv's ability to defend itself from Russian attacks, Ukraine's President Volodymyr Zelenskyy said.",
+      "link": "https://news.sky.com/story/starlink-back-to-the-level-we-need-in-ukraine-president-zelenskyy-says-13603095",
+      "published": "Sat, 24 Oct 2026 14:29:00 +0100",
+      "source": "Sky News"
     },
     {
-      "title": "The Putin whisperers",
-      "summary": "An American lawyer, a banker and a former spy hatched a plan to prevent nuclear Armageddon. They just needed to tell the Russian president",
-      "link": "https://www.ft.com/content/dcb57f30-bbfe-418d-9e52-5df3074d1764?syn-25a6b1a6=1",
-      "published": "Sat, 24 Oct 2026 04:00:13 GMT",
-      "source": "Financial Times"
+      "title": "250,000 rally in Madrid demanding state pension guarantees",
+      "summary": "Rally comes amid political row over sustainability of Spain's pension scheme and cost of living",
+      "link": "https://www.rapporteur.com/news/250000-rally-in-madrid-demanding-state-pension-guarantees/",
+      "published": "Sat, 24 Oct 2026 13:28:06 +0000",
+      "source": "Euractiv"
+    },
+    {
+      "title": "Ukraine says Starlink connection 'now stable' after network limits",
+      "summary": "The slowed Starlink connections had affected the Ukraine's military and drone operations for a week.",
+      "link": "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 24 Oct 2026 12:12:40 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Tensions flare up across France as marches come to an end",
+      "summary": "Interior Minister Laurent Nuñez told police forces to be \"uncompromising\" with potential rioters.",
+      "link": "https://www.politico.eu/article/france-police-deploy-protests/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Sat, 24 Oct 2026 11:41:22 +0000",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Starlink connection restored at high speed in Ukraine, defense minister says",
+      "summary": "SpaceX's satellite internet service had been restricted since last week.",
+      "link": "https://www.politico.eu/article/starlink-connection-high-speed-ukraine-defense-minister-yevhenii-khmara/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Sat, 24 Oct 2026 10:09:36 +0000",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Commission remains on alert after PHP cybersecurity flaws",
+      "summary": "The EU executive kept its websites online, unlike several European governments",
+      "link": "https://www.rapporteur.com/news/commission-remains-on-alert-after-php-cybersecurity-flaws/",
+      "published": "Sat, 24 Oct 2026 10:03:29 +0000",
+      "source": "Euractiv"
     },
     {
       "title": "Ein Spaziergang mit Martin Blessing",
       "summary": "Ist Deutschland wirklich der kranke Mann Europas oder steht ein wirtschaftliches Comeback bevor? Nach einem milliardenschweren Investitionsgipfel „Invest in Germany“ mit Tech-Größen wie Nvidia-Chef Jensen Huang zieht Martin Blessing, der persönliche Beauftragte des Bundeskanzlers für Investitionen, eine optimistische Bilanz. Es bleibt die entscheidende Frage, wie viel von den zugesagten Milliarden tatsächlich frisches Geld ist und […]",
       "link": "https://www.politico.eu/podcast/berlin-playbook-podcast/ein-spaziergang-mit-martin-blessing/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
       "published": "Sat, 24 Oct 2026 03:00:00 +0000",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Two Balkan elections, one Russia dilemma",
-      "summary": "In both countries, Russia’s shadow could shape the political landscape well beyond Sunday’s vote",
-      "link": "https://www.rapporteur.com/news/two-balkan-elections-one-russia-dilemma/",
-      "published": "Sat, 24 Oct 2026 02:00:51 +0000",
-      "source": "Euractiv"
-    },
-    {
-      "title": "War, huh! Are Eurobonds all it’s good for?",
-      "summary": "The EU will likely issue more common debt to finance Ukraine. Why won’t it do it for itself?",
-      "link": "https://www.rapporteur.com/news/war-huh-are-eurobonds-all-its-good-for/",
-      "published": "Sat, 24 Oct 2026 02:00:29 +0000",
-      "source": "Euractiv"
-    },
-    {
-      "title": "What’s not on the ballot in Israel: Peace",
-      "summary": "At some point, Israelis will have to have conversations about peace and how to reach a settlement with Palestinians. But in this election, the critical issue has just been avoided.",
-      "link": "https://www.politico.eu/article/peace-is-not-on-the-ballot-in-israeli-elections/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Sat, 24 Oct 2026 02:00:00 +0000",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Moody's holds France's credit rating steady despite budget and political uncertainty",
-      "summary": "Defying the forecasts of many economists, the American credit rating agency maintained France's sovereign debt rating at Aa3 on Friday, setting itself apart from the harsher assessments of France's creditworthiness by S&P and Fitch.",
-      "link": "https://www.lemonde.fr/en/economy/article/2026/10/24/moody-s-holds-france-s-credit-rating-steady-despite-budget-and-political-uncertainty_6762703_19.html",
-      "published": "Sat, 24 Oct 2026 03:26:15 +0200",
-      "source": "Le Monde"
-    },
-    {
-      "title": "Argentine judge dismisses case against Milei over alleged crypto scam",
-      "summary": "Argentine President Javier Milei and his sister were accused of promoting a suspected cryptocurrency scam that resulted in at least $100 million in losses for investors. In a ruling reviewed by Agence France-Presse (AFP), the judge wrote that investor losses and the rise and fall in the currency's price were insufficient to establish fraud.",
-      "link": "https://www.lemonde.fr/en/international/article/2026/10/24/argentine-judge-dismisses-case-against-milei-over-alleged-crypto-scam_6762670_4.html",
-      "published": "Sat, 24 Oct 2026 03:14:43 +0200",
-      "source": "Le Monde"
-    },
-    {
-      "title": "Ruins of Limoges city hall a symbol of France divided by national protests",
-      "summary": "Younger Limoges residents see the destruction of their town hall as unfortunate collateral damage in a wider movement. For others, the fire was an unacceptable tragedy.",
-      "link": "https://www.bbc.co.uk/news/articles/cxyvrged14d0o?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 23 Oct 2026 23:09:16 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Who actually controls Ukraine's access to Starlink?",
-      "summary": "President Zelensky says limits to the technology continue to affect Ukrainian forces, while US officials and Elon Musk offer conflicting accounts of who controls it.",
-      "link": "https://www.bbc.co.uk/news/videos/cqy7lvv0lvzpo?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 23 Oct 2026 22:24:36 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Hungary: 70 years after Soviet crackdown, leaders honour uprising victims",
-      "summary": "Seventy years after Hungary's 1956 uprising against Soviet rule, Prime Minister Péter Magyar paid tribute to its victims as Ursula von der Leyen highlighted the importance of freedom and democracy.",
-      "link": "https://www.euronews.com/video/2026/10/24/hungary-70-years-after-soviet-crackdown-leaders-honour-uprising-victims",
-      "published": "Sat, 24 Oct 2026 00:07:01 +0200",
-      "source": "Euronews"
-    },
-    {
-      "title": "This hot AI-fueled stock has been in a rut. It just beat earnings expectations by 36%.",
-      "summary": "A company beating earnings expectations by 36% and revenue expectations by 15% would usually see a postresults bump. But not for Bloom Energy, the fuel-cell maker that has flourished due to data-center demand.",
-      "link": "https://www.marketwatch.com/story/this-hot-ai-fueled-stock-has-been-in-a-rut-it-just-beat-earnings-expectations-by-36-4a4188cb?mod=mw_rss_topstories",
-      "published": "Fri, 23 Oct 2026 21:13:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Some Republicans are opposing Trump on tariffs. Maine’s Susan Collins just got him to back down on Canadian levies.",
-      "summary": "As she faces a tough midterm race, the five-term GOP senator is touting her successful lobbying effort against certain tariffs on Canada",
-      "link": "https://www.marketwatch.com/story/some-republicans-are-opposing-trump-on-tariffs-maines-susan-collins-just-got-him-to-back-down-on-canadian-levies-02b202ae?mod=mw_rss_topstories",
-      "published": "Fri, 23 Oct 2026 20:50:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "The U.S. economy is great by this measure, and the good times aren’t over. So why are Americans so sour?",
-      "summary": "A once-in-a-generation investment boom has created lots of winners — but many Americans are feeling left out.",
-      "link": "https://www.marketwatch.com/story/the-u-s-economy-is-great-by-this-measure-and-the-good-times-arent-over-so-why-are-americans-so-sour-4be897db?mod=mw_rss_topstories",
-      "published": "Fri, 23 Oct 2026 20:19:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
-      "summary": "One person is killed and five wounded in a series of attacks. The suspected gunman has been apprehended.",
-      "link": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 23 Oct 2026 19:42:08 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Hungary marks 1956 uprising amid high-profile absences",
-      "summary": "EU leaders attended Budapest commemorations, but Macron, Merz and Zelenskyy stayed away",
-      "link": "https://www.rapporteur.com/news/hungary-marks-1956-uprising-amid-high-profile-absences/",
-      "published": "Fri, 23 Oct 2026 16:36:58 +0000",
-      "source": "Euractiv"
-    },
-    {
-      "title": "Roswall: ‘Simplification is not about lowering ambition’",
-      "summary": "Environment commissioner accepts petition from activists who fear bonfire of EU nature protection law",
-      "link": "https://www.rapporteur.com/news/roswall-simplification-is-not-about-lowering-ambition/",
-      "published": "Fri, 23 Oct 2026 15:18:02 +0000",
-      "source": "Euractiv"
-    },
-    {
-      "title": "Ukraine and Russia each exchange 270 prisoners of war",
-      "summary": "Kyiv thanked the United States and the United Arab Emirates for facilitating the third stage of the swap.",
-      "link": "https://www.politico.eu/article/ukraine-russia-exchange-270-prisoners-war-zelenskyy-putin-trump/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Fri, 23 Oct 2026 13:31:40 +0000",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Storm Austen batters France and UK with winds of up to 160 km/h",
-      "summary": "Huge waves, uprooted trees and damaged boats mark Storm Austen's arrival in France and the UK. Gusts of up to 160 km/h have battered Brittany, while fallen branches have blocked roads in southern England.",
-      "link": "https://www.euronews.com/video/2026/10/23/storm-austen-batters-france-and-uk-with-winds-of-up-to-160-kmh",
-      "published": "Fri, 23 Oct 2026 15:16:54 +0200",
-      "source": "Euronews"
-    },
-    {
-      "title": "Ukraine hits Russian data centres in blow to Moscow's AI capabilities",
-      "summary": "Drones hit three Yandex facilities, a Sber centre and a VKontakte server farm across five Russian regions, causing persistent failures in payments, navigation and cloud services. Experts say restoring the infrastructure could take months or years.",
-      "link": "https://www.euronews.com/2026/10/23/ukraine-hits-russian-data-centres-in-blow-to-moscows-ai-capabilities",
-      "published": "Fri, 23 Oct 2026 15:07:54 +0200",
-      "source": "Euronews"
-    },
-    {
-      "title": "France: shops barricaded in Lyon and Orléans for possible unrest",
-      "summary": "Wooden boards are going up across France as shopkeepers brace for possible unrest. With a National Rally congress in Orléans and protests approaching in Lyon, businesses fear damage and disruption.",
-      "link": "https://www.euronews.com/video/2026/10/23/france-shops-barricaded-in-lyon-and-orleans-for-possible-unrest-as-protests-loom",
-      "published": "Fri, 23 Oct 2026 14:32:20 +0200",
-      "source": "Euronews"
-    },
-    {
-      "title": "EU prosecutor probes EPP over consultant contracts",
-      "summary": "The European Parliament refused to refund some of the conservative party's pre-election spending.",
-      "link": "https://www.politico.eu/article/eu-prosecutor-probes-epp-consultant-contracts/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Fri, 23 Oct 2026 11:37:43 +0000",
       "source": "Politico Europe"
     },
     {
@@ -308,6 +301,13 @@
       "source": "Der Spiegel"
     },
     {
+      "title": "Fake Jewish Lineage: The Passport Scheme that Exploited Germany’s Nazi History",
+      "summary": "DER SPIEGEL has learned that a large number of fraudsters have obtained German citizenship by claiming to be the descendants of Jews persecuted by the Nazis. The real families are furious.",
+      "link": "https://www.spiegel.de/international/germany/fake-jewish-lineage-the-passport-scheme-that-exploited-germanys-nazi-history-a-215f2f6a-613e-4371-8786-054ed3a90f98#ref=rss",
+      "published": "Thu, 3 Sep 2026 09:41:00 +0200",
+      "source": "Der Spiegel"
+    },
+    {
       "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
       "summary": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump’s threats to impose tariffs and economic sanctions on Colombia.",
       "link": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main",
@@ -337,15 +337,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-12 13:56",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 78,
-      "incidents": 40,
-      "stoxx50": 6192.67,
-      "eur_czk": null
-    },
     {
       "date": "2026-10-12 14:02",
       "threat_level": "HIGH",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "stoxx50": 6068.22,
       "eur_czk": null
+    },
+    {
+      "date": "2026-10-25 06:00",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 75,
+      "incidents": 40,
+      "stoxx50": 6068.22,
+      "eur_czk": null
     }
   ],
   "locations": [
@@ -652,13 +652,6 @@
       "name_en": "Frankfurt"
     },
     {
-      "key": "Strasbourg",
-      "lat": 48.5734,
-      "lon": 7.7521,
-      "name_cs": "Štrasburk",
-      "name_en": "Strasbourg"
-    },
-    {
       "key": "Kyiv",
       "lat": 50.4501,
       "lon": 30.5234,
@@ -680,32 +673,11 @@
       "name_en": "Moscow"
     },
     {
-      "key": "Budapest",
-      "lat": 47.4979,
-      "lon": 19.0402,
-      "name_cs": "Budapešť",
-      "name_en": "Budapest"
-    },
-    {
-      "key": "Vienna",
-      "lat": 48.2082,
-      "lon": 16.3738,
-      "name_cs": "Vídeň",
-      "name_en": "Vienna"
-    },
-    {
-      "key": "Lisbon",
-      "lat": 38.7223,
-      "lon": -9.1393,
-      "name_cs": "Lisabon",
-      "name_en": "Lisbon"
-    },
-    {
-      "key": "Dublin",
-      "lat": 53.3498,
-      "lon": -6.2603,
-      "name_cs": "Dublin",
-      "name_en": "Dublin"
+      "key": "Sofia",
+      "lat": 42.6977,
+      "lon": 23.3219,
+      "name_cs": "Sofie",
+      "name_en": "Sofia"
     },
     {
       "key": "Washington",
@@ -721,14 +693,6 @@
       "lon": -99,
       "name_cs": "Texas",
       "name_en": "Texas",
-      "auto": true
-    },
-    {
-      "key": "Maine",
-      "lat": 45.3,
-      "lon": -69,
-      "name_cs": "Maine",
-      "name_en": "Maine",
       "auto": true
     },
     {
@@ -748,11 +712,11 @@
       "auto": true
     },
     {
-      "key": "Argentin",
-      "lat": -34,
-      "lon": -64,
-      "name_cs": "Argentina",
-      "name_en": "Argentin",
+      "key": "Brazil",
+      "lat": -14.2,
+      "lon": -51.9,
+      "name_cs": "Brazílie",
+      "name_en": "Brazil",
       "auto": true
     },
     {
@@ -761,14 +725,6 @@
       "lon": 34.8,
       "name_cs": "Izrael",
       "name_en": "Israel",
-      "auto": true
-    },
-    {
-      "key": "Uae",
-      "lat": 24.3,
-      "lon": 54.4,
-      "name_cs": "SAE",
-      "name_en": "Uae",
       "auto": true
     },
     {
@@ -789,22 +745,22 @@
     }
   ],
   "location_counts": {
-    "Brussels": 63,
+    "Brussels": 64,
     "Strasbourg": 22,
-    "Kyiv": 72,
-    "Berlin": 59,
+    "Kyiv": 73,
+    "Berlin": 60,
     "Prague": 4,
-    "Paris": 64,
+    "Paris": 65,
     "Warsaw": 29,
-    "Madrid": 41,
-    "Rome": 31,
-    "Frankfurt": 48,
-    "London": 42,
-    "Moscow": 48,
+    "Madrid": 42,
+    "Rome": 32,
+    "Frankfurt": 49,
+    "London": 43,
+    "Moscow": 49,
     "Budapest": 16,
     "Texas": 1,
     "Oklahoma": 1,
-    "Kanada": 2,
+    "Kanada": 1,
     "Izrael": 1,
     "Írán": 2,
     "Čína": 1,
@@ -812,7 +768,7 @@
     "Dublin": 12,
     "Chisinau": 2,
     "Istanbul": 17,
-    "Brazílie": 1,
+    "Brazílie": 2,
     "Turecko": 1,
     "Pákistán": 1,
     "Lisbon": 5,
@@ -843,7 +799,7 @@
     "Chile": 1,
     "Copenhagen": 7,
     "Stockholm": 4,
-    "Sofia": 9,
+    "Sofia": 10,
     "Bratislava": 2,
     "Zagreb": 2,
     "Helsinki": 7,
@@ -864,17 +820,9 @@
     "key": "Kyiv",
     "name_cs": "Kyjev",
     "name_en": "Kyiv",
-    "count": 72
+    "count": 73
   },
   "archive": [
-    {
-      "date": "2026-10-18 05:00",
-      "threat_level": "HIGH",
-      "security_status_cs": "Chyba při automatické analýze AI.",
-      "security_status_en": "Error during automated AI analysis.",
-      "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
-      "forecast_en": "Failed to generate forecast."
-    },
     {
       "date": "2026-10-18 10:10",
       "threat_level": "HIGH",
@@ -978,6 +926,14 @@
       "security_status_en": "France is facing massive protests and strict security deployments following a terrorist attack and previous riots, exacerbating political instability in the country. Meanwhile, Ukrainian strikes on Russian data centers and the ongoing war keep geopolitical tensions high across the continent.",
       "forecast_cs": "V nejbližších dnech se očekává zvýšená nervozita na trzích v reakci na bezpečnostní situaci ve Francii a vývoj kolem ukrajinských útoků v Rusku. Investoři budou nadále sledovat makroekonomická data a politická rizika v regionu.",
       "forecast_en": "Increased market nervousness is expected in the coming days in response to the security situation in France and developments surrounding Ukrainian strikes in Russia. Investors will continue monitoring macroeconomic data and regional political risks."
+    },
+    {
+      "date": "2026-10-25 06:00",
+      "threat_level": "HIGH",
+      "security_status_cs": "Evropa čelí vážným vnitřním i vnějším tlakům, v čele s rozsáhlými protivládními protesty a sociálními nepokoji ve Francii a Itálii a přetrvávající bezpečnostní hrozbou spojenou s válkou na Ukrajině. Zatímco Ukrajina stabilizovala své klíčové komunikační linky Starlink a pokračuje v úderech na okupovaný Krym, stupňující se napětí v regionu a eskalující sociální nepokoje vytvářejí silný tlak na evropské trhy a politickou stabilitu.",
+      "security_status_en": "Europe is facing severe internal and external pressures, led by massive anti-government protests and social unrest in France and Italy alongside the enduring security threat of the war in Ukraine. While Ukraine has stabilized its critical Starlink communication lines and continues strikes on occupied Crimea, mounting regional tensions and escalating social unrest exert heavy pressure on European markets and political stability.",
+      "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající volatilitu na trzích vlivem neustávajících protestů v západní Evropě a bezpečnostních obav spojených s vývojem na Ukrajině.",
+      "forecast_en": "Persistent market volatility is expected over the coming days driven by ongoing protests in Western Europe and security concerns linked to developments in Ukraine."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
