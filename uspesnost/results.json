@@ -1,38 +1,38 @@
 {
- "updated": "2026-10-24T00:36",
+ "updated": "2026-10-25T00:17",
  "band": {
   "7": 2.0,
   "30": 5.0
  },
- "signals_total": 181,
+ "signals_total": 185,
  "summary": {
   "7": {
    "ALL": {
-    "n": 137,
-    "ok": 78,
-    "avg": -0.45
+    "n": 140,
+    "ok": 81,
+    "avg": -0.39
    },
    "BUY": {
-    "n": 50,
-    "ok": 29,
-    "avg": -0.04
+    "n": 51,
+    "ok": 30,
+    "avg": 0.05
    },
    "SELL": {
-    "n": 16,
-    "ok": 12,
-    "avg": -3.57
+    "n": 17,
+    "ok": 13,
+    "avg": -3.39
    },
    "HOLD": {
-    "n": 71,
-    "ok": 37,
-    "avg": -0.03
+    "n": 72,
+    "ok": 38,
+    "avg": -0.0
    }
   },
   "30": {
    "ALL": {
-    "n": 28,
-    "ok": 19,
-    "avg": 0.09
+    "n": 32,
+    "ok": 20,
+    "avg": 0.49
    },
    "BUY": {
     "n": 10,
@@ -45,9 +45,9 @@
     "avg": -6.41
    },
    "HOLD": {
-    "n": 15,
-    "ok": 11,
-    "avg": -0.36
+    "n": 19,
+    "ok": 12,
+    "avg": 0.41
    }
   }
  },
@@ -59,16 +59,16 @@
     "avg": -0.4
    },
    "30": {
-    "n": 6,
+    "n": 7,
     "ok": 4,
-    "avg": 0.58
+    "avg": 2.51
    }
   },
   "USA": {
    "7": {
-    "n": 17,
-    "ok": 12,
-    "avg": 1.42
+    "n": 19,
+    "ok": 14,
+    "avg": 1.5
    },
    "30": {
     "n": 4,
@@ -78,14 +78,14 @@
   },
   "Evropa": {
    "7": {
-    "n": 15,
-    "ok": 6,
-    "avg": 1.37
+    "n": 16,
+    "ok": 7,
+    "avg": 1.32
    },
    "30": {
-    "n": 7,
+    "n": 8,
     "ok": 5,
-    "avg": 3.72
+    "avg": 4.39
    }
   },
   "Blízký východ": {
@@ -119,20 +119,78 @@
     "avg": -2.6
    },
    "30": {
-    "n": 2,
-    "ok": 2,
-    "avg": -2.64
+    "n": 4,
+    "ok": 3,
+    "avg": -3.84
    }
   },
   "Jižní Amerika": {
    "7": {
     "n": 22,
     "ok": 17,
-    "avg": 0.13
+    "avg": 0.17
    }
   }
  },
  "signals": [
+  {
+   "monitor": "Rudé moře",
+   "sector": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
+   "action": "BUY",
+   "date": "2026-10-24",
+   "tickers": [
+    "RHM.DE",
+    "TTE.PA",
+    "AIR.PA",
+    "ALV.DE"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "USA",
+   "sector": "Technologický sektor (Apple, Microsoft, Nvidia)",
+   "action": "HOLD",
+   "date": "2026-10-24",
+   "tickers": [
+    "NVDA",
+    "AAPL",
+    "MSFT"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Blízký východ",
+   "sector": "Ropa a plyn (Chevron, ExxonMobil)",
+   "action": "BUY",
+   "date": "2026-10-24",
+   "tickers": [
+    "CVX"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Čínské akcie (ETF FXI, MCHI)",
+   "action": "SELL",
+   "date": "2026-10-24",
+   "tickers": [
+    "FXI",
+    "MCHI"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
   {
    "monitor": "USA",
    "sector": "Technologický sektor (Apple, Microsoft, Nvidia)",
@@ -282,6 +340,66 @@
    "date": "2026-10-21",
    "tickers": [
     "BMW.DE"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Argentina (Merval, YPF, MercadoLibre)",
+   "action": "HOLD",
+   "date": "2026-10-21",
+   "tickers": [
+    "^MERV",
+    "MELI",
+    "YPF"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
+   "action": "BUY",
+   "date": "2026-10-21",
+   "tickers": [
+    "SCCO",
+    "SQM",
+    "FCX"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
+   "action": "HOLD",
+   "date": "2026-10-21",
+   "tickers": [
+    "CVX",
+    "PBR",
+    "EC"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
+   "action": "BUY",
+   "date": "2026-10-21",
+   "tickers": [
+    "JBS",
+    "BG",
+    "CSAN"
    ],
    "ret7": null,
    "ok7": null,
@@ -303,66 +421,6 @@
    "ok30": null
   },
   {
-   "monitor": "Jižní Amerika",
-   "sector": "Argentina (Merval, YPF, MercadoLibre)",
-   "action": "HOLD",
-   "date": "2026-10-21",
-   "tickers": [
-    "^MERV",
-    "MELI",
-    "YPF"
-   ],
-   "ret7": null,
-   "ok7": null,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Jižní Amerika",
-   "sector": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
-   "action": "BUY",
-   "date": "2026-10-21",
-   "tickers": [
-    "SCCO",
-    "SQM",
-    "FCX"
-   ],
-   "ret7": null,
-   "ok7": null,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Jižní Amerika",
-   "sector": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
-   "action": "HOLD",
-   "date": "2026-10-21",
-   "tickers": [
-    "CVX",
-    "PBR",
-    "EC"
-   ],
-   "ret7": null,
-   "ok7": null,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Jižní Amerika",
-   "sector": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
-   "action": "BUY",
-   "date": "2026-10-21",
-   "tickers": [
-    "JBS",
-    "BG",
-    "CSAN"
-   ],
-   "ret7": null,
-   "ok7": null,
-   "ret30": null,
-   "ok30": null
-  },
-  {
    "monitor": "Evropa",
    "sector": "Energetika (TotalEnergies, Shell, RWE)",
    "action": "BUY",
@@ -739,8 +797,8 @@
     "RTX",
     "NOC"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 4.67,
+   "ok7": true,
    "ret30": null,
    "ok30": null
   },
@@ -754,8 +812,8 @@
     "AAPL",
     "MSFT"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": -0.37,
+   "ok7": true,
    "ret30": null,
    "ok30": null
   },
@@ -767,8 +825,8 @@
    "tickers": [
     "BMW.DE"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 0.63,
+   "ok7": true,
    "ret30": null,
    "ok30": null
   },
@@ -781,7 +839,7 @@
     "^BVSP",
     "EWZ"
    ],
-   "ret7": -0.17,
+   "ret7": 0.82,
    "ok7": true,
    "ret30": null,
    "ok30": null
@@ -919,20 +977,6 @@
   },
   {
    "monitor": "Jižní Amerika",
-   "sector": "Brazilský akciový trh (Bovespa, EWZ)",
-   "action": "HOLD",
-   "date": "2026-10-13",
-   "tickers": [
-    "^BVSP",
-    "EWZ"
-   ],
-   "ret7": 0.42,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Jižní Amerika",
    "sector": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
    "action": "HOLD",
    "date": "2026-10-13",
@@ -958,6 +1002,20 @@
    ],
    "ret7": -3.01,
    "ok7": false,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Brazilský akciový trh (Bovespa, EWZ)",
+   "action": "HOLD",
+   "date": "2026-10-13",
+   "tickers": [
+    "^BVSP",
+    "EWZ"
+   ],
+   "ret7": 0.42,
+   "ok7": true,
    "ret30": null,
    "ok30": null
   },
@@ -1228,64 +1286,6 @@
     "EWZ"
    ],
    "ret7": -2.83,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Rudé moře",
-   "sector": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)",
-   "action": "BUY",
-   "date": "2026-10-08",
-   "tickers": [
-    "MAERSK-B.CO",
-    "HLAG.DE",
-    "ZIM"
-   ],
-   "ret7": -1.13,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Rudé moře",
-   "sector": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
-   "action": "HOLD",
-   "date": "2026-10-08",
-   "tickers": [
-    "RHM.DE",
-    "TTE.PA",
-    "AIR.PA",
-    "ALV.DE"
-   ],
-   "ret7": 5.28,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "USA",
-   "sector": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
-   "action": "SELL",
-   "date": "2026-10-08",
-   "tickers": [
-    "^GSPC"
-   ],
-   "ret7": -0.27,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Evropa",
-   "sector": "Energetika (TotalEnergies, Shell, RWE)",
-   "action": "HOLD",
-   "date": "2026-10-08",
-   "tickers": [
-    "SHEL",
-    "TTE.PA"
-   ],
-   "ret7": 3.37,
    "ok7": false,
    "ret30": null,
    "ok30": null
