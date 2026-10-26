@@ -1,161 +1,346 @@
 {
-  "last_updated": "2026-10-26T06:00:12Z",
+  "last_updated": "2026-10-26T12:00:15Z",
   "assessment": {
-    "threat_level": "HIGH",
-    "sentiment_score": 70,
-    "security_status_cs": "Chyba při automatické analýze AI.",
-    "security_status_en": "Error during automated AI analysis.",
+    "threat_level": "MEDIUM",
+    "sentiment_score": 52,
+    "security_status_cs": "Blížící se midterm volby zvyšují politické napětí a polarizaci v USA, přičemž debata se točí kolem inflace, imigrační politiky a bezpečnosti. Administrativa prezidenta Trumpa čelí zahraničněpolitickým výzvám na Blízkém východě a v Latinské Americe, zatímco domácí trhy a investoři vyčkávají na kroky Fedu.",
+    "security_status_en": "Approaching midterm elections are heightening political tension and polarization across the US, with public debate centered on inflation, immigration, and security. The Trump administration faces foreign policy challenges in the Middle East and Latin America, while domestic markets and investors await Federal Reserve moves.",
     "president_comments": [
       {
-        "topic_cs": "Cla a obchodní politika",
-        "topic_en": "Tariffs and trade policy",
-        "statement_cs": "Bílý dům oznámil, že zrušená cla na kanadské produkty budou nahrazena jinými položkami na seznamu.",
-        "statement_en": "The White House announced that removed Canadian tariffs are being replaced with other products on the list.",
-        "comment_cs": "Pokračující využívání protekcionistických opatření udržuje tlak na dodavatelské řetězce a vyvolává nejistotu na trzích.",
-        "comment_en": "Continued reliance on protectionist measures maintains pressure on supply chains and creates uncertainty in the markets.",
+        "topic_cs": "Blízký východ a Írán",
+        "topic_en": "Middle East and Iran",
+        "statement_cs": "Prezident Trump prohlásil, že brzy rozhodne, zda uzavře s Íránem dohodu, nebo podnikne vojenskou akci k ukončení hrozby.",
+        "statement_en": "President Trump said he is soon deciding whether to make a deal with Iran or take military action to finish it off.",
+        "comment_cs": "Tato rétorika zvyšuje geopolitické napětí v regionu a může vyvolat volatilitu na energetických trzích.",
+        "comment_en": "This rhetoric heightens geopolitical tension in the region and could trigger volatility in energy markets.",
         "market_impact": "NEGATIVE",
         "source": "CNBC",
-        "date": "2026-10-25T10:29:29Z"
+        "date": "2026-10-26T12:00:10Z"
       },
       {
-        "topic_cs": "Volební spory a Alaska",
-        "topic_en": "Election disputes and Alaska",
-        "statement_cs": "Ministerstvo spravedlnosti podniká preventivní kroky s cílem zablokovat certifikaci senátních voleb na Aljašce.",
-        "statement_en": "The Justice Department is taking preemptive steps to block the certification of the Senate election in Alaska.",
-        "comment_en": "This legal activity by the DOJ increases political tension and polarization over the integrity of the electoral process.",
+        "topic_cs": "Imigrační politika",
+        "topic_en": "Immigration Policy",
+        "statement_cs": "Administrativa pokračuje v prosazování radikálních změn imigrační politiky s cílem uzavřít hranice a provést masové deportace.",
+        "statement_en": "The administration continues pushing signature immigration policies aimed at securing a closed border and mass deportations.",
+        "comment_cs": "Zpřísnění imigrace ovlivňuje nabídku práce v klíčových sektorech, což má dopad na inflační tlaky.",
+        "comment_en": "Stricter immigration affects labor supply in key sectors, impacting inflationary pressures.",
         "market_impact": "NEUTRAL",
-        "source": "The Hill",
-        "date": "2026-10-25T10:29:29Z"
+        "source": "BBC News",
+        "date": "2026-10-26T12:00:10Z"
       },
       {
-        "topic_cs": "Kontrola registrace voličů v Kalifornii",
-        "topic_en": "Voter registration oversight in California",
-        "statement_cs": "Federální prokurátoři vyzvali kalifornské úřady k prověření a oddělení potenciálních hlasů neobčanů.",
-        "statement_en": "Federal prosecutors demanded that California county registrars set aside and verify potential noncitizen ballots.",
-        "comment_en": "The confrontation between the federal government and California officials deepens concerns over domestic political stability.",
-        "market_impact": "NEUTRAL",
-        "source": "CBS News",
-        "date": "2026-10-25T10:29:29Z"
+        "topic_cs": "Změny v lesním hospodářství",
+        "topic_en": "Forestry Policy Changes",
+        "statement_cs": "Prezident Trump plánuje zrušit pravidlo o zákazu výstavby silnic v nedotčených lesích s cílem podpořit těžařský průmysl.",
+        "statement_en": "President Trump plans to repeal roadless rules in pristine national forests to open up land for timber companies.",
+        "comment_cs": "Krok přináší úlevu dřevařskému sektoru, avšak naráží na odpor ochránců přírody.",
+        "comment_en": "The move offers relief to the timber sector, though it faces strong pushback from environmentalists.",
+        "market_impact": "POSITIVE",
+        "source": "NPR",
+        "date": "2026-10-26T12:00:10Z"
       }
     ],
-    "recommendations": [],
-    "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
-    "forecast_en": "Failed to generate forecast.",
-    "forecast_review_cs": "N/A",
-    "forecast_review_en": "N/A"
+    "recommendations": [
+      {
+        "sector_cs": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
+        "sector_en": "US Broad Equity Market (S&P 500 ETFs, e.g. VOO, SPY)",
+        "action": "HOLD",
+        "reason_cs": "Trhy čelí politické nejistotě před volbami a inflačním obavám, což doporučuje zachovat opatrnost.",
+        "reason_en": "Markets face pre-election political uncertainty and inflation concerns, warranting a cautious stance."
+      },
+      {
+        "sector_cs": "Státní dluhopisy USA (Treasuries)",
+        "sector_en": "US Treasuries",
+        "action": "BUY",
+        "reason_cs": "Očekávání možných změn úrokových sazeb Fedu a ekonomická nejistota zvyšují poptávku po bezpečných aktivech.",
+        "reason_en": "Expectations of potential Fed rate changes and economic uncertainty increase demand for safe-haven assets."
+      },
+      {
+        "sector_cs": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
+        "sector_en": "Defense Industry (RTX, Lockheed Martin, Northrop Grumman)",
+        "action": "BUY",
+        "reason_cs": "Eskalace globálních geopolitických rizik na Blízkém východě a jinde podporuje poptávku po obranných zakázkách.",
+        "reason_en": "Escalating global geopolitical risks in the Middle East and elsewhere support demand for defense contracts."
+      },
+      {
+        "sector_cs": "Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)",
+        "sector_en": "Banks & Financials (JPMorgan, Bank of America, Goldman Sachs)",
+        "action": "HOLD",
+        "reason_cs": "Finanční sektor zůstává pod drobnohledem kvůli regulačním tlakům a vývoji úrokových sazeb.",
+        "reason_en": "The financial sector remains under scrutiny due to regulatory pressures and interest rate developments."
+      },
+      {
+        "sector_cs": "Technologický sektor (Apple, Microsoft, Nvidia)",
+        "sector_en": "Technology Sector (Apple, Microsoft, Nvidia)",
+        "action": "HOLD",
+        "reason_cs": "Korekce výhledů pro asijský AI trh a rostoucí volatilita vyžadují selektivní přístup namísto plošných nákupů.",
+        "reason_en": "Downward revisions in Asian AI forecasts and rising volatility call for selective buying rather than broad exposure."
+      },
+      {
+        "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
+        "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
+        "action": "HOLD",
+        "reason_cs": "Domácí tituly jsou primárně ovlivněny lokální monetární politikou ČNB a evropským sentimentem, bez přímého vlivu zpráv z USA.",
+        "reason_en": "Domestic stocks are primarily driven by local CNB monetary policy and European sentiment, largely insulated from US news."
+      }
+    ],
+    "forecast_cs": "V následujících dnech lze očekávat nárůst politické kampaně před midterm volbami a pokračující volatilitu na trzích v závislosti na makroekonomických datech.",
+    "forecast_en": "Over the coming days, political campaigning ahead of the midterms is expected to intensify, alongside continued market volatility driven by macroeconomic data.",
+    "forecast_review_cs": "Žádná předchozí předpověď k vyhodnocení.",
+    "forecast_review_en": "No previous forecast to evaluate."
   },
   "articles": [
     {
-      "title": "Brazil's Lula wins historic presidential election; Bolsonaro reportedly refuses to concede",
-      "summary": "It's the first time since Brazil returned to direct elections in 1989 that a candidate has won the final runoff after losing in the first round.",
-      "link": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
-      "published": "Mon, 26 Oct 2026 04:09:41 GMT",
+      "title": "Will Benjamin Netanyahu Win Israel Election? What Polls Show",
+      "summary": "Surveys show the premier faces a difficult path to get the coalition he needs to retain power.",
+      "link": "https://www.newsweek.com/will-benjamin-netanyahu-win-israel-election-what-polls-show-12608991",
+      "published": "Mon, 26 Oct 2026 07:50:55 -0400",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Trump says he'll soon decide whether to ‘make a deal’ with Iran or ‘finish it off'",
+      "summary": "Trump said he is weighing a deal with Iran against renewed military action as tensions escalate across the Middle East.",
+      "link": "https://www.cnbc.com/2026/10/26/us-iran-war-hormuz.html",
+      "published": "Mon, 26 Oct 2026 11:49:17 GMT",
       "source": "CNBC"
     },
     {
-      "title": "Why France Descended Into Nihilism",
-      "summary": "Given its corpulent government and inexplicably entitled populace, I've long been in awe of the fact that France functions at all. In the past four weeks, the verdict is belatedly in: it doesn't. Early estimates of the riots: 1,500 shops damaged, destroyed and/or looted; 1,000 police officers injured; at least 1,800 arrests; innumerable cars burned;",
-      "link": "https://www.realclearpolitics.com/2026/10/24/why_france_descended_into_nihilism_715214.html",
-      "published": "Sun, 25 Oct 2026 22:06:56 -0500",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "How Christianity Became an Issue in TX Senate Race",
-      "summary": "",
-      "link": "https://www.realclearpolitics.com/2026/10/25/how_christianity_became_an_issue_in_tx_senate_race_715315.html",
-      "published": "Sun, 25 Oct 2026 22:06:53 -0500",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Dreadful 'Musk' Documentary Fuels Dems' Midterm Frenzy",
-      "summary": "The new Elon Musk documentary, Musk, is an excruciatingly boring four hours of Luddite fearmongering and left-wing sermonizing.",
-      "link": "https://www.realclearpolitics.com/2026/10/25/dreadful_musk_documentary_fuels_dems_midterm_frenzy_715375.html",
-      "published": "Sun, 25 Oct 2026 22:06:52 -0500",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "When Republicans Won on Antiwar Platform-and Delivered",
-      "summary": "In 1952, the GOP ran on ending war and inflation. Sound familiar?",
-      "link": "https://www.realclearpolitics.com/2026/10/25/when_republicans_won_on_antiwar_platformmdashand_delivered_715374.html",
-      "published": "Sun, 25 Oct 2026 22:06:48 -0500",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "‘We’re not doing great’: Gilgeous-Alexander in tears after Williams suffers gruesome leg injury",
-      "summary": "<ul><li><p>Guard stretchered off court after apparent serious injury</p></li><li><p>Team will learn more about status on Monday</p></li></ul><p>Shai-Gilgeous Alexander scored 34 points and the Oklahoma City Thunder stayed undefeated but they lost All-Star guard Jalen Williams to what appeared to be a serious leg injury during their 108-101 victory over the Los Angeles Clippers on Sunday night.</p><p>Oklahoma City won their third straight game to start the season but lost three players to injury, including Williams, who went down hard on a drive to the basket with 1:14 left. The guard’s left leg gave way as he landed and his foot bent at an unnatural angle. The 25-year-old left the court on a stretcher with towels covering his injured leg. He covered his mouth with his hands when he looked down at the injury while Gilgeous Alexander and players on both teams appeared to be in shock.</p> <a href=\"https://www.theguardian.com/sport/2026/oct/25/jalen-williams-injury-thunder-clippers-nba\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/sport/2026/oct/25/jalen-williams-injury-thunder-clippers-nba",
-      "published": "Mon, 26 Oct 2026 03:06:12 GMT",
+      "title": "Trump intensifies anti-Muslim rhetoric against Abdul El-Sayed at Michigan rally – US politics live",
+      "summary": "<p>The US president was condemned for remarks that questioned the senate candidate’s loyalty to the country</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/2026/oct/26/what-are-midterm-elections\">What are the US midterm elections and why do they matter?</a></p></li><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for Breaking News US email</a></p></li></ul><p><strong>With the <a href=\"https://www.theguardian.com/us-news/us-midterm-elections-2026\">midterm elections</a> fast approaching, many Americans have the <a href=\"https://www.theguardian.com/business/useconomy\">economy</a> on their minds.</strong></p><p>US voters are <a href=\"https://www.theguardian.com/business/2026/oct/15/voters-economy-cost-of-living-prices-poll\">exhausted</a> by years of higher prices. <a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> won the presidency in 2024 on promises to lower inflation and undo the damage he said the Biden administration had inflicted on the economy.</p> <a href=\"https://www.theguardian.com/us-news/live/2026/oct/26/donald-trump-abdul-el-sayed-midterms-michigan-rally-space-latest-us-politics-news-updates\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/live/2026/oct/26/donald-trump-abdul-el-sayed-midterms-michigan-rally-space-latest-us-politics-news-updates",
+      "published": "Mon, 26 Oct 2026 11:38:49 GMT",
       "source": "The Guardian"
     },
     {
-      "title": "Thunder star Jalen 'J-Dub' Williams stretchered off court after gruesome left leg injury leaves him stunned",
-      "summary": "Jalen Williams was stretchered off the court after a gruesome left leg injury during the Oklahoma City Thunder's win over the Los Angeles Clippers.",
-      "link": "https://www.foxnews.com/outkick-sports/thunder-star-jalen-j-dub-williams-stretchered-off-court-gruesome-left-leg-injury-leaves-him-stunned",
-      "published": "Sun, 25 Oct 2026 23:01:06 -0400",
-      "source": "Fox News"
+      "title": "Blanche defends Trump-ordered lawsuit over Alaska Senate election certification",
+      "summary": "Democrats have maintained they have no connection to Daniel J. Sullivan.",
+      "link": "https://www.cnbc.com/2026/10/25/blanche-doj-alaska-senate-certification-lawsuit.html",
+      "published": "Mon, 26 Oct 2026 11:33:09 GMT",
+      "source": "CNBC"
     },
     {
-      "title": "Nicki Minaj tells Trump she’ll support him if he runs again",
-      "summary": "Nicki Minaj joined President Trump at a campaign rally Sunday and said that she would support him if he chose to run again. “So, President Trump, it is an honor to stand with you every single time, and I will continue to support you forever and ever. If you run again, I will support you...",
-      "link": "https://thehill.com/blogs/in-the-know/6171497-nicki-minaj-support-trump-michigan-rally-press-secretary/",
-      "published": "Mon, 26 Oct 2026 02:52:18 +0000",
+      "title": "The House is sitting on the evidence about pulsed microwave attacks",
+      "summary": "Two years ago, I implored Congress and the House Permanent Select Committee on Intelligence specifically to allow me to brief them on evidence the U.S. government possesses of pulsed microwave attacks allegedly perpetrated by Russia, causing so-called Havana Syndrome. These attacks have injured hundreds of U.S. government personnel, including myself, my wife and my two...",
+      "link": "https://thehill.com/opinion/national-security/6167921-the-house-is-sitting-on-the-evidence-about-pulsed-microwave-attacks/",
+      "published": "Mon, 26 Oct 2026 11:30:00 +0000",
       "source": "The Hill"
     },
     {
-      "title": "Trump considering moving White House press corps",
-      "summary": "President Trump confirmed on Sunday he is considering moving the White House press corps from its historic location. “Also, I am not building a swimming pool in the White House Briefing Room, and never had any intention of doing so,” he wrote on Truth Social in a lengthy post about comedian Bill Maher. “I am...",
-      "link": "https://thehill.com/homenews/administration/6171484-donald-trump-considering-moving-white-house-press-corps/",
-      "published": "Mon, 26 Oct 2026 02:36:02 +0000",
+      "title": "Five ways Trump has changed immigration in the US",
+      "summary": "This is how his signature policy has played out after returning to power promising a closed border and mass deportations.",
+      "link": "https://www.bbc.co.uk/news/articles/c9203k1jrmpvo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 26 Oct 2026 11:29:02 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Trump takes blow in Brazil; faces new challenge in Venezuela",
+      "summary": "In today’s issue:  President Trump's South America policy suffered setbacks on Sunday as a key ally took a stunning defeat in Brazil and Venezuela's top opposition leader returned to her home country to challenge its Trump-backed leader.  Brazilian President Luiz Inácio Lula da Silva pulled off a decisive comeback to win another term as president in its runoff after...",
+      "link": "https://thehill.com/newsletters/morning-report/6171628-lula-defeats-bolsonaro-brazil-machado-returns-venezuela/",
+      "published": "Mon, 26 Oct 2026 11:29:01 +0000",
       "source": "The Hill"
     },
     {
-      "title": "Bruce Blakeman calls Kathy Hochul Zohran Mamdani's 'puppet' during New York campaign rally",
-      "summary": "Bruce Blakeman called Kathy Hochul a \"puppet\" of Zohran Mamdani at a campaign rally, accusing both of failing on crime and illegal immigration.",
-      "link": "https://www.foxnews.com/politics/bruce-blakeman-calls-kathy-hochul-zohran-mamdani-puppet-new-york-campaign-rally",
-      "published": "Sun, 25 Oct 2026 22:33:33 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "Thunder's Jalen Williams Carted Off Court With Gruesome Injury",
-      "summary": "Jalen Williams landed on his ankle awkwardly and had to be stretchered off the court, sparking an emotional reaction in the arena.",
-      "link": "https://www.newsweek.com/sports/nba/thunders-jalen-williams-carted-off-court-gruesome-injury-12617385",
-      "published": "Sun, 25 Oct 2026 22:31:45 -0400",
+      "title": "Do You Live in the Rent Belt? Check Our New Midterms Index",
+      "summary": "According to Newsweek's new Rent Belt Index, rent swallows more of a paycheck than it does nationally in 182 House districts.",
+      "link": "https://www.newsweek.com/do-you-live-rent-belt-check-new-midterms-index-12618286",
+      "published": "Mon, 26 Oct 2026 07:28:17 -0400",
       "source": "Newsweek"
     },
     {
-      "title": "Trump Unloads on Bill Maher in 1,300-Word Post After White House Dinner",
-      "summary": "Trump told Maher not to call him again after the comedian defended their White House dinners while continuing to criticize him.",
-      "link": "https://www.newsweek.com/donald-trump-blasts-bill-maher-white-house-dinner-12617352",
-      "published": "Sun, 25 Oct 2026 22:07:20 -0400",
-      "source": "Newsweek"
-    },
-    {
-      "title": "Ninth Circuit questions Trump DOJ's emergency request to set aside 20,000 California mail ballots",
-      "summary": "A Ninth Circuit panel grilled Justice Department lawyers over forcing California to set aside mail-in ballots tied to suspected noncitizens.",
-      "link": "https://www.foxnews.com/politics/ninth-circuit-questions-trump-doj-emergency-request-set-aside-20000-california-mail-ballots",
-      "published": "Sun, 25 Oct 2026 21:26:06 -0400",
+      "title": "Trump escalates attacks on El-Sayed as Michigan Senate race tightens and more top headlines",
+      "summary": "Get all the stories you need-to-know from the most powerful name in news delivered first thing every morning to your inbox.",
+      "link": "https://www.foxnews.com/us/trump-escalates-attacks-el-sayed-michigan-senate-race-tightens-more-top-headlines",
+      "published": "Mon, 26 Oct 2026 07:20:27 -0400",
       "source": "Fox News"
     },
     {
-      "title": "El-Sayed: Trump has as much regard for Constitution as ‘a piece of toilet paper’",
-      "summary": "Michigan Senate candidate Abdul El-Sayed criticized President Trump on Sunday, saying the president has as much regard for the Constitution as “a piece of toilet paper.” In an interview with Al Sharpton on PoliticsNation, El-Sayed was asked about the numerous attacks made by the GOP and Trump about his family background and faith and how...",
-      "link": "https://thehill.com/homenews/campaign/6171437-el-sayed-trump-has-as-much-regard-for-constitution-as-a-piece-of-toilet-paper/",
-      "published": "Mon, 26 Oct 2026 01:20:40 +0000",
+      "title": "Redistricting isn't playing out how the GOP hoped. And, Brazil's Lula wins 4th term",
+      "summary": "Republicans are spending millions on the midterms, and they still may not win districts drawn to favor them. And, Brazil's Luiz Inácio Lula da Silva won a fourth term in a stunning political comeback.",
+      "link": "https://www.npr.org/2026/10/26/g-s1-149917/up-first-newsletter-republican-redistricting-france-serbia-protests-brazil-luiz-inacio-lula-da-silva",
+      "published": "Mon, 26 Oct 2026 07:11:00 -0400",
+      "source": "NPR"
+    },
+    {
+      "title": "Verizon’s stock rises as subscriber surge impresses Wall Street",
+      "summary": "Verizon’s performance on a key measure of subscriber growth was more than double what analysts had expected",
+      "link": "https://www.marketwatch.com/story/verizons-stock-rises-as-subscriber-surge-impresses-wall-street-2be3ef2c?mod=mw_rss_topstories",
+      "published": "Mon, 26 Oct 2026 11:11:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Democrats Can't Fight Crime By Freeing Criminals",
+      "summary": "",
+      "link": "https://www.realclearpolitics.com/2026/10/26/democrats_cant_fight_crime_by_freeing_criminals_715454.html",
+      "published": "Mon, 26 Oct 2026 06:08:44 -0500",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Democrats Are Coming for the CEOs",
+      "summary": "",
+      "link": "https://www.realclearpolitics.com/2026/10/26/democrats_are_coming_for_the_ceos_715379.html",
+      "published": "Mon, 26 Oct 2026 06:03:20 -0500",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Discontent with Trump buoys Democrats in Ohio: ‘People are disgusted by the corruption’",
+      "summary": "<p>In a reliably red state, candidates say dissatisfied voters tell them they’re planning to vote Democrat for the first time </p><p>Democrat Kim McCarthy is canvassing in a middle-class Ohio neighborhood of four-bedroom, three-bathroom homes. There are $70,000 trucks in the driveways and robot lawnmowers at work.</p><p>“This is a neighborhood of two incomes and young families; people working hard,” says McCarthy, who is running against a three-time Republican incumbent for a seat in Ohio’s house of representatives.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/26/ohio-democrats-trump\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/oct/26/ohio-democrats-trump",
+      "published": "Mon, 26 Oct 2026 11:00:42 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "‘We don’t have inflation’? Five charts show the US economic reality of Trump’s second term so far",
+      "summary": "<p>As the US midterm elections approach, we take a look at data to see a true picture of the US economy under Trump</p><p>With the <a href=\"https://www.theguardian.com/us-news/us-midterm-elections-2026\">midterm elections</a> fast approaching, many Americans have the <a href=\"https://www.theguardian.com/business/useconomy\">economy</a> on their minds.</p><p>US voters are <a href=\"https://www.theguardian.com/business/2026/oct/15/voters-economy-cost-of-living-prices-poll\">exhausted</a> by years of higher prices. <a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> won the presidency in 2024 on promises to lower inflation and undo the damage he said the Biden administration had inflicted on the economy.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/26/trump-second-term-economy-charts\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/oct/26/trump-second-term-economy-charts",
+      "published": "Mon, 26 Oct 2026 11:00:42 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "‘It’s a mess right now’: RFK’s sweeping changes place new vaccines in limbo",
+      "summary": "<p>Health secretary’s effort to alter makeup of ACIP panel means no new recommendations coming – even as new vaccines are approved</p><p>US vaccine recommendations are in limbo, access to vaccines is suffering, and some of the uncertainty may continue for years following major blows to vaccination by the Trump administration, experts say.</p><p>Robert F Kennedy Jr, the secretary of the US Department of Health and Human Services (HHS), has made sweeping changes to vaccination policy, cutting childhood immunization recommendations by a third and replacing experts on the Advisory Committee on Immunization Practices (ACIP) with his own handpicked allies.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/26/vaccines-rfk-jr\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/oct/26/vaccines-rfk-jr",
+      "published": "Mon, 26 Oct 2026 11:00:40 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "$800-a-day penalty threatens to bleed investigative reporter dry as explosive legal fight escalates",
+      "summary": "Catherine Herridge's Supreme Court petition challenges how courts weigh reporter's privilege when confidential national security sources are at stake.",
+      "link": "https://www.foxnews.com/politics/800-a-day-penalty-threatens-bleed-investigative-reporter-dry-explosive-legal-fight-escalates",
+      "published": "Mon, 26 Oct 2026 07:00:31 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Planting false information in the news? It's much easier than you think.",
+      "summary": "Faulty midterm polling is bad enough, but it actually gets much worse.",
+      "link": "https://thehill.com/opinion/campaign/6167354-planting-false-information-in-the-news-its-much-easier-than-you-think/",
+      "published": "Mon, 26 Oct 2026 11:00:00 +0000",
       "source": "The Hill"
     },
     {
-      "title": "Gina Hinojosa says there's \"deep disappointment\" in both parties",
-      "summary": "Democratic state Rep. Gina Hinojosa, the Democrat running for governor in Texas, said there's \"deep disappointment in both political parties\" in the Lone Star State.",
-      "link": "https://www.cbsnews.com/news/gina-hinojosa-texas-governors-race-face-the-nation/",
-      "published": "Sun, 25 Oct 2026 21:03:15 -0400",
+      "title": "These four shocks could hand investors an unexpected buying window, strategists say",
+      "summary": "Yardeni Research said a surprise interest-rate decision by the Federal Reserve or increasing constraints in the artificial-intelligence trade could provide valuable entry points for investors.",
+      "link": "https://www.marketwatch.com/story/these-four-shocks-could-hand-investors-an-unexpected-buying-window-strategists-say-5ae7c4db?mod=mw_rss_topstories",
+      "published": "Mon, 26 Oct 2026 10:58:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Biden, Wray and the Dishonest FBI Talking Points",
+      "summary": "",
+      "link": "https://www.realclearpolitics.com/2026/10/24/biden_wray_and_the_dishonest_fbi_talking_points_715293.html",
+      "published": "Mon, 26 Oct 2026 05:47:50 -0500",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Trump Trying To Overturn an Election That Hasn't Happened Yet",
+      "summary": "",
+      "link": "https://www.realclearpolitics.com/2026/10/26/trump_trying_to_overturn_an_election_that_hasnrsquot_happened_yet_715421.html",
+      "published": "Mon, 26 Oct 2026 05:47:47 -0500",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "The Kospi index is the leading indicator for the global AI trade — and Goldman just slashed its forecast by 25%",
+      "summary": "A reduction in the growth multiple that investors are prepared to pay for AI stocks and a rise in volatility has forced Goldman strategist Tim Moe to take an axe to his Korean market target.",
+      "link": "https://www.marketwatch.com/story/the-kospi-index-is-the-leading-indicator-for-the-global-ai-trade-and-goldman-just-slashed-its-forecast-by-25-ccfe2690?mod=mw_rss_topstories",
+      "published": "Mon, 26 Oct 2026 10:43:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Trump Admin Posts Map of America With No Vermont",
+      "summary": "The graphic shared by the Department of Energy prompted questions when the glaring omission was spotted.",
+      "link": "https://www.newsweek.com/trump-admin-posts-map-america-no-vermont-12617718",
+      "published": "Mon, 26 Oct 2026 06:18:55 -0400",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Cheesecake Factory was just the subject of unflattering headlines. It’s actually one of the hottest stocks around.",
+      "summary": "President Barack Obama over the weekend compared President Donald Trump’s White House modifications to “Saddam Hussein opening up a Cheesecake Factory.”",
+      "link": "https://www.marketwatch.com/story/cheesecake-factory-was-just-the-subject-of-unflattering-headlines-its-actually-one-of-the-hottest-stocks-around-8435cc63?mod=mw_rss_topstories",
+      "published": "Mon, 26 Oct 2026 10:04:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Candy prices surge beyond inflation, but Americans still plan to spend billions on Halloween staples",
+      "summary": "Candy prices rose 7.7% over the past year, but Halloween shoppers are expected to spend $4.1 billion on sweets using coupons and sales strategies.",
+      "link": "https://www.foxnews.com/politics/candy-prices-surge-beyond-inflation-americans-still-plan-spend-billions-halloween-staples",
+      "published": "Mon, 26 Oct 2026 06:00:29 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Can GOP Rep. Brian Fitzpatrick, a moderate who's bucked Trump, keep his Pennsylvania swing seat?",
+      "summary": "GOP Rep. Brian Fitzpatrick has consistently won his Pennsylvania swing seat, but Democrats say this election is an opportunity to oust the veteran lawmaker.",
+      "link": "https://www.cnbc.com/2026/10/26/brian-fitzpatrick-bob-harvie-pennsylvania-senate-election.html",
+      "published": "Mon, 26 Oct 2026 10:00:01 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "The school choice decision putting Democratic governors on the clock",
+      "summary": "Democratic governors face an end-of-year deadline to join the nation's first federal school choice program, a decision that could bring massive amounts of money to their states but which opponents fear could severely undermine public schools.  Thirty-one states have opted into the GOP-passed initiative, but so far, that number includes only two blue ones: Colorado...",
+      "link": "https://thehill.com/homenews/state-watch/6169069-federal-school-choice-tax-credit-blue-states/",
+      "published": "Mon, 26 Oct 2026 10:00:00 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "How war, security and coalition math are shaping the Israeli election",
+      "summary": "Israeli voters will head to the polls to cast their votes in a general election on Tuesday.",
+      "link": "https://www.cnbc.com/2026/10/26/israel-election-netanyahu-iran-gaza-palestine.html",
+      "published": "Mon, 26 Oct 2026 09:46:59 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Ted Cruz Booed by F1 Crowd in Texas",
+      "summary": "\"Midterms are coming up. People are already voting with their voice,\" one TV commentator said.",
+      "link": "https://www.newsweek.com/ted-cruz-boos-f1-crowd-video-midterms-us-grand-prix-austin-texas-12617811",
+      "published": "Mon, 26 Oct 2026 05:36:20 -0400",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Trump escalates anti-Muslim attacks against El-Sayed in Michigan",
+      "summary": "President Trump intensified his anti-Muslim rhetoric against Michigan Senate candidate Abdul El-Sayed on Sunday, portraying him as a threat to national security and questioning his loyalty to the United States.",
+      "link": "https://www.npr.org/2026/10/26/nx-s1-6016816/trump-escalates-anti-muslim-attacks",
+      "published": "Mon, 26 Oct 2026 05:22:36 -0400",
+      "source": "NPR"
+    },
+    {
+      "title": "Trump restored the Department of War. Now it’s up to Congress to finish the job",
+      "summary": "A 10th Mountain Division veteran explains why Trump and Hegseth's restoration of the Department of War name clarifies the military mission.",
+      "link": "https://www.foxnews.com/opinion/trump-restored-department-of-war-now-congress-finish-job",
+      "published": "Mon, 26 Oct 2026 05:00:50 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "How AI is transforming hurricane forecasts",
+      "summary": "Hurricane forecasters are increasingly using artificial intelligence to make predictions.",
+      "link": "https://www.npr.org/2026/10/26/nx-s1-6012820/ai-hurricane-forecast-google-deepmind-isaias",
+      "published": "Mon, 26 Oct 2026 05:00:00 -0400",
+      "source": "NPR"
+    },
+    {
+      "title": "Loggers say Roadless Rule repeal won't solve their biggest challenges",
+      "summary": "President Trump is planning to open up some of the nation's last pristine forests to road building and timber companies. But those who work in the woods say it won't do enough to revive the industry.",
+      "link": "https://www.npr.org/2026/10/26/nx-s1-6009247/loggers-say-roadless-rule-repeal-wont-solve-their-biggest-challenges",
+      "published": "Mon, 26 Oct 2026 05:00:00 -0400",
+      "source": "NPR"
+    },
+    {
+      "title": "Trump attacks El-Sayed over his faith, calls him \"jihadist\"",
+      "summary": "President Trump is making his case for Republican candidates in Michigan; he spoke at a rally in Port Huron on Sunday ahead of the Nov. 3 midterm elections.",
+      "link": "https://www.cbsnews.com/news/president-trump-port-huron-rally-republicans/",
+      "published": "Mon, 26 Oct 2026 04:36:01 -0400",
       "source": "CBS News"
     },
     {
-      "title": "NFL fans put on brave face in Paris as Steelers beat Saints with chaos in the city",
-      "summary": "While NFL fans braved Paris amid civil unrest and violent protests to attend the first-ever game in France, some told OutKick it hasn't been as bad as expected.",
-      "link": "https://www.foxnews.com/outkick-sports/nfl-fans-brave-face-paris-steelers-beat-saints-chaos-city",
-      "published": "Sun, 25 Oct 2026 20:58:02 -0400",
-      "source": "Fox News"
+      "title": "Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies aged 46",
+      "summary": "Bauza had voiced a number of characters in this summer's animated hit Coyote vs. Acme.",
+      "link": "https://www.bbc.co.uk/news/articles/cwzd6q630vjeo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 26 Oct 2026 06:16:15 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Gina Hinojosa says there's \"deep disappointment\" in both parties",
+      "summary": "State Rep. Gina Hinojosa, the Democrat running for governor in Texas, said there's \"deep disappointment in both political parties\" in the Lone Star State.",
+      "link": "https://www.cbsnews.com/news/gina-hinojosa-texas-governors-race-face-the-nation/",
+      "published": "Sun, 25 Oct 2026 21:03:00 -0400",
+      "source": "CBS News"
     },
     {
       "title": "Four Corners region faces more flood threats following days of heavy rain",
@@ -172,20 +357,6 @@
       "source": "CBS News"
     },
     {
-      "title": "At least 11 wounded, some children, in Tallahassee shooting near Florida A&M",
-      "summary": "Police are searching for a gunman after a mass shooting in Tallahassee happened near Florida A&M's campus. At least 11 people were shot, some of them children.",
-      "link": "https://www.cbsnews.com/video/at-least-11-wounded-some-children-tallahassee-shooting-florida-am/",
-      "published": "Sun, 25 Oct 2026 19:47:34 -0400",
-      "source": "CBS News"
-    },
-    {
-      "title": "Tillis says it's 'appropriate to take a look at' Alaska ballot with two Dan Sullivans running",
-      "summary": "Sen. Thom Tillis (R-N.C.) on Sunday said it was \"appropriate to take a look at\" the outcome of the Alaska Senate race with two candidates with similar names on the ballot, which prompted a Department of Justice (DOJ) lawsuit. \"Alaska has a candidate who just coincidentally happens to be the same name as my friend...",
-      "link": "https://thehill.com/homenews/campaign/6170783-thom-tillis-look-at-alaska-ballot-with-two-dan-sullivans-running/",
-      "published": "Sun, 25 Oct 2026 23:46:52 +0000",
-      "source": "The Hill"
-    },
-    {
       "title": "Rapper Nicki Minaj joins Trump onstage at Michigan rally",
       "summary": "The Super Bass singer is the latest big name to campaign in Michigan, where a tight Senate race is playing out ahead of the 3 November midterms.",
       "link": "https://www.bbc.co.uk/news/articles/cqrmyl1mljppo?at_medium=RSS&at_campaign=rss",
@@ -193,107 +364,14 @@
       "source": "BBC News"
     },
     {
-      "title": "Trump rallies for Mike Rogers – and Nicki Minaj’s derriere – in Michigan",
-      "summary": "<p>Trump again congratulated Ohio senator’s rear end before his cheeky comment about rapper being ‘hard to miss’</p><p><a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> reiterated his apparent love for buxom bums during a rally in <a href=\"https://www.theguardian.com/us-news/michigan\">Michigan</a> on Sunday where he encouraged the crowd to compliment rapper <a href=\"https://www.theguardian.com/music/nicki-minaj\">Nicki Minaj</a>’s behind.</p><p>Trump’s cheeky comments about Minaj’s derriere came as he explained his recent <a href=\"https://www.theguardian.com/us-news/2026/oct/23/trump-midterm-rallies-male-bodies\">observation</a> on the Republican Ohio senator Jon Husted’s rear end. Earlier in October, Trump <a href=\"https://www.theguardian.com/us-news/2026/oct/17/trump-rally-performance-overview\">said</a> of the former college football player: “I don’t do this with men very often. I started examining his body, because I didn’t know he was a great athlete. And I looked and I watched up and down. I looked at his ass and I looked at the whole – and then I looked at his hands. Look at his hands. He’s got these, like, claws.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/25/trump-nicki-minaj-mike-rogers-michigan-rally\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/oct/25/trump-nicki-minaj-mike-rogers-michigan-rally",
-      "published": "Sun, 25 Oct 2026 22:36:59 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Blanche defends Trump-ordered lawsuit over Alaska Senate election certification",
-      "summary": "Democrats have maintained they have no connection to Daniel J. Sullivan.",
-      "link": "https://www.cnbc.com/2026/10/25/blanche-doj-alaska-senate-certification-lawsuit.html",
-      "published": "Sun, 25 Oct 2026 20:28:55 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Alaska Senate candidate Mary Peltola delays campaign stops after car crash",
-      "summary": "<p>Peltola and her family sustained minor injuries after a driver struck the car transporting group to campaign stop</p><p><a href=\"https://www.theguardian.com/us-news/2026/oct/22/alaska-mary-peltola-senate-midterms\">Mary Peltola</a>, a Democrat who is running for <a href=\"https://www.theguardian.com/us-news/alaska\">Alaska</a>’s lone US Senate seat, and her family suffered minor injuries in a car crash while driving to a campaign stop on Saturday, her campaign said.</p><p>The family was on its way to the Alaska Federation of Natives annual banquet when another vehicle crashed into the one transporting Peltola and her family, her campaign said in a statement on Sunday. Peltola required medical attention after the collision.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/25/mary-peltola-family-car-crash-alaska-senate\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/oct/25/mary-peltola-family-car-crash-alaska-senate",
-      "published": "Sun, 25 Oct 2026 20:28:27 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Suspect in shooting death of Missouri teen on highway charged in second road incident",
-      "summary": "<p>Man accused of shooting teen who was driving to a party is also linked to shooting of a vehicle days earlier, police say</p><p>A man accused in the shooting death of a Missouri teen has been charged in a second shooting incident – both of which involve firing into cars on the highway.</p><p>Alyssa Wilson, 17, was shot and killed as she drove down Interstate 170 in Overland, Missouri, on 14 October. The teen was on her way to a Halloween party at St Louis Zoo, called Boo at the Zoo, when a suspect fired a single shot into the back of Wilson’s Buick Encore.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/25/shooting-death-teen-missouri-highway\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/oct/25/shooting-death-teen-missouri-highway",
-      "published": "Sun, 25 Oct 2026 19:12:05 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Ukraine disputes Elon Musk’s claim that its military violated Starlink terms during drone operations",
-      "summary": "Ukraine challenged Musk’s claim that its military violated Starlink terms, arguing that commercial Starlink limits prevented medium- and long-range strike use.",
-      "link": "https://www.cnbc.com/2026/10/25/ukraine-musk-starlink-terms-dispute.html",
-      "published": "Sun, 25 Oct 2026 18:18:49 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Blanche defends DOJ lawsuit blocking Alaska Senate results if Republican loses",
-      "summary": "Attorney General Todd Blanche defended the Justice Department's suit over Alaska's Senate race in an interview on CNN.",
-      "link": "https://www.npr.org/2026/10/25/nx-s1-6016212/blanche-defends-doj-lawsuit-blocking-alaska-senate-results-if-republican-loses",
-      "published": "Sun, 25 Oct 2026 13:50:35 -0400",
-      "source": "NPR"
-    },
-    {
-      "title": "We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?",
-      "summary": "“I don’t want to enter retirement owing six figures when we have the cash to clear it.”",
-      "link": "https://www.marketwatch.com/story/we-have-a-300-000-mortgage-with-a-2-75-interest-rate-i-want-to-pay-it-off-my-husband-says-im-crazy-whos-right-4ed15226?mod=mw_rss_topstories",
-      "published": "Sun, 25 Oct 2026 17:00:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Audi defends plans for a $4 billion Georgia plant amid VW restructuring, tariffs",
-      "summary": "Audi's CEO defended the company's plans for a $4 billion plant in Georgia, calling it a business decision to grow sales and reduce exposure to U.S. tariffs.",
-      "link": "https://www.cnbc.com/2026/10/25/audi-georgia-us-plant-tariffs-volkswagen.html",
-      "published": "Sun, 25 Oct 2026 16:42:42 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Israelis have changed. Will they change their leadership?",
-      "summary": "Israel is holding a general election this week after years of war. For many Israelis, shaken by the Oct. 7, 2023, attacks and years of war, it is the most consequential in decades.",
-      "link": "https://www.npr.org/2026/10/25/g-s1-149563/israel-election-war-netanyahu",
-      "published": "Sun, 25 Oct 2026 12:00:00 -0400",
-      "source": "NPR"
-    },
-    {
-      "title": "Independent candidates sense a moment. Some Democrats hope they're right.",
-      "summary": "As they look to win the Senate, Democrats are hoping that independent candidates in Nebraska and Montana can help them topple Republicans in a part of the country where their own brand is hurting.",
-      "link": "https://www.npr.org/2026/10/25/nx-s1-5995460/midterms-independent-candidates-nebraska-montana",
-      "published": "Sun, 25 Oct 2026 05:00:00 -0400",
-      "source": "NPR"
-    },
-    {
-      "title": "Obama attacks Trump as he campaigns for Democrats ahead of midterm elections",
-      "summary": "Obama said the election was \"the last best chance to at least rein in some of the foolishness of this administration\".",
-      "link": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 25 Oct 2026 02:27:15 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
-      "summary": "The ex-wife of Donald Trump Jr, with whom she shares five children, announced in May that she had been diagnosed with breast cancer.",
-      "link": "https://www.bbc.co.uk/news/articles/cm1dwzvn6227o?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 24 Oct 2026 19:12:51 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
-      "summary": "Ukraine and Russia confirm the truce in Russian-occupied Oleshky, where residents have had to eat garden weeds to survive.",
-      "link": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 24 Oct 2026 07:17:44 GMT",
+      "title": "How a California mansion filled with surrogate children became a 'House of Horrors'",
+      "summary": "Guojun Xuan and Silvia Zhang have been charged with conspiracy to commit child abuse after police searched their stately mansion.",
+      "link": "https://www.bbc.co.uk/news/articles/ckp8gzdj5m4eo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 25 Oct 2026 04:07:32 GMT",
       "source": "BBC News"
     }
   ],
   "history": [
-    {
-      "date": "2026-10-13 13:19",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 78,
-      "incidents": 40,
-      "sp500": 7807.24,
-      "usd_czk": null
-    },
     {
       "date": "2026-10-14 05:00",
       "threat_level": "HIGH",
@@ -554,6 +632,15 @@
       "incidents": 10,
       "sp500": 7623.68,
       "usd_czk": 21.734
+    },
+    {
+      "date": "2026-10-26 12:00",
+      "threat_level": "MEDIUM",
+      "value": 2,
+      "sentiment_score": 52,
+      "incidents": 8,
+      "sp500": 7623.68,
+      "usd_czk": 21.734
     }
   ],
   "locations": [
@@ -563,20 +650,6 @@
       "lon": -77.0369,
       "name_cs": "Washington, D.C.",
       "name_en": "Washington, D.C."
-    },
-    {
-      "key": "New York",
-      "lat": 40.7128,
-      "lon": -74.006,
-      "name_cs": "New York",
-      "name_en": "New York"
-    },
-    {
-      "key": "Los Angeles",
-      "lat": 34.0522,
-      "lon": -118.2437,
-      "name_cs": "Los Angeles",
-      "name_en": "Los Angeles"
     },
     {
       "key": "Texas",
@@ -600,6 +673,20 @@
       "name_en": "California"
     },
     {
+      "key": "Border",
+      "lat": 31.7619,
+      "lon": -106.485,
+      "name_cs": "Hranice s Mexikem (El Paso)",
+      "name_en": "US-Mexico Border (El Paso)"
+    },
+    {
+      "key": "Wall Street",
+      "lat": 40.7069,
+      "lon": -74.0113,
+      "name_cs": "Wall Street",
+      "name_en": "Wall Street"
+    },
+    {
       "key": "Ohio",
       "lat": 40.4173,
       "lon": -82.9071,
@@ -614,11 +701,11 @@
       "name_en": "Michigan"
     },
     {
-      "key": "Georgia",
-      "lat": 32.1656,
-      "lon": -82.9001,
-      "name_cs": "Georgie (USA)",
-      "name_en": "Georgia (US)"
+      "key": "Pennsylvania",
+      "lat": 41.2033,
+      "lon": -77.1945,
+      "name_cs": "Pensylvánie",
+      "name_en": "Pennsylvania"
     },
     {
       "key": "Arizona",
@@ -642,13 +729,6 @@
       "name_en": "Utah"
     },
     {
-      "key": "Oklahoma",
-      "lat": 35.0078,
-      "lon": -97.0929,
-      "name_cs": "Oklahoma",
-      "name_en": "Oklahoma"
-    },
-    {
       "key": "Alaska",
       "lat": 64.2008,
       "lon": -149.4937,
@@ -663,19 +743,27 @@
       "name_en": "Mexico"
     },
     {
+      "key": "Cuba",
+      "lat": 21.5,
+      "lon": -79,
+      "name_cs": "Kuba",
+      "name_en": "Cuba",
+      "auto": true
+    },
+    {
+      "key": "Venezuela",
+      "lat": 7,
+      "lon": -66,
+      "name_cs": "Venezuela",
+      "name_en": "Venezuela",
+      "auto": true
+    },
+    {
       "key": "Brazil",
       "lat": -14.2,
       "lon": -51.9,
       "name_cs": "Brazílie",
       "name_en": "Brazil",
-      "auto": true
-    },
-    {
-      "key": "Ukrain",
-      "lat": 50.45,
-      "lon": 30.52,
-      "name_cs": "Ukrajina",
-      "name_en": "Ukrain",
       "auto": true
     },
     {
@@ -695,28 +783,28 @@
       "auto": true
     },
     {
-      "key": "France",
-      "lat": 48.86,
-      "lon": 2.35,
-      "name_cs": "Paříž",
-      "name_en": "France",
+      "key": "Iran",
+      "lat": 32.4,
+      "lon": 53.7,
+      "name_cs": "Írán",
+      "name_en": "Iran",
       "auto": true
     }
   ],
   "location_counts": {
-    "Florida": 36,
-    "Texas": 57,
-    "Washington": 57,
+    "Florida": 37,
+    "Texas": 58,
+    "Washington": 58,
     "New York": 48,
-    "California": 41,
+    "California": 42,
     "Capitol": 14,
-    "Border": 16,
+    "Border": 17,
     "Los Angeles": 9,
-    "Wall Street": 45,
+    "Wall Street": 46,
     "Illinois": 7,
-    "Colorado": 11,
+    "Colorado": 12,
     "Canada": 17,
-    "Brazílie": 1,
+    "Brazílie": 2,
     "Ukrajina": 2,
     "Rusko": 1,
     "Írán": 1,
@@ -733,26 +821,26 @@
     "Hongkong": 1,
     "Indie": 1,
     "Berlín": 1,
-    "Michigan": 28,
+    "Michigan": 29,
     "Georgia": 15,
     "Maine": 18,
-    "Mexico": 11,
+    "Mexico": 12,
     "Singapur": 1,
     "Chicago": 11,
-    "Ohio": 29,
-    "Arizona": 16,
+    "Ohio": 30,
+    "Arizona": 17,
     "Minnesota": 17,
     "Virginia": 9,
-    "Izrael": 1,
+    "Izrael": 2,
     "Austrálie": 1,
-    "Alaska": 13,
+    "Alaska": 14,
     "Jižní Korea": 1,
     "Severní Korea": 1,
     "New Jersey": 6,
     "Afghánistán": 1,
     "Louisiana": 8,
     "Egypt": 1,
-    "Pennsylvania": 13,
+    "Pennsylvania": 14,
     "North Carolina": 6,
     "Brusel": 1,
     "Wisconsin": 7,
@@ -766,7 +854,7 @@
     "Oklahoma": 7,
     "Jihoafrická republika": 1,
     "Seattle": 1,
-    "Utah": 2,
+    "Utah": 3,
     "Turecko": 1,
     "Massachusetts": 1,
     "Argentina": 1,
@@ -776,17 +864,9 @@
     "key": "Texas",
     "name_cs": "Texas",
     "name_en": "Texas",
-    "count": 57
+    "count": 58
   },
   "archive": [
-    {
-      "date": "2026-10-19 11:43",
-      "threat_level": "HIGH",
-      "security_status_cs": "Americká politická scéna je vysoce napjatá kvůli blížícím se nejdražším střednědobým volbám v historii, přičemž administrativa čelí střetům ohledně projektů ve Washingtonu D.C. a kontroverzním rozhodnutím o sankciích vůči Rusku. Na ekonomické frontě zápasí technologické akcie s korekcí během klíčového týdne výsledkové sezóny, zatímco domácí bezpečnost čelí incidentům včetně střelby v hlavním městě.",
-      "security_status_en": "The US political landscape is highly tense ahead of the most expensive midterm elections in history, with the administration facing clashes over D.C. projects and controversial decisions on Russia sanctions. On the economic front, tech stocks struggle with a correction during a crucial earnings week, while domestic security faces incidents including a shooting in the capital.",
-      "forecast_cs": "V nejbližších dnech lze očekávat volatilitu na akciových trzích poháněnou výsledkovou sezónou velkých technologií a stupňující se rétorikou před volbami.",
-      "forecast_en": "In the coming days, volatility in equity markets is expected, driven by big tech earnings season and intensifying pre-election rhetoric."
-    },
     {
       "date": "2026-10-20 05:00",
       "threat_level": "HIGH",
@@ -890,10 +970,18 @@
       "security_status_en": "Error during automated AI analysis.",
       "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
       "forecast_en": "Failed to generate forecast."
+    },
+    {
+      "date": "2026-10-26 12:00",
+      "threat_level": "MEDIUM",
+      "security_status_cs": "Blížící se midterm volby zvyšují politické napětí a polarizaci v USA, přičemž debata se točí kolem inflace, imigrační politiky a bezpečnosti. Administrativa prezidenta Trumpa čelí zahraničněpolitickým výzvám na Blízkém východě a v Latinské Americe, zatímco domácí trhy a investoři vyčkávají na kroky Fedu.",
+      "security_status_en": "Approaching midterm elections are heightening political tension and polarization across the US, with public debate centered on inflation, immigration, and security. The Trump administration faces foreign policy challenges in the Middle East and Latin America, while domestic markets and investors await Federal Reserve moves.",
+      "forecast_cs": "V následujících dnech lze očekávat nárůst politické kampaně před midterm volbami a pokračující volatilitu na trzích v závislosti na makroekonomických datech.",
+      "forecast_en": "Over the coming days, political campaigning ahead of the midterms is expected to intensify, alongside continued market volatility driven by macroeconomic data."
     }
   ],
-  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
-  "weekly_summary_en": "Over the last 7 recorded analyses: 7× HIGH.",
+  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 6× HIGH, 1× MEDIUM.",
+  "weekly_summary_en": "Over the last 7 recorded analyses: 6× HIGH, 1× MEDIUM.",
   "market_data": {
     "sp500": {
       "value": 7623.68,
