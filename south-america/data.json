@@ -1,170 +1,247 @@
 {
-  "last_updated": "2026-10-25T10:30:19Z",
+  "last_updated": "2026-10-26T06:02:09Z",
   "assessment": {
     "threat_level": "HIGH",
     "sentiment_score": 72,
-    "security_status_cs": "Jižní Amerika čelí vysoké politické nestabilitě, již dominují extrémně těsné prezidentské volby v Brazílii mezi levicovým Lulou a pravicovým Fláviem Bolsonarem. V Argentině pokračuje napjaté ekonomické manévrování prezidenta Mileie pod tlakem blížících se voleb a rostoucí inflace. Region nadále zatěžují strukturální problémy, jako jsou dopady nemocí drůbeže na exporty, kolísavé ceny komodit a přetrvávající bezpečnostní krize v Andském regionu.",
-    "security_status_en": "South America is facing high political instability, dominated by the exceptionally tight Brazilian presidential runoff between left-winger Lula and right-winger Flávio Bolsonaro. In Argentina, President Milei's tense economic maneuvering continues amid approaching elections and inflationary pressures. The region remains burdened by structural issues such as poultry disease impacts on exports, volatile commodity prices, and persistent security crises in the Andean region.",
+    "security_status_cs": "Brazílie čelí hluboké politické polarizaci a protestům tábora poraženého Flávia Bolsonara po těsném vítězství Luize Inácia Luly da Silvy ve druhém kole prezidentských voleb. Ve Venezuele mezitím vyvolalo návrat do exilu opoziční líderky Marie Coriny Machado nové napětí vůči prozatímní vládě Delcy Rodríguez, zatímco globální trhy vstřebávají výkyvy komodit a měnového trhu. V Andsko-karibském regionu přetrvávají bezpečnostní rizika spojená s organizovaným zločinem, zejména v Haiti a Ekvádoru.",
+    "security_status_en": "Brazil faces deep political polarization and protests from the camp of defeated Flávio Bolsonaro following the narrow runoff victory of Luiz Inácio Lula da Silva. Meanwhile, in Venezuela, the return from exile of opposition leader María Corina Machado has reignited tensions with the interim government of Delcy Rodríguez, as global markets absorb commodity and currency volatility. Security risks tied to organized crime persist across the Andean-Caribbean region, notably in Haiti and Ecuador.",
     "recommendations": [
       {
         "sector_cs": "Brazilský akciový trh (Bovespa, EWZ ETF)",
         "sector_en": "Brazilian Equities (Bovespa, EWZ ETF)",
         "action": "HOLD",
-        "reason_cs": "Extrémně těsný souboj mezi Lulou a Bolsonarem vytváří maximální politickou nejistotu a volatilitu trhů. Doporučujeme vyčkat na oficiální výsledky a usazení politického směřování.",
-        "reason_en": "The extremely tight contest between Lula and Bolsonaro creates maximum political uncertainty and market volatility. It is advisable to wait for official results and the stabilization of political direction."
+        "reason_cs": "Těsné volební vítězství Luly a hrozby právního napadení výsledků ze strany bolsonarovců zvyšují krátkodobou volatilitu a tlak na real k úrovni 5,00 BRL/USD. Investorům se doporučuje vyčkat na ustálení politické situace a složení nového Kongresu.",
+        "reason_en": "Lula's narrow victory and threats of legal challenges by the Bolsonaro camp are driving short-term volatility and pressure on the real near 5.00 BRL/USD. Investors are advised to wait for political stabilization and clarity on the new Congress."
       },
       {
         "sector_cs": "Argentina (Merval, YPF, MercadoLibre)",
         "sector_en": "Argentina (Merval, YPF, MercadoLibre)",
-        "action": "HOLD",
-        "reason_cs": "Země balancuje mezi úspěšnou stabilizací cen a rostoucím politickým tlakem rok před volbami. Rizika spojená s reformním modelem a vyšetřováním vyžadují opatrnost.",
-        "reason_en": "The country is balancing between successful price stabilization and mounting political pressure a year ahead of elections. Risks associated with the reform model and ongoing investigations warrant caution."
+        "action": "BUY",
+        "reason_cs": "Sledování argentinských reforem a stabilizace inflace nadále láká rizikovější kapitál navzdory regionálnímu napětí. Akcie zůstávají atraktivní pro dlouhodobější růstové investory.",
+        "reason_en": "Ongoing Argentine reforms and inflation stabilization continue to attract risk-tolerant capital despite regional tensions. Equities remain attractive for longer-term growth investors."
       },
       {
         "sector_cs": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
         "sector_en": "Mining: Copper & Lithium (Southern Copper, SQM, Freeport)",
-        "action": "BUY",
-        "reason_cs": "Poptávka po strategických kovech zůstává silná navzdory globálním rizikům, což podporuje fundamenty těžařů v Chile a Peru. Regionální politické třenice mají na tento sektor jen omezený dopad.",
-        "reason_en": "Demand for strategic metals remains robust despite global risks, supporting the fundamentals of miners in Chile and Peru. Regional political friction has only a limited impact on this sector."
+        "action": "HOLD",
+        "reason_cs": "Ceny průmyslových kovů čelí nejistotě ohledně globální poptávky a kroku Fedu, přičemž produkce v Chile a Peru zůstává stabilní ale pod politickým tlakem.",
+        "reason_en": "Industrial metal prices face global demand uncertainty and Federal Reserve policy shifts, while production in Chile and Peru remains stable but politically sensitive."
       },
       {
         "sector_cs": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
         "sector_en": "Oil & Energy (Petrobras, Ecopetrol, Chevron)",
         "action": "HOLD",
-        "reason_cs": "Ceny ropy jsou stabilní, ale energetické tituly v Brazílii čelí tlaku vlivem politických změn a vládních zásahů. Opatrnost je namístě vzhledem k regulačním rizikům v Kolumbii.",
-        "reason_en": "Oil prices are stable, but energy equities in Brazil face pressure due to political shifts and government interventions. Caution is warranted given regulatory risks in Colombia."
+        "reason_cs": "Globální ceny ropy mírně korigují z maxim a ruské dodávky drží stabilní objemy navzdory sankcím, což limituje výraznější růstový potenciál jihoamerických těžařů.",
+        "reason_en": "Global crude prices are retreating slightly from highs and Russian export volumes remain stable despite sanctions, limiting the near-term upside for South American producers."
       },
       {
         "sector_cs": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
         "sector_en": "Agriculture & Food (JBS, Bunge, Cosan)",
-        "action": "SELL",
-        "reason_cs": "Zákazy dovozu brazilské drůbeže ze strany Uruguaye kvůli chorobě Newcastle a rekordní ceny kávy kvůli americko-kolumbijským celním sporům zvyšují maržová rizika. Odvětví čelí eskalujícím obchodním bariérám.",
-        "reason_en": "Uruguay's import bans on Brazilian poultry due to Newcastle disease and record coffee prices amid US-Colombia tariff disputes increase margin risks. The sector faces escalating trade barriers."
+        "action": "BUY",
+        "reason_cs": "Ceny kávy dosáhly rekordních maxim kvůli napětí kolem amerických celních hrozeb vůči Kolumbii, což podporuje marže klíčových jihoamerických exportérů potravin a komodit.",
+        "reason_en": "Coffee prices hit record highs amid tariff tensions regarding Colombia, supporting the margins of key South American food and commodity exporters."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Dění v Jižní Americe má na české blue chips pouze zanedbatelný nepřímý vliv skrz globální tržní náladu. Tituly se nadále řídí primárně domácí monetární politikou a evropským makroekonomickým vývojem.",
-        "reason_en": "South American developments have only a negligible indirect impact on Czech blue chips via global market sentiment. These equities continue to be driven primarily by domestic monetary policy and European macroeconomic trends."
+        "reason_cs": "Dění v Jižní Americe má na české blue chips pouze zanedbatelný nepřímý dopad prostřednictvím globální nálady na rozvíjejících se trzích a měnových výkyvů. Tituly se řídí primárně evropskými fundamenty.",
+        "reason_en": "South American developments have a negligible indirect impact on Czech blue chips via emerging market sentiment and currency shifts. These stocks remain driven primarily by European fundamentals."
       }
     ],
-    "forecast_cs": "Trhy v nejbližších dnech plně vstřebají výsledky brazilského prezidentského run-offu, což vyvolá prudké pohyby na měnových trzích. Investoři budou nadále bedlivě sledovat vývoj inflace a politické stability v Argentině a Ando-karibském regionu.",
-    "forecast_en": "Markets will fully digest the results of the Brazilian presidential runoff in the coming days, triggering sharp currency movements. Investors will continue to closely monitor inflation trends and political stability in Argentina and the Andean-Caribbean region.",
-    "forecast_review_cs": "Předchozí předpověď se plně potvrdila, neboť trhy reagovaly na extrémně napjatou situaci po brazilských volbách nárůstem volatility a opatrnosti.",
-    "forecast_review_en": "The previous forecast was fully confirmed as markets reacted to the extremely tense situation following the Brazilian elections with increased volatility and caution."
+    "forecast_cs": "Trhy v nejbližších dnech plně vstřebají výsledky brazilského prezidentského run-offu a reakce tábora poražených, což vyvolá přechodnou volatilitu na brazilském reálu i tamní burze. Investoři budou bedlivě sledovat vývoj vládní koalice v Brazílii a geopolitické dopady návratu opozice ve Venezuele.",
+    "forecast_en": "Markets will fully absorb the results of the Brazilian presidential runoff and the defeated camp's response in the coming days, triggering transitional volatility on the Brazilian real and B3 exchange. Investors will closely monitor Brazil's legislative coalition building and the geopolitical fallout from the opposition's return in Venezuela.",
+    "forecast_review_cs": "Předchozí předpověď se potvrdila; trhy okamžitě reagovaly na výsledek brazilského run-offu volatilitou měn a nutností vyhodnotit politickou stabilitu.",
+    "forecast_review_en": "The previous forecast was confirmed; markets immediately reacted to the outcome of the Brazilian runoff with currency volatility and a strong focus on political stability."
   },
   "articles": [
     {
-      "title": "Uruguay Halts Brazil Poultry on Bird Disease",
-      "summary": "<p>Uruguay suspended imports and transit of Brazilian birds and poultry products, with no end date, after Newcastle disease struck a Santa Catarina turkey farm.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/uruguay-halts-brazil-poultry-newcastle-disease-2026/\">Uruguay Halts Brazil Poultry on Bird Disease</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/uruguay-halts-brazil-poultry-newcastle-disease-2026/",
-      "published": "Sun, 25 Oct 2026 10:15:57 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Argentina’s Colapinto Starts 21st in Austin",
-      "summary": "<p>Argentina’s Franco Colapinto starts Sunday’s US Grand Prix from 21st after a 10-place penalty, and Alpine has backed him after a guest’s nationality remark.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/colapinto-starts-21st-us-grand-prix-2026/\">Argentina’s Colapinto Starts 21st in Austin</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/colapinto-starts-21st-us-grand-prix-2026/",
-      "published": "Sun, 25 Oct 2026 10:10:41 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Brazil’s Azul Gets Up to US$397M Fuel Loan",
-      "summary": "<p>Azul arranged a loan of up to US$397 million with federal credit-risk cover, usable only for domestic jet fuel, as high fuel prices slow its recovery.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/azul-fuel-loan-state-guarantee-2026/\">Brazil’s Azul Gets Up to US$397M Fuel Loan</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/azul-fuel-loan-state-guarantee-2026/",
-      "published": "Sun, 25 Oct 2026 09:59:02 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Peru Corrects Error in Decree Powers Law",
-      "summary": "<p>Peru’s Congress fixed the opening line of Law 32743 on Saturday 24 October 2026, after it named only the Senate. Both chambers’ leaders meet on Tuesday.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/peru-decree-powers-law-error-corrected-2026/\">Peru Corrects Error in Decree Powers Law</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/peru-decree-powers-law-error-corrected-2026/",
-      "published": "Sun, 25 Oct 2026 09:57:34 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Falklands Government reminds 2026 Census latecomers to submit returns",
-      "summary": "<p>\n\t   \t      <img alt=\"All households are legally required to complete the census\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111885/100x80/flks.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         The Falkland Islands Government (FIG) has reminded residents who have not yet completed their 2026 Census to do so as soon as possible.</p>",
-      "link": "https://en.mercopress.com/2026/10/25/falklands-government-reminds-2026-census-latecomers-to-submit-returns?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Sun, 25 Oct 2026 09:37:00 GMT",
+      "title": "Lula wins Brazil’s presidency for a fourth time with 51.8% of the vote",
+      "summary": "<p>\n\t   \t      <img alt=\"Lula is the first candidate to win the presidency after coming second in the first round since Brazil returned to direct presidential elections in 1989\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111894/100x80/lula.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Brazilian President Luiz Inácio Lula da Silva won Sunday’s presidential runoff with 51.78% of valid votes against 48.22% for Senator Flávio Bolsonaro, according to the Superior Electoral Court, with 99.97% of the vote counted. Lula, 80, will govern the country for a fourth time, from 2027 to 2030, after overturning his first-round deficit.</p>",
+      "link": "https://en.mercopress.com/2026/10/26/lula-wins-brazil-s-presidency-for-a-fourth-time-with-51.8-of-the-vote?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Mon, 26 Oct 2026 09:01:00 GMT",
       "source": "MercoPress"
     },
     {
-      "title": "Defense and Falklands, PM Burnham call with Chilean president Kast",
-      "summary": "<p>\n\t   \t      <img alt=\"The leaders began by outlining their shared ambitions to strengthen the two nations’ relationship including on defense, security, science and trade.\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111883/100x80/cihss.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Ten Downing Street reported on Friday that Prime Minister Andy Burnham spoke to the President of Chile, Jose Antonio Kast on Friday 23 October.</p>",
-      "link": "https://en.mercopress.com/2026/10/25/defense-and-falklands-pm-burnham-call-with-chilean-president-kast?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Sun, 25 Oct 2026 09:36:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Trump’s favorite president and Argentina’s Economic Chainsaw Massacre",
-      "summary": "<p>\n\t   \t      <img alt=\"Milei and his chainsaw-wielding policies have established himself as the darling of the far right.\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111882/100x80/mi.jpeg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         By Jeremy Adelman\n\nArgentine President Javier Milei may currently be a lynchpin in US President Donald Trump’s geo-economic vision for Latin America; but he could soon become its weak link. With elections coming next year, he has achieved an economic recovery and relative price stability by driving millions of his people into destitution.</p>",
-      "link": "https://en.mercopress.com/2026/10/25/trump-s-favorite-president-and-argentina-s-economic-chainsaw-massacre?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Sun, 25 Oct 2026 09:34:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Australian Grand Prix called off as rain spoils Phillip Island sendoff",
-      "summary": "Race delayed by two hours before being cancelled due to low visibility despite a sellout crowd at Phillip Island.",
-      "link": "https://www.aljazeera.com/sports/2026/10/25/australian-grand-prix-called-off-as-rain-spoils-phillip-island-sendoff?traffic_source=rss",
-      "published": "Sun, 25 Oct 2026 09:26:57 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Thousands of Northern Irish Protestants march ahead of court ruling",
-      "summary": "Thousands of Protestant Orange Order members have marched through Portadown, Northern Ireland.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/25/northern-ireland-orange-order-parade-legal-challenge?traffic_source=rss",
-      "published": "Sun, 25 Oct 2026 09:14:07 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Brazil 2026 election live: Lula and Bolsonaro in tight race",
-      "summary": "Brazilian President Luiz Inacio Lula da Silva and Senator Flavio Bolsonaro square off in closely watched election.",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/10/25/brazil-election-2026-live-lula-and-bolsonaro-in-tight-race?traffic_source=rss",
-      "published": "Sun, 25 Oct 2026 09:00:00 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Indigenous communities worry Brazil’s election could hurt environment",
-      "summary": "Brazil's indigenous communities say they’re concerned by how the election outcome could impact environmental protections",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/25/indigenous-communities-worry-brazils-election-could-hurt-environment?traffic_source=rss",
-      "published": "Sun, 25 Oct 2026 08:54:47 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Brazilians vote in presidential election runoff pitting leftist Lula against far-right Bolsonaro",
-      "summary": "<p>Incumbent president lost in first round to senator and son of convicted ex-president </p><p>Brazilians are going to the polls on Sunday in a highly unpredictable runoff in which the leftist president, <a href=\"https://www.theguardian.com/world/luiz-inacio-lula-da-silva\">Luiz Inácio Lula da Silva</a>, is attempting an unprecedented comeback against the far-right senator <a href=\"https://www.theguardian.com/world/fl-vio-bolsonaro\">Flávio Bolsonaro</a>, who won the first-round vote.</p><p>Bolsonaro’s surprise victory despite not leading most polls made him the favourite three weeks ago, but since then Lula’s campaign has gained ground, and the two go into the contest virtually tied.</p> <a href=\"https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
-      "published": "Sun, 25 Oct 2026 08:00:58 GMT",
+      "title": "Brazil runoff live updates: Bolsonaro says it is ‘impossible to concede’ election result after historic Lula win",
+      "summary": "<p>Leftist president Luiz Inácio Lula da Silva defeated the far-right senator and was elected president of Brazil for a fourth non-consecutive term</p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/oct/26/lula-wins-brazil-election\">Full report: Lula wins fourth term as Brazil’s president over Flávio Bolsonaro</a></p></li><li><p><a href=\"https://www.theguardian.com/world/ng-interactive/2026/oct/25/brazil-election-2026-live-second-round-results\">Live second round results</a></p></li></ul><p>The local electoral court ordered the immediate restoration of 100% of the bus fleet and ordered the arrest of the municipal transport secretary, Pablo Souza, on suspicion of an electoral offence and disobeying court orders. The arrest warrant could not be carried out, however, because he is in Paris on what the city government described as an “official mission”, and is not expected to return to Brazil until Monday.</p><p>Late in the afternoon, Flávio Bolsonaro also filed requests for voting to be extended by two hours in cities in the states of São Paulo, Paraná and Santa Catarina, but because of heavy rain that he said had prevented voters from turning out.</p> <a href=\"https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula",
+      "published": "Mon, 26 Oct 2026 05:53:54 GMT",
       "source": "The Guardian"
     },
     {
-      "title": "Soldiers guard center of Milan as thousands of protesters march in cities across Europe",
-      "summary": "While protests in France have claimed most international attention, large demonstrations also rocked many European cities Saturday from Milan to Rome to Madrid, Lisbon and Tirana.",
-      "link": "https://www.npr.org/2026/10/25/nx-s1-6016126/thousands-of-protesters-across-europe",
-      "published": "Sun, 25 Oct 2026 03:15:00 -0400",
+      "title": "Exiled opposition leader María Corina Machado returns to rapturous reception in Venezuela",
+      "summary": "<p>Nobel peace prize winner’s return after almost a year in exile is unlikely to please interim president Delcy Rodríguez</p><p>The Venezuelan opposition leader, María Corina Machado, has announced she has returned to Venezuela almost a year after she left the country to receive the Nobel peace prize.</p><p>“I’m here. With you,” she wrote on X on Sunday lunchtime.</p> <a href=\"https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return",
+      "published": "Mon, 26 Oct 2026 05:27:12 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Aleksandar Vucic, the Serbian leader brought down by students",
+      "summary": "Serbia's longtime leader concedes defeat to a student-led protest movement in parliamentary elections.",
+      "link": "https://www.aljazeera.com/news/2026/10/26/aleksandar-vucic-the-serbian-leader-brought-down-by-students?traffic_source=rss",
+      "published": "Mon, 26 Oct 2026 05:24:59 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Venezuelan opposition leader María Machado returns after months in exile",
+      "summary": "Machado had left the country just a month before the US government seized Venezuelan President Nicolás Maduro.",
+      "link": "https://www.bbc.co.uk/news/articles/cq8ez592pp0eo?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 26 Oct 2026 05:20:19 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Israel’s election: Five key things to know",
+      "summary": "Vote comes as Israel is embroiled in multiple wars, faces international criticism and grapples with domestic divisions.",
+      "link": "https://www.aljazeera.com/news/2026/10/26/israels-election-five-key-things-to-know?traffic_source=rss",
+      "published": "Mon, 26 Oct 2026 05:16:38 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Social video captures moment Brazil’s election turned",
+      "summary": "Video shot by supporters of the candidates in Brazil’s presidential runoff show the moment the result began changing",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/26/social-video-captures-moment-brazils-election-turned?traffic_source=rss",
+      "published": "Mon, 26 Oct 2026 05:01:59 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Lula's supporters celebrate in São Paulo after 'historic election victory' - video",
+      "summary": "<p>Supporters of Luiz Inácio Lula da Silva have poured into the streets after his election win and the defeat of rival Flávio Bolsonaro. In São Paulo, the Guardian’s Latin America correspondent, Tom Phillips, says crowds are preparing for a street party to celebrate Lula’s 'historic election victory'. Outside Bolsonaro’s Brasília mansion, the Guardian South America correspondent, Tiago Rogero, reports that the far-right senator has declared it 'impossible to concede Lula’s victory' and vowed to seek the election’s annulment.</p><p></p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/oct/26/lula-wins-brazil-election\"><strong>Lula wins fourth term as Brazil president after historic upset over far-right Flávio Bolsonaro</strong></a></p></li></ul> <a href=\"https://www.theguardian.com/world/video/2026/oct/26/lulas-supporters-celebrate-in-sao-paulo-after-historic-election-victory-video\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/video/2026/oct/26/lulas-supporters-celebrate-in-sao-paulo-after-historic-election-victory-video",
+      "published": "Mon, 26 Oct 2026 04:53:50 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Bolsonaro calls for Brazil election result to be annulled",
+      "summary": "Brazil’s right-wing Senator Flavio Bolsonaro has called for the presidential election result to be ‘annulled’.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/26/bolsonaro-calls-for-brazil-election-result-to-be-annulled?traffic_source=rss",
+      "published": "Mon, 26 Oct 2026 04:36:46 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Bolsonaro refuses to recognise Lula’s victory and says he will seek to annul the election",
+      "summary": "<p>\n\t   \t      <img alt=\"“It is impossible to recognise the result of the election in the context in which these things happened. We are going to ask for these elections to be annulled,” Bolsonaro said, taking no questions\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111897/100x80/fla.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Senator Flávio Bolsonaro announced on Sunday night that he does not recognise President Luiz Inácio Lula da Silva’s victory in Brazil’s presidential runoff and will seek to have it annulled, arguing that the extension of voting hours ordered by a Supreme Federal Court judge was irregular. Lula won with 51.78% of valid votes against 48.22%, a margin of some 4.4 million votes.</p>",
+      "link": "https://en.mercopress.com/2026/10/26/bolsonaro-refuses-to-recognise-lula-s-victory-and-says-he-will-seek-to-annul-the-election?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Mon, 26 Oct 2026 04:26:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "Latin America Sports Daily for Monday, October 26, 2026",
+      "summary": "<p>Palmeiras and Estudiantes booked their places in the Copa Libertadores final. The decisive match is set for November 28 in Montevideo.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/latin-america-sports-daily-monday-october-26-2026/\">Latin America Sports Daily for Monday, October 26, 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/latin-america-sports-daily-monday-october-26-2026/",
+      "published": "Mon, 26 Oct 2026 04:22:57 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Latin American Pulse for Monday, October 26, 2026",
+      "summary": "<p>Brazil wakes to a narrow Lula win and a furious Bolsonaro camp while its neighbours watch. A psychogram of how Latin America is feeling today.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/latin-american-pulse-for-monday-october-26-2026/\">Latin American Pulse for Monday, October 26, 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/latin-american-pulse-for-monday-october-26-2026/",
+      "published": "Mon, 26 Oct 2026 04:22:46 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Dow Drops 1.2% as Fed Meets Wednesday | Global Economy, Oct 26",
+      "summary": "<p>Global economy briefing: oil retreats from highs, the Fed is set to hold, and strong US data keeps a December hike in play for markets.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/global-economy-briefing-october-26-2026/\">Dow Drops 1.2% as Fed Meets Wednesday | Global Economy, Oct 26</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/global-economy-briefing-october-26-2026/",
+      "published": "Mon, 26 Oct 2026 04:19:58 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Brazil Stocks Reopen After Lula Win, Real Near 4.98 | Morning Call, Oct 26",
+      "summary": "<p>The real tests R$5.00 after Lula's win, with Copom bets and Gerdau earnings in focus. Your forward B3 setup for Monday 26 October 2026, with levels.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/brazils-financial-morning-call-for-monday-october-26-2026/\">Brazil Stocks Reopen After Lula Win, Real Near 4.98 | Morning Call, Oct 26</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/brazils-financial-morning-call-for-monday-october-26-2026/",
+      "published": "Mon, 26 Oct 2026 04:19:43 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Lula wins in Brazil but faces hostile Congress and divided country",
+      "summary": "President Lula has pulled of a surprise win, but he will face a hostile Congress and a polarised country.",
+      "link": "https://www.bbc.co.uk/news/articles/cmvg7p001qj9o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 26 Oct 2026 03:55:13 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Opposition leader María Corina Machado returns to Venezuela from exile",
+      "summary": "<p><img alt=\"María Corina Machado returns to Venezuela\" src=\"https://fotos.perfil.com/2026/10/26/trim/540/304/maria-corina-machado-returns-to-venezuela-2356320.jpg\" /></p>Opposition leader returns to her home country after almost a year in exile, greeting ecstatic supporters at a church in the city of Barquisimeto.  <a href=\"https://www.batimes.com.ar/news/latin-america/maria-corina-machado-returns-to-venezuela-from-exile.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/latin-america/maria-corina-machado-returns-to-venezuela-from-exile.phtml",
+      "published": "Mon, 26 Oct 2026 03:24:19 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "'I feel so happy!': Ecstasy, relief among Lula supporters in Brazil",
+      "summary": "<p><img alt=\"Lula celebrations sao paulo\" src=\"https://fotos.perfil.com/2026/10/26/trim/540/304/lula-celebrations-sao-paulo-2356318.jpg\" /></p>Thousands of people spilled onto the streets following President Luiz Inácio Lula da Silva's victory over his right-wing rival Flávio Bolsonaro. <a href=\"https://www.batimes.com.ar/news/latin-america/i-feel-so-happy-ecstasy-relief-among-lula-supporters-in-brazil.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/latin-america/i-feel-so-happy-ecstasy-relief-among-lula-supporters-in-brazil.phtml",
+      "published": "Mon, 26 Oct 2026 03:13:42 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Lula, Brazil's political titan, defies the passage of time",
+      "summary": "<p><img alt=\"Luiz Inácio Lula da Silva election win§\" src=\"https://fotos.perfil.com/2026/10/26/trim/540/304/luiz-inacio-lula-da-silva-election-win-2356311.jpg\" /></p>Titan of the political left makes history by becoming the first person to win a presidential run-off after losing the first round in Brazil.\n <a href=\"https://www.batimes.com.ar/news/latin-america/lula-brazils-political-titan-defies-the-passage-of-time.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/latin-america/lula-brazils-political-titan-defies-the-passage-of-time.phtml",
+      "published": "Mon, 26 Oct 2026 03:00:49 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "What challenges await Brazil's Lula in his fourth term in office?",
+      "summary": "<p><img alt=\"Lula election win\" src=\"https://fotos.perfil.com/2026/10/26/trim/540/304/lula-election-win-2356306.jpg\" /></p>Narrow result confirms the political divide that has split Brazil for a decade; Challenges include governability, economic woes, money problems and Donald Trump. <a href=\"https://www.batimes.com.ar/news/latin-america/what-challenges-await-brazils-lula-in-his-fourth-term-in-office.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/latin-america/what-challenges-await-brazils-lula-in-his-fourth-term-in-office.phtml",
+      "published": "Mon, 26 Oct 2026 02:52:56 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Brazil's left-wing President Lula elected for fourth term",
+      "summary": "Brazil's 80-year-old left-wing leader President Lula defeats Flávio Bolsonaro in a bitterly contested runoff.",
+      "link": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election",
+      "published": "Sun, 25 Oct 2026 20:35:00 -0400",
       "source": "NPR"
     },
     {
-      "title": "Brazil chooses between Lula and Bolsonaro in its tightest runoff in recent history",
-      "summary": "<p>\n\t   \t      <img alt=\"Bolsonaro won the first round on October 4 with 47.03% of the vote against Lula’s 45.16%, a result that confounded the polls\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111880/100x80/bras.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Nearly 160 million Brazilians are called to vote on Sunday in the presidential runoff, in which President Luiz Inácio Lula da Silva, 80, seeks a fourth term against Senator Flávio Bolsonaro, 45, son of former president Jair Bolsonaro. The two arrive level: the latest Datafolha poll gives each 50% of valid votes.</p>",
-      "link": "https://en.mercopress.com/2026/10/25/brazil-chooses-between-lula-and-bolsonaro-in-its-tightest-runoff-in-recent-history?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Sun, 25 Oct 2026 07:02:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Ten days that could shake the world: democratic norms at stake in four pivotal elections",
-      "summary": "<p>Brazil, Israel, Serbia and the US are holding elections within the space of 10 days. Will the authoritarian right cement its global gains, or can pro-democracy forces make a comeback?</p><p>Four elections on four continents within 10 days could profoundly reshape global politics, propelling the world further along its current authoritarian trajectory or marking a limited comeback for democratic norms.</p><p>In all four contests, basic democratic norms are at stake at a time when autocracy is advancing worldwide at an alarming rate. According to the <a href=\"https://www.v-dem.net/documents/75/V-Dem_Institute_Democracy_Report_2026_lowres.pdf\">Sweden-based V-Dem Institute</a>, which uses multivariable assessment tools, the democratic freedoms enjoyed by the average global citizen are down to levels last seen in 1978 – long before the fall of the Berlin Wall and the collapse of communism in Europe.</p> <a href=\"https://www.theguardian.com/world/ng-interactive/2026/oct/25/ten-days-shake-world-democratic-norms-pivotal-elections-brazil-israel-serbia-us\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/ng-interactive/2026/oct/25/ten-days-shake-world-democratic-norms-pivotal-elections-brazil-israel-serbia-us",
-      "published": "Sun, 25 Oct 2026 07:00:56 GMT",
+      "title": "Lula wins fourth term as Brazil president after historic upset over far-right Flávio Bolsonaro",
+      "summary": "<p>Leftist incumbent Lula says unprecedented comeback was a ‘defeat for denialism’ as Bolsonaro refuses to accept election result</p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula\">Lula wins election in stunning comeback – live updates</a></p></li></ul><p><a href=\"https://www.theguardian.com/world/luiz-inacio-lula-da-silva\">Luiz Inácio Lula da Silva</a>, the <a href=\"https://www.theguardian.com/world/luiz-inacio-lula-da-silva\">Brazilian</a> president, has staged a dramatic <a href=\"https://www.theguardian.com/world/2026/sep/27/viscerally-dedicated-to-social-issues-behind-lulas-drive-to-win-final-term-in-brazils-crunch-election\">election fightback</a>, defeating his far-right opponent, <a href=\"https://www.theguardian.com/world/fl-vio-bolsonaro\">Flávio Bolsonaro</a>, to claim a historic fourth term in power.</p><p>With 100% of votes counted the 80-year-old leftist received 4.4m votes more than Bolsonaro, with a 51.79% share to his 45-year-old rival’s 48.21%. However, soon after Brazil’s electoral authority confirmed Lula’s victory, Bolsonaro refused to concede defeat and asked for the results to be annulled.</p> <a href=\"https://www.theguardian.com/world/2026/oct/26/lula-wins-brazil-election\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/oct/26/lula-wins-brazil-election",
+      "published": "Mon, 26 Oct 2026 00:19:05 GMT",
       "source": "The Guardian"
     },
     {
-      "title": "Voters in Brazil to choose between Lula and Bolsonaro's son",
-      "summary": "Flávio Bolsonaro, the son of Brazil's imprisoned former president, is presenting a strong challenge to Lula, 80, who is seeking a fourth term in office.",
-      "link": "https://www.bbc.co.uk/news/articles/cxp8g21j4648o?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 24 Oct 2026 23:50:02 GMT",
+      "title": "U.S. influence in Latin America at stake in runoff election in Brazil",
+      "summary": "A polarizing presidential election runoff in Latin America's largest economy and biggest democracy pits leftist Lula da Silva's legacy against Trump ally Flavio Bolsonaro, son of the former Brazilian president.",
+      "link": "https://www.npr.org/2026/10/25/nx-s1-6011223/u-s-influence-in-latin-america-at-stake-in-runoff-election-in-brazil",
+      "published": "Sun, 25 Oct 2026 17:22:43 -0400",
+      "source": "NPR"
+    },
+    {
+      "title": "This center-right former general could unseat Netanyahu as Prime Minister in Israel",
+      "summary": "A former Israeli general is the main center-right challenger hoping to unseat Prime Minister Benjamin Netanyahu in Israeli elections this week.",
+      "link": "https://www.npr.org/2026/10/25/nx-s1-6011185/this-center-right-former-general-could-unseat-netanyahu-as-prime-minister-in-israel",
+      "published": "Sun, 25 Oct 2026 17:22:40 -0400",
+      "source": "NPR"
+    },
+    {
+      "title": "Exiled Venezuela opposition leader Maria Corina Machado returns to Venezuela",
+      "summary": "<p>Her return poses a challenge to the interim government led by President Delcy Rodríguez.</p>\n<p>The post <a href=\"https://www.latinamericareports.com/exiled-venezuela-opposition-leader-maria-corina-machado-returns-to-venezuela/15447/\">Exiled Venezuela opposition leader Maria Corina Machado returns to Venezuela</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
+      "link": "https://www.latinamericareports.com/exiled-venezuela-opposition-leader-maria-corina-machado-returns-to-venezuela/15447/",
+      "published": "Sun, 25 Oct 2026 19:25:23 +0000",
+      "source": "Latin America Reports"
+    },
+    {
+      "title": "María Corina Machado returns to Venezuela after ten months abroad and seven failed attempts",
+      "summary": "<p>\n\t   \t      <img alt=\"Machado returns to a country transformed since Nicolás Maduro’s removal from power following the US military operation in January\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111892/100x80/hvfazlrwwaamabc.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Venezuelan opposition leader and Nobel Peace Prize laureate María Corina Machado returned to Venezuela on Sunday after nearly ten months abroad and at least seven failed attempts to go back. “I am here. With you,” she wrote on X, shortly before reappearing at a Mass at the Divina Pastora sanctuary in Barquisimeto, Lara state, surrounded by supporters.</p>",
+      "link": "https://en.mercopress.com/2026/10/25/maria-corina-machado-returns-to-venezuela-after-ten-months-abroad-and-seven-failed-attempts?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Sun, 25 Oct 2026 17:08:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "Montevideo cements its role as a staging port for Antarctic expeditions",
+      "summary": "<p>\n\t   \t      <img alt=\"The vessels that arrived were the Expedition, Ocean Albatros, Ocean Nova, Sylvia Earle, Ocean Explorer, Seaventure and Sea Spirit, ships with reinforced hulls equipped to sail in polar waters\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111886/100x80/ocean.jpeg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         The port of Montevideo welcomed seven polar expedition ships this week at the start of the Antarctic season, reinforcing the Uruguayan capital’s role as a staging point for cruise ships heading to the frozen continent.</p>",
+      "link": "https://en.mercopress.com/2026/10/25/montevideo-cements-its-role-as-a-staging-port-for-antarctic-expeditions?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Sun, 25 Oct 2026 13:32:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "What to know about Brazil's run-off as Lula and Flávio Bolsonaro face off",
+      "summary": "Four years after narrowly defeating Jair Bolsonaro, President Lula now faces his son Flávio in a presidential run-off.",
+      "link": "https://www.bbc.co.uk/news/articles/c6wyz0r2n0djo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 25 Oct 2026 11:17:03 GMT",
       "source": "BBC News"
     },
     {
@@ -173,20 +250,6 @@
       "link": "https://www.bbc.co.uk/news/videos/cm0e0del4jewo?at_medium=RSS&at_campaign=rss",
       "published": "Sat, 24 Oct 2026 22:08:47 GMT",
       "source": "BBC News"
-    },
-    {
-      "title": "Protests roil France once again as police seek to quell violence",
-      "summary": "Hundreds of thousands turned out across France to protest everything from the lack of school funding to economic inequality. Police also were out in force to prevent a repeat of last week's violence.",
-      "link": "https://www.npr.org/2026/10/24/nx-s1-6014520/protests-roil-france-once-again-as-police-seek-to-quell-violence",
-      "published": "Sat, 24 Oct 2026 17:21:00 -0400",
-      "source": "NPR"
-    },
-    {
-      "title": "More than one million Lula supporters rally on eve of Brazilian election runoff",
-      "summary": "<p>Nearly 159 million people to head to polls on Sunday in battle between leftwing incumbent and Flávio Bolsonaro</p><p>More than one million supporters of Brazil’s leftwing president, Luiz Inácio Lula da Silva, have streamed on to Rio’s most famous beach for a giant protest they hope will propel him towards a historic election fightback against his far-right rival, <a href=\"https://www.theguardian.com/world/fl-vio-bolsonaro\">Flávio Bolsonaro</a>.</p><p>Nearly 159m Brazilians will vote in the election’s runoff on Sunday, with the pair tied in the polls after Bolsonaro <a href=\"https://www.theguardian.com/world/2026/oct/05/flavio-bolsonaro-brazilian-presidency-election-shock-first-round-victory\">won the first round on 4 October</a> by 47% to 45%.</p> <a href=\"https://www.theguardian.com/world/2026/oct/24/lula-da-silva-supporters-rally-eve-brazil-election-runoff-bolsonaro\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/oct/24/lula-da-silva-supporters-rally-eve-brazil-election-runoff-bolsonaro",
-      "published": "Sat, 24 Oct 2026 21:10:23 GMT",
-      "source": "The Guardian"
     },
     {
       "title": "Venezuelans take to streets to demand a date for presidential elections",
@@ -201,62 +264,6 @@
       "link": "https://www.latinamericareports.com/lula-and-flavio-bolsonaro-face-off-over-competing-visions-of-brazils-future/15438/",
       "published": "Sat, 24 Oct 2026 18:14:29 +0000",
       "source": "Latin America Reports"
-    },
-    {
-      "title": "Hotesur/Los Sauces: Fernández de Kirchner in dock for new corruption trial alongside son",
-      "summary": "<p><img alt=\"'Hotesur' and 'Los Sauces' corruption trial.\" src=\"https://fotos.perfil.com/2026/10/24/trim/540/304/hotesur-and-los-sauces-corruption-trial-2355394.jpg\" /></p>Former president Cristina Fernández de Kirchner faces new corruption trial, alongside national deputy and son Máximo Kirchner; Relatives, along with other defendants, are accused of laundering money through their family’s hotel and property businesses in Argentina's south. <a href=\"https://www.batimes.com.ar/news/argentina/hotesurlos-sauces-fernandez-de-kirchner-faces-new-corruption-trial-alongside-son.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/argentina/hotesurlos-sauces-fernandez-de-kirchner-faces-new-corruption-trial-alongside-son.phtml",
-      "published": "Sat, 24 Oct 2026 12:14:55 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
-      "title": "‘Bolso shows all signs of fascism’: the journalist who predicted Brazil’s future – and paid the ultimate price",
-      "summary": "<p>Dom Phillips warned that Jair Bolsonaro would make life more dangerous for reporters and the Amazon rainforest, and that his sons were even more extreme</p><p>“Bolso shows all signs of fascism, as do his supporters,” the murdered British journalist Dom Phillips told me before his death. “His sons are all more extreme if anything.”</p><p>These words were written in 2018 by the Guardian contributor shortly before the election of the far-right former army captain Jair Bolsonaro as president of Brazil – a prospect that Dom viewed with dread.</p> <a href=\"https://www.theguardian.com/world/2026/oct/24/jair-bolsonaro-fascism-journalist-dom-phillips-predicted-brazil-future\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/oct/24/jair-bolsonaro-fascism-journalist-dom-phillips-predicted-brazil-future",
-      "published": "Sat, 24 Oct 2026 12:00:33 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "European student protests take aim at Serbia's elections",
-      "summary": "Students have been protesting across Europe. In Serbia, they've selected candidates to run for parliament in Sunday's elections. And they're aiming to end 14 years of government by the populist leader Aleksandar Vucic.",
-      "link": "https://www.npr.org/2026/10/24/nx-s1-6012799/european-student-protests-take-aim-at-serbias-elections",
-      "published": "Sat, 24 Oct 2026 07:42:11 -0400",
-      "source": "NPR"
-    },
-    {
-      "title": "How Brazil's changing working class is reshaping the presidential race",
-      "summary": "Calls for change present a challenge to President Lula in the second round of the election on Sunday.",
-      "link": "https://www.bbc.co.uk/news/articles/cw80zx79nkvno?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 24 Oct 2026 05:05:44 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "We the peoples",
-      "summary": "<p><img alt=\"we the peoples ART\" src=\"https://fotos.perfil.com/2026/10/22/trim/540/304/we-the-peoples-art-2354399.jpg\" /></p>Although one of the 51 founding members on its very first day in 1945, Argentina has historically shown a patchy commitment to the United Nations, which perhaps does not help Rafael’s Grossi quest to lead it.\n <a href=\"https://www.batimes.com.ar/news/opinion-and-analysis/we-the-peoples.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/opinion-and-analysis/we-the-peoples.phtml",
-      "published": "Sat, 24 Oct 2026 03:58:00 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
-      "title": "Milei in dead heat with Peronism, one year out from election, polls show",
-      "summary": "<p><img alt=\"Potential presidential candidates and key political figures, one year out from the 2027 election.\" src=\"https://fotos.perfil.com/2026/10/23/trim/540/304/potential-presidential-candidates-and-key-political-figures-one-year-out-from-the-2027-election-2354954.jpg\" /></p>One year out from polling day, surveys point to a tight race, polarised electorate, significant group of undecided voters and appetite for a ‘third way’ candidate.\n <a href=\"https://www.batimes.com.ar/news/argentina/milei-in-dead-heat-with-peronism-one-year-out-from-election-polls-show.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/argentina/milei-in-dead-heat-with-peronism-one-year-out-from-election-polls-show.phtml",
-      "published": "Sat, 24 Oct 2026 03:53:00 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
-      "title": "When expansion is not growth",
-      "summary": "<p><img alt=\"Milei and the gang ART\" src=\"https://fotos.perfil.com/2026/10/22/trim/540/304/milei-and-the-gang-art-2354423.jpg\" /></p>The Milei government seeks to transform a model of consumer-led growth supplied by a protected industry with low productivity into one of export-led growth more open to the world. <a href=\"https://www.batimes.com.ar/news/op-ed/when-expansion-is-not-growth.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/op-ed/when-expansion-is-not-growth.phtml",
-      "published": "Sat, 24 Oct 2026 03:01:00 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
-      "title": "Argentina drops investigation into President Milei over crypto fraud",
-      "summary": "Javier Milei had denied acting fraudulently when a cryptocurrency nosedived after he deleted a social media post about it.",
-      "link": "https://www.bbc.co.uk/news/articles/c64g1eplpvddo?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 23 Oct 2026 20:59:39 GMT",
-      "source": "BBC News"
     },
     {
       "title": "Organized Crime Postponed Democracy in Haiti, Again",
@@ -278,13 +285,6 @@
       "link": "https://insightcrime.org/ecuador-organized-crime-news/jorge-luis-zambrano-alias-rasquina/",
       "published": "Wed, 21 Oct 2026 17:49:35 +0000",
       "source": "InSight Crime"
-    },
-    {
-      "title": "Colombia president removes artefacts from National Museum in ‘cultural counter-revolution’",
-      "summary": "<p>President Abelardo de la Espriella has announced a “fight against wokism”</p>\n<p>The post <a href=\"https://www.latinamericareports.com/colombia-president-removes-artefacts-from-national-museum-in-cultural-counter-revolution/15434/\">Colombia president removes artefacts from National Museum in ‘cultural counter-revolution’</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
-      "link": "https://www.latinamericareports.com/colombia-president-removes-artefacts-from-national-museum-in-cultural-counter-revolution/15434/",
-      "published": "Wed, 21 Oct 2026 17:36:35 +0000",
-      "source": "Latin America Reports"
     },
     {
       "title": "Ex-OFAC Official: The Cartel Risk Companies Can’t See | The InSight Take",
@@ -337,15 +337,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-13 05:01",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 72,
-      "incidents": 40,
-      "bovespa": 209066.9,
-      "brl_czk": null
-    },
     {
       "date": "2026-10-13 13:33",
       "threat_level": "HIGH",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "bovespa": 205082.56,
       "brl_czk": null
+    },
+    {
+      "date": "2026-10-26 06:02",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 72,
+      "incidents": 40,
+      "bovespa": 205082.56,
+      "brl_czk": 4.307
     }
   ],
   "locations": [
@@ -617,32 +617,18 @@
       "name_en": "Brasília"
     },
     {
+      "key": "Sao Paulo",
+      "lat": -23.5505,
+      "lon": -46.6333,
+      "name_cs": "São Paulo",
+      "name_en": "São Paulo"
+    },
+    {
       "key": "Rio de Janeiro",
       "lat": -22.9068,
       "lon": -43.1729,
       "name_cs": "Rio de Janeiro",
       "name_en": "Rio de Janeiro"
-    },
-    {
-      "key": "Buenos Aires",
-      "lat": -34.6037,
-      "lon": -58.3816,
-      "name_cs": "Buenos Aires",
-      "name_en": "Buenos Aires"
-    },
-    {
-      "key": "Santiago",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "name_cs": "Santiago",
-      "name_en": "Santiago"
-    },
-    {
-      "key": "Lima",
-      "lat": -12.0464,
-      "lon": -77.0428,
-      "name_cs": "Lima",
-      "name_en": "Lima"
     },
     {
       "key": "Bogota",
@@ -673,20 +659,6 @@
       "name_en": "Montevideo"
     },
     {
-      "key": "Amazon",
-      "lat": -3.4653,
-      "lon": -62.2159,
-      "name_cs": "Amazonie",
-      "name_en": "Amazon"
-    },
-    {
-      "key": "Falklands",
-      "lat": -51.7963,
-      "lon": -59.5236,
-      "name_cs": "Falklandy",
-      "name_en": "Falkland Islands"
-    },
-    {
       "key": "Washington",
       "lat": 38.9072,
       "lon": -77.0369,
@@ -699,14 +671,6 @@
       "lon": -74,
       "name_cs": "New York",
       "name_en": "New York",
-      "auto": true
-    },
-    {
-      "key": "Texas",
-      "lat": 31,
-      "lon": -99,
-      "name_cs": "Texas",
-      "name_en": "Texas",
       "auto": true
     },
     {
@@ -734,14 +698,6 @@
       "auto": true
     },
     {
-      "key": "Argentin",
-      "lat": -34,
-      "lon": -64,
-      "name_cs": "Argentina",
-      "name_en": "Argentin",
-      "auto": true
-    },
-    {
       "key": "Russia",
       "lat": 55.75,
       "lon": 37.62,
@@ -758,43 +714,11 @@
       "auto": true
     },
     {
-      "key": "Turkey",
-      "lat": 39,
-      "lon": 35,
-      "name_cs": "Turecko",
-      "name_en": "Turkey",
-      "auto": true
-    },
-    {
       "key": "Singapore",
       "lat": 1.35,
       "lon": 103.8,
       "name_cs": "Singapur",
       "name_en": "Singapore",
-      "auto": true
-    },
-    {
-      "key": "Australia",
-      "lat": -25.3,
-      "lon": 133.8,
-      "name_cs": "Austrálie",
-      "name_en": "Australia",
-      "auto": true
-    },
-    {
-      "key": "London",
-      "lat": 51.5,
-      "lon": -0.12,
-      "name_cs": "Londýn",
-      "name_en": "London",
-      "auto": true
-    },
-    {
-      "key": "Germany",
-      "lat": 52.52,
-      "lon": 13.4,
-      "name_cs": "Berlín",
-      "name_en": "Germany",
       "auto": true
     },
     {
@@ -804,62 +728,38 @@
       "name_cs": "Paříž",
       "name_en": "France",
       "auto": true
-    },
-    {
-      "key": "Italy",
-      "lat": 41.9,
-      "lon": 12.5,
-      "name_cs": "Řím",
-      "name_en": "Italy",
-      "auto": true
-    },
-    {
-      "key": "Spain",
-      "lat": 40.4,
-      "lon": -3.7,
-      "name_cs": "Madrid",
-      "name_en": "Spain",
-      "auto": true
-    },
-    {
-      "key": "Peru",
-      "lat": -9.2,
-      "lon": -75.0,
-      "name_cs": "Peru",
-      "name_en": "Peru",
-      "auto": true
     }
   ],
   "location_counts": {
-    "Brasilia": 49,
-    "Sao Paulo": 24,
-    "Rio de Janeiro": 12,
+    "Brasilia": 50,
+    "Sao Paulo": 25,
+    "Rio de Janeiro": 13,
     "Buenos Aires": 49,
     "Santiago": 41,
     "Lima": 29,
-    "Bogota": 49,
-    "Caracas": 45,
-    "Quito": 34,
+    "Bogota": 50,
+    "Caracas": 46,
+    "Quito": 35,
     "La Paz": 18,
     "Asuncion": 10,
-    "Washington": 49,
+    "Washington": 50,
     "New York": 1,
     "Texas": 1,
     "Colorado": 1,
     "Kanada": 1,
     "Mexiko": 1,
-    "Venezuela": 1,
-    "Brazílie": 13,
+    "Venezuela": 6,
+    "Brazílie": 18,
     "Argentina": 5,
     "Ukrajina": 1,
     "Rusko": 1,
     "Pákistán": 1,
     "Londýn": 1,
-    "Paříž": 2,
+    "Paříž": 1,
     "Madrid": 1,
     "Peru": 1,
     "Bolívie": 2,
-    "Montevideo": 18,
+    "Montevideo": 19,
     "Falklands": 26,
     "Ohio": 1,
     "Michigan": 1,
@@ -879,7 +779,7 @@
     "Berlín": 1,
     "Panama": 17,
     "Austrálie": 1,
-    "Izrael": 1,
+    "Izrael": 2,
     "Detroit": 1,
     "Etiopie": 1,
     "Nigérie": 1,
@@ -906,17 +806,9 @@
     "key": "Brasilia",
     "name_cs": "Brasília",
     "name_en": "Brasília",
-    "count": 49
+    "count": 50
   },
   "archive": [
-    {
-      "date": "2026-10-19 05:00",
-      "threat_level": "HIGH",
-      "security_status_cs": "V Jižní Americe nadále dominují vyhrocené prezidentské volby v Brazílii mezi Luizou Ináciem Lulou da Silva a opozicí, doprovázené prudkými politickými střety a rekordně nízkou odlesněností Amazonie. Mezitím Argentina zostřuje rétoriku vůči Spojenému království kvůli Falklandám a ohrožuje ropné či rybářské projekty, zatímco bezpečnostní situace v Ekvádoru a Kolumbii zůstává napjatá kvůli organizovanému zločinu a aktivitám kartelů.",
-      "security_status_en": "South America remains dominated by the fiercely contested Brazilian presidential runoff between Luiz Inacio Lula da Silva and the opposition, accompanied by sharp political clashes and record-low Amazon deforestation. Meanwhile, Argentina is escalating rhetoric against the UK over the Falklands, threatening oil and fishing projects, while security in Ecuador and Colombia remains heavily strained by organized crime and cartel activities.",
-      "forecast_cs": "V příštích dnech se očekává vyvrcholení kampaně před druhým kolem brazilských voleb a růst napětí v regionu kvůli ekonomickým a surovinovým sporům.",
-      "forecast_en": "Over the coming days, expect the climax of the campaign ahead of the Brazilian election runoff and rising regional tensions driven by economic and resource disputes."
-    },
     {
       "date": "2026-10-19 11:44",
       "threat_level": "HIGH",
@@ -1020,6 +912,14 @@
       "security_status_en": "South America is facing high political instability, dominated by the exceptionally tight Brazilian presidential runoff between left-winger Lula and right-winger Flávio Bolsonaro. In Argentina, President Milei's tense economic maneuvering continues amid approaching elections and inflationary pressures. The region remains burdened by structural issues such as poultry disease impacts on exports, volatile commodity prices, and persistent security crises in the Andean region.",
       "forecast_cs": "Trhy v nejbližších dnech plně vstřebají výsledky brazilského prezidentského run-offu, což vyvolá prudké pohyby na měnových trzích. Investoři budou nadále bedlivě sledovat vývoj inflace a politické stability v Argentině a Ando-karibském regionu.",
       "forecast_en": "Markets will fully digest the results of the Brazilian presidential runoff in the coming days, triggering sharp currency movements. Investors will continue to closely monitor inflation trends and political stability in Argentina and the Andean-Caribbean region."
+    },
+    {
+      "date": "2026-10-26 06:02",
+      "threat_level": "HIGH",
+      "security_status_cs": "Brazílie čelí hluboké politické polarizaci a protestům tábora poraženého Flávia Bolsonara po těsném vítězství Luize Inácia Luly da Silvy ve druhém kole prezidentských voleb. Ve Venezuele mezitím vyvolalo návrat do exilu opoziční líderky Marie Coriny Machado nové napětí vůči prozatímní vládě Delcy Rodríguez, zatímco globální trhy vstřebávají výkyvy komodit a měnového trhu. V Andsko-karibském regionu přetrvávají bezpečnostní rizika spojená s organizovaným zločinem, zejména v Haiti a Ekvádoru.",
+      "security_status_en": "Brazil faces deep political polarization and protests from the camp of defeated Flávio Bolsonaro following the narrow runoff victory of Luiz Inácio Lula da Silva. Meanwhile, in Venezuela, the return from exile of opposition leader María Corina Machado has reignited tensions with the interim government of Delcy Rodríguez, as global markets absorb commodity and currency volatility. Security risks tied to organized crime persist across the Andean-Caribbean region, notably in Haiti and Ecuador.",
+      "forecast_cs": "Trhy v nejbližších dnech plně vstřebají výsledky brazilského prezidentského run-offu a reakce tábora poražených, což vyvolá přechodnou volatilitu na brazilském reálu i tamní burze. Investoři budou bedlivě sledovat vývoj vládní koalice v Brazílii a geopolitické dopady návratu opozice ve Venezuele.",
+      "forecast_en": "Markets will fully absorb the results of the Brazilian presidential runoff and the defeated camp's response in the coming days, triggering transitional volatility on the Brazilian real and B3 exchange. Investors will closely monitor Brazil's legislative coalition building and the geopolitical fallout from the opposition's return in Venezuela."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
@@ -1036,10 +936,13 @@
       "cached": false
     },
     "usdbrl": {
-      "value": 4.9964,
-      "date": "2026-10-24",
+      "value": 4.9652,
+      "date": "2026-10-26",
       "cached": false
     }
   },
-  "brl_czk": null
+  "brl_czk": {
+    "value": 4.307,
+    "date": "2026-10-23"
+  }
 }
