@@ -1,16 +1,16 @@
 {
- "updated": "2026-10-26T00:16",
+ "updated": "2026-10-27T01:27",
  "band": {
   "7": 2.0,
   "30": 5.0
  },
- "signals_total": 191,
+ "signals_total": 195,
  "summary": {
   "7": {
    "ALL": {
-    "n": 140,
+    "n": 142,
     "ok": 81,
-    "avg": -0.39
+    "avg": -0.37
    },
    "BUY": {
     "n": 51,
@@ -18,26 +18,26 @@
     "avg": 0.05
    },
    "SELL": {
-    "n": 17,
+    "n": 18,
     "ok": 13,
-    "avg": -3.39
+    "avg": -2.89
    },
    "HOLD": {
-    "n": 72,
+    "n": 73,
     "ok": 38,
-    "avg": -0.0
+    "avg": -0.03
    }
   },
   "30": {
    "ALL": {
-    "n": 38,
+    "n": 41,
     "ok": 23,
-    "avg": 0.94
+    "avg": -0.54
    },
    "BUY": {
-    "n": 13,
-    "ok": 7,
-    "avg": 2.86
+    "n": 14,
+    "ok": 6,
+    "avg": 1.01
    },
    "SELL": {
     "n": 3,
@@ -45,9 +45,9 @@
     "avg": -6.41
    },
    "HOLD": {
-    "n": 22,
-    "ok": 13,
-    "avg": 0.8
+    "n": 24,
+    "ok": 14,
+    "avg": -0.71
    }
   }
  },
@@ -102,14 +102,14 @@
   },
   "Čína a Asie": {
    "7": {
-    "n": 31,
+    "n": 33,
     "ok": 15,
-    "avg": -2.13
+    "avg": -1.9
    },
    "30": {
-    "n": 8,
-    "ok": 3,
-    "avg": -4.5
+    "n": 10,
+    "ok": 4,
+    "avg": -4.45
    }
   },
   "Japonsko": {
@@ -119,9 +119,9 @@
     "avg": -2.6
    },
    "30": {
-    "n": 8,
-    "ok": 6,
-    "avg": 1.98
+    "n": 9,
+    "ok": 5,
+    "avg": -3.71
    }
   },
   "Jižní Amerika": {
@@ -133,6 +133,65 @@
   }
  },
  "signals": [
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Čínské akcie (ETF FXI, MCHI)",
+   "action": "HOLD",
+   "date": "2026-10-26",
+   "tickers": [
+    "FXI",
+    "MCHI"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Argentina (Merval, YPF, MercadoLibre)",
+   "action": "BUY",
+   "date": "2026-10-26",
+   "tickers": [
+    "^MERV",
+    "MELI",
+    "YPF"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
+   "action": "HOLD",
+   "date": "2026-10-26",
+   "tickers": [
+    "SCCO",
+    "SQM",
+    "FCX"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
+   "action": "BUY",
+   "date": "2026-10-26",
+   "tickers": [
+    "JBS",
+    "BG",
+    "CSAN"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
   {
    "monitor": "Rudé moře",
    "sector": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
@@ -547,8 +606,8 @@
     "005930.KS",
     "ASML"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 5.56,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -649,8 +708,8 @@
     "005930.KS",
     "ASML"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": -2.29,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -1234,63 +1293,6 @@
    ],
    "ret7": -4.22,
    "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Jižní Amerika",
-   "sector": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
-   "action": "HOLD",
-   "date": "2026-10-11",
-   "tickers": [
-    "JBS",
-    "BG",
-    "CSAN"
-   ],
-   "ret7": -0.38,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Rudé moře",
-   "sector": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)",
-   "action": "HOLD",
-   "date": "2026-10-10",
-   "tickers": [
-    "MAERSK-B.CO",
-    "HLAG.DE",
-    "ZIM"
-   ],
-   "ret7": -2.92,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Japonsko",
-   "sector": "Technologie (Sony, SoftBank)",
-   "action": "SELL",
-   "date": "2026-10-10",
-   "tickers": [
-    "6758.T",
-    "9984.T"
-   ],
-   "ret7": -2.46,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "USA",
-   "sector": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
-   "action": "HOLD",
-   "date": "2026-10-09",
-   "tickers": [
-    "^GSPC"
-   ],
-   "ret7": -1.95,
-   "ok7": true,
    "ret30": null,
    "ok30": null
   }
