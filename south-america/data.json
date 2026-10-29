@@ -1,87 +1,241 @@
 {
-  "last_updated": "2026-10-28T11:55:46Z",
+  "last_updated": "2026-10-29T06:00:53Z",
   "assessment": {
     "threat_level": "HIGH",
-    "sentiment_score": 72,
-    "security_status_cs": "Zvolení Luize Inácia Lula da Silvy na čtvrté volební období v Brazílii provázejí politické otřesy, včetně útěku poraženého Flávia Bolsonara do USA. Venezuelská politická scéna se po návratu exilové vůdkyně Marie Coriny Machadové a amerických geopolitických tlacích dál radikalizuje, zatímco Ecuador čelí eskalaci násilí organizovaného zločinu.",
-    "security_status_en": "The election of Luiz Inácio Lula da Silva to a fourth presidential term in Brazil is accompanied by severe political turmoil, including defeated Flávio Bolsonaro's flight to the US. Venezuela's political landscape remains highly volatile following the return of exiled leader María Corina Machado and US geopolitical maneuvering, while Ecuador faces a severe escalation of organized crime violence.",
+    "sentiment_score": 68,
+    "security_status_cs": "Jižní Amerika čelí politickým turbulencím po znovuzvolení Luly v Brazílii a útěku Flávia Bolsonara do USA, což vyvolává diplomatické napětí s Argentinou. Regionální trhy reagují na globální měnovou politiku Fedu a kolísající ceny komodit, zatímco Kolumbie řeší růst kryptoměnové ekonomiky a kávové trhy absorbují dopady geopolitických celních sporů.",
+    "security_status_en": "South America is facing political turmoil following Lula's reelection in Brazil and Flávio Bolsonaro's flight to the US, sparking diplomatic tensions with Argentina. Regional markets are reacting to the Fed's global monetary policy and fluctuating commodity prices, while Colombia navigates a growing crypto economy and coffee markets absorb the impacts of geopolitical tariff disputes.",
     "recommendations": [
       {
-        "sector_cs": "Brazilský akciový trh (Bovespa, ETF EWZ)",
+        "sector_cs": "Brazilský akciový trh (Bovespa, EWZ ETF)",
         "sector_en": "Brazilian Equities (Bovespa, EWZ ETF)",
-        "action": "HOLD",
-        "reason_cs": "Přestože Lula vyhrál volby, politická nestabilita, útěk opozice a opozičně kontrolovaný Kongres omezují prostor pro rychlý růst. Doporučujeme vyčkat na stabilizaci vnitřní politické situace.",
-        "reason_en": "Although Lula won the election, political instability, the opposition's flight, and an opposition-controlled Congress limit the room for rapid growth. We recommend waiting for domestic political stabilization."
+        "action": "SELL",
+        "reason_cs": "Index Bovespa prudce oslabil a politická nestabilita spojená s odchodem opozice a nástupem Lulovy čtvrté administrativy zvyšuje riziko pro investorů.",
+        "reason_en": "The Bovespa index fell sharply, and political instability tied to the opposition's exit and the start of Lula's fourth administration increases risk for investors."
       },
       {
         "sector_cs": "Argentina (Merval, YPF, MercadoLibre)",
         "sector_en": "Argentina (Merval, YPF, MercadoLibre)",
-        "action": "BUY",
-        "reason_cs": "Měnový fond úspěšně uzavřel třetí revizi dohody a ocenil fiskální a monetární disciplínu prezidenta Mileie. To otevírá cestu k další tranši financování a posiluje důvěru investorů v reformy.",
-        "reason_en": "The IMF successfully concluded the third review of the program, praising President Milei's fiscal and monetary discipline. This paves the way for further disbursement and bolsters investor confidence in ongoing reforms."
+        "action": "HOLD",
+        "reason_cs": "Vztahy mezi Mileim a Lulou jsou napjaté kvůli tranzitu brazilské opozice přes Argentinu, což dodává lokálním aktivům značnou geopolitickou prémii.",
+        "reason_en": "Relations between Milei and Lula are strained over the transit of the Brazilian opposition through Argentina, adding significant geopolitical premium to local assets."
       },
       {
         "sector_cs": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
         "sector_en": "Mining: Copper & Lithium (Southern Copper, SQM, Freeport)",
         "action": "HOLD",
-        "reason_cs": "Ceny komodit zůstávají pod tlakem globálních makroekonomických nejistot a výhledu sazeb Fedu. Regionální politická rizika v Andském pásu navíc brání agresivnějším nákupním pozicím.",
-        "reason_en": "Commodity prices remain under pressure from global macroeconomic uncertainties and the Fed's rate outlook. Furthermore, regional political risks in the Andean belt discourage aggressive long positions."
+        "reason_cs": "Trhy s kovy se drží v očekávání globálních makrodat a stabilní poptávky, zatímco Fed drží sazby beze změny.",
+        "reason_en": "Metal markets are holding steady amid expectations of global macro data and stable demand while the Fed keeps rates unchanged."
       },
       {
         "sector_cs": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
         "sector_en": "Oil & Energy (Petrobras, Ecopetrol, Chevron)",
-        "action": "BUY",
-        "reason_cs": "Americká rétorika a akvizice venezuelské ropy společně se stabilní poptávkou udržují energetický sektor v centru pozornosti. Firmy s diverzitou aktiv v regionu těží z geopolitických posunů.",
-        "reason_en": "US rhetoric and Venezuelan oil shipments, combined with stable demand, keep the energy sector in focus. Companies with asset diversity in the region benefit from these geopolitical shifts."
+        "action": "HOLD",
+        "reason_cs": "Brazílie hlásí ropné rekordy, ale politické zásahy pod novou vládou a stabilní globální těžba omezují růstový potenciál.",
+        "reason_en": "Brazil is reporting oil records, but political interference under the new administration and stable global production limit upside potential."
       },
       {
         "sector_cs": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
         "sector_en": "Agriculture & Food (JBS, Bunge, Cosan)",
-        "action": "HOLD",
-        "reason_cs": "Ceny kávy dosáhly rekordních maxim kvůli napětí kolem cel mezi USA a Kolumbií, což zvyšuje maržovou volatilitu pro zpracovatele. Pozice je vhodné držet do vyjasnění celní politiky.",
-        "reason_en": "Coffee prices reached record highs due to US-Colombia tariff tensions, increasing margin volatility for processors. It is prudent to hold positions until tariff policies clarify."
+        "action": "BUY",
+        "reason_cs": "Ceny arabiky dosáhly rekordů kvůli obavám z celních sporů mezi USA a Kolumbií, což nahrává maržím agrárních exportérů.",
+        "reason_en": "Arabica coffee prices hit record highs due to fears of US-Colombia tariff disputes, boosting margins for agricultural exporters."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Události v Jižní Americe mají na české banky a energetiku pouze zanedbatelný nepřímý vliv skrze globální sentiment. Tituly se řídí primárně domácím prostředím a evropskou monetární politikou.",
-        "reason_en": "South American developments have only a negligible indirect impact on Czech banks and energy through global sentiment. These titles are primarily driven by the domestic environment and European monetary policy."
+        "reason_cs": "Domácí bankovní tituly a energetika zůstávají vůči jihoamerickým politickým krizím a komoditním výkyvům fundamentálně imunní.",
+        "reason_en": "Domestic banking stocks and energy remain fundamentally immune to South American political crises and commodity swings."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat další diplomatické třenice ohledně statusu představitelů brazilské opozice v USA a pokračující konsolidaci argentinských reforem. Trhy budou citlivě reagovat na inflační data a postoj Fedu k sazbám.",
-    "forecast_en": "Over the coming days, further diplomatic friction regarding the status of Brazilian opposition figures in the US and the continued consolidation of Argentine reforms are expected. Markets will remain sensitive to inflation data and the Fed's stance on interest rates.",
-    "forecast_review_cs": "Předchozí předpověď o eskalaci právních a politických sporů v Brazílii po volbách byla plně potvrzena útěkem Flávio Bolsonara do zahraničí a odmítnutím výsledků voleb částí opozice.",
-    "forecast_review_en": "The previous forecast regarding the escalation of legal and political disputes in Brazil post-election was fully confirmed by Flávio Bolsonaro's flight abroad and the opposition's rejection of the election results."
+    "forecast_cs": "V nejbližších dnech lze očekávat gradaci diplomatické roztržky mezi Brazílií, USA a Argentinou ohledně pobytu brazilské opozice v Miami. Komoditní trhy budou nadále těžit z výkyvů v dodávkách kávy a ropy.",
+    "forecast_en": "Over the coming days, an escalation of the diplomatic rift between Brazil, the US, and Argentina regarding the Brazilian opposition's stay in Miami is expected. Commodity markets will continue to benefit from volatility in coffee and oil supplies.",
+    "forecast_review_cs": "Předchozí předpověď ohledně diplomatických třenic a konsolidace reforem byla dnešními zprávami o útěku Flávia Bolsonara do USA a napětí mezi Mileim a Lulou plně potvrzena.",
+    "forecast_review_en": "The previous forecast regarding diplomatic friction and the consolidation of reforms was fully confirmed by today's news of Flávio Bolsonaro's flight to the US and tensions between Milei and Lula."
   },
   "articles": [
     {
-      "title": "Hackers target US campaign finance system days before midterm elections",
-      "summary": "An FEC email said a 'bad actor' tried to breach its systems as the US prepares for its most expensive elections ever.",
-      "link": "https://www.aljazeera.com/news/2026/10/28/hackers-target-us-campaign-finance-system-days-before-midterm-elections?traffic_source=rss",
-      "published": "Wed, 28 Oct 2026 11:47:10 +0000",
+      "title": "Latin American Pulse for Thursday, October 29, 2026",
+      "summary": "<p>Latin America's mood today: Brazil's oil record meets a senator's exit, Mexico debates US Navy SEALs on its soil, and Colombia's crypto economy grows.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/latin-american-pulse-for-thursday-october-29-2026/\">Latin American Pulse for Thursday, October 29, 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/latin-american-pulse-for-thursday-october-29-2026/",
+      "published": "Thu, 29 Oct 2026 04:14:19 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Fed Holds US Rate as S&P 500 Gains 0.3% | Global Economy, Oct 29",
+      "summary": "<p>The Federal Reserve held its rate at 3.75%–4% with two votes for a hike, Wall Street edged higher, and US growth and inflation data arrive today.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/global-economy-briefing-october-29-2026/\">Fed Holds US Rate as S&P 500 Gains 0.3% | Global Economy, Oct 29</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/global-economy-briefing-october-29-2026/",
+      "published": "Thu, 29 Oct 2026 04:14:10 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Brazil Stocks Fell 2.68%; Vale Reports Today | Morning Call, Oct 29",
+      "summary": "<p>Brazil's main stock index fell 2.68% on Wednesday. Today brings inflation and jobs data, and Vale reports after the close as the Fed holds in the background.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/brazils-financial-morning-call-for-thursday-october-29-2026/\">Brazil Stocks Fell 2.68%; Vale Reports Today | Morning Call, Oct 29</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/brazils-financial-morning-call-for-thursday-october-29-2026/",
+      "published": "Thu, 29 Oct 2026 04:13:57 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Flávio Bolsonaro claims he is Brazil's true president, then backtracks",
+      "summary": "<p><img alt=\"Flávio Bolsonaro.\" src=\"https://fotos.perfil.com/2026/10/26/trim/540/304/flavio-bolsonaro-2356905.jpg\" /></p>\"I am the elected president,\" declares defeated presidential candidate after fleeing to United States, before downgrading his claim to \"leader.\" <a href=\"https://www.batimes.com.ar/news/latin-america/flavio-bolsonaro-claims-he-is-brazils-true-president-then-backtracks.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/latin-america/flavio-bolsonaro-claims-he-is-brazils-true-president-then-backtracks.phtml",
+      "published": "Thu, 29 Oct 2026 03:58:36 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Private jet firm used by Flávio Bolsonaro previously sparked scandal for Milei",
+      "summary": "<p><img alt=\"A plane carrying Flávio Bolsonaro and his family\" src=\"https://fotos.perfil.com/2026/10/29/trim/540/304/a-plane-carrying-flavio-bolsonaro-and-his-family-2358338.jpg\" /></p>Bolsonaro flew on a Gulfstream operated by Baires Fly SA after crossing into Argentina; Firm's manager was accused by prosecutors last year of involvement in ANDIS graft scandal. <a href=\"https://www.batimes.com.ar/news/latin-america/private-jet-firm-used-by-flavio-bolsonaro-previously-sparked-scandal-for-milei.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/latin-america/private-jet-firm-used-by-flavio-bolsonaro-previously-sparked-scandal-for-milei.phtml",
+      "published": "Thu, 29 Oct 2026 03:46:25 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Trump shelters Flávio Bolsonaro, risking tensions with Brazil",
+      "summary": "<p><img alt=\"Donald Trump \" src=\"https://fotos.perfil.com/2026/10/29/trim/540/304/donald-trump-2358336.jpg\" /></p>Decision to take in Flávio Bolsonaro will affect bilateral relations; Lula said to be looking to the Trump administration’s next moves before assessing the effect on relations between the two countries.\n <a href=\"https://www.batimes.com.ar/news/latin-america/trump-shelters-flavio-bolsonaro-risking-tensions-with-brazil.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/latin-america/trump-shelters-flavio-bolsonaro-risking-tensions-with-brazil.phtml",
+      "published": "Thu, 29 Oct 2026 02:42:35 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Serbians storm TV studio as pro-Vucic media faces reckoning",
+      "summary": "Serbians stormed a TV studio and confronted its editor-in-chief after a student-led protest movement swept into power.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/29/serbians-storm-tv-studio-as-pro-vucic-media-faces-reckoning?traffic_source=rss",
+      "published": "Thu, 29 Oct 2026 02:02:02 +0000",
       "source": "Al Jazeera"
     },
     {
-      "title": "Brazil: Flavio Bolsonaro leaves Argentina for alleged US asylum after defeat",
-      "summary": "Flavio Bolsonaro, who lost Brazil's runoff election to incumbent Luiz Inacio Lula da Silva on Sunday, boarded a flight to Ecuador after arriving in Argentina on Tuesday night, October 27. He is expected to land in Miami, as the US State Department said it would issue visas to him and his family. France 24's correspondent in Rio de Janeiro Tim Vickery reports the latest.",
-      "link": "https://www.france24.com/en/video/20261028-brazil-flavio-bolsonaro-leaves-argentina-for-alleged-us-asylum-after-defeat",
-      "published": "Wed, 28 Oct 2026 11:43:38 GMT",
+      "title": "Bolsonaro in Miami: I am the ‘true president-elect’",
+      "summary": "Flavio Bolsonaro claimed to be the ‘true president-elect’ of Brazil in his first statement since fleeing to the US.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/29/bolsonaro-in-miami-i-am-the-true-president?traffic_source=rss",
+      "published": "Thu, 29 Oct 2026 02:01:09 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Bolsonaro’s exit via Argentina further strains relations between Milei and Lula",
+      "summary": "<p>\n\t   \t      <img alt=\"Presidential spokesman Adrián Ravier said the government had “taken note of the result” of the Brazilian election but ruled out an official statement\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111935/100x80/arbr.jpeg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Brazilian Senator Flávio Bolsonaro’s transit through Argentina, after he left Brazil despite a court ban and flew to Miami from Puerto Iguazú following his election defeat, has opened a new front in the strained relationship between the governments of Javier Milei and Luiz Inácio Lula da Silva, while the Casa Rosada maintains its refusal to congratulate the Brazilian president on his re-election.</p>",
+      "link": "https://en.mercopress.com/2026/10/29/bolsonaro-s-exit-via-argentina-further-strains-relations-between-milei-and-lula?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Thu, 29 Oct 2026 01:30:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "“True president”, then “leader”: Bolsonaro’s letter from the United States",
+      "summary": "<p>\n\t   \t      <img alt=\"In the letter, Bolsonaro says he did not flee but refused to submit to “political persecution” and judicial harassment\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111933/100x80/flav.jpeg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Brazilian Senator Flávio Bolsonaro, who arrived in Miami on Wednesday after leaving Brazil despite a court ban, released a letter in which he presented himself as “the true president-elect of Brazil”, alleged “electoral fraud” without evidence and thanked Argentine President Javier Milei for his “courage”. About 30 minutes later the text was changed and Bolsonaro described himself instead as Brazil’s “leader”.</p>",
+      "link": "https://en.mercopress.com/2026/10/29/true-president-then-leader-bolsonaro-s-letter-from-the-united-states?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Thu, 29 Oct 2026 01:17:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "King Charles begins a Caribbean tour overshadowed by calls for slavery reparations",
+      "summary": "<p>\n\t   \t      <img alt=\"The British government has ruled out both a formal apology and reparations, and Buckingham Palace has said the King will follow that line, since both matters are for the government\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111931/100x80/char.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         King Charles III arrived in the Bahamas on Tuesday to begin a nine-day tour of the Caribbean, his first since acceding to the throne in 2022, which will also take him to Guyana and Antigua and Barbuda, where he will attend the Commonwealth Heads of Government Meeting. The trip is overshadowed by calls for an official apology and reparations for Britain’s role in the transatlantic slave trade.</p>",
+      "link": "https://en.mercopress.com/2026/10/29/king-charles-begins-a-caribbean-tour-overshadowed-by-calls-for-slavery-reparations?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Thu, 29 Oct 2026 01:11:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "Riot police deployed in Madrid as protests erupt over deadly train crash",
+      "summary": "A deadly train crash fuelled anger in Spain as far-right demonstrators clashed with police",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/29/riot-police-deployed-in-madrid-as-protests-erupt-over-deadly-train-crash?traffic_source=rss",
+      "published": "Thu, 29 Oct 2026 00:36:33 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Israelis rally for Jewish-Arab government after election gains",
+      "summary": "Israelis rallied for a Jewish-Arab gov’t after parties representing Israel’s Arab citizens made gains in the election.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/29/israelis-rally-for-jewish-arab-government-after-election-gains?traffic_source=rss",
+      "published": "Thu, 29 Oct 2026 00:34:24 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment.",
+      "summary": "Several proposals consider changing the way retirees receive inflation protection. Here’s what it could cost you.",
+      "link": "https://www.marketwatch.com/story/is-it-curtains-for-cola-saving-social-security-could-mean-changing-the-cost-of-living-adjustment-867c6bd8?mod=mw_rss_topstories",
+      "published": "Wed, 28 Oct 2026 22:41:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Chipotle now has more demand from lower-income diners than higher-income ones",
+      "summary": "The fast-casual chain says menu-price increases helped results. It also noted rising beef costs and “higher protein usage” as people try to find ways to pack more protein into their diets.",
+      "link": "https://www.marketwatch.com/story/chipotle-expects-modestly-higher-sales-this-year-as-drive-thru-chipotlanes-come-to-more-stores-4f255bbc?mod=mw_rss_topstories",
+      "published": "Wed, 28 Oct 2026 22:25:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Flavio Bolsonaro claims he is Brazil's true leader after fleeing to US",
+      "summary": "Brazil's defeated right-wing presidential candidate Flavio Bolsonaro insisted Wednesday he is his country's rightful leader after arriving in the United States to start a self-imposed exile. Bolsonaro's defiance on fleeing to Florida signaled continued upheaval for Brazil, where leftist President Luiz Inacio Lula da Silva won a dramatic runoff election Sunday. FRANCE 24's Sharon Gaffney speaks with Fabio de Sa e Silva, Associate Professor of International Studies at the University of Oklahoma. He says that an attempt by Bolsonaro to turn a domestic dispute into a wider international issue \"will not be successful\", explaining that he is likely going to be \"losing the grip of the opposition, there is a vacuum now that others will seek to occupy\" and that it's unlikely that the United States will \"get involved into questioning the results of the Brazilian election\".",
+      "link": "https://www.france24.com/en/tv-shows/a-propos/20261028-flavio-bolsonaro-claims-he-is-brazil-s-true-leader-after-fleeing-to-us",
+      "published": "Wed, 28 Oct 2026 22:15:03 GMT",
       "source": "France 24"
     },
     {
-      "title": "Flávio Bolsonaro on flight to Miami after fleeing Brazil amid election defeat",
-      "summary": "<p>Far-right senator and family expected to land in US after crossing into Argentina and then flying out of Ecuador</p><p>A jet carrying the far-right Brazilian senator Flávio Bolsonaro has left Guayaquil in Ecuador and is on its way to Miami, Florida, where it is expected to arrive mid-morning on Wednesday.</p><p>After losing <a href=\"https://www.theguardian.com/world/2026/oct/26/lula-wins-brazil-election\">Sunday night’s election</a> to the incumbent president, <a href=\"https://www.theguardian.com/world/luiz-inacio-lula-da-silva\">Luiz Inácio Lula da Silva</a>, Bolsonaro disappeared for more than 24 hours, until Argentina’s migration authorities said he had entered the country by land on Tuesday night.</p> <a href=\"https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat\">Continue reading...</a>",
+      "title": "Flávio Bolsonaro calls himself the ‘leader of Brazil’ after fleeing to Miami",
+      "summary": "<p>Far-right senator and family land in US after crossing from Brazil into Argentina and then flying via Ecuador</p><p><a href=\"https://www.theguardian.com/world/fl-vio-bolsonaro\">Flávio Bolsonaro</a> declared himself the “true president” of <a href=\"https://www.theguardian.com/world/brazil\">Brazil</a> after losing last Sunday’s presidential election and fleeing to the United States.</p><p>After landing on a private jet with his family in Miami, <a href=\"https://www.theguardian.com/us-news/florida\">Florida</a>, on Wednesday morning, the far-right senator published the claim in a letter – even though his own party has recognised the legitimate victory of <a href=\"https://www.theguardian.com/world/luiz-inacio-lula-da-silva\">Luiz Inácio Lula da Silva</a>, as have all of Brazil’s institutions, and international observers who monitored and endorsed the vote.</p> <a href=\"https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat\">Continue reading...</a>",
       "link": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat",
-      "published": "Wed, 28 Oct 2026 11:32:31 GMT",
+      "published": "Wed, 28 Oct 2026 22:06:46 GMT",
       "source": "The Guardian"
     },
     {
-      "title": "Brazil: Bolsonaro defeated and on the run",
-      "summary": "Defeated far-right presidential candidate Flávio Bolsonaro has left Brazil for the United States, despite a court order barring him from leaving the country. The son of jailed former president Jair Bolsonaro has yet to concede defeat in Sunday’s election and is under investigation in Brazil for alleged corruption and money laundering. Antonia Kerrigan has more.",
-      "link": "https://www.france24.com/en/brazil-bolsonaro-defeated-and-on-the-run",
-      "published": "Wed, 28 Oct 2026 11:30:09 GMT",
+      "title": "Brazilian political drama unfolds as defeated Flavio Bolsonaro arrives in Miami",
+      "summary": "Defeated presidential candidate Flavio Bolsonaro and his family have arrived in the U.S. after Brazilian authorities ordered him to surrender his passport. He is facing multiple investigations in Brazil.",
+      "link": "https://www.npr.org/2026/10/28/nx-s1-6020518/brazilian-political-drama-unfolds-as-defeated-flavio-bolsonaro-arrives-in-miami",
+      "published": "Wed, 28 Oct 2026 17:46:27 -0400",
+      "source": "NPR"
+    },
+    {
+      "title": "Top US federal judge who handled 9/11, Trump, Maduro cases dies aged 92",
+      "summary": "Alvin Hellerstein, a top US judge who was handling the trial against deposed Venezuelan leader Nicholas Maduro and previously oversaw lawsuits stemming from the September 11 attacks on the World Trade Centre and multiple cases involving President Donald Trump, died on Wednesday aged 92.",
+      "link": "https://www.france24.com/en/americas/20261028-top-us-federal-judge-who-handled-9-11-trump-maduro-cases-dies-aged-92",
+      "published": "Wed, 28 Oct 2026 20:22:05 GMT",
       "source": "France 24"
+    },
+    {
+      "title": "US ambassador suggests Trump could blame Canada if midterms don’t go his way",
+      "summary": "<p>Pete Hoekstra, controversial US ambassador to Canada, has also accused Canadian officials of interfering in US elections</p><p>The US ambassador has suggested Canada could be blamed if Republicans perform poorly in next week’s midterm elections, the latest intervention from a controversial figure who has been accused of inflaming a bitter dispute that has angered and baffled residents of both countries.</p><p>On Wednesday, CTV news <a href=\"https://www.ctvnews.ca/world/trumps-tariffs/article/exclusive-hoekstra-tells-closed-door-meeting-canada-could-be-blamed-if-us-midterms-go-against-trump/\">reported</a> that Pete Hoekstra told business leaders at a closed door meeting that if a number of swing races – including Maine and Michigan – go to the Democrats, it could make things harder for Canada because Donald Trump might try to blame the loss on it.</p> <a href=\"https://www.theguardian.com/world/2026/oct/28/canada-ambassador-republicans-midterms\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/oct/28/canada-ambassador-republicans-midterms",
+      "published": "Wed, 28 Oct 2026 20:15:07 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Watch: Has Flávio Bolsonaro fled Brazil to evade justice?",
+      "summary": "The BBC's Ione Wells looks at whether the defeated right-wing presidential candidate travelled to the US to avoid an ongoing criminal investigation.",
+      "link": "https://www.bbc.co.uk/news/videos/cjx23vnv63yeo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 28 Oct 2026 19:15:27 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Lula makes history: inside the 30 October Guardian Weekly",
+      "summary": "<p>Brazil backs Lula for a fourth term. <strong>Plus:</strong> Student List triumphs in Serbia</p><ul><li><p><a href=\"https://support.theguardian.com/uk/subscribe/weekly?promoCode=WWM62X\"><strong>Get the Guardian Weekly delivered to your home address</strong></a></p></li></ul><p>How many grinning faces, jubilant crowds and celebrating politicians can you fit into a single issue of the Guardian Weekly? That’s not a question that often troubles us, but the spectacular triumph of President Luiz Inácio Lula da Silva, winning a historic second-round vote after losing the first to rightwing opponent Flávio Bolsonaro, and the victory of the student-led campaign against autocrat Aleksandar Vučić in Serbia gave me a happy problem to solve this week. In an era when the right seems to be riding high in the world, popular pushbacks against strongmen politicians is something to celebrate.</p><p>For our Brazil cover story, <a href=\"https://www.theguardian.com/profile/tomphillips\">Tom Phillips</a> and <a href=\"https://www.theguardian.com/profile/tiago-rogero\">Tiago Rogero</a> report on the reaction to Lula’s victory and how he pulled eventual success from the jaws of what, until the first results came on Sunday evening, seemed a probable defeat. As government health minister Alexandre Padilha said that evening: “It’s a massive victory – not just for Brazil. It’s also an important signal to the rest of Latin America and to the world.” But, as commentator <a href=\"https://www.theguardian.com/profile/jordana-timerman\">Jordana Timerman</a> cautions, Brazil has been an exception in Latin America in successfully resisting Donald Trump’s attempt to achieve hegemony over the region.</p> <a href=\"https://www.theguardian.com/news/2026/oct/28/lula-makes-history-inside-the-30-october-guardian-weekly\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/news/2026/oct/28/lula-makes-history-inside-the-30-october-guardian-weekly",
+      "published": "Wed, 28 Oct 2026 18:00:09 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "UN votes to condemn U.S. embargo on Cuba again, but an increasing number of nations are siding with Washington",
+      "summary": "<p>A majority of UN member countries voted for the 34th time to condemn U.S. economic sanctions against Cuba today. Cuba brought its annual non-binding resolution, which it first presented to the assembly in 1992, to the UN General Assembly (UNGA) on Tuesday. The resolution, entitled “Necessity of Ending the Economic, Commercial and Financial Blockade Imposed […]</p>\n<p>The post <a href=\"https://www.latinamericareports.com/un-votes-to-condemn-u-s-embargo-on-cuba-again-but-an-increasing-number-of-nations-are-siding-with-washington/15484/\">UN votes to condemn U.S. embargo on Cuba again, but an increasing number of nations are siding with Washington</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
+      "link": "https://www.latinamericareports.com/un-votes-to-condemn-u-s-embargo-on-cuba-again-but-an-increasing-number-of-nations-are-siding-with-washington/15484/",
+      "published": "Wed, 28 Oct 2026 17:03:59 +0000",
+      "source": "Latin America Reports"
+    },
+    {
+      "title": "Tensions erupt between Cuban and U.S. diplomats before key UN vote",
+      "summary": "<p>Officials from Washington and Havana traded insults and accusations on the UN General Assembly (UNGA) floor on Tuesday, ahead of today’s annual vote on a resolution condemning longstanding U.S. sanctions against the island.  U.S. Ambassador to the UN Mike Waltz had just started to give a speech urging member nations not to support the resolution, […]</p>\n<p>The post <a href=\"https://www.latinamericareports.com/tensions-erupt-between-cuban-and-u-s-diplomats-before-key-un-vote/15480/\">Tensions erupt between Cuban and U.S. diplomats before key UN vote</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
+      "link": "https://www.latinamericareports.com/tensions-erupt-between-cuban-and-u-s-diplomats-before-key-un-vote/15480/",
+      "published": "Wed, 28 Oct 2026 16:57:32 +0000",
+      "source": "Latin America Reports"
+    },
+    {
+      "title": "What we know as Flávio Bolsonaro lands in US after Brazil election loss",
+      "summary": "The BBC's Ione Wells unpacks Bolsonaro's journey to Miami after losing Brazil's presidential election and facing a passport surrender order.",
+      "link": "https://www.bbc.co.uk/news/videos/c6x29djyx7g9o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 28 Oct 2026 16:30:29 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Highwaymen: How Cargo Theft Gangs Operate in Costa Rica",
+      "summary": "<p><a href=\"https://insightcrime.org/news/highwaymen-how-cargo-theft-gangs-operate-in-costa-rica/\">Highwaymen: How Cargo Theft Gangs Operate in Costa Rica</a></p>\n<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2026/10/InSight-Crime-2-HighwayMan-Costa-Rica-Owen-Alfonso-Oct-2026.jpg?fit=1024%2C576&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>Cargo theft gangs hijack trucks on Costa Rica’s highways, using leaked customs data and signal jammers. InSight Crime rode along with a Panamanian trucker to see how drivers survive the trip.</p>\n<p>The post <a href=\"https://insightcrime.org/news/highwaymen-how-cargo-theft-gangs-operate-in-costa-rica/\">Highwaymen: How Cargo Theft Gangs Operate in Costa Rica</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
+      "link": "https://insightcrime.org/news/highwaymen-how-cargo-theft-gangs-operate-in-costa-rica/",
+      "published": "Wed, 28 Oct 2026 13:26:36 +0000",
+      "source": "InSight Crime"
     },
     {
       "title": "Israel's election too close to call. And, the Ebola outbreak reaches grim milestone",
@@ -91,81 +245,11 @@
       "source": "NPR"
     },
     {
-      "title": "US midterms: Slashing of food stamps in Arizona angers voters",
-      "summary": "With the US midterm elections just under a week away, the cost of living has emerged as a key campaign issue. In Arizona, many Americans are criticising the administration’s decision to slash food stamps, which has had significant consequences for the poorest. Camille Corcoran reports.",
-      "link": "https://www.france24.com/en/video/20261028-us-midterms-slashing-of-food-stamps-in-arizona-angers-voters",
-      "published": "Wed, 28 Oct 2026 10:43:14 GMT",
-      "source": "France 24"
-    },
-    {
-      "title": "US midterms: Six days left – who leads in the polls as Trump, Obama rally",
-      "summary": "Democrats lead national polls as Trump and Obama campaign in key states six days before the US midterm elections.",
-      "link": "https://www.aljazeera.com/news/2026/10/28/us-midterms-six-days-left-who-leads-in-the-polls-as-trump-obama-rally?traffic_source=rss",
-      "published": "Wed, 28 Oct 2026 10:31:37 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "The real way to tell if Amazon’s AI spending is paying off",
-      "summary": "Investors focus on Amazon’s cloud business, but the most important indicator might lie in the company’s warehouses.",
-      "link": "https://www.marketwatch.com/story/the-real-way-to-tell-if-amazons-ai-spending-is-paying-off-42a8a637?mod=mw_rss_topstories",
-      "published": "Wed, 28 Oct 2026 10:30:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Adderstone builds on the foundations of hangar success with new Stanley House contract",
-      "summary": "<p>\n\t   \t      <img alt=\"M. Wallbank (Managing Director), G. Vatamanu (General Foreman) and Natasha Greenland (General Manager), Adderstone Co. (Falkland Islands) Ltd, outside the newly completed FIGAS hangar, Port Stanley.\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111924/100x80/1-sty-hangar.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Adderstone Construction (Falkland Islands) Limited, part of the Newcastle-headquartered property and construction group, has been awarded a further contract by the Falkland Islands Government, shortly after completing the redevelopment of the FIGAS aircraft hangar in Port Stanley.</p>",
-      "link": "https://en.mercopress.com/2026/10/28/adderstone-builds-on-the-foundations-of-hangar-success-with-new-stanley-house-contract?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Wed, 28 Oct 2026 10:28:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Four reasons to start worrying about inflation — including the end of tariff refunds",
-      "summary": "Dennis DeBusschere of 22V Research says companies that previously used tariff refunds to ease cost pressures will increasingly pass on those higher costs to consumers.",
-      "link": "https://www.marketwatch.com/story/four-reasons-to-start-worrying-about-inflation-including-the-end-of-tariff-refunds-978a5cfd?mod=mw_rss_topstories",
-      "published": "Wed, 28 Oct 2026 10:21:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Hormuz oil spill forces closure of UAE beaches",
-      "summary": "An oil spill from a damaged tanker in the Strait of Hormuz has reached the UAE’s beaches, forcing their closure.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/28/hormuz-oil-spill-forces-closure-of-uae-beaches?traffic_source=rss",
-      "published": "Wed, 28 Oct 2026 10:02:32 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "A US woman feared dead was reported alive in Mexico. But cops now say that isn’t true",
+      "title": "A US woman feared dead was reported alive in Mexico. But police now say that isn’t true",
       "summary": "<p>Mexican police had said they found Shayna Feinman in Tijuana, raising the hopes of missing Arizonan’s family</p><p><a href=\"https://www.theguardian.com/us-news/arizona\">Arizona</a> authorities say their <a href=\"https://www.theguardian.com/world/mexico\">Mexican</a> counterparts were resoundingly mistaken when they publicly claimed recently that they found alive a woman who was feared slain after disappearing in 2024 – a turn of events that her sister has called “turmoil” and “heartbreaking”.</p><p>The case in question centers on Shayna Feinman, who was reported missing in rural Yavapai county, Arizona, in March 2024 at age 38.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/28/shayna-feinman-missing-arizona-woman-mexico\">Continue reading...</a>",
       "link": "https://www.theguardian.com/us-news/2026/oct/28/shayna-feinman-missing-arizona-woman-mexico",
       "published": "Wed, 28 Oct 2026 10:00:05 GMT",
       "source": "The Guardian"
-    },
-    {
-      "title": "Traders See Israel Deadlock, Not a New PM",
-      "summary": "<p>Israeli election odds swung overnight: Eizenkot fell to 13% on Kalshi, “No one” as prime minister rose to 59%, and 61 seats are still out of reach.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/israel-pm-odds-deadlock-eizenkot-falls/\">Traders See Israel Deadlock, Not a New PM</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/israel-pm-odds-deadlock-eizenkot-falls/",
-      "published": "Wed, 28 Oct 2026 09:31:29 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Grenada Leaders Debate Tonight Before Vote",
-      "summary": "<p>Grenada's three party leaders meet in a televised debate tonight, eight days before the November 5 election. Fifteen seats are up and eight win a majority.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/grenada-leaders-debate-tonight-before-vote/\">Grenada Leaders Debate Tonight Before Vote</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/grenada-leaders-debate-tonight-before-vote/",
-      "published": "Wed, 28 Oct 2026 09:25:16 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Flávio Bolsonaro leaves Brazil despite a court ban and the US will grant him a visa",
-      "summary": "<p>\n\t   \t      <img alt=\"A State Department official confirmed that visas would be issued for the senator and his family\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111916/100x80/fala.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Senator Flávio Bolsonaro, defeated on Sunday by Luiz Inácio Lula da Silva in the presidential runoff, left Brazil with his wife and two daughters despite a Supreme Federal Court order barring him from leaving the country, and the US State Department confirmed it will grant them visas. According to the newspaper O Globo, he arrived in Miami on Tuesday night.</p>",
-      "link": "https://en.mercopress.com/2026/10/28/flavio-bolsonaro-leaves-brazil-despite-a-court-ban-and-the-us-will-grant-him-a-visa?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Wed, 28 Oct 2026 09:17:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Confusion about Flávio Bolsonaro's whereabouts as Argentina says he flew to Ecuador",
-      "summary": "The defeated presidential candidate crossed a land border into Argentina late on Tuesday, Argentine migration authorities say.",
-      "link": "https://www.bbc.co.uk/news/articles/ckly0xpxp243o?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 28 Oct 2026 08:55:49 GMT",
-      "source": "BBC News"
     },
     {
       "title": "Partial results from Israel's contentious election show no clear winner",
@@ -173,62 +257,6 @@
       "link": "https://www.npr.org/2026/10/28/nx-s1-6019423/israel-election-results",
       "published": "Wed, 28 Oct 2026 04:46:47 -0400",
       "source": "NPR"
-    },
-    {
-      "title": "Mexico’s Coke Bottler Lifts Profit 5.5%",
-      "summary": "<p>Coca-Cola FEMSA earned about US$334 million in the third quarter, up 5.5%, as South America drove growth while Mexico's operating income fell 3.1%.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/coca-cola-femsa-q3-earnings-2026/\">Mexico’s Coke Bottler Lifts Profit 5.5%</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/coca-cola-femsa-q3-earnings-2026/",
-      "published": "Wed, 28 Oct 2026 08:31:23 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Flávio Bolsonaro flees Brazil after presidential election loss, reports say",
-      "summary": "<p>Far-right senator and his family boarded private plane to Ecuador after crossing border to Argentina, Argentina’s government confirms</p><p>The far-right senator <a href=\"https://www.theguardian.com/world/fl-vio-bolsonaro\">Flávio Bolsonaro</a> has reportedly fled Brazil and is on his way to the United States after losing Sunday’s presidential election to the leftwing incumbent, Luiz Inácio Lula da Silva, who called the act “shameful”.</p><p>A report by the news website <a href=\"https://www.metropoles.com/colunas/grande-angular/flavio-bolsonaro-foi-embora-para-os-eua-aviao-em-voo\">Metrópoles</a>, citing people close to the politician’s family, said he was en route to the US. “The plane is in flight,” Metrópoles reported, without making clear where it had departed from.</p> <a href=\"https://www.theguardian.com/world/2026/oct/27/flavio-bolsonaro-brazil-argentina-fled\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/oct/27/flavio-bolsonaro-brazil-argentina-fled",
-      "published": "Wed, 28 Oct 2026 06:36:14 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Trump suggests Venezuela become the 51st US state and elect a governor",
-      "summary": "<p>\n\t   \t      <img alt=\"“We’re bringing out a lot of oil for ourselves, a lot. It will become a prosperous country, and who knows? Maybe someday soon it will become a prosperous 51st state. That’s possible,” Trump said\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111923/100x80/dt.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         US President Donald Trump suggested on Tuesday that Venezuela become the 51st US state and that its citizens elect a governor instead of a president, at a rally at the port of Corpus Christi, Texas, where he announced the arrival of the first shipment of one million barrels of Venezuelan oil obtained under an agreement between Washington and Caracas.</p>",
-      "link": "https://en.mercopress.com/2026/10/28/trump-suggests-venezuela-become-the-51st-us-state-and-elect-a-governor?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Wed, 28 Oct 2026 03:36:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "U.S. to issue visas to Flávio Bolsonaro as his whereabouts remain unclear",
-      "summary": "Flávio Bolsonaro leaves Brazil for the U.S. amid a money-laundering probe, as Washington agrees to issue visas to him and his family.",
-      "link": "https://www.npr.org/2026/10/27/nx-s1-6019678/u-s-to-issue-visas-to-flavio-bolsonaro-as-his-whereabouts-remain-unclear",
-      "published": "Tue, 27 Oct 2026 21:58:08 -0400",
-      "source": "NPR"
-    },
-    {
-      "title": "IMF strikes preliminary Argentina deal as market return dims",
-      "summary": "<p><img alt=\"The International Monetary Fund office in Washington.  \" src=\"https://fotos.perfil.com/2026/10/27/trim/540/304/the-international-monetary-fund-office-in-washington-2357739.jpg\" /></p>IMF staff laud Milei’s “prudent fiscal and monetary policies” and pointed to an improved balance sheet at the Central Bank, but tone down language over return to international credit markets. <a href=\"https://www.batimes.com.ar/news/economy/imf-strikes-preliminary-argentina-deal-as-market-return-dims.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/economy/imf-strikes-preliminary-argentina-deal-as-market-return-dims.phtml",
-      "published": "Tue, 27 Oct 2026 23:38:31 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
-      "title": "Trump shows off tanker with ‘1m barrels of oil’ and floats Venezuela as 51st state",
-      "summary": "<p>President at Texas campaign rally hails deal struck with post-Maduro government as ‘greatest oil victory in history’</p><p>Donald Trump suggested Venezuela would become the 51st state of the United States on Tuesday as the president showed off a tanker he claimed had “one million barrels of oil on it” from the country, nine months after <a href=\"https://www.theguardian.com/us-news/2026/jan/03/trump-venezuela-oil-industry\">deposing</a> its president.</p><p>At a campaign rally in Corpus Christ, Texas, Trump touted a <a href=\"https://www.theguardian.com/us-news/2026/aug/28/trump-venezuela-oil-agreement\">US oil deal</a> with Venezuela, which the US attacked in January, capturing its long-serving leader <a href=\"https://www.theguardian.com/world/nicolas-maduro\">Nicolás Maduro</a>.</p> <a href=\"https://www.theguardian.com/us-news/2026/oct/27/trump-oil-tanker-venezuela\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/oct/27/trump-oil-tanker-venezuela",
-      "published": "Tue, 27 Oct 2026 23:07:06 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "IMF backs Milei’s reforms in third review of Argentina deal",
-      "summary": "<p><img alt=\"International Monetary Fund headquarters in Washington.\" src=\"https://fotos.perfil.com/2025/11/13/trim/540/304/international-monetary-fund-headquarters-in-washington-2137374.jpg\" /></p>Agreement paves the way for a disbursement of approximately US$900 million, pending final approval by the Fund’s executive board.\n <a href=\"https://www.batimes.com.ar/news/economy/imf-approves-third-review-of-argentinas-programme.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/economy/imf-approves-third-review-of-argentinas-programme.phtml",
-      "published": "Tue, 27 Oct 2026 21:32:03 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
-      "title": "Milei will not congratulate Lula on re-election, spokesman says",
-      "summary": "<p><img alt=\"Presidential Spokesperson Adrián Ravier.\" src=\"https://fotos.perfil.com/2026/10/27/trim/540/304/presidential-spokesperson-adrian-ravier-2357661.jpg\" /></p>President Javier Milei will not issue an official statement congratulating Brazil's Lula on re-election as he is \"not a hypocrite,\" says spokesperson. <a href=\"https://www.batimes.com.ar/news/latin-america/milei-will-not-congratulate-lula-on-re-election-spokesman-says.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/latin-america/milei-will-not-congratulate-lula-on-re-election-spokesman-says.phtml",
-      "published": "Tue, 27 Oct 2026 21:22:27 GMT",
-      "source": "Buenos Aires Times"
     },
     {
       "title": "From Criminal Federation to Gang Wars: Rasquiña’s Legacy",
@@ -259,38 +287,10 @@
       "source": "Latin America Reports"
     },
     {
-      "title": "Lula wins fourth term in dramatic Brazil election comeback",
-      "summary": "The left-wing incumbent president had lost the first round to right-wing challenger Flávio Bolsonaro.",
-      "link": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 26 Oct 2026 21:02:47 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "US, Argentina silent as regional leaders congratulate Lula on Brazil election win",
-      "summary": "<p>Senator Flávio Bolsonaro is refusing to concede defeat. </p>\n<p>The post <a href=\"https://www.latinamericareports.com/us-argentina-silent-as-latin-american-leaders-congratulate-lula-on-brazil-election-win/15450/\">US, Argentina silent as regional leaders congratulate Lula on Brazil election win</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
-      "link": "https://www.latinamericareports.com/us-argentina-silent-as-latin-american-leaders-congratulate-lula-on-brazil-election-win/15450/",
-      "published": "Mon, 26 Oct 2026 19:01:47 +0000",
-      "source": "Latin America Reports"
-    },
-    {
       "title": "Gangs, Fintechs, and the Amazon: The Crime Agenda Awaiting Lula’s Fourth Term",
       "summary": "<p><a href=\"https://insightcrime.org/news/gangs-fintechs-and-the-amazon-the-crime-agenda-awaiting-lulas-fourth-term/\">Gangs, Fintechs, and the Amazon: The Crime Agenda Awaiting Lula’s Fourth Term</a></p>\n<figure><img alt=\"Brazil elections\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2026/10/President-Luiz-Inacio-Lula-da-Silva-presidential-runoff-in-Sao-Paulo-Brazil-Oct-25-2026-AP26299155828378.jpg?fit=1024%2C576&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>Luiz Inácio Lula da Silva, Brazil’s 80-year-old president, completed a stunning turnaround to win a fourth presidential term, but with rising criminality and an opposition-controlled Congress, he may struggle to implement an effective security agenda.</p>\n<p>The post <a href=\"https://insightcrime.org/news/gangs-fintechs-and-the-amazon-the-crime-agenda-awaiting-lulas-fourth-term/\">Gangs, Fintechs, and the Amazon: The Crime Agenda Awaiting Lula’s Fourth Term</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
       "link": "https://insightcrime.org/news/gangs-fintechs-and-the-amazon-the-crime-agenda-awaiting-lulas-fourth-term/",
       "published": "Mon, 26 Oct 2026 14:29:50 +0000",
-      "source": "InSight Crime"
-    },
-    {
-      "title": "Exiled Venezuela opposition leader Maria Corina Machado returns to Venezuela",
-      "summary": "<p>Her return poses a challenge to the interim government led by President Delcy Rodríguez.</p>\n<p>The post <a href=\"https://www.latinamericareports.com/exiled-venezuela-opposition-leader-maria-corina-machado-returns-to-venezuela/15447/\">Exiled Venezuela opposition leader Maria Corina Machado returns to Venezuela</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
-      "link": "https://www.latinamericareports.com/exiled-venezuela-opposition-leader-maria-corina-machado-returns-to-venezuela/15447/",
-      "published": "Sun, 25 Oct 2026 19:25:23 +0000",
-      "source": "Latin America Reports"
-    },
-    {
-      "title": "Organized Crime Postponed Democracy in Haiti, Again",
-      "summary": "<p><a href=\"https://insightcrime.org/news/organized-crime-postponed-democracy-in-haiti-again/\">Organized Crime Postponed Democracy in Haiti, Again</a></p>\n<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2026/10/Haiti-Jimmy-Cherizier-Alias-Barbecue-Pressident-Jovenel-Moise-July-2021-AP_21207695604143.jpg?fit=1024%2C576&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>As criminal governance becomes entrenched, the question about Haiti’s return to democracy is not when but how. </p>\n<p>In a briefing on October 19, the United Nations’ top delegate to Haiti, Carlos Ruiz Massieu told the UN Security Council that the country is still far from holding its first national elections since 2016.</p>\n<p>The post <a href=\"https://insightcrime.org/news/organized-crime-postponed-democracy-in-haiti-again/\">Organized Crime Postponed Democracy in Haiti, Again</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
-      "link": "https://insightcrime.org/news/organized-crime-postponed-democracy-in-haiti-again/",
-      "published": "Fri, 23 Oct 2026 17:10:09 +0000",
       "source": "InSight Crime"
     },
     {
@@ -337,15 +337,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-15 21:14",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 68,
-      "incidents": 40,
-      "bovespa": 204324.27,
-      "brl_czk": null
-    },
     {
       "date": "2026-10-15 21:23",
       "threat_level": "HIGH",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "bovespa": 175710.05,
       "brl_czk": 4.084
+    },
+    {
+      "date": "2026-10-29 06:00",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 68,
+      "incidents": 40,
+      "bovespa": 171006.1,
+      "brl_czk": 4.109
     }
   ],
   "locations": [
@@ -615,13 +615,6 @@
       "lon": -47.8828,
       "name_cs": "Brasília",
       "name_en": "Brasília"
-    },
-    {
-      "key": "Rio de Janeiro",
-      "lat": -22.9068,
-      "lon": -43.1729,
-      "name_cs": "Rio de Janeiro",
-      "name_en": "Rio de Janeiro"
     },
     {
       "key": "Buenos Aires",
@@ -652,18 +645,18 @@
       "name_en": "Quito"
     },
     {
+      "key": "Georgetown",
+      "lat": 6.8013,
+      "lon": -58.1551,
+      "name_cs": "Georgetown",
+      "name_en": "Georgetown"
+    },
+    {
       "key": "Amazon",
       "lat": -3.4653,
       "lon": -62.2159,
       "name_cs": "Amazonie",
       "name_en": "Amazon"
-    },
-    {
-      "key": "Falklands",
-      "lat": -51.7963,
-      "lon": -59.5236,
-      "name_cs": "Falklandy",
-      "name_en": "Falkland Islands"
     },
     {
       "key": "Cuba",
@@ -688,14 +681,6 @@
       "auto": true
     },
     {
-      "key": "Texas",
-      "lat": 31,
-      "lon": -99,
-      "name_cs": "Texas",
-      "name_en": "Texas",
-      "auto": true
-    },
-    {
       "key": "Florida",
       "lat": 27.8,
       "lon": -81.7,
@@ -717,6 +702,38 @@
       "lon": -82.8,
       "name_cs": "Ohio",
       "name_en": "Ohio",
+      "auto": true
+    },
+    {
+      "key": "Michigan",
+      "lat": 44.3,
+      "lon": -85.6,
+      "name_cs": "Michigan",
+      "name_en": "Michigan",
+      "auto": true
+    },
+    {
+      "key": "Maine",
+      "lat": 45.3,
+      "lon": -69,
+      "name_cs": "Maine",
+      "name_en": "Maine",
+      "auto": true
+    },
+    {
+      "key": "Oklahoma",
+      "lat": 35.5,
+      "lon": -97.5,
+      "name_cs": "Oklahoma",
+      "name_en": "Oklahoma",
+      "auto": true
+    },
+    {
+      "key": "Canada",
+      "lat": 56.1,
+      "lon": -106.3,
+      "name_cs": "Kanada",
+      "name_en": "Canada",
       "auto": true
     },
     {
@@ -768,19 +785,19 @@
       "auto": true
     },
     {
-      "key": "Uae",
-      "lat": 24.3,
-      "lon": 54.4,
-      "name_cs": "SAE",
-      "name_en": "Uae",
-      "auto": true
-    },
-    {
       "key": "Singapore",
       "lat": 1.35,
       "lon": 103.8,
       "name_cs": "Singapur",
       "name_en": "Singapore",
+      "auto": true
+    },
+    {
+      "key": "London",
+      "lat": 51.5,
+      "lon": -0.12,
+      "name_cs": "Londýn",
+      "name_en": "London",
       "auto": true
     },
     {
@@ -790,29 +807,37 @@
       "name_cs": "Paříž",
       "name_en": "France",
       "auto": true
+    },
+    {
+      "key": "Spain",
+      "lat": 40.4,
+      "lon": -3.7,
+      "name_cs": "Madrid",
+      "name_en": "Spain",
+      "auto": true
     }
   ],
   "location_counts": {
-    "Brasilia": 55,
+    "Brasilia": 56,
     "Sao Paulo": 27,
     "Rio de Janeiro": 15,
-    "Buenos Aires": 53,
+    "Buenos Aires": 54,
     "Santiago": 42,
     "Lima": 29,
-    "Bogota": 55,
-    "Caracas": 51,
-    "Quito": 39,
+    "Bogota": 56,
+    "Caracas": 52,
+    "Quito": 40,
     "La Paz": 18,
     "Asuncion": 10,
-    "Washington": 55,
-    "New York": 1,
+    "Washington": 56,
+    "New York": 2,
     "Texas": 2,
     "Colorado": 1,
     "Kanada": 1,
     "Mexiko": 2,
-    "Venezuela": 4,
-    "Brazílie": 11,
-    "Argentina": 7,
+    "Venezuela": 2,
+    "Brazílie": 15,
+    "Argentina": 4,
     "Ukrajina": 1,
     "Rusko": 1,
     "Pákistán": 1,
@@ -832,7 +857,7 @@
     "Atacama": 8,
     "Beijing": 17,
     "Čína": 1,
-    "Amazon": 40,
+    "Amazon": 41,
     "Medellin": 1,
     "Tchaj-wan": 1,
     "Řím": 1,
@@ -845,40 +870,33 @@
     "Detroit": 1,
     "Etiopie": 1,
     "Nigérie": 1,
-    "Florida": 4,
+    "Florida": 8,
     "Singapur": 1,
     "Súdán": 1,
     "Los Angeles": 1,
     "Paramaribo": 2,
-    "Arizona": 2,
+    "Arizona": 1,
     "Patagonia": 10,
     "Somálsko": 1,
     "Atlanta": 1,
-    "Georgetown": 6,
+    "Georgetown": 7,
     "Kalifornie": 1,
-    "Cuba": 10,
+    "Cuba": 11,
     "Egypt": 1,
     "San Francisco": 1,
     "SAE": 1,
     "Varšava": 1,
     "Aljaška": 1,
-    "Turecko": 1
+    "Turecko": 1,
+    "Oklahoma": 1
   },
   "top_location": {
     "key": "Brasilia",
     "name_cs": "Brasília",
     "name_en": "Brasília",
-    "count": 55
+    "count": 56
   },
   "archive": [
-    {
-      "date": "2026-10-22 05:01",
-      "threat_level": "HIGH",
-      "security_status_cs": "Brazílie se nachází v maximálním napětí před blížícím se druhým kolem prezidentských voleb, které doprovázejí ostré osobní útoky a obvinění z vměšování platforem. Mezitím Kolumbie a Mexiko čelí eskalujícím politickým třenicím a bezpečnostním krizím spojeným s organizovaným zločinem a kontroverzními zásahy. Komoditní trhy reagují na globální geopolitická rizika, přičemž ceny kávy atakují rekordy kvůli obchodním sporům.",
-      "security_status_en": "Brazil is experiencing maximum tension ahead of the upcoming presidential runoff, marked by fierce personal attacks and allegations of platform interference. Meanwhile, Colombia and Mexico face escalating political friction and security crises linked to organized crime and controversial law enforcement actions. Commodity markets are responding to global geopolitical risks, with coffee prices hitting record highs amid trade disputes.",
-      "forecast_cs": "V nejbližších dnech se veškerá pozornost soustředí na vyvrcholení brazilské volební kampaně a samotný průběh nedělního druhého kola, který zásadně ovlivní regionální náladu. Na komoditních trzích lze očekávat přetrvávající tlak na ceny kávy a ropy.",
-      "forecast_en": "Over the coming days, all attention will focus on the climax of the Brazilian election campaign and Sunday's runoff itself, which will decisively shape regional sentiment. Commodity markets can be expected to experience persistent price pressures in coffee and oil."
-    },
     {
       "date": "2026-10-22 10:56",
       "threat_level": "HIGH",
@@ -982,14 +1000,22 @@
       "security_status_en": "The election of Luiz Inácio Lula da Silva to a fourth presidential term in Brazil is accompanied by severe political turmoil, including defeated Flávio Bolsonaro's flight to the US. Venezuela's political landscape remains highly volatile following the return of exiled leader María Corina Machado and US geopolitical maneuvering, while Ecuador faces a severe escalation of organized crime violence.",
       "forecast_cs": "V nejbližších dnech lze očekávat další diplomatické třenice ohledně statusu představitelů brazilské opozice v USA a pokračující konsolidaci argentinských reforem. Trhy budou citlivě reagovat na inflační data a postoj Fedu k sazbám.",
       "forecast_en": "Over the coming days, further diplomatic friction regarding the status of Brazilian opposition figures in the US and the continued consolidation of Argentine reforms are expected. Markets will remain sensitive to inflation data and the Fed's stance on interest rates."
+    },
+    {
+      "date": "2026-10-29 06:00",
+      "threat_level": "HIGH",
+      "security_status_cs": "Jižní Amerika čelí politickým turbulencím po znovuzvolení Luly v Brazílii a útěku Flávia Bolsonara do USA, což vyvolává diplomatické napětí s Argentinou. Regionální trhy reagují na globální měnovou politiku Fedu a kolísající ceny komodit, zatímco Kolumbie řeší růst kryptoměnové ekonomiky a kávové trhy absorbují dopady geopolitických celních sporů.",
+      "security_status_en": "South America is facing political turmoil following Lula's reelection in Brazil and Flávio Bolsonaro's flight to the US, sparking diplomatic tensions with Argentina. Regional markets are reacting to the Fed's global monetary policy and fluctuating commodity prices, while Colombia navigates a growing crypto economy and coffee markets absorb the impacts of geopolitical tariff disputes.",
+      "forecast_cs": "V nejbližších dnech lze očekávat gradaci diplomatické roztržky mezi Brazílií, USA a Argentinou ohledně pobytu brazilské opozice v Miami. Komoditní trhy budou nadále těžit z výkyvů v dodávkách kávy a ropy.",
+      "forecast_en": "Over the coming days, an escalation of the diplomatic rift between Brazil, the US, and Argentina regarding the Brazilian opposition's stay in Miami is expected. Commodity markets will continue to benefit from volatility in coffee and oil supplies."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 7× HIGH.",
   "market_data": {
     "bovespa": {
-      "value": 175710.05,
-      "date": "2026-10-27",
+      "value": 171006.1,
+      "date": "2026-10-28",
       "cached": false
     },
     "merval": {
@@ -998,13 +1024,13 @@
       "cached": false
     },
     "usdbrl": {
-      "value": 5.346,
-      "date": "2026-10-28",
+      "value": 5.3461,
+      "date": "2026-10-29",
       "cached": false
     }
   },
   "brl_czk": {
-    "value": 4.084,
-    "date": "2026-10-27"
+    "value": 4.109,
+    "date": "2026-10-28"
   }
 }
