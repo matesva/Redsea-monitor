@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-31T01:34",
+ "updated": "2026-11-01T01:05",
  "band": {
   "7": 2.0,
   "30": 5.0
  },
- "signals_total": 223,
+ "signals_total": 228,
  "summary": {
   "7": {
    "ALL": {
@@ -37,7 +37,7 @@
    "BUY": {
     "n": 22,
     "ok": 13,
-    "avg": 2.98
+    "avg": 2.97
    },
    "SELL": {
     "n": 4,
@@ -61,7 +61,7 @@
    "30": {
     "n": 12,
     "ok": 8,
-    "avg": 5.48
+    "avg": 5.46
    }
   },
   "USA": {
@@ -133,6 +133,80 @@
   }
  },
  "signals": [
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Polovodiče (TSMC, Samsung, ASML)",
+   "action": "HOLD",
+   "date": "2026-10-31",
+   "tickers": [
+    "TSM",
+    "005930.KS",
+    "ASML"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Čínské akcie (ETF FXI, MCHI)",
+   "action": "SELL",
+   "date": "2026-10-31",
+   "tickers": [
+    "FXI",
+    "MCHI"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Argentina (Merval, YPF, MercadoLibre)",
+   "action": "BUY",
+   "date": "2026-10-31",
+   "tickers": [
+    "^MERV",
+    "MELI",
+    "YPF"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
+   "action": "HOLD",
+   "date": "2026-10-31",
+   "tickers": [
+    "CVX",
+    "PBR",
+    "EC"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
+   "action": "BUY",
+   "date": "2026-10-31",
+   "tickers": [
+    "JBS",
+    "BG",
+    "CSAN"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
   {
    "monitor": "Rudé moře",
    "sector": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
@@ -1215,80 +1289,6 @@
     "TTE.PA"
    ],
    "ret7": 3.05,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Evropa",
-   "sector": "Automobilový průmysl (Volkswagen, BMW, Stellantis)",
-   "action": "SELL",
-   "date": "2026-10-18",
-   "tickers": [
-    "BMW.DE"
-   ],
-   "ret7": 1.48,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Jižní Amerika",
-   "sector": "Argentina (Merval, YPF, MercadoLibre)",
-   "action": "HOLD",
-   "date": "2026-10-18",
-   "tickers": [
-    "^MERV",
-    "MELI",
-    "YPF"
-   ],
-   "ret7": -6.08,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Rudé moře",
-   "sector": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
-   "action": "BUY",
-   "date": "2026-10-17",
-   "tickers": [
-    "RHM.DE",
-    "TTE.PA",
-    "AIR.PA",
-    "ALV.DE"
-   ],
-   "ret7": 0.61,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "USA",
-   "sector": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
-   "action": "HOLD",
-   "date": "2026-10-17",
-   "tickers": [
-    "LMT",
-    "RTX",
-    "NOC"
-   ],
-   "ret7": 9.79,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Jižní Amerika",
-   "sector": "Argentina (Merval, YPF, MercadoLibre)",
-   "action": "BUY",
-   "date": "2026-10-17",
-   "tickers": [
-    "^MERV",
-    "MELI",
-    "YPF"
-   ],
-   "ret7": -6.08,
    "ok7": false,
    "ret30": null,
    "ok30": null
