@@ -1,66 +1,143 @@
 {
-  "last_updated": "2026-10-31T11:30:42Z",
+  "last_updated": "2026-11-01T06:00:51Z",
   "assessment": {
-    "threat_level": "HIGH",
-    "sentiment_score": 68,
-    "security_status_cs": "V Brazílii po těsných volbách sílí politické napětí kvůli odjezdu poraženého kandidáta Flávia Bolsonara do USA a jeho obviněním z pronásledování. Mezitím ve Venezuele ožívá demokratická naděje díky návratu opoziční vůdkyně Marie Coriny Machadové a její výzvě k volbám, zatímco regionální ekonomiky čelí inflačním tlakům a globálním celním rizikům.",
-    "security_status_en": "In Brazil, political tensions are mounting following the tight election and defeated candidate Flávio Bolsonaro's flight to the US amid claims of persecution. Meanwhile, democratic hopes in Venezuela are reviving with opposition leader María Corina Machado's return and call for elections, while regional economies face inflation pressures and global tariff risks.",
+    "threat_level": "MEDIUM",
+    "sentiment_score": 52,
+    "security_status_cs": "Jižní částečně ovlivňuje politická polarizace po brazilských volbách, kde poražený kandidát Flávio Bolsonaro uprchl do USA, a rostoucí napětí ve Venezuele po návratu opoziční vůdkyně Marie Coriny Machadové. Ekonomické prostředí navíc zatěžují klimatické výkyvy jako sucho El Niño v Bolívii a kolísání cen komodit včetně rekordních cen kávy.",
+    "security_status_en": "South America is partially impacted by post-election political polarization in Brazil, where defeated candidate Flávio Bolsonaro fled to the US, and rising tensions in Venezuela following opposition leader María Corina Machado's return. Furthermore, the economic environment is strained by climate anomalies such as the El Niño drought in Bolivia and commodity price volatility, including record coffee prices.",
     "recommendations": [
       {
         "sector_cs": "Brazilský akciový trh (Bovespa, ETF EWZ)",
         "sector_en": "Brazilian Equities (Bovespa, EWZ ETF)",
         "action": "HOLD",
-        "reason_cs": "Zvolení Lula da Silvy na čtvrté funkční období a politické manévry opozice vyvolávají nejistotu ohledně prosazování reforem v opozicí kontrolovaném Kongresu. Trhy vyčkávají na konkrétní kroky nové vlády v oblasti fiskální disciplíny.",
-        "reason_en": "Lula da Silva's fourth term and opposition maneuvers create uncertainty regarding reform implementation in an opposition-controlled Congress. Markets are awaiting concrete fiscal discipline steps from the new administration."
+        "reason_cs": "Přestože Lula da Silva vyhrál volby a posílil ochranu životního prostředí, vládnutí v opozicí kontrolovaném Kongresu a vyostřená rétorika exilové opozice vyžadují opatrnost.",
+        "reason_en": "Although Lula da Silva won the election and strengthened environmental protection, governance in an opposition-controlled Congress and fierce rhetoric from the exiled opposition warrant caution."
       },
       {
         "sector_cs": "Argentina (Merval, YPF, MercadoLibre)",
         "sector_en": "Argentina (Merval, YPF, MercadoLibre)",
-        "action": "BUY",
-        "reason_cs": "Navzdory politickému šumu a vyšetřování kolem administrativy prezidenta Mileie pokračují trhy v oceňování hlubokých strukturálních a deregulčních reforem. Očekávaná návštěva papeže a stabilizace ekonomiky poskytují prostor pro růst.",
-        "reason_en": "Despite political noise and investigations surrounding President Milei's administration, markets continue to price in deep structural and deregulatory reforms. The upcoming papal visit and economic stabilization provide room for growth."
+        "action": "HOLD",
+        "reason_cs": "Prezident Javier Milei čelí pokračujícím právním sporům (včetně odvolání ve věci $LIBRA), což přináší regulační nejistotu pro probíhající reformy.",
+        "reason_en": "President Javier Milei faces ongoing legal disputes (including the appeal in the $LIBRA case), which introduces regulatory uncertainty for ongoing reforms."
       },
       {
         "sector_cs": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
         "sector_en": "Mining: Copper & Lithium (Southern Copper, SQM, Freeport)",
-        "action": "HOLD",
-        "reason_cs": "Ceny kovů čelí protivětru v podobě globální makroekonomické nejistoty a výkyvů na trzích, i když poptávka po zelené energetice zůstává dlouhodobě stabilní. Regionální politická rizika v Chile a Peru však omezují agresivnější růstové pozice.",
-        "reason_en": "Metal prices face headwinds from global macroeconomic uncertainty and market volatility, though green energy demand remains structurally stable. Regional political risks in Chile and Peru, however, limit aggressive long positions."
+        "action": "BUY",
+        "reason_cs": "Globální poptávka po strategických kovech zůstává robustní a regionální zásoby poskytují solidní ochranu proti inflačním tlakům.",
+        "reason_en": "Global demand for strategic metals remains robust, and regional reserves provide solid protection against inflationary pressures."
       },
       {
         "sector_cs": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
         "sector_en": "Oil & Energy (Petrobras, Ecopetrol, Chevron)",
         "action": "HOLD",
-        "reason_cs": "Globální trhy s ropou reagují na kolísající sankce vůči Rusku a napětí na Blízkém východě, což drží ceny v úzkém rozpětí. Kolumbijsko-venezuelské energetické vazby a brazilská produkce zůstávají pod drobnohledem regulátorů.",
-        "reason_en": "Global oil markets are responding to fluctuating sanctions on Russia and Middle East tensions, keeping prices in a narrow range. Colombian-Venezuelan energy ties and Brazilian production remain under regulatory scrutiny."
+        "reason_cs": "Stabilní vývoz ruské ropy přes sankce a kolísající globální poptávka drží ceny ropy v mírném poklesu, což tlumí agresivnější investiční expanzi.",
+        "reason_en": "Stable Russian crude exports despite sanctions and fluctuating global demand are keeping oil prices slightly lower, dampening aggressive investment expansion."
       },
       {
         "sector_cs": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
         "sector_en": "Agriculture & Food (JBS, Bunge, Cosan)",
         "action": "BUY",
-        "reason_cs": "Ceny arabiky dosáhly rekordních maxim v reakci na kolísavou obchodní rétoriku a potenciální celní spory mezi USA a Kolumbií. Silná pozice jihoamerických exportérů komodit zajišťuje solidní marže navzdory globálním logistickým rizikům.",
-        "reason_en": "Arabica coffee prices hit record highs in response to fluctuating trade rhetoric and potential US-Colombia tariff disputes. The strong position of South American commodity exporters ensures solid margins despite global logistics risks."
+        "reason_cs": "Rekordní ceny arabiky a silná pozice jihoamerických exportérů na komoditních trzích kompenzují lokální klimatické problémy jako sucho v Bolívii.",
+        "reason_en": "Record arabica coffee prices and the strong position of South American exporters in commodity markets offset local climate issues such as the drought in Bolivia."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Dění v Jižní Americe má na české banky a energetiku pouze zanedbatelný nepřímý vliv skrze globální sentiment a likviditu. Tituly se nadále řídí domácími makroekonomickými daty a výsledkovou sezónou.",
-        "reason_en": "South American developments have only negligible indirect impact on Czech banks and energy utilities via global sentiment and liquidity. Stocks continue to be driven by domestic macroeconomic data and earnings seasons."
+        "reason_cs": "Dění v Jižní Americe má na tyto středoevropské tituly pouze zanedbatelný nepřímý vliv prostřednictvím globální nálady na rozvíjejících se trzích.",
+        "reason_en": "Developments in South America have only a negligible indirect impact on these Central European stocks via global emerging market sentiment."
       }
     ],
-    "forecast_cs": "V následujících dnech se očekává další eskalace rétoriky mezi brazilskou opozicí působící z USA a vládními představiteli v Brasília. Pozornost trhů se rovněž soustředí na reakce na návrat Marie Coriny Machadové do Venezuely a vývoj globálních měnových párů.",
-    "forecast_en": "Over the coming days, further escalation of rhetoric between the US-based Brazilian opposition and government officials in Brasília is expected. Market attention will also focus on reactions to María Corina Machado's return to Venezuela and global currency pair trends.",
-    "forecast_review_cs": "Předchozí předpověď o pokračujících slovních přestřelkách mezi brazilskou opozicí a vládními představiteli se plně potvrdila útěkem Flávia Bolsonara do USA.",
-    "forecast_review_en": "The previous forecast regarding ongoing verbal sparring between the Brazilian opposition and government officials was fully confirmed by Flávio Bolsonaro's flight to the US."
+    "forecast_cs": "V následujících dnech se očekává další vyostřování slovních přestrelek mezi brazilskou vládní garniturou a Fláviem Bolsonarem pobývajícím v USA. Pozornost trhů se rovněž zaměří na reakce venezuelského režimu na mobilizaci opozice pod vedením Marie Coriny Machadové.",
+    "forecast_en": "Over the coming days, verbal sparring between Brazil's government and Flávio Bolsonaro residing in the US is expected to intensify. Market attention will also focus on the Venezuelan regime's reactions to the opposition mobilization led by María Corina Machado.",
+    "forecast_review_cs": "Předchozí předpověď ohledně eskalace rétoriky mezi brazilskou opozicí a vládními představiteli se plně potvrdila útěkem Flávia Bolsonara do USA.",
+    "forecast_review_en": "The previous forecast regarding the escalation of rhetoric between the Brazilian opposition and government officials was fully confirmed by Flávio Bolsonaro's flight to the US."
   },
   "articles": [
     {
-      "title": "Thousands protest across Italy over living costs and military spending",
-      "summary": "Thousands have protested across Italy against rising living costs and increased military spending.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/thousands-protest-across-italy-over-living-costs-and-military-spending?traffic_source=rss",
-      "published": "Sat, 31 Oct 2026 11:07:39 +0000",
+      "title": "France protests enter third week as police fire tear gas",
+      "summary": "Police used tear gas to disperse protesters as demonstrations entered a third week ahead in France.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/france-protests-teargas-police-clashes?traffic_source=rss",
+      "published": "Sun, 01 Nov 2026 04:31:24 +0000",
       "source": "Al Jazeera"
+    },
+    {
+      "title": "Bolivia declares state of emergency over El Nino weather pattern",
+      "summary": "Drought is affecting 78,000 families and has led to loss of over 75,000 cattle, as El Nino due to peak in late 2026.",
+      "link": "https://www.aljazeera.com/news/2026/11/1/bolivia-declares-state-of-emergency-over-el-nino-weather-pattern?traffic_source=rss",
+      "published": "Sun, 01 Nov 2026 04:04:40 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Made with munitions from Malvinas War, a 'Chalice of Peace' in Argentina for Pope Leo",
+      "summary": "<p><img alt=\"chalice for pope, Juan Carlos Pallarols\" src=\"https://fotos.perfil.com/2026/10/30/trim/540/304/chalice-for-pope-juan-carlos-pallarols-2358797.jpg\" /></p>Argentine jeweller and silversmith Juan Carlos Pallarols is preparing a chalice as a gift for Pope Leo XIV for his November visit. <a href=\"https://www.batimes.com.ar/news/argentina/made-with-munitions-from-malvinas-war-a-chalice-of-peace-in-argentina-for-pope-leo.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/argentina/made-with-munitions-from-malvinas-war-a-chalice-of-peace-in-argentina-for-pope-leo.phtml",
+      "published": "Sun, 01 Nov 2026 03:31:00 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "India’s largest dam planned to counter China faces Indigenous revolt",
+      "summary": "Indigenous people of Arunachal Pradesh are protesting a mega dam planned to counter China's upstream hydropower project.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/indias-largest-dam-planned-to-counter-china-faces-indigenous-revolt?traffic_source=rss",
+      "published": "Sun, 01 Nov 2026 03:19:28 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Trump Says Flávio Bolsonaro Can Stay in US",
+      "summary": "<p>Trump says he has no plans to meet Flávio Bolsonaro but that the defeated Brazilian candidate can stay in the US as long as he wants.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/trump-says-flavio-bolsonaro-can-stay-in-us/\">Trump Says Flávio Bolsonaro Can Stay in US</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/trump-says-flavio-bolsonaro-can-stay-in-us/",
+      "published": "Sun, 01 Nov 2026 02:12:48 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Thousands rally in Israel urging ‘Jewish-Arab’ coalition to oust Netanyahu",
+      "summary": "In a counterprotest, Netanyahu supporters demand that Israel should not have a government with 'terrorists'.",
+      "link": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-israel-urging-eisenkot-arab-deal-to-remove-netanyahu?traffic_source=rss",
+      "published": "Sun, 01 Nov 2026 02:05:40 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "New Zealand Advance Voting Passes 500,000",
+      "summary": "<p>Advance voting has passed 500,000 ballots a week before New Zealand's November 7 election, while two polls name different leaders.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/new-zealand-advance-voting-passes-500000/\">New Zealand Advance Voting Passes 500,000</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/new-zealand-advance-voting-passes-500000/",
+      "published": "Sat, 31 Oct 2026 23:25:53 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "What to Do in Asunción in November 2026",
+      "summary": "<p>Ed Sheeran makes his Paraguay debut on 26 November, museums open late on 7 November and Rock en PY Fest runs on 14 November.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/what-to-do-in-asuncion-in-november-2026/\">What to Do in Asunción in November 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/what-to-do-in-asuncion-in-november-2026/",
+      "published": "Sat, 31 Oct 2026 22:26:29 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "France seethes again as youth-led protests sweep Europe",
+      "summary": "French Interior Minister Laurent Nuñez warned of a \"very high risk\" of disorder, especially after dark on Halloween, as some 320,000 people nationwide took to the streets.",
+      "link": "https://www.npr.org/2026/10/31/g-s1-151121/france-seethes-again-as-youth-led-protests-sweep-europe",
+      "published": "Sat, 31 Oct 2026 15:30:19 -0400",
+      "source": "NPR"
+    },
+    {
+      "title": "Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment.",
+      "summary": "Several proposals consider changing the way retirees receive inflation protection. Here’s what it could cost you.",
+      "link": "https://www.marketwatch.com/story/is-it-curtains-for-cola-saving-social-security-could-mean-changing-the-cost-of-living-adjustment-867c6bd8?mod=mw_rss_topstories",
+      "published": "Sat, 31 Oct 2026 18:33:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "AFA revamps Argentina's top flight with new football format for 2027 season",
+      "summary": "<p><img alt=\"La Bombonera, Boca Juniors' stadium in Buenos Aires, during a Superclásico\" src=\"https://fotos.perfil.com/2026/03/14/trim/540/304/la-bombonera-boca-juniors-stadium-in-buenos-aires-during-a-superclasico-2202821.jpg\" /></p>AFA announces format for 2027 season, though relegation rules have yet to be confirmed; Only River Plate spoke out, seeking 20-team top flight. <a href=\"https://www.batimes.com.ar/news/sports/argentinas-top-flight-new-football-format-for-next-season.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/sports/argentinas-top-flight-new-football-format-for-next-season.phtml",
+      "published": "Sat, 31 Oct 2026 15:52:00 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "The secret behind Lula’s win in Brazil may be an ‘army’ – of social media creators",
+      "summary": "<p>There are many explanations for the incumbent president’s win over Flávio Bolsonaro, but analysts – and he – point to reinvention of his social media use</p><p>Four days before his stunning electoral comeback, Luiz Inácio Lula da Silva, Brazil’s president, got his first smartphone.</p><p>Lula, who turned 81 last Tuesday, had long said he wanted to avoid an endless stream of calls during his rare moments off, and he began his presidential campaign by sticking to an old habit: using aides’ phones – only when necessary.</p> <a href=\"https://www.theguardian.com/world/2026/oct/31/brazil-lula-social-media\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/oct/31/brazil-lula-social-media",
+      "published": "Sat, 31 Oct 2026 13:37:39 GMT",
+      "source": "The Guardian"
     },
     {
       "title": "Trump vs MAGA: Why his movement is splitting",
@@ -77,41 +154,6 @@
       "source": "France 24"
     },
     {
-      "title": "Grenada Election Gets Commonwealth Observers",
-      "summary": "<p>The Commonwealth is sending an election team to Grenada ahead of the Nov. 5 vote for all 15 seats; here is who leads it and what it will watch.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/grenada-election-commonwealth-observers-team/\">Grenada Election Gets Commonwealth Observers</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/grenada-election-commonwealth-observers-team/",
-      "published": "Sat, 31 Oct 2026 09:27:44 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Flávio Bolsonaro vows to continue father’s political fight in Brazil",
-      "summary": "Flávio Bolsonaro vows to continue father's political fight in Brazil",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/10/31/flavio-bolsonaro-vows-to-continue-fathers-political-fight-in-brazil?traffic_source=rss",
-      "published": "Sat, 31 Oct 2026 09:14:45 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "France Deploys 70,000 Police for Protest Day",
-      "summary": "<p>France puts 70,000 police on duty for its third protest Saturday. Paris march is limited to the outer boulevards and a curfew starts at 6 p.m. ET.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/france-70000-police-protest-day-31-october/\">France Deploys 70,000 Police for Protest Day</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/france-70000-police-protest-day-31-october/",
-      "published": "Sat, 31 Oct 2026 08:49:08 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Costa Rica Cuts Growth Forecast to 3.2%",
-      "summary": "<p>Costa Rica's central bank lowered its growth forecasts to 3.2% for 2026 and 3.3% for 2027 as export growth slows and free-zone jobs shrink.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/costa-rica-central-bank-cuts-growth-forecast-free-zones/\">Costa Rica Cuts Growth Forecast to 3.2%</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/costa-rica-central-bank-cuts-growth-forecast-free-zones/",
-      "published": "Sat, 31 Oct 2026 08:37:56 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Chelsea vs Manchester United: LIVE – Premier League",
-      "summary": "Follow updates with build-up and team news coverage from our live text commentary stream, as Bruno Fernandes headlines.",
-      "link": "https://www.aljazeera.com/sports/liveblog/2026/10/31/chelsea-vs-manchester-united-live-premier-league?traffic_source=rss",
-      "published": "Sat, 31 Oct 2026 08:30:54 +0000",
-      "source": "Al Jazeera"
-    },
-    {
       "title": "Flavio Bolsonaro posts video, says he fled Brazil due to ‘persecution’",
       "summary": "Brazil's defeated right-wing presidential candidate Flavio Bolsonaro posted a video message on social media late Friday to declare he had fled to the US because he was a victim of 'persecution'. Bolsonaro, who lost Sunday's election runoff to President Luiz Inacio Lula da Silva, gave no details of how he left the country.",
       "link": "https://www.france24.com/en/americas/20261031-flavio-bolsonaro-posts-video-says-he-fled-brazil-due-to-persecution",
@@ -126,13 +168,6 @@
       "source": "Buenos Aires Times"
     },
     {
-      "title": "Political escapism in Brazil",
-      "summary": "<p><img alt=\"Flávio's US TV show ART\" src=\"https://fotos.perfil.com/2026/10/30/trim/540/304/flavios-us-tv-show-art-2358760.jpg\" /></p>Last Sunday’s run-off could hardly have been more polarised, yet both right and left could end up being the losers. The question of where do we go from here in the relationship between South America’s two biggest countries has been rendered far more acute by this week’s events.\n <a href=\"https://www.batimes.com.ar/news/op-ed/political-escapism-in-brazil.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/op-ed/political-escapism-in-brazil.phtml",
-      "published": "Sat, 31 Oct 2026 03:00:00 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
       "title": "From Montevideo to Luján: Leo XIV’s tour of Uruguay and Argentina",
       "summary": "<p>\n\t   \t      <img alt=\"“It fills me with joy to return to the continent where I have lived so many moments of my life,” wrote the pontiff, who was born in Chicago and spent almost two decades as a missionary in Peru\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111961/100x80/ppaa.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Pope Leo XIV will begin a tour of South America in Montevideo on November 6 that will take him to Uruguay, Argentina and Peru, with open-air Masses, meetings with Presidents Yamandú Orsi and Javier Milei, and events with young people, workers and prisoners. His stop in Argentina, from November 8 to 11, will be the first papal visit to the country since John Paul II’s in April 1987.</p>",
       "link": "https://en.mercopress.com/2026/10/31/from-montevideo-to-lujan-leo-xiv-s-tour-of-uruguay-and-argentina?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
@@ -140,25 +175,11 @@
       "source": "MercoPress"
     },
     {
-      "title": "Why gold plunged to its lowest price in a year despite renewed Iran jitters",
-      "summary": "Safe-haven gold fell to its lowest price in a year, despite jitters around the potential for fresh Middle East attacks following the U.S. midterm elections on Tuesday",
-      "link": "https://www.marketwatch.com/story/why-gold-plunged-to-its-lowest-price-in-a-year-despite-renewed-iran-jitters-365be0e2?mod=mw_rss_topstories",
-      "published": "Fri, 30 Oct 2026 21:30:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Warsh wants the Fed to say less. Two officials are pushing for more transparency.",
-      "summary": "More interest-rate hikes are needed to fight inflation, Fed officials say.",
-      "link": "https://www.marketwatch.com/story/the-fed-held-interest-rates-steady-but-these-officials-see-more-hikes-coming-soon-2098bbd8?mod=mw_rss_topstories",
-      "published": "Fri, 30 Oct 2026 21:23:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Stories that caught our eye: October 23 to 30",
-      "summary": "<p><img alt=\"Nancy Godoy.\" src=\"https://fotos.perfil.com/2026/10/30/trim/540/304/nancy-godoy-2358772.jpg\" /></p>A selection of the stories that caught our eye over the last seven days in Argentina. <a href=\"https://www.batimes.com.ar/news/argentina/stories-that-caught-our-eye-october-23-to-30.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/argentina/stories-that-caught-our-eye-october-23-to-30.phtml",
-      "published": "Fri, 30 Oct 2026 20:09:00 GMT",
-      "source": "Buenos Aires Times"
+      "title": "“I Don’t Want to Leave”: Young Venezuelans at María Corina Machado rally hold on to hope",
+      "summary": "<p>Caracas, Venezuela — Opposition leader María Corina Machado’s recent return to Venezuela from exile has stirred excitement among many Venezuelans who see her political platform as an opportunity for real change.  Among them are young people, who for years had lost interest in politics due to the economic crisis that has unfolded in the country […]</p>\n<p>The post <a href=\"https://www.latinamericareports.com/i-dont-want-to-leave-young-venezuelans-at-maria-corina-machado-rally-hold-on-to-hope/15512/\">“I Don’t Want to Leave”: Young Venezuelans at María Corina Machado rally hold on to hope </a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
+      "link": "https://www.latinamericareports.com/i-dont-want-to-leave-young-venezuelans-at-maria-corina-machado-rally-hold-on-to-hope/15512/",
+      "published": "Fri, 30 Oct 2026 20:05:32 +0000",
+      "source": "Latin America Reports"
     },
     {
       "title": "Specialised prosecutors appeal Milei’s dismissal in the $LIBRA case and seek to reopen it",
@@ -217,24 +238,10 @@
       "source": "NPR"
     },
     {
-      "title": "Israel is in a political deadlock. What comes next?",
-      "summary": "Israel's consequential election has ended in a deadlock, with neither side able to claim a majority, What happens now?",
-      "link": "https://www.npr.org/2026/10/30/g-s1-150761/israel-election-politics-deadlock-arabs",
-      "published": "Fri, 30 Oct 2026 05:00:00 -0400",
-      "source": "NPR"
-    },
-    {
       "title": "Venezuela opposition leader María Machado calls for elections upon return",
       "summary": "Machado, who was in exile for nearly a year, said the transition in Venezuela's government would be  \"irreversible, organised, pacific\".",
       "link": "https://www.bbc.co.uk/news/articles/ck054d5mnzreo?at_medium=RSS&at_campaign=rss",
       "published": "Thu, 29 Oct 2026 21:05:03 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "King Charles arrives in Guyana as Bahamas visit declared 'diplomatic success'",
-      "summary": "As the King left the Bahamas his spokesman said the islands had \"a special place in the King's heart\".",
-      "link": "https://www.bbc.co.uk/news/articles/c893zev54341o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 29 Oct 2026 20:35:05 GMT",
       "source": "BBC News"
     },
     {
@@ -252,24 +259,17 @@
       "source": "BBC News"
     },
     {
-      "title": "Flávio Bolsonaro’s defeat is a major blow to Trump and his orange wave",
-      "summary": "<p>The far-right candidate was supposed to claim the presidency, but Brazilian voters had other ideas</p><p>For <a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a>, Brazil’s presidential election was meant to represent the crest of the “orange wave” – a three-year surge of rightwing triumphs that has reshaped Latin American politics in the US president’s tangerine-hued image.</p><p>The far-right candidate, <a href=\"https://www.theguardian.com/world/fl-vio-bolsonaro\">Flávio Bolsonaro</a>, was supposed to claim the presidency on Sunday, bringing the region’s biggest democracy and economy into Trump’s orbit, after similar victories in Argentina, <a href=\"https://www.theguardian.com/world/bolivia\">Bolivia</a>, Chile, Colombia, Costa Rica, Honduras, Ecuador and Peru – not to mention the capture of Venezuela’s government after the country was invaded in January.</p> <a href=\"https://www.theguardian.com/world/2026/oct/29/bolsonaro-defeat-trump-orange-wave\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/oct/29/bolsonaro-defeat-trump-orange-wave",
-      "published": "Thu, 29 Oct 2026 10:00:32 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Beyond the rubble: Colombia and Venezuela’s uneven road to recovery",
-      "summary": "<p>The two nations are confronting the long-term consequences of the disasters.</p>\n<p>The post <a href=\"https://www.latinamericareports.com/beyond-the-rubble-colombia-and-venezuelas-uneven-road-to-recovery/15496/\">Beyond the rubble: Colombia and Venezuela’s uneven road to recovery</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
-      "link": "https://www.latinamericareports.com/beyond-the-rubble-colombia-and-venezuelas-uneven-road-to-recovery/15496/",
-      "published": "Wed, 28 Oct 2026 22:31:33 +0000",
-      "source": "Latin America Reports"
-    },
-    {
       "title": "Has Flávio Bolsonaro left Brazil to evade justice?",
       "summary": "The BBC's Ione Wells looks at whether the defeated right-wing presidential candidate travelled to the US to avoid an ongoing criminal investigation.",
       "link": "https://www.bbc.co.uk/news/videos/cjx23vnv63yeo?at_medium=RSS&at_campaign=rss",
       "published": "Wed, 28 Oct 2026 19:15:27 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "How did Flávio Bolsonaro end up in Miami?",
+      "summary": "BBC Verify has pieced together defeated presidential candidate Flávio Bolsonaro's journey through Brazil, Argentina and Ecuador to reach Miami.",
+      "link": "https://www.bbc.co.uk/news/videos/ck4g1xe5xny4o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 28 Oct 2026 18:51:05 GMT",
       "source": "BBC News"
     },
     {
@@ -337,15 +337,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-17 05:00",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 68,
-      "incidents": 40,
-      "bovespa": 205430.33,
-      "brl_czk": null
-    },
     {
       "date": "2026-10-17 09:58",
       "threat_level": "HIGH",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "bovespa": 167921.8,
       "brl_czk": 4.013
+    },
+    {
+      "date": "2026-11-01 06:00",
+      "threat_level": "MEDIUM",
+      "value": 2,
+      "sentiment_score": 52,
+      "incidents": 40,
+      "bovespa": 167921.8,
+      "brl_czk": 4.013
     }
   ],
   "locations": [
@@ -622,13 +622,6 @@
       "lon": -58.3816,
       "name_cs": "Buenos Aires",
       "name_en": "Buenos Aires"
-    },
-    {
-      "key": "Santiago",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "name_cs": "Santiago",
-      "name_en": "Santiago"
     },
     {
       "key": "Lima",
@@ -666,18 +659,18 @@
       "name_en": "La Paz"
     },
     {
+      "key": "Asuncion",
+      "lat": -25.2637,
+      "lon": -57.5759,
+      "name_cs": "Asunción",
+      "name_en": "Asunción"
+    },
+    {
       "key": "Montevideo",
       "lat": -34.9011,
       "lon": -56.1645,
       "name_cs": "Montevideo",
       "name_en": "Montevideo"
-    },
-    {
-      "key": "Georgetown",
-      "lat": 6.8013,
-      "lon": -58.1551,
-      "name_cs": "Georgetown",
-      "name_en": "Georgetown"
     },
     {
       "key": "Amazon",
@@ -687,6 +680,13 @@
       "name_en": "Amazon"
     },
     {
+      "key": "Falklands",
+      "lat": -51.7963,
+      "lon": -59.5236,
+      "name_cs": "Falklandy",
+      "name_en": "Falkland Islands"
+    },
+    {
       "key": "Washington",
       "lat": 38.9072,
       "lon": -77.0369,
@@ -694,11 +694,26 @@
       "name_en": "Washington, D.C."
     },
     {
+      "key": "Beijing",
+      "lat": 39.9042,
+      "lon": 116.4074,
+      "name_cs": "Peking",
+      "name_en": "Beijing"
+    },
+    {
       "key": "New York",
       "lat": 40.71,
       "lon": -74,
       "name_cs": "New York",
       "name_en": "New York",
+      "auto": true
+    },
+    {
+      "key": "Florida",
+      "lat": 27.8,
+      "lon": -81.7,
+      "name_cs": "Florida",
+      "name_en": "Florida",
       "auto": true
     },
     {
@@ -766,11 +781,27 @@
       "auto": true
     },
     {
+      "key": "China",
+      "lat": 35.9,
+      "lon": 104.2,
+      "name_cs": "Čína",
+      "name_en": "China",
+      "auto": true
+    },
+    {
       "key": "North Korea",
       "lat": 40,
       "lon": 127,
       "name_cs": "Severní Korea",
       "name_en": "North Korea",
+      "auto": true
+    },
+    {
+      "key": "India",
+      "lat": 20.6,
+      "lon": 79,
+      "name_cs": "Indie",
+      "name_en": "India",
       "auto": true
     },
     {
@@ -787,14 +818,6 @@
       "lon": 2.35,
       "name_cs": "Paříž",
       "name_en": "France",
-      "auto": true
-    },
-    {
-      "key": "Italy",
-      "lat": 41.9,
-      "lon": 12.5,
-      "name_cs": "Řím",
-      "name_en": "Italy",
       "auto": true
     },
     {
@@ -823,36 +846,36 @@
     }
   ],
   "location_counts": {
-    "Brasilia": 61,
+    "Brasilia": 62,
     "Sao Paulo": 27,
     "Rio de Janeiro": 15,
-    "Buenos Aires": 59,
+    "Buenos Aires": 60,
     "Santiago": 47,
-    "Lima": 34,
-    "Bogota": 61,
-    "Caracas": 57,
-    "Quito": 45,
-    "La Paz": 23,
-    "Asuncion": 10,
-    "Washington": 61,
+    "Lima": 35,
+    "Bogota": 62,
+    "Caracas": 58,
+    "Quito": 46,
+    "La Paz": 24,
+    "Asuncion": 11,
+    "Washington": 62,
     "New York": 1,
     "Texas": 1,
     "Colorado": 1,
     "Kanada": 1,
     "Mexiko": 1,
-    "Venezuela": 6,
+    "Venezuela": 5,
     "Brazílie": 9,
-    "Argentina": 4,
+    "Argentina": 5,
     "Ukrajina": 1,
     "Rusko": 1,
     "Pákistán": 1,
     "Londýn": 1,
-    "Paříž": 2,
+    "Paříž": 3,
     "Madrid": 1,
-    "Peru": 2,
+    "Peru": 1,
     "Bolívie": 1,
-    "Montevideo": 21,
-    "Falklands": 27,
+    "Montevideo": 22,
+    "Falklands": 28,
     "Ohio": 1,
     "Michigan": 1,
     "Severní Karolína": 1,
@@ -860,14 +883,14 @@
     "Maine": 1,
     "Indie": 1,
     "Atacama": 8,
-    "Beijing": 18,
+    "Beijing": 19,
     "Čína": 1,
-    "Amazon": 46,
+    "Amazon": 47,
     "Medellin": 1,
     "Tchaj-wan": 1,
     "Řím": 1,
     "Ithaca (Cornell)": 2,
-    "Írán": 3,
+    "Írán": 2,
     "Berlín": 1,
     "Panama": 17,
     "Austrálie": 1,
@@ -902,17 +925,9 @@
     "key": "Brasilia",
     "name_cs": "Brasília",
     "name_en": "Brasília",
-    "count": 61
+    "count": 62
   },
   "archive": [
-    {
-      "date": "2026-10-25 06:00",
-      "threat_level": "HIGH",
-      "security_status_cs": "Brazílie prožívá vyostřené prezidentské volby s těsným soubojem mezi stávajícím prezidentem Luizem Ináciem Lulou da Silvou a Fláviem Bolsonarem, což vyvolává silnou společenskou polarizaci. V Argentině mezitím pokračují politické střety a korupční kauzy kolem vysoce postavených politiků, zatímco globální komoditní trhy reagují na napětí v obchodu s kávou a ropou.",
-      "security_status_en": "Brazil is experiencing a fiercely contested presidential runoff between incumbent Luiz Inácio Lula da Silva and Flávio Bolsonaro, driving intense social polarization. Meanwhile, Argentina faces ongoing political clashes and high-profile corruption trials, as global commodity markets react to tensions in coffee and oil trade.",
-      "forecast_cs": "V nejbližších hodinách budou trhy plně vstřebávat výsledky brazilského prezidentského run-offu, což určí krátkodobý trend pro regionální měny a akcie. Zvýšená volatilita a opatrnost investorů přetrvají minimálně do ustálení politické situace.",
-      "forecast_en": "In the coming hours, markets will fully absorb the results of the Brazilian presidential runoff, setting the short-term trend for regional currencies and equities. Heightened volatility and investor caution will persist at least until the political situation stabilizes."
-    },
     {
       "date": "2026-10-25 10:30",
       "threat_level": "HIGH",
@@ -1016,10 +1031,18 @@
       "security_status_en": "In Brazil, political tensions are mounting following the tight election and defeated candidate Flávio Bolsonaro's flight to the US amid claims of persecution. Meanwhile, democratic hopes in Venezuela are reviving with opposition leader María Corina Machado's return and call for elections, while regional economies face inflation pressures and global tariff risks.",
       "forecast_cs": "V následujících dnech se očekává další eskalace rétoriky mezi brazilskou opozicí působící z USA a vládními představiteli v Brasília. Pozornost trhů se rovněž soustředí na reakce na návrat Marie Coriny Machadové do Venezuely a vývoj globálních měnových párů.",
       "forecast_en": "Over the coming days, further escalation of rhetoric between the US-based Brazilian opposition and government officials in Brasília is expected. Market attention will also focus on reactions to María Corina Machado's return to Venezuela and global currency pair trends."
+    },
+    {
+      "date": "2026-11-01 06:00",
+      "threat_level": "MEDIUM",
+      "security_status_cs": "Jižní částečně ovlivňuje politická polarizace po brazilských volbách, kde poražený kandidát Flávio Bolsonaro uprchl do USA, a rostoucí napětí ve Venezuele po návratu opoziční vůdkyně Marie Coriny Machadové. Ekonomické prostředí navíc zatěžují klimatické výkyvy jako sucho El Niño v Bolívii a kolísání cen komodit včetně rekordních cen kávy.",
+      "security_status_en": "South America is partially impacted by post-election political polarization in Brazil, where defeated candidate Flávio Bolsonaro fled to the US, and rising tensions in Venezuela following opposition leader María Corina Machado's return. Furthermore, the economic environment is strained by climate anomalies such as the El Niño drought in Bolivia and commodity price volatility, including record coffee prices.",
+      "forecast_cs": "V následujících dnech se očekává další vyostřování slovních přestrelek mezi brazilskou vládní garniturou a Fláviem Bolsonarem pobývajícím v USA. Pozornost trhů se rovněž zaměří na reakce venezuelského režimu na mobilizaci opozice pod vedením Marie Coriny Machadové.",
+      "forecast_en": "Over the coming days, verbal sparring between Brazil's government and Flávio Bolsonaro residing in the US is expected to intensify. Market attention will also focus on the Venezuelan regime's reactions to the opposition mobilization led by María Corina Machado."
     }
   ],
-  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 6× HIGH, 1× MEDIUM.",
-  "weekly_summary_en": "Over the last 7 recorded analyses: 6× HIGH, 1× MEDIUM.",
+  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 5× HIGH, 2× MEDIUM.",
+  "weekly_summary_en": "Over the last 7 recorded analyses: 5× HIGH, 2× MEDIUM.",
   "market_data": {
     "bovespa": {
       "value": 167921.8,
