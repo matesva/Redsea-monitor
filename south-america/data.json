@@ -1,72 +1,107 @@
 {
-  "last_updated": "2026-11-01T06:00:51Z",
+  "last_updated": "2026-11-01T12:27:57Z",
   "assessment": {
-    "threat_level": "MEDIUM",
-    "sentiment_score": 52,
-    "security_status_cs": "Jižní částečně ovlivňuje politická polarizace po brazilských volbách, kde poražený kandidát Flávio Bolsonaro uprchl do USA, a rostoucí napětí ve Venezuele po návratu opoziční vůdkyně Marie Coriny Machadové. Ekonomické prostředí navíc zatěžují klimatické výkyvy jako sucho El Niño v Bolívii a kolísání cen komodit včetně rekordních cen kávy.",
-    "security_status_en": "South America is partially impacted by post-election political polarization in Brazil, where defeated candidate Flávio Bolsonaro fled to the US, and rising tensions in Venezuela following opposition leader María Corina Machado's return. Furthermore, the economic environment is strained by climate anomalies such as the El Niño drought in Bolivia and commodity price volatility, including record coffee prices.",
+    "threat_level": "HIGH",
+    "sentiment_score": 68,
+    "security_status_cs": "Jižní Amerika čelí vysokému napětí po nedávném vítězství Luize Inácia Luly da Silvy v Brazílii a útěku poraženého kandidáta Flávia Bolsonara do USA, což prohlubuje politickou polarizaci. Ve Venezuele mezitím opoziční líderka María Corina Machado po návratu z exilu mobilizuje veřejnost a požaduje nové volby do poloviny roku 2027. Trhy rovněž reagují na extrémní volatilitu cen komodit, zejména rekordní ceny kávy vyvolané obavami z celních sporů s USA.",
+    "security_status_en": "South America faces high tension following Luiz Inácio Lula da Silva's recent victory in Brazil and defeated candidate Flávio Bolsonaro's flight to the US, deepening political polarization. Meanwhile, in Venezuela, opposition leader María Corina Machado has mobilized the public following her return from exile, demanding new elections by mid-2027. Markets are also reacting to extreme commodity price volatility, particularly record-high coffee prices driven by fears of US tariff disputes.",
     "recommendations": [
       {
-        "sector_cs": "Brazilský akciový trh (Bovespa, ETF EWZ)",
+        "sector_cs": "Brazilský akciový trh (Bovespa, EWZ)",
         "sector_en": "Brazilian Equities (Bovespa, EWZ ETF)",
         "action": "HOLD",
-        "reason_cs": "Přestože Lula da Silva vyhrál volby a posílil ochranu životního prostředí, vládnutí v opozicí kontrolovaném Kongresu a vyostřená rétorika exilové opozice vyžadují opatrnost.",
-        "reason_en": "Although Lula da Silva won the election and strengthened environmental protection, governance in an opposition-controlled Congress and fierce rhetoric from the exiled opposition warrant caution."
+        "reason_cs": "Lulovo vítězství zajišťuje politickou kontinuitu, ale opozicí kontrolovaný Kongres a rostoucí kriminalita vytvářejí strukturální rizika.",
+        "reason_en": "Lula's victory ensures political continuity, but an opposition-controlled Congress and rising criminality create structural risks."
       },
       {
         "sector_cs": "Argentina (Merval, YPF, MercadoLibre)",
         "sector_en": "Argentina (Merval, YPF, MercadoLibre)",
-        "action": "HOLD",
-        "reason_cs": "Prezident Javier Milei čelí pokračujícím právním sporům (včetně odvolání ve věci $LIBRA), což přináší regulační nejistotu pro probíhající reformy.",
-        "reason_en": "President Javier Milei faces ongoing legal disputes (including the appeal in the $LIBRA case), which introduces regulatory uncertainty for ongoing reforms."
+        "action": "BUY",
+        "reason_cs": "Navzdory právním tahanicím kolem prezidenta Mileiho pokračují ekonomické reformy a očekává se posílení politických vazeb s USA.",
+        "reason_en": "Despite legal challenges facing President Milei, economic reforms continue and strengthening political ties with the US are expected."
       },
       {
         "sector_cs": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
         "sector_en": "Mining: Copper & Lithium (Southern Copper, SQM, Freeport)",
-        "action": "BUY",
-        "reason_cs": "Globální poptávka po strategických kovech zůstává robustní a regionální zásoby poskytují solidní ochranu proti inflačním tlakům.",
-        "reason_en": "Global demand for strategic metals remains robust, and regional reserves provide solid protection against inflationary pressures."
+        "action": "HOLD",
+        "reason_cs": "Ceny kovů zůstávají stabilní, ale globální makroekonomická nejistota a úrokové sazby Federálního rezervního systému tlumí výraznější růst.",
+        "reason_en": "Metal prices remain stable, but global macroeconomic uncertainty and Federal Reserve interest rates are dampening stronger growth."
       },
       {
         "sector_cs": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
         "sector_en": "Oil & Energy (Petrobras, Ecopetrol, Chevron)",
         "action": "HOLD",
-        "reason_cs": "Stabilní vývoz ruské ropy přes sankce a kolísající globální poptávka drží ceny ropy v mírném poklesu, což tlumí agresivnější investiční expanzi.",
-        "reason_en": "Stable Russian crude exports despite sanctions and fluctuating global demand are keeping oil prices slightly lower, dampening aggressive investment expansion."
+        "reason_cs": "Globální ropné trhy absorbují americké sankce vůči Rusku a politické napětí v Kolumbii, což drží ceny v úzkém rozpětí.",
+        "reason_en": "Global oil markets are absorbing US sanctions on Russia and political tensions in Colombia, keeping prices in a narrow range."
       },
       {
         "sector_cs": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
         "sector_en": "Agriculture & Food (JBS, Bunge, Cosan)",
         "action": "BUY",
-        "reason_cs": "Rekordní ceny arabiky a silná pozice jihoamerických exportérů na komoditních trzích kompenzují lokální klimatické problémy jako sucho v Bolívii.",
-        "reason_en": "Record arabica coffee prices and the strong position of South American exporters in commodity markets offset local climate issues such as the drought in Bolivia."
+        "reason_cs": "Ceny arabiky trhnou rekordy kvůli hrozbám celních sporů mezi USA a Kolumbií, což nahrává maržím velkých exportérů.",
+        "reason_en": "Arabica prices are hitting records due to threats of US-Colombia tariff disputes, boosting margins for major exporters."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Dění v Jižní Americe má na tyto středoevropské tituly pouze zanedbatelný nepřímý vliv prostřednictvím globální nálady na rozvíjejících se trzích.",
-        "reason_en": "Developments in South America have only a negligible indirect impact on these Central European stocks via global emerging market sentiment."
+        "reason_cs": "Dění v Jižní Americe má na české tituly zanedbatelný přímý vliv, banky a energetika se řídí výhradně evropskou monetární politikou.",
+        "reason_en": "South American developments have negligible direct impact on Czech equities, with banks and utilities driven solely by European monetary policy."
       }
     ],
-    "forecast_cs": "V následujících dnech se očekává další vyostřování slovních přestrelek mezi brazilskou vládní garniturou a Fláviem Bolsonarem pobývajícím v USA. Pozornost trhů se rovněž zaměří na reakce venezuelského režimu na mobilizaci opozice pod vedením Marie Coriny Machadové.",
-    "forecast_en": "Over the coming days, verbal sparring between Brazil's government and Flávio Bolsonaro residing in the US is expected to intensify. Market attention will also focus on the Venezuelan regime's reactions to the opposition mobilization led by María Corina Machado.",
-    "forecast_review_cs": "Předchozí předpověď ohledně eskalace rétoriky mezi brazilskou opozicí a vládními představiteli se plně potvrdila útěkem Flávia Bolsonara do USA.",
-    "forecast_review_en": "The previous forecast regarding the escalation of rhetoric between the Brazilian opposition and government officials was fully confirmed by Flávio Bolsonaro's flight to the US."
+    "forecast_cs": "V nejbližších dnech lze očekávat stupňující se rétoriku mezi stoupenci a odpůrci Flávia Bolsonara a zostření debat ohledně vyšetřování jeho odchodu do USA. Opozice ve Venezuele bude nadále stupňovat tlak na vypsání voleb pod vedením Marie Coriny Machadové.",
+    "forecast_en": "In the coming days, escalating rhetoric between supporters and opponents of Flávio Bolsonaro is expected, alongside intensified debates regarding the investigation into his departure to the US. The opposition in Venezuela will continue to ramp up pressure for elections under María Corina Machado's leadership.",
+    "forecast_review_cs": "Předchozí předpověď o vyostřování slovních přestrelek mezi brazilskou vládou a Fláviem Bolsonarem a o reakcích venezuelského režimu na mobilizaci opozice se zcela potvrdila.",
+    "forecast_review_en": "The previous forecast regarding the escalation of verbal sparring between the Brazilian government and Flávio Bolsonaro, as well as the Venezuelan regime's reactions to opposition mobilization, was fully confirmed."
   },
   "articles": [
     {
-      "title": "France protests enter third week as police fire tear gas",
-      "summary": "Police used tear gas to disperse protesters as demonstrations entered a third week ahead in France.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/france-protests-teargas-police-clashes?traffic_source=rss",
-      "published": "Sun, 01 Nov 2026 04:31:24 +0000",
+      "title": "Cuarteto de Nos Santiago Concert on 5 December",
+      "summary": "<p>Uruguayan rock band Cuarteto de Nos plays Santander Arena in Santiago, Chile, on Saturday 5 December 2026. Tickets start at about US$29 on Puntoticket.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/cuarteto-de-nos-santiago-concert-december-2026/\">Cuarteto de Nos Santiago Concert on 5 December</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/cuarteto-de-nos-santiago-concert-december-2026/",
+      "published": "Sun, 01 Nov 2026 12:19:07 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Pitbull Lima Concert on 9 February 2027",
+      "summary": "<p>Pitbull plays Lima, Peru, on Tuesday 9 February 2027 at Costa 21. Tickets start at about US$57 on Teleticket, and a fans presale is running now.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/pitbull-lima-concert-costa-21-9-february-2027-guide-2026/\">Pitbull Lima Concert on 9 February 2027</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/pitbull-lima-concert-costa-21-9-february-2027-guide-2026/",
+      "published": "Sun, 01 Nov 2026 12:16:26 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Colombia Ebola Check Finds Malaria So Far",
+      "summary": "<p>A 33-year-old man who travelled to Congo died in Palmira. Colombia's health institute confirms malaria in two patients and no Ebola case.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/colombia-ebola-check-finds-malaria-congo-travellers/\">Colombia Ebola Check Finds Malaria So Far</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/colombia-ebola-check-finds-malaria-congo-travellers/",
+      "published": "Sun, 01 Nov 2026 12:11:29 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Thousands rally in New Delhi to demand India’s election chief resign",
+      "summary": "Hundreds of police, some carrying batons and shields, are deployed around the rally site.",
+      "link": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-delhi-demanding-indias-election-chief-resign?traffic_source=rss",
+      "published": "Sun, 01 Nov 2026 11:26:08 +0000",
       "source": "Al Jazeera"
     },
     {
-      "title": "Bolivia declares state of emergency over El Nino weather pattern",
-      "summary": "Drought is affecting 78,000 families and has led to loss of over 75,000 cattle, as El Nino due to peak in late 2026.",
-      "link": "https://www.aljazeera.com/news/2026/11/1/bolivia-declares-state-of-emergency-over-el-nino-weather-pattern?traffic_source=rss",
-      "published": "Sun, 01 Nov 2026 04:04:40 +0000",
+      "title": "Israeli protesters urge Jewish-Arab coalition government",
+      "summary": "Israeli protesters urge Jewish-Arab coalition government",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/israeli-protesters-urge-jewish-arab-coalition-government?traffic_source=rss",
+      "published": "Sun, 01 Nov 2026 09:24:52 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Malawi cattle farmers travel farther as El Nino worsens drought",
+      "summary": "For many families, keeping cattle alive is becoming an increasingly costly struggle.",
+      "link": "https://www.aljazeera.com/news/2026/11/1/malawi-cattle-farmers-travel-farther-as-el-nino-worsens-drought?traffic_source=rss",
+      "published": "Sun, 01 Nov 2026 09:16:24 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Bangladesh forms wage board as garment workers protest",
+      "summary": "Demonstrations held in industrial cities as workers demand wage increase as cost of living rises.",
+      "link": "https://www.aljazeera.com/news/2026/11/1/bangladesh-forms-wage-board-amid-garment-worker-protests?traffic_source=rss",
+      "published": "Sun, 01 Nov 2026 08:13:00 +0000",
       "source": "Al Jazeera"
     },
     {
@@ -75,41 +110,6 @@
       "link": "https://www.batimes.com.ar/news/argentina/made-with-munitions-from-malvinas-war-a-chalice-of-peace-in-argentina-for-pope-leo.phtml",
       "published": "Sun, 01 Nov 2026 03:31:00 GMT",
       "source": "Buenos Aires Times"
-    },
-    {
-      "title": "India’s largest dam planned to counter China faces Indigenous revolt",
-      "summary": "Indigenous people of Arunachal Pradesh are protesting a mega dam planned to counter China's upstream hydropower project.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/1/indias-largest-dam-planned-to-counter-china-faces-indigenous-revolt?traffic_source=rss",
-      "published": "Sun, 01 Nov 2026 03:19:28 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Trump Says Flávio Bolsonaro Can Stay in US",
-      "summary": "<p>Trump says he has no plans to meet Flávio Bolsonaro but that the defeated Brazilian candidate can stay in the US as long as he wants.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/trump-says-flavio-bolsonaro-can-stay-in-us/\">Trump Says Flávio Bolsonaro Can Stay in US</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/trump-says-flavio-bolsonaro-can-stay-in-us/",
-      "published": "Sun, 01 Nov 2026 02:12:48 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Thousands rally in Israel urging ‘Jewish-Arab’ coalition to oust Netanyahu",
-      "summary": "In a counterprotest, Netanyahu supporters demand that Israel should not have a government with 'terrorists'.",
-      "link": "https://www.aljazeera.com/news/2026/11/1/thousands-rally-in-israel-urging-eisenkot-arab-deal-to-remove-netanyahu?traffic_source=rss",
-      "published": "Sun, 01 Nov 2026 02:05:40 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "New Zealand Advance Voting Passes 500,000",
-      "summary": "<p>Advance voting has passed 500,000 ballots a week before New Zealand's November 7 election, while two polls name different leaders.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/new-zealand-advance-voting-passes-500000/\">New Zealand Advance Voting Passes 500,000</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/new-zealand-advance-voting-passes-500000/",
-      "published": "Sat, 31 Oct 2026 23:25:53 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "What to Do in Asunción in November 2026",
-      "summary": "<p>Ed Sheeran makes his Paraguay debut on 26 November, museums open late on 7 November and Rock en PY Fest runs on 14 November.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/what-to-do-in-asuncion-in-november-2026/\">What to Do in Asunción in November 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/what-to-do-in-asuncion-in-november-2026/",
-      "published": "Sat, 31 Oct 2026 22:26:29 +0000",
-      "source": "The Rio Times"
     },
     {
       "title": "France seethes again as youth-led protests sweep Europe",
@@ -337,15 +337,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-17 09:58",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 62,
-      "incidents": 40,
-      "bovespa": 205430.33,
-      "brl_czk": null
-    },
     {
       "date": "2026-10-18 05:00",
       "threat_level": "HIGH",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "bovespa": 167921.8,
       "brl_czk": 4.013
+    },
+    {
+      "date": "2026-11-01 12:27",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 68,
+      "incidents": 40,
+      "bovespa": 167921.8,
+      "brl_czk": 4.013
     }
   ],
   "locations": [
@@ -622,6 +622,13 @@
       "lon": -58.3816,
       "name_cs": "Buenos Aires",
       "name_en": "Buenos Aires"
+    },
+    {
+      "key": "Santiago",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "name_cs": "Santiago",
+      "name_en": "Santiago"
     },
     {
       "key": "Lima",
@@ -652,20 +659,6 @@
       "name_en": "Quito"
     },
     {
-      "key": "La Paz",
-      "lat": -16.4897,
-      "lon": -68.1193,
-      "name_cs": "La Paz",
-      "name_en": "La Paz"
-    },
-    {
-      "key": "Asuncion",
-      "lat": -25.2637,
-      "lon": -57.5759,
-      "name_cs": "Asunción",
-      "name_en": "Asunción"
-    },
-    {
       "key": "Montevideo",
       "lat": -34.9011,
       "lon": -56.1645,
@@ -692,13 +685,6 @@
       "lon": -77.0369,
       "name_cs": "Washington, D.C.",
       "name_en": "Washington, D.C."
-    },
-    {
-      "key": "Beijing",
-      "lat": 39.9042,
-      "lon": 116.4074,
-      "name_cs": "Peking",
-      "name_en": "Beijing"
     },
     {
       "key": "New York",
@@ -781,14 +767,6 @@
       "auto": true
     },
     {
-      "key": "China",
-      "lat": 35.9,
-      "lon": 104.2,
-      "name_cs": "Čína",
-      "name_en": "China",
-      "auto": true
-    },
-    {
       "key": "North Korea",
       "lat": 40,
       "lon": 127,
@@ -835,47 +813,39 @@
       "name_cs": "Peru",
       "name_en": "Peru",
       "auto": true
-    },
-    {
-      "key": "Bolivia",
-      "lat": -16.3,
-      "lon": -63.6,
-      "name_cs": "Bolívie",
-      "name_en": "Bolivia",
-      "auto": true
     }
   ],
   "location_counts": {
-    "Brasilia": 62,
+    "Brasilia": 63,
     "Sao Paulo": 27,
     "Rio de Janeiro": 15,
-    "Buenos Aires": 60,
-    "Santiago": 47,
-    "Lima": 35,
-    "Bogota": 62,
-    "Caracas": 58,
-    "Quito": 46,
+    "Buenos Aires": 61,
+    "Santiago": 48,
+    "Lima": 36,
+    "Bogota": 63,
+    "Caracas": 59,
+    "Quito": 47,
     "La Paz": 24,
     "Asuncion": 11,
-    "Washington": 62,
+    "Washington": 63,
     "New York": 1,
     "Texas": 1,
     "Colorado": 1,
     "Kanada": 1,
     "Mexiko": 1,
     "Venezuela": 5,
-    "Brazílie": 9,
+    "Brazílie": 8,
     "Argentina": 5,
     "Ukrajina": 1,
     "Rusko": 1,
     "Pákistán": 1,
     "Londýn": 1,
-    "Paříž": 3,
+    "Paříž": 2,
     "Madrid": 1,
-    "Peru": 1,
+    "Peru": 2,
     "Bolívie": 1,
-    "Montevideo": 22,
-    "Falklands": 28,
+    "Montevideo": 23,
+    "Falklands": 29,
     "Ohio": 1,
     "Michigan": 1,
     "Severní Karolína": 1,
@@ -885,7 +855,7 @@
     "Atacama": 8,
     "Beijing": 19,
     "Čína": 1,
-    "Amazon": 47,
+    "Amazon": 48,
     "Medellin": 1,
     "Tchaj-wan": 1,
     "Řím": 1,
@@ -925,17 +895,9 @@
     "key": "Brasilia",
     "name_cs": "Brasília",
     "name_en": "Brasília",
-    "count": 62
+    "count": 63
   },
   "archive": [
-    {
-      "date": "2026-10-25 10:30",
-      "threat_level": "HIGH",
-      "security_status_cs": "Jižní Amerika čelí vysoké politické nestabilitě, již dominují extrémně těsné prezidentské volby v Brazílii mezi levicovým Lulou a pravicovým Fláviem Bolsonarem. V Argentině pokračuje napjaté ekonomické manévrování prezidenta Mileie pod tlakem blížících se voleb a rostoucí inflace. Region nadále zatěžují strukturální problémy, jako jsou dopady nemocí drůbeže na exporty, kolísavé ceny komodit a přetrvávající bezpečnostní krize v Andském regionu.",
-      "security_status_en": "South America is facing high political instability, dominated by the exceptionally tight Brazilian presidential runoff between left-winger Lula and right-winger Flávio Bolsonaro. In Argentina, President Milei's tense economic maneuvering continues amid approaching elections and inflationary pressures. The region remains burdened by structural issues such as poultry disease impacts on exports, volatile commodity prices, and persistent security crises in the Andean region.",
-      "forecast_cs": "Trhy v nejbližších dnech plně vstřebají výsledky brazilského prezidentského run-offu, což vyvolá prudké pohyby na měnových trzích. Investoři budou nadále bedlivě sledovat vývoj inflace a politické stability v Argentině a Ando-karibském regionu.",
-      "forecast_en": "Markets will fully digest the results of the Brazilian presidential runoff in the coming days, triggering sharp currency movements. Investors will continue to closely monitor inflation trends and political stability in Argentina and the Andean-Caribbean region."
-    },
     {
       "date": "2026-10-26 06:02",
       "threat_level": "HIGH",
@@ -1039,6 +1001,14 @@
       "security_status_en": "South America is partially impacted by post-election political polarization in Brazil, where defeated candidate Flávio Bolsonaro fled to the US, and rising tensions in Venezuela following opposition leader María Corina Machado's return. Furthermore, the economic environment is strained by climate anomalies such as the El Niño drought in Bolivia and commodity price volatility, including record coffee prices.",
       "forecast_cs": "V následujících dnech se očekává další vyostřování slovních přestrelek mezi brazilskou vládní garniturou a Fláviem Bolsonarem pobývajícím v USA. Pozornost trhů se rovněž zaměří na reakce venezuelského režimu na mobilizaci opozice pod vedením Marie Coriny Machadové.",
       "forecast_en": "Over the coming days, verbal sparring between Brazil's government and Flávio Bolsonaro residing in the US is expected to intensify. Market attention will also focus on the Venezuelan regime's reactions to the opposition mobilization led by María Corina Machado."
+    },
+    {
+      "date": "2026-11-01 12:27",
+      "threat_level": "HIGH",
+      "security_status_cs": "Jižní Amerika čelí vysokému napětí po nedávném vítězství Luize Inácia Luly da Silvy v Brazílii a útěku poraženého kandidáta Flávia Bolsonara do USA, což prohlubuje politickou polarizaci. Ve Venezuele mezitím opoziční líderka María Corina Machado po návratu z exilu mobilizuje veřejnost a požaduje nové volby do poloviny roku 2027. Trhy rovněž reagují na extrémní volatilitu cen komodit, zejména rekordní ceny kávy vyvolané obavami z celních sporů s USA.",
+      "security_status_en": "South America faces high tension following Luiz Inácio Lula da Silva's recent victory in Brazil and defeated candidate Flávio Bolsonaro's flight to the US, deepening political polarization. Meanwhile, in Venezuela, opposition leader María Corina Machado has mobilized the public following her return from exile, demanding new elections by mid-2027. Markets are also reacting to extreme commodity price volatility, particularly record-high coffee prices driven by fears of US tariff disputes.",
+      "forecast_cs": "V nejbližších dnech lze očekávat stupňující se rétoriku mezi stoupenci a odpůrci Flávia Bolsonara a zostření debat ohledně vyšetřování jeho odchodu do USA. Opozice ve Venezuele bude nadále stupňovat tlak na vypsání voleb pod vedením Marie Coriny Machadové.",
+      "forecast_en": "In the coming days, escalating rhetoric between supporters and opponents of Flávio Bolsonaro is expected, alongside intensified debates regarding the investigation into his departure to the US. The opposition in Venezuela will continue to ramp up pressure for elections under María Corina Machado's leadership."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 5× HIGH, 2× MEDIUM.",
