@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-01T01:05",
+ "updated": "2026-11-02T01:29",
  "band": {
   "7": 2.0,
   "30": 5.0
  },
- "signals_total": 228,
+ "signals_total": 233,
  "summary": {
   "7": {
    "ALL": {
-    "n": 181,
+    "n": 182,
     "ok": 94,
-    "avg": -0.7
+    "avg": -0.67
    },
    "BUY": {
     "n": 64,
@@ -18,9 +18,9 @@
     "avg": -0.3
    },
    "SELL": {
-    "n": 23,
+    "n": 24,
     "ok": 15,
-    "avg": -2.5
+    "avg": -2.18
    },
    "HOLD": {
     "n": 94,
@@ -30,24 +30,24 @@
   },
   "30": {
    "ALL": {
-    "n": 56,
-    "ok": 34,
-    "avg": 1.09
+    "n": 60,
+    "ok": 35,
+    "avg": 0.31
    },
    "BUY": {
-    "n": 22,
+    "n": 24,
     "ok": 13,
-    "avg": 2.97
+    "avg": 1.87
    },
    "SELL": {
-    "n": 4,
-    "ok": 3,
-    "avg": -3.11
+    "n": 5,
+    "ok": 4,
+    "avg": -5.41
    },
    "HOLD": {
-    "n": 30,
+    "n": 31,
     "ok": 18,
-    "avg": 0.27
+    "avg": 0.02
    }
   }
  },
@@ -102,14 +102,14 @@
   },
   "Čína a Asie": {
    "7": {
-    "n": 38,
+    "n": 39,
     "ok": 19,
-    "avg": -1.83
+    "avg": -1.65
    },
    "30": {
-    "n": 14,
+    "n": 16,
     "ok": 7,
-    "avg": -2.71
+    "avg": -3.35
    }
   },
   "Japonsko": {
@@ -119,9 +119,9 @@
     "avg": -2.6
    },
    "30": {
-    "n": 11,
-    "ok": 5,
-    "avg": -2.09
+    "n": 13,
+    "ok": 6,
+    "avg": -3.82
    }
   },
   "Jižní Amerika": {
@@ -133,6 +133,78 @@
   }
  },
  "signals": [
+  {
+   "monitor": "USA",
+   "sector": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
+   "action": "HOLD",
+   "date": "2026-11-01",
+   "tickers": [
+    "LMT",
+    "RTX",
+    "NOC"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Evropa",
+   "sector": "Energetika (TotalEnergies, Shell, RWE)",
+   "action": "BUY",
+   "date": "2026-11-01",
+   "tickers": [
+    "SHEL",
+    "TTE.PA"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Polovodiče (TSMC, Samsung, ASML)",
+   "action": "SELL",
+   "date": "2026-11-01",
+   "tickers": [
+    "TSM",
+    "005930.KS",
+    "ASML"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Čínské akcie (ETF FXI, MCHI)",
+   "action": "HOLD",
+   "date": "2026-11-01",
+   "tickers": [
+    "FXI",
+    "MCHI"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Brazilský akciový trh (Bovespa, EWZ)",
+   "action": "HOLD",
+   "date": "2026-11-01",
+   "tickers": [
+    "^BVSP",
+    "EWZ"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
   {
    "monitor": "Čína a Asie",
    "sector": "Polovodiče (TSMC, Samsung, ASML)",
@@ -708,8 +780,8 @@
     "005930.KS",
     "ASML"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 5.16,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -1214,81 +1286,6 @@
     "EC"
    ],
    "ret7": -3.55,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Jižní Amerika",
-   "sector": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
-   "action": "BUY",
-   "date": "2026-10-19",
-   "tickers": [
-    "JBS",
-    "BG",
-    "CSAN"
-   ],
-   "ret7": -2.41,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Rudé moře",
-   "sector": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
-   "action": "HOLD",
-   "date": "2026-10-18",
-   "tickers": [
-    "RHM.DE",
-    "TTE.PA",
-    "AIR.PA",
-    "ALV.DE"
-   ],
-   "ret7": 0.61,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "USA",
-   "sector": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
-   "action": "BUY",
-   "date": "2026-10-18",
-   "tickers": [
-    "LMT",
-    "RTX",
-    "NOC"
-   ],
-   "ret7": 9.79,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "USA",
-   "sector": "Technologický sektor (Apple, Microsoft, Nvidia)",
-   "action": "BUY",
-   "date": "2026-10-18",
-   "tickers": [
-    "NVDA",
-    "AAPL",
-    "MSFT"
-   ],
-   "ret7": -0.13,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Evropa",
-   "sector": "Energetika (TotalEnergies, Shell, RWE)",
-   "action": "HOLD",
-   "date": "2026-10-18",
-   "tickers": [
-    "SHEL",
-    "TTE.PA"
-   ],
-   "ret7": 3.05,
    "ok7": false,
    "ret30": null,
    "ok30": null
