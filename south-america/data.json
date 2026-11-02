@@ -1,86 +1,149 @@
 {
-  "last_updated": "2026-11-02T06:00:45Z",
+  "last_updated": "2026-11-02T14:26:31Z",
   "assessment": {
     "threat_level": "HIGH",
-    "sentiment_score": 65,
-    "security_status_cs": "Jižní Amerika se potýká s dozvuky volebních bouří v Brazílii, kde po vítězství Luize Inácia Lula da Silvy uprchl poražený pravicový kandidát Flávio Bolsonaro do USA. Současně Venezuela zažívá nárůst naděje na demokratickou tranzici po návratu opoziční líderky Marie Coriny Machadové z exilu. Regionální trhy rovněž vstřebávají globální obavy z měnové politiky USA a výkyvy cen komodit včetně rekordních cen kávy.",
-    "security_status_en": "South America is dealing with the aftermath of electoral turmoil in Brazil, where defeated right-wing candidate Flávio Bolsonaro fled to the US following Luiz Inácio Lula da Silva's victory. Concurrently, Venezuela is experiencing a surge of hope for a democratic transition following the return of opposition leader María Corina Machado from exile. Regional markets are also absorbing global concerns regarding US monetary policy and commodity price volatility, including record coffee prices.",
+    "sentiment_score": 68,
+    "security_status_cs": "V regionu nadále rezonuje politická krize v Brazílii po návratu prezidenta Lula da Silvy k moci a odchodu Flávia Bolsonara do USA, zatímco Venezuela zažívá oživení opozičních nadějí s návratem Marie Coriny Machadové. Bezpečnostní situaci v západní Kolumbii zhoršil pumový útok na vojenskou základnu a narůstající kriminalita v Andském regionu i Ekvádoru.",
+    "security_status_en": "The region continues to resonate with Brazil's political crisis following President Lula da Silva's return to power and Flávio Bolsonaro's flight to the US, while Venezuela experiences renewed opposition hopes with María Corina Machado's return. In western Colombia, a bomb attack targeting a military base and rising criminality in the Andean region and Ecuador further strain security.",
     "recommendations": [
       {
-        "sector_cs": "Brazilský akciový trh (Bovespa, EWZ)",
+        "sector_cs": "Brazilský akciový trh (Bovespa, ETF EWZ)",
         "sector_en": "Brazilian Equities (Bovespa, EWZ ETF)",
         "action": "HOLD",
-        "reason_cs": "Lulovo vítězství přináší stabilitu, ale opozicí ovládaný Kongres a bezpečnostní výzvy v Amazonii tlumí agresivní růst.",
-        "reason_en": "Lula's victory brings stability, but an opposition-controlled Congress and security challenges in the Amazon dampen aggressive growth."
+        "reason_cs": "Zatímco Lula konsoliduje moc a sázky na stabilitu sazeb rostou, opoziční napětí a opozičně ovlivněný kongres vytvářejí politickou nejistotu.",
+        "reason_en": "While Lula consolidates power and rate-hold bets rise, opposition tensions and a split congress create underlying political uncertainty."
       },
       {
         "sector_cs": "Argentina (Merval, YPF, MercadoLibre)",
         "sector_en": "Argentina (Merval, YPF, MercadoLibre)",
         "action": "BUY",
-        "reason_cs": "Reforma fotbalové ligy a pokračující strukturální snahy lákají investory, přestože geopolitické spory o Falklandy přetrvávají.",
-        "reason_en": "Football league reform and ongoing structural efforts continue to attract investors, despite lingering geopolitical disputes over the Falklands."
+        "reason_cs": "Trhy nadále těží z reforem prezidenta Mileie, přestože eskalace sporů o Falklandy a kontroverzní nákupy vyvolávají domácí politické napětí.",
+        "reason_en": "Markets continue to benefit from President Milei's structural reforms, despite domestic political backlash over escalating Falklands tensions."
       },
       {
         "sector_cs": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
         "sector_en": "Mining: Copper & Lithium (Southern Copper, SQM, Freeport)",
-        "action": "HOLD",
-        "reason_cs": "Trhy s kovy vyčkávají na jasnější signály z USA a Číny ohledně úrokových sazeb a průmyslové poptávky.",
-        "reason_en": "Metal markets are awaiting clearer signals from the US and China regarding interest rates and industrial demand."
+        "action": "BUY",
+        "reason_cs": "Globální poptávka po tranzici udržuje silnou pozici těžařů, přičemž ceny komodit zůstávají odolné vůči vnějším makroekonomickým vlivům.",
+        "reason_en": "Global transition demand supports major miners, while commodity prices remain structurally resilient against external macro headwinds."
       },
       {
         "sector_cs": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
         "sector_en": "Oil & Energy (Petrobras, Ecopetrol, Chevron)",
-        "action": "HOLD",
-        "reason_cs": "Ceny ropy zůstávají pod tlakem kvůli globálním obavám o poptávku a vývoji sankcí vůči Rusku.",
-        "reason_en": "Oil prices remain under pressure due to global demand concerns and developments regarding Russian sanctions."
+        "action": "BUY",
+        "reason_cs": "Rostoucí geopolitická rizika na Blízkém východě a predikce vysokých cen ropy (až 130-140 USD) tlačí energetický sektor silně nahoru.",
+        "reason_en": "Heightened Middle East geopolitical risks and bullish oil price forecasts up to $130-140/bbl drive strong upside for energy producers."
       },
       {
         "sector_cs": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
         "sector_en": "Agriculture & Food (JBS, Bunge, Cosan)",
-        "action": "BUY",
-        "reason_cs": "Rekordní ceny arabiky a zmírnění hrozeb cel ze strany USA vůči Kolumbii posilují marže v sektoru.",
-        "reason_en": "Record Arabica prices and the easing of US tariff threats against Colombia are boosting sector margins."
+        "action": "HOLD",
+        "reason_cs": "Ceny kávy dosahují rekordů kvůli úlevě od hrozících cel vůči Kolumbii, nicméně globální logistika a inflační tlaky zůstávají rizikem.",
+        "reason_en": "Coffee prices hit records following the avoidance of US-Colombia tariffs, but global logistics and localized inflation remain headwinds."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí banky a energetika jsou imunní vůči latinskoamerickým výkyvům, sledují spíše evropskou inflaci a politiku ČNB.",
-        "reason_en": "Domestic banks and energy are immune to Latin American fluctuations, focusing instead on European inflation and CNB policy."
+        "reason_cs": "České tituly jsou vůči latinskoamerickému dění fundamentálně imunní, jejich vývoj se řídí evropskou monetární politikou a domácí energetikou.",
+        "reason_en": "Czech equities remain fundamentally insulated from South American developments, tracking instead European monetary policy and domestic energy trends."
       }
     ],
-    "forecast_cs": "V nejbližších dnech se očekává vyostření diplomatických debat o pobytu Flávia Bolsonara v USA a stupňování tlaku venezuelské opozice na vyhlášení voleb v roce 2027.",
-    "forecast_en": "In the coming days, an escalation of diplomatic debates regarding Flávio Bolsonaro's stay in the US and intensifying pressure from the Venezuelan opposition for 2027 elections are expected.",
-    "forecast_review_cs": "Předchozí předpověď ohledně legálnosti odchodu Flávia Bolsonara a tlaku tábora Marie Coriny Machadové byla dnešními zprávami plně potvrzena.",
-    "forecast_review_en": "The previous forecast regarding the legality of Flávio Bolsonaro's departure and pressure from María Corina Machado's camp was fully confirmed by today's news."
+    "forecast_cs": "V nejbližších dnech lze očekávat gradaci tlaku venezuelské opozice vedené Mariou Corinou Machadovou na uspořádání voleb a pokračující diplomatické třenice ohledně statusu Flávia Bolsonara v USA.",
+    "forecast_en": "In the coming days, an escalation of pressure from Venezuela's opposition led by María Corina Machado for elections and ongoing diplomatic frictions over Flávio Bolsonaro's US status are expected.",
+    "forecast_review_cs": "Předchozí předpověď se zcela potvrdila, neboť diplomatická debata o Fláviovi Bolsonarovi a tlak venezuelské opozice dominovaly zprávám posledních 24 hodin.",
+    "forecast_review_en": "The previous forecast was fully confirmed, as the diplomatic debate surrounding Flávio Bolsonaro and the Venezuelan opposition's pressure dominated the news cycle over the past 24 hours."
   },
   "articles": [
     {
-      "title": "Bulgaria has its first elected female president",
-      "summary": "Iliana Iotova has won Bulgaria’s presidential runoff, becoming the country’s first elected female president.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/2/bulgaria-has-its-first-elected-female-president?traffic_source=rss",
-      "published": "Mon, 02 Nov 2026 04:25:56 +0000",
+      "title": "Baby among four killed in bomb attack in western Colombia, official says",
+      "summary": "It is not yet clear who was behind the attack, which appears to have targeted a military base.",
+      "link": "https://www.bbc.co.uk/news/articles/cqn06n30l406o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 02 Nov 2026 14:16:29 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "US midterms 2026 live: Trump, Democrats make final push amid Michigan rift",
+      "summary": "Republicans and Democrats nationwide make their final pitch to voters on the eve of US midterm elections.",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/11/2/us-midterms-2026-live-trump-democrats-make-final-push-amid-michigan-rift?traffic_source=rss",
+      "published": "Mon, 02 Nov 2026 14:10:31 +0000",
       "source": "Al Jazeera"
     },
     {
-      "title": "Latin America Sports Daily for Monday, November 2, 2026",
-      "summary": "<p>Copa Libertadores final preview: Palmeiras meet Estudiantes at Montevideo's Centenario on 28 November, plus Sudamericana and Brasileirão news.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/latin-america-sports-daily-monday-november-2-2026/\">Latin America Sports Daily for Monday, November 2, 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/latin-america-sports-daily-monday-november-2-2026/",
-      "published": "Mon, 02 Nov 2026 04:19:07 +0000",
+      "title": "Oil prices could average $130 a barrel next year, according to Goldman Sachs",
+      "summary": "Analysts at the investment bank said Brent crude could reach $140 a barrel next year if tensions worsen in the Middle East.",
+      "link": "https://www.marketwatch.com/story/how-oil-prices-could-average-130-per-barrel-next-year-according-to-goldman-sachs-235ce32b?mod=mw_rss_topstories",
+      "published": "Mon, 02 Nov 2026 13:46:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "These 10 megadonors have spent a total of $1 billion on the midterm elections",
+      "summary": "They’ve helped turn this year’s midterms into “the most expensive election cycle on record.”",
+      "link": "https://www.marketwatch.com/story/these-10-megadonors-have-spent-a-total-of-1-billion-on-the-midterm-elections-0dc279cf?mod=mw_rss_topstories",
+      "published": "Mon, 02 Nov 2026 13:44:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Police arrive at German university pro-Palestine protest",
+      "summary": "Dozens of Pro-Palestine students protested at the University of Hamburg in Germany. Riot police arrested students.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/2/police-arrive-at-german-university-pro-palestine-protest?traffic_source=rss",
+      "published": "Mon, 02 Nov 2026 13:37:26 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "US midterm elections: North Carolina farmers hit hard by inflation",
+      "summary": "On the eve of the midterm elections, US President Donald Trump's unpopularity is impacting Republicans across the board. Many states with seats once considered Republican strongholds are now on shaky ground. One of them is North Carolina, a rural state where one in five jobs is tied to agriculture.",
+      "link": "https://www.france24.com/en/tv-shows/focus/20261102-us-midterm-elections-north-carolina-farmers-hit-hard-by-inflation",
+      "published": "Mon, 02 Nov 2026 13:13:31 GMT",
+      "source": "France 24"
+    },
+    {
+      "title": "Michigan Democrat's endorsement of Republican ruffles critical Senate race",
+      "summary": "A prominent Michigan Democrat endorsed Republican Mike Rogers on Sunday, giving President Donald Trump's Republicans an unexpected boost in a critical US Senate race two days before midterm elections that will decide control of Congress.",
+      "link": "https://www.france24.com/en/video/20261102-michigan-democrat-s-endorsement-of-republican-ruffles-critical-senate-race-1",
+      "published": "Mon, 02 Nov 2026 12:41:56 GMT",
+      "source": "France 24"
+    },
+    {
+      "title": "In the hunt for $1 trillion of revenue, SpaceX reportedly targets Boost Mobile for a deal",
+      "summary": "In recent weeks there has been intense speculation surrounding SpaceX  ambitions in the cellular market with multiple acquisition targets suggested; Boost Mobile is the latest",
+      "link": "https://www.marketwatch.com/story/in-the-hunt-for-1-trillion-of-revenue-spacex-reportedly-targets-boost-mobile-for-a-deal-7eb4ea49?mod=mw_rss_topstories",
+      "published": "Mon, 02 Nov 2026 12:20:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Brazil Economy Explained, US$2.65 Trillion in 2026",
+      "summary": "<p>A plain guide to growth, inflation, interest rates, debt and trade in Latin America's largest economy, with the latest 2026 figures.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/brazil-economy-explained-2026/\">Brazil Economy Explained, US$2.65 Trillion in 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/brazil-economy-explained-2026/",
+      "published": "Mon, 02 Nov 2026 12:13:04 +0000",
       "source": "The Rio Times"
     },
     {
-      "title": "Latin American Pulse for Monday, November 2, 2026",
-      "summary": "<p>Latin America mood on 2 November 2026: Brazil pauses after a market rout, Mexico's Ruffo ruling, Chile's market slide and a farewell to Navarro.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/latin-american-pulse-for-monday-november-2-2026/\">Latin American Pulse for Monday, November 2, 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/latin-american-pulse-for-monday-november-2-2026/",
-      "published": "Mon, 02 Nov 2026 04:18:40 +0000",
+      "title": "US Midterms: Michigan Democrat Haley Stevens defects from party",
+      "summary": "Democrats sought on Monday, November 2, to contain a rift in Michigan's US Senate race after one of their own crossed party lines to endorse the Republican candidate, as both parties made final pitches before midterm elections that will decide control of Congress. FRANCE 24's International Affairs Editor Philip Turle has more.",
+      "link": "https://www.france24.com/en/video/20261102-us-midterms-michigan-democrat-haley-stevens-defects-from-party",
+      "published": "Mon, 02 Nov 2026 11:52:05 GMT",
+      "source": "France 24"
+    },
+    {
+      "title": "French school protests resume on small scale as students return from break",
+      "summary": "Education ministry says 41 schools blockaded as students return after holiday break.",
+      "link": "https://www.aljazeera.com/news/2026/11/2/french-school-protests-resume-on-small-scale-as-students-return-from-break?traffic_source=rss",
+      "published": "Mon, 02 Nov 2026 11:39:22 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Uganda Court Upholds Kampala Lawmaker’s Win",
+      "summary": "<p>A Kampala court kept MP Fred Ruhindi in his seat on 30 October, ruling that 22 polling stations left out of the count did not change the winner.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/uganda-court-upholds-nakawa-east-election-faults-electoral-commission/\">Uganda Court Upholds Kampala Lawmaker’s Win</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/uganda-court-upholds-nakawa-east-election-faults-electoral-commission/",
+      "published": "Mon, 02 Nov 2026 11:10:01 +0000",
       "source": "The Rio Times"
     },
     {
-      "title": "Nasdaq Falls 2.9% on Fed Hike Fears | Global Economy, Nov 2",
-      "summary": "<p>A Fed rate hike in December is now the market's base case as a tech selloff, a weak China PMI and dearer oil jolt world markets before US midterm elections.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/global-economy-briefing-november-2-2026/\">Nasdaq Falls 2.9% on Fed Hike Fears | Global Economy, Nov 2</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/global-economy-briefing-november-2-2026/",
-      "published": "Mon, 02 Nov 2026 04:18:27 +0000",
+      "title": "LatAm and Africa Prediction Markets, Week of 2 Nov",
+      "summary": "<p>Brazil rate-hold bets jumped to 82.6% from about 58%, Maduro 60-year sentence odds rose to 38.5%, and Cuba regime-fall bets slid. What to watch next.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/latam-africa-prediction-markets-week-of-2-nov-2026/\">LatAm and Africa Prediction Markets, Week of 2 Nov</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/latam-africa-prediction-markets-week-of-2-nov-2026/",
+      "published": "Mon, 02 Nov 2026 10:51:49 +0000",
       "source": "The Rio Times"
     },
     {
@@ -89,27 +152,6 @@
       "link": "https://en.mercopress.com/2026/11/02/argentina-s-sea-lion-case-could-founder-on-falklands-sovereignty-a-legal-expert-warns?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
       "published": "Mon, 02 Nov 2026 00:57:00 GMT",
       "source": "MercoPress"
-    },
-    {
-      "title": "Israeli officials say results stand as Netanyahu claims election ‘stolen’",
-      "summary": "Election body says deadlocked result won't be undermined even if foreign interference claims are found to be true.",
-      "link": "https://www.aljazeera.com/news/2026/11/2/israeli-officials-say-results-stand-as-netanyahu-claims-election-stolen?traffic_source=rss",
-      "published": "Mon, 02 Nov 2026 00:29:16 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Why governors’ races are important in the 2026 US midterms",
-      "summary": "Historic turnover in this election will allow dozens of states to vote on significant changes in leadership.",
-      "link": "https://www.aljazeera.com/news/2026/11/1/why-governors-races-are-important-in-the-2026-us-midterms?traffic_source=rss",
-      "published": "Sun, 01 Nov 2026 23:24:56 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "High-ranking US Democratic senator suffers stroke",
-      "summary": "Senator Chris Murphy, a fierce Trump critic who is not up for re-election in the midterms, is 'alert' after a stroke.",
-      "link": "https://www.aljazeera.com/news/2026/11/1/high-ranking-us-democratic-senator-suffers-stroke?traffic_source=rss",
-      "published": "Sun, 01 Nov 2026 22:32:54 +0000",
-      "source": "Al Jazeera"
     },
     {
       "title": "Gulf region on edge as Qatar leads talks with Iran to stave off new U.S. attacks",
@@ -124,13 +166,6 @@
       "link": "https://www.batimes.com.ar/news/latin-america/rubio-says-us-not-directly-involved-in-flavio-bolsonaros-flight-from-brazil.phtml",
       "published": "Sun, 01 Nov 2026 20:19:29 GMT",
       "source": "Buenos Aires Times"
-    },
-    {
-      "title": "Michigan ‘Betrayal’ & Mid Term Manouvres",
-      "summary": "France 24’s Spotlight Presenter Gavin Lee assesses the last minute campaign dramas and takes an US election overview on the ‘must watch states’ alongside Professor Donald Green, Professor of Political Science at Columbia University and co-author of the definitive book ‘Get Out the Vote’, and foreign affairs analyst Laurie Dundon, who previously served in the U.S. State Department during the Clinton administration.",
-      "link": "https://www.france24.com/en/tv-shows/spotlight/20261101-michigan-betrayal-mid-term-manouvres",
-      "published": "Sun, 01 Nov 2026 19:37:52 GMT",
-      "source": "France 24"
     },
     {
       "title": "Cost-of-living protests spread across Europe with unrest in France and Germany",
@@ -175,27 +210,6 @@
       "source": "The Guardian"
     },
     {
-      "title": "Trump vs MAGA: Why his movement is splitting",
-      "summary": "As the 2026 midterm elections approach, divisions within the MAGA camp are becoming increasingly visible. From the war in Iran and rising fuel prices to the Epstein files, several of Trump’s decisions are fuelling divisions among his most loyal supporters.\n \nOnce united by a shared vision of America, MAGA now brings together factions that increasingly disagree over foreign policy, the economy and what “America First” should actually mean. Yet Trump remains the central figure holding this political coalition together – and he is fighting to keep it that way.\n \nWhy are some of the president’s longtime allies distancing themselves from him? Can MAGA remain united despite these disagreements? And can Trump still mobilise his base ahead of the midterms?\n \n🔍 Our journalist Stella Elgersma breaks down the divisions within the MAGA movement and Donald Trump’s strategy to rally his supporters, once again.",
-      "link": "https://www.france24.com/en/video/20261031-trump-vs-maga-why-his-movement-is-splitting",
-      "published": "Sat, 31 Oct 2026 10:11:47 GMT",
-      "source": "France 24"
-    },
-    {
-      "title": "'Atmosphere of fear': Trump moves to curtail voting rights ahead of the midterms",
-      "summary": "Americans vote on November 3 in midterm elections that could see Republicans lose control of Congress, endangering US President Donald Trump's legislative agenda. Under the US Constitution, elections are organized by the respective states – but that has not halted US President Donald Trump from trying to wield his influence ahead of the vote.",
-      "link": "https://www.france24.com/en/americas/20261031-united-states-atmosphere-of-fear-trump-moves-to-curtail-voting-rights-ahead-of-the-midterms",
-      "published": "Sat, 31 Oct 2026 09:40:54 GMT",
-      "source": "France 24"
-    },
-    {
-      "title": "Flavio Bolsonaro posts video, says he fled Brazil due to ‘persecution’",
-      "summary": "Brazil's defeated right-wing presidential candidate Flavio Bolsonaro posted a video message on social media late Friday to declare he had fled to the US because he was a victim of 'persecution'. Bolsonaro, who lost Sunday's election runoff to President Luiz Inacio Lula da Silva, gave no details of how he left the country.",
-      "link": "https://www.france24.com/en/americas/20261031-flavio-bolsonaro-posts-video-says-he-fled-brazil-due-to-persecution",
-      "published": "Sat, 31 Oct 2026 06:25:07 GMT",
-      "source": "France 24"
-    },
-    {
       "title": "“I Don’t Want to Leave”: Young Venezuelans at María Corina Machado rally hold on to hope",
       "summary": "<p>Caracas, Venezuela — Opposition leader María Corina Machado’s recent return to Venezuela from exile has stirred excitement among many Venezuelans who see her political platform as an opportunity for real change.  Among them are young people, who for years had lost interest in politics due to the economic crisis that has unfolded in the country […]</p>\n<p>The post <a href=\"https://www.latinamericareports.com/i-dont-want-to-leave-young-venezuelans-at-maria-corina-machado-rally-hold-on-to-hope/15512/\">“I Don’t Want to Leave”: Young Venezuelans at María Corina Machado rally hold on to hope </a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
       "link": "https://www.latinamericareports.com/i-dont-want-to-leave-young-venezuelans-at-maria-corina-machado-rally-hold-on-to-hope/15512/",
@@ -231,13 +245,6 @@
       "source": "The Guardian"
     },
     {
-      "title": "Blockchain intelligence firms link North Korea to $6.3B hack on Binance",
-      "summary": "The world's biggest cryptocurrency exchange reported Thursday that approximately $6.3 billion was impacted in an apparent hack.",
-      "link": "https://www.npr.org/2026/10/30/g-s1-150902/blockchain-intelligence-firms-link-north-korea-to-6-3b-hack-on-binance",
-      "published": "Fri, 30 Oct 2026 09:01:22 -0400",
-      "source": "NPR"
-    },
-    {
       "title": "Venezuela opposition leader María Machado calls for elections upon return",
       "summary": "Machado, who was in exile for nearly a year, said the transition in Venezuela's government would be  \"irreversible, organised, pacific\".",
       "link": "https://www.bbc.co.uk/news/articles/ck054d5mnzreo?at_medium=RSS&at_campaign=rss",
@@ -256,13 +263,6 @@
       "summary": "The defeated presidential candidate says he will lead the opposition from the US.",
       "link": "https://www.bbc.co.uk/news/articles/c3x2w4109pj8o?at_medium=RSS&at_campaign=rss",
       "published": "Thu, 29 Oct 2026 14:58:28 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Has Flávio Bolsonaro left Brazil to evade justice?",
-      "summary": "The BBC's Ione Wells looks at whether the defeated right-wing presidential candidate travelled to the US to avoid an ongoing criminal investigation.",
-      "link": "https://www.bbc.co.uk/news/videos/cjx23vnv63yeo?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 28 Oct 2026 19:15:27 GMT",
       "source": "BBC News"
     },
     {
@@ -337,15 +337,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-19 05:00",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 72,
-      "incidents": 40,
-      "bovespa": 205430.33,
-      "brl_czk": null
-    },
     {
       "date": "2026-10-19 11:44",
       "threat_level": "HIGH",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "bovespa": 167921.8,
       "brl_czk": 4.013
+    },
+    {
+      "date": "2026-11-02 14:26",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 68,
+      "incidents": 40,
+      "bovespa": 167921.8,
+      "brl_czk": 4.013
     }
   ],
   "locations": [
@@ -622,13 +622,6 @@
       "lon": -58.3816,
       "name_cs": "Buenos Aires",
       "name_en": "Buenos Aires"
-    },
-    {
-      "key": "Santiago",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "name_cs": "Santiago",
-      "name_en": "Santiago"
     },
     {
       "key": "Bogota",
@@ -652,13 +645,6 @@
       "name_en": "Quito"
     },
     {
-      "key": "Montevideo",
-      "lat": -34.9011,
-      "lon": -56.1645,
-      "name_cs": "Montevideo",
-      "name_en": "Montevideo"
-    },
-    {
       "key": "Amazon",
       "lat": -3.4653,
       "lon": -62.2159,
@@ -673,18 +659,18 @@
       "name_en": "Falkland Islands"
     },
     {
+      "key": "Cuba",
+      "lat": 23.1136,
+      "lon": -82.3666,
+      "name_cs": "Havana",
+      "name_en": "Havana"
+    },
+    {
       "key": "Washington",
       "lat": 38.9072,
       "lon": -77.0369,
       "name_cs": "Washington, D.C.",
       "name_en": "Washington, D.C."
-    },
-    {
-      "key": "Beijing",
-      "lat": 39.9042,
-      "lon": 116.4074,
-      "name_cs": "Peking",
-      "name_en": "Beijing"
     },
     {
       "key": "New York",
@@ -719,11 +705,11 @@
       "auto": true
     },
     {
-      "key": "Mexico",
-      "lat": 23.6,
-      "lon": -102.5,
-      "name_cs": "Mexiko",
-      "name_en": "Mexico",
+      "key": "North Carolina",
+      "lat": 35.6,
+      "lon": -79.8,
+      "name_cs": "Severní Karolína",
+      "name_en": "North Carolina",
       "auto": true
     },
     {
@@ -759,14 +745,6 @@
       "auto": true
     },
     {
-      "key": "Israel",
-      "lat": 31.5,
-      "lon": 34.8,
-      "name_cs": "Izrael",
-      "name_en": "Israel",
-      "auto": true
-    },
-    {
       "key": "Iran",
       "lat": 32.4,
       "lon": 53.7,
@@ -780,22 +758,6 @@
       "lon": 51.2,
       "name_cs": "Katar",
       "name_en": "Qatar",
-      "auto": true
-    },
-    {
-      "key": "China",
-      "lat": 35.9,
-      "lon": 104.2,
-      "name_cs": "Čína",
-      "name_en": "China",
-      "auto": true
-    },
-    {
-      "key": "North Korea",
-      "lat": 40,
-      "lon": 127,
-      "name_cs": "Severní Korea",
-      "name_en": "North Korea",
       "auto": true
     },
     {
@@ -848,38 +810,38 @@
     }
   ],
   "location_counts": {
-    "Brasilia": 65,
+    "Brasilia": 66,
     "Sao Paulo": 27,
     "Rio de Janeiro": 15,
-    "Buenos Aires": 63,
+    "Buenos Aires": 64,
     "Santiago": 50,
     "Lima": 37,
-    "Bogota": 65,
-    "Caracas": 61,
-    "Quito": 49,
+    "Bogota": 66,
+    "Caracas": 62,
+    "Quito": 50,
     "La Paz": 24,
     "Asuncion": 11,
-    "Washington": 65,
-    "New York": 2,
+    "Washington": 66,
+    "New York": 1,
     "Texas": 1,
     "Colorado": 1,
     "Kanada": 1,
     "Mexiko": 1,
     "Venezuela": 5,
-    "Brazílie": 10,
+    "Brazílie": 9,
     "Argentina": 5,
     "Ukrajina": 1,
     "Rusko": 1,
     "Pákistán": 1,
     "Londýn": 1,
-    "Paříž": 4,
+    "Paříž": 5,
     "Madrid": 1,
     "Peru": 1,
     "Bolívie": 1,
     "Montevideo": 25,
-    "Falklands": 31,
+    "Falklands": 32,
     "Ohio": 1,
-    "Michigan": 1,
+    "Michigan": 3,
     "Severní Karolína": 1,
     "Georgie (USA)": 1,
     "Maine": 1,
@@ -887,13 +849,13 @@
     "Atacama": 8,
     "Beijing": 20,
     "Čína": 1,
-    "Amazon": 50,
+    "Amazon": 51,
     "Medellin": 1,
     "Tchaj-wan": 1,
     "Řím": 1,
     "Ithaca (Cornell)": 2,
-    "Írán": 2,
-    "Berlín": 1,
+    "Írán": 1,
+    "Berlín": 2,
     "Panama": 17,
     "Austrálie": 1,
     "Izrael": 1,
@@ -911,7 +873,7 @@
     "Atlanta": 1,
     "Georgetown": 11,
     "Kalifornie": 1,
-    "Cuba": 14,
+    "Cuba": 15,
     "Egypt": 1,
     "San Francisco": 1,
     "SAE": 1,
@@ -929,17 +891,9 @@
     "key": "Brasilia",
     "name_cs": "Brasília",
     "name_en": "Brasília",
-    "count": 65
+    "count": 66
   },
   "archive": [
-    {
-      "date": "2026-10-27 06:01",
-      "threat_level": "HIGH",
-      "security_status_cs": "Znovuzvolení Luiz Inácia Luly da Silvy v Brazílii vyvolalo prudkou negativní reakci trhů a obvinění z volebních podvodů ze strany opozice v čele s Fláviem Bolsonarem, které podpořil i americký prezident Trump. Mezitím se v regionu objevují nové bezpečnostní a politické výzvy včetně návratu venezuelské opoziční líderky Marie Coriny Machado a stabilně vysokých cen komodit ovlivněných mezinárodními cly.",
-      "security_status_en": "The re-election of Luiz Inácio Lula da Silva in Brazil has triggered a sharp negative market reaction and allegations of election fraud by the opposition led by Flávio Bolsonaro, backed by US President Trump. Meanwhile, the region faces new security and political challenges including the return of Venezuelan opposition leader María Corina Machado and persistently high commodity prices influenced by international tariffs.",
-      "forecast_cs": "V příštích dnech lze očekávat pokračující politické napětí v Brazílii, kde se opozice pokusí zpochybnit volební výsledky, což udrží měnovou volatilitu vysoko.",
-      "forecast_en": "Over the coming days, continued political tension is expected in Brazil as the opposition attempts to challenge election results, keeping currency volatility high."
-    },
     {
       "date": "2026-10-27 11:22",
       "threat_level": "HIGH",
@@ -1043,10 +997,18 @@
       "security_status_en": "South America is dealing with the aftermath of electoral turmoil in Brazil, where defeated right-wing candidate Flávio Bolsonaro fled to the US following Luiz Inácio Lula da Silva's victory. Concurrently, Venezuela is experiencing a surge of hope for a democratic transition following the return of opposition leader María Corina Machado from exile. Regional markets are also absorbing global concerns regarding US monetary policy and commodity price volatility, including record coffee prices.",
       "forecast_cs": "V nejbližších dnech se očekává vyostření diplomatických debat o pobytu Flávia Bolsonara v USA a stupňování tlaku venezuelské opozice na vyhlášení voleb v roce 2027.",
       "forecast_en": "In the coming days, an escalation of diplomatic debates regarding Flávio Bolsonaro's stay in the US and intensifying pressure from the Venezuelan opposition for 2027 elections are expected."
+    },
+    {
+      "date": "2026-11-02 14:26",
+      "threat_level": "HIGH",
+      "security_status_cs": "V regionu nadále rezonuje politická krize v Brazílii po návratu prezidenta Lula da Silvy k moci a odchodu Flávia Bolsonara do USA, zatímco Venezuela zažívá oživení opozičních nadějí s návratem Marie Coriny Machadové. Bezpečnostní situaci v západní Kolumbii zhoršil pumový útok na vojenskou základnu a narůstající kriminalita v Andském regionu i Ekvádoru.",
+      "security_status_en": "The region continues to resonate with Brazil's political crisis following President Lula da Silva's return to power and Flávio Bolsonaro's flight to the US, while Venezuela experiences renewed opposition hopes with María Corina Machado's return. In western Colombia, a bomb attack targeting a military base and rising criminality in the Andean region and Ecuador further strain security.",
+      "forecast_cs": "V nejbližších dnech lze očekávat gradaci tlaku venezuelské opozice vedené Mariou Corinou Machadovou na uspořádání voleb a pokračující diplomatické třenice ohledně statusu Flávia Bolsonara v USA.",
+      "forecast_en": "In the coming days, an escalation of pressure from Venezuela's opposition led by María Corina Machado for elections and ongoing diplomatic frictions over Flávio Bolsonaro's US status are expected."
     }
   ],
-  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 5× HIGH, 2× MEDIUM.",
-  "weekly_summary_en": "Over the last 7 recorded analyses: 5× HIGH, 2× MEDIUM.",
+  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 6× HIGH, 1× MEDIUM.",
+  "weekly_summary_en": "Over the last 7 recorded analyses: 6× HIGH, 1× MEDIUM.",
   "market_data": {
     "bovespa": {
       "value": 167921.8,
@@ -1059,7 +1021,7 @@
       "cached": false
     },
     "usdbrl": {
-      "value": 5.4389,
+      "value": 5.4369,
       "date": "2026-11-02",
       "cached": false
     }
