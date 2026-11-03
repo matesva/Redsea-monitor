@@ -1,21 +1,32 @@
 {
-  "last_updated": "2026-11-02T14:23:33Z",
+  "last_updated": "2026-11-03T05:59:59Z",
   "assessment": {
     "threat_level": "HIGH",
-    "sentiment_score": 72,
-    "security_status_cs": "Spojené státy čelí maximálnímu napětí v závěru volebního cyklu voleb do Kongresu v roce 2026, přičemž pozornost se upíná na klíčové souboje v Senátu a Sněmovně reprezentantů. Geopolitické riziko roste kvůli napětí na Blízkém východě a možným vojenským krokům vůči Íránu, což vyhání ceny ropy vzhůru. Domácí scénu mezitím komplikují zdravotní incidenty politiků a polarizace napříč stranami.",
-    "security_status_en": "The United States is facing acute tension at the tail end of the 2026 midterm election cycle, with attention focused on fierce Senate and House battles. Geopolitical risks are rising due to Middle East tensions and potential military actions regarding Iran, driving up oil prices. Meanwhile, the domestic scene is complicated by political health incidents and intense partisan polarization.",
+    "sentiment_score": 70,
+    "security_status_cs": "Spojené státy se nacházejí v napjatém období voleb do Kongresu, přičemž probíhají právní spory o hlasovací lístky a rostou obavy z politické polarizace. Americká armáda mezitím provedla omezené útoky na Írán a probíhají přípravy na zprostředkování mírových jednání mezi Ukrajinou a Ruskem.",
+    "security_status_en": "The United States is in a tense period surrounding the midterm congressional elections, marked by legal battles over ballots and rising concerns over political polarization. Meanwhile, the U.S. military carried out limited strikes on Iran while preparations unfold to mediate peace talks between Ukraine and Russia.",
     "president_comments": [
       {
-        "topic_cs": "Závěrečný projev a projekty ve Washingtonu",
-        "topic_en": "Closing message and D.C. projects",
-        "statement_cs": "Prezident Trump vystoupí u Lincolnova památkáře, kde představí závěrečný vzkaz před volbami a shrne zkrášlovací projekty v hlavním městě.",
-        "statement_en": "President Trump will deliver remarks at the Lincoln Memorial Reflecting Pool to offer a closing message ahead of the midterms and highlight D.C. beautification projects.",
-        "comment_cs": "Tento projev slouží jako finální mobilizace republikánské voličské základny v těsném závěru kampaně. Trhy sledují politický vývoj s ohledem na udržení legislativní moci.",
-        "comment_en": "This speech acts as a final mobilization of the Republican base right before the vote. Markets are closely tracking political shifts regarding legislative control.",
+        "topic_cs": "Volby a kampaň",
+        "topic_en": "Elections and Campaign",
+        "statement_cs": "Prezident Trump prohlásil během akce u Reflecting Poolu, že dali volbám velmi silnou šanci, a uznal výhodu demokratů před dnem voleb.",
+        "statement_en": "President Trump stated during an event at the Reflecting Pool that they gave the election a very strong shot, acknowledging Democrats' advantage heading into Election Day.",
+        "comment_cs": "Tento komentář podtrhuje opatrná očekávání Republikánské strany v závěru historicky nejdražší kampaně.",
+        "comment_en": "This comment underscores the Republican Party's cautious expectations at the close of a historically expensive campaign.",
         "market_impact": "NEUTRAL",
-        "source": "The Hill",
-        "date": "2026-11-02T14:23:33Z"
+        "source": "CBS News",
+        "date": "2026-11-03T05:59:58Z"
+      },
+      {
+        "topic_cs": "Konflikt s Íránem",
+        "topic_en": "Conflict with Iran",
+        "statement_cs": "Trump označil konflikt s Íránem za 'měkkou válku' a trval na tom, že USA drží v rukou všechny trumfy.",
+        "statement_en": "Trump called the Iran conflict a 'soft war' and insisted the U.S. holds the cards ahead of the midterm elections.",
+        "comment_cs": "Trhy sledují napětí v Zálivu s obavami o ceny ropy, avšak rétorika signalizuje snahu držet eskalaci pod kontrolou.",
+        "comment_en": "Markets are monitoring Gulf tension with concerns over oil prices, though the rhetoric signals an effort to keep escalation under control.",
+        "market_impact": "NEGATIVE",
+        "source": "Fox News",
+        "date": "2026-11-03T05:59:58Z"
       }
     ],
     "recommendations": [
@@ -23,106 +34,316 @@
         "sector_cs": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
         "sector_en": "US Broad Equity Market (S&P 500 ETFs, e.g. VOO, SPY)",
         "action": "HOLD",
-        "reason_cs": "Trhy vyčkávají na konečné výsledky voleb do Kongresu a potenciální změny v rozdělení moci, které mohou ovlivnit regulaci a daně.",
-        "reason_en": "Markets are awaiting the final congressional election results and potential shifts in power that could impact regulation and taxes."
+        "reason_cs": "Trhy vyčkávají na konečné výsledky midterm voleb a rozložení moci v Kongresu, což omezuje větší směrové sázky.",
+        "reason_en": "Markets are awaiting the final midterm election results and the balance of power in Congress, limiting major directional bets."
       },
       {
         "sector_cs": "Státní dluhopisy USA (Treasuries)",
         "sector_en": "US Treasuries",
-        "action": "HOLD",
-        "reason_cs": "Výnosy dluhopisů reagují na makroekonomická data a geopolitická rizika včetně rostoucích cen ropy.",
-        "reason_en": "Bond yields are reacting to macroeconomic data and geopolitical risks, including surging oil prices."
+        "action": "BUY",
+        "reason_cs": "Zvýšená politická nejistota a blížící se výsledky voleb podporují poptávku po bezpečných aktivech.",
+        "reason_en": "Elevated political uncertainty and pending election results support demand for safe-haven assets."
       },
       {
         "sector_cs": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
         "sector_en": "Defense Industry (RTX, Lockheed Martin, Northrop Grumman)",
         "action": "BUY",
-        "reason_cs": "Eskalující napětí na Blízkém východě a hrozby konfliktu s Íránem udržují vysokou poptávku po obranných systémech.",
-        "reason_en": "Escalating Middle East tensions and potential conflict risks with Iran sustain high demand for defense systems."
+        "reason_cs": "Geopolitické napětí na Blízkém východě a pokračující konflikty udržují stabilní vládní zakázky na obranu.",
+        "reason_en": "Geopolitical tensions in the Middle East and ongoing conflicts keep government defense contracts stable."
       },
       {
         "sector_cs": "Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)",
         "sector_en": "Banks & Financials (JPMorgan, Bank of America, Goldman Sachs)",
         "action": "HOLD",
-        "reason_cs": "Finanční sektor vyčkává na výsledek voleb, který určí budoucí regulační tlak na velké finanční instituce.",
-        "reason_en": "The financial sector is awaiting election outcomes that will dictate future regulatory pressure on major institutions."
+        "reason_cs": "Potenciální změny v regulaci po volbách drží finanční domy v pozoru bez jasného katalyzátoru pro prudký růst.",
+        "reason_en": "Potential post-election regulatory shifts keep financial institutions on watch without a clear catalyst for a sharp rally."
       },
       {
         "sector_cs": "Technologický sektor (Apple, Microsoft, Nvidia)",
         "sector_en": "Technology Sector (Apple, Microsoft, Nvidia)",
         "action": "HOLD",
-        "reason_cs": "Technologické akcie čelí nejistotě ohledně budoucího antimonopolního dohledu v případě posílení demokratů v Kongresu.",
-        "reason_en": "Tech stocks face uncertainty regarding future antitrust scrutiny if Democrats strengthen their standing in Congress."
+        "reason_cs": "Sektor čelí přehodnocování ocenění a rizikům přísnějšího dohledu v případě posílení demokratů v Kongresu.",
+        "reason_en": "The sector faces valuation reassessments and risks of tighter scrutiny if Democrats strengthen their position in Congress."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly na pražské burze jsou primárně ovlivněny evropským makroekonomickým prostředím a lokální fiskální politikou.",
-        "reason_en": "Domestic Prague stocks are primarily influenced by the European macroeconomic environment and local fiscal policies."
+        "reason_cs": "Pražská burza reaguje primárně na evropské makroekonomické prostředí a domácí fiskální politiku, nikoli na americké volby.",
+        "reason_en": "The Prague Stock Exchange reacts primarily to the European macroeconomic environment and domestic fiscal policy rather than US elections."
       }
     ],
-    "forecast_cs": "V nejbližších hodinách a dnech bude veškerá pozornost soustředěna na uzavření volebních místností, sčítání hlasů v klíčových státech a určení moci v Kongresu.",
-    "forecast_en": "Over the coming hours and days, attention will be squarely focused on the closing of polls, vote counting in battleground states, and determining control of Congress.",
-    "forecast_review_cs": "Předchozí předpověď se přesně potvrdila, protože hlavní pozornost trhů i médií se nyní upírá přímo na volební výsledky.",
-    "forecast_review_en": "The previous forecast was confirmed, as the primary focus of markets and media is now squarely centered on election results."
+    "forecast_cs": "V nejbližších dnech se pozornost soustředí na postupné sčítání hlasů z amerických midterm voleb a určení kontroly nad Kongresem.",
+    "forecast_en": "Over the coming days, attention will focus on the gradual vote counting of the U.S. midterm elections and determining control of Congress.",
+    "forecast_review_cs": "Předchozí předpověď se přesně potvrdila, neboť veškerá pozornost trhů i médií se upřela na uzavření volebních místností a výsledky voleb.",
+    "forecast_review_en": "The previous forecast was fully confirmed, as all market and media attention focused squarely on the closing of polls and election outcomes."
   },
   "articles": [
     {
-      "title": "Connecticut Sen. Chris Murphy hospitalized after stroke, office says",
-      "summary": "Sen. Chris Murphy's office announced Sunday that he suffered a stroke and was hospitalized the day prior, though they say he is 'awake and alert.'",
-      "link": "https://www.cnbc.com/2026/11/01/chris-murphy-stroke-senate-hospital.html",
-      "published": "Mon, 02 Nov 2026 14:14:00 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "How to watch live 2026 election results on CBS News",
-      "summary": "With control of Congress on the line in House and Senate races around the country, here's how to watch the 2026 midterm election results on Tuesday, Nov. 3.",
-      "link": "https://www.cbsnews.com/news/where-to-watch-election-2026/",
-      "published": "Mon, 02 Nov 2026 09:09:25 -0500",
+      "title": "Live Updates: Trump tells GOP \"we gave this a very strong shot\"",
+      "summary": "President Trump held an event Monday at the Washington, D.C., Reflecting Pool, while Michigan Democrats assess the fallout from a cross-party endorsement.",
+      "link": "https://www.cbsnews.com/live-updates/2026-elections-monday-november-2/",
+      "published": "Tue, 03 Nov 2026 00:38:02 -0500",
       "source": "CBS News"
     },
     {
-      "title": "Democrats condemn Haley Stevens’ ‘betrayal’ following endorsement of Republican Mike Rogers – US politics live",
-      "summary": "<p>The latest move has roiled one of the most fiercely contested Senate contests</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\"><strong>Sign up for the Breaking News US email</strong></a></p></li></ul><p>As we continue to bring you more on the fallout of <strong>Haley Stevens’ decision to endorse Republican nominee Mike Rogers</strong> in the US Senate race in Michigan, the chorus of anger and frustration at the Democratic congresswoman continues to grow.</p><p>On Sunday, <strong>Nancy Pelosi</strong>, the outgoing US representative, former House speaker, and once the party’s kingmaker-in-chief, said that Stevens has “chosen to dangerously betray Michigan families’ healthcare, freedoms and future with her horrific endorsement [of Rogers]”.</p> <a href=\"https://www.theguardian.com/us-news/live/2026/nov/02/democrats-haley-stevens-mike-rogers-abdul-el-sayed-michigan-midterms-trump-rallies-latest-news-updates\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/live/2026/nov/02/democrats-haley-stevens-mike-rogers-abdul-el-sayed-michigan-midterms-trump-rallies-latest-news-updates",
-      "published": "Mon, 02 Nov 2026 14:06:17 GMT",
-      "source": "The Guardian"
+      "title": "Trump DOJ Targets 405 Ballots. Some May Belong to U.S. Citizens",
+      "summary": "The DOJ wants Washington to hold back ballots from 400-plus alleged noncitizens, though its own letter says some may be citizens.",
+      "link": "https://www.newsweek.com/trump-doj-targets-405-ballots-some-may-belong-to-u-s-citizens-12653325",
+      "published": "Tue, 03 Nov 2026 00:10:19 -0500",
+      "source": "Newsweek"
     },
     {
-      "title": "ICE, inflation and Trump: gen Z readers share their concerns heading into the voting both",
-      "summary": "<p>Young voters have many of the same concerns as the larger voting cohort, even if many are not registered to vote</p><p>The <a href=\"https://www.theguardian.com/us-news/us-midterm-elections-2026\">2026 US midterms</a> are approaching against a backdrop of growing political uncertainty, with young voters increasingly mobilizing around concerns about the country’s future.</p><p>Although nearly 50 million Americans aged 18 to 29 are eligible to vote in the midterms, almost half remain either unregistered or civically disengaged, according to <a href=\"https://www.census.gov/data/tables/time-series/demo/voting-and-registration/p20-590.html\">US Census Bureau data</a>.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/02/gen-z-voting-issues\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/nov/02/gen-z-voting-issues",
-      "published": "Mon, 02 Nov 2026 14:00:42 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "A prison sentence is not a death sentence — fix the correctional health care crisis now",
-      "summary": "No state, including Arizona, likes having a judge tell it how to run its prisons. But they all have a choice: live up to their constitutional responsibilities and provide adequate medical care on their own, or have the courts ensure it gets done.",
-      "link": "https://thehill.com/opinion/criminal-justice/6185408-eighth-amendment-prison-medical-neglect/",
-      "published": "Mon, 02 Nov 2026 14:00:00 +0000",
+      "title": "Stevens shares rationale for endorsing Rogers over El-Sayed",
+      "summary": "Rep. Haley Stevens (D-Mich.) shared her rationale for her recent decision to endorse former Rep. Mike Rogers (R-Mich.) over Democrat Abdul El-Sayed in the state’s contested Senate race, citing campaign ads, among other reasons. \"Once I concluded that Abdul El-Sayed is not fit to serve in the United States Senate, I had to confront who...",
+      "link": "https://thehill.com/homenews/campaign/6191007-haley-stevens-endorses-mike-rogers/",
+      "published": "Tue, 03 Nov 2026 03:53:10 +0000",
       "source": "The Hill"
     },
     {
-      "title": "Fake nuclear warnings in Ukraine as Moscow, Kyiv report separate cyberattacks on emergency apps",
-      "summary": "Russia and Ukraine both report cyberattacks on their alerting systems, as strikes continue across the countries.",
-      "link": "https://www.cnbc.com/2026/11/02/russia-ukraine-cyberattack-zelenskyy-putin.html",
-      "published": "Mon, 02 Nov 2026 13:57:39 GMT",
+      "title": "Trump Says Alaska's ‘Two Dan Sullivans’ Ballot Is Confusing. Voters Agree?",
+      "summary": "With two Dan Sullivans on the Senate ballot, Alaska voters weigh in on whether that’s a real problem.",
+      "link": "https://www.newsweek.com/trump-says-alaskas-two-dan-sullivans-ballot-is-confusing-voters-agree-12652681",
+      "published": "Mon, 02 Nov 2026 22:47:00 -0500",
+      "source": "Newsweek"
+    },
+    {
+      "title": "US strikes Iran ahead of midterm elections",
+      "summary": "US officials described the attacks on Qeshm Island as limited and defensive, according to CBS, the BBC's US partner.",
+      "link": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 03 Nov 2026 03:39:08 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Ravens Add New QB After Brutal Lamar Jackson Injury News",
+      "summary": "The Dallas Cowboys have signed quarterback Austin Reed to their practice squad after losing Lamar Jackson to another injury.",
+      "link": "https://www.newsweek.com/sports/nfl/ravens-add-new-qb-after-brutal-lamar-jackson-injury-news-12653043",
+      "published": "Mon, 02 Nov 2026 22:36:47 -0500",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Supreme Court rejects Trump's request to stop California counting disputed votes",
+      "summary": "The ruling, which comes on the eve of the midterm elections, essentially ends the Trump administration's bid to disqualify the ballots in the state.",
+      "link": "https://www.bbc.co.uk/news/articles/cm5ynekkn5qko?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 03 Nov 2026 03:32:36 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "How to watch the US midterms in Australia, and what you need to know",
+      "summary": "<p>As results roll in Wednesday Australian time, keen election-watchers can tune in to see whether red seats flip blue – or if we’re in for a long week of vote counting</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>Donald Trump has called it “most important in our lifetime” while senator Bernie Sanders says it’s the most important “in modern American history”. Barack Obama called it a “circuit-breaker” and the “last, best chance” to rein in the president.</p><p>In any case, all eyes will be on the United States on Wednesday Australian time for the 2026 midterm elections. Will Americans use the day as a referendum on Donald Trump’s second term? Will Democrats see a clean sweep of Congress?</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/03/us-midterm-elections-2026-everything-australians-need-to-know\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/nov/03/us-midterm-elections-2026-everything-australians-need-to-know",
+      "published": "Tue, 03 Nov 2026 03:30:39 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Trump loses supreme court bid to set aside 20,000 California ballots as justices refuse to take up emergency request – as it happened",
+      "summary": "<p>This live blog is now closed.</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/2026/nov/02/supreme-court-trump-california-ballots\">Supreme court rules against Trump over bid to force California to set aside ballots</a></p></li><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email</a></p></li></ul><p>The latest and final New York Times and Siena College <a href=\"https://www.nytimes.com/2026/11/01/us/politics/times-siena-poll-senate.html\">poll </a>before the midterm elections also shows <strong>Abdul El-Sayed leading Mike Rogers in the US Senate race in Michigan by 11 percentage points</strong>, outside the margin of error.</p><p>The survey took place before Democratic Congresswoman Haley Stevens announced that she would back Rogers in the contest – a vital seat for her party to retain in their quest for control of the Senate.</p> <a href=\"https://www.theguardian.com/us-news/live/2026/nov/02/democrats-haley-stevens-mike-rogers-abdul-el-sayed-michigan-midterms-trump-rallies-latest-news-updates\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/live/2026/nov/02/democrats-haley-stevens-mike-rogers-abdul-el-sayed-michigan-midterms-trump-rallies-latest-news-updates",
+      "published": "Tue, 03 Nov 2026 03:24:51 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "US to mediate Ukraine-Russia talks in Abu Dhabi next week, Witkoff says",
+      "summary": "Special Envoy Steve Witkoff announced the U.S. would be mediating upcoming Ukraine and Russia peace talks in Abu Dhabi next week.  “The United States will mediate working-level negotiations between Ukraine and Russia on November 10–11 in Abu Dhabi, advancing President Trump’s mission to end the war,” Witkoff wrote on the social platform X. “Discussions will...",
+      "link": "https://thehill.com/policy/international/6190973-witkoff-announces-abu-dhabi-peace-negotiations/",
+      "published": "Tue, 03 Nov 2026 03:20:31 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "US reportedly strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
+      "summary": "<p>Iranian state media reported the sound of explosions on the island in the strait of Hormuz, coming on the eve of crucial US midterms</p><p>The ⁠US launched limited strikes on ​Iran’s Qeshm Island late on Monday, ⁠according to reports in US media, hours after US vice-president JD Vance said he was optimistic diplomatic efforts to end the war were moving in the right direction.</p><p>The strikes were reported as being “defensive”, and not thought to be a signal of a return to full hostilities, but came on the eve of crucial midterm elections in which Donald Trump’s Republican party is expected to be punished by voters for the cascading effect the war has had on the US cost of living.</p> <a href=\"https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
+      "published": "Tue, 03 Nov 2026 03:18:36 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Tennessee national guard trained guns on dying man after guard member shot him, video shows",
+      "summary": "<p>Footage from prosecutors shows aftermath of shooting of Tyrin Johnson, 20, shot and killed by national guard in July</p><p>Tennessee national guard troops in Memphis last summer trained their handguns on a man as he lay dying on a sidewalk after a guard member shot him in the back, video released Monday by county prosecutors shows.</p><p>A Memphis police officer can be heard in the footage from an officer’s body camera calling for an ambulance and then asking the troops: “Hey, you guys got a medical kit or anything?”</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/02/tennessee-shooting-tyrin-johnson-video\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/nov/02/tennessee-shooting-tyrin-johnson-video",
+      "published": "Tue, 03 Nov 2026 03:13:06 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Trump calls Iran conflict a 'soft war,' insists US holds the cards ahead of midterm elections",
+      "summary": "Trump called the Iran conflict a \"soft war\" on \"Hannity\" just hours after the United States struck Iran's Qeshm Island in the Strait of Hormuz.",
+      "link": "https://www.foxnews.com/media/trump-calls-iran-conflict-soft-war-insists-us-holds-cards-ahead-midterm-elections",
+      "published": "Mon, 02 Nov 2026 22:47:52 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "At Long Last, the Rules Apply to Trump",
+      "summary": "",
+      "link": "https://www.realclearpolitics.com/2026/11/02/at_long_last_the_rules_apply_to_trump_716335.html",
+      "published": "Mon, 02 Nov 2026 20:45:41 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Michigan Race Ends With Acrimony and Funky Polls--Again",
+      "summary": "After Tuesday's election, Abdul el Sayed will either be the next senator from Michigan or a new case study in partisan nonresponse bias.",
+      "link": "https://www.realclearpolitics.com/2026/11/02/michigan_race_ends_with_acrimony_and_funky_polls--again_716381.html",
+      "published": "Mon, 02 Nov 2026 20:45:39 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Talarico says he wants to work with Trump on bipartisan MAGA agenda",
+      "summary": "Democratic Texas Senate candidate James Talarico said he would want to work with President Trump on a bipartisan “Make America Great Again” agenda. “I would love, as the next U.S. senator from Texas, to work with Donald Trump to actually fulfill some of the promises of his political project,” Talarico stated during an interview with...",
+      "link": "https://thehill.com/homenews/campaign/6190917-james-talarico-donald-trump-maga/",
+      "published": "Tue, 03 Nov 2026 02:39:09 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "ICE planning to deport Afghans through Pakistan, official says",
+      "summary": "The plan has triggered alarm among advocates for Afghans, who warn that the proposal could lead to the deportation of Afghans who could be persecuted by the Taliban.",
+      "link": "https://www.cbsnews.com/news/ice-deportation-afghans-through-pakistan/",
+      "published": "Mon, 02 Nov 2026 21:27:18 -0500",
+      "source": "CBS News"
+    },
+    {
+      "title": "US military strikes Iran’s Qeshm Island day before midterms",
+      "summary": "The U.S. military struck radar detectors and missile launchers on Iran’s Qeshm Island on Monday, a day before the U.S. midterm elections as mediators continue to push the two sides to reach a peace deal.  The Monday attack is a continuation of strikes against Iran and was defensive in nature, a U.S. official told NewsNation,...",
+      "link": "https://thehill.com/policy/defense/6190947-us-strikes-iranian-radar-missiles/",
+      "published": "Tue, 03 Nov 2026 02:16:12 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Supreme Court rejects DOJ's bid to block California from counting disputed ballots",
+      "summary": "The Department of Justice's request to the Supreme Court in the California case came as it appeals dismissal of a lawsuit over Alaska's Senate election.",
+      "link": "https://www.cnbc.com/2026/11/02/supreme-court-california-mail-ballots-election.html",
+      "published": "Tue, 03 Nov 2026 01:32:13 GMT",
       "source": "CNBC"
     },
     {
-      "title": "China Has a Lot Riding on Trump’s GOP in the Midterms",
-      "summary": "Donald Trump is the devil that China knows.",
-      "link": "https://www.newsweek.com/china-lot-riding-trumps-gop-midterms-12649533",
-      "published": "Mon, 02 Nov 2026 08:54:27 -0500",
-      "source": "Newsweek"
+      "title": "Supreme Court rejects Trump's request in California mail ballots dispute",
+      "summary": "Earlier Monday, the Trump administration asked the Supreme Court to order California election officials to set aside mail ballots from 20,000 people it alleges are noncitizens.",
+      "link": "https://www.cbsnews.com/news/supreme-court-rejects-trump-california-mail-ballots-alleged-noncitizens/",
+      "published": "Mon, 02 Nov 2026 20:02:00 -0500",
+      "source": "CBS News"
     },
     {
-      "title": "Housing Market Flips as Home Prices Fall, Rents Rise for First Time in 3 Years",
-      "summary": "Higher mortgage rates are squeezing would-be homebuyers and forcing renters to stay put—with consequences for both markets.",
-      "link": "https://www.newsweek.com/housing-market-flips-home-prices-fall-rents-rise-first-time-3-years-12648657",
-      "published": "Mon, 02 Nov 2026 08:49:32 -0500",
-      "source": "Newsweek"
+      "title": "Here’s why Palantir’s stock is down despite a ‘bombastic’ quarter",
+      "summary": "A deceleration in U.S. commercial contract growth gave some Wall Street analysts pause despite Palantir’s earnings beat.",
+      "link": "https://www.marketwatch.com/story/heres-why-palantirs-stock-is-down-despite-a-bombastic-quarter-42c9fdb8?mod=mw_rss_topstories",
+      "published": "Tue, 03 Nov 2026 00:59:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "ICE officer charged in Texas after allegedly hitting man with vehicle",
+      "summary": "A U.S. Immigration and Customs Enforcement officer was charged with a felony for allegedly hitting a man with a vehicle earlier this month.",
+      "link": "https://www.cbsnews.com/news/ice-officer-indicted-felony-texas-hit-man-vehicle/",
+      "published": "Mon, 02 Nov 2026 19:53:16 -0500",
+      "source": "CBS News"
+    },
+    {
+      "title": "JD Vance says Haley Stevens' endorsement of GOP's Mike Rogers will 'certainly' help Michigan Senate race",
+      "summary": "VP JD Vance says Haley Stevens' endorsement of Mike Rogers over Abdul El-Sayed will give certain Michigan voters \"permission\" to back the GOP candidate.",
+      "link": "https://www.foxnews.com/politics/jd-vance-says-haley-stevens-endorsement-gops-mike-rogers-certainly-help-michigan-senate-race",
+      "published": "Mon, 02 Nov 2026 20:39:04 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "How a midterm tie gets settled in the case of the Senate",
+      "summary": "A tied Senate could leave control of the chamber uncertain after the 2026 midterm elections. Past 50-50 splits in 2000 and 2020 offer clues about how lawmakers could negotiate power sharing agreements in 2027.",
+      "link": "https://www.foxnews.com/politics/how-midterm-tie-gets-settled-case-senate",
+      "published": "Mon, 02 Nov 2026 19:38:26 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Stock market after midterm elections: What S&P 500 history shows",
+      "summary": "Midterms historically precede a strong year for the S&P 500. What to know if Democrats win back Congress",
+      "link": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
+      "published": "Mon, 02 Nov 2026 23:13:34 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Russia plotting 'massive strike' during midterms, Zelenskyy warns, urges US to stop Putin",
+      "summary": "Zelenskyy says Russia plans a massive attack on Ukraine's energy infrastructure while the world watches Tuesday's U.S. midterm elections unfold.",
+      "link": "https://www.foxnews.com/world/russia-planning-massive-strike-midterms-zelenskyy-warns-urges-us-stop-putin",
+      "published": "Mon, 02 Nov 2026 18:35:21 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
+      "summary": "Some investors appeared a little too eager to buy the dip in technology stocks last month.",
+      "link": "https://www.marketwatch.com/story/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned-d6775191?mod=mw_rss_topstories",
+      "published": "Mon, 02 Nov 2026 22:03:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Wall Street’s most hated stocks are faring far better than its favorites",
+      "summary": "The thrashing that Wall Street’s artificial-intelligence darlings have taken over the past few months has led to an unusual situation in the U.S. stock market.",
+      "link": "https://www.marketwatch.com/story/wall-streets-most-hated-stocks-are-faring-far-better-than-its-favorites-4c1d6c68?mod=mw_rss_topstories",
+      "published": "Mon, 02 Nov 2026 21:45:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Trump focuses on Reflecting Pool in final public speech before midterms",
+      "summary": "Trump seemed to acknowledge that Democrats had an advantage heading into Election Day. \"But we gave this a very strong shot,\" he said.",
+      "link": "https://www.cnbc.com/2026/11/02/trump-midterm-election-speech-reflecting-pool.html",
+      "published": "Mon, 02 Nov 2026 21:15:13 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Texas governor race tightens in prediction markets, but Abbott remains favored",
+      "summary": "Prediction markets still show the Republican incumbent favored to win a fourth term, but the odds have narrowed in recent weeks.",
+      "link": "https://www.cnbc.com/2026/11/02/texas-governor-prediction-markets-abbott-hinojosa.html",
+      "published": "Mon, 02 Nov 2026 21:13:43 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "US midterms campaign 'shattering' spending records to be most expensive ever",
+      "summary": "The 2026 campaign is projected to cost nearly $12bn - BBC Verify looks into where all that money has come from.",
+      "link": "https://www.bbc.co.uk/news/articles/cqkgk64z7p58o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 02 Nov 2026 20:54:44 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "AI chatbots are becoming political advisers. Their answers can mislead voters",
+      "summary": "Millions of Americans are turning to AI for election information, but chatbots are getting voting facts wrong and recommending candidates, raising concerns they could influence voters' decisions.",
+      "link": "https://www.npr.org/2026/11/02/nx-s1-6025407/chatbots-midterms-voting-advice",
+      "published": "Mon, 02 Nov 2026 15:02:41 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "The Asymmetric Campaigns of 2026",
+      "summary": "Democrats' strategy has been to run on the economy. Republicans' strategy has been to suppress or negate the vote.",
+      "link": "https://www.realclearpolitics.com/2026/11/02/the_asymmetric_campaigns_of_2026_716367.html",
+      "published": "Mon, 02 Nov 2026 13:49:15 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Blue State/Red State Comparisons: Winning Message for GOP",
+      "summary": "Affordability is consistently rated voters' number one concern in the midterms, but you don't hear much about it from Republicans.",
+      "link": "https://www.realclearpolitics.com/articles/2026/11/02/blue_statered_state_comparisons_a_winning_message_for_gop_154642.html",
+      "published": "Mon, 02 Nov 2026 13:48:33 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Judge tosses DOJ case against ex-FBI officials accused of lying about Hunter Biden probe",
+      "summary": "Judge Zia Faruqui suggested the prosecution of ex-officials Nikki Floris and Bradley Benavides was rushed to come out ahead of the midterm election.",
+      "link": "https://www.cnbc.com/2026/11/02/fbi-hunter-biden-doj-case-dismissed.html",
+      "published": "Mon, 02 Nov 2026 19:19:17 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Defense, healthcare, crypto and AI: How the midterm election could affect stocks",
+      "summary": "Democratic gains in Congress could bring tougher oversight of major companies and shift billions of dollars in federal spending and regulatory policy.",
+      "link": "https://www.cnbc.com/2026/11/02/midterm-election-stocks-defense-healthcare-crypto-ai.html",
+      "published": "Mon, 02 Nov 2026 18:59:48 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Judge accuses DOJ of 'weaponization,' tosses case against ex-FBI officials",
+      "summary": "The judge said he was \"deeply troubled\" by the mistakes and rushed nature of the case over the FBI's Hunter Biden probes — one of several politically charged DOJ actions ahead of the midterms.",
+      "link": "https://www.npr.org/2026/11/02/g-s1-151242/judge-tosses-case-fbi-officials-hunter-biden",
+      "published": "Mon, 02 Nov 2026 13:54:01 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "The Supreme Court rejects a DOJ push to separate California ballots",
+      "summary": "The U.S. Supreme Court has denied a last-minute request from the Department of Justice to wade into its unprecedented feud with California over the state's voter rolls.",
+      "link": "https://www.npr.org/2026/11/02/nx-s1-6023802/supreme-court-california-voting-ballots-trump",
+      "published": "Mon, 02 Nov 2026 11:34:17 -0500",
+      "source": "NPR"
     },
     {
       "title": "A Paralympian vs a former TV news anchor - and other US Senate races to watch",
@@ -132,219 +353,14 @@
       "source": "BBC News"
     },
     {
-      "title": "Poll Of The Day: Should House Democrats Expel Haley Stevens From Their Caucus?",
-      "summary": "Vote in our poll of the day: Did Democrat Haley Stevens betray her own party or was she justified in rejecting Abdul El-Sayed?",
-      "link": "https://www.newsweek.com/poll-should-house-democrats-expel-haley-stevens-2-12649629",
-      "published": "Mon, 02 Nov 2026 08:48:20 -0500",
-      "source": "Newsweek"
-    },
-    {
-      "title": "Live updates: Trump to offer GOP's closing message at Reflecting Pool",
-      "summary": "President Trump on Monday will deliver remarks from an iconic venue, the Lincoln Memorial Reflecting Pool, to both tout his D.C. beautification projects and offer a closing message ahead of Tuesday's midterm elections. Trump’s remarks will focus on the agenda he and Republican lawmakers have advanced since the start of his second term, a source...",
-      "link": "https://thehill.com/homenews/administration/6187464-stevens-rogers-endorsement-backlash/",
-      "published": "Mon, 02 Nov 2026 13:47:54 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Oil prices could average $130 a barrel next year, according to Goldman Sachs",
-      "summary": "Analysts at the investment bank said Brent crude could reach $140 a barrel next year if tensions worsen in the Middle East.",
-      "link": "https://www.marketwatch.com/story/how-oil-prices-could-average-130-per-barrel-next-year-according-to-goldman-sachs-235ce32b?mod=mw_rss_topstories",
-      "published": "Mon, 02 Nov 2026 13:46:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "These 10 megadonors have spent a total of $1 billion on the midterm elections",
-      "summary": "They’ve helped turn this year’s midterms into “the most expensive election cycle on record.”",
-      "link": "https://www.marketwatch.com/story/these-10-megadonors-have-spent-a-total-of-1-billion-on-the-midterm-elections-0dc279cf?mod=mw_rss_topstories",
-      "published": "Mon, 02 Nov 2026 13:44:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "FBI Issues Warning to ‘Gore Groups’ as Girl Found After 500 Days Missing",
-      "summary": "The FBI has warned of a crackdown on nihilistic gore groups after teen Kylie Arellano was found after going missing in May 2025.",
-      "link": "https://www.newsweek.com/fbi-issues-warning-gore-groups-girl-found-500-days-missing-12648760",
-      "published": "Mon, 02 Nov 2026 08:34:53 -0500",
-      "source": "Newsweek"
-    },
-    {
-      "title": "The House is decided — the Senate is anything but",
-      "summary": "The 2026 midterms are shaping up to be one of the most widely competitive — at least on the Senate level — in modern history.",
-      "link": "https://thehill.com/opinion/congress-blog/campaign/6185525-senate-race-uncertainty-projections/",
-      "published": "Mon, 02 Nov 2026 13:30:00 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Texas, Alaska, Maine Senate races flip blue on DDHQ map",
-      "summary": "Decision Desk HQ (DDHQ) is forecasting Senate races in Texas, Alaska and Maine will flip toward Democrats on Tuesday, enough to put the party in a prime position of winning back the upper chamber.  DDHQ forecasts that Democrats James Talarico in Texas and Mary Peltola in Alaska each have a 61 percent chance of winning...",
-      "link": "https://thehill.com/homenews/6188072-ddhq-senate-forecast-texas-alaska-maine/",
-      "published": "Mon, 02 Nov 2026 13:25:15 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Defense, healthcare, crypto and AI: How the midterm election could affect stocks",
-      "summary": "Democratic gains in Congress could bring tougher oversight of major companies and shift billions of dollars in federal spending and regulatory policy.",
-      "link": "https://www.cnbc.com/2026/11/02/midterm-election-stocks-defense-healthcare-crypto-ai.html",
-      "published": "Mon, 02 Nov 2026 13:23:58 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "NASCAR's new villain picks another victim and fans want him parked, driver flies with Trump & ratings rebound?",
-      "summary": "Carson Hocevar's four brake checks on Austin Cindric at Martinsville stunned NASCAR drivers and fans alike heading into the Homestead finale.",
-      "link": "https://www.foxnews.com/outkick-sports/nascars-new-villain-picks-another-victim-fans-want-him-parked-driver-flies-trump-ratings-rebound",
-      "published": "Mon, 02 Nov 2026 09:04:07 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "LEE CARTER: The 5 words that explain this election better than any commercial",
-      "summary": "Affordability, socialism, corruption, Trump and turnout: five words a researcher says explain the 2026 midterms better than $11 billion in ads.",
-      "link": "https://www.foxnews.com/opinion/lee-carter-5-words-explain-election-better-than-any-commercial",
-      "published": "Mon, 02 Nov 2026 09:00:56 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "‘It’s clear they are under-vaccinated’: Amish under spotlight amid Pennsylvania measles outbreak",
-      "summary": "<p>As Josh Shapiro, the governor, mounts outreach program, members say ‘you don’t get to change anybody’s mind’</p><p>Making hay was more than a figure of speech last week at the New Holland auction house in Pennsylvania last week, where a ton of top quality hay bales were going for upwards of $400, up about 20% from last year.</p><p>For members of the Lancaster settlement, a term used to describe the Amish population that settled here in 1760, the price of hay was only part of the discussion: the price of horses, donkeys and milk were also topics of conversation and, as it has been for year or more, a potentially deadly outbreak of measles.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/02/pennsylvania-measles-outbreak-amish\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/nov/02/pennsylvania-measles-outbreak-amish",
-      "published": "Mon, 02 Nov 2026 13:00:43 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "‘Smart, articulate and guided by his heart’: James Talarico’s journey from teacher to potential Texas senator",
-      "summary": "<p>The Texan could pull off a historic victory in the Lone Star state, which hasn’t elected a Democratic senator since 1988</p><p>When a young, untested former school teacher stood up to address a modest gathering of local donors in Austin, the state capital of Texas, <a href=\"https://en.wikipedia.org/wiki/Wendy_Davis_(politician)\">Wendy Davis</a> felt sorry for him. “Poor kid,” she remembers thinking.</p><p>Then James Talarico began speaking. “He was like five or six sentences in and I knew that something was different about him,” recalls Davis, a former Democratic state senator. “He was as articulate and unique then as he is now. From that day, I started calling him ‘Baby Obama’.”</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/02/james-talarico-texas-senate-midterm-elections\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/nov/02/james-talarico-texas-senate-midterm-elections",
-      "published": "Mon, 02 Nov 2026 13:00:42 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "When 'Country Over Party' Goes Only One Way",
-      "summary": "Haley Stevens is being called a traitor, but by reversing her endorsement of Abdul El-Sayed, she is showing exactly the kind of courage moderate Democrats once cheered, writes James Kirchick.",
-      "link": "https://www.realclearpolitics.com/2026/11/02/when_country_over_party_goes_only_one_way_716299.html",
-      "published": "Mon, 02 Nov 2026 06:51:10 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Did Trump Blow It? Sure Looks That Way",
-      "summary": "",
-      "link": "https://www.realclearpolitics.com/2026/11/02/did_trump_blow_it_sure_looks_that_way_716302.html",
-      "published": "Mon, 02 Nov 2026 06:22:16 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
       "title": "Haley Stevens backs Mike Rogers. And, Gulf states brace for potential attack on Iran",
       "summary": "Democrats in Michigan are considering their options after Haley Stevens endorsed GOP candidate Mike Rogers for Senate. And the Gulf states are bracing for a possible U.S. attack on Iran after the midterms.",
       "link": "https://www.npr.org/2026/11/02/g-s1-151215/up-first-newsletter-michigan-senate-iran-war-supreme-court-colorado-catholic-church",
       "published": "Mon, 02 Nov 2026 07:19:54 -0500",
       "source": "NPR"
-    },
-    {
-      "title": "GOP Counting on Election Day Turnout Despite Enthusiasm Gap",
-      "summary": "",
-      "link": "https://www.realclearpolitics.com/2026/11/02/gop_counting_on_election_day_turnout_despite_enthusiasm_gap_716345.html",
-      "published": "Mon, 02 Nov 2026 06:19:31 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "2026 midterm election races to watch",
-      "summary": "CBS News has identified 11 key Senate and 42 House races that will likely decide the majority — all of which can change during the midterm campaign.",
-      "link": "https://www.cbsnews.com/news/2026-midterm-election-races/",
-      "published": "Mon, 02 Nov 2026 07:19:06 -0500",
-      "source": "CBS News"
-    },
-    {
-      "title": "Alaska Town Reckons With ‘Decoy Dan' Election Fallout",
-      "summary": "",
-      "link": "https://www.realclearpolitics.com/2026/11/02/alaska_town_reckons_with_lsquodecoy_danrsquo_election_fallout_716311.html",
-      "published": "Mon, 02 Nov 2026 06:10:42 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Steve Hilton rallies at 'symbol of 16 years of Democrat failure' in closing days of California race",
-      "summary": "Steve Hilton rallied in Pacific Palisades, calling the wildfire devastation a symbol of 16 years of Democratic failure ahead of Tuesday's election.",
-      "link": "https://www.foxnews.com/politics/steve-hilton-rallies-symbol-16-years-democrat-failure-closing-days-california-race",
-      "published": "Mon, 02 Nov 2026 08:05:05 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "Treasure hunter strikes gold with 1,000-year-old discovery linked to 'Hand of God'",
-      "summary": "Treasure hunter Nick Berry's gold pendant, found near Highclere Castle of \"Downton Abbey\" fame, may depict the \"Hand of God,\" a Christian symbol from the Viking era.",
-      "link": "https://www.foxnews.com/travel/treasure-hunter-strikes-gold-1000-year-old-discovery-linked-hand-god",
-      "published": "Mon, 02 Nov 2026 08:00:28 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "Democrat Stevens defends endorsement switch to Republican Rogers two days before election",
-      "summary": "But she refuses to be drawn on her rationale for switching candidates in the closely-fought US Senate race.",
-      "link": "https://www.bbc.co.uk/news/articles/c699z8v3282xo?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 02 Nov 2026 11:08:09 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "6 things to watch for on election night",
-      "summary": "Some of the key storylines to watch will center around various voters groups that have soured on President Trump during his second turn out.",
-      "link": "https://www.npr.org/2026/11/02/nx-s1-6025451/midterms-what-to-watch-election-night",
-      "published": "Mon, 02 Nov 2026 05:00:00 -0500",
-      "source": "NPR"
-    },
-    {
-      "title": "When it comes to election pressure, this year's Georgia or Michigan could be anywhere",
-      "summary": "The districts that will decide control of the House and Senate next year are spread across the country. Voting officials in those places may face scrutiny and pressure they've never experienced.",
-      "link": "https://www.npr.org/2026/11/02/nx-s1-5989648/midterm-voting-election-pressure",
-      "published": "Mon, 02 Nov 2026 05:00:00 -0500",
-      "source": "NPR"
-    },
-    {
-      "title": "What Vance's midterm push reveals about his potential 2028 bid",
-      "summary": "Vance's delivery is different from the president's but his speeches contain plenty of MAGA DNA.",
-      "link": "https://www.npr.org/2026/11/02/nx-s1-6023159/what-vances-midterm-push-reveals-about-his-potential-2028-bid",
-      "published": "Mon, 02 Nov 2026 05:00:00 -0500",
-      "source": "NPR"
-    },
-    {
-      "title": "What are Americans voting for in this election?",
-      "summary": "The BBC's Maddie Gerber explains what's on the ballot in the 2026 midterm elections in the United States.",
-      "link": "https://www.bbc.co.uk/news/videos/cjly0p753dxxo?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 02 Nov 2026 09:22:55 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Michigan Democratic rift spills into public view and more campaign updates",
-      "summary": "Ahead of the 2026 midterm elections on Tuesday, candidates in key races — and President Trump — are making their closing arguments to voters.",
-      "link": "https://www.cbsnews.com/live-updates/2026-midterm-elections-campaigns-weekend-before/",
-      "published": "Mon, 02 Nov 2026 03:06:00 -0500",
-      "source": "CBS News"
-    },
-    {
-      "title": "Rubio says Trump wants to end Iran war 'peacefully' even as both sides prepare for strikes",
-      "summary": "The remarks come as reports suggest that both sides are gearing up for additional military strikes after the U.S. midterm elections.",
-      "link": "https://www.cnbc.com/2026/11/02/us-iran-war-trump-hormuz-rubio.html",
-      "published": "Mon, 02 Nov 2026 02:39:35 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Sen. Chris Murphy hospitalized following stroke",
-      "summary": "Democratic Sen. Chris Murphy of Connecticut was hospitalized on Saturday after experiencing a stroke, his office said.",
-      "link": "https://www.cbsnews.com/news/chris-murphy-stroke-hospitalized/",
-      "published": "Sun, 01 Nov 2026 21:19:45 -0500",
-      "source": "CBS News"
-    },
-    {
-      "title": "Democrats have high hopes for midterms - but are the polls right?",
-      "summary": "Polls have been predicting a Democratic surge, but last-minute deciders and sampling issues mean there's no guarantee.",
-      "link": "https://www.bbc.co.uk/news/articles/cmg47p3edv4do?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 02 Nov 2026 00:25:12 GMT",
-      "source": "BBC News"
     }
   ],
   "history": [
-    {
-      "date": "2026-10-19 11:43",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 68,
-      "incidents": 13,
-      "sp500": 7659.44,
-      "usd_czk": 21.615
-    },
     {
       "date": "2026-10-20 05:00",
       "threat_level": "HIGH",
@@ -605,6 +621,15 @@
       "incidents": 3,
       "sp500": 7580.07,
       "usd_czk": 21.798
+    },
+    {
+      "date": "2026-11-03 05:59",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 70,
+      "incidents": 6,
+      "sp500": 7541.4,
+      "usd_czk": 21.711
     }
   ],
   "locations": [
@@ -614,6 +639,13 @@
       "lon": -77.0369,
       "name_cs": "Washington, D.C.",
       "name_en": "Washington, D.C."
+    },
+    {
+      "key": "New York",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "name_cs": "New York",
+      "name_en": "New York"
     },
     {
       "key": "Texas",
@@ -630,6 +662,13 @@
       "name_en": "California"
     },
     {
+      "key": "Wall Street",
+      "lat": 40.7069,
+      "lon": -74.0113,
+      "name_cs": "Wall Street",
+      "name_en": "Wall Street"
+    },
+    {
       "key": "Michigan",
       "lat": 44.3148,
       "lon": -85.6024,
@@ -637,32 +676,11 @@
       "name_en": "Michigan"
     },
     {
-      "key": "Pennsylvania",
-      "lat": 41.2033,
-      "lon": -77.1945,
-      "name_cs": "Pensylvánie",
-      "name_en": "Pennsylvania"
-    },
-    {
-      "key": "Georgia",
-      "lat": 32.1656,
-      "lon": -82.9001,
-      "name_cs": "Georgie (USA)",
-      "name_en": "Georgia (US)"
-    },
-    {
-      "key": "Arizona",
-      "lat": 34.0489,
-      "lon": -111.0937,
-      "name_cs": "Arizona",
-      "name_en": "Arizona"
-    },
-    {
-      "key": "Maine",
-      "lat": 45.2538,
-      "lon": -69.4455,
-      "name_cs": "Maine",
-      "name_en": "Maine"
+      "key": "Tennessee",
+      "lat": 35.5175,
+      "lon": -86.5804,
+      "name_cs": "Tennessee",
+      "name_en": "Tennessee"
     },
     {
       "key": "Alaska",
@@ -696,31 +714,47 @@
       "auto": true
     },
     {
-      "key": "China",
-      "lat": 35.9,
-      "lon": 104.2,
-      "name_cs": "Čína",
-      "name_en": "China",
+      "key": "Uae",
+      "lat": 24.3,
+      "lon": 54.4,
+      "name_cs": "SAE",
+      "name_en": "Uae",
+      "auto": true
+    },
+    {
+      "key": "Pakistan",
+      "lat": 30.4,
+      "lon": 69.3,
+      "name_cs": "Pákistán",
+      "name_en": "Pakistan",
+      "auto": true
+    },
+    {
+      "key": "Australia",
+      "lat": -25.3,
+      "lon": 133.8,
+      "name_cs": "Austrálie",
+      "name_en": "Australia",
       "auto": true
     }
   ],
   "location_counts": {
     "Florida": 44,
-    "Texas": 71,
-    "Washington": 73,
-    "New York": 60,
-    "California": 54,
+    "Texas": 72,
+    "Washington": 74,
+    "New York": 61,
+    "California": 55,
     "Capitol": 19,
     "Border": 19,
     "Los Angeles": 15,
-    "Wall Street": 58,
+    "Wall Street": 59,
     "Illinois": 8,
     "Colorado": 15,
     "Canada": 22,
     "Brazílie": 1,
-    "Ukrajina": 1,
-    "Rusko": 1,
-    "Írán": 2,
+    "Ukrajina": 2,
+    "Rusko": 2,
+    "Írán": 5,
     "Čína": 1,
     "Tchaj-wan": 1,
     "Japonsko": 1,
@@ -734,7 +768,7 @@
     "Hongkong": 1,
     "Indie": 1,
     "Berlín": 2,
-    "Michigan": 42,
+    "Michigan": 43,
     "Georgia": 19,
     "Maine": 24,
     "Mexico": 17,
@@ -746,7 +780,7 @@
     "Virginia": 13,
     "Izrael": 2,
     "Austrálie": 1,
-    "Alaska": 28,
+    "Alaska": 29,
     "Jižní Korea": 1,
     "Severní Korea": 1,
     "New Jersey": 6,
@@ -759,7 +793,7 @@
     "Wisconsin": 8,
     "Kuba": 1,
     "Somálsko": 1,
-    "Tennessee": 4,
+    "Tennessee": 5,
     "Nevada": 5,
     "Las Vegas": 1,
     "Řím": 1,
@@ -785,17 +819,9 @@
     "key": "Washington",
     "name_cs": "Washington, D.C.",
     "name_en": "Washington, D.C.",
-    "count": 73
+    "count": 74
   },
   "archive": [
-    {
-      "date": "2026-10-27 11:21",
-      "threat_level": "HIGH",
-      "security_status_cs": "Spojené státy čelí vyostřené politické polarizaci a intenzivním kampaním pouhý týden před mezidobými volbami, v nichž demokraté bojují o zisk kontroly nad Sněmovnou reprezentantů. Administrativa mezitím čelí diplomatickým a ekonomickým tlakům včetně rostoucích výrobních nákladů farmářů způsobených zahraničními konflikty a cly.",
-      "security_status_en": "The United States is facing heightened political polarization and intense campaigns just one week before midterm elections, with Democrats vying to capture control of the House. Meanwhile, the administration grapples with diplomatic and economic pressures, including rising production costs for farmers driven by foreign conflicts and tariffs.",
-      "forecast_cs": "V nejbližších dnech se očekává vyvrcholení kampaní před mezidobými volbami, přičemž aktivita na trzích bude silně ovlivněna politickými průzkumy a právními spory.",
-      "forecast_en": "Over the coming days, campaign activities ahead of the midterm elections will peak, with market activity heavily influenced by political polling and legal disputes."
-    },
     {
       "date": "2026-10-28 06:00",
       "threat_level": "HIGH",
@@ -899,29 +925,37 @@
       "security_status_en": "The United States is facing acute tension at the tail end of the 2026 midterm election cycle, with attention focused on fierce Senate and House battles. Geopolitical risks are rising due to Middle East tensions and potential military actions regarding Iran, driving up oil prices. Meanwhile, the domestic scene is complicated by political health incidents and intense partisan polarization.",
       "forecast_cs": "V nejbližších hodinách a dnech bude veškerá pozornost soustředěna na uzavření volebních místností, sčítání hlasů v klíčových státech a určení moci v Kongresu.",
       "forecast_en": "Over the coming hours and days, attention will be squarely focused on the closing of polls, vote counting in battleground states, and determining control of Congress."
+    },
+    {
+      "date": "2026-11-03 05:59",
+      "threat_level": "HIGH",
+      "security_status_cs": "Spojené státy se nacházejí v napjatém období voleb do Kongresu, přičemž probíhají právní spory o hlasovací lístky a rostou obavy z politické polarizace. Americká armáda mezitím provedla omezené útoky na Írán a probíhají přípravy na zprostředkování mírových jednání mezi Ukrajinou a Ruskem.",
+      "security_status_en": "The United States is in a tense period surrounding the midterm congressional elections, marked by legal battles over ballots and rising concerns over political polarization. Meanwhile, the U.S. military carried out limited strikes on Iran while preparations unfold to mediate peace talks between Ukraine and Russia.",
+      "forecast_cs": "V nejbližších dnech se pozornost soustředí na postupné sčítání hlasů z amerických midterm voleb a určení kontroly nad Kongresem.",
+      "forecast_en": "Over the coming days, attention will focus on the gradual vote counting of the U.S. midterm elections and determining control of Congress."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 7× HIGH.",
   "market_data": {
     "sp500": {
-      "value": 7580.07,
-      "date": "2026-10-30",
+      "value": 7541.4,
+      "date": "2026-11-02",
       "cached": false
     },
     "dow": {
-      "value": 51770.31,
-      "date": "2026-10-30",
+      "value": 51983.98,
+      "date": "2026-11-02",
       "cached": false
     },
     "yield10y": {
-      "value": 4.91,
+      "value": 4.89,
       "date": "2026-11-02",
       "cached": false
     }
   },
   "usd_czk": {
-    "value": 21.798,
-    "date": "2026-10-30"
+    "value": 21.711,
+    "date": "2026-11-02"
   }
 }
