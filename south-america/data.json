@@ -1,73 +1,213 @@
 {
-  "last_updated": "2026-11-03T13:24:13Z",
+  "last_updated": "2026-11-04T13:35:22Z",
   "assessment": {
-    "threat_level": "HIGH",
-    "sentiment_score": 68,
-    "security_status_cs": "Jižní Amerika se potýká s rostoucím napětím po nedávných politických zvratech, včetně návratu venezuelské opoziční lídryně Marie Coriny Machadové a napjaté situace kolem argentinského prezidenta Mileie. Region čelí také bezpečnostním hrozbám v podobě eskalace narkoterorismu, přičemž Kolumbie hlásí bombové útoky a USA zesilují zásahy proti pašeráckým lodím v Karibiku. K tomu se přidávají klimatické dopady na Amazonii a rostoucí ceny komodit v čele s rekordními cenami kávy.",
-    "security_status_en": "South America is grappling with rising tensions following recent political shifts, including the return of Venezuelan opposition leader María Corina Machado and friction surrounding Argentine President Milei. The region also faces severe security threats from escalating narcoterrorism, with Colombia reporting bomb attacks and the US stepping up strikes against drug boats in the Caribbean. Compounding this are climate impacts on the Amazon and soaring commodity prices, led by record highs in coffee.",
+    "threat_level": "MEDIUM",
+    "sentiment_score": 45,
+    "security_status_cs": "Region Jižní Ameriky čelí smíšenému vývoji, kde se stabilizace po nedávných brazilských volbách mísí s pokračujícími bezpečnostními riziky v Andském regionu, včetně bombového útoku v Kolumbii. Ekonomické sentimenty ovlivňují globální komoditní trhy, zejména rekordní ceny kávy kvůli napětí okolo amerických cel a intervence centrální banky v Paraguayi, která převzala kontrolu nad bankou Ueno.",
+    "security_status_en": "The South American region faces mixed developments, where stabilization following recent Brazilian elections blends with persistent security risks in the Andean region, including a bombing in Colombia. Economic sentiment is influenced by global commodity markets, notably record coffee prices due to US tariff tensions and Paraguay's central bank taking over Ueno Bank.",
     "recommendations": [
       {
-        "sector_cs": "Brazilský akciový trh (Bovespa, EWZ ETF)",
+        "sector_cs": "Brazilský akciový trh (Bovespa, ETF EWZ)",
         "sector_en": "Brazilian Equities (Bovespa, EWZ ETF)",
         "action": "HOLD",
-        "reason_cs": "Zatímco sociální média a implementace globálního plánu na odklon od fosilních paliv ukazují na snahu o modernizaci, politická polarizace po porážce Flávia Bolsonara udržuje trhy v nejistotě.",
-        "reason_en": "While social media strategies and the push for a global fossil fuel roadmap show modernization efforts, political polarization following Flávio Bolsonaro's defeat keeps markets uncertain."
+        "reason_cs": "Po prezidentských volbách a představení globálního plánu pro fosilní paliva zůstává trh vyčkávavý. Investoři sledují makroekonomickou stabilitu a fiskální politiku nové vlády.",
+        "reason_en": "Following the presidential elections and the rollout of a global fossil fuel phase-out roadmap, the market remains in a wait-and-see mode. Investors are monitoring macroeconomic stability and fiscal policy."
       },
       {
         "sector_cs": "Argentina (Merval, YPF, MercadoLibre)",
         "sector_en": "Argentina (Merval, YPF, MercadoLibre)",
         "action": "HOLD",
-        "reason_cs": "Hluboké sociální dopady Mileiova úsporného modelu a napětí s katolickou církví i blížící se summit v Madridu testují politickou stabilitu a udržitelnost reforem.",
-        "reason_en": "The deep social costs of Milei’s austerity model, tensions with the Catholic Church, and the upcoming Madrid summit are testing political stability and reform sustainability."
+        "reason_cs": "Uzavření kryptoměnové kauzy $LIBRA zbavilo prezidenta Mileiho přímého právního tlaku, ale institucionální nestabilita nadále přetrvává. Doporučujeme vyčkat na hlubší strukturální data reforem.",
+        "reason_en": "The dismissal of the $LIBRA cryptocurrency case removes direct legal pressure from President Milei, but institutional instability persists. We recommend waiting for deeper structural reform data."
       },
       {
         "sector_cs": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
         "sector_en": "Mining: Copper & Lithium (Southern Copper, SQM, Freeport)",
-        "action": "BUY",
-        "reason_cs": "Mezinárodní poptávka po průmyslových kovech a rostoucí uznání chilského prezidenta Kasta na mezinárodní scéně posilují důvěru investorů v andský těžařský sektor.",
-        "reason_en": "International demand for industrial metals and growing international recognition of Chilean President Kast bolster investor confidence in the Andean mining sector."
+        "action": "HOLD",
+        "reason_cs": "Ceny kovů reagují na globální výkyvy poptávky a americký politický vývoj po volbách do Kongresu. Regionální producenti v Chile a Peru vykazují stabilní produkci při zvýšené opatrnosti investorů.",
+        "reason_en": "Metal prices are responding to global demand fluctuations and US political shifts following the congressional midterms. Regional producers in Chile and Peru show stable output amid heightened investor caution."
       },
       {
         "sector_cs": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
         "sector_en": "Oil & Energy (Petrobras, Ecopetrol, Chevron)",
         "action": "HOLD",
-        "reason_cs": "Brazílie sice představuje globální roadmapu pro odklon od fosilních paliv, ale geopolitická rizika v Kolumbii a globální výkyvy cen ropy vyžadují opatrný přístup.",
-        "reason_en": "While Brazil outlines a global roadmap to phase out fossil fuels, geopolitical risks in Colombia and global oil price volatility warrant a cautious approach."
+        "reason_cs": "Brazílie představila ambiciózní plán na odklon od fosilních paliv na COP30, což dlouhodobě ovlivňuje strategii energetických firem. Současné ceny ropy a sankční tlaky na Rusko držící se stabilně omezují prudké výkyvy.",
+        "reason_en": "Brazil unveiled an ambitious fossil fuel phase-out roadmap at COP30, impacting long-term energy strategies. Current oil prices and stable Russian export volumes limit sharp market volatility."
       },
       {
         "sector_cs": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
         "sector_en": "Agriculture & Food (JBS, Bunge, Cosan)",
         "action": "BUY",
-        "reason_cs": "Historicky vysoké ceny arabiky a zmírnění hrozeb celních sankcí ze strany USA vůči Kolumbii vytvářejí silné prostředí pro exportéry potravin a komodit.",
-        "reason_en": "Record-high arabica prices and the easing of US tariff threats against Colombia create a strong environment for food and commodity exporters."
+        "reason_cs": "Ceny arabské kávy vystřelily na rekordní hodnoty kvůli obavám z americko-kolumbijských celních sporů, což nahrává maržím latinskoamerických vývozců. Poptávka po sóji a hovězím zůstává solidní navzdory klimatickým výkyvům v Amazonii.",
+        "reason_en": "Arabica coffee prices surged to record levels amid US-Colombia tariff dispute fears, boosting Latin American exporter margins. Demand for soy and beef remains solid despite Amazon climate disruptions."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Globální makroekonomická nestabilita, inflační tlaky na komodity a napětí na rozvíjejících se trzích dopadají na globální sentiment bez přímého vlivu na české tituly.",
-        "reason_en": "Global macroeconomic instability, commodity inflation pressures, and emerging market tensions weigh on global sentiment without a direct domestic impact on these Czech stocks."
+        "reason_cs": "Dění v Jižní Americe má na tyto středoevropské tituly pouze zanedbatelný a nepřímý vliv. Banky a energetika se nadále řídí primárně domácími faktory a politikou ECB či ČNB.",
+        "reason_en": "South American developments have a negligible and indirect impact on these Central European equities. Banks and energy firms continue to be driven primarily by domestic factors and ECB or CNB policies."
       }
     ],
-    "forecast_cs": "V následujících dnech se očekává intenzivní diplomatické dění na Ibero-americkém summitu v Madridu a stupňování tlaku venezuelské opozice pod vedením Marie Coriny Machadové.",
-    "forecast_en": "In the coming days, intensive diplomatic activity is expected at the Ibero-American Summit in Madrid alongside escalating pressure from the Venezuelan opposition led by María Corina Machado.",
-    "forecast_review_cs": "Předchozí předpověď se částečně potvrdila, neboť brazilská měnová politika a aktivity venezuelské opozice zůstaly v centru pozornosti trhů.",
-    "forecast_review_en": "The previous forecast was partially confirmed as Brazil's monetary policy and the activities of the Venezuelan opposition remained in the market spotlight."
+    "forecast_cs": "V následujících dnech se očekává zvýšená pozornost na měnové a bankovní trhy po intervenci v Paraguayi a stabilizace cen komodit po amerických volbách. Regionální bezpečnostní složky budou reagovat na eskalaci násilí v Kolumbii.",
+    "forecast_en": "Over the coming days, heightened attention will focus on currency and banking markets following the intervention in Paraguay and commodity price stabilization post-US midterms. Regional security forces will respond to escalating violence in Colombia.",
+    "forecast_review_cs": "Předchozí předpověď o diplomatickém dění na Ibero-americkém summitu a tlaku venezuelské opozice se částečně prolínala s novými výzvami USA ohledně propuštění politických vězňů ve Venezuele.",
+    "forecast_review_en": "The previous forecast regarding diplomatic activity at the Ibero-American Summit and Venezuelan opposition pressure partially aligned with fresh US calls for the release of political prisoners in Venezuela."
   },
   "articles": [
     {
-      "title": "US Midterms: Could a blue wave widen the centrist-progressive divide among Democrats ahead of 2028?",
-      "summary": "As the US approaches the midterms, the contest is emerging as a referendum on Donald Trump, the resilience of American democratic institutions and the ability of a divided Democratic Party to transform widespread public dissatisfaction into a coherent political alternative. With some Republicans now seeking to distance themselves from Trump, Katie Hull, American politics specialist at the University of Amsterdam, suggests that the president's highly populist and personalised approach to politics is becoming an electoral liability. Philip Turle observes Republican voters turning towards the opposition \"as a form of protest against Donald Trump\", rather than an endorsement of the Democrats.",
-      "link": "https://www.france24.com/en/us-midterms-could-a-blue-wave-widen-the-centrist-progressive-divide-among-democrats-ahead-of-2028",
-      "published": "Tue, 03 Nov 2026 13:19:46 GMT",
+      "title": "Ukrainian's 'not expecting drastic change in US policy' after midterms",
+      "summary": "Ukrainians do not expect the Democrats' victory in the US midterm elections is change much in regards to US policy on the war with Russia, or at least not quickly, says France 24's correspondent in Kyiv Emmanuelle Chaze. Ukraine's President Volodymyr Zelensky has not reacted yet to the \"blue wave\" taking control of Congress in the US.",
+      "link": "https://www.france24.com/en/ukrainian-s-not-expecting-drastic-change-in-us-policy-after-midterms",
+      "published": "Wed, 04 Nov 2026 13:26:11 GMT",
       "source": "France 24"
     },
     {
-      "title": "Milei and Sánchez set to cross paths at Ibero-American Summit in Madrid",
-      "summary": "<p><img alt=\"Pedro Sánchez and Javier Milei.\" src=\"https://fotos.perfil.com/2026/08/03/trim/540/304/pedro-sanchez-and-javier-milei-2296920.jpg\" /></p>President travels to Spain ahead of November 4-5 summit; Argentina's leader will cross paths with Spanish Prime Minister Pedro Sánchez, who he branded a “dictator” during his last visit to Madrid.\n <a href=\"https://www.batimes.com.ar/news/world/milei-and-sanchez-set-for-face-off-at-ibero-american-summit-in-madrid.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/world/milei-and-sanchez-set-for-face-off-at-ibero-american-summit-in-madrid.phtml",
-      "published": "Tue, 03 Nov 2026 13:06:32 GMT",
+      "title": "A look back at how Trump's political decisions saw his approval rating plummet",
+      "summary": "Donald Trump's unpopularity has been cited as a major factor in the Democrats' sweeping victory in the midterms. The latest polls show Trump's approval rating has plummeted to 37.3%, down from 42% in his first midterm election. What were the political decisions that led to such a dramatic decline?",
+      "link": "https://www.france24.com/en/video/20261104-a-look-back-at-how-trump-s-political-decisions-saw-his-approval-rating-plummet",
+      "published": "Wed, 04 Nov 2026 13:17:49 GMT",
+      "source": "France 24"
+    },
+    {
+      "title": "Why are Europe’s governments struggling to respond to growing protests?",
+      "summary": "Protests intensify as governments prioritise security measures over addressing underlying social and economic concerns.",
+      "link": "https://www.aljazeera.com/news/2026/11/4/why-are-europes-governments-struggling-to-respond-to-growing-protests?traffic_source=rss",
+      "published": "Wed, 04 Nov 2026 13:03:07 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Can Democrats stop Iran war, reverse Trump’s tariffs after midterms win?",
+      "summary": "Democrats can block Trump's legislative agenda, launch investigations but don't have the numbers to override his veto.",
+      "link": "https://www.aljazeera.com/news/2026/11/4/tariffs-to-iran-war-can-democrats-reverse-trump-policy-with-midterms-win?traffic_source=rss",
+      "published": "Wed, 04 Nov 2026 12:48:11 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Trump admits Iran war hurt Republican vote, vows to veto ‘insane’ bills",
+      "summary": "US President Donald Trump has admitted that the war on Iran contributed to Republican losses in the midterm elections.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/trump-admits-iran-war-hurt-republican-vote-vows-to-veto-insane-bills?traffic_source=rss",
+      "published": "Wed, 04 Nov 2026 12:44:30 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "World reacts to Democrats' midterm elections victory",
+      "summary": "From Kyiv to Moscow, and Tehran to Tel Aviv, all eyes were on the Democrats big win on Wednesday, as foreign powers weigh up how a flipped Congress will impact international relations.",
+      "link": "https://www.npr.org/2026/11/04/nx-s1-6028664/world-reacts-midterm-elections",
+      "published": "Wed, 04 Nov 2026 07:34:35 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "Midterm elections deliver a ‘blue wave.’ The stock market sees green.",
+      "summary": "Wall Street finds reasons to cheer the Democrats’ sweep. Plus: Microsoft’s AI-era buyouts and a retiree’s appetite for a “free lunch.”",
+      "link": "https://www.marketwatch.com/story/midterm-elections-deliver-a-blue-wave-the-stock-market-sees-green-5900a779?mod=mw_rss_topstories",
+      "published": "Wed, 04 Nov 2026 12:27:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Treasury yields fall after Democrats win House and Senate majorities",
+      "summary": "Treasury yields moved lower on Wednesday as investors weighed big wins from Democrats in the U.S. midterm elections.",
+      "link": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
+      "published": "Wed, 04 Nov 2026 12:25:25 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Nigeria Fuel Firm Conoil Earns US$3.9M",
+      "summary": "<p>Nigerian fuel seller Conoil reports nine-month profit of about US$3.9 million on US$208 million in sales, but third-quarter profit fell sharply.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/nigeria-conoil-nine-month-profit-5-billion-naira-2026/\">Nigeria Fuel Firm Conoil Earns US$3.9M</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/nigeria-conoil-nine-month-profit-5-billion-naira-2026/",
+      "published": "Wed, 04 Nov 2026 11:45:30 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "What consequences for Israel as Democrats win the US midterm elections?",
+      "summary": "Democrats seized control of the US Congress on Tuesday, capturing the Senate and House of Representatives in a stunning upset. What are the potential consequences for Israel and Benjamin Netanyahu, as Trump announced on Tuesday that the US will halt $3.8 billion in aid to the country? FRANCE 24's correspondent Noga Tarnopolsky has more.",
+      "link": "https://www.france24.com/en/video/20261104-what-consequences-for-israel-as-democrats-win-the-us-midterm-elections",
+      "published": "Wed, 04 Nov 2026 11:32:43 GMT",
+      "source": "France 24"
+    },
+    {
+      "title": "New Zealand Poll Points to Hung Parliament",
+      "summary": "<p>New Zealand's newest poll points to a hung parliament, with each bloc on 60 seats before Saturday's vote. Polymarket odds and key dates inside.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/new-zealand-curia-poll-hung-parliament-election-calendar/\">New Zealand Poll Points to Hung Parliament</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/new-zealand-curia-poll-hung-parliament-election-calendar/",
+      "published": "Wed, 04 Nov 2026 11:26:17 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "‘Seismic shift’: World reacts to US midterm election results",
+      "summary": "Iran's top negotiator says US voters sent a “NO TO WAR” message, as Trump's Democratic opponents take Congress.",
+      "link": "https://www.aljazeera.com/news/2026/11/4/seismic-shift-world-reacts-to-us-midterm-election-results?traffic_source=rss",
+      "published": "Wed, 04 Nov 2026 11:24:50 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Kenya Pipeline Says It Foiled Fuel Theft Bid",
+      "summary": "<p>Kenya Pipeline Company says it found and secured an illegal connection on its Mombasa line on 2 November and lost no fuel; police are investigating.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/kenya-pipeline-kpc-foils-fuel-theft-mombasa-illegal-connection-2026/\">Kenya Pipeline Says It Foiled Fuel Theft Bid</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/kenya-pipeline-kpc-foils-fuel-theft-mombasa-illegal-connection-2026/",
+      "published": "Wed, 04 Nov 2026 10:14:16 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Democrats sweep to control of US Congress in rebuke of Trump",
+      "summary": "<p><img alt=\"Voters US election\" src=\"https://fotos.perfil.com/2026/11/04/trim/540/304/voters-us-election-2360879.jpg\" /></p>Across the country, Democrats scored victories in GOP strongholds, flipping at least seven Senate seats and winning House races in districts Republicans easily carried in 2024.  <a href=\"https://www.batimes.com.ar/news/world/democrats-sweep-to-control-of-us-congress-in-rebuke-of-trump.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/world/democrats-sweep-to-control-of-us-congress-in-rebuke-of-trump.phtml",
+      "published": "Wed, 04 Nov 2026 09:59:32 GMT",
       "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Democrats win control of US Congress as voters deliver Trump midterm rout",
+      "summary": "<p><img alt=\"US President Donald Trump\" src=\"https://fotos.perfil.com/2026/11/04/trim/540/304/us-president-donald-trump-2360878.jpg\" /></p>Stunning night for Democrats as they caputure control of House and Senate; Trump strikes conciliatory note despite his history of questioning elections, saying he is \"absolutely willing\" to accept results.\n <a href=\"https://www.batimes.com.ar/news/world/democrats-win-control-of-us-congress-as-voters-deliver-trump-midterm-rout.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/world/democrats-win-control-of-us-congress-as-voters-deliver-trump-midterm-rout.phtml",
+      "published": "Wed, 04 Nov 2026 09:53:06 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Numbers that tell the story of the Democrats' midterm blowout",
+      "summary": "<p><img alt=\"Democrats celebrate\" src=\"https://fotos.perfil.com/2026/11/04/trim/540/304/democrats-celebrate-2360877.jpg\" /></p>Democrats stormed back to power in Congress and governors' mansions across the United States in Tuesday's midterm elections, a stunning repudiation of Donald Trump's political agenda.\n <a href=\"https://www.batimes.com.ar/news/world/numbers-that-tell-the-story-of-the-democrats-midterm-blowout.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/world/numbers-that-tell-the-story-of-the-democrats-midterm-blowout.phtml",
+      "published": "Wed, 04 Nov 2026 09:52:00 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Democrats retake control of the US Congress in a heavy blow to Trump",
+      "summary": "<p>\n\t   \t      <img alt=\"CBS News projected a Democratic majority in the House shortly after 10 p.m. Eastern time on Tuesday; with dozens of seats still to be decided, Democrats had passed the 218 needed\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111983/100x80/1-uscon.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         The Democratic Party on Tuesday regained control of both the US House of Representatives and the Senate in the midterm elections, winning in Republican strongholds such as Texas, Ohio and Kansas in a heavy blow to President Donald Trump, who will govern for the remaining two years of his term with Congress in opposition hands.</p>",
+      "link": "https://en.mercopress.com/2026/11/04/democrats-retake-control-of-the-us-congress-in-a-heavy-blow-to-trump?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Wed, 04 Nov 2026 09:09:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "Paraguay takes over Ueno Bank, with 3 million customers, and freezes its deposits",
+      "summary": "<p>\n\t   \t      <img alt=\"“We proceeded to close the entity; therefore, neither the app, nor the cards, nor any service of the entity is active,” said a member of the Central Bank’s board. Photo: EFE/ Juan Pablo Pino\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111987/100x80/1-ubeno.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Paraguay’s Central Bank on Tuesday took over Ueno Bank, one of the country’s largest banks, after its solvency ratio fell below 50% of the legal minimum, and froze all its assets and liabilities, including the savings of some 3 million customers and more than US$800 million in public funds. The bank immediately suspended all its services.</p>",
+      "link": "https://en.mercopress.com/2026/11/04/paraguay-takes-over-ueno-bank-with-3-million-customers-and-freezes-its-deposits?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Wed, 04 Nov 2026 08:27:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "Trump accepts midterm defeat but says Republicans would have won “in a landslide” had he been on the ballot",
+      "summary": "<p>\n\t   \t      <img alt=\"“We’ll work with the Democrats, and we’ll, you know, look forward to working with them. We’ll probably work something out,” he said\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111986/100x80/djt.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         US President Donald Trump said he accepts the results of the midterm elections, in which Democrats regained control of both chambers of Congress, and signalled willingness to negotiate with the opposition, but blamed the Republican defeat on his absence from the ballot and threatened to veto the new Congress’s legislation.</p>",
+      "link": "https://en.mercopress.com/2026/11/04/trump-accepts-midterm-defeat-but-says-republicans-would-have-won-in-a-landslide-had-he-been-on-the-ballot?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Wed, 04 Nov 2026 08:16:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "What Europe’s digital euro could mean for Latin America",
+      "summary": "<p>Roughly two-thirds of euro-area card transactions are processed through international card schemes governed by non-European companies such as Visa and Mastercard, according to the European Central Bank. But the digital euro is the bloc’s attempt to change that, and this year the project cleared its biggest political hurdle yet.  On July 9, the European Parliament […]</p>\n<p>The post <a href=\"https://www.latinamericareports.com/what-europes-digital-euro-could-mean-for-latin-america/15538/\">What Europe’s digital euro could mean for Latin America</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
+      "link": "https://www.latinamericareports.com/what-europes-digital-euro-could-mean-for-latin-america/15538/",
+      "published": "Wed, 04 Nov 2026 01:59:38 +0000",
+      "source": "Latin America Reports"
+    },
+    {
+      "title": "How GFT and Itaú are using AI to accelerate banking’s cloud transition",
+      "summary": "<p>Banks are increasingly expected to deliver digital services faster, but much of the technology supporting their operations was built decades ago. Updating that infrastructure without disrupting transactions, settlements, or other essential processes remains a significant challenge for financial institutions across Latin America. In Brazil, Itaú Unibanco and GFT Technologies are applying artificial intelligence to one […]</p>\n<p>The post <a href=\"https://www.latinamericareports.com/how-gft-and-itau-are-using-ai-to-accelerate-bankings-cloud-transition/15527/\">How GFT and Itaú are using AI to accelerate banking’s cloud transition</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
+      "link": "https://www.latinamericareports.com/how-gft-and-itau-are-using-ai-to-accelerate-bankings-cloud-transition/15527/",
+      "published": "Tue, 03 Nov 2026 20:32:27 +0000",
+      "source": "Latin America Reports"
+    },
+    {
+      "title": "Stock market after midterm elections: What S&P 500 history shows",
+      "summary": "Midterms historically precede a strong year for the S&P 500. What to know if Democrats win back Congress",
+      "link": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
+      "published": "Tue, 03 Nov 2026 18:21:05 GMT",
+      "source": "CNBC"
     },
     {
       "title": "Brazil publishes first global ‘roadmap’ for phasing out fossil fuels",
@@ -75,41 +215,6 @@
       "link": "https://www.theguardian.com/environment/2026/nov/03/brazil-first-global-roadmap-phasing-out-fossil-fuels",
       "published": "Tue, 03 Nov 2026 13:00:07 GMT",
       "source": "The Guardian"
-    },
-    {
-      "title": "South Sudan Geopolitics Explained",
-      "summary": "<p>South Sudan geopolitics in November 2026: UN votes, the US entry ban, China and Russia abstentions, Turkey and oil, all dated.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/south-sudan-geopolitics-explained-2026/\">South Sudan Geopolitics Explained</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/south-sudan-geopolitics-explained-2026/",
-      "published": "Tue, 03 Nov 2026 12:43:38 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Who Runs Libya’s Economy, the Key Players in 2026",
-      "summary": "<p>Libya economy in 2026: who controls oil, the central bank, the sovereign wealth fund and banks, with key figures and what it means for Americans.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/libya-economy-key-players-2026/\">Who Runs Libya’s Economy, the Key Players in 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/libya-economy-key-players-2026/",
-      "published": "Tue, 03 Nov 2026 12:40:12 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Mexico Elections and Electoral System Explained",
-      "summary": "<p>Mexico elections explained in November 2026: how Mexico votes, who runs the count, the parties, the 2024 results and the next vote on 6 June 2027.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/mexico-elections-electoral-system-explained-2026/\">Mexico Elections and Electoral System Explained</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/mexico-elections-electoral-system-explained-2026/",
-      "published": "Tue, 03 Nov 2026 12:27:58 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "US strikes Iran's Qeshm Island as midterm elections start",
-      "summary": "The United States has conducted defensive strikes on some Iranian targets in the Strait of Hormuz, a US official said Monday, on the eve of crucial midterm elections. The unpopular Iran war and the resulting impact on U.S. gasoline prices and other parts of the economy have been a vulnerability for Republicans as they try to keep control of Congress. FRANCE 24's International Affairs Editor Oliver Farry has more.",
-      "link": "https://www.france24.com/en/us-strikes-iran-s-qeshm-island-as-midterm-elections-start",
-      "published": "Tue, 03 Nov 2026 12:12:06 GMT",
-      "source": "France 24"
-    },
-    {
-      "title": "The stock market loves gridlock. But midterm elections won’t resolve two big money fights.",
-      "summary": "Investors hoping for an Election Day lift face a looming government-spending showdown and growing opposition to AI data centers.",
-      "link": "https://www.marketwatch.com/story/the-stock-market-loves-gridlock-but-midterm-elections-wont-resolve-two-big-money-fights-97ed4f64?mod=mw_rss_topstories",
-      "published": "Tue, 03 Nov 2026 12:12:00 GMT",
-      "source": "MarketWatch"
     },
     {
       "title": "US urges Venezuela to release remaining political prisoners",
@@ -133,27 +238,6 @@
       "source": "NPR"
     },
     {
-      "title": "US midterm elections: Food stamp crisis a key campaign issue in Arizona",
-      "summary": "Arizona, a battleground state in the US midterm elections, is at the centre of a sweeping overhaul of America's social safety net. Since US President Donald Trump's tax and spending law passed last year, about half of the state's food stamp recipients have lost their benefits – the steepest drop in the country. State officials now admit that some of them are probably still eligible, but the errors have caused food insecurity to spike. The fallout has become a key issue on the campaign trail.",
-      "link": "https://www.france24.com/en/tv-shows/focus/20261103-us-midterm-elections-food-stamp-crisis-a-key-campaign-issue-in-arizona",
-      "published": "Tue, 03 Nov 2026 11:35:06 GMT",
-      "source": "France 24"
-    },
-    {
-      "title": "Polls open in closely contested US midterm elections 2026",
-      "summary": "Democrats are eyeing historic gains in the US Congress that could change the trajectory of the country.",
-      "link": "https://www.aljazeera.com/news/2026/11/3/polls-open-in-closely-contested-us-midterm-elections-2026?traffic_source=rss",
-      "published": "Tue, 03 Nov 2026 11:27:14 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Alaska Senate candidates trade accusations ahead of election",
-      "summary": "Alaska Senate candidates trade accusations ahead of election",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/3/alaska-senate-candidates-trade-accusations-ahead-of-election?traffic_source=rss",
-      "published": "Tue, 03 Nov 2026 11:01:27 +0000",
-      "source": "Al Jazeera"
-    },
-    {
       "title": "Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 still missing",
       "summary": "Russia launched 289 attack drones, 17 ballistic missiles and 59 cruise missiles across nine regions, President Zelenskyy said in an online post that noted the barrage coincided with U.S. elections.",
       "link": "https://www.npr.org/2026/11/03/g-s1-151439/russia-ukraine-war",
@@ -161,53 +245,11 @@
       "source": "NPR"
     },
     {
-      "title": "Senate candidates in Iowa deliver final appeals for midterm elections",
-      "summary": "Republican candidate Ashley Hinson and Democratic challenger Josh Turek make their final campaign push in Iowa.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/3/senate-candidates-in-iowa-deliver-final-appeals-for-midterm-elections?traffic_source=rss",
-      "published": "Tue, 03 Nov 2026 10:20:54 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "US midterm elections live: Polls open in test for Trump",
-      "summary": "First results are expected on Tuesday after polls begin to close at 23:00 GMT, but final results might take days.",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/11/3/us-midterm-elections-live-polls-due-to-open-in-test-for-trump?traffic_source=rss",
-      "published": "Tue, 03 Nov 2026 10:10:48 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "The Pope arrives in an Argentina where bishops are among Milei’s firmest critics",
-      "summary": "<p>\n\t   \t      <img alt=\"Leo XIV has placed social justice at the heart of his pontificate, while Milei has called it “an aberration”\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111977/100x80/papa.jpeg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Pope Leo XIV will arrive in Buenos Aires on Sunday on a visit that Javier Milei’s government presents as strictly pastoral, but which takes place amid tension with Argentina’s Catholic hierarchy, one of the most critical voices against the president’s austerity policies. The pontiff will begin a tour in Uruguay on Friday that will continue in Argentina from November 8 to 11 and end in Peru.</p>",
-      "link": "https://en.mercopress.com/2026/11/03/the-pope-arrives-in-an-argentina-where-bishops-are-among-milei-s-firmest-critics?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Tue, 03 Nov 2026 09:29:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Ayuso honours Kast in Madrid on the eve of the Ibero-American Summit: “We defend the same things”",
-      "summary": "<p>\n\t   \t      <img alt=\"Kast, on his first European tour since taking office in March, replied that Madrid “is one of the most open, free and prosperous regions in Europe” and stressed security, the focus of his government\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111979/100x80/kast.jpeg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         The president of the Madrid regional government, Isabel Díaz Ayuso, on Monday awarded the region’s International Medal to Chilean President José Antonio Kast, who is in the Spanish capital for the 30th Ibero-American Summit of Heads of State and Government. “On both sides of the Atlantic we defend the same things,” Ayuso said at the ceremony.</p>",
-      "link": "https://en.mercopress.com/2026/11/03/ayuso-honours-kast-in-madrid-on-the-eve-of-the-ibero-american-summit-we-defend-the-same-things?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Tue, 03 Nov 2026 09:18:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Corruption joins the cost of living as a top concern for US voters",
-      "summary": "<p>\n\t   \t      <img alt=\"A Fox News poll published in October found that 88% of voters say they are “extremely” or “very” concerned about corruption in government\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111975/100x80/vote.jpeg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         The United States votes on Tuesday in midterm elections in which corruption has emerged in the final stretch as one of voters’ main concerns, second only to the cost of living, according to several polls. At stake are all 435 seats in the House of Representatives, 35 of the 100 Senate seats and numerous governorships and state legislatures.</p>",
-      "link": "https://en.mercopress.com/2026/11/03/corruption-joins-the-cost-of-living-as-a-top-concern-for-us-voters?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Tue, 03 Nov 2026 00:31:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Stock market after midterm elections: What S&P 500 history shows",
-      "summary": "Midterms historically precede a strong year for the S&P 500. What to know if Democrats win back Congress",
-      "link": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
-      "published": "Mon, 02 Nov 2026 23:13:34 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Milei's boom-and-bust economy sparks exodus from Buenos Aires",
-      "summary": "<p><img alt=\"Diego Esquivel.\" src=\"https://fotos.perfil.com/2026/11/02/trim/540/304/diego-esquivel-2360113.jpg\" /></p>La Libertad Avanza leader's economic model is creating new winners and losers – pushing his political popularity to the limit ahead of his re-election bid next year.  <a href=\"https://www.batimes.com.ar/news/economy/mileis-boom-and-bust-economy-sparks-exodus-from-buenos-aires.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/economy/mileis-boom-and-bust-economy-sparks-exodus-from-buenos-aires.phtml",
-      "published": "Mon, 02 Nov 2026 21:14:56 GMT",
-      "source": "Buenos Aires Times"
+      "title": "The rise and fall of Argentina’s $LIBRA case: the crypto scandal that threatened Milei and ended in a controversial dismissal",
+      "summary": "<p>Buenos Aires, Argentina — An Argentine federal court on Friday, October 23, closed the $LIBRA cryptocurrency case, dismissing a complaint against President Javier Milei and ten other suspects in a ruling that the opposition and the scheme’s alleged victims strongly criticized, claiming it reflected an alleged exchange of favors between the government and the judges […]</p>\n<p>The post <a href=\"https://www.latinamericareports.com/the-rise-and-fall-of-argentinas-libra-case-the-crypto-scandal-that-threatened-milei-and-ended-in-a-controversial-dismissal/15525/\">The rise and fall of Argentina’s $LIBRA case: the crypto scandal that threatened Milei and ended in a controversial dismissal</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
+      "link": "https://www.latinamericareports.com/the-rise-and-fall-of-argentinas-libra-case-the-crypto-scandal-that-threatened-milei-and-ended-in-a-controversial-dismissal/15525/",
+      "published": "Mon, 02 Nov 2026 23:02:44 +0000",
+      "source": "Latin America Reports"
     },
     {
       "title": "Fossilised red blood cells found in 115m-year-old dinosaur’s bone, say scientists",
@@ -224,13 +266,6 @@
       "source": "InSight Crime"
     },
     {
-      "title": "Pope Leo readies for 'intense' South America homecoming",
-      "summary": "<p><img alt=\"Pope Francis and Pope Leo mural, La Matanza\" src=\"https://fotos.perfil.com/2026/11/02/trim/540/304/pope-francis-and-pope-leo-mural-la-matanza-2359925.jpg\" /></p>Pope Leo to undertake one of the most ambitious papal foreign trips in decades, touring Uruguay, Argentina and his adopted homeland Peru.\n <a href=\"https://www.batimes.com.ar/news/latin-america/pope-leo-readies-for-intense-south-america-homecoming.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/latin-america/pope-leo-readies-for-intense-south-america-homecoming.phtml",
-      "published": "Mon, 02 Nov 2026 18:16:21 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
       "title": "Timeline of US Strikes Against Alleged Drug Boats",
       "summary": "<p><a href=\"https://insightcrime.org/news/timeline-us-strikes-against-alleged-drug-boats/\">Timeline of US Strikes Against Alleged Drug Boats</a></p>\n<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"589\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2025/11/Flagship-Cover-Sucre-el-estado-venezolano-donde-EEUU-lanzo-su-primer-ataque-Sep-2025-1.jpg?fit=1024%2C589&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>In the last week, the US military launched five strikes against alleged drug boats in as many days, making it one of the deadliest weeks since its campaign in the Caribbean and eastern Pacific began in September. </p>\n<p>Check out our timeline of how the strikes are unfolding. </p>\n<p>The post <a href=\"https://insightcrime.org/news/timeline-us-strikes-against-alleged-drug-boats/\">Timeline of US Strikes Against Alleged Drug Boats</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
       "link": "https://insightcrime.org/news/timeline-us-strikes-against-alleged-drug-boats/",
@@ -245,13 +280,6 @@
       "source": "BBC News"
     },
     {
-      "title": "Gulf region on edge as Qatar leads talks with Iran to stave off new U.S. attacks",
-      "summary": "Qatar has been leading intense mediation efforts over the past 72 hours to prevent a new round of possible U.S. attacks on Iran after Tuesday's midterm elections. The uncertainty has the entire Gulf region on edge.",
-      "link": "https://www.npr.org/2026/11/01/nx-s1-6023237/gulf-leaders-meet-in-qatar-in-effort-to-stave-off-new-escalation-in-u-s-and-iran-war",
-      "published": "Sun, 01 Nov 2026 17:19:13 -0500",
-      "source": "NPR"
-    },
-    {
       "title": "The secret behind Lula’s win in Brazil may be an ‘army’ – of social media creators",
       "summary": "<p>There are many explanations for the incumbent president’s win over Flávio Bolsonaro, but analysts – and he – point to reinvention of his social media use</p><p>Four days before his stunning electoral comeback, Luiz Inácio Lula da Silva, Brazil’s president, got his first smartphone.</p><p>Lula, who turned 81 last Tuesday, had long said he wanted to avoid an endless stream of calls during his rare moments off, and he began his presidential campaign by sticking to an old habit: using aides’ phones – only when necessary.</p> <a href=\"https://www.theguardian.com/world/2026/oct/31/brazil-lula-social-media\">Continue reading...</a>",
       "link": "https://www.theguardian.com/world/2026/oct/31/brazil-lula-social-media",
@@ -264,34 +292,6 @@
       "link": "https://www.cnbc.com/2026/10/29/polymarket-reports-outage-on-international-exchange-halts-trading.html",
       "published": "Fri, 30 Oct 2026 20:18:49 GMT",
       "source": "CNBC"
-    },
-    {
-      "title": "“I Don’t Want to Leave”: Young Venezuelans at María Corina Machado rally hold on to hope",
-      "summary": "<p>Caracas, Venezuela — Opposition leader María Corina Machado’s recent return to Venezuela from exile has stirred excitement among many Venezuelans who see her political platform as an opportunity for real change.  Among them are young people, who for years had lost interest in politics due to the economic crisis that has unfolded in the country […]</p>\n<p>The post <a href=\"https://www.latinamericareports.com/i-dont-want-to-leave-young-venezuelans-at-maria-corina-machado-rally-hold-on-to-hope/15512/\">“I Don’t Want to Leave”: Young Venezuelans at María Corina Machado rally hold on to hope </a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
-      "link": "https://www.latinamericareports.com/i-dont-want-to-leave-young-venezuelans-at-maria-corina-machado-rally-hold-on-to-hope/15512/",
-      "published": "Fri, 30 Oct 2026 20:05:32 +0000",
-      "source": "Latin America Reports"
-    },
-    {
-      "title": "What Maria Corina Machado’s return to Venezuela means for its democratic transition",
-      "summary": "<p>Venezuelan opposition leader Maria Corina Machado is gearing up for a country-wide tour in an effort to advance the prospect of a democratic transition in the country.  Following her return to Venezuela after 10 months in exile, Machado is seeking presidential elections to be held by July of 2027, and despite her absence, she has […]</p>\n<p>The post <a href=\"https://www.latinamericareports.com/what-maria-corina-machados-return-to-venezuela-means-for-its-democratic-transition/15509/\">What Maria Corina Machado’s return to Venezuela means for its democratic transition</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
-      "link": "https://www.latinamericareports.com/what-maria-corina-machados-return-to-venezuela-means-for-its-democratic-transition/15509/",
-      "published": "Fri, 30 Oct 2026 18:18:09 +0000",
-      "source": "Latin America Reports"
-    },
-    {
-      "title": "Halloween gets pricier as chocolate costs climb — Hershey may feel the pinch",
-      "summary": "Higher cocoa and sugar prices are fueling above-average cost inflation for candy",
-      "link": "https://www.cnbc.com/2026/10/30/halloween-gets-pricier-as-chocolate-costs-rise-hershey-could-feel-it.html",
-      "published": "Fri, 30 Oct 2026 16:55:41 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Maria Corina Machado calls for 2027 elections following return to Venezuela",
-      "summary": "<p>The opposition leader gave her first press conference since returning from exile.</p>\n<p>The post <a href=\"https://www.latinamericareports.com/venezuelas-maria-corina-machado-calls-for-presidential-election-in-2027-following-her-return/15503/\">Maria Corina Machado calls for 2027 elections following return to Venezuela</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
-      "link": "https://www.latinamericareports.com/venezuelas-maria-corina-machado-calls-for-presidential-election-in-2027-following-her-return/15503/",
-      "published": "Fri, 30 Oct 2026 14:53:48 +0000",
-      "source": "Latin America Reports"
     },
     {
       "title": "Flávio Bolsonaro calls himself 'leader of Brazil' after election loss",
@@ -337,15 +337,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-20 10:45",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 68,
-      "incidents": 40,
-      "bovespa": 205079.25,
-      "brl_czk": null
-    },
     {
       "date": "2026-10-21 05:01",
       "threat_level": "HIGH",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "bovespa": 167950.16,
       "brl_czk": 3.993
+    },
+    {
+      "date": "2026-11-04 13:35",
+      "threat_level": "MEDIUM",
+      "value": 2,
+      "sentiment_score": 45,
+      "incidents": 40,
+      "bovespa": 167270.06,
+      "brl_czk": 3.964
     }
   ],
   "locations": [
@@ -629,13 +629,6 @@
       "lon": -58.3816,
       "name_cs": "Buenos Aires",
       "name_en": "Buenos Aires"
-    },
-    {
-      "key": "Santiago",
-      "lat": -33.4489,
-      "lon": -70.6693,
-      "name_cs": "Santiago",
-      "name_en": "Santiago"
     },
     {
       "key": "Lima",
@@ -673,11 +666,11 @@
       "name_en": "La Paz"
     },
     {
-      "key": "Montevideo",
-      "lat": -34.9011,
-      "lon": -56.1645,
-      "name_cs": "Montevideo",
-      "name_en": "Montevideo"
+      "key": "Asuncion",
+      "lat": -25.2637,
+      "lon": -57.5759,
+      "name_cs": "Asunción",
+      "name_en": "Asunción"
     },
     {
       "key": "Amazon",
@@ -694,11 +687,20 @@
       "name_en": "Washington, D.C."
     },
     {
-      "key": "Beijing",
-      "lat": 39.9042,
-      "lon": 116.4074,
-      "name_cs": "Peking",
-      "name_en": "Beijing"
+      "key": "New York",
+      "lat": 40.71,
+      "lon": -74,
+      "name_cs": "New York",
+      "name_en": "New York",
+      "auto": true
+    },
+    {
+      "key": "Texas",
+      "lat": 31,
+      "lon": -99,
+      "name_cs": "Texas",
+      "name_en": "Texas",
+      "auto": true
     },
     {
       "key": "Florida",
@@ -709,27 +711,11 @@
       "auto": true
     },
     {
-      "key": "Arizona",
-      "lat": 34.2,
-      "lon": -111.7,
-      "name_cs": "Arizona",
-      "name_en": "Arizona",
-      "auto": true
-    },
-    {
-      "key": "Alaska",
-      "lat": 64.2,
-      "lon": -149.5,
-      "name_cs": "Aljaška",
-      "name_en": "Alaska",
-      "auto": true
-    },
-    {
-      "key": "Mexico",
-      "lat": 23.6,
-      "lon": -102.5,
-      "name_cs": "Mexiko",
-      "name_en": "Mexico",
+      "key": "Ohio",
+      "lat": 40.4,
+      "lon": -82.8,
+      "name_cs": "Ohio",
+      "name_en": "Ohio",
       "auto": true
     },
     {
@@ -757,11 +743,27 @@
       "auto": true
     },
     {
+      "key": "Ukrain",
+      "lat": 50.45,
+      "lon": 30.52,
+      "name_cs": "Ukrajina",
+      "name_en": "Ukrain",
+      "auto": true
+    },
+    {
       "key": "Russia",
       "lat": 55.75,
       "lon": 37.62,
       "name_cs": "Rusko",
       "name_en": "Russia",
+      "auto": true
+    },
+    {
+      "key": "Israel",
+      "lat": 31.5,
+      "lon": 34.8,
+      "name_cs": "Izrael",
+      "name_en": "Israel",
       "auto": true
     },
     {
@@ -773,30 +775,6 @@
       "auto": true
     },
     {
-      "key": "Turkey",
-      "lat": 39,
-      "lon": 35,
-      "name_cs": "Turecko",
-      "name_en": "Turkey",
-      "auto": true
-    },
-    {
-      "key": "Qatar",
-      "lat": 25.3,
-      "lon": 51.2,
-      "name_cs": "Katar",
-      "name_en": "Qatar",
-      "auto": true
-    },
-    {
-      "key": "China",
-      "lat": 35.9,
-      "lon": 104.2,
-      "name_cs": "Čína",
-      "name_en": "China",
-      "auto": true
-    },
-    {
       "key": "France",
       "lat": 48.86,
       "lon": 2.35,
@@ -805,19 +783,11 @@
       "auto": true
     },
     {
-      "key": "Spain",
-      "lat": 40.4,
-      "lon": -3.7,
-      "name_cs": "Madrid",
-      "name_en": "Spain",
-      "auto": true
-    },
-    {
-      "key": "Sudan",
-      "lat": 15.5,
-      "lon": 32.5,
-      "name_cs": "Súdán",
-      "name_en": "Sudan",
+      "key": "Nigeria",
+      "lat": 9.1,
+      "lon": 8.7,
+      "name_cs": "Nigérie",
+      "name_en": "Nigeria",
       "auto": true
     },
     {
@@ -838,33 +808,33 @@
     }
   ],
   "location_counts": {
-    "Brasilia": 68,
-    "Sao Paulo": 28,
+    "Brasilia": 69,
+    "Sao Paulo": 29,
     "Rio de Janeiro": 15,
-    "Buenos Aires": 66,
+    "Buenos Aires": 67,
     "Santiago": 51,
-    "Lima": 39,
-    "Bogota": 68,
-    "Caracas": 64,
-    "Quito": 52,
-    "La Paz": 26,
-    "Asuncion": 11,
-    "Washington": 68,
+    "Lima": 40,
+    "Bogota": 69,
+    "Caracas": 65,
+    "Quito": 53,
+    "La Paz": 27,
+    "Asuncion": 12,
+    "Washington": 69,
     "New York": 1,
-    "Texas": 2,
+    "Texas": 1,
     "Colorado": 1,
     "Kanada": 1,
     "Mexiko": 1,
-    "Venezuela": 4,
-    "Brazílie": 6,
-    "Argentina": 5,
-    "Ukrajina": 1,
-    "Rusko": 3,
+    "Venezuela": 1,
+    "Brazílie": 7,
+    "Argentina": 2,
+    "Ukrajina": 2,
+    "Rusko": 4,
     "Pákistán": 1,
     "Londýn": 2,
-    "Paříž": 1,
+    "Paříž": 2,
     "Madrid": 2,
-    "Peru": 3,
+    "Peru": 1,
     "Bolívie": 1,
     "Montevideo": 27,
     "Falklands": 33,
@@ -877,16 +847,16 @@
     "Atacama": 8,
     "Beijing": 21,
     "Čína": 1,
-    "Amazon": 52,
+    "Amazon": 53,
     "Medellin": 1,
     "Tchaj-wan": 1,
     "Řím": 1,
     "Ithaca (Cornell)": 2,
-    "Írán": 2,
+    "Írán": 4,
     "Berlín": 2,
     "Panama": 17,
     "Austrálie": 1,
-    "Izrael": 1,
+    "Izrael": 2,
     "Detroit": 1,
     "Etiopie": 1,
     "Nigérie": 1,
@@ -919,17 +889,9 @@
     "key": "Brasilia",
     "name_cs": "Brasília",
     "name_en": "Brasília",
-    "count": 68
+    "count": 69
   },
   "archive": [
-    {
-      "date": "2026-10-28 11:55",
-      "threat_level": "HIGH",
-      "security_status_cs": "Zvolení Luize Inácia Lula da Silvy na čtvrté volební období v Brazílii provázejí politické otřesy, včetně útěku poraženého Flávia Bolsonara do USA. Venezuelská politická scéna se po návratu exilové vůdkyně Marie Coriny Machadové a amerických geopolitických tlacích dál radikalizuje, zatímco Ecuador čelí eskalaci násilí organizovaného zločinu.",
-      "security_status_en": "The election of Luiz Inácio Lula da Silva to a fourth presidential term in Brazil is accompanied by severe political turmoil, including defeated Flávio Bolsonaro's flight to the US. Venezuela's political landscape remains highly volatile following the return of exiled leader María Corina Machado and US geopolitical maneuvering, while Ecuador faces a severe escalation of organized crime violence.",
-      "forecast_cs": "V nejbližších dnech lze očekávat další diplomatické třenice ohledně statusu představitelů brazilské opozice v USA a pokračující konsolidaci argentinských reforem. Trhy budou citlivě reagovat na inflační data a postoj Fedu k sazbám.",
-      "forecast_en": "Over the coming days, further diplomatic friction regarding the status of Brazilian opposition figures in the US and the continued consolidation of Argentine reforms are expected. Markets will remain sensitive to inflation data and the Fed's stance on interest rates."
-    },
     {
       "date": "2026-10-29 06:00",
       "threat_level": "HIGH",
@@ -1033,14 +995,22 @@
       "security_status_en": "South America is grappling with rising tensions following recent political shifts, including the return of Venezuelan opposition leader María Corina Machado and friction surrounding Argentine President Milei. The region also faces severe security threats from escalating narcoterrorism, with Colombia reporting bomb attacks and the US stepping up strikes against drug boats in the Caribbean. Compounding this are climate impacts on the Amazon and soaring commodity prices, led by record highs in coffee.",
       "forecast_cs": "V následujících dnech se očekává intenzivní diplomatické dění na Ibero-americkém summitu v Madridu a stupňování tlaku venezuelské opozice pod vedením Marie Coriny Machadové.",
       "forecast_en": "In the coming days, intensive diplomatic activity is expected at the Ibero-American Summit in Madrid alongside escalating pressure from the Venezuelan opposition led by María Corina Machado."
+    },
+    {
+      "date": "2026-11-04 13:35",
+      "threat_level": "MEDIUM",
+      "security_status_cs": "Region Jižní Ameriky čelí smíšenému vývoji, kde se stabilizace po nedávných brazilských volbách mísí s pokračujícími bezpečnostními riziky v Andském regionu, včetně bombového útoku v Kolumbii. Ekonomické sentimenty ovlivňují globální komoditní trhy, zejména rekordní ceny kávy kvůli napětí okolo amerických cel a intervence centrální banky v Paraguayi, která převzala kontrolu nad bankou Ueno.",
+      "security_status_en": "The South American region faces mixed developments, where stabilization following recent Brazilian elections blends with persistent security risks in the Andean region, including a bombing in Colombia. Economic sentiment is influenced by global commodity markets, notably record coffee prices due to US tariff tensions and Paraguay's central bank taking over Ueno Bank.",
+      "forecast_cs": "V následujících dnech se očekává zvýšená pozornost na měnové a bankovní trhy po intervenci v Paraguayi a stabilizace cen komodit po amerických volbách. Regionální bezpečnostní složky budou reagovat na eskalaci násilí v Kolumbii.",
+      "forecast_en": "Over the coming days, heightened attention will focus on currency and banking markets following the intervention in Paraguay and commodity price stabilization post-US midterms. Regional security forces will respond to escalating violence in Colombia."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 5× HIGH, 2× MEDIUM.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 5× HIGH, 2× MEDIUM.",
   "market_data": {
     "bovespa": {
-      "value": 167950.16,
-      "date": "2026-11-03",
+      "value": 167270.06,
+      "date": "2026-11-04",
       "cached": false
     },
     "merval": {
@@ -1049,13 +1019,13 @@
       "cached": false
     },
     "usdbrl": {
-      "value": 5.4843,
-      "date": "2026-11-03",
+      "value": 5.4617,
+      "date": "2026-11-04",
       "cached": false
     }
   },
   "brl_czk": {
-    "value": 3.993,
-    "date": "2026-11-02"
+    "value": 3.964,
+    "date": "2026-11-03"
   }
 }

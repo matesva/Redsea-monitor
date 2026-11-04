@@ -1,87 +1,297 @@
 {
-  "last_updated": "2026-11-03T13:22:54Z",
+  "last_updated": "2026-11-04T13:33:52Z",
   "assessment": {
-    "threat_level": "CRITICAL",
-    "sentiment_score": 85,
-    "security_status_cs": "Bezpečnostní situace v oblasti Blízkého východu a klíčových námořních koridorů se nadále vyostřuje po nedávných amerických úderech na ostrov Qeshm a incidentech v Hormuzském průlivu. Hrozba pro globální dodavatelské řetězce a námořní dopravu zůstává kritická vzhledem k hrozbám íránské odplaty.",
-    "security_status_en": "The security situation in the Middle East and key maritime corridors continues to escalate following recent US strikes on Qeshm Island and incidents in the Strait of Hormuz. The threat to global supply chains and maritime shipping remains critical amid Iranian threats of retaliation.",
+    "threat_level": "HIGH",
+    "sentiment_score": 78,
+    "security_status_cs": "Situace v oblasti Perského zálivu a Rudého moře zůstává vysoce nestabilní po nedávných útocích na ropné tankery v blízkosti Hormuzského průlivu a amerických úderech na ostrov Qeshm. Hrozba pro komerční plavbu a dodávky energií nadále eskaluje v důsledku patové situace mezi USA a Íránem.",
+    "security_status_en": "The situation in the Persian Gulf and Red Sea remains highly volatile following recent attacks on oil tankers near the Strait of Hormuz and US strikes on Qeshm Island. Threats to commercial shipping and energy supplies continue to escalate amid the ongoing standoff between the US and Iran.",
     "recommendations": [
       {
         "sector_cs": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)",
         "sector_en": "Maritime Shipping (e.g. Maersk, Hapag-Lloyd, ZIM)",
         "action": "BUY",
-        "reason_cs": "Přetrvávající napětí v Hormuzském průlivu a nutnost obchvatů nadále tlačí přepravní sazby vzhůru. Růst indexů LNG a kontejnerové dopravy posiluje marže rejdařů.",
-        "reason_en": "Persisting tensions in the Strait of Hormuz and the necessity of detours continue to push shipping rates higher. The growth in LNG and container shipping indices strengthens carrier margins."
+        "reason_cs": "Přetrvávající bezpečnostní rizika a nutnost vyhýbat se konfliktním zónám udržují vysoké sazbové marže za přepravu. Flotily nadále těží z delších tras kolem Afriky.",
+        "reason_en": "Persisting security risks and the necessity to avoid conflict zones maintain high freight rate margins. Fleets continue to benefit from longer routes around Africa."
       },
       {
         "sector_cs": "Obranný průmysl (např. RTX, Lockheed Martin, BAE Systems)",
         "sector_en": "Defense Industry (e.g. RTX, Lockheed Martin, BAE Systems)",
         "action": "BUY",
-        "reason_cs": "Escalating military actions between the US and Iran, alongside heightened risks in the Black Sea, ensure strong ongoing demand for defense equipment and missile defense systems.",
-        "reason_en": "Eskalující vojenské akce mezi USA a Íránem spolu se zvýšenými riziky v Černém moři zajišťují silnou a trvalou poptávku po obranném vybavení a systémech protiraketové obrany."
+        "reason_cs": "Geopolitické napětí a eskalace konfliktů na Středním východě i v černomořském regionu zajišťují stabilní poptávku po pokročilých zbrojních systémech a protivzdušné obraně.",
+        "reason_en": "Geopolitical tensions and escalating conflicts in the Middle East and the Black Sea region guarantee steady demand for advanced weaponry and air defense systems."
       },
       {
         "sector_cs": "Ropa a Plyn (např. Shell, BP, Chevron)",
         "sector_en": "Oil & Gas (e.g. Shell, BP, Chevron)",
-        "action": "BUY",
-        "reason_cs": "Útoky na íránskou infrastrukturu a incidenty v Hormuzském průlivu tlačí ceny ropy nad 105 USD za barel a generují nadstandardní zisky těžařům.",
-        "reason_en": "Attacks on Iranian infrastructure and incidents in the Strait of Hormuz are pushing oil prices above $105 per barrel, generating exceptional profits for producers."
+        "action": "HOLD",
+        "reason_cs": "Ceny energií reagují na zprávy z Blízkého východu prudkými výkyvy, avšak politické tlaky v USA po volbách omezují prostor pro razantní dlouhodobý růst.",
+        "reason_en": "Energy prices react with sharp volatility to Middle East news, though post-midterm US political pressures limit the room for aggressive long-term gains."
       },
       {
         "sector_cs": "Evropský Spotřební sektor & Autoprůmysl (např. Volvo, BMW)",
         "sector_en": "European Consumer & Automotive (e.g. Volvo, BMW)",
         "action": "SELL",
-        "reason_cs": "Rostoucí náklady na energie, dražší námořní přeprava a ekonomická nejistota negativně dopadají na marže a spotřebitelskou poptávku.",
-        "reason_en": "Rising energy costs, more expensive maritime transport, and economic uncertainty are negatively impacting profit margins and consumer demand."
+        "reason_cs": "Vysoké náklady na energie, inflační tlaky a narušené dodavatelské řetězce negativně dopadají na marže a spotřebitelskou důvěru v Evropě.",
+        "reason_en": "High energy costs, inflationary pressures, and disrupted supply chains negatively impact margins and consumer confidence in Europe."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí bankovní sektor a energetika čelí globálním makroekonomickým tlakům a geopolitické nervozitě, což doporučuje opatrné vyčkávání.",
-        "reason_en": "The domestic banking sector and energy companies face global macroeconomic pressures and geopolitical nervousness, warranting a cautious wait-and-see approach."
+        "reason_cs": "Domácí tituly vykazují stabilitu, ale jsou citlivé na celoevropský makroekonomický vývoj a energetickou volatilitu.",
+        "reason_en": "Domestic equities show stability but remain sensitive to pan-European macroeconomic developments and energy volatility."
       },
       {
         "sector_cs": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
         "sector_en": "European blue-chips (e.g. Airbus, TotalEnergies, Allianz, Rheinmetall)",
         "action": "HOLD",
-        "reason_cs": "Zatímco energetické a zbrojní tituly těží z krize, širší evropský trh je zatížen celkovou geopolitickou nestabilitou a rizikem růstu nákladů.",
-        "reason_en": "While energy and defense stocks benefit from the crisis, the broader European market is burdened by overall geopolitical instability and the risk of rising costs."
+        "reason_cs": "Smíšené makroekonomické signály a politické změny v USA vyžadují opatrný přístup k evropským blue-chips s mezinárodní expozicí.",
+        "reason_en": "Mixed macroeconomic signals and political shifts in the US warrant a cautious approach toward European blue-chips with international exposure."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat vysokou volatilitu cen ropy a komodit v závislosti na íránské reakci na americké údere. Geopolitické napětí v oblasti Perského zálivu a Rudého moře zůstane primárním katalyzátorem trhů.",
-    "forecast_en": "High volatility in oil and commodity prices is expected over the coming days depending on Iran's response to US strikes. Geopolitical tensions in the Persian Gulf and Red Sea will remain the primary market catalyst.",
-    "forecast_review_cs": "Předchozí předpověď predikující volatilitu na trzích s ropou a přepravními sazbami v závislosti na reakci Íránu byla dnešními zprávami o amerických úderech na ostrov Qeshm plně potvrzena.",
-    "forecast_review_en": "The previous forecast predicting volatility in oil markets and shipping rates based on Iran's response was fully confirmed by today's news of US strikes on Qeshm Island."
+    "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na trzích s ropou a zemním plynem, poháněnou reakcemi Íránu a USA na výsledky voleb a incidenty v Hormuzském průlivu.",
+    "forecast_en": "Continued volatility in oil and natural gas markets is expected over the coming days, driven by reactions from Iran and the US to election results and Strait of Hormuz incidents.",
+    "forecast_review_cs": "Předchozí předpověď vysoké volatility cen ropy a komodit v návaznosti na íránské reakce a geopolitické napětí se plně potvrdila.",
+    "forecast_review_en": "The previous forecast of high volatility in oil and commodity prices following Iranian reactions and geopolitical tensions was fully confirmed."
   },
   "articles": [
     {
-      "title": "Qatar remains hopeful the US and Iran can reach a deal",
-      "summary": "Qatar’s foreign ministry spokesperson Majed al-Ansari says regional neighbours and international partners are working to",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/3/qatar-remains-hopeful-the-us-and-iran-can-reach-a-deal?traffic_source=rss",
-      "published": "Tue, 03 Nov 2026 13:05:39 +0000",
+      "title": "European Gas Prices Fall 2% as Traders Wait on Trump’s Next Move in Iran",
+      "summary": "European benchmark natural gas prices fell in the early morning on Wednesday, as traders brace for what will happen next in Iran after U.S. President Donald Trump lost Republican control of both chambers of Congress in the midterm elections on Tuesday. The front-month price at the Dutch Title Transfer Facility (TTF), the benchmark for Europe’s gas trading, fell by 2% as of 9 a.m. in Amsterdam on Wednesday, erasing earlier gains of about 1%, as the market remains anxious about Trump’s next moves on Iran.   The European gas…",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Fall-2-as-Traders-Wait-on-Trumps-Next-Move-in-Iran.html",
+      "published": "Wed, 04 Nov 2026 07:30:00 -0600",
+      "source": "OilPrice"
+    },
+    {
+      "title": "Why is the Islamic Republic banning the Lion and Sun emblem amid anti-regime protests? - analysis",
+      "summary": "<img align=\"right\" alt=\"MADRID, SPAIN - APRIL 25: Protesters from the Iranian diaspora hold signs and wear Iranian flags as they gather at Puerta del Sol supporting Reza Pahlavi, former Crown Prince of Iran on April 25, 2026 in Madrid, Spain. (photo credit: Olmo Blanco/Getty Images)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_5535,w_7980/744862\" title=\"MADRID, SPAIN - APRIL 25: Protesters from the Iranian diaspora hold signs and wear Iranian flags as they gather at Puerta del Sol supporting Reza Pahlavi, former Crown Prince of Iran on April 25, 2026 in Madrid, Spain. (photo credit: Olmo Blanco/Getty Images)\" /><br />Nearly 47 years after Iran's Islamic Revolution, authorities are cracking down on jewelry bearing the Lion and Sun, a symbol of growing opposition.<br />",
+      "link": "https://www.jpost.com/middle-east/iran-news/article-913818",
+      "published": "Wed, 04 Nov 2026 13:21:24 GMT",
+      "source": "Jerusalem Post"
+    },
+    {
+      "title": "Khamenei warns Iran response to any renewed aggression will be 'on a much greater scale'",
+      "summary": "<img align=\"right\" alt=\"A woman walks next to a banner with a picture of Iran\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_3918,w_5876/724277\" /><br />Khamenei called for Iran to have \"the absolute deterrence\" in a message marking \"Day of Fighting Global Arrogance,\" adding that “The US sees the end of its hegemony as distant; we see it as near.”<br />",
+      "link": "https://www.jpost.com/middle-east/iran-news/article-913817",
+      "published": "Wed, 04 Nov 2026 13:14:24 GMT",
+      "source": "Jerusalem Post"
+    },
+    {
+      "title": "Can Democrats stop Iran war, reverse Trump’s tariffs after midterms win?",
+      "summary": "Democrats can block Trump's legislative agenda, launch investigations but don't have the numbers to override his veto.",
+      "link": "https://www.aljazeera.com/news/2026/11/4/tariffs-to-iran-war-can-democrats-reverse-trump-policy-with-midterms-win?traffic_source=rss",
+      "published": "Wed, 04 Nov 2026 12:48:11 +0000",
       "source": "Al Jazeera"
     },
     {
-      "title": "Brazil publishes first global ‘roadmap’ for phasing out fossil fuels",
-      "summary": "<p>Cop30 host sets out steps to break link with coal, oil and gas as it aims to move focus from negotiating to implementing</p><p>All countries can start to break their dependence on fossil fuels now without needing to wait for new technologies or economic changes, Brazil’s government has said ahead of a global climate summit.</p><p>Brazil, the host of <a href=\"https://www.theguardian.com/environment/2025/nov/25/fossil-fuel-giants-finally-in-the-crosshairs-cop30-avoids-total-failure-with-last-ditch-deal\">last year’s UN climate conference</a>, set out the world’s first global “roadmap” for phasing out fossil fuels on Tuesday, showing that countries could boost their economies and pull people out of poverty while breaking the link with coal, oil and gas.</p> <a href=\"https://www.theguardian.com/environment/2026/nov/03/brazil-first-global-roadmap-phasing-out-fossil-fuels\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/environment/2026/nov/03/brazil-first-global-roadmap-phasing-out-fossil-fuels",
-      "published": "Tue, 03 Nov 2026 13:00:07 GMT",
-      "source": "The Guardian"
+      "title": "Trump admits Iran war hurt Republican vote, vows to veto ‘insane’ bills",
+      "summary": "US President Donald Trump has admitted that the war on Iran contributed to Republican losses in the midterm elections.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/4/trump-admits-iran-war-hurt-republican-vote-vows-to-veto-insane-bills?traffic_source=rss",
+      "published": "Wed, 04 Nov 2026 12:44:30 +0000",
+      "source": "Al Jazeera"
     },
     {
-      "title": "US midterm elections 2026 live: Americans go to the polls in referendum on Trump’s agenda",
-      "summary": "<p>Polls open across the US where key Senate and House races will decide which party controls Congress for remainder of Donald Trump’s second term</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email</a></p></li><li><p><a href=\"https://www.theguardian.com/us-news/2026/nov/02/what-are-midterm-elections\">What are the races to watch and why do they matter?</a></p></li></ul><p>It has just gone past 06:30 in <strong>North Carolina</strong>, <strong>Ohio</strong> and <strong>West Virginia</strong> where polls have now opened.</p><p>Here are some of the key voter issues shaping the US midterm elections:</p><p><strong>The economy</strong>: Despite Trump’s 2024 campaign pledge to tackle affordability issues, the economy consistently ranks as voters’ top concern.</p><p><strong>Iran</strong>: Trump’s decision to go to war with the Tehran regime has exacerbated economic worries. Iran’s retaliatory decision to close the strait of Hormuz has driven up gasoline prices for US motorists. It also represents a breach of his pledge to end the US’s supposed addiction to “forever wars”.</p><p><strong>Immigration</strong>: Enforcement and closing the border remains a signature issue for Trump. He repeatedly boasts of the impact of his closure of the southern border as one of his biggest achievements, making comparisons with the performance of Joe Biden.</p><p><strong>AI and datacenters:</strong> AI has emerged as a key campaign issue, with surveys showing a majority of voters holding negative views on it, even as Trump champions its development and attempts to rename it “super intelligence”.</p> <a href=\"https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/live/2026/nov/03/midterm-elections-live-updates-voting",
-      "published": "Tue, 03 Nov 2026 12:54:02 GMT",
-      "source": "The Guardian"
+      "title": "Torm strikes eight-tanker newbuild deal in joint venture push",
+      "summary": "<p>Danish product tanker giant Torm has stepped up its fleet expansion with agreements for eight LR2 newbuildings through a 50:50 joint venture. The Copenhagen- and New York-listed owner disclosed the latest contracts in its third-quarter results, confirming that the agreements were signed after the end of September. Torm has not identified its joint venture partner …</p>\n</p>",
+      "link": "https://splash247.com/torm-strikes-eight-tanker-newbuild-deal-through-joint-venture/",
+      "published": "Wed, 04 Nov 2026 12:40:00 +0000",
+      "source": "Splash247"
     },
     {
-      "title": "US, Iran reviewing proposals to bridge differences, end war, Qatar mediators announce",
-      "summary": "<img align=\"right\" alt=\"Qatar\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_2285,w_3465/738941\" /><br />Qatar added that there was an agreement to avoid escalation in the region and the gulf, and that both the US and Iran were committed to the mediation process.<br />",
-      "link": "https://www.jpost.com/middle-east/iran-news/article-913691",
-      "published": "Tue, 03 Nov 2026 12:51:24 GMT",
+      "title": "Nigeria's Oil and Gas Output Rises to 3.04 Million Boepd",
+      "summary": "Nigeria’s NNPC raised its oil and gas production in September from a month earlier as output was restarted at some oilfields, the state-owned oil and gas company said in its latest monthly report this week. NNPC’s total oil and gas production rose to 3.04 million barrels of oil equivalent per day (boepd), up from 3.01 million boepd in the previous month, amid slightly higher crude oil and natural gas production and flat condensate output, NNPC’s report showed. Revenues came in at $3.4 billion (4.608 trillion Nigerian naira), in…",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Nigerias-Oil-and-Gas-Output-Rises-to-304-Million-Boepd.html",
+      "published": "Wed, 04 Nov 2026 06:30:00 -0600",
+      "source": "OilPrice"
+    },
+    {
+      "title": "Iran's strategic patience in negotiation with Trump pays off after US midterm election - analysis",
+      "summary": "<img align=\"right\" alt=\"Iran\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_3667,w_5500/707239\" /><br />Israel must engage more with both Trump and Congressional Democrats, while being ready to act solo against Iran, in order to ensure its survival.<br />",
+      "link": "https://www.jpost.com/middle-east/iran-news/article-913812",
+      "published": "Wed, 04 Nov 2026 12:29:53 GMT",
       "source": "Jerusalem Post"
+    },
+    {
+      "title": "Iran's chief negotiator says Americans voted 'no to war'",
+      "summary": "\"We endorse this message,\" Mohammed Bagher Ghalibaf says, as Donald Trump acknowledges the conflict's role in the Republican Party's defeat.",
+      "link": "https://www.bbc.co.uk/news/articles/c6d934npl9y8o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 04 Nov 2026 12:21:21 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Idan Ofer turns to Japan for boxship quartet",
+      "summary": "<p>Idan Ofer’s Eastern Pacific Shipping (EPS) has been linked to an order for four midsize containerships at Japan’s Imabari Shipbuilding, marking a rare Japanese addition to its extensive newbuilding programme. Shipbuilding sources have identified the Singapore-based owner as the buyer of the quartet, which would take its containership orderbook to over 65 vessels worth more …</p>\n</p>",
+      "link": "https://splash247.com/idan-ofer-turns-to-japan-for-boxship-quartet/",
+      "published": "Wed, 04 Nov 2026 11:50:00 +0000",
+      "source": "Splash247"
+    },
+    {
+      "title": "'I think a part of it was Iran': Trump acknowledges war's impact on midterm election losses",
+      "summary": "<article class=\"story default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/news/I-think-part-of-it-was-iran-trump-acknowledges-impact-war-midterm-election-losses\" rel=\"bookmark\">\n<span class=\"field field-title\">'I think a part of it was Iran': Trump acknowledges war's impact on midterm election losses</span>\n</a>\n    </h2>\n    \n\n          <footer>\n      \n      <div class=\"author\">\n        Submitted by \n<span class=\"field field-uid\"><a href=\"https://www.middleeasteye.net/users/mee-staff\" lang=\"lang\" title=\"View user profile.\">MEE staff</a></span>\n on \n<span class=\"field field-created\"><time datetime=\"2026-11-04T10:21:24+00:00\" title=\"4 November 2026 10:21 GMT\">Wed, 11/04/2026 - 10:21</time>\n</span>\n        \n      </div>\n    </footer>\n      \n    <div class=\"content\">\n                <div class=\"field field-field-subhead\">The prices of goods and petrol have risen in the US as a direct result of the unpopular war in Iran, and played a role in the Democrats gaining control of the Senate and House of Representatives</div>\n                  <div class=\"field field-field-main-image\">    \n                  <source height=\"788\" type=\"image/webp\" width=\"1400\" />\n                  <img alt=\"alt\" height=\"788\" src=\"https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Trump%20reuters%20elections.jpg.jpg?itok=Qno8q6Fs\" width=\"1400\" />\n\n  \n\n</div>\n                  <div class=\"field field-field-cutline\">US President Donald Trump speaks during a round table at the White House in Washington, DC, US, 21 October 2026 (Kevin Lamarque/ Reuters)</div>\n                  <div class=\"field field-field-wide-photo-video\">Off</div>\n                  <div class=\"field field-body clearfix\"><p><a href=\"https://www.middleeasteye.net/countries/us\">US</a> President Donald Trump acknowledged on Wednesday that the <a href=\"https://www.middleeasteye.net/topics/war-on-iran\">war on Iran</a> played a part in the Republican party’s sweeping midterm election losses. </p>\n\n<p>Democrats won control of the House of Representatives and the Senate, with politicians who had campaigned on their opposition to the war scoring notable victories.</p>\n\n<p>In separate interviews reflecting on the reasons behind his party’s heavy defeats, Trump said: “I think a part of it was <a href=\"https://www.middleeasteye.net/countries/iran\">Iran</a>… Iran was a piece of it.”</p>\n\n<p>Nevertheless, the US president stood by his decision to join <a href=\"https://www.middleeasteye.net/countries/israel\">Israel</a> in attacking Iran, which also went against the “no new wars” messaging of his 2024 presidential campaign.</p>\n\n<p>“I did the right thing,” Trump told the Wall Street Journal. “I would have done it again.”</p><div class=\"block-adsense block-adsense-managed-ad-block\"><div>\n  <div class=\"adsense responsive\">\n    \n<!-- responsive -->\n<ins class=\"adsbygoogle mee-auto-ad-wrapper \" style=\"display: block;\"></ins>\n\n  </div>\n</div>\n</div>\n\n<p>The US and Israel went to war with Iran at the end of February, after Israeli Prime Minister Benjamin Netanyahu had <a href=\"https://www.middleeasteye.net/news/israels-mossad-promised-it-could-ignite-regime-change-iran-says-report\">reportedly</a> presented Trump with intelligence from Mossad convincing him that doing so would lead the Iranian people to rise up and overthrow their government. </p>\n\n<h3>Cost of living</h3>\n\n<p>But despite <a href=\"https://www.middleeasteye.net/news/iran-supreme-leader-ali-khamenei-killed\">killing</a> a slew of Iranian leaders, including former supreme leader Ali Khamenei, the government in Tehran has remained intact and the Iranian military has seized control of the strategically vital Strait of Hormuz, sending oil prices skyrocketing across the globe.  </p>\n\n<p>The attendant rise in the cost of petrol and other goods at home in the US was a theme of the Democrats’ messaging, with candidates across the country blaming the war for the high cost of living.</p>\n\n<blockquote class=\"twitter-tweet\"><p dir=\"ltr\" lang=\"en\">Speaking to Middle East Eye’s Rhana Natour, Abbas Alawieh, founder of the Uncommitted Movement and candidate for the Michigan State Senate, says voters lost trust in Democratic leadership in 2024 because they were out of touch with ordinary working people in America. https://t.co/U2Jf5dukKs</p>— Middle East Eye (@MiddleEastEye) <a href=\"https://x.com/MiddleEastEye/status/2117929845254447111?ref_src=twsrc%5Etfw\">November 4, 2026</a></blockquote>\n<p>Trump has chopped and changed his stated priorities for the war, which has remained consistently unpopular with Americans. </p>\n\n<p>Asked after the midterm results about reports that he was considering using a nuclear weapon on Iran, Trump said: “I don’t need it, we’ve knocked them out already, 90 percent.”</p>\n\n<p>In Tehran, the US election results were met with satisfaction. “Americans said NO TO WAR, and we endorse this message,” Iranian Parliament Speaker Mohammad Bagher Ghalibaf said on Wednesday on X.</p>\n</div>\n                  <div class=\"field field-field-topic\"><a href=\"https://www.middleeasteye.net/topics/us-politics\" hreflang=\"en\">US Politics</a></div>\n                  <div class=\"field field-field-article-location\"> </div>\n                  <div class=\"field field-field-section\"><a href=\"https://www.middleeasteye.net/news/all\" hreflang=\"en\">News</a></div>\n        <div class=\"field field-field-post-date-override\">\n    <div>Post Date Override</div>\n              <div>0</div>\n          </div>\n  <div class=\"field field-field-update-date-override\">\n    <div>Update Date</div>\n              <div><time datetime=\"2020-05-04T21:19:45+01:00\">Mon, 05/04/2020 - 21:19</time>\n</div>\n          </div>\n  <div class=\"field field-field-update-date-check\">\n    <div>Update Date Override</div>\n              <div>0</div>\n          </div>\n\n  </div>\n  \n</article>",
+      "link": "https://www.middleeasteye.net/news/I-think-part-of-it-was-iran-trump-acknowledges-impact-war-midterm-election-losses",
+      "published": "Wed, 04 Nov 2026 11:37:08 +0000",
+      "source": "Middle East Eye"
+    },
+    {
+      "title": "Iran’s Khamenei says US election results will not end hostility towards Tehran",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/irans-khamenei-says-us-election-results-will-not-end-hostility-towards\" rel=\"bookmark\">\n<span class=\"field field-title\">Iran’s Khamenei says US election results will not end hostility towards Tehran</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Iran’s Supreme Leader Mojtaba Khamenei says Washington will continue its confrontation with Tehran despite the Democrats’ sweeping midterm victories.</p>\n\n<p>In a message carried by state news agency IRNA, he rejected suggestions that “factional shifts” would “dissuade it from its hostility towards the Iranian nation”.</p>\n\n<p>He said Washington seeks the “unconditional surrender of the Iranian nation”.</p>\n\n<p>Referring to the US-Israeli war on Iran, Khamenei said the US had “suffered an irreversible decline” after a “self-made scandal”, adding that “the process of its collapse has accelerated”.</p>\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-khamenei-says-us-election-results-will-not-end-hostility-towards",
+      "published": "Wed, 04 Nov 2026 11:28:13 +0000",
+      "source": "Middle East Eye"
+    },
+    {
+      "title": "‘Seismic shift’: World reacts to US midterm election results",
+      "summary": "Iran's top negotiator says US voters sent a “NO TO WAR” message, as Trump's Democratic opponents take Congress.",
+      "link": "https://www.aljazeera.com/news/2026/11/4/seismic-shift-world-reacts-to-us-midterm-election-results?traffic_source=rss",
+      "published": "Wed, 04 Nov 2026 11:24:50 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Laskaridis doubles Hengli LR2 bet with fresh pair",
+      "summary": "<p>Greek owner Thanassis Laskaridis has doubled his LR2 tanker newbuilding commitment at China’s Hengli Heavy Industries, adding another two 114,000 dwt vessels to an existing programme. The latest contracts cover two vessels scheduled for 2028, and take the owner’s LR2 commitment at the Chinese yard to four vessels. The order follows an agreement concluded in …</p>\n</p>",
+      "link": "https://splash247.com/laskaridis-doubles-hengli-lr2-bet-with-fresh-pair/",
+      "published": "Wed, 04 Nov 2026 11:20:00 +0000",
+      "source": "Splash247"
+    },
+    {
+      "title": "Preventing engine room fires before small defects become emergencies",
+      "summary": "BIMCO’s Tanker Safety Network recently examined how leaking pipes, inadequate insulation and electrical faults can develop into serious fires. Members shared practical experience and discussed the maintenance, technology and organisational support needed to reduce the risk. The network met online on 29 October 2026 for a session on engine room fire prevention, combining three incident ...",
+      "link": "https://www.hellenicshippingnews.com/preventing-engine-room-fires-before-small-defects-become-emergencies/",
+      "published": "Wed, 04 Nov 2026 11:00:59 +0000",
+      "source": "Hellenic Shipping News"
+    },
+    {
+      "title": "Yet another strong month for alternative-fuel vessel orders – DNV",
+      "summary": "DNV’s Alternative Fuels Insight (AFI) platform recorded 53 alternative-fuelled vessel orders in October, according to DNV senior consultant Kristian Hammer. The latest orders followed 69 vessels recorded in September, with LNG maintaining its lead among alternative marine fuels. LNG-capable vessels made up 30 orders in October, down from 48 in September. Container ships led the ...",
+      "link": "https://www.hellenicshippingnews.com/yet-another-strong-month-for-alternative-fuel-vessel-orders-dnv/",
+      "published": "Wed, 04 Nov 2026 11:00:55 +0000",
+      "source": "Hellenic Shipping News"
+    },
+    {
+      "title": "GPS Jamming in Contested Waters Demands an All-Source Operational Maritime Picture",
+      "summary": "GPS Jamming Has Become Routine in Contested Waters Operations in degraded environments are no longer a planning scenario. For anyone responsible for a maritime operational picture, they are already the operating condition in much of the water European navies patrol. GPS jamming touched 124,235 distinct vessels worldwide in Q3 2026, up 11.7% on the previous ...",
+      "link": "https://www.hellenicshippingnews.com/gps-jamming-in-contested-waters-demands-an-all-source-operational-maritime-picture/",
+      "published": "Wed, 04 Nov 2026 11:00:53 +0000",
+      "source": "Hellenic Shipping News"
+    },
+    {
+      "title": "Closer cooperation with India can strengthen Danish shipping",
+      "summary": "Minister of Business and Com­pe­ti­ti­ve­ness Martin Lidegaard is leading a Danish business delegation to India. Green shipping is among the visit’s focus areas, with the Danish delegation visiting both APM Terminals Mumbai and the Mazagon Dock shipyard. Danish-operated ships made more than 3,000 calls at Indian ports in 2025. This illustrates how important India is ...",
+      "link": "https://www.hellenicshippingnews.com/closer-cooperation-with-india-can-strengthen-danish-shipping/",
+      "published": "Wed, 04 Nov 2026 11:00:49 +0000",
+      "source": "Hellenic Shipping News"
+    },
+    {
+      "title": "Cameroon’s Gulfcam taps new chief to drive Camship expansion",
+      "summary": "<p>Cameroon’s Gulfcam is pursuing plans to acquire six vessels to expand its coastal container shipping operations between Kribi and Douala, with a former Camship executive taking charge of the business. Bernard André Ndengue took over as chief executive on November 1, replacing Albert Roger Boum, who stepped down last month to head Puma Energy’s operations …</p>\n</p>",
+      "link": "https://splash247.com/cameroons-gulfcam-taps-new-chief-to-drive-camship-expansion/",
+      "published": "Wed, 04 Nov 2026 10:59:51 +0000",
+      "source": "Splash247"
+    },
+    {
+      "title": "Gaza volunteer surgeon Adam Hamawy wins US House seat in New Jersey",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/gaza-volunteer-surgeon-adam-hamawy-wins-us-house-seat-new-jersey\" rel=\"bookmark\">\n<span class=\"field field-title\">Gaza volunteer surgeon Adam Hamawy wins US House seat in New Jersey</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Democrat Adam Hamawy, who treated Palestinians in Gaza during Israel’s genocide, has defeated Republican Gregg Mele to represent New Jersey’s 12th Congressional District.</p>\n\n<p>The 57-year-old former US Army combat surgeon campaigned against military assistance to Israel and other countries committing human rights violations.</p>\n\n<p>He has also condemned the war on Iran as “illegal and immoral”. In a May interview he accused Washington of “catering to special interests of the defense contractors and war mongers and with organizations like [American Israel Public Affairs Committee] AIPAC and Israel’s special interests.”</p>\n\n<p>Hamawy joined missions to Gaza in 2024 and 2025 through the Palestinian American Medical Association, with coordination from the World Health Organization.</p>\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/gaza-volunteer-surgeon-adam-hamawy-wins-us-house-seat-new-jersey",
+      "published": "Wed, 04 Nov 2026 10:57:54 +0000",
+      "source": "Middle East Eye"
+    },
+    {
+      "title": "Houthis’ monthlong siege on Taiz creating misery for trapped Yemenis",
+      "summary": "Blockade prompts warnings of a 'catastrophe' as food, water, fuel and medical supplies are unable to reach city.",
+      "link": "https://www.aljazeera.com/news/2026/11/4/houthis-one-month-siege-on-taiz-is-creating-hell-for-yemenis-stuck-there?traffic_source=rss",
+      "published": "Wed, 04 Nov 2026 10:44:46 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "‘Israel cannot afford to ignore’: Israeli press reels from Democratic sweep",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/israel-cannot-afford-ignore-israeli-press-reels-democratic-sweep\" rel=\"bookmark\">\n<span class=\"field field-title\">‘Israel cannot afford to ignore’: Israeli press reels from Democratic sweep</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>The Israeli press is taking stock of last night’s Democratic sweep of Congress, sounding the alarm over the consequences for Israel.</p>\n\n<p>A Haaretz analysis this morning said Abdul El-Sayed’s victory over pro-Israel candidate Mike Rogers demonstrated “that even strident opposition to Israel is no barrier to winning competitive federal races.”</p>\n\n<p>“El-Sayed won despite AIPAC spending more than $30 million to defeat him in the Democratic primary and another reported $9 million on behalf of Rogers in the general election,” it added.</p>\n\n<p>The Jerusalem Post warned: “The implications of the US midterm elections for Israel could extend far beyond the loss of Republican control of Congress. The defeat comes amid broader shifts within the Democratic Party regarding Israel, the war with Iran, and the strategic relationship between Jerusalem and Washington.”</p>\n\n<p>“One of the clearest takeaways from the election campaign is the political price the war with Iran has exacted on the Republican Party”, the analysis said, referring to the war Israel pushed the US into on 28 February.</p>\n\n<p>“The expansion of the camp critical of Israel, and its growing access to positions of influence, represents a shift that Israel cannot afford to ignore,” it added.</p>\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-cannot-afford-ignore-israeli-press-reels-democratic-sweep",
+      "published": "Wed, 04 Nov 2026 10:18:32 +0000",
+      "source": "Middle East Eye"
+    },
+    {
+      "title": "Iran Says Four Oil Tankers Destroyed by Mines Near Strait of Hormuz",
+      "summary": "Four oil tankers were destroyed after hitting naval mines in an area south of the Strait of Hormuz proscribed by Iran as prohibited for navigation, Iran’s Islamic Revolutionary Guard Corps (IRGC) said on Wednesday, as attacks on vessels in the region intensify while crude oil flows have dipped from recent highs. The four tankers are still ablaze, while two other vessels have been seized, the Revolutionary Guards said. While flows have recovered substantially from the lows in the spring, the security situation in and near the Strait of Hormuz…",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-Four-Oil-Tankers-Destroyed-by-Mines-Near-Strait-of-Hormuz.html",
+      "published": "Wed, 04 Nov 2026 04:15:00 -0600",
+      "source": "OilPrice"
+    },
+    {
+      "title": "US Democratic tsunami: Three major challenges facing Israel after Republican defeat - analysis",
+      "summary": "<img align=\"right\" alt=\"The US Capitol building, during the US midterm elections, in Washington, DC, US, November 3, 2026. (photo credit: REUTERS/UMIT BEKTAS)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_3001,w_4500/744827\" title=\"The US Capitol building, during the US midterm elections, in Washington, DC, US, November 3, 2026. (photo credit: REUTERS/UMIT BEKTAS)\" /><br />Trump's Iran strategy, Democratic control of Congress, and the 2028 presidential race could reshape Israel's relationship with Washington for years to come.<br />",
+      "link": "https://www.jpost.com/american-politics/article-913783",
+      "published": "Wed, 04 Nov 2026 09:04:30 GMT",
+      "source": "Jerusalem Post"
+    },
+    {
+      "title": "Aukus is ‘worst, riskiest and most costly’ Australian defence decision ever, public inquiry into submarine deal says",
+      "summary": "<p>Report led by Peter Garrett and former defence chief Adm Chris Barrie says agreement should be suspended and calls for royal commission</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">daily political email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>A public inquiry into the $368bn Aukus nuclear submarine agreement has called the plan “the worst, riskiest and most costly defence decision ever made by an Australian government”, urging its immediate termination.</p><p>Former Labor MP and Midnight Oil frontman Peter Garrett, alongside former chief of defence Adm Chris Barrie, <a href=\"https://www.theguardian.com/world/2026/jun/02/peter-garrett-to-head-independent-inquiry-into-the-aukus-submarine-pact\">led the inquiry</a> dominated by critics of the deal with the UK and US, recommending the suspension of plans for new bases and for a royal commission to be held into the agreement signed by the former Morrison government.</p><p><strong><a href=\"https://www.theguardian.com/australia-news/2026/aug/28/politics-really-newsletter-guardian-australia-free-best-daily-auspol-email-subscribe?CMP=copyembed\">Sign up for Guardian Australia’s Politics, really newsletter here</a></strong></p> <a href=\"https://www.theguardian.com/australia-news/2026/nov/04/aukus-worst-australian-defence-decision-ever-public-inquiry\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/australia-news/2026/nov/04/aukus-worst-australian-defence-decision-ever-public-inquiry",
+      "published": "Wed, 04 Nov 2026 07:02:44 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "First 10 Australian songs inducted into the National Songbook after ‘very robust’ judging",
+      "summary": "<p>Yothu Yindi’s Treaty, Midnight Oil’s Beds Are Burning and Helen Reddy’s I Am Woman are among the first songs to be honoured on new list that will grow every year</p><ul><li><p><em><strong>Warning:</strong> Aboriginal and Torres Strait Islander readers are advised that this article contains images and names of Indigenous Australians who have died</em></p></li></ul><p>Midnight Oil’s Beds Are Burning, Yothu Yindi’s Treaty and Helen Reddy’s I Am Woman are among the first 10 Australian songs to be inducted into the National Songbook – a new digital archive that celebrates and preserves songs that have shaped Australia’s national cultural identity.</p><p>Launched on Wednesday night at the National Film and Sound Archive (NFSA) in Canberra, the songbook is a joint initiative between NFSA and the music rights organisation Apra Amcos. The first 10 songs were selected by a panel of 11 music experts including broadcasters Richard Kingsmill and Zan Rowe, composer Cornel Wilczek and musician Mo’Ju.</p> <a href=\"https://www.theguardian.com/music/2026/nov/04/first-10-australian-songs-inducted-into-national-songbook\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/music/2026/nov/04/first-10-australian-songs-inducted-into-national-songbook",
+      "published": "Wed, 04 Nov 2026 07:00:28 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Oil Prices Rebound as Middle East Supply Fears Return",
+      "summary": "Crude oil prices, which fell to their lowest in four weeks, staged a rebound earlier today, as traders shifted their attention from the U.S. midterms to the Middle East, awaiting the next step in the war. Benchmarks dropped sharply on Tuesday on reports that Iran may be open to discussions on previously non-negotiable issues, but at the time of writing, Brent crude was trading at $103.60 per barrel, with West Texas Intermediate at $95.98 per barrel, after two energy consultancies warned against too much Gulf oil supply rebound optimism. Rystad…",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rebound-as-Middle-East-Supply-Fears-Return.html",
+      "published": "Wed, 04 Nov 2026 00:15:00 -0600",
+      "source": "OilPrice"
+    },
+    {
+      "title": "Naval Air Defence Without Platform Boundaries: ASELSAN Takes GÖKDENİZ and GÖKSUR VLS to New Platforms",
+      "summary": "<p>From containerised close-in weapon systems to deployable vertical-launch missile defense, ASELSAN is adapting proven naval technologies to address emerging security needs, including the protection of civilian vessels navigating critical maritime chokepoints. Sponsored by Naval security requirements can change faster than ships can be built or upgraded. Commercial vessels passing through sensitive straits, offshore assets and ...</p>\n<p>The post <a href=\"https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-air-defence-without-platform-boundaries-aselsan-takes-gokdeniz-and-goksur-vls-to-new-platforms/\">Naval Air Defence Without Platform Boundaries: ASELSAN Takes GÖKDENİZ and GÖKSUR VLS to New Platforms</a> appeared first on <a href=\"https://www.navalnews.com\">Naval News</a>.</p>",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/naval-air-defence-without-platform-boundaries-aselsan-takes-gokdeniz-and-goksur-vls-to-new-platforms/",
+      "published": "Tue, 03 Nov 2026 17:48:39 +0000",
+      "source": "Naval News"
+    },
+    {
+      "title": "Hormuz Standoff Leaves Both Sides With Economic Pain",
+      "summary": "As US President Donald Trump threatens renewed attacks against Iran, Tehran’s intermittent strikes on commercial vessels have left the two sides locked in a painful economic standoff.",
+      "link": "https://gcaptain.com/hormuz-standoff-leaves-both-sides-with-economic-pain/",
+      "published": "Tue, 03 Nov 2026 17:47:08 +0000",
+      "source": "gCaptain"
+    },
+    {
+      "title": "Damen wins KNVTS Ship of the Year Award with CSOV Windcat Rotterdam",
+      "summary": "Damen Shipyards Group and Windcat are pleased to announce that Commissioning Service Operations Vessel (CSOV) Windcat Rotterdam has received the KNVTS Ship of the Year Award. The award was presented at the Maritime Awards Gala...",
+      "link": "https://gcaptain.com/damen-wins-knvts-ship-of-the-year-award-with-csov-windcat-rotterdam/",
+      "published": "Tue, 03 Nov 2026 16:52:46 +0000",
+      "source": "gCaptain"
+    },
+    {
+      "title": "Australia Bans Bulk Carrier Over Repeated Falsification of Crew Rest Records",
+      "summary": "The Australian Maritime Safety Authority (AMSA) has banned a Marshall Islands-flagged bulk carrier from Australian ports for 90 days after inspectors discovered that crew work and rest records had been...",
+      "link": "https://gcaptain.com/australia-bans-bulk-carrier-over-repeated-falsification-of-crew-rest-records/",
+      "published": "Tue, 03 Nov 2026 16:25:54 +0000",
+      "source": "gCaptain"
+    },
+    {
+      "title": "US strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
+      "summary": "<p>Strikes on eve of US midterms reportedly target surface-to-air missiles being used against US assets</p><p>The ⁠US launched limited strikes on ​Iran’s Qeshm Island late on Monday, hours after the vice-president, JD Vance, said he was optimistic that diplomatic efforts to end the war were moving in the right direction.</p><p>The strikes, disclosed by Iranians on social media and confirmed by US Central Command (Centcom), came on the eve of crucial midterm elections in which Donald Trump’s Republican party is expected to be punished by voters. Diplomatic mediators believe it will be clear within two days whether the basis for continued indirect talks between the US and Iran exists.</p> <a href=\"https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
+      "published": "Tue, 03 Nov 2026 13:52:34 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Türkiye’s MKE Debuts PIRANA Armed USV Variant with Drone Payload",
+      "summary": "<p>MKE’s latest PIRANA unmanned surface vessel variant is designed to enable enhanced control of kamikaze drone swarms and deliver strikes against targets through a payload bay. The Turkish defense firm revealed the new USV variant at its Euronaval debut. Informed by internal company concepts and real-life lessons learned from the trials with the Turkish Navy, ...</p>\n<p>The post <a href=\"https://www.navalnews.com/event-news/euronaval-2026/2026/11/turkiyes-mke-debuts-pirana-armed-usv-variant-with-drone-payload/\">Türkiye’s MKE Debuts PIRANA Armed USV Variant with Drone Payload</a> appeared first on <a href=\"https://www.navalnews.com\">Naval News</a>.</p>",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/turkiyes-mke-debuts-pirana-armed-usv-variant-with-drone-payload/",
+      "published": "Tue, 03 Nov 2026 13:44:24 +0000",
+      "source": "Naval News"
+    },
+    {
+      "title": "Trump’s troubles with Iran could open the door to China",
+      "summary": "<p>Beijing launches diplomatic salvo to woo Gulf leaders and bolster its influence in the region</p><p>China has held a flurry of meetings with Gulf leaders in a sign that Beijing is stepping up its diplomatic efforts in the Middle East.</p><p>The diplomatic salvo comes before a highly anticipated meeting between Donald Trump and Xi Jinping when the US president is expected to attend the Apec conference in Shenzhen, China, on 18 and 19 November.</p> <a href=\"https://www.theguardian.com/world/2026/nov/03/trump-iran-middle-east-china-gulf-hormuz-xi-jinping\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/nov/03/trump-iran-middle-east-china-gulf-hormuz-xi-jinping",
+      "published": "Tue, 03 Nov 2026 13:13:50 GMT",
+      "source": "The Guardian"
     },
     {
       "title": "War Widens in the Black Sea in a Test of NATO Red Lines",
@@ -91,48 +301,6 @@
       "source": "gCaptain"
     },
     {
-      "title": "Israel’s election shows its democracy is a sham, but the West can’t stop buying the lie",
-      "summary": "<article class=\"opinion default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/opinion/israels-election-shows-its-democracy-sham-west-cant-stop-buying-lie\" rel=\"bookmark\">\n<span class=\"field field-title\">Israel’s election shows its democracy is a sham, but the West can’t stop buying the lie</span>\n</a>\n    </h2>\n    \n\n          <footer>\n      \n      <div class=\"author\">\n        Submitted by \n<span class=\"field field-uid\"><a href=\"https://www.middleeasteye.net/users/jonathan-cook\" lang=\"lang\" title=\"View user profile.\">Jonathan Cook</a></span>\n on \n<span class=\"field field-created\"><time datetime=\"2026-11-02T12:30:59+00:00\" title=\"2 November 2026 12:30 GMT\">Mon, 11/02/2026 - 12:30</time>\n</span>\n        \n      </div>\n    </footer>\n      \n    <div class=\"content\">\n                <div class=\"field field-field-subhead\">The same racist, Zionist logic that justified the Gaza genocide is now making it impossible for the Jewish opposition to reach a deal with Palestinian parties to oust Netanyahu</div>\n                  <div class=\"field field-field-main-image\">    \n                  <source height=\"788\" type=\"image/webp\" width=\"1400\" />\n                  <img alt=\"alt\" height=\"788\" src=\"https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Protesters%20hold%20up%20placards%20during%20a%20demonstration%20on%20Habima%20Square%20in%20Tel%20Aviv%20on%20October%2031%2C%202026%2C%20calling%20for%20the%20formation%20of%20a%20Jewish-Arab%20coalition%20government%20following%20Israel%27s%20general%20election-afp.jpg.jpg?itok=yQF546gp\" width=\"1400\" />\n\n  \n\n</div>\n                  <div class=\"field field-field-cutline\">Protesters hold up placards during a demonstration on Habima Square in Tel Aviv on, calling for the formation of a Jewish-Arab coalition government following Israel's general elections on 31 October 2026 (AFP)</div>\n                  <div class=\"field field-field-wide-photo-video\">Off</div>\n                  <div class=\"field field-body clearfix\"><p>Israel’s general election last week unmasked beyond question the West’s much-cherished fiction of Israel as a \"Jewish and democratic state\".</p>\n\n<p>That <a href=\"https://www.middleeasteye.net/countries/israel\">Israel</a>’s democratic pretensions are taken seriously should in itself be astounding. For decades Israel has been given a free pass - revered even - as the \"only democracy in the Middle East\". </p>\n\n<p>Western establishments have agreed to turn a collective blind eye to Israel’s brutal treatment of millions of <a href=\"https://www.middleeasteye.net/countries/palestine\">Palestinians</a> forced to live under an illegal military occupation. </p>\n\n<p>Those Palestinians have no say in electing the government that rules over them, one that abuses, ethnically cleanses, imprisons, tortures and now subjects them to what every major legal, human rights and expert scholarly body <a href=\"https://www.un.org/unispal/document/special-rapporteur-report-gaza-genocide-a-collective-crime-20oct25\">deems to be a genocide.</a> </p>\n\n<p>In Israel’s defence, supporters contest that its belligerence in the occupied territories is necessitated by security considerations. Supposedly, it is unfair to judge what is going on there as reflective of the robust \"Jewish and democratic\" state inside Israel’s internationally recognised borders - even as Israel<a href=\"https://mondoweiss.net/2026/07/no-israel-does-not-have-a-right-to-exist-quite-the-contrary-actually/\"> refuses to define those borders</a>. </p><div class=\"block-adsense block-adsense-managed-ad-block\"><div>\n  <div class=\"adsense responsive\">\n    \n<!-- responsive -->\n<ins class=\"adsbygoogle mee-auto-ad-wrapper \" style=\"display: block;\"></ins>\n\n  </div>\n</div>\n</div>\n\n<p>And as proof, Israel’s apologists point to the treatment of a Palestinian minority inside Israel. </p>\n\n<p>They are the survivors of mass expulsions in 1948 that paved the way to the establishment of a \"Jewish\" state on the Palestinians’ homeland. Uniquely, these <a href=\"https://www.middleeasteye.net/opinion/nakba-palestinian-citizens-israel-exiles-own-land\">Palestinians were declared citizens</a>, and were given the vote soon after Israel’s creation. </p>\n\n<h3>Sham democracy</h3>\n\n<p>Because Israel has one person, one vote - including for what today are some two million Palestinian \"citizens\" - it must be considered a western-style liberal democracy, we are told. </p>\n\n<p>It should have been easy to show how nonsensical that argument is, were there any appetite in western capitals for laying bare the truth about Israel’s sham democracy.</p>\n\n<div class=\"mee-readmore mee-readmore-article-opinion mee-readmore-type-image align-right\">\n  <a class=\"mee-readmore-img-link\" href=\"https://www.middleeasteye.net/opinion/why-palestinian-electoral-gains-Israel-cannot-alter-racist-structure-state\"><img alt=\"alt\" class=\"mee-readmore-image\" height=\"250\" src=\"https://www.middleeasteye.net/sites/default/files/styles/read_more/public/images-story/A%20man%20casts%20his%20ballot%20to%20vote%20at%20a%20polling%20station%20in%20the%20Arab-Israeli%20town%20of%20Umm%20al-Fahm%20on%20October%2027%2C%202026-afp.png.webp?itok=M41ESVJz\" width=\"400\" />\n\n</a>  <div class=\"mee-readmore-description\">Why Palestinian electoral gains in Israel cannot alter the racist structure of the state</div>\n    <a class=\"mee-readmore-link\" href=\"https://www.middleeasteye.net/opinion/why-palestinian-electoral-gains-Israel-cannot-alter-racist-structure-state\">Read More »</a>\n</div>\n\n<p>The past week of post-election manoeuvring from Israel’s Jewish parties - whether the governing bloc led by Benjamin Netanyahu or the so-called \"opposition\" - should finally lay this lie to rest. </p>\n\n<p>There is uproar across the Israeli Jewish political spectrum that the Palestinian minority - known dismissively by the Jewish majority as <a href=\"https://www.middleeasteye.net/explainers/who-are-palestinian-citizens-israel\">\"Israeli Arabs\" </a>- turned out in unprecedented numbers to vote and elected a record number of legislators. </p>\n\n<p>The parliament is now evenly <a href=\"https://www.theguardian.com/world/2026/oct/30/friday-briefing-israel-has-a-dilemma-can-its-opposition-govern-with-palestinian-parties\">split </a>between Netanyahu's camp and the opposition, with the latter unable to oust the prime minister unless it does a deal with the Palestinian parties.</p>\n\n<p>And yet the opposition bloc is already baulking at the prospect. <a href=\"https://www.middleeasteye.net/news/israel-tibi-urges-eisenkot-show-courage-and-form-minority-government-palestinians\">Palestinian legislators</a>, representing a fifth of the Israeli public, are not seen as legitimate political actors. They are Israel’s untouchables. </p>\n\n<p>As far as Israel’s Jewish parties are concerned, the Palestinian parties must continue to have zero political influence in a \"Jewish\" state.</p>\n\n<p>Or as columnist Hanin Majadli <a href=\"https://www.haaretz.com/opinion/2026-10-29/ty-article/.premium/palestinians-are-the-key-to-saving-zionism/000001a1-83e3-d9b5-a3b5-cff3ab000000\">observed</a> in Israel’s Haaretz newspaper: \"Racism toward Arabs is proving to be a more dependable issue than opposition to Netanyahu.\" </p>\n\n<h3>Gerrymandered state</h3>\n\n<p>In fact, this is a pattern of behaviour by Israeli leaders that dates back to the state’s founding. </p>\n\n<p>Israel’s birth as a so-called \"Jewish\" state in 1948 was only possible because its military expelled 80 percent of the native population, some 750,000 Palestinians, from their homes to areas outside Israel’s new borders - in what <a href=\"https://badil.org/publications/al-majdal/issues/items/1101.html\">amounted</a> to one of the largest acts of electoral gerrymandering in history. </p>\n\n<blockquote>\n<p>As far as Israel’s Jewish parties are concerned, the Palestinian parties must continue to have zero political influence in a “Jewish” state</p>\n</blockquote>\n\n<p>Israel was created as a \"Jewish\" state, with an overwhelming Jewish majority, through an act of mass ethnic cleansing.</p>\n\n<p>Once Israel’s leaders had secured a rock-solid Jewish majority - after rigging their democracy - only then did they consider giving the surviving Palestinian population the right to vote, and call them \"citizens\".</p>\n\n<p>That was the key factor differentiating Israel from an earlier apartheid state, <a href=\"https://www.middleeasteye.net/tags/south-africa-1211294169\">South Africa</a>. </p>\n\n<p>South Africa’s white leaders <a href=\"https://www.bloomsbury.com/uk/israel-and-south-africa-9781783605897/\">dared not give</a> the black population the vote precisely because it comprised a majority.</p>\n\n<p>In a one-person, one-vote system, black parties would have had more seats than white parties. Giving the black majority the vote would have been suicidal for the apartheid project. </p>\n\n<p>But in the apartheid state of Israel, the Palestinian minority presented no such electoral threat. In any given elections, the number of seats gained by the political parties representing the Palestinian minority in parliament would always be vastly outnumbered by the legislators representing the Jewish majority. </p>\n\n<p>That demographic imbalance was set in stone through legislation: <a href=\"https://imeu.org/resources/resources/the-7-most-racist-israeli-laws/154\">the 1950 Law of Return</a>. It gave every Jew in the world the right to gain instant citizenship in Israel while at the same time stripping every Palestinian expelled by Israel - and all their descendants - of any right to ever return home. </p><div class=\"block-adsense block-adsense-managed-ad-block\"><div>\n  <div class=\"adsense responsive\">\n    \n<!-- responsive -->\n<ins class=\"adsbygoogle mee-auto-ad-wrapper \" style=\"display: block;\"></ins>\n\n  </div>\n</div>\n</div>\n\n<p>And as a bonus, giving the Palestinian minority the vote served as a propaganda coup.</p>\n\n<p>Unlike the old South Africa, Israel’s apartheid character could be better hidden from outsiders, especially given that western establishments were so ready to conceal what their key militarised client state in the oil-rich Middle East was really up to.</p>\n\n<h3>Martial law</h3>\n\n<p>If it still isn’t clear that Israel is only a pretend democracy, consider this. For the first 20 years, Israel’s Palestinian minority were living inside a supposedly \"Jewish and democratic\" state, and casting their votes in elections, while they were under <a href=\"https://www.adalah.org/en/content/view/7478\">the most severe form of martial law</a>. </p>\n\n<p>They were denied any freedom of movement, confined to their segregated communities by Jewish military officials in what amounted to a prototype for Israel’s siege of Gaza imposed in 2006. </p>\n\n<p>During those two first decades, Palestinian \"citizens\" had to <a href=\"https://mondoweiss.net/2019/09/experiment-palestinian-kibbutzniks/\">receive a permit</a> from a military governor before they were allowed to reach their farmland, or attend a place of work outside their community, or travel to a relative’s wedding or funeral. </p>\n\n<p>The \"Jewish\" state of Israel used this extended period of confinement to achieve two things. </p>\n\n<p>First, Israeli officials were able to <a href=\"https://www.ucpress.edu/books/good-arabs/paper\">recruit </a>as collaborators a large number of families desperate for a pass book to maintain their livelihoods. Israel soon presided over a sophisticated network of informers helping it enforce a divide-and-rule policy over the Palestinian minority. </p>\n\n<p></p>\n\n<p>And second, the young Israeli state was able to steal most of the outlying farmland from Palestinian communities on the pretext that it was not being cultivated. That was hardly surprising given that Palestinian farmers could not get the permits they needed to reach their fields. </p>\n\n<p>In <a href=\"https://www.jonathan-cook.net/2008-10-30/message-of-massacre-lives-on-for-palestinians/\">one notorious example </a>of the military government’s treatment of the minority, dozens of Palestinian \"citizens\", including 23 children, were gunned down in 1956 by Israeli soldiers as they approached a checkpoint outside their village of Kafr Qassem. </p>\n\n<p>A military curfew had been imposed on the village at the last minute by the military government. No one had told the inhabitants of Kafr Qassem. They paid with their lives.</p>\n\n<p>Israel would later <a href=\"https://www.btselem.org/topic/freedom_of_movement\">export </a>the same movement restrictions to the occupied West Bank, thereby allowing settler terrorists to <a href=\"https://www.aljazeera.com/features/2023/11/26/israeli-settlers-steal-palestinian-farmers-land-in-occupied-west-bank\">grab land</a> from Palestinian owners to expand their illegal settlements. </p>\n\n<p>Inside Israel, vast areas of land belonging to the Palestinian minority were<a href=\"https://www.hrw.org/news/2020/05/12/israel-discriminatory-land-policies-hem-palestinians\"> fenced off</a> for the exclusive use of new Jewish communities. </p><div class=\"block-adsense block-adsense-managed-ad-block\"><div>\n  <div class=\"adsense responsive\">\n    \n<!-- responsive -->\n<ins class=\"adsbygoogle mee-auto-ad-wrapper \" style=\"display: block;\"></ins>\n\n  </div>\n</div>\n</div>\n\n<h3>Electoral decoration</h3>\n\n<p>The point is that for 20 years, while Israel was proclaiming itself to be a liberal democracy, and being proclaimed as such by western capitals, a fifth of the population - those from the wrong \"racial\" group - had no rights to do anything, except for voting, without military approval. </p>\n\n<p>And even then, their parties were <a href=\"https://www.researchgate.net/publication/293241109_Political_mobilization_of_palestinians_in_Israel_The_al-%E2%80%99Ard_movement\">vetted</a> by the security services.</p>\n\n<div class=\"mee-readmore mee-readmore-article-story mee-readmore-type-image align-right\">\n  <a class=\"mee-readmore-img-link\" href=\"https://www.middleeasteye.net/news/netanyahu-unless-israel-palestinians-taken-seriously\"><img alt=\"alt\" class=\"mee-readmore-image\" height=\"250\" src=\"https://www.middleeasteye.net/sites/default/files/styles/read_more/public/images-story/netanyahu%20rally%20election%20night%20likud%20reuters.jpg.webp?itok=ACrg3T5G\" width=\"400\" />\n\n</a>  <div class=\"mee-readmore-description\">Netanyahu is going nowhere until Israel's Palestinians are taken seriously</div>\n    <a class=\"mee-readmore-link\" href=\"https://www.middleeasteye.net/news/netanyahu-unless-israel-palestinians-taken-seriously\">Read More »</a>\n</div>\n\n<p>The Palestinian minority was allowed the vote solely because it made no meaningful difference to the outcome of elections and because it helped western capitals sucker their publics into believing Israel was a genuine democracy.</p>\n\n<p>When 80 percent of the electorate vote chiefly to enforce their ethnic privileges as Jewish citizens, and when they vote expressly on the assumption that their fellow Palestinian \"citizens\" pose a threat to Israel continuing as a Jewish supremacist state, the minority’s vote is irrelevant.</p>\n\n<p>Once the votes have been cast, Jewish Zionist parties squabble over how they will share the spoils between themselves. The Palestinian parties sit on the sidelines, as decoration inside the parliament but always outside the government. </p>\n\n<p>Nothing meaningful improved for the Palestinian minority with the dismantlement of the military government in 1966. After almost all of their lands had been seized, Palestinian communities inside Israel were tightly confined to <a href=\"https://www.hrw.org/news/2020/05/12/israel-discriminatory-land-policies-hem-palestinians\">less than 3 percent</a> of Israel’s territory, surrounded by new Jewish communities built to contain and surveil them. </p>\n\n<p>Palestinian \"citizens\" can vote every few years, but they cannot effect change: they <a href=\"https://www.aljazeera.com/features/2014/1/31/palestinians-in-israel-trapped-in-the-ghetto\">continue to live</a> in racially segregated, overcrowded and underfunded communities, in ghettoes. Nor can they influence government policy when the \"Jewish\" consensus is that they are an enemy simply by virtue of belonging to the wrong ethnic group.</p>\n\n<h3>Block on equality</h3>\n\n<p>Which is the missing historical context for understanding the furore provoked by the Palestinian minority's surprise performance in last week’s election, gaining a record <a href=\"https://www.middleeasteye.net/news/israel-tibi-urges-eisenkot-show-courage-and-form-minority-government-palestinians\">19 seats</a> in the 120-seat parliament. </p>\n\n<blockquote>\n<p>Palestinian “citizens” are only too aware that the wide support among Israeli Jews for their forced expulsion could all too quickly be translated into policy</p>\n</blockquote>\n\n<p>For many decades, the Palestinian minority’s vote in Israeli general elections <a href=\"https://www.brookings.edu/articles/why-did-arab-voter-turnout-for-israels-election-plunge/\">steadily declined</a> as the community understood that voting would make no difference to their own situation or that of the Palestinians under occupation. </p>\n\n<p>In fact, the more vocal Palestinian parties became in demanding equal rights, or highlighting Israel’s apartheid character - which they have managed to do with greater success in the age of social media - the more Israel’s Jewish parties <a href=\"https://www.jonathan-cook.net/2008-08-07/palestinian-activists-are-hounded/\">agreed</a> that the Palestinian minority were a threat to Israel’s image as a \"Jewish and democratic\" state. </p>\n\n<p>Over the past 20 years, the right and far-right, particularly Benjamin Netanyahu’s Likud party, have been the chief beneficiaries of that backlash. They have turned the tide in their favour with their racist incitement against the Palestinian minority. </p>\n\n<p>A 2025 poll <a href=\"https://archive.ph/sL4MJ\">showed</a> a majority of Israeli Jews want Palestinian \"citizens\" forcibly expelled from the state. </p>\n\n<p>That is not because there is any tangible evidence the Palestinian minority poses a security threat. Rather, Israeli Jews fear that the minority’s <a href=\"https://www.pcbs.gov.ps/en/post-details/?postId=19472\">higher birth rate</a> will gradually erode the current Jewish majority, reversing 80 years of rigged demographics. </p>\n\n<p>The minority’s votes could then put it in a position to demand equal rights and launch a campaign to overturn Israel’s apartheid, just as South Africa’s black majority succeeded in doing to apartheid there more than 30 years ago. </p>\n\n<p>Netanyahu’s politically active son, Yair, made this point last week after the results were announced. He<a href=\"https://www.haaretz.com/israel-news/elections/2026-10-30/ty-article/.premium/pms-son-says-arab-citizens-are-israels-greatest-threat-after-nuclear-iran/000001a1-8d3f-dd01-a9ed-afbf63840000\"> described</a> the Palestinian minority as the \"greatest threat to the survival of the State of Israel\", aside from a supposed Iranian nuclear threat. </p>\n\n<p>It was for this reason that Netanyahu and the far-right pushed through <a href=\"https://www.middleeasteye.net/news/read-full-israels-nation-state-jewish-people-law\">the 2018 Basic Law</a>: Israel as the Nation-State of the Jewish People, which formally declared that only the Jewish people have sovereignty in an expansive and undefined \"Land of Israel\". </p>\n\n<p></p>\n\n<p>The move was largely in reaction to the increasing outspokenness of the Palestinian parties in challenging Israel’s claim to be a \"Jewish and democratic\" state. </p>\n\n<p>The Palestinian minority has long campaigned for Israel to become \"a state of all its citizens\" - that is, a liberal democracy. Efforts to advance such legislation in the Knesset have faced<a href=\"https://www.adalah.org/en/content/view/9660\"> a fierce backlash</a> from Israeli politicians and the courts.</p>\n\n<p>The main purpose of the Nation State Law is to provide a constitutional block on any attempt by the Palestinian parties to gain equal rights.</p>\n\n<h3>Central fault line</h3>\n\n<p>From Israel’s creation, the central fault line in its politics has been between the Jewish majority, on the one hand, and the Palestinian minority, on the other.</p>\n\n<p>Jewish parties disagree on individual policies, but they are unified on one thing: that the Palestinian parties, as well as the electorate they represent, are pariahs. They must be deprived of influence at all costs.</p>\n\n<blockquote>\n<p>Jewish parties disagree on individual policies, but they are unified on one thing: that the Palestinian parties, as well as the electorate they represent, are pariahs</p>\n</blockquote>\n\n<p>But in recent years, as Netanyahu has won election after election, the growing political clout of the Jewish far-right and religious right has opened up an additional fissure - this one within the Jewish majority, and largely unrelated to the Palestinian minority.</p>\n\n<p>After so long in power, the current far-right coalition is deeply corrupt. Netanyahu himself is currently <a href=\"https://apnews.com/article/israel-corruption-netanyahu-gaza-war-scandal-17518bca5b27fc47216eed974e96f3e6\">on trial for fraud</a>, bribery and breach of trust.</p>\n\n<p>Meanwhile, his government relies on <a href=\"https://apnews.com/article/religion-jews-israel-netanyahu-secular-orthodox-c8e9fa970cca6b88a7fd70a718fcad30\">the support of religious extremists</a> who are intolerant, even contemptuous, of Israel’s secular Jewish public. </p>\n\n<p>And the far right’s flaunting of its fascist sympathies has, in the eyes of the traditional secular elites, irreparably damaged Israel’s image around the world. </p>\n\n<p>The Jewish majority is now irreconcilably <a href=\"https://apnews.com/article/religion-jews-israel-netanyahu-secular-orthodox-c8e9fa970cca6b88a7fd70a718fcad30\">divided</a>. Although they are largely agreed on matters relating to the treatment of Palestinians - not least on the Gaza genocide - the pro-Netanyahu and anti-Netanyahu blocs can find little other common ground. </p>\n\n<p>They are especially at odds on the question of which kind of Jew - secular or religious - should be in control of a “Jewish” state. </p>\n\n<p>In effect, there is a low-level Jewish civil war going on in Israel that would probably have torn the country apart by now were it not for the fact that oppressing and abusing Palestinians - and neighbouring Arab states - serves as the glue holding Israel’s Jewish public together. </p>\n\n<p>The electoral difficulty for the Jewish majority is that their two hostile internal camps are evenly split. Half are deeply loyal to Netanyahu; the other half deeply opposed to him. </p>\n\n<p>That has left the Palestinian parties in an invidious position. They now hold the balance of power in parliament - earning them unwelcome kingmaker status. </p>\n\n<h3>Genocidal logic </h3>\n\n<p>There is a reason why so many Palestinian \"citizens\" turned out to vote at this election, despite their utter disillusionment with the Jewish majority. </p>\n\n<p>First, although there is an overwhelming consensus among Israeli Jews in support of the Gaza genocide, the Palestinian minority hopes that the opposition parties, unlike Netanyahu and his allies, are more likely to feel constrained in their actions by concerns about Israel’s image abroad.</p>\n\n<div class=\"mee-readmore mee-readmore-article-story mee-readmore-type-image align-right\">\n  <a class=\"mee-readmore-img-link\" href=\"https://www.middleeasteye.net/news/israeli-racism-palestinian-voters-reveals-society-crisis\"><img alt=\"alt\" class=\"mee-readmore-image\" height=\"250\" src=\"https://www.middleeasteye.net/sites/default/files/styles/read_more/public/images-story/israel%20protest%20tel%20aviv%20eisenkot%20netanyahu%20arabs%20reuters.jpg.webp?itok=VwRyhtO-\" width=\"400\" />\n\n</a>  <div class=\"mee-readmore-description\">'Israeli mainstream media now resembles Radio Rwanda'</div>\n    <a class=\"mee-readmore-link\" href=\"https://www.middleeasteye.net/news/israeli-racism-palestinian-voters-reveals-society-crisis\">Read More »</a>\n</div>\n\n<p>They also understand that the prime minister has his own personal interests in <a href=\"https://aa.com.tr/en/middle-east/netanyahu-trial-hearing-postponed-over-security-reasons-says-israeli-court/3911946\">sustaining and expanding</a> <a href=\"https://www.middleeasteye.net/topics/israel-genocide-gaza\">the slaughter in Gaza</a>, <a href=\"https://www.middleeasteye.net/countries/lebanon\">Lebanon</a>, <a href=\"https://www.middleeasteye.net/countries/iran\">Iran</a> and elsewhere - not least because it distracts from his corruption trial and has provided a convenient pretext for endless postponements of court hearings. </p>\n\n<p>Netanyahu’s dependence on the support of unapologetic fascists in his coalition, such as Finance Minister Bezalel Smotrich and National Security Minister Itamar Ben Gvir, means too that his government is more likely to expand the genocidal logic inherent in Zionism, on full display in Gaza, to the Palestinian minority next. </p>\n\n<p>Palestinian \"citizens\" are only too aware that the wide support among Israeli Jews for their forced expulsion could all too quickly be translated into policy. </p>\n\n<p>The founding ideology of so-called \"liberal Zionism\" may have fashioned Israel as a Jewish apartheid state, but Netanyahu and the far-right have shown they can push that ideology even further, into the darkest realms of human behaviour.</p>\n\n<p>The Palestinian minority turned out en masse to try to curb these excesses as best it could by lowering the overall proportion of votes for the Netanyahu bloc, keeping him further away from a majority, and thereby bolstering the opposition bloc.</p>\n\n<p>Unusually, the Palestinian parties have taken the difficult course of agreeing from the outset that they are willing to enter talks to support the opposition bloc, most likely from outside the government, even though they know the opposition can be expected to continue advancing Israel’s genocidal conduct in Gaza.</p>\n\n<h3>Jockeying for power</h3>\n\n<p>But what the Palestinian parties are learning for the umpteenth time is that the opposition camp, however worried it is by Netanyahu’s continuing rule, fears it would be even more dangerous to allow Palestinian \"citizens\" even a small degree of influence in the \"Jewish\" state. </p>\n\n<p>Netanyahu’s Likud party may have lost votes in the election but the Israeli right is still very much in the ascendant. Of the 120 Knesset seats, <a href=\"https://www.reuters.com/graphics/ISRAEL-ELECTION/RESULTS/akvelybkapr/\">93 went to hardline religious, ultra-nationalistic or militaristic factions</a>.</p>\n\n<p>The leader of the opposition, Gadi Eisenkot, is a military general and father of <a href=\"https://imeu.org/resources/resources/explainer-the-dahiya-doctrine-israels-use-of-disproportionate-force/175\">the infamous Dahiya Doctrine</a> of indiscriminately bombing and levelling the urban spaces of Israel’s neighbours - central to Israel’s strategy both in the Gaza genocide and in its onslaught on southern Lebanon. </p>\n\n<p>Eisenkot’s allies in the opposition bloc include Avigdor Lieberman, a far-right, <a href=\"https://archive.ph/Gltab\">secular politician</a> who makes Netanyahu look like a moderate, and Naftali Bennett, who <a href=\"https://www.pbs.org/newshour/world/naftali-bennett-is-netanyahus-former-protege-now-successor\">shares</a> the religious Zionist ideology of the West Bank’s illegal settlers and was once a close ally of Netanyahu’s. </p>\n\n<p>Even the slightly more centrist Democrat party of<a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/democrats-party-leader-says-arab-party-could-be-part-government\"> Yair Golan</a>, which won just eight seats, has <a href=\"https://archive.ph/59hYa\">equivocated</a> over the creation of a Palestinian state, with Golan calling recent moves to recognise Palestine by Britain, Canada and France “a destructive move for Israel's security”. </p>\n\n<p>Whatever the eventual ruling coalition, there is no Jewish partner to be found in Israeli politics for the two-state solution that western capitals have been backing ever more frantically, supposedly as their contribution to ending Israel’s dispossession and slaughter of the Palestinian people.</p>\n\n<p>More likely, parts of the opposition may already be considering joining Netanyahu inside a Jewish unity government, setting aside their personal antipathies with him, rather than engage meaningfully with the Palestinian parties. </p>\n\n<p>Eisenkot is <a href=\"https://www.palestinechronicle.com/eisenkot-sets-four-conditions-for-broad-zionist-government-what-are-they/\">reported</a> to have imposed conditions for what he has called a \"broad Zionist government\" - conditions he knows the Palestinian parties cannot accept, including recognising Israel as a \"Jewish and democratic state\" and declaring Hamas a terrorist organisation.</p>\n\n<p>If the opposition bloc spurns the Palestinian parties, as seems all but inevitable, Israel could be plunged into a series of general elections to try to break the deadlock between the Jewish parties - as happened between 2019 and 2022. </p>\n\n<p>Netanyahu has lost no time preparing the ground for those elections - by yet again engaging in incendiary incitement.</p>\n\n<p>He has <a href=\"https://www.middleeasteye.net/news/qatar-rejects-ridiculous-israels-likud-claims-election-interference\">alleged</a>, without evidence of course, that the Palestinian parties \"stole\" the election. </p>\n\n<p>Israel’s security services - both Israel’s secret police, the Shin Bet, and its main spy agency, the Mossad - have been marshalled to <a href=\"https://www.aljazeera.com/news/2026/11/2/israeli-officials-say-results-stand-as-netanyahu-claims-election-stolen\">investigate </a>Netanyahu’s preposterous claim that Palestinian \"citizens\" turned out in such large numbers only because the Gulf state of<a href=\"https://www.middleeasteye.net/countries/qatar\"> Qatar</a> bribed them to vote.</p>\n\n<p>A statement from his Likud party last week <a href=\"https://archive.ph/j58Wb\">described</a> the Palestinian parties’ electoral success as \"a terror attack on democracy meant to lead to a foreign takeover of the Knesset [and] the Islamization of Israel”. </p>\n\n<p>Moshe Feiglin, one of Netanyahu’s allies,<a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/far-right-zehut-party-leader-calls-israel-annul-election-results\"> demanded</a> that Israel hold fresh elections, this time with paramilitary police forces stationed at polling stations that serve Palestinian “citizens”. </p>\n\n<p>Channel 14 TV <a href=\"https://archive.ph/j58Wb\">dubbed</a> the Palestinian parties’ success the \"Ballot Box Terror Affair\".</p>\n\n<p>As an editorial in the liberal Haaretz newspaper <a href=\"https://www.haaretz.com/opinion/editorial/2026-10-30/ty-article/netanyahu-is-making-arab-israelis-right-to-vote-a-crime/000001a1-8c8d-dd01-a9ed-afafd81e0000\">observed</a>: \"Arab citizens have spent four years being treated as enemies by the national security minister [Ben Gvir]. Now, Netanyahu is trying to make their most basic right - the right to vote - into a crime.\" </p>\n\n<h3>Zionism is racism</h3>\n\n<p>As western media pore over the fallout from the election, it is easy to overlook the big picture. Netanyahu, wanted by the International Criminal Court (ICC) for crimes against humanity in starving Gaza’s population, won the largest share of the vote last week. </p>\n\n<p>He is still Israel’s most popular politician.</p>\n\n<p>Any government that might emerge from the current post-election talks - even were it to be supported by the Palestinian parties - would be dominated by the extreme right. An opposition-led coalition will be no less hawkish and vehemently hostile to the Palestinians, whether those under occupation or those with Israeli “citizenship”, than a Netanyahu-led one. </p>\n\n<p>Although this was the first election since Israel launched its genocidal rampage through Gaza in late 2023, <a href=\"https://www.haaretz.com/opinion/2026-11-01/ty-article-opinion/.premium/israels-left-can-live-with-genocide-governing-with-arabs-is-another-matter/000001a1-93a3-d125-a3b1-f7e7ec870000\">debate about</a> the genocide was absent from the campaign trail - as was talk of the intensifying pogroms by settler terrorists on Palestinian communities in the West Bank.</p>\n\n<blockquote>\n<p>There is an absolute Jewish consensus that Israel should be a Middle East Sparta, terrorising and slaughtering its neighbours</p>\n</blockquote>\n\n<p>These are non-issues. There is an absolute Jewish consensus that Israel should be a Middle East Sparta, terrorising and slaughtering its neighbours.</p>\n\n<p>And if Netanyahu senses he may lose his grip on power, he has every incentive to step up the bombing of Gaza and restart his war of aggression on Iran. This master politician understands how well that will play with most Israeli Jews.</p>\n\n<p>Meanwhile, <a href=\"https://mondoweiss.net/2026/02/new-israeli-poll-shows-young-jewish-voters-most-right-wing-fanatically-religious-and-pro-genocide-in-israeli-history/\">a poll</a> earlier this year showed that Israel’s young are more fanatically rightwing and fervently religious than ever. Only 5 percent identify as leftwing. </p>\n\n<p>Channel 12 invited into its studios a representative sample of these 18- to 21-year-olds. Out of 12, 11 answered that they were against Palestinian parties being allowed to sit in the parliament – let alone join a government.</p>\n\n<p>These new voters are gradually shifting Israeli politics ever further to the far right. </p>\n\n<p>This election was stark confirmation that Britain’s Green party was decisively right to<a href=\"https://www.middleeasteye.net/opinion/whats-shameful-no-party-greens-called-zionism-racist\"> adopt a new policy</a> last month at its conference that declared Zionism - the political ideology underpinning Israel as a Jewish state - to be racist. </p>\n\n<p>It was the warped logic of Zionism, not some need for security, that propelled Israel into levelling Gaza and killing and maiming many tens of thousands of Palestinian children. </p>\n\n<p>And it is the same racist logic that makes it impossible for Israel’s Jewish parties to reach a compromise with the Palestinian minority to oust Netanyahu.</p>\n\n<p>The overwhelming majority in Israel is bent on the eradication of the Palestinians. Western politicians and media stubbornly cling to the idea that Israel’s racist, genocidal behaviour is peculiar to Netanyahu, and can be fixed by an election.</p>\n\n<p>The next weeks will prove, once again, how wrong they are.</p>\n\n<p><em>The views expressed in this article belong to the author and do not necessarily reflect the editorial policy of Middle East Eye.</em></p>\n</div>\n                  <div class=\"field field-field-topic\"><a href=\"https://www.middleeasteye.net/topics/israel-genocide-gaza\" hreflang=\"en\">Israel's genocide in Gaza</a></div>\n                  <div class=\"field field-field-landing-title\">One thing unites all Israel’s Zionist parties: Preserving apartheid at all costs</div>\n                  <div class=\"field field-field-section\"><a href=\"https://www.middleeasteye.net/opinion/all\" hreflang=\"en\">Opinion</a></div>\n        <div class=\"field field-field-post-date-override\">\n    <div>Post Date Override</div>\n              <div>0</div>\n          </div>\n  <div class=\"field field-field-update-date-override\">\n    <div>Update Date</div>\n              <div><time datetime=\"2020-05-04T21:29:16+01:00\">Mon, 05/04/2020 - 21:29</time>\n</div>\n          </div>\n  <div class=\"field field-field-update-date-check\">\n    <div>Update Date Override</div>\n              <div>0</div>\n          </div>\n\n  </div>\n  \n</article>",
-      "link": "https://www.middleeasteye.net/opinion/israels-election-shows-its-democracy-sham-west-cant-stop-buying-lie",
-      "published": "Tue, 03 Nov 2026 12:34:42 +0000",
-      "source": "Middle East Eye"
-    },
-    {
-      "title": "Virgin Media O2 to cut thousands of jobs as it plans £800m cost savings",
-      "summary": "<p>Up to 25% of 16,000 workforce could go as telecoms group says it will increase use of AI in areas including customer service</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/nov/03/saudi-oil-company-profits-australian-central-bank-rates-brent-crude-crypto-hack-energy-prices-latest-news-updates\">Business live – latest updates</a></p></li></ul><p>Virgin Media O2 is to cut thousands of jobs in an £800m cost-cutting drive as the telecommunications company aims to tackle its £22bn debt pile.</p><p>VMO2, which is jointly owned by Liberty Global and Telefónica, said £300m of the savings target will come from job cuts that will reduce the company’s employee wage bill by 30% over the next two years.</p> <a href=\"https://www.theguardian.com/business/2026/nov/03/virgin-media-o2-cut-jobs-cost-savings-telecoms-ai\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/business/2026/nov/03/virgin-media-o2-cut-jobs-cost-savings-telecoms-ai",
-      "published": "Tue, 03 Nov 2026 12:34:21 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Grain under fire: Russian, Ukrainian Black Sea attacks threaten food supply",
-      "summary": "Renewed strikes on Black Sea shipping imperil grain exports, drive up food prices and deepen global food insecurity.",
-      "link": "https://www.aljazeera.com/news/2026/11/3/disruptions-of-black-sea-grain-exports-spike-global-prices?traffic_source=rss",
-      "published": "Tue, 03 Nov 2026 12:10:47 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Israeli military spokesperson denies involvement in Qeshm Island attack",
-      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/israeli-military-spokesperson-denies-involvement-qeshm-island-attack\" rel=\"bookmark\">\n<span class=\"field field-title\">Israeli military spokesperson denies involvement in Qeshm Island attack</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>An Israeli military spokesperson has told AFP that Israel was not involved in the reported US attacks on Iran's Qeshm Island.</p>\n</div>\n      \n  </div>\n\n</article>",
-      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/israeli-military-spokesperson-denies-involvement-qeshm-island-attack",
-      "published": "Tue, 03 Nov 2026 12:08:53 +0000",
-      "source": "Middle East Eye"
-    },
-    {
-      "title": "ELPI nets double Middle East offshore vessel deal",
-      "summary": "<p>Indonesian offshore vessel operator PT Pelayaran Nasional Ekalya Purnamasari (ELPI) has secured a three-year charter contract worth $12.04m with UAE-based Atlantic Maritime Group. The contract covers two crewboat vessels, Kazo Agility 2 and Kazo Agility 3, which will support offshore hook-up and transportation activities in Saudi Arabia, the United Arab Emirates, Qatar, and Bahrain. Indonesian …</p>\n</p>",
-      "link": "https://splash247.com/elpi-nets-double-middle-east-offshore-vessel-deal/",
-      "published": "Tue, 03 Nov 2026 12:00:00 +0000",
-      "source": "Splash247"
-    },
-    {
-      "title": "UK’s most polluting power plant could power country’s largest AI datacentre",
-      "summary": "<p>Drax’s FTSE 250 owner strikes £20bn deal to build infrastructure in what it says is site’s ‘next chapter’</p><ul><li><p><a href=\"https://www.theguardian.com/business/live/2026/nov/03/saudi-oil-company-profits-australian-central-bank-rates-brent-crude-crypto-hack-energy-prices-latest-news-updates\">Business live – latest updates</a></p></li></ul><p>Britain’s most polluting power plant could soon power the country’s largest datacentre under a £20bn deal to build AI infrastructure on the site of the Drax power plant in North Yorkshire.</p><p>The power plant’s FTSE 250 owner has struck a deal with the infrastructure investor Brookfield and ⁠and the AI infrastructure platform Radiant to develop a datacentre with an eventual capacity of more than 1 gigawatt that could begin operations by early 2028.</p> <a href=\"https://www.theguardian.com/business/2026/nov/03/uk-drax-power-station-ai-datacentre\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/business/2026/nov/03/uk-drax-power-station-ai-datacentre",
-      "published": "Tue, 03 Nov 2026 11:55:28 GMT",
-      "source": "The Guardian"
-    },
-    {
       "title": "US strikes Iranian island ahead of midterm elections",
       "summary": "US officials described the attacks on Qeshm Island as limited and defensive, according to CBS, the BBC's US partner.",
       "link": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
@@ -140,164 +308,17 @@
       "source": "BBC News"
     },
     {
-      "title": "IRGC claims three tankers exploded after hitting naval mines in Hormuz",
-      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/irgc-claims-three-tankers-exploded-after-hitting-naval-mines-hormuz\" rel=\"bookmark\">\n<span class=\"field field-title\">IRGC claims three tankers exploded after hitting naval mines in Hormuz</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Iran's Islamic Revolutionary Guard (IRGC) has said that three tankers have exploded after a collision with naval mines in the Strait of Hormuz. The IRGC said the tankers were trying to cross the Strait without permission from Tehran.</p>\n\n<p>It added that the ships had turned off their geolocation tracking systems as they crossed the southern part of the Strait. There are no reports of any casualties as yet.</p>\n\n\n</div>\n      \n  </div>\n\n</article>",
-      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-claims-three-tankers-exploded-after-hitting-naval-mines-hormuz",
-      "published": "Tue, 03 Nov 2026 11:10:52 +0000",
-      "source": "Middle East Eye"
-    },
-    {
-      "title": "Shadow Fleet Interdiction Starts With Flag Verification",
-      "summary": "What Factors Go Into a Shadow Fleet Boarding Decision Six times since September 2025, French Navy boarding teams have gone aboard a suspected shadow fleet tanker. The latest came on October 12, 2026, when the Marine Nationale boarded DF PEAK more than 450 nautical miles south of Réunion on suspicion of sailing under a false ...",
-      "link": "https://www.hellenicshippingnews.com/shadow-fleet-interdiction-starts-with-flag-verification/",
-      "published": "Tue, 03 Nov 2026 11:00:59 +0000",
-      "source": "Hellenic Shipping News"
-    },
-    {
-      "title": "LNG shipping stocks: Back toward 230 points",
-      "summary": "The UP World LNG Shipping Index halted its slide and gained 7.92 points (3.58%) to close at 229.39, back within striking distance of the 230 mark, while the S&P 500 lost 0.57%. The rebound was broad: breadth was 13:7, the median rose 0.99% and the weighted index (wUPI) added 1.8%, all on still-low volume. New ...",
-      "link": "https://www.hellenicshippingnews.com/lng-shipping-stocks-back-toward-230-points/",
-      "published": "Tue, 03 Nov 2026 11:00:53 +0000",
-      "source": "Hellenic Shipping News"
-    },
-    {
-      "title": "Hong Kong’s maritime future bodes well",
-      "summary": "The release of the Hong Kong Special Administrative Region’s first five-year plan is an important moment for the city’s development. For the maritime sector, it is especially significant: It places Hong Kong’s evolution as an international maritime center within a longer-term policy framework, and gives clearer direction for high-quality growth. The central government has consistently ...",
-      "link": "https://www.hellenicshippingnews.com/hong-kongs-maritime-future-bodes-well/",
-      "published": "Tue, 03 Nov 2026 11:00:51 +0000",
-      "source": "Hellenic Shipping News"
-    },
-    {
-      "title": "VesselFront receives Bureau Veritas Type approval for its VesselFront.AI Weather-Routing software",
-      "summary": "VesselFront, a maritime software company based in Piraeus, announces that its Vesselfront.AI software has received Type Approval from the international classification society Bureau Veritas. The approval certifies the software’s capabilities in fuel consumption calculation, emissions forecasting and support weather routing decisions. Vessels running the software can be assigned the additional class notation SMART EnE3-Em-W (rule ...",
-      "link": "https://www.hellenicshippingnews.com/vesselfront-receives-bureau-veritas-type-approval-for-its-vesselfront-ai-weather-routing-software/",
-      "published": "Tue, 03 Nov 2026 11:00:49 +0000",
-      "source": "Hellenic Shipping News"
-    },
-    {
-      "title": "Keppel secures $51m extension for Saudi jackup",
-      "summary": "<p>Singapore’s Keppel has secured a five-year bareboat charter extension worth approximately $51m for its AD110 jackup rig with Saudi drilling contractor Arabian Drilling Company. The agreement, signed through Keppel subsidiary RigCo Holding, will run from 2026 to 2030, directly continuing the existing charter. The rig is currently operating offshore Saudi Arabia for an undisclosed Arabian …</p>\n</p>",
-      "link": "https://splash247.com/keppel-secures-51m-extension-for-saudi-jackup/",
-      "published": "Tue, 03 Nov 2026 11:00:00 +0000",
-      "source": "Splash247"
-    },
-    {
-      "title": "Qatari foreign minister spokesperson: Only path forward is diplomacy",
-      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/qatari-fm-spokesman-only-path-forward-diplomacy\" rel=\"bookmark\">\n<span class=\"field field-title\">Qatari foreign minister spokesperson: Only path forward is diplomacy</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Qatari foreign ministry spokesperson Majed al-Asari has said US-Iran mediation efforts are ongoing, stressing that the only path forward is through diplomacy.</p>\n\n<p>He warned that renewed hostilities risked derailing the talks, adding that all GCC states agree that the conflict must not be allowed to escalate further.</p>\n\n<p>He also denounced threats to Qatari vessels, emphasising that freedom of navigation is non-negotiable.</p>\n</div>\n      \n  </div>\n\n</article>",
-      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/qatari-fm-spokesman-only-path-forward-diplomacy",
-      "published": "Tue, 03 Nov 2026 10:57:03 +0000",
-      "source": "Middle East Eye"
-    },
-    {
-      "title": "US hits Qeshm Island, Pezeshkian signals more diplomacy: Iran war latest",
-      "summary": "With the first US attack on Qeshm Island since June, Iran and the US are on parallel tracks towards both peace and war.",
-      "link": "https://www.aljazeera.com/news/2026/11/3/us-hits-qeshm-island-pezeshkian-signals-more-diplomacy-iran-war-latest?traffic_source=rss",
-      "published": "Tue, 03 Nov 2026 10:40:34 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "US conducts series of ‘defensive strikes’ against Iran",
-      "summary": "The US has carried out a series of ‘defensive strikes’ on Iranian locations near Hormuz, with explosions heard on Qeshm.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/3/us-conducts-series-of-defensive-strikes-against-iran?traffic_source=rss",
-      "published": "Tue, 03 Nov 2026 10:39:36 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Saudi Aramco Profit Beats Expectations as Oil Prices Soar",
-      "summary": "Saudi Aramco beat analyst estimates of its third-quarter profit as higher crude oil and fuel prices offset the impact of oil supply disruptions due to attacks on its assets. The Saudi state oil giant on Tuesday reported an adjusted net income of $31.2 billion for the third quarter, up from $28.6 billion for the same period last year, and easily beating a $28.7-billion analyst consensus estimate compiled by Bloomberg. Despite the attacks on the East-West onshore oil pipeline bypassing the Strait of Hormuz and other attacks on Aramco infrastructure…",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Aramco-Profit-Beats-Expectations-as-Oil-Prices-Soar.html",
-      "published": "Tue, 03 Nov 2026 03:45:00 -0600",
-      "source": "OilPrice"
-    },
-    {
-      "title": "Ernst Russ offloads another feeder in fleet reshuffle",
-      "summary": "<p>German shipowner Ernst Russ has sold another feeder containership, continuing to trim its older boxship exposure while building up its tanker and multipurpose fleet. The Frankfurt-listed company has confirmed the sale of the 2007-built, 803 teu Mirror, without disclosing the buyer and price. The vessel is expected to change hands in January 2027. The disposal …</p>\n</p>",
-      "link": "https://splash247.com/ernst-russ-offloads-another-feeder-in-fleet-reshuffle/",
-      "published": "Tue, 03 Nov 2026 09:42:00 +0000",
-      "source": "Splash247"
-    },
-    {
-      "title": "Efficiency and the new economics of shipping’s decarbonisation",
-      "summary": "<p>Oskar Levander from Kongsberg Maritime writes for Splash today. For almost two decades, efficiency has been routine good practice in shipping. Owners have cut fuel burn and improved hull and propeller performance. These useful measures were often treated in isolation as cost control. However, this approach no longer fits the complexity facing the sector, nor …</p>\n</p>",
-      "link": "https://splash247.com/efficiency-and-the-new-economics-of-shippings-decarbonisation/",
-      "published": "Tue, 03 Nov 2026 09:31:53 +0000",
-      "source": "Splash247"
-    },
-    {
-      "title": "Iran, US far from deal to end war as Tehran threatens response to US strikes",
-      "summary": "<img align=\"right\" alt=\"Iranians motorists drive past a poster of Iran\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_683,w_1024/744682\" /><br />Mediators are working to bridge gaps between Tehran and Washington, as overnight US strikes on Qeshm Island and Iran's downing of a US drone threaten to complicate negotiations.<br />",
-      "link": "https://www.jpost.com/middle-east/iran-news/article-913661",
-      "published": "Tue, 03 Nov 2026 08:58:50 GMT",
-      "source": "Jerusalem Post"
-    },
-    {
-      "title": "CVR Energy Nears $4 Billion Refinery Deal With Marathon",
-      "summary": "Marathon Petroleum is nearing a deal for the sale of several refineries to CVR Energy, with the sale expected to be worth $4 billion, the Wall Street Journal has reported, citing unnamed sources. The deal could be announced later today. The refining sector has become the star of the oil industry this year as the wars in the Persian Gulf and Russia-Ukraine have severely crippled global fuel supply, prompting refiners outside the war zones to boost their output. The market situation has driven a surge in refining margins to all-time highs, making…",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/CVR-Energy-Nears-4-Billion-Refinery-Deal-With-Marathon.html",
-      "published": "Tue, 03 Nov 2026 02:15:00 -0600",
-      "source": "OilPrice"
-    },
-    {
-      "title": "Oil Prices Bounce Back Following Reports of U.S. Strikes on Iran",
-      "summary": "After shedding 7% yesterday, crude oil prices inched up earlier today following a Wall Street Journal report about a U.S. strike on Iran’s Qeshm Island. Brent crude traded at $105.26 per barrel at the time of writing, and West Texas Intermediate traded at $97.07 per barrel, after the WSJ cited unnamed U.S. officials as saying Iran’s Qeshm Island became a target in what they said was the latest in a series of “ limited strikes Washington has secretly carried out” over the past few weeks on Iran. The report counters earlier…",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Bounce-Back-Following-Reports-of-US-Strikes-on-Iran.html",
-      "published": "Mon, 02 Nov 2026 23:25:00 -0600",
-      "source": "OilPrice"
-    },
-    {
-      "title": "US carries out 'defensive' strikes on Qeshm Island after Iran downs drone, officials tell 'Post'",
-      "summary": "<img align=\"right\" alt=\"An aerial view of the island of Qeshm, separated from the Iranian mainland by the Clarence Strait, December 10, 2023. (photo credit: REUTERS/STRINGER/FILE PHOTO)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_4000,w_6000/744648\" title=\"An aerial view of the island of Qeshm, separated from the Iranian mainland by the Clarence Strait, December 10, 2023. (photo credit: REUTERS/STRINGER/FILE PHOTO)\" /><br />US officials said the strikes were defensive measures against Iranians using surface-to-air missiles against US assets, and did not appear to signal a resumption of major combat operations.<br />",
-      "link": "https://www.jpost.com/middle-east/iran-news/article-913644",
-      "published": "Tue, 03 Nov 2026 03:06:38 GMT",
-      "source": "Jerusalem Post"
+      "title": "From Naval to Underwater Capabilities",
+      "summary": "<p>Connecting adaptable naval platforms, underwater systems and layered protection offers a more flexible response to threats that no longer respect the waterline. Sponsored by A maritime challenge across domains Maritime security is no longer defined solely by the contest between fleets. A naval base may face aerial drones, fast surface craft, combat divers and underwater ...</p>\n<p>The post <a href=\"https://www.navalnews.com/naval-news/2026/11/from-naval-to-underwater-capabilities/\">From Naval to Underwater Capabilities</a> appeared first on <a href=\"https://www.navalnews.com\">Naval News</a>.</p>",
+      "link": "https://www.navalnews.com/naval-news/2026/11/from-naval-to-underwater-capabilities/",
+      "published": "Tue, 03 Nov 2026 08:00:00 +0000",
+      "source": "Naval News"
     },
     {
       "title": "US carries out 'limited strikes' on Qeshm Island in Iran",
       "summary": "The US military has carried out \"limited strikes\" on Qeshm Island in Iran - hours before the midterms are due to take place.",
       "link": "https://news.sky.com/story/us-carries-out-limited-strikes-on-qeshm-island-in-iran-13607337",
       "published": "Tue, 03 Nov 2026 03:02:00 +0000",
-      "source": "Sky News"
-    },
-    {
-      "title": "Questions Mount Over Venezuela’s Biggest Oil Deal",
-      "summary": "“The biggest oil deal in world history” between the Trump Administration and North American Blue Energy Partners may not live up to the hype as the privately held and previously little-known company could face steep challenges in developing Venezuela’s huge oil resources, Reuters reported, citing more than a dozen oil workers, contractors, and experts from the industry. Following the capture of Nicolas Maduro by U.S. forces in January, the U.S.-backed interim Venezuelan government has made changes to the legal, regulatory, and…",
-      "link": "https://oilprice.com/Energy/Crude-Oil/Questions-Mount-Over-Venezuelas-Biggest-Oil-Deal.html",
-      "published": "Mon, 02 Nov 2026 19:00:00 -0600",
-      "source": "OilPrice"
-    },
-    {
-      "title": "Alternative-Fuel Ship Orders Outpace Port Bunkering Infrastructure, Lloyd’s Register Warns",
-      "summary": "The global shipping industry is ordering alternative-fuel vessels faster than ports can develop the infrastructure needed to fuel them, according to a new report from Lloyd’s Register (LR), highlighting a...",
-      "link": "https://gcaptain.com/alternative-fuel-ship-orders-outpace-port-bunkering-infrastructure-lloyds-register-warns/",
-      "published": "Mon, 02 Nov 2026 21:06:16 +0000",
-      "source": "gCaptain"
-    },
-    {
-      "title": "How Israel hopes third war with Iran will be different than Gaza - analysis",
-      "summary": "<img align=\"right\" alt=\"Smoke and flames rise at the site of airstrikes on an oil depot in Tehran on March 7, 2026.  (photo credit: Sasan / Middle East Images / AFP via Getty Images)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_2870,w_4305/710763\" title=\"Smoke and flames rise at the site of airstrikes on an oil depot in Tehran on March 7, 2026.  (photo credit: Sasan / Middle East Images / AFP via Getty Images)\" /><br />Some top officials hope unique advantages held over Iran will avoid the repeat of endless “rounds” similar to what Israel has had with Hamas.<br />",
-      "link": "https://www.jpost.com/israel-news/defense-news/article-913615",
-      "published": "Mon, 02 Nov 2026 18:59:33 GMT",
-      "source": "Jerusalem Post"
-    },
-    {
-      "title": "Broad Industry Coalition Urges Permanent Suspension of Costly U.S. Port Fees on China-Linked Ships",
-      "summary": "A broad coalition of maritime, agricultural, manufacturing, retail and logistics organizations is urging the Trump administration to permanently suspend U.S. port fees targeting China-linked vessels, warning that reinstating the charges...",
-      "link": "https://gcaptain.com/broad-industry-coalition-urges-permanent-suspension-of-costly-u-s-port-fees-on-china-linked-ships/",
-      "published": "Mon, 02 Nov 2026 18:20:44 +0000",
-      "source": "gCaptain"
-    },
-    {
-      "title": "Iran Says Contacts Over Ending War Continue After Talks Finish With No Breakthrough",
-      "summary": "Contacts between Iran and the United States to end their eight-month war are continuing, Tehran said on Monday, after days of Iranian talks with Qatari mediators ended with altered proposals but no breakthrough.",
-      "link": "https://gcaptain.com/iran-says-contacts-over-ending-war-continue-after-talks-finish-with-no-breakthrough/",
-      "published": "Mon, 02 Nov 2026 18:03:34 +0000",
-      "source": "gCaptain"
-    },
-    {
-      "title": "'Everything is destroyed': Hackers target refrigerators in new cyber attacks",
-      "summary": "Cyber hackers have targeted fridges and freezers in supermarkets in several European countries including Ireland – causing temperatures to increase and food to spoil.",
-      "link": "https://news.sky.com/story/hackers-target-refrigerators-in-ireland-and-european-countries-in-new-wave-of-cyber-attacks-13607013",
-      "published": "Mon, 02 Nov 2026 10:39:00 +0000",
       "source": "Sky News"
     },
     {
@@ -313,25 +334,9 @@
       "link": "https://www.bbc.co.uk/news/articles/c3qjn8117kwjo?at_medium=RSS&at_campaign=rss",
       "published": "Mon, 02 Nov 2026 06:00:54 GMT",
       "source": "BBC News"
-    },
-    {
-      "title": "Two in court over alleged Iran-linked plot at RAF Fairford",
-      "summary": "Mohmed Abdulkarim and Nouman Essghir, both 24, appear at Westminster Magistrates' Court on Tuesday.",
-      "link": "https://www.bbc.co.uk/news/articles/cqly3v5vz4kko?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 27 Oct 2026 18:32:54 GMT",
-      "source": "BBC News"
     }
   ],
   "history": [
-    {
-      "date": "2026-10-20 10:44",
-      "threat_level": "CRITICAL",
-      "value": 4,
-      "sentiment_score": 92,
-      "incidents": 31,
-      "brent": 111.51,
-      "usd_czk": null
-    },
     {
       "date": "2026-10-21 04:59",
       "threat_level": "CRITICAL",
@@ -592,22 +597,31 @@
       "incidents": 38,
       "brent": 105.2,
       "usd_czk": 21.711
+    },
+    {
+      "date": "2026-11-04 13:33",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 78,
+      "incidents": 40,
+      "brent": 101.89,
+      "usd_czk": 21.776
     }
   ],
   "locations": [
+    {
+      "key": "Yemen",
+      "lat": 15.5527,
+      "lon": 48.5164,
+      "name_cs": "Jemen",
+      "name_en": "Yemen"
+    },
     {
       "key": "Hormuz",
       "lat": 26.5667,
       "lon": 56.25,
       "name_cs": "Hormuzský průliv",
       "name_en": "Strait of Hormuz"
-    },
-    {
-      "key": "Saudi Arabia",
-      "lat": 23.8859,
-      "lon": 45.0792,
-      "name_cs": "Saúdská Arábie",
-      "name_en": "Saudi Arabia"
     },
     {
       "key": "Iran",
@@ -648,75 +662,19 @@
       "auto": true
     },
     {
-      "key": "Ohio",
-      "lat": 40.4,
-      "lon": -82.8,
-      "name_cs": "Ohio",
-      "name_en": "Ohio",
+      "key": "Michigan",
+      "lat": 44.3,
+      "lon": -85.6,
+      "name_cs": "Michigan",
+      "name_en": "Michigan",
       "auto": true
     },
     {
-      "key": "North Carolina",
-      "lat": 35.6,
-      "lon": -79.8,
-      "name_cs": "Severní Karolína",
-      "name_en": "North Carolina",
-      "auto": true
-    },
-    {
-      "key": "Canada",
-      "lat": 56.1,
-      "lon": -106.3,
-      "name_cs": "Kanada",
-      "name_en": "Canada",
-      "auto": true
-    },
-    {
-      "key": "Venezuela",
-      "lat": 7,
-      "lon": -66,
-      "name_cs": "Venezuela",
-      "name_en": "Venezuela",
-      "auto": true
-    },
-    {
-      "key": "Brazil",
-      "lat": -14.2,
-      "lon": -51.9,
-      "name_cs": "Brazílie",
-      "name_en": "Brazil",
-      "auto": true
-    },
-    {
-      "key": "Ukrain",
-      "lat": 50.45,
-      "lon": 30.52,
-      "name_cs": "Ukrajina",
-      "name_en": "Ukrain",
-      "auto": true
-    },
-    {
-      "key": "Russia",
-      "lat": 55.75,
-      "lon": 37.62,
-      "name_cs": "Rusko",
-      "name_en": "Russia",
-      "auto": true
-    },
-    {
-      "key": "Lebanon",
-      "lat": 33.9,
-      "lon": 35.9,
-      "name_cs": "Libanon",
-      "name_en": "Lebanon",
-      "auto": true
-    },
-    {
-      "key": "Qatar",
-      "lat": 25.3,
-      "lon": 51.2,
-      "name_cs": "Katar",
-      "name_en": "Qatar",
+      "key": "Turkey",
+      "lat": 39,
+      "lon": 35,
+      "name_cs": "Turecko",
+      "name_en": "Turkey",
       "auto": true
     },
     {
@@ -728,19 +686,19 @@
       "auto": true
     },
     {
-      "key": "Hong Kong",
-      "lat": 22.3,
-      "lon": 114.2,
-      "name_cs": "Hongkong",
-      "name_en": "Hong Kong",
+      "key": "Japan",
+      "lat": 36.2,
+      "lon": 138.3,
+      "name_cs": "Japonsko",
+      "name_en": "Japan",
       "auto": true
     },
     {
-      "key": "Indonesia",
-      "lat": -2.5,
-      "lon": 118,
-      "name_cs": "Indonésie",
-      "name_en": "Indonesia",
+      "key": "India",
+      "lat": 20.6,
+      "lon": 79,
+      "name_cs": "Indie",
+      "name_en": "India",
       "auto": true
     },
     {
@@ -752,6 +710,14 @@
       "auto": true
     },
     {
+      "key": "Australia",
+      "lat": -25.3,
+      "lon": 133.8,
+      "name_cs": "Austrálie",
+      "name_en": "Australia",
+      "auto": true
+    },
+    {
       "key": "London",
       "lat": 51.5,
       "lon": -0.12,
@@ -760,27 +726,11 @@
       "auto": true
     },
     {
-      "key": "Germany",
-      "lat": 52.52,
-      "lon": 13.4,
-      "name_cs": "Berlín",
-      "name_en": "Germany",
-      "auto": true
-    },
-    {
-      "key": "France",
-      "lat": 48.86,
-      "lon": 2.35,
-      "name_cs": "Paříž",
-      "name_en": "France",
-      "auto": true
-    },
-    {
-      "key": "South Africa",
-      "lat": -30.6,
-      "lon": 22.9,
-      "name_cs": "Jihoafrická republika",
-      "name_en": "South Africa",
+      "key": "Nigeria",
+      "lat": 9.1,
+      "lon": 8.7,
+      "name_cs": "Nigérie",
+      "name_en": "Nigeria",
       "auto": true
     },
     {
@@ -802,9 +752,9 @@
     "Irák": 5,
     "Bab-el-Mandeb": 30,
     "Suezský průplav": 2,
-    "Yemen": 100,
+    "Yemen": 101,
     "Red Sea": 68,
-    "Hormuz": 95,
+    "Hormuz": 96,
     "Mecca": 39,
     "Saudi Arabia": 100,
     "Oman": 51,
@@ -823,22 +773,22 @@
     "Singapur": 1,
     "Etiopie": 1,
     "Kolumbie": 1,
-    "Washington, D.C.": 5,
+    "Washington, D.C.": 14,
     "Brazílie": 1,
     "Argentina": 1,
     "Izrael": 1,
     "Egypt": 1,
-    "Londýn": 2,
+    "Londýn": 1,
     "Paříž": 2,
     "Súdán": 1,
     "Somálsko": 1,
     "Eritrea": 8,
-    "Iran": 64,
-    "Eilat": 61,
+    "Iran": 65,
+    "Eilat": 62,
     "Maine": 1,
     "Kanada": 1,
     "Venezuela": 1,
-    "Čína": 1,
+    "Čína": 2,
     "Indie": 1,
     "Djibouti": 9,
     "Jeddah": 12,
@@ -846,8 +796,8 @@
     "New York": 2,
     "Chicago": 1,
     "Mexiko": 1,
-    "Turecko": 2,
-    "Austrálie": 2,
+    "Turecko": 1,
+    "Austrálie": 3,
     "Gulf of Aden": 20,
     "Texas": 1,
     "Boston": 1,
@@ -889,17 +839,9 @@
     "key": "Yemen",
     "name_cs": "Jemen",
     "name_en": "Yemen",
-    "count": 100
+    "count": 101
   },
   "archive": [
-    {
-      "date": "2026-10-28 11:54",
-      "threat_level": "HIGH",
-      "security_status_cs": "Bezpečnostní situace v oblasti Blízkého východu a Rudého moře zůstává vysoce napjatá kvůli hrozbám eskalace s Íránem a aktivitám Houthiů. Přestože probíhají diplomatické snahy o otevření Hormuzského průlivu, incidenty jako únik ropy z poškozeného tankeru podtrhují přetrvávající rizika pro námořní logistiku.",
-      "security_status_en": "The security situation in the Middle East and the Red Sea remains highly tense due to escalation threats with Iran and Houthi activities. Although diplomatic efforts are underway to reopen the Strait of Hormuz, incidents like the oil spill from a damaged tanker underline ongoing risks for maritime logistics.",
-      "forecast_cs": "V nejbližších dnech lze očekávat volatilitu na komoditních trzích, zejména v závislosti na vývoji napětí v Perském zálivu a výsledcích politického vyjednávání. Bezpečnostní rizika na námořních trasách zůstanou zvýšená.",
-      "forecast_en": "Over the coming days, volatility in commodity markets can be expected, driven primarily by developments in the Persian Gulf tension and political negotiations. Security risks along maritime routes will remain elevated."
-    },
     {
       "date": "2026-10-29 05:59",
       "threat_level": "CRITICAL",
@@ -1003,24 +945,32 @@
       "security_status_en": "The security situation in the Middle East and key maritime corridors continues to escalate following recent US strikes on Qeshm Island and incidents in the Strait of Hormuz. The threat to global supply chains and maritime shipping remains critical amid Iranian threats of retaliation.",
       "forecast_cs": "V nejbližších dnech lze očekávat vysokou volatilitu cen ropy a komodit v závislosti na íránské reakci na americké údere. Geopolitické napětí v oblasti Perského zálivu a Rudého moře zůstane primárním katalyzátorem trhů.",
       "forecast_en": "High volatility in oil and commodity prices is expected over the coming days depending on Iran's response to US strikes. Geopolitical tensions in the Persian Gulf and Red Sea will remain the primary market catalyst."
+    },
+    {
+      "date": "2026-11-04 13:33",
+      "threat_level": "HIGH",
+      "security_status_cs": "Situace v oblasti Perského zálivu a Rudého moře zůstává vysoce nestabilní po nedávných útocích na ropné tankery v blízkosti Hormuzského průlivu a amerických úderech na ostrov Qeshm. Hrozba pro komerční plavbu a dodávky energií nadále eskaluje v důsledku patové situace mezi USA a Íránem.",
+      "security_status_en": "The situation in the Persian Gulf and Red Sea remains highly volatile following recent attacks on oil tankers near the Strait of Hormuz and US strikes on Qeshm Island. Threats to commercial shipping and energy supplies continue to escalate amid the ongoing standoff between the US and Iran.",
+      "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na trzích s ropou a zemním plynem, poháněnou reakcemi Íránu a USA na výsledky voleb a incidenty v Hormuzském průlivu.",
+      "forecast_en": "Continued volatility in oil and natural gas markets is expected over the coming days, driven by reactions from Iran and the US to election results and Strait of Hormuz incidents."
     }
   ],
-  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× CRITICAL.",
-  "weekly_summary_en": "Over the last 7 recorded analyses: 7× CRITICAL.",
+  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 6× CRITICAL, 1× HIGH.",
+  "weekly_summary_en": "Over the last 7 recorded analyses: 6× CRITICAL, 1× HIGH.",
   "oil_prices": {
     "brent": {
-      "value": 105.2,
-      "date": "2026-11-03",
+      "value": 101.89,
+      "date": "2026-11-04",
       "cached": false
     },
     "wti": {
-      "value": 97.38,
-      "date": "2026-11-03",
+      "value": 94.47,
+      "date": "2026-11-04",
       "cached": false
     }
   },
   "usd_czk": {
-    "value": 21.711,
-    "date": "2026-11-02"
+    "value": 21.776,
+    "date": "2026-11-03"
   }
 }
