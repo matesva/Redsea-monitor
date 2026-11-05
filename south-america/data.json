@@ -1,101 +1,171 @@
 {
-  "last_updated": "2026-11-05T06:08:50Z",
+  "last_updated": "2026-11-05T14:13:21Z",
   "assessment": {
-    "threat_level": "HIGH",
-    "sentiment_score": 68,
-    "security_status_cs": "Region čelí výrazným vlnám politické a ekonomické nestability, včetně paniky v paraguayském bankovním sektoru po převzetí Ueno Bank centrální bankou a pokračující eskalace bezpečnostních incidentů v Kolumbii. Na druhou stranu vítězství Luia Inácia Gamy da Silvy v Brazílii zajišťuje politickou kontinuitu, zatímco inflace v Uruguayi mírně mírně stoupá nad cílenou úroveň.",
-    "security_status_en": "The region is facing significant waves of political and economic instability, including banking sector panic in Paraguay following the central bank's takeover of Ueno Bank and ongoing escalation of security incidents in Colombia. On the other hand, Luiz Inácio Lula da Silva's victory in Brazil ensures political continuity, while Uruguay's inflation edges slightly above its target level.",
+    "threat_level": "MEDIUM",
+    "sentiment_score": 48,
+    "security_status_cs": "Jižní Amerika se potýká s dopady globálních politických posunů, přičemž výsledky amerických midterm voleb oslabují pozici spojenců, jako je argentinský prezident Milei. Bezpečnostní situaci v regionu nadále komplikují operace organizovaného zločinu a pašeráckých sítí, zatímco Brazílie se pod vedením staronového prezidenta Luly snaží prosazovat globální ekologické iniciativy.",
+    "security_status_en": "South America is grappling with the fallout of global political shifts, as US midterm election results weaken the standing of allies such as Argentina's President Milei. The regional security landscape continues to be complicated by organized crime and smuggling networks, while Brazil under returning President Lula pushes for global environmental initiatives.",
     "recommendations": [
       {
         "sector_cs": "Brazilský akciový trh (Bovespa, ETF EWZ)",
         "sector_en": "Brazilian Equities (Bovespa, EWZ ETF)",
         "action": "HOLD",
-        "reason_cs": "Zvolení Luia Inácia Gamy da Silvy přináší stabilitu, ale silná levicová garnitura v Kongresu může zkomplikovat strukturální reformy a fiskální disciplínu.",
-        "reason_en": "Lula's election victory brings political stability, but a rightward-shifting Congress may complicate structural reforms and fiscal discipline."
+        "reason_cs": "Zvolení Luoly a schválení nových produktů, jako je lék Wegovy od Anvisy, přinášejí smíšené ekonomické impulsy a opatrnost investorů.",
+        "reason_en": "Lula's return and regulatory approvals like Anvisa's green light for Wegovy offer mixed economic signals and warrant investor caution."
       },
       {
         "sector_cs": "Argentina (Merval, YPF, MercadoLibre)",
         "sector_en": "Argentina (Merval, YPF, MercadoLibre)",
         "action": "HOLD",
-        "reason_cs": "Výsledky amerických midterms oslabují pozici Donalda Trumpa, což může omezit budoucí finanční podporu pro vládu Javiera Mileie.",
-        "reason_en": "US midterm results weaken Donald Trump's position, which could limit future financial backing for Javier Milei's government."
+        "reason_cs": "Oslabení pozice Donalda Trumpa v USA snižuje vyhlídky na přímou politickou a finanční podporu pro radikální reformy prezidenta Mileie.",
+        "reason_en": "Donald Trump's weakening position in the US reduces prospects for direct political and financial support for President Milei's radical reforms."
       },
       {
         "sector_cs": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
         "sector_en": "Mining: Copper & Lithium (Southern Copper, SQM, Freeport)",
         "action": "HOLD",
-        "reason_cs": "Ceny komodit zůstávají citlivé na globální makroekonomická data a poptávku po date-centrech, přičemž nabídka v Andském regionu je relativně stabilní.",
-        "reason_en": "Commodity prices remain sensitive to global macroeconomic data and data-center demand, while output in the Andean region remains relatively stable."
+        "reason_cs": "Trhy s kovy vyčkávají na stabilizaci globální poptávky a vývoj průmyslové aktivity v Asii, což drží sektor v bočním trendu.",
+        "reason_en": "Metal markets are awaiting global demand stabilization and Asian industrial activity trends, keeping the sector in a sideways pattern."
       },
       {
         "sector_cs": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
         "sector_en": "Oil & Energy (Petrobras, Ecopetrol, Chevron)",
-        "action": "BUY",
-        "reason_cs": "Brazilská Vibra Energia vykázala silné výsledky s maržemi nad odhady, což podporuje energetický sektor navzdory globálním snahám o dekarbonizaci.",
-        "reason_en": "Brazilian fuel giant Vibra Energia posted strong results with above-forecast margins, supporting the energy sector despite global decarbonization roadmaps."
+        "action": "HOLD",
+        "reason_cs": "Brazílie představuje ambiciózní plány na odklon od fosilních paliv, což spolu s volatilitou cen ropy vytváří nejistotu pro energetické giganty.",
+        "reason_en": "Brazil's roadmap for phasing out fossil fuels combined with oil price volatility creates uncertainty for major energy players."
       },
       {
         "sector_cs": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
         "sector_en": "Agriculture & Food (JBS, Bunge, Cosan)",
-        "action": "HOLD",
-        "reason_cs": "Ceny kávy Arabica dosáhly rekordních maxim po ústupu od hrozeb amerických cel na kolumbijský import, což vytváří smíšený sentiment pro exportéry.",
-        "reason_en": "Arabica coffee prices hit record highs following the withdrawal of US tariff threats on Colombian imports, creating mixed sentiment for exporters."
+        "action": "BUY",
+        "reason_cs": "Rekordní ceny arabské kávy po ústupu od celních hrozeb a silná poptávka z Asie podporují marže jihoamerických producentů.",
+        "reason_en": "Record Arabica coffee prices following the withdrawal of tariff threats and robust Asian demand support South American producer margins."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Dění v Jižní Americe má na domácí blue chips zanedbatelný přímý vliv, bankovní a energetický sektor se řídí primárně evropskou monetární politikou.",
-        "reason_en": "South American developments have negligible direct impact on domestic blue chips, with local banking and energy sectors driven primarily by European monetary policy."
+        "reason_cs": "Dění v Jižní Americe má na české blue chips pouze zanedbatelný nepřímý vliv skrze globální komoditní a měnové trendy.",
+        "reason_en": "South American developments have only negligible indirect impact on Czech blue chips via global commodity and currency trends."
       }
     ],
-    "forecast_cs": "V následujících dnech se očekává zvýšená pozornost na paraguayský bankovní sektor po zmrazení aktiv Ueno Bank a reakce trhů na politické dopady amerických midterms v Argentině a regionu.",
-    "forecast_en": "Over the coming days, heightened attention will focus on Paraguay's banking sector following the freezing of Ueno Bank assets and market reactions to the political fallout of the US midterms in Argentina and the region.",
-    "forecast_review_cs": "Předchozí předpověď se částečně potvrdila – intervence v Paraguayi proběhla a vyvolala rozsáhlé protesty, zatímco komoditní trhy reagovaly na vývoj v USA.",
-    "forecast_review_en": "The previous forecast was partially confirmed—the banking intervention in Paraguay occurred and sparked widespread protests, while commodity markets reacted to US developments."
+    "forecast_cs": "V nejbližších dnech se očekává zvýšená pozornost vůči argentinským trhům a politické reakci na oslabení amerických republikánů, zatímco komoditní trhy budou reagovat na vývoj cen ropy a kávy.",
+    "forecast_en": "Over the coming days, heightened attention will focus on Argentine markets and political reactions to the US Republican setback, while commodity markets respond to oil and coffee price trends.",
+    "forecast_review_cs": "Předchozí předpověď o pozornosti vůči paraguayskému bankovnímu sektoru a dopadech amerických midterms se potvrdila.",
+    "forecast_review_en": "The previous forecast regarding attention to Paraguay's banking sector and the fallout from US midterms was confirmed."
   },
   "articles": [
     {
-      "title": "LatAm Expat & Nomad Daily Guide for Thursday, November 5, 2026",
-      "summary": "<p>Your Thursday LatAm guide: Mexico's rate decision is due at 2:00 p.m. ET, Brazil held at 13.75%, and rain may hit Central America.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/latam-expat-nomad-daily-guide-for-thursday-november-5-2026/\">LatAm Expat & Nomad Daily Guide for Thursday, November 5, 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/latam-expat-nomad-daily-guide-for-thursday-november-5-2026/",
-      "published": "Thu, 05 Nov 2026 05:39:27 +0000",
+      "title": "South Africa Results Wait on 106 Complaints",
+      "summary": "<p>15.9 million South Africans voted in local elections. The IEC says 106 complaints remain open and results cannot come before Friday's deadline.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/south-africa-election-results-wait-106-complaints-2026/\">South Africa Results Wait on 106 Complaints</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/south-africa-election-results-wait-106-complaints-2026/",
+      "published": "Thu, 05 Nov 2026 13:42:44 +0000",
       "source": "The Rio Times"
     },
     {
-      "title": "Uruguay Inflation Rises to 4.87% in October",
-      "summary": "<p>Uruguay's inflation rate rose to 4.87% in October 2026, above the central bank's 4.5% target, as fuel and food prices climbed.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/uruguay-inflation-october-2026/\">Uruguay Inflation Rises to 4.87% in October</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/uruguay-inflation-october-2026/",
-      "published": "Thu, 05 Nov 2026 05:37:44 +0000",
+      "title": "Brazil Approves Wegovy Weight-Loss Pill",
+      "summary": "<p>Brazil's regulator Anvisa approved the Wegovy pill on 4 November 2026, its first oral GLP-1 obesity drug, opening a big market to Novo Nordisk.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/brazil-approves-first-obesity-pill-wegovy/\">Brazil Approves Wegovy Weight-Loss Pill</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/brazil-approves-first-obesity-pill-wegovy/",
+      "published": "Thu, 05 Nov 2026 13:27:14 +0000",
       "source": "The Rio Times"
     },
     {
-      "title": "Brazil Fuel Giant Vibra Earns US$450 Million",
-      "summary": "<p>Brazilian fuel distributor Vibra Energia earned about US$450 million in the third quarter, a third above forecasts, as margins widened and debt fell.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/brazil-fuel-giant-vibra-earns-us450-million-q3-2026/\">Brazil Fuel Giant Vibra Earns US$450 Million</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/brazil-fuel-giant-vibra-earns-us450-million-q3-2026/",
-      "published": "Thu, 05 Nov 2026 05:36:01 +0000",
+      "title": "Indonesia’s 5.47% Growth and Latin American Grain",
+      "summary": "<p>Statistics Indonesia reported 5.47% growth for July to September, and soybean and grain exporters in Brazil and Argentina are weighing what it means.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/indonesia-gdp-growth-5-47-latin-america-grain-exporters-2026/\">Indonesia’s 5.47% Growth and Latin American Grain</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/indonesia-gdp-growth-5-47-latin-america-grain-exporters-2026/",
+      "published": "Thu, 05 Nov 2026 13:27:00 +0000",
       "source": "The Rio Times"
     },
     {
-      "title": "Brazilian airport torn apart by violent storm",
-      "summary": "Dramatic footage captured the moment a powerful tornado struck Chapecó Airport in Santa Catarina, Brazil",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/brazilian-airport-torn-apart-by-violent-storm?traffic_source=rss",
-      "published": "Thu, 05 Nov 2026 04:12:11 +0000",
+      "title": "3,000 tarantulas hidden inside luggage seized at Peruvian airport",
+      "summary": "In a peculiar failed smuggling attempt, 3,000 tarantulas were seized at a Peruvian airport.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/3000-tarantulas-hidden-inside-luggage-seized-at-peruvian-airport?traffic_source=rss",
+      "published": "Thu, 05 Nov 2026 12:56:10 +0000",
       "source": "Al Jazeera"
     },
     {
-      "title": "Paraguay bank collapses with half of population’s savings",
-      "summary": "Protests have erupted across Paraguay after Ueno Bank was shut down in the middle of the night over a solvency crisis.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/paraguay-bank-collapses-with-half-of-populations-savings?traffic_source=rss",
-      "published": "Thu, 05 Nov 2026 04:11:45 +0000",
+      "title": "What comes next for Democrats after midterm election victory?",
+      "summary": "With the US midterms over, Democrats are turning to what could become one of their most crowded and unpredictable presidential primaries in decades – a 2028 contest ​likely to expose the party's divide over how to win back the White House. FRANCE 24's International Affairs Commentator Douglas Herbert has more.",
+      "link": "https://www.france24.com/en/video/20261105-what-comes-next-for-democrats-after-midterm-election-victory",
+      "published": "Thu, 05 Nov 2026 12:54:51 GMT",
+      "source": "France 24"
+    },
+    {
+      "title": "Interest rates could go ‘significantly higher’ if oil prices keep climbing — even if the Iran war ends soon",
+      "summary": "Strategists at Bank of America found a dramatic correlation between interest rates and oil prices in the U.S., U.K. and Germany.",
+      "link": "https://www.marketwatch.com/story/interest-rates-could-go-significantly-higher-if-oil-prices-keep-climbing-even-if-the-iran-war-ends-soon-e3493498?mod=mw_rss_topstories",
+      "published": "Thu, 05 Nov 2026 12:33:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "The real test for the artificial-intelligence buildout is what happens in 2028, analysts say",
+      "summary": "JPMorgan’s Michael Cembalest is worried about data center build-outs following midterm elections, and he’s looking two years ahead.",
+      "link": "https://www.marketwatch.com/story/the-real-test-for-the-artificial-intelligence-build-out-is-what-happens-in-2028-analysts-say-c5978e48?mod=mw_rss_topstories",
+      "published": "Thu, 05 Nov 2026 12:23:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Workers strike across France, hundreds of thousands expected to protest",
+      "summary": "Demonstrators are demanding an increase in the minimum wage and higher salaries for all workers, among other reforms.",
+      "link": "https://www.aljazeera.com/news/2026/11/5/workers-strike-across-france-hundreds-of-thousands-expected-to-protest?traffic_source=rss",
+      "published": "Thu, 05 Nov 2026 12:21:13 +0000",
       "source": "Al Jazeera"
     },
     {
-      "title": "World record 53 red cards shown in Brazil football match",
-      "summary": "Referees have red-carded 53 players and staff after a massive brawl in an under-20s football match in Brazil.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/world-record-53-red-cards-shown-in-brazil-football-match?traffic_source=rss",
-      "published": "Thu, 05 Nov 2026 03:48:19 +0000",
+      "title": "Farewell Botox, heels and big hair: Is this the end of MAGA women?",
+      "summary": "PRESS REVIEW – Thursday, November 5: \"Loser\" and \"Reborn in the USA\" are just some of the headlines dominating the international press after the Democrats stomped to victory in the US midterm elections. What impact will their success have on the rest of Donald Trump's presidency? How will he govern with a Democratic-controlled Congress? These are just some of the burning questions after that vote. Also, do the midterm results signal the end of the MAGA woman and the \"Mar-a-Lago face\"?",
+      "link": "https://www.france24.com/en/tv-shows/press-review/20261105-farewell-botox-heels-and-big-hair-is-this-the-end-of-maga-women",
+      "published": "Thu, 05 Nov 2026 12:15:19 GMT",
+      "source": "France 24"
+    },
+    {
+      "title": "US midterms: Elon Musk fails $440 million bet as Republicans lose",
+      "summary": "The 2026 midterm elections were the most expensive on record, with nearly 12 billion dollars spent during the campaign. Tech tycoon Elon Musk was by far the largest individual donor ever, injecting over 440 million dollars of his money to support the GOP. Tuesday's resounding Democratic victory showed the limits of his money, power and influence.",
+      "link": "https://www.france24.com/en/video/20261105-us-midterms-elon-musk-fails-440-million-bet-as-republicans-lose",
+      "published": "Thu, 05 Nov 2026 11:29:35 GMT",
+      "source": "France 24"
+    },
+    {
+      "title": "Visualising how the US midterms turned the map blue",
+      "summary": "Who voted, which seats flipped and who made history? A look at the numbers behind the 2026 US midterm elections.",
+      "link": "https://www.aljazeera.com/news/2026/11/5/visualising-how-the-us-midterms-turned-the-map-blue?traffic_source=rss",
+      "published": "Thu, 05 Nov 2026 11:09:58 +0000",
       "source": "Al Jazeera"
+    },
+    {
+      "title": "How elderly ‘unsung heroes’ powered Lula’s historic fightback in Brazil",
+      "summary": "<p>Older voters praised for helping tip balance in leftwing president’s favour against far-right Flávio Bolsonaro in runoff</p><p>It had been nearly a decade since Celia de Oliveira Soares last voted, and months since the 101-year-old great-grandmother last left her home.</p><p>But on 25 October, when Brazil held what many considered its most <a href=\"https://www.theguardian.com/world/2026/oct/26/brazil-lula-vow-democracy-always-election-win\">important presidential election</a> in decades, relatives helped Soares into a wheelchair and drove her to a nearby school to make sure the far-right candidate, Flávio Bolsonaro, did not prevail.</p> <a href=\"https://www.theguardian.com/world/2026/nov/05/unsung-heroes-behind-lula-surprise-election-triumph-brazil-runoff-bolsonaro\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/nov/05/unsung-heroes-behind-lula-surprise-election-triumph-brazil-runoff-bolsonaro",
+      "published": "Thu, 05 Nov 2026 11:00:21 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Serbian officers arrested for using ‘excessive force’ against protesters",
+      "summary": "Ten suspects are accused of abusing and torturing several people in the garage of a government compound in Belgrade.",
+      "link": "https://www.aljazeera.com/news/2026/11/5/serbian-officers-arrested-for-using-excessive-force-against-protesters?traffic_source=rss",
+      "published": "Thu, 05 Nov 2026 10:34:42 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Ibero-American foreign ministers unanimously back Argentina’s Falklands claim",
+      "summary": "<p>\n\t   \t      <img alt=\"“The Ibero-American community reaffirms, once again, its support for the Argentine Republic,” said Argentine Foreign Minister Pablo Quirno\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112004/100x80/1-cumbre.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Ibero-American foreign ministers meeting in Madrid unanimously approved a special communiqué backing Argentina’s sovereignty claim over the Falklands and calling on Argentina and the United Kingdom to resume negotiations, on the eve of the Hamburg hearing on the Sea Lion oil project.</p>",
+      "link": "https://en.mercopress.com/2026/11/05/ibero-american-foreign-ministers-unanimously-back-argentina-s-falklands-claim?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Thu, 05 Nov 2026 07:21:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "One dead and more than 2,000 affected by El Niño flooding in the Galápagos",
+      "summary": "<p>\n\t   \t      <img alt=\"Authorities announced repairs to the road linking the airport with the island and the removal of debris\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112002/100x80/gala.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Heavy rains linked to the El Niño phenomenon triggered a flash flood on Santa Cruz island in Ecuador’s Galápagos archipelago overnight from Friday to Saturday, leaving one person dead and more than 2,000 affected, according to local mayor Fanny Uribe. Water reached up to three metres deep in some neighbourhoods of Puerto Ayora, the island’s main town.</p>",
+      "link": "https://en.mercopress.com/2026/11/05/one-dead-and-more-than-2-000-affected-by-el-nino-flooding-in-the-galapagos?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Thu, 05 Nov 2026 07:14:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "Paraguay seeks to return part of the savings frozen at Ueno Bank within 24 hours",
+      "summary": "<p>\n\t   \t      <img alt=\"\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112000/100x80/pysen.jpeg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Paraguay’s Senate on Wednesday approved a reform of the deposit guarantee law that would allow customers of Ueno Bank, taken over by the Central Bank on Tuesday, to receive an advance of up to 40 minimum wages, about 121 million guaraníes, within 24 hours of the bank’s resolution. The bill now goes to the Chamber of Deputies, which was due to consider it on Thursday.</p>",
+      "link": "https://en.mercopress.com/2026/11/05/paraguay-seeks-to-return-part-of-the-savings-frozen-at-ueno-bank-within-24-hours?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Thu, 05 Nov 2026 07:08:00 GMT",
+      "source": "MercoPress"
     },
     {
       "title": "Nothing changes: Officials play down fallout from Trump's midterm defeat",
@@ -103,20 +173,6 @@
       "link": "https://www.batimes.com.ar/news/argentina/nothing-changes-officials-play-down-fallout-from-trumps-midterm-defeat.phtml",
       "published": "Thu, 05 Nov 2026 03:36:14 GMT",
       "source": "Buenos Aires Times"
-    },
-    {
-      "title": "How do Americans feel about the midterm results? It depends on how much money they make.",
-      "summary": "Most Americans are “thrilled” or “happy” about the results of this year’s election. Some are especially so.",
-      "link": "https://www.marketwatch.com/story/how-do-americans-feel-about-the-midterm-results-it-depends-on-how-much-money-they-make-e2a43f08?mod=mw_rss_topstories",
-      "published": "Wed, 04 Nov 2026 22:06:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Micron and other chip stocks slip as election results strike at the core of data-center optimism",
-      "summary": "Democratic victories in Texas and other states raise long-term questions about the AI buildout, though they do not “unwind projects already funded.”",
-      "link": "https://www.marketwatch.com/story/micron-and-other-chip-stocks-slip-as-election-results-strike-at-the-core-of-data-center-optimism-b55d19b3?mod=mw_rss_topstories",
-      "published": "Wed, 04 Nov 2026 21:55:00 GMT",
-      "source": "MarketWatch"
     },
     {
       "title": "10-year Treasury yield slides as traders mull over Democrats' midterm victories, oil prices drop",
@@ -140,53 +196,11 @@
       "source": "Buenos Aires Times"
     },
     {
-      "title": "Democrats warn Trump camp to ‘lawyer up’ as anger over corruption drives midterms wipeout",
-      "summary": "Corruption in government was high on the minds of US voters as they dealt US President Donald Trump’s party a chastening defeat in midterm elections, toppling Republican strongholds like dominoes and flipping both chambers of Congress. Triumphant Democrats have warned the Trump administration to “lawyer up”; how they go about tackling alleged graft and abuse of power could shape both their own fortunes and the country’s politics.",
-      "link": "https://www.france24.com/en/americas/20261104-democrats-warn-trump-camp-lawyer-up-anger-over-corruption-drives-midterms-wipeout-gop",
-      "published": "Wed, 04 Nov 2026 18:01:05 GMT",
-      "source": "France 24"
-    },
-    {
-      "title": "'Once-in-a-generation event: Historic election a shocking repudiation of Trump & the MAGA movement'",
-      "summary": "Erin Ogunkeye is pleased to welcome Adam Jentleson, President of the Searchlight Institute and author of Supermajority: How Democrats Can Build Lasting Power, For Jentleson, the Democrats' sweeping midterm victory represents far more than the familiar backlash against an incumbent president. \"This is a once-in-a-generation event.\" But electoral breadth presents a governing dilemma. Can a coalition stretching from progressive reformers to culturally conservative Democrats translate its diversity into legislative action? \"Pluralism is not just a political strategy. It is actually a moral good in a democracy,\" he insists. But electoral breadth presents a governing dilemma. Can a coalition stretching from progressive reformers to culturally conservative Democrats translate its diversity into legislative action? And can a party united by opposition to Trump sustain that unity when confronted with difficult choices over healthcare, immigration, economic inequality and climate change?",
-      "link": "https://www.france24.com/en/once-in-a-generation-event-historic-election-a-shocking-repudiation-of-trump-the-maga-movement",
-      "published": "Wed, 04 Nov 2026 17:49:34 GMT",
-      "source": "France 24"
-    },
-    {
-      "title": "European leaders welcome Democrats' US midterms election win",
-      "summary": "European leaders voiced hopes for a reset with the United States on Wednesday, November 4, after voters delivered a huge midterm election defeat to President Donald Trump and his Republican party. FRANCE 24's Dave Keating has more.",
-      "link": "https://www.france24.com/en/european-leaders-welcome-democrats-us-midterms-election-win",
-      "published": "Wed, 04 Nov 2026 17:00:09 GMT",
-      "source": "France 24"
-    },
-    {
       "title": "The world is reacting to the Democrats' sweeping midterm elections victory",
       "summary": "From Kyiv to Moscow, and Tehran to Tel Aviv, all eyes were on the Democrats' big win as foreign powers weigh how a flipped Congress will affect international relations.",
       "link": "https://www.npr.org/2026/11/04/nx-s1-6028664/world-reacts-midterm-elections",
       "published": "Wed, 04 Nov 2026 07:34:35 -0500",
       "source": "NPR"
-    },
-    {
-      "title": "Democrats retake control of the US Congress in a heavy blow to Trump",
-      "summary": "<p>\n\t   \t      <img alt=\"CBS News projected a Democratic majority in the House shortly after 10 p.m. Eastern time on Tuesday; with dozens of seats still to be decided, Democrats had passed the 218 needed\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111983/100x80/1-uscon.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         The Democratic Party on Tuesday regained control of both the US House of Representatives and the Senate in the midterm elections, winning in Republican strongholds such as Texas, Ohio and Kansas in a heavy blow to President Donald Trump, who will govern for the remaining two years of his term with Congress in opposition hands.</p>",
-      "link": "https://en.mercopress.com/2026/11/04/democrats-retake-control-of-the-us-congress-in-a-heavy-blow-to-trump?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Wed, 04 Nov 2026 09:09:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Paraguay takes over Ueno Bank, with 3 million customers, and freezes its deposits",
-      "summary": "<p>\n\t   \t      <img alt=\"“We proceeded to close the entity; therefore, neither the app, nor the cards, nor any service of the entity is active,” said a member of the Central Bank’s board. Photo: EFE/ Juan Pablo Pino\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111987/100x80/1-ubeno.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Paraguay’s Central Bank on Tuesday took over Ueno Bank, one of the country’s largest banks, after its solvency ratio fell below 50% of the legal minimum, and froze all its assets and liabilities, including the savings of some 3 million customers and more than US$800 million in public funds. The bank immediately suspended all its services.</p>",
-      "link": "https://en.mercopress.com/2026/11/04/paraguay-takes-over-ueno-bank-with-3-million-customers-and-freezes-its-deposits?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Wed, 04 Nov 2026 08:27:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Trump accepts midterm defeat but says Republicans would have won “in a landslide” had he been on the ballot",
-      "summary": "<p>\n\t   \t      <img alt=\"“We’ll work with the Democrats, and we’ll, you know, look forward to working with them. We’ll probably work something out,” he said\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/111986/100x80/djt.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         US President Donald Trump said he accepts the results of the midterm elections, in which Democrats regained control of both chambers of Congress, and signalled willingness to negotiate with the opposition, but blamed the Republican defeat on his absence from the ballot and threatened to veto the new Congress’s legislation.</p>",
-      "link": "https://en.mercopress.com/2026/11/04/trump-accepts-midterm-defeat-but-says-republicans-would-have-won-in-a-landslide-had-he-been-on-the-ballot?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Wed, 04 Nov 2026 08:16:00 GMT",
-      "source": "MercoPress"
     },
     {
       "title": "Amazon still under threat despite Lula win in Brazil: researcher",
@@ -245,13 +259,6 @@
       "source": "NPR"
     },
     {
-      "title": "Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 still missing",
-      "summary": "Russia launched 289 attack drones, 17 ballistic missiles and 59 cruise missiles across nine regions, President Zelenskyy said in an online post that noted the barrage coincided with U.S. elections.",
-      "link": "https://www.npr.org/2026/11/03/g-s1-151439/russia-ukraine-war",
-      "published": "Tue, 03 Nov 2026 06:01:14 -0500",
-      "source": "NPR"
-    },
-    {
       "title": "Fossilised red blood cells found in 115m-year-old dinosaur’s bone, say scientists",
       "summary": "<p>Chemical tests on Aratasaurus bone identify presence of heme, the organic compound that allows haemoglobin in blood to carry oxygen around body</p><p>It could be the opening of a Jurassic Park rip-off: scientists examining ancient dinosaur bones find what appear to be fossilised red blood cells, and traces of the molecule that gives the beast’s blood its distinctive crimson hue.</p><p>But that is what researchers are claiming to have discovered after analysing the hind leg bones of a small, meat-eating dinosaur called an Aratasaurus that lived and died in what is now north-eastern Brazil 115m years ago.</p> <a href=\"https://www.theguardian.com/science/2026/nov/02/fossilised-red-blood-cells-aratasaurus-dinosaurs-bone\">Continue reading...</a>",
       "link": "https://www.theguardian.com/science/2026/nov/02/fossilised-red-blood-cells-aratasaurus-dinosaurs-bone",
@@ -278,13 +285,6 @@
       "link": "https://www.bbc.co.uk/news/articles/cqn06n30l406o?at_medium=RSS&at_campaign=rss",
       "published": "Mon, 02 Nov 2026 15:08:56 GMT",
       "source": "BBC News"
-    },
-    {
-      "title": "The secret behind Lula’s win in Brazil may be an ‘army’ – of social media creators",
-      "summary": "<p>There are many explanations for the incumbent president’s win over Flávio Bolsonaro, but analysts – and he – point to reinvention of his social media use</p><p>Four days before his stunning electoral comeback, Luiz Inácio Lula da Silva, Brazil’s president, got his first smartphone.</p><p>Lula, who turned 81 last Tuesday, had long said he wanted to avoid an endless stream of calls during his rare moments off, and he began his presidential campaign by sticking to an old habit: using aides’ phones – only when necessary.</p> <a href=\"https://www.theguardian.com/world/2026/oct/31/brazil-lula-social-media\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/oct/31/brazil-lula-social-media",
-      "published": "Sat, 31 Oct 2026 13:37:39 GMT",
-      "source": "The Guardian"
     },
     {
       "title": "Some Polymarket user funds stolen by hackers; exchange referring matter to U.K. authorities",
@@ -337,15 +337,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-21 10:56",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 72,
-      "incidents": 40,
-      "bovespa": 208295.98,
-      "brl_czk": null
-    },
     {
       "date": "2026-10-22 05:01",
       "threat_level": "HIGH",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "bovespa": 167563.47,
       "brl_czk": 3.948
+    },
+    {
+      "date": "2026-11-05 14:13",
+      "threat_level": "MEDIUM",
+      "value": 2,
+      "sentiment_score": 48,
+      "incidents": 40,
+      "bovespa": 168755.9,
+      "brl_czk": 3.948
     }
   ],
   "locations": [
@@ -673,13 +673,6 @@
       "name_en": "Asunción"
     },
     {
-      "key": "Montevideo",
-      "lat": -34.9011,
-      "lon": -56.1645,
-      "name_cs": "Montevideo",
-      "name_en": "Montevideo"
-    },
-    {
       "key": "Amazon",
       "lat": -3.4653,
       "lon": -62.2159,
@@ -694,35 +687,11 @@
       "name_en": "Washington, D.C."
     },
     {
-      "key": "Texas",
-      "lat": 31,
-      "lon": -99,
-      "name_cs": "Texas",
-      "name_en": "Texas",
-      "auto": true
-    },
-    {
       "key": "Florida",
       "lat": 27.8,
       "lon": -81.7,
       "name_cs": "Florida",
       "name_en": "Florida",
-      "auto": true
-    },
-    {
-      "key": "Ohio",
-      "lat": 40.4,
-      "lon": -82.8,
-      "name_cs": "Ohio",
-      "name_en": "Ohio",
-      "auto": true
-    },
-    {
-      "key": "Mexico",
-      "lat": 23.6,
-      "lon": -102.5,
-      "name_cs": "Mexiko",
-      "name_en": "Mexico",
       "auto": true
     },
     {
@@ -782,11 +751,43 @@
       "auto": true
     },
     {
+      "key": "Indonesia",
+      "lat": -2.5,
+      "lon": 118,
+      "name_cs": "Indonésie",
+      "name_en": "Indonesia",
+      "auto": true
+    },
+    {
+      "key": "Germany",
+      "lat": 52.52,
+      "lon": 13.4,
+      "name_cs": "Berlín",
+      "name_en": "Germany",
+      "auto": true
+    },
+    {
       "key": "France",
       "lat": 48.86,
       "lon": 2.35,
       "name_cs": "Paříž",
       "name_en": "France",
+      "auto": true
+    },
+    {
+      "key": "Spain",
+      "lat": 40.4,
+      "lon": -3.7,
+      "name_cs": "Madrid",
+      "name_en": "Spain",
+      "auto": true
+    },
+    {
+      "key": "South Africa",
+      "lat": -30.6,
+      "lon": 22.9,
+      "name_cs": "Jihoafrická republika",
+      "name_en": "South Africa",
       "auto": true
     },
     {
@@ -807,33 +808,33 @@
     }
   ],
   "location_counts": {
-    "Brasilia": 70,
-    "Sao Paulo": 30,
+    "Brasilia": 71,
+    "Sao Paulo": 31,
     "Rio de Janeiro": 15,
-    "Buenos Aires": 68,
+    "Buenos Aires": 69,
     "Santiago": 51,
-    "Lima": 41,
-    "Bogota": 70,
-    "Caracas": 66,
-    "Quito": 54,
-    "La Paz": 28,
-    "Asuncion": 13,
-    "Washington": 70,
+    "Lima": 42,
+    "Bogota": 71,
+    "Caracas": 67,
+    "Quito": 55,
+    "La Paz": 29,
+    "Asuncion": 14,
+    "Washington": 71,
     "New York": 1,
     "Texas": 2,
     "Colorado": 1,
     "Kanada": 1,
     "Mexiko": 1,
     "Venezuela": 1,
-    "Brazílie": 11,
-    "Argentina": 2,
+    "Brazílie": 9,
+    "Argentina": 4,
     "Ukrajina": 1,
-    "Rusko": 3,
+    "Rusko": 2,
     "Pákistán": 1,
     "Londýn": 2,
-    "Paříž": 1,
-    "Madrid": 2,
-    "Peru": 2,
+    "Paříž": 2,
+    "Madrid": 1,
+    "Peru": 3,
     "Bolívie": 1,
     "Montevideo": 28,
     "Falklands": 33,
@@ -846,13 +847,13 @@
     "Atacama": 8,
     "Beijing": 21,
     "Čína": 1,
-    "Amazon": 54,
+    "Amazon": 55,
     "Medellin": 1,
     "Tchaj-wan": 1,
     "Řím": 1,
     "Ithaca (Cornell)": 2,
-    "Írán": 1,
-    "Berlín": 2,
+    "Írán": 2,
+    "Berlín": 1,
     "Panama": 17,
     "Austrálie": 1,
     "Izrael": 1,
@@ -882,23 +883,17 @@
     "Chicago": 1,
     "Severní Korea": 1,
     "Libanon": 1,
-    "Katar": 1
+    "Katar": 1,
+    "Indonésie": 1,
+    "Jihoafrická republika": 1
   },
   "top_location": {
     "key": "Brasilia",
     "name_cs": "Brasília",
     "name_en": "Brasília",
-    "count": 70
+    "count": 71
   },
   "archive": [
-    {
-      "date": "2026-10-29 12:04",
-      "threat_level": "HIGH",
-      "security_status_cs": "Zvolení Luiz Inácia Lula da Silva na čtvrté volební období v Brazílii otevírá nové politické třenice po útěku protikandidáta Flávia Bolsonara do USA přes Argentinu, což napíná vztahy s Mileiovou administrativou. Mezinárodní napětí podtrhují i americké sankce a zatykače vůči kubánským představitelům, zatímco regionální ekonomiky čelí inflačním tlakům a fragmentovanému podsvětí v Andách.",
-      "security_status_en": "The election of Luiz Inácio Lula da Silva to a fourth term in Brazil has sparked acute political friction following the flight of defeated right-wing candidate Flávio Bolsonaro to the US via Argentina, straining diplomatic ties with Milei's government. International tensions are further amplified by US sanctions and warrants targeting Cuban officials, while regional economies navigate persistent inflation and entrenched gang violence.",
-      "forecast_cs": "V nejbližších dnech se očekává vyostření diplomatické roztržky mezi Brazílií a Argentinou kvůli pohybu Flávia Bolsonara, přičemž komoditní trhy budou citlivě reagovat na inflační data z USA.",
-      "forecast_en": "Over the coming days, diplomatic tensions between Brazil and Argentina are expected to intensify over the transit and exile of Flávio Bolsonaro, while commodity markets remain sensitive to US inflation prints."
-    },
     {
       "date": "2026-10-30 06:01",
       "threat_level": "HIGH",
@@ -1002,14 +997,22 @@
       "security_status_en": "The region is facing significant waves of political and economic instability, including banking sector panic in Paraguay following the central bank's takeover of Ueno Bank and ongoing escalation of security incidents in Colombia. On the other hand, Luiz Inácio Lula da Silva's victory in Brazil ensures political continuity, while Uruguay's inflation edges slightly above its target level.",
       "forecast_cs": "V následujících dnech se očekává zvýšená pozornost na paraguayský bankovní sektor po zmrazení aktiv Ueno Bank a reakce trhů na politické dopady amerických midterms v Argentině a regionu.",
       "forecast_en": "Over the coming days, heightened attention will focus on Paraguay's banking sector following the freezing of Ueno Bank assets and market reactions to the political fallout of the US midterms in Argentina and the region."
+    },
+    {
+      "date": "2026-11-05 14:13",
+      "threat_level": "MEDIUM",
+      "security_status_cs": "Jižní Amerika se potýká s dopady globálních politických posunů, přičemž výsledky amerických midterm voleb oslabují pozici spojenců, jako je argentinský prezident Milei. Bezpečnostní situaci v regionu nadále komplikují operace organizovaného zločinu a pašeráckých sítí, zatímco Brazílie se pod vedením staronového prezidenta Luly snaží prosazovat globální ekologické iniciativy.",
+      "security_status_en": "South America is grappling with the fallout of global political shifts, as US midterm election results weaken the standing of allies such as Argentina's President Milei. The regional security landscape continues to be complicated by organized crime and smuggling networks, while Brazil under returning President Lula pushes for global environmental initiatives.",
+      "forecast_cs": "V nejbližších dnech se očekává zvýšená pozornost vůči argentinským trhům a politické reakci na oslabení amerických republikánů, zatímco komoditní trhy budou reagovat na vývoj cen ropy a kávy.",
+      "forecast_en": "Over the coming days, heightened attention will focus on Argentine markets and political reactions to the US Republican setback, while commodity markets respond to oil and coffee price trends."
     }
   ],
-  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 5× HIGH, 2× MEDIUM.",
-  "weekly_summary_en": "Over the last 7 recorded analyses: 5× HIGH, 2× MEDIUM.",
+  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 4× HIGH, 3× MEDIUM.",
+  "weekly_summary_en": "Over the last 7 recorded analyses: 4× HIGH, 3× MEDIUM.",
   "market_data": {
     "bovespa": {
-      "value": 167563.47,
-      "date": "2026-11-04",
+      "value": 168755.9,
+      "date": "2026-11-05",
       "cached": false
     },
     "merval": {
@@ -1018,7 +1021,7 @@
       "cached": false
     },
     "usdbrl": {
-      "value": 5.4597,
+      "value": 5.4316,
       "date": "2026-11-05",
       "cached": false
     }
