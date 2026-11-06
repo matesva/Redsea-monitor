@@ -1,32 +1,43 @@
 {
-  "last_updated": "2026-11-06T06:00:03Z",
+  "last_updated": "2026-11-06T13:32:14Z",
   "assessment": {
-    "threat_level": "HIGH",
-    "sentiment_score": 75,
-    "security_status_cs": "Americká politická scéna čelí hlubokým změnám po přesvědčivém vítězství Demokratů v kongresových volbách, kde získali většinu ve Sněmovně reprezentantů. Trhy prudce reagovaly propadem technologických akcií o biliony dolarů kvůli obavám z regulace AI a datových center. Administrativa mezitím čelí politickému tlaku a hrozbám vyvolání impeachmentu proti vybraným představitelům.",
-    "security_status_en": "The US political scene is facing profound shifts following a sweeping Democratic victory in the midterm elections, securing control of the House of Representatives. Markets reacted sharply with a multi-trillion-dollar plunge in tech stocks amid fears of regulations targeting AI and data centers. Meanwhile, the administration faces mounting political pressure and threats of impeachment against selected officials.",
+    "threat_level": "MEDIUM",
+    "sentiment_score": 58,
+    "security_status_cs": "Americká politická scéna čelí hlubokým změnám po úspěšné vlně Demokratické strany v mezivolbách, která přináší nové výzvy pro federální politiku. Trhy reagují poklesem v technologickém sektoru a obavami z nadcházející regulace umělé inteligence a datových center. Mezitím napětí roste kolem mezinárodních otázek včetně možných rozhodnutí o konfliktu s Iránem a právních sporů kolem administrativních projektů.",
+    "security_status_en": "The US political landscape is facing profound shifts following the Democratic Party's midterm wave, introducing fresh challenges for federal policy. Markets are reacting with a downturn in the tech sector and growing concerns over incoming regulations on artificial intelligence and data centers. Meanwhile, tension mounts around international issues including potential decisions regarding a conflict with Iran and legal battles over administrative projects.",
     "president_comments": [
       {
-        "topic_cs": "Prezidentská kancelář",
-        "topic_en": "Oval Office",
-        "statement_cs": "Prezident Trump podepsal proklamaci prohlašující Oválnou pracovnu a kabinetní místnost za národní památky s cílem zabránit budoucím prezidentům v jejich změnách.",
-        "statement_en": "President Trump signed a proclamation declaring the Oval Office and Cabinet Room national monuments to prevent future presidents from changing his design.",
-        "comment_cs": "Jde o symbolický krok zaměřený na zachování jeho odkazu, který však nemá právní sílu zabránit budoucím administrativám ve zrušení proklamace.",
-        "comment_en": "This is a symbolic step aimed at preserving his legacy, though it lacks the legal force to prevent future administrations from rolling back the proclamation.",
+        "topic_cs": "Prezidentský oblouk",
+        "topic_en": "Triumphal Arch",
+        "statement_cs": "Prezident Trump získal schválení plánů na stavbu 250 stop vysokého vítězného oblouku od Národní komise pro plánování hlavního města, ačkoliv stavbu vzápětí dočasně zablokoval federální soud.",
+        "statement_en": "President Trump secured approval from the National Capital Planning Commission for plans to build a 250-foot triumphal arch, though construction was subsequently temporarily blocked by a federal judge.",
+        "comment_cs": "Tento krok vyvolává napětí mezi výkonnou mocí a soudním systémem ohledně federálních stavebních projektů v hlavním městě.",
+        "comment_en": "This move highlights tensions between the executive branch and the judicial system over federal construction projects in the capital.",
         "market_impact": "NEUTRAL",
-        "source": "The Guardian",
-        "date": "2026-11-06T06:00:03Z"
+        "source": "The Hill",
+        "date": "2026-11-06T13:32:14Z"
       },
       {
-        "topic_cs": "Arch v D.C.",
-        "topic_en": "Triumphal Arch",
-        "statement_cs": "Federální plánovací komise schválila výstavbu 250 stop vysokého triumfálního archu prosazovaného prezidentem Trumpem, ačkoliv soud následně stavbu dočasně zablokoval.",
-        "statement_en": "The federal planning commission approved construction for President Trump's proposed 250-foot triumphal arch, although a judge subsequently blocked construction temporarily.",
-        "comment_cs": "Projekt vyvolává značnou veřejnou i právní kontroverzi a jeho osud je nyní v rukou soudů.",
-        "comment_en": "The project has sparked considerable public and legal controversy, leaving its ultimate fate in the hands of the courts.",
+        "topic_cs": "Zachování Oválné pracovny",
+        "topic_en": "Preservation of Oval Office",
+        "statement_cs": "Prezident Trump podepsal exekutivní příkaz k zachování Oválné pracovny jako národní památky po předchozích změnách interiéru a demolici Východního křídla Bílého domu.",
+        "statement_en": "President Trump signed an order to preserve the Oval Office as a national monument following prior interior changes and the demolition of the White House East Wing.",
+        "comment_cs": "Symbolický krok reaguje na kritiku změn historického vzhledu Bílého domu.",
+        "comment_en": "A symbolic step responding to criticism over changes to the historic appearance of the White House.",
         "market_impact": "NEUTRAL",
-        "source": "Fox News",
-        "date": "2026-11-06T06:00:03Z"
+        "source": "BBC News",
+        "date": "2026-11-06T13:32:14Z"
+      },
+      {
+        "topic_cs": "Rozhodnutí o válce s Iránem",
+        "topic_en": "Iran War Decision",
+        "statement_cs": "Prezident Trump uvedl, že rozhodnutí ohledně případné války s Iránem přijde brzy.",
+        "statement_en": "President Trump stated that a decision regarding a war with Iran is coming 'soon'.",
+        "comment_cs": "Geopolitická nejistota ohledně Blízkého východu může zvýšit volatilitu na energetických trzích.",
+        "comment_en": "Geopolitical uncertainty regarding the Middle East could increase volatility in energy markets.",
+        "market_impact": "NEGATIVE",
+        "source": "RealClearPolitics",
+        "date": "2026-11-06T13:32:14Z"
       }
     ],
     "recommendations": [
@@ -34,71 +45,274 @@
         "sector_cs": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
         "sector_en": "US Broad Equity Market (S&P 500 ETFs, e.g. VOO, SPY)",
         "action": "HOLD",
-        "reason_cs": "Trhy zažívají silnou volatilitu po volbách a výprodeji v technologickém sektoru, což vyžaduje vyčkávací postoj.",
-        "reason_en": "Markets are experiencing high post-election volatility and a tech sector sell-off, warranting a cautious wait-and-see approach."
+        "reason_cs": "Trhy vstřebávají politické změny po mezivolbách a korekci v technologickém sektoru, což doporučuje vyčkat na další ekonomické signály.",
+        "reason_en": "Markets are absorbing post-midterm political shifts and a tech sector correction, suggesting a wait-and-see approach for upcoming economic signals."
       },
       {
         "sector_cs": "Státní dluhopisy USA (Treasuries)",
         "sector_en": "US Treasuries",
         "action": "BUY",
-        "reason_cs": "Výnosy dluhopisů klesají v reakci na obavy z ekonomického zpomalení a politické změny, což zvyšuje atraktivitu bezpečných aktiv.",
-        "reason_en": "Bond yields are dropping in response to economic slowdown concerns and political shifts, increasing the appeal of safe-haven assets."
+        "reason_cs": "Přetrvávající ekonomická nejistota a diskuse o budoucím směřování úrokových sazeb Fedu zvyšují atraktivitu bezpečných aktiv.",
+        "reason_en": "Persistent economic uncertainty and discussions regarding the Fed's future interest rate path enhance the appeal of safe-haven assets."
       },
       {
         "sector_cs": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
         "sector_en": "Defense Industry (RTX, Lockheed Martin, Northrop Grumman)",
-        "action": "HOLD",
-        "reason_cs": "Politické změny v Kongresu a diskuze o vedení rezortu obrany přinášejí dočasnou legislativní nejistotu.",
-        "reason_en": "Political shifts in Congress and debates surrounding defense leadership introduce temporary legislative uncertainty."
+        "action": "BUY",
+        "reason_cs": "Geopolitická napětí, včetně blízkovýchodních rizik zmiňovaných administrativou, udržují poptávku po obranných systémech stabilní.",
+        "reason_en": "Geopolitical tensions, including Middle East risks mentioned by the administration, keep demand for defense systems stable."
       },
       {
         "sector_cs": "Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)",
         "sector_en": "Banks & Financials (JPMorgan, Bank of America, Goldman Sachs)",
         "action": "HOLD",
-        "reason_cs": "Finanční instituce čelí rizikům spojeným s přehodnocováním úrokových sazeb Fedu a měnícím se regulačním prostředím.",
-        "reason_en": "Financial institutions face risks tied to the Fed's interest rate reassessments and a shifting regulatory environment."
+        "reason_cs": "Finanční sektor čelí smíšenému prostředí s blížícími se debatami o daňových změnách a regulacích ze strany posílených demokratů.",
+        "reason_en": "The financial sector faces a mixed environment with looming debates on tax changes and regulations from empowered Democrats."
       },
       {
         "sector_cs": "Technologický sektor (Apple, Microsoft, Nvidia)",
         "sector_en": "Technology Sector (Apple, Microsoft, Nvidia)",
         "action": "SELL",
-        "reason_cs": "Obavy z přísnější regulace umělé inteligence a moratorium na datová centra vyvolaly masivní výprodej a poškodily krátkodobý výhled.",
-        "reason_en": "Fears of tougher AI regulation and data center moratoriums triggered a massive sell-off, damaging the near-term outlook."
+        "reason_cs": "Obavy z přísnější regulace umělé inteligence, moratorií na datová centra a výprodeje na trzích tlačí technologické tituly do korekce.",
+        "reason_en": "Fears of stricter AI regulation, data center moratoriums, and market sell-offs are pushing tech stocks into a correction."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly zůstávají primárně pod vlivem evropského makroekonomického prostředí a lokálních výsledků.",
-        "reason_en": "Domestic stocks remain primarily driven by the European macroeconomic environment and local financial results."
+        "reason_cs": "Domácí tituly zůstávají primárně pod vlivem evropského makroekonomického vývoje a lokálních fundamentů bez přímého otřesu z amerických voleb.",
+        "reason_en": "Domestic stocks remain primarily driven by European macroeconomic developments and local fundamentals without direct shocks from the US elections."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na technologických trzích a zostřený politický boj v Kongresu ohledně regulace AI a dohledu nad vládními úředníky.",
-    "forecast_en": "Continued volatility in technology markets and intensified political battles in Congress regarding AI regulation and oversight of government officials are expected over the coming days.",
-    "forecast_review_cs": "Žádná předchozí předpověď k vyhodnocení.",
-    "forecast_review_en": "No previous forecast to evaluate."
+    "forecast_cs": "V nejbližších dnech lze očekávat pokračující tlak na technologické akcie kvůli obavám z regulace AI a zvýšenou aktivitu v Kongresu ohledně legislativních priorit nově posílených demokratů.",
+    "forecast_en": "Over the coming days, continued pressure on tech stocks due to AI regulatory fears and heightened congressional activity regarding the legislative priorities of newly empowered Democrats are expected.",
+    "forecast_review_cs": "Předchozí předpověď o volatilitě v technologických trzích a politických bojích v Kongresu se plně potvrdila.",
+    "forecast_review_en": "The previous forecast regarding volatility in technology markets and political battles in Congress was fully confirmed."
   },
   "articles": [
     {
-      "title": "Global tech stocks plunge as US midterms add to AI slowdown fears",
+      "title": "Why Democrats should use their new power to embrace Trump’s tariffs",
+      "summary": "Blaming tariffs on manufactured goods for the soaring price of gasoline is the wrong solution to the affordability crisis.",
+      "link": "https://www.marketwatch.com/story/why-democrats-should-use-their-new-power-to-embrace-trumps-tariffs-7c467541?mod=mw_rss_topstories",
+      "published": "Fri, 06 Nov 2026 13:30:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Global stocks plunge as fears over US AI slowdown spread to Asia and Europe",
       "summary": "Investors have reacted to possible tougher scrutiny of data centre construction and the AI industry.",
       "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 06 Nov 2026 05:51:16 GMT",
+      "published": "Fri, 06 Nov 2026 13:25:50 GMT",
       "source": "BBC News"
     },
     {
-      "title": "Electoral politics can be fun! What turned voters against Trump? | First Dog on the Moon",
-      "summary": "<p>It’s important to enjoy the misery of one’s political enemies </p><ul><li><p><a href=\"https://www.theguardian.com/commentisfree/2014/jun/16/-sp-first-dog-on-the-moon-subscribe-by-email\">Sign up here to get an email</a> whenever First Dog cartoons are published</p></li><li><p><a href=\"https://firstdogonthemoon.com.au/shop/\">Get all your needs met at the First Dog shop</a> if what you need is First Dog merchandise and prints</p></li></ul> <a href=\"https://www.theguardian.com/commentisfree/picture/2026/nov/06/electoral-politics-can-be-fun-what-turned-voters-against-trump\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/commentisfree/picture/2026/nov/06/electoral-politics-can-be-fun-what-turned-voters-against-trump",
-      "published": "Fri, 06 Nov 2026 05:33:36 GMT",
+      "title": "Scott Colom Flips Red Mississippi County Named for KKK's First Grand Wizard",
+      "summary": "The Democratic candidate for U.S. Senate is seeking to become the Magnolia State's first Black senator in 145 years.",
+      "link": "https://www.newsweek.com/scott-colom-flip-mississippi-county-kkk-founder-12676236",
+      "published": "Fri, 06 Nov 2026 08:23:27 -0500",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Judge Rules ICE Illegally Arrested Former DACA Recipient",
+      "summary": "A judge ordered a former DACA recipient be released after finding ICE improperly arrested and unlawfully detained him.",
+      "link": "https://www.newsweek.com/judge-rules-ice-illegally-arrested-former-daca-recipient-12676738",
+      "published": "Fri, 06 Nov 2026 08:21:31 -0500",
+      "source": "Newsweek"
+    },
+    {
+      "title": "What's the future for Republicans as the Trump era starts to wind down?",
+      "summary": "As the era of President Trump starts to wind down, potential 2028 presidential candidates are emerging as Republicans consider the party’s future. Plus, where the Mississippi and Alaska Senate races stand and how Democrats achieved a historic blue wave during Tuesday night's midterms. Join The Hill’s senior vice president of editorial content, Bill Sammon, and political...",
+      "link": "https://thehill.com/newsletters/whole-hog-politics/whole-hog-politics-live-briefing/6203333-gop-future-post-donald-trump-2026-midterm-results-live-discussion/",
+      "published": "Fri, 06 Nov 2026 13:20:28 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Live updates: Trump's triumphal arch approved by panel, halted by judge; jobs report due",
+      "summary": "The National Capital Planning Commission approved President Trump's triumphal arch by an 8-4 vote late Thursday, a key win for Trump and his continued beautification projects in the nation's capital. But that win was short-lived. U.S. District Judge late Tanya Chutkan blocked the Trump administration from breaking ground on a towering memorial arch for 14...",
+      "link": "https://thehill.com/homenews/administration/6203096-live-updates-trump-midterm-elections-iran-jobs/",
+      "published": "Fri, 06 Nov 2026 13:16:09 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "How do Americans feel about the midterm results? It depends on how much money they make.",
+      "summary": "Most Americans are “thrilled” or “happy” about the results of this year’s election. Some are especially so.",
+      "link": "https://www.marketwatch.com/story/how-do-americans-feel-about-the-midterm-results-it-depends-on-how-much-money-they-make-e2a43f08?mod=mw_rss_topstories",
+      "published": "Fri, 06 Nov 2026 13:14:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "US midterm elections 2026 live: all eyes on last two razor-thin Senate races as Democrats vie to expand blue wave",
+      "summary": "<p>Tight races in Mississippi and Alaska could further tip scale for Democrats; blue wave has already given the party more than 40 new House seats</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/ng-interactive/2026/nov/03/midterm-elections-full-results-senate-house-governor-races\">Live results</a><a href=\"https://www.theguardian.com/us-news/ng-interactive/2026/nov/04/midterm-elections-full-results-senate-house-governor-races\">: see results from races in all 50 states</a></p></li><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for Breaking News US email</a></p></li></ul><p>The Bureau of Labor Statistics is set to release the latest US jobs report at 8.30am ET today. <strong>Analysts have predicted a slight increase in October job numbers</strong>, while predicting that unemployment will stay around 4.2%.</p><p>A reminder that the last report before the midterm elections saw US employers add only 29,000 jobs in September, a sharp drop from August’s gains, and unemployment rose slightly.</p> <a href=\"https://www.theguardian.com/us-news/live/2026/nov/06/us-midterm-elections-2026-democrats-blue-wave-congress-latest-news-updates\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/live/2026/nov/06/us-midterm-elections-2026-democrats-blue-wave-congress-latest-news-updates",
+      "published": "Fri, 06 Nov 2026 13:13:23 GMT",
       "source": "The Guardian"
     },
     {
-      "title": "US midterm elections 2026 live: Democrats exceed 250 House seats as blue wave sweeping Congress grows",
-      "summary": "<p>Democrats widen gap in House chamber by flipping more seats, including in Ohio, Arizona and North Carolina; Ted Cruz calls election a ‘Watergate-level repudiation’ </p><ul><li><p><a href=\"https://www.theguardian.com/us-news/ng-interactive/2026/nov/03/midterm-elections-full-results-senate-house-governor-races\">Live results</a> | <a href=\"https://www.theguardian.com/community/live/2026/nov/05/what-happens-after-the-blue-wave-our-reporters-answer-your-midterm-election-results-questions\">Q&A: Ask your questions about Democrats’ win</a></p></li><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for Breaking News US email</a></p></li></ul><p>Election night brought a series of dramatic developments, unexpected results and closely contested races across the US. We have put together this video capturing the key moments and offering a quick overview of one of the most important nights in US politics:</p><p>The Senate race in <strong>Mississippi </strong>has become one of the most closely watched contests in the midterms, with Republican incumbent <strong>Cindy Hyde-Smith</strong> and Democratic challenger <strong>Scott Colom</strong> separated by a remarkably narrow margin.</p> <a href=\"https://www.theguardian.com/us-news/live/2026/nov/05/midterm-elections-live-latest-updates-mississippi-senate-race\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/live/2026/nov/05/midterm-elections-live-latest-updates-mississippi-senate-race",
-      "published": "Fri, 06 Nov 2026 05:32:36 GMT",
+      "title": "Billionaires aren’t off the hook for higher taxes, even if they did dodge California’s wealth tax",
+      "summary": "Silicon Valley spent big to kill California’s wealth tax — but incoming Democrats are eyeing a national fight.",
+      "link": "https://www.marketwatch.com/story/billionaires-arent-off-the-hook-for-higher-taxes-even-if-they-did-dodge-californias-wealth-tax-a73f9045?mod=mw_rss_topstories",
+      "published": "Fri, 06 Nov 2026 13:13:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Judge temporarily blocks work on Trump arch after panel's approval",
+      "summary": "A federal judge late Thursday ordered a pause on the construction of President Trump’s triumphal arch for 14 days. The temporary restraining order by U.S. District Judge Tanya Chutkan came shortly after the National Capital Planning Commission (NCPC) voted to approve the administration’s plans to build the arch between the Lincoln Memorial and Arlington National Cemetery...",
+      "link": "https://thehill.com/homenews/administration/6203354-donald-trump-dc-arch-blocked-after-commission-approval/",
+      "published": "Fri, 06 Nov 2026 13:11:58 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Who Is Caprice Williams? Foster Mother Charged After Girl Found Dead",
+      "summary": "Malayshia Alford, 10, was found inside a vehicle in New Jersey more than a week after she was reported missing.",
+      "link": "https://www.newsweek.com/who-is-caprice-williams-foster-mother-charged-after-girl-found-dead-malayshia-alford-12676664",
+      "published": "Fri, 06 Nov 2026 08:02:58 -0500",
+      "source": "Newsweek"
+    },
+    {
+      "title": "What is this strange, post-election feeling? Oh right – it’s utter joy | Dave Schilling",
+      "summary": "<p>A decade of political misery does terrible things to the mind. Tuesday’s wins came with a sense of unreality</p><p>Late on Tuesday night, the comedian Alex Edelman <a href=\"https://x.com/AlexEdelman/status/2117877456753582129\">asked a poignant question on social media</a>: “I know we’ve never had to ask this before tonight, but what’s the opposite of doomscrolling?”</p><p>I don’t have a definitive answer to that, though I did offer the term “<a href=\"https://x.com/dave_schilling/status/2117881210013921328?a=VU4Wa-zMf5_-ZIPm-tA&s=20\">boomscrolling</a>”, accompanied by a gif of the social media sensation and Costco enthusiast Big Boom AJ.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/nov/06/post-election-feeling-optimism\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/commentisfree/2026/nov/06/post-election-feeling-optimism",
+      "published": "Fri, 06 Nov 2026 13:00:43 GMT",
       "source": "The Guardian"
+    },
+    {
+      "title": "Democrats' big blue wave will destroy the economy",
+      "summary": "President Trump is right that the U.S. economy is the envy of the world. What a shame that Americans just voted to destroy it.   That is not an exaggeration. Granting such a sweeping victory to the Democratic Party, now in thrall to progressives who want to hike taxes, abandon fossil fuels and shut down the...",
+      "link": "https://thehill.com/opinion/campaign/6202190-liberal-policies-threaten-growth/",
+      "published": "Fri, 06 Nov 2026 13:00:00 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "‘I didn’t expect to be a main character’: Abdul El-Sayed heads to the Senate with a mandate – and a spotlight",
+      "summary": "<p>The successful Democratic contender for a Michigan Senate seat parried the many insinuations lobbed by Republicans</p><p>Abdul El-Sayed <a href=\"https://gmg-wdiv-prod.cdn.arcpublishing.com/video/news/2026/11/04/abdul-el-sayed-s-first-local-tv-news-interview-since-winning-his-election/?utm_source=chatgpt.com\">said</a> he did not expect to be “a main character of this midterms”, but the first Muslim elected to the <a href=\"https://www.theguardian.com/us-news/us-senate\">US Senate</a> in history will take his seat in January after a vitriolic campaign that cast him as the central villain of the president and his party.</p><p>By October he told the Associated Press he was “not shying away” from those rightwing fixations. “What are you implying?” El-Sayed, the son of Egyptian immigrants, <a href=\"https://www.theguardian.com/us-news/2026/oct/21/abdul-el-sayed-michigan-senate-democrats\">replied</a> when a town hall attender asked if he would disavow the Muslim Brotherhood, in a now-viral exchange.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/06/abdul-el-sayed-islamophobia-michigan-senate-seat\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/nov/06/abdul-el-sayed-islamophobia-michigan-senate-seat",
+      "published": "Fri, 06 Nov 2026 12:46:37 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Judge halts construction of Trump's arch. And, Labor Department to release jobs report",
+      "summary": "A judge has blocked construction of Trump's arch moments after it won federal approval to proceed. And, the Labor Department is set to release the latest jobs report today, a day after stocks plunged.",
+      "link": "https://www.npr.org/2026/11/06/g-s1-152213/up-first-newsletter-job-market-trump-arch-school-enrollment-harmeet-dhillon",
+      "published": "Fri, 06 Nov 2026 07:24:52 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "James Carville cautions Democrats to stay away from DEI policies after midterm victories",
+      "summary": "James Carville warns Democrats against reviving DEI and woke politics after their historic midterm victory, saying the country simply \"hated it.\"",
+      "link": "https://www.foxnews.com/media/james-carville-cautions-democrats-stay-away-from-dei-policies-after-midterm-victories",
+      "published": "Fri, 06 Nov 2026 08:23:32 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Mississippi Senate race still a toss-up, with razor-thin margin",
+      "summary": "The Senate race in deep-red Mississippi remains unresolved, as Democrat Scott Colom has mounted a surprisingly competitive challenge to incumbent Sen. Cindy Hyde-Smith.",
+      "link": "https://www.cbsnews.com/news/mississippi-senate-race-results-2026-midterms/",
+      "published": "Fri, 06 Nov 2026 07:10:00 -0500",
+      "source": "CBS News"
+    },
+    {
+      "title": "Democrats finally decided to take rural America seriously – and won big | Anthony Flaccavento and Erica Etelson",
+      "summary": "<p>Democrats won over rural voters from Maga in the midterms by focusing more on working people and less on culture wars</p><p>Long before Jamie Ager entered politics, he was making a name for himself in a very different place: the meat counter of a grocery store in Boone, North Carolina.</p><p>It was the early 2000s, and Ager owned and operated Hickory Nut Gap, a regenerative farm near Asheville. Over the next 20 years, he helped build a regional food system that delivered healthier food to thousands of people, improved land stewardship and made farming a bit more profitable.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/nov/06/rural-voters-democrats-midterms\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/commentisfree/2026/nov/06/rural-voters-democrats-midterms",
+      "published": "Fri, 06 Nov 2026 12:00:41 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Why gold prices are surprisingly low",
+      "summary": "Gold tends to go up when there's uncertainty in the economy. For a while, the price reflected that. But this week, it dropped from a nearly $5,600 in January to below $4,000. What's going on?",
+      "link": "https://www.npr.org/sections/planet-money/2026/11/06/nx-s1-6030995/why-gold-prices-are-surprisingly-low",
+      "published": "Fri, 06 Nov 2026 07:00:00 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "Voters Just Changed the Trajectory of Supreme Court",
+      "summary": "The blue wave didn't just hand Democrats control of the House and Senate. They've won back favorable terrain on the future of the federal judiciary.",
+      "link": "https://www.realclearpolitics.com/2026/11/06/voters_just_changed_the_trajectory_of_supreme_court_716782.html",
+      "published": "Fri, 06 Nov 2026 05:59:56 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Democrats' Blue Tsunami Crashes Into State Legislatures",
+      "summary": "Democratic gains at the state level give the party new influence over redistricting. They could also offer a chance for the party to rebuild its brand with voters.",
+      "link": "https://www.realclearpolitics.com/2026/11/06/democrats_blue_tsunami_crashes_into_state_legislatures_716775.html",
+      "published": "Fri, 06 Nov 2026 05:59:47 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "The Wave Beneath the Wave",
+      "summary": "Josh Shapiro's statewide campaign helped Democrats secure a Pennsylvania trifecta, part of a national wave of legislative gains.",
+      "link": "https://www.realclearpolitics.com/2026/11/05/the_wave_beneath_the_wave_716763.html",
+      "published": "Fri, 06 Nov 2026 05:59:44 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Trump Says Iran War Decision Coming 'Soon'",
+      "summary": "",
+      "link": "https://www.realclearpolitics.com/2026/11/06/trump_says_iran_war_decision_coming_soon_716777.html",
+      "published": "Fri, 06 Nov 2026 05:59:39 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Past White House adviser Raj Panjabi has written a playbook for 'living room' crises",
+      "summary": "Dr. Raj Panjabi is the author of <em>Safer: A Playbook.</em> His goal is to help people face a personal crisis — health, workplace, family conflicts — and \"turn fear into action.\"",
+      "link": "https://www.npr.org/2026/11/06/nx-s1-6021013/white-house-adviser-raj-panjabi-safer-playbook",
+      "published": "Fri, 06 Nov 2026 06:57:32 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "2028 GOP battle lines emerge as Vance, Cruz, DeSantis clash over midterm losses and more top headlines",
+      "summary": "Get all the stories you need-to-know from the most powerful name in news delivered first thing every morning to your inbox.",
+      "link": "https://www.foxnews.com/us/gop-battle-lines-emerge-vance-cruz-desantis-clash-over-midterm-losses-more-top-headlines",
+      "published": "Fri, 06 Nov 2026 07:37:51 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "STEVE MOORE: After midterm rout, here’s how Trump can start fixing affordability",
+      "summary": "Republicans are told to stop sulking after their landslide loss and push to suspend the federal gas tax and lower gas prices across the board.",
+      "link": "https://www.foxnews.com/opinion/steve-moore-after-midterm-rout-heres-how-trump-can-start-fixing-affordability",
+      "published": "Fri, 06 Nov 2026 07:00:49 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Ex-MIT professor wins $6M after sex claims wrecked career, accuser joked about ‘#hetoo’",
+      "summary": "David Sabatini's $6 million defamation win over Kristin Knouse now faces cross-appeals as both sides prepare to battle in Massachusetts courts.",
+      "link": "https://www.foxnews.com/us/ex-mit-professor-wins-6m-after-sex-claims-wrecked-career-accuser-joked-about-hetoo",
+      "published": "Fri, 06 Nov 2026 07:00:19 -0400",
+      "source": "Fox News"
+    },
+    {
+      "title": "Newly empowered Democrats could revive plans for court reforms",
+      "summary": "Democrats have proposed a variety of measures aimed at reshaping the Supreme Court over the years and may be poised to push them forward after winning House and Senate majorities.",
+      "link": "https://www.cbsnews.com/news/democrats-house-senate-supreme-court-reforms/",
+      "published": "Fri, 06 Nov 2026 06:00:00 -0500",
+      "source": "CBS News"
+    },
+    {
+      "title": "Low birth rates were emptying public schools. ICE deportations are now making it worse",
+      "summary": "School enrollment was already expected to plunge by 2 million kids by 2030. Education experts say deporting immigrant families, many with school-age children, is making the crisis worse.",
+      "link": "https://www.npr.org/2026/11/06/nx-s1-5971283/public-school-enrollment-ice-deportation-birthrate",
+      "published": "Fri, 06 Nov 2026 05:00:00 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "Stocks crater as midterms spur investor exodus from tech and AI",
+      "summary": "The tech-heavy Nasdaq is now in a \"correction\" as Wall Street weighs the impact of the Democrats' wins on the critical AI sector.",
+      "link": "https://www.cbsnews.com/news/stocks-midterm-elections-tech-companies-ai-data-centers/",
+      "published": "Fri, 06 Nov 2026 04:53:39 -0500",
+      "source": "CBS News"
+    },
+    {
+      "title": "U.S. gas prices on track to fall below $4 a gallon, experts say",
+      "summary": "Fuel prices have dropped in recent weeks amid hopes that the midterm elections would increase pressure on the U.S. and Iran to reach a peace deal.",
+      "link": "https://www.cbsnews.com/news/gas-prices-below-four-dollars-expert-predicts/",
+      "published": "Fri, 06 Nov 2026 04:24:28 -0500",
+      "source": "CBS News"
+    },
+    {
+      "title": "Trump signs order to preserve Oval Office as national monument",
+      "summary": "The order comes after Trump made a series of big changes to the decor of the Oval Office and tore down the White House East Wing.",
+      "link": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 06 Nov 2026 09:19:57 GMT",
+      "source": "BBC News"
     },
     {
       "title": "Judge blocks construction of Trump's massive arch after federal agency approval",
@@ -108,111 +322,6 @@
       "source": "BBC News"
     },
     {
-      "title": "Dem Linked to Inflammatory Posts About Trump Backers Flips GOP Seat",
-      "summary": "Disowned by her party over inflammatory posts, Democrat Shelly Headen narrowly flipped a GOP-held North Carolina House seat.",
-      "link": "https://www.newsweek.com/dem-linked-to-controversial-posts-about-trump-backers-flips-gop-seat-12674054",
-      "published": "Fri, 06 Nov 2026 00:19:49 -0500",
-      "source": "Newsweek"
-    },
-    {
-      "title": "A judge blocks construction of Trump's arch moments after it won federal approval",
-      "summary": "The Trump administration hoped to begin construction immediately after a federal panel approved its arch late Thursday. But just after midnight, the judge issued an order blocking work for 14 days.",
-      "link": "https://www.npr.org/2026/11/06/nx-s1-6031990/trump-arch-planning-commission-injunction",
-      "published": "Fri, 06 Nov 2026 00:05:43 -0500",
-      "source": "NPR"
-    },
-    {
-      "title": "Australia faces same issues that flipped control of US Congress in midterms, experts say",
-      "summary": "<p>Anthony Albanese’s government has taken a blow due to Iran war but voter anxiety around cost of living and datacentres may hit harder</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">daily political email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>The Democrats’ <a href=\"https://www.theguardian.com/us-news/2026/nov/04/us-midterms-is-it-the-end-for-trump\">stunning midterm victory</a> should broaden Australia’s alliance with the US, observers say, even as a new power base emerges in Washington, affecting Aukus, datacentre development and relations with China.</p><p>Cabinet ministers, diplomats and Australia’s defence industrial sector closely watched the results this week, with control of the US Congress flipping to the Democrats and the outlook for Donald Trump’s final two years in office badly dinted.</p> <a href=\"https://www.theguardian.com/australia-news/2026/nov/06/us-midterms-warning-for-australia-cost-of-living-fuel-prices\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/australia-news/2026/nov/06/us-midterms-warning-for-australia-cost-of-living-fuel-prices",
-      "published": "Fri, 06 Nov 2026 04:45:24 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Pete Hegseth First, Todd Blanche Next? Democrats Eye Impeachment Push",
-      "summary": "Democrats are signaling tougher oversight of Trump officials, with some lawmakers raising the prospect of impeachment.",
-      "link": "https://www.newsweek.com/pete-hegseth-first-todd-blanche-next-democrats-eye-impeachment-push-12674905",
-      "published": "Thu, 05 Nov 2026 23:45:16 -0500",
-      "source": "Newsweek"
-    },
-    {
-      "title": "Trump signs proclamation declaring Oval Office a national monument",
-      "summary": "The action does not prevent future presidents from restyling the iconic office that President Trump has filled to the brim with gold flourishes, nor does it prevent a successor from rolling back the proclamation itself.",
-      "link": "https://www.cbsnews.com/news/trump-proclamation-oval-office-national-monument/",
-      "published": "Thu, 05 Nov 2026 23:41:55 -0500",
-      "source": "CBS News"
-    },
-    {
-      "title": "Colorado police officer killed, 3 more officers wounded after suspect opens fire near bus",
-      "summary": "A suspect trying to board an RTD bus near Denver opened fire on Lakewood police officers, killing one and wounding three others Thursday evening.",
-      "link": "https://www.foxnews.com/us/colorado-police-officer-killed-3-others-wounded-suspect-opens-fire-near-bus",
-      "published": "Fri, 06 Nov 2026 00:36:49 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "Trump signs order preventing future presidents from changing Oval Office",
-      "summary": "The order comes after Trump made a series of big changes to the decor of the Oval Office and tore down the White House East Wing.",
-      "link": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 06 Nov 2026 04:29:25 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Midterms Reveal Southern Democrats Are a Thing Again",
-      "summary": "Abandoned by party leaders over inflammatory posts, Democrat Shelly Headen narrowly flipped a GOP-held North Carolina House seat.",
-      "link": "https://www.newsweek.com/midterms-reveal-southern-democrats-are-a-thing-again-12638318",
-      "published": "Thu, 05 Nov 2026 23:19:58 -0500",
-      "source": "Newsweek"
-    },
-    {
-      "title": "Trump's massive Arlington triumphal arch approved for construction by federal planning commission",
-      "summary": "The National Capital Planning Commission approved construction for President Donald Trump's proposed 250-foot triumphal arch in Washington, D.C., inspired by Paris' Arc de Triomphe.",
-      "link": "https://www.foxnews.com/politics/trumps-massive-arlington-triumphal-arch-approved-construction-federal-planning-commission",
-      "published": "Fri, 06 Nov 2026 00:02:05 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "Hegseth not in consideration for Tennessee Senate: Report",
-      "summary": "Defense Secretary Pete Hegseth is reportedly not in consideration to replace Tennessee Gov.-elect Marsha Blackburn’s (R) open Senate seat. An Associated Press report, citing a person familiar with the matter who discussed the private conversations on condition of anonymity, stated that Hegseth is not being considered for the seat. Instead, Blackburn was focused on her...",
-      "link": "https://thehill.com/policy/defense/6203115-hegseth-tennessee-senate-seat-blackburn/",
-      "published": "Fri, 06 Nov 2026 03:36:55 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "NCPC approves plan to build Trump's triumphal arch",
-      "summary": "The National Capital Planning Commission (NCPC) on Thursday voted to approve plans to build a triumphal arch championed by President Trump between the Lincoln Memorial and Arlington National Cemetery. The motion to approve the project passed by an 8-4 vote after listening to over 100 public remarks largely against the project after a nearly 9-hour...",
-      "link": "https://thehill.com/homenews/administration/6202351-ncpc-approves-trump-arch/",
-      "published": "Fri, 06 Nov 2026 03:34:58 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "The Wave Beneath the Wave",
-      "summary": "Josh Shapiro's statewide campaign helped Democrats secure a Pennsylvania trifecta, part of a national wave of legislative gains.",
-      "link": "https://www.realclearpolitics.com/2026/11/05/the_wave_beneath_the_wave_716763.html",
-      "published": "Thu, 05 Nov 2026 21:04:24 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "13 Biggest Losers of the Midterms",
-      "summary": "",
-      "link": "https://www.realclearpolitics.com/2026/11/05/13_biggest_losers_of_the_midterms_716769.html",
-      "published": "Thu, 05 Nov 2026 21:04:19 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Iran & the Midterms: Trump Didn't Care, But Voters Did",
-      "summary": "",
-      "link": "https://www.realclearpolitics.com/2026/11/05/iran_amp_the_midterms_trump_didnt_care_but_voters_did_716762.html",
-      "published": "Thu, 05 Nov 2026 21:04:17 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "El-Sayed's Win Signifies a Seismic Shift",
-      "summary": "Olivia Reingold reports from Detroit, where the Muslim progressive's election signifies a seismic shift in the scales of power. Socialism, TikTok, and anger now reign supreme.",
-      "link": "https://www.realclearpolitics.com/2026/11/05/el-sayeds_win_signifies_a_seismic_shift_716754.html",
-      "published": "Thu, 05 Nov 2026 21:04:14 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
       "title": "Mississippi Senate: Colom, Hyde-Smith gird for ballot legal fight in razor-thin race",
       "summary": "The Mississippi Senate election could be determined by the mail-in ballots received after Election Day, whose legality was upheld by the Supreme Court.",
       "link": "https://www.cnbc.com/2026/11/05/mississippi-senate-election-scott-colom-hyde-smith.html",
@@ -220,102 +329,11 @@
       "source": "CNBC"
     },
     {
-      "title": "Hinojosa vows to protect Texas citizens from data centers",
-      "summary": "Texas Gov.-elect Gina Hinojosa (D) vowed to protect Texans from data center projects after she is sworn into office in January. “Well, we have always been a pro-business state in Texas, but what changes now with me as governor is it has to be a partnership that benefits Texans,” Hinojosa said during an appearance on...",
-      "link": "https://thehill.com/homenews/state-watch/6203045-texas-hinojosa-data-centers/",
-      "published": "Fri, 06 Nov 2026 02:28:10 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Democrats have flipped over 40 House seats. Here's the breakdown.",
-      "summary": "Democrats won control of the House on Tuesday by flipping more than three dozen Republican-held seats, picking up perennial swing districts and seats that were once considered deep red.",
-      "link": "https://www.cbsnews.com/news/house-districts-flipped-2026-midterm-elections/",
-      "published": "Thu, 05 Nov 2026 21:20:48 -0500",
-      "source": "CBS News"
-    },
-    {
-      "title": "New details, bodycam video of deadly Citibank shooting",
-      "summary": "A gunman targeted Citibank employees on Wednesday, holding them responsible for a $2,500 credit card bill, a Florida sheriff said. Cristian Benavides reports on the new details and bodycam video from the scene.",
-      "link": "https://www.cbsnews.com/video/new-details-bodycam-video-of-deadly-citibank-shooting/",
-      "published": "Thu, 05 Nov 2026 21:18:28 -0500",
-      "source": "CBS News"
-    },
-    {
       "title": "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
-      "summary": "US media reports there are calls to replace Pete Hegseth, who also faces a possible impeachment vote, while Mark Rubio is rumoured to be eyeing a presidential run.",
+      "summary": "US media reports there are calls to replace Pete Hegseth, who also faces a possible impeachment vote, while Marco Rubio is rumoured to be eyeing a presidential run.",
       "link": "https://www.bbc.co.uk/news/articles/cqg7xxg4jdv5o?at_medium=RSS&at_campaign=rss",
       "published": "Fri, 06 Nov 2026 02:08:57 GMT",
       "source": "BBC News"
-    },
-    {
-      "title": "2 House Democrats float idea of Blanche impeachment",
-      "summary": "Two House Democrats are already floating the impeachment of Attorney General Todd Blanche after the GOP’s sweeping midterm election defeats, suggesting Democrats could win enough Republican support in the Senate to remove him from office. Reps. Hank Johnson (D-Ga.) and Deborah Ross (D-N.C.) voiced their support for impeaching Blanche on Thursday, just two days after...",
-      "link": "https://thehill.com/homenews/house/6203031-house-democrats-push-blanche-impeachment/",
-      "published": "Fri, 06 Nov 2026 02:08:29 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Mississippi Senate race is toss-up, with razor-thin margin",
-      "summary": "The Senate race in deep-red Mississippi remains unresolved, as Democrat Scott Colom has mounted a surprisingly competitive challenge to incumbent Sen. Cindy Hyde-Smith.",
-      "link": "https://www.cbsnews.com/news/mississippi-senate-race-results-2026-midterms/",
-      "published": "Thu, 05 Nov 2026 20:28:00 -0500",
-      "source": "CBS News"
-    },
-    {
-      "title": "MLB outfielder Anthony Santander faces backlash over Abdul El-Sayed video, Blue Jays respond",
-      "summary": "The Toronto Blue Jays responded without apology or discipline after Anthony Santander deleted Instagram posts tied to the U.S. midterm elections.",
-      "link": "https://www.foxnews.com/outkick-sports/mlb-outfielder-anthony-santander-faces-backlash-abdul-el-sayed-video-blue-jays-respond",
-      "published": "Thu, 05 Nov 2026 20:58:52 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "Trump signs proclamation to try to prevent changes to gold-covered Oval Office",
-      "summary": "<p>President seeks to make Oval Office a national monument to ensure designs are not ‘ripped down by stupid people’</p><p>Donald Trump signed a proclamation on Thursday that he says will prevent future administrations from changing his design of the Oval Office and Cabinet Room, spaces which he declared as national monuments that should be preserved.</p><p>In the days since his party suffered historic defeats in the midterm elections, the president <a href=\"https://www.theguardian.com/us-news/2026/nov/04/trump-ballroom-midterms-reaction\">has seemingly turned his attention</a> to the many renovation projects he has begun across the nation’s capital. Sitting behind the Resolute Desk on Thursday, Trump declared the Oval Office a “national monument”.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/05/trump-oval-office-design-proclamation\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/nov/05/trump-oval-office-design-proclamation",
-      "published": "Fri, 06 Nov 2026 00:29:06 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Fears of an AI crackdown after midterms spark $2 trillion rout in tech stocks",
-      "summary": "Shares sank, with the tech-heavy Nasdaq dropping over 5%, as investors reacted with fear that a Democratic Congress — and states across the country -— would crack down on AI and data centers.",
-      "link": "https://www.npr.org/2026/11/05/nx-s1-6031987/stock-markets-ai-midterm-elections",
-      "published": "Thu, 05 Nov 2026 19:16:53 -0500",
-      "source": "NPR"
-    },
-    {
-      "title": "Fox News bests MS NOW, CNN as most-watched cable news network on 2026 midterm election night",
-      "summary": "Fox News Channel led all cable news networks on midterm election night as Democrats swept both the House and Senate in a historic blue tsunami.",
-      "link": "https://www.foxnews.com/media/fox-news-bests-msnbc-cnn-most-watched-cable-news-network-2026-midterm-election-night",
-      "published": "Thu, 05 Nov 2026 20:07:26 -0400",
-      "source": "Fox News"
-    },
-    {
-      "title": "These are the races in the House and Senate that haven't been called yet",
-      "summary": "Democrats are poised to have a strong majority in the upcoming Congress. The final numbers are still being determined. Here's where things stand in the races that are waiting to be called by the AP.",
-      "link": "https://www.npr.org/2026/11/05/g-s1-152127/house-senate-uncalled-races",
-      "published": "Thu, 05 Nov 2026 19:03:45 -0500",
-      "source": "NPR"
-    },
-    {
-      "title": "Melania Trump touts rare agreement she brokered between Russia and Ukraine",
-      "summary": "The six-day pause from the Russian-occupied city of Oleshky comes as the administration ramps up efforts to secure an agreement to end the war in Ukraine.",
-      "link": "https://www.npr.org/2026/11/05/nx-s1-6030662/melania-trump-touts-rare-agreement-she-brokered-between-russia-and-ukraine",
-      "published": "Thu, 05 Nov 2026 18:52:48 -0500",
-      "source": "NPR"
-    },
-    {
-      "title": "Tech stocks log worst day since 2020 as carnage comes to the AI trade",
-      "summary": "The S&P 500 lost an estimated $2.9 trillion in market capitalization, the largest one-day loss of market value on record.",
-      "link": "https://www.marketwatch.com/story/tech-stocks-log-worst-day-since-2020-as-carnage-comes-to-the-ai-trade-56109845?mod=mw_rss_topstories",
-      "published": "Thu, 05 Nov 2026 22:48:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
-      "summary": "The tax brackets at the heart of Americans’ income-tax bills will be adjusting at a steeper level in 2027 compared to this year, underscoring inflation’s rekindled presence.",
-      "link": "https://www.marketwatch.com/story/the-2027-tax-brackets-are-out-see-what-the-standard-deduction-and-salt-tax-breaks-will-be-5dd1d293?mod=mw_rss_topstories",
-      "published": "Thu, 05 Nov 2026 22:40:00 GMT",
-      "source": "MarketWatch"
     },
     {
       "title": "Nvidia's Huang is asked to brief Congress on reported Chinese spy relationship",
@@ -351,25 +369,9 @@
       "link": "https://www.cnbc.com/2026/11/05/what-the-democrat-midterms-sweep-changes-for-us-china-tech-rivalry.html",
       "published": "Thu, 05 Nov 2026 12:57:10 GMT",
       "source": "CNBC"
-    },
-    {
-      "title": "10-year Treasury yield slides as traders mull over Democrats' midterm victories, oil prices drop",
-      "summary": "Treasury yields were last little changed Wednesday as investors weighed big wins from Democrats in the U.S. midterm elections.",
-      "link": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
-      "published": "Wed, 04 Nov 2026 21:18:44 GMT",
-      "source": "CNBC"
     }
   ],
   "history": [
-    {
-      "date": "2026-10-22 10:56",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 68,
-      "incidents": 7,
-      "sp500": 7757.17,
-      "usd_czk": 21.597
-    },
     {
       "date": "2026-10-23 05:00",
       "threat_level": "HIGH",
@@ -630,6 +632,15 @@
       "incidents": 2,
       "sp500": 7353.73,
       "usd_czk": 21.64
+    },
+    {
+      "date": "2026-11-06 13:32",
+      "threat_level": "MEDIUM",
+      "value": 2,
+      "sentiment_score": 58,
+      "incidents": 2,
+      "sp500": 7353.73,
+      "usd_czk": 21.64
     }
   ],
   "locations": [
@@ -648,18 +659,11 @@
       "name_en": "New York"
     },
     {
-      "key": "Texas",
-      "lat": 31.9686,
-      "lon": -99.9018,
-      "name_cs": "Texas",
-      "name_en": "Texas"
-    },
-    {
-      "key": "Florida",
-      "lat": 27.6648,
-      "lon": -81.5158,
-      "name_cs": "Florida",
-      "name_en": "Florida"
+      "key": "California",
+      "lat": 36.7783,
+      "lon": -119.4179,
+      "name_cs": "Kalifornie",
+      "name_en": "California"
     },
     {
       "key": "Wall Street",
@@ -667,13 +671,6 @@
       "lon": -74.0113,
       "name_cs": "Wall Street",
       "name_en": "Wall Street"
-    },
-    {
-      "key": "Ohio",
-      "lat": 40.4173,
-      "lon": -82.9071,
-      "name_cs": "Ohio",
-      "name_en": "Ohio"
     },
     {
       "key": "Michigan",
@@ -690,13 +687,6 @@
       "name_en": "Pennsylvania"
     },
     {
-      "key": "Arizona",
-      "lat": 34.0489,
-      "lon": -111.0937,
-      "name_cs": "Arizona",
-      "name_en": "Arizona"
-    },
-    {
       "key": "North Carolina",
       "lat": 35.7596,
       "lon": -79.0193,
@@ -704,41 +694,32 @@
       "name_en": "North Carolina"
     },
     {
-      "key": "Colorado",
-      "lat": 39.5501,
-      "lon": -105.7821,
-      "name_cs": "Colorado",
-      "name_en": "Colorado"
+      "key": "New Jersey",
+      "lat": 40.0583,
+      "lon": -74.4057,
+      "name_cs": "New Jersey",
+      "name_en": "New Jersey"
     },
     {
-      "key": "Tennessee",
-      "lat": 35.5175,
-      "lon": -86.5804,
-      "name_cs": "Tennessee",
-      "name_en": "Tennessee"
+      "key": "Massachusetts",
+      "lat": 42.4072,
+      "lon": -71.3824,
+      "name_cs": "Massachusetts",
+      "name_en": "Massachusetts"
     },
     {
-      "key": "Canada",
-      "lat": 56.1,
-      "lon": -106.3,
-      "name_cs": "Kanada",
-      "name_en": "Canada",
-      "auto": true
+      "key": "Alaska",
+      "lat": 64.2008,
+      "lon": -149.4937,
+      "name_cs": "Aljaška",
+      "name_en": "Alaska"
     },
     {
-      "key": "Ukrain",
-      "lat": 50.45,
-      "lon": 30.52,
-      "name_cs": "Ukrajina",
-      "name_en": "Ukrain",
-      "auto": true
-    },
-    {
-      "key": "Russia",
-      "lat": 55.75,
-      "lon": 37.62,
-      "name_cs": "Rusko",
-      "name_en": "Russia",
+      "key": "San Francisco",
+      "lat": 37.77,
+      "lon": -122.42,
+      "name_cs": "San Francisco",
+      "name_en": "San Francisco",
       "auto": true
     },
     {
@@ -750,40 +731,32 @@
       "auto": true
     },
     {
+      "key": "Egypt",
+      "lat": 26.8,
+      "lon": 30.8,
+      "name_cs": "Egypt",
+      "name_en": "Egypt",
+      "auto": true
+    },
+    {
       "key": "China",
       "lat": 35.9,
       "lon": 104.2,
       "name_cs": "Čína",
       "name_en": "China",
       "auto": true
-    },
-    {
-      "key": "Australia",
-      "lat": -25.3,
-      "lon": 133.8,
-      "name_cs": "Austrálie",
-      "name_en": "Australia",
-      "auto": true
-    },
-    {
-      "key": "France",
-      "lat": 48.86,
-      "lon": 2.35,
-      "name_cs": "Paříž",
-      "name_en": "France",
-      "auto": true
     }
   ],
   "location_counts": {
     "Florida": 47,
     "Texas": 77,
-    "Washington": 79,
-    "New York": 64,
-    "California": 57,
+    "Washington": 80,
+    "New York": 65,
+    "California": 58,
     "Capitol": 20,
     "Border": 20,
     "Los Angeles": 16,
-    "Wall Street": 64,
+    "Wall Street": 65,
     "Illinois": 8,
     "Colorado": 18,
     "Canada": 22,
@@ -791,7 +764,7 @@
     "Ukrajina": 1,
     "Rusko": 1,
     "Írán": 2,
-    "Čína": 3,
+    "Čína": 2,
     "Tchaj-wan": 1,
     "Japonsko": 1,
     "Pákistán": 1,
@@ -804,7 +777,7 @@
     "Hongkong": 1,
     "Indie": 1,
     "Berlín": 1,
-    "Michigan": 48,
+    "Michigan": 49,
     "Georgia": 20,
     "Maine": 26,
     "Mexico": 18,
@@ -816,15 +789,15 @@
     "Virginia": 14,
     "Izrael": 1,
     "Austrálie": 1,
-    "Alaska": 30,
+    "Alaska": 31,
     "Jižní Korea": 1,
     "Severní Korea": 1,
-    "New Jersey": 6,
+    "New Jersey": 7,
     "Afghánistán": 1,
     "Louisiana": 8,
     "Egypt": 1,
-    "Pennsylvania": 17,
-    "North Carolina": 9,
+    "Pennsylvania": 18,
+    "North Carolina": 10,
     "Brusel": 1,
     "Wisconsin": 8,
     "Kuba": 1,
@@ -839,7 +812,7 @@
     "Seattle": 1,
     "Utah": 7,
     "Turecko": 1,
-    "Massachusetts": 1,
+    "Massachusetts": 2,
     "Argentina": 2,
     "Praha": 1,
     "Sýrie": 1,
@@ -856,17 +829,9 @@
     "key": "Washington",
     "name_cs": "Washington, D.C.",
     "name_en": "Washington, D.C.",
-    "count": 79
+    "count": 80
   },
   "archive": [
-    {
-      "date": "2026-10-30 11:56",
-      "threat_level": "HIGH",
-      "security_status_cs": "Spojené státy čelí vyvrcholení kampaně před velmi drahými a napjatými kongresovými volbami, přičemž Wall Street se připravuje na možný 'modrý den' a posílení Demokratů. Mezinárodní napětí mezitím roste v souvislosti s obavami ohledně Hormuzského průlivu a událostí na Blízkém východě, což vyvolává nervozitu na trzích s energiemi. Domácí politická scéna je poznamenána ostrými střety ohledně integrity voleb, právních sporů a kontroverzí kolem kampaní v klíčových státech.",
-      "security_status_en": "The United States is facing the culmination of the campaign ahead of extremely expensive and tense midterm elections, with Wall Street bracing for potential Democratic gains. Meanwhile, international tensions are escalating amid concerns over the Strait of Hormuz and developments in the Middle East, triggering nervousness in energy markets. The domestic political landscape remains marked by fierce clashes over election integrity, legal disputes, and campaign controversies in key states.",
-      "forecast_cs": "V nejbližších dnech se očekává maximální volatilita spojená s průběhem a výsledky úterních midterms voleb a vývojem v Hormuzském průlivu.",
-      "forecast_en": "Maximum volatility is expected over the coming days, driven by Tuesday's midterm election results and developments in the Strait of Hormuz."
-    },
     {
       "date": "2026-10-31 06:00",
       "threat_level": "HIGH",
@@ -970,10 +935,18 @@
       "security_status_en": "The US political scene is facing profound shifts following a sweeping Democratic victory in the midterm elections, securing control of the House of Representatives. Markets reacted sharply with a multi-trillion-dollar plunge in tech stocks amid fears of regulations targeting AI and data centers. Meanwhile, the administration faces mounting political pressure and threats of impeachment against selected officials.",
       "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na technologických trzích a zostřený politický boj v Kongresu ohledně regulace AI a dohledu nad vládními úředníky.",
       "forecast_en": "Continued volatility in technology markets and intensified political battles in Congress regarding AI regulation and oversight of government officials are expected over the coming days."
+    },
+    {
+      "date": "2026-11-06 13:32",
+      "threat_level": "MEDIUM",
+      "security_status_cs": "Americká politická scéna čelí hlubokým změnám po úspěšné vlně Demokratické strany v mezivolbách, která přináší nové výzvy pro federální politiku. Trhy reagují poklesem v technologickém sektoru a obavami z nadcházející regulace umělé inteligence a datových center. Mezitím napětí roste kolem mezinárodních otázek včetně možných rozhodnutí o konfliktu s Iránem a právních sporů kolem administrativních projektů.",
+      "security_status_en": "The US political landscape is facing profound shifts following the Democratic Party's midterm wave, introducing fresh challenges for federal policy. Markets are reacting with a downturn in the tech sector and growing concerns over incoming regulations on artificial intelligence and data centers. Meanwhile, tension mounts around international issues including potential decisions regarding a conflict with Iran and legal battles over administrative projects.",
+      "forecast_cs": "V nejbližších dnech lze očekávat pokračující tlak na technologické akcie kvůli obavám z regulace AI a zvýšenou aktivitu v Kongresu ohledně legislativních priorit nově posílených demokratů.",
+      "forecast_en": "Over the coming days, continued pressure on tech stocks due to AI regulatory fears and heightened congressional activity regarding the legislative priorities of newly empowered Democrats are expected."
     }
   ],
-  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
-  "weekly_summary_en": "Over the last 7 recorded analyses: 7× HIGH.",
+  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 6× HIGH, 1× MEDIUM.",
+  "weekly_summary_en": "Over the last 7 recorded analyses: 6× HIGH, 1× MEDIUM.",
   "market_data": {
     "sp500": {
       "value": 7353.73,
