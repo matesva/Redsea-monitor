@@ -1,87 +1,255 @@
 {
-  "last_updated": "2026-11-05T14:13:21Z",
+  "last_updated": "2026-11-06T06:00:53Z",
   "assessment": {
-    "threat_level": "MEDIUM",
-    "sentiment_score": 48,
-    "security_status_cs": "Jižní Amerika se potýká s dopady globálních politických posunů, přičemž výsledky amerických midterm voleb oslabují pozici spojenců, jako je argentinský prezident Milei. Bezpečnostní situaci v regionu nadále komplikují operace organizovaného zločinu a pašeráckých sítí, zatímco Brazílie se pod vedením staronového prezidenta Luly snaží prosazovat globální ekologické iniciativy.",
-    "security_status_en": "South America is grappling with the fallout of global political shifts, as US midterm election results weaken the standing of allies such as Argentina's President Milei. The regional security landscape continues to be complicated by organized crime and smuggling networks, while Brazil under returning President Lula pushes for global environmental initiatives.",
+    "threat_level": "HIGH",
+    "sentiment_score": 72,
+    "security_status_cs": "Jižní Amerikou otřásají vážné politické a bezpečnostní krize včetně náhlé rezignace a obžalování paraguayského prezidenta Santiaga Peňy kvůli kolapsu bankovního systému. Mezitím Venezuela podniká vzácné nálety proti gerilám ELN a Kolumbie zpřísňuje protiteroristické zákony, což zvyšuje regionální nestabilitu. Ekonomická situace zůstává napjatá s poklesem brazilské produkce a rekordními cenami kávy kvůli mezinárodním celním sporům.",
+    "security_status_en": "South America is rocked by severe political and security crises, including the sudden impeachment and resignation of Paraguayan President Santiago Peña amid a banking system collapse. Meanwhile, Venezuela has launched rare airstrikes against ELN guerrillas and Colombia has tightened counter-insurgency laws, escalating regional instability. The economic outlook remains tense with falling output in Brazil and record coffee prices driven by international tariff spats.",
     "recommendations": [
       {
         "sector_cs": "Brazilský akciový trh (Bovespa, ETF EWZ)",
         "sector_en": "Brazilian Equities (Bovespa, EWZ ETF)",
         "action": "HOLD",
-        "reason_cs": "Zvolení Luoly a schválení nových produktů, jako je lék Wegovy od Anvisy, přinášejí smíšené ekonomické impulsy a opatrnost investorů.",
-        "reason_en": "Lula's return and regulatory approvals like Anvisa's green light for Wegovy offer mixed economic signals and warrant investor caution."
+        "reason_cs": "Pokles průmyslové produkce o 0,8 % a dozvuky Lulaova znovuzvolení udržují trhy opatrné, byť fintech gigant Nubank vykazuje sílu.",
+        "reason_en": "A 0.8% drop in industrial output and the aftermath of Lula's reelection keep markets cautious, though fintech giant Nubank shows resilience."
       },
       {
         "sector_cs": "Argentina (Merval, YPF, MercadoLibre)",
         "sector_en": "Argentina (Merval, YPF, MercadoLibre)",
         "action": "HOLD",
-        "reason_cs": "Oslabení pozice Donalda Trumpa v USA snižuje vyhlídky na přímou politickou a finanční podporu pro radikální reformy prezidenta Mileie.",
-        "reason_en": "Donald Trump's weakening position in the US reduces prospects for direct political and financial support for President Milei's radical reforms."
+        "reason_cs": "Prezident Milei čelí tlaku veřejnosti a politické opozice a zároveň stupňuje ekonomické spory vůči britským projektům u Falkland.",
+        "reason_en": "President Milei faces domestic public pressure and political friction while escalating economic attacks on British projects near the Falklands."
       },
       {
         "sector_cs": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
         "sector_en": "Mining: Copper & Lithium (Southern Copper, SQM, Freeport)",
         "action": "HOLD",
-        "reason_cs": "Trhy s kovy vyčkávají na stabilizaci globální poptávky a vývoj průmyslové aktivity v Asii, což drží sektor v bočním trendu.",
-        "reason_en": "Metal markets are awaiting global demand stabilization and Asian industrial activity trends, keeping the sector in a sideways pattern."
+        "reason_cs": "Ceny kovů jsou stabilní, ale celková politická nestabilita v regionech And vyžaduje obezřetnost vůči novým expanzím.",
+        "reason_en": "Metal prices remain stable, but broader political volatility in the Andean region dictates a cautious approach to new expansions."
       },
       {
         "sector_cs": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
         "sector_en": "Oil & Energy (Petrobras, Ecopetrol, Chevron)",
-        "action": "HOLD",
-        "reason_cs": "Brazílie představuje ambiciózní plány na odklon od fosilních paliv, což spolu s volatilitou cen ropy vytváří nejistotu pro energetické giganty.",
-        "reason_en": "Brazil's roadmap for phasing out fossil fuels combined with oil price volatility creates uncertainty for major energy players."
+        "action": "BUY",
+        "reason_cs": "Vojenské akcie Venezuely proti ELN a mírný pokles globálních cen ropy nabízejí zajímavé nákupní příležitosti u stabilnějších energetických firem.",
+        "reason_en": "Venezuela's military actions against the ELN and a slight dip in global oil prices present attractive entry points for stable energy firms."
       },
       {
         "sector_cs": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
         "sector_en": "Agriculture & Food (JBS, Bunge, Cosan)",
         "action": "BUY",
-        "reason_cs": "Rekordní ceny arabské kávy po ústupu od celních hrozeb a silná poptávka z Asie podporují marže jihoamerických producentů.",
-        "reason_en": "Record Arabica coffee prices following the withdrawal of tariff threats and robust Asian demand support South American producer margins."
+        "reason_cs": "Ceny arabské kávy dosáhly rekordních maxim kvůli napětí kolem celních hrozeb USA vůči Kolumbii, což nahrává producentům.",
+        "reason_en": "Arabica coffee prices hit record highs amid tensions over US tariff threats against Colombia, providing strong tailwinds for major producers."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Dění v Jižní Americe má na české blue chips pouze zanedbatelný nepřímý vliv skrze globální komoditní a měnové trendy.",
-        "reason_en": "South American developments have only negligible indirect impact on Czech blue chips via global commodity and currency trends."
+        "reason_cs": "Domácí bankovní tituly a energetika v ČR zůstávají primárně navázány na evropský makroekonomický vývoj a úrokové sazby ČNB/ECB, bez přímé vazby na latinskoamerické krize.",
+        "reason_en": "Domestic banking and energy stocks in the Czech Republic remain tied primarily to European macroeconomic trends and CNB/ECB interest rates, with no direct exposure to Latin American crises."
       }
     ],
-    "forecast_cs": "V nejbližších dnech se očekává zvýšená pozornost vůči argentinským trhům a politické reakci na oslabení amerických republikánů, zatímco komoditní trhy budou reagovat na vývoj cen ropy a kávy.",
-    "forecast_en": "Over the coming days, heightened attention will focus on Argentine markets and political reactions to the US Republican setback, while commodity markets respond to oil and coffee price trends.",
-    "forecast_review_cs": "Předchozí předpověď o pozornosti vůči paraguayskému bankovnímu sektoru a dopadech amerických midterms se potvrdila.",
-    "forecast_review_en": "The previous forecast regarding attention to Paraguay's banking sector and the fallout from US midterms was confirmed."
+    "forecast_cs": "V nejbližších dnech se očekává stupňující se napětí v Paraguayi po odvolání prezidenta a pokračující pozornost investorů vůči komoditním trhům s kávou a ropou.",
+    "forecast_en": "Over the coming days, escalating political tensions in Paraguay following the president's impeachment and continued investor focus on coffee and oil commodity markets are expected.",
+    "forecast_review_cs": "Předchozí předpověď se částečně potvrdila, neboť argentinské trhy a politické reakce zůstaly v centru pozornosti spolu s prudkými pohyby na komoditních trzích s kávou a ropou.",
+    "forecast_review_en": "The previous forecast was partially confirmed, as Argentine markets and political reactions remained in focus alongside sharp movements in coffee and oil commodity markets."
   },
   "articles": [
     {
-      "title": "South Africa Results Wait on 106 Complaints",
-      "summary": "<p>15.9 million South Africans voted in local elections. The IEC says 106 complaints remain open and results cannot come before Friday's deadline.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/south-africa-election-results-wait-106-complaints-2026/\">South Africa Results Wait on 106 Complaints</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/south-africa-election-results-wait-106-complaints-2026/",
-      "published": "Thu, 05 Nov 2026 13:42:44 +0000",
+      "title": "LatAm Expat & Nomad Daily Guide for Friday, November 6, 2026",
+      "summary": "<p>Your Friday LatAm guide: Mexico's central bank cut to 6.25%, Brazil's output fell 0.8%, and Chile reports inflation at 6:00 a.m. ET.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/latam-expat-nomad-daily-guide-for-friday-november-6-2026/\">LatAm Expat & Nomad Daily Guide for Friday, November 6, 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/latam-expat-nomad-daily-guide-for-friday-november-6-2026/",
+      "published": "Fri, 06 Nov 2026 05:39:28 +0000",
       "source": "The Rio Times"
     },
     {
-      "title": "Brazil Approves Wegovy Weight-Loss Pill",
-      "summary": "<p>Brazil's regulator Anvisa approved the Wegovy pill on 4 November 2026, its first oral GLP-1 obesity drug, opening a big market to Novo Nordisk.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/brazil-approves-first-obesity-pill-wegovy/\">Brazil Approves Wegovy Weight-Loss Pill</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/brazil-approves-first-obesity-pill-wegovy/",
-      "published": "Thu, 05 Nov 2026 13:27:14 +0000",
+      "title": "Luxembourg Politics Explained, Who Holds Power in 2026",
+      "summary": "<p>A CSV-DP coalition holds 35 of 60 seats under Prime Minister Luc Frieden, with the next election due in 2028. A guide for US readers.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/luxembourg-politics-explained-who-holds-power-2026/\">Luxembourg Politics Explained, Who Holds Power in 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/luxembourg-politics-explained-who-holds-power-2026/",
+      "published": "Fri, 06 Nov 2026 05:37:45 +0000",
       "source": "The Rio Times"
     },
     {
-      "title": "Indonesia’s 5.47% Growth and Latin American Grain",
-      "summary": "<p>Statistics Indonesia reported 5.47% growth for July to September, and soybean and grain exporters in Brazil and Argentina are weighing what it means.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/indonesia-gdp-growth-5-47-latin-america-grain-exporters-2026/\">Indonesia’s 5.47% Growth and Latin American Grain</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/indonesia-gdp-growth-5-47-latin-america-grain-exporters-2026/",
-      "published": "Thu, 05 Nov 2026 13:27:00 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "3,000 tarantulas hidden inside luggage seized at Peruvian airport",
-      "summary": "In a peculiar failed smuggling attempt, 3,000 tarantulas were seized at a Peruvian airport.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/3000-tarantulas-hidden-inside-luggage-seized-at-peruvian-airport?traffic_source=rss",
-      "published": "Thu, 05 Nov 2026 12:56:10 +0000",
+      "title": "Trump issues proclamation declaring Oval Office national monument",
+      "summary": "Following election losses, the signing marks Trump's third event of the week focused on signature renovation projects.",
+      "link": "https://www.aljazeera.com/news/2026/11/6/trump-issues-proclamation-declaring-oval-office-national-monument?traffic_source=rss",
+      "published": "Fri, 06 Nov 2026 04:48:00 +0000",
       "source": "Al Jazeera"
+    },
+    {
+      "title": "Latin America Sports Daily for Friday, November 6, 2026",
+      "summary": "<p>Copa Libertadores final: Palmeiras meet Estudiantes in Montevideo on 28 November. Boca face Mineiro in the Sudamericana final on 21 November.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/latin-america-sports-daily-friday-november-6-2026/\">Latin America Sports Daily for Friday, November 6, 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/latin-america-sports-daily-friday-november-6-2026/",
+      "published": "Fri, 06 Nov 2026 04:13:46 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Paraguay’s president impeached amid bank collapse crisis",
+      "summary": "Lawmakers have voted to impeach Paraguay’s President Santiago Pena amid a banking collapse that has roiled the country.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/6/paraguays-president-impeached-amid-bank-collapse-crisis?traffic_source=rss",
+      "published": "Fri, 06 Nov 2026 03:49:33 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Argentina prepares for historic Pope Leo XIV visit",
+      "summary": "<p><img alt=\"A woman adjusts a flag of Vatican City bearing an image of Pope Leo XIV \" src=\"https://fotos.perfil.com/2026/11/05/trim/540/304/a-woman-adjusts-a-flag-of-vatican-city-bearing-an-image-of-pope-leo-xiv-2361836.jpg\" /></p>First papal visit to the country in 39 years; Pontiff to be welcomed by Milei upon arrival; Leo’s speeches expected to address issues including inequality, the Church's social doctrine and artificial intelligence. <a href=\"https://www.batimes.com.ar/news/argentina/argentina-prepares-for-historic-pope-leo-xiv-visit.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/argentina/argentina-prepares-for-historic-pope-leo-xiv-visit.phtml",
+      "published": "Fri, 06 Nov 2026 03:46:00 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Peru airport officials seize over 3,000 tarantulas hidden in socks – video",
+      "summary": "<p>Peruvian authorities seized more than 3,000 tarantulas hidden inside socks packed in the suitcases  of three people heading on a flight to Germany, the National Forestry and Wildlife Service said. Each case had between 15 and 22 socks, with each sock containing different species of tarantulas, part of a wildlife trafficking scheme that could be potentially worth €1.5m </p><p></p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/nov/06/3000-tarantulas-smuggled-inside-dirty-socks-peru\">Peru airport officials discover 3,000 tarantulas smuggled inside dirty socks</a></p></li></ul> <a href=\"https://www.theguardian.com/world/video/2026/nov/06/peru-airport-officials-seize-over-3000-tarantulas-hidden-in-socks-video\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/video/2026/nov/06/peru-airport-officials-seize-over-3000-tarantulas-hidden-in-socks-video",
+      "published": "Fri, 06 Nov 2026 03:22:37 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Cottolengo Don Orione: ‘Pope Leo’s visit makes us more visible than ever’",
+      "summary": "<p><img alt=\"Images from the site of the Cottolengo Don Orione in Claypole, Buenos Aires Province.\" src=\"https://fotos.perfil.com/2026/11/03/trim/540/304/images-from-the-site-of-the-cottolengo-don-orione-in-claypole-buenos-aires-province-2360612.jpg\" /></p>Pope Leo XIV will tour the little-known Cottolengo Don Orione institution, located in Claypole, on Monday, November 9. Father Aníbal Quevedo, the charity’s provincial advisor, says papal visit “will make us question what each one of us is doing for the disabled.”\n <a href=\"https://www.batimes.com.ar/news/argentina/cottolengo-don-orione-pope-leos-visit-makes-us-more-visible-than-ever.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/argentina/cottolengo-don-orione-pope-leos-visit-makes-us-more-visible-than-ever.phtml",
+      "published": "Fri, 06 Nov 2026 03:19:00 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "What Milei can learn from elections in Brazil and United States",
+      "summary": "<p><img alt=\"Trump's bloodied chainsaw ART\" src=\"https://fotos.perfil.com/2026/11/05/trim/540/304/trumps-bloodied-chainsaw-art-2361801.jpg\" /></p>Milei has spent most of 2026 in denial about the economic problems facing many Argentines, including a lot of the voters who backed him in 2023.  <a href=\"https://www.batimes.com.ar/news/opinion-and-analysis/what-milei-can-learn-from-elections-in-brazil-and-united-states.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/opinion-and-analysis/what-milei-can-learn-from-elections-in-brazil-and-united-states.phtml",
+      "published": "Fri, 06 Nov 2026 03:14:00 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Peña says he will face his impeachment trial as Argentina denies he has entered the country",
+      "summary": "<p>\n\t   \t      <img alt=\"“We have no record of him being in Argentina.” Javier Milei’s government, a political ally of Peña, has not commented on the Paraguayan crisis.\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112016/100x80/sanj-.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Paraguayan President Santiago Peña announced on Thursday night that he will appear before the Senate to defend himself in the impeachment trial against him, after Congress failed for lack of a quorum to consider the resignation he had tendered hours earlier, leaving him formally in office. Argentina’s government, meanwhile, denied any record of Peña entering Argentina, following reports that he might have left Paraguay.</p>",
+      "link": "https://en.mercopress.com/2026/11/06/pena-says-he-will-face-his-impeachment-trial-as-argentina-denies-he-has-entered-the-country?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Fri, 06 Nov 2026 01:56:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "Lula sees his win as “a lesson for the world” after setbacks for Netanyahu and Trump",
+      "summary": "<p>\n\t   \t      <img alt=\"\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112012/100x80/lula.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Brazilian President Luiz Inácio Lula da Silva described his October 25 re-election as “a lesson for the world” and linked it to the electoral setbacks suffered in recent days by Israeli Prime Minister Benjamin Netanyahu and US President Donald Trump. “In the same week, Netanyahu lost in Israel and I think my friend Trump is losing in the United States,” he said on Thursday in a live broadcast on YouTube.</p>",
+      "link": "https://en.mercopress.com/2026/11/06/lula-sees-his-win-as-a-lesson-for-the-world-after-setbacks-for-netanyahu-and-trump?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Fri, 06 Nov 2026 01:42:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "Watchdog publishes a list of 77 clergy accused of abuse in Peru ahead of the Pope’s visit",
+      "summary": "<p>\n\t   \t      <img alt=\"\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112010/100x80/ch.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         US-based organisation Bishop Accountability on Thursday presented in Lima a list of 77 members of Peru’s Catholic clergy publicly accused of sexually abusing minors, days before Pope Leo XIV, who lived in the country for more than two decades, begins his tour of South America. Victims and the organisation called on the pontiff to take concrete steps, including setting up a truth commission.</p>",
+      "link": "https://en.mercopress.com/2026/11/06/watchdog-publishes-a-list-of-77-clergy-accused-of-abuse-in-peru-ahead-of-the-pope-s-visit?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Fri, 06 Nov 2026 01:38:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "Peru airport officials discover 3,000 tarantulas smuggled inside dirty socks",
+      "summary": "<p>Three suitcases’ worth of the spiders were on their way to Germany, where they could fetch an estimated €1.5m</p><p>More than 3,000 tarantulas were seized at an airport in Lima on their way to Germany, Peruvian authorities said.</p><p>The spiders were hidden inside dirty socks contained in three suitcases carried by two Germans and a Polish citizen, the National Forestry and Wildlife Service (SERFOR) told Agence France-Presse on Thursday.</p> <a href=\"https://www.theguardian.com/world/2026/nov/06/3000-tarantulas-smuggled-inside-dirty-socks-peru\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/nov/06/3000-tarantulas-smuggled-inside-dirty-socks-peru",
+      "published": "Fri, 06 Nov 2026 01:22:49 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
+      "summary": "Pope Leo, who had part of a lung removed last month, will visit Uruguay, Argentina and Peru.",
+      "link": "https://www.bbc.co.uk/news/articles/cqn06j0y61k6o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 06 Nov 2026 00:02:57 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
+      "summary": "The tax brackets at the heart of Americans’ income-tax bills will be adjusting at a steeper level in 2027 compared to this year, underscoring inflation’s rekindled presence.",
+      "link": "https://www.marketwatch.com/story/the-2027-tax-brackets-are-out-see-what-the-standard-deduction-and-salt-tax-breaks-will-be-5dd1d293?mod=mw_rss_topstories",
+      "published": "Thu, 05 Nov 2026 22:40:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "South Africa’s ANC on track for new lows in local polls",
+      "summary": "The ANC was on about 32 percent of the vote with more than 60 percent of votes counted in municipal elections.",
+      "link": "https://www.aljazeera.com/news/2026/11/5/south-africas-anc-on-track-for-new-lows-in-local-polls?traffic_source=rss",
+      "published": "Thu, 05 Nov 2026 21:48:16 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
+      "summary": "Democratic winners and progressive lawmakers are calling for tougher limits on AI and data centers after the 2026 midterm elections.",
+      "link": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html",
+      "published": "Thu, 05 Nov 2026 20:17:16 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Venezuela’s Airstrike on the ELN Tests 2 Decades of Chavista Tolerance",
+      "summary": "<p><a href=\"https://insightcrime.org/news/venezuelas-airstrike-the-eln-tests-decades-chavista-tolerance/\">Venezuela’s Airstrike on the ELN Tests 2 Decades of Chavista Tolerance</a></p>\n<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2026/11/Ataque-Drones-ELN-Apure-InSight-CrimeNov-2026.jpg?fit=1024%2C576&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>The Venezuelan government’s first major attack against the ELN marks a rupture in the longstanding relationship between Chavista administrations and Colombian insurgent groups.</p>\n<p>The post <a href=\"https://insightcrime.org/news/venezuelas-airstrike-the-eln-tests-decades-chavista-tolerance/\">Venezuela’s Airstrike on the ELN Tests 2 Decades of Chavista Tolerance</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
+      "link": "https://insightcrime.org/news/venezuelas-airstrike-the-eln-tests-decades-chavista-tolerance/",
+      "published": "Thu, 05 Nov 2026 20:12:59 +0000",
+      "source": "InSight Crime"
+    },
+    {
+      "title": "Mass protests in France driven by nationwide strike action",
+      "summary": "More than 250,000 people took to the streets across France on Thursday as five unions called a day of strike action.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/5/mass-protests-in-france-driven-by-nationwide-strike-action?traffic_source=rss",
+      "published": "Thu, 05 Nov 2026 20:11:37 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Paraguay’s president quits after millions of people’s savings frozen in bank crisis",
+      "summary": "<p>Santiago Peña’s rightwing administration had authorised Ueno Bank to drastically expand operations before collapse</p><p>Paraguay’s rightwing president, Santiago Peña, resigned on Thursday after a political and financial crisis collapsed the South American country’s banking system in recent days.</p><p>At the centre of the crisis is Ueno Bank, which in just a few years under Peña went from an obscure digital bank to one of the country’s largest lenders, claiming to have about 60% of Paraguay’s adult population as customers.</p> <a href=\"https://www.theguardian.com/world/2026/nov/05/paraguay-president-santiago-pena-resigns\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/nov/05/paraguay-president-santiago-pena-resigns",
+      "published": "Thu, 05 Nov 2026 18:48:07 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Paraguay's president is impeached minutes after resigning following a bank collapse",
+      "summary": "Paraguayan lawmakers voted to impeach President Santiago Peña minutes after his resignation, as the collapse of a digital bank tied to his government froze millions of people's savings.",
+      "link": "https://www.npr.org/2026/11/05/nx-s1-6030842/paraguay-president-impeached-bank-collapse",
+      "published": "Thu, 05 Nov 2026 13:30:16 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "Has Venezuela Declared War on Colombia’s ELN Guerrillas? | The InSight Take",
+      "summary": "<p><a href=\"https://insightcrime.org/news/venezuela-declared-war-on-colombias-eln-insight-take/\">Has Venezuela Declared War on Colombia’s ELN Guerrillas? | The InSight Take</a></p>\n<figure><img alt=\"Imagen de InSight Take ELN Attack in Venezuela\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2026/11/InSightCrime-InSight-Take-ELN-Attack-in-Venezuela-1.jpg?fit=1024%2C576&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>The Venezuelan government launched strikes against the ELN amid United States pressure on Delcy Rodríguez’s administration to end the protection that the Chavista regime has historically provided to the Colombian guerrilla group. The offensive could mark the beginning of a broader campaign against the group, although it remains unclear whether the strikes will continue.</p>\n<p>The post <a href=\"https://insightcrime.org/news/venezuela-declared-war-on-colombias-eln-insight-take/\">Has Venezuela Declared War on Colombia’s ELN Guerrillas? | The InSight Take</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
+      "link": "https://insightcrime.org/news/venezuela-declared-war-on-colombias-eln-insight-take/",
+      "published": "Thu, 05 Nov 2026 18:25:46 +0000",
+      "source": "InSight Crime"
+    },
+    {
+      "title": "Paraguay President Santiago Peña resigns after bank collapse",
+      "summary": "The move follows a bank collapse and after the lower house of congress voted in favour of pursuing an impeachment trial against him.",
+      "link": "https://www.bbc.co.uk/news/articles/c6p9g39vln3yo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 05 Nov 2026 17:40:40 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Paraguay's president Peña impeached moments after resigning over banking scandal",
+      "summary": "Paraguay’s lower house voted unanimously to impeach President Santiago Peña on Thursday, just minutes after he announced his resignation on X. Protesters have rallied in the streets since the takeover of a bank linked to Peña blocked millions of people, including pensioners, from accessing their money.",
+      "link": "https://www.france24.com/en/americas/20261105-paraguay-s-president-pe%C3%B1a-impeached-moments-after-resigning-amid-banking-scandal",
+      "published": "Thu, 05 Nov 2026 17:33:53 GMT",
+      "source": "France 24"
+    },
+    {
+      "title": "Barkin sees interest rate hikes ahead, but at a gradual pace",
+      "summary": "In a CNBC interview, the policymaker expressed concern over inflation and said monetary policy will need to adjust.",
+      "link": "https://www.cnbc.com/2026/11/05/barkin-sees-interest-rate-hikes-ahead-but-at-a-gradual-pace.html",
+      "published": "Thu, 05 Nov 2026 16:34:33 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "'Identity crisis': Can Democrats 'deliver' following their 'historic', once in a generation victory?",
+      "summary": "A historic Democratic electoral breakthrough has transformed the American political landscape. For Laurie Dundon, Senior Associate Fellow at the European Leadership Network and former US diplomat, the central question is whether the Democratic Party can convert electoral momentum into coherent governance. \"Can they deliver?\" Dunden examines the apparent disintegration of Donald Trump's 2024 MAGA coalition alongside the Democratic Party's continuing ideological struggle between its progressive and centrist wings. Ahead of 2028, Dunden cautions against seeing Trump as a lame duck: \"Trump is never going to stop being Trump.\" The resulting struggle over congressional spending powers, presidential vetoes, tariffs and investigations promises to be a delicate dance to watch\".",
+      "link": "https://www.france24.com/en/identity-crisis-can-democrats-deliver-following-their-historic-once-in-a-generation-victory",
+      "published": "Thu, 05 Nov 2026 15:27:11 GMT",
+      "source": "France 24"
+    },
+    {
+      "title": "How Milei is using economic warfare against the Falklands – explainer",
+      "summary": "<p>Facing a slump in the polls, Javier Milei is making economic attacks on the Falkland Islands' oil industry and suggesting its key fisheries industry could be next. In a UN speech, the Argentinian president claimed that the UK's offshore oil development, the Sea Lion Project, was illegal, and threatened to take action against it</p><p></p><ul><li><p><a href=\"https://www.theguardian.com/news/ng-interactive/2026/oct/18/4000-people-minding-our-own-business-four-decades-on-falklands-again-face-a-hostile-argentina\"><strong>4,000 people minding our own business’: four decades on, Falklands again face a hostile Argentina</strong></a></p></li></ul> <a href=\"https://www.theguardian.com/uk-news/video/2026/nov/05/how-milei-is-using-economic-warfare-against-the-falklands-explainer\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/uk-news/video/2026/nov/05/how-milei-is-using-economic-warfare-against-the-falklands-explainer",
+      "published": "Thu, 05 Nov 2026 15:26:00 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Honduras",
+      "summary": "<p><a href=\"https://insightcrime.org/noticias-crimen-organizado-honduras/honduras/\">Honduras</a></p>\n<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"578\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2017/08/Honduras-country-profile-ok.jpg?fit=1024%2C578&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>Honduras, long one of the poorest countries in Latin America, is now also among the most violent and crime-ridden. The violence is carried out by local drug trafficking groups, gangs, corrupt security forces and transnational criminal organizations mainly from Mexico and Colombia.</p>\n<p>In recent years, Honduras has become a strategic transit nation for drugs moving north to the United States. Political turmoil following the 2009 coup that ousted then-President Manuel Zelaya has exacerbated instability. <a class=\"read-more-contri\" href=\"https://www.insightcrime.org/honduras-organized-crime-news/honduras/\">Read more</a></p>\n<p>The post <a href=\"https://insightcrime.org/noticias-crimen-organizado-honduras/honduras/\">Honduras</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
+      "link": "https://insightcrime.org/noticias-crimen-organizado-honduras/honduras/",
+      "published": "Thu, 05 Nov 2026 14:30:16 +0000",
+      "source": "InSight Crime"
     },
     {
       "title": "What comes next for Democrats after midterm election victory?",
@@ -91,27 +259,6 @@
       "source": "France 24"
     },
     {
-      "title": "Interest rates could go ‘significantly higher’ if oil prices keep climbing — even if the Iran war ends soon",
-      "summary": "Strategists at Bank of America found a dramatic correlation between interest rates and oil prices in the U.S., U.K. and Germany.",
-      "link": "https://www.marketwatch.com/story/interest-rates-could-go-significantly-higher-if-oil-prices-keep-climbing-even-if-the-iran-war-ends-soon-e3493498?mod=mw_rss_topstories",
-      "published": "Thu, 05 Nov 2026 12:33:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "The real test for the artificial-intelligence buildout is what happens in 2028, analysts say",
-      "summary": "JPMorgan’s Michael Cembalest is worried about data center build-outs following midterm elections, and he’s looking two years ahead.",
-      "link": "https://www.marketwatch.com/story/the-real-test-for-the-artificial-intelligence-build-out-is-what-happens-in-2028-analysts-say-c5978e48?mod=mw_rss_topstories",
-      "published": "Thu, 05 Nov 2026 12:23:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Workers strike across France, hundreds of thousands expected to protest",
-      "summary": "Demonstrators are demanding an increase in the minimum wage and higher salaries for all workers, among other reforms.",
-      "link": "https://www.aljazeera.com/news/2026/11/5/workers-strike-across-france-hundreds-of-thousands-expected-to-protest?traffic_source=rss",
-      "published": "Thu, 05 Nov 2026 12:21:13 +0000",
-      "source": "Al Jazeera"
-    },
-    {
       "title": "Farewell Botox, heels and big hair: Is this the end of MAGA women?",
       "summary": "PRESS REVIEW – Thursday, November 5: \"Loser\" and \"Reborn in the USA\" are just some of the headlines dominating the international press after the Democrats stomped to victory in the US midterm elections. What impact will their success have on the rest of Donald Trump's presidency? How will he govern with a Democratic-controlled Congress? These are just some of the burning questions after that vote. Also, do the midterm results signal the end of the MAGA woman and the \"Mar-a-Lago face\"?",
       "link": "https://www.france24.com/en/tv-shows/press-review/20261105-farewell-botox-heels-and-big-hair-is-this-the-end-of-maga-women",
@@ -119,60 +266,11 @@
       "source": "France 24"
     },
     {
-      "title": "US midterms: Elon Musk fails $440 million bet as Republicans lose",
-      "summary": "The 2026 midterm elections were the most expensive on record, with nearly 12 billion dollars spent during the campaign. Tech tycoon Elon Musk was by far the largest individual donor ever, injecting over 440 million dollars of his money to support the GOP. Tuesday's resounding Democratic victory showed the limits of his money, power and influence.",
-      "link": "https://www.france24.com/en/video/20261105-us-midterms-elon-musk-fails-440-million-bet-as-republicans-lose",
-      "published": "Thu, 05 Nov 2026 11:29:35 GMT",
-      "source": "France 24"
-    },
-    {
-      "title": "Visualising how the US midterms turned the map blue",
-      "summary": "Who voted, which seats flipped and who made history? A look at the numbers behind the 2026 US midterm elections.",
-      "link": "https://www.aljazeera.com/news/2026/11/5/visualising-how-the-us-midterms-turned-the-map-blue?traffic_source=rss",
-      "published": "Thu, 05 Nov 2026 11:09:58 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "How elderly ‘unsung heroes’ powered Lula’s historic fightback in Brazil",
-      "summary": "<p>Older voters praised for helping tip balance in leftwing president’s favour against far-right Flávio Bolsonaro in runoff</p><p>It had been nearly a decade since Celia de Oliveira Soares last voted, and months since the 101-year-old great-grandmother last left her home.</p><p>But on 25 October, when Brazil held what many considered its most <a href=\"https://www.theguardian.com/world/2026/oct/26/brazil-lula-vow-democracy-always-election-win\">important presidential election</a> in decades, relatives helped Soares into a wheelchair and drove her to a nearby school to make sure the far-right candidate, Flávio Bolsonaro, did not prevail.</p> <a href=\"https://www.theguardian.com/world/2026/nov/05/unsung-heroes-behind-lula-surprise-election-triumph-brazil-runoff-bolsonaro\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/nov/05/unsung-heroes-behind-lula-surprise-election-triumph-brazil-runoff-bolsonaro",
-      "published": "Thu, 05 Nov 2026 11:00:21 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Serbian officers arrested for using ‘excessive force’ against protesters",
-      "summary": "Ten suspects are accused of abusing and torturing several people in the garage of a government compound in Belgrade.",
-      "link": "https://www.aljazeera.com/news/2026/11/5/serbian-officers-arrested-for-using-excessive-force-against-protesters?traffic_source=rss",
-      "published": "Thu, 05 Nov 2026 10:34:42 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Ibero-American foreign ministers unanimously back Argentina’s Falklands claim",
-      "summary": "<p>\n\t   \t      <img alt=\"“The Ibero-American community reaffirms, once again, its support for the Argentine Republic,” said Argentine Foreign Minister Pablo Quirno\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112004/100x80/1-cumbre.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Ibero-American foreign ministers meeting in Madrid unanimously approved a special communiqué backing Argentina’s sovereignty claim over the Falklands and calling on Argentina and the United Kingdom to resume negotiations, on the eve of the Hamburg hearing on the Sea Lion oil project.</p>",
-      "link": "https://en.mercopress.com/2026/11/05/ibero-american-foreign-ministers-unanimously-back-argentina-s-falklands-claim?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Thu, 05 Nov 2026 07:21:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "One dead and more than 2,000 affected by El Niño flooding in the Galápagos",
-      "summary": "<p>\n\t   \t      <img alt=\"Authorities announced repairs to the road linking the airport with the island and the removal of debris\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112002/100x80/gala.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Heavy rains linked to the El Niño phenomenon triggered a flash flood on Santa Cruz island in Ecuador’s Galápagos archipelago overnight from Friday to Saturday, leaving one person dead and more than 2,000 affected, according to local mayor Fanny Uribe. Water reached up to three metres deep in some neighbourhoods of Puerto Ayora, the island’s main town.</p>",
-      "link": "https://en.mercopress.com/2026/11/05/one-dead-and-more-than-2-000-affected-by-el-nino-flooding-in-the-galapagos?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Thu, 05 Nov 2026 07:14:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Paraguay seeks to return part of the savings frozen at Ueno Bank within 24 hours",
-      "summary": "<p>\n\t   \t      <img alt=\"\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112000/100x80/pysen.jpeg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Paraguay’s Senate on Wednesday approved a reform of the deposit guarantee law that would allow customers of Ueno Bank, taken over by the Central Bank on Tuesday, to receive an advance of up to 40 minimum wages, about 121 million guaraníes, within 24 hours of the bank’s resolution. The bill now goes to the Chamber of Deputies, which was due to consider it on Thursday.</p>",
-      "link": "https://en.mercopress.com/2026/11/05/paraguay-seeks-to-return-part-of-the-savings-frozen-at-ueno-bank-within-24-hours?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Thu, 05 Nov 2026 07:08:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Nothing changes: Officials play down fallout from Trump's midterm defeat",
-      "summary": "<p><img alt=\"Casa Rosada\" src=\"https://fotos.perfil.com/2026/09/18/trim/540/304/casa-rosada-2328762.jpg\" /></p>Luis Caputo says ties with Washington will endure; 'Beautiful morning' – Cristina Fernández de Kirchner celebrates in English, but Milei stays silent.\n <a href=\"https://www.batimes.com.ar/news/argentina/nothing-changes-officials-play-down-fallout-from-trumps-midterm-defeat.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/argentina/nothing-changes-officials-play-down-fallout-from-trumps-midterm-defeat.phtml",
-      "published": "Thu, 05 Nov 2026 03:36:14 GMT",
-      "source": "Buenos Aires Times"
+      "title": "Colombia’s rebels no longer considered political actors under landmark new law",
+      "summary": "<p>The law marks a major shift in the Colombian state’s counter-insurgency policy.</p>\n<p>The post <a href=\"https://www.latinamericareports.com/colombias-rebels-no-longer-considered-political-actors-under-landmark-new-law/15560/\">Colombia’s rebels no longer considered political actors under landmark new law</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
+      "link": "https://www.latinamericareports.com/colombias-rebels-no-longer-considered-political-actors-under-landmark-new-law/15560/",
+      "published": "Wed, 04 Nov 2026 23:24:01 +0000",
+      "source": "Latin America Reports"
     },
     {
       "title": "10-year Treasury yield slides as traders mull over Democrats' midterm victories, oil prices drop",
@@ -182,18 +280,18 @@
       "source": "CNBC"
     },
     {
-      "title": "How Trump's defeat in US midterms might affect Argentina",
-      "summary": "<p><img alt=\"President Javier Milei and US President Donald Trump in the Oval Office at the White House.\" src=\"https://fotos.perfil.com/2026/11/04/trim/540/304/president-javier-milei-and-us-president-donald-trump-in-the-oval-office-at-the-white-house-2361220.jpg\" /></p>Republican losses could weaken Donald Trump’s ability to provide further financial support to Javier Milei’s government, warns CEPA think tank. <a href=\"https://www.batimes.com.ar/news/economy/how-trumps-defeat-in-us-midterms-might-affect-argentina.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/economy/how-trumps-defeat-in-us-midterms-might-affect-argentina.phtml",
-      "published": "Wed, 04 Nov 2026 19:23:38 GMT",
-      "source": "Buenos Aires Times"
+      "title": "When surgery waits on a missing box, one founder wants AI to know when to call a person",
+      "summary": "<p>Picture the moment from inside the operating room: the patient is under anesthesia, the surgical team is scrubbed in, and something the procedure needs is missing from the cart. A nurse picks up the phone and calls the main stockroom, hoping the item is on a shelf there and that someone can bring it up […]</p>\n<p>The post <a href=\"https://www.latinamericareports.com/when-surgery-waits-on-a-missing-box-one-founder-wants-ai-to-know-when-to-call-a-person/15555/\">When surgery waits on a missing box, one founder wants AI to know when to call a person</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
+      "link": "https://www.latinamericareports.com/when-surgery-waits-on-a-missing-box-one-founder-wants-ai-to-know-when-to-call-a-person/15555/",
+      "published": "Wed, 04 Nov 2026 19:28:28 +0000",
+      "source": "Latin America Reports"
     },
     {
-      "title": "US allies see a weakened Trump but they’re wary of the backlash",
-      "summary": "<p><img alt=\"US President Donald Trump, STOCK\" src=\"https://fotos.perfil.com/2026/11/04/trim/540/304/us-president-donald-trump-stock-2361185.jpg\" /></p>US election results welcomed in many capitals, but foreign officials warns US president could prove even more disruptive going forward. <a href=\"https://www.batimes.com.ar/news/world/us-allies-see-a-weakened-trump-but-theyre-wary-of-the-backlash.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/world/us-allies-see-a-weakened-trump-but-theyre-wary-of-the-backlash.phtml",
-      "published": "Wed, 04 Nov 2026 18:16:55 GMT",
-      "source": "Buenos Aires Times"
+      "title": "Nubank only US-listed Brazil fintech to beat stock market after Lula win",
+      "summary": "<p>Amid the record market downturn on October 26, the day after Luiz Inácio Lula da Silva’s unexpected election victory, one company managed to beat the market: Nu Holdings. The fintech, which is the parent company of e-banking app Nubank, was the only one of the seven Brazilian fintechs listed in the United States and tracked […]</p>\n<p>The post <a href=\"https://www.latinamericareports.com/nubank-only-us-listed-brazil-fintech-to-beat-stock-market-after-lula-win/15565/\">Nubank only US-listed Brazil fintech to beat stock market after Lula win</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
+      "link": "https://www.latinamericareports.com/nubank-only-us-listed-brazil-fintech-to-beat-stock-market-after-lula-win/15565/",
+      "published": "Wed, 04 Nov 2026 17:32:03 +0000",
+      "source": "Latin America Reports"
     },
     {
       "title": "The world is reacting to the Democrats' sweeping midterm elections victory",
@@ -203,41 +301,6 @@
       "source": "NPR"
     },
     {
-      "title": "Amazon still under threat despite Lula win in Brazil: researcher",
-      "summary": "<p>President Luiz Inácio Lula da Silva won an unprecedented fourth term over right-wing senator Flávio Bolsonaro in last week’s runoff election. Climate activists are celebrating his victory as a win for the fight against global climate change, but experts warn that a rightward shift in Brazil’s Congress could still leave the rainforest under threat. About […]</p>\n<p>The post <a href=\"https://www.latinamericareports.com/amazon-still-under-threat-despite-lula-win-in-brazil-researcher/15547/\">Amazon still under threat despite Lula win in Brazil: researcher</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
-      "link": "https://www.latinamericareports.com/amazon-still-under-threat-despite-lula-win-in-brazil-researcher/15547/",
-      "published": "Wed, 04 Nov 2026 00:47:08 +0000",
-      "source": "Latin America Reports"
-    },
-    {
-      "title": "Grieving family, Peruvian diplomats press for answers following immigrant’s death in ICE custody",
-      "summary": "<p>Over a month has passed since Julio Curo-Churata, a 47-year-old Peruvian immigrant, father, handyman and construction worker who had been living in the United States for 17 years, died under unclear circumstances in the custody of the U.S. Immigration and Customs Enforcement (ICE).  His death is the 37th this year in ICE detention centers, according […]</p>\n<p>The post <a href=\"https://www.latinamericareports.com/grieving-family-peruvian-diplomats-press-for-answers-following-immigrants-death-in-ice-custody/15541/\">Grieving family, Peruvian diplomats press for answers following immigrant’s death in ICE custody</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
-      "link": "https://www.latinamericareports.com/grieving-family-peruvian-diplomats-press-for-answers-following-immigrants-death-in-ice-custody/15541/",
-      "published": "Wed, 04 Nov 2026 00:07:31 +0000",
-      "source": "Latin America Reports"
-    },
-    {
-      "title": "What Europe’s digital euro could mean for Latin America",
-      "summary": "<p>Roughly two-thirds of euro-area card transactions are processed through international card schemes governed by non-European companies such as Visa and Mastercard, according to the European Central Bank. But the digital euro is the bloc’s attempt to change that, and this year the project cleared its biggest political hurdle yet.  On July 9, the European Parliament […]</p>\n<p>The post <a href=\"https://www.latinamericareports.com/what-europes-digital-euro-could-mean-for-latin-america/15538/\">What Europe’s digital euro could mean for Latin America</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
-      "link": "https://www.latinamericareports.com/what-europes-digital-euro-could-mean-for-latin-america/15538/",
-      "published": "Tue, 03 Nov 2026 22:59:38 +0000",
-      "source": "Latin America Reports"
-    },
-    {
-      "title": "Stock market after midterm elections: What S&P 500 history shows",
-      "summary": "Midterms historically precede a strong year for the S&P 500. What to know if Democrats win back Congress",
-      "link": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
-      "published": "Tue, 03 Nov 2026 18:21:05 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Brazil publishes first global ‘roadmap’ for phasing out fossil fuels",
-      "summary": "<p>Cop30 host sets out steps to break link with coal, oil and gas as it aims to move focus from negotiating to implementing</p><p>All countries can start to break their dependence on fossil fuels now without needing to wait for new technologies or economic changes, Brazil’s government has said ahead of a global climate summit.</p><p>Brazil, the host of <a href=\"https://www.theguardian.com/environment/2025/nov/25/fossil-fuel-giants-finally-in-the-crosshairs-cop30-avoids-total-failure-with-last-ditch-deal\">last year’s UN climate conference</a>, set out the world’s first global “roadmap” for phasing out fossil fuels on Tuesday, showing that countries could boost their economies and pull people out of poverty while breaking the link with coal, oil and gas.</p> <a href=\"https://www.theguardian.com/environment/2026/nov/03/brazil-first-global-roadmap-phasing-out-fossil-fuels\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/environment/2026/nov/03/brazil-first-global-roadmap-phasing-out-fossil-fuels",
-      "published": "Tue, 03 Nov 2026 13:00:07 GMT",
-      "source": "The Guardian"
-    },
-    {
       "title": "US urges Venezuela to release remaining political prisoners",
       "summary": "The US secretary of state also discusses laying the groundwork for 'free, fair, and credible elections'.",
       "link": "https://www.bbc.co.uk/news/articles/cxg5jln586pno?at_medium=RSS&at_campaign=rss",
@@ -245,74 +308,11 @@
       "source": "BBC News"
     },
     {
-      "title": "The Amazon’s canary in the coalmine: what a tropical fish can tell us about climate upheaval",
-      "summary": "<p>Scientist Adalberto Luis Val’s pioneering research on the tambaqui fish is revealing the effect of climate disruption in Brazil, with global implications for biodiversity and food security</p><p>As a boy in rural São Paulo, Adalberto Luis Val used to stare into the lake where his father took him fishing and wonder how all those creatures swimming below stayed alive. One day, he netted a few, put them in a jar, and brought them home to observe. The next morning, they were all dead. Val was devastated but intrigued.</p><p>“I needed to know how fish are able to live,” he says.</p> <a href=\"https://www.theguardian.com/global-development/2026/nov/03/the-amazons-canary-in-the-coalmine-what-a-tropical-fish-can-tell-us-about-climate-upheaval\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/global-development/2026/nov/03/the-amazons-canary-in-the-coalmine-what-a-tropical-fish-can-tell-us-about-climate-upheaval",
-      "published": "Tue, 03 Nov 2026 12:00:05 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Control of Congress is at stake today. And, judge to consider motion in Clancy case",
-      "summary": "Election Day is here, and voters are heading to the polls in an election that may change control of Congress. And, a judge is considering whether to dismiss Lindsay Clancy's murder case.",
-      "link": "https://www.npr.org/2026/11/03/g-s1-151445/up-first-newsletter-midterms-election-day-iran-war-lindsay-clancy",
-      "published": "Tue, 03 Nov 2026 06:43:49 -0500",
-      "source": "NPR"
-    },
-    {
-      "title": "Fossilised red blood cells found in 115m-year-old dinosaur’s bone, say scientists",
-      "summary": "<p>Chemical tests on Aratasaurus bone identify presence of heme, the organic compound that allows haemoglobin in blood to carry oxygen around body</p><p>It could be the opening of a Jurassic Park rip-off: scientists examining ancient dinosaur bones find what appear to be fossilised red blood cells, and traces of the molecule that gives the beast’s blood its distinctive crimson hue.</p><p>But that is what researchers are claiming to have discovered after analysing the hind leg bones of a small, meat-eating dinosaur called an Aratasaurus that lived and died in what is now north-eastern Brazil 115m years ago.</p> <a href=\"https://www.theguardian.com/science/2026/nov/02/fossilised-red-blood-cells-aratasaurus-dinosaurs-bone\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/science/2026/nov/02/fossilised-red-blood-cells-aratasaurus-dinosaurs-bone",
-      "published": "Mon, 02 Nov 2026 20:00:27 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Bolivia Profile",
-      "summary": "<p><a href=\"https://insightcrime.org/bolivia-organized-crime-news/bolivia/\">Bolivia Profile</a></p>\n<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"691\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2017/08/Bolivia-1.jpg?fit=1024%2C691&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>One of Latin America's most impoverished nations, Bolivia is the world's third largest producer of coca after Colombia and Peru, and a key transit point for drugs. In addition to serving as an air bridge for Peruvian cocaine, Bolivia is home to foreign criminal organizations, particularly Colombian groups.</p>\n<p>A country with a historical record of political upheaval, the current presidency of Evo Morales has instilled a measure of stability since 2006, but placed the country at odds with the United States over counternarcotics strategy. <a class=\"read-more-contri\" href=\"https://insightcrime.org/bolivia-organized-crime-news/bolivia/\">Read more</a></p>\n<p>The post <a href=\"https://insightcrime.org/bolivia-organized-crime-news/bolivia/\">Bolivia Profile</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
-      "link": "https://insightcrime.org/bolivia-organized-crime-news/bolivia/",
-      "published": "Mon, 02 Nov 2026 18:27:16 +0000",
-      "source": "InSight Crime"
-    },
-    {
-      "title": "Timeline of US Strikes Against Alleged Drug Boats",
-      "summary": "<p><a href=\"https://insightcrime.org/news/timeline-us-strikes-against-alleged-drug-boats/\">Timeline of US Strikes Against Alleged Drug Boats</a></p>\n<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"589\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2025/11/Flagship-Cover-Sucre-el-estado-venezolano-donde-EEUU-lanzo-su-primer-ataque-Sep-2025-1.jpg?fit=1024%2C589&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>In the last week, the US military launched five strikes against alleged drug boats in as many days, making it one of the deadliest weeks since its campaign in the Caribbean and eastern Pacific began in September. </p>\n<p>Check out our timeline of how the strikes are unfolding. </p>\n<p>The post <a href=\"https://insightcrime.org/news/timeline-us-strikes-against-alleged-drug-boats/\">Timeline of US Strikes Against Alleged Drug Boats</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
-      "link": "https://insightcrime.org/news/timeline-us-strikes-against-alleged-drug-boats/",
-      "published": "Mon, 02 Nov 2026 16:34:12 +0000",
-      "source": "InSight Crime"
-    },
-    {
       "title": "Baby among four killed in bomb attack in western Colombia, official says",
       "summary": "It is not yet clear who was behind the attack, which appears to have targeted a military base.",
       "link": "https://www.bbc.co.uk/news/articles/cqn06n30l406o?at_medium=RSS&at_campaign=rss",
       "published": "Mon, 02 Nov 2026 15:08:56 GMT",
       "source": "BBC News"
-    },
-    {
-      "title": "Some Polymarket user funds stolen by hackers; exchange referring matter to U.K. authorities",
-      "summary": "The outage comes just days before the platform is expected to experience heightened trading during the U.S. midterm elections.",
-      "link": "https://www.cnbc.com/2026/10/29/polymarket-reports-outage-on-international-exchange-halts-trading.html",
-      "published": "Fri, 30 Oct 2026 20:18:49 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Flávio Bolsonaro calls himself 'leader of Brazil' after election loss",
-      "summary": "The defeated presidential candidate says he will lead the opposition from the US.",
-      "link": "https://www.bbc.co.uk/news/articles/c3x2w4109pj8o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 29 Oct 2026 14:58:28 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "How did Flávio Bolsonaro end up in Miami?",
-      "summary": "BBC Verify has pieced together defeated presidential candidate Flávio Bolsonaro's journey through Brazil, Argentina and Ecuador to reach Miami.",
-      "link": "https://www.bbc.co.uk/news/videos/ck4g1xe5xny4o?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 28 Oct 2026 18:51:05 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Highwaymen: How Cargo Theft Gangs Operate in Costa Rica",
-      "summary": "<p><a href=\"https://insightcrime.org/news/highwaymen-how-cargo-theft-gangs-operate-in-costa-rica/\">Highwaymen: How Cargo Theft Gangs Operate in Costa Rica</a></p>\n<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2026/10/InSight-Crime-2-HighwayMan-Costa-Rica-Owen-Alfonso-Oct-2026.jpg?fit=1024%2C576&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>Cargo theft gangs hijack trucks on Costa Rica’s highways, using leaked customs data and signal jammers. InSight Crime rode along with a Panamanian trucker to see how drivers survive the trip.</p>\n<p>The post <a href=\"https://insightcrime.org/news/highwaymen-how-cargo-theft-gangs-operate-in-costa-rica/\">Highwaymen: How Cargo Theft Gangs Operate in Costa Rica</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
-      "link": "https://insightcrime.org/news/highwaymen-how-cargo-theft-gangs-operate-in-costa-rica/",
-      "published": "Wed, 28 Oct 2026 13:26:36 +0000",
-      "source": "InSight Crime"
     },
     {
       "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
@@ -337,15 +337,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-22 05:01",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 68,
-      "incidents": 40,
-      "bovespa": 206495.23,
-      "brl_czk": null
-    },
     {
       "date": "2026-10-22 10:56",
       "threat_level": "HIGH",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "bovespa": 168755.9,
       "brl_czk": 3.948
+    },
+    {
+      "date": "2026-11-06 06:00",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 72,
+      "incidents": 40,
+      "bovespa": 166191.45,
+      "brl_czk": 3.959
     }
   ],
   "locations": [
@@ -617,18 +617,18 @@
       "name_en": "Brasília"
     },
     {
-      "key": "Sao Paulo",
-      "lat": -23.5505,
-      "lon": -46.6333,
-      "name_cs": "São Paulo",
-      "name_en": "São Paulo"
-    },
-    {
       "key": "Buenos Aires",
       "lat": -34.6037,
       "lon": -58.3816,
       "name_cs": "Buenos Aires",
       "name_en": "Buenos Aires"
+    },
+    {
+      "key": "Santiago",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "name_cs": "Santiago",
+      "name_en": "Santiago"
     },
     {
       "key": "Lima",
@@ -652,20 +652,6 @@
       "name_en": "Caracas"
     },
     {
-      "key": "Quito",
-      "lat": -0.1807,
-      "lon": -78.4678,
-      "name_cs": "Quito",
-      "name_en": "Quito"
-    },
-    {
-      "key": "La Paz",
-      "lat": -16.4897,
-      "lon": -68.1193,
-      "name_cs": "La Paz",
-      "name_en": "La Paz"
-    },
-    {
       "key": "Asuncion",
       "lat": -25.2637,
       "lon": -57.5759,
@@ -673,11 +659,18 @@
       "name_en": "Asunción"
     },
     {
-      "key": "Amazon",
-      "lat": -3.4653,
-      "lon": -62.2159,
-      "name_cs": "Amazonie",
-      "name_en": "Amazon"
+      "key": "Montevideo",
+      "lat": -34.9011,
+      "lon": -56.1645,
+      "name_cs": "Montevideo",
+      "name_en": "Montevideo"
+    },
+    {
+      "key": "Falklands",
+      "lat": -51.7963,
+      "lon": -59.5236,
+      "name_cs": "Falklandy",
+      "name_en": "Falkland Islands"
     },
     {
       "key": "Washington",
@@ -687,11 +680,11 @@
       "name_en": "Washington, D.C."
     },
     {
-      "key": "Florida",
-      "lat": 27.8,
-      "lon": -81.7,
-      "name_cs": "Florida",
-      "name_en": "Florida",
+      "key": "Mexico",
+      "lat": 23.6,
+      "lon": -102.5,
+      "name_cs": "Mexiko",
+      "name_en": "Mexico",
       "auto": true
     },
     {
@@ -751,11 +744,11 @@
       "auto": true
     },
     {
-      "key": "Indonesia",
-      "lat": -2.5,
-      "lon": 118,
-      "name_cs": "Indonésie",
-      "name_en": "Indonesia",
+      "key": "London",
+      "lat": 51.5,
+      "lon": -0.12,
+      "name_cs": "Londýn",
+      "name_en": "London",
       "auto": true
     },
     {
@@ -775,11 +768,11 @@
       "auto": true
     },
     {
-      "key": "Spain",
-      "lat": 40.4,
-      "lon": -3.7,
-      "name_cs": "Madrid",
-      "name_en": "Spain",
+      "key": "Poland",
+      "lat": 52.23,
+      "lon": 21,
+      "name_cs": "Varšava",
+      "name_en": "Poland",
       "auto": true
     },
     {
@@ -797,47 +790,39 @@
       "name_cs": "Peru",
       "name_en": "Peru",
       "auto": true
-    },
-    {
-      "key": "Bolivia",
-      "lat": -16.3,
-      "lon": -63.6,
-      "name_cs": "Bolívie",
-      "name_en": "Bolivia",
-      "auto": true
     }
   ],
   "location_counts": {
-    "Brasilia": 71,
+    "Brasilia": 72,
     "Sao Paulo": 31,
     "Rio de Janeiro": 15,
-    "Buenos Aires": 69,
-    "Santiago": 51,
-    "Lima": 42,
-    "Bogota": 71,
-    "Caracas": 67,
+    "Buenos Aires": 70,
+    "Santiago": 52,
+    "Lima": 43,
+    "Bogota": 72,
+    "Caracas": 68,
     "Quito": 55,
     "La Paz": 29,
-    "Asuncion": 14,
-    "Washington": 71,
+    "Asuncion": 15,
+    "Washington": 72,
     "New York": 1,
     "Texas": 2,
     "Colorado": 1,
     "Kanada": 1,
-    "Mexiko": 1,
-    "Venezuela": 1,
-    "Brazílie": 9,
-    "Argentina": 4,
+    "Mexiko": 2,
+    "Venezuela": 3,
+    "Brazílie": 4,
+    "Argentina": 5,
     "Ukrajina": 1,
     "Rusko": 2,
     "Pákistán": 1,
-    "Londýn": 2,
-    "Paříž": 2,
+    "Londýn": 1,
+    "Paříž": 3,
     "Madrid": 1,
-    "Peru": 3,
+    "Peru": 4,
     "Bolívie": 1,
-    "Montevideo": 28,
-    "Falklands": 33,
+    "Montevideo": 29,
+    "Falklands": 34,
     "Ohio": 1,
     "Michigan": 3,
     "Severní Karolína": 1,
@@ -852,11 +837,11 @@
     "Tchaj-wan": 1,
     "Řím": 1,
     "Ithaca (Cornell)": 2,
-    "Írán": 2,
-    "Berlín": 1,
+    "Írán": 1,
+    "Berlín": 2,
     "Panama": 17,
     "Austrálie": 1,
-    "Izrael": 1,
+    "Izrael": 2,
     "Detroit": 1,
     "Etiopie": 1,
     "Nigérie": 1,
@@ -891,17 +876,9 @@
     "key": "Brasilia",
     "name_cs": "Brasília",
     "name_en": "Brasília",
-    "count": 71
+    "count": 72
   },
   "archive": [
-    {
-      "date": "2026-10-30 06:01",
-      "threat_level": "HIGH",
-      "security_status_cs": "Jižní čelí napětí po útěku poraženého brazilského prezidentského kandidáta Flávia Bolsonara do USA přes Argentinu, což vyvolalo diplomatické roztržky a politickou polarizaci. Regionální trhy nadále oslabují pod tlakem globální měnové politiky, zatímco v Kolumbii a Venezuele přetrvávají bezpečnostní výzvy spojené s drogovou kriminalitou a politickými transakcemi.",
-      "security_status_en": "South America faces heightened tension following the flight of defeated Brazilian presidential candidate Flávio Bolsonaro to the US via Argentina, triggering diplomatic friction and political polarization. Regional markets continue to weaken under global monetary policy pressures, while Colombia and Venezuela grapple with enduring security challenges related to drug trafficking and political transitions.",
-      "forecast_cs": "V nejbližších dnech lze očekávat další diplomatické spory mezi Brazílií a Argentinou kvůli pobytu Flávia Bolsonara v exilu a pokračující volatilitu na brazilských finančních trzích.",
-      "forecast_en": "Over the coming days, further diplomatic disputes between Brazil and Argentina are expected over Flávio Bolsonaro's exile, alongside continued volatility in Brazilian financial markets."
-    },
     {
       "date": "2026-10-30 11:57",
       "threat_level": "MEDIUM",
@@ -1005,13 +982,21 @@
       "security_status_en": "South America is grappling with the fallout of global political shifts, as US midterm election results weaken the standing of allies such as Argentina's President Milei. The regional security landscape continues to be complicated by organized crime and smuggling networks, while Brazil under returning President Lula pushes for global environmental initiatives.",
       "forecast_cs": "V nejbližších dnech se očekává zvýšená pozornost vůči argentinským trhům a politické reakci na oslabení amerických republikánů, zatímco komoditní trhy budou reagovat na vývoj cen ropy a kávy.",
       "forecast_en": "Over the coming days, heightened attention will focus on Argentine markets and political reactions to the US Republican setback, while commodity markets respond to oil and coffee price trends."
+    },
+    {
+      "date": "2026-11-06 06:00",
+      "threat_level": "HIGH",
+      "security_status_cs": "Jižní Amerikou otřásají vážné politické a bezpečnostní krize včetně náhlé rezignace a obžalování paraguayského prezidenta Santiaga Peňy kvůli kolapsu bankovního systému. Mezitím Venezuela podniká vzácné nálety proti gerilám ELN a Kolumbie zpřísňuje protiteroristické zákony, což zvyšuje regionální nestabilitu. Ekonomická situace zůstává napjatá s poklesem brazilské produkce a rekordními cenami kávy kvůli mezinárodním celním sporům.",
+      "security_status_en": "South America is rocked by severe political and security crises, including the sudden impeachment and resignation of Paraguayan President Santiago Peña amid a banking system collapse. Meanwhile, Venezuela has launched rare airstrikes against ELN guerrillas and Colombia has tightened counter-insurgency laws, escalating regional instability. The economic outlook remains tense with falling output in Brazil and record coffee prices driven by international tariff spats.",
+      "forecast_cs": "V nejbližších dnech se očekává stupňující se napětí v Paraguayi po odvolání prezidenta a pokračující pozornost investorů vůči komoditním trhům s kávou a ropou.",
+      "forecast_en": "Over the coming days, escalating political tensions in Paraguay following the president's impeachment and continued investor focus on coffee and oil commodity markets are expected."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 4× HIGH, 3× MEDIUM.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 4× HIGH, 3× MEDIUM.",
   "market_data": {
     "bovespa": {
-      "value": 168755.9,
+      "value": 166191.45,
       "date": "2026-11-05",
       "cached": false
     },
@@ -1021,13 +1006,13 @@
       "cached": false
     },
     "usdbrl": {
-      "value": 5.4316,
-      "date": "2026-11-05",
+      "value": 5.5037,
+      "date": "2026-11-06",
       "cached": false
     }
   },
   "brl_czk": {
-    "value": 3.948,
-    "date": "2026-11-04"
+    "value": 3.959,
+    "date": "2026-11-05"
   }
 }
