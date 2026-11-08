@@ -1,32 +1,43 @@
 {
-  "last_updated": "2026-11-07T12:12:46Z",
+  "last_updated": "2026-11-08T06:00:07Z",
   "assessment": {
-    "threat_level": "MEDIUM",
-    "sentiment_score": 58,
-    "security_status_cs": "Americká politická scéna čelí hlubokým změnám po mezidobových volbách, v nichž demokraté získali kontrolu nad Sněmovnou reprezentantů, zatímco prezident Trump provedl radikální personální rošádu dosazením Stephena Millera do čela kanceláře Bílého domu. Mezitím Fed varuje před setrvalými inflačními tlaky a hrozbou dalších zvyšování úrokových sazeb, což vyvolává nervozitu na trzích. Geopolitické napětí eskaluje poté, co USA provedly menší útoky na Írán v reakci na raketové útoky poblíž Hormuzského průlivu.",
-    "security_status_en": "The US political scene faces profound shifts following midterm elections where Democrats secured a House majority, while President Trump executed a radical staff shakeup by appointing Stephen Miller as White House chief of staff. Meanwhile, the Fed warns of persistent inflationary pressures and the threat of further interest rate hikes, triggering market nervousness. Geopolitical tensions are escalating after the US carried out minor strikes on Iran in response to missile attacks near the Strait of Hormuz.",
+    "threat_level": "HIGH",
+    "sentiment_score": 68,
+    "security_status_cs": "V USA probíhá výrazná politická polarizace po nedávných midterms, v nichž demokraté převzali kontrolu nad Kongresem, což vede Bílý dům k zostření rétoriky v čele se Stephenem Millerem. Inflační tlaky nadále zatěžují domácnosti a nutí Federální rezervní systém zvažovat další kroky, zatímco na imigrační a bezpečnostní frontě rostou tenze kolem ICE a justičních střetů. Roste také politická nejistota ohledně budoucí podoby sociálních a daňových politik.",
+    "security_status_en": "The U.S. is experiencing significant political polarization following recent midterms where Democrats took control of Congress, prompting the White House to sharpen its rhetoric under Stephen Miller. Inflationary pressures continue to weigh on households, forcing the Federal Reserve to weigh further measures, while immigration and security fronts see rising tensions around ICE and legal clashes. Political uncertainty regarding the future shape of social and tax policies is also mounting.",
     "president_comments": [
       {
-        "topic_cs": "Personální změny v Bílém domě",
-        "topic_en": "White House Staff Changes",
-        "statement_cs": "Prezident Trump oznámil výměnu ve vedení Bílého domu a nahradil Suzie Wiles Stephenem Millerem jakožto novým šéfem kanceláře.",
-        "statement_en": "President Trump announced a change in White House leadership, replacing Susie Wiles with Stephen Miller as his new chief of staff.",
-        "comment_cs": "Tento radikální krok signalizuje tvrdší a bojovnější kurz administrativy vůči nově zvolené demokratické většině v Kongresu.",
-        "comment_en": "This radical move signals a tougher and more combative course by the administration toward the newly elected Democratic majority in Congress.",
+        "topic_cs": "Personální nabídka pro Bílý dům",
+        "topic_en": "White House Staff Offer",
+        "statement_cs": "Prezident Trump oznámil, že nabídnul pozici tiskového mluvčího Bílého domu šéfovi UFC Danu Whiteovi.",
+        "statement_en": "President Trump announced that he has offered the White House press secretary role to UFC chief Dana White.",
+        "comment_cs": "Tento netradiční krok podtrhuje snahu o netradiční personální obsazení, přičemž reakce trhů je neutrální.",
+        "comment_en": "This unconventional move underscores a push for non-traditional staffing, with the market impact remaining neutral.",
         "market_impact": "NEUTRAL",
         "source": "Fox News",
-        "date": "2026-11-07T12:12:45Z"
+        "date": "2026-11-08T06:00:06Z"
       },
       {
-        "topic_cs": "Vojenské útoky na Írán",
-        "topic_en": "Military Strikes on Iran",
-        "statement_cs": "Prezident Trump potvrdil, že Spojené státy provedly menší útoky na Írán poté, co byly zaznamenány raketové útoky na ostrov Qešm.",
-        "statement_en": "President Trump confirmed that the U.S. carried out minor strikes on Iran after missile attacks were reported targeting Qeshm Island.",
-        "comment_cs": "Zpráva zvyšuje geopolitické napětí na Blízkém východě, což může krátkodobě podpořit ceny energií a akcie zbrojařského průmyslu.",
-        "comment_en": "The report heightens geopolitical tensions in the Middle East, which could short-term support energy prices and defense stocks.",
+        "topic_cs": "Vyšetřování ministerstva spravedlnosti",
+        "topic_en": "Department of Justice Investigation",
+        "statement_cs": "Prezident Trump nařídil ministerstvu spravedlnosti prošetřit údajné hrozby namířené proti republikánům ze strany demokratů.",
+        "statement_en": "President Trump ordered the DOJ to examine alleged threats made against Republicans by Democrats.",
+        "comment_cs": "Zostření politických střetů mezi exekutivou a opozicí může zvýšit politické riziko a přinést volatilitu do vybraných sektorů.",
+        "comment_en": "Heightened political clashes between the executive branch and the opposition could increase political risk and inject volatility into select sectors.",
         "market_impact": "NEGATIVE",
         "source": "CNBC",
-        "date": "2026-11-07T12:12:45Z"
+        "date": "2026-11-08T06:00:06Z"
+      },
+      {
+        "topic_cs": "Změny v kabinetu",
+        "topic_en": "Cabinet Changes",
+        "statement_cs": "Prezident Trump uvedl, že po prohře ve volbách provede několik změn ve svém kabinetu.",
+        "statement_en": "President Trump stated that he will be making a few changes to his cabinet following the midterm election losses.",
+        "comment_cs": "Očekávané personální rošády odrážejí politický tlak a mohou ovlivnit regulatorní směřování klíčových vládních agentur.",
+        "comment_en": "Expected personnel reshuffles reflect political pressure and could influence the regulatory direction of key government agencies.",
+        "market_impact": "NEUTRAL",
+        "source": "The Hill",
+        "date": "2026-11-08T06:00:06Z"
       }
     ],
     "recommendations": [
@@ -34,99 +45,309 @@
         "sector_cs": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
         "sector_en": "US Broad Equity Market (S&P 500 ETFs, e.g. VOO, SPY)",
         "action": "HOLD",
-        "reason_cs": "Trhy vstřebávají výsledky voleb a varování Feds ohledně inflace a sazeb, což vyžaduje opatrnost.",
-        "reason_en": "Markets are absorbing election results and Fed warnings regarding inflation and rates, warranting caution."
+        "reason_cs": "Trhy čelí zvýšené politické nejistotě po vítězství demokratů v Kongresu a přetrvávajícím inflačním tlakům.",
+        "reason_en": "Markets face heightened political uncertainty following the Democrats' congressional win and persistent inflationary pressures."
       },
       {
         "sector_cs": "Státní dluhopisy USA (Treasuries)",
         "sector_en": "US Treasuries",
-        "action": "HOLD",
-        "reason_cs": "Trvající inflační tlaky a obavy z růstu úrokových sazeb udržují výnosy dluhopisů pod stálým tlakem.",
-        "reason_en": "Persistent inflation pressures and interest rate hike fears keep bond yields under steady pressure."
+        "action": "BUY",
+        "reason_cs": "Očekávání dalších sazebních zásahů Fedu kvůli setrvačné inflaci zvyšují atraktivitu pevných výnosů.",
+        "reason_en": "Expectations of further Fed rate actions due to sticky inflation increase the attractiveness of fixed yields."
       },
       {
         "sector_cs": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
         "sector_en": "Defense Industry (RTX, Lockheed Martin, Northrop Grumman)",
-        "action": "BUY",
-        "reason_cs": "Aktuální vojenské akce USA vůči Íránu a napjatá geopolitická situace nahrávají stabilním zakázkám sektoru.",
-        "reason_en": "Current US military actions against Iran and a tense geopolitical situation favor stable sector orders."
+        "action": "HOLD",
+        "reason_cs": "Geopolitická rizika a napětí kolem Íránu udržují poptávku po obraně stabilní navzdory domácím politickým změnám.",
+        "reason_en": "Geopolitical risks and tensions surrounding Iran keep defense demand stable despite domestic political changes."
       },
       {
         "sector_cs": "Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)",
         "sector_en": "Banks & Financials (JPMorgan, Bank of America, Goldman Sachs)",
         "action": "HOLD",
-        "reason_cs": "Vyhlídka na možné další utváření sazeb Fedu přináší smíšené marže pro finanční domy.",
-        "reason_en": "The prospect of potential further Fed rate tightening brings mixed margins for financial institutions."
+        "reason_cs": "Finanční sektor vyčkává na kroky nového Kongresu ohledně regulace a daňové politiky.",
+        "reason_en": "The financial sector is awaiting the new Congress's moves regarding regulation and tax policy."
       },
       {
         "sector_cs": "Technologický sektor (Apple, Microsoft, Nvidia)",
         "sector_en": "Technology Sector (Apple, Microsoft, Nvidia)",
-        "action": "SELL",
-        "reason_cs": "Silná politická volání demokratů po moratoriu na datová centra a regulaci AI zvyšují regulační riziko.",
-        "reason_en": "Strong political calls by Democrats for a data center moratorium and AI regulation increase regulatory risk."
+        "action": "HOLD",
+        "reason_cs": "Technologické akcie zůstávají pod drobnohledem kvůli debatám o regulaci AI a celkové náladě na trhu.",
+        "reason_en": "Tech stocks remain under scrutiny due to AI regulation debates and overall market sentiment."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly zůstávají vůči americkým politickým turbulencím a AI regulaci relativně izolované, sledují spíše evropské makro.",
-        "reason_en": "Domestic equities remain relatively insulated from US political turbulence and AI regulation, tracking European macro trends instead."
+        "reason_cs": "Domácí tituly reagují primárně na evropské makroekonomické prostředí a domácí fiskální politiku.",
+        "reason_en": "Domestic stocks react primarily to the European macroeconomic environment and domestic fiscal policy."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat zostřenou rétoriku mezi nově zvoleným demokratickým Kongresem a Bílým domem vedeným Stephenem Millerem, přičemž technologické akcie mohou nadále čelit tlaku kvůli volání po AI regulacích.",
-    "forecast_en": "Over the coming days, sharpened rhetoric between the newly elected Democratic Congress and a White House led by Stephen Miller is expected, while tech stocks may continue facing pressure due to calls for AI regulations.",
-    "forecast_review_cs": "Předchozí předpověď ohledně tlaku na technologické akcie kvůli regulaci AI a legislativní aktivitě demokratů se plně potvrdila.",
-    "forecast_review_en": "The previous forecast regarding pressure on tech stocks due to AI regulation and Democratic legislative activity was fully confirmed."
+    "forecast_cs": "V nejbližších dnech lze očekávat zostřenou rétoriku mezi nově zvoleným demokratickým Kongresem a Bílým domem, zatímco trhy budou nadále vyhodnocovat dopady inflace a kroky Fedu.",
+    "forecast_en": "Over the coming days, sharpened rhetoric between the newly elected Democratic Congress and the White House is expected, while markets continue to assess inflation impacts and Fed actions.",
+    "forecast_review_cs": "Předchozí předpověď o zostřené rétorice mezi Kongresem a Bílým domem a tlaku na technologické akcie se plně potvrdila.",
+    "forecast_review_en": "The previous forecast regarding sharpened rhetoric between Congress and the White House and pressure on tech stocks was fully confirmed."
   },
   "articles": [
     {
-      "title": "Democratic senator-elect calls Trump 'unserious fool' while defending combative political style",
-      "summary": "Abdul El-Sayed told Pod Save America that Democrats must treat Trump as an \"unserious fool\" and stop clinging to outdated political decorum.",
-      "link": "https://www.foxnews.com/politics/democratic-senator-elect-calls-trump-unserious-fool-defending-combative-political-style",
-      "published": "Sat, 07 Nov 2026 07:00:11 -0500",
-      "source": "Fox News"
-    },
-    {
-      "title": "TREY GOWDY: The midterms were a painful lesson that Republicans can't skip learning",
-      "summary": "How do you go from winning the Electoral College and the popular vote in 2024 and being trusted with the gift to govern to historic losses in a relatively short period of time?",
-      "link": "https://www.foxnews.com/opinion/trey-gowdy-midterms-painful-lesson-republicans-cant-skip-learning",
-      "published": "Sat, 07 Nov 2026 06:50:42 -0500",
-      "source": "Fox News"
-    },
-    {
-      "title": "Alaska Election Officials Hit with Lawsuit from Mary Peltola Campaign",
-      "summary": "As the Alaska and Mississippi Senate races remain tight, candidates are laying the groundwork for possible later litigation.",
-      "link": "https://www.newsweek.com/alaska-election-officials-hit-with-lawsuit-from-mary-peltola-campaign-12680980",
-      "published": "Sat, 07 Nov 2026 06:47:46 -0500",
+      "title": "James Talarico Debuts on SNL After Texas Midterm Victory",
+      "summary": "Texas Senator-elect James Talarico did the cold open on Saturday Night Live as a surprise guest after his midterm win Tuesday.",
+      "link": "https://www.newsweek.com/james-talarico-on-saturday-nigh-live-snl-12683002",
+      "published": "Sun, 08 Nov 2026 00:25:24 -0500",
       "source": "Newsweek"
     },
     {
-      "title": "Donald Trump Teases More Firings, Defends Pete Hegseth",
-      "summary": "President hints at more administration changes after replacing Susie Wiles, while publicly backing Defense Secretary.",
-      "link": "https://www.newsweek.com/donald-trump-teases-more-firings-defends-pete-hegseth-12680971",
-      "published": "Sat, 07 Nov 2026 06:09:02 -0500",
-      "source": "Newsweek"
-    },
-    {
-      "title": "GOP eyes Senate comeback after Democratic bloodbath, but another political nightmare could await",
-      "summary": "Democrats won at least 54 Senate seats Tuesday, but Republicans could flip the chamber in 2028 by sweeping six competitive states and holding the VP.",
-      "link": "https://www.foxnews.com/politics/gop-eyes-senate-comeback-after-democratic-bloodbath-another-political-nightmare-could-await",
-      "published": "Sat, 07 Nov 2026 06:00:22 -0500",
+      "title": "Marcus Freeman, Notre Dame silence doubters by knocking off top-ranked Miami, solidifying their CFP ranking",
+      "summary": "The Miami Hurricanes mounted a dramatic comeback without Malachi Toney, but Notre Dame held on in a thriller with college football playoff stakes.",
+      "link": "https://www.foxnews.com/outkick-sports/marcus-freeman-notre-dame-silence-doubters-knocking-top-ranked-miami-solidifying-cfp-ranking",
+      "published": "Sun, 08 Nov 2026 00:05:24 -0500",
       "source": "Fox News"
     },
     {
-      "title": "Black voter turnout surges in US south despite Republican redistricting drive: ‘They could not stop the momentum’",
-      "summary": "<p>The GOP tried to dilute their power, but Black voters helped Democrats get elected in Alabama, Texas and Florida</p><p>Black voter turnout surged across US southern states where Republicans were accused of redrawing electoral maps to “diminish Black political power” in the wake of a seismic supreme court ruling.</p><p>Democrats flipped or held seats in Alabama, Texas and Florida with the support of this voting bloc, building on a decades-long, dedicated movement to protect and build Black political power in the region.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/07/black-voter-turnout-gerrymandering\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/nov/07/black-voter-turnout-gerrymandering",
-      "published": "Sat, 07 Nov 2026 11:00:10 GMT",
+      "title": "Florida State Ends 1,078-Day Road Drought in Rick Stockstill’s Debut",
+      "summary": "Freshman Amari Thomas scored twice as Florida State beat Boston College 31-24 for its first road win since 2023.",
+      "link": "https://www.newsweek.com/sports/ncaa/florida-state-ends-1078-day-road-drought-in-rick-stockstills-debut-12682964",
+      "published": "Sat, 07 Nov 2026 23:12:24 -0500",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Sotomayor says she hopes Supreme Court will overturn presidential immunity decision",
+      "summary": "Supreme Court Justice Sonia Sotomayor said on Saturday that she hopes the court's decision granting former presidents broad criminal immunity will be overturned, saying her colleagues have done some \"crazy things.\" Appearing for a civics education talk at George Washington's Mount Vernon estate, the liberal justice also publicly commented for the first time on this...",
+      "link": "https://thehill.com/regulation/court-battles/6206392-sotomayor-hopes-immunity-overturned/",
+      "published": "Sun, 08 Nov 2026 03:49:29 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "1 dead, at least a dozen hurt after car strikes cyclists in North Carolina",
+      "summary": "One person was killed and at least a dozen others injured when a driver suspected of being impaired struck a group of more than 40 cyclists in North Carolina, authorities said.",
+      "link": "https://www.cbsnews.com/news/driver-crashes-into-cyclists-north-carolina/",
+      "published": "Sat, 07 Nov 2026 22:14:48 -0500",
+      "source": "CBS News"
+    },
+    {
+      "title": "JACKSON THOMPSON: Dana White says he'll meet with Trump amid claim of White House press secretary job offer",
+      "summary": "Dana White plans to meet Trump on Monday to discuss the White House press secretary offer after the president's dramatic Truth Social announcement.",
+      "link": "https://www.foxnews.com/outkick-sports/jackson-thompson-dana-white-says-hell-meet-trump-amid-claim-white-house-press-secretary-job-offer",
+      "published": "Sat, 07 Nov 2026 21:55:18 -0500",
+      "source": "Fox News"
+    },
+    {
+      "title": "Trump says he offered UFC's Dana White the press secretary role",
+      "summary": "The role of the White House press secretary has been largely vacant since Karoline Leavitt stepped aside ​in August.",
+      "link": "https://www.cbsnews.com/news/trump-offers-white-house-press-secretary-role-dana-white/",
+      "published": "Sat, 07 Nov 2026 21:09:00 -0500",
+      "source": "CBS News"
+    },
+    {
+      "title": "Florida State interim coach Rick Stockstill leads Seminoles to win in debut, ends road losing streak",
+      "summary": "Amari Thomas scored the go-ahead touchdown with 2:29 left as Florida State rallied from a 17-7 deficit to beat Boston College in Rick Stockstill's debut.",
+      "link": "https://www.foxnews.com/outkick-sports/florida-state-interim-coach-rick-stockstill-leads-seminoles-win-debut-ends-road-losing-streak",
+      "published": "Sat, 07 Nov 2026 20:30:04 -0500",
+      "source": "Fox News"
+    },
+    {
+      "title": "Stephen Miller’s promotion sets the stage for a new era of confrontation",
+      "summary": "With Democrats poised to regain control of Congress, President Donald Trump’s elevation of Miller to replace Susie Wiles signals an emphasis on ideological combat over compromise.",
+      "link": "https://www.washingtonpost.com/politics/2026/11/07/stephen-millers-promotion-sets-stage-new-era-confrontation/",
+      "published": "Sun, 08 Nov 2026 01:11:18 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Wisconsin state trooper released from ICE custody after 'dramatic' arrest",
+      "summary": "A 21-year-old Wisconsin state trooper was released Friday after being detained by U.S. Immigration and Customs Enforcement agents a day earlier in what his lawyer described as a “dramatic experience.” Carel Aaron Van Der Merwe, who is originally from South Africa, was traveling to visit family when the arrest happened, his attorney Marc Christopher confirmed to...",
+      "link": "https://thehill.com/homenews/state-watch/6206341-wisconsin-trooper-ice-arrest/",
+      "published": "Sun, 08 Nov 2026 00:58:51 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "The Trump coalition is shattered - what will Republicans do now?",
+      "summary": "Republicans can stick with Trumpism or chart a new path, writes BBC Washington correspondent Daniel Bush.",
+      "link": "https://www.bbc.co.uk/news/articles/cm3r5gnxqz3jo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 08 Nov 2026 00:52:39 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "'Dana, please take the job!' - Trump asks UFC boss to be White House press secretary",
+      "summary": "It was unclear how genuine the president's offer was, although White later said he would travel to Washington for them to meet.",
+      "link": "https://www.bbc.co.uk/news/articles/cvze47p9jeexo?at_medium=RSS&at_campaign=rss",
+      "published": "Sun, 08 Nov 2026 00:31:53 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Trump says he asked Dana White, UFC boss, to be his new White House press secretary",
+      "summary": "<p>White says he has meeting with Trump in Washington DC on Monday, without saying whether he will accept the job</p><p><a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> has offered the job of White House press secretary to Dana White, the chief executive of the Ultimate Fighting Championship, the president said in <a href=\"https://truthsocial.com/@realDonaldTrump/posts/117576618491350292\">a social media post</a> on Saturday.</p><p>Trump described White, who staged <a href=\"https://www.theguardian.com/sport/live/2026/jun/14/ufc-freedom-250-fights-trump-white-house-live-blog\">a cage-fighting spectacle at the White House</a> to mark the president’s 80th birthday in June, as “a violent Fighter and Warrior”, credentials unlike any ever used to describe previous press secretaries.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/07/donald-trump-dana-white-press-secretary\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/nov/07/donald-trump-dana-white-press-secretary",
+      "published": "Sun, 08 Nov 2026 00:28:33 GMT",
       "source": "The Guardian"
     },
     {
-      "title": "Trump may have lost but don’t bet Democrats can fix the economy",
-      "summary": "<p>There’s not much they can do over the next couple of years to alleviate angry voters’ stress over prices</p><p>It was the economy, again. Although Donald Trump largely ignored it, voters’ acute concerns over the rising cost of living fuelled a political upheaval for the ages that is likely to deliver the biggest swing toward Democrats since Watergate, granting them the largest House majority in nearly four decades alongside their biggest edge in the Senate since 2008.</p><p>Still, having come to power promising to restore affordability, the new crop of Democrats are soon to discover that there is not much they can do over the next couple of years to alleviate angry voters’ stress over pricey gas and groceries, exorbitant mortgages and unaffordable healthcare.</p><p>Eduardo Porter is a journalist focused on economics and politics. He writes the newsletter <a href=\"https://eduardoelreportero.substack.com/\">Being There</a> on Substack</p> <a href=\"https://www.theguardian.com/business/2026/nov/07/democrats-economy-affordability-crisis\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/business/2026/nov/07/democrats-economy-affordability-crisis",
-      "published": "Sat, 07 Nov 2026 11:00:08 GMT",
+      "title": "Homelessness in the U.S. saw its largest drop in more than a decade last year",
+      "summary": "Homelessness declined after years of record-high levels but it still remains at nearly 700,000. The Trump administration and homeless advocacy groups cite different reasons for the drop.",
+      "link": "https://www.npr.org/2026/11/07/nx-s1-6033491/homelessness-in-the-u-s-saw-its-largest-drop-in-more-than-a-decade-last-year",
+      "published": "Sat, 07 Nov 2026 19:19:52 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "Trump says he offered White House press secretary role to UFC’s Dana White",
+      "summary": "The UFC chief executive and longtime Trump political supporter declined to discuss the offer but said he plans to meet with the president on Monday.",
+      "link": "https://www.washingtonpost.com/politics/2026/11/07/ufc-dana-white-offered-white-house-press-secretary-role-trump-says/",
+      "published": "Sun, 08 Nov 2026 00:08:30 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Ex-police officer accused of stabbing NYC jogger to death appears emotionless in new photos",
+      "summary": "Sayed Mohassib was seen led away in handcuffs after being charged with second-degree murder in the stabbing death of Brooklyn jogger Katie Suarez.",
+      "link": "https://www.foxnews.com/us/ex-police-officer-accused-stabbing-nyc-jogger-death-appears-emotionless-new-photos",
+      "published": "Sat, 07 Nov 2026 19:00:18 -0500",
+      "source": "Fox News"
+    },
+    {
+      "title": "Trump says 'a few' cabinet changes are in store after GOP midterm blowout",
+      "summary": "President Trump said he will be making a “few changes” to his cabinet following the midterm elections where his party suffered major losses at the hands of the Democrats who took control of the House and the Senate. “I love my Cabinet. I think they're good. But I'll … be doing maybe a few changes....",
+      "link": "https://thehill.com/homenews/administration/6206322-trump-cabinet-midterm-changes/",
+      "published": "Sat, 07 Nov 2026 23:51:14 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Trump offers UFC chief Dana White press secretary job",
+      "summary": "President Donald Trump offered the job of press secretary to UFC president and CEO Dana White on Saturday.",
+      "link": "https://www.cnbc.com/2026/11/07/trump-ufc-dana-white-press-secretary-offer.html",
+      "published": "Sat, 07 Nov 2026 23:13:38 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Wisconsin state patrol trooper detained by ICE released from custody",
+      "summary": "<p>Carel Aaron Van Der Merwe immigrated to US at 14 and has been waiting seven years for asylum case to be heard</p><p>A Wisconsin state patrol trooper, whom federal immigration agents detained on Thursday at an airport, has been released from their custody.</p><p>Immigration and Customs Enforcement (ICE) agents approached Carel Aaron Van Der Merwe, a South African national, as he waited to board a domestic flight, according to his law firm Christopher & De León.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/07/wisconsin-state-trooper-ice-released\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/nov/07/wisconsin-state-trooper-ice-released",
+      "published": "Sat, 07 Nov 2026 23:05:06 GMT",
       "source": "The Guardian"
+    },
+    {
+      "title": "Former Maryland Gov. Hogan calls midterms ‘complete and total rebuke of Trump’",
+      "summary": "On CNN, Republican Larry Hogan criticized the White House for doubling down on unpopular approaches while ignoring political independents.",
+      "link": "https://www.washingtonpost.com/politics/2026/11/07/larry-hogan-calls-midterms-complete-total-rebuke-trump/",
+      "published": "Sat, 07 Nov 2026 23:00:00 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Republican Sen. Ron Johnson accuses Trump administration of corruption",
+      "summary": "On Joe Rogan's podcast, the senator from Wisconsin cited claims by a former White House adviser and accused Trump aides of catering to special interests.",
+      "link": "https://www.washingtonpost.com/politics/2026/11/07/republican-sen-ron-johnson-accuses-trump-administration-corruption/",
+      "published": "Sat, 07 Nov 2026 22:30:00 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Trump targets Slotkin in call for DOJ probe of alleged Democratic threats to Republicans",
+      "summary": "Trump ordered DOJ to examine alleged threats against Republicans while singling out Slotkin.",
+      "link": "https://www.cnbc.com/2026/11/07/trump-doj-democrats-alleged-threats-slotkin.html",
+      "published": "Sat, 07 Nov 2026 21:59:10 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Houston mayor says police will no longer call ICE unless charges are jailable",
+      "summary": "The order follows an election Tuesday in which Democrats won every statewide office on the ballot and took control of the Texas House.",
+      "link": "https://www.washingtonpost.com/nation/2026/11/07/houston-mayor-says-police-will-no-longer-call-ice-unless-charges-are-jailable/",
+      "published": "Sat, 07 Nov 2026 21:00:01 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "FAA announces first US digital air traffic control towers in Florida and Alaska",
+      "summary": "<p>Systems provide 360-degree view of airport operations, but concerns have been raised about the technology</p><p>The Federal Aviation Administration (FAA) has announced that the first digital air traffic control towers in the US are officially operational, bringing new technology first to smaller airports in <a href=\"https://www.theguardian.com/us-news/florida\">Florida</a> and <a href=\"https://www.theguardian.com/us-news/alaska\">Alaska</a> as the <a href=\"https://www.theguardian.com/us-news/trump-administration\">Trump administration</a> presses ahead with updating the country’s ageing aviation infrastructure.</p><p>The systems are now online at the Bartow executive airport (KBOW) in Florida and the Kenai municipal airport (PAEN) in Alaska, with five additional regional airports slated to receive the technology next.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/07/faa-digital-air-traffic-control-tower-technology\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/nov/07/faa-digital-air-traffic-control-tower-technology",
+      "published": "Sat, 07 Nov 2026 20:03:23 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Polish gunman who killed 6 people in Krakow has 'ultranationalistic' views, authorities say",
+      "summary": "A gunman targeted random people as he drove into Krakow's Main Square, a major tourist spot. Police shot and wounded the gunman during a gunfight.",
+      "link": "https://www.npr.org/2026/11/07/g-s1-152532/gunman-opens-fire-in-polish-city-of-krakow-killing-6-people-and-injuring-15",
+      "published": "Sat, 07 Nov 2026 13:37:36 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "US offers $20m reward for information about Iran's nuclear programme",
+      "summary": "Donald Trump has repeatedly raised the prospect of renewing strikes against Iran's nuclear facilities.",
+      "link": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 07 Nov 2026 18:14:38 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Democrats’ big election win revives a difficult Social Security question: Who pays?",
+      "summary": "There are many ideas for saving Social Security. All of them will hurt.",
+      "link": "https://www.marketwatch.com/story/democrats-big-election-win-revives-a-difficult-social-security-question-who-pays-17ba9448?mod=mw_rss_topstories",
+      "published": "Sat, 07 Nov 2026 17:43:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Ousted Paraguayan president appears before prosecutors",
+      "summary": "Paraguayan President Santiago Peña was removed from office and placed under house arrest Friday. The Senate voted on his impeachment after the collapse of a state-affiliated bank.",
+      "link": "https://www.npr.org/2026/11/07/nx-s1-6033373/paraguay-president-ousted-bank-collapse",
+      "published": "Sat, 07 Nov 2026 12:14:36 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
+      "summary": "The tax brackets at the heart of Americans’ income-tax bills will be adjusting at a steeper level in 2027 compared to this year, underscoring inflation’s rekindled presence.",
+      "link": "https://www.marketwatch.com/story/the-2027-tax-brackets-are-out-see-what-the-standard-deduction-and-salt-tax-breaks-will-be-5dd1d293?mod=mw_rss_topstories",
+      "published": "Sat, 07 Nov 2026 16:30:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "After Fleeing California, Musk's Refuge Is in Revolt",
+      "summary": "For Musk, whose vast presence in Texas includes Tesla's Austin Gigafactory, SpaceX facilities on the Gulf Coast, and a planned chip factory in the southeastern part of the state, the consequences of the Democratic wave could be transformative.",
+      "link": "https://www.realclearpolitics.com/2026/11/07/after_fleeing_california_musks_refuge_is_in_revolt_716897.html",
+      "published": "Sat, 07 Nov 2026 10:18:06 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "In the GOP, a New 2028 Race?",
+      "summary": "Is the question that has animated the Republican race so far - JD Vance or Marco Rubio? - no longer the key question of 2028?",
+      "link": "https://www.realclearpolitics.com/2026/11/07/in_the_gop_a_new_2028_race_716844.html",
+      "published": "Sat, 07 Nov 2026 10:15:35 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "El-Sayed's Win Signifies a Seismic Shift",
+      "summary": "What Michiganders ultimately feared more was the price at the pump.",
+      "link": "https://www.realclearpolitics.com/2026/11/07/el-sayeds_win_signifies_a_seismic_shift_716754.html",
+      "published": "Sat, 07 Nov 2026 10:13:36 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "How Latino voters powered the blue wave in Texas",
+      "summary": "Latino voters turned out in droves to support Texas Democrats. Adriana Diaz has more details.",
+      "link": "https://www.cbsnews.com/video/how-latino-voters-powered-the-blue-wave-in-texas/",
+      "published": "Sat, 07 Nov 2026 11:12:00 -0500",
+      "source": "CBS News"
+    },
+    {
+      "title": "Why the prognosis for healthcare stocks is uncertain ahead of Congress’ new makeup",
+      "summary": "Healthcare stocks may struggle to find momentum as the Democrats get ready to take over Congress.",
+      "link": "https://www.cnbc.com/2026/11/07/healthcare-stocks-may-face-trouble-due-to-midterm-results.html",
+      "published": "Sat, 07 Nov 2026 16:02:33 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Florida’s most Venezuelan city put the Republican Party on notice",
+      "summary": "A city in South Florida where many residents fled a socialist strongman voted for a democratic socialist Senate candidate.",
+      "link": "https://www.washingtonpost.com/elections/2026/11/07/floridas-most-venezuelan-city-put-republican-party-notice/",
+      "published": "Sat, 07 Nov 2026 15:00:00 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Will this week's blue wave election usher in a Democratic president in 2028?",
+      "summary": "A CNBC analysis of historical election data finds wave elections don't necessarily spell trouble for the party in power during the next presidential year.",
+      "link": "https://www.cnbc.com/2026/11/07/2026-midterm-election-blue-wave-2028-president.html",
+      "published": "Sat, 07 Nov 2026 14:00:01 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Democrats plan to widen their probes of fatal ICE shootings",
+      "summary": "The killings of Renee Good and Alex Pretti during the ICE surge in Minneapolis last winter was a pivotal moment for the country. After Democrats' sweeping wins this week, their deaths at the hands of immigration agents will likely be the targets of renewed investigations.",
+      "link": "https://www.npr.org/2026/11/07/nx-s1-6029659/democrats-investigate-fatal-ice-shootings",
+      "published": "Sat, 07 Nov 2026 08:19:09 -0500",
+      "source": "NPR"
     },
     {
       "title": "Her Statue of Liberty tour was supposed to be upbeat. Then she erupted.",
@@ -136,13 +357,6 @@
       "source": "Washington Post"
     },
     {
-      "title": "The Memo: GOP fumbles for way forward in a world beyond Trump",
-      "summary": "A historic election week is ending, but the debate about the future of the Republican Party is just beginning. On one side are those who see the midterms as a wholesale repudiation of President Trump — or at least a startling reminder that neither he nor his party is immune to the laws of political...",
-      "link": "https://thehill.com/homenews/analysis/6205560-trump-midterm-elections-republican-party-direction/",
-      "published": "Sat, 07 Nov 2026 11:00:00 +0000",
-      "source": "The Hill"
-    },
-    {
       "title": "Texas remade education in the GOP’s image. Hinojosa plans to undo it.",
       "summary": "As the Democratic governor-elect targets vouchers and takeovers, new school officials may reverse policies that put religion in classrooms and cut diversity efforts.",
       "link": "https://www.washingtonpost.com/education/2026/11/07/texas-remade-education-gops-image-hinojosa-plans-undo-it/",
@@ -150,226 +364,14 @@
       "source": "Washington Post"
     },
     {
-      "title": "Trump sends 'clear message' to Democrats with Miller promotion",
-      "summary": "President Trump sent a blunt message to the incoming Democratic majority on Capitol Hill by tapping Stephen Miller to be his new chief of staff, setting up what is likely to be a contentious two years between both ends of Pennsylvania Avenue.  Miller is loathed by most Democrats, many of whom view him as xenophobic...",
-      "link": "https://thehill.com/homenews/administration/6205475-trump-miller-promotion-democrats-majority/",
-      "published": "Sat, 07 Nov 2026 11:00:00 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Does Florida’s narrow escape from the blue wave hold lessons for Republicans?",
-      "summary": "Unlike Texas, the deep-red state held back Democratic challengers in its statewide races. The current governor thinks he knows why.",
-      "link": "https://www.washingtonpost.com/nation/2026/11/07/does-floridas-narrow-escape-blue-wave-hold-lessons-republicans/",
-      "published": "Sat, 07 Nov 2026 11:00:00 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Do midterms change the calculus for bipartisan permitting reform?",
-      "summary": "With the midterm elections in the rearview mirror, the Senate is barreling ahead with major energy and infrastructure legislation in the lame-duck session. The bill, which seeks to make it easier to build energy and other infrastructure projects more quickly, is slated for a procedural vote in the Senate on Monday, a key test of...",
-      "link": "https://thehill.com/policy/energy-environment/6205516-bipartisan-permitting-reform-lame-duck-congress/",
-      "published": "Sat, 07 Nov 2026 11:00:00 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "As the Trump Era Ends, We’re Still Living in Leonard Cohen’s Future",
-      "summary": "Cohen died the day before Donald Trump was first elected. The songs he left have been keeping time ever since.",
-      "link": "https://www.newsweek.com/leonard-cohen-future-donald-trump-death-anniversary-12680973",
-      "published": "Sat, 07 Nov 2026 06:00:00 -0500",
-      "source": "Newsweek"
-    },
-    {
-      "title": "Trump faces criticism for ‘dangerous’ Stephen Miller appointment as White House chief of staff",
-      "summary": "<p>Democrats and Republicans blast promotion of ‘xenophobe’ who led administration’s immigration crackdown in wake of US midterm elections</p><p>Democratic lawmakers decried Stephen Miller as a “<a href=\"https://x.com/SenatorDurbin/status/2118791166564897238?s=20\">hatemonger</a>”, a “<a href=\"https://x.com/RepJeffries/status/2118795008379908136\">xenophobe</a>” and “<a href=\"https://x.com/CAgovernor/status/2118811700925464744\">vile</a>” after Donald Trump appointed <a href=\"https://www.theguardian.com/us-news/2026/nov/06/stephen-miller-chief-of-staff-trump\">his most trusted adviser</a> as White House chief of staff.</p><p>On Friday afternoon, the US president abruptly <a href=\"https://truthsocial.com/@realDonaldTrump/posts/117571000109141399\">announced via his Truth Social platform</a> that Miller – the architect of his sweeping immigration crackdown – would replace Susie Wiles, whom he confirmed had been ousted.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/07/stephen-miller-democrats-react\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/nov/07/stephen-miller-democrats-react",
-      "published": "Sat, 07 Nov 2026 10:00:08 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Houston, we have a wardrobe problem",
-      "summary": "NASA’s race against China to return to the moon depends on Axiom Space, a start-up with an uneven record and a Prada partnership. Its investors include a firm where Donald Trump Jr. is a partner.",
-      "link": "https://www.washingtonpost.com/politics/2026/11/07/nasas-new-moon-spacesuits-may-not-be-ready-2028-artemis-landing/",
-      "published": "Sat, 07 Nov 2026 10:00:00 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Historic voter turnout powered Democrats’ blue wave",
-      "summary": "Voter turnout reached its second-highest peak in more than a century, driving surprise victories for Democrats.",
-      "link": "https://www.washingtonpost.com/politics/2026/11/07/historic-voter-turnout-powered-democrats-blue-wave/",
-      "published": "Sat, 07 Nov 2026 10:00:00 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "A reckoning pushes out six congressmen accused of sexual misconduct, domestic abuse",
-      "summary": "Recent months have shown the most effective tool for accountability may be public opinion.",
-      "link": "https://www.washingtonpost.com/politics/2026/11/07/reckoning-pushes-out-six-congressmen-accused-sexual-misconduct-domestic-abuse/",
-      "published": "Sat, 07 Nov 2026 10:00:00 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Texas mayor instructs police to limit co-operation with ICE",
-      "summary": "There has been months of public outcry in Houston after an Immigration and Customs Enforcement (ICE) officer fatally shot a man who was driving to work.",
-      "link": "https://www.bbc.co.uk/news/articles/c8dx33d22zkro?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 07 Nov 2026 08:15:55 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Trump says U.S. carried out ‘minor strikes’ on Iran as missiles hit Qeshm Island",
-      "summary": "Trump said the U.S. carried out ‘minor strikes’ on Iran after Iranian media reported two missiles hit Qeshm Island near the Strait of Hormuz.",
-      "link": "https://www.cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html",
-      "published": "Sat, 07 Nov 2026 07:37:36 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Meghan's father Thomas Markle under house arrest after child sex abuse material charge",
-      "summary": "The 82-year-old appeared in court in Florida after the FBI searched two Los Angeles-area storage units he rented.",
-      "link": "https://www.bbc.co.uk/news/articles/cqgkvv8m8pgyo?at_medium=RSS&at_campaign=rss",
-      "published": "Sat, 07 Nov 2026 07:27:44 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Democrats win House majority with Trump approval at historic low",
-      "summary": "Democrats won control of the House in the 2026 midterm elections, CBS News projects, with victories in battleground districts across the country.",
-      "link": "https://www.cbsnews.com/live-updates/house-election-results-2026/",
-      "published": "Fri, 06 Nov 2026 20:56:41 -0500",
-      "source": "CBS News"
-    },
-    {
-      "title": "Trump installs Stephen Miller as chief of staff, replacing Susie Wiles",
-      "summary": "\"I wanted to make a change,\" President Trump said, explaining the major staffing shakeup.",
-      "link": "https://www.cbsnews.com/news/stephen-miller-trump-chief-of-staff-susie-wiles/",
-      "published": "Fri, 06 Nov 2026 20:40:50 -0500",
-      "source": "CBS News"
-    },
-    {
-      "title": "DOJ dropping suit over alleged noncitizen ballots",
-      "summary": "The Justice Department moved to dismiss its own lawsuit that sought to stop California from counting roughly 20,000 ballots it alleged went to noncitizens.",
-      "link": "https://www.cbsnews.com/news/justice-department-drops-lawsuit-california-ballots-alleged-noncitizens/",
-      "published": "Fri, 06 Nov 2026 20:39:00 -0500",
-      "source": "CBS News"
-    },
-    {
-      "title": "With Stephen Miller pick, Trump readies for a battle",
-      "summary": "The US president's promotion of Miller, a loyal partisan firebrand to be his new chief of staff sets up likely clashes with Congress.",
-      "link": "https://www.bbc.co.uk/news/articles/crp3gg2z171go?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 06 Nov 2026 23:24:15 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Mississippi Senate: Colom increases lead over Hyde-Smith to nearly 2,500 votes",
-      "summary": "The Mississippi Senate election could be determined by the mail-in ballots received after Election Day, whose legality was upheld by the Supreme Court.",
-      "link": "https://www.cnbc.com/2026/11/05/mississippi-senate-election-scott-colom-hyde-smith.html",
-      "published": "Fri, 06 Nov 2026 23:12:56 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Trump says Stephen Miller to replace Susie Wiles as White House chief of staff",
-      "summary": "Trump revealed the shake-up three days after Democrats' landslide victory in the midterm elections, winning majority control of the House and Senate.",
-      "link": "https://www.cnbc.com/2026/11/06/trump-stephen-miller-wiles-chief-of-staff.html",
-      "published": "Fri, 06 Nov 2026 22:22:53 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "The economy propelled Democrats to victory. What can they actually do about it?",
-      "summary": "The party's success was fueled by frustrations over the cost of living. But in divided government, they'll face opposition from Republicans in Congress and a president vowing to use his veto pen.",
-      "link": "https://www.npr.org/2026/11/06/nx-s1-6026662/the-economy-propelled-democrats-to-victory-what-can-they-actually-do-about-it",
-      "published": "Fri, 06 Nov 2026 16:53:10 -0500",
-      "source": "NPR"
-    },
-    {
-      "title": "Data centers run on debt. That was a problem for bonds this year — and it’s only going to get worse.",
-      "summary": "AI debt issuance this year overwhelmed investor portfolios, and has disappointed from a performance perspective. The funding need won’t get any better with Democrats in control of Congress.",
-      "link": "https://www.marketwatch.com/story/data-centers-run-on-debt-that-was-a-problem-for-bonds-this-year-and-its-only-going-to-get-worse-09c03be6?mod=mw_rss_topstories",
-      "published": "Fri, 06 Nov 2026 21:37:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Nvidia, AMD and other chip stocks rebound — but is relief from the ‘violent’ selloff only temporary?",
-      "summary": "Analysts warn of further volatility ahead, although there are several new factors that work in the AI trade’s favor.",
-      "link": "https://www.marketwatch.com/story/nvidia-amd-and-other-chip-stocks-rebound-is-the-violent-ai-selloff-over-8f7df533?mod=mw_rss_topstories",
-      "published": "Fri, 06 Nov 2026 21:24:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Israel's Arab-led parties in spotlight after inconclusive election",
-      "summary": "Israel's center-right opposition has a chance to unseat Netanyahu — but backing of Arab-led parties will be key.",
-      "link": "https://www.npr.org/2026/11/06/g-s1-152138/israel-election-palestinian-arab-parties",
-      "published": "Fri, 06 Nov 2026 15:42:51 -0500",
-      "source": "NPR"
-    },
-    {
-      "title": "Trump Can Still Change the Department of Education",
-      "summary": "The administration can advance reforms through executive action.",
-      "link": "https://www.realclearpolitics.com/2026/11/06/trump_can_still_change_the_department_of_education_716849.html",
-      "published": "Fri, 06 Nov 2026 14:39:13 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "What Will Democrats Do With Their Power?",
-      "summary": "In the past week, President Trump has reopened the Lincoln Reflecting Pool, which he shut down last year for repairs, put his signature on a ceremonial steel beam raised in his new ballroom, and authored a proclamation to designate the Oval Office and the Cabinet Room as national monuments. The builder-in-chief said it would protect the walls from future presidents hoping to come in with a demolition crane.",
-      "link": "https://www.realclearpolitics.com/articles/2026/11/06/what_will_democrats_do_with_their_power_154661.html",
-      "published": "Fri, 06 Nov 2026 14:37:43 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Ossoff's Merciless, Blunt Rhetoric Just What Dems Needed",
-      "summary": "He and Abdul El-Sayed are showcasing the kind of aggressive spirit Democrats need to adopt in the new Congress.",
-      "link": "https://www.realclearpolitics.com/2026/11/06/ossoffs_merciless_blunt_rhetoric_just_what_dems_needed_716846.html",
-      "published": "Fri, 06 Nov 2026 14:37:26 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "The incoming class of U.S. senators is full of historic firsts",
-      "summary": "From the first Native American woman elected to the U.S. Senate and the first Muslim who will join the upper chamber to the Senate's first Paralympian, voters elected historic candidates on Tuesday.",
-      "link": "https://www.npr.org/2026/11/06/nx-s1-6032814/senate-history-election-pappas-andrews-el-sayed",
-      "published": "Fri, 06 Nov 2026 15:21:13 -0500",
-      "source": "NPR"
-    },
-    {
-      "title": "Trump's global health strategy is emerging. What will the Democratic Congress say?",
-      "summary": "The Trump Administration has ushered in a fundamental shift in the U.S. approach to global health aid. How will the newly elected Democratic Congress weigh in?",
-      "link": "https://www.npr.org/2026/11/06/nx-s1-6028828/global-health-usaid-trump-democrats-congress",
-      "published": "Fri, 06 Nov 2026 15:09:58 -0500",
-      "source": "NPR"
-    },
-    {
       "title": "Americans are on a 'treadmill of high inflation' and more rate hikes are likely, Fed's Daly says",
       "summary": "San Francisco Fed President Mary Daly called Friday's jobs report \"good news for American workers,\" but noted the pressure inflation is exerting on household finances",
       "link": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html",
       "published": "Fri, 06 Nov 2026 19:05:00 GMT",
       "source": "CNBC"
-    },
-    {
-      "title": "Cybertruck’s run comes to an end as Musk kills off pricey pet project",
-      "summary": "The Cybertruck failed to catch on with car buyers due to high prices and some notable recalls.",
-      "link": "https://www.marketwatch.com/story/is-it-the-end-of-the-cybertruck-elon-musk-announces-factory-will-shift-production-3e33cafd?mod=mw_rss_topstories",
-      "published": "Fri, 06 Nov 2026 18:54:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
-      "summary": "Democratic winners and progressive lawmakers are calling for tougher limits on AI and data centers after the 2026 midterm elections.",
-      "link": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html",
-      "published": "Thu, 05 Nov 2026 20:17:16 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Barkin sees interest rate hikes ahead, but at a gradual pace",
-      "summary": "In a CNBC interview, the policymaker expressed concern over inflation and said monetary policy will need to adjust.",
-      "link": "https://www.cnbc.com/2026/11/05/barkin-sees-interest-rate-hikes-ahead-but-at-a-gradual-pace.html",
-      "published": "Thu, 05 Nov 2026 16:34:33 GMT",
-      "source": "CNBC"
     }
   ],
   "history": [
-    {
-      "date": "2026-10-23 10:48",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 68,
-      "incidents": 5,
-      "sp500": 7663.43,
-      "usd_czk": 21.651
-    },
     {
       "date": "2026-10-24 05:00",
       "threat_level": "HIGH",
@@ -630,6 +632,15 @@
       "incidents": 1,
       "sp500": 7376.86,
       "usd_czk": 21.809
+    },
+    {
+      "date": "2026-11-08 06:00",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 68,
+      "incidents": 8,
+      "sp500": 7376.86,
+      "usd_czk": 21.809
     }
   ],
   "locations": [
@@ -641,11 +652,11 @@
       "name_en": "Washington, D.C."
     },
     {
-      "key": "Los Angeles",
-      "lat": 34.0522,
-      "lon": -118.2437,
-      "name_cs": "Los Angeles",
-      "name_en": "Los Angeles"
+      "key": "New York",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "name_cs": "New York",
+      "name_en": "New York"
     },
     {
       "key": "Texas",
@@ -669,18 +680,32 @@
       "name_en": "California"
     },
     {
-      "key": "Capitol",
-      "lat": 38.8899,
-      "lon": -77.0091,
-      "name_cs": "Kapitol",
-      "name_en": "US Capitol"
+      "key": "Wisconsin",
+      "lat": 43.7844,
+      "lon": -88.7879,
+      "name_cs": "Wisconsin",
+      "name_en": "Wisconsin"
     },
     {
-      "key": "Pennsylvania",
-      "lat": 41.2033,
-      "lon": -77.1945,
-      "name_cs": "Pensylvánie",
-      "name_en": "Pennsylvania"
+      "key": "Minnesota",
+      "lat": 46.7296,
+      "lon": -94.6859,
+      "name_cs": "Minnesota",
+      "name_en": "Minnesota"
+    },
+    {
+      "key": "North Carolina",
+      "lat": 35.7596,
+      "lon": -79.0193,
+      "name_cs": "Severní Karolína",
+      "name_en": "North Carolina"
+    },
+    {
+      "key": "Massachusetts",
+      "lat": 42.4072,
+      "lon": -71.3824,
+      "name_cs": "Massachusetts",
+      "name_en": "Massachusetts"
     },
     {
       "key": "Alaska",
@@ -698,11 +723,19 @@
       "auto": true
     },
     {
-      "key": "Israel",
-      "lat": 31.5,
-      "lon": 34.8,
-      "name_cs": "Izrael",
-      "name_en": "Israel",
+      "key": "Michigan",
+      "lat": 44.3,
+      "lon": -85.6,
+      "name_cs": "Michigan",
+      "name_en": "Michigan",
+      "auto": true
+    },
+    {
+      "key": "Venezuela",
+      "lat": 7,
+      "lon": -66,
+      "name_cs": "Venezuela",
+      "name_en": "Venezuela",
       "auto": true
     },
     {
@@ -714,20 +747,44 @@
       "auto": true
     },
     {
-      "key": "China",
-      "lat": 35.9,
-      "lon": 104.2,
-      "name_cs": "Čína",
-      "name_en": "China",
+      "key": "Poland",
+      "lat": 52.23,
+      "lon": 21,
+      "name_cs": "Varšava",
+      "name_en": "Poland",
+      "auto": true
+    },
+    {
+      "key": "South Africa",
+      "lat": -30.6,
+      "lon": 22.9,
+      "name_cs": "Jihoafrická republika",
+      "name_en": "South Africa",
+      "auto": true
+    },
+    {
+      "key": "Chile",
+      "lat": -35.7,
+      "lon": -71.5,
+      "name_cs": "Chile",
+      "name_en": "Chile",
+      "auto": true
+    },
+    {
+      "key": "Paraguay",
+      "lat": -23.4,
+      "lon": -58.4,
+      "name_cs": "Paraguay",
+      "name_en": "Paraguay",
       "auto": true
     }
   ],
   "location_counts": {
-    "Florida": 48,
-    "Texas": 78,
-    "Washington": 81,
-    "New York": 65,
-    "California": 59,
+    "Florida": 49,
+    "Texas": 79,
+    "Washington": 82,
+    "New York": 66,
+    "California": 60,
     "Capitol": 21,
     "Border": 20,
     "Los Angeles": 17,
@@ -752,7 +809,7 @@
     "Hongkong": 1,
     "Indie": 1,
     "Berlín": 1,
-    "Michigan": 49,
+    "Michigan": 1,
     "Georgia": 20,
     "Maine": 26,
     "Mexico": 18,
@@ -760,11 +817,11 @@
     "Chicago": 15,
     "Ohio": 42,
     "Arizona": 21,
-    "Minnesota": 22,
+    "Minnesota": 23,
     "Virginia": 14,
     "Izrael": 1,
     "Austrálie": 1,
-    "Alaska": 32,
+    "Alaska": 33,
     "Jižní Korea": 1,
     "Severní Korea": 1,
     "New Jersey": 7,
@@ -772,9 +829,9 @@
     "Louisiana": 8,
     "Egypt": 1,
     "Pennsylvania": 19,
-    "North Carolina": 10,
+    "North Carolina": 11,
     "Brusel": 1,
-    "Wisconsin": 8,
+    "Wisconsin": 9,
     "Kuba": 1,
     "Somálsko": 1,
     "Tennessee": 6,
@@ -783,11 +840,11 @@
     "Řím": 1,
     "Oregon": 17,
     "Oklahoma": 7,
-    "Jihoafrická republika": 1,
+    "Jihoafrická republika": 2,
     "Seattle": 1,
     "Utah": 7,
     "Turecko": 1,
-    "Massachusetts": 2,
+    "Massachusetts": 3,
     "Argentina": 2,
     "Praha": 1,
     "Sýrie": 1,
@@ -798,23 +855,17 @@
     "Detroit": 1,
     "Havaj": 1,
     "Varšava": 1,
-    "Kanada": 1
+    "Kanada": 1,
+    "Chile": 1,
+    "Paraguay": 1
   },
   "top_location": {
     "key": "Washington",
     "name_cs": "Washington, D.C.",
     "name_en": "Washington, D.C.",
-    "count": 81
+    "count": 82
   },
   "archive": [
-    {
-      "date": "2026-10-31 11:29",
-      "threat_level": "HIGH",
-      "security_status_cs": "Spojené státy čelí extrémní politické a tržní volatilitě těsně před nadcházejícími listopadovými midterms volbami, které mohou zásadně změnit kontrolu nad Kongresem. Geopolitické napětí na Blízkém východě a s tím spojené rostoucí ceny ropy a energií nadále zatěžují domácí ekonomiku a politickou scénu. Trhy mezitím nervózně vyčkávají výsledky voleb a možné politické změny vládní většiny.",
-      "security_status_en": "The United States is facing extreme political and market volatility right ahead of the upcoming midterm elections, which could drastically alter control of Congress. Geopolitical tensions in the Middle East and the associated rise in oil and energy prices continue to weigh on the domestic economy and political landscape. Markets are meanwhile nervously awaiting the election results and potential shifts in congressional majorities.",
-      "forecast_cs": "V nejbližších dnech se očekává vyvrcholení volatility v reakci na výsledky amerických midterm voleb a s tím spojené rozložení politických sil.",
-      "forecast_en": "Volatility is expected to peak over the coming days in reaction to the US midterm election results and the resulting political balance of power."
-    },
     {
       "date": "2026-11-01 05:59",
       "threat_level": "HIGH",
@@ -918,6 +969,14 @@
       "security_status_en": "The US political scene faces profound shifts following midterm elections where Democrats secured a House majority, while President Trump executed a radical staff shakeup by appointing Stephen Miller as White House chief of staff. Meanwhile, the Fed warns of persistent inflationary pressures and the threat of further interest rate hikes, triggering market nervousness. Geopolitical tensions are escalating after the US carried out minor strikes on Iran in response to missile attacks near the Strait of Hormuz.",
       "forecast_cs": "V nejbližších dnech lze očekávat zostřenou rétoriku mezi nově zvoleným demokratickým Kongresem a Bílým domem vedeným Stephenem Millerem, přičemž technologické akcie mohou nadále čelit tlaku kvůli volání po AI regulacích.",
       "forecast_en": "Over the coming days, sharpened rhetoric between the newly elected Democratic Congress and a White House led by Stephen Miller is expected, while tech stocks may continue facing pressure due to calls for AI regulations."
+    },
+    {
+      "date": "2026-11-08 06:00",
+      "threat_level": "HIGH",
+      "security_status_cs": "V USA probíhá výrazná politická polarizace po nedávných midterms, v nichž demokraté převzali kontrolu nad Kongresem, což vede Bílý dům k zostření rétoriky v čele se Stephenem Millerem. Inflační tlaky nadále zatěžují domácnosti a nutí Federální rezervní systém zvažovat další kroky, zatímco na imigrační a bezpečnostní frontě rostou tenze kolem ICE a justičních střetů. Roste také politická nejistota ohledně budoucí podoby sociálních a daňových politik.",
+      "security_status_en": "The U.S. is experiencing significant political polarization following recent midterms where Democrats took control of Congress, prompting the White House to sharpen its rhetoric under Stephen Miller. Inflationary pressures continue to weigh on households, forcing the Federal Reserve to weigh further measures, while immigration and security fronts see rising tensions around ICE and legal clashes. Political uncertainty regarding the future shape of social and tax policies is also mounting.",
+      "forecast_cs": "V nejbližších dnech lze očekávat zostřenou rétoriku mezi nově zvoleným demokratickým Kongresem a Bílým domem, zatímco trhy budou nadále vyhodnocovat dopady inflace a kroky Fedu.",
+      "forecast_en": "Over the coming days, sharpened rhetoric between the newly elected Democratic Congress and the White House is expected, while markets continue to assess inflation impacts and Fed actions."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 5× HIGH, 2× MEDIUM.",
