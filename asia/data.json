@@ -1,100 +1,226 @@
 {
-  "last_updated": "2026-11-10T06:00:51Z",
+  "last_updated": "2026-11-10T14:04:20Z",
   "assessment": {
     "threat_level": "HIGH",
     "sentiment_score": 72,
-    "security_status_cs": "Globální technologické trhy a bezpečnostní prostředí čelí otřesům po překvapivém vzestupu čínských AI iniciativ (DeepSeek), které vyvolaly masivní výprodeje v americkém a asijském sektoru polovodičů. Současně Čína hlásí rekordní přebytek obchodu přesahující 1 bilion USD, poháněný poptávkou po AI infrastruktuře, což dále vyostřuje obchodní a geopolitické napětí se Západem. V Tchajwanské úžině mezitím pokračují rozsáhlé čínské námořní manévry a regionální bezpečnostní dohled zůstává na zvýšené úrovni.",
-    "security_status_en": "Global tech markets and the security environment are reeling from the surprise rise of Chinese AI initiatives (DeepSeek), which triggered massive sell-offs across the U.S. and Asian semiconductor sectors. Simultaneously, China reported a record trade surplus surpassing $1 trillion, driven by AI infrastructure demand, further sharpening trade and geopolitical tensions with the West. Meanwhile, extensive Chinese naval drills continue in the Taiwan Strait, keeping regional security oversight at an elevated level.",
+    "security_status_cs": "Globální technologické trhy zasáhly obří výprodeje v důsledku šoku způsobeného novým AI modelem od čínského start-upu DeepSeek, což vyvolalo obavy o udržitelnost valuací americké infrastruktury. Současně čínský obchodní přebytek překonal hranici 1 bilionu dolarů a čínská velkoobchodní inflace vzrostla na čtyřleté maximum, což zesiluje globální napětí ohledně exportních nerovnováh. Geopolitická situace v regionu zůstává napjatá, podpořená politickými změnami v Malajsii a přetrvávajícími obavami o bezpečnost dodavatelských řetězců.",
+    "security_status_en": "Global tech markets suffered massive sell-offs following an AI stock rout sparked by Chinese start-up DeepSeek's new model, raising questions about U.S. infrastructure valuations. Meanwhile, China's trade surplus topped $1 trillion and wholesale inflation hit a four-year high, intensifying global trade frictions over cheap exports. Regional geopolitics remain tense, underscored by political shifts in Malaysia and ongoing supply chain anxieties.",
     "recommendations": [
       {
         "sector_cs": "Polovodiče (TSMC, Samsung, ASML)",
         "sector_en": "Semiconductors (TSMC, Samsung, ASML)",
-        "action": "HOLD",
-        "reason_cs": "Sektor čelí extrémní volatilitě a regulačním tlakům v důsledku šoků vyvolaných čínskými AI inovacemi a přísnějším kontrolám exportu. Silná poptávka po AI čipech je vyvažována rostoucím geopolitickým rizikem a obavami z nelegálních dodávek.",
-        "reason_en": "The sector faces extreme volatility and regulatory pressures following shocks from Chinese AI innovations and tighter export controls. Strong demand for AI chips is counterbalanced by rising geopolitical risk and concerns over illicit supply leakages."
+        "action": "SELL",
+        "reason_cs": "Trh čelí prudké korekci a obavám z přetlaku poptávky po AI infrastruktuře v důsledku nových čínských alternativ, jako je DeepSeek.",
+        "reason_en": "The market is facing a sharp correction and concerns over AI infrastructure overvaluation following the emergence of Chinese alternatives like DeepSeek."
       },
       {
         "sector_cs": "Čínské akcie (ETF FXI, MCHI)",
         "sector_en": "Chinese Equities (FXI, MCHI ETFs)",
         "action": "HOLD",
-        "reason_cs": "Ačkoliv čínský export a high-tech odvětví vykazují silná čísla, vnitřní poptávka zůstává slabá a rostoucí přebytek otevírá dveře tvrdším obchodním odvetám ze strany USA. Regulatorní rizika a politické paradoxní kontroly Xi Jinpinga nadále zatěžují širší tržní sentiment.",
-        "reason_en": "While Chinese exports and high-tech sectors show robust figures, domestic demand remains weak and the soaring surplus invites harsher trade retaliation from the U.S. Regulatory risks and Xi Jinping's political control paradox continue to weigh on broader market sentiment."
+        "reason_cs": "Zatímco technologický sektor ukazuje sílu v oblasti AI soběstačnosti, rostoucí obchodní přebytky a inflace zvyšují riziko protekcionistické odvety ze strany USA.",
+        "reason_en": "While the tech sector shows strength in AI self-sufficiency, surging trade surpluses and rising inflation increase the risk of protectionist retaliation from the US."
       },
       {
         "sector_cs": "Japonské akcie (Nikkei 225 ETF)",
         "sector_en": "Japanese Equities (Nikkei 225 ETFs)",
         "action": "HOLD",
-        "reason_cs": "Japonský trh je zasažen globálním výprodejem technologických titulů, přičemž posilující jen jako bezpečný přístav snižuje marže exportérů. Domácí politická diskuse o bezpečnostní strategii a kybernetické bezpečnosti dodává opatrnost.",
-        "reason_en": "The Japanese market is impacted by the global tech sell-off, while a strengthening yen acting as a safe haven weighs on exporter margins. Domestic political debates over security strategy and cybersecurity add a layer of caution."
+        "reason_cs": "Silný jen těží z útěku investorů k bezpečnějším aktivům po výprodejích v technologickém sektoru, což tlumí exportně orientované tituly.",
+        "reason_en": "The strong yen is benefiting from safe-haven flows after tech sector sell-offs, which in turn pressures export-oriented equities."
       },
       {
         "sector_cs": "Obranný průmysl (Lockheed Martin, RTX, Mitsubishi Heavy)",
         "sector_en": "Defense Industry (Lockheed Martin, RTX, Mitsubishi Heavy)",
         "action": "BUY",
-        "reason_cs": "Pokračující čínské námořní manévry 'area denial' v západním Tichomoří a eskalace napětí kolem Tchaj-wanu udržují silnou poptávku po vojenském vybavení a regionálním odstrašení. Japonsko navíc otevírá debatu o revizi bezpečnostní strategie.",
-        "reason_en": "Ongoing Chinese 'area denial' naval maneuvers in the western Pacific and escalating tensions around Taiwan sustain robust demand for military hardware and regional deterrence. Additionally, Japan is opening debates on revising its security strategy."
+        "reason_cs": "Přetrvávající geopolitické napětí v Asii a rostoucí důraz na technologickou a dodavatelskou bezpečnost drží poptávku po obranných aktivech vysoko.",
+        "reason_en": "Persistent geopolitical tensions in Asia and a growing emphasis on technological and supply security keep demand for defense assets high."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Dění v Asii a globální technologický výprodej mají na české blue-chip tituly pouze zprostředkovaný dopad skrze náladu na globálních trzích. Banky a energetika se nadále řídí spíše domácí monetární politikou a evropským makroekonomickým vývojem.",
-        "reason_en": "Asian developments and the global tech sell-off have only an indirect impact on Czech blue-chip stocks via broader global market sentiment. Banks and energy firms continue to be driven primarily by domestic monetary policy and European macroeconomic trends."
+        "reason_cs": "Domácí tituly na pražské burze zůstávají vůči asijským technologickým šokům primárně izolované, avšak globální makroekonomická nervozitě omezuje prostor pro růst.",
+        "reason_en": "Domestic shares on the Prague Stock Exchange remain largely insulated from Asian tech shocks, though broader global macroeconomic jitters limit upside potential."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na globálních technologických trzích, kde investoři přehodnocují valuace AI infrastruktury po čínských vstupech. Regionální napětí v Asii a otázky dodavatelských řetězců zůstanou hlavním motorem tržních pohybů.",
-    "forecast_en": "Over the coming days, continued volatility is expected in global tech markets as investors reassess AI infrastructure valuations following Chinese market entries. Regional tensions in Asia and supply chain issues will remain key drivers of market movements.",
-    "forecast_review_cs": "Předchozí předpověď nervozity na technologických trzích, důrazu na čínské AI inovace a vysokého bezpečnostního dohledu se plně potvrdila.",
-    "forecast_review_en": "The previous forecast regarding nervousness in tech markets, focus on Chinese AI innovations, and high security oversight was fully confirmed."
+    "forecast_cs": "V nejbližších dnech lze očekávat zvýšenou volatilitu na globálních trzích, kde se investoři budou vyrovnávat s dopady čínského AI šoku na technologické valuace. Pozornost se přesune také k nadcházejícímu summitu APEC a dalším makroekonomickým datům z Asie.",
+    "forecast_en": "Over the coming days, heightened volatility is expected in global markets as investors grapple with the fallout of the Chinese AI shock on tech valuations. Attention will also shift to the upcoming APEC summit and upcoming Asian macroeconomic prints.",
+    "forecast_review_cs": "Předchozí předpověď o pokračující volatilitě a přehodnocování valuací AI infrastruktury v důsledku čínských vstupů byla beze zbytku potvrzena masivními výprodeji vyvolanými modelem DeepSeek.",
+    "forecast_review_en": "The previous forecast regarding ongoing volatility and the reassessment of AI infrastructure valuations due to Chinese market entries was fully confirmed by the massive sell-offs sparked by the DeepSeek model."
   },
   "articles": [
     {
-      "title": "Japanese investors become net buyers of foreign bonds for the first time in three months",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/japanese-investors-become-net-buyers-foreign-bonds-first-time-in-three-months-6538431",
-      "published": "Tue, 10 Nov 2026 13:43:02 +0800",
-      "source": "CNA"
-    },
-    {
-      "title": "DEEPX's AI chip built on Samsung's 2-nanometer foundry process wins CES award",
-      "summary": "SEOUL, Nov. 10 (Yonhap) -- South Korean neural processing unit (NPU) developer D...",
-      "link": "https://en.yna.co.kr/view/AEN20261110006600320",
-      "published": "Tue, 10 Nov 2026 14:39:35 +0900",
-      "source": "Yonhap"
-    },
-    {
-      "title": "Hong Kong civil servants to be given 12 hours of family care leave a year",
-      "summary": "Hong Kong’s civil servants will be entitled to up to 12 hours of family care leave a year from January, with the government promising flexible, streamlined approval procedures as part of a “people-orientated” approach.\nThe Civil Service Bureau set out details of the initiative, first announced in September’s policy address, in a paper submitted to the Legislative Council’s public service panel on Tuesday.\nStaff may use the leave to accompany family members to medical appointments, care for sick...",
-      "link": "https://www.scmp.com/news/hong-kong/politics/article/3373895/hong-kong-civil-servants-be-given-12-hours-family-care-leave-year",
-      "published": "Tue, 10 Nov 2026 05:37:48 +0000",
+      "title": "Xi and Trump set for Apec talks, but major deliverables expected to wait for G20",
+      "summary": "The presidents of the US and China are set to meet again at next week’s Apec summit, but observers expect few tangible bilateral deliverables to emerge from their talks.\nThe face-to-face meeting between Donald Trump and Xi Jinping will be the third between the two leaders this year, following reciprocal state visits in May and September.\nThey are also expected to meet at the Group of 20 summit in the United States in December. In each case, global markets will be watching closely to see how...",
+      "link": "https://www.scmp.com/news/china/diplomacy/article/3373969/xi-and-trump-set-apec-talks-major-deliverables-expected-wait-g20",
+      "published": "Tue, 10 Nov 2026 14:00:10 +0000",
       "source": "SCMP"
     },
     {
-      "title": "(LEAD) Top diplomats of S. Korea, France discuss ties, Ukraine war",
-      "summary": "SEOUL, Nov. 10 (Yonhap) -- Foreign Minister Cho Hyun has met his French counterp...",
-      "link": "https://en.yna.co.kr/view/AEN20261110003151315",
-      "published": "Tue, 10 Nov 2026 14:37:43 +0900",
+      "title": "S. Korean, Canadian FMs discuss N. Korea, bilateral issues in Paris",
+      "summary": "SEOUL, Nov. 10 (Yonhap) -- Foreign Minister Cho Hyun met with his Canadian count...",
+      "link": "https://en.yna.co.kr/view/AEN20261110010800315",
+      "published": "Tue, 10 Nov 2026 22:54:52 +0900",
       "source": "Yonhap"
     },
     {
-      "title": "S. Korea repeats principle of non-involvement in Iran war",
-      "summary": "SEOUL, Nov. 10 (Yonhap) -- South Korea's foreign ministry on Tuesday reiterated ...",
-      "link": "https://en.yna.co.kr/view/AEN20261110006500315",
-      "published": "Tue, 10 Nov 2026 14:32:00 +0900",
+      "title": "Chipmakers warn AI demand is creating bottlenecks in automotive supply chain",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/business/chipmakers-warn-ai-demand-creating-bottlenecks-in-automotive-supply-chain-6539751",
+      "published": "Tue, 10 Nov 2026 21:42:41 +0800",
+      "source": "CNA"
+    },
+    {
+      "title": "Hong Kong slashes costs for Northern Metropolis rail link by 28% to HK$86.2 billion",
+      "summary": "Hong Kong has cut the cost of its new Northern Metropolis rail link by 28 per cent to HK$86.2 billion (US$10.99 billion), after the government approved the funding for the project’s second phase, ahead of a planned launch by 2034.\nThe Transport and Logistics Bureau and the MTR Corporation signed a project agreement on Tuesday covering the Northern Link, marking the start of construction for both its main and spur lines.\nThe signing followed the green light from the Executive Council, the...",
+      "link": "https://www.scmp.com/news/hong-kong/transport/article/3373985/hong-kong-slashes-costs-northern-metropolis-rail-link-28-hk862-billion",
+      "published": "Tue, 10 Nov 2026 13:38:42 +0000",
+      "source": "SCMP"
+    },
+    {
+      "title": "Israeli soldiers are also settlers in West Bank: Al Jazeera investigation",
+      "summary": "Blurred lines between Israeli soldiers and settlers fuel systematic West Bank violence and mass displacement.",
+      "link": "https://www.aljazeera.com/news/2026/11/10/israeli-soldiers-are-also-settlers-in-west-bank-al-jazeera-investigation?traffic_source=rss",
+      "published": "Tue, 10 Nov 2026 13:34:33 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Elon Musk was half-right in his comment last week about SoftBank back-pedaling on a gas-turbine order",
+      "summary": "Elon Musk in a social-media post last week said that SoftBank “defaulted” on a gas-turbine order. The truth, revealed Tuesday in the Japanese’s investment company’s second-quarter earnings, wasn’t far off.",
+      "link": "https://www.marketwatch.com/story/elon-musk-was-half-right-in-his-comment-last-week-about-softbank-back-pedaling-on-a-gas-turbine-order-c293d335?mod=mw_rss_topstories",
+      "published": "Tue, 10 Nov 2026 13:32:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "U.S. President Donald Trump nominates Natalie Baker as next Ambassador to Pakistan",
+      "summary": "Ms. Baker is currently serving as charge d’affaires at the U.S. Embassy in Islamabad. She assumed the role in January 2025, following the departure of then-ambassador Donald Armin Blome",
+      "link": "https://www.thehindu.com/news/international/us-president-donald-trump-nominates-natalie-baker-as-next-ambassador-to-pakistan/article71686165.ece",
+      "published": "Tue, 10 Nov 2026 19:01:54 +0530",
+      "source": "The Hindu"
+    },
+    {
+      "title": "(LEAD) S. Korean, U.S. FMs discuss N. Korea, bilateral issues in Paris",
+      "summary": "SEOUL, Nov. 10 (Yonhap) -- Foreign Minister Cho Hyun met with U.S. Secretary of ...",
+      "link": "https://en.yna.co.kr/view/AEN20261110010751315",
+      "published": "Tue, 10 Nov 2026 22:29:53 +0900",
       "source": "Yonhap"
     },
     {
-      "title": "Amid questions over Japan’s cybersecurity, just how safe is the My Number system?",
-      "summary": "With over 80% of the population using My Number, concerns have emerged over the country's all-in-one card and the personal information stored in it.",
-      "link": "https://www.japantimes.co.jp/news/2026/11/10/japan/my-number-security/",
-      "published": "Tue, 10 Nov 2026 14:29:00 +0900",
+      "title": "AI microdramas cause ‘aesthetic fatigue’, professor tells Macau forum",
+      "summary": "Formulaic AI-generated microdramas risk stifling human creativity and innovation, a Beijing professor has warned at a forum in Macau.\nZhang Lanshan, a professor at the School of Digital Media and Design Arts at the Beijing University of Posts and Telecommunications, said that while audiences loved such standardised content, it posed a risk to diversity and artistic endeavour.\nExperts, including from several Hong Kong institutions, also warned users of artificial intelligence about the cultural...",
+      "link": "https://www.scmp.com/news/hong-kong/society/article/3373984/ai-microdramas-cause-aesthetic-fatigue-professor-tells-macau-forum",
+      "published": "Tue, 10 Nov 2026 13:28:04 +0000",
+      "source": "SCMP"
+    },
+    {
+      "title": "Alibaba chip unit T-Head files Hong Kong IPO plan amid China’s AI self-sufficiency drive",
+      "summary": "Alibaba Group Holding’s chip design unit T-Head has filed for an initial public offering (IPO) on a confidential basis in Hong Kong, the company said in a stock-exchange filing on Tuesday evening, setting up a high-profile listing in the city amid rising competition between the US and China as the latter continues its push for tech self-sufficiency.\nThe size and structure of the listing were not finalised.\nA wholly owned subsidiary of Alibaba, T-Head provides full-stack data centre chips,...",
+      "link": "https://www.scmp.com/business/companies/article/3373974/alibaba-chip-unit-t-head-files-hong-kong-ipo-plan-amid-chinas-ai-self-sufficiency-drive",
+      "published": "Tue, 10 Nov 2026 13:20:29 +0000",
+      "source": "SCMP"
+    },
+    {
+      "title": "Japanese prisons begin using AI translators to aid communication with foreign inmates",
+      "summary": "<p>Palm-sized AI translators have been playing an important role in prisons and detention houses across Japan.</p>",
+      "link": "https://www.straitstimes.com/asia/east-asia/japanese-prisons-begin-using-ai-translators-to-aid-communication-with-foreign-inmates",
+      "published": "Tue, 10 Nov 2026 21:20:00 +0800",
+      "source": "Straits Times"
+    },
+    {
+      "title": "Pannun’s civil lawsuit: U.S. court allows Pannun to serve NSA Doval and former intelligence chief Goyal",
+      "summary": "Order issued on November 9, 2026, after State department attempts to serve Indian officials via Embassy, MEA rejects charges as “frivolous”, calls Pannun’s case “fabricated and malicious”",
+      "link": "https://www.thehindu.com/news/international/pannuns-civil-lawsuit-us-state-department-formally-serves-notice-to-india/article71685482.ece",
+      "published": "Tue, 10 Nov 2026 18:41:31 +0530",
+      "source": "The Hindu"
+    },
+    {
+      "title": "Bangladesh prosecutor warns Hasina faces execution if she returns",
+      "summary": "Bangladesh’s International Crimes Tribunal has said ousted PM Sheikh Hasina will be executed if she returns home.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/10/bangladesh-prosecutor-warns-hasina-faces-execution-if-she-returns?traffic_source=rss",
+      "published": "Tue, 10 Nov 2026 13:10:41 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "S. Korean, U.S. FMs discuss N. Korea, bilateral issues in Paris",
+      "summary": "SEOUL, Nov. 10 (Yonhap) -- Foreign Minister Cho Hyun met with U.S. Secretary of ...",
+      "link": "https://en.yna.co.kr/view/AEN20261110010700315",
+      "published": "Tue, 10 Nov 2026 22:05:35 +0900",
+      "source": "Yonhap"
+    },
+    {
+      "title": "Anthropic officially sets the stage for an IPO valuing the company north of $1 trillion",
+      "summary": "Anthropic could raise up to $63 billion in an IPO expected to take place next week.",
+      "link": "https://www.marketwatch.com/story/anthropic-reportedly-retracts-ipo-terms-sent-to-banks-by-mistake-exposing-jitters-over-ai-investments-6116578d?mod=mw_rss_topstories",
+      "published": "Tue, 10 Nov 2026 12:32:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Malaysian court clears final hurdle for former PM Najib Razak's transfer to house arrest",
+      "summary": "Najib has been behind bars since August 2022, when the Kuala Lumpur High Court upheld his graft conviction linked to a multibillion-dollar looting of the state investment fund 1MDB.",
+      "link": "https://www.thehindu.com/news/international/malaysian-court-clears-final-hurdle-for-former-pm-najib-razaks-transfer-to-house-arrest/article71686082.ece",
+      "published": "Tue, 10 Nov 2026 17:58:13 +0530",
+      "source": "The Hindu"
+    },
+    {
+      "title": "New S$30 million funding tier to help Singapore employers hire people with disabilities",
+      "summary": "The grant tier will support enterprises that employ a meaningful number of people with disabilities who have moderate support needs. \n ",
+      "link": "https://www.channelnewsasia.com/singapore/disability-worker-job-employer-s-eeg-grant-6539276",
+      "published": "Tue, 10 Nov 2026 20:08:00 +0800",
+      "source": "CNA"
+    },
+    {
+      "title": "Sinner positive on Australian Open prospects, but won't rush return",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/sinner-positive-australian-open-prospects-wont-rush-return-6539316",
+      "published": "Tue, 10 Nov 2026 20:03:14 +0800",
+      "source": "CNA"
+    },
+    {
+      "title": "Malaysian minister Loke resigns, as ex-PM Najib is set for homecoming following court order",
+      "summary": "<p>The former PM is expected home by dinner following a High Court ruling.</p>",
+      "link": "https://www.straitstimes.com/asia/se-asia/malaysian-minister-loke-resigns-as-ex-pm-najib-is-set-for-homecoming-following-court-order",
+      "published": "Tue, 10 Nov 2026 19:30:00 +0800",
+      "source": "Straits Times"
+    },
+    {
+      "title": "Malaysian court clears former PM Najib Razak for house arrest transfer",
+      "summary": "Najib, 73, was jailed for his role in looting the now-defunct sovereign wealth fund 1MDB.",
+      "link": "https://www.aljazeera.com/news/2026/11/10/malaysian-court-clears-former-pm-najib-razak-for-house-arrest-transfer?traffic_source=rss",
+      "published": "Tue, 10 Nov 2026 11:17:36 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Prosecutors see Philippine V-P Duterte’s impeachment trial ending in 2026",
+      "summary": "<p>They are dropping three charges, as they go all in on the unexplained wealth case.</p>",
+      "link": "https://www.straitstimes.com/asia/se-asia/philippine-vp-dutertes-impeachment-nears-end-as-prosecutors-stake-case-on-unexplained-wealth",
+      "published": "Tue, 10 Nov 2026 19:03:50 +0800",
+      "source": "Straits Times"
+    },
+    {
+      "title": "China's goods surplus tops $1 trillion for a second year amid calls for Beijing to rebalance trade",
+      "summary": "China's trade surplus topped $1 trillion as of October, potentially intensifying complaints from trading partners already wary over the glut of cheap Chinese goods.",
+      "link": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html",
+      "published": "Tue, 10 Nov 2026 10:24:13 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Are Japan and the U.S. losing South Korea as an ally?",
+      "summary": "Washington's trust in the South Korean government on intelligence matters seems increasingly fragile.",
+      "link": "https://www.japantimes.co.jp/commentary/2026/11/10/japan/japan-us-losing-south-korea/",
+      "published": "Tue, 10 Nov 2026 17:46:00 +0900",
       "source": "Japan Times"
     },
     {
-      "title": "G7 diplomats speak out on Taiwan as China ramps up military drills",
-      "summary": "Taiwan said Tuesday that Beijing is carrying out \"area denial\" drills in the western Pacific involving an aircraft carrier and other naval formations.",
-      "link": "https://www.japantimes.co.jp/news/2026/11/10/japan/politics/japan-g7-china-taiwan-military/",
-      "published": "Tue, 10 Nov 2026 14:28:00 +0900",
+      "title": "Japan to use COP31 to showcase environmental technologies",
+      "summary": "A key goal of the conference is to increase the world's electrification to 35% by 2035.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/10/japan/politics/cop31-japan-technologies/",
+      "published": "Tue, 10 Nov 2026 17:31:00 +0900",
+      "source": "Japan Times"
+    },
+    {
+      "title": "U.S. allies need a plan for a lame-duck Trump",
+      "summary": "Some countries, including Iran and Israel, are concerned about how Trump will react to his defeat.",
+      "link": "https://www.japantimes.co.jp/commentary/2026/11/10/world/lame-duck-trump-plan/",
+      "published": "Tue, 10 Nov 2026 17:24:00 +0900",
       "source": "Japan Times"
     },
     {
@@ -105,109 +231,18 @@
       "source": "BBC News"
     },
     {
-      "title": "4 men charged over S$6.2 million fraudulent mortgage scheme using violinist's Katong home",
-      "summary": "The professional violinist was purportedly lured away from his landed home in Katong so property valuations could be conducted on the place without his authorisation.",
-      "link": "https://www.channelnewsasia.com/singapore/men-6-million-fraud-mortgage-loan-violinist-charged-6538176",
-      "published": "Tue, 10 Nov 2026 13:12:00 +0800",
-      "source": "CNA"
+      "title": "Whatever the ICJ Rules, the Arakan Army Is Beyond Its Reach",
+      "summary": "The armed group’s treatment of the Rohingya amounts to crimes against humanity – but because it is driving them into Bangladesh, the ICC has the power to act.",
+      "link": "https://thediplomat.com/2026/11/whatever-the-icj-rules-the-arakan-army-is-beyond-its-reach/",
+      "published": "Tue, 10 Nov 2026 13:06:00 +0900",
+      "source": "The Diplomat"
     },
     {
-      "title": "Deepavali picnic in Malaysia turns tragic as flash floods hit Selangor",
-      "summary": "Flash floods during a Deepavali picnic in Malaysia have killed a man and left seven others missing, as authorities evacuated hundreds from flood-prone areas in Selangor and Perak states amid a strengthening monsoon season.\nThe shifting monsoon winds also triggered a surge in thunderstorms across the country, helping clear out a months-long curtain of transboundary haze.\nLocal officials said they found the body of the victim, identified as V. Vijayan, at around 1.30am on Tuesday at a bridge about...",
-      "link": "https://www.scmp.com/week-asia/health-environment/article/3373891/deepavali-picnic-malaysia-turns-tragic-flash-floods-hit-selangor",
-      "published": "Tue, 10 Nov 2026 05:08:20 +0000",
-      "source": "SCMP"
-    },
-    {
-      "title": "China says 2026 trade surplus surpassed $1 trillion in October",
-      "summary": "Exports from the world's second-largest economy have surged in recent months, driven in part by soaring global demand for artificial intelligence-related products including computer chips, data centre servers and networking equipment",
-      "link": "https://www.thehindu.com/news/international/china-says-2026-trade-surplus-surpassed-1-trillion-in-october/article71685001.ece",
-      "published": "Tue, 10 Nov 2026 10:36:14 +0530",
-      "source": "The Hindu"
-    },
-    {
-      "title": "China’s monthly imports grow at fastest pace in five years as surplus crosses $1 trillion in 2026",
-      "summary": "Goods exports soared by 35.2% last month from a year earlier, exceeding expectations for a 33.5% jump in a Reuters poll and slowing from a 36.3% jump in September.",
-      "link": "https://www.cnbc.com/2026/11/10/china-trade-october-exports-imports-surplus-.html",
-      "published": "Tue, 10 Nov 2026 05:03:55 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "As 1 mainland Chinese chip IPO soars, another stumbles in busy Hong Kong week",
-      "summary": "Two mainland Chinese chip suppliers made sharply divergent trading debuts in Hong Kong on Tuesday after raising a combined HK$2.2 billion (US$280 million), underscoring investors’ selective appetite for semiconductor stocks despite a pickup in new listings.\nSuzhou Denglin Technology, the week’s largest listing, fell by as much as 8.6 per cent in morning trade after raising HK$1.4 billion in its initial public offering (IPO).\nThe graphics processing unit maker priced its shares at HK$231 – the...",
-      "link": "https://www.scmp.com/business/companies/article/3373886/1-mainland-chinese-chip-ipo-soars-another-stumbles-busy-hong-kong-week",
-      "published": "Tue, 10 Nov 2026 05:00:23 +0000",
-      "source": "SCMP"
-    },
-    {
-      "title": "Today in Korean history",
-      "summary": "Nov. 11",
-      "link": "https://en.yna.co.kr/view/AEN20261110001000320",
-      "published": "Tue, 10 Nov 2026 14:00:08 +0900",
-      "source": "Yonhap"
-    },
-    {
-      "title": "Paragliding association backs compulsory registration after self-taught pilot’s crash",
-      "summary": "Hong Kong’s paragliding association has said it is open to compulsory registration amid mounting safety concerns after a self-taught pilot injured three hikers, with a sports expert calling for mandatory safety requirements to regulate the activity.\nSimon Chan Siu-ming, executive secretary of the Hong Kong China Paragliding Association, said fellow enthusiasts had known about the pilot and his lack of proper training about nine months before Sunday’s accident and had urged him to seek...",
-      "link": "https://www.scmp.com/news/hong-kong/society/article/3373887/paragliding-association-backs-compulsory-registration-after-self-taught-pilots-crash",
-      "published": "Tue, 10 Nov 2026 04:55:30 +0000",
-      "source": "SCMP"
-    },
-    {
-      "title": "Would you pay S$10,000 for a vat of customised soya sauce? This Singapore maker has a waiting list of over 2 years",
-      "summary": "Forget whisky casks. At Nanyang Sauce, customers can commission their own vat of soya sauce, customised down to the salt and water used.",
-      "link": "https://www.channelnewsasia.com/dining/nanyang-soya-sauce-6535046",
-      "published": "Tue, 10 Nov 2026 12:54:21 +0800",
-      "source": "CNA"
-    },
-    {
-      "title": "Australia tightens AI oversight rules after OpenAI agent breached government website",
-      "summary": "Prime Minister Anthony Albanese ‌said the ​government had accepted all recommendations",
-      "link": "https://www.thehindu.com/sci-tech/technology/australia-tightens-ai-oversight-rules-after-openai-agent-breached-government-website/article71684880.ece",
-      "published": "Tue, 10 Nov 2026 10:21:43 +0530",
-      "source": "The Hindu"
-    },
-    {
-      "title": "Ruling bloc kicks off first working-level talks on Japan security strategy overhaul",
-      "summary": "Revising a longtime ban on bringing nuclear weapons into the country and acquiring nuclear-powered submarines are seen as key points of contention.",
-      "link": "https://www.japantimes.co.jp/news/2026/11/10/japan/politics/japan-ruling-bloc-security-documents-talks/",
-      "published": "Tue, 10 Nov 2026 13:51:00 +0900",
-      "source": "Japan Times"
-    },
-    {
-      "title": "Singaporean nabbed at Ipoh airport with ganja buds worth $473,000",
-      "summary": "<p>Malaysian police found 36 plastic packages containing 19,040g in his baggage.</p>",
-      "link": "https://www.straitstimes.com/asia/se-asia/singaporean-nabbed-at-ipoh-airport-with-ganja-buds-worth-473000",
-      "published": "Tue, 10 Nov 2026 12:35:00 +0800",
-      "source": "Straits Times"
-    },
-    {
-      "title": "PTPA presses player fatigue concerns after Rybakina's WTA Finals withdrawal",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/ptpa-presses-player-fatigue-concerns-after-rybakinas-wta-finals-withdrawal-6538311",
-      "published": "Tue, 10 Nov 2026 12:34:14 +0800",
-      "source": "CNA"
-    },
-    {
-      "title": "Who is Stephen Miller, Trump’s new Chief of Staff?",
-      "summary": "Stephen Miller, one of U.S. President Donald Trump’s closest aides for decades, will replace Susie Wiles, who becomes the first major White House casualty from the Democratic landslide earlier this week",
-      "link": "https://www.thehindu.com/news/international/who-is-stephen-miller-trump-new-chief-of-staff/article71677475.ece",
-      "published": "Tue, 10 Nov 2026 09:45:02 +0530",
-      "source": "The Hindu"
-    },
-    {
-      "title": "China's trade surplus soars past $1 trillion as AI boom powers exports",
-      "summary": "<p>BEIJING, Nov 10 - China's trade surplus surged past $1 trillion in the first 10 months as a global race to build AI infrastructure buoyed sales of high-tech products and helped offset weak domestic demand, a dynamic likely to sharpen tensions with major trading partners.</p>",
-      "link": "https://www.straitstimes.com/asia/chinas-trade-surplus-soars-past-1-trillion-as-ai-boom-powers-exports",
-      "published": "Tue, 10 Nov 2026 11:53:34 +0800",
-      "source": "Straits Times"
-    },
-    {
-      "title": "China seeks high-tech upper hand in industry carrying 80% of global trade",
-      "summary": "<p>But Western officials and analysts fear its push to export its shipping technology could give it new leverage.</p>",
-      "link": "https://www.straitstimes.com/asia/china-seeks-high-tech-upper-hand-in-industry-carrying-80-of-global-trade",
-      "published": "Tue, 10 Nov 2026 11:49:24 +0800",
-      "source": "Straits Times"
+      "title": "The Thailand-Bhutan Bond, and Why It Endures",
+      "summary": "Royal connections and religious commonalities have laid the foundation of a warm relationship between the two kingdoms.",
+      "link": "https://thediplomat.com/2026/11/the-thailand-bhutan-bond-and-why-it-endures/",
+      "published": "Tue, 10 Nov 2026 12:22:00 +0900",
+      "source": "The Diplomat"
     },
     {
       "title": "Qantas to outsource 850 local jobs with most roles moving to India",
@@ -218,7 +253,7 @@
     },
     {
       "title": "'Cruise for life' ship seized in Singapore",
-      "summary": "The ship was meant to take guests around the world, but the trip was cut short after its operator ran out of money.",
+      "summary": "The Odyssey was meant to take guests around the world for years, but the trip was cut short after its operator ran out of money.",
       "link": "https://www.bbc.co.uk/news/articles/cqr7y7myer53o?at_medium=RSS&at_campaign=rss",
       "published": "Tue, 10 Nov 2026 01:49:06 GMT",
       "source": "BBC News"
@@ -231,46 +266,11 @@
       "source": "The Diplomat"
     },
     {
-      "title": "The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips",
-      "summary": "‘We were confident in the research initially, and we’re still confident in it now,’ says Christian Lamarco, founder of Culper Research",
-      "link": "https://www.marketwatch.com/story/the-short-seller-who-saw-signs-of-nvidias-china-scandal-months-ago-claims-megaspeed-isnt-the-ony-company-helping-china-access-chips-9877f544?mod=mw_rss_topstories",
-      "published": "Tue, 10 Nov 2026 00:48:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
       "title": "CNBC's The China Connection newsletter: Wall Street dips in again. What needs to go right",
       "summary": "Following the latest Trump-Xi summit, China pledged further opening of its financial market to companies from all countries, including the U.S.",
       "link": "https://www.cnbc.com/2026/11/09/cnbcs-the-china-connection-newsletter-wall-street-dips-in-again.html",
       "published": "Mon, 09 Nov 2026 23:00:02 GMT",
       "source": "CNBC"
-    },
-    {
-      "title": "Are AMD and Broadcom the real winners of the Nvidia spy scandal?",
-      "summary": "The chip makers’ shares were posting big gains Monday — but those companies could also be subject to greater scrutiny over their sales practices, analysts say.",
-      "link": "https://www.marketwatch.com/story/are-amd-and-broadcom-the-real-winners-of-the-nvidia-spy-scandal-d2343072?mod=mw_rss_topstories",
-      "published": "Mon, 09 Nov 2026 21:43:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Can Cash Transfers Empower Indian Women?",
-      "summary": "Cash transfers might offer immediate support, but lasting economic empowerment depends on women’s access to jobs, assets and productive resources.",
-      "link": "https://thediplomat.com/2026/11/can-cash-transfers-empower-indian-women/",
-      "published": "Tue, 10 Nov 2026 01:46:00 +0900",
-      "source": "The Diplomat"
-    },
-    {
-      "title": "Xi Jinping’s Paradox of Political Control",
-      "summary": "There is an unresolved tension between Xi’s growing ability to punish dissent and continued problems of political unreliability.",
-      "link": "https://thediplomat.com/2026/11/xi-jinpings-paradox-of-political-control/",
-      "published": "Mon, 09 Nov 2026 23:03:00 +0900",
-      "source": "The Diplomat"
-    },
-    {
-      "title": "Khawaja 100% accurate on ball-tampering - Warner",
-      "summary": "David Warner says he throws his \"full support\" behind former team-mate Usman Khawaja following his claim that all the Australia players knew about ball-tampering.",
-      "link": "https://www.bbc.co.uk/sport/cricket/articles/c5wyry9gmz4ko?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 09 Nov 2026 09:21:09 GMT",
-      "source": "BBC News"
     },
     {
       "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
@@ -301,44 +301,35 @@
       "source": "WSJ Markets"
     },
     {
-      "title": "China bubble tea chain Mixue shuts more stores as growth model falters",
+      "title": "Indonesian VP Gibran to resign, presidential office says",
       "summary": "",
-      "link": "https://asia.nikkei.com/business/food-beverage/china-bubble-tea-chain-mixue-shuts-more-stores-as-growth-model-falters",
-      "published": "2026-11-10 06:00",
+      "link": "https://asia.nikkei.com/politics/indonesian-vp-gibran-to-resign-presidential-office-says",
+      "published": "2026-11-10 14:04",
       "source": "Nikkei Asia"
     },
     {
-      "title": "Democrats' midterm victory puts future of House China committee in doubt",
+      "title": "Thailand tightens environmental rules for large data centers",
       "summary": "",
-      "link": "https://asia.nikkei.com/politics/international-relations/us-china-tensions/democrats-midterm-victory-puts-future-of-house-china-committee-in-doubt",
-      "published": "2026-11-10 06:00",
+      "link": "https://asia.nikkei.com/business/technology/thailand-tightens-environmental-rules-for-large-data-centers",
+      "published": "2026-11-10 14:04",
       "source": "Nikkei Asia"
     },
     {
-      "title": "Australia plans new regulator for artificial intelligence after OpenAI hack",
+      "title": "Grab, SoftBank to invest $1.85bn in Malaysia AI infrastructure",
       "summary": "",
-      "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/australia-plans-new-regulator-for-artificial-intelligence-after-openai-hack",
-      "published": "2026-11-10 06:00",
+      "link": "https://asia.nikkei.com/business/technology/artificial-intelligence/grab-softbank-to-invest-1.85bn-in-malaysia-ai-infrastructure",
+      "published": "2026-11-10 14:04",
       "source": "Nikkei Asia"
     },
     {
-      "title": "Nikkei's Global Management Dialogue to explore AI's new paths to growth",
+      "title": "Vietnam's FPT sees rising demand for AI adoption in Japan",
       "summary": "",
-      "link": "https://asia.nikkei.com/spotlight/global-management-dialogue/global-management-dialogue-2026/nikkei-s-global-management-dialogue-to-explore-ai-s-new-paths-to-growth",
-      "published": "2026-11-10 06:00",
+      "link": "https://asia.nikkei.com/spotlight/global-management-dialogue/global-management-dialogue-2026/vietnam-s-fpt-sees-rising-demand-for-ai-adoption-in-japan",
+      "published": "2026-11-10 14:04",
       "source": "Nikkei Asia"
     }
   ],
   "history": [
-    {
-      "date": "2026-10-25 10:30",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 75,
-      "incidents": 40,
-      "hangseng": 23093.37,
-      "usd_czk": null
-    },
     {
       "date": "2026-10-26 06:01",
       "threat_level": "HIGH",
@@ -599,6 +590,15 @@
       "incidents": 40,
       "hangseng": 24569.11,
       "usd_czk": 21.768
+    },
+    {
+      "date": "2026-11-10 14:04",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 72,
+      "incidents": 40,
+      "hangseng": 24557.04,
+      "usd_czk": 21.768
     }
   ],
   "locations": [
@@ -608,13 +608,6 @@
       "lon": 116.4074,
       "name_cs": "Peking",
       "name_en": "Beijing"
-    },
-    {
-      "key": "Taipei",
-      "lat": 25.033,
-      "lon": 121.5654,
-      "name_cs": "Tchaj-pej",
-      "name_en": "Taipei"
     },
     {
       "key": "Tokyo",
@@ -638,11 +631,46 @@
       "name_en": "Hong Kong"
     },
     {
+      "key": "Manila",
+      "lat": 14.5995,
+      "lon": 120.9842,
+      "name_cs": "Manila",
+      "name_en": "Manila"
+    },
+    {
       "key": "Delhi",
       "lat": 28.6139,
       "lon": 77.209,
       "name_cs": "Dillí",
       "name_en": "New Delhi"
+    },
+    {
+      "key": "Islamabad",
+      "lat": 33.6844,
+      "lon": 73.0479,
+      "name_cs": "Islámábád",
+      "name_en": "Islamabad"
+    },
+    {
+      "key": "Bangkok",
+      "lat": 13.7563,
+      "lon": 100.5018,
+      "name_cs": "Bangkok",
+      "name_en": "Bangkok"
+    },
+    {
+      "key": "Hanoi",
+      "lat": 21.0285,
+      "lon": 105.8542,
+      "name_cs": "Hanoj",
+      "name_en": "Hanoi"
+    },
+    {
+      "key": "Jakarta",
+      "lat": -6.2088,
+      "lon": 106.8456,
+      "name_cs": "Jakarta",
+      "name_en": "Jakarta"
     },
     {
       "key": "Singapore",
@@ -666,6 +694,13 @@
       "name_en": "Canberra"
     },
     {
+      "key": "Dhaka",
+      "lat": 23.8103,
+      "lon": 90.4125,
+      "name_cs": "Dháka",
+      "name_en": "Dhaka"
+    },
+    {
       "key": "Washington",
       "lat": 38.9,
       "lon": -77.04,
@@ -682,11 +717,19 @@
       "auto": true
     },
     {
-      "key": "Ukrain",
-      "lat": 50.45,
-      "lon": 30.52,
-      "name_cs": "Ukrajina",
-      "name_en": "Ukrain",
+      "key": "Canada",
+      "lat": 56.1,
+      "lon": -106.3,
+      "name_cs": "Kanada",
+      "name_en": "Canada",
+      "auto": true
+    },
+    {
+      "key": "Israel",
+      "lat": 31.5,
+      "lon": 34.8,
+      "name_cs": "Izrael",
+      "name_en": "Israel",
       "auto": true
     },
     {
@@ -711,6 +754,22 @@
       "lon": 79,
       "name_cs": "Indie",
       "name_en": "India",
+      "auto": true
+    },
+    {
+      "key": "Pakistan",
+      "lat": 30.4,
+      "lon": 69.3,
+      "name_cs": "Pákistán",
+      "name_en": "Pakistan",
+      "auto": true
+    },
+    {
+      "key": "Indonesia",
+      "lat": -2.5,
+      "lon": 118,
+      "name_cs": "Indonésie",
+      "name_en": "Indonesia",
       "auto": true
     },
     {
@@ -739,49 +798,49 @@
     }
   ],
   "location_counts": {
-    "Beijing": 106,
-    "Hong Kong": 98,
-    "Tokyo": 81,
+    "Beijing": 107,
+    "Hong Kong": 99,
+    "Tokyo": 82,
     "Shanghai": 22,
-    "Seoul": 83,
+    "Seoul": 84,
     "South China Sea": 10,
     "Taipei": 57,
-    "Manila": 45,
+    "Manila": 46,
     "Pyongyang": 58,
-    "Washington, D.C.": 2,
+    "Washington, D.C.": 1,
     "Los Angeles": 2,
     "Florida": 1,
     "Rusko": 3,
     "Írán": 1,
-    "Čína": 15,
+    "Čína": 9,
     "Tchaj-wan": 3,
     "Japonsko": 1,
     "Indie": 2,
     "Londýn": 2,
     "Berlín": 1,
-    "Paříž": 1,
-    "Pákistán": 2,
+    "Paříž": 3,
+    "Pákistán": 1,
     "San Francisco": 1,
     "Kanada": 1,
     "Ukrajina": 1,
     "Singapur": 1,
-    "Austrálie": 5,
-    "Delhi": 74,
-    "Singapore": 55,
-    "Kuala Lumpur": 57,
-    "Canberra": 49,
+    "Austrálie": 3,
+    "Delhi": 75,
+    "Singapore": 56,
+    "Kuala Lumpur": 58,
+    "Canberra": 50,
     "New York": 2,
     "Ithaca (Cornell)": 1,
     "Argentina": 1,
     "Súdán": 1,
     "Kolumbie": 1,
-    "Islamabad": 47,
-    "Jakarta": 67,
-    "Izrael": 1,
+    "Islamabad": 48,
+    "Jakarta": 68,
+    "Izrael": 2,
     "Turecko": 1,
     "Indonésie": 1,
     "Kabul": 14,
-    "Dhaka": 25,
+    "Dhaka": 26,
     "Yangon": 37,
     "Venezuela": 1,
     "Egypt": 1,
@@ -789,8 +848,8 @@
     "Řím": 1,
     "Brusel": 1,
     "Jihoafrická republika": 1,
-    "Bangkok": 37,
-    "Hanoi": 28,
+    "Bangkok": 38,
+    "Hanoi": 29,
     "Taiwan Strait": 1,
     "Kalifornie": 1,
     "Paraguay": 1,
@@ -826,17 +885,9 @@
     "key": "Beijing",
     "name_cs": "Peking",
     "name_en": "Beijing",
-    "count": 106
+    "count": 107
   },
   "archive": [
-    {
-      "date": "2026-11-02 06:00",
-      "threat_level": "HIGH",
-      "security_status_cs": "Región Asie-Pacifik čelí zvýšené volatilitě po šoku v technologickém sektoru vyvolaném čínskými inovacemi (DeepSeek), což vedlo k útěku investorů do bezpečných aktiv jako japonský jen. Současně roste geopolitické napětí na Korejském poloostrově a v oblasti Jihočínského moře, podpořené masivními plány na navýšení obranných výdajů v Japonsku a Indii.",
-      "security_status_en": "The Asia-Pacific region is facing heightened volatility following a shock to the technology sector triggered by Chinese innovations (DeepSeek), leading investors to flee into safe-haven assets such as the Japanese yen. At the same time, geopolitical tensions on the Korean Peninsula and in the South China Sea are rising, supported by massive defense spending plans in Japan and India.",
-      "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající nervozitu na technologických trzích a zvýšený zájem o defenzivní aktiva kvůli dopadům čínských technologických inovací.",
-      "forecast_en": "Over the coming days, persistent nervousness in tech markets and heightened demand for defensive assets are expected due to the fallout from Chinese tech innovations."
-    },
     {
       "date": "2026-11-02 14:25",
       "threat_level": "HIGH",
@@ -940,23 +991,31 @@
       "security_status_en": "Global tech markets and the security environment are reeling from the surprise rise of Chinese AI initiatives (DeepSeek), which triggered massive sell-offs across the U.S. and Asian semiconductor sectors. Simultaneously, China reported a record trade surplus surpassing $1 trillion, driven by AI infrastructure demand, further sharpening trade and geopolitical tensions with the West. Meanwhile, extensive Chinese naval drills continue in the Taiwan Strait, keeping regional security oversight at an elevated level.",
       "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na globálních technologických trzích, kde investoři přehodnocují valuace AI infrastruktury po čínských vstupech. Regionální napětí v Asii a otázky dodavatelských řetězců zůstanou hlavním motorem tržních pohybů.",
       "forecast_en": "Over the coming days, continued volatility is expected in global tech markets as investors reassess AI infrastructure valuations following Chinese market entries. Regional tensions in Asia and supply chain issues will remain key drivers of market movements."
+    },
+    {
+      "date": "2026-11-10 14:04",
+      "threat_level": "HIGH",
+      "security_status_cs": "Globální technologické trhy zasáhly obří výprodeje v důsledku šoku způsobeného novým AI modelem od čínského start-upu DeepSeek, což vyvolalo obavy o udržitelnost valuací americké infrastruktury. Současně čínský obchodní přebytek překonal hranici 1 bilionu dolarů a čínská velkoobchodní inflace vzrostla na čtyřleté maximum, což zesiluje globální napětí ohledně exportních nerovnováh. Geopolitická situace v regionu zůstává napjatá, podpořená politickými změnami v Malajsii a přetrvávajícími obavami o bezpečnost dodavatelských řetězců.",
+      "security_status_en": "Global tech markets suffered massive sell-offs following an AI stock rout sparked by Chinese start-up DeepSeek's new model, raising questions about U.S. infrastructure valuations. Meanwhile, China's trade surplus topped $1 trillion and wholesale inflation hit a four-year high, intensifying global trade frictions over cheap exports. Regional geopolitics remain tense, underscored by political shifts in Malaysia and ongoing supply chain anxieties.",
+      "forecast_cs": "V nejbližších dnech lze očekávat zvýšenou volatilitu na globálních trzích, kde se investoři budou vyrovnávat s dopady čínského AI šoku na technologické valuace. Pozornost se přesune také k nadcházejícímu summitu APEC a dalším makroekonomickým datům z Asie.",
+      "forecast_en": "Over the coming days, heightened volatility is expected in global markets as investors grapple with the fallout of the Chinese AI shock on tech valuations. Attention will also shift to the upcoming APEC summit and upcoming Asian macroeconomic prints."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 7× HIGH.",
   "market_data": {
     "hangseng": {
-      "value": 24569.11,
+      "value": 24557.04,
       "date": "2026-11-10",
       "cached": false
     },
     "nikkei": {
-      "value": 60738.61,
+      "value": 60459.58,
       "date": "2026-11-10",
       "cached": false
     },
     "usdcny": {
-      "value": 6.67,
+      "value": 6.66,
       "date": "2026-11-10",
       "cached": false
     }
