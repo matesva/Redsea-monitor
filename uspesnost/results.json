@@ -1,43 +1,43 @@
 {
- "updated": "2026-11-10T04:04",
+ "updated": "2026-11-11T01:54",
  "band": {
   "7": 2.0,
   "30": 5.0
  },
- "signals_total": 284,
+ "signals_total": 288,
  "summary": {
   "7": {
    "ALL": {
-    "n": 241,
-    "ok": 111,
-    "avg": -1.31
+    "n": 249,
+    "ok": 113,
+    "avg": -1.33
    },
    "BUY": {
-    "n": 85,
-    "ok": 37,
-    "avg": -1.0
+    "n": 87,
+    "ok": 38,
+    "avg": -0.99
    },
    "SELL": {
     "n": 35,
     "ok": 23,
-    "avg": -3.02
+    "avg": -2.86
    },
    "HOLD": {
-    "n": 121,
-    "ok": 51,
-    "avg": -1.03
+    "n": 127,
+    "ok": 52,
+    "avg": -1.15
    }
   },
   "30": {
    "ALL": {
-    "n": 115,
-    "ok": 54,
-    "avg": -3.4
+    "n": 119,
+    "ok": 57,
+    "avg": -3.27
    },
    "BUY": {
-    "n": 43,
-    "ok": 19,
-    "avg": -1.88
+    "n": 44,
+    "ok": 20,
+    "avg": -1.62
    },
    "SELL": {
     "n": 13,
@@ -45,9 +45,9 @@
     "avg": -8.82
    },
    "HOLD": {
-    "n": 59,
-    "ok": 24,
-    "avg": -3.31
+    "n": 62,
+    "ok": 26,
+    "avg": -3.27
    }
   }
  },
@@ -59,21 +59,21 @@
     "avg": -0.39
    },
    "30": {
-    "n": 20,
-    "ok": 12,
-    "avg": 3.67
+    "n": 21,
+    "ok": 13,
+    "avg": 3.28
    }
   },
   "USA": {
    "7": {
-    "n": 29,
+    "n": 30,
     "ok": 17,
-    "avg": 0.93
+    "avg": 0.81
    },
    "30": {
-    "n": 14,
-    "ok": 10,
-    "avg": 1.03
+    "n": 15,
+    "ok": 11,
+    "avg": 1.81
    }
   },
   "Evropa": {
@@ -85,14 +85,14 @@
    "30": {
     "n": 12,
     "ok": 8,
-    "avg": 4.59
+    "avg": 4.71
    }
   },
   "Blízký východ": {
    "7": {
-    "n": 17,
+    "n": 18,
     "ok": 9,
-    "avg": 0.46
+    "avg": 0.09
    },
    "30": {
     "n": 10,
@@ -102,21 +102,21 @@
   },
   "Čína a Asie": {
    "7": {
-    "n": 53,
+    "n": 54,
     "ok": 25,
-    "avg": -2.29
+    "avg": -2.08
    },
    "30": {
-    "n": 25,
+    "n": 26,
     "ok": 9,
-    "avg": -8.26
+    "avg": -8.04
    }
   },
   "Japonsko": {
    "7": {
-    "n": 22,
-    "ok": 11,
-    "avg": -2.95
+    "n": 23,
+    "ok": 12,
+    "avg": -2.91
    },
    "30": {
     "n": 20,
@@ -126,18 +126,76 @@
   },
   "Jižní Amerika": {
    "7": {
-    "n": 59,
-    "ok": 22,
-    "avg": -2.9
+    "n": 63,
+    "ok": 23,
+    "avg": -2.96
    },
    "30": {
-    "n": 14,
-    "ok": 1,
-    "avg": -17.32
+    "n": 15,
+    "ok": 2,
+    "avg": -16.47
    }
   }
  },
  "signals": [
+  {
+   "monitor": "USA",
+   "sector": "Technologický sektor (Apple, Microsoft, Nvidia)",
+   "action": "HOLD",
+   "date": "2026-11-10",
+   "tickers": [
+    "NVDA",
+    "AAPL",
+    "MSFT"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Polovodiče (TSMC, Samsung, ASML)",
+   "action": "SELL",
+   "date": "2026-11-10",
+   "tickers": [
+    "TSM",
+    "005930.KS",
+    "ASML"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Japonské akcie (Nikkei 225 ETF)",
+   "action": "HOLD",
+   "date": "2026-11-10",
+   "tickers": [
+    "^N225"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
+   "action": "BUY",
+   "date": "2026-11-10",
+   "tickers": [
+    "SCCO",
+    "SQM",
+    "FCX"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
   {
    "monitor": "Rudé moře",
    "sector": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)",
@@ -614,8 +672,8 @@
     "6758.T",
     "9984.T"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": -2.0,
+   "ok7": true,
    "ret30": null,
    "ok30": null
   },
@@ -644,8 +702,8 @@
     "RTX",
     "NOC"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": -2.55,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -671,8 +729,8 @@
    "tickers": [
     "CVX"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": -6.24,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -686,7 +744,7 @@
     "005930.KS",
     "ASML"
    ],
-   "ret7": -10.16,
+   "ret7": -4.76,
    "ok7": true,
    "ret30": null,
    "ok30": null
@@ -700,8 +758,8 @@
     "FXI",
     "MCHI"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 3.56,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -715,8 +773,8 @@
     "MELI",
     "YPF"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": -13.57,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -730,8 +788,8 @@
     "PBR",
     "EC"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": -9.09,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -745,8 +803,8 @@
     "BG",
     "CSAN"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 4.96,
+   "ok7": true,
    "ret30": null,
    "ok30": null
   },
@@ -759,8 +817,8 @@
     "^BVSP",
     "EWZ"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 2.42,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -890,7 +948,7 @@
     "SHEL",
     "TTE.PA"
    ],
-   "ret7": -5.77,
+   "ret7": -5.79,
    "ok7": false,
    "ret30": null,
    "ok30": null
@@ -1226,62 +1284,6 @@
    ],
    "ret7": -5.34,
    "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Čína a Asie",
-   "sector": "Polovodiče (TSMC, Samsung, ASML)",
-   "action": "BUY",
-   "date": "2026-10-28",
-   "tickers": [
-    "TSM",
-    "005930.KS",
-    "ASML"
-   ],
-   "ret7": -9.96,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Čína a Asie",
-   "sector": "Japonské akcie (Nikkei 225 ETF)",
-   "action": "HOLD",
-   "date": "2026-10-28",
-   "tickers": [
-    "^N225"
-   ],
-   "ret7": -2.76,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Jižní Amerika",
-   "sector": "Brazilský akciový trh (Bovespa, ETF EWZ)",
-   "action": "HOLD",
-   "date": "2026-10-28",
-   "tickers": [
-    "^BVSP",
-    "EWZ"
-   ],
-   "ret7": -3.04,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Rudé moře",
-   "sector": "Evropský Spotřební sektor & Autoprůmysl (např. Volvo, BMW)",
-   "action": "HOLD",
-   "date": "2026-10-27",
-   "tickers": [
-    "VOLV-B.ST",
-    "BMW.DE"
-   ],
-   "ret7": 0.66,
-   "ok7": true,
    "ret30": null,
    "ok30": null
   }
