@@ -1,87 +1,220 @@
 {
-  "last_updated": "2026-11-10T14:04:42Z",
+  "last_updated": "2026-11-11T06:02:07Z",
   "assessment": {
     "threat_level": "HIGH",
-    "sentiment_score": 68,
-    "security_status_cs": "Jižní Amerikou otřásají politické a sociální krize, v čele s impeachmentem paraguayského prezidenta po kolapsu bankovního sektoru a rozsáhlými protesty. Venezuelské vojenské útoky na gerily ELN značí zásadní obrat v regionální bezpečnosti, zatímco globální obavy z inflace a možného utahování měnové politiky Fedu doléhají na rozvíjející se trhy.",
-    "security_status_en": "South America is gripped by political and social upheaval, highlighted by the impeachment of Paraguay's president following a banking sector collapse and widespread street protests. Venezuelan military strikes against ELN guerrillas mark a major shift in regional security, while global inflation fears and potential Fed tightening weigh on emerging markets.",
+    "sentiment_score": 72,
+    "security_status_cs": "Jižní čelí vážným politickým a bezpečnostním otřesům, včetně politické krize a sesazení prezidenta v Paraguayi, papežské cesty provázené napětím kolem ekonomických škrtů v Argentině a vzestupu regionálního napětí kvůli vojenským zásahům Venezuely proti kolumbijským povstalcům. Energetický sektor zároveň prochází dynamickými změnami, neboť Venezuela otevírá rozvodnou síť a vyjednává o návratu ExxonMobilu.",
+    "security_status_en": "South America faces severe political and security shocks, including a major banking and political crisis leading to the impeachment of Paraguay's president, papal visits shadowed by austerity tensions in Argentina, and rising regional friction over Venezuelan military strikes against Colombian rebels. Concurrently, the energy sector is shifting dynamically as Venezuela opens its power grid and moves toward an ExxonMobil return.",
     "recommendations": [
       {
         "sector_cs": "Brazilský akciový trh (Bovespa, ETF EWZ)",
         "sector_en": "Brazilian Equities (Bovespa, EWZ ETF)",
         "action": "HOLD",
-        "reason_cs": "Globální tlaky na sazební prostředí v USA a vnitřní politická nejistota v regionu drží brazilská aktiva v defenzivě.",
-        "reason_en": "Global pressures on the US interest rate environment and internal regional political uncertainty keep Brazilian assets defensive."
+        "reason_cs": "Trhy nadále tíží obavy ohledně stavu brazilského státního rozpočtu a fiskální disciplíny vládních výdajů.",
+        "reason_en": "Markets continue to be weighed down by ongoing anxieties regarding Brazil's state budget and fiscal discipline."
       },
       {
         "sector_cs": "Argentina (Merval, YPF, MercadoLibre)",
         "sector_en": "Argentina (Merval, YPF, MercadoLibre)",
-        "action": "HOLD",
-        "reason_cs": "Masivní papežova návštěva a silný tlak odborů sice ukazují na hluboké společenské napětí, reformační kurz Mileiova kabinetu však zůstává klíčovým sledovaným faktorem pro trhy.",
-        "reason_en": "While the massive Papal visit and strong labor pressure highlight deep societal tensions, the reform course of Milei's cabinet remains a key factor watched by markets."
+        "action": "BUY",
+        "reason_cs": "Podle instituce Morgan Stanley zašly nedávné výprodeje argentinských aktiv kvůli politickým očekáváním příliš daleko a ocenění dluhopisů i akcií již odrážejí nadměrný pesimismus.",
+        "reason_en": "According to Morgan Stanley, the recent sell-off in Argentine assets ahead of next year's elections has gone too far, with valuations pricing in excessive pessimism."
       },
       {
         "sector_cs": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
         "sector_en": "Mining: Copper & Lithium (Southern Copper, SQM, Freeport)",
-        "action": "BUY",
-        "reason_cs": "Zrušení vyšetřování supermarketů v Chile snižuje lokální regulatorní šum, přičemž strukturální poptávka po průmyslových kovech zůstává silná navzdory globálním makroobavám.",
-        "reason_en": "Chile's dropping of supermarket probes reduces local regulatory noise, while structural demand for industrial metals remains solid despite global macro concerns."
+        "action": "HOLD",
+        "reason_cs": "Ceny kovů a poptávka zůstávají stabilní, avšak geopolitická rizika v regionu a diskuse o daňovém zatížení těžařů v Chile a Peru brzdí výraznější růst.",
+        "reason_en": "Metal prices and demand remain relatively stable, but regional geopolitical risks and mining tax debates in Chile and Peru limit aggressive upside."
       },
       {
         "sector_cs": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
         "sector_en": "Oil & Energy (Petrobras, Ecopetrol, Chevron)",
-        "action": "HOLD",
-        "reason_cs": "Eskalace konfliktů mezi Venezuelou a kolumbijskými povstalci ELN zvyšuje geopolitické riziko v severním křídle kontinentu, což kompenzuje stabilní globální nabídku ropy.",
-        "reason_en": "Escalating conflicts between Venezuela and Colombian ELN insurgents raise geopolitical risk on the continent's northern flank, offsetting stable global oil supply."
+        "action": "BUY",
+        "reason_cs": "Potenciální návrat ExxonMobilu do Venezuely a otevírání energetického trhu signalizují postupné otevírání příležitostí v regionu s vysokou marží.",
+        "reason_en": "The potential return of ExxonMobil to Venezuela and the opening of the power grid signal gradual new high-margin opportunities in the region."
       },
       {
         "sector_cs": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
         "sector_en": "Agriculture & Food (JBS, Bunge, Cosan)",
-        "action": "BUY",
-        "reason_cs": "Rekordní ceny arabiky podpořené obavami z celních sporů mezi USA a Kolumbií poskytují maržovou podporu exportérům komodit.",
-        "reason_en": "Record arabica coffee prices supported by fears of US-Colombia tariff disputes provide margin support for commodity exporters."
+        "action": "HOLD",
+        "reason_cs": "Ceny kávy (Arabica) dosáhly rekordních maxim kvůli obavám z obchodních sporů a cel, což zvyšuje marže pěstitelů, ale zatěžuje spotřebitelskou poptávku.",
+        "reason_en": "Arabica coffee prices have hit record highs amid tariff dispute fears, boosting producer margins but weighing down consumer demand."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí bankovní tituly i energetika jsou primárně řízeny evropskou monetární politikou a lokální regulací, přímá expozice vůči latinskoamerickým šokům je zanedbatelná.",
-        "reason_en": "Domestic banking titles and energy are primarily driven by European monetary policy and local regulation, with negligible direct exposure to Latin American shocks."
+        "reason_cs": "Domácí banky a energetika na pražské burze jsou vůči přímým jihoamerickým vlivům imunní, reagují primárně na globální makroekonomická data a kroky centrálních bank.",
+        "reason_en": "Prague-listed banks and energy firms remain structurally insulated from direct South American shocks, trading primarily on global macroeconomic data and central bank actions."
       }
     ],
-    "forecast_cs": "V příštích dnech se očekává přetrvávající nestabilita v Paraguayi a zvýšená pozornost věnovaná bezpečnostním dopadům venezuelských útoků na kolumbijské povstalce.",
-    "forecast_en": "In the coming days, persistent instability in Paraguay and heightened attention to the security implications of Venezuelan strikes on Colombian rebels are expected.",
-    "forecast_review_cs": "Předchozí předpověď se potvrdila, neboť politická krize v Paraguayi a následné protesty nadále dominují regionálnímu dění.",
-    "forecast_review_en": "The previous forecast was confirmed as the political crisis in Paraguay and ensuing protests continue to dominate regional events."
+    "forecast_cs": "V příštích dnech lze očekávat doznívání politické krize v Paraguayi po sesazení prezidenta a pokračující pozornost investorů vůči vývoji v Argentině ve spojitosti s papežskou návštěvou.",
+    "forecast_en": "In the coming days, markets will monitor the aftermath of Paraguay's political crisis and presidential impeachment, alongside continued focus on Argentina's economic reform path amid the papal visit.",
+    "forecast_review_cs": "Předchozí předpověď o nestabilitě v Paraguayi a bezpečnostních dopadech venezuelských útoků na kolumbijské povstalce se plně potvrdila událostmi posledních 24 hodin.",
+    "forecast_review_en": "The previous forecast regarding instability in Paraguay and the security implications of Venezuelan strikes on Colombian rebels was fully confirmed by the past 24 hours of news."
   },
   "articles": [
     {
-      "title": "Fed’s Waller puts half-point rate hike into the mix for December",
-      "summary": "U.S. central bank official had put a half-point discussion into the mix ahead of Labor Department data, which came in as hot as he feared.",
-      "link": "https://www.marketwatch.com/story/feds-waller-puts-half-point-rate-hike-into-the-mix-for-december-1bebdffc?mod=mw_rss_topstories",
-      "published": "Tue, 10 Nov 2026 13:41:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Chile Drops Supermarket Collusion Probe",
-      "summary": "<p>Chile's competition prosecutor found no new collusion in 14 supermarket product lines, ending a probe that began in 2020 after the chicken case.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/chile-drops-supermarket-collusion-probe-cencosud-smu-2026/\">Chile Drops Supermarket Collusion Probe</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/chile-drops-supermarket-collusion-probe-cencosud-smu-2026/",
-      "published": "Tue, 10 Nov 2026 12:38:49 +0000",
+      "title": "Venezuela Opens Its Power Grid to Investors",
+      "summary": "<p>Lawmakers voted unanimously on 10 November to let private and mixed firms into Venezuela's power sector as the blackout-prone grid struggles to cope.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/venezuela-opens-power-grid-private-investors-law/\">Venezuela Opens Its Power Grid to Investors</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/venezuela-opens-power-grid-private-investors-law/",
+      "published": "Wed, 11 Nov 2026 05:28:54 +0000",
       "source": "The Rio Times"
     },
     {
-      "title": "Nvidia couldn’t derail the stock market’s rally. Hot inflation might.",
-      "summary": "A Fed official raises the prospect of a half-a-percentage-point rate hike. Plus, fresh valuation focus on Anthropic’s blockbuster IPO.",
-      "link": "https://www.marketwatch.com/story/nvidia-couldnt-derail-the-stock-markets-rally-hot-inflation-might-8a572024?mod=mw_rss_topstories",
-      "published": "Tue, 10 Nov 2026 12:33:00 GMT",
+      "title": "‘I pay $500 for 5 square metres’: Spain’s protesters, in their own words",
+      "summary": "Young people are stuck in the family home or forced into cramped, overpriced rentals with little security or control.",
+      "link": "https://www.aljazeera.com/news/2026/11/11/i-pay-500-for-5-square-metres-spains-protesters-in-their-own-words?traffic_source=rss",
+      "published": "Wed, 11 Nov 2026 05:16:57 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Latin America Sports Daily for Wednesday, November 11, 2026",
+      "summary": "<p>Libertadores final: Palmeiras meet Estudiantes in Montevideo on 28 November, with Boca v Atlético Mineiro in the Sudamericana final a week earlier.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/latin-america-sports-daily-wednesday-november-11-2026/\">Latin America Sports Daily for Wednesday, November 11, 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/latin-america-sports-daily-wednesday-november-11-2026/",
+      "published": "Wed, 11 Nov 2026 04:20:39 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Latin American Pulse for Wednesday, November 11, 2026",
+      "summary": "<p>Latin America mood on 10 November 2026: Brazil fears its budget, Argentina waits for inflation, Mexico's migrants hope, Chile and Colombia feel the peso.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/latin-american-pulse-for-wednesday-november-11-2026/\">Latin American Pulse for Wednesday, November 11, 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/latin-american-pulse-for-wednesday-november-11-2026/",
+      "published": "Wed, 11 Nov 2026 04:19:57 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "El Salvador fires missiles on Haitian gang hideout",
+      "summary": "El Salvador’s military fired rockets at a compound allegedly belonging to the leader of Haiti’s 400 Mawozo gang.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/el-salvador-fires-missiles-on-haitian-gang-hideout?traffic_source=rss",
+      "published": "Wed, 11 Nov 2026 03:00:23 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Anger over VIP tents and privileges at Pope Leo's Mass in Argentina",
+      "summary": "<p><img alt=\"An image from the 'VIP' tent at the Mass.\" src=\"https://fotos.perfil.com/2026/11/11/trim/540/304/an-image-from-the-vip-tent-at-the-mass-2363291.jpg\" /></p>Church unhappy with the VIP tents for the ‘caste’; Thousands of worshippers endured long waits in the sun while celebrities, politicians and business leaders were given access to exclusive areas with catering and other comforts. <a href=\"https://www.batimes.com.ar/news/argentina/church-anger-over-vip-tents-and-privileges-at-pope-leos-mass.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/argentina/church-anger-over-vip-tents-and-privileges-at-pope-leos-mass.phtml",
+      "published": "Wed, 11 Nov 2026 02:44:47 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Pope Leo says age, ill health cannot 'extinguish' his zeal",
+      "summary": "<p><img alt=\"Pope Leo in Córdoba\" src=\"https://fotos.perfil.com/2026/11/11/trim/540/304/pope-leo-in-cordoba-2363290.jpg\" /></p>Pope delights public in Córdoba with energetic visit; Leo warns youngsters not to obsess over looks, money or popularity during evening vigil. <a href=\"https://www.batimes.com.ar/news/argentina/pope-leo-says-age-ill-health-cannot-extinguish-his-zeal.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/argentina/pope-leo-says-age-ill-health-cannot-extinguish-his-zeal.phtml",
+      "published": "Wed, 11 Nov 2026 02:23:43 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Protesters throw milk at Joe Biden during Hunter event in Dublin",
+      "summary": "Pro-Palestinian protesters hurled milk towards Joe Biden in Ireland over his support for Israel.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/protesters-throw-milk-at-joe-biden-during-hunter-event-in-dublin?traffic_source=rss",
+      "published": "Wed, 11 Nov 2026 02:12:22 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Leo XIV draws some 650,000 to Córdoba with a homily on holiness",
+      "summary": "<p>\n\t   \t      <img alt=\"On Wednesday, Leo XIV will celebrate his last Mass in Argentina in Luján, in Buenos Aires province, and then fly to Peru\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112066/100x80/papap.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Pope Leo XIV celebrated Mass on Tuesday in Córdoba, in central Argentina, before some 650,000 people, according to the newspaper El País, in a homily devoted to holiness and local saints. “There is no better way to teach than by setting an example with one’s own life,” he told the faithful, urging them to practise their faith concretely in daily life.</p>",
+      "link": "https://en.mercopress.com/2026/11/11/leo-xiv-draws-some-650-000-to-cordoba-with-a-homily-on-holiness?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Wed, 11 Nov 2026 02:12:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "Morgan Stanley says Argentina bonds price in too much pessimism",
+      "summary": "<p><img alt=\"The Casa Rosada in Buenos Aires.\" src=\"https://fotos.perfil.com/2025/12/17/trim/540/304/the-casa-rosada-in-buenos-aires-2154703.jpg\" /></p>The sell-off in Argentina’s debt amid a dramatic shift in expectations ahead of the country’s presidential election next year has gone too far, according to Morgan Stanley. \n <a href=\"https://www.batimes.com.ar/news/economy/morgan-stanley-says-argentina-bonds-price-in-too-much-pessimism.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/economy/morgan-stanley-says-argentina-bonds-price-in-too-much-pessimism.phtml",
+      "published": "Wed, 11 Nov 2026 01:51:00 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Haiti PM praises Bukele after Salvadoran troops help destroy gang headquarters",
+      "summary": "Haitian Prime Minister Alix Didier Fils-Aime praised Salvadoran President Nayib Bukele on Tuesday after Salvadoran troops destroyed a suspected gang leader’s home. Bukele’s deployment of more than 2,000 soldiers following four Salvadoran troops’ disappearance has raised concerns over rules of engagement and coordination with a UN-backed force combating Haiti’s gangs.",
+      "link": "https://www.france24.com/en/americas/20261111-haiti-pm-bukele-salvadoran-troops-gang-headquarters",
+      "published": "Wed, 11 Nov 2026 01:41:43 GMT",
+      "source": "France 24"
+    },
+    {
+      "title": "French far-right author Zemmour launches second bid for 2027 presidency",
+      "summary": "Zemmour seeks to expel 'foreign unemployed people' after last month's violent protests.",
+      "link": "https://www.aljazeera.com/news/2026/11/10/french-far-right-author-zemmour-launches-second-presidential-bid?traffic_source=rss",
+      "published": "Tue, 10 Nov 2026 23:23:12 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Trump ally Jim Jordan elected House Republican leader after midterm defeat",
+      "summary": "Jim Jordan, a hardline ally of President Donald Trump, was elected US House Republican leader on Tuesday, defeating Steve Scalise 106-73 in a secret ballot, US media reported. He replaces Mike Johnson after Republicans lost both chambers of Congress in last week’s midterm elections and will lead the party’s opposition.",
+      "link": "https://www.france24.com/en/americas/20261110-trump-jim-jordan-elected-house-republican-leader-midterm-defeat",
+      "published": "Tue, 10 Nov 2026 22:42:42 GMT",
+      "source": "France 24"
+    },
+    {
+      "title": "AMD’s stock fades as investors weigh whether Nvidia’s turmoil will mean lasting wins",
+      "summary": "It’s one thing for money to shift between stocks,  but it’s another thing for customers to shift their supplier relationships.",
+      "link": "https://www.marketwatch.com/story/amds-stock-fades-as-investors-weigh-whether-nvidias-turmoil-will-mean-lasting-wins-1ecfbc5e?mod=mw_rss_topstories",
+      "published": "Tue, 10 Nov 2026 22:37:00 GMT",
       "source": "MarketWatch"
     },
     {
-      "title": "Mauritius Inflation Jumps to 6.4% in October",
-      "summary": "<p>Mauritius inflation rose to 6.4% in October 2026, the fastest pace since June 2023, as transport prices jumped 3.8% in a single month.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/mauritius-inflation-october-2026/\">Mauritius Inflation Jumps to 6.4% in October</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/mauritius-inflation-october-2026/",
-      "published": "Tue, 10 Nov 2026 12:23:56 +0000",
-      "source": "The Rio Times"
+      "title": "Falkland Islanders face ‘devastating consequences’ if Argentina blocks oil project, says UK",
+      "summary": "<p>Countries clash over Sea Lion project as Hamburg tribunal risks deepening sovereignty dispute</p><p>The people of the Falkland Islands face “devastating consequences” if Argentina is successful in blocking development of its offshore oilfield, the attorney general for England and Wales has told an international tribunal.</p><p>Ellie Reeves, representing the British government at a hearing of the international tribunal for the law of the sea (Itlos), said billions of pounds vital to the future of the British overseas territory would be lost.</p> <a href=\"https://www.theguardian.com/world/2026/nov/10/uk-and-argentina-clash-over-falklands-oil-project-as-hamburg-tribunal-starts\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/nov/10/uk-and-argentina-clash-over-falklands-oil-project-as-hamburg-tribunal-starts",
+      "published": "Tue, 10 Nov 2026 19:01:33 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "How Paraguay's banking crisis ousted a president and left millions broke – explainer",
+      "summary": "<p>More than half of Paraguay’s population woke up on 3 November unable to access their bank accounts. It was a day after payday and Ueno - a bank that had expanded exponentially under Santiago Peña's government - found itself at the centre of a political and economic crisis that brought the country’s banking system to the brink of collapse. Protests spread across the country, some involving violent clashes with police. Impeachment proceedings began, and on 6 November Paraguay's rightwing president was impeached and placed under house arrest</p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/nov/07/paraguay-ueno-bank-collapse-santiago-pena\">‘Very strange, very sad’: Paraguay bank collapse fells a presidency and leaves millions broke</a></p></li><li><p><a href=\"https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts\">Ousted Paraguay president under house arrest after banking crisis leaves 60% of country unable to access accounts</a></p></li></ul> <a href=\"https://www.theguardian.com/world/video/2026/nov/10/how-paraguays-banking-crisis-ousted-a-president-and-left-millions-broke-explainer\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/video/2026/nov/10/how-paraguays-banking-crisis-ousted-a-president-and-left-millions-broke-explainer",
+      "published": "Tue, 10 Nov 2026 18:55:12 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "U.S. boycotts U.N. human rights review for second year running",
+      "summary": "The U.S. has skipped a key U.N. human rights review for the second year running. Rights groups warn the absence risks undermining global accountability.",
+      "link": "https://www.npr.org/2026/11/10/nx-s1-6034998/un-human-rights-us-geneva",
+      "published": "Tue, 10 Nov 2026 13:53:34 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "Filming amongst body bags: New Colombian president’s comms campaign sparks backlash",
+      "summary": "Since taking office in August, new far-right Colombian president Abelardo de la Espriella has shared video after video promoting his security forces – especially operations they’ve carried out against armed groups. In some, De la Espriella speaks standing among body bags. Others feature prisoners or look like they were taken from an action film. However, there’s been growing outcry about his social media glorification of repressive policies.",
+      "link": "https://www.france24.com/en/americas/20261110-filming-amongst-body-bags-new-colombian-president-s-comms-campaign-sparks-backlash",
+      "published": "Tue, 10 Nov 2026 18:18:30 GMT",
+      "source": "France 24"
+    },
+    {
+      "title": "Fed Governor Waller sees December hike likely, opens door to possible half-point increase",
+      "summary": "The policymaker said he \"is leaning toward\" a rate increase in December and could support a half-point hike depending on inflation data.",
+      "link": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html",
+      "published": "Tue, 10 Nov 2026 17:13:44 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Pope Leo XIV visits Argentina in second leg of Latin American tour",
+      "summary": "Pope Leo XIV visited Argentina on the second leg of his South American tour, following a stop in Uruguay. During his visit, he celebrated public Masses, met with the faithful and held talks with religious and government leaders. Peru is the final stop on the pontiff's tour.",
+      "link": "https://www.france24.com/en/video/20261110-pope-leo-xiv-visits-argentina-in-second-leg-of-latin-american-tour",
+      "published": "Tue, 10 Nov 2026 16:38:00 GMT",
+      "source": "France 24"
+    },
+    {
+      "title": "Hamburg hearing opens as Argentina seeks to halt Sea Lion and the UK disputes jurisdiction",
+      "summary": "<p>\n\t   \t      <img alt=\"Because the United Kingdom chose the International Court of Justice for such disputes and Argentina opted for the Hamburg tribunal, the merits of the case must be settled by an arbitral tribunal\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112063/100x80/fotojet-16-.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         The International Tribunal for the Law of the Sea began hearing Argentina and the United Kingdom in Hamburg on Tuesday over Argentina’s request for provisional measures to halt the Sea Lion oil project north of the Falklands. Argentina argued that the resources of a disputed continental shelf cannot be exploited unilaterally, while the United Kingdom rejects the tribunal’s competence to rule on what it considers a question of sovereignty.</p>",
+      "link": "https://en.mercopress.com/2026/11/10/hamburg-hearing-opens-as-argentina-seeks-to-halt-sea-lion-and-the-uk-disputes-jurisdiction?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Tue, 10 Nov 2026 15:31:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "Venezuela signs a memorandum with ExxonMobil for the oil major’s return after leaving in 2007",
+      "summary": "<p>\n\t   \t      <img alt=\"The signing took place in Caracas in the presence of acting President Delcy Rodríguez and ExxonMobil Upstream President Dan Ammann\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112060/100x80/exxon.jpeg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Venezuela on Monday signed a memorandum of understanding with US oil company ExxonMobil with a view to its return to the country, which it left in 2007 after the nationalisation of the last privately held oilfields under Hugo Chávez’s government. The document is not a contract, and no investment figures or timelines have been disclosed.º</p>",
+      "link": "https://en.mercopress.com/2026/11/10/venezuela-signs-a-memorandum-with-exxonmobil-for-the-oil-major-s-return-after-leaving-in-2007?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Tue, 10 Nov 2026 14:52:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "A Trump proposal would punish single parents. Other wealthy countries have a different approach",
+      "summary": "<p>Canada, the Netherlands and Sweden offer extra support to solo-parent households. In its latest pronatalist push, the Trump administration aims to shift funds away from them</p><p>When news broke that the Trump administration planned to pay married couples to have <a href=\"https://www.theguardian.com/money/2026/oct/31/trump-married-parents-payments\">one parent stay home with their kids</a>, everyone from <a href=\"https://www.nytimes.com/2026/09/21/us/politics/conservatives-stay-at-home-subsidy.html\">policy wonks</a> to <a href=\"https://www.reddit.com/r/firsttimemom/comments/1wa9vzs/is_anyone_else_worried_about_the_proposed/\">Redditors</a> bemoaned what they saw as a new front in the mommy wars.</p><p>The proposal would shift funds that subsidize childcare for low-income working parents – the majority of them single parents who rely on childcare providers – to low-income married couples with one earner. Given that most <a href=\"https://www.census.gov/newsroom/press-releases/2022/americas-families-and-living-arrangements.html\">single parents</a> and stay-at-home parents are women, and both groups would be applying for the same limited funds, it seemed almost designed to pit moms against each other.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/10/trump-vance-parents-payment-analysis\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/nov/10/trump-vance-parents-payment-analysis",
+      "published": "Tue, 10 Nov 2026 13:00:53 GMT",
+      "source": "The Guardian"
     },
     {
       "title": "‘I looked at the sky, something didn’t feel right. Then my buddy messaged: “I see open flame”’ – This is climate breakdown",
@@ -91,116 +224,11 @@
       "source": "The Guardian"
     },
     {
-      "title": "Haiti Launches Push for Women in Elections",
-      "summary": "<p>Haiti's election council and women's ministry launched a strategy on 9 November to raise women's role in the vote set for 18 July 2027.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/haiti-election-council-ministry-launch-women-participation-strategy/\">Haiti Launches Push for Women in Elections</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/haiti-election-council-ministry-launch-women-participation-strategy/",
-      "published": "Tue, 10 Nov 2026 12:00:47 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Pope Leo urges Argentina's Church to ‘heal divisions’ and ‘embrace diversity’",
-      "summary": "<p><img alt=\"Papa León XIV Catedral Metropolitana.\" src=\"https://fotos.perfil.com/2026/11/10/trim/540/304/papa-leon-xiv-catedral-metropolitana-2362948.jpg\" /></p>Leo XIV pays tribute to late predecessor Francis at Buenos Aires Cathedral, calls on bishops to strengthen unity and support the poor and homeless.\n <a href=\"https://www.batimes.com.ar/news/argentina/pope-leo-urges-argentinaschurch-to-heal-divisions-and-embrace-diversity.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/argentina/pope-leo-urges-argentinaschurch-to-heal-divisions-and-embrace-diversity.phtml",
-      "published": "Tue, 10 Nov 2026 11:47:36 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
-      "title": "Pope meets five clerical abuse victims in Argentina",
-      "summary": "<p><img alt=\"Pope Leo XIV Argentina\" src=\"https://fotos.perfil.com/2026/11/10/trim/540/304/pope-leo-xiv-argentina-2362945.jpg\" /></p>Pontiff met with five victims of clerical abuse in Argentina during short stay i Buenos Aires; Leo vows to strengthen protection measures within the Catholic Church.\n <a href=\"https://www.batimes.com.ar/news/argentina/pope-meets-five-clerical-abuse-victims-in-argentina.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/argentina/pope-meets-five-clerical-abuse-victims-in-argentina.phtml",
-      "published": "Tue, 10 Nov 2026 11:37:59 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
-      "title": "Pope leads huge Catholic Mass in Buenos Aires, meets abuse victims",
-      "summary": "<p><img alt=\"Pope Leo XIV greets Catholic faithful ahead of celebrating Mass \" src=\"https://fotos.perfil.com/2026/11/10/trim/540/304/pope-leo-xiv-greets-catholic-faithful-ahead-of-celebrating-mass-2362939.jpg\" /></p>Cheering and waving crowds pack the capital; Mass in the Palermo neighbourhood of Buenos Aires drew the largest crowd of Leo's papacy to date. <a href=\"https://www.batimes.com.ar/news/argentina/pope-leads-huge-catholic-mass-in-buenos-aires-meets-abuse-victims.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/argentina/pope-leads-huge-catholic-mass-in-buenos-aires-meets-abuse-victims.phtml",
-      "published": "Tue, 10 Nov 2026 11:34:35 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
-      "title": "‘We said no, no, no, but they kept insisting’: the Paraguayan people battling a eucalyptus empire",
-      "summary": "<p>It is Paraguay’s largest private investment but local people accuse a forestry giant of ignoring their contamination concerns over its vast plantation</p><p>When Paracel arrived in Tacuarita, an Indigenous community of homes made from planks and plastic sheeting in Paraguay’s poorest region, six years ago, it was a welcome sight. The company improved the dirt roads and dug an electric-powered well, saving villagers a two-mile journey to fetch water from a cattle pond that often made them sick. It also gave dozens of local people forestry jobs.</p><p>“They fulfilled all their promises,” says Florencio Garcete, 55, chief of the Mbya Guaraní community of 211 people.</p> <a href=\"https://www.theguardian.com/global-development/2026/nov/10/investigation-pulp-company-paraguay-paracel-eucalyptus-plantation\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/global-development/2026/nov/10/investigation-pulp-company-paraguay-paracel-eucalyptus-plantation",
-      "published": "Tue, 10 Nov 2026 11:00:49 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Princess Anne and Sports VIPs present at official opening of Falkland Islands Sport Complex",
-      "summary": "<p>\n\t   \t      <img alt=\"HRH The Princess Royal and Vice Admiral Sir Tim Laurence will be present at the opening this Tuesday\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112050/100x80/image004.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         The Falkland Islands Government and National Sports Council are proud to announce the official opening of the Falkland Islands’ new National Sports Complex, this Tuesday 10 November, in the presence of HRH The Princess Royal and Vice Admiral Sir Tim Laurence.</p>",
-      "link": "https://en.mercopress.com/2026/11/10/princess-anne-and-sports-vips-present-at-official-opening-of-falkland-islands-sport-complex?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Tue, 10 Nov 2026 10:55:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Paraguayan protesters are back on the streets despite the removal of President",
-      "summary": "A banking crisis that saw the president of Paraguay impeached Friday, November 6, continues to rock the country with protesters back on the streets. The Ueno Bank started as a digital first bank, attracting many low income customers, quickly growing to become a major bank in charge of state pensions and holding the accounts of several government institutions before having its accounts frozen by the central bank due to solvency concerns.",
-      "link": "https://www.france24.com/en/video/20261110-paraguayan-protesters-are-back-on-the-streets-despite-the-removal-of-president",
-      "published": "Tue, 10 Nov 2026 10:53:38 GMT",
-      "source": "France 24"
-    },
-    {
-      "title": "Peru gets ready to welcome Pope Leo XIV on his South America tour",
-      "summary": "Pope Leo XIV continued his South American tour on Wednesday, November 11, with a visit to Peru, after stops in Uruguay and Argentina. The American-born pontiff lived in Peru for several years and even became a Peruvian citizen. Ahead of his arrival, the country unveiled a giant statue in his honour.",
-      "link": "https://www.france24.com/en/video/20261110-peru-gets-ready-to-welcome-pope-leo-xiv-on-his-south-america-tour",
-      "published": "Tue, 10 Nov 2026 10:48:57 GMT",
-      "source": "France 24"
-    },
-    {
-      "title": "US Republican Thomas Massie launches bid to impeach Pete Hegseth",
-      "summary": "US Republican Thomas Massie moved Monday, November 9, to force a vote to impeach Defence Secretary Pete Hegseth, pressing his fellow Republicans to remove one of the Trump administration's most prominent figures following sweeping election losses blamed in part on fallout from the war in Iran. FRANCE 24's correspondent in Washington Fraser Jackson has more.",
-      "link": "https://www.france24.com/en/video/20261110-us-republican-thomas-massie-launches-bid-to-impeach-pete-hegseth",
-      "published": "Tue, 10 Nov 2026 10:42:42 GMT",
-      "source": "France 24"
-    },
-    {
-      "title": "Falklands Sports Complex, the joint effort of Government and private sector companies",
-      "summary": "<p>\n\t   \t      <img alt=\"The National Sports Council, NSC, has delivered this project as a community service at no fee; the Falklands Government has provided the funding for design, procurement and construction\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112051/100x80/council.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         The opening of the new multi-sports Falkland Islands National Sports Complex makes the Islands’ community reflect on the joint effort that brought this to fruition.</p>",
-      "link": "https://en.mercopress.com/2026/11/10/falklands-sports-complex-the-joint-effort-of-government-and-private-sector-companies?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Tue, 10 Nov 2026 10:38:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Fed Governor Waller sees December hike likely, opens door to possible half-point increase",
-      "summary": "The policymaker said he \"is leaning toward\" a rate increase in December and could support a half-point hike depending on inflation data.",
-      "link": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html",
-      "published": "Tue, 10 Nov 2026 09:00:01 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Princess Anne arrives in the Falklands and will open the new National Sports Complex",
-      "summary": "<p>\n\t   \t      <img alt=\"Buckingham Palace presents the trip as a heritage and commemorative visit, although it coincides with a key week in the dispute over the islands\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112047/100x80/anne.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Princess Anne, the sister of King Charles III, arrived in the Falklands on Monday with her husband, Vice Admiral Sir Tim Laurence, at the start of a visit that will later take her to South Georgia, and among other engagements will formally open the new National Sports Complex in Stanley.</p>",
-      "link": "https://en.mercopress.com/2026/11/10/princess-anne-arrives-in-the-falklands-and-will-open-the-new-national-sports-complex?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Tue, 10 Nov 2026 03:26:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Some 2.5 million people attend Leo XIV’s Mass in Buenos Aires, authorities say",
-      "summary": "<p>\n\t   \t      <img alt=\"\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112045/100x80/papa.jpeg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Some 2.5 million people, according to local authorities, attended the Mass Pope Leo XIV celebrated on Monday in the parks of Palermo in Buenos Aires, the first by a pontiff in Argentina since John Paul II’s visit in 1987, with a homily focused on the role of the family. El País described it as the largest gathering of his pontificate.</p>",
-      "link": "https://en.mercopress.com/2026/11/10/some-2.5-million-people-attend-leo-xiv-s-mass-in-buenos-aires-authorities-say?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Tue, 10 Nov 2026 03:15:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Amnesty urges El Salvador to disclose terms of Haiti troop deployment",
-      "summary": "Amnesty International has called on El Salvador and Haiti to make public the agreement governing the deployment of around 2,000 Salvadoran troops to the gang-plagued Caribbean nation, warning of risks to human rights and accountability.",
-      "link": "https://www.france24.com/en/americas/20261110-amnesty-urges-el-salvador-to-disclose-terms-of-haiti-troop-deployment",
-      "published": "Tue, 10 Nov 2026 02:24:22 GMT",
-      "source": "France 24"
-    },
-    {
-      "title": "France accuses Iran of cyber 'sabotage' in fridge attacks",
-      "summary": "France says Iranian military hackers took over refrigeration controllers at around 700 different retail sites last month, turning up temperatures in the middle of the night and spoiling millions of dollars' worth of food.",
+      "title": "Iran denies it was behind cyber fridge attacks targeting France",
+      "summary": "The denial comes a day after the French government blamed Iranian military hackers for last month's attack on refrigeration systems at around 700 retail sites, which spoiled millions of dollars' worth of food.",
       "link": "https://www.npr.org/2026/11/09/g-s1-152724/france-iran-cyber-sabotage-fridge-attacks",
       "published": "Mon, 09 Nov 2026 17:30:49 -0500",
       "source": "NPR"
-    },
-    {
-      "title": "Pope Leo defends trade unions as 'indispensable' in Argentina",
-      "summary": "<p><img alt=\"Pope at UCA buenos aires\" src=\"https://fotos.perfil.com/2026/11/09/trim/540/304/pope-at-uca-buenos-aires-2362839.jpg\" /></p>Pope Leo XIV praised the \"indispensable\" role played by trade unions in a speech Monday; \"When economic profit is established as the sole criterion of success, a business becomes dehumanised,\" he warns.\n <a href=\"https://www.batimes.com.ar/news/argentina/pope-leo-defends-trade-unions-as-indispensable-in-argentina.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/argentina/pope-leo-defends-trade-unions-as-indispensable-in-argentina.phtml",
-      "published": "Mon, 09 Nov 2026 22:13:48 GMT",
-      "source": "Buenos Aires Times"
     },
     {
       "title": "Millions fill Buenos Aires streets to welcome Pope Leo XIV",
@@ -224,25 +252,11 @@
       "source": "InSight Crime"
     },
     {
-      "title": "‘I didn’t dance until I was 45’: how Jorge Drexler went from repressed doctor to rump-shaking Oscar-winner",
-      "summary": "<p>How did a Uruguayan medic who grew up under an anti-music dictatorship win a best song Academy award? As he looks set to scoop up more prizes at the Latin Grammys, we meet the extraordinary Jorge Drexler</p><p>It makes sense that a Uruguayan doctor turned singer would write a song that begins: “Long live science! Long live poetry!” Guitar y Vos (Guitar and You) is also the first track that Jorge Drexler performs this afternoon at a music industry event in the basement of Madrid’s Movistar arena. The second is El Otro Lado del Rio (The Other Side of the River), which he composed for the Che Guevara road movie The Motorcycle Diaries. Drexler was still largely unknown when it won the best original song Oscar in 2005, so was not invited to perform at the ceremony. In a classy act of defiance, he delivered a short a cappella version in lieu of an acceptance speech.</p><p>That’s how he sings it today too, solo under a spotlight on the stairs, before joining his band on stage. Backed by three drummers playing in the Afro-Uruguayan <em>candombe</em> style, Drexler turns a corporate lunchtime gig into a midnight block party. From his latest album Taracá – nominated for eight Latin Grammys at the forthcoming awards on 12 November – comes Ante la Duda, Baila (When in Doubt, Dance). While his lyrics list Spanish kings and colonial governments who have banned various forms of dancing over the centuries, the singer duly shakes his ass and moves us to do the same.</p> <a href=\"https://www.theguardian.com/music/2026/nov/09/jorge-drexler-doctor-oscar-winner-the-motorcycle-diaries\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/music/2026/nov/09/jorge-drexler-doctor-oscar-winner-the-motorcycle-diaries",
-      "published": "Mon, 09 Nov 2026 08:00:04 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "100 Sunset review – elliptical, elusive drama dreamlike through Toronto’s tight-knit Tibetan community",
-      "summary": "<p>Kunsang Kyirong’s debut feature fades like a vapour trail in a mood of disorientation and dislocation</p><p>Not much happens and very little is explained in this elliptical, elusive drama by Canadian-Tibetan film-maker Kunsang Kyirong. Her film, her feature directing debut, takes us inside the tight-knit world of Toronto’s Tibetan community, using a cast of nonprofessional actors. It drifts in a dreamlike manner as it follows introverted 18-year-old Kunsel (Tenzin Kunsel), who lives in a grey slab high-rise block nicknamed Sunset Towers; its Tibetan residents seem to know everything about each other’s business. Her uncle Geysar (Tsering Bawa) is the caretaker, and runs card games out of their apartment.</p><p>Kunsel is shy to the point of wordlessness; she is also a compulsive thief, rifling through handbags and coat pockets, with a knack for pilfering her victims’ most precious belongings. One night she steals a camcorder, and the shaky footage she subsequently films provides an inkling into her interior life – there is the faintest flicker of voyeurism as she begins spying on her neighbours, filming from her window. In particular, her gaze rests on Passang (Sonam Choekyi), a woman only a couple of years older than herself, who recently moved into number 100 with her husband.</p> <a href=\"https://www.theguardian.com/film/2026/nov/09/100-sunset-review-kunsang-kyirong-kenzin-kunsel\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/film/2026/nov/09/100-sunset-review-kunsang-kyirong-kenzin-kunsel",
-      "published": "Mon, 09 Nov 2026 07:00:03 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "How a bank collapse left millions in limbo and toppled Paraguay's president",
-      "summary": "A bank's collapse in Paraguay left millions locked out of their money, toppled the president and exposed a web of political and financial ties.",
-      "link": "https://www.npr.org/2026/11/09/nx-s1-6034066/paraguay-president-pena-ueno",
-      "published": "Mon, 09 Nov 2026 01:20:44 -0500",
-      "source": "NPR"
+      "title": "Born in LatAm, built for the world: 15 AI leaders to watch in 2027",
+      "summary": "<p>Latin America’s AI builders are no longer waiting for the world to come to them. From day one, they are selling to U.S. small businesses, Spanish banks and hospitals across the region. The region’s large companies are ready to buy. According to the IBM Institute for Business Value, 69% of Latin American executives expect their […]</p>\n<p>The post <a href=\"https://www.latinamericareports.com/15-ai-leaders-to-watch-in-2027/15575/\">Born in LatAm, built for the world: 15 AI leaders to watch in 2027</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
+      "link": "https://www.latinamericareports.com/15-ai-leaders-to-watch-in-2027/15575/",
+      "published": "Mon, 09 Nov 2026 14:01:46 +0000",
+      "source": "Latin America Reports"
     },
     {
       "title": "Pope delivers veiled rebuke of Milei's austerity measures",
@@ -270,13 +284,6 @@
       "summary": "<p>Members of Congress accused Peña of conflicts of interest and financial misconduct.</p>\n<p>The post <a href=\"https://www.latinamericareports.com/paraguay-president-impeached-amid-banking-scandal/15570/\">Paraguay president impeached amid banking scandal</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
       "link": "https://www.latinamericareports.com/paraguay-president-impeached-amid-banking-scandal/15570/",
       "published": "Fri, 06 Nov 2026 23:01:24 +0000",
-      "source": "Latin America Reports"
-    },
-    {
-      "title": "Colombia ex-President Gustavo Petro in hot water over sex for contracts claims",
-      "summary": "<p>Deicy Jiménez, a 26-year-old sex worker, accused Petro of offering contracts to as many as 40 women during his time in office.</p>\n<p>The post <a href=\"https://www.latinamericareports.com/colombia-ex-president-gustavo-petro-in-hot-water-over-sex-for-contracts-claims/15568/\">Colombia ex-President Gustavo Petro in hot water over sex for contracts claims</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
-      "link": "https://www.latinamericareports.com/colombia-ex-president-gustavo-petro-in-hot-water-over-sex-for-contracts-claims/15568/",
-      "published": "Fri, 06 Nov 2026 21:28:49 +0000",
       "source": "Latin America Reports"
     },
     {
@@ -308,13 +315,6 @@
       "source": "InSight Crime"
     },
     {
-      "title": "Has Venezuela Declared War on Colombia’s ELN Guerrillas? | The InSight Take",
-      "summary": "<p><a href=\"https://insightcrime.org/news/venezuela-declared-war-on-colombias-eln-insight-take/\">Has Venezuela Declared War on Colombia’s ELN Guerrillas? | The InSight Take</a></p>\n<figure><img alt=\"Imagen de InSight Take ELN Attack in Venezuela\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2026/11/InSightCrime-InSight-Take-ELN-Attack-in-Venezuela-1.jpg?fit=1024%2C576&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>The Venezuelan government launched strikes against the ELN amid United States pressure on Delcy Rodríguez’s administration to end the protection that the Chavista regime has historically provided to the Colombian guerrilla group. The offensive could mark the beginning of a broader campaign against the group, although it remains unclear whether the strikes will continue.</p>\n<p>The post <a href=\"https://insightcrime.org/news/venezuela-declared-war-on-colombias-eln-insight-take/\">Has Venezuela Declared War on Colombia’s ELN Guerrillas? | The InSight Take</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
-      "link": "https://insightcrime.org/news/venezuela-declared-war-on-colombias-eln-insight-take/",
-      "published": "Thu, 05 Nov 2026 18:25:46 +0000",
-      "source": "InSight Crime"
-    },
-    {
       "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
       "summary": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump’s threats to impose tariffs and economic sanctions on Colombia.",
       "link": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main",
@@ -337,15 +337,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-26 12:02",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 68,
-      "incidents": 40,
-      "bovespa": 205082.56,
-      "brl_czk": 4.307
-    },
     {
       "date": "2026-10-27 06:01",
       "threat_level": "HIGH",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "bovespa": 172641.8,
       "brl_czk": 3.946
+    },
+    {
+      "date": "2026-11-11 06:02",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 72,
+      "incidents": 40,
+      "bovespa": 171336.98,
+      "brl_czk": 3.909
     }
   ],
   "locations": [
@@ -702,19 +702,19 @@
       "auto": true
     },
     {
-      "key": "Georgia",
-      "lat": 32.7,
-      "lon": -83.4,
-      "name_cs": "Georgie (USA)",
-      "name_en": "Georgia",
-      "auto": true
-    },
-    {
       "key": "Canada",
       "lat": 56.1,
       "lon": -106.3,
       "name_cs": "Kanada",
       "name_en": "Canada",
+      "auto": true
+    },
+    {
+      "key": "Mexico",
+      "lat": 23.6,
+      "lon": -102.5,
+      "name_cs": "Mexiko",
+      "name_en": "Mexico",
       "auto": true
     },
     {
@@ -747,6 +747,14 @@
       "lon": 37.62,
       "name_cs": "Rusko",
       "name_en": "Russia",
+      "auto": true
+    },
+    {
+      "key": "Israel",
+      "lat": 31.5,
+      "lon": 34.8,
+      "name_cs": "Izrael",
+      "name_en": "Israel",
       "auto": true
     },
     {
@@ -799,36 +807,36 @@
     }
   ],
   "location_counts": {
-    "Brasilia": 80,
+    "Brasilia": 81,
     "Sao Paulo": 31,
     "Rio de Janeiro": 16,
-    "Buenos Aires": 78,
-    "Santiago": 60,
-    "Lima": 50,
-    "Bogota": 80,
-    "Caracas": 76,
+    "Buenos Aires": 79,
+    "Santiago": 61,
+    "Lima": 51,
+    "Bogota": 81,
+    "Caracas": 77,
     "Quito": 57,
-    "La Paz": 36,
-    "Asuncion": 23,
-    "Washington": 80,
+    "La Paz": 37,
+    "Asuncion": 24,
+    "Washington": 81,
     "New York": 1,
     "Texas": 2,
     "Colorado": 1,
     "Kanada": 2,
     "Mexiko": 1,
-    "Venezuela": 2,
-    "Brazílie": 1,
-    "Argentina": 9,
+    "Venezuela": 3,
+    "Brazílie": 2,
+    "Argentina": 10,
     "Ukrajina": 1,
     "Rusko": 1,
     "Pákistán": 1,
-    "Londýn": 1,
+    "Londýn": 3,
     "Paříž": 2,
-    "Madrid": 1,
+    "Madrid": 2,
     "Peru": 1,
     "Bolívie": 1,
-    "Montevideo": 37,
-    "Falklands": 37,
+    "Montevideo": 38,
+    "Falklands": 38,
     "Ohio": 1,
     "Michigan": 3,
     "Severní Karolína": 1,
@@ -843,7 +851,7 @@
     "Tchaj-wan": 1,
     "Řím": 1,
     "Ithaca (Cornell)": 2,
-    "Írán": 2,
+    "Írán": 1,
     "Berlín": 1,
     "Panama": 17,
     "Austrálie": 1,
@@ -862,7 +870,7 @@
     "Atlanta": 1,
     "Georgetown": 11,
     "Kalifornie": 2,
-    "Cuba": 17,
+    "Cuba": 18,
     "Egypt": 2,
     "San Francisco": 1,
     "SAE": 1,
@@ -883,17 +891,9 @@
     "key": "Brasilia",
     "name_cs": "Brasília",
     "name_en": "Brasília",
-    "count": 80
+    "count": 81
   },
   "archive": [
-    {
-      "date": "2026-11-03 06:00",
-      "threat_level": "MEDIUM",
-      "security_status_cs": "Jižní Amerika se potýká s politickými dozvuky brazilských voleb, kde poražený Flávio Bolsonaro prchl do USA, zatímco Lula da Silva upevňuje pozici pomocí sociálních sítí. V Kolumbii přetrvávají bezpečnostní rizika po pumovém útoku na vojenskou základnu a Venezuela zažívá nové politické naděje po návratu opoziční vůdkyně Marie Coriny Machadové a tlaku na nové volby. Trhy mezitím reagují na globální výkyvy a kolísající ceny komodit v čele s rekordními cenami kávy po zažehnání celních sporů.",
-      "security_status_en": "South America is dealing with political fallout from the Brazilian elections, where defeated candidate Flávio Bolsonaro fled to the US while Lula da Silva consolidates his position using social media. In Colombia, security risks persist following a bomb attack on a military base, and Venezuela experiences renewed political hopes following the return of opposition leader María Corina Machado and pressure for new elections. Meanwhile, markets are reacting to global fluctuations and volatile commodity prices, led by record coffee prices after tariff disputes were averted.",
-      "forecast_cs": "V následujících dnech se očekává vyhodnocení brazilského měnového zasedání Copom a stupňování aktivit venezuelské opozice pod vedením Marie Coriny Machadové.",
-      "forecast_en": "In the coming days, the market will process Brazil's Copom rate decision while the Venezuelan opposition under María Corina Machado ramps up its activities."
-    },
     {
       "date": "2026-11-03 13:24",
       "threat_level": "HIGH",
@@ -997,13 +997,21 @@
       "security_status_en": "South America is gripped by political and social upheaval, highlighted by the impeachment of Paraguay's president following a banking sector collapse and widespread street protests. Venezuelan military strikes against ELN guerrillas mark a major shift in regional security, while global inflation fears and potential Fed tightening weigh on emerging markets.",
       "forecast_cs": "V příštích dnech se očekává přetrvávající nestabilita v Paraguayi a zvýšená pozornost věnovaná bezpečnostním dopadům venezuelských útoků na kolumbijské povstalce.",
       "forecast_en": "In the coming days, persistent instability in Paraguay and heightened attention to the security implications of Venezuelan strikes on Colombian rebels are expected."
+    },
+    {
+      "date": "2026-11-11 06:02",
+      "threat_level": "HIGH",
+      "security_status_cs": "Jižní čelí vážným politickým a bezpečnostním otřesům, včetně politické krize a sesazení prezidenta v Paraguayi, papežské cesty provázené napětím kolem ekonomických škrtů v Argentině a vzestupu regionálního napětí kvůli vojenským zásahům Venezuely proti kolumbijským povstalcům. Energetický sektor zároveň prochází dynamickými změnami, neboť Venezuela otevírá rozvodnou síť a vyjednává o návratu ExxonMobilu.",
+      "security_status_en": "South America faces severe political and security shocks, including a major banking and political crisis leading to the impeachment of Paraguay's president, papal visits shadowed by austerity tensions in Argentina, and rising regional friction over Venezuelan military strikes against Colombian rebels. Concurrently, the energy sector is shifting dynamically as Venezuela opens its power grid and moves toward an ExxonMobil return.",
+      "forecast_cs": "V příštích dnech lze očekávat doznívání politické krize v Paraguayi po sesazení prezidenta a pokračující pozornost investorů vůči vývoji v Argentině ve spojitosti s papežskou návštěvou.",
+      "forecast_en": "In the coming days, markets will monitor the aftermath of Paraguay's political crisis and presidential impeachment, alongside continued focus on Argentina's economic reform path amid the papal visit."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 7× HIGH.",
   "market_data": {
     "bovespa": {
-      "value": 172641.8,
+      "value": 171336.98,
       "date": "2026-11-10",
       "cached": false
     },
@@ -1013,13 +1021,13 @@
       "cached": false
     },
     "usdbrl": {
-      "value": 5.5778,
-      "date": "2026-11-10",
+      "value": 5.5829,
+      "date": "2026-11-11",
       "cached": false
     }
   },
   "brl_czk": {
-    "value": 3.946,
-    "date": "2026-11-09"
+    "value": 3.909,
+    "date": "2026-11-10"
   }
 }

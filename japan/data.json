@@ -1,50 +1,79 @@
 {
-  "last_updated": "2026-11-10T14:04:34Z",
+  "last_updated": "2026-11-11T06:01:57Z",
   "assessment": {
-    "threat_level": "HIGH",
-    "sentiment_score": 70,
-    "security_status_cs": "Chyba při automatické analýze AI.",
-    "security_status_en": "Error during automated AI analysis.",
-    "recommendations": [],
-    "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
-    "forecast_en": "Failed to generate forecast.",
-    "forecast_review_cs": "N/A",
-    "forecast_review_en": "N/A"
+    "threat_level": "STABLE",
+    "sentiment_score": 35,
+    "security_status_cs": "Japonský jen těžil z pozice bezpečného přístavu po globálním poklesu technologických akcií vyvolaném novým čínským modelem AI DeepSeek. Automobilka Honda mezitím navzdory komplikacím v oblasti elektromobility zvýšila celoroční výhled provozního zisku.",
+    "security_status_en": "The Japanese yen strengthened as a safe haven following a global tech stock downturn triggered by Chinese start-up DeepSeek's new AI model. Meanwhile, automaker Honda raised its full-year operating profit outlook despite headwinds in its EV strategy.",
+    "recommendations": [
+      {
+        "sector_cs": "Široký japonský akciový trh (Nikkei 225 ETF)",
+        "sector_en": "Broad Japanese Equities (Nikkei 225 ETFs)",
+        "action": "HOLD",
+        "reason_cs": "Trh čelí globálním vlnám volatility v technologickém sektoru a posilování jenu, což tlumí exportéry.",
+        "reason_en": "The market is facing global tech volatility waves and yen appreciation, which weighs on exporters."
+      },
+      {
+        "sector_cs": "Automobilový průmysl (Toyota, Honda)",
+        "sector_en": "Automotive Industry (Toyota, Honda)",
+        "action": "BUY",
+        "reason_cs": "Honda prokázala odolnost zvýšením výhledu zisku navzdory slabším krokům v elektromobilitě.",
+        "reason_en": "Honda demonstrated resilience by raising its profit guidance despite lagging EV bets."
+      },
+      {
+        "sector_cs": "Technologie (Sony, SoftBank)",
+        "sector_en": "Technology (Sony, SoftBank)",
+        "action": "HOLD",
+        "reason_cs": "Globální tlak na technologické akcie po příchodu nových alternativních AI modelů dopadá na sentiment.",
+        "reason_en": "Global pressures on tech stocks following new alternative AI models are weighing on sentiment."
+      },
+      {
+        "sector_cs": "Průmyslová robotika (Fanuc, Mitsubishi Electric)",
+        "sector_en": "Industrial Robotics (Fanuc, Mitsubishi Electric)",
+        "action": "HOLD",
+        "reason_cs": "Rostoucí odpor proti výstavbě datových center v zahraničí může mírně brzdit poptávku po specifických technologických komponentech.",
+        "reason_en": "Growing pushback against data center construction abroad could slightly dampen demand for specific tech components."
+      },
+      {
+        "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
+        "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
+        "action": "HOLD",
+        "reason_cs": "Dění v Japonsku má na české banky a energetiku pouze zanedbatelný nepřímý vliv skrze globální makroekonomickou náladu.",
+        "reason_en": "Japanese developments have only a negligible indirect impact on Czech banks and energy utilities via global macro sentiment."
+      }
+    ],
+    "forecast_cs": "Očekává se, že japonský jen zůstane silný díky globální nervozitě na trzích a investoři budou nadále sledovat měnovou politiku BOJ.",
+    "forecast_en": "The Japanese yen is expected to remain firm amid global market jitters, while investors continue to monitor BOJ monetary policy.",
+    "forecast_review_cs": "Žádná předchozí předpověď k vyhodnocení.",
+    "forecast_review_en": "No previous forecast to evaluate."
   },
   "articles": [
     {
-      "title": "Elon Musk was half-right in his comment last week about SoftBank back-pedaling on a gas-turbine order",
-      "summary": "Elon Musk in a social-media post last week said that SoftBank “defaulted” on a gas-turbine order. The truth, revealed Tuesday in the Japanese’s investment company’s second-quarter earnings, wasn’t far off.",
-      "link": "https://www.marketwatch.com/story/elon-musk-was-half-right-in-his-comment-last-week-about-softbank-back-pedaling-on-a-gas-turbine-order-c293d335?mod=mw_rss_topstories",
-      "published": "Tue, 10 Nov 2026 13:32:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "SoftBank logs $7 billion loss after U.S. data center costs swell",
-      "summary": "Analysts on average expected a profit of more than $800 million.",
-      "link": "https://www.japantimes.co.jp/business/2026/11/10/softbank-loss-data-center-costs/",
-      "published": "Tue, 10 Nov 2026 17:34:00 +0900",
+      "title": "Japan not immune to public backlash against data centers, experts say",
+      "summary": "Last week's U.S. midterm congressional elections have highlighted just how strong opposition to data center construction has become.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/11/japan/society/data-center-backlash-japan-us-election/",
+      "published": "Wed, 11 Nov 2026 14:55:00 +0900",
       "source": "Japan Times"
     },
     {
-      "title": "Japan to use COP31 to showcase environmental technologies",
-      "summary": "A key goal of the conference is to increase the world's electrification to 35% by 2035.",
-      "link": "https://www.japantimes.co.jp/news/2026/11/10/japan/politics/cop31-japan-technologies/",
-      "published": "Tue, 10 Nov 2026 17:31:00 +0900",
+      "title": "16 Japanese detained in Laos for suspected scam involvement",
+      "summary": "The incident is part of a series of crackdowns on Japanese nationals suspected involvement in such schemes in the Southeast Asian country.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/11/japan/crime-legal/japanese-detained-laos-scam/",
+      "published": "Wed, 11 Nov 2026 14:24:00 +0900",
       "source": "Japan Times"
     },
     {
-      "title": "Sakana AI may go public in 2027",
-      "summary": "Press reports say that the company is considering the Tokyo Stock Exchange or Nasdaq or a dual listing on both.",
-      "link": "https://www.japantimes.co.jp/business/2026/11/10/companies/sakana-ai-ipo/",
-      "published": "Tue, 10 Nov 2026 16:36:00 +0900",
+      "title": "Honda raises outlook even as failed EV bet weighs on profit",
+      "summary": "The carmaker now expects an operating profit of ¥780 billion in the fiscal year ending March 2027, up from its previous guidance of ¥650 billion.",
+      "link": "https://www.japantimes.co.jp/business/2026/11/11/companies/honda-profit-outlook/",
+      "published": "Wed, 11 Nov 2026 14:00:00 +0900",
       "source": "Japan Times"
     },
     {
-      "title": "Japan to call for limiting children’s exposure to social media",
-      "summary": "A government draft says schools should help children develop their judgment so that they can use social media appropriately.",
-      "link": "https://www.japantimes.co.jp/news/2026/11/10/japan/government-guidelines-children-social-media/",
-      "published": "Tue, 10 Nov 2026 16:29:00 +0900",
+      "title": "Tokyo court dismisses suit against Meta over fake ads involving entrepreneur",
+      "summary": "The ruling is believed to be the first judicial decision on whether fake ads impersonating celebrities infringe on their rights.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/11/japan/crime-legal/yusaku-maezawa-lawsuit-meta/",
+      "published": "Wed, 11 Nov 2026 13:10:00 +0900",
       "source": "Japan Times"
     },
     {
@@ -56,15 +85,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-26 06:01",
-      "threat_level": "STABLE",
-      "value": 1,
-      "sentiment_score": 25,
-      "incidents": 6,
-      "nikkei": 62461.13,
-      "usd_czk": 21.734
-    },
     {
       "date": "2026-10-26 12:01",
       "threat_level": "STABLE",
@@ -325,6 +345,15 @@
       "incidents": 6,
       "nikkei": 60459.58,
       "usd_czk": 21.768
+    },
+    {
+      "date": "2026-11-11 06:01",
+      "threat_level": "STABLE",
+      "value": 1,
+      "sentiment_score": 35,
+      "incidents": 5,
+      "nikkei": 61325.47,
+      "usd_czk": 21.702
     }
   ],
   "locations": [
@@ -336,11 +365,11 @@
       "name_en": "Tokyo"
     },
     {
-      "key": "New York",
-      "lat": 40.71,
-      "lon": -74,
-      "name_cs": "New York",
-      "name_en": "New York",
+      "key": "Washington",
+      "lat": 38.9,
+      "lon": -77.04,
+      "name_cs": "Washington, D.C.",
+      "name_en": "Washington",
       "auto": true
     },
     {
@@ -353,7 +382,7 @@
     }
   ],
   "location_counts": {
-    "Tokyo": 97,
+    "Tokyo": 98,
     "Okinawa": 37,
     "Nagoya": 12,
     "Hokkaido": 14,
@@ -387,17 +416,9 @@
     "key": "Tokyo",
     "name_cs": "Tokio",
     "name_en": "Tokyo",
-    "count": 97
+    "count": 98
   },
   "archive": [
-    {
-      "date": "2026-11-02 14:26",
-      "threat_level": "STABLE",
-      "security_status_cs": "Japonský yen dočasně posílil díky globálnímu zájmu o bezpečné přístavy vyvolanému otřesy na amerických technologických trzích, zatímco domácí spotřeba nadále čelí tlakům kvůli demografickému poklesu. Nová vládní agentura pro mimořádné události zároveň vyzývá veřejnost k posílení vlastní připravenosti na katastrofy vzhledem k limitům státních kapacit.",
-      "security_status_en": "The Japanese yen strengthened temporarily due to global safe-haven demand triggered by shocks in U.S. tech markets, while domestic consumption continues to face pressure from a shrinking population. Meanwhile, Japan's new disaster agency is urging the public to enhance disaster preparedness given the limits of government capacity.",
-      "forecast_cs": "Japonský jen zůstane v nejbližších dnech silnější, protože globální trhy vstřebávají výkyvy v americkém technologickém sektoru. Pozornost investorů se nadále soustředí na reakce Bank of Japan ohledně spotřebitelské poptávky.",
-      "forecast_en": "The Japanese yen will remain relatively strong in the coming days as global markets absorb volatility in the U.S. tech sector. Investor attention remains focused on Bank of Japan commentary regarding consumer demand."
-    },
     {
       "date": "2026-11-03 06:00",
       "threat_level": "STABLE",
@@ -501,25 +522,33 @@
       "security_status_en": "Error during automated AI analysis.",
       "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
       "forecast_en": "Failed to generate forecast."
+    },
+    {
+      "date": "2026-11-11 06:01",
+      "threat_level": "STABLE",
+      "security_status_cs": "Japonský jen těžil z pozice bezpečného přístavu po globálním poklesu technologických akcií vyvolaném novým čínským modelem AI DeepSeek. Automobilka Honda mezitím navzdory komplikacím v oblasti elektromobility zvýšila celoroční výhled provozního zisku.",
+      "security_status_en": "The Japanese yen strengthened as a safe haven following a global tech stock downturn triggered by Chinese start-up DeepSeek's new AI model. Meanwhile, automaker Honda raised its full-year operating profit outlook despite headwinds in its EV strategy.",
+      "forecast_cs": "Očekává se, že japonský jen zůstane silný díky globální nervozitě na trzích a investoři budou nadále sledovat měnovou politiku BOJ.",
+      "forecast_en": "The Japanese yen is expected to remain firm amid global market jitters, while investors continue to monitor BOJ monetary policy."
     }
   ],
-  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 4× MEDIUM, 2× STABLE, 1× HIGH.",
-  "weekly_summary_en": "Over the last 7 recorded analyses: 4× MEDIUM, 2× STABLE, 1× HIGH.",
+  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 3× MEDIUM, 3× STABLE, 1× HIGH.",
+  "weekly_summary_en": "Over the last 7 recorded analyses: 3× MEDIUM, 3× STABLE, 1× HIGH.",
   "market_data": {
     "nikkei": {
-      "value": 60459.58,
-      "date": "2026-11-10",
+      "value": 61325.47,
+      "date": "2026-11-11",
       "cached": false
     },
     "topix": null,
     "usdjpy": {
-      "value": 158.54,
-      "date": "2026-11-10",
+      "value": 158.81,
+      "date": "2026-11-11",
       "cached": false
     }
   },
   "usd_czk": {
-    "value": 21.768,
-    "date": "2026-11-09"
+    "value": 21.702,
+    "date": "2026-11-10"
   }
 }

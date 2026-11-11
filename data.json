@@ -1,87 +1,283 @@
 {
-  "last_updated": "2026-11-10T14:02:02Z",
+  "last_updated": "2026-11-11T05:59:36Z",
   "assessment": {
     "threat_level": "HIGH",
-    "sentiment_score": 72,
-    "security_status_cs": "Bezpečnostní situace v oblasti Rudého moře a Perského zálivu zůstává napjatá kvůli pokračujícím útokům Houthiů, které nově zasáhly i finanční čtvrť v Rijádu. Přestože americká diplomacie signalizuje snahu o deeskalaci a probíhají vojenské koordinace tankerů, asymetrická hrozba na klíčových námořních trasách přetrvává.",
-    "security_status_en": "The security situation in the Red Sea and Persian Gulf remains tense due to ongoing Houthi attacks, which recently struck Riyadh's financial district. Although US diplomacy signals efforts toward de-escalation and military tanker coordination is underway, the asymmetric threat along critical maritime routes persists.",
+    "sentiment_score": 75,
+    "security_status_cs": "Bezpečnostní situace v oblasti Blízkého východu a Rudého moře zůstává vysoce napjatá kvůli pokračujícím útokům Houthiů, které nově zasáhly i klíčovou budovu Aramco v saúdském hlavním městě. Rostoucí obavy z eskalace podtrhují incidenty v Hormuzském průlivu a přetrvávající asymetrická hrozba pro globální námořní trasy.",
+    "security_status_en": "The security situation in the Middle East and Red Sea remains highly tense due to ongoing Houthi attacks, which recently struck a key Aramco building in the Saudi capital. Growing fears of escalation are underscored by incidents in the Strait of Hormuz and the persistent asymmetric threat to global shipping lanes.",
     "recommendations": [
       {
         "sector_cs": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)",
         "sector_en": "Maritime Shipping (e.g. Maersk, Hapag-Lloyd, ZIM)",
         "action": "HOLD",
-        "reason_cs": "Přetrvávající útoky v Rudém moři nutí lodě k objízdným trasám, což udržuje vysoké sazby za přepravu, ale zároveň roste regulatorní a provozní tlak.",
-        "reason_en": "Ongoing attacks in the Red Sea force ships to take detours, maintaining high freight rates, while regulatory and operational pressures mount."
+        "reason_cs": "Přetrvávající útoky v Rudém moři a Hormuzském průlivu nutí lodní giganty k pokračujícímu využívání delších tras kolem Afriky, což udržuje vysoké sazby za přepravu, ale zvyšuje provozní rizika.",
+        "reason_en": "Ongoing attacks in the Red Sea and Strait of Hormuz force shipping giants to continue using longer routes around Africa, keeping freight rates high while increasing operational risks."
       },
       {
         "sector_cs": "Obranný průmysl (např. RTX, Lockheed Martin, BAE Systems)",
         "sector_en": "Defense Industry (e.g. RTX, Lockheed Martin, BAE Systems)",
         "action": "BUY",
-        "reason_cs": "Neustálé hrozby ze strany Houthiů a eskalace geopolitického napětí zajišťují vysokou poptávku po protivzdušné obraně a námořním zabezpečení.",
-        "reason_en": "Persistent Houthi threats and escalating geopolitical tensions ensure strong demand for air defense and maritime security systems."
+        "reason_cs": "Nová eskalace konfliktů, rostoucí napětí s Iránem a rozšiřující se vojenské investice do podmořského a protiraketového zabezpečení silně podporují poptávku po produktech obranného sektoru.",
+        "reason_en": "Renewed conflict escalation, rising tensions with Iran, and expanding military investments in underwater and missile defense strongly support demand for the defense sector's products."
       },
       {
         "sector_cs": "Ropa a Plyn (např. Shell, BP, Chevron)",
         "sector_en": "Oil & Gas (e.g. Shell, BP, Chevron)",
-        "action": "HOLD",
-        "reason_cs": "Pokles cen ropy pod 90 USD za barel kvůli náznakům politické deeskalace je kompenzován riziky spojenými s dodávkami přes Hormuzský průliv.",
-        "reason_en": "The drop in oil prices below $90 per barrel due to de-escalation signals is offset by ongoing supply risks through the Strait of Hormuz."
+        "action": "BUY",
+        "reason_cs": "Slábnoucí naděje na mírová jednání s Iránem a útoky na ropnou infrastrukturu v regionu vedou k růstu cen ropy a posilují marže těžařských společností.",
+        "reason_en": "Fading hopes for peace talks with Iran and attacks on regional oil infrastructure are driving up crude prices and strengthening margins for oil companies."
       },
       {
         "sector_cs": "Evropský Spotřební sektor & Autoprůmysl (např. Volvo, BMW)",
         "sector_en": "European Consumer & Automotive (e.g. Volvo, BMW)",
         "action": "SELL",
-        "reason_cs": "Rizika narušení dodavatelských řetězců, rostoucí náklady na dopravu a kybernetické útoky na logistickou infrastrukturu zatěžují marže.",
-        "reason_en": "Supply chain disruption risks, rising shipping costs, and cyberattacks on logistics infrastructure weigh heavily on profit margins."
+        "reason_cs": "Nestabilita v dodavatelských řetězcích, rostoucí náklady na námořní přepravu a dopady kybernetických incidentů vytvářejí tlak na marže a ziskovost evropských automobilek.",
+        "reason_en": "Supply chain instability, rising shipping costs, and the impacts of cyber incidents are putting pressure on the margins and profitability of European automakers."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí blue-chips se pohybují v souladu s širší evropskou náladou, přičemž těží z defenzivních charakteristik, ale čelí globálnímu tlaku na trzích.",
-        "reason_en": "Domestic blue-chips track broader European sentiment, benefiting from defensive characteristics while facing global market headwinds."
+        "reason_cs": "Domácí tituly jsou primárně ovlivněny lokálními makroekonomickými faktory a politikou centrální banky, přičemž geopolitický šum na ně dopadá jen omezeně.",
+        "reason_en": "Domestic equities are primarily influenced by local macroeconomic factors and central bank policy, with geopolitical noise having a limited impact on them."
       },
       {
         "sector_cs": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
         "sector_en": "European blue-chips (e.g. Airbus, TotalEnergies, Allianz, Rheinmetall)",
         "action": "HOLD",
-        "reason_cs": "Trh vykazuje vysokou volatilitu a nervozitu kvůli rizikům kybernetické bezpečnosti a geopolitickým šokům v energetice a obraně.",
-        "reason_en": "The market displays high volatility and nervousness driven by cybersecurity risks and geopolitical shocks in energy and defense."
+        "reason_cs": "Silná pozice energetických a zbrojních titulů vyvažuje obavy ze zpomalujícího růstu a geopolitických rizik dopadajících na zbytek evropského průmyslu.",
+        "reason_en": "The strong position of energy and defense stocks balances concerns over slowing growth and geopolitical risks impacting the rest of European industry."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat kolísavý vývoj na komoditních a akciových trzích, kde budou signály o diplomatickém řešení narážet na realitu pokračujících asymetrických útoků v regionu.",
-    "forecast_en": "Over the coming days, volatile movements in commodity and equity markets are expected as diplomatic de-escalation signals clash with the reality of ongoing asymmetric attacks in the region.",
-    "forecast_review_cs": "Předchozí předpověď o přetrvávajícím napětí a volatilitě na trzích byla plně potvrzena novými útoky Houthiů a kolísáním cen ropy.",
-    "forecast_review_en": "The previous forecast of persistent tension and market volatility was fully confirmed by new Houthi attacks and fluctuations in oil prices."
+    "forecast_cs": "V nejbližších dnech lze očekávat zvýšenou volatilitu cen ropy a komodit v reakci na přetrvávající útoky v oblasti Perského zálivu a Rudého moře, přičemž investoři budou nadále bedlivě sledovat jakékoliv náznaky vojenské či diplomatické eskalace.",
+    "forecast_en": "Over the coming days, increased volatility in oil and commodity prices is expected in response to ongoing attacks in the Persian Gulf and Red Sea, while investors will closely monitor any signs of military or diplomatic escalation.",
+    "forecast_review_cs": "Předchozí předpověď se plně potvrdila, neboť kolísavý vývoj na trzích a střety diplomatických signálů s realitou ozbrojených útoků nadále určují hlavní směr globálního obchodování.",
+    "forecast_review_en": "The previous forecast was fully confirmed, as volatile market developments and the clash between diplomatic signals and the reality of armed attacks continue to drive the main direction of global trading."
   },
   "articles": [
     {
-      "title": "Hegseth claims reps. are punishing him with impeachment for 'lawful military action' in Iran",
-      "summary": "<img align=\"right\" alt=\"US Secretary of Defense Pete Hegseth holds a press briefing at the Pentagon in Washington, DC, US, November 10, 2026. (photo credit: REUTERS/EVELYN HOCKSTEIN)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_4000,w_6000/745720\" title=\"US Secretary of Defense Pete Hegseth holds a press briefing at the Pentagon in Washington, DC, US, November 10, 2026. (photo credit: REUTERS/EVELYN HOCKSTEIN)\" /><br />This comes the day after Republican Representative Thomas Massie introduced articles of impeachment against Hegseth, which lawmakers are expected to vote on later this week. <br />",
-      "link": "https://www.jpost.com/international/article-914467",
-      "published": "Tue, 10 Nov 2026 15:23:51 GMT",
-      "source": "Jerusalem Post"
+      "title": "Oil Prices Rise as Iran Peace Optimism Fades",
+      "summary": "Crude oil prices reversed their fall from earlier this week as traders grew less optimistic about a peace deal between the United States and Iran amid continuing tanker attacks in the Strait of Hormuz, with a record number of such attacks in October. At the time of writing, Brent crude was trading at $92.43 per barrel, with West Texas Intermediate at $86.62 per barrel, both up from the start of the week but still sharply down from the end of October, when Brent crude was over $110 per barrel, and WTI was over $100. As many as 37 vessels were attacked…",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rise-as-Iran-Peace-Optimism-Fades.html",
+      "published": "Tue, 10 Nov 2026 23:45:00 -0600",
+      "source": "OilPrice"
     },
     {
-      "title": "Most Americans want new Democratic Congress to end Iran war, Reuters/Ipsos poll finds",
-      "summary": "<img align=\"right\" alt=\"US President Donald Trump speaks in the James S. Brady Press Briefing Room at the White House in Washington, DC, US, November 9, 2026. (photo credit: REUTERS/AARON SCHWARTZ)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_4633,w_6500/745698\" title=\"US President Donald Trump speaks in the James S. Brady Press Briefing Room at the White House in Washington, DC, US, November 9, 2026. (photo credit: REUTERS/AARON SCHWARTZ)\" /><br />Large majorities of both political parties said it was important for Trump to make an effort to work with Democrats and for Democratic leaders in the new Congress to try to work with the president.<br />",
-      "link": "https://www.jpost.com/international/article-914460",
-      "published": "Tue, 10 Nov 2026 14:40:40 GMT",
-      "source": "Jerusalem Post"
-    },
-    {
-      "title": "Rubio claims Strait of Hormuz oil flows near pre-war levels on some nights",
-      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/rubio-claims-strait-hormuz-oil-flows-near-pre-war-levels-some-nights\" rel=\"bookmark\">\n<span class=\"field field-title\">Rubio claims Strait of Hormuz oil flows near pre-war levels on some nights</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>US Secretary of State Marco Rubio says oil shipments through the Strait of Hormuz have recovered to more than four-fifths of their pre-war volume on some nights. He attributed the remaining shortfall to Iranian exports.</p>\n\n<p>“Oil is getting out – on some nights it’s 80-85 percent of what was getting out pre-conflict.</p>\n\n<p>“The only reason why it isn’t 100 percent is because Iranian oil isn’t getting out.</p>\n\n<p>“The only oil that isn’t getting out consistently through the strait of Hormuz is the Iranian oil,” he told reporters at a G7 foreign ministers’ meeting in Paris.</p>\n\n<p>Rubio said Washington would step up economic pressure on Tehran. “I have been told the economic campaign [against Iran] is working so well there’s no need for major combat operations,” he said.</p>\n\n<p>“The economic pressure on Iran is going to get even worse,” he added.</p>\n\n<p>Rubio said Washington was “open to diplomacy” to end the war, but told reporters that “the Iranian demands are totally unrealistic. We expect that could change – and if it does, we’re prepared for diplomacy.”</p>\n\n<p>He said Washington could forgo further strikes “if we’re achieving the same objectives through economic means”.</p>\n</div>\n      \n  </div>\n\n</article>",
-      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/rubio-claims-strait-hormuz-oil-flows-near-pre-war-levels-some-nights",
-      "published": "Tue, 10 Nov 2026 13:58:42 +0000",
+      "title": "UKMTO reports tanker incident in Hormuz Strait",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-reports-tanker-incident-hormuz-strait\" rel=\"bookmark\">\n<span class=\"field field-title\">UKMTO reports tanker incident in Hormuz Strait </span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>The United Kingdom Maritime Trade Operations said it received the report of an incident involving a tanker in the Strait of Hormuz.</p>\n\n<p>It added that the status of the crew, the extent of any damage and the environmental impact were not yet known.</p>\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/ukmto-reports-tanker-incident-hormuz-strait",
+      "published": "Wed, 11 Nov 2026 03:55:21 +0000",
       "source": "Middle East Eye"
     },
     {
-      "title": "Pete Hegseth dismisses Republican’s impeachment effort against him as ‘a political spectacle’ – US politics live",
-      "summary": "<p>Trump’s defense secretary calls impeachment effort from congressman Thomas Massie ‘a personal manifesto driven by ego’ as he faces scrutiny for prolonged Iran war</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for the US Breaking News email</a><br /></p></li></ul><p><strong>During his press conference, Hegseth was resolute that the articles of impeachment are baseless, and that all attacks were carried out legally.</strong></p><p>“As for the articles themselves, Iran, the cartels, Maduro, Yemen, everyone was a lawful operation ordered by the commander-in-chief, then ordered by myself, notified to Congress and executed by American warriors who did their jobs,” he said. “We destroyed terror regimes’ capabilities. We sank the boats carrying poison into our communities. We put a narco dictator in handcuffs. These are not high crimes. This is the job, and it’s the job well done.”</p> <a href=\"https://www.theguardian.com/us-news/live/2026/nov/10/donald-trump-pete-hegseth-thomas-massie-republicans-iran-war-impeachment-midterms-latest-news-updates\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/live/2026/nov/10/donald-trump-pete-hegseth-thomas-massie-republicans-iran-war-impeachment-midterms-latest-news-updates",
-      "published": "Tue, 10 Nov 2026 13:49:48 GMT",
+      "title": "Iran opens training camp for women in readiness for war",
+      "summary": "Iran has opened its first all-women military training camp amid fears of renewed US attacks.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/aje-onl-nf_iran-opens-training-camp-for-women-101126?traffic_source=rss",
+      "published": "Wed, 11 Nov 2026 03:21:32 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Underworld figure Mick Gatto gave CFMEU official gold bracelet after construction site assault, Big Build royal commission told",
+      "summary": "<p>Former CFMEU official Paul Tzimas tells inquiry he suffered fractured ankle and a colleague was left with major injuries and severe PTSD</p><ul><li><p>Get our <a href=\"https://www.theguardian.com/email-newsletters?CMP=cvau_sfl\">breaking news email</a>, <a href=\"https://app.adjust.com/w4u7jx3\">free app</a> or <a href=\"https://www.theguardian.com/australia-news/series/full-story?CMP=cvau_sfl\">daily news podcast</a></p></li></ul><p>A former CFMEU official has told a royal commission that underworld figure Mick Gatto attended a meeting that was called after the union official and a colleague were seriously assaulted at a construction site, claiming the underworld figure later offered him a gold bracelet.</p><p>Paul Tzimas is the first witness associated with the Construction, Forestry and Maritime Employees Union to appear before the royal commission into the integrity of major public and civil infrastructure construction projects in Victoria.</p> <a href=\"https://www.theguardian.com/australia-news/2026/nov/11/mick-gatto-cfmeu-big-build-royal-commission-ntwnfb\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/australia-news/2026/nov/11/mick-gatto-cfmeu-big-build-royal-commission-ntwnfb",
+      "published": "Wed, 11 Nov 2026 03:07:14 GMT",
       "source": "The Guardian"
+    },
+    {
+      "title": "US Treasury Secretary Scott Bessent moved to military base after Iranian threats - report",
+      "summary": "<img align=\"right\" alt=\"US Treasury Secretary Scott Bessent speaks during a press conference to outline further sanctions against Iran, at the Treasury Department in Washington, DC, US, August 24, 2026.  (photo credit: EVELYN HOCKSTEIN/REUTERS)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_2020,w_3028/736506\" title=\"US Treasury Secretary Scott Bessent speaks during a press conference to outline further sanctions against Iran, at the Treasury Department in Washington, DC, US, August 24, 2026.  (photo credit: EVELYN HOCKSTEIN/REUTERS)\" /><br />The newspaper reported that US officials have noted that Iran's ability to carry out large-scale attacks in the US and other territories overseas is limited.<br />",
+      "link": "https://www.jpost.com/middle-east/iran-news/article-914534",
+      "published": "Wed, 11 Nov 2026 03:03:59 GMT",
+      "source": "Jerusalem Post"
+    },
+    {
+      "title": "Pentagon declares ‘total victory’ after House Republicans block effort to impeach Pete Hegseth – as it happened",
+      "summary": "<p>This live blog is now closed.</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/2026/nov/10/pete-hegseth-impeachment-effort\">House Republicans block effort to impeach Pentagon chief Pete Hegseth</a></p></li><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for the US Breaking News email</a><br /></p></li></ul><p><strong>During his press conference, Hegseth was resolute that the articles of impeachment are baseless, and that all attacks were carried out legally.</strong></p><p>“As for the articles themselves, Iran, the cartels, Maduro, Yemen, everyone was a lawful operation ordered by the commander-in-chief, then ordered by myself, notified to Congress and executed by American warriors who did their jobs,” he said. “We destroyed terror regimes’ capabilities. We sank the boats carrying poison into our communities. We put a narco dictator in handcuffs. These are not high crimes. This is the job, and it’s the job well done.”</p> <a href=\"https://www.theguardian.com/us-news/live/2026/nov/10/donald-trump-pete-hegseth-thomas-massie-republicans-iran-war-impeachment-midterms-latest-news-updates\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/live/2026/nov/10/donald-trump-pete-hegseth-thomas-massie-republicans-iran-war-impeachment-midterms-latest-news-updates",
+      "published": "Wed, 11 Nov 2026 02:55:46 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "US Treasury chief moved to military base after alleged Iranian threats: Report",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/us-treasury-chief-moved-military-base-after-alleged-iranian-threats\" rel=\"bookmark\">\n<span class=\"field field-title\">US Treasury chief moved to military base after alleged Iranian threats: Report</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>US Treasury Secretary Scott Bessent has been recently moved out of his home and onto a ​military base after alleged Iranian threats against his ‌life, according to a report by the the New York Times.</p>\n\n<p>In a memo seen by Reuters, a  senior intelligence official in the ​Trump administration warned that Tehran has increased efforts to  target US personnel.</p>\n\n<p>The official claimed that Iranian plots against American citizens have reached \"advanced stages\".</p>\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/us-treasury-chief-moved-military-base-after-alleged-iranian-threats",
+      "published": "Wed, 11 Nov 2026 01:46:04 +0000",
+      "source": "Middle East Eye"
+    },
+    {
+      "title": "US charges 3 men over alleged Iranian-backed plot at UK Fairford air base",
+      "summary": "The men, including one who is already in jail, face charges over alleged plot at UK air base used in US war on Iran.",
+      "link": "https://www.aljazeera.com/news/2026/11/11/us-charges-3-iranian-backed-men-over-alleged-plot-at-uk-fairford-air-base?traffic_source=rss",
+      "published": "Wed, 11 Nov 2026 01:44:21 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Republicans block Hegseth impeachment motion",
+      "summary": "Republicans have blocked a motion to impeach US Secretary of Defense Pete Hegseth over the war on Iran.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/republicans-block-hegseth-impeachment-motion?traffic_source=rss",
+      "published": "Wed, 11 Nov 2026 01:43:42 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Middle East Oil Flows Far from Normal Despite Signs of Oversupply",
+      "summary": "Crude oil flows through the Strait of Hormuz and the whole Middle Eastern region have recovered to close to pre-war levels, vessel-tracking services have been signaling for over a month now. Middle Eastern benchmarks have been weakening for weeks, suggesting an oil glut may be building amid rebounding Persian Gulf exports and global demand destruction amid high prices. On the face of it, an oversupply of crude oil could be forming. But the costs to refiners and consumers are not falling. War, insurance premiums, and record tanker rates have raised…",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Middle-East-Oil-Flows-Far-from-Normal-Despite-Signs-of-Oversupply.html",
+      "published": "Tue, 10 Nov 2026 19:00:00 -0600",
+      "source": "OilPrice"
+    },
+    {
+      "title": "Russian Diesel Tanker Awaits Orders Off U.S. Coast Amid Import Ban Dispute",
+      "summary": "OSLO, Nov 10 (Reuters) – President Donald Trump’s energy chief said on Tuesday the US was confident that the first cargo of Russian diesel headed for the US would eventually...",
+      "link": "https://gcaptain.com/russian-diesel-tanker-awaits-orders-off-u-s-coast-amid-import-ban-dispute/",
+      "published": "Wed, 11 Nov 2026 00:22:43 +0000",
+      "source": "gCaptain"
+    },
+    {
+      "title": "Iran war live: US House blocks Hegseth impeachment with 11 Democrats absent",
+      "summary": "US House blocks bid to impeach Defense Secretary Pete Hegseth over US-Israel war on Iran as 11 Democrats miss vote.",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/11/11/iran-war-live-hegseth-survives-impeachment-bid-iran-denies-us-talks?traffic_source=rss",
+      "published": "Wed, 11 Nov 2026 00:01:26 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "South Sudan Courts Oil Investors as Sudan’s Warring Forces Take Their Share",
+      "summary": "South Sudan is courting fresh capital for 14 exploration blocks and a production increase from roughly 170,000 barrels per day to 230,000, which investors would find impossible to control once those barrels left the country. Captive to neighboring Sudan’s civil war, South Sudan is essentially divvying up its oil, under duress, between the Sudanese Army and the rival paramilitary RSF, which extract payment before the oil can reach the Red Sea. The government-backed South Sudan Oil & Power conference will put that proposition before investors…",
+      "link": "https://oilprice.com/Energy/Crude-Oil/South-Sudan-Courts-Oil-Investors-as-Sudans-Warring-Forces-Take-Their-Share.html",
+      "published": "Tue, 10 Nov 2026 18:00:00 -0600",
+      "source": "OilPrice"
+    },
+    {
+      "title": "US Republicans derail bid to impeach Pentagon chief",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/us-house-votes-derail-impeachment-defense-secretary-hegseth\" rel=\"bookmark\">\n<span class=\"field field-title\">US Republicans derail bid to impeach Pentagon chief</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Republicans in the US House of Representatives on Tuesday blocked an effort to impeach Defense Secretary Pete Hegseth over the Iran war, handing President Donald Trump a victory days after his party's crushing midterm election defeat.</p>\n\n<p>The House voted 211 to 204 to send the impeachment resolution to the Judiciary Committee, effectively derailing a planned vote Wednesday on whether to bring formal charges against the embattled Pentagon chief.</p>\n\n<p>The resolution was introduced by Republican Thomas Massie, a Trump critic who was the only member of his party to oppose the procedural maneuver, according to US media.</p>\n\n  <figure class=\"media-block\">\n  <div class=\"group-inner\">\n    <div alt=\"US Secretary of War Pete Hegseth takes questions from reporters during a news conference at the Pentagon on 10 November 2026  (AFP)\" class=\"embedded-entity\">  <img alt=\"US Secretary of War Pete Hegseth takes questions from reporters during a news conference at the Pentagon on 10 November 2026  (AFP)\" height=\"682\" src=\"https://www.middleeasteye.net/sites/default/files/%20U.S.%20Secretary%20of%20War%20Pete%20Hegseth%20takes%20questions%20from%20reporters%20during%20a%20news%20conference%20at%20the%20Pentagon%20on%2010%20November%202026%20.jpg\" width=\"1024\" />\n\n</div>\n\n    <figcaption>US Secretary of War Pete Hegseth takes questions from reporters during a news conference at the Pentagon on 10 November 2026  (AFP)</figcaption>\n  </div>\n</figure>\n\n\n<p><span><img height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/us-house-votes-derail-impeachment-defense-secretary-hegseth",
+      "published": "Tue, 10 Nov 2026 23:51:30 +0000",
+      "source": "Middle East Eye"
+    },
+    {
+      "title": "US House Democrat leader Jeffries will retain position despite opposition, sources say",
+      "summary": "<article class=\"story default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/news/us-house-democrat-leader-jeffries-will-retain-position-despite-opposition-sources-say\" rel=\"bookmark\">\n<span class=\"field field-title\">US House Democrat leader Jeffries will retain position despite opposition, sources say</span>\n</a>\n    </h2>\n    \n\n          <footer>\n      \n      <div class=\"author\">\n        Submitted by \n<span class=\"field field-uid\"><a href=\"https://www.middleeasteye.net/users/yasmine-el-sabawi\" lang=\"lang\" title=\"View user profile.\">Yasmine El-Sabawi</a></span>\n on \n<span class=\"field field-created\"><time datetime=\"2026-11-10T19:15:57+00:00\" title=\"10 November 2026 19:15 GMT\">Tue, 11/10/2026 - 19:15</time>\n</span>\n        \n      </div>\n    </footer>\n      \n    <div class=\"content\">\n                <div class=\"field field-field-subhead\">In the Senate, unless progressive-backed Chris Van Hollen formally steps up to unite the ranks as a challenger, Chuck Schumer will likely win</div>\n                  <div class=\"field field-field-main-image\">    \n                  <source height=\"788\" type=\"image/webp\" width=\"1400\" />\n                  <img alt=\"alt\" height=\"788\" src=\"https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/063_2277503865-2.jpg.jpg?itok=r97KGlZU\" width=\"1400\" />\n\n  \n\n</div>\n                  <div class=\"field field-field-cutline\">The leader of the House Democrats, New York Congressman Hakeem Jeffries, right, speaks to reporters alongside the leader of the Senate Democrats, New York Senator Chuck Schumer, on the steps of the US Senate on 21 May 2026 in Washington, DC (Win McNamee/Getty Images via AFP)</div>\n                  <div class=\"field field-field-wide-photo-video\">Off</div>\n                  <div class=\"field field-body clearfix\"><p>The top Democrat in the House of Representatives, Hakeem Jeffries, is all but certain to become the next Speaker of the House, despite dissatisfaction among some freshman lawmakers and their progressive colleagues in the chamber, sources have told Middle East Eye. </p>\n\n<p>There simply is no alternative leader in the running. </p>\n\n<p>\"It's a cost to go against someone who will eventually be the leader of the caucus. There's not enough people who are willing to do that,\" one source said. </p>\n\n<p>This comes as many voters have <a href=\"https://x.com/AndrewSolender/status/2119216759115010324?a=LH6X2jivWd1ttPcP4kc&s=20\">expressed</a> their desire to see Jeffries vacate the position, accusing him of being out of step with the party's growing leftist progressive wing, which wants to see <a href=\"https://www.middleeasteye.net/news/why-are-us-election-cycles-most-expensive-world\">money</a> out of politics, and a stop to the transfer of <a href=\"https://www.dropsitenews.com/p/incoming-freshman-says-allies-of\">weapons</a> to Israel. </p>\n\n<p>New lawmakers are looking to work with him instead, three sources familiar with the internal process on Capitol Hill confirmed to MEE. </p><div class=\"block-adsense block-adsense-managed-ad-block\"><div>\n  <div class=\"adsense responsive\">\n    \n<!-- responsive -->\n<ins class=\"adsbygoogle mee-auto-ad-wrapper \" style=\"display: block;\"></ins>\n\n  </div>\n</div>\n</div>\n\n<p>The 56-year-old Jeffries is backed by pro-Israel lobbying groups and has made it clear he is an avowed protector of <a href=\"https://www.jta.org/2026/11/09/ny/israel-supporter-hakeem-jeffries-may-need-to-tread-carefully-if-he-becomes-house-speaker\">Israel</a>. He has also received substantial financial support from a litany of big <a href=\"https://www.opensecrets.org/profiles/hakeem-jeffries/us_congress/organizations?mpid=1050304\">corporations</a>, including tech and weapons manufacturers. </p>\n\n<p>Perhaps most importantly, his candidacy in his New York district and his leadership bid were endorsed by progressive kingmaker and New York City Mayor Zohran Mamdani - much to <a href=\"https://www.newsweek.com/zohran-mamdani-angers-leftists-with-hakeem-jeffries-support-12365241\">the chagrin</a> of Mamdani's own supporters.</p>\n\n<div class=\"mee-readmore mee-readmore-article-story mee-readmore-type-image align-right\">\n  <a class=\"mee-readmore-img-link\" href=\"https://www.middleeasteye.net/news/petition-opposing-hakeem-jeffries-us-house-speaker-passes-one-million-signatures\"><img alt=\"alt\" class=\"mee-readmore-image\" height=\"250\" src=\"https://www.middleeasteye.net/sites/default/files/styles/read_more/public/images-story/000_D6YD9TV.jpg.webp?itok=Ud8_gsJf\" width=\"400\" />\n\n</a>  <div class=\"mee-readmore-description\">Petition opposing Hakeem Jeffries as US House Speaker passes one million signatures</div>\n    <a class=\"mee-readmore-link\" href=\"https://www.middleeasteye.net/news/petition-opposing-hakeem-jeffries-us-house-speaker-passes-one-million-signatures\">Read More »</a>\n</div>\n\n<p>Mamdani is largely credited with setting off a wave of young Democratic Socialists launching campaigns for office. </p>\n\n<p>Just before the 3 November midterm elections, Redbox Research's polling showed only <a href=\"https://afightworthhaving.com/polling/leadership\">19 percent</a> of Democratic voters want to keep Jeffries as their leader in Congress.</p>\n\n<p>A <a href=\"https://www.change.org/p/house-democrats-choose-a-new-speaker?recruiter=659139&recruited_by_id=00b2a780-1583-0130-a17b-3c764e046567&utm_source=share_petition&utm_campaign=psf_promote_or_share&utm_medium=mobileNativeShare&share_id=mnrGDVqYzd\">Change.org petition</a> last week already had one million signatures calling for him to step aside. </p>\n\n<p>The Speaker of the House is second in line to the US presidency, after the vice president. Jeffries, in particular, would also become the first Black lawmaker to ever assume the role. </p>\n\n<p>\"I would suspect most Democrats will think twice about about blocking that historic achievement - even if they have other concerns about Jeffries,\" Chris Edelson, a constitutional scholar and political science lecturer at the University of Massachusetts at Amherst, told MEE on Tuesday.</p>\n\n<h3>'Undecided'</h3>\n\n<p>The vote, which is done through secret ballot, is set for next week. The 120th Congress will be sworn in on 3 January 2027. </p>\n\n<p>Speaking to reporters during their new member onboarding session this week, some of the most progressive, pro-Palestine, political novices made it clear they are willing to work with anyone who shares their goal of delivering for voters - even though they were specifically asked about whether they would back Jeffries.</p>\n\n<p>\"This was a historic class [of new lawmakers], one that has a lot of firsts,\" Colorado Representative-elect <a href=\"https://www.middleeasteye.net/news/pro-palestine-immigrant-ousts-30-year-veteran-us-congress-colorado-democratic-primary\">Melat Kiros</a> said.</p>\n\n<p>\"We might have different ideas about how to accomplish certain things, but we all agree that we have to reduce costs for families. We all agree that we have to root out corruption in government. We all agree that our foreign policy has to actually reflect our values. In order for us to be able to do that, we need an agenda that's bold enough to meet that vision,\" she said.</p>\n\n<div class=\"mee-readmore mee-readmore-article-story mee-readmore-type-image align-right\">\n  <a class=\"mee-readmore-img-link\" href=\"https://www.middleeasteye.net/news/jd-vance-blames-iran-war-and-support-israel-failure-us-mid-term-elections\"><img alt=\"alt\" class=\"mee-readmore-image\" height=\"250\" src=\"https://www.middleeasteye.net/sites/default/files/styles/read_more/public/images-story/VANCE_TRUMP_AFP.jpg.webp?itok=Yr8i5Ou-\" width=\"400\" />\n\n</a>  <div class=\"mee-readmore-description\">JD Vance blames Iran war and support for Israel for failure in US mid-term elections</div>\n    <a class=\"mee-readmore-link\" href=\"https://www.middleeasteye.net/news/jd-vance-blames-iran-war-and-support-israel-failure-us-mid-term-elections\">Read More »</a>\n</div>\n\n<p>\"And so what we're demanding is an agenda. It's not about the individual. It's about what kind of priorities, what kind of floor votes, what kind of plan do we have to actually fight.\"</p>\n\n<p>New Jersey Representative-elect <a href=\"https://www.middleeasteye.net/news/egyptian-doctor-who-undertook-medical-missions-gaza-will-now-go-congress\">Adam Hamawy</a> maintained the group is \"undecided\". </p>\n\n<p>\"We're not going to rubber stamp anything. We want to sit and have a conversation about the issues and what's the plan going forward. And I think that's what the American people elected us to do, is to have these conversations,\" he said. </p>\n\n<p>Ohio Representative-elect Don Leonard, however, <a href=\"https://www.instagram.com/p/DfjKlmQRfHv/\">posted a video</a> on Instagram on Monday, making it clear he'd been told there would be consequences for not voting for Jeffries.</p>\n\n<p>\"I met with... senior members of the Democratic House, who told me in no uncertain terms that the decision as to whether or not I support Jeffries, regardless of his willingness to speak with me and meet the interests of my constituents on a couple of key issues... would basically mean both making my life a living hell for the next two years here in Washington, as well as being sure to lose my election in two years,\" he said. </p>\n\n<p>Those key issues, he explained, were getting corporate money out of politics, and ending US support for Israel and its wars in the region. </p>\n\n<p>\"The big 'D' Democratic Party needs some little 'd' democracy,\" Leonard added. </p>\n\n<p>On Tuesday, Republicans came together to declare Trump loyalist and Ohio Congressman Jim Jordan as their leader in the House for the next session, and to keep South Dakota Senator John Thune as the minority leader in the Senate.</p><div class=\"block-adsense block-adsense-managed-ad-block\"><div>\n  <div class=\"adsense responsive\">\n    \n<!-- responsive -->\n<ins class=\"adsbygoogle mee-auto-ad-wrapper \" style=\"display: block;\"></ins>\n\n  </div>\n</div>\n</div>\n\n<h3>Senate tussle</h3>\n\n<p>Indeed, ensuring that party members get in line is, in effect, the job of the leader.</p>\n\n<p>Building personal relationships is critical in the corridors of power, Neil Sroka, a former progressive strategist, told MEE on Tuesday.</p>\n\n<p>\"It's not just ideological [matters] that drive decision-making behind who's a [Senate] Majority Leader and who's a Speaker of the House. There are regional concerns, there are state delegation concerns, and so the politics of it are very complicated, and I don't envy any member of Congress or a member of the US Senate who are trying to figure out how to navigate those complicated waters, and especially in an ideologically complicated result as in this election.\"</p>\n\n<p>If someone's leadership bid is potentially threatened, it could be the top Democrat in the Senate, the 75-year-old Chuck Schumer, sources told MEE. At the very least, his support base would be eroded even if he retains his post, and he would have to make room for the left-wing flank to bring their issues to the floor.</p>\n\n<p>He is even more unpopular among Democratic voters than Jeffries, polling at <a href=\"https://afightworthhaving.com/polling/leadership\">just 11 percent</a> favourability. </p>\n\n<blockquote>\n<p>'Schumer’s foreign policy record is a serious liability for his continued leadership'</p>\n\n<p><em>- Cavan Kharrazian, senior policy adviser, Demand Progress</em></p>\n</blockquote>\n\n<p>The New York senator is also backed by corporate interests and is a staunch supporter of Israel, as well as a hawk on Iran, even if he didn't like the way President Donald Trump himself carried out a seemingly endless war.</p>\n\n<p>\"Politics matters to some extent, but it also matters who a senator is going to see in the Senate gym,\" Sroka explained. \"That's what we recalled back from the 2018 race - even though there might have been some agita about Leader Schumer and whether or not he was really in line with the rest of the Senate, he had everyone on speed dial. Everyone knew him really well, and it was very hard to step outside of that lane.\"</p>\n\n<p>On Tuesday, anti-war activists from Code Pink, among other groups, staged a protest outside Schumer's office after <a href=\"https://x.com/FordFischer/status/2120231397617017163?a=6pXnKUWNQJE4H2BtaDA&s=20\">being locked out</a> by his staff, they said. </p>\n\n<p>They were specifically protesting against the $1.5 trillion budget requested by the Trump administration for the Department of War, which will have to go through the Senate.</p>\n\n<p>The bill also includes a provision that would <a href=\"https://www.middleeasteye.net/news/buried-new-defence-budget-plan-to-merge-us-israeli-militaries\">permanently integrate</a> US and Israeli military tech advancements in a way that would - as Israeli Prime Minister Benjamin Netanyahu <a href=\"https://www.middleeastmonitor.com/20260604-my-plan-netanyahu-letter-reveals-israels-bid-to-replace-us-aid-with-military-fusion/\" target=\"_blank\">put it</a> - turn Israel from a foreign aid recipient to a full-scale partner. </p>\n\n<p>Only one senator with some limited backing to be speaker has emerged as a <a href=\"https://truthout.org/articles/senators-block-pentagon-bill-over-iran-war-and-us-israeli-military-integration/\">vocal advocate</a> of such a move: Maryland Senator Chris Van Hollen. He is perhaps the Senate's most visible progressive voice on foreign policy, after Vermont Senator Bernie Sanders. </p>\n\n<p>Michigan Senator-elect Abdul El-Sayed has already said for months he would like to see Van Hollen elected as the top Democrat in the Senate, even though the senator had not shown interest in the position.</p>\n\n<p>\"I have said that I am in listening mode,\" Van Hollen told a reporter on Capitol Hill this week. \"There are clearly lots of people around the country, and a number of our members, quite a few of our members, who want to have this discussion, and so I'm in active listening mode... I haven't closed the door.\"</p><div class=\"block-adsense block-adsense-managed-ad-block\"><div>\n  <div class=\"adsense responsive\">\n    \n<!-- responsive -->\n<ins class=\"adsbygoogle mee-auto-ad-wrapper \" style=\"display: block;\"></ins>\n\n  </div>\n</div>\n</div>\n\n<p>Cavan Kharrazian, a senior policy adviser with the group Demand Progress, told MEE that Schumer's record comes into sharper focus now that Van Hollen has emerged as a possibility. </p>\n\n<p>\"Van Hollen has been at the forefront in the Senate of challenging unconditional support for Israel and has made clear he will oppose funding legislation in the lame duck [session],\" he said. \"That puts real pressure on Schumer to take a firm stand against war funding... and explain how he can lead his caucus in the direction voters are demanding after spending so much of his career resisting it.\"</p>\n\n<p>Schumer has long been criticised as being too soft on Trump since his first term from 2016-2020, and the backlash against the current administration in the midterm elections has, if anything, shown that Democrats want fighters to represent them.</p>\n\n<p>“Schumer’s foreign policy record is a serious liability for his continued leadership,\" Kharrazian said. \"The midterms underscored the need for leaders who will confront Trump’s reckless wars and forge a new foreign policy grounded in diplomacy, human rights, and people’s needs at home,\" Kharrazian added.</p>\n</div>\n                  <div class=\"field field-field-topic\"><a href=\"https://www.middleeasteye.net/topics/us-politics\" hreflang=\"en\">US Politics</a></div>\n                  <div class=\"field field-field-article-location\">Washington</div>\n                  <div class=\"field field-field-section\"><a href=\"https://www.middleeasteye.net/news/all\" hreflang=\"en\">News</a></div>\n        <div class=\"field field-field-post-date-override\">\n    <div>Post Date Override</div>\n              <div>0</div>\n          </div>\n  <div class=\"field field-field-update-date-override\">\n    <div>Update Date</div>\n              <div><time datetime=\"2020-05-04T21:19:45+01:00\">Mon, 05/04/2020 - 21:19</time>\n</div>\n          </div>\n  <div class=\"field field-field-update-date-check\">\n    <div>Update Date Override</div>\n              <div>0</div>\n          </div>\n\n  </div>\n  \n</article>",
+      "link": "https://www.middleeasteye.net/news/us-house-democrat-leader-jeffries-will-retain-position-despite-opposition-sources-say",
+      "published": "Tue, 10 Nov 2026 22:52:39 +0000",
+      "source": "Middle East Eye"
+    },
+    {
+      "title": "AMD’s stock fades as investors weigh whether Nvidia’s turmoil will mean lasting wins",
+      "summary": "It’s one thing for money to shift between stocks,  but it’s another thing for customers to shift their supplier relationships.",
+      "link": "https://www.marketwatch.com/story/amds-stock-fades-as-investors-weigh-whether-nvidias-turmoil-will-mean-lasting-wins-1ecfbc5e?mod=mw_rss_topstories",
+      "published": "Tue, 10 Nov 2026 22:37:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Russian crude exports fall on G7 tankers as Greek operators flee for better earnings",
+      "summary": "Russian crude exports on G7 tankers fell sharply in October as Greek operators were enticed by strong earnings elsewhere and steered away from Black Sea conflicts, according to S&P Global Commodities at Sea(opens in a new tab) and Maritime Intelligence Risk Suite data. The data shows tankers flagged, owned or operated by companies based in ...",
+      "link": "https://www.hellenicshippingnews.com/russian-crude-exports-fall-on-g7-tankers-as-greek-operators-flee-for-better-earnings/",
+      "published": "Tue, 10 Nov 2026 22:00:59 +0000",
+      "source": "Hellenic Shipping News"
+    },
+    {
+      "title": "Shipping in New Crossroads After the US Mid-Term Election",
+      "summary": "The shipping market is facing renewed uncertainty after the latest developments in the US and the mid term elections’ results. In its latest weekly report, shipbroker Xclusiv said that “the November 3rd US midterm elections reshaped Washington’s political landscape, with Democrats securing both the House and Senate, delivering a significant setback to President Trump. Inflation, ...",
+      "link": "https://www.hellenicshippingnews.com/shipping-in-new-crossroads-after-the-us-mid-term-election/",
+      "published": "Tue, 10 Nov 2026 22:00:59 +0000",
+      "source": "Hellenic Shipping News"
+    },
+    {
+      "title": "Atlantic Tanker Earnings Fall Faster Than Gulf Earnings",
+      "summary": "The TD3C/TD22 earnings ratio rose from 2.73 on 30 October to 3.10 on 6 November, as US Gulf–China VLCC earnings fell 16.2% to around $415,000/day, against a 4.8% decline on Middle East Gulf–China to $1.29 million/day. All 16 dirty tanker benchmarks fell over the week, with the steepest declines in the Atlantic and Mediterranean. Several ...",
+      "link": "https://www.hellenicshippingnews.com/atlantic-tanker-earnings-fall-faster-than-gulf-earnings/",
+      "published": "Tue, 10 Nov 2026 22:00:58 +0000",
+      "source": "Hellenic Shipping News"
+    },
+    {
+      "title": "A ‘Geologic Freak’ in Arkansas Is Big Oil’s New Lithium Bet",
+      "summary": "The world is electrifying at an unprecedented pace, and it’s only going to keep speeding up. COP 31, the latest iteration of the United Nations’ annual climate conference, kicked off today in Antalya, Türkiye, and achieving 35 percent global electrification by 2035 is going to be one of the event’s most central agenda items. Until extremely recently, this target likely would have seemed overly ambitious, but experts say that a number of factors, including volatile oil and gas markets stemming from the war in Iran, paired…",
+      "link": "https://oilprice.com/Metals/Commodities/A-Geologic-Freak-in-Arkansas-Is-Big-Oils-New-Lithium-Bet.html",
+      "published": "Tue, 10 Nov 2026 16:00:00 -0600",
+      "source": "OilPrice"
+    },
+    {
+      "title": "Iran unveils massive underground 'missile city' as IRGC warns of violent global response",
+      "summary": "<img align=\"right\" alt=\"Footage released by the IRGC, including Maj.-Gen. Ali Abdollahi and Brig.-Gen. Seyed Majid Mousavi touring an allegedly newly established underground missile facility, November 10, 2026. (photo credit: Screenshot/X/@GEOIMINT)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_949,w_1675/745794\" title=\"Footage released by the IRGC, including Maj.-Gen. Ali Abdollahi and Brig.-Gen. Seyed Majid Mousavi touring an allegedly newly established underground missile facility, November 10, 2026. (photo credit: Screenshot/X/@GEOIMINT)\" /><br />IRGC Maj.-Gen. Abdollahi warned of retaliation beyond the Middle East if Iran faced renewed attacks. “If the enemy makes another move against us, our response will extend beyond the region,” he said.<br />",
+      "link": "https://www.jpost.com/middle-east/iran-news/article-914507",
+      "published": "Tue, 10 Nov 2026 21:09:40 GMT",
+      "source": "Jerusalem Post"
+    },
+    {
+      "title": "Port of Brunswick Expands Auto Shipping Capacity as Georgia Manufacturing Booms",
+      "summary": "The Georgia Ports Authority is expanding automotive shipping capacity at the Port of Brunswick as a growing number of global automakers establish manufacturing operations across the state, strengthening Georgia’s position...",
+      "link": "https://gcaptain.com/port-of-brunswick-expands-auto-shipping-capacity-as-georgia-manufacturing-booms/",
+      "published": "Tue, 10 Nov 2026 20:24:01 +0000",
+      "source": "gCaptain"
+    },
+    {
+      "title": "‘Nonsense Rate’: Iran War Exposes Turmoil Behind Key Tanker Benchmark",
+      "summary": "In March this year, inside a 282-year-old institution responsible for one of the most important prices in global oil markets, one man staged a quiet protest.",
+      "link": "https://gcaptain.com/nonsense-rate-iran-war-exposes-turmoil-behind-key-tanker-benchmark/",
+      "published": "Tue, 10 Nov 2026 19:55:18 +0000",
+      "source": "gCaptain"
+    },
+    {
+      "title": "U.S. Closes First Oil and Gas Production Loan Under Revamped Energy Financing Program",
+      "summary": "The U.S. Department of Energy has closed a $480 million loan to modernize 22 offshore platforms in the Gulf of Mexico, marking the department’s first completed loan financing domestic oil...",
+      "link": "https://gcaptain.com/u-s-closes-first-oil-and-gas-production-loan-under-revamped-energy-financing-program/",
+      "published": "Tue, 10 Nov 2026 19:46:23 +0000",
+      "source": "gCaptain"
+    },
+    {
+      "title": "Most Americans want new Democratic Congress to end Trump’s Iran war, poll finds",
+      "summary": "A new Reuters/Ipsos poll found that 71% of Americans want Congress to pass legislation ending the conflict with Iran.",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/11/10/most-americans-want-new-democratic-congress-to-end-trumps-iran-war-poll-finds/",
+      "published": "Tue, 10 Nov 2026 19:29:39 +0000",
+      "source": "Defense News"
+    },
+    {
+      "title": "Falkland Islanders face ‘devastating consequences’ if Argentina blocks oil project, says UK",
+      "summary": "<p>Countries clash over Sea Lion project as Hamburg tribunal risks deepening sovereignty dispute</p><p>The people of the Falkland Islands face “devastating consequences” if Argentina is successful in blocking development of its offshore oilfield, the attorney general for England and Wales has told an international tribunal.</p><p>Ellie Reeves, representing the British government at a hearing of the international tribunal for the law of the sea (Itlos), said billions of pounds vital to the future of the British overseas territory would be lost.</p> <a href=\"https://www.theguardian.com/world/2026/nov/10/uk-and-argentina-clash-over-falklands-oil-project-as-hamburg-tribunal-starts\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/nov/10/uk-and-argentina-clash-over-falklands-oil-project-as-hamburg-tribunal-starts",
+      "published": "Tue, 10 Nov 2026 19:01:33 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Netanyahu: Israel will soon face pressure to accept nuclear Iran, must form unity gov't",
+      "summary": "<img align=\"right\" alt=\"Prime Minister Benjamin Netanyahu speaks at the Knesset following the swearing-in of the 26th Knesset, in Jerusalem, November 10, 2026 (photo credit: MARC ISRAEL SELLEM/THE JERUSALEM POST)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_1066,w_1600/745762\" title=\"Prime Minister Benjamin Netanyahu speaks at the Knesset following the swearing-in of the 26th Knesset, in Jerusalem, November 10, 2026 (photo credit: MARC ISRAEL SELLEM/THE JERUSALEM POST)\" /><br />The prime minister also added that Israel can be expected to be pressured to \"retreat from its monumental achievements and from the major progress made regarding security zones.\"<br />",
+      "link": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-914488",
+      "published": "Tue, 10 Nov 2026 17:43:08 GMT",
+      "source": "Jerusalem Post"
+    },
+    {
+      "title": "Russian naval aggression prompts new defensive initiative with ‘beer-drinking nations’",
+      "summary": "<p>New alliance with the Netherlands and Baltic and Nordic countries comes in response to 41% increase in Russian naval activity around UK</p><p>Russian naval activity around the UK has increased by 41% in the first nine months of the year, a British defence minister has said, as the Royal Navy announced plans to step up a 10-country maritime defensive effort in response.</p><p>Luke Pollard, the minister for defence readiness, described the figure as “a huge increase”, justifying a new drone and warship initiative from “the alliance of beer-drinking nations” – the UK, the Netherlands and the Baltic and Nordic countries.</p> <a href=\"https://www.theguardian.com/uk-news/2026/nov/10/russian-naval-aggression-defensive-initiative-beer-drinking-nations\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/uk-news/2026/nov/10/russian-naval-aggression-defensive-initiative-beer-drinking-nations",
+      "published": "Tue, 10 Nov 2026 17:26:59 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Rubico targets five-ship MR fleet with latest Top Ships newbuild swoop",
+      "summary": "<p>Nasdaq-listed Rubico has struck a deal to take another two MR tanker newbuildings from Top Ships in a $14.5m deal, continuing the reshuffle of Evangelos Pistiolis-linked tanker orders in China. The Athens-based owner is buying two special-purpose companies holding shipbuilding contracts for 47,499 dwt product and chemical tankers at Guangzhou Shipyard International (GSI). The vessels …</p>\n</p>",
+      "link": "https://splash247.com/rubico-targets-five-ship-mr-fleet-with-latest-top-ships-newbuild-swoop/",
+      "published": "Tue, 10 Nov 2026 17:17:41 +0000",
+      "source": "Splash247"
+    },
+    {
+      "title": "Shipping heavyweights back Cetus $175m Oslo listing",
+      "summary": "<p>Hong Kong-based dry bulk owner Cetus Maritime has lined up some of shipping’s biggest investment names for a $175m private placement ahead of its planned Oslo listing later this month. An investment vehicle linked to Idan Ofer’s Eastern Pacific Shipping, Arne Blystad’s Songa Capital and the Albemarle Shipping Fund, co-founded by Magnus Halvorsen, are among …</p>\n</p>",
+      "link": "https://splash247.com/shipping-heavyweights-back-cetus-175m-oslo-listing/",
+      "published": "Tue, 10 Nov 2026 16:59:36 +0000",
+      "source": "Splash247"
+    },
+    {
+      "title": "Britain says its bases are safe after US refueling planes evacuated",
+      "summary": "Commercially available flight tracking data showed at least 10 Boeing KC-135R Stratotanker refueling planes left the Royal Air Force base in Mildenhall, eastern England, on Monday.",
+      "link": "https://www.defensenews.com/global/europe/2026/11/10/britain-says-its-bases-are-safe-after-us-refueling-planes-evacuated/",
+      "published": "Tue, 10 Nov 2026 14:11:56 +0000",
+      "source": "Defense News"
+    },
+    {
+      "title": "UK Launches £90M ‘Atlantic Net’ Project to Protect Undersea Cables and Hunt Submarines",
+      "summary": "<p>The UK will be more secure from Russian undersea threats in the North Atlantic following a new £90 million investment in new drones, sensors and AI systems for the Royal Navy. Royal Navy press release The new framework with British company Ocean Infinity Solutions, will strengthen the Royal Navy’s ability to protect crucial shipping routes ...</p>\n<p>The post <a href=\"https://www.navalnews.com/naval-news/2026/11/90-million-investment-for-new-drones-and-sensors-to-protect-undersea-cables-and-hunt-russian-submarines/\">UK Launches £90M ‘Atlantic Net’ Project to Protect Undersea Cables and Hunt Submarines</a> appeared first on <a href=\"https://www.navalnews.com\">Naval News</a>.</p>",
+      "link": "https://www.navalnews.com/naval-news/2026/11/90-million-investment-for-new-drones-and-sensors-to-protect-undersea-cables-and-hunt-russian-submarines/",
+      "published": "Tue, 10 Nov 2026 14:02:21 +0000",
+      "source": "Naval News"
     },
     {
       "title": "Iran rejects French claims it was behind supermarket fridge hacking",
@@ -91,83 +287,6 @@
       "source": "BBC News"
     },
     {
-      "title": "Badenoch says ‘double amputees run marathons’ as she proposes £36bn cuts to disability and other benefits – UK politics live",
-      "summary": "<p>Conservative leader launches Welfare That Works policy document</p><p><strong>Badenoch </strong>and<strong> Whately</strong> are now taking questions.</p><p><em>Q: [From Rob Powell from Sky News] We are running a report on the Netherlands, where youth unemployment is much lower than in the UK, but the amount they spend on getting people into work is much higher. Do you want to spend more on job training and support?</em></p> <a href=\"https://www.theguardian.com/politics/live/2026/nov/10/badenoch-conservative-welfare-cuts-disability-benefits-burnham-politics-latest-news-updates\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/politics/live/2026/nov/10/badenoch-conservative-welfare-cuts-disability-benefits-burnham-politics-latest-news-updates",
-      "published": "Tue, 10 Nov 2026 13:44:15 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Russia launched deadly Ukraine attacks hours before start of Abu Dhabi talks – Europe live",
-      "summary": "<p>US-led talks in Abu Dhabi are first substantive negotiations in months focusing on ending the conflict which has raged for more than four years</p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/nov/10/us-officials-russia-ukraine-war-abu-dhabi-talks\">US officials seek ‘final end’ to Russia-Ukraine war as talks begin</a></p></li></ul><p>The EU has said it stands ready “to come with a swift and united response” after France blamed Iran for a spate of cyber-attacks on supermarket freezers and chillers that caused millions of euros of damage.</p><p>Speaking to journalists on Monday, French foreign minister <strong>Jean-Noël Barrot</strong> said “<strong>Europe-wide sanctions</strong>” would be imposed against those responsible as he announced <a href=\"https://www.theguardian.com/world/2026/nov/09/france-blames-irans-revolutionary-guards-for-cyber-attacks-on-supermarket-fridges\">France believed that Iran’s Revolutionary Guards were “responsible for this attack”</a>.</p><p><em>We acknowledge that France has attributed these (cyber-attacks) to Iran. Pending discussions with member states, we as (the) European Union, <strong>we stand ready to come with a swift and united response</strong>.</em></p><p><em>We as the EU, <strong>we have consistently called on all states to refrain from malicious behaviour in the cyberspace</strong>. And we will continue to address such malicious behavior, making use of all the tools that we have also under the EU cyber diplomacy toolbox, including sanctions.</em></p> <a href=\"https://www.theguardian.com/world/live/2026/nov/10/ukraine-russia-war-us-talks-abu-dhabi-europe-latest-news-updates\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/live/2026/nov/10/ukraine-russia-war-us-talks-abu-dhabi-europe-latest-news-updates",
-      "published": "Tue, 10 Nov 2026 13:39:53 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Tribunal Hearings Begin in UK-Argentina Row Over Falklands Oil Project",
-      "summary": "The Hamburg-based International Tribunal for the Law of the Sea on Tuesday begins hearings of Argentina’s complaint about the UK’s oil drilling project north of the Falkland Islands, which Argentinian President Javier Milei claims is unlawful amid a recently revived row with Britain over who controls the Falklands.  The Sea Lion oil field is operated by Navitas Petroleum Development and Production Ltd (NPDP), a UK-based fully owned subsidiary of Israeli Navitas Petroleum, and its British partner Rockhopper Exploration.  The…",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Tribunal-Hearings-Begin-in-UK-Argentina-Row-Over-Falklands-Oil-Project.html",
-      "published": "Tue, 10 Nov 2026 07:30:00 -0600",
-      "source": "OilPrice"
-    },
-    {
-      "title": "Cop31 live: host Turkey celebrates new oilfields as climate summit enters second day",
-      "summary": "<p>UN climate summit prepares to host world leaders from more than 90 countries as scientists find global carbon emissions flatlined this year</p><p>We’ve just heard from <strong>Patricia Espinosa</strong>, the former UN climate boss (succeeded by <strong>Simon Stiell)</strong> and now we are hearing from former US secretary of state and climate ambassador, <strong>John Kerry.</strong></p><p>Kerry has congratulated Brazil for keeping the fossil fuel transition issue alive, and the room has erupted in cheers.</p> <a href=\"https://www.theguardian.com/environment/live/2026/nov/10/cop31-live-fossil-fuel-carbon-emissions-climate-crisis-latest-news-updates\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/environment/live/2026/nov/10/cop31-live-fossil-fuel-carbon-emissions-climate-crisis-latest-news-updates",
-      "published": "Tue, 10 Nov 2026 13:13:44 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Iran military chief warns of retaliation beyond the region",
-      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/iran-military-chief-warns-retaliation-beyond-region\" rel=\"bookmark\">\n<span class=\"field field-title\">Iran military chief warns of retaliation beyond the region</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Iran’s armed forces chief Ali Abdollahi has warned that the military will “respond without restrictions and beyond the region” if the “enemy” takes action against Iran.</p>\n\n<p>“We will have many surprises for the enemy during the future war. If the Zionist entity makes any mistake against us, we will destroy it,” he said.</p>\n\n<p>The warning follows US President Donald Trump’s declaration on Monday that the war was “effectively over”.</p>\n</div>\n      \n  </div>\n\n</article>",
-      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/iran-military-chief-warns-retaliation-beyond-region",
-      "published": "Tue, 10 Nov 2026 13:11:34 +0000",
-      "source": "Middle East Eye"
-    },
-    {
-      "title": "Iran seals restaurants over allegations businesses ‘failed to observe Islamic norms’",
-      "summary": "<img align=\"right\" alt=\"Iranians sit inside a restaurant in downtown Tehran on February 25, 2026; Illustrative. (photo credit: AFP VIA GETTY IMAGES)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_3309,w_4884/745670\" title=\"Iranians sit inside a restaurant in downtown Tehran on February 25, 2026; Illustrative. (photo credit: AFP VIA GETTY IMAGES)\" /><br />Three cafés in Birjand were sealed for failing to observe Islamic principles, according to the Islamic Revolution Guard Corps (IRGC)-affiliated Tasnim News Agency.<br />",
-      "link": "https://www.jpost.com/middle-east/iran-news/article-914456",
-      "published": "Tue, 10 Nov 2026 13:11:12 GMT",
-      "source": "Jerusalem Post"
-    },
-    {
-      "title": "Iran lifts 2,000km limit on its ballistic missiles: What that means",
-      "summary": "Experts ask whether longer-range missiles are intended to hit targets beyond the Middle East.",
-      "link": "https://www.aljazeera.com/news/2026/11/10/iran-lifts-2000km-limit-on-its-ballistic-missiles-what-that-means?traffic_source=rss",
-      "published": "Tue, 10 Nov 2026 12:56:41 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "The changing face of Israel’s ultra-Orthodox politics",
-      "summary": "<article class=\"the-big-story default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/news/changing-face-israels-ultra-orthodox-politics\" rel=\"bookmark\">\n<span class=\"field field-title\">The changing face of Israel’s ultra-Orthodox politics</span>\n</a>\n    </h2>\n    \n\n          <footer>\n      \n      <div class=\"author\">\n        Submitted by \n<span class=\"field field-uid\"><a href=\"https://www.middleeasteye.net/users/rikki-sprinzak\" lang=\"lang\" title=\"View user profile.\">Rikki Sprinzak</a></span>\n on \n<span class=\"field field-created\"><time datetime=\"2026-11-10T10:35:27+00:00\" title=\"10 November 2026 10:35 GMT\">Tue, 11/10/2026 - 10:35</time>\n</span>\n        \n      </div>\n    </footer>\n      \n    <div class=\"content\">\n                <div class=\"field field-field-main-image\">    \n                  <source height=\"787\" type=\"image/webp\" width=\"1400\" />\n                  <img alt=\"An ultra-Orthodox Jewish man performs the \"Tashlich\" ritual in Netanya on 17 September 2026 ahead of the Day of Atonement, or Yom Kippur, the most important day in the Jewish calendar (Ilia Yefimovich/AFP)\" height=\"787\" src=\"https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/000_C8M33TE%20%281%29.jpg.jpg?itok=zNqad4OA\" width=\"1400\" />\n\n  \n\n</div>\n                  <div class=\"field field-field-subhead\">Election results expose growing divisions within Haredi society and raise questions about the future of its longstanding alliance with Netanyahu</div>\n                  <div class=\"field field-body clearfix\"><p>One of the most significant developments in the aftermath of the <a href=\"https://www.middleeasteye.net/countries/israel\">Israeli</a> elections was the decision by United Torah Judaism (UTJ), the main ultra-Orthodox Jewish party, not to recommend Benjamin Netanyahu to form the next government. </p>\n\n<p>This marks a departure from years of close alliance between Netanyahu and the ultra-Orthodox, or Haredi, parties, long considered a pillar of Israeli politics.</p>\n\n<p>Even if the move was tactical, intended to strengthen the Haredi parties’ bargaining position, it sends an important signal, as last month’s vote exposed several significant shifts within Haredi society.</p>\n\n<p>They include the declining standing of veteran political leaders, a struggle over the future of Haredi leadership, the emergence of a new political force challenging established conventions from within, and a deepening crisis surrounding the model of the “society of learners”.</p>\n\n<p>This social model developed in Israel, where Torah study in yeshivas and kollelim has become a central way of life and even a social ideal for Haredi men. Many devote years to religious study instead of entering the labour market or undertaking military service. </p>\n\n<p>The model rests on the belief that Torah study is a supreme value and a communal obligation, supported financially by families, the community, the state and religious support networks.</p>\n\n<p>For decades, the Haredi parties were among the most stable and predictable blocs in Israeli politics. They relied on communal loyalty, rabbinical authority, and the largely automatic voting patterns of a constituency that sought to preserve its political influence through unified Haredi representation.</p>\n\n<p>That model appears to be beginning to fracture. Beyond how many seats each party won in the parliament, or Knesset, the broader question for many is whether Haredi society remains willing to accept its traditional political leadership without question, or is beginning to demand change, accountability and the ability to confront Israel’s changing reality. </p>\n\n<div class=\"mee-readmore mee-readmore-article-opinion mee-readmore-type-image align-right\">\n  <a class=\"mee-readmore-img-link\" href=\"https://www.middleeasteye.net/opinion/how-mass-haredi-opposition-could-reshape-israel\"><img alt=\"alt\" class=\"mee-readmore-image\" height=\"250\" src=\"https://www.middleeasteye.net/sites/default/files/styles/read_more/public/images-story/israel-ultra-orthodox-protest-jerusalem-october-2025-fadel-senna-afp.jpg.webp?itok=89Rh8Nay\" width=\"400\" />\n\n</a>  <div class=\"mee-readmore-description\">How mass Haredi opposition could reshape Israel</div>\n    <a class=\"mee-readmore-link\" href=\"https://www.middleeasteye.net/opinion/how-mass-haredi-opposition-could-reshape-israel\">Read More »</a>\n</div>\n\n<p>The trauma of the Hamas-led 7 October attack may have bypassed the Haredi spiritual leadership and its veteran MPs, but the wider Haredi public, including the generally more conservative Lithuanian community, understands that something momentous has happened in Israel. This is particularly true of the younger generation.</p>\n\n<p>The traditional divisions between Lithuanian, Hasidic and Sephardi Haredim remain important. But new fault lines are emerging: between younger and older generations, between working Haredim and full-time Torah scholars, and between those seeking greater integration into Israeli society and those who fear that any compromise will undermine the Haredi way of life.</p>\n\n<p>Israel’s regional wars, the question of conscripting yeshiva students, mounting economic hardship among Haredi families and growing tensions between the community and those serving in the military have made these divisions increasingly tangible.</p>\n\n<p>For years, securing the legal status of yeshiva students was a central objective of the Haredi parties. It has now become a dangerous political test. The failure to pass legislation exempting them from military service was not simply a parliamentary setback for UTJ. It exposed the limits of Haredi political leaders’ power and the political price their representatives pay when they fail to deliver on promises to voters.</p>\n\n<p>The changing composition of Haredi political leadership is therefore about more than a reshuffling of personnel. It reflects an attempt to address a crisis of confidence, an increasingly diverse constituency and a political landscape in which even the Haredi parties can no longer take traditional voter loyalty for granted.</p>\n\n<h3>A new party</h3>\n\n<p>The emergence of HaTzibur HaHaredi (\"The Haredi Public\"), a new Haredi party, is perhaps one of the most significant changes in the Haredi political landscape. Though it won only a tiny number of votes, behind it are rabbis and other influential forces that have broken the longstanding monopoly of established parties over Haredi political representation.</p>\n\n<p>The party seeks to give a voice to Haredim who do not necessarily identify with the agendas of UTJ (Ashkenazi Jews of European origin) or Shas (Sephardi and Mizrahi Jews of Middle Eastern/North African origin), the two parties dominating the Haredi political landscape. </p>\n\n<p>This includes those who believe the existing leadership is primarily concerned with preserving its own power and political machinery. A growing section of the Haredi public is tired of living in isolation, effectively in ghettos within the state. Many believe the rabbis of the Council of Torah Sages, the community’s supreme ultra-Orthodox rabbinical authority, most of whom are approaching 90 or older, are seeking to impose a future of perpetual isolation and poverty.</p>\n\n  <figure class=\"align-center media-block\">\n  <div class=\"group-inner\">\n    <div alt=\"An ultra-Orthodox Jewish man prepares to cast his ballot at a polling station in Bnei Brak on 27 October 2026, during Israel's legislative election (Maya Levin/AFP)\" class=\"embedded-entity\">  <img alt=\"An ultra-Orthodox Jewish man prepares to cast his ballot at a polling station in Bnei Brak on 27 October 2026, during Israel's legislative election (Maya Levin/AFP)\" height=\"1125\" src=\"https://www.middleeasteye.net/sites/default/files/000_D4LN7G4%20%281%29.jpg\" width=\"2000\" />\n\n</div>\n\n    <figcaption>An ultra-Orthodox Jewish man prepares to cast his ballot at a polling station in Bnei Brak on 27 October 2026, during Israel's legislative election (Maya Levin/AFP)</figcaption>\n  </div>\n</figure>\n\n\n<p><span><img height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span>These new Haredim, who prefer to call themselves \"Israeli Haredim\", are advocating a different model. They are raising a fundamental question: can they remain Haredi, preserve their religious and communal identity, and at the same time demand greater integration into Israeli society, greater civic responsibility and a renewed debate about military service?</p>\n\n<p>The party’s emergence presents the traditional leadership with a challenge it has not faced before. Until now, dissatisfied Haredi voters could abstain, support another party or voice their opposition within the community. They now have a political alternative that speaks in a Haredi voice without necessarily accepting the rules of the Haredi establishment.</p>\n\n<p>This does not mean that a new Haredi political camp with substantial electoral strength has emerged. The party’s electoral support remains limited. Nevertheless, its existence could reshape public discourse, bring new issues onto the political agenda and increase pressure on the established parties.</p>\n\n<p>The decision by Dr Nechumi Yaffe, a scholar of Haredi society and political psychology, to join the party and stand as a candidate also signals an effort to broaden Haredi representation beyond the familiar, male-dominated world of political operatives. The change is largely symbolic, but far from insignificant.</p>\n\n<h3>Reshuffle</h3>\n\n<p>The dramatic removal of Moshe Gafni from the leadership of UTJ was a particularly striking illustration of these developments. Gafni, who had served in the Knesset since 1988 and was long one of the most influential figures in Haredi politics, failed to retain his position.</p>\n\n<p>The official explanation was the need to \"refresh\" the leadership and bring in new representatives. But the decision reflects a more complex political struggle. The failure to pass legislation exempting yeshiva students from military service, Gafni’s declining influence and the battle for control of the party machinery all contributed to his removal.</p>\n\n<p>The move also exposed a shift in the balance of power within the rabbinical leadership. Rabbi Dov Landau, leader of the Lithuanian Haredi community, and his inner circle sought to ensure greater loyalty from political representatives to the current rabbinical leadership.</p>\n\n<p>Gafni, who had enjoyed considerable independence for years thanks to his experience, connections and political skills, had increasingly become a difficult figure to control.</p>\n\n<p>The removal of MP Uri Maklev alongside Gafni suggests that this was not simply a personal rebuke to the veteran politician. It was part of a broader effort to replace an established generation of politicians and tighten rabbinical control over parliamentary representation.</p>\n\n<p>The decision also reflects a reassessment of the alliance with Netanyahu and the Israeli right. That partnership has carried political costs, including the legitimisation of extreme nationalist positions. It has also contributed to younger Haredi voters shifting their support directly to right-wing parties, particularly Itamar Ben Gvir’s Otzma Yehudit. </p>\n\n<div class=\"mee-readmore mee-readmore-article-story mee-readmore-type-image align-right\">\n  <a class=\"mee-readmore-img-link\" href=\"https://www.middleeasteye.net/news/israel-netanyahu-ultra-orthodox-alliance-shows-signs-fracture\"><img alt=\"alt\" class=\"mee-readmore-image\" height=\"250\" src=\"https://www.middleeasteye.net/sites/default/files/styles/read_more/public/images-story/israel-ultra-orthodox-jews-protest-arrests-24-jun-2026-afp.jpg.webp?itok=I4pZ9jJ7\" width=\"400\" />\n\n</a>  <div class=\"mee-readmore-description\">Netanyahu's ultra-Orthodox alliance shows signs of fracture before crucial election</div>\n    <a class=\"mee-readmore-link\" href=\"https://www.middleeasteye.net/news/israel-netanyahu-ultra-orthodox-alliance-shows-signs-fracture\">Read More »</a>\n</div>\n\n<p>Gafni has been replaced by MP Yaakov Asher, who now chairs both Degel HaTorah, one of the main factions of the UTJ, and the alliance overall. A former mayor of Bnei Brak and Knesset member since 2013, Asher is a different kind of political figure. He lacks Gafni’s lengthy parliamentary experience but is regarded as close to and loyal to the Lithuanian rabbinical leadership, particularly Rabbi Dov Landau.</p>\n\n<p>Asher does not necessarily represent a more open approach to changing relations between Haredi society and the state.</p>\n\n<p>However, his record as chairman of the Knesset Interior Committee has earned him praise for his accessibility and ability to build alliances across different groups. These are skills that the veteran Gafni appeared to have lost.</p>\n\n<p>Against the backdrop of a growing, more modern and economically active Haredi public that does not necessarily identify with the traditional leadership, Asher’s remarks in an interview with the Haredi news website Kikar HaShabbat last month were particularly significant.</p>\n\n<p>He explicitly stated that he sees himself as representing both full-time Torah scholars and working Haredim. This is an important message to the younger Haredi generation.</p>\n\n<p>On military conscription, however, Asher takes a hard line. He even resigned as chairman of the Interior Committee in protest at the failure to regulate the status of yeshiva students. Nevertheless, his experience as mayor of the Haredi city of Bnei Brak may give him a practical understanding of both the community’s needs and the workings of government. </p>\n\n<p>The question is whether he can combine these practical skills with his uncompromising position on Haredi conscription.</p>\n\n<p>What is clear is that representatives of the Ashkenazi Haredi community have skilfully positioned themselves as potential partners for both political camps. </p>\n\n<p>UTJ abstained from recommending a candidate for prime minister during consultations with President Isaac Herzog. This has left both Gadi Eisenkot, who has been given a month to form a government, and Netanyahu courting the party’s support.</p>\n\n<h3>Shas’ crisis of identity</h3>\n\n<p>While UTJ is undergoing a major leadership upheaval, the latest election results reveal a different and more acute crisis within Shas, the Sephardi Haredi party: a crisis of identity and representation.</p>\n\n<p>The results dealt the party a severe blow. Shas fell from a peak of 11 seats in the 2022 elections to just six, losing nearly 100,000 votes. The scale of the defeat prompted longtime leader Aryeh Deri to resign. However, the Shas Council of Torah Sages rejected his resignation, prompting him to give up his Knesset seat while retaining his position as party chairman.</p>\n\n<p>Over the past few years, Deri has made several serious political miscalculations. He followed the Lithuanian Haredi leadership’s hard line on military conscription and failed to position himself as a bridge between Haredi society and secular Israelis.</p>\n\n<p>Shas was founded not simply as a Sephardi Haredi party, but as a social and political movement. It gave a voice to a large constituency of Mizrahi and traditional Jews who felt excluded from the centres of power in Israeli society.</p>\n\n<p>Rabbi Ovadia Yosef, the party’s legendary spiritual leader and founder, succeeded in bringing together two worlds: Sephardi Torah scholarship and the wider traditional Jewish public. For many, Shas was more than a political party. It represented identity, dignity and belonging. </p>\n\n  <figure class=\"align-center media-block\">\n  <div class=\"group-inner\">\n    <div alt=\"Leader of Shas Party Aryeh Deri leaves his home as he heads to a cabinet meeting, in Jerusalem 22 January 2023 (Reuters/Ronen Zvulun)\" class=\"embedded-entity\">  <img alt=\"Leader of Shas Party Aryeh Deri leaves his home as he heads to a cabinet meeting, in Jerusalem 22 January 2023 (Reuters/Ronen Zvulun)\" height=\"1125\" src=\"https://www.middleeasteye.net/sites/default/files/2023-01-22T100556Z_550622174_RC2LVY9I1EJF_RTRMADP_3_ISRAEL-POLITICS%20%281%29.jpg\" width=\"2000\" />\n\n</div>\n\n    <figcaption>Leader of Shas Party Aryeh Deri leaves his home as he heads to a cabinet meeting, in Jerusalem 22 January 2023 (Reuters/Ronen Zvulun)</figcaption>\n  </div>\n</figure>\n\n\n<p><span><img height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span></p>\n\n<p><span><img alt=\"alt\" height=\"15\" src=\"data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==\" title=\"Click and drag to move\" width=\"15\" /></span>After Rabbi Ovadia’s death, Deri managed to preserve the party’s strength, but its centre of gravity gradually shifted. Shas became increasingly identified with Haredi coalition politics and its alliance with Netanyahu.</p>\n\n<p>This may help explain the election results. Haredi voters felt that Shas was not sufficiently Haredi, while traditional voters, many of whom had served in the military, believed it had become too Haredi. They rejected Deri’s position on conscription.</p>\n\n<p>Shas is now caught between two constituencies that once formed the foundation of its strength: a Sephardi Haredi public seeking to protect the world of Torah study, and a broader traditional constituency demanding social representation, economic mobility and a sense of belonging to the state.</p>\n\n<p>The fall to six seats does not necessarily spell the end of Shas. But it confronts Deri with a fundamental strategic question: will the party continue to prioritise its position within the Haredi leadership, or seek to return to its roots as a broad social movement that also represents traditional Jews beyond the Haredi establishment?</p>\n\n<p>Shas recommended Netanyahu to Herzog as its candidate to form the next government. Ultimately, however, its MPs are likely to support whichever government UTJ, the Ashkenazi Haredi party, and its spiritual leader, Rabbi Landau, decide to back.</p>\n\n<h3>What next?</h3>\n\n<p>It remains to be seen whether Eisenkot can reach an agreement with Haredi parties to form the next government, ending their almost 17-year-long alliance with Netanyahu. </p>\n\n<p>What is clear, however, is that Haredi society is undergoing several contradictory processes simultaneously.</p>\n\n<p>On the one hand, the rabbinical leadership is seeking to tighten its control over politicians, as demonstrated by the removal of Gafni and Maklev and the appointment of Asher to lead the UJT. On the other hand, there is growing recognition that Haredi society can no longer remain detached from the central issues facing Israel: military service, employment, education, the economy and relations between Haredi and secular Jews.</p>\n\n<p>The latest elections do not yet represent a victory for those seeking change within Haredi society. The new party failed to enter the Knesset, while the established leadership retains its grip on religious and political power.</p>\n\n<p>Yet the younger generation is growing up in a very different reality. Most own smartphones and have access to the internet. They are increasingly exposed to wider Israeli society, face rising living costs and growing concerns about their economic future, and live in a security environment in which military service is anything but an abstract question.</p>\n\n<p>Many remain committed to Torah study, but that does not mean they automatically accept every decision made by their political leaders.</p>\n\n<div class=\"mee-readmore mee-readmore-article-explainers mee-readmore-type-image align-right\">\n  <a class=\"mee-readmore-img-link\" href=\"https://www.middleeasteye.net/explainers/israel-gaza-ultra-orthodox-jews-haredim-oppose-conscription\"><img alt=\"alt\" class=\"mee-readmore-image\" height=\"250\" src=\"https://www.middleeasteye.net/sites/default/files/styles/read_more/public/images-story/israel-tel-aviv-kiryat-ono-ultra-orthodox-jew-protest-january-2025-afp.jpg.webp?itok=JYJWEiWy\" width=\"400\" />\n\n</a>  <div class=\"mee-readmore-description\">Why are ultra-Orthodox Jews against conscription?</div>\n    <a class=\"mee-readmore-link\" href=\"https://www.middleeasteye.net/explainers/israel-gaza-ultra-orthodox-jews-haredim-oppose-conscription\">Read More »</a>\n</div>\n\n<p>Decades ago, Professor Menachem Friedman, one of the pioneers of research into Haredi society, identified an inherent contradiction in the \"society of learners\" model. He described how, after the Holocaust, rebuilding the yeshiva world became a central Haredi undertaking. </p>\n\n<p>Full-time Torah study gradually evolved from an ideal pursued by a select few into an all-encompassing social norm. Friedman warned that a model dependent on a growing proportion of men not working to support their families could not be sustained indefinitely.</p>\n\n<p>“This is a situation that cannot continue,” he said in a 2012 interview.</p>\n\n<p>Today, for the first time, such criticism is also coming from within Haredi politics. Moti Leitner, chairman of HaTzibur HaHaredi, goes beyond opposing the exemption from military service. He challenges the very economic and social foundations of the society of learners, arguing that the model is collapsing and no longer reflects the realities of many within the Haredi community.</p>\n\n<p>The UTJ’s refusal to recommend Netanyahu may ultimately prove to be little more than another tactical manoeuvre in coalition negotiations. But viewed alongside Gafni’s removal, the leadership changes in UTJ, Shas’s declining electoral strength and the emergence of a new Haredi party, it points to a broader transformation.</p>\n\n<p>Haredi society is not yet undergoing a revolution, and conservative forces continue to dominate its centres of authority. Beneath the surface, however, a fundamental debate is taking shape over the very meaning of Haredi identity, the relationship between Torah and the state, military service and employment, and, ultimately, who has the right to speak on behalf of the Haredi public.</p>\n</div>\n                  <div class=\"field field-field-topic\"><a href=\"https://www.middleeasteye.net/topics/analysis\" hreflang=\"en\">Analysis</a></div>\n                  <div class=\"field field-field-section\"><a href=\"https://www.middleeasteye.net/news/all\" hreflang=\"en\">News</a></div>\n        <div class=\"field field-field-post-date-override\">\n    <div>Post Date Override</div>\n              <div>0</div>\n          </div>\n  <div class=\"field field-field-update-date-override\">\n    <div>Update Date</div>\n              <div><time datetime=\"2020-05-04T21:28:40+01:00\">Mon, 05/04/2020 - 21:28</time>\n</div>\n          </div>\n  <div class=\"field field-field-update-date-check\">\n    <div>Update Date Override</div>\n              <div>0</div>\n          </div>\n\n  </div>\n  \n</article>",
-      "link": "https://www.middleeasteye.net/news/changing-face-israels-ultra-orthodox-politics",
-      "published": "Tue, 10 Nov 2026 12:55:54 +0000",
-      "source": "Middle East Eye"
-    },
-    {
-      "title": "China Is Buying Oil Again After Months of Living Off Its Stockpiles",
-      "summary": "China’s crude oil imports last month hit the highest since March, reaching 41.94 million tons, equal to around 9.88 million barrels daily. The October average was a 9.4% increase on the previous month as well, Reuters reported. Seaborne crude oil imports specifically went up by 12% in October from September, according to data from Kpler. Citing official customs data, the publication also reported that despite the monthly increase and the seven-month high, October’s total in oil imports was still 13.3% below the volume for October 2025.…",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/China-Is-Buying-Oil-Again-After-Months-of-Living-Off-Its-Stockpiles.html",
-      "published": "Tue, 10 Nov 2026 06:30:00 -0600",
-      "source": "OilPrice"
-    },
-    {
-      "title": "Missiles intercepted over Saudi Arabia as Houthi attacks prompt emergency measures",
-      "summary": "<article class=\"story default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/news/missiles-intercepted-over-saudi-arabia-continuing-houthi-attacks-prompt-emergency-measures\" rel=\"bookmark\">\n<span class=\"field field-title\">Missiles intercepted over Saudi Arabia as Houthi attacks prompt emergency measures</span>\n</a>\n    </h2>\n    \n\n          <footer>\n      \n      <div class=\"author\">\n        Submitted by \n<span class=\"field field-uid\"><a href=\"https://www.middleeasteye.net/users/alex-macdonald\" lang=\"lang\" title=\"View user profile.\">Alex MacDonald</a></span>\n on \n<span class=\"field field-created\"><time datetime=\"2026-11-10T11:02:00+00:00\" title=\"10 November 2026 11:02 GMT\">Tue, 11/10/2026 - 11:02</time>\n</span>\n        \n      </div>\n    </footer>\n      \n    <div class=\"content\">\n                <div class=\"field field-field-subhead\">Online working for students and businesses implemented as Houthis retaliate over 44 killed in Yemen over weekend</div>\n                  <div class=\"field field-field-main-image\">    \n                  <source height=\"576\" type=\"image/webp\" width=\"1024\" />\n                  <img alt=\"Vehicles drive along a road in Mecca on October 25, 2026 (AFP)\" height=\"576\" src=\"https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/YEMEN_MECCA_CARS_AFP.jpg.jpg?itok=NjxTxQFF\" width=\"1024\" />\n\n  \n\n</div>\n                  <div class=\"field field-field-cutline\">Vehicles drive along a road in Mecca, Saudi Arabia, on 25 October 2026 (AFP)</div>\n                  <div class=\"field field-field-wide-photo-video\">Off</div>\n                  <div class=\"field field-body clearfix\"><p><a href=\"https://www.middleeasteye.net/countries/saudi-arabia\">Saudi Arabia</a> said it intercepted missiles over the capital Riyadh as ongoing Houthi attacks from <a href=\"https://www.middleeasteye.net/countries/yemen\">Yemen </a>have forced the kingdom to adopt emergency measures.</p>\n\n<p>Air defences have intercepted and destroyed several missiles launched towards southern Saudi Arabia and Riyadh, according to the Saudi-led coalition currently fighting the Houthis in Yemen.</p>\n\n<p>The coalition also indicated that it intercepted a drone over Saudi Arabia's oil-rich Eastern Province.</p>\n\n<p>Fighting between the group - officially known as Ansar Allah - and the kingdom has been occurring daily over recent weeks and has had an impact on civilian life.</p>\n\n<p>A message sent to parents on Monday announced that schools in Riyadh would return to online classes following the attacks.</p><div class=\"block-adsense block-adsense-managed-ad-block\"><div>\n  <div class=\"adsense responsive\">\n    \n<!-- responsive -->\n<ins class=\"adsbygoogle mee-auto-ad-wrapper \" style=\"display: block;\"></ins>\n\n  </div>\n</div>\n</div>\n\n<p>\"As part of the ongoing precautionary measures, we would like to confirm that classes will be online beginning tomorrow, Tuesday,\" the message, seen by AFP, said without specifying how long the measure is expected to last.</p>\n\n<p>For the third consecutive day on Tuesday, residents of Riyadh also received warning messages on their phones urging them to seek shelter due to an \"aerial threat\".</p>\n\n<p>The alert was lifted a few minutes later.</p>\n\n<h3>Saudi strikes kill dozens</h3>\n\n<p>Many businesses continue to rely on remote work, while a deadly attack on 11 October on Riyadh’s airport led to the suspension of flights.</p>\n\n<div class=\"mee-readmore mee-readmore-article-story mee-readmore-type-image align-right\">\n  <a class=\"mee-readmore-img-link\" href=\"https://www.middleeasteye.net/news/death-closer-school-yemens-children-struggle-war-trauma\"><img alt=\"alt\" class=\"mee-readmore-image\" height=\"250\" src=\"https://www.middleeasteye.net/sites/default/files/styles/read_more/public/images-story/A%20woman%20sits%20with%20two%20children%20in%20a%20classroom%20converted%20into%20a%20temporary%20shelter%20for%20displaced%20people%20at%20Shawkani%20school%2C%20north%20of%20Aden%2C%20Yemen%2C%2015%20September%202026%20%28AFP%29.jpg.webp?itok=n_xhOgPc\" width=\"400\" />\n\n</a>  <div class=\"mee-readmore-description\">‘Death is closer than school’: Yemen’s children struggle with war trauma</div>\n    <a class=\"mee-readmore-link\" href=\"https://www.middleeasteye.net/news/death-closer-school-yemens-children-struggle-war-trauma\">Read More »</a>\n</div>\n\n<p>While flights have since resumed on a limited basis, the Houthis have warned that most of Saudi Arabia’s airspace should be regarded as \"not safe\".</p>\n\n<p>Meanwhile, Saudi Arabia's attacks in Yemen have escalated a humanitarian crisis in the country, where hundreds of thousands have been forcibly displaced.</p>\n\n<p>Saudi strikes on Sanaa over the weekend killed at least 44 people, including 21 children, the Houthis said on their television channel on Monday.</p>\n\n<p>\"The toll from the Saudi enemy's massacre in the Alshariyah area of Bani Hushaysh, east of Sanaa, has risen to 84 casualties: 44 martyrs and 40 wounded,\" the Sanaa-based Ministry of Health said on pro-Houthi Almasirah TV channel.</p>\n\n<p>The ministry said 21 children and 10 women were among those killed.</p>\n\n<p>\"Rescue teams are still searching for the missing,\" it added.</p>\n</div>\n                  <div class=\"field field-field-topic\"><a href=\"https://www.middleeasteye.net/topics/yemen-war\" hreflang=\"en\">Yemen War</a></div>\n                  <div class=\"field field-field-article-location\"> </div>\n                  <div class=\"field field-field-section\"><a href=\"https://www.middleeasteye.net/news/all\" hreflang=\"en\">News</a></div>\n        <div class=\"field field-field-post-date-override\">\n    <div>Post Date Override</div>\n              <div>0</div>\n          </div>\n  <div class=\"field field-field-update-date-override\">\n    <div>Update Date</div>\n              <div><time datetime=\"2020-05-04T21:19:45+01:00\">Mon, 05/04/2020 - 21:19</time>\n</div>\n          </div>\n  <div class=\"field field-field-update-date-check\">\n    <div>Update Date Override</div>\n              <div>0</div>\n          </div>\n\n  </div>\n  \n</article>",
-      "link": "https://www.middleeasteye.net/news/missiles-intercepted-over-saudi-arabia-continuing-houthi-attacks-prompt-emergency-measures",
-      "published": "Tue, 10 Nov 2026 12:16:57 +0000",
-      "source": "Middle East Eye"
-    },
-    {
-      "title": "Trump says Israel, Gulf allies must repay Iran war cost: What does it mean?",
-      "summary": "Analysts say Trump’s comments are more likely to be political posturing than a reflection of serious policy priorities.",
-      "link": "https://www.aljazeera.com/news/2026/11/10/trump-says-israel-gulf-allies-must-repay-iran-war-cost-what-does-it-mean?traffic_source=rss",
-      "published": "Tue, 10 Nov 2026 11:52:34 +0000",
-      "source": "Al Jazeera"
-    },
-    {
       "title": "Asyad and MOL sell ageing LR2 for $63m",
       "summary": "<p>Oman’s Asyad Shipping and Japanese shipping giant Mitsui OSK Lines (MOL) have agreed to sell their jointly owned LR2 product tanker, extending the Omani owner’s campaign to cash in on ageing tonnage. The Muscat-listed company disclosed that the 2009-built Haima, held through a 50:50 joint venture with MOL, has been sold for OMR24.3m ($63.2m). The …</p>\n</p>",
       "link": "https://splash247.com/asyad-and-mol-sell-ageing-lr2-for-63m/",
@@ -175,81 +294,11 @@
       "source": "Splash247"
     },
     {
-      "title": "U.S. Military Coordinates With Saudi Oil Tankers on Risky Hormuz Crossings",
-      "summary": "Saudi Arabia’s shipping giant Bahri has been sending oil tankers through the Strait of Hormuz in coordination with the U.S. military, Khalid Alhammad, president of Bahri Ship Management, said on Tuesday. Saudi Arabia, while boosting loadings and exports out of its Red Sea port of Yanbu, is also looking to raise shipments from within the Persian Gulf through the Strait of Hormuz.   The Saudi firm is working at the government level with the United States to support Hormuz transits, Alhammad said at a Dubai event, as carried by Bloomberg.…",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/US-Military-Coordinates-With-Saudi-Oil-Tankers-on-Risky-Hormuz-Crossings.html",
-      "published": "Tue, 10 Nov 2026 05:30:00 -0600",
-      "source": "OilPrice"
-    },
-    {
-      "title": "Who moves first in Iran-US diplomacy?",
-      "summary": "Breaking the deadlock requires coordinated, verifiable concessions, not demands for one side to act first.",
-      "link": "https://www.aljazeera.com/opinions/2026/11/10/who-moves-first-in-iran-us-diplomacy?traffic_source=rss",
-      "published": "Tue, 10 Nov 2026 11:14:16 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "IDF prepares for surprise Iranian attack as US pursues diplomatic deal with Tehran",
-      "summary": "<img align=\"right\" alt=\"Traffic moves on a rainy day in Tehran, November 8, 2026. (photo credit:  ATTA KENARE/AFP via Getty Images)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_5464,w_8192/745699\" title=\"Traffic moves on a rainy day in Tehran, November 8, 2026. (photo credit:  ATTA KENARE/AFP via Getty Images)\" /><br />Israeli defense officials assess that US President Donald Trump would prefer to avoid a military confrontation and resolve tensions through diplomacy.<br />",
-      "link": "https://www.jpost.com/israel-news/defense-news/article-914434",
-      "published": "Tue, 10 Nov 2026 11:08:18 GMT",
-      "source": "Jerusalem Post"
-    },
-    {
-      "title": "Hormuz, global shocks open door for Latin America as reliable supplier – APLA",
-      "summary": "Latin America should use the disruption in the Strait of Hormuz and other global shocks to present itself as a reliable, peaceful supplier of energy and petrochemicals and to build regional supply chains, the head of the region’s petrochemical and chemical association said. Manuel Diaz, director general of the Latin American Petrochemical and Chemical Association ...",
-      "link": "https://www.hellenicshippingnews.com/hormuz-global-shocks-open-door-for-latin-america-as-reliable-supplier-apla/",
-      "published": "Tue, 10 Nov 2026 11:00:57 +0000",
-      "source": "Hellenic Shipping News"
-    },
-    {
-      "title": "LNG shipping stocks: Post-election selloff",
-      "summary": "The UP World LNG Shipping Index fell 9.35 points (4.07%) to close at 220.05, caught in a broad risk-off week — the S&P 500 had its worst week since the April 2025 crash, down 2.68%. The decline was near-universal: breadth was just 3:18, the median fell 6%, and the weighted index (wUPI) dropped 5.5%. Two ...",
-      "link": "https://www.hellenicshippingnews.com/lng-shipping-stocks-post-election-selloff/",
-      "published": "Tue, 10 Nov 2026 11:00:53 +0000",
-      "source": "Hellenic Shipping News"
-    },
-    {
-      "title": "Shipping boom on Oslo Stock Exchange, more shipping companies set to list",
-      "summary": "The shipping index on the Oslo Stock Exchange has more than doubled this year, and several shipping companies are preparing to go public. Over the past five years, the sector has created more than NOK 200bn in value, Finansavisen reports. Five shipping companies have listed so far this year, and according to exchange CEO Øivind ...",
-      "link": "https://www.hellenicshippingnews.com/shipping-boom-on-oslo-stock-exchange-more-shipping-companies-set-to-list/",
-      "published": "Tue, 10 Nov 2026 11:00:51 +0000",
-      "source": "Hellenic Shipping News"
-    },
-    {
-      "title": "France summons Iran’s ambassador over supermarket fridge ‘sabotage’",
-      "summary": "The French government said it is seeking tough sanctions to deter further cyberattacks across Europe.",
-      "link": "https://www.aljazeera.com/news/2026/11/10/france-summons-irans-ambassador-over-supermarket-fridge-sabotage?traffic_source=rss",
-      "published": "Tue, 10 Nov 2026 10:51:02 +0000",
-      "source": "Al Jazeera"
-    },
-    {
       "title": "Pangaea chairman Richard du Moulin calls time after 12 years",
       "summary": "<p>Pangaea Logistics Solutions chairman Richard du Moulin is retiring at the end of the year, bringing to a close more than a decade on the board of the Nasdaq-listed dry bulk shipping and logistics group. The Newport-based company disclosed in a regulatory filing that du Moulin had notified the board of his decision to retire, …</p>\n</p>",
       "link": "https://splash247.com/pangaea-chairman-richard-du-moulin-calls-time-after-12-years/",
       "published": "Tue, 10 Nov 2026 10:35:00 +0000",
       "source": "Splash247"
-    },
-    {
-      "title": "New UCL tool flags food security risks from shipping emissions rules",
-      "summary": "<p>The International Maritime Organization’s proposed shipping decarbonisation measures could disproportionately increase the transport costs of essential food imports, particularly for countries dependent on shipments of bulk cereals, according to new research from University College London (UCL). Researchers at UCL’s Shipping and Oceans Research Group have launched an online tool examining how different versions of the …</p>\n</p>",
-      "link": "https://splash247.com/new-ucl-tool-flags-food-security-risks-from-shipping-emissions-rules/",
-      "published": "Tue, 10 Nov 2026 10:30:00 +0000",
-      "source": "Splash247"
-    },
-    {
-      "title": "Pelagic Credit makes crude tanker debut with $30m suezmax deal",
-      "summary": "<p>Oslo-listed Pelagic Credit has made its first move into the crude tanker sector, committing $30m in mezzanine financing for two suezmax vessels backed by charter employment with a Geneva-based commodities trading group. The Limassol-headquartered shipping investment company has agreed to provide an 18-month loan facility, which is expected to generate approximately $3m in distributable earnings …</p>\n</p>",
-      "link": "https://splash247.com/pelagic-credit-makes-crude-tanker-debut-with-30m-suezmax-deal/",
-      "published": "Tue, 10 Nov 2026 10:13:00 +0000",
-      "source": "Splash247"
-    },
-    {
-      "title": "Brent Crude Falls Below $90 for First Time Since August",
-      "summary": "Brent Crude prices plunged to below $90 per barrel early on Tuesday, falling below that threshold for the first time since August, as U.S. President Donald Trump again signaled potential de-escalation in the Middle East and no need for strikes against Iran. As of early morning in Europe, the front-month Brent Crude futures had dropped to $89.70, and WTI Crude, the U.S. benchmark, traded below $85 per barrel, falling by over 2%. At the start of Asian trading, Brent Crude had dipped below $92 per barrel, following reports citing President Trump as…",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Crude-Falls-Below-90-for-First-Time-Since-August.html",
-      "published": "Tue, 10 Nov 2026 04:06:35 -0600",
-      "source": "OilPrice"
     },
     {
       "title": "Trump says more US attacks on Iran 'highly unlikely'",
@@ -266,53 +315,11 @@
       "source": "Naval News"
     },
     {
-      "title": "Coast Guard Airlifts Four Oil Tanker Crew Members After Suspected Food Poisoning",
-      "summary": "The U.S. Coast Guard evacuated four crew members from a Cyprus-flagged oil tanker off Puerto Rico on Sunday after they reportedly fell ill with suspected food poisoning. An MH-60T Jayhawk...",
-      "link": "https://gcaptain.com/coast-guard-airlifts-four-oil-tanker-crew-members-after-suspected-food-poisoning/",
-      "published": "Mon, 09 Nov 2026 22:06:37 +0000",
-      "source": "gCaptain"
-    },
-    {
-      "title": "G7 Launches Global Port Security Network to Combat Drug Trafficking",
-      "summary": "France on Monday laurched a new G7-backed network linking major seaports, customs authorities and international organizations in an effort to crack down on drug trafficking through global maritime supply chains....",
-      "link": "https://gcaptain.com/g7-launches-global-port-security-network-to-combat-drug-trafficking/",
-      "published": "Mon, 09 Nov 2026 19:43:47 +0000",
-      "source": "gCaptain"
-    },
-    {
-      "title": "IMO Warns of Mounting Human Toll as Attacks on Commercial Shipping Continue",
-      "summary": "The International Maritime Organization (IMO) is calling for stronger protections for merchant ships and their crews as continued attacks in the Middle East, Red Sea and Black Sea put seafarers...",
-      "link": "https://gcaptain.com/imo-warns-of-mounting-human-toll-as-attacks-on-commercial-shipping-continue/",
-      "published": "Mon, 09 Nov 2026 18:06:22 +0000",
-      "source": "gCaptain"
-    },
-    {
-      "title": "Dutch firm Optics11 in talks with navies on secretive underwater listening tech",
-      "summary": "For underwater use, the company’s fiber-optic sensing can detect an oil tanker at 100 kilometers, the CEO said.",
-      "link": "https://www.defensenews.com/global/europe/2026/11/09/dutch-firm-optics11-in-talks-with-navies-on-secretive-underwater-listening-tech/",
-      "published": "Mon, 09 Nov 2026 17:52:01 +0000",
-      "source": "Defense News"
-    },
-    {
-      "title": "U.S. Container Imports Hit 2026 High in September as Extended Peak Season Winds Down",
-      "summary": "U.S. container imports reached their highest level of the year in September, capping an unusually long peak shipping season that has kept major ports busy since the spring despite tariffs,...",
-      "link": "https://gcaptain.com/u-s-container-imports-hit-2026-high-in-september-as-extended-peak-season-winds-down/",
-      "published": "Mon, 09 Nov 2026 17:44:04 +0000",
-      "source": "gCaptain"
-    },
-    {
       "title": "France blames Iran for massive cyber attack on supermarket fridges",
       "summary": "France has accused Iran of being behind the massive cyber attack on supermarket fridges last month.",
       "link": "https://news.sky.com/story/france-accuses-iran-of-being-behind-massive-cyber-attack-on-supermarket-fridges-13610319",
       "published": "Mon, 09 Nov 2026 17:04:00 +0000",
       "source": "Sky News"
-    },
-    {
-      "title": "Kongsberg Maritime launches Arctic Hunter USV for the Hybrid Navy",
-      "summary": "<p>Kongsberg Maritime has unveiled the Arctic Hunter USV, a new class of uncrewed surface vessels designed for rapid integration and deployment into Hybrid Fleets.</p>\n<p>The post <a href=\"https://www.navalnews.com/naval-news/2026/11/kongsberg-maritime-launches-arctic-hunter-usv-for-the-hybrid-navy/\">Kongsberg Maritime launches Arctic Hunter USV for the Hybrid Navy</a> appeared first on <a href=\"https://www.navalnews.com\">Naval News</a>.</p>",
-      "link": "https://www.navalnews.com/naval-news/2026/11/kongsberg-maritime-launches-arctic-hunter-usv-for-the-hybrid-navy/",
-      "published": "Mon, 09 Nov 2026 10:28:49 +0000",
-      "source": "Naval News"
     },
     {
       "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
@@ -327,25 +334,9 @@
       "link": "https://www.bbc.co.uk/news/articles/ckly0ex633ydo?at_medium=RSS&at_campaign=rss",
       "published": "Sun, 08 Nov 2026 13:37:50 GMT",
       "source": "BBC News"
-    },
-    {
-      "title": "Finland's navy chief says Russia's presence in the Baltic Sea may have peaked for now",
-      "summary": "Russia may have reached the limit of its \"peacetime\" ability to project force in the Baltic Sea, with the maritime situation \"tense\" but \"stable\", the head of Finland's navy has said.",
-      "link": "https://news.sky.com/story/finlands-navy-chief-says-russias-presence-in-the-baltic-sea-may-have-peaked-for-now-13609763",
-      "published": "Sun, 08 Nov 2026 01:01:00 +0000",
-      "source": "Sky News"
     }
   ],
   "history": [
-    {
-      "date": "2026-10-26 05:59",
-      "threat_level": "CRITICAL",
-      "value": 4,
-      "sentiment_score": 90,
-      "incidents": 36,
-      "brent": 109.6,
-      "usd_czk": 21.734
-    },
     {
       "date": "2026-10-26 11:59",
       "threat_level": "CRITICAL",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "brent": 89.48,
       "usd_czk": 21.768
+    },
+    {
+      "date": "2026-11-11 05:59",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 75,
+      "incidents": 40,
+      "brent": 92.46,
+      "usd_czk": 21.702
     }
   ],
   "locations": [
@@ -631,20 +631,6 @@
       "name_en": "Strait of Hormuz"
     },
     {
-      "key": "Suez",
-      "lat": 30.5852,
-      "lon": 32.2654,
-      "name_cs": "Suezský průplav",
-      "name_en": "Suez Canal"
-    },
-    {
-      "key": "Mecca",
-      "lat": 21.3891,
-      "lon": 39.8579,
-      "name_cs": "Mekka",
-      "name_en": "Mecca"
-    },
-    {
       "key": "Saudi Arabia",
       "lat": 23.8859,
       "lon": 45.0792,
@@ -659,6 +645,13 @@
       "name_en": "Oman"
     },
     {
+      "key": "Port Sudan",
+      "lat": 19.6158,
+      "lon": 37.2164,
+      "name_cs": "Port Sudán",
+      "name_en": "Port Sudan"
+    },
+    {
       "key": "Iran",
       "lat": 32.4279,
       "lon": 53.688,
@@ -671,6 +664,13 @@
       "lon": 34.9519,
       "name_cs": "Ejlat",
       "name_en": "Eilat"
+    },
+    {
+      "key": "Egypt",
+      "lat": 26.8206,
+      "lon": 30.8025,
+      "name_cs": "Egypt",
+      "name_en": "Egypt"
     },
     {
       "key": "Washington",
@@ -689,19 +689,51 @@
       "auto": true
     },
     {
-      "key": "Puerto Rico",
-      "lat": 18.2,
-      "lon": -66.5,
-      "name_cs": "Portoriko",
-      "name_en": "Puerto Rico",
+      "key": "Texas",
+      "lat": 31,
+      "lon": -99,
+      "name_cs": "Texas",
+      "name_en": "Texas",
       "auto": true
     },
     {
-      "key": "Brazil",
-      "lat": -14.2,
-      "lon": -51.9,
-      "name_cs": "Brazílie",
-      "name_en": "Brazil",
+      "key": "Ohio",
+      "lat": 40.4,
+      "lon": -82.8,
+      "name_cs": "Ohio",
+      "name_en": "Ohio",
+      "auto": true
+    },
+    {
+      "key": "Colorado",
+      "lat": 39,
+      "lon": -105.5,
+      "name_cs": "Colorado",
+      "name_en": "Colorado",
+      "auto": true
+    },
+    {
+      "key": "Michigan",
+      "lat": 44.3,
+      "lon": -85.6,
+      "name_cs": "Michigan",
+      "name_en": "Michigan",
+      "auto": true
+    },
+    {
+      "key": "Georgia",
+      "lat": 32.7,
+      "lon": -83.4,
+      "name_cs": "Georgie (USA)",
+      "name_en": "Georgia",
+      "auto": true
+    },
+    {
+      "key": "Mexico",
+      "lat": 23.6,
+      "lon": -102.5,
+      "name_cs": "Mexiko",
+      "name_en": "Mexico",
       "auto": true
     },
     {
@@ -710,14 +742,6 @@
       "lon": -64,
       "name_cs": "Argentina",
       "name_en": "Argentin",
-      "auto": true
-    },
-    {
-      "key": "Ukrain",
-      "lat": 50.45,
-      "lon": 30.52,
-      "name_cs": "Ukrajina",
-      "name_en": "Ukrain",
       "auto": true
     },
     {
@@ -737,19 +761,19 @@
       "auto": true
     },
     {
-      "key": "Egypt",
-      "lat": 26.8,
-      "lon": 30.8,
-      "name_cs": "Egypt",
-      "name_en": "Egypt",
-      "auto": true
-    },
-    {
       "key": "China",
       "lat": 35.9,
       "lon": 104.2,
       "name_cs": "Čína",
       "name_en": "China",
+      "auto": true
+    },
+    {
+      "key": "Hong Kong",
+      "lat": 22.3,
+      "lon": 114.2,
+      "name_cs": "Hongkong",
+      "name_en": "Hong Kong",
       "auto": true
     },
     {
@@ -777,11 +801,11 @@
       "auto": true
     },
     {
-      "key": "Colombia",
-      "lat": 4.57,
-      "lon": -74.3,
-      "name_cs": "Kolumbie",
-      "name_en": "Colombia",
+      "key": "Sudan",
+      "lat": 15.5,
+      "lon": 32.5,
+      "name_cs": "Súdán",
+      "name_en": "Sudan",
       "auto": true
     }
   ],
@@ -795,19 +819,19 @@
     "Irák": 5,
     "Bab-el-Mandeb": 32,
     "Suezský průplav": 2,
-    "Yemen": 110,
-    "Red Sea": 73,
-    "Hormuz": 106,
+    "Yemen": 111,
+    "Red Sea": 74,
+    "Hormuz": 107,
     "Mecca": 43,
-    "Saudi Arabia": 110,
-    "Oman": 58,
+    "Saudi Arabia": 111,
+    "Oman": 59,
     "Iraq": 42,
     "Suez": 37,
     "Mokha": 16,
     "Los Angeles": 1,
     "Kalifornie": 1,
     "Ukrajina": 1,
-    "Rusko": 2,
+    "Rusko": 4,
     "Írán": 4,
     "Katar": 3,
     "Jižní Korea": 1,
@@ -816,27 +840,27 @@
     "Singapur": 1,
     "Etiopie": 1,
     "Kolumbie": 2,
-    "Washington, D.C.": 3,
+    "Washington, D.C.": 5,
     "Brazílie": 1,
     "Argentina": 1,
     "Izrael": 1,
-    "Egypt": 1,
-    "Londýn": 3,
-    "Paříž": 7,
+    "Egypt": 2,
+    "Londýn": 5,
+    "Paříž": 3,
     "Súdán": 1,
     "Somálsko": 1,
     "Eritrea": 8,
-    "Iran": 75,
-    "Eilat": 72,
+    "Iran": 76,
+    "Eilat": 73,
     "Maine": 1,
     "Kanada": 1,
     "Venezuela": 1,
-    "Čína": 1,
+    "Čína": 2,
     "Indie": 1,
     "Djibouti": 9,
     "Jeddah": 12,
-    "Port Sudan": 7,
-    "New York": 1,
+    "Port Sudan": 8,
+    "New York": 4,
     "Chicago": 1,
     "Mexiko": 1,
     "Turecko": 1,
@@ -878,23 +902,16 @@
     "Atlanta": 1,
     "Portoriko": 1,
     "Cape of Good Hope": 1,
-    "Paraguay": 1
+    "Paraguay": 1,
+    "Colorado": 1
   },
   "top_location": {
     "key": "Yemen",
     "name_cs": "Jemen",
     "name_en": "Yemen",
-    "count": 110
+    "count": 111
   },
   "archive": [
-    {
-      "date": "2026-11-02 14:23",
-      "threat_level": "CRITICAL",
-      "security_status_cs": "Situace v oblasti Rudého moře a Hormuzského průlivu zůstává kritická, přičemž Írán podmiňuje otevření průlivu splněním svých požadavků během nepřímých katarských jednání. Konflikt v Jemenu mezitím eskaluje v nové oblasti Al-Jawf a Hodeidah, kde probíhají těžké střety mezi vládními silami a Húthiji.",
-      "security_status_en": "The situation in the Red Sea and the Strait of Hormuz remains critical, with Iran conditioning the reopening of the waterway on meeting its demands during indirect Qatari talks. Meanwhile, the conflict in Yemen is escalating in the new hotspots of Al-Jawf and Hodeidah amid heavy clashes between government forces and the Houthis.",
-      "forecast_cs": "V nejbližších dnech lze očekávat volatilitu navázanou na výsledek amerických voleb a reakci Washingtonu na íránský návrh na otevření Hormuzského průlivu. Bezpečnostní situace v Rudém moři a Jemenu zůstane vysoce nestabilní.",
-      "forecast_en": "Volatility tied to the US midterm election outcome and Washington's response to Iran's proposal to reopen the Strait of Hormuz is expected in the coming days. The security situation in the Red Sea and Yemen will remain highly unstable."
-    },
     {
       "date": "2026-11-03 05:59",
       "threat_level": "CRITICAL",
@@ -998,24 +1015,32 @@
       "security_status_en": "The security situation in the Red Sea and Persian Gulf remains tense due to ongoing Houthi attacks, which recently struck Riyadh's financial district. Although US diplomacy signals efforts toward de-escalation and military tanker coordination is underway, the asymmetric threat along critical maritime routes persists.",
       "forecast_cs": "V nejbližších dnech lze očekávat kolísavý vývoj na komoditních a akciových trzích, kde budou signály o diplomatickém řešení narážet na realitu pokračujících asymetrických útoků v regionu.",
       "forecast_en": "Over the coming days, volatile movements in commodity and equity markets are expected as diplomatic de-escalation signals clash with the reality of ongoing asymmetric attacks in the region."
+    },
+    {
+      "date": "2026-11-11 05:59",
+      "threat_level": "HIGH",
+      "security_status_cs": "Bezpečnostní situace v oblasti Blízkého východu a Rudého moře zůstává vysoce napjatá kvůli pokračujícím útokům Houthiů, které nově zasáhly i klíčovou budovu Aramco v saúdském hlavním městě. Rostoucí obavy z eskalace podtrhují incidenty v Hormuzském průlivu a přetrvávající asymetrická hrozba pro globální námořní trasy.",
+      "security_status_en": "The security situation in the Middle East and Red Sea remains highly tense due to ongoing Houthi attacks, which recently struck a key Aramco building in the Saudi capital. Growing fears of escalation are underscored by incidents in the Strait of Hormuz and the persistent asymmetric threat to global shipping lanes.",
+      "forecast_cs": "V nejbližších dnech lze očekávat zvýšenou volatilitu cen ropy a komodit v reakci na přetrvávající útoky v oblasti Perského zálivu a Rudého moře, přičemž investoři budou nadále bedlivě sledovat jakékoliv náznaky vojenské či diplomatické eskalace.",
+      "forecast_en": "Over the coming days, increased volatility in oil and commodity prices is expected in response to ongoing attacks in the Persian Gulf and Red Sea, while investors will closely monitor any signs of military or diplomatic escalation."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 5× HIGH, 2× CRITICAL.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 5× HIGH, 2× CRITICAL.",
   "oil_prices": {
     "brent": {
-      "value": 89.48,
-      "date": "2026-11-10",
+      "value": 92.46,
+      "date": "2026-11-11",
       "cached": false
     },
     "wti": {
-      "value": 84.33,
-      "date": "2026-11-10",
+      "value": 86.6,
+      "date": "2026-11-11",
       "cached": false
     }
   },
   "usd_czk": {
-    "value": 21.768,
-    "date": "2026-11-09"
+    "value": 21.702,
+    "date": "2026-11-10"
   }
 }
