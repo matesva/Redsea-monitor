@@ -1,21 +1,32 @@
 {
-  "last_updated": "2026-11-11T06:00:03Z",
+  "last_updated": "2026-11-11T13:19:25Z",
   "assessment": {
-    "threat_level": "HIGH",
-    "sentiment_score": 68,
-    "security_status_cs": "Spojené státy čelí zvýšenému napětí kvůli politickým střetům v Kongresu ohledně neúspěšného pokusu o impeachment ministra obrany a hrozbám vůči vládním představitelům. Makroekonomické prostředí zatěžují rostoucí výnosy státních dluhopisů a přetrvávající inflační tlaky s možným dalším utηtováváním měnové politiky Fedu.",
-    "security_status_en": "The United States is facing heightened tensions due to congressional political clashes over the failed impeachment attempt against the defense secretary and security threats against government officials. The macroeconomic environment is burdened by rising Treasury yields and persistent inflationary pressures with potential further monetary tightening by the Fed.",
+    "threat_level": "MEDIUM",
+    "sentiment_score": 52,
+    "security_status_cs": "Americká politika čelí zvýšenému napětí po překvapivých výsledcích voleb do Kongresu a pokračujícím debatám ohledně rozpočtu a nominací vládních představitelů. Makroekonomické prostředí zůstává poznamenáno obavami z inflace a možného utahování měnové politiky Fedu po silných datech indexu spotřebitelských cen.",
+    "security_status_en": "US politics is facing heightened tension following surprising midterm congressional election results and ongoing debates over government budgets and cabinet nominations. The macroeconomic environment remains marked by inflation concerns and potential Fed monetary tightening after strong CPI data.",
     "president_comments": [
       {
-        "topic_cs": "Impeachment ministra obrany Petea Hegsetha",
-        "topic_en": "Impeachment of Defense Secretary Pete Hegseth",
-        "statement_cs": "Prezident Trump uvítal výsledek v Sněmovně reprezentantů, která zablokovala pokus o impeachment, a chválil Hegsetha jako velkého amerického the patriota.",
-        "statement_en": "President Trump welcomed the House outcome blocking the impeachment effort and praised Hegseth as a great American patriot.",
-        "comment_cs": "Tento postoj upevňuje pozici administrativy v bezpečnostní oblasti, ale zachovává ostré politické rozdělení v Kongresu.",
-        "comment_en": "This stance solidifies the administration's position in defense policy while maintaining sharp political division in Congress.",
+        "topic_cs": "Právní vítězství nad BBC",
+        "topic_en": "Legal victory over BBC",
+        "statement_cs": "Prezident Trump oznámil, že jeho miliardová žaloba pro pomluvu proti britské stanici BBC může pokračovat poté, co soud zamítl návrh na zamítnutí případu.",
+        "statement_en": "President Trump announced that his defamation lawsuit against the British broadcaster BBC will proceed after a judge rejected the outlet's motion to dismiss.",
+        "comment_cs": "Tento krok udržuje mediální a politické napětí kolem Trumpových právních bitev s mezinárodními médii, nicméně přímý dopad na finanční trhy je neutrální.",
+        "comment_en": "This move maintains media and political tension surrounding Trump's legal battles with international media, though the direct impact on financial markets remains neutral.",
         "market_impact": "NEUTRAL",
-        "source": "BBC News",
-        "date": "2026-11-11T06:00:03Z"
+        "source": "Fox News",
+        "date": "2026-11-11T13:19:24Z"
+      },
+      {
+        "topic_cs": "Impeachment Petea Hegsetha",
+        "topic_en": "Impeachment of Pete Hegseth",
+        "statement_cs": "Prezident Trump přivítal zablokování snahy o impeachment ministra obrany Petea Hegsetha Sněmovnou reprezentantů a označil jej za velkého amerického the patriota.",
+        "statement_en": "President Trump welcomed the House of Representatives blocking the impeachment effort against Defense Secretary Pete Hegseth, praising him as a great American patriot.",
+        "comment_cs": "Udržení Hegsetha ve funkci stabilizuje vedení Pentogonu a snižuje bezprostřední politickou nejistotu v oblasti obrany.",
+        "comment_en": "Keeping Hegseth in office stabilizes Pentagon leadership and reduces immediate political uncertainty in the defense sector.",
+        "market_impact": "POSITIVE",
+        "source": "The Guardian",
+        "date": "2026-11-11T13:19:24Z"
       }
     ],
     "recommendations": [
@@ -23,64 +34,267 @@
         "sector_cs": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
         "sector_en": "US Broad Equity Market (S&P 500 ETFs, e.g. VOO, SPY)",
         "action": "HOLD",
-        "reason_cs": "Trhy čelí tlaku rostoucích výnosů dluhopisů blížících se k 5% a regulatorním obavám, což vyžaduje opatrnost.",
-        "reason_en": "Markets face pressure from rising bond yields nearing 5% and regulatory concerns, warranting caution."
+        "reason_cs": "Trhy vstřebávají nárůst výnosů dluhopisů a kolísání technologických titulů, což doporučuje vyčkat na stabilizaci.",
+        "reason_en": "Markets are absorbing rising bond yields and tech stock fluctuations, suggesting a wait-and-see stance until stabilization."
       },
       {
         "sector_cs": "Státní dluhopisy USA (Treasuries)",
         "sector_en": "US Treasuries",
-        "action": "BUY",
-        "reason_cs": "Rostoucí výnosy a blížící se 5% hranice u 10letých dluhopisů poskytují atraktivní vstupní body pro fixní výnosy.",
-        "reason_en": "Rising yields and the approach of the 5% mark on 10-year notes provide attractive fixed-income entry points."
+        "action": "SELL",
+        "reason_cs": "Horká data o inflaci (CPI) a jestřábí komentáře představitelů Fedu zvyšují riziko dalších růstů sazeb, což tlačí ceny dluhopisů dolů.",
+        "reason_en": "Hot CPI inflation data and hawkish Fed commentary increase the risk of further rate hikes, pushing bond prices down."
       },
       {
         "sector_cs": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
         "sector_en": "Defense Industry (RTX, Lockheed Martin, Northrop Grumman)",
         "action": "BUY",
-        "reason_cs": "Zlomení snahy o impeachment ministra obrany zajišťuje stabilitu vedení Pentagonu a kontinuitu armádních zakázek.",
-        "reason_en": "The defeat of the defense secretary's impeachment bid ensures leadership stability at the Pentagon and contract continuity."
+        "reason_cs": "Zadržení snahy o impeachment ministra obrany a přetrvávající geopolitická rizika zajišťují stabilitu a pokračující vládní zakázky.",
+        "reason_en": "The blocking of the defense secretary's impeachment and ongoing geopolitical risks ensure sector stability and continued government contracts."
       },
       {
         "sector_cs": "Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)",
         "sector_en": "Banks & Financials (JPMorgan, Bank of America, Goldman Sachs)",
         "action": "HOLD",
-        "reason_cs": "Očekávání dalšího zvýšení sazeb Fedu v prosinci může podpořit čisté úrokové marže, ale volatilita trhu omezuje růst.",
-        "reason_en": "Expectations of a further Fed rate hike in December may support net interest margins, but market volatility limits upside."
+        "reason_cs": "Vyšší úrokové sazby a silná poptávka po financování infrastruktury podporují zisky, ale politická nejistota omezuje výraznější růst.",
+        "reason_en": "Higher interest rates and strong infrastructure financing demand support profits, but political uncertainty caps stronger upside."
       },
       {
         "sector_cs": "Technologický sektor (Apple, Microsoft, Nvidia)",
         "sector_en": "Technology Sector (Apple, Microsoft, Nvidia)",
         "action": "HOLD",
-        "reason_cs": "Sektor čelí tlaku kvůli regulatorním vyšetřováním a korekci v oblasti polovodičů, přičemž poptávka po AI infrastruktuře zůstává silná.",
-        "reason_en": "The sector faces pressure from regulatory probes and semiconductor corrections, though AI infrastructure demand remains strong."
+        "reason_cs": "Sektor prochází korekcí po propadu titulů spojených s umělou inteligencí a rostoucích výnosech dluhopisů.",
+        "reason_en": "The sector is undergoing a correction following a selloff in artificial intelligence names and rising bond yields."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly jsou primárně ovlivněny lokální regulací a evropským makroekonomickým prostředím, s minimálním přímým dopadem z USA.",
-        "reason_en": "Domestic titles are primarily driven by local regulations and the European macroeconomic environment, with minimal direct US impact."
+        "reason_cs": "Domácí tituly zůstávají imunní vůči americkým politickým zvratům, sledují spíše evropský makroekonomický vývoj a domácí dividendová očekávání.",
+        "reason_en": "Domestic titles remain insulated from US political shifts, tracking broader European macro developments and local dividend expectations instead."
       }
     ],
     "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na akciových trzích v návaznosti na vývoj výnosů dluhopisů a debatu o prosincovém zasedání Fedu.",
     "forecast_en": "Continued volatility in equity markets is expected over the coming days following bond yield trajectories and the debate over the December Fed meeting.",
-    "forecast_review_cs": "Předchozí předpověď se potvrdila, neboť trhy nadále sužují obavy z měnové politiky Fedu a politické spory v Kongresu ohledně impeachmentu.",
-    "forecast_review_en": "The previous forecast was confirmed as markets continue to be plagued by Fed monetary policy concerns and congressional political disputes regarding the impeachment."
+    "forecast_review_cs": "Předchozí předpověď se plně potvrdila, neboť trhy nadále vykazují volatilitu poháněnou výnosy dluhopisů a očekáváními ohledně prosincového kroku Fedu.",
+    "forecast_review_en": "The previous forecast was fully confirmed as markets continue to exhibit volatility driven by bond yields and expectations regarding the December Fed move."
   },
   "articles": [
     {
-      "title": "Who is Stephen Miller, the new gateway man to Trump – podcast",
-      "summary": "<p><strong>Jonathan Yerushalmy</strong> and <strong>Reged Ahmad</strong> examine the Democrats failed impeachment attempt against US defence secretary Pete Hegseth and ask – could we see another bid soon?</p><p>The other Donald Trump appointee making headlines is the president’s new chief-of-staff, Stephen Miller. Known as the architect of Trump’s tough immigration policies, the appointment is seen as a clear sign Trump has no intention of playing nice with the other side, despite indicating he would do just that after the Republicans massive midterms loss. Jonathan looks back at Miller’s past to try and decipher how a descendent of a family fleeing persecution developed such hardline views that he has been condemned as a white nationalist</p> <a href=\"https://www.theguardian.com/us-news/audio/2026/nov/11/who-is-stephen-miller-the-new-gateway-man-to-trump-decoding-america-podcast\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/audio/2026/nov/11/who-is-stephen-miller-the-new-gateway-man-to-trump-decoding-america-podcast",
-      "published": "Wed, 11 Nov 2026 05:44:04 GMT",
+      "title": "Bessent reportedly moved to military base over Iranian threats on his life",
+      "summary": "The move comes as the Department of Justice said late Tuesday that three Iranian nationals have been indicted on terrorism-related charges.",
+      "link": "https://www.cnbc.com/2026/11/11/us-iran-war-trump-hormuz-bessent-threats.html",
+      "published": "Wed, 11 Nov 2026 13:18:50 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Australian apprentice jockey Izzy Neale dead at 22 after fall from horse during race",
+      "summary": "Apprentice jockey Izzy Neale, 22, was thrown from her horse during the Cotton Cup at Warren Racecourse after her mount suffered a leg injury.",
+      "link": "https://www.foxnews.com/outkick-sports/australian-apprentice-jockey-izzy-neale-dead-22-fall-horse-race",
+      "published": "Wed, 11 Nov 2026 08:14:06 -0500",
+      "source": "Fox News"
+    },
+    {
+      "title": "Trump touts legal victory over BBC as judge says his lawsuit against British broadcaster can proceed",
+      "summary": "President Donald Trump's $10 billion defamation lawsuit against the BBC will proceed after a judge rejected the outlet's motion to dismiss the case.",
+      "link": "https://www.foxnews.com/media/trump-touts-legal-victory-over-bbc-judge-says-his-lawsuit-against-british-broadcaster-can-proceed",
+      "published": "Wed, 11 Nov 2026 08:11:18 -0500",
+      "source": "Fox News"
+    },
+    {
+      "title": "22 stocks of companies with tremendous sales growth",
+      "summary": "These S&P 500 companies have also shown improving profit margins and free cash flow this earnings season.",
+      "link": "https://www.marketwatch.com/story/22-stocks-of-companies-with-tremendous-sales-growth-78c3f750?mod=mw_rss_topstories",
+      "published": "Wed, 11 Nov 2026 13:06:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Watch: BBC talks to Mississippi voters awaiting Senate result",
+      "summary": "Democrat Scott Colom's razor-thin advantage has defied political gravity in a conservative fortress that President Donald Trump won in 2024 by over 22 points.",
+      "link": "https://www.bbc.co.uk/news/videos/crvg2xex290no?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 11 Nov 2026 13:03:05 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Bring Back the Full Senate Filibuster To Help America",
+      "summary": "",
+      "link": "https://www.realclearpolitics.com/2026/11/11/bring_back_the_full_senate_filibuster_to_help_america_717347.html",
+      "published": "Wed, 11 Nov 2026 07:02:36 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "The 2026 midterms just ended Israel's influence over American politics",
+      "summary": "Standing up to AIPAC’s agenda has become more than just a policy debate. It’s already a moral litmus test in our elections in a way few issues are.",
+      "link": "https://thehill.com/opinion/campaign/6210919-michigan-election-turning-point/",
+      "published": "Wed, 11 Nov 2026 13:00:00 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "There May Be Border Trouble Ahead for Gina Hinojosa",
+      "summary": "Caravans are moving north on hopes raised by the midterms. The new governor's first border decisions may come with them in sight.",
+      "link": "https://www.newsweek.com/texas-border-gina-hinojosa-immigration-trump-12699341",
+      "published": "Wed, 11 Nov 2026 08:00:00 -0500",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Lawmakers dust off the 27th Amendment in pursuit of back pay",
+      "summary": "Several members of Congress head to court this week in an under-the-radar lawsuit claiming they’ve been underpaid.  It’s a bipartisan issue, with Democrats like Rep. James Clyburn (S.C.) and Republicans like Rep. Rick Crawford (Ark.) joining as plaintiffs.  Ratified in 1992, the 27th Amendment says that “no law, varying the compensation” of members of Congress...",
+      "link": "https://thehill.com/newsletters/the-gavel/6212108-congressional-backpay-27th-amendment-lawsuit/",
+      "published": "Wed, 11 Nov 2026 13:00:00 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Hundreds of schools in Italy, UK evacuated over 'hoax' bomb threats",
+      "summary": "Hundreds of schools across Europe were evacuated on Wednesday after receiving bomb threats, police forces say, amid growing worries of hybrid threats.",
+      "link": "https://www.cnbc.com/2026/11/11/hoax-bomb-threats-schools-italy-uk.html",
+      "published": "Wed, 11 Nov 2026 12:57:07 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Colom extends slim lead over Hyde-Smith in Mississippi Senate race",
+      "summary": "Mississippi Senate candidate Scott Colom (D) extended his slim lead by more than 3,000 votes over Sen. Cindy Hyde-Smith (R-Miss.) ahead of two crucial ballot deadlines in the week after Democrats saw sweeping victories in the midterm elections. The Hill's election partner Decision Desk HQ (DDHQ) found that, with around 95 percent of ballots counted,...",
+      "link": "https://thehill.com/homenews/campaign/6212685-mississippi-senate-race-scott-colom-cindy-hyde-smith-update/",
+      "published": "Wed, 11 Nov 2026 12:55:33 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Hakeem Jeffries’ Future Questioned After Pete Hegseth Impeachment Failure",
+      "summary": "Hakeem Jeffries is facing fresh scrutiny after 11 Democrats missed a key vote related to efforts to impeach Pete Hegseth.",
+      "link": "https://www.newsweek.com/hakeem-jeffries-future-questioned-after-pete-hegseth-impeachment-failure-12699489",
+      "published": "Wed, 11 Nov 2026 07:55:06 -0500",
+      "source": "Newsweek"
+    },
+    {
+      "title": "GOP branded ‘sinking ship’ as Republicans block efforts to impeach Hegseth – US politics live",
+      "summary": "<p>Trump hails ‘exoneration of a Great American Patriot’ as moves against his defense secretary fail for now</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/2026/nov/10/pete-hegseth-impeachment-effort\">House Republicans block effort to impeach Hegseth</a></p></li><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for the US Breaking News email</a></p></li></ul><p><strong>If there was one obvious conclusion from Democrats’ sweeping victories in the mid-term elections on Tuesday, it seemed to be that the Republican effort to redraw congressional districts in their favor <a href=\"https://www.theguardian.com/us-news/2026/nov/03/democrats-house-florida-wins-redistricting\">backfired</a>.</strong></p><p>Starting last summer, Trump and Republican allies undertook an aggressive effort to redraw congressional districts, reconfiguring the lines to give Republican candidates an advantage. Ahead of the midterms, Republicans redrew 15 seats to their advantage. After Tuesday’s election, they appear poised to lose all but two of them. “It was definitely the wrong move,” an unnamed House Republican <a href=\"https://www.foxnews.com/politics/redistricting-efforts-blow-up-republicans-faces-amid-historic-house-losses\">told Fox News</a>. “One of the truisms in politics is never to overreach. We did and that was part of the reason for the backlash.”</p> <a href=\"https://www.theguardian.com/us-news/live/2026/nov/11/donald-trump-pete-hegseth-impeachment-democrats-republicans-arlington-latest-news-updates\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/live/2026/nov/11/donald-trump-pete-hegseth-impeachment-democrats-republicans-arlington-latest-news-updates",
+      "published": "Wed, 11 Nov 2026 12:47:40 GMT",
       "source": "The Guardian"
     },
     {
-      "title": "Trump could be about to sell out Ukraine. Europe must get its act together, fast | Paul Taylor",
-      "summary": "<p>A deal giving Moscow a slice of Ukrainian territory and sanctions relief could be on the table in weeks – yet European leaders are busy squabbling</p><p>Donald Trump has lost substantial power over domestic policy after last week’s devastating midterm losses, but his ability to cement his legacy by upending US foreign policy remains largely intact.</p><p>There is every reason to fear a ”great betrayal” of Ukraine in the coming weeks, one that would reward Vladimir Putin for Russia’s war of aggression against Kyiv, and also do lasting damage to the European security order. Yet lilliputian European leaders are too busy <a href=\"https://www.euronews.com/2026/11/05/italian-pm-slams-eus-fragmented-approach-to-ukraine-peace-talks\">squabbling </a>over who should represent them in future <a href=\"https://www.theguardian.com/world/2026/nov/10/us-officials-russia-ukraine-war-abu-dhabi-talks\">peace talks</a> to focus on how to prevent a sellout. Despite fundamental European interests being at stake in this week’s three-way US-Russia-Ukraine negotiations in Abu Dhabi, Europe is relegated to a side room, represented by a posse of officials from the UK, France, Germany, the EU and Nato.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/nov/11/donald-trump-sell-out-ukraine-europe-leaders\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/commentisfree/2026/nov/11/donald-trump-sell-out-ukraine-europe-leaders",
-      "published": "Wed, 11 Nov 2026 05:00:30 GMT",
+      "title": "Rep. Jim Jordan, Sen. John Thune elected GOP leaders in Congress",
+      "summary": "House Speaker Mike Johnson, R-La., announced the day after Election Day he would not run for minority leader in the 120th Congress.",
+      "link": "https://www.cnbc.com/2026/11/10/jim-jordan-congress-republicans-midterm.html",
+      "published": "Wed, 11 Nov 2026 12:42:09 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Trump's Answer To Midterm Rout: Intensify the Fight",
+      "summary": "",
+      "link": "https://www.realclearpolitics.com/2026/11/11/trumps_answer_to_midterm_rout_intensify_the_fight_717275.html",
+      "published": "Wed, 11 Nov 2026 06:41:53 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "It's Miller Time: Media & Dems Already Spreading Lies",
+      "summary": "In making Stephen Miller his new chief of staff, President Trump unleashed an avalanche of pent-up resentment toward his new top aide.",
+      "link": "https://www.realclearpolitics.com/2026/11/11/its_miller_time_media_amp_dems_already_spreading_lies_717269.html",
+      "published": "Wed, 11 Nov 2026 06:41:51 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Adam Vinatieri weighs in on Chiefs kicker battle after helping USAA impact service members in Germany",
+      "summary": "Adam Vinatieri weighed in on the Harrison Butker vs. Justin Tucker kicking competition, warning the Kansas City Chiefs' margin for error shrinks in playoffs.",
+      "link": "https://www.foxnews.com/outkick-sports/adam-vinatieri-weighs-chiefs-kicker-battle-helping-usaa-impact-service-members-germany",
+      "published": "Wed, 11 Nov 2026 07:39:47 -0500",
+      "source": "Fox News"
+    },
+    {
+      "title": "AI Drone 'First Responders' Could Soon Track Migrants at US Border",
+      "summary": "Border Patrol is exploring AI “first responder” drones that could launch within minutes to track suspected illegal crossings.",
+      "link": "https://www.newsweek.com/ai-drone-first-responders-could-soon-track-migrants-at-us-border-12699189",
+      "published": "Wed, 11 Nov 2026 07:17:35 -0500",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Pete Hegseth survives effort to impeach him | First Thing",
+      "summary": "<p>House Republicans block impeachment resolution that cited US military actions in Iran, Yemen and Venezuela. Plus, SS United States to be sunk to create artificial reef</p><ul><li><p><a href=\"https://www.theguardian.com/info/2018/sep/17/guardian-us-morning-briefing-sign-up-to-stay-informed\"><strong>Don’t already get First Thing in your inbox? Sign up here</strong></a></p></li></ul><p>Good morning. House Republicans have <a href=\"https://www.theguardian.com/us-news/2026/nov/10/pete-hegseth-impeachment-effort\">blocked an effort to impeach Pete Hegseth</a>. The defense secretary dismissed the impeachment resolution from a Republican lawmaker as “political spectacle”, saying it was <a href=\"https://www.theguardian.com/us-news/2026/nov/10/pete-hegseth-impeachment-massie\">an attempt to set up a “show trial”</a>. Top Democrats announced their support for the resolution, but Republicans moved to kill it by referring it to the judiciary committee.</p><p>Thomas Massie’s 34-page resolution, which he read aloud on the House floor, centered on the Iran war. Hegseth said the articles targeted not just him but the troops who carried out his orders. He insisted that every operation the articles cite – including strikes on Iran and Yemen, attacks on alleged drug boats and the capture of Venezuela’s now former leader Nicolás Maduro – was lawful, ordered by Donald Trump and notified to Congress.</p><p><strong>Why has the US Treasury chief reportedly moved? </strong>Scott Bessent has <a href=\"https://www.theguardian.com/us-news/2026/nov/11/us-treasury-chief-scott-bessent-moves-military-base-iran-threats\">relocated from his home</a> in the Washington area to a military base after an Iranian threat against his life, the New York Times reported. Bessent has led ‌the US sanctions and economic pressure campaign against Iran, called Operation Economic Outcast, since August.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/11/first-thing-pete-hegseth-survives-effort-to-impeach-him\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/nov/11/first-thing-pete-hegseth-survives-effort-to-impeach-him",
+      "published": "Wed, 11 Nov 2026 12:04:36 GMT",
       "source": "The Guardian"
+    },
+    {
+      "title": "How Republican efforts to redraw congressional maps ‘failed epically’",
+      "summary": "<p>But, says one expert, it would be misleading to say that gerrymandering did not work at all in this election</p><p>If there was one obvious conclusion from Democrats’ sweeping victories in the mid-term elections on Tuesday, it seemed to be that the Republican effort to redraw congressional districts in their favor <a href=\"https://www.theguardian.com/us-news/2026/nov/03/democrats-house-florida-wins-redistricting\">backfired</a>.</p><p>Starting last summer, Trump and Republican allies undertook an aggressive effort to redraw congressional districts, reconfiguring the lines to give Republican candidates an advantage. Ahead of the midterms, Republicans redrew 15 seats to their advantage. After Tuesday’s election, they appear poised to lose all but two of them. “It was definitely the wrong move,” an unnamed House Republican <a href=\"https://www.foxnews.com/politics/redistricting-efforts-blow-up-republicans-faces-amid-historic-house-losses\">told Fox News</a>. “One of the truisms in politics is never to overreach. We did and that was part of the reason for the backlash.”</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/11/republican-congressional-maps-midterms\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/nov/11/republican-congressional-maps-midterms",
+      "published": "Wed, 11 Nov 2026 12:00:49 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Market angst is driving investors into low-volatility stocks as AI trade stumbles",
+      "summary": "Anxiety in the U.S. stock market has surged amid a sharp selloff in artificial intelligence names and stubbornly high bond yields.",
+      "link": "https://www.marketwatch.com/story/market-angst-is-driving-investors-into-low-volatility-stocks-as-ai-trade-stumbles-23d905e9?mod=mw_rss_topstories",
+      "published": "Wed, 11 Nov 2026 12:00:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
+      "summary": "Trump welcomes the outcome, praising Hegseth as a \"Great American Patriot\", but Democrats can try again next year.",
+      "link": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 11 Nov 2026 11:47:22 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Trump's judicial confirmations to face resistance in Democratic-controlled Senate",
+      "summary": "A Democratic-controlled Senate is unlikely to help President Trump and Republicans continue their push to remake the federal judiciary in the next two years.",
+      "link": "https://www.cbsnews.com/news/trump-judicial-confirmations-democrats-senate/",
+      "published": "Wed, 11 Nov 2026 06:00:09 -0500",
+      "source": "CBS News"
+    },
+    {
+      "title": "Democrats won by running on corruption. Now people want them to deliver.",
+      "summary": "Top progressives in Washington say it's time for the party to keep its campaign promises by passing actual legislation.",
+      "link": "https://www.washingtonpost.com/politics/2026/11/11/democrats-won-by-running-corruption-now-people-want-them-deliver/",
+      "published": "Wed, 11 Nov 2026 10:55:04 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Why Goldman Sachs is now changing its Federal Reserve interest-rate forecast",
+      "summary": "Following Tuesday’s hot CPI data , Goldman Sachs is now pencilling in additional Fed tightening.",
+      "link": "https://www.marketwatch.com/story/why-goldman-sachs-is-now-changing-its-federal-reserve-interest-rate-forecast-3753f968?mod=mw_rss_topstories",
+      "published": "Wed, 11 Nov 2026 10:37:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Morning News Brief: Hegseth impeachment, new House GOP leader, UK probes base plot",
+      "summary": "Republicans block Hegseth impeachment, Trump ally picked to lead House GOP minority, UK investigates alleged Iran-backed plot.",
+      "link": "https://www.npr.org/2026/11/11/nx-s1-6035568/morning-news-brief-hegseth-impeachment-new-house-gop-leader-uk-probes-base-plot",
+      "published": "Wed, 11 Nov 2026 05:02:44 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "Both sides now? Critics slam DOJ moves to dismiss convictions of Trump allies",
+      "summary": "The DOJ moved to dismiss criminal convictions of former Trump adviser Steve Bannon and of the Oath Keepers, in what it calls \"the interests of justice.\" Critics are crying foul.",
+      "link": "https://www.npr.org/2026/11/11/g-s1-152713/doj-abandons-convictions-trump-allies-no-defense",
+      "published": "Wed, 11 Nov 2026 05:00:00 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "Democratic socialists will hold dozens of elected offices next year",
+      "summary": "Candidates endorsed by the Democratic Socialists of America will hold eight House seats and run the two largest cities next year, as well as serving in dozens of local and state offices.",
+      "link": "https://www.washingtonpost.com/politics/2026/11/11/democratic-socialists-will-hold-dozens-elected-offices-next-year/",
+      "published": "Wed, 11 Nov 2026 10:00:00 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Your guide to hosting a flavorful, cozy and stress-free Thanksgiving",
+      "summary": "Whether you're hosting friendsgiving or Thanksgiving, we've got foolproof turkey recipes, advice on how to stay present while hosting, and directions on how to create a stunning floral arrangement.",
+      "link": "https://www.npr.org/2026/11/11/nx-s1-6034639/your-guide-to-hosting-a-flavorful-cozy-and-stress-free-thanksgiving",
+      "published": "Wed, 11 Nov 2026 05:00:00 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "Spy scandal highlights contradictions at heart of Trump’s China policy",
+      "summary": "The president’s warnings about Beijing’s technological ambitions collide with his close relationships with tech executives and a desire to preserve relations with Xi Jinping.",
+      "link": "https://www.washingtonpost.com/politics/2026/11/11/spy-scandal-shows-contradictions-trump-china-policies/",
+      "published": "Wed, 11 Nov 2026 10:00:00 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Spain's first general strike in 14 years demands solutions to housing crisis",
+      "summary": "Less than three weeks before a national election that could catapult the far right to power, Spain's workers are striking on Wednesday to demand that the government remedy the nation's housing crisis.",
+      "link": "https://www.npr.org/2026/11/11/nx-s1-6037314/spain-general-strike",
+      "published": "Wed, 11 Nov 2026 04:54:54 -0500",
+      "source": "NPR"
     },
     {
       "title": "Matthew Farwell convicted of killing Sandra Birchmore, unborn child",
@@ -88,27 +302,6 @@
       "link": "https://www.cbsnews.com/news/matthew-farwell-trial-jury-verdict-sandra-birchmore/",
       "published": "Tue, 10 Nov 2026 23:13:19 -0500",
       "source": "CBS News"
-    },
-    {
-      "title": "Bessent reportedly moved to military base over Iranian threats on his life",
-      "summary": "The move comes as the Department of Justice said late Tuesday that three Iranian nationals have been indicted on terrorism-related charges.",
-      "link": "https://www.cnbc.com/2026/11/11/us-iran-war-trump-hormuz-bessent-threats.html",
-      "published": "Wed, 11 Nov 2026 04:06:47 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Meghan Markle's father jailed after cutting off monitoring device",
-      "summary": "Thomas Markle was jailed in Florida on Tuesday after federal prosecutors allege that he cut off his location monitoring device earlier in the day.",
-      "link": "https://www.cbsnews.com/news/thomas-markle-ordered-psychiatric-exam-meghan-markle-father/",
-      "published": "Tue, 10 Nov 2026 22:47:17 -0500",
-      "source": "CBS News"
-    },
-    {
-      "title": "Dean says she's considering challenging Fetterman in 2028",
-      "summary": "Rep. Madeleine Dean (D-Pa.) said Tuesday she is “considering” challenging Sen. John Fetterman (D-Pa.) in 2028, as more Democrats weigh bids to unseat the incumbent. “I’m going to be considering it,” Dean said in an interview with Politico. “I have been concerned about, really, two things, which is his family and his health … and...",
-      "link": "https://thehill.com/homenews/house/6212521-dean-considers-fetterman-senate-challenge/",
-      "published": "Wed, 11 Nov 2026 03:44:46 +0000",
-      "source": "The Hill"
     },
     {
       "title": "Kennedys sue to block Trump's arch, arguing it would cast shadow on JFK's grave",
@@ -125,157 +318,10 @@
       "source": "CBS News"
     },
     {
-      "title": "One Big Midterm Lesson: No More GOP Zombie Hacks",
-      "summary": "Analysis of GOP failures in recent midterms and the urgent need for better Republican candidates.",
-      "link": "https://www.realclearpolitics.com/2026/11/09/one_big_midterm_lesson_no_more_gop_zombie_hacks_717126.html",
-      "published": "Tue, 10 Nov 2026 21:32:38 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Did Trump Learn Wrong Lesson on Immigration?",
-      "summary": "In an interview with",
-      "link": "https://www.realclearpolitics.com/2026/11/10/did_trump_learn_wrong_lesson_on_immigration_717245.html",
-      "published": "Tue, 10 Nov 2026 21:32:36 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Dems Are (Almost) the Working-Class Party Again",
-      "summary": "There's still room to grow, but the midterms showed important gains among a group the party desperately needs to win over.",
-      "link": "https://www.realclearpolitics.com/2026/11/10/dems_are_almost_the_working-class_party_again_717256.html",
-      "published": "Tue, 10 Nov 2026 21:32:34 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
-      "summary": "Trump welcomes the outcome, praising Hegseth as a \"Great American Patriot\", but Democrats can try again next year.",
-      "link": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 11 Nov 2026 03:26:42 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "House Democrat says traffic incident prevented her and others from voting on Hegseth impeachment",
-      "summary": "Rep. Melanie Stansbury (D-N.M.) said Tuesday that she and other lawmakers were unable to reach the Capitol in time to vote against a Republican effort to block the impeachment of Defense Secretary Pete Hegseth because of a traffic incident and a police escort. “Like other Members of Congress, Rep. Stansbury was blocked from entering the...",
-      "link": "https://thehill.com/homenews/house/6212500-stansbury-misses-hegseth-vote/",
-      "published": "Wed, 11 Nov 2026 03:09:50 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Pentagon declares ‘total victory’ after House Republicans block effort to impeach Pete Hegseth – as it happened",
-      "summary": "<p>This live blog is now closed.</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/2026/nov/10/pete-hegseth-impeachment-effort\">House Republicans block effort to impeach Pentagon chief Pete Hegseth</a></p></li><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for the US Breaking News email</a><br /></p></li></ul><p><strong>During his press conference, Hegseth was resolute that the articles of impeachment are baseless, and that all attacks were carried out legally.</strong></p><p>“As for the articles themselves, Iran, the cartels, Maduro, Yemen, everyone was a lawful operation ordered by the commander-in-chief, then ordered by myself, notified to Congress and executed by American warriors who did their jobs,” he said. “We destroyed terror regimes’ capabilities. We sank the boats carrying poison into our communities. We put a narco dictator in handcuffs. These are not high crimes. This is the job, and it’s the job well done.”</p> <a href=\"https://www.theguardian.com/us-news/live/2026/nov/10/donald-trump-pete-hegseth-thomas-massie-republicans-iran-war-impeachment-midterms-latest-news-updates\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/live/2026/nov/10/donald-trump-pete-hegseth-thomas-massie-republicans-iran-war-impeachment-midterms-latest-news-updates",
-      "published": "Wed, 11 Nov 2026 02:55:46 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "In Mississippi, voters await cliffhanger Senate result with hope and frustration",
-      "summary": "Democratic voters tell the BBC their candidate is on the brink of history, while Republicans vent disappointment.",
-      "link": "https://www.bbc.co.uk/news/articles/c6ly0y8r54pqo?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 11 Nov 2026 02:53:57 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Mullin vows ‘zero change’ on immigration after Republicans suffer crushing midterm losses",
-      "summary": "Markwayne Mullin says the Department of Homeland Security is deporting roughly 3,600 people a day and promises \"zero change\" after midterm elections.",
-      "link": "https://www.foxnews.com/politics/mullin-vows-zero-change-immigration-republicans-suffer-crushing-midterm-losses",
-      "published": "Tue, 10 Nov 2026 21:52:52 -0500",
-      "source": "Fox News"
-    },
-    {
-      "title": "Kennedy family sues to stop Trump’s arch, citing shadow on JFK’s grave",
-      "summary": "The planned 250-foot-tall arch would cast a shadow on both the former president’s eternal flame and his memorial, an analysis by The Post found.",
-      "link": "https://www.washingtonpost.com/politics/2026/11/10/kennedy-family-sues-stop-trumps-arch-citing-shadow-jfk-grave/",
-      "published": "Wed, 11 Nov 2026 02:12:12 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Reporters Without Borders calls for Carr to be impeached for 'weaponizing' FCC",
-      "summary": "Reporters Without Borders (RSF) is urging the incoming Congress to impeach Federal Communications Commission (FCC) Chair Brendan Carr, accusing him of undermining press freedom by punishing news outlets critical of President Trump and his administration. The organization, which advocates for journalists worldwide, claimed Carr has repeatedly used the FCC’s regulatory authority to pursue politically motivated...",
-      "link": "https://thehill.com/homenews/media/6212455-rsf-urges-impeachment-brendan-carr/",
-      "published": "Wed, 11 Nov 2026 02:11:46 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Hegseth impeachment effort is blocked by House Republicans",
-      "summary": "Rep. Thomas Massie, a fellow Republican and frequent critic of President Trump, argued that the Iran war and the defense secretary’s controversial stewardship of the Pentagon were grounds for his removal.",
-      "link": "https://www.washingtonpost.com/national-security/2026/11/10/hegseth-defends-his-record-iran-war-impeachment-vote-looms/",
-      "published": "Wed, 11 Nov 2026 02:06:59 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Maddow fears Trump migrant detention centers may be used to imprison ‘the rest of us’",
-      "summary": "MS NOW host Rachel Maddow suggested the Trump administration could eventually use immigration detention centers to imprison American citizens while on \"The Daily Show.\"",
-      "link": "https://www.foxnews.com/media/maddow-fears-trump-migrant-detention-centers-may-used-imprison-the-rest-us",
-      "published": "Tue, 10 Nov 2026 21:02:23 -0500",
-      "source": "Fox News"
-    },
-    {
-      "title": "Twice-deported illegal immigrant accused of trying to storm United cockpit, threatening bomb: DHS",
-      "summary": "Rony Alexander Gomez-Alberto, accused of a bomb threat on a United Airlines flight to New Orleans, had been deported twice before, DHS confirms.",
-      "link": "https://www.foxnews.com/us/twice-deported-illegal-immigrant-accused-trying-storm-united-cockpit-threatening-bomb-dhs",
-      "published": "Tue, 10 Nov 2026 21:01:53 -0500",
-      "source": "Fox News"
-    },
-    {
-      "title": "Nima Momeni sentenced to 16 years to life in murder of Cash App founder Bob Lee",
-      "summary": "<p>Tech consultant convicted of second-degree murder in 2023 stabbing death of Cash App founder</p><p>Nima Momeni, the man convicted of murdering Cash App founder Bob Lee, has been sentenced to 16 years to life.</p><p>Momeni, 42, has been in San Francisco’s county jail since late April of 2023, after he was arrested in connection with the stabbing death of Lee, who had created the mobile payment service and was serving as the chief product officer of the cryptocurrency MobileCoin at the time of his death.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/10/bob-lee-cash-app-nima-momeni-sentenced\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/nov/10/bob-lee-cash-app-nima-momeni-sentenced",
-      "published": "Wed, 11 Nov 2026 01:53:38 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Federal government failed to hold Epstein accountable, Republican committee says",
-      "summary": "The Republican chair of the House Oversight Committee released a scathing report after a 15-month investigation into Jeffrey Epstein and his associates. It faulted the federal government with decades of failing to hold Epstein accountable.",
-      "link": "https://www.npr.org/2026/11/10/nx-s1-6036135/federal-government-failed-to-hold-epstein-accountable-republican-committee-says",
-      "published": "Tue, 10 Nov 2026 20:51:23 -0500",
-      "source": "NPR"
-    },
-    {
-      "title": "Anti-Israel agitators swarm Biden in Ireland and hurl object at motorcade",
-      "summary": "Video shows protesters throwing an object and screaming at Joe Biden's motorcade outside Trinity College Dublin, where Hunter Biden accepted a prestigious award.",
-      "link": "https://www.foxnews.com/politics/anti-israel-agitators-swarm-biden-ireland-hurl-object-motorcade",
-      "published": "Tue, 10 Nov 2026 20:07:45 -0500",
-      "source": "Fox News"
-    },
-    {
-      "title": "Hegseth impeachment effort torpedoed in House",
-      "summary": "GOP Rep. Thomas Massie, who has clashed with President Donald Trump, kicked off the Hegseth impeachment fight days after a blue wave midterm election.",
-      "link": "https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html",
-      "published": "Tue, 10 Nov 2026 23:46:41 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "House votes to effectively end the impeachment effort against Pete Hegseth",
-      "summary": "House Republicans managed to short-circuit a floor vote on the impeachment effort brought against the Defense Secretary by Kentucky Republican Thomas Massie.",
-      "link": "https://www.npr.org/2026/11/10/nx-s1-6036813/house-votes-to-effectively-end-the-impeachment-effort-against-pete-hegseth",
-      "published": "Tue, 10 Nov 2026 18:43:11 -0500",
-      "source": "NPR"
-    },
-    {
       "title": "DHS watchdog will probe ICE’s compliance with wearing body cams",
       "summary": "In several shootings, federal immigration officers were not equipped with body cameras or did not have them turned on.",
       "link": "https://www.washingtonpost.com/immigration/2026/11/10/dhs-watchdog-will-probe-ices-compliance-with-wearing-body-cams/",
       "published": "Tue, 10 Nov 2026 23:27:43 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Supreme Court seems split over federal agencies' ability to fine for law violations",
-      "summary": "The Supreme Court heard arguments Tuesday in a case related to temporary worker visas. The company involved says enforcement issues should go through the courts, not the federal agency alone.",
-      "link": "https://www.npr.org/2026/11/10/nx-s1-6034950/2026-11-10-nx-s1-6034950-supreme-court-seems-divided-over-federal-agencies-ability-to-fine-for-law-violations",
-      "published": "Tue, 10 Nov 2026 18:27:32 -0500",
-      "source": "NPR"
-    },
-    {
-      "title": "Schumer accuses Trump of defending Nvidia CEO Jensen Huang at cost of national security",
-      "summary": "Rep. John Moolenaar, R-Mich., the Republican chairman of the Select Committee on China, told CNBC he expects answers about Jensen Huang's relationship.",
-      "link": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
-      "published": "Tue, 10 Nov 2026 23:06:44 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "John Cornyn says he’s looking for a job: ‘People who retire die’",
-      "summary": "Senator John Cornyn reflects on the Texas Senate race and what's next for him after James Talarico is sworn in.",
-      "link": "https://www.washingtonpost.com/politics/2026/11/10/john-cornyn-says-hes-looking-job-people-who-retire-die/",
-      "published": "Tue, 10 Nov 2026 23:00:00 +0000",
       "source": "Washington Post"
     },
     {
@@ -286,38 +332,10 @@
       "source": "Washington Post"
     },
     {
-      "title": "AMD’s stock fades as investors weigh whether Nvidia’s turmoil will mean lasting wins",
-      "summary": "It’s one thing for money to shift between stocks,  but it’s another thing for customers to shift their supplier relationships.",
-      "link": "https://www.marketwatch.com/story/amds-stock-fades-as-investors-weigh-whether-nvidias-turmoil-will-mean-lasting-wins-1ecfbc5e?mod=mw_rss_topstories",
-      "published": "Tue, 10 Nov 2026 22:37:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Looking to buy the dip in chip stocks? Here’s how to avoid buying too soon.",
-      "summary": "Investors shouldn’t pay much attention to how the SOX chip-sector index trades until it reaches key “lines in the sand,” that define technical battleground areas above and below current levels.",
-      "link": "https://www.marketwatch.com/story/ignore-the-wild-swings-in-chip-stocks-until-they-reach-these-lines-in-the-sand-feb6e00f?mod=mw_rss_topstories",
-      "published": "Tue, 10 Nov 2026 22:30:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
       "title": "Police chief defends timing of N.J. township’s wire-fraud announcement",
       "summary": "“If we tipped our hand too early, they could have liquidated everything,” Cranbury Township Police Chief Giuseppe N. DeChiara said of the $26 million theft, which remains under investigation.",
       "link": "https://www.washingtonpost.com/nation/2026/11/10/police-chief-defends-timing-nj-townships-wire-fraud-announcement/",
       "published": "Tue, 10 Nov 2026 22:30:00 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Stocks fall as the 10-year Treasury yield nears 5% mark",
-      "summary": "“I don’t think they should be raising another 25 basis points,” one portfolio manager said about the Federal Reserve’s benchmark interest rate.",
-      "link": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392?mod=mw_rss_topstories",
-      "published": "Tue, 10 Nov 2026 21:42:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Massachusetts State Police to pay Karen Read $100,000 settlement",
-      "summary": "The Massachusetts State Police said the settlement would “avoid prolonged litigation and the significant costs to taxpayers of continuing the case.”",
-      "link": "https://www.washingtonpost.com/nation/2026/11/10/massachusetts-state-police-pay-karen-read-100000-settlement/",
-      "published": "Tue, 10 Nov 2026 20:30:00 +0000",
       "source": "Washington Post"
     },
     {
@@ -326,13 +344,6 @@
       "link": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html",
       "published": "Tue, 10 Nov 2026 17:13:44 GMT",
       "source": "CNBC"
-    },
-    {
-      "title": "Gas prices dip below $4 but inflation remains stubbornly high",
-      "summary": "Gasoline prices fell below $4 a gallon Tuesday for the first time in three months — but the overall cost of living remains stubbornly high.",
-      "link": "https://www.npr.org/2026/11/10/nx-s1-6034518/inflation-consumer-prices-economy-gas-prices",
-      "published": "Tue, 10 Nov 2026 09:35:50 -0500",
-      "source": "NPR"
     },
     {
       "title": "Jensen Huang exit odds are low on prediction markets after Nvidia probe",
@@ -350,15 +361,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-10-27 06:00",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 68,
-      "incidents": 6,
-      "sp500": 7676.77,
-      "usd_czk": 21.781
-    },
     {
       "date": "2026-10-27 11:21",
       "threat_level": "HIGH",
@@ -619,6 +621,15 @@
       "incidents": 7,
       "sp500": 7520.93,
       "usd_czk": 21.702
+    },
+    {
+      "date": "2026-11-11 13:19",
+      "threat_level": "MEDIUM",
+      "value": 2,
+      "sentiment_score": 52,
+      "incidents": 5,
+      "sp500": 7520.93,
+      "usd_czk": 21.702
     }
   ],
   "locations": [
@@ -630,11 +641,11 @@
       "name_en": "Washington, D.C."
     },
     {
-      "key": "Texas",
-      "lat": 31.9686,
-      "lon": -99.9018,
-      "name_cs": "Texas",
-      "name_en": "Texas"
+      "key": "New York",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "name_cs": "New York",
+      "name_en": "New York"
     },
     {
       "key": "Florida",
@@ -644,25 +655,11 @@
       "name_en": "Florida"
     },
     {
-      "key": "California",
-      "lat": 36.7783,
-      "lon": -119.4179,
-      "name_cs": "Kalifornie",
-      "name_en": "California"
-    },
-    {
-      "key": "Capitol",
-      "lat": 38.8899,
-      "lon": -77.0091,
-      "name_cs": "Kapitol",
-      "name_en": "US Capitol"
-    },
-    {
-      "key": "Louisiana",
-      "lat": 31.2448,
-      "lon": -92.145,
-      "name_cs": "Louisiana",
-      "name_en": "Louisiana"
+      "key": "Border",
+      "lat": 31.7619,
+      "lon": -106.485,
+      "name_cs": "Hranice s Mexikem (El Paso)",
+      "name_en": "US-Mexico Border (El Paso)"
     },
     {
       "key": "Massachusetts",
@@ -672,27 +669,11 @@
       "name_en": "Massachusetts"
     },
     {
-      "key": "San Francisco",
-      "lat": 37.77,
-      "lon": -122.42,
-      "name_cs": "San Francisco",
-      "name_en": "San Francisco",
-      "auto": true
-    },
-    {
-      "key": "Ukrain",
-      "lat": 50.45,
-      "lon": 30.52,
-      "name_cs": "Ukrajina",
-      "name_en": "Ukrain",
-      "auto": true
-    },
-    {
-      "key": "Russia",
-      "lat": 55.75,
-      "lon": 37.62,
-      "name_cs": "Rusko",
-      "name_en": "Russia",
+      "key": "Venezuela",
+      "lat": 7,
+      "lon": -66,
+      "name_cs": "Venezuela",
+      "name_en": "Venezuela",
       "auto": true
     },
     {
@@ -712,11 +693,11 @@
       "auto": true
     },
     {
-      "key": "Uae",
-      "lat": 24.3,
-      "lon": 54.4,
-      "name_cs": "SAE",
-      "name_en": "Uae",
+      "key": "Turkey",
+      "lat": 39,
+      "lon": 35,
+      "name_cs": "Turecko",
+      "name_en": "Turkey",
       "auto": true
     },
     {
@@ -725,6 +706,14 @@
       "lon": 104.2,
       "name_cs": "Čína",
       "name_en": "China",
+      "auto": true
+    },
+    {
+      "key": "Australia",
+      "lat": -25.3,
+      "lon": 133.8,
+      "name_cs": "Austrálie",
+      "name_en": "Australia",
       "auto": true
     },
     {
@@ -744,22 +733,30 @@
       "auto": true
     },
     {
-      "key": "France",
-      "lat": 48.86,
-      "lon": 2.35,
-      "name_cs": "Paříž",
-      "name_en": "France",
+      "key": "Italy",
+      "lat": 41.9,
+      "lon": 12.5,
+      "name_cs": "Řím",
+      "name_en": "Italy",
+      "auto": true
+    },
+    {
+      "key": "Spain",
+      "lat": 40.4,
+      "lon": -3.7,
+      "name_cs": "Madrid",
+      "name_en": "Spain",
       "auto": true
     }
   ],
   "location_counts": {
-    "Florida": 54,
+    "Florida": 55,
     "Texas": 85,
-    "Washington": 88,
-    "New York": 68,
+    "Washington": 89,
+    "New York": 69,
     "California": 65,
     "Capitol": 23,
-    "Border": 23,
+    "Border": 24,
     "Los Angeles": 17,
     "Wall Street": 67,
     "Illinois": 8,
@@ -773,7 +770,7 @@
     "Tchaj-wan": 1,
     "Japonsko": 1,
     "Pákistán": 1,
-    "Londýn": 1,
+    "Londýn": 3,
     "Paříž": 1,
     "Madrid": 1,
     "Kolumbie": 1,
@@ -817,7 +814,7 @@
     "Seattle": 1,
     "Utah": 7,
     "Turecko": 1,
-    "Massachusetts": 5,
+    "Massachusetts": 6,
     "Argentina": 2,
     "Praha": 1,
     "Sýrie": 1,
@@ -836,17 +833,9 @@
     "key": "Washington",
     "name_cs": "Washington, D.C.",
     "name_en": "Washington, D.C.",
-    "count": 88
+    "count": 89
   },
   "archive": [
-    {
-      "date": "2026-11-03 13:23",
-      "threat_level": "HIGH",
-      "security_status_cs": "Spojené státy procházejí dnem voleb do Kongresu v roce 2026, které představují klíčové referendum o politice administrativy prezidenta Donalda Trumpa. Volební účast čelí lokálním komplikacím kvůli silným bouřím a záplavám v několika státech, zatímco trhy s napětím vyhlížejí výsledky rozhodující o rovnováze moci ve Washingtonu.",
-      "security_status_en": "The United States is holding the 2026 midterm elections, which serve as a critical referendum on President Donald Trump's administration policies. Voter turnout is facing local disruptions due to severe storms and flooding in several states, while markets eagerly await the results that will determine the balance of power in Washington.",
-      "forecast_cs": "V nejbližších dnech se veškerá pozornost soustředí na postupné sčítání hlasů z amerických midterm voleb, určení kontroly nad Kongresem a reakci finančních trhů.",
-      "forecast_en": "Over the coming days, attention will focus entirely on the gradual vote counting of the U.S. midterm elections, determining control of Congress, and the financial markets' reaction."
-    },
     {
       "date": "2026-11-04 13:34",
       "threat_level": "HIGH",
@@ -950,10 +939,18 @@
       "security_status_en": "The United States is facing heightened tensions due to congressional political clashes over the failed impeachment attempt against the defense secretary and security threats against government officials. The macroeconomic environment is burdened by rising Treasury yields and persistent inflationary pressures with potential further monetary tightening by the Fed.",
       "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na akciových trzích v návaznosti na vývoj výnosů dluhopisů a debatu o prosincovém zasedání Fedu.",
       "forecast_en": "Continued volatility in equity markets is expected over the coming days following bond yield trajectories and the debate over the December Fed meeting."
+    },
+    {
+      "date": "2026-11-11 13:19",
+      "threat_level": "MEDIUM",
+      "security_status_cs": "Americká politika čelí zvýšenému napětí po překvapivých výsledcích voleb do Kongresu a pokračujícím debatám ohledně rozpočtu a nominací vládních představitelů. Makroekonomické prostředí zůstává poznamenáno obavami z inflace a možného utahování měnové politiky Fedu po silných datech indexu spotřebitelských cen.",
+      "security_status_en": "US politics is facing heightened tension following surprising midterm congressional election results and ongoing debates over government budgets and cabinet nominations. The macroeconomic environment remains marked by inflation concerns and potential Fed monetary tightening after strong CPI data.",
+      "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na akciových trzích v návaznosti na vývoj výnosů dluhopisů a debatu o prosincovém zasedání Fedu.",
+      "forecast_en": "Continued volatility in equity markets is expected over the coming days following bond yield trajectories and the debate over the December Fed meeting."
     }
   ],
-  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 4× HIGH, 3× MEDIUM.",
-  "weekly_summary_en": "Over the last 7 recorded analyses: 4× HIGH, 3× MEDIUM.",
+  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 4× MEDIUM, 3× HIGH.",
+  "weekly_summary_en": "Over the last 7 recorded analyses: 4× MEDIUM, 3× HIGH.",
   "market_data": {
     "sp500": {
       "value": 7520.93,
