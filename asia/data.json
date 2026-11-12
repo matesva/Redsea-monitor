@@ -1,53 +1,256 @@
 {
-  "last_updated": "2026-11-11T13:20:10Z",
+  "last_updated": "2026-11-12T06:00:37Z",
   "assessment": {
     "threat_level": "HIGH",
-    "sentiment_score": 78,
-    "security_status_cs": "Trhy v Asii a globálně se otřásají po šoku způsobeném novým čínským modelem umele inteligence DeepSeek, který vyvolal masivní výprodej v technologickém sektoru a posílil bezpečné měny jako japonský jen. Současně se vyostřují geopolitické třenice, včetně kontroverzí kolem tchajwanských vízových požadavků vůči turistům a pokračujícího tlaku Číny na Tchaj-wan.",
-    "security_status_en": "Markets in Asia and globally are reeling from the shock caused by China's new DeepSeek AI model, which triggered a massive sell-off in the tech sector and strengthened safe-haven currencies like the Japanese yen. Simultaneously, geopolitical frictions are intensifying, including controversies over Taiwan's entry requirements for mainland tourists and ongoing Chinese pressure.",
+    "sentiment_score": 75,
+    "security_status_cs": "Región Asie a Tichomoří čelí výrazným otřesům po šoku způsobeném čínskými technologickými inovacemi (DeepSeek) a eskalaci geopolitického napětí kolem Tchaj-wanu ze strany Pekingu. Politická nestabilita v Indonésii po rezignaci viceprezidenta navíc prohlubuje regionální nejistotu.",
+    "security_status_en": "The Asia-Pacific region is facing significant turbulence following an AI shock driven by Chinese innovations (DeepSeek) and escalating geopolitical tensions around Taiwan by Beijing. Additionally, political instability in Indonesia following the vice president's resignation deepens regional uncertainty.",
     "recommendations": [
       {
         "sector_cs": "Polovodiče (TSMC, Samsung, ASML)",
         "sector_en": "Semiconductors (TSMC, Samsung, ASML)",
-        "action": "HOLD",
-        "reason_cs": "Sektor čelí silnému tlaku a volatilitě vyvolané čínským AI šokem (DeepSeek) a přísnými exportními kontrolami, což vyžaduje opatrnost. Dlouhodobá poptávka po čipech však zůstává strukturálně podpořena.",
-        "reason_en": "The sector faces intense pressure and volatility driven by the Chinese AI shock (DeepSeek) and strict export controls, warranting caution. However, long-term chip demand remains structurally supported."
+        "action": "SELL",
+        "reason_cs": "Globální technologický sektor čelí masivnímu výprodeji po propadu Nvidie a obavách z nových čínských modelů umělé inteligence. Zpřísňující se exportní kontroly a politická rizika zvyšují volatilitu.",
+        "reason_en": "The global tech sector faces a massive selloff following Nvidia's plunge and fears over new Chinese AI models. Tightening export controls and political risks are amplifying volatility."
       },
       {
         "sector_cs": "Čínské akcie (ETF FXI, MCHI)",
         "sector_en": "Chinese Equities (FXI, MCHI ETFs)",
-        "action": "SELL",
-        "reason_cs": "Intenzivní cenové války v čínském automobilovém i výrobním sektoru spolu s rostoucím geopolitickým napětím a riziky kolem technologického vývoje zvyšují tlak na marže a zisky firem. Regulace a nejistota nadále zatěžují náladu investorů.",
-        "reason_en": "Intense price wars in China's automotive and manufacturing sectors, coupled with rising geopolitical tensions and tech risks, are squeezing profit margins. Regulation and uncertainty continue to weigh on investor sentiment."
+        "action": "HOLD",
+        "reason_cs": "Přestože čínské firmy ukazují technologickou sílu, centrální banka zmírnila stimulační rétoriku a zaměřuje se na implementaci. Rizika spojená s Tchaj-wanem a geopolitickým tlakem G7 však doporučují opatrnost.",
+        "reason_en": "While Chinese firms show tech prowess, the central bank has dialed back stimulus rhetoric to focus on implementation. Risks tied to Taiwan and G7 geopolitical pressure warrant caution."
       },
       {
         "sector_cs": "Japonské akcie (Nikkei 225 ETF)",
         "sector_en": "Japanese Equities (Nikkei 225 ETFs)",
         "action": "HOLD",
-        "reason_cs": "Japonský trh čelí protivětrům v podobě silnějšího jenu, který slouží jako bezpečný přístav po globálních výprodejích, a potížím japonských automobilek v Číně. Domácí ekonomika nicméně nabízí určitou stabilizaci.",
-        "reason_en": "The Japanese market faces headwinds from a strengthening yen acting as a safe haven following global sell-offs and struggling automakers in China. Nevertheless, the domestic economy offers some stabilization."
+        "reason_cs": "Rostoucí výrobní inflace podporuje očekávání dalšího zvýšení sazeb ze strany Bank of Japan, což silně ovlivňuje valuace. Automobilový sektor navíc trpí silnou konkurencí na čínském trhu.",
+        "reason_en": "Rising producer inflation supports expectations of another BOJ rate hike, weighing heavily on valuations. Furthermore, the auto sector is suffering from intense competition in China."
       },
       {
         "sector_cs": "Obranný průmysl (Lockheed Martin, RTX, Mitsubishi Heavy)",
         "sector_en": "Defense Industry (Lockheed Martin, RTX, Mitsubishi Heavy)",
         "action": "BUY",
-        "reason_cs": "Zvyšující se napětí v Tchajwanské úžině a rostoucí regionální vojenská aktivita udržují vysokou poptávku po obranných zakázkách a systémech v Asii i Tichomoří.",
-        "reason_en": "Rising tensions in the Taiwan Strait and expanding regional military activity keep demand high for defense orders and systems across Asia and the Pacific."
+        "reason_cs": "Opakované důrazy Pekingu na 'reunifikaci' Tchaj-wanu a kritika ze strany G7 udržují vysokou poptávku po vojenském vybavení. Geopolitické riziko v Tchaj-wanu nadále hraje do karet zbrojařům.",
+        "reason_en": "Beijing's repeated emphasis on Taiwan 'reunification' and G7 criticism keep demand for military equipment high. Geopolitical risk across the Taiwan Strait continues to favor defense contractors."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly na pražské burze jsou vůči asijským technologickým šokům a lokálním geopolitickým rizikům převážně imunní, pohybují se spíše podle evropských makroekonomických ukazatelů a dividendových výhledů.",
-        "reason_en": "Domestic stocks on the Prague Stock Exchange remain largely immune to Asian tech shocks and local geopolitical risks, trading primarily on European macroeconomic indicators and dividend outlooks."
+        "reason_cs": "Domácí tituly jsou vůči asijským technologickým šokům primárně imunní, avšak celková globální averze k riziku může tlumit náladu na trzích. Banky zůstávají závislé na evropském makroekonomickém vývoji.",
+        "reason_en": "Domestic stocks are largely insulated from Asian tech shocks, though broader global risk aversion may weigh on market sentiment. Banks remain dependent on European macroeconomic developments."
       }
     ],
-    "forecast_cs": "V nejbližších dnech se trhy budou nadále vyrovnávat s dopady čínského AI šoku na globální technologické valuace a sledovat reakce centrálních bank na pohyby bezpečných měn. Geopolitické napětí v Asii a Tichomoří zůstane klíčovým faktorem určujícím náladu investorů.",
-    "forecast_en": "Over the coming days, markets will continue to absorb the fallout of the Chinese AI shock on global tech valuations while monitoring central bank reactions to safe-haven currency flows. Geopolitical frictions across Asia and the Pacific will remain a primary driver of investor sentiment.",
-    "forecast_review_cs": "Předchozí předpověď se plně potvrdila, neboť aktuální zprávy o čínském AI šoku a útěku k bezpečným měnám (japonský jen, švýcarský frank) dominují globálnímu dění a určují směr trhů.",
-    "forecast_review_en": "The previous forecast was fully confirmed, as current news regarding the Chinese AI shock and the flight to safe-haven currencies (Japanese yen, Swiss franc) dominate global developments and dictate market direction."
+    "forecast_cs": "V nejbližších dnech budou trhy nadále vstřebávat šok z čínského technologického pokroku a sledovat reakce globálních regulátorů na dodržování sankcí. Geopolitické napětí zůstane zvýšené před nadcházejícími summity.",
+    "forecast_en": "Over the coming days, markets will continue to digest the shock from Chinese tech advancements and monitor global regulatory responses to sanctions compliance. Geopolitical tensions will remain elevated ahead of upcoming summits.",
+    "forecast_review_cs": "Předchozí předpověď se plně potvrdila, neboť trhy byly zasaženy vlnou obav z čínského AI vývoje a reagovaly útěkem do bezpečných přístavů.",
+    "forecast_review_en": "The previous forecast was fully confirmed as markets were hit by a wave of concerns over Chinese AI development and reacted with a flight to safe havens."
   },
   "articles": [
+    {
+      "title": "Silk Road in orbit: China to build 20-satellite ‘space AI’ system for Oman",
+      "summary": "Hangzhou-based Star Vision will build Oman a network of 20 satellites that use AI to process images in orbit and spot ships and floods in real time, in what the company called China’s most valuable commercial space contract ever.\nThe deal – worth over US$200 million according to the start-up – was signed in Beijing last week with Omani firm Oman Lens during a landmark state visit by the country’s ruler, Sultan Haitham bin Tariq.\nBesides the constellation, the package includes a satellite...",
+      "link": "https://www.scmp.com/news/china/science/article/3374157/silk-road-orbit-china-build-20-satellite-space-ai-system-oman",
+      "published": "Thu, 12 Nov 2026 06:00:06 +0000",
+      "source": "SCMP"
+    },
+    {
+      "title": "Chinese President Xi Jinping says Taiwan 'reunification' must happen as history cannot be stopped",
+      "summary": "Resolving the Taiwan question is an \"unwavering historical mission\" of China's Communist Party, said Chinese President Xi Jinping.",
+      "link": "https://www.channelnewsasia.com/east-asia/china-xi-jinping-taiwan-reunification-history-6544911",
+      "published": "Thu, 12 Nov 2026 13:52:24 +0800",
+      "source": "CNA"
+    },
+    {
+      "title": "Ministry defends revision of military academy plan as efforts to increase public's acceptance",
+      "summary": "SEOUL, Nov. 12 (Yonhap) -- The defense ministry said Thursday that a proposed re...",
+      "link": "https://en.yna.co.kr/view/AEN20261112007200315",
+      "published": "Thu, 12 Nov 2026 14:50:41 +0900",
+      "source": "Yonhap"
+    },
+    {
+      "title": "Travellers can now use DBS PayLah! at over 100 million merchants across China",
+      "summary": "Users can pay by scanning a merchant's QR code or presenting their own for merchants to scan, without additional transaction fees.",
+      "link": "https://www.channelnewsasia.com/singapore/dbs-paylah-china-100-million-merchants-payment-6545051",
+      "published": "Thu, 12 Nov 2026 13:48:18 +0800",
+      "source": "CNA"
+    },
+    {
+      "title": "Singapore Art Week 2027 will take place in January with over 100 events and spotlight on Southeast Asian artists",
+      "summary": "Running from Jan 21 to 31, 2027, the 15th edition of Singapore Art Week will feature various artworks, from a giant melting sun and immersive exhibitions to art displays in a former air raid shelter, MRT stations and hotel suites.",
+      "link": "https://www.channelnewsasia.com/living/singapore-art-week-2027-southeast-asian-art-exhibitions-highlights-6544976",
+      "published": "Thu, 12 Nov 2026 13:44:49 +0800",
+      "source": "CNA"
+    },
+    {
+      "title": "Japan’s producer prices pick up, backing case for another BOJ rate hike",
+      "summary": "Prices for goods traded between Japanese firms climbed 0.7% month on month in October, the fastest since May.",
+      "link": "https://www.japantimes.co.jp/business/2026/11/12/economy/japan-producer-prices-october-pick-up/",
+      "published": "Thu, 12 Nov 2026 14:37:00 +0900",
+      "source": "Japan Times"
+    },
+    {
+      "title": "FM Cho to visit China this week for talks with Wang Yi: Seoul",
+      "summary": "SEOUL, Nov. 12 (Yonhap) -- Foreign Minister Cho Hyun will visit China this week ...",
+      "link": "https://en.yna.co.kr/view/AEN20261112007300315",
+      "published": "Thu, 12 Nov 2026 14:33:06 +0900",
+      "source": "Yonhap"
+    },
+    {
+      "title": "Hong Kong’s ICAC charges team leader of Kai Tak Hospital subcontractor over extortion",
+      "summary": "Hong Kong’s anti-corruption watchdog has charged a subcontractor’s team leader for allegedly extorting more than HK$75,000 (US$9,600) from five electrical workers at the Kai Tak Hospital site, vowing to work with the government to strengthen protections for imported labour.\nAccording to an Independent Commission Against Corruption (ICAC) statement on Thursday, Zeng Chusong, the 52-year-old site team leader from Billion Best (E&M) Engineering Company, faced 10 counts of an agent accepting an...",
+      "link": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3374166/hong-kongs-icac-charges-team-leader-kai-tak-hospital-subcontractor-over-extortion",
+      "published": "Thu, 12 Nov 2026 05:32:51 +0000",
+      "source": "SCMP"
+    },
+    {
+      "title": "(URGENT) FM Cho to visit China this week for talks with Wang Yi: foreign ministry",
+      "summary": "(END)",
+      "link": "https://en.yna.co.kr/view/AEN20261112007000315",
+      "published": "Thu, 12 Nov 2026 14:32:15 +0900",
+      "source": "Yonhap"
+    },
+    {
+      "title": "Gibran officially resigns as Indonesia’s vice-president after degree scandal",
+      "summary": "Indonesia’s ⁠Vice-President Gibran ⁠Rakabuming Raka handed in ⁠his resignation to the upper house of parliament on Thursday in the midst of a scandal over his high school diploma.\nAhmad Muzani, speaker of the upper house, ‌said Gibran had also submitted a resignation letter to President Prabowo Subianto, and parliamentary leaders will now convene to discuss the next steps.\nUnder Indonesia’s constitution, a vice-presidential vacancy does not trigger a new election. The office remains vacant until...",
+      "link": "https://www.scmp.com/news/asia/southeast-asia/article/3374164/gibran-officially-resigns-indonesias-vice-president-after-degree-scandal",
+      "published": "Thu, 12 Nov 2026 05:26:19 +0000",
+      "source": "SCMP"
+    },
+    {
+      "title": "Wembanyama leads Spurs to 10th straight NBA win",
+      "summary": "Victor Wembanyama poured in 32 points to lead seven Spurs players who scored double figures.",
+      "link": "https://www.japantimes.co.jp/sports/2026/11/12/basketball/nba/wembanyama-spurs-bulls/",
+      "published": "Thu, 12 Nov 2026 14:26:00 +0900",
+      "source": "Japan Times"
+    },
+    {
+      "title": "China signals focus shift to policy delivery as PBOC drops stimulus language: analysts",
+      "summary": "China’s central bank’s decision to drop a reference to additional policy measures from its latest quarterly report suggests Beijing’s focus is shifting towards implementing existing support measures, analysts said, pointing to December’s annual policy-setting meeting as the next window for fresh stimulus.\nIn its third-quarter monetary policy implementation report released on Wednesday, the People’s Bank of China (PBOC) removed a pledge included in its previous quarterly report to “timely plan...",
+      "link": "https://www.scmp.com/economy/china-economy/article/3374160/china-signals-focus-shift-policy-delivery-pboc-drops-stimulus-language",
+      "published": "Thu, 12 Nov 2026 05:04:45 +0000",
+      "source": "SCMP"
+    },
+    {
+      "title": "Alice Huang, Chinese woman accused of spying on Nvidia chief, entered Taiwan 8 times",
+      "summary": "<p>Beijing has rejected the spying allegations.</p>",
+      "link": "https://www.straitstimes.com/asia/east-asia/alice-huang-chinese-woman-accused-of-spying-on-nvidia-chief-entered-taiwan-8-times",
+      "published": "Thu, 12 Nov 2026 12:53:00 +0800",
+      "source": "Straits Times"
+    },
+    {
+      "title": "<i>Akiya</i> market downplays its money-pit and empty-house backstory",
+      "summary": "The emphasis now is more on second homes and less on fixer-uppers.",
+      "link": "https://www.japantimes.co.jp/business/2026/11/12/companies/akiyamart-mokomoko/",
+      "published": "Thu, 12 Nov 2026 13:52:00 +0900",
+      "source": "Japan Times"
+    },
+    {
+      "title": "Fighting intensifies in Yemen as Houthis deny targeting Mecca",
+      "summary": "World Health Organization says more than 320,000 people have been displaced in Yemen fighting since August 1.",
+      "link": "https://www.aljazeera.com/news/2026/11/12/fighting-intensifies-in-yemen-as-houthis-deny-targeting-mecca?traffic_source=rss",
+      "published": "Thu, 12 Nov 2026 04:41:17 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Nasdaq futures fall as Nvidia sinks 8% after hours on report board may oust Huang",
+      "summary": "Stock futures were sliding Wednesday evening as a selloff in shares of Nvidia after the closing bell weighed on the Nasdaq-100 and dragged down shares of other chip makers.",
+      "link": "https://www.marketwatch.com/story/nasdaq-futures-fall-as-nvidia-sinks-8-after-hours-on-report-board-may-oust-huang-e99b898d?mod=mw_rss_topstories",
+      "published": "Thu, 12 Nov 2026 04:41:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Malaysia says convicted ex-PM Najib can be returned to jail if he breaches house arrest terms",
+      "summary": "<p>KUALA LUMPUR, Nov 12 - Former Malaysian prime minister Najib Razak, who was transferred from jail this week to serve the rest of his sentence for a graft conviction at home, can be returned to prison if he breaches any of the conditions of his house arrest, the country's interior minister said on Thursday.</p>",
+      "link": "https://www.straitstimes.com/asia/malaysia-says-convicted-ex-pm-najib-can-be-returned-to-jail-if-he-breaches-house-arrest-terms",
+      "published": "Thu, 12 Nov 2026 12:34:13 +0800",
+      "source": "Straits Times"
+    },
+    {
+      "title": "Former Pakistan PM Imran Khan back in jail after medical treatment, sources say",
+      "summary": "Imran Khan had an eye check-up at the Pakistan Institute of Medical ‌Sciences, one of the officials said",
+      "link": "https://www.thehindu.com/news/international/former-pakistan-pm-imran-khan-back-in-jail-after-medical-treatment-sources-say/article71688472.ece",
+      "published": "Thu, 12 Nov 2026 10:01:02 +0530",
+      "source": "The Hindu"
+    },
+    {
+      "title": "China’s Xi says Taiwan ‘reunification’ must happen as history cannot be stopped",
+      "summary": "<p>Xi’s speech comes a week ahead of the APEC summit in China.</p>",
+      "link": "https://www.straitstimes.com/asia/east-asia/chinas-xi-says-taiwan-reunification-must-happen-as-history-cannot-be-stopped",
+      "published": "Thu, 12 Nov 2026 12:18:59 +0800",
+      "source": "Straits Times"
+    },
+    {
+      "title": "G7 Foreign Ministers say China's actions east of Taiwan threaten stability",
+      "summary": "The G7 statement said the Ministers ⁠stressed the importance of maintaining peace and stability across the Taiwan Strait",
+      "link": "https://www.thehindu.com/news/international/g7-foreign-ministers-say-chinas-actions-east-of-taiwan-threaten-stability/article71692205.ece",
+      "published": "Thu, 12 Nov 2026 08:43:57 +0530",
+      "source": "The Hindu"
+    },
+    {
+      "title": "What we know so far about Nvidia partner Megaspeed’s Asia footprint",
+      "summary": "Megaspeed is at the center of a U.S. probe over its role in sending billions of restricted Nvidia chips to China, and its executive's alleged affair with Jensen Huang.",
+      "link": "https://www.cnbc.com/2026/11/12/nvidia-megaspeed-alice-huang-jensen-.html",
+      "published": "Thu, 12 Nov 2026 03:02:03 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Australian teen missing in bush for six days rescued alive",
+      "summary": "The 17-year-old's mum has joked that he is \"grounded for life\" and \"never leaving the house again\".",
+      "link": "https://www.bbc.co.uk/news/articles/ckvg25zmppglo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 12 Nov 2026 02:40:18 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Indonesian VP resigns over education qualification row",
+      "summary": "Indonesia's Vice President Gibran Rakabuming Raka has resigned amid a dispute over his educational qualifications.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/indonesian-vp-resigns-over-education-qualification-row?traffic_source=rss",
+      "published": "Thu, 12 Nov 2026 02:22:48 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "How Nvidia CEO Jensen Huang's extramarital affair could cause collateral damage in Washington",
+      "summary": "Nvidia CEO Jensen Huang confronts a widening political and legal storm in Washington over an alleged extramarital affair and claims a former Megaspeed executive spied for China, as federal investigators probe export controls and possible national-security breaches tied to Nvidia’s chips in the high-stakes U.S.-China AI race",
+      "link": "https://www.thehindu.com/news/international/how-nvidia-ceo-jensen-huangs-extramarital-affair-could-cause-collateral-damage-in-washington/article71688529.ece",
+      "published": "Thu, 12 Nov 2026 07:44:24 +0530",
+      "source": "The Hindu"
+    },
+    {
+      "title": "Nvidia shares plunge amid reports board to discuss CEO Huang’s future",
+      "summary": "Chip giant's stock price falls more than 8 percent amid speculation over co-founder's position.",
+      "link": "https://www.aljazeera.com/economy/2026/11/12/nvidia-shares-plunge-amid-reports-board-to-discuss-ceo-huangs-future?traffic_source=rss",
+      "published": "Thu, 12 Nov 2026 00:43:26 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Inside India newsletter: Trump's poll setback fuels hope for U.S.-India trade deal by year end",
+      "summary": "While American voters are more affected by import duties on Canadian goods, experts said that a trade deal with India could blunt criticism against tariffs.",
+      "link": "https://www.cnbc.com/2026/11/12/us-india-trade-tariffs-trump-modi.html",
+      "published": "Wed, 11 Nov 2026 23:57:38 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "CoreWeave just gave a shot in the arm to Micron, Lumentum and the rest of the AI trade",
+      "summary": "CoreWeave’s improved AI economics and its vow to show some discipline around debt are sparking a broad rally across the chip sector.",
+      "link": "https://www.marketwatch.com/story/micron-and-other-ai-stocks-surge-as-coreweave-calms-wall-streets-worst-fears-0a18152a?mod=mw_rss_topstories",
+      "published": "Wed, 11 Nov 2026 22:05:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Indonesia's vice president resigns amid signs ruling alliance is fraying",
+      "summary": "The news comes at a turbulent time for Prabowo, who faces a growing rift with his predecessor Joko Widodo.",
+      "link": "https://www.bbc.co.uk/news/articles/cmvgxgz87qqro?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 11 Nov 2026 16:38:07 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "For China, Two’s Company and Three’s a Risk",
+      "summary": "Putin has put China in a risky position: it is difficult for Xi to decline a trilateral meeting and hard for him to embrace the agenda Russia and the U.S. have proposed",
+      "link": "https://thediplomat.com/2026/11/for-china-twos-company-and-threes-a-risk/",
+      "published": "Wed, 11 Nov 2026 23:30:00 +0900",
+      "source": "The Diplomat"
+    },
     {
       "title": "Nissan cuts sales forecast again on China woes as CEO outlines plan to fight back",
       "summary": "Intensifying competition in the world's largest auto market forced Nissan to cut its annual sales forecast for a second time in months.",
@@ -56,227 +259,24 @@
       "source": "CNBC"
     },
     {
-      "title": "One reason Children’s Place is filing for bankruptcy? Not enough children.",
-      "summary": "The chain has been contending with falling birth rates, cautious consumers, stiff competition and $881 million in debt.",
-      "link": "https://www.marketwatch.com/story/one-reason-the-childrens-place-is-going-bankrupt-not-enough-children-b275eab0?mod=mw_rss_topstories",
-      "published": "Wed, 11 Nov 2026 13:15:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Outcry after Taiwan asks mainland Chinese tourist to sign independence statement",
-      "summary": "A mainland Chinese tourist was asked to sign a declaration recognising Taiwan as an independent state to obtain an entry permit for the island, sparking controversy over Taipei’s entry requirements.\nBeijing condemned the demand on Wednesday, accusing Taiwan’s ruling Democratic Progressive Party (DPP) of imposing politically motivated restrictions to obstruct cross-strait tourism and exchanges.\n“The DPP authorities stubbornly cling to their separatist stance on Taiwan independence and have...",
-      "link": "https://www.scmp.com/news/china/politics/article/3374101/outcry-after-taiwan-asks-mainland-chinese-tourist-sign-independence-statement",
-      "published": "Wed, 11 Nov 2026 13:00:07 +0000",
-      "source": "SCMP"
-    },
-    {
-      "title": "30 Japanese porn stars denied entry into Hong Kong, forcing adult expo’s cancellation",
-      "summary": "A large-scale adult entertainment expo billed as Hong Kong’s first has abruptly been cancelled after nearly 30 Japanese adult-video (AV) performers were refused entry upon arrival at Hong Kong International Airport.\nOrganisers of the “Mega Fans Expo 2026” (MFE) released a statement on Wednesday announcing with regret the immediate cancellation of the three-day show, scheduled for Friday to Sunday at the Regal Airport Hotel, as well as a preview event on Thursday.\nThe statement did not give a...",
-      "link": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3374106/30-japanese-porn-stars-denied-entry-hong-kong-forcing-adult-expos-cancellation",
-      "published": "Wed, 11 Nov 2026 12:49:50 +0000",
-      "source": "SCMP"
-    },
-    {
-      "title": "Can China help ‘neither war nor peace’ deadlock in Iran before Xi-Trump summit?",
-      "summary": "Iran has again pointed out the potential role of China in ending its “neither war nor peace” impasse with the United States and pledged concrete steps to deepen ties with Beijing ahead of an expected meeting between the Chinese and American leaders next week.\nTehran has underscored its growing reliance on Beijing as Washington doubles down on economic sanctions, according to experts who note that China’s role in regional diplomacy is, and will remain, significant.\nIn an article published online...",
-      "link": "https://www.scmp.com/news/china/diplomacy/article/3374110/can-china-help-break-deadlock-irans-neither-war-nor-peace-xi-trump-summit",
-      "published": "Wed, 11 Nov 2026 12:46:55 +0000",
-      "source": "SCMP"
-    },
-    {
-      "title": "Hong Kong bets on global police role with new academy to train 1,000 a year",
-      "summary": "Hong Kong police aim to train 1,000 officers per year and bolster the city’s ties with overseas law enforcement agencies through a new international academy, which opened on Wednesday.\nSpeaking at the opening ceremony for the Hong Kong International Academy of Policing, Chief Executive John Lee Ka-chiu said the institution was an investment in collective security that would bolster the city’s international partnerships.\n“By bringing new enforcement leaders together, it would strengthen Hong...",
-      "link": "https://www.scmp.com/news/hong-kong/society/article/3374109/hong-kong-bets-global-police-role-new-academy-train-1000-year",
-      "published": "Wed, 11 Nov 2026 12:45:12 +0000",
-      "source": "SCMP"
-    },
-    {
-      "title": "Johor to get RTS Link ready for Feb 2027 opening despite Malaysian minister Loke’s exit: Official",
-      "summary": "<p>February 2027 remains the expected commencement date for the RTS Link, said the official.</p>",
-      "link": "https://www.straitstimes.com/asia/se-asia/johor-to-get-rts-link-ready-for-feb-2027-opening-despite-malaysian-minister-lokes-exit-official",
-      "published": "Wed, 11 Nov 2026 20:45:00 +0800",
-      "source": "Straits Times"
-    },
-    {
-      "title": "Indonesian V-P Gibran resigns: Here are the controversies on his rocky road to power",
-      "summary": "<p>The son of ex-president Joko Widodo now faces an uncertain political future.</p>",
-      "link": "https://www.straitstimes.com/asia/se-asia/gibrans-rocky-road-to-power-the-controversies-threatening-indonesias-vice-president-seat",
-      "published": "Wed, 11 Nov 2026 20:42:00 +0800",
-      "source": "Straits Times"
-    },
-    {
-      "title": "Mbappe misses France training before Nations League clash with Italy",
-      "summary": "Kylian Mbappe left the pitch during France's game in September but has been playing regularly for Real Madrid.",
-      "link": "https://www.aljazeera.com/sports/2026/11/11/kylian-mbappe-france-training-italy-uefa-nations-league?traffic_source=rss",
-      "published": "Wed, 11 Nov 2026 12:38:46 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "What is northern Europe’s new drone and warship plan to counter Russia?",
-      "summary": "UK-led coalition of 10 Northern European nations announces joint defence framework amid rising threats from Moscow.",
-      "link": "https://www.aljazeera.com/news/2026/11/11/whats-northern-europes-new-drones-and-warships-plan-to-counter-russia?traffic_source=rss",
-      "published": "Wed, 11 Nov 2026 12:13:52 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Dementia Singapore app users' personal data potentially compromised in cyber incident",
-      "summary": "Names, email addresses, phone numbers and membership IDs may have been affected in the incident involving the CARA SG app.",
-      "link": "https://www.channelnewsasia.com/singapore/cara-app-dementia-singapore-cybersecurity-incident-6542871",
-      "published": "Wed, 11 Nov 2026 20:13:00 +0800",
-      "source": "CNA"
-    },
-    {
-      "title": "Nissan pares car sales forecast on tougher China competition",
-      "summary": "The Japanese manufacturer now projects at most 3 million vehicle deliveries this year, from 3.15 million previously.",
-      "link": "https://www.japantimes.co.jp/business/2026/11/11/companies/nissan-sales-forecast/",
-      "published": "Wed, 11 Nov 2026 20:43:00 +0900",
-      "source": "Japan Times"
-    },
-    {
-      "title": "Passenger train derails in India, leaving several injured",
-      "summary": "Video from inside the driver’s cabin captured the moment a train derailed in India’s Assam state.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/passenger-train-derails-in-india-leaving-several-injured?traffic_source=rss",
-      "published": "Wed, 11 Nov 2026 11:42:20 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "CoreWeave’s stock pops as new financing playbook eases debt concerns",
-      "summary": "A third-quarter revenue beat and $9 billion in planned prepayments gave investors renewed confidence in CoreWeave’s business.",
-      "link": "https://www.marketwatch.com/story/coreweaves-stock-pops-as-new-financing-playbook-eases-debt-concerns-70241525?mod=mw_rss_topstories",
-      "published": "Wed, 11 Nov 2026 11:27:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Woman admits in Japanese court she forced roommate to sew her own lips shut",
-      "summary": "<p>The defendant was mad that the victim ate food without her permission.</p>",
-      "link": "https://www.straitstimes.com/asia/east-asia/woman-admits-in-japanese-court-she-forced-roommate-to-sew-her-own-lips-shut",
-      "published": "Wed, 11 Nov 2026 19:21:54 +0800",
-      "source": "Straits Times"
-    },
-    {
-      "title": "Exiled Cambodian opposition leader urges Japan to aid democracy",
-      "summary": "In a recent interview in Tokyo, Rainsy criticized former Cambodian Prime Minister Hun Sen, 74, and his family for establishing a \"dictatorship.\"",
-      "link": "https://www.japantimes.co.jp/news/2026/11/11/japan/cambodia-exiled-opposition-leader-democracy/",
-      "published": "Wed, 11 Nov 2026 20:16:00 +0900",
-      "source": "Japan Times"
-    },
-    {
-      "title": "Japan, eight others get fossil award over leaders skipping climate talks",
-      "summary": "From the Group of Seven countries, British Prime Minister Andy Burnham is the only leader expected to attend the summit.",
-      "link": "https://www.japantimes.co.jp/news/2026/11/11/japan/climate-talks-fossil-award/",
-      "published": "Wed, 11 Nov 2026 20:10:00 +0900",
-      "source": "Japan Times"
-    },
-    {
-      "title": "England's Bethell ruled out of Australia tour after knee setback",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/englands-bethell-ruled-out-australia-tour-after-knee-setback-6542771",
-      "published": "Wed, 11 Nov 2026 18:54:16 +0800",
-      "source": "CNA"
-    },
-    {
-      "title": "Dupont to play at flyhalf for France against South Africa",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/dupont-play-flyhalf-france-against-south-africa-6542756",
-      "published": "Wed, 11 Nov 2026 18:44:59 +0800",
-      "source": "CNA"
-    },
-    {
-      "title": "Pakistan Deputy PM Ishaq Dar's grandson, seven others indicted in Lahore gang rape case",
-      "summary": "All the suspects, presently in judicial custody, were produced before the trial court for the indictment proceedings",
-      "link": "https://www.thehindu.com/news/international/pakistan-deputy-pm-ishaq-dars-grandson-seven-others-indicted-in-lahore-gang-rape-case/article71689122.ece",
-      "published": "Wed, 11 Nov 2026 15:44:55 +0530",
-      "source": "The Hindu"
-    },
-    {
-      "title": "Alice Huang, who reportedly had affair with Nvidia CEO, is Chinese banker turned tech exec",
-      "summary": "An affair between Nvidia's Jensen Huang and Alice Huang, who reportedly was suspected of working as a spy for Beijing, has rocked the tech and political worlds",
-      "link": "https://www.thehindu.com/news/international/alice-huang-who-reportedly-had-affair-with-nvidia-ceo-is-chinese-banker-turned-tech-exec/article71688893.ece",
-      "published": "Wed, 11 Nov 2026 14:23:03 +0530",
-      "source": "The Hindu"
-    },
-    {
-      "title": "S. Korea pledges US$20 mln to ADB fund for AI projects",
-      "summary": "SEOUL, Nov. 11 (Yonhap) -- South Korea has pledged to contribute US$20 million t...",
-      "link": "https://en.yna.co.kr/view/AEN20261111009000320",
-      "published": "Wed, 11 Nov 2026 17:00:03 +0900",
-      "source": "Yonhap"
-    },
-    {
-      "title": "How Nvidia CEO Jensen Huang's extramarital affair could cause collateral damage in Washington",
-      "summary": "Nvidia CEO Jensen Huang confronts a widening political and legal storm in Washington over an alleged extramarital affair and claims a former Megaspeed executive spied for China, as federal investigators probe export controls and possible national-security breaches tied to Nvidia’s chips in the high-stakes U.S.-China AI race",
-      "link": "https://www.thehindu.com/news/international/how-nvidia-ceo-jensen-huangs-extramarital-affair-could-cause-collateral-damage-in-washington/article71688529.ece",
-      "published": "Wed, 11 Nov 2026 13:24:08 +0530",
-      "source": "The Hindu"
-    },
-    {
-      "title": "Presidential office discusses rights protection for Korean adoptees overseas",
-      "summary": "SEOUL, Nov. 11 (Yonhap) -- The presidential office held a meeting Wednesday to d...",
-      "link": "https://en.yna.co.kr/view/AEN20261111009600315",
-      "published": "Wed, 11 Nov 2026 16:53:54 +0900",
-      "source": "Yonhap"
-    },
-    {
-      "title": "POSCO, GS team up to explore overseas AI data center projects",
-      "summary": "SEOUL, Nov. 11 (Yonhap) -- POSCO and GS Group, two major South Korean conglomera...",
-      "link": "https://en.yna.co.kr/view/AEN20261111009300320",
-      "published": "Wed, 11 Nov 2026 16:49:14 +0900",
-      "source": "Yonhap"
-    },
-    {
-      "title": "Singapore wants a bigger slice of the global gold market. Is it too late to the party?",
-      "summary": "Singapore is stepping up efforts to become a key player in the global gold market, betting that vaulting service and tax incentives will help it attract flows.",
-      "link": "https://www.cnbc.com/2026/11/11/singapore-gold-market-vault-storage.html",
-      "published": "Wed, 11 Nov 2026 07:02:45 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "U.S., China should ‘harbor no illusions’ as they cooperate, compete on AI, Bessent says",
-      "summary": "During Xi's September visit, Washington and Beijing agreed to launch an AI dialogue with a communications channel to help defuse serious incidents.",
-      "link": "https://www.cnbc.com/2026/11/11/trump-xi-summit-ai-nvidia-.html",
-      "published": "Wed, 11 Nov 2026 05:15:50 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "'They will kill you too': Sonia Gandhi's turbulent journey in Indian politics",
-      "summary": "Sonia Gandhi's memoir revisits love, loss and political inheritance, offering a deeply personal defence of her family and its legacy.",
-      "link": "https://www.bbc.co.uk/news/articles/c687z7g4xr97o?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 11 Nov 2026 00:26:02 GMT",
+      "title": "New Indian mega library rocked by scandal over 'AI-generated books'",
+      "summary": "The Tamil Nadu government has ordered an internal audit of library collections across the state.",
+      "link": "https://www.bbc.co.uk/news/articles/c54gne3plvrxo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 11 Nov 2026 11:33:24 GMT",
       "source": "BBC News"
     },
     {
-      "title": "Why does Australia want Brits to swap Sydney for the outback?",
-      "summary": "Australia wants changes to UK deal that would push backpackers out of Bondi and into remote regions.",
-      "link": "https://www.bbc.co.uk/news/articles/cm1j3jdp7w54o?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 10 Nov 2026 21:17:00 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Who Pays for China’s Manufacturing Price Wars?",
-      "summary": "China’s cut-throat price competition can shift financing costs onto smaller suppliers through delayed payments, weakening supply chains.",
-      "link": "https://thediplomat.com/2026/11/who-pays-for-chinas-manufacturing-price-wars/",
-      "published": "Wed, 11 Nov 2026 04:33:00 +0900",
+      "title": "Can Critical Minerals Reshape Pakistan’s Economic Trajectory?",
+      "summary": "Converting investor interest into multi-decade capital deployment requires political stability and deep institutional predictability.",
+      "link": "https://thediplomat.com/2026/11/can-critical-minerals-reshape-pakistans-economic-trajectory/",
+      "published": "Wed, 11 Nov 2026 15:38:00 +0900",
       "source": "The Diplomat"
     },
     {
-      "title": "Violence erupts in Bangladesh as ousted PM's supporters stage protest",
-      "summary": "Supporters of Sheikh Hasina want her to return from exile in India.",
-      "link": "https://www.bbc.co.uk/news/articles/cwkg5g5pjpyko?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 10 Nov 2026 19:26:42 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Beyond a Taiwan Blockade: The Strategic Implications Behind the PLA’s ‘Silent Military Exercise’",
-      "summary": "The PLA is practicing is how to disperse its naval forces, evade surveillance and reconnaissance by the U.S. and neighboring countries, and break through into the Western Pacific.",
-      "link": "https://thediplomat.com/2026/11/beyond-a-taiwan-blockade-the-strategic-implications-behind-the-plas-silent-military-exercise/",
-      "published": "Wed, 11 Nov 2026 04:11:00 +0900",
-      "source": "The Diplomat"
-    },
-    {
-      "title": "What the Fa’az Missile Means for Pakistan’s Air Force",
-      "summary": "Pakistan's first homegrown air-to-air beyond visual range missile ensures a more robust response in future aerial clashes with India.",
-      "link": "https://thediplomat.com/2026/11/what-the-faaz-missile-means-for-pakistans-air-force/",
-      "published": "Wed, 11 Nov 2026 03:38:00 +0900",
+      "title": "How India’s Courts Became So Entangled With Religion",
+      "summary": "Judgments and laws that violate the spirit of religious freedom often lead to bitter resentment, especially when core religious beliefs are defined by judges.",
+      "link": "https://thediplomat.com/2026/11/how-indias-courts-became-so-entangled-with-religion/",
+      "published": "Wed, 11 Nov 2026 12:48:00 +0900",
       "source": "The Diplomat"
     },
     {
@@ -301,44 +301,35 @@
       "source": "WSJ Markets"
     },
     {
-      "title": "Singapore Airlines takes 44% profit hit in 1st half on soaring fuel costs",
+      "title": "Taiwan emphasizes APEC China presence as it walks diplomatic tightrope",
       "summary": "",
-      "link": "https://asia.nikkei.com/business/transportation/singapore-airlines-takes-44-profit-hit-in-1st-half-on-soaring-fuel-costs",
-      "published": "2026-11-11 13:19",
+      "link": "https://asia.nikkei.com/politics/international-relations/apec/taiwan-emphasizes-apec-china-presence-as-it-walks-diplomatic-tightrope",
+      "published": "2026-11-12 06:00",
       "source": "Nikkei Asia"
     },
     {
-      "title": "Nissan says China sales slump 'intensified' through October",
+      "title": "Indonesian VP Gibran steps down, marking end of Prabowo-Widodo ties",
       "summary": "",
-      "link": "https://asia.nikkei.com/business/automobiles/nissan-says-china-sales-slump-intensified-through-october",
-      "published": "2026-11-11 13:19",
+      "link": "https://asia.nikkei.com/politics/indonesian-vp-gibran-steps-down-marking-end-of-prabowo-widodo-ties",
+      "published": "2026-11-12 06:00",
       "source": "Nikkei Asia"
     },
     {
-      "title": "Indonesian VP's resignation plan and impeachment threat: 5 things to know",
+      "title": "Ukraine defense tech unicorn cultivates Taiwan and Japan supply chain ties",
       "summary": "",
-      "link": "https://asia.nikkei.com/politics/indonesian-vp-s-resignation-plan-and-impeachment-threat-5-things-to-know",
-      "published": "2026-11-11 13:19",
+      "link": "https://asia.nikkei.com/business/aerospace-defense-industries/ukraine-defense-tech-unicorn-cultivates-taiwan-and-japan-supply-chain-ties",
+      "published": "2026-11-12 06:00",
       "source": "Nikkei Asia"
     },
     {
-      "title": "Japan's Marubeni bets on southward shift in global growth",
+      "title": "Indonesia, Thailand, Philippines to set up shared oil reserves",
       "summary": "",
-      "link": "https://asia.nikkei.com/spotlight/global-management-dialogue/global-management-dialogue-2026/japan-s-marubeni-bets-on-southward-shift-in-global-growth",
-      "published": "2026-11-11 13:19",
+      "link": "https://asia.nikkei.com/business/energy/indonesia-thailand-philippines-to-set-up-shared-oil-reserves",
+      "published": "2026-11-12 06:00",
       "source": "Nikkei Asia"
     }
   ],
   "history": [
-    {
-      "date": "2026-10-27 06:01",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 72,
-      "incidents": 40,
-      "hangseng": 23083.47,
-      "usd_czk": 21.781
-    },
     {
       "date": "2026-10-27 11:21",
       "threat_level": "HIGH",
@@ -599,6 +590,15 @@
       "incidents": 40,
       "hangseng": 24315.92,
       "usd_czk": 21.702
+    },
+    {
+      "date": "2026-11-12 06:00",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 75,
+      "incidents": 40,
+      "hangseng": 24060.85,
+      "usd_czk": 21.909
     }
   ],
   "locations": [
@@ -638,6 +638,13 @@
       "name_en": "Hong Kong"
     },
     {
+      "key": "Manila",
+      "lat": 14.5995,
+      "lon": 120.9842,
+      "name_cs": "Manila",
+      "name_en": "Manila"
+    },
+    {
       "key": "Delhi",
       "lat": 28.6139,
       "lon": 77.209,
@@ -650,6 +657,13 @@
       "lon": 73.0479,
       "name_cs": "Islámábád",
       "name_en": "Islamabad"
+    },
+    {
+      "key": "Bangkok",
+      "lat": 13.7563,
+      "lon": 100.5018,
+      "name_cs": "Bangkok",
+      "name_en": "Bangkok"
     },
     {
       "key": "Jakarta",
@@ -680,142 +694,22 @@
       "name_en": "Canberra"
     },
     {
-      "key": "Dhaka",
-      "lat": 23.8103,
-      "lon": 90.4125,
-      "name_cs": "Dháka",
-      "name_en": "Dhaka"
-    },
-    {
-      "key": "Washington",
-      "lat": 38.9,
-      "lon": -77.04,
-      "name_cs": "Washington, D.C.",
-      "name_en": "Washington",
-      "auto": true
-    },
-    {
-      "key": "New York",
-      "lat": 40.71,
-      "lon": -74,
-      "name_cs": "New York",
-      "name_en": "New York",
-      "auto": true
-    },
-    {
-      "key": "Russia",
-      "lat": 55.75,
-      "lon": 37.62,
-      "name_cs": "Rusko",
-      "name_en": "Russia",
-      "auto": true
-    },
-    {
-      "key": "Iran",
-      "lat": 32.4,
-      "lon": 53.7,
-      "name_cs": "Írán",
-      "name_en": "Iran",
-      "auto": true
-    },
-    {
-      "key": "China",
-      "lat": 35.9,
-      "lon": 104.2,
-      "name_cs": "Čína",
-      "name_en": "China",
-      "auto": true
-    },
-    {
-      "key": "India",
-      "lat": 20.6,
-      "lon": 79,
-      "name_cs": "Indie",
-      "name_en": "India",
-      "auto": true
-    },
-    {
-      "key": "Pakistan",
-      "lat": 30.4,
-      "lon": 69.3,
-      "name_cs": "Pákistán",
-      "name_en": "Pakistan",
-      "auto": true
-    },
-    {
-      "key": "Indonesia",
-      "lat": -2.5,
-      "lon": 118,
-      "name_cs": "Indonésie",
-      "name_en": "Indonesia",
-      "auto": true
-    },
-    {
-      "key": "Australia",
-      "lat": -25.3,
-      "lon": 133.8,
-      "name_cs": "Austrálie",
-      "name_en": "Australia",
-      "auto": true
-    },
-    {
-      "key": "London",
-      "lat": 51.5,
-      "lon": -0.12,
-      "name_cs": "Londýn",
-      "name_en": "London",
-      "auto": true
-    },
-    {
-      "key": "France",
-      "lat": 48.86,
-      "lon": 2.35,
-      "name_cs": "Paříž",
-      "name_en": "France",
-      "auto": true
-    },
-    {
-      "key": "Italy",
-      "lat": 41.9,
-      "lon": 12.5,
-      "name_cs": "Řím",
-      "name_en": "Italy",
-      "auto": true
-    },
-    {
-      "key": "Spain",
-      "lat": 40.4,
-      "lon": -3.7,
-      "name_cs": "Madrid",
-      "name_en": "Spain",
-      "auto": true
-    },
-    {
-      "key": "South Africa",
-      "lat": -30.6,
-      "lon": 22.9,
-      "name_cs": "Jihoafrická republika",
-      "name_en": "South Africa",
-      "auto": true
-    },
-    {
-      "key": "Colombia",
-      "lat": 4.57,
-      "lon": -74.3,
-      "name_cs": "Kolumbie",
-      "name_en": "Colombia",
-      "auto": true
+      "key": "Taiwan Strait",
+      "lat": 24.5,
+      "lon": 119.5,
+      "name_cs": "Tchajwanský průliv",
+      "name_en": "Taiwan Strait"
     }
   ],
   "location_counts": {
-    "Beijing": 109,
-    "Hong Kong": 101,
-    "Tokyo": 84,
+    "Beijing": 110,
+    "Hong Kong": 102,
+    "Tokyo": 85,
     "Shanghai": 22,
-    "Seoul": 86,
+    "Seoul": 87,
     "South China Sea": 10,
-    "Taipei": 59,
-    "Manila": 46,
+    "Taipei": 60,
+    "Manila": 47,
     "Pyongyang": 59,
     "Washington, D.C.": 3,
     "Los Angeles": 2,
@@ -835,17 +729,17 @@
     "Ukrajina": 1,
     "Singapur": 1,
     "Austrálie": 2,
-    "Delhi": 77,
-    "Singapore": 58,
-    "Kuala Lumpur": 60,
-    "Canberra": 52,
+    "Delhi": 78,
+    "Singapore": 59,
+    "Kuala Lumpur": 61,
+    "Canberra": 53,
     "New York": 1,
     "Ithaca (Cornell)": 1,
     "Argentina": 1,
     "Súdán": 1,
     "Kolumbie": 1,
-    "Islamabad": 50,
-    "Jakarta": 70,
+    "Islamabad": 51,
+    "Jakarta": 71,
     "Izrael": 1,
     "Turecko": 1,
     "Indonésie": 2,
@@ -858,9 +752,9 @@
     "Řím": 1,
     "Brusel": 1,
     "Jihoafrická republika": 1,
-    "Bangkok": 38,
+    "Bangkok": 39,
     "Hanoi": 29,
-    "Taiwan Strait": 1,
+    "Taiwan Strait": 2,
     "Kalifornie": 1,
     "Paraguay": 1,
     "Praha": 1,
@@ -895,17 +789,9 @@
     "key": "Beijing",
     "name_cs": "Peking",
     "name_en": "Beijing",
-    "count": 109
+    "count": 110
   },
   "archive": [
-    {
-      "date": "2026-11-03 13:23",
-      "threat_level": "HIGH",
-      "security_status_cs": "Región Asie-Pacifik čelí výrazným otřesům po šoku způsobeném čínským AI modelem DeepSeek, který vyvolal prudký výprodej na globálních technologických trzích. Geopolitické napětí se projevuje také v oblasti kritické infrastruktury a narušení dodavatelských řetězců, včetně incidentů kolem podmořských kabelů a eskalujících protestů v bangladéšském textilním sektoru. Vlády v regionu reagují masivními investicemi do suverénní umělé inteligence a posilováním obranných a dodavatelských kapacit.",
-      "security_status_en": "The Asia-Pacific region is facing significant market shocks following the emergence of China's DeepSeek AI model, which triggered a sharp sell-off in global tech markets. Geopolitical tensions are also manifesting across critical infrastructure and supply chains, highlighted by submarine cable threats and escalating garment worker protests in Bangladesh. Regional governments are responding with massive investments in sovereign AI and the bolstering of defensive and supply chain resilience.",
-      "forecast_cs": "V nejbližších dnech lze očekávat pokračující zvýšenou volatilitu a defenzivní chování investorů, kteří budou přehodnocovat ocenění firem závislých na umělé inteligenci v důsledku čínského vstupu na trh.",
-      "forecast_en": "Over the coming days, continued elevated volatility and defensive investor behavior are expected as market participants reassess valuations of AI-dependent companies following China's market disruption."
-    },
     {
       "date": "2026-11-04 13:35",
       "threat_level": "HIGH",
@@ -1009,29 +895,37 @@
       "security_status_en": "Markets in Asia and globally are reeling from the shock caused by China's new DeepSeek AI model, which triggered a massive sell-off in the tech sector and strengthened safe-haven currencies like the Japanese yen. Simultaneously, geopolitical frictions are intensifying, including controversies over Taiwan's entry requirements for mainland tourists and ongoing Chinese pressure.",
       "forecast_cs": "V nejbližších dnech se trhy budou nadále vyrovnávat s dopady čínského AI šoku na globální technologické valuace a sledovat reakce centrálních bank na pohyby bezpečných měn. Geopolitické napětí v Asii a Tichomoří zůstane klíčovým faktorem určujícím náladu investorů.",
       "forecast_en": "Over the coming days, markets will continue to absorb the fallout of the Chinese AI shock on global tech valuations while monitoring central bank reactions to safe-haven currency flows. Geopolitical frictions across Asia and the Pacific will remain a primary driver of investor sentiment."
+    },
+    {
+      "date": "2026-11-12 06:00",
+      "threat_level": "HIGH",
+      "security_status_cs": "Región Asie a Tichomoří čelí výrazným otřesům po šoku způsobeném čínskými technologickými inovacemi (DeepSeek) a eskalaci geopolitického napětí kolem Tchaj-wanu ze strany Pekingu. Politická nestabilita v Indonésii po rezignaci viceprezidenta navíc prohlubuje regionální nejistotu.",
+      "security_status_en": "The Asia-Pacific region is facing significant turbulence following an AI shock driven by Chinese innovations (DeepSeek) and escalating geopolitical tensions around Taiwan by Beijing. Additionally, political instability in Indonesia following the vice president's resignation deepens regional uncertainty.",
+      "forecast_cs": "V nejbližších dnech budou trhy nadále vstřebávat šok z čínského technologického pokroku a sledovat reakce globálních regulátorů na dodržování sankcí. Geopolitické napětí zůstane zvýšené před nadcházejícími summity.",
+      "forecast_en": "Over the coming days, markets will continue to digest the shock from Chinese tech advancements and monitor global regulatory responses to sanctions compliance. Geopolitical tensions will remain elevated ahead of upcoming summits."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 7× HIGH.",
   "market_data": {
     "hangseng": {
-      "value": 24315.92,
-      "date": "2026-11-11",
+      "value": 24060.85,
+      "date": "2026-11-12",
       "cached": false
     },
     "nikkei": {
-      "value": 61248.59,
-      "date": "2026-11-11",
+      "value": 60681.04,
+      "date": "2026-11-12",
       "cached": false
     },
     "usdcny": {
-      "value": 6.66,
-      "date": "2026-11-11",
+      "value": 6.67,
+      "date": "2026-11-12",
       "cached": false
     }
   },
   "usd_czk": {
-    "value": 21.702,
-    "date": "2026-11-10"
+    "value": 21.909,
+    "date": "2026-11-11"
   }
 }
