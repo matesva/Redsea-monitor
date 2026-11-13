@@ -1,115 +1,262 @@
 {
-  "last_updated": "2026-11-12T14:26:03Z",
+  "last_updated": "2026-11-13T05:59:35Z",
   "assessment": {
-    "threat_level": "CRITICAL",
-    "sentiment_score": 88,
-    "security_status_cs": "Bezpečnostní situace v oblasti Blízkého východu a námořních tras zůstává kritická, což potvrzují nedávné útoky na energetickou infrastrukturu a ropné tankery v regionu. Houtiové pokračují v útocích, přičemž nejnovější zásahy v saúdském hlavním městě podtrhují přetrvávající rizika pro globální logistiku a dodávky energií.",
-    "security_status_en": "The security situation in the Middle East and maritime corridors remains critical, underscored by recent attacks on energy infrastructure and oil tankers in the region. The Houthis continue their strikes, with the latest hits in the Saudi capital highlighting persistent risks to global logistics and energy supplies.",
+    "threat_level": "HIGH",
+    "sentiment_score": 75,
+    "security_status_cs": "Bezpečnostní situace v oblasti Blízkého východu a Perského zálivu zůstává napjatá kvůli pokračujícím útokům na ropné tankery a vojenská zařízení. Růst hrozeb pro námořní dopravu nadále vynucuje přísná bezpečnostní opatření a prodlužování tras lodí mimo rizikové oblasti.",
+    "security_status_en": "The security situation in the Middle East and the Persian Gulf remains tense due to ongoing attacks on oil tankers and military installations. Heightened threats to maritime shipping continue to necessitate strict security measures and the rerouting of vessels away from high-risk zones.",
     "recommendations": [
       {
         "sector_cs": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)",
         "sector_en": "Maritime Shipping (e.g. Maersk, Hapag-Lloyd, ZIM)",
-        "action": "HOLD",
-        "reason_cs": "Sektor těží z vysokých sazeb za delší plavby kolem Afriky, ale potýká se s kybernetickými hrozbami a provozními riziky.",
-        "reason_en": "The sector benefits from high rates for longer routes around Africa, but faces cyber threats and operational risks."
+        "action": "BUY",
+        "reason_cs": "Přetrvávající napětí a nutnost vyhýbat se rizikovým oblastem udržují vysoké sazebníky přepravy a podporují zisky dopravců.",
+        "reason_en": "Persisting tensions and the necessity to avoid high-risk areas maintain elevated freight rates and support carrier profits."
       },
       {
         "sector_cs": "Obranný průmysl (např. RTX, Lockheed Martin, BAE Systems)",
         "sector_en": "Defense Industry (e.g. RTX, Lockheed Martin, BAE Systems)",
         "action": "BUY",
-        "reason_cs": "Trvající konflikty a útoky v regionu udržují vysokou poptávku po protivzdušné obraně a vojenském vybavení.",
-        "reason_en": "Ongoing conflicts and regional attacks maintain high demand for air defense systems and military equipment."
+        "reason_cs": "Eskalace konfliktů a neustálé hrozby raketových a dronových útoků zajišťují stabilní poptávku po vojenském vybavení a systémech protivzdušné obrany.",
+        "reason_en": "Conflict escalation and continuous threats of missile and drone attacks ensure steady demand for military equipment and air defense systems."
       },
       {
         "sector_cs": "Ropa a Plyn (např. Shell, BP, Chevron)",
         "sector_en": "Oil & Gas (e.g. Shell, BP, Chevron)",
-        "action": "BUY",
-        "reason_cs": "Neustálé útoky na tankery a energetická zařízení v Perském zálivu udržují rizikovou přirážku na cenách ropy.",
-        "reason_en": "Continuous attacks on tankers and energy facilities in the Persian Gulf keep a risk premium on oil prices."
+        "action": "HOLD",
+        "reason_cs": "Ceny ropy čelí tlaku mezi nadějemi na deeskalaci a rizikem nových útoků v Zálivu, což vytváří smíšené prostředí pro zisky těžařů.",
+        "reason_en": "Oil prices face pressure between de-escalation hopes and the risk of fresh attacks in the Gulf, creating a mixed environment for producers."
       },
       {
         "sector_cs": "Evropský Spotřební sektor & Autoprůmysl (např. Volvo, BMW)",
         "sector_en": "European Consumer & Automotive (e.g. Volvo, BMW)",
         "action": "SELL",
-        "reason_cs": "Vysoké náklady na energie, zpoždění v dodavatelských řetězcích a slabší spotřebitelská důvěra tlačí na marže.",
-        "reason_en": "High energy costs, supply chain delays, and weaker consumer confidence are putting pressure on margins."
+        "reason_cs": "Vysoké náklady na energie, inflační tlaky a narušené dodavatelské řetězce negativně ovlivňují marže a spotřebitelskou poptávku.",
+        "reason_en": "High energy costs, inflation pressures, and disrupted supply chains negatively impact profit margins and consumer demand."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí banky a energetika nabízejí stabilitu, ale jsou citlivé na širší makroekonomický vývoj v Evropě.",
-        "reason_en": "Domestic banks and utilities offer stability, but remain sensitive to broader European macroeconomic trends."
+        "reason_cs": "Domácí banky a energetika těží ze stabilních fundamentů, ale jsou citlivé na širší evropský makroekonomický vývoj a regulatorní tlaky.",
+        "reason_en": "Domestic banks and utilities benefit from solid fundamentals but remain sensitive to broader European macroeconomic trends and regulatory pressures."
       },
       {
         "sector_cs": "Evropské blue-chips (např. Airbus, TotalEnergies, Allianz, Rheinmetall)",
         "sector_en": "European blue-chips (e.g. Airbus, TotalEnergies, Allianz, Rheinmetall)",
         "action": "HOLD",
-        "reason_cs": "Směsice geopolitických rizik a ekonomických tlaků vyžaduje selektivní přístup se zaměřením na energetiku a zbrojaře.",
-        "reason_en": "A mix of geopolitical risks and economic pressures requires a selective approach focused on energy and defense."
+        "reason_cs": "Portfóliové akcie nabízejí odolnost vůči geopolitickým šokům, avšak celkový růst je brzděn nejistotou ohledně globálního hospodářského růstu.",
+        "reason_en": "Portfolio stocks offer resilience against geopolitical shocks, yet overall growth is restrained by uncertainty surrounding global economic expansion."
       }
     ],
-    "forecast_cs": "V následujících dnech lze očekávat zvýšenou volatilitu na energetických trzích a pokračující bezpečnostní opatření v námořní dopravě. Jakékoliv nové zprávy o eskalaci v Perském zálivu okamžitě ovlivní ceny ropy.",
-    "forecast_en": "Over the coming days, heightened volatility in energy markets and ongoing security measures in maritime shipping are expected. Any fresh news of escalation in the Persian Gulf will immediately impact oil prices.",
-    "forecast_review_cs": "Předchozí předpověď se plně potvrdila, neboť pokračující útoky na infrastrukturu v Perském zálivu nadále udržují vysokou volatilitu cen komodit a ropy.",
-    "forecast_review_en": "The previous forecast was fully confirmed, as ongoing attacks on infrastructure in the Persian Gulf continue to maintain high volatility in commodity and oil prices."
+    "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající volatilitu na komoditních trzích a opatrnost investorů kvůli rizikům další eskalace v oblasti Perského zálivu.",
+    "forecast_en": "Over the coming days, persistent volatility in commodity markets and investor caution due to risks of further escalation in the Persian Gulf region are expected.",
+    "forecast_review_cs": "Předchozí předpověď o zvýšené volatilitě energetických trhů a nutnosti bezpečnostních opatření byla dnešními zprávami o útocích na tankery a přetrvávajícím napětí v Zálivu plně potvrzena.",
+    "forecast_review_en": "The previous forecast regarding heightened energy market volatility and the need for security measures was fully confirmed by today's news of attacks on tankers and persistent tension in the Gulf."
   },
   "articles": [
     {
-      "title": "French warship makes first-ever call at Syrian port as Paris and Damascus deepen military ties",
-      "summary": "<img align=\"right\" alt=\"The French Navy’s defense and intervention frigate (FDI) Amiral Louzeau during its launching ceremony at the Naval Group shipyard in Lorient, western France, May 19, 2026. (photo credit: REUTERS/STEPHANE MAHE)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_4000,w_6000/746140\" title=\"The French Navy’s defense and intervention frigate (FDI) Amiral Louzeau during its launching ceremony at the Naval Group shipyard in Lorient, western France, May 19, 2026. (photo credit: REUTERS/STEPHANE MAHE)\" /><br />Syrian and French naval officials met aboard the frigate Surcouf in Latakia to discuss expanding maritime cooperation, Syria’s Defense Ministry said.<br />",
-      "link": "https://www.jpost.com/middle-east/article-914730",
-      "published": "Thu, 12 Nov 2026 15:59:59 GMT",
-      "source": "Jerusalem Post"
+      "title": "Oil Prices Head for Second Weekly Loss Despite Fresh Middle East Attacks",
+      "summary": "Crude oil prices were on course to book their second week of losses today, after two consecutive days of gains on news from the Middle East. At the time of writing, Brent crude was trading at $95.87 per barrel, with West Texas Intermediate at $88.49 per barrel. These price levels are a sharp decline from the peaks hit in mid-October, but are still significantly higher than what Brent crude and WTI traded at in February, before the war started. Signals about that war remain mixed. There appears to be only a moderate risk of serious escalation, but…",
+      "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html",
+      "published": "Thu, 12 Nov 2026 23:45:00 -0600",
+      "source": "OilPrice"
     },
     {
-      "title": "How could the new US Congress bring about an end to the war with Iran? - explainer",
-      "summary": "<img align=\"right\" alt=\"US President Donald Trump gestures at Joint Base Andrews in Maryland, US, March 11, 2026. (photo credit:  REUTERS/Kevin Lamarque)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_1664,w_2496/710943\" title=\"US President Donald Trump gestures at Joint Base Andrews in Maryland, US, March 11, 2026. (photo credit:  REUTERS/Kevin Lamarque)\" /><br />Trump is expected to veto any measure to stop the fighting. It takes two-thirds majorities in both chambers to override a veto, meaning Democrats would need Republican support to overcome Trump.<br />",
-      "link": "https://www.jpost.com/american-politics/article-914725",
-      "published": "Thu, 12 Nov 2026 15:29:44 GMT",
-      "source": "Jerusalem Post"
-    },
-    {
-      "title": "‘I had the courage to believe in Mississippi’ says Scott Colom after historic Senate win – US politics live",
-      "summary": "<p>Colom adds to blue wave of Democrat victories across the US and becomes Mississippi’s first black senator since 1875 after defeating Cindy Hyde-Smith</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email</a></p></li></ul><p>According to a company statement:</p><p>Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately.</p><p>CORRUPTION is in the Democrat Leadership’s blood! We don’t need a deal with Iran. Those days have long since passed. We’ve got their money, Hundreds of Billions of Dollars, and we’ve got their Strait!</p><p>If the Democrats want to “root out corruption,” they should start with investigating Blue States, perhaps the most CORRUPT governmental structures and entities anywhere on Earth. Big time money is being stolen each and every hour of the day!</p> <a href=\"https://www.theguardian.com/us-news/live/2026/nov/12/mississippi-scott-colom-ukraine-donald-trump\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/live/2026/nov/12/mississippi-scott-colom-ukraine-donald-trump",
-      "published": "Thu, 12 Nov 2026 14:13:33 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Trump says US does not 'need a deal' with Iran",
-      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-us-does-not-need-deal-iran\" rel=\"bookmark\">\n<span class=\"field field-title\">Trump says US does not 'need a deal' with Iran</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>US President Donald Trump has said that Washington does not \"need a deal\" with Iran, claiming \"we've got their strait\".</p>\n\n<p>In a post to his Truth Social account, Trump said: “We don’t need a deal with Iran. Those days have long since passed. We have got their money, hundreds of billions of dollars and we’ve got their strait.”</p>\n</div>\n      \n  </div>\n\n</article>",
-      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-us-does-not-need-deal-iran",
-      "published": "Thu, 12 Nov 2026 14:08:43 +0000",
+      "title": "Is Saudi Arabia expanding its ballistic missile programme?",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-expanding-its-ballistic-missile-programme\" rel=\"bookmark\">\n<span class=\"field field-title\">Is Saudi Arabia expanding its ballistic missile programme?</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Saudi Arabia is believed to be expanding its Chinese-designed ballistic missile arsenal as it faces an unprecedented barrage of missile and drone attacks from Yemen's Houthi forces.</p>\n\n<p>Satellite imagery analysed by American researchers suggests the kingdom is expanding its ballistic missile plant at al-Duwadimi in Riyadh Province to build larger solid-fuel missiles capable of carrying heavier payloads across greater distances.</p>\n\n<p>Fighting between the kingdom and the Iran-aligned Yemeni group has intensified since July, shattering a UN-brokered truce that had largely held since 2022. </p>\n\n<p>The Houthis have stepped up missile and drone attacks on Saudi cities, airports and energy infrastructure, retaliating for what they call a Saudi \"blockade\" of ports and airports in Houthi-controlled areas of Yemen.</p>\n\n<p>Analysts have told Middle East Eye that the renewed confrontation with the Houthis has given the kingdom's arsenal added significance.</p>\n\n<h3>Read more: <a href=\"https://www.middleeasteye.net/news/saudi-arabia-expanding-its-ballistic-missile-programme\">Is Saudi Arabia expanding its ballistic missile programme?</a></h3>\n\n<div alt=\"saudi-arabia-military-parade-df-3a-chinese-ballistic-missiles-29-apr-2014-screengrab.jpg\" class=\"embedded-entity\">  <img alt=\"saudi-arabia-military-parade-df-3a-chinese-ballistic-missiles-29-apr-2014-screengrab.jpg\" height=\"683\" src=\"https://www.middleeasteye.net/sites/default/files/images-story/saudi-arabia-military-parade-df-3a-chinese-ballistic-missiles-29-apr-2014-screengrab_0.jpg\" width=\"1214\" />\n\n</div>\n\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/saudi-arabia-expanding-its-ballistic-missile-programme",
+      "published": "Fri, 13 Nov 2026 05:26:54 +0000",
       "source": "Middle East Eye"
     },
     {
-      "title": "Two men found guilty over Iranian attempts to ‘eliminate’ UK-based journalists",
-      "summary": "<p>Mostafa Sepahvand and Farhad Javadi Manesh carried out surveillance in an effort to inflict violence on three people</p><p>Two men of Iranian origin who were hired through social media as part of a plan to “eliminate” journalists in the UK have been found guilty of engaging in conduct likely to assist Tehran’s intelligence services.</p><p>Mostafa Sepahvand, 41, and Farhad Javadi Manesh, 46, carried out surveillance and reconnaissance between August 2024 and March last year in an attempt to inflict violence on “subjects” in the UK.</p> <a href=\"https://www.theguardian.com/uk-news/2026/nov/12/two-men-found-guilty-over-iranian-attempts-to-eliminate-uk-based-journalists\">Continue reading...</a>",
+      "title": "Trump says Iran would be hit with 'no hesitation' if it threatens allies, US ships",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-iran-would-be-hit-no-hesitation-if-it-threatens-allies-us\" rel=\"bookmark\">\n<span class=\"field field-title\">Trump says Iran would be hit with 'no hesitation' if it threatens allies, US ships</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>US President Donald Trump said he could use military force against Iran with \"no hesitation\" if Washington's ships and allies are threatened.  </p>\n\n<p>During an interview with the Salem News Channel, the US president was asked whether he would hesitate to use force to stop Iran from \"terrorising our allies and our ships,\".</p>\n\n<p>\"No hesitation. We’re doing very well with it right now,\" Trump answered. \"But the answer is, if I saw things going the other way, I would do that, and it’s possible I would do it right now.\"</p>\n\n<p>Trump claimed the US has suffered no losses in recent months, despite reports and official figures indicating that over a dozen soldiers have died as  a result of the war on Iran.</p>\n\n<p>\"We haven’t lost a soldier in five months, and we control the Gulf... Totally control it,\" he said. </p>\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-iran-would-be-hit-no-hesitation-if-it-threatens-allies-us",
+      "published": "Fri, 13 Nov 2026 05:18:14 +0000",
+      "source": "Middle East Eye"
+    },
+    {
+      "title": "Iran says they targeted a US early-warning radar in Bahrain",
+      "summary": "<img align=\"right\" alt=\"A missile is launched during an exercise in southern Iran, in this handout image obtained on February 17, 2026. (photo credit: Handout via Reuters)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_1080,w_1920/746204\" title=\"A missile is launched during an exercise in southern Iran, in this handout image obtained on February 17, 2026. (photo credit: Handout via Reuters)\" /><br />The Guards said the strike was in retaliation for what they described as an air attack on a telecommunications tower in Iran's southern Sirik county, in Hormozgan province.<br />",
+      "link": "https://www.jpost.com/middle-east/iran-news/article-914794",
+      "published": "Fri, 13 Nov 2026 05:13:37 GMT",
+      "source": "Jerusalem Post"
+    },
+    {
+      "title": "Iranophobia: Netanyahu’s bid to transform fear into political survival",
+      "summary": "Despite knowing a war with Iran would be manufactured for Netanyahu's survival, many would still rally behind it.",
+      "link": "https://www.aljazeera.com/news/2026/11/13/iranophobia-netanyahus-bid-to-transform-fear-into-political-survival?traffic_source=rss",
+      "published": "Fri, 13 Nov 2026 04:48:40 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "New report identifies Hong Kong’s place in world shipping",
+      "summary": "<p>Hong Kong Maritime Week is about to kick off. To celebrate the occasion, Splash today publishes a 48-page magazine on the city’s maritime hub credentials. A ship can be ordered at a mainland Chinese yard, owned through a leasing company in Hong Kong, insured in London, crewed through a management operation in Asia and chartered …</p>\n</p>",
+      "link": "https://splash247.com/new-report-identifies-hong-kongs-place-in-world-shipping/",
+      "published": "Fri, 13 Nov 2026 04:20:00 +0000",
+      "source": "Splash247"
+    },
+    {
+      "title": "Ghalibaf says 'ball is in America's court' for US-Iran peace talks",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/ghalibaf-says-ball-americas-court-us-iran-peace-talks\" rel=\"bookmark\">\n<span class=\"field field-title\">Ghalibaf says 'ball is in America's court' for US-Iran peace talks </span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Iran's parliament speaker, Mohammad Bagher Ghalibaf, said in an interview with Al Jazeera that Tehran has no desire to continue the war with the US, but that the ball is in Washington’s court for peace talks.</p>\n\n<p>Ghalibaf said that Iran provided the US with a clear and transparent response outlining its demands, but the Trump administration has not yet responded.</p>\n\n<p>An agreement with Washington is possible, he added, provided it adheres to what was previously agreed upon and refrains from actions that undermine trust and excessive demands.</p>\n\n<p>He said that Iran is determined to move beyond the state of “no war, no peace” through negotiations or sustainable deterrence, and accused Washington of imposing a siege on the country by blocking access to food and hindering trade and healthcare services.</p>\n\n<blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"en\">“As the saying goes, the ball is in America’s court.” Iran's parliament speaker, Mohammad Bagher Ghalibaf, said in an interview with Al Jazeera that Tehran has no desire to continue the war with the US, but that the ball is in Washington’s court for peace talks. https://t.co/phdAbTbmQ8</p>\n— Middle East Eye (@MiddleEastEye) <a href=\"https://x.com/MiddleEastEye/status/2121059191280263259?ref_src=twsrc%5Etfw\">November 13, 2026</a></blockquote>\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/ghalibaf-says-ball-americas-court-us-iran-peace-talks",
+      "published": "Fri, 13 Nov 2026 03:25:26 +0000",
+      "source": "Middle East Eye"
+    },
+    {
+      "title": "Iran says it targeted US radar site in Bahrain",
+      "summary": "IRGC says it hit radar in retaliation for an 'enemy' air attack on a telecom tower in Iran's Hormozgan province.",
+      "link": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain?traffic_source=rss",
+      "published": "Fri, 13 Nov 2026 03:17:27 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Iran’s IRGC says it targeted US radar in Bahrain",
+      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/irans-irgc-says-it-targeted-us-radar-bahrain\" rel=\"bookmark\">\n<span class=\"field field-title\">Iran’s IRGC says it targeted US radar in Bahrain</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Iran’s Islamic Revolutionary Guard Corps (IRGC) announced that its forces targeted a US early-warning radar in Bahrain in retaliation to an attack on a telecommunications tower in Iran’s Sirik.</p>\n\n<p>\"This serves as a serious warning to the aggressor enemy to cease its aerial provocations and oil smuggling in the Strait of Hormuz. Should these violations and acts of aggression recur, the IRGC Aerospace Force stands in full readiness to engage without limits,\" the IRGC was quoted as saying by local media. </p>\n</div>\n      \n  </div>\n\n</article>",
+      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/irans-irgc-says-it-targeted-us-radar-bahrain",
+      "published": "Fri, 13 Nov 2026 03:06:36 +0000",
+      "source": "Middle East Eye"
+    },
+    {
+      "title": "Trump says Gulf allies urged restraint on Iran, admits war hurt Republicans in midterms",
+      "summary": "<img align=\"right\" alt=\"US President Donald Trump, with Commerce Secretary Howard Lutnick and Secretary of State Marco Rubio, holds a press conference during the G7 Summit in Evian-les-Bains, France, June 17, 2026. (photo credit: REUTERS/EVELYN HOCKSTEIN)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_3451,w_5174/726084\" title=\"US President Donald Trump, with Commerce Secretary Howard Lutnick and Secretary of State Marco Rubio, holds a press conference during the G7 Summit in Evian-les-Bains, France, June 17, 2026. (photo credit: REUTERS/EVELYN HOCKSTEIN)\" /><br />In an interview, Trump said Gulf states had urged him to delay further strikes on Iran, acknowledged the war's political cost, and discussed Obama and his plans for a Democratic-controlled Congress.<br />",
+      "link": "https://www.jpost.com/international/article-914787",
+      "published": "Fri, 13 Nov 2026 02:31:44 GMT",
+      "source": "Jerusalem Post"
+    },
+    {
+      "title": "After Iraq ex-MP’s killing, Lebanon asks Syria to extradite suspects",
+      "summary": "Longtime Sunni politician and Iran critic was reportedly strangled in Beirut, sparking investigation.",
+      "link": "https://www.aljazeera.com/news/2026/11/13/after-iraq-ex-mps-killing-lebanon-asks-syria-to-extradite-suspects?traffic_source=rss",
+      "published": "Fri, 13 Nov 2026 01:44:55 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Albania’s PM says 2027 NATO summit will not be held in Tirana",
+      "summary": "Albania has faced criticism over low defence spending, as Rama is under pressure at home amid months of protests.",
+      "link": "https://www.aljazeera.com/news/2026/11/13/albanias-pm-says-2027-nato-summit-will-not-be-held-in-tirana?traffic_source=rss",
+      "published": "Fri, 13 Nov 2026 01:43:17 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Oil Prices Squeezed Between Peace Hopes and Iran Escalation Risk",
+      "summary": "Oil prices have crashed about 20% from the late-October peak of $118 per barrel, weighed down by hopes of sustainable de-escalation in the Middle East and the Russia-Ukraine war. For months, traders and hedge funds have often bet on a resolution of the conflicts, only to reactivate buying when talks fall apart. As U.S.-mediated talks between Ukraine and Russia are underway, there are no signs of a breakthrough in either the conflict in Europe or the U.S.-Iran standoff, despite messaging via Qatar. Oil prices have slipped as crude oil flows from…",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Oil-Prices-Squeezed-Between-Peace-Hopes-and-Iran-Escalation-Risk.html",
+      "published": "Thu, 12 Nov 2026 18:00:00 -0600",
+      "source": "OilPrice"
+    },
+    {
+      "title": "Trump threatens to renew military strikes against Iran 'without hesitation'",
+      "summary": "<img align=\"right\" alt=\"US President Donald Trump speaks near a seal of the Department of Veterans Affairs during a Veterans Day ceremony at Arlington National Cemetery in Arlington, Virginia, US, November 11, 2026. (photo credit:  REUTERS/Kylie Cooper)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_3765,w_5648/746187\" title=\"US President Donald Trump speaks near a seal of the Department of Veterans Affairs during a Veterans Day ceremony at Arlington National Cemetery in Arlington, Virginia, US, November 11, 2026. (photo credit:  REUTERS/Kylie Cooper)\" /><br />The president claimed that the US controls the Persian Gulf and the Strait of Hormuz, and that the blockade it imposed on Iran is severely damaging its economy.<br />",
+      "link": "https://www.jpost.com/middle-east/iran-news/article-914780",
+      "published": "Thu, 12 Nov 2026 23:28:26 GMT",
+      "source": "Jerusalem Post"
+    },
+    {
+      "title": "Venezuela Ends 19-Year Power Monopoly, With Oil Fields First in Line",
+      "summary": "Venezuela is opening up its electricity sector to private capital for the first time since Hugo Chávez nationalized it in 2007, in a reform passed this week primarily to benefit oil producers and large businesses that can afford euro-pegged tariffs, while the state keeps the hydroelectric dams and main transmission lines that supply most households living with daily blackouts. The law, which the National Assembly passed unanimously on Tuesday, lets oil producers build power plants for their own fields without state authorization, as long…",
+      "link": "https://oilprice.com/Energy/Crude-Oil/Venezuela-Ends-19-Year-Power-Monopoly-With-Oil-Fields-First-in-Line.html",
+      "published": "Thu, 12 Nov 2026 17:00:00 -0600",
+      "source": "OilPrice"
+    },
+    {
+      "title": "US ethanol readily available to fuel the world’s methanol-capable fleet",
+      "summary": "Ethanol can use the dual-fuel engines and bunkering infrastructure built for methanol with limited modification. That gives shipowners a readily available fuel for a growing fleet at a time when supply of low-emission methanol remains constrained, according to a new study published today by the Maritime Ethanol & Methanol Alliance (MEMA), a platform of the ...",
+      "link": "https://www.hellenicshippingnews.com/us-ethanol-readily-available-to-fuel-the-worlds-methanol-capable-fleet/",
+      "published": "Thu, 12 Nov 2026 22:00:59 +0000",
+      "source": "Hellenic Shipping News"
+    },
+    {
+      "title": "Dry bulk ship recycling falls 36% to 18-year low",
+      "summary": "“Between January and October 2026, dry bulk ship recycling fell 36% y/y to 3m DWT, its lowest level in 18 years. Only 70 ships were recycled, primarily smaller ships in the handysize and supramax segments, as strong freight rates have extended the operational lives of older ships,” says Filipe Gouveia, Shipping Analysis Manager at BIMCO. ...",
+      "link": "https://www.hellenicshippingnews.com/dry-bulk-ship-recycling-falls-36-to-18-year-low/",
+      "published": "Thu, 12 Nov 2026 22:00:57 +0000",
+      "source": "Hellenic Shipping News"
+    },
+    {
+      "title": "IMO may codify alternative net-zero bunker rules in 2027: US FMC",
+      "summary": "The International Maritime Organization (IMO) may start forming consensus around an alternative Net-Zero Framework (NZF) in the coming weeks before hammering out its final text in 2027, US Federal Maritime Commission Chairman Laura DiBella said. The UN agency is due to hold meetings Nov. 23-Dec. 4 to discuss the framework, after member states last year ...",
+      "link": "https://www.hellenicshippingnews.com/imo-may-codify-alternative-net-zero-bunker-rules-in-2027-us-fmc/",
+      "published": "Thu, 12 Nov 2026 22:00:55 +0000",
+      "source": "Hellenic Shipping News"
+    },
+    {
+      "title": "IMO Secretary-General calls on States to enforce maritime rules in the Strait of Hormuz",
+      "summary": "The Secretary-General of the International Maritime Organization (IMO) Mr. Arsenio Dominguez has called for stronger action from IMO Member States to enforce maritime safety and security regulations in and around the Strait of Hormuz. Amid continued attacks against commercial ships in the area, Secretary-General Dominguez stated: “IMO’s technical and operational regulations are there to protect ...",
+      "link": "https://www.hellenicshippingnews.com/imo-secretary-general-calls-on-states-to-enforce-maritime-rules-in-the-strait-of-hormuz/",
+      "published": "Thu, 12 Nov 2026 22:00:53 +0000",
+      "source": "Hellenic Shipping News"
+    },
+    {
+      "title": "More Drilling Won’t Shield U.S. Consumers From Oil Price Shocks",
+      "summary": "Another month, another distressing Consumer Price Index report. As the war in Iran drags on, inflation in the United States is remaining stubbornly high, driven in large part by sky-high food and energy costs. Overall, prices rose four-tenths of a percent over the last month, and are expected to finish the year at a four percent increase as compared to 2025 – a blistering increase that reflected itself at the polls in last week’s midterm elections, where a blue wave has largely been viewed as a rebuke of Trump, his war in Iran, and…",
+      "link": "https://oilprice.com/Energy/Crude-Oil/More-Drilling-Wont-Shield-US-Consumers-From-Oil-Price-Shocks.html",
+      "published": "Thu, 12 Nov 2026 16:00:00 -0600",
+      "source": "OilPrice"
+    },
+    {
+      "title": "Jeffries calls for ‘dramatic change’ in US military aid to Israel after Democrats' election victory",
+      "summary": "<img align=\"right\" alt=\" House Minority Leader Hakeem Jeffries, D- NY, speaks during a news conference on March 24, 2025, at the US Capitol in Washington, DC. (photo credit: Andrew Harnik/Getty Images/TNS)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_2000,w_3000/744846\" title=\" House Minority Leader Hakeem Jeffries, D- NY, speaks during a news conference on March 24, 2025, at the US Capitol in Washington, DC. (photo credit: Andrew Harnik/Getty Images/TNS)\" /><br />Jeffries also sharply criticized US President Donald Trump’s war against Iran, describing it as a “reckless and costly war of choice” that had harmed American interests.<br />",
+      "link": "https://www.jpost.com/american-politics/article-914766",
+      "published": "Thu, 12 Nov 2026 20:35:17 GMT",
+      "source": "Jerusalem Post"
+    },
+    {
+      "title": "Two men found guilty of helping Iran try to ‘eliminate’ UK-based journalists",
+      "summary": "<p>Mostafa Sepahvand and Farhad Javadi Manesh carried out surveillance in an effort to inflict violence on targets</p><p>Two men of Iranian origin who were hired through social media as part of a plan to “eliminate” journalists in the UK have been found guilty of assisting Tehran’s intelligence services.</p><p>Mostafa Sepahvand, 41, and Farhad Javadi Manesh, 46, carried out surveillance and reconnaissance between August 2024 and March last year in an attempt to inflict violence on “subjects” in the UK.</p> <a href=\"https://www.theguardian.com/uk-news/2026/nov/12/two-men-found-guilty-over-iranian-attempts-to-eliminate-uk-based-journalists\">Continue reading...</a>",
       "link": "https://www.theguardian.com/uk-news/2026/nov/12/two-men-found-guilty-over-iranian-attempts-to-eliminate-uk-based-journalists",
-      "published": "Thu, 12 Nov 2026 14:07:42 GMT",
+      "published": "Thu, 12 Nov 2026 19:15:30 GMT",
       "source": "The Guardian"
     },
     {
-      "title": "Gideon Saar warns 'attempts to harm Israel also harm Britain' after meeting UK Conservative delegation",
-      "summary": "<article class=\"live-blog-update default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/gideo-saar-warns-attempts-harm-israel-also-harm-britain-following\" rel=\"bookmark\">\n<span class=\"field field-title\">Gideon Saar warns 'attempts to harm Israel also harm Britain' after meeting UK Conservative delegation</span>\n</a>\n    </h2>\n    \n\n        \n    <div class=\"content\">\n                <div class=\"field field-field-text\"><p>Israel's Minister of Foreign Affairs Gideon Saar has said that UK-Israeli relations have been \"damaged\" following a \"series of unilateral anti-Israel measures pursued by the Labour government since 2024\".</p>\n\n<p>Saar made the comments following a meeting with a visting delegation from the British Conservative Party on Wednesday evening in Jerusalem.</p>\n\n<p>In a post on X, he said he had briefed the group \"on the strategic challenges facing Israel, including the ongoing, systematic and openly declared attempt by Iran and its allies to destroy it\".</p>\n\n<p>But he warned that the relationship between Israel and the UK has been damaged \"against our wishes\", and said that \"attempts to harm Israel also harm Britain itself\".</p>\n\n<blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"en\">I was pleased to meet this evening in Jerusalem with a visiting delegation from the British Conservative Party, led by Party Chairman Kevin Hollinrake. I briefed our friends on the strategic challenges facing Israel, including the ongoing, systematic and openly declared attempt by Iran and its allies to destroy it. The relationship between Israel and Britain is important to both countries. Unfortunately, it has been damaged, against our wishes, by a series of unilateral anti-Israel measures pursued by the Labour government since 2024. As attorneys general from 13 U.S. states recently warned, attempts to harm Israel also harm Britain itself. Israel still has good friends in Britain, and I thanked them for standing with Israel! 🇮🇱🇬🇧 @CFoI @kevinhollinrake @A_J_Snowden @AWMurrison @drcarolinej @JeromeMayhew @gavinantonyrice</p>\n— Gideon Sa'ar | גדעון סער (@gidonsaar) <a href=\"https://x.com/gidonsaar/status/2120609191005942088?ref_src=twsrc%5Etfw\">November 11, 2026</a></blockquote>\n</div>\n      \n  </div>\n\n</article>",
-      "link": "https://www.middleeasteye.net/live-blog/live-blog-update/gideo-saar-warns-attempts-harm-israel-also-harm-britain-following",
-      "published": "Thu, 12 Nov 2026 13:35:44 +0000",
-      "source": "Middle East Eye"
+      "title": "Two men guilty of spying for Iran over plan to target journalists and lawyer",
+      "summary": "The men were convicted of engaging in conduct likely to assist an Iranian intelligence service.",
+      "link": "https://www.bbc.co.uk/news/articles/ck9q8g8209l2o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 12 Nov 2026 18:54:00 GMT",
+      "source": "BBC News"
     },
     {
-      "title": "AI helped UK defy expectations – but will economy’s resilience fizzle out?",
-      "summary": "<p>Despite John Healey’s defiance, the economy faces threats from a tech slowdown and energy bills this winter</p><ul><li><p><a href=\"https://www.theguardian.com/business/2026/nov/12/uk-economy-grows-third-quarter-oil-price-ons-gdp\">AI helps UK economy grow at fastest pace for more than two years</a></p></li></ul><p>The forecasters were clear when John Healey became chancellor in July: Britain’s resilience to the war in the Middle East would not last. The global economic headwinds were too strong, inflation was beginning to rise and growth would slow to a trickle.</p><p>Four months into the job, the economy is continuing to defy expectations after <a href=\"https://www.theguardian.com/business/2026/nov/12/uk-economy-grows-third-quarter-oil-price-ons-gdp\">growing by 0.7% in the third quarter</a> – the fastest expansion in two and a half years. It puts the UK on course to be the second-fastest growing G7 economy this year.</p> <a href=\"https://www.theguardian.com/business/2026/nov/12/ai-uk-economy-john-healey\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/business/2026/nov/12/ai-uk-economy-john-healey",
-      "published": "Thu, 12 Nov 2026 13:08:12 GMT",
-      "source": "The Guardian"
+      "title": "Seanergy lines up four more bulkers in $855m fleet push",
+      "summary": "<p>Greek capesize specialist Seanergy Maritime has added four more vessels worth $264m to its fleet investment programme, taking its total spending commitments to $855m. The Nasdaq-listed owner, led by Stamatis Tsantanis, disclosed the latest acquisitions in its third-quarter update, with the deals covering two newbuildings and two secondhand bulkers, for arrivals between 2027 and 2029. …</p>\n</p>",
+      "link": "https://splash247.com/seanergy-lines-up-four-more-bulkers-in-855m-fleet-push/",
+      "published": "Thu, 12 Nov 2026 18:26:56 +0000",
+      "source": "Splash247"
     },
     {
-      "title": "Former Mossad officer’s appointment highlights Tel Aviv University’s military ties",
-      "summary": "<article class=\"story default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/news/former-mossad-officers-appointment-highlights-tel-aviv-universitys-defence-industry-ties\" rel=\"bookmark\">\n<span class=\"field field-title\">Former Mossad officer’s appointment highlights Tel Aviv University’s military ties</span>\n</a>\n    </h2>\n    \n\n          <footer>\n      \n      <div class=\"author\">\n        Submitted by \n<span class=\"field field-uid\"><a href=\"https://www.middleeasteye.net/users/nadav-rapaport\" lang=\"lang\" title=\"View user profile.\">Nadav Rapaport</a></span>\n on \n<span class=\"field field-created\"><time datetime=\"2026-11-12T11:44:56+00:00\" title=\"12 November 2026 11:44 GMT\">Thu, 11/12/2026 - 11:44</time>\n</span>\n        \n      </div>\n    </footer>\n      \n    <div class=\"content\">\n                <div class=\"field field-field-subhead\">University appoints ex-intelligence official to senior role as it prepares to host a defence technology conference sponsored by major Israeli and US arms companies</div>\n                  <div class=\"field field-field-main-image\">    \n                  <source height=\"788\" type=\"image/webp\" width=\"1400\" />\n                  <img alt=\"A view of Tel Aviv University campus as Sam Altman, CEO of Microsoft-backed OpenAI and ChatGPT creator is due to speak in Tel Aviv, Israel 5 June 2023 (Reuters/Amir Cohen)\" height=\"788\" src=\"https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/2023-06-05T095914Z_836425116_RC2XC1AW6HIE_RTRMADP_3_TECH-AI-ISRAEL%20%281%29.jpg.jpg?itok=cpwwTxNA\" width=\"1400\" />\n\n  \n\n</div>\n                  <div class=\"field field-field-cutline\">A view of the cyber horse sculpture made of recycled computers outside Tel Aviv University campus, Israel 5 June 2023 (Reuters/Amir Cohen)</div>\n                  <div class=\"field field-field-wide-photo-video\">Off</div>\n                  <div class=\"field field-body clearfix\"><p>A former senior Mossad officer’s appointment as Tel Aviv University’s vice-president for industry relations and entrepreneurship has been seen as another sign of the university’s close ties to <a href=\"https://www.middleeasteye.net/countries/israel\">Israel</a>’s defence establishment, Local Call <a href=\"https://www.mekomit.co.il/%d7%9e%d7%9c%d7%97%d7%9e%d7%94-%d7%a0%d7%a9%d7%a7-%d7%a2%d7%a1%d7%a7%d7%99%d7%9d-%d7%95%d7%90%d7%a7%d7%93%d7%9e%d7%99%d7%94-%d7%94%d7%9e%d7%a7%d7%a8%d7%94-%d7%a9%d7%9c-%d7%90%d7%95%d7%a0%d7%99/\">reported</a> on Tuesday.</p>\n\n<p>According to the report, the university (TAU) announced last month that Hagai Itkin, a former officer in Israel’s foreign intelligence agency, had been appointed to the role based on his previous experience, including “senior positions in the defence establishment”.</p>\n\n<p>The university added that Itkin had held positions on campus for several years before his appointment, building “connections and links with the high-tech industry”.</p>\n\n<p>Itkin retired from the Mossad in 2020 after nearly 20 years of service. </p>\n\n<p>In 2022, he told Israel’s Channel 12 News that he had worked in the agency’s technology department in the years leading up to his retirement.</p><div class=\"block-adsense block-adsense-managed-ad-block\"><div>\n  <div class=\"adsense responsive\">\n    \n<!-- responsive -->\n<ins class=\"adsbygoogle mee-auto-ad-wrapper \" style=\"display: block;\"></ins>\n\n  </div>\n</div>\n</div>\n\n<p>“The State of Israel has all the capabilities required to carry out targeted assassinations,” Itkin <a href=\"https://www.mako.co.il/news-military/2022_q4/Article-a425ca79a1ec381027.htm\">said</a> when asked about alleged Israeli assassinations of Iranian scientists. </p>\n\n<p>He added that Israel carries out assassinations “while giving maximum consideration to collateral damage and to innocent people”.</p>\n\n<h3>Universities' military ties</h3>\n\n<p>Meanwhile, TAU will host the “DefenseTech Week” conference next month for the second consecutive year, further strengthening its links with the defence establishment, according to Local Call.</p>\n\n<p>The university described the December event as “a premier gathering for experts in defence technology”, showcasing “Israel’s cutting-edge solutions that are addressing global security challenges”.</p>\n\n<p>The conference <a href=\"https://defensetech-week.com/about-us/\">website</a> said Israel was ideally placed to host the event because it was “at the forefront of defence technology development”. It added that the conference would offer “invaluable insights into how Israel’s advancements are shaping the global defence landscape”.</p>\n\n<p>TAU is co-organising the event with the Directorate of Defence Research and Development at Israel’s Defence Ministry. Israeli and US arms companies are among its sponsors.</p>\n\n<blockquote>\n<p>'Israeli academia often adopted militaristic rhetoric and continued to cooperate in various ways with the military, Israel’s security establishment, and the arms industry'</p>\n\n<p><em>- New Profile, Israeli NGO</em></p>\n</blockquote>\n\n<p>Shield AI, a US-based defence technology company developing autonomous pilots, is one of 22 sponsors. Others include Israel’s three major arms manufacturers - Rafael, Elbit and Israel Aerospace Industries - as well as US defence giant Lockheed Martin.</p>\n\n<p>Speakers <a href=\"https://defensetech-week.com/speakers/\">include</a> senior military and defence ministry officials, former US Army officers, arms industry executives and academics from Israel and the US.</p>\n\n<p>Local Call said that by appointing Itkin and hosting the conference, TAU “inevitably takes a stand on the connection between war, weapons, and business”. It accused the university of ignoring the use of Israeli arms industry products to suppress, expel and kill Palestinians in the occupied territories.</p>\n\n<p>The university’s efforts to strengthen its ties with the Israeli defence establishment, the report added, “reflect a deep and ongoing ideological, political, and economic line of Israel’s universities”.</p>\n\n<p> The close relationship between Israeli universities and the military is not new.</p>\n\n<p>According to New Profile, an Israeli NGO dedicated to demilitarising Israeli society, Israeli academic institutions remained silent during the genocide in Gaza, as Israel committed war crimes and crimes against humanity.</p>\n\n<p>“Worse, Israeli academia often adopted militaristic rhetoric and continued to cooperate in various ways with the military, Israel’s security establishment, and the arms industry,” the group <a href=\"https://newprofile.org/en/academia-under-command-militarism-in-israeli-academia/\">said</a> last April.</p>\n\n<p>Middle East Eye has previously <a href=\"https://www.middleeasteye.net/news/tel-aviv-university-developed-dog-cameras-army-unit-linked-gaza-attacks\">reported</a> that TAU boasted of helping to develop live dog cameras for the Israeli army’s canine unit. An academic at the university also <a href=\"https://www.middleeasteye.net/news/how-israeli-academics-advocate-extermination-palestinians-impunity\">called</a> for Gaza’s population to be starved and exterminated.</p>\n</div>\n                  <div class=\"field field-field-topic\"><a href=\"https://www.middleeasteye.net/topics/inside-israel\" hreflang=\"en\">Inside Israel</a></div>\n                  <div class=\"field field-field-article-location\"> </div>\n                  <div class=\"field field-field-section\"><a href=\"https://www.middleeasteye.net/news/all\" hreflang=\"en\">News</a></div>\n        <div class=\"field field-field-post-date-override\">\n    <div>Post Date Override</div>\n              <div>0</div>\n          </div>\n  <div class=\"field field-field-update-date-override\">\n    <div>Update Date</div>\n              <div><time datetime=\"2020-05-04T21:19:45+01:00\">Mon, 05/04/2020 - 21:19</time>\n</div>\n          </div>\n  <div class=\"field field-field-update-date-check\">\n    <div>Update Date Override</div>\n              <div>0</div>\n          </div>\n\n  </div>\n  \n</article>",
-      "link": "https://www.middleeasteye.net/news/former-mossad-officers-appointment-highlights-tel-aviv-universitys-defence-industry-ties",
-      "published": "Thu, 12 Nov 2026 12:44:13 +0000",
-      "source": "Middle East Eye"
+      "title": "Tanker Ablaze Off UAE as More Attacks Rattle Gulf Shipping",
+      "summary": "A projectile struck the engine room of the Liberia-flagged crude oil tanker Dominica Prosperity off the United Arab Emirates on Wednesday, forcing the evacuation of all 22 crew members as...",
+      "link": "https://gcaptain.com/tanker-ablaze-off-uae-as-more-attacks-rattle-gulf-shipping/",
+      "published": "Thu, 12 Nov 2026 18:20:34 +0000",
+      "source": "gCaptain"
+    },
+    {
+      "title": "Wind-Powered Cargo Ship Neoliner Origin Cuts Fuel Consumption 70% in First Year",
+      "summary": "French shipping company Neoline says its wind-powered cargo vessel Neoliner Origin has delivered fuel savings of up to 70% during its first year of commercial service, offering an early test...",
+      "link": "https://gcaptain.com/wind-powered-cargo-ship-neoliner-origin-cuts-fuel-consumption-70-in-first-year/",
+      "published": "Thu, 12 Nov 2026 17:23:36 +0000",
+      "source": "gCaptain"
+    },
+    {
+      "title": "3 Iranian-backed men indicted in attempted plot on RAF Fairford",
+      "summary": "Three men, with one working from jail, allegedly conspired to commit around 20 terrorist attacks across the U.S. and Europe, including the plot on RAF Fairford, on behalf of Iran-aligned terrorist networks.",
+      "link": "https://www.defensenews.com/global/europe/2026/11/12/3-iranian-backed-men-indicted-in-attempted-plot-on-raf-fairford/",
+      "published": "Thu, 12 Nov 2026 16:46:06 +0000",
+      "source": "Defense News"
+    },
+    {
+      "title": "Singapore Retains Crown as World’s Leading Maritime Hub",
+      "summary": "Singapore has retained its position as the world’s leading maritime hub, while Shanghai has climbed to second place and Asia now accounts for three of the world’s five highest-ranked maritime...",
+      "link": "https://gcaptain.com/singapore-retains-crown-as-worlds-leading-maritime-hub/",
+      "published": "Thu, 12 Nov 2026 15:42:41 +0000",
+      "source": "gCaptain"
+    },
+    {
+      "title": "Farewell to America’s Flagship: SS United States Sinks After 74 Years",
+      "summary": "The legendary ocean liner, which still holds the transatlantic speed record, took hours to sink off Florida’s Gulf Coast, ending a remarkable chapter in American maritime history. The SS United...",
+      "link": "https://gcaptain.com/farewell-to-americas-flagship-ss-united-states-sinks-after-74-years/",
+      "published": "Thu, 12 Nov 2026 14:59:53 +0000",
+      "source": "gCaptain"
     },
     {
       "title": "US ethanol industry eyes growing marine fuel market",
@@ -119,81 +266,11 @@
       "source": "Splash247"
     },
     {
-      "title": "Nigeria Hits OPEC Oil Production Quota for Sixth Straight Month",
-      "summary": "Nigeria’s crude oil output averaged 1.51 million barrels per day (bpd) in October as OPEC’s biggest African producer pumped to its quota for the sixth consecutive month, data from the Nigerian Upstream Petroleum Regulatory Commission (NUPRC) showed this week. Nigeria last month pumped a total of 1.688 million barrels of crude oil and condensate per day, according to the data from its upstream regulator. Excluding condensate production, which is not part of the OPEC+ production quotas, Nigeria’s crude oil production alone averaged…",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Nigeria-Hits-OPEC-Oil-Production-Quota-for-Sixth-Straight-Month.html",
-      "published": "Thu, 12 Nov 2026 06:30:00 -0600",
-      "source": "OilPrice"
-    },
-    {
-      "title": "Nvidia’s Jensen Huang crisis tests how much of the AI industry depends on one man",
-      "summary": "Huang’s exit could fray tight bonds among AI businesses. Plus, Oracle’s potential AI catalyst, a $1.5 trillion Social Security stock proposal and what the oil-yield split may mean for inflation.",
-      "link": "https://www.marketwatch.com/story/nvidias-jensen-huang-dilemma-is-a-test-of-the-ai-industrys-dependence-on-one-flawed-man-a9a1d99c?mod=mw_rss_topstories",
-      "published": "Thu, 12 Nov 2026 12:29:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "'Mighty US' must talk with Iran, Iraqi Kurdish leader says",
-      "summary": "<article class=\"story default clearfix\">\n\n  \n      <h2>\n      <a href=\"https://www.middleeasteye.net/news/iran-emerging-stronger-from-war-iraq-kurdish-leader-bafel-talabani-says\" rel=\"bookmark\">\n<span class=\"field field-title\">'Mighty US' must talk with Iran, Iraqi Kurdish leader says </span>\n</a>\n    </h2>\n    \n\n          <footer>\n      \n      <div class=\"author\">\n        Submitted by \n<span class=\"field field-uid\"><a href=\"https://www.middleeasteye.net/users/sean-mathews\" lang=\"lang\" title=\"View user profile.\">Sean Mathews</a></span>\n on \n<span class=\"field field-created\"><time datetime=\"2026-11-12T09:19:48+00:00\" title=\"12 November 2026 09:19 GMT\">Thu, 11/12/2026 - 09:19</time>\n</span>\n        \n      </div>\n    </footer>\n      \n    <div class=\"content\">\n                <div class=\"field field-field-subhead\">Bafel Talabani, leader of the Patriotic Union of Kurdistan, also said Iran promised it was not behind attack on Iraqi gas field</div>\n                  <div class=\"field field-field-main-image\">    \n                  <source height=\"675\" type=\"image/webp\" width=\"1200\" />\n                  <img alt=\"Bafel Talabani, president of the Patriotic Union of Kurdistan, is pictured at the Presidential Institution in Tehran, Iran, on 16 September 2026 (Zuma Press Wire via Reuters)\" height=\"675\" src=\"https://www.middleeasteye.net/sites/default/files/styles/crop_16_9/public/images-story/Bafel-talabani-reuters-2026.jpg.jpg?itok=b8U52t9F\" width=\"1200\" />\n\n  \n\n</div>\n                  <div class=\"field field-field-cutline\">Bafel Talabani in Tehran, Iran, on 16 September 2026 (Zuma Press Wire via Reuters)</div>\n                  <div class=\"field field-field-wide-photo-video\">Off</div>\n                  <div class=\"field field-body clearfix\"><p>The <a href=\"https://www.middleeasteye.net/countries/us\">US</a> needs to stop treating<a href=\"https://www.middleeasteye.net/countries/iran\"> Iran</a> as if it is governed by \"mad mullahs\" and engage in dialogue with the Islamic Republic, which is emerging \"stronger but different\" from the <a href=\"https://www.middleeasteye.net/topics/war-on-iran\">US-Israeli war,</a> a senior Iraqi Kurdish official said on Thursday.</p>\n\n<p>\"Iranians are often misunderstood in the West. This notion of mad mullahs is far from the truth,\" Bafel Talabani said at a Strategic Forum in the <a href=\"https://www.middleeasteye.net/countries/iraq\">Iraqi</a> Kurdistan city of Sulaymaniyah.</p>\n\n<p>\"We don't find it difficult talking to the Iranians,\" he said. \"As an ally of Mr Trump and, strangely, an ally of the Iranians [I say] the mighty US can do it,\" he added.</p>\n\n<p>Talabani leads the Patriotic Union of Kurdistan (PUK), which is the dominant political party in southeastern Iraqi Kurdistan.</p>\n\n<p>The PUK's administrative zone accounts for most of the region's long border with Iran.</p><div class=\"block-adsense block-adsense-managed-ad-block\"><div>\n  <div class=\"adsense responsive\">\n    \n<!-- responsive -->\n<ins class=\"adsbygoogle mee-auto-ad-wrapper \" style=\"display: block;\"></ins>\n\n  </div>\n</div>\n</div>\n\n<p>The PUK has historically enjoyed close ties to Tehran, but that relationship came under strain earlier this year after US President Donald Trump and his advisers tried to recruit Talabani and other Kurdish leaders to support a Kurdish insurgency in Iran.</p>\n\n<p>Talabani eventually decided not to intervene.</p>\n\n<div class=\"mee-readmore mee-readmore-article-story mee-readmore-type-image align-right\">\n  <a class=\"mee-readmore-img-link\" href=\"https://www.middleeasteye.net/news/iraqi-kurds-suggest-peace-process-between-iran-and-iranian-kurdish-opposition\"><img alt=\"alt\" class=\"mee-readmore-image\" height=\"250\" src=\"https://www.middleeasteye.net/sites/default/files/styles/read_more/public/images-story/KOMALA_IRAQ_AFP.jpg.webp?itok=Upr7et8f\" width=\"400\" />\n\n</a>  <div class=\"mee-readmore-description\">Iraqi Kurds suggest peace process between Iran and Iranian Kurdish opposition</div>\n    <a class=\"mee-readmore-link\" href=\"https://www.middleeasteye.net/news/iraqi-kurds-suggest-peace-process-between-iran-and-iranian-kurdish-opposition\">Read More »</a>\n</div>\n\n<p>A senior Kurdish official in Sulaymaniyah told Middle East Eye that the PUK warned Iranian opposition groups against launching attacks on Iran at the time, saying they were sure to fail. </p>\n\n<p>Tehran has been pressuring Iraqi Kurdistan to clamp down on Iranian Kurdish opposition groups. In a meeting in September with Iranian Foreign Minister Abbas Araghchi, Talabani promised not to allow Iraqi Kurdistan to become \"a haven for harming or threatening\" the Islamic Republic.</p>\n\n<p>Talabani said that Iran was emerging from the US-Israeli war \"stronger, but different\". Recounting a recent trip he made to Iran, he offered a very different assessment to that proposed by members of the Trump administration who have characterised Iran as on the verge of economic collapse.</p>\n\n<p>\"I thought I was in London,\" Talabani said, noting that \"less then 50 percent of ladies and girls had scarves\" and that restaurants were filled with young people dancing.</p>\n\n<h3>Iran not behind attack on Khor Mor gasfield</h3>\n\n<p>Iran launched strikes on Iranian opposition groups in Iraqi Kurdistan following the US-Israeli attack in February 2026.</p>\n\n<p>Talabani was asked about a drone strike earlier this week on the Khor Mor gas field in the Sulaymaniyah Governorate.</p>\n\n<blockquote>\n<p>'The timing and methodology of the attack [on Khor Mor] needs to be investigated very seriously'</p>\n\n<p>– <em>Bafel Talabani, leader of the Patriotic Union of Kurdistan</em></p>\n</blockquote>\n\n<p>The field, operated by a <a href=\"https://www.middleeasteye.net/tags/uae\">UAE</a> company, is one of the largest in Iraq and the strike has left almost 70 percent of Kurdistan without normal power supplies.</p>\n\n<p>Talabani said he asked Iranian officials pointedly if they were behind the attack and he was assured they were not.</p>\n\n<p>\"Iran has guaranteed me that it was not by their bidding or doing,\" he said. \"The timing and methodology of the attack needs to be investigated very seriously.\" </p>\n\n<p>Iraqi Kurdistan has no air defence systems. The last US troops left Erbil, the region's capital, in September, completing a full US withdrawal from Iraq.</p>\n\n<p>Some US lawmakers have since tried to <a href=\"https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.congress.gov/bill/118th-congress/house-bill/5232/text&ved=2ahUKEwiKjM6mi4KYAxXAfLAFHStwIjMQFnoECCYQAQ&usg=AOvVaw2XL5IlAIX6dPpwxFFbmRtl\">advance</a> the sale of air defence systems to Iraqi Kurdistan, but Talabani said that the semi-autonomous region was in a \"grey area\".</p>\n\n<p>\"There is a 'one Iraq' policy and the majority of these things need to happen with the OK of Baghdad,\" he said. \"Either provide us with certain systems, or allow us to purchase our own. We are in a grey area.\"</p>\n\n<h3>Kurdish rift</h3>\n\n<p>Talabani spoke at a time when Iraq's semi-autonomous Kurdish region is reeling from a major internal political rift.</p>\n\n<p>Talabani withdrew his PUK, one of the two main political parties in the Kurdistan Regional Government, from the region's parliament this week.</p>\n\n<p>The PUK has traditionally been a rival of the Kurdistan Democratic Party (KDP), which is led by the region’s president, Nechirvan Barzani.</p>\n\n<p>Talabani called the rift the \"single largest political crisis in the history of the Kurdistan region\", saying that the region effectively had \"two administrations\".</p>\n\n<p>The US envoy to Iraq and <a href=\"https://www.middleeasteye.net/countries/syria\">Syria</a>, Tom Barrack, weighed into the rift, which has raised fears about a splintering of the province at a time of uncertainty over the region's security framework.</p>\n\n<p>\"The Barzanis, the Talabanis, have always been great friends of America. This is an Iraqi issue,\" Barrack said. \"My advice is get over it.\"</p>\n</div>\n                  <div class=\"field field-field-topic\"><a href=\"https://www.middleeasteye.net/topics/war-on-iran\" hreflang=\"en\">War on Iran</a></div>\n                  <div class=\"field field-field-article-location\">Sulaymaniyah, Iraq</div>\n                  <div class=\"field field-field-section\"><a href=\"https://www.middleeasteye.net/news/all\" hreflang=\"en\">News</a></div>\n        <div class=\"field field-field-post-date-override\">\n    <div>Post Date Override</div>\n              <div>0</div>\n          </div>\n  <div class=\"field field-field-update-date-override\">\n    <div>Update Date</div>\n              <div><time datetime=\"2020-05-04T21:19:45+01:00\">Mon, 05/04/2020 - 21:19</time>\n</div>\n          </div>\n  <div class=\"field field-field-update-date-check\">\n    <div>Update Date Override</div>\n              <div>0</div>\n          </div>\n\n  </div>\n  \n</article>",
-      "link": "https://www.middleeasteye.net/news/iran-emerging-stronger-from-war-iraq-kurdish-leader-bafel-talabani-says",
-      "published": "Thu, 12 Nov 2026 12:01:54 +0000",
-      "source": "Middle East Eye"
-    },
-    {
-      "title": "India Boosts Gulf Oil Imports as Russian Crude Loses Its Price Advantage",
-      "summary": "India has imported higher volumes of crude oil from the Persian Gulf than from Russia so far in November, for the first time since the Iran war broke out and disrupted the normal supply chain through the Strait of Hormuz. So far this month, India is estimated to have imported about 2.1 million barrels per day (bpd) of crude oil from the Persian Gulf, compared to 1.8 million bpd flows from Russia, Bloomberg reported on Thursday, citing data by Kpler. This is yet another sign that Strait of Hormuz flows have materially recovered in recent weeks,…",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/India-Boosts-Gulf-Oil-Imports-as-Russian-Crude-Loses-Its-Price-Advantage.html",
-      "published": "Thu, 12 Nov 2026 05:30:00 -0600",
-      "source": "OilPrice"
-    },
-    {
-      "title": "EU’s Russian Arctic LNG Bill Hits €8.7 Billion as Yamal Faces Shipping Challenge Come January",
-      "summary": "The European Union paid an estimated €8.7 billion for liquefied natural gas from Russia’s Yamal project in the first 10 months of 2026, exceeding the estimated total for all of 2025, as the countdown to a ban on Russian LNG imports enters its final weeks.",
-      "link": "https://gcaptain.com/eus-russian-arctic-lng-bill-hits-e8-7-billion-as-yamal-faces-shipping-challenge-come-january/",
-      "published": "Thu, 12 Nov 2026 11:16:36 +0000",
-      "source": "gCaptain"
-    },
-    {
-      "title": "Financing the maritime energy transition",
-      "summary": "The maritime energy transition will require support for human capacity development across developing States, including SIDS and LDCS, as well as investment in scalable and bankable projects that will support the move to zero emission shipping by or around 20250, in line with IMO’s GHG Strategy. During an IMO Future Fuels and Technology Project session ...",
-      "link": "https://www.hellenicshippingnews.com/financing-the-maritime-energy-transition/",
-      "published": "Thu, 12 Nov 2026 11:00:59 +0000",
-      "source": "Hellenic Shipping News"
-    },
-    {
-      "title": "Pacific Environment Welcomes Ulsan Port’s Commercial e-Ammonia Bunkering Milestone",
-      "summary": "On October 25–26, Ulsan Port Authority (UPA), together with Lotte Fine Chemical, HD Hyundai Heavy Industries, Shinheungsa, and Eastern Pacific Shipping (EPS), supplied 800 tonnes of renewable energy-based e-ammonia to Terra Clove, a newly launched 93,000 m3 Very Large Ammonia Carrier (VLAC) at Ulsan Port. The fuel was supplied through a Port-to-Ship (PTS) bunkering system ...",
-      "link": "https://www.hellenicshippingnews.com/pacific-environment-welcomes-ulsan-ports-commercial-e-ammonia-bunkering-milestone/",
-      "published": "Thu, 12 Nov 2026 11:00:55 +0000",
-      "source": "Hellenic Shipping News"
-    },
-    {
-      "title": "Monjasa adds five sister tankers in major fleet renewal deal",
-      "summary": "Global oil and shipping group, Monjasa is adding five sister tankers to its fleet in the company’s largestever tonnage acquisition, strengthening its activities in West Africa and providing greater flexibility across its global marine fuels supply operations. The deal comprises five 16,621-dwt product tankers from German shipowner Bernhard Schulte, as part of the ongoing fleet ...",
-      "link": "https://www.hellenicshippingnews.com/monjasa-adds-five-sister-tankers-in-major-fleet-renewal-deal/",
-      "published": "Thu, 12 Nov 2026 11:00:53 +0000",
-      "source": "Hellenic Shipping News"
-    },
-    {
-      "title": "Oman: Asyad Shipping JV to sell tanker Haima for $63.1mln",
-      "summary": "Asyad Shipping Company’s 50:50 joint venture with Japan’s Mitsui OSK Lines Ltd has agreed to sell its LR2 tanker Haima for approximately RO24.3mn, with the transaction expected to generate a gain of around RO19mn for the joint venture. Under the memorandum of agreement signed on November 6, Asyad Shipping’s share of the expected gain will ...",
-      "link": "https://www.hellenicshippingnews.com/oman-asyad-shipping-jv-to-sell-tanker-haima-for-63-1mln/",
-      "published": "Thu, 12 Nov 2026 11:00:51 +0000",
-      "source": "Hellenic Shipping News"
-    },
-    {
-      "title": "Netanyahu to convene Israel's Security Cabinet as Eisenkot warns against renewed Iran strikes",
-      "summary": "<img align=\"right\" alt=\"Prime Minister Benjamin Netanyahu speaks at the Knesset following the swearing-in of the 26th Knesset, in Jerusalem, November 10, 2026 (photo credit: MARC ISRAEL SELLEM/THE JERUSALEM POST)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_1067,w_1600/745760\" title=\"Prime Minister Benjamin Netanyahu speaks at the Knesset following the swearing-in of the 26th Knesset, in Jerusalem, November 10, 2026 (photo credit: MARC ISRAEL SELLEM/THE JERUSALEM POST)\" /><br />The security cabinet had reportedly instructed the IDF to increase its readiness for a possible strike on Iran, despite not having met since October 5.<br />",
-      "link": "https://www.jpost.com/israel-election-2026/article-914671",
-      "published": "Thu, 12 Nov 2026 10:33:44 GMT",
-      "source": "Jerusalem Post"
-    },
-    {
-      "title": "From the UK to the Gulf, are US overseas bases becoming liabilities?",
-      "summary": "For decades, these bases allowed the US to wage faraway wars. Now, Iran has changed that calculation.",
-      "link": "https://www.aljazeera.com/news-analysis/2026/11/12/from-the-uk-to-the-gulf-are-us-overseas-bases-becoming-liabilities?traffic_source=rss",
-      "published": "Thu, 12 Nov 2026 09:38:00 +0000",
-      "source": "Al Jazeera"
+      "title": "Euronaval 2026: SeaOwl and KNDS Unveil Tracus Kamikaze USV",
+      "summary": "<p>At Euronaval 2026 in Paris, French maritime robotics specialist SeaOwl and European defense company KNDS announced a strategic cooperation agreement to develop and field the Tracus, an innovative kamikaze Uncrewed Surface Vessel (USV) equipped with a special 30kg warhead. Originally developed as a training solution to help the French Navy prepare against asymmetric threats, the ...</p>\n<p>The post <a href=\"https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-seaowl-and-knds-unveil-tracus-kamikaze-usv/\">Euronaval 2026: SeaOwl and KNDS Unveil Tracus Kamikaze USV</a> appeared first on <a href=\"https://www.navalnews.com\">Naval News</a>.</p>",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-seaowl-and-knds-unveil-tracus-kamikaze-usv/",
+      "published": "Thu, 12 Nov 2026 09:29:49 +0000",
+      "source": "Naval News"
     },
     {
       "title": "Brazilian soybean exports smash records",
@@ -203,46 +280,11 @@
       "source": "Splash247"
     },
     {
-      "title": "Can Netanyahu launch another war against Iran while leading a caretaker government? - explainer",
-      "summary": "<img align=\"right\" alt=\"Yashar head Gadi Eisenkot seen behind Prime Minister Benjamin Netanyahu as party leaders pose for a group picture in the Knesset, in Jerusalem, November 10, 2026 (photo credit: MARC ISRAEL SELLEM/THE JERUSALEM POST)\" src=\"https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_537,w_822/745780\" title=\"Yashar head Gadi Eisenkot seen behind Prime Minister Benjamin Netanyahu as party leaders pose for a group picture in the Knesset, in Jerusalem, November 10, 2026 (photo credit: MARC ISRAEL SELLEM/THE JERUSALEM POST)\" /><br />As Eisenkot works to form a government, Netanyahu retains the power to act against Iran. But Israeli law raises questions about launching a new war under a caretaker government.<br />",
-      "link": "https://www.jpost.com/israel-election-2026/article-914655",
-      "published": "Thu, 12 Nov 2026 09:00:31 GMT",
-      "source": "Jerusalem Post"
-    },
-    {
-      "title": "Asian Oil Buyers Turn to Africa and Brazil as Tanker Rates Plunge",
-      "summary": "Asian energy commodity buyers are increasingly turning to African and Brazilian grades, attracted by lower prices as rates for shipping oil out of the Persian Gulf remain near historic highs. Freight rates were at record levels for South American and African cargoes earlier this year, but have now declined enough to entice Asian buyers, Reuters noted in a report, citing unnamed sources including traders, shipbrokers, and analysts. The sources listed China’s Sinopec as one of these buyers along with South Korean SK Energy. Both companies bought…",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/Asian-Oil-Buyers-Turn-to-Africa-and-Brazil-as-Tanker-Rates-Plunge.html",
-      "published": "Thu, 12 Nov 2026 02:30:00 -0600",
-      "source": "OilPrice"
-    },
-    {
-      "title": "Why shipowners might be better off sharing profits than taking on debt",
-      "summary": "<p>Traditional loans demand repayments regardless of freight markets. Earnings-sharing structures offer a different proposition: investors participate in a vessel’s fortunes while owners retain control. Captain Vikas Pandey from Shipfinex explains.  Ship finance looks healthy on paper. Petrofin Research estimates that the top 40 shipping banks grew their portfolios by 6% in 2025 to $300.6bn, and …</p>\n</p>",
-      "link": "https://splash247.com/why-shipowners-might-be-better-off-sharing-profits-than-taking-on-debt/",
-      "published": "Thu, 12 Nov 2026 08:03:00 +0000",
-      "source": "Splash247"
-    },
-    {
-      "title": "Maersk hit by fresh cyber breach",
-      "summary": "<p>Danish shipping giant AP Moller-Maersk has confirmed another cybersecurity breach after hackers gained access to an older IT system and extracted data, nearly a decade after the devastating NotPetya attack that cost the company up to $300m. The Copenhagen-headquartered group said on Wednesday that the incident involved a local legacy system inherited through a previous …</p>\n</p>",
-      "link": "https://splash247.com/maersk-hit-by-fresh-cyber-breach/",
-      "published": "Thu, 12 Nov 2026 07:45:12 +0000",
-      "source": "Splash247"
-    },
-    {
-      "title": "Iran open to deal if US ‘refrains from excessive demands’, says Ghalibaf",
-      "summary": "Iran’s chief negotiator says Iran is open to a deal if the US refrains from creating distrust and excessive demands.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/iran-open-to-deal-if-us-refrains-from-excessive-demands-says-ghalibaf?traffic_source=rss",
-      "published": "Thu, 12 Nov 2026 07:38:05 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "ASEAN Moves to Build Emergency Oil Reserves Amid Iran Supply Crisis",
-      "summary": "The Association of Southeast Asian Nations has agreed to set up a joint crude oil stockpiling scheme in response to the supply disruption from the war in Iran, which severely affected countries in the region. The scheme will comprise storage sites in Indonesia and Thailand, Reuters reported today, from which ASEAN members will draw oil in times of tight supply. The withdrawals will be based on a ticket system, under which member countries would pay an advance fee to reserve the right to purchase a certain volume of oil or fuel from storage sites…",
-      "link": "https://oilprice.com/Latest-Energy-News/World-News/ASEAN-Moves-to-Build-Emergency-Oil-Reserves-Amid-Iran-Supply-Crisis.html",
-      "published": "Thu, 12 Nov 2026 01:30:00 -0600",
-      "source": "OilPrice"
+      "title": "UK and JEF Allies Sign Landmark Northern Navies Initiative Aboard HMS Prince of Wales",
+      "summary": "<p>The Royal Navy and its Joint Expeditionary Force (JEF) allies have signed a historic Northern Navies Initiative agreement that will increase security across northern Europe, the North Atlantic and Baltic Sea. UK MoD press release This agreement aims to support maritime deterrence and defence for the citizens of the UK and other JEF nations. The ...</p>\n<p>The post <a href=\"https://www.navalnews.com/naval-news/2026/11/uk-and-jef-allies-sign-landmark-northern-navies-initiative-aboard-hms-prince-of-wales/\">UK and JEF Allies Sign Landmark Northern Navies Initiative Aboard HMS Prince of Wales</a> appeared first on <a href=\"https://www.navalnews.com\">Naval News</a>.</p>",
+      "link": "https://www.navalnews.com/naval-news/2026/11/uk-and-jef-allies-sign-landmark-northern-navies-initiative-aboard-hms-prince-of-wales/",
+      "published": "Thu, 12 Nov 2026 08:20:58 +0000",
+      "source": "Naval News"
     },
     {
       "title": "Oil slicks seen from space: the devastating impact of boat strikes on fragile Gulf ecosystems",
@@ -252,27 +294,6 @@
       "source": "The Guardian"
     },
     {
-      "title": "Russian Diesel Tanker Makes U-Turn After Heading to U.S.",
-      "summary": "(Bloomberg) — A tanker carrying Russian diesel that had briefly signaled the US made a U-turn about 400 nautical miles off New York, compounding uncertainty over deliveries to the North American market....",
-      "link": "https://gcaptain.com/russian-diesel-tanker-makes-u-turn-after-heading-to-u-s/",
-      "published": "Wed, 11 Nov 2026 19:52:09 +0000",
-      "source": "gCaptain"
-    },
-    {
-      "title": "Russian Diesel Faces U.S. Buyer Resistance Despite Trump Sanctions Waiver",
-      "summary": "US companies are unlikely to import Russian diesel as a tanker full of the fuel idles off the US Eastern Seaboard, experts said, despite President Donald Trump's temporary waiver of some sanctions on Moscow's fuel exports.",
-      "link": "https://gcaptain.com/russian-diesel-faces-u-s-buyer-resistance-despite-trump-sanctions-waiver/",
-      "published": "Wed, 11 Nov 2026 18:40:24 +0000",
-      "source": "gCaptain"
-    },
-    {
-      "title": "Tankers Continue to Burn in the Middle East Despite Hopes for De-escalation",
-      "summary": "Despite market bets on a de-escalation in the Iran war, new evidence has emerged in recent days of strikes on tankers in the Strait of Hormuz and on energy infrastructure in the Middle East.",
-      "link": "https://gcaptain.com/tankers-continue-to-burn-in-the-middle-east-despite-hopes-for-de-escalation/",
-      "published": "Wed, 11 Nov 2026 17:20:22 +0000",
-      "source": "gCaptain"
-    },
-    {
       "title": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
       "summary": "The US Department of Justice says the men were involved in a string of plots, including a major incident near the UK airbase that is used by US armed forces.",
       "link": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
@@ -280,11 +301,25 @@
       "source": "BBC News"
     },
     {
-      "title": "Most Americans want new Democratic Congress to end Trump’s Iran war, poll finds",
-      "summary": "A new Reuters/Ipsos poll found that 71% of Americans want Congress to pass legislation ending the conflict with Iran.",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/11/10/most-americans-want-new-democratic-congress-to-end-trumps-iran-war-poll-finds/",
-      "published": "Tue, 10 Nov 2026 19:29:39 +0000",
-      "source": "Defense News"
+      "title": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
+      "summary": "Bessent is now one of several Trump administration officials to live on military bases due to safety concerns.",
+      "link": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 11 Nov 2026 16:45:11 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Argentinian lawyer mocks UK’s sovereignty claim in Falklands oil case",
+      "summary": "<p>Lawyer says Britain wrong to believe in historic doctrine that crown has sovereignty over parts of oceans</p><p>Britain should not be permitted to act as a 17th-century colonial power treating the waters around the Falkland Islands as a <em>Dominium maris Britannici</em>, Argentina has told an international tribunal.</p><p>Marcelo Kohen, representing Argentina at a hearing in Hamburg, mocked Britain for apparently believing in the historic doctrine that the British crown has sovereignty over expansive parts of the oceans.</p> <a href=\"https://www.theguardian.com/uk-news/2026/nov/11/argentine-lawyer-mocks-uk-sovereignty-claim-in-falklands-oil-case\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/uk-news/2026/nov/11/argentine-lawyer-mocks-uk-sovereignty-claim-in-falklands-oil-case",
+      "published": "Wed, 11 Nov 2026 16:05:45 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Falkland Islanders face ‘devastating consequences’ if Argentina blocks oil project, says UK",
+      "summary": "<p>Countries clash over Sea Lion project as Hamburg tribunal risks deepening sovereignty dispute</p><p>The people of the Falkland Islands face “devastating consequences” if Argentina is successful in blocking development of its offshore oilfield, the attorney general for England and Wales has told an international tribunal.</p><p>Ellie Reeves, representing the British government at a hearing of the international tribunal for the law of the sea (Itlos), said billions of pounds vital to the future of the British overseas territory would be lost.</p> <a href=\"https://www.theguardian.com/world/2026/nov/10/uk-and-argentina-clash-over-falklands-oil-project-as-hamburg-tribunal-starts\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/nov/10/uk-and-argentina-clash-over-falklands-oil-project-as-hamburg-tribunal-starts",
+      "published": "Tue, 10 Nov 2026 19:01:33 GMT",
+      "source": "The Guardian"
     },
     {
       "title": "Iran rejects French claims it was behind supermarket fridge hacking",
@@ -292,32 +327,9 @@
       "link": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
       "published": "Tue, 10 Nov 2026 13:45:13 GMT",
       "source": "BBC News"
-    },
-    {
-      "title": "Trump says more US attacks on Iran 'highly unlikely'",
-      "summary": "The president says the US is keeping \"status quo\" with Iran but remains “locked and loaded” should the situation change.",
-      "link": "https://www.bbc.co.uk/news/articles/cq5yny4nl2d3o?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 10 Nov 2026 09:40:31 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
-      "summary": "Footage authenticated by BBC Verify shows damage to the building in the capital's central financial district.",
-      "link": "https://www.bbc.co.uk/news/articles/c6ly3mjx958eo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 08 Nov 2026 21:37:36 GMT",
-      "source": "BBC News"
     }
   ],
   "history": [
-    {
-      "date": "2026-10-28 05:59",
-      "threat_level": "CRITICAL",
-      "value": 4,
-      "sentiment_score": 85,
-      "incidents": 33,
-      "brent": 111.14,
-      "usd_czk": 21.837
-    },
     {
       "date": "2026-10-28 11:54",
       "threat_level": "HIGH",
@@ -578,6 +590,15 @@
       "incidents": 36,
       "brent": 93.03,
       "usd_czk": 21.909
+    },
+    {
+      "date": "2026-11-13 05:59",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 75,
+      "incidents": 39,
+      "brent": 95.73,
+      "usd_czk": 22.001
     }
   ],
   "locations": [
@@ -603,13 +624,6 @@
       "name_en": "Saudi Arabia"
     },
     {
-      "key": "Oman",
-      "lat": 21.4735,
-      "lon": 55.9754,
-      "name_cs": "Omán",
-      "name_en": "Oman"
-    },
-    {
       "key": "Iraq",
       "lat": 33.2232,
       "lon": 43.6793,
@@ -629,6 +643,142 @@
       "lon": 34.9519,
       "name_cs": "Ejlat",
       "name_en": "Eilat"
+    },
+    {
+      "key": "Washington",
+      "lat": 38.9,
+      "lon": -77.04,
+      "name_cs": "Washington, D.C.",
+      "name_en": "Washington",
+      "auto": true
+    },
+    {
+      "key": "New York",
+      "lat": 40.71,
+      "lon": -74,
+      "name_cs": "New York",
+      "name_en": "New York",
+      "auto": true
+    },
+    {
+      "key": "Texas",
+      "lat": 31,
+      "lon": -99,
+      "name_cs": "Texas",
+      "name_en": "Texas",
+      "auto": true
+    },
+    {
+      "key": "Florida",
+      "lat": 27.8,
+      "lon": -81.7,
+      "name_cs": "Florida",
+      "name_en": "Florida",
+      "auto": true
+    },
+    {
+      "key": "Venezuela",
+      "lat": 7,
+      "lon": -66,
+      "name_cs": "Venezuela",
+      "name_en": "Venezuela",
+      "auto": true
+    },
+    {
+      "key": "Brazil",
+      "lat": -14.2,
+      "lon": -51.9,
+      "name_cs": "Brazílie",
+      "name_en": "Brazil",
+      "auto": true
+    },
+    {
+      "key": "Argentin",
+      "lat": -34,
+      "lon": -64,
+      "name_cs": "Argentina",
+      "name_en": "Argentin",
+      "auto": true
+    },
+    {
+      "key": "Ukrain",
+      "lat": 50.45,
+      "lon": 30.52,
+      "name_cs": "Ukrajina",
+      "name_en": "Ukrain",
+      "auto": true
+    },
+    {
+      "key": "Russia",
+      "lat": 55.75,
+      "lon": 37.62,
+      "name_cs": "Rusko",
+      "name_en": "Russia",
+      "auto": true
+    },
+    {
+      "key": "Syria",
+      "lat": 34.8,
+      "lon": 38.9,
+      "name_cs": "Sýrie",
+      "name_en": "Syria",
+      "auto": true
+    },
+    {
+      "key": "Lebanon",
+      "lat": 33.9,
+      "lon": 35.9,
+      "name_cs": "Libanon",
+      "name_en": "Lebanon",
+      "auto": true
+    },
+    {
+      "key": "Qatar",
+      "lat": 25.3,
+      "lon": 51.2,
+      "name_cs": "Katar",
+      "name_en": "Qatar",
+      "auto": true
+    },
+    {
+      "key": "China",
+      "lat": 35.9,
+      "lon": 104.2,
+      "name_cs": "Čína",
+      "name_en": "China",
+      "auto": true
+    },
+    {
+      "key": "Hong Kong",
+      "lat": 22.3,
+      "lon": 114.2,
+      "name_cs": "Hongkong",
+      "name_en": "Hong Kong",
+      "auto": true
+    },
+    {
+      "key": "Singapore",
+      "lat": 1.35,
+      "lon": 103.8,
+      "name_cs": "Singapur",
+      "name_en": "Singapore",
+      "auto": true
+    },
+    {
+      "key": "London",
+      "lat": 51.5,
+      "lon": -0.12,
+      "name_cs": "Londýn",
+      "name_en": "London",
+      "auto": true
+    },
+    {
+      "key": "France",
+      "lat": 48.86,
+      "lon": 2.35,
+      "name_cs": "Paříž",
+      "name_en": "France",
+      "auto": true
     }
   ],
   "location_counts": {
@@ -641,21 +791,21 @@
     "Irák": 5,
     "Bab-el-Mandeb": 33,
     "Suezský průplav": 2,
-    "Yemen": 114,
+    "Yemen": 115,
     "Red Sea": 75,
-    "Hormuz": 110,
+    "Hormuz": 111,
     "Mecca": 45,
-    "Saudi Arabia": 114,
+    "Saudi Arabia": 115,
     "Oman": 60,
-    "Iraq": 45,
+    "Iraq": 46,
     "Suez": 38,
     "Mokha": 16,
     "Los Angeles": 1,
     "Kalifornie": 1,
     "Ukrajina": 1,
-    "Rusko": 2,
+    "Rusko": 1,
     "Írán": 4,
-    "Katar": 3,
+    "Katar": 1,
     "Jižní Korea": 1,
     "Pákistán": 1,
     "Indonésie": 1,
@@ -664,25 +814,25 @@
     "Kolumbie": 2,
     "Washington, D.C.": 4,
     "Brazílie": 1,
-    "Argentina": 1,
+    "Argentina": 2,
     "Izrael": 1,
     "Egypt": 3,
     "Londýn": 6,
-    "Paříž": 5,
+    "Paříž": 3,
     "Súdán": 2,
     "Somálsko": 1,
     "Eritrea": 9,
-    "Iran": 79,
-    "Eilat": 76,
+    "Iran": 80,
+    "Eilat": 77,
     "Maine": 1,
     "Kanada": 1,
     "Venezuela": 1,
-    "Čína": 1,
+    "Čína": 3,
     "Indie": 1,
     "Djibouti": 9,
     "Jeddah": 13,
     "Port Sudan": 9,
-    "New York": 3,
+    "New York": 1,
     "Chicago": 1,
     "Mexiko": 1,
     "Turecko": 4,
@@ -731,17 +881,9 @@
     "key": "Yemen",
     "name_cs": "Jemen",
     "name_en": "Yemen",
-    "count": 114
+    "count": 115
   },
   "archive": [
-    {
-      "date": "2026-11-05 06:00",
-      "threat_level": "HIGH",
-      "security_status_cs": "Situace v oblasti Hormuzského průlivu a Blízkého východu zůstává vysoce napjatá po hlášených incidentech s tankery a eskalaci operací. Americké politické změny po midterms a reakce Íránu nadále ohrožují klíčové námořní trasy.",
-      "security_status_en": "The situation in the Strait of Hormuz and the Middle East remains highly tense following reported tanker incidents and escalating operations. US political shifts after the midterms and Iran's reactions continue to threaten key maritime routes.",
-      "forecast_cs": "V nejbližších dnech lze očekávat zvýšenou volatilitu trhů a diplomatické manévry v reakci na politické změny v USA a přetrvávající hrozby v oblasti Hormuzského průlivu.",
-      "forecast_en": "Increased market volatility and diplomatic maneuvering are expected in the coming days in response to US political shifts and lingering threats in the Strait of Hormuz."
-    },
     {
       "date": "2026-11-06 05:59",
       "threat_level": "HIGH",
@@ -845,24 +987,32 @@
       "security_status_en": "The security situation in the Middle East and maritime corridors remains critical, underscored by recent attacks on energy infrastructure and oil tankers in the region. The Houthis continue their strikes, with the latest hits in the Saudi capital highlighting persistent risks to global logistics and energy supplies.",
       "forecast_cs": "V následujících dnech lze očekávat zvýšenou volatilitu na energetických trzích a pokračující bezpečnostní opatření v námořní dopravě. Jakékoliv nové zprávy o eskalaci v Perském zálivu okamžitě ovlivní ceny ropy.",
       "forecast_en": "Over the coming days, heightened volatility in energy markets and ongoing security measures in maritime shipping are expected. Any fresh news of escalation in the Persian Gulf will immediately impact oil prices."
+    },
+    {
+      "date": "2026-11-13 05:59",
+      "threat_level": "HIGH",
+      "security_status_cs": "Bezpečnostní situace v oblasti Blízkého východu a Perského zálivu zůstává napjatá kvůli pokračujícím útokům na ropné tankery a vojenská zařízení. Růst hrozeb pro námořní dopravu nadále vynucuje přísná bezpečnostní opatření a prodlužování tras lodí mimo rizikové oblasti.",
+      "security_status_en": "The security situation in the Middle East and the Persian Gulf remains tense due to ongoing attacks on oil tankers and military installations. Heightened threats to maritime shipping continue to necessitate strict security measures and the rerouting of vessels away from high-risk zones.",
+      "forecast_cs": "V nejbližších dnech lze očekávat přetrvávající volatilitu na komoditních trzích a opatrnost investorů kvůli rizikům další eskalace v oblasti Perského zálivu.",
+      "forecast_en": "Over the coming days, persistent volatility in commodity markets and investor caution due to risks of further escalation in the Persian Gulf region are expected."
     }
   ],
-  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 4× CRITICAL, 3× HIGH.",
-  "weekly_summary_en": "Over the last 7 recorded analyses: 4× CRITICAL, 3× HIGH.",
+  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 4× HIGH, 3× CRITICAL.",
+  "weekly_summary_en": "Over the last 7 recorded analyses: 4× HIGH, 3× CRITICAL.",
   "oil_prices": {
     "brent": {
-      "value": 93.03,
-      "date": "2026-11-12",
+      "value": 95.73,
+      "date": "2026-11-13",
       "cached": false
     },
     "wti": {
-      "value": 86.28,
-      "date": "2026-11-12",
+      "value": 88.33,
+      "date": "2026-11-13",
       "cached": false
     }
   },
   "usd_czk": {
-    "value": 21.909,
-    "date": "2026-11-11"
+    "value": 22.001,
+    "date": "2026-11-12"
   }
 }
