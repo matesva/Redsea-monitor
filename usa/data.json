@@ -1,267 +1,360 @@
 {
-  "last_updated": "2026-11-13T13:44:19Z",
+  "last_updated": "2026-11-14T06:00:10Z",
   "assessment": {
-    "threat_level": "HIGH",
-    "sentiment_score": 70,
-    "security_status_cs": "Chyba při automatické analýze AI.",
-    "security_status_en": "Error during automated AI analysis.",
+    "threat_level": "MEDIUM",
+    "sentiment_score": 45,
+    "security_status_cs": "Spojené státy čelí vnitřním politickým třenicím po překvapivých zprávách z Aljašky a vnitřním bojům v Kongresu, zatímco administrativu zatěžuje vyšetřování kolem obchodu s technologiemi a nedávný výpadek řízení letového provozu. Rétorika ohledně Íránu a blížící se summit s Ruskem a Čínou udržují napjatou geopolitickou situaci.",
+    "security_status_en": "The United States faces domestic political friction following a surprise Alaska gubernatorial flip and internal congressional battles, while the administration is burdened by tech-export investigations and a recent air traffic control shutdown. Rhetoric regarding Iran and an upcoming summit with Russia and China keep the geopolitical situation tense.",
     "president_comments": [
       {
-        "topic_cs": "Válečná politika a operace v Íránu",
-        "topic_en": "War policy and operations in Iran",
-        "statement_cs": "Prezident Donald Trump prohlásil během projevu na Arlingtonském národním hřbitově, že válku s Íránem vyhráli, a porovnal tuto operaci s dřívějšími konflikty v Koreji, Vietnamu, Afghánistánu a Iráku.",
-        "statement_en": "President Donald Trump stated during a speech at Arlington National Cemetery that they won the war with Iran, comparing the operation to previous conflicts in Korea, Vietnam, Afghanistan, and Iraq.",
-        "comment_cs": "Tento výrok podtrhuje pokračující důraz administrativy na zahraničněpolitické úspěchy, avšak zvyšuje geopolitické napětí a bezpečnostní rizika pro představitele státu.",
-        "comment_en": "This statement underscores the administration's continued emphasis on foreign policy successes, while elevating geopolitical tension and security risks for state officials.",
+        "topic_cs": "Zahraniční politika a Írán",
+        "topic_en": "Foreign Policy and Iran",
+        "statement_cs": "Prezident Donald Trump prohlásil, že k dohodě s Íránem není potřeba, protože USA mají pod kontrolou jejich úžinu.",
+        "statement_en": "President Donald Trump stated that no deal with Iran is needed because the U.S. has control of their strait.",
+        "comment_cs": "Tento postoj udržuje geopolitické napětí na Blízkém východě a přispívá k volatilitě cen ropy na trzích.",
+        "comment_en": "This stance maintains geopolitical tension in the Middle East and contributes to oil price volatility in the markets.",
+        "market_impact": "NEUTRAL",
+        "source": "CNBC",
+        "date": "2026-11-14T06:00:10Z"
+      },
+      {
+        "topic_cs": "Potravinové programy (SNAP)",
+        "topic_en": "Food Stamp Rules (SNAP)",
+        "statement_cs": "Prezident Trump se dohodl s novým starostou NYC na 90denním odkladu nových pravidel pro potravinové lístky (SNAP), aby obchody měly čas na přizpůsobení.",
+        "statement_en": "President Trump agreed with the NYC mayor on a 90-day delay for new SNAP food stamp rules to give stores time to comply.",
+        "comment_cs": "Krok přináší krátkodobou úlevu drobným obchodníkům a odsouvá potenciální administrativní třenice.",
+        "comment_en": "The move brings short-term relief to small merchants and postpones potential administrative friction.",
+        "market_impact": "POSITIVE",
+        "source": "The Guardian",
+        "date": "2026-11-14T06:00:10Z"
+      },
+      {
+        "topic_cs": "Blížící se mezinárodní summity",
+        "topic_en": "Upcoming International Summits",
+        "statement_cs": "Bílý dům oznámil, že prezident Donald Trump uskuteční své první trilaterální setkání s Vladimirem Putinem a Si Ťin-pchingem na konci své asijské cesty.",
+        "statement_en": "The White House announced that President Donald Trump will hold his first trilateral meeting with Vladimir Putin and Xi Jinping near the end of his Asia trip.",
+        "comment_cs": "Setkání může zásadně ovlivnit globální obchodní a bezpečnostní dynamiku mezi velmocemi.",
+        "comment_en": "The meeting could fundamentally impact global trade and security dynamics among major powers.",
         "market_impact": "NEUTRAL",
         "source": "Washington Post",
-        "date": "2026-11-12T06:00:06Z"
+        "date": "2026-11-14T06:00:10Z"
       }
     ],
-    "recommendations": [],
-    "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
-    "forecast_en": "Failed to generate forecast.",
-    "forecast_review_cs": "N/A",
-    "forecast_review_en": "N/A"
+    "recommendations": [
+      {
+        "sector_cs": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
+        "sector_en": "US Broad Equity Market (S&P 500 ETFs, e.g. VOO, SPY)",
+        "action": "HOLD",
+        "reason_cs": "Trhy čelí nejistotě kvůli inflačním tlakům Fedu a politickým změnám po mezidobých volbách, což doporučuje vyčkávanou.",
+        "reason_en": "Markets face uncertainty due to Fed inflation pressures and political shifts post-midterms, suggesting a wait-and-see approach."
+      },
+      {
+        "sector_cs": "Státní dluhopisy USA (Treasuries)",
+        "sector_en": "US Treasuries",
+        "action": "HOLD",
+        "reason_cs": "Výnosy dluhopisů reagují na přetrvávající inflační obavy a komentáře představitelů Fedu o nutnosti dalšího zásahu.",
+        "reason_en": "Bond yields are reacting to persistent inflation worries and Fed officials' comments on the need for further action."
+      },
+      {
+        "sector_cs": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
+        "sector_en": "Defense Industry (RTX, Lockheed Martin, Northrop Grumman)",
+        "action": "BUY",
+        "reason_cs": "Geopolitické napětí na Blízkém východě a chystané summity s Ruskem a Čínou udržují silnou poptávku po obranných výdajích.",
+        "reason_en": "Geopolitical tensions in the Middle East and upcoming summits with Russia and China maintain strong demand for defense spending."
+      },
+      {
+        "sector_cs": "Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)",
+        "sector_en": "Banks & Financials (JPMorgan, Bank of America, Goldman Sachs)",
+        "action": "HOLD",
+        "reason_cs": "Regulační tlaky a nejasný vývoj úrokových sadzeb Fedu limitují výraznější růstový potenciál finančního sektoru.",
+        "reason_en": "Regulatory pressures and unclear Fed interest rate trajectories limit the significant upside potential of the financial sector."
+      },
+      {
+        "sector_cs": "Technologický sektor (Apple, Microsoft, Nvidia)",
+        "sector_en": "Technology Sector (Apple, Microsoft, Nvidia)",
+        "action": "SELL",
+        "reason_cs": "Skandály kolem vedení Nvidie a vyšetřování vývozních restrikcí vyvolávají nervozitu a přehodnocení celého AI sektoru.",
+        "reason_en": "Scandals surrounding Nvidia's leadership and investigations into export restrictions are causing nervousness and a reassessment of the entire AI sector."
+      },
+      {
+        "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
+        "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
+        "action": "HOLD",
+        "reason_cs": "Domácí tituly jsou primárně ovlivněny evropským ekonomickým prostředím a lokální fiskální politikou, přičemž vliv z USA je spíše nepřímý.",
+        "reason_en": "Domestic stocks are primarily driven by the European economic environment and local fiscal policy, with U.S. influences being largely indirect."
+      }
+    ],
+    "forecast_cs": "V nejbližších dnech se očekává zvýšená pozornost investorů vůči technologickému sektoru kvůli vyšetřování v Kongresu a dopadům skandálu kolem Nvidie. Dění na mezinárodní scéně a blížící se asijský summit budou rovněž určovat náladu na trzích.",
+    "forecast_en": "In the coming days, heightened investor attention is expected on the technology sector due to congressional investigations and the fallout from the Nvidia scandal. International developments and the upcoming Asia summit will also dictate market sentiment.",
+    "forecast_review_cs": "Žádná předchozí předpověď k vyhodnocení.",
+    "forecast_review_en": "No previous forecast to evaluate."
   },
   "articles": [
     {
-      "title": "Trump says he would 'easily' beat 'highly overrated' Obama",
-      "summary": "President Trump claimed in a new interview that he could “easily” beat former President Obama in a political match-up, days after Republicans experienced sweeping losses in the midterm elections.  “I got many more votes than he got, and I got many more votes in the states,” Trump told “Straight Shooter” host Stephen A. Smith in...",
-      "link": "https://thehill.com/homenews/campaign/6218241-donald-trump-barack-obama-potential-matchup-midterms-postelection/",
-      "published": "Fri, 13 Nov 2026 13:38:16 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Scientists Develop Device To Reduce Stress—But Doctors Warn There's a Catch",
-      "summary": "The \"groundbreaking\" device aims to reduce stress and help improve your sleep by retraining your nervous system.",
-      "link": "https://www.newsweek.com/groundbreaking-device-retrains-brain-nervous-system-real-time-12706206",
-      "published": "Fri, 13 Nov 2026 08:38:04 -0500",
-      "source": "Newsweek"
-    },
-    {
-      "title": "Van Hollen takes aim at Schumer as Democrats face first big test after midterms – US politics live",
-      "summary": "<p>Senator Van Hollen says midterm results show Americans want change in Washington, and Democrats need new leadership to deliver that</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email</a></p></li></ul><p>There has been a wave of calls from Republican lawmakers in Congress for commerce secretary <strong>Howard Lutnick</strong> to testify on Capitol Hill, following <strong>Jensen Huang’s resignation as CEO of Nvidia.</strong></p><p>Senator <strong>Tim Scott</strong>, the Republican chair of the banking committee has sent a letter to Lutnick, calling for him to appear before his committee to discuss the national security concerns about chip export regulations in light of Huang’s relationship with data company executive and suspected Chinese spy, <strong>Alice Huang</strong> (no relation to Jensen).</p> <a href=\"https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer",
-      "published": "Fri, 13 Nov 2026 13:36:09 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Democrats won — but so did election integrity",
-      "summary": "Voters demonstrated that supporting Democratic candidates does not require them to oppose voter ID or the integrity of the vote.",
-      "link": "https://thehill.com/opinion/campaign/6216492-bipartisan-support-voter-id-laws/",
-      "published": "Fri, 13 Nov 2026 13:30:00 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Rubio’s next move? Lawyers eye speech of 'visionary' leader for 2028 clues after GOP’s midterm wipeout",
-      "summary": "Secretary of State Marco Rubio's Federalist Society keynote comes as attendees wonder if he'll address GOP midterm losses and a 2028 presidential run.",
-      "link": "https://www.foxnews.com/politics/rubios-next-move-lawyers-eye-speech-visionary-leader-2028-clues-gop-midterm-wipeout",
-      "published": "Fri, 13 Nov 2026 08:28:33 -0500",
-      "source": "Fox News"
-    },
-    {
-      "title": "Who is Chris Van Hollen, the Democratic senator challenging Chuck Schumer?",
-      "summary": "Once part of the establishment, the longtime Democratic lawmaker from Maryland has launched an upstart bid for majority leader.",
-      "link": "https://www.washingtonpost.com/politics/2026/11/11/who-is-chris-van-hollen-senator-progressives-are-pushing-instead-schumer/",
-      "published": "Fri, 13 Nov 2026 13:21:36 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Democrats target DHS prison purchase as part of broad immigration probes",
-      "summary": "Homeland Security officials have sought to cast the coming investigations as politically motivated and suggested the department is prepared to fight back.",
-      "link": "https://www.washingtonpost.com/politics/2026/11/13/democrats-target-costly-dhs-prison-purchase-part-broad-immigration-probes/",
-      "published": "Fri, 13 Nov 2026 13:15:22 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "What’s next for Democrats after their Hegseth impeachment effort falters?",
-      "summary": "Democrats are facing a setback in their effort to impeach Defense Secretary Pete Hegseth. Will the party now turn to circumventing the Electoral College? Join The Hill’s senior vice president of editorial content, Bill Sammon, and political editor Chris Stirewalt to discuss the latest political hot topics and national news in “Whole Hog Politics.\" The discussion and Q&A...",
-      "link": "https://thehill.com/newsletters/whole-hog-politics/whole-hog-politics-live-briefing/6218220-democrats-pete-hegseth-impeachment-legislative-moves-live-discussion/",
-      "published": "Fri, 13 Nov 2026 13:13:23 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Trump says he wants to ‘get Cuba done’ before leaving office, would consider military force",
-      "summary": "It comes as the U.S. continues to enforce a comprehensive economic embargo against Cuba.",
-      "link": "https://www.cnbc.com/2026/11/13/trump-cuba-us-military-force-iran.html",
-      "published": "Fri, 13 Nov 2026 13:04:00 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Huang's downfall may undo cozy ties between business and government: analysis",
-      "summary": "The Nvidia founder's downfall and the midterm election could mark a turning point in the recent close relationship between corporate leaders and the federal government.",
-      "link": "https://www.cnbc.com/2026/11/13/jensen-huang-nvidia-fallout-business-politics.html",
-      "published": "Fri, 13 Nov 2026 13:01:01 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Empire State Building climbers face deportation fears after attorney claims plea deal fell apart",
-      "summary": "Angela Nikolau and Ivan Kuznetsov might face deportation and jail time after their viral Empire State Building climb, with a plea deal now in dispute.",
-      "link": "https://www.foxnews.com/us/empire-state-building-climbers-face-deportation-fears-attorney-claims-plea-deal-fell-apart",
-      "published": "Fri, 13 Nov 2026 08:00:45 -0500",
-      "source": "Fox News"
-    },
-    {
-      "title": "The datacenter industry is using propaganda to fight opposition | Samuel Woolley, Dean Jackson and Maia Woluchem",
-      "summary": "<p>Big tech has used misdirection, disinformation and jargon to obscure the harm the facilities can cause to communities</p><p>“Antifa”. “Commies”. “Chinese bots”. Everyone from tech leaders to the president has called datacenter resistance a “<a href=\"https://www.businessinsider.com/why-everyone-hates-data-center-ai-industry-debate-2026-8\">documented psyop</a>” and a “<a href=\"https://www.wral.com/news/state/fact-check-trump-data-center-opposition-china-pr-september-28/\">Chinese PR thing</a>”.</p><p>But why do they make these claims? Our <a href=\"https://acrobat.adobe.com/id/urn:aaid:sc:US:9e0323b8-0916-4a8b-9173-415c04e1089f\">new research</a> finds that the datacenter industry uses propaganda, disinformation, and information control to mold public opinion and undermine community opposition.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/nov/13/datacenter-industry-propaganda\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/commentisfree/2026/nov/13/datacenter-industry-propaganda",
-      "published": "Fri, 13 Nov 2026 13:00:18 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Why Virginia Is the Next Hotbed for AI Data Center Debate",
-      "summary": "Virginia faces a new era of AI regulation with Democratic Governor Abigail Spanberger's new strategy for data center oversight.",
-      "link": "https://www.newsweek.com/why-virginia-is-next-hotbed-ai-data-center-debate-12707628",
-      "published": "Fri, 13 Nov 2026 08:00:00 -0500",
-      "source": "Newsweek"
-    },
-    {
-      "title": "Trump's Approval Rating Keeps Falling After Midterm Losses",
-      "summary": "Trump’s approval hits a record low of 32 percent in YouGov polling, reflecting a wider post-midterm slump over inflation and Iran.",
-      "link": "https://www.newsweek.com/donald-trump-approval-rating-falling-midterm-losses-12709719",
-      "published": "Fri, 13 Nov 2026 07:58:45 -0500",
-      "source": "Newsweek"
-    },
-    {
-      "title": "Schumer's Senate leadership fight intensifies as key progressive backs challenger and more top headlines",
-      "summary": "Get all the stories you need-to-know from the most powerful name in news delivered first thing every morning to your inbox.",
-      "link": "https://www.foxnews.com/us/schumers-senate-leadership-fight-intensifies-progressive-backs-challenger-more-top-headlines",
-      "published": "Fri, 13 Nov 2026 07:41:25 -0500",
-      "source": "Fox News"
-    },
-    {
-      "title": "Huang's exit rocks Nvidia and creates openings for rival firms",
-      "summary": "Huang was a visionary leader with deep relationships in the complex world of tech. Losing him will hurt Nvidia, according to Wall Street analysts.",
-      "link": "https://www.cbsnews.com/news/nvidia-jensen-huang-resigns-competitors/",
-      "published": "Fri, 13 Nov 2026 07:35:42 -0500",
-      "source": "CBS News"
-    },
-    {
-      "title": "D.C. gunman appeared to vent about problems with luxury condo",
-      "summary": "An X account associated with D.C. shooting suspect Matt Lambert was filled with complaints about mold, rodents and disrepair in his unit in the condo building.",
-      "link": "https://www.cbsnews.com/news/dc-shooting-gunman-social-media/",
-      "published": "Fri, 13 Nov 2026 07:29:00 -0500",
-      "source": "CBS News"
-    },
-    {
-      "title": "Were Midterms the Beatdown Republicans 'Needed'?",
-      "summary": "",
-      "link": "https://www.realclearpolitics.com/2026/11/13/were_midterms_the_beatdown_republicans_needed_717531.html",
-      "published": "Fri, 13 Nov 2026 06:26:44 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Republicans Need DeSantis--Just Not in 2028",
-      "summary": "He squandered the political capital he won in 2022. Now he's won back that capital with Florida's performance in the 2026 midterms",
-      "link": "https://www.realclearpolitics.com/2026/11/11/republicans_need_desantis--just_not_in_2028_717375.html",
-      "published": "Fri, 13 Nov 2026 06:26:30 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "How Dems Won Big--and Why 2028 Is Up for Grabs",
-      "summary": "Elaine Kamarck and William A. Galston analyze what drove the big Democratic midterm wins and what they mean for 2028.",
-      "link": "https://www.realclearpolitics.com/2026/11/12/how_dems_won_big--and_why_2028_is_up_for_grabs_717520.html",
-      "published": "Fri, 13 Nov 2026 06:26:28 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Nvidia has shed nearly $500 billion in market value this week. It’s still a $4 trillion AI behemoth.",
-      "summary": "Can Nvidia keep its lead in AI chips without Jensen Huang? Plus, what investors are watching on inflation.",
-      "link": "https://www.marketwatch.com/story/nvidia-has-shed-nearly-500-billion-in-market-value-this-week-its-still-a-4-trillion-ai-behemoth-2ca6eba7?mod=mw_rss_topstories",
-      "published": "Fri, 13 Nov 2026 12:25:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "How a sex scandal at Nvidia is putting pressure on the White House",
-      "summary": "Jensen Huang's personal life may have triggered the crisis, but the questions now reach into the White House itself.",
-      "link": "https://www.bbc.co.uk/news/articles/c67429m3vem3o?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 13 Nov 2026 12:22:30 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "First Thing: Global Microsoft outage chaos as tech firm says there are ‘signs of stabilisation’",
-      "summary": "<p>Users of Microsoft Teams and Outlook in businesses and public services reporting problems. Plus would you like to spend time as a helpful furry little post delivery service?</p><ul><li><p><a href=\"https://www.theguardian.com/info/2018/sep/17/guardian-us-morning-briefing-sign-up-to-stay-informed\"><strong>Don’t already get First Thing in your inbox? Sign up here</strong></a></p></li></ul><p>Good morning. <a href=\"https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports\">A global outage of vital Microsoft systems</a> has crippled businesses and public services around the world. The tech company said it was seeing “early signs of stabilisation” after the failure affected millions of users for more than 12 hours on Thursday and Friday.</p><p>Some but not all users were reporting problems with services including Microsoft Teams and Outlook email. More than 430 million people use Microsoft 365 apps, and more than 90% of Fortune 500 companies use Copilot, Microsoft’s AI chatbot, according to the company. Microsoft said that there were no indications that the outage had been caused by a cyber-attack. We are covering the recovery efforts and continuing impact <a href=\"https://www.theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news\">in this live blog</a>.</p><p><strong>Who are the main people involved?</strong> For more information on the cast of characters, Dan Milmo has <a href=\"https://www.theguardian.com/technology/2026/nov/12/rise-and-fall-of-nvidia-ceo-jensen-huang-profile\">this profile of outgoing Huang</a>, who went from washing dishes at Denny’s to becoming the rock star of AI, and Dara Kerr has this piece answering the question: <a href=\"https://www.theguardian.com/technology/2026/nov/12/jensen-huang-nvidia-ceo-replacement\">who is Colette Kress</a>? And yesterday my newsletter colleague Hettie O’Brien had this excellent breakdown of <a href=\"https://www.theguardian.com/world/2026/nov/12/thursday-briefing-what-we-do-and-dont-know-about-alice-huang-and-the-nvidia-affair\">what we do (and don’t) know about Alice Huang</a>. We also have <a href=\"https://www.theguardian.com/technology/2026/nov/12/jensen-huang-affair-timeline\">this timeline of how the scandal unfolded</a>.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/13/first-thing-global-microsoft-outage-chaos-signs-of-stabilisation\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/nov/13/first-thing-global-microsoft-outage-chaos-signs-of-stabilisation",
-      "published": "Fri, 13 Nov 2026 12:16:44 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Jeffries shredded over Hegseth impeachment snafu as Dem jockeys for speaker’s gavel",
-      "summary": "Eleven absent House Democrats handed Republicans a win on the Pete Hegseth impeachment vote, raising questions about Hakeem Jeffries' leadership.",
-      "link": "https://www.foxnews.com/politics/jeffries-shredded-over-hegseth-impeachment-snafu-dem-jockeys-speakers-gavel",
-      "published": "Fri, 13 Nov 2026 07:00:21 -0500",
-      "source": "Fox News"
-    },
-    {
-      "title": "Democrats fumbled the Hegseth impeachment. That could be a blessing in disguise | Claire Finkelstein",
-      "summary": "<p>The failed move could lead to a more robust effort against the defense secretary in the next Congress. Here’s how it could look</p><p>A traffic jam, combined with disorganization on the part of Democrats, enabled House Republicans to scuttle the representative Thomas Massie’s articles of impeachment against Pete Hegseth on Wednesday.</p><p>While <a href=\"https://www.theguardian.com/us-news/2026/nov/11/democrats-hegseth-impeachment-vote\">recriminations</a> are now flying among Democrats, the fumble may have been a blessing in disguise. Democrats can now refocus the articles against the defense secretary, possibly to better effect.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/nov/13/democrats-hegseth-impeachment\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/commentisfree/2026/nov/13/democrats-hegseth-impeachment",
-      "published": "Fri, 13 Nov 2026 12:00:18 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Oregon school carefully welcomes students back after classroom shooting",
-      "summary": "A nonprofit from South Carolina guided the school district in Bend in best practices to deal with trauma after the deaths of three children and a teacher.",
-      "link": "https://www.washingtonpost.com/nation/2026/11/13/officials-repaired-school-after-fatal-shooting-healing-students-will-take-longer/",
-      "published": "Fri, 13 Nov 2026 11:00:00 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Trump’s GOP was all they knew. Now some wonder if MAGA is dead.",
-      "summary": "The movement’s rank and file, young and old, are soul-searching as they look to leaders outside the White House, cross over to Democrats or disengage from politics.",
-      "link": "https://www.washingtonpost.com/politics/2026/11/13/maga-voters-are-forced-confront-future-beyond-trump/",
-      "published": "Fri, 13 Nov 2026 11:00:00 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
-      "summary": "Commerce Secretary Lutnick will testify before the Senate Banking Committee following revelations about Jensen Huang's affair with an alleged Chinese spy.",
-      "link": "https://www.cnbc.com/2026/11/13/nvidia-scandal-lutnick-chip-sales.html",
-      "published": "Fri, 13 Nov 2026 10:54:40 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Will Democrats pursue a national popular vote?",
-      "summary": "After years of calling for the end of the electoral college, opponents  think now may be their moment.",
-      "link": "https://www.washingtonpost.com/politics/2026/11/13/will-democrats-pursue-national-popular-vote/",
-      "published": "Fri, 13 Nov 2026 10:22:49 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Earnings growth is set to peter out — but not the bull market, says Goldman Sachs. Here’s what the firm recommends.",
-      "summary": "Earnings growth is almost halving across major indices in 2027 but stocks have already discounted much of that deceleration.  Goldman recommends investors focus closely on those companies still delivering strong growth – as strong growth becomes  a scarce commodity.",
-      "link": "https://www.marketwatch.com/story/earnings-growth-is-set-to-peter-out-but-not-the-bull-market-says-goldman-sachs-heres-what-the-firm-recommends-bf409a6d?mod=mw_rss_topstories",
-      "published": "Fri, 13 Nov 2026 10:14:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "These swing voters have low expectations for divided government",
-      "summary": "Key voters in North Carolina are pessimistic the blue wave flipping control of Congress will solve their economic woes. Many say President Trump will be the chief obstacle.",
-      "link": "https://www.npr.org/2026/11/13/nx-s1-6035826/north-carolina-swing-voters-congress-trump",
-      "published": "Fri, 13 Nov 2026 05:00:00 -0500",
+      "title": "Democrat Jonathan Kreiss-Tomkins wins race for Alaska governor, replaces a Republican",
+      "summary": "Kreiss-Tomkins, a former state legislator, ran a campaign emphasizing bipartisanship in the the state that usually votes Republican. At 37, he'll be the youngest governor in the state's history.",
+      "link": "https://www.npr.org/2026/11/14/g-s1-151719/midterms-alaska-governor-kreiss-tomkins",
+      "published": "Sat, 14 Nov 2026 00:12:43 -0500",
       "source": "NPR"
     },
     {
-      "title": "Most top Fed officials blame AI for fueling inflation. Not Trump’s Fed chief.",
-      "summary": "A growing number of Federal Reserve officials say the AI boom may mean higher interest rates for longer. Fed Chair Kevin Warsh has been slower to agree, arguing that AI would help tame prices.",
-      "link": "https://www.washingtonpost.com/business/2026/11/13/more-top-fed-officials-say-ai-is-fueling-inflation-kevin-warsh-is-an-outlier/",
-      "published": "Fri, 13 Nov 2026 10:00:00 +0000",
+      "title": "Democrat Jonathan Kreiss-Tomkins wins Alaska governor’s race",
+      "summary": "Kreiss-Tomkins, 37, defeated three Republicans, including President Donald Trump’s preferred candidate.",
+      "link": "https://www.washingtonpost.com/politics/2026/11/14/democrat-jonathan-kreiss-tomkins-wins-alaska-governors-race/",
+      "published": "Sat, 14 Nov 2026 05:05:54 +0000",
       "source": "Washington Post"
     },
     {
-      "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-      "summary": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
-      "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 13 Nov 2026 03:57:01 GMT",
+      "title": "Democrat flips Alaska governor's office",
+      "summary": "Jonathan Kreiss-Tomkins is projected to win the Alaska governor’s office, becoming the first Democrat to win the office in more than 20 years, according to Decision Desk HQ (DDHQ).  Kreiss-Tomkins, a former state lawmaker, defeated Republican Bernadette Wilson and two others in the Last Frontier’s four-way, ranked-choice general election.  DDHQ projected the race for Kreiss-Tomkins,...",
+      "link": "https://thehill.com/homenews/campaign/6182120-democrat-kreiss-tomkins-wins-alaska/",
+      "published": "Sat, 14 Nov 2026 05:05:12 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Blue Wave Reaches Texas Capitol as Democrats Launch Legislative Blitz",
+      "summary": "Nearly 1,500 bills have been filed in the first week to do so for Texas' 2027 legislative session.",
+      "link": "https://www.newsweek.com/blue-wave-reaches-texas-capitol-as-democrats-launch-legislative-blitz-12711549",
+      "published": "Fri, 13 Nov 2026 23:59:09 -0500",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Tyrese Haliburton Loved Watching the Pacers Beat the Knicks in the NBA Cup",
+      "summary": "The Pacers beat the Knicks on Friday night without Tyrese Haliburton on the court as he deals with a hamstring strain.",
+      "link": "https://www.newsweek.com/sports/nba/tyrese-haliburton-loved-watching-pacers-beat-knicks-nba-cup-12714881",
+      "published": "Fri, 13 Nov 2026 23:33:43 -0500",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Eli Manning Sends Strong Message on Arch Manning Before Texas-LSU Clash",
+      "summary": "Eli Manning revealed his advice for Arch Manning ahead of Texas battling LSU on Saturday in an SEC showdown.",
+      "link": "https://www.newsweek.com/sports/ncaa/eli-manning-sends-strong-message-on-arch-manning-before-texas-lsu-clash-12714839",
+      "published": "Fri, 13 Nov 2026 23:30:09 -0500",
+      "source": "Newsweek"
+    },
+    {
+      "title": "What we know about the longest US nationwide flight ground stop since 9/11",
+      "summary": "US officials say the disruption was caused by old equipment overloading and not a cyber-attack or a Microsoft outage.",
+      "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 14 Nov 2026 03:45:21 GMT",
       "source": "BBC News"
     },
     {
-      "title": "GOP lawmakers press Huang and Lutnick to testify over Nvidia",
-      "summary": "Republicans on Capitol Hill are negotiating for now-resigned Nvidia CEO Jensen Huang​ to appear before Congress.",
-      "link": "https://www.cbsnews.com/news/jensen-huang-nvidia-congress-testify/",
-      "published": "Thu, 12 Nov 2026 21:59:50 -0500",
+      "title": "Duffy, Mullin call for $50B air travel 'overhaul' in fiery ground stop briefing",
+      "summary": "Trump administration officials reupped their calls for a multi-billion-dollar investment into updating the U.S.'s \"incredibly old\" air traffic control systems, calling out Congress for \"[kicking] the can down the road\" on improvements they argued could have prevented Friday night's nationwide ground stop. “What we have is an incredibly old air traffic control system,” Transportation Secretary...",
+      "link": "https://thehill.com/policy/transportation/6220399-duffy-billions-air-traffic-ground-stop/",
+      "published": "Sat, 14 Nov 2026 03:37:13 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "FAA lifts rare nationwide ground stop on flights; air travel may take days to recover",
+      "summary": "Homeland Security Secretary Mullin said that there was ‘zero evidence’ of cyberattack as fewer flights amid fuel-cost surge may hamper rebookings.",
+      "link": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories",
+      "published": "Sat, 14 Nov 2026 02:42:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Lutnick agrees to testify as Bessent blames him for chip sales",
+      "summary": "Commerce Secretary Howard Lutnick has agreed to testify before the Senate Banking Committee on Dec. 10, according to a U.S. official.",
+      "link": "https://www.cbsnews.com/news/howard-lutnick-scott-bessent-nvidia-megaspeed-testimony/",
+      "published": "Fri, 13 Nov 2026 21:02:30 -0500",
       "source": "CBS News"
+    },
+    {
+      "title": "14 dividend stocks selected for long-term growth",
+      "summary": "These stocks feature attractive dividend payouts and are trading low to the companies’ intrinsic value, according to John Buckingham of Value87 Investment Partners.",
+      "link": "https://www.marketwatch.com/story/14-dividend-stocks-selected-for-long-term-growth-0a095c0d?mod=mw_rss_topstories",
+      "published": "Sat, 14 Nov 2026 01:58:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Airspace reopened after nationwide ground stop",
+      "summary": "The nationwide ground stop issued by the Federal Aviation Administration Friday afternoon has been lifted, Transportation Secretary Sean Duffy confirmed. \"At 8:15 tonight Eastern Time, we've opened up the airspace,\" Duffy said to reporters in the White House briefing room during a press conference that began at around 8:30 p.m. EST. Duffy added that, although...",
+      "link": "https://thehill.com/policy/transportation/6220313-faa-lifts-nationwide-ground-stop/",
+      "published": "Sat, 14 Nov 2026 01:56:50 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
+      "summary": "Nvidia CEO Jensen Huang resigned this week after reports of multiple affairs, including one with a suspected Chinese spy, Alice Huang.",
+      "link": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+      "published": "Sat, 14 Nov 2026 01:34:11 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Joe Rogan says podcasters have no business at Trump press conferences alongside real journalists",
+      "summary": "Joe Rogan rejected White House advisor David Sacks' push to give podcasters front-row seats at press conferences, declaring \"we talk s---\" and aren't journalists.",
+      "link": "https://www.foxnews.com/media/joe-rogan-says-podcasters-no-business-trump-press-conferences-alongside-real-journalists",
+      "published": "Fri, 13 Nov 2026 20:28:48 -0500",
+      "source": "Fox News"
+    },
+    {
+      "title": "Few colleagues immediately embrace Van Hollen in his bid for majority leader",
+      "summary": "The Maryland Democrat said he believes there is a broad desire for change among Senate Democrats.",
+      "link": "https://www.washingtonpost.com/politics/2026/11/13/few-colleagues-immediately-embrace-van-hollen-majority-leader-bid/",
+      "published": "Sat, 14 Nov 2026 00:49:26 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Trump to have first trilateral meeting with Putin, Xi",
+      "summary": "President Donald Trump will meet with Russian President Vladimir Putin and Chinese President Xi Jinping next week near the end of his Asia trip, the White House said Friday.",
+      "link": "https://www.washingtonpost.com/politics/2026/11/13/trump-meet-with-putin-xi-jinping/",
+      "published": "Sat, 14 Nov 2026 00:47:36 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Democrats strategize on how to deliver on midterm mandate",
+      "summary": "Democrats gathered in Denver this week for a conference on what comes next as they prepare to take control of Congress.",
+      "link": "https://www.cbsnews.com/news/democrats-post-election-voters-economy-trump-factor/",
+      "published": "Fri, 13 Nov 2026 19:43:00 -0500",
+      "source": "CBS News"
+    },
+    {
+      "title": "Tanker strike sinks cruise ship in New Orleans, plunging passengers into river",
+      "summary": "The incident sent 32 people to hospitals, but officials said there appear to be no fatalities.",
+      "link": "https://www.washingtonpost.com/nation/2026/11/13/tanker-collides-with-cruise-ship-new-orleans-sending-passengers-into-river/",
+      "published": "Fri, 13 Nov 2026 23:59:42 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
+      "summary": "The Republican-led Congress wants to see Jensen Huang in Washington before Democrats take control in January.",
+      "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
+      "published": "Fri, 13 Nov 2026 23:54:36 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Mamdani and Trump agree to delay on food stamp rules that put benefit at risk for millions",
+      "summary": "<p>New York City mayor says deal will allow bodegas and convenience stores across the country more time to comply</p><p>Zohran Mamdani, the New York City mayor, has struck a deal with <a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> to secure a 90-day delay on new rules for the Supplemental Nutrition Assistance Program (Snap), so that bodegas and corner stores across the country have time to comply.</p><p>The extension, Mamdani said, starts Friday as a result of conversations he had with Trump and Brooke Rollins, the agriculture secretary.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/13/mamdani-trump-deal-snap-delay\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/nov/13/mamdani-trump-deal-snap-delay",
+      "published": "Fri, 13 Nov 2026 23:53:43 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Celebrity and humanitarian advocates of persecuted Nigerian Christians hope for continued attention to crisis",
+      "summary": "Advocates for persecuted Christians in Nigeria are concerned over lack of headlines and a potential change in support from DC after the midterms.",
+      "link": "https://www.foxnews.com/media/celebrity-humanitarian-advocates-persecuted-nigerian-christians-hope-continued-attention-crisis",
+      "published": "Fri, 13 Nov 2026 18:00:35 -0500",
+      "source": "Fox News"
+    },
+    {
+      "title": "UFC boss Dana White brushes off Democratic probe threats, recalls 'crazy 48 hours' around Trump job offer",
+      "summary": "UFC CEO Dana White told Lara Trump he has nothing to hide from post-midterm Democratic probes and recounted his \"crazy 48 hours\" around President Donald Trump's press secretary joke.",
+      "link": "https://www.foxnews.com/media/ufc-boss-dana-white-brushes-off-democratic-probe-threats-recalls-crazy-48-hours-around-trump-job-offer",
+      "published": "Fri, 13 Nov 2026 17:40:22 -0500",
+      "source": "Fox News"
+    },
+    {
+      "title": "DHS head Markwayne Mullin says there is not a threat to the U.S. amid FAA ground stop",
+      "summary": "Department of Homeland Security Secretary Markwayne Mullin spoke to at the White House on Friday afternoon after the FAA issues a total ground stop. NPR was there for the briefing.",
+      "link": "https://www.npr.org/2026/11/13/nx-s1-6040418/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground-stop",
+      "published": "Fri, 13 Nov 2026 17:36:46 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "GOP state officials push to revive Trump's mail voting restrictions for 2028 election",
+      "summary": "Some Republican state officials are reviving a bid for mail-in voting restrictions for the 2028 election by appealing a court order blocking the Postal Service from carrying out a revised ballot rule.",
+      "link": "https://www.npr.org/2026/11/13/nx-s1-6040409/trump-mail-in-voting",
+      "published": "Fri, 13 Nov 2026 17:18:55 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "New congressman faces sexual harassment allegation",
+      "summary": "House Democrats are investigating an allegation of sexual harassment against Brian Poindexter, who defeated embattled GOP Rep. Max Miller.",
+      "link": "https://www.cbsnews.com/news/democrats-investigating-sexual-harassment-allegation-brian-poindexter/",
+      "published": "Fri, 13 Nov 2026 17:08:00 -0500",
+      "source": "CBS News"
+    },
+    {
+      "title": "USA hammer Denmark 14-0 with record 85 shots to reach women’s hockey worlds semi-finals",
+      "summary": "<ul><li><p>Americans set tournament record with 85 shots on goal</p></li><li><p>Harvey and Winn score twice each in 14-0 rout</p></li><li><p>Canada edge Czechs 3-2 to set up Sweden semi-final</p></li></ul><p>Defending champions the United States marched into the semi-finals of the women’s ice hockey world championship with a crushing 14-0 victory over hosts Denmark on Friday.</p><p>The Americans stormed out of the blocks, racing into a 5-0 lead inside eight minutes before stretching their advantage to 10-0 by the end of the second period in the first-ever meeting between the teams.</p> <a href=\"https://www.theguardian.com/sport/2026/nov/13/usa-denmark-womens-ice-hockey-world-championship-quarter-finals\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/sport/2026/nov/13/usa-denmark-womens-ice-hockey-world-championship-quarter-finals",
+      "published": "Fri, 13 Nov 2026 21:55:59 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "After Rout, Sens. Boozman, Cotton Sink Judicial Pick",
+      "summary": "The White House withdrew one of President Trump's judicial picks on Tuesday after GOP Sens. Boozman and Cotton blocked his nomination.",
+      "link": "https://www.realclearpolitics.com/2026/11/13/after_rout_sens_boozman_cotton_sink_judicial_pick_717512.html",
+      "published": "Fri, 13 Nov 2026 15:52:31 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Harmeet Dhillon Thinks Right Is Too Timid on Civil Rights",
+      "summary": "Harmeet Dhillon probed universities and state voter rolls at the Justice Department. And she thinks most conservatives are too timid when it comes to the law.",
+      "link": "https://www.realclearpolitics.com/2026/11/13/harmeet_dhillon_thinks_right_is_too_timid_on_civil_rights_717642.html",
+      "published": "Fri, 13 Nov 2026 15:49:52 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "First '28 Democratic Primary Already Underway. For Staff",
+      "summary": "At the Democrats' first big 2028 cattle call, the hottest prospects aren't running for anything.",
+      "link": "https://www.realclearpolitics.com/2026/11/13/first_28_democratic_primary_already_underway_for_staff_717494.html",
+      "published": "Fri, 13 Nov 2026 15:49:43 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "As Van Hollen wages a challenge, Senate Democrats are torn on whom to elect as their leader",
+      "summary": "<p>Maryland senator’s bid against Chuck Schumer for leadership could decide direction of the Democratic party</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer\">US politics live – latest updates</a></p></li></ul><p>Ever since <a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> returned to the White House, Democratic officeholders and voters alike have been divided over whether their leader in the Senate, <a href=\"https://www.theguardian.com/us-news/chuck-schumer\">Chuck Schumer</a>, is up to the task of taking the president on.</p><p>That debate intensified on Thursday, when the Maryland senator Chris Van Hollen announced he will challenge Schumer for the post of Democratic Senate leader, which will become one of the most powerful jobs in Washington when the party takes control of <a href=\"https://www.theguardian.com/us-news/us-congress\">Congress</a>’s upper chamber next year.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/13/democrats-midterms-senate-leader\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/nov/13/democrats-midterms-senate-leader",
+      "published": "Fri, 13 Nov 2026 21:34:14 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
+      "summary": "At first, it looked like Nvidia’s pain might be the rest of the chip sector’s gain. But now, investors aren’t so sure.",
+      "link": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories",
+      "published": "Fri, 13 Nov 2026 21:10:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate",
+      "summary": "Democrats say they have a mandate to deliver change, but as the party gets ready to retake the majority in both the House and Senate, there are divides over who should lead it.",
+      "link": "https://www.npr.org/2026/11/13/nx-s1-6040044/dem-senate-leader-fight",
+      "published": "Fri, 13 Nov 2026 16:06:09 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "Supreme Court to review Trump policy blocking asylum seekers at border",
+      "summary": "The case is the latest immigration issue the justices will weigh in the coming months.",
+      "link": "https://www.washingtonpost.com/politics/2026/11/13/supreme-court-review-trump-policy-blocking-asylum-seekers-border/",
+      "published": "Fri, 13 Nov 2026 21:00:23 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Supreme Court agrees to hear Robinhood challenge to IPO information omission lawsuit",
+      "summary": "The Trump administration had urged the Supreme Court to hear an appeal by Robinhood of a lower-court's decision to revive an investors' lawsuit over the IPO.",
+      "link": "https://www.cnbc.com/2026/11/13/robinhood-supreme-court-ipo-lawsuit.html",
+      "published": "Fri, 13 Nov 2026 20:48:13 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal",
+      "summary": "Scott Bessent told CNBC that several government agencies \"were in favour of putting Megaspeed on the entity list for months\".",
+      "link": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 13 Nov 2026 19:53:57 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Democratic Senate leader Schumer set to face leadership challenge",
+      "summary": "Maryland Senator Van Hollen says \"new leadership\" is needed for Democrats following the party's recent midterm successes.",
+      "link": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 13 Nov 2026 19:03:10 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Trump’s top economic advisers clash over Lutnick’s handling of Nvidia",
+      "summary": "The Commerce Department had been investigating if Megaspeed, the company at the heart of former Nvidia CEO Jensen Huang’s spy-sex scandal, breached U.S. export restrictions.",
+      "link": "https://www.washingtonpost.com/business/2026/11/13/treasury-secretary-points-commerce-secretary-failure-restrict-nvidia-customer/",
+      "published": "Fri, 13 Nov 2026 17:40:29 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
+      "summary": "The policymaker expressed concern about the latest inflation data, telling CNBC that the central bank likely will need to take action.",
+      "link": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html",
+      "published": "Fri, 13 Nov 2026 14:22:07 GMT",
+      "source": "CNBC"
     },
     {
       "title": "How the Jensen Huang affair changes the outlook for U.S.-China relations",
@@ -271,51 +364,14 @@
       "source": "CNBC"
     },
     {
-      "title": "US doctor kills building manager after long-running dispute over mould, police say",
-      "summary": "Authorities say the shooting in Washington DC left four people injured, with the suspect dying of a self-inflicted gunshot wound.",
-      "link": "https://www.bbc.co.uk/news/articles/crgqx2qqnwpjo?at_medium=RSS&at_campaign=rss",
-      "published": "Fri, 13 Nov 2026 02:35:34 GMT",
-      "source": "BBC News"
-    },
-    {
       "title": "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
       "summary": "Oil prices were mixed on Thursday, after the latest comments from President Donald Trump raised worries that an end to the U.S.-Iran war was not in sight.",
       "link": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html",
       "published": "Fri, 13 Nov 2026 00:01:19 GMT",
       "source": "CNBC"
-    },
-    {
-      "title": "3 exonerated inmates urge Florida’s governor-elect to halt executions",
-      "summary": "Florida is poised to break its execution record for the second year in a row. Three men formerly on death row asked Byron Donalds to avoid the possibility of killing other innocent men when he takes office.",
-      "link": "https://www.washingtonpost.com/nation/2026/11/12/former-florida-death-row-inmates-appeal-governor-elect-halt-executions/",
-      "published": "Thu, 12 Nov 2026 20:22:22 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "In a policy switch, the Fed says its October 2027 meeting will not see a vote on interest rates",
-      "summary": "There will be seven voting meetings next year, with the October session set up as extra time for policy deliberation without a formal vote or post-meeting statement.",
-      "link": "https://www.cnbc.com/2026/11/12/in-policy-switch-fed-says-its-october-2027-meeting-will-not-see-a-vote-on-interest-rates.html",
-      "published": "Thu, 12 Nov 2026 19:05:25 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Home sales in worst slump since the aftermath of the Great Recession",
-      "summary": "Home sales are slumping, and mortgage rates have pushed up the typical monthly payment for homebuyers in the U.S.",
-      "link": "https://www.washingtonpost.com/business/2026/11/12/housing-market-worst-slump-since-aftermath-great-recession/",
-      "published": "Thu, 12 Nov 2026 17:47:38 +0000",
-      "source": "Washington Post"
     }
   ],
   "history": [
-    {
-      "date": "2026-10-29 12:03",
-      "threat_level": "MEDIUM",
-      "value": 2,
-      "sentiment_score": 52,
-      "incidents": 8,
-      "sp500": 7743.98,
-      "usd_czk": 21.887
-    },
     {
       "date": "2026-10-30 06:00",
       "threat_level": "MEDIUM",
@@ -576,6 +632,15 @@
       "incidents": 3,
       "sp500": 7592.4,
       "usd_czk": 22.001
+    },
+    {
+      "date": "2026-11-14 06:00",
+      "threat_level": "MEDIUM",
+      "value": 2,
+      "sentiment_score": 45,
+      "incidents": 4,
+      "sp500": 7561.67,
+      "usd_czk": 22.099
     }
   ],
   "locations": [
@@ -587,11 +652,32 @@
       "name_en": "Washington, D.C."
     },
     {
-      "key": "Florida",
-      "lat": 27.6648,
-      "lon": -81.5158,
-      "name_cs": "Florida",
-      "name_en": "Florida"
+      "key": "New York",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "name_cs": "New York",
+      "name_en": "New York"
+    },
+    {
+      "key": "Chicago",
+      "lat": 41.8781,
+      "lon": -87.6298,
+      "name_cs": "Chicago",
+      "name_en": "Chicago"
+    },
+    {
+      "key": "Texas",
+      "lat": 31.9686,
+      "lon": -99.9018,
+      "name_cs": "Texas",
+      "name_en": "Texas"
+    },
+    {
+      "key": "Border",
+      "lat": 31.7619,
+      "lon": -106.485,
+      "name_cs": "Hranice s Mexikem (El Paso)",
+      "name_en": "US-Mexico Border (El Paso)"
     },
     {
       "key": "Capitol",
@@ -608,32 +694,39 @@
       "name_en": "Wall Street"
     },
     {
-      "key": "North Carolina",
-      "lat": 35.7596,
-      "lon": -79.0193,
-      "name_cs": "Severní Karolína",
-      "name_en": "North Carolina"
+      "key": "Colorado",
+      "lat": 39.5501,
+      "lon": -105.7821,
+      "name_cs": "Colorado",
+      "name_en": "Colorado"
     },
     {
-      "key": "Virginia",
-      "lat": 37.4316,
-      "lon": -78.6569,
-      "name_cs": "Virginie",
-      "name_en": "Virginia"
+      "key": "Louisiana",
+      "lat": 31.2448,
+      "lon": -92.145,
+      "name_cs": "Louisiana",
+      "name_en": "Louisiana"
     },
     {
-      "key": "Oregon",
-      "lat": 43.8041,
-      "lon": -120.5542,
-      "name_cs": "Oregon",
-      "name_en": "Oregon"
+      "key": "Alaska",
+      "lat": 64.2008,
+      "lon": -149.4937,
+      "name_cs": "Aljaška",
+      "name_en": "Alaska"
     },
     {
-      "key": "Cuba",
-      "lat": 21.5,
-      "lon": -79,
-      "name_cs": "Kuba",
-      "name_en": "Cuba",
+      "key": "Canada",
+      "lat": 56.1304,
+      "lon": -106.3468,
+      "name_cs": "Kanada",
+      "name_en": "Canada"
+    },
+    {
+      "key": "Russia",
+      "lat": 55.75,
+      "lon": 37.62,
+      "name_cs": "Rusko",
+      "name_en": "Russia",
       "auto": true
     },
     {
@@ -651,26 +744,42 @@
       "name_cs": "Čína",
       "name_en": "China",
       "auto": true
+    },
+    {
+      "key": "Prague",
+      "lat": 50.08,
+      "lon": 14.43,
+      "name_cs": "Praha",
+      "name_en": "Prague",
+      "auto": true
+    },
+    {
+      "key": "Nigeria",
+      "lat": 9.1,
+      "lon": 8.7,
+      "name_cs": "Nigérie",
+      "name_en": "Nigeria",
+      "auto": true
     }
   ],
   "location_counts": {
     "Florida": 57,
-    "Texas": 86,
-    "Washington": 93,
-    "New York": 70,
+    "Texas": 87,
+    "Washington": 94,
+    "New York": 71,
     "California": 67,
-    "Capitol": 26,
-    "Border": 25,
+    "Capitol": 27,
+    "Border": 26,
     "Los Angeles": 18,
-    "Wall Street": 68,
+    "Wall Street": 69,
     "Illinois": 8,
-    "Colorado": 19,
-    "Canada": 24,
+    "Colorado": 20,
+    "Canada": 25,
     "Brazílie": 1,
     "Ukrajina": 1,
     "Rusko": 1,
-    "Írán": 2,
-    "Čína": 5,
+    "Írán": 1,
+    "Čína": 3,
     "Tchaj-wan": 1,
     "Japonsko": 1,
     "Pákistán": 1,
@@ -688,19 +797,19 @@
     "Maine": 28,
     "Mexico": 19,
     "Singapur": 1,
-    "Chicago": 17,
+    "Chicago": 18,
     "Ohio": 43,
     "Arizona": 21,
     "Minnesota": 23,
     "Virginia": 15,
     "Izrael": 1,
     "Austrálie": 1,
-    "Alaska": 38,
+    "Alaska": 39,
     "Jižní Korea": 1,
     "Severní Korea": 1,
     "New Jersey": 8,
     "Afghánistán": 1,
-    "Louisiana": 10,
+    "Louisiana": 11,
     "Egypt": 1,
     "Pennsylvania": 19,
     "North Carolina": 13,
@@ -731,23 +840,16 @@
     "Varšava": 1,
     "Kanada": 1,
     "Chile": 1,
-    "Paraguay": 1
+    "Paraguay": 1,
+    "Nigérie": 1
   },
   "top_location": {
     "key": "Washington",
     "name_cs": "Washington, D.C.",
     "name_en": "Washington, D.C.",
-    "count": 93
+    "count": 94
   },
   "archive": [
-    {
-      "date": "2026-11-06 13:32",
-      "threat_level": "MEDIUM",
-      "security_status_cs": "Americká politická scéna čelí hlubokým změnám po úspěšné vlně Demokratické strany v mezivolbách, která přináší nové výzvy pro federální politiku. Trhy reagují poklesem v technologickém sektoru a obavami z nadcházející regulace umělé inteligence a datových center. Mezitím napětí roste kolem mezinárodních otázek včetně možných rozhodnutí o konfliktu s Iránem a právních sporů kolem administrativních projektů.",
-      "security_status_en": "The US political landscape is facing profound shifts following the Democratic Party's midterm wave, introducing fresh challenges for federal policy. Markets are reacting with a downturn in the tech sector and growing concerns over incoming regulations on artificial intelligence and data centers. Meanwhile, tension mounts around international issues including potential decisions regarding a conflict with Iran and legal battles over administrative projects.",
-      "forecast_cs": "V nejbližších dnech lze očekávat pokračující tlak na technologické akcie kvůli obavám z regulace AI a zvýšenou aktivitu v Kongresu ohledně legislativních priorit nově posílených demokratů.",
-      "forecast_en": "Over the coming days, continued pressure on tech stocks due to AI regulatory fears and heightened congressional activity regarding the legislative priorities of newly empowered Democrats are expected."
-    },
     {
       "date": "2026-11-07 12:12",
       "threat_level": "MEDIUM",
@@ -851,29 +953,37 @@
       "security_status_en": "Error during automated AI analysis.",
       "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
       "forecast_en": "Failed to generate forecast."
+    },
+    {
+      "date": "2026-11-14 06:00",
+      "threat_level": "MEDIUM",
+      "security_status_cs": "Spojené státy čelí vnitřním politickým třenicím po překvapivých zprávách z Aljašky a vnitřním bojům v Kongresu, zatímco administrativu zatěžuje vyšetřování kolem obchodu s technologiemi a nedávný výpadek řízení letového provozu. Rétorika ohledně Íránu a blížící se summit s Ruskem a Čínou udržují napjatou geopolitickou situaci.",
+      "security_status_en": "The United States faces domestic political friction following a surprise Alaska gubernatorial flip and internal congressional battles, while the administration is burdened by tech-export investigations and a recent air traffic control shutdown. Rhetoric regarding Iran and an upcoming summit with Russia and China keep the geopolitical situation tense.",
+      "forecast_cs": "V nejbližších dnech se očekává zvýšená pozornost investorů vůči technologickému sektoru kvůli vyšetřování v Kongresu a dopadům skandálu kolem Nvidie. Dění na mezinárodní scéně a blížící se asijský summit budou rovněž určovat náladu na trzích.",
+      "forecast_en": "In the coming days, heightened investor attention is expected on the technology sector due to congressional investigations and the fallout from the Nvidia scandal. International developments and the upcoming Asia summit will also dictate market sentiment."
     }
   ],
-  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 6× HIGH, 1× MEDIUM.",
-  "weekly_summary_en": "Over the last 7 recorded analyses: 6× HIGH, 1× MEDIUM.",
+  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 5× HIGH, 2× MEDIUM.",
+  "weekly_summary_en": "Over the last 7 recorded analyses: 5× HIGH, 2× MEDIUM.",
   "market_data": {
     "sp500": {
-      "value": 7592.4,
-      "date": "2026-11-12",
+      "value": 7561.67,
+      "date": "2026-11-13",
       "cached": false
     },
     "dow": {
-      "value": 52297.09,
-      "date": "2026-11-12",
+      "value": 52347.55,
+      "date": "2026-11-13",
       "cached": false
     },
     "yield10y": {
-      "value": 5.14,
+      "value": 5.15,
       "date": "2026-11-13",
       "cached": false
     }
   },
   "usd_czk": {
-    "value": 22.001,
-    "date": "2026-11-12"
+    "value": 22.099,
+    "date": "2026-11-13"
   }
 }
