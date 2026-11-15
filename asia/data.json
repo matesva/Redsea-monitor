@@ -1,122 +1,206 @@
 {
-  "last_updated": "2026-11-15T06:01:54Z",
+  "last_updated": "2026-11-15T13:15:41Z",
   "assessment": {
     "threat_level": "HIGH",
     "sentiment_score": 75,
-    "security_status_cs": "Trhy v Asii a globálně vstřebávají šok vyvolaný čínským modelem DeepSeek, který vedl k výprodejům technologických gigantů a nárůstu poptávky po bezpečných aktivech, jako je japonský jen. Současně se zostřuje geopolitické napětí v Jihočínském moři, kde Filipíny upevňují obranné vazby s USA a Austrálií proti čínskému vlivu. Skandály kolem nelegálního exportu čipů mezitím zvyšují tlak na utažení amerických restrikcí před summitem Trump-Si.",
-    "security_status_en": "Markets across Asia and globally are absorbing the shock triggered by China's DeepSeek model, leading to massive tech sell-offs and a surge in safe-haven assets like the Japanese yen. Simultaneously, geopolitical tensions in the South China Sea are intensifying as the Philippines strengthens defense ties with the US and Australia against Chinese assertiveness. Meanwhile, chip export scandals are fueling pressure for tighter US restrictions ahead of the Trump-Xi summit.",
+    "security_status_cs": "Región Asie a Tichomoří čelí prudkým geopolitickým a technologickým otřesům, které vyvrcholily šokem způsobeným čínským modelem DeepSeek a jeho dopadem na globální trhy s polovodiči. Speciální pozornost přitahují rostoucí obavy z obcházení amerických exportních kontrol přes uzly jako Singapur a stupňující se napětí v Jihočínském moři a kolem Tchaj-wanu. ASEAN na svém summitu v Manile nedokázal nabídnout jednotnou odpověď na krizi v Myanmaru, což dále zvyšuje regionální nestabilitu.",
+    "security_status_en": "The Asia-Pacific region is facing acute geopolitical and technological shocks, culminating in the market disruption caused by China's DeepSeek and its heavy blow to global semiconductor infrastructure. Intensifying scrutiny over the evasion of U.S. export controls through hubs like Singapore, alongside rising military friction around Taiwan and the South China Sea, is heightening risk. Meanwhile, the ASEAN summit in Manila failed to yield a cohesive response to the Myanmar crisis, exacerbating regional instability.",
     "recommendations": [
       {
         "sector_cs": "Polovodiče (TSMC, Samsung, ASML)",
         "sector_en": "Semiconductors (TSMC, Samsung, ASML)",
         "action": "SELL",
-        "reason_cs": "Model DeepSeek a skandály kolem nelegálních dodávek čipů do Číny vedou k ostrým výprodejům v sektoru a zvyšují riziko zpřísnění amerických sankcí.",
-        "reason_en": "The DeepSeek model breakthrough and scandals regarding illicit chip shipments to China are driving sharp sector sell-offs and raising the risk of tightened US sanctions."
+        "reason_cs": "Sektor čelí masivnímu výprodeji po technologickém šoku DeepSeek a zpřísňujícím se americkým kontrolám vývozu spojeným se skandály kolem obcházení sankcí.",
+        "reason_en": "The sector is facing a massive sell-off following the DeepSeek tech shock and tightening U.S. export controls linked to sanction-evasion scandals."
       },
       {
         "sector_cs": "Čínské akcie (ETF FXI, MCHI)",
         "sector_en": "Chinese Equities (FXI, MCHI ETFs)",
-        "action": "HOLD",
-        "reason_cs": "Ačkoliv technologický pokrok ukázaný DeepSeekem posiluje čínské ambice, hrozba přitvrzení obchodních restrikcí ze strany USA udržuje vysokou volatilitu.",
-        "reason_en": "Although technological strides shown by DeepSeek boost Chinese ambitions, the threat of tightened US trade restrictions keeps volatility exceptionally high."
+        "action": "SELL",
+        "reason_cs": "Rostoucí regulatorní tlak, zpřísňování amerických sankcí před summitem Trump-Si a technologická nestabilita vytvářejí silný prodejní tlak.",
+        "reason_en": "Mounting regulatory pressure, tightening U.S. sanctions ahead of the Trump-Xi summit, and tech sector instability create strong downward pressure."
       },
       {
         "sector_cs": "Japonské akcie (Nikkei 225 ETF)",
         "sector_en": "Japanese Equities (Nikkei 225 ETFs)",
         "action": "HOLD",
-        "reason_cs": "Japonský trh těží z technologického boomu, ale čelí protivětrům v podobě posilujícího jenu, který slouží jako bezpečný přístav po propadu technologických titulů.",
-        "reason_en": "The Japanese market benefits from the AI boom but faces headwinds from a strengthening yen, which is acting as a safe haven following tech stock declines."
+        "reason_cs": "Japonský trh těží z přílivu kapitálu do bezpečných přístavů (posilující jen), avšak globální výprodej v technologickém sektoru tlumí růstový potenciál.",
+        "reason_en": "The Japanese market benefits from safe-haven inflows (strengthening yen), but the global tech sector sell-off dampens upside momentum."
       },
       {
         "sector_cs": "Obranný průmysl (Lockheed Martin, RTX, Mitsubishi Heavy)",
         "sector_en": "Defense Industry (Lockheed Martin, RTX, Mitsubishi Heavy)",
         "action": "BUY",
-        "reason_cs": "Prohlubující se napětí v Jihočínském moři a posilování obranných paktů mezi Filipínami, Austrálií a USA podporují poptávku po vojenském vybavení.",
-        "reason_en": "Deepening tensions in the South China Sea and strengthening defense pacts between the Philippines, Australia, and the US are driving solid demand for military hardware."
+        "reason_cs": "Stupňující se geopolitické napětí v Indo-Pacifiku a nové doklady o modernizaci čínských úderných schopností udržují vysokou poptávku po obranných systémech.",
+        "reason_en": "Escalating geopolitical tensions in the Indo-Pacific and evidence of enhanced Chinese strike capabilities sustain strong demand for defense systems."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "České tituly jsou vůči asijským technologickým otřesům a geopolitickým konfliktům primárně izolovány, jejich vývoj však ovlivňuje celková nálada na globálních trzích.",
-        "reason_en": "Czech equities remain largely insulated from Asian tech shocks and regional geopolitical conflicts, though their trajectory is influenced by overall global market sentiment."
+        "reason_cs": "Domácí tituly jsou vůči asijským technologickým otřesům izolovány, jejich vývoj však nadále určují evropská makroekonomická data a sektorová regulace.",
+        "reason_en": "Domestic equities are largely insulated from Asian tech shocks, though their performance continues to be driven by European macroeconomic data and regulation."
       }
     ],
-    "forecast_cs": "V nejbližších dnech budou trhy nadále pod vlivem technologického šoku způsobeného DeepSeekem a napjatého očekávání nadcházejícího summitu APEC a setkání Trump-Si. Geopolitické třenice v Asii udrží zvýšenou poptávku po bezpečných aktivech.",
-    "forecast_en": "Over the coming days, markets will remain heavily influenced by the DeepSeek tech shock and tense expectations surrounding the upcoming APEC summit and the Trump-Xi meeting. Geopolitical friction in Asia will sustain elevated demand for safe-haven assets.",
-    "forecast_review_cs": "Předchozí předpověď se plně potvrdila; šok způsobený modelem DeepSeek a vyhlížení diplomatických jednání na APEC dominovaly trhům a udržely volatilitu na vysoké úrovni.",
-    "forecast_review_en": "The previous forecast was fully confirmed; the shock caused by the DeepSeek model and anticipation of APEC diplomatic talks dominated the markets and kept volatility high."
+    "forecast_cs": "V nejbližších dnech budou trhy nadále vstřebávat šok z výkonu čínského DeepSeeku a vyhlížet výsledky blížícího se summitu APEC a setkání Trump-Si. Bezpečnostní složky a investoři budou pozorně sledovat jakékoliv zpřísnění pravidel pro tok pokročilých čipů přes třetí země.",
+    "forecast_en": "Over the coming days, markets will continue to digest the shock waves from China's DeepSeek while anticipating the outcomes of the APEC summit and the Trump-Xi meeting. Investors and regulators will closely monitor potential crackdowns on advanced chip flows through intermediary hubs.",
+    "forecast_review_cs": "Předchozí předpověď se plně potvrdila, neboť trhy prudce zasáhl technologický šok způsobený čínským DeepSeekem a napětí kolem summitu APEC i nadále zvyšuje poptávku po bezpečných aktivech.",
+    "forecast_review_en": "The previous forecast was fully confirmed as markets were sharply hit by the tech shock from China's DeepSeek, while tensions surrounding the APEC summit continue to sustain safe-haven demand."
   },
   "articles": [
     {
-      "title": "What a Beijing cafe dispute reveals about China’s struggling bookshops",
-      "summary": "China’s bricks-and-mortar bookstores are increasingly counting on coffee, merchandise and cultural events rather than books to stay afloat – a survival strategy whose tensions were laid bare after a major chain asked a book buyer to vacate its cafe seating unless she bought a drink.\nThe dispute at a Beijing branch of Sisyphe Bookstore, one of the country’s largest chains, went viral earlier this month, sparking an online debate over the struggles bookshops face in the digital age.\nThe customer,...",
-      "link": "https://www.scmp.com/news/china/politics/article/3374469/what-beijing-cafe-dispute-reveals-about-chinas-struggling-bookshops",
-      "published": "Sun, 15 Nov 2026 06:00:12 +0000",
+      "title": "Chinese J-10C fighter spotted carrying modified Russian-origin heavy-strike missile",
+      "summary": "New state media footage has surfaced showing for the first time what appears to be a Chinese-modified variant of the Russian-origin Kh-29T air-to-surface missile mounted on a J-10C fighter jet.\nState broadcaster CCTV’s social media account posted a video on Wednesday featuring Chinese fighters, showing the missile mounted under the 4.5-generation fighter as it took off, according to posts by Chinese military bloggers over the weekend.\nChina originally imported about 2,000 Kh-29T missiles...",
+      "link": "https://www.scmp.com/news/china/military/article/3374496/chinese-j-10c-fighter-spotted-carrying-modified-russian-origin-heavy-strike-missile",
+      "published": "Sun, 15 Nov 2026 13:00:09 +0000",
       "source": "SCMP"
     },
     {
-      "title": "How Iran used US troops’ digital footprints to hit Mideast bases for billions in damage",
-      "summary": "When Iran’s military planners prepared to hit American bases in the Middle East, they relied on intelligence from an unlikely source: US service members themselves.\nAccording to security experts and even the US military, Iran harvested data from social media accounts, fitness apps and even ads to establish patterns of life in US bases across the region. Paired with imagery reportedly provided by Russian satellites, the Iranians selecting the targets constructed a surprisingly accurate picture of...",
-      "link": "https://www.scmp.com/news/world/middle-east/article/3374473/how-iran-used-us-troops-digital-footprints-hit-mideast-bases-billions-damage",
-      "published": "Sun, 15 Nov 2026 05:57:18 +0000",
+      "title": "A disastrous Iran war? The US is now a mover and shaker of oil markets",
+      "summary": "Many see the US war on Iran as a colossal geopolitical bungle, failing to secure its larger strategic objectives. Yet it has allowed the blundering Trump administration to move into an immensely powerful position – one it seems ready to embrace.\nWith its new-found sway over Venezuela’s oil reserves, degradation of Iranian exports and selective sanctions on Russian oil, Washington has unexpectedly acquired several important levers of the global petroleum trade.\nIran has worked hard to play...",
+      "link": "https://www.scmp.com/opinion/world-opinion/article/3374247/disastrous-iran-war-us-now-mover-and-shaker-oil-markets",
+      "published": "Sun, 15 Nov 2026 12:30:06 +0000",
       "source": "SCMP"
     },
     {
-      "title": "NATO to skip a leaders' summit in Albania next year as high-level meetings are scaled back",
-      "summary": "NATO Secretary-General Mark Rutte played down the issue. “We are flexible with NATO summits,” he said",
-      "link": "https://www.thehindu.com/news/international/nato-to-skip-a-leaders-summit-in-albania-next-year-as-high-level-meetings-are-scaled-back/article71704174.ece",
-      "published": "Sun, 15 Nov 2026 11:22:33 +0530",
-      "source": "The Hindu"
+      "title": "Hong Kong police investigate theft of HK$810,000 in cash, gold jewellery from flat",
+      "summary": "A public housing resident in Hong Kong has lost more than HK$800,000 (US$101,960) worth of cash and gold jewellery that disappeared from her flat in Ngau Tau Kok, prompting a police investigation.\nPolice said the 41-year-old woman filed a report at about 11.55am on Sunday after discovering the items were missing from her home in Kwai Fai House, Lower Ngau Tau Kok Estate.\nThe missing items included gold jewellery worth about HK$500,000 and HK$310,000 in cash, bringing the total loss to about...",
+      "link": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3374500/hong-kong-police-investigate-theft-hk810000-cash-gold-jewellery-flat",
+      "published": "Sun, 15 Nov 2026 12:28:30 +0000",
+      "source": "SCMP"
     },
     {
-      "title": "As more foreign nationals join Japan’s workforce, diversity policies take on new importance",
-      "summary": "In response to changing expectations, Japanese organizations have embraced DEI policies, but hurdles remain toward proper implementation.",
-      "link": "https://www.japantimes.co.jp/community/2026/11/15/voices/dei-policies-japan/",
-      "published": "Sun, 15 Nov 2026 14:48:00 +0900",
+      "title": "Australia crush New Zealand to win fourth Women’s Rugby League World Cup",
+      "summary": "Australia dominated the first half and capitalised on the Kiwi Ferns’ errors to win 34-10 and clinch the trophy.",
+      "link": "https://www.aljazeera.com/sports/2026/11/15/australia-crush-new-zealand-to-win-fourth-womens-rugby-league-world-cup?traffic_source=rss",
+      "published": "Sun, 15 Nov 2026 12:21:28 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Megaspeed says Alice Huang left firm in August 2025",
+      "summary": "Megaspeed is suspected of helping Chinese firms get around U.S. export controls by buying Nvidia chips and routing them to China.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/15/world/megaspeed-says-alice-huang-left/",
+      "published": "Sun, 15 Nov 2026 21:20:00 +0900",
       "source": "Japan Times"
     },
     {
-      "title": "India votes against UNGA resolution calling for global moratorium on death penalty",
-      "summary": "The resolution expressed deep concern that, despite the global trend towards limiting the application of the death penalty, there was a significant surge in reported executions in 2025.",
-      "link": "https://www.thehindu.com/news/international/india-votes-against-unga-resolution-calling-for-global-moratorium-on-death-penalty/article71704094.ece",
-      "published": "Sun, 15 Nov 2026 11:15:34 +0530",
-      "source": "The Hindu"
-    },
-    {
-      "title": "Rift deepens between the Philippines, China over South China Sea",
-      "summary": "<p>MANILA, Nov 15 - Relations between Manila and Beijing have soured under Philippine President Ferdinand Marcos Jr, with Manila pivoting back towards the United States, which supports the Southeast Asian nation in its maritime disputes with China.</p>",
-      "link": "https://www.straitstimes.com/asia/rift-deepens-between-the-philippines-china-over-south-china-sea1",
-      "published": "Sun, 15 Nov 2026 13:24:32 +0800",
-      "source": "Straits Times"
-    },
-    {
-      "title": "Australia and Philippines upgrade defense ties with focus on China",
-      "summary": "The deal will enhance military infrastructure development and maritime awareness and information sharing.",
-      "link": "https://www.japantimes.co.jp/news/2026/11/15/asia-pacific/australia-philippines-defense-upgrade-china/",
-      "published": "Sun, 15 Nov 2026 14:23:00 +0900",
-      "source": "Japan Times"
-    },
-    {
-      "title": "Hong Kong must expand trade, not wait for ‘luck’ as AI exports could slow: commerce chief",
-      "summary": "Hong Kong must proactively expand trade networks and not “wait for luck to come our way”, as the recent growth in artificial intelligence exports may gradually slow down, the city’s commerce minister has said.\nSecretary for Commerce and Economic Development Algernon Yau Ying-wah said on Sunday that Hong Kong’s September export growth rate – the highest monthly figure in more than 40 years – was driven by an increase in re-export volume equivalent to 1.4 times the city’s gross domestic...",
-      "link": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3374472/hong-kong-must-expand-trade-not-wait-luck-ai-exports-could-slow-commerce-chief",
-      "published": "Sun, 15 Nov 2026 05:20:11 +0000",
+      "title": "Top Hamas commander killed in Israeli strike in Gaza",
+      "summary": "Hamas said on Sunday that a senior commander who helped plan and oversee the October 7, 2023, attack on Israel had been killed in an Israeli air strike, with the Israeli ‌military confirming his death.\nSamir Abu Younis, 53, the commander of the Rafah brigade, was killed on Saturday, said the Palestinian militant group’s armed wing, the Al-Qassam Brigades.\nThe Israeli military said it had killed Abu Younis in a strike in the southern Gaza Strip overnight, ⁠adding that he had led the Rafah brigade...",
+      "link": "https://www.scmp.com/news/world/middle-east/article/3374498/top-hamas-commander-killed-israeli-strike-gaza",
+      "published": "Sun, 15 Nov 2026 12:02:08 +0000",
       "source": "SCMP"
     },
     {
-      "title": "South Korean police probes top exam scorer after AI cheating confession",
+      "title": "Banton century and Atkinson's four wickets help England level series v Australia",
       "summary": "",
-      "link": "https://www.channelnewsasia.com/east-asia/south-korean-police-probes-top-exam-scorer-after-ai-cheating-confession-6552626",
-      "published": "Sun, 15 Nov 2026 13:16:00 +0800",
+      "link": "https://www.channelnewsasia.com/sport/banton-century-and-atkinsons-four-wickets-help-england-level-series-v-australia-6552891",
+      "published": "Sun, 15 Nov 2026 19:49:45 +0800",
       "source": "CNA"
     },
     {
-      "title": "Malaysian plan to let refugees work spurs advocates’ call for safeguards",
-      "summary": "Malaysia’s plans to allow registered refugees to work legally have raised hopes among their communities that have long relied on precarious informal employment to survive, even as Thailand’s experience suggests that such a move is only part of the solution.\nThailand has reportedly thousands of refugees taking up formal jobs under a scheme introduced last year. As for Malaysia’s initiative, refugee advocates say it will need clear registration procedures and workplace safeguards to make it...",
-      "link": "https://www.scmp.com/week-asia/economics/article/3374464/malaysian-plan-let-refugees-work-spurs-advocates-call-safeguards",
-      "published": "Sun, 15 Nov 2026 05:00:09 +0000",
-      "source": "SCMP"
+      "title": "How a small oil-sharing project in ASEAN offers hope beyond energy security",
+      "summary": "<p>Small-scale projects can help ASEAN move quickly, as shown by inking of nascent oil-sharing pilot</p>",
+      "link": "https://www.straitstimes.com/asia/se-asia/how-a-small-oil-sharing-project-in-asean-offers-hope-beyond-energy-security",
+      "published": "Sun, 15 Nov 2026 19:40:00 +0800",
+      "source": "Straits Times"
+    },
+    {
+      "title": "ASEAN seeks ‘calibrated engagement’ with Myanmar: Statement",
+      "summary": "<p>Thailand has been leading efforts to normalise relations with Myanmar.</p>",
+      "link": "https://www.straitstimes.com/asia/se-asia/asean-seeks-calibrated-engagement-with-myanmar-statement",
+      "published": "Sun, 15 Nov 2026 19:35:00 +0800",
+      "source": "Straits Times"
+    },
+    {
+      "title": "Malaysian govt studying feasibility of mandatory WhatsApp identity verification to curb online scams",
+      "summary": "<p>The proposal is being studied after an increase in cases involving the misuse of the app by scammers.</p>",
+      "link": "https://www.straitstimes.com/asia/se-asia/malaysian-govt-studying-feasibility-of-mandatory-whatsapp-identity-verification-to-curb-online-scams",
+      "published": "Sun, 15 Nov 2026 19:32:00 +0800",
+      "source": "Straits Times"
+    },
+    {
+      "title": "At least two injured as passenger, cargo planes collide at U.S. airport",
+      "summary": "According to the report, all 166 passengers and six crew members disembarked, and the Copa aircraft returned to the terminal",
+      "link": "https://www.thehindu.com/news/international/2-injured-as-passenger-cargo-planes-collide-at-us-airport/article71704597.ece",
+      "published": "Sun, 15 Nov 2026 16:47:39 +0530",
+      "source": "The Hindu"
+    },
+    {
+      "title": "India’s Under-19 Asia Cup win over Pakistan marred by post-match aggression",
+      "summary": "India beat Pakistan by one wicket in a thrilling comeback in the final but follow it up with unsporting behaviour.",
+      "link": "https://www.aljazeera.com/sports/2026/11/15/indias-under-19-asia-cup-win-over-pakistan-marred-by-post-match-aggression?traffic_source=rss",
+      "published": "Sun, 15 Nov 2026 10:52:36 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Singapore-Indonesia haze task force should become ASEAN-wide platform: PM Wong",
+      "summary": "He also urged restraint over Thailand-Cambodia border tensions and said Myanmar must show \"concrete actions\" before returning fully to the regional bloc.",
+      "link": "https://www.channelnewsasia.com/singapore/lawrence-wong-asean-summit-manila-haze-indonesia-6552421",
+      "published": "Sun, 15 Nov 2026 18:44:00 +0800",
+      "source": "CNA"
+    },
+    {
+      "title": "IPL founder Lalit Modi acquires British citizenship, calls it ‘home for many years’",
+      "summary": "In his post, accompanied by images from the citizenship ceremony at a Town Hall in London back in September, Mr. Modi on November 14 said he had chosen to publicly share the “very special and personal milestone” at his address at Oxford Union",
+      "link": "https://www.thehindu.com/news/international/ipl-founder-lalit-modi-acquires-british-citizenship-calls-it-home-for-many-years/article71704504.ece",
+      "published": "Sun, 15 Nov 2026 16:07:11 +0530",
+      "source": "The Hindu"
+    },
+    {
+      "title": "Spain football coach denies racism ahead of England match",
+      "summary": "Spain's coach denied racism exists after England's manager said he would brief his players on anti-racism protocols.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/spain-football-coach-denies-racism-ahead-of-england-match?traffic_source=rss",
+      "published": "Sun, 15 Nov 2026 10:28:28 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Five wickets for Rabada against Bangladesh but Hridoy offers resistance",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/five-wickets-rabada-against-bangladesh-hridoy-offers-resistance-6552831",
+      "published": "Sun, 15 Nov 2026 18:21:30 +0800",
+      "source": "CNA"
+    },
+    {
+      "title": "Protesters condemn US policies as ASEAN summit begins in Manila",
+      "summary": "Southeast Asian leaders arriving in the Philippines for the ASEAN summit have been met with protests.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/protesters-condemn-us-policies-as-asean-summit-begins-in-manila?traffic_source=rss",
+      "published": "Sun, 15 Nov 2026 09:49:43 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Japan to propose Asian version of IEA at AZEC summit",
+      "summary": "The Takaichi administration aims to strengthen Asia's energy supply chains, whose vulnerability was exposed during the ongoing Middle East turmoil.",
+      "link": "https://www.japantimes.co.jp/news/2026/11/15/japan/politics/japan-iea-asian-version/",
+      "published": "Sun, 15 Nov 2026 17:35:00 +0900",
+      "source": "Japan Times"
+    },
+    {
+      "title": "Presidential office weighs life without parole as part of public safety push",
+      "summary": "SEOUL, Nov. 15 (Yonhap) -- South Korea's presidential office said Sunday it is c...",
+      "link": "https://en.yna.co.kr/view/AEN20261115001400315",
+      "published": "Sun, 15 Nov 2026 17:20:21 +0900",
+      "source": "Yonhap"
+    },
+    {
+      "title": "Taiwan Indigenous farmer revives climate-resilient millet",
+      "summary": "Over the past decade, Indigenous farmers in Taiwan have worked to revive a nearly forgotten crop: oil millet.",
+      "link": "https://www.japantimes.co.jp/environment/2026/11/15/climate-change/taiwan-indigenous-farmer-climate-millet/",
+      "published": "Sun, 15 Nov 2026 16:53:00 +0900",
+      "source": "Japan Times"
+    },
+    {
+      "title": "Indian student jailed for 30 years for online child sex abuse in U.K.",
+      "summary": "The court heard that Kazi pretended to be a teenage boy on social media and gaming platforms to build trust with girls aged between 10 and 15",
+      "link": "https://www.thehindu.com/news/international/indian-student-jailed-for-30-years-for-online-child-sex-abuse-in-uk/article71704318.ece",
+      "published": "Sun, 15 Nov 2026 13:14:44 +0530",
+      "source": "The Hindu"
+    },
+    {
+      "title": "Uzbek national sentenced to 16 months for funding Syria-based terrorist group",
+      "summary": "SEOUL, Nov. 15 (Yonhap) -- An Uzbek national in South Korea has been sentenced t...",
+      "link": "https://en.yna.co.kr/view/AEN20261115001300315",
+      "published": "Sun, 15 Nov 2026 15:36:23 +0900",
+      "source": "Yonhap"
     },
     {
       "title": "Today in Korean history",
@@ -126,95 +210,11 @@
       "source": "Yonhap"
     },
     {
-      "title": "Philippines, Australia sign defence pact with eye on China",
-      "summary": "<p>The Philippines has been broadening its network of security ties.</p>",
-      "link": "https://www.straitstimes.com/asia/se-asia/philippines-australia-sign-defence-pact-with-eye-on-china",
-      "published": "Sun, 15 Nov 2026 12:49:33 +0800",
-      "source": "Straits Times"
-    },
-    {
-      "title": "Top scorer on South Korean tax exam confesses to cheating with AI",
-      "summary": "<p>SEOUL, Nov 15 - The marks attained by the top scorer on South Korea's national exam for aspiring tax accountants this year seemed too good to be true and on Sunday, sceptics were proven right when he confessed to using generative AI to cheat.</p>",
-      "link": "https://www.straitstimes.com/asia/top-scorer-on-south-korean-tax-exam-confesses-to-cheating-with-ai",
-      "published": "Sun, 15 Nov 2026 12:34:21 +0800",
-      "source": "Straits Times"
-    },
-    {
-      "title": "Video shows moment of Brooklyn building collapse from inside",
-      "summary": "Newly released nanny cam footage shows the moment an apartment building collapsed in Brooklyn as children played inside.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/video-shows-moment-of-brooklyn-building-collapse-from-inside?traffic_source=rss",
-      "published": "Sun, 15 Nov 2026 04:31:55 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Monkey attacks woman inside residential complex in India",
-      "summary": "A woman was attacked and repeatedly bitten by a monkey at a residential apartment complex in India’s Gujarat state.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/15/monkey-attacks-woman-inside-residential-complex-in-india?traffic_source=rss",
-      "published": "Sun, 15 Nov 2026 03:39:39 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Coalition to move away from fossil fuels presses ahead without Colombia, its original champion",
-      "summary": "The coalition, launched in the Colombian coastal city of Santa Marta in April, is expected to release a progress report this week outlining steps taken by participating countries, including additional national plans to reduce dependence on coal, oil and gas",
-      "link": "https://www.thehindu.com/news/international/coalition-to-move-away-from-fossil-fuels-presses-ahead-without-colombia-its-original-champion/article71704040.ece",
-      "published": "Sun, 15 Nov 2026 08:38:59 +0530",
-      "source": "The Hindu"
-    },
-    {
-      "title": "ICT exports log record-high growth in Oct. amid AI boom",
-      "summary": "SEOUL, Nov. 15 (Yonhap) -- South Korea's exports of information and communicatio...",
-      "link": "https://en.yna.co.kr/view/AEN20261115000800320",
-      "published": "Sun, 15 Nov 2026 12:04:24 +0900",
-      "source": "Yonhap"
-    },
-    {
-      "title": "HD Hyundai launches autonomous vessel developed with Anduril",
-      "summary": "SEOUL, Nov. 15 (Yonhap) -- South Korean shipbuilder HD Hyundai Co. said Sunday i...",
-      "link": "https://en.yna.co.kr/view/AEN20261113001100320",
-      "published": "Sun, 15 Nov 2026 12:00:11 +0900",
-      "source": "Yonhap"
-    },
-    {
-      "title": "Saudi-led coalition intercepts suspected Houthi missiles and drones",
-      "summary": "Fighting escalates in Yemen's Marib and al-Jawf, as UN agency says more than 340,000 Yemenis displaced since August.",
-      "link": "https://www.aljazeera.com/news/2026/11/15/saudi-led-coalition-intercepts-two-missiles-two-drones-in-riyadh?traffic_source=rss",
-      "published": "Sun, 15 Nov 2026 02:59:06 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Japan firms thrive on AI boom, but uncertainty grows",
-      "summary": "Factors like raw material prices amid Middle East turmoil and data center construction have come industry analysts concerned.",
-      "link": "https://www.japantimes.co.jp/business/2026/11/15/companies/japan-firms-ai-boom/",
-      "published": "Sun, 15 Nov 2026 09:34:00 +0900",
-      "source": "Japan Times"
-    },
-    {
-      "title": "World leaders are coming to Shenzhen. What is China’s APEC message?",
-      "summary": "Analysts say the city’s transformation into a global tech hub makes it a fitting stage for next week’s APEC summit - showcasing China’s economic ambitions and push for deeper regional cooperation. ",
-      "link": "https://www.channelnewsasia.com/east-asia/china-apec-2026-shenzhen-transformation-6541996",
-      "published": "Sun, 15 Nov 2026 06:00:00 +0800",
-      "source": "CNA"
-    },
-    {
-      "title": "US aviation shutdown blamed on L3 Harris installed router",
-      "summary": "The FAA spends US$1 billion annually to maintain its old copper wire system and is racing to replace it with more modern fiber-based communications.",
-      "link": "https://www.channelnewsasia.com/world/us-aviation-shutdown-blamed-l3-harris-installed-router-6552171",
-      "published": "Sun, 15 Nov 2026 04:56:13 +0800",
-      "source": "CNA"
-    },
-    {
       "title": "Philippines wins first Eurovision Song Contest Asia",
       "summary": "Front-runner Carmelle emerges victorious with her women's empowerment anthem Sobra-Sobra.",
       "link": "https://www.bbc.co.uk/news/articles/cqrlgnx9dx6eo?at_medium=RSS&at_campaign=rss",
       "published": "Sat, 14 Nov 2026 18:17:58 GMT",
       "source": "BBC News"
-    },
-    {
-      "title": "‘He calls my plans a fantasy’: My husband says we can’t afford a $200,000-a-year retirement. Is he being cheap?",
-      "summary": "“We have $2 million saved in our retirement accounts and a house worth $1.3 million.”",
-      "link": "https://www.marketwatch.com/story/he-calls-my-plans-a-fantasy-my-husband-says-we-cant-afford-our-200-000-a-year-dream-retirement-i-think-hes-cheap-45bc5b4e?mod=mw_rss_topstories",
-      "published": "Sat, 14 Nov 2026 18:00:00 GMT",
-      "source": "MarketWatch"
     },
     {
       "title": "After a summer win, India's Gen Z protesters face a winter of uncertainty",
@@ -301,44 +301,35 @@
       "source": "WSJ Markets"
     },
     {
+      "title": "Hong Kong's New World proposes $3.2bn rights issue for capital 'reset'",
+      "summary": "",
+      "link": "https://asia.nikkei.com/business/markets/property/hong-kong-s-new-world-proposes-3.2bn-rights-issue-for-capital-reset",
+      "published": "2026-11-15 13:15",
+      "source": "Nikkei Asia"
+    },
+    {
+      "title": "ASEAN falls short on Myanmar crisis, South China Sea pact at Manila summit",
+      "summary": "",
+      "link": "https://asia.nikkei.com/politics/international-relations/asean-falls-short-on-myanmar-crisis-south-china-sea-pact-at-manila-summit",
+      "published": "2026-11-15 13:15",
+      "source": "Nikkei Asia"
+    },
+    {
+      "title": "APEC summit in Shenzhen, Indonesia monetary policy, ASEAN diplomacy",
+      "summary": "",
+      "link": "https://asia.nikkei.com/spotlight/your-week-in-asia/apec-summit-in-shenzhen-indonesia-monetary-policy-asean-diplomacy",
+      "published": "2026-11-15 13:15",
+      "source": "Nikkei Asia"
+    },
+    {
       "title": "Gaming emerges as a new corporate networking tool in Japan",
       "summary": "",
       "link": "https://asia.nikkei.com/business/business-trends/gaming-emerges-as-a-new-corporate-networking-tool-in-japan",
-      "published": "2026-11-15 06:01",
-      "source": "Nikkei Asia"
-    },
-    {
-      "title": "ASEAN leaders kick off Manila summits as friction persists on Myanmar, haze",
-      "summary": "",
-      "link": "https://asia.nikkei.com/politics/international-relations/asean-leaders-kick-off-manila-summits-as-friction-persists-on-myanmar-haze",
-      "published": "2026-11-15 06:01",
-      "source": "Nikkei Asia"
-    },
-    {
-      "title": "China's century-old 'porcelain capital' eyes global luxury",
-      "summary": "",
-      "link": "https://asia.nikkei.com/life-arts/arts/china-s-century-old-porcelain-capital-eyes-global-luxury",
-      "published": "2026-11-15 06:01",
-      "source": "Nikkei Asia"
-    },
-    {
-      "title": "Japan to require online authorization for some transit passengers",
-      "summary": "",
-      "link": "https://asia.nikkei.com/spotlight/japan-immigration/japan-to-require-online-authorization-for-some-transit-passengers",
-      "published": "2026-11-15 06:01",
+      "published": "2026-11-15 13:15",
       "source": "Nikkei Asia"
     }
   ],
   "history": [
-    {
-      "date": "2026-10-30 06:00",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 72,
-      "incidents": 40,
-      "hangseng": 23359.4,
-      "usd_czk": 21.865
-    },
     {
       "date": "2026-10-30 11:56",
       "threat_level": "HIGH",
@@ -599,6 +590,15 @@
       "incidents": 40,
       "hangseng": 23637.6,
       "usd_czk": 22.099
+    },
+    {
+      "date": "2026-11-15 13:15",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 75,
+      "incidents": 40,
+      "hangseng": 23637.6,
+      "usd_czk": 22.099
     }
   ],
   "locations": [
@@ -608,6 +608,13 @@
       "lon": 116.4074,
       "name_cs": "Peking",
       "name_en": "Beijing"
+    },
+    {
+      "key": "Taipei",
+      "lat": 25.033,
+      "lon": 121.5654,
+      "name_cs": "Tchaj-pej",
+      "name_en": "Taipei"
     },
     {
       "key": "Tokyo",
@@ -659,11 +666,25 @@
       "name_en": "New Delhi"
     },
     {
+      "key": "Islamabad",
+      "lat": 33.6844,
+      "lon": 73.0479,
+      "name_cs": "Islámábád",
+      "name_en": "Islamabad"
+    },
+    {
       "key": "Bangkok",
       "lat": 13.7563,
       "lon": 100.5018,
       "name_cs": "Bangkok",
       "name_en": "Bangkok"
+    },
+    {
+      "key": "Jakarta",
+      "lat": -6.2088,
+      "lon": 106.8456,
+      "name_cs": "Jakarta",
+      "name_en": "Jakarta"
     },
     {
       "key": "Singapore",
@@ -687,6 +708,13 @@
       "name_en": "Canberra"
     },
     {
+      "key": "Dhaka",
+      "lat": 23.8103,
+      "lon": 90.4125,
+      "name_cs": "Dháka",
+      "name_en": "Dhaka"
+    },
+    {
       "key": "Yangon",
       "lat": 16.8409,
       "lon": 96.1735,
@@ -694,11 +722,27 @@
       "name_en": "Yangon"
     },
     {
+      "key": "Washington",
+      "lat": 38.9,
+      "lon": -77.04,
+      "name_cs": "Washington, D.C.",
+      "name_en": "Washington",
+      "auto": true
+    },
+    {
       "key": "New York",
       "lat": 40.71,
       "lon": -74,
       "name_cs": "New York",
       "name_en": "New York",
+      "auto": true
+    },
+    {
+      "key": "Venezuela",
+      "lat": 7,
+      "lon": -66,
+      "name_cs": "Venezuela",
+      "name_en": "Venezuela",
       "auto": true
     },
     {
@@ -710,11 +754,27 @@
       "auto": true
     },
     {
+      "key": "Israel",
+      "lat": 31.5,
+      "lon": 34.8,
+      "name_cs": "Izrael",
+      "name_en": "Israel",
+      "auto": true
+    },
+    {
       "key": "Iran",
       "lat": 32.4,
       "lon": 53.7,
       "name_cs": "Írán",
       "name_en": "Iran",
+      "auto": true
+    },
+    {
+      "key": "Syria",
+      "lat": 34.8,
+      "lon": 38.9,
+      "name_cs": "Sýrie",
+      "name_en": "Syria",
       "auto": true
     },
     {
@@ -734,11 +794,43 @@
       "auto": true
     },
     {
+      "key": "Pakistan",
+      "lat": 30.4,
+      "lon": 69.3,
+      "name_cs": "Pákistán",
+      "name_en": "Pakistan",
+      "auto": true
+    },
+    {
+      "key": "Indonesia",
+      "lat": -2.5,
+      "lon": 118,
+      "name_cs": "Indonésie",
+      "name_en": "Indonesia",
+      "auto": true
+    },
+    {
       "key": "Australia",
       "lat": -25.3,
       "lon": 133.8,
       "name_cs": "Austrálie",
       "name_en": "Australia",
+      "auto": true
+    },
+    {
+      "key": "London",
+      "lat": 51.5,
+      "lon": -0.12,
+      "name_cs": "Londýn",
+      "name_en": "London",
+      "auto": true
+    },
+    {
+      "key": "Spain",
+      "lat": 40.4,
+      "lon": -3.7,
+      "name_cs": "Madrid",
+      "name_en": "Spain",
       "auto": true
     },
     {
@@ -751,57 +843,57 @@
     }
   ],
   "location_counts": {
-    "Beijing": 115,
-    "Hong Kong": 107,
-    "Tokyo": 90,
+    "Beijing": 116,
+    "Hong Kong": 108,
+    "Tokyo": 91,
     "Shanghai": 23,
-    "Seoul": 92,
-    "South China Sea": 11,
-    "Taipei": 61,
-    "Manila": 51,
-    "Pyongyang": 64,
+    "Seoul": 93,
+    "South China Sea": 12,
+    "Taipei": 62,
+    "Manila": 52,
+    "Pyongyang": 65,
     "Washington, D.C.": 1,
     "Los Angeles": 2,
     "Florida": 1,
-    "Rusko": 1,
+    "Rusko": 2,
     "Írán": 1,
-    "Čína": 11,
+    "Čína": 8,
     "Tchaj-wan": 3,
     "Japonsko": 1,
     "Indie": 4,
-    "Londýn": 1,
+    "Londýn": 3,
     "Berlín": 1,
     "Paříž": 2,
-    "Pákistán": 2,
+    "Pákistán": 1,
     "San Francisco": 1,
     "Kanada": 1,
     "Ukrajina": 1,
     "Singapur": 1,
     "Austrálie": 2,
-    "Delhi": 83,
-    "Singapore": 64,
-    "Kuala Lumpur": 66,
-    "Canberra": 58,
+    "Delhi": 84,
+    "Singapore": 65,
+    "Kuala Lumpur": 67,
+    "Canberra": 59,
     "New York": 1,
     "Ithaca (Cornell)": 1,
     "Argentina": 1,
     "Súdán": 1,
     "Kolumbie": 2,
-    "Islamabad": 55,
-    "Jakarta": 74,
+    "Islamabad": 56,
+    "Jakarta": 75,
     "Izrael": 1,
     "Turecko": 1,
-    "Indonésie": 1,
+    "Indonésie": 2,
     "Kabul": 16,
-    "Dhaka": 28,
-    "Yangon": 40,
+    "Dhaka": 29,
+    "Yangon": 41,
     "Venezuela": 1,
     "Egypt": 1,
     "SAE": 1,
     "Řím": 1,
     "Brusel": 1,
     "Jihoafrická republika": 1,
-    "Bangkok": 42,
+    "Bangkok": 43,
     "Hanoi": 29,
     "Taiwan Strait": 2,
     "Kalifornie": 1,
@@ -832,23 +924,16 @@
     "Nigérie": 1,
     "Illinois": 1,
     "Michigan": 1,
-    "Gaza": 1
+    "Gaza": 1,
+    "Sýrie": 1
   },
   "top_location": {
     "key": "Beijing",
     "name_cs": "Peking",
     "name_en": "Beijing",
-    "count": 115
+    "count": 116
   },
   "archive": [
-    {
-      "date": "2026-11-08 06:00",
-      "threat_level": "HIGH",
-      "security_status_cs": "Globální technologické trhy a asijské burzy čelí hlubokým výprodejům v důsledku šoku způsobeného čínským AI modelem DeepSeek, což vyvolalo útěk k bezpečným přístavům jako je japonský jen. V regionu mezitím probíhají dílčí geopolitická a ekonomická napětí včetně přísnějších kontrol zahraničních investic v Číně a zemětřesení v Japonsku.",
-      "security_status_en": "Global tech markets and Asian exchanges face deep sell-offs following the shock wave caused by Chinese AI model DeepSeek, triggering a flight to safe havens like the Japanese yen. Meanwhile, the region navigates localized geopolitical and economic pressures, including tighter Chinese foreign investment reviews and a moderate earthquake in Japan.",
-      "forecast_cs": "V následujících dnech lze očekávat přetrvávající volatilitu v technologickém sektoru a zvýšenou poptávku po bezpečných aktivech, dokud trhy plně neztráví dopady nástupu alternativních AI modelů jako DeepSeek.",
-      "forecast_en": "Over the coming days, persistent volatility in the technology sector and heightened demand for safe-haven assets are expected as markets continue to digest the implications of alternative AI models like DeepSeek."
-    },
     {
       "date": "2026-11-08 12:33",
       "threat_level": "HIGH",
@@ -952,6 +1037,14 @@
       "security_status_en": "Markets across Asia and globally are absorbing the shock triggered by China's DeepSeek model, leading to massive tech sell-offs and a surge in safe-haven assets like the Japanese yen. Simultaneously, geopolitical tensions in the South China Sea are intensifying as the Philippines strengthens defense ties with the US and Australia against Chinese assertiveness. Meanwhile, chip export scandals are fueling pressure for tighter US restrictions ahead of the Trump-Xi summit.",
       "forecast_cs": "V nejbližších dnech budou trhy nadále pod vlivem technologického šoku způsobeného DeepSeekem a napjatého očekávání nadcházejícího summitu APEC a setkání Trump-Si. Geopolitické třenice v Asii udrží zvýšenou poptávku po bezpečných aktivech.",
       "forecast_en": "Over the coming days, markets will remain heavily influenced by the DeepSeek tech shock and tense expectations surrounding the upcoming APEC summit and the Trump-Xi meeting. Geopolitical friction in Asia will sustain elevated demand for safe-haven assets."
+    },
+    {
+      "date": "2026-11-15 13:15",
+      "threat_level": "HIGH",
+      "security_status_cs": "Región Asie a Tichomoří čelí prudkým geopolitickým a technologickým otřesům, které vyvrcholily šokem způsobeným čínským modelem DeepSeek a jeho dopadem na globální trhy s polovodiči. Speciální pozornost přitahují rostoucí obavy z obcházení amerických exportních kontrol přes uzly jako Singapur a stupňující se napětí v Jihočínském moři a kolem Tchaj-wanu. ASEAN na svém summitu v Manile nedokázal nabídnout jednotnou odpověď na krizi v Myanmaru, což dále zvyšuje regionální nestabilitu.",
+      "security_status_en": "The Asia-Pacific region is facing acute geopolitical and technological shocks, culminating in the market disruption caused by China's DeepSeek and its heavy blow to global semiconductor infrastructure. Intensifying scrutiny over the evasion of U.S. export controls through hubs like Singapore, alongside rising military friction around Taiwan and the South China Sea, is heightening risk. Meanwhile, the ASEAN summit in Manila failed to yield a cohesive response to the Myanmar crisis, exacerbating regional instability.",
+      "forecast_cs": "V nejbližších dnech budou trhy nadále vstřebávat šok z výkonu čínského DeepSeeku a vyhlížet výsledky blížícího se summitu APEC a setkání Trump-Si. Bezpečnostní složky a investoři budou pozorně sledovat jakékoliv zpřísnění pravidel pro tok pokročilých čipů přes třetí země.",
+      "forecast_en": "Over the coming days, markets will continue to digest the shock waves from China's DeepSeek while anticipating the outcomes of the APEC summit and the Trump-Xi meeting. Investors and regulators will closely monitor potential crackdowns on advanced chip flows through intermediary hubs."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
