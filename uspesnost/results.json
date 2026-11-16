@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-15T01:50",
+ "updated": "2026-11-16T01:57",
  "band": {
   "7": 2.0,
   "30": 5.0
  },
- "signals_total": 316,
+ "signals_total": 322,
  "summary": {
   "7": {
    "ALL": {
-    "n": 266,
-    "ok": 122,
-    "avg": -1.27
+    "n": 270,
+    "ok": 124,
+    "avg": -1.2
    },
    "BUY": {
-    "n": 94,
-    "ok": 43,
-    "avg": -0.87
+    "n": 96,
+    "ok": 45,
+    "avg": -0.8
    },
    "SELL": {
     "n": 38,
@@ -23,16 +23,16 @@
     "avg": -2.74
    },
    "HOLD": {
-    "n": 134,
+    "n": 136,
     "ok": 54,
-    "avg": -1.13
+    "avg": -1.06
    }
   },
   "30": {
    "ALL": {
-    "n": 132,
-    "ok": 58,
-    "avg": -3.84
+    "n": 133,
+    "ok": 59,
+    "avg": -3.85
    },
    "BUY": {
     "n": 50,
@@ -40,9 +40,9 @@
     "avg": -2.51
    },
    "SELL": {
-    "n": 15,
-    "ok": 12,
-    "avg": -8.02
+    "n": 16,
+    "ok": 13,
+    "avg": -7.85
    },
    "HOLD": {
     "n": 67,
@@ -102,14 +102,14 @@
   },
   "Čína a Asie": {
    "7": {
-    "n": 54,
-    "ok": 25,
-    "avg": -2.08
+    "n": 58,
+    "ok": 27,
+    "avg": -1.72
    },
    "30": {
-    "n": 29,
-    "ok": 10,
-    "avg": -7.98
+    "n": 30,
+    "ok": 11,
+    "avg": -7.89
    }
   },
   "Japonsko": {
@@ -141,6 +141,94 @@
   {
    "monitor": "USA",
    "sector": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
+   "action": "BUY",
+   "date": "2026-11-15",
+   "tickers": [
+    "LMT",
+    "RTX",
+    "NOC"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Čínské akcie (ETF FXI, MCHI)",
+   "action": "SELL",
+   "date": "2026-11-15",
+   "tickers": [
+    "FXI",
+    "MCHI"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Brazilský akciový trh (Bovespa, EWZ ETF)",
+   "action": "HOLD",
+   "date": "2026-11-15",
+   "tickers": [
+    "^BVSP",
+    "EWZ"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Argentina (Merval, YPF, MercadoLibre)",
+   "action": "BUY",
+   "date": "2026-11-15",
+   "tickers": [
+    "^MERV",
+    "MELI",
+    "YPF"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
+   "action": "HOLD",
+   "date": "2026-11-15",
+   "tickers": [
+    "SCCO",
+    "SQM",
+    "FCX"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
+   "action": "HOLD",
+   "date": "2026-11-15",
+   "tickers": [
+    "JBS",
+    "BG",
+    "CSAN"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "USA",
+   "sector": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
    "action": "HOLD",
    "date": "2026-11-14",
    "tickers": [
@@ -203,6 +291,36 @@
    "tickers": [
     "6758.T",
     "9984.T"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
+   "action": "BUY",
+   "date": "2026-11-14",
+   "tickers": [
+    "SCCO",
+    "SQM",
+    "FCX"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
+   "action": "HOLD",
+   "date": "2026-11-14",
+   "tickers": [
+    "CVX",
+    "PBR",
+    "EC"
    ],
    "ret7": null,
    "ok7": null,
@@ -224,36 +342,6 @@
    "ok30": null
   },
   {
-   "monitor": "Jižní Amerika",
-   "sector": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
-   "action": "BUY",
-   "date": "2026-11-14",
-   "tickers": [
-    "SCCO",
-    "SQM",
-    "FCX"
-   ],
-   "ret7": null,
-   "ok7": null,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Jižní Amerika",
-   "sector": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
-   "action": "HOLD",
-   "date": "2026-11-14",
-   "tickers": [
-    "CVX",
-    "PBR",
-    "EC"
-   ],
-   "ret7": null,
-   "ok7": null,
-   "ret30": null,
-   "ok30": null
-  },
-  {
    "monitor": "Rudé moře",
    "sector": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)",
    "action": "BUY",
@@ -683,8 +771,8 @@
    "tickers": [
     "^N225"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 2.49,
+   "ok7": true,
    "ret30": null,
    "ok30": null
   },
@@ -768,8 +856,8 @@
    "tickers": [
     "^N225"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 2.49,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -810,8 +898,8 @@
     "005930.KS",
     "ASML"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 4.79,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -823,8 +911,8 @@
    "tickers": [
     "^N225"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 2.49,
+   "ok7": true,
    "ret30": null,
    "ok30": null
   },
@@ -1171,51 +1259,6 @@
   },
   {
    "monitor": "Jižní Amerika",
-   "sector": "Argentina (Merval, YPF, MercadoLibre)",
-   "action": "HOLD",
-   "date": "2026-11-03",
-   "tickers": [
-    "^MERV",
-    "MELI",
-    "YPF"
-   ],
-   "ret7": -13.57,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Jižní Amerika",
-   "sector": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
-   "action": "HOLD",
-   "date": "2026-11-03",
-   "tickers": [
-    "CVX",
-    "PBR",
-    "EC"
-   ],
-   "ret7": -9.09,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Jižní Amerika",
-   "sector": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
-   "action": "BUY",
-   "date": "2026-11-03",
-   "tickers": [
-    "JBS",
-    "BG",
-    "CSAN"
-   ],
-   "ret7": 3.3,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Jižní Amerika",
    "sector": "Brazilský akciový trh (Bovespa, EWZ ETF)",
    "action": "HOLD",
    "date": "2026-11-03",
@@ -1229,59 +1272,17 @@
    "ok30": null
   },
   {
-   "monitor": "USA",
-   "sector": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
-   "action": "BUY",
-   "date": "2026-11-02",
-   "tickers": [
-    "LMT",
-    "RTX",
-    "NOC"
-   ],
-   "ret7": -4.89,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Blízký východ",
-   "sector": "Ropa a plyn (Chevron, ExxonMobil)",
+   "monitor": "Jižní Amerika",
+   "sector": "Argentina (Merval, YPF, MercadoLibre)",
    "action": "HOLD",
-   "date": "2026-11-02",
+   "date": "2026-11-03",
    "tickers": [
-    "CVX"
+    "^MERV",
+    "MELI",
+    "YPF"
    ],
-   "ret7": -7.46,
+   "ret7": -13.57,
    "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Čína a Asie",
-   "sector": "Polovodiče (TSMC, Samsung, ASML)",
-   "action": "HOLD",
-   "date": "2026-11-02",
-   "tickers": [
-    "TSM",
-    "005930.KS",
-    "ASML"
-   ],
-   "ret7": -6.81,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Čína a Asie",
-   "sector": "Čínské akcie (ETF FXI, MCHI)",
-   "action": "BUY",
-   "date": "2026-11-02",
-   "tickers": [
-    "FXI",
-    "MCHI"
-   ],
-   "ret7": 4.13,
-   "ok7": true,
    "ret30": null,
    "ok30": null
   }
