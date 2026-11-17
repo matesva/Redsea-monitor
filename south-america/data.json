@@ -1,60 +1,172 @@
 {
-  "last_updated": "2026-11-17T06:01:28Z",
+  "last_updated": "2026-11-17T15:25:56Z",
   "assessment": {
-    "threat_level": "HIGH",
-    "sentiment_score": 62,
-    "security_status_cs": "Jižní Amerika čelí napětí v důsledku politických třenic v Brazílii, kde pravicová opozice upevňuje pozice v Senátu, a rostoucích sociálních protestů v Chile kvůli cenám pohonných hmot. Paraguay mezitím řeší otřes důvěry investorů po bankovním skandálu spojeném s exprezidentem Peňou.",
-    "security_status_en": "South America faces heightened tension due to political friction in Brazil, where the right-wing opposition is consolidating its Senate presence, and rising social protests in Chile over fuel prices. Meanwhile, Paraguay is dealing with a shaken investor confidence following a banking scandal linked to ex-president Peña.",
+    "threat_level": "MEDIUM",
+    "sentiment_score": 45,
+    "security_status_cs": "Jižní Amerika se potýká s přetrvávajícími bezpečnostními riziky spojenými s narkokartely v Andském regionu, zatímco v Brazílii sílí politické napětí kolem pravicové opozice v Senátu po nedávných volbách. Ekonomická stabilita regionu je podpořena rostoucím argentinským energetickým sektorem a diplomatickou stabilitou v rámci Mercosuru.",
+    "security_status_en": "South America faces persistent security risks tied to drug cartels in the Andean region, while political tensions grow in Brazil around the right-wing opposition in the Senate following recent elections. Regional economic stability is supported by Argentina's booming energy sector and diplomatic stability within Mercosur.",
     "recommendations": [
       {
-        "sector_cs": "Brazilský akciový trh (Bovespa, EWZ ETF)",
+        "sector_cs": "Brazilský akciový trh (Bovespa, ETF EWZ)",
         "sector_en": "Brazilian Equities (Bovespa, EWZ ETF)",
         "action": "HOLD",
-        "reason_cs": "Trh pod tlakem globální averze k riziku a politických manévrů v brazilském Kongresu, kde pravice posiluje vliv navzdory prohře ve volebním klání.",
-        "reason_en": "The market remains under pressure from global risk aversion and political maneuvering in the Brazilian Congress, where the right is strengthening its influence despite losing the presidential race."
+        "reason_cs": "Lulova administrativa čelí silné pravicové opozici v Senátu a debatám o zkrácení pracovního týdna, což zvyšuje regulatorní nejistotu.",
+        "reason_en": "The Lula administration faces strong right-wing opposition in the Senate and debates over shortening the workweek, increasing regulatory uncertainty."
       },
       {
         "sector_cs": "Argentina (Merval, YPF, MercadoLibre)",
         "sector_en": "Argentina (Merval, YPF, MercadoLibre)",
-        "action": "HOLD",
-        "reason_cs": "Mileiho administrativa čelí vnitřním bezpečnostním obavám a těsnému politickému boji, zatímco probíhají jednání o mezinárodní těžební spolupráci a přeshraničních synergiích.",
-        "reason_en": "The Milei administration faces domestic security concerns and a tight political race, even as talks progress regarding international mining cooperation and cross-border synergies."
+        "action": "BUY",
+        "reason_cs": "Energetický boom a rozšiřující se prodeje dolarových dluhopisů táhnou hospodářský růst navzdory přetrvávajícím debatám o chudobě a vládních opatřeních.",
+        "reason_en": "The energy boom and expanding dollar bond sales are driving economic growth despite ongoing debates over poverty figures and government measures."
       },
       {
         "sector_cs": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
         "sector_en": "Mining: Copper & Lithium (Southern Copper, SQM, Freeport)",
-        "action": "BUY",
-        "reason_cs": "Rostoucí zájem o argentinská měděná ložiska a přeshraniční partnerství s chilskou infrastrukturou otevírají nové investiční příležitosti v sektoru.",
-        "reason_en": "Growing interest in Argentine copper deposits and cross-border partnerships utilizing Chilean infrastructure open up new investment opportunities in the sector."
+        "action": "HOLD",
+        "reason_cs": "Ceny komodit zůstávají stabilní, ale bezpečnostní situace v peruánských oblastech ohrožených drogovými gangy vyžaduje opatrnost.",
+        "reason_en": "Commodity prices remain stable, but security conditions in Peruvian regions threatened by drug gangs warrant caution."
       },
       {
         "sector_cs": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
         "sector_en": "Oil & Energy (Petrobras, Ecopetrol, Chevron)",
         "action": "HOLD",
-        "reason_cs": "Světové ceny ropy klesají kvůli výhledům na přebytek nabídky ve 4. čtvrtletí, což brzdí výraznější zisky regionálních energetických gigantů.",
-        "reason_en": "Global oil prices are slipping due to fourth-quarter surplus forecasts, capping stronger gains for regional energy giants."
+        "reason_cs": "Globální ceny ropy klesají kvůli výhledu přebytku dodávek, což tlumí marže těžařských společností v regionu.",
+        "reason_en": "Global crude prices are declining due to surplus forecasts, dampening margin expansion for regional energy producers."
       },
       {
         "sector_cs": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
         "sector_en": "Agriculture & Food (JBS, Bunge, Cosan)",
-        "action": "HOLD",
-        "reason_cs": "Ceny kávy Arabica sice dosáhly rekordních hodnot po ústupu od celních hrozeb USA vůči Kolumbii, avšak obavy z pesticidů v Brazílii zatěžují reputaci sektoru.",
-        "reason_en": "Arabica coffee prices hit record levels following the retreat of US tariff threats against Colombia, but pesticide scrutiny in Brazil weighs on the sector's reputation."
+        "action": "BUY",
+        "reason_cs": "Ceny kávy Arabica sice dosáhly rekordů kvůli obavám z cel, ale celkový index cen potravin FAO zůstává stabilní a poptávka silná.",
+        "reason_en": "While Arabica coffee prices hit records over tariff concerns, the overall FAO food price index remains stable and demand strong."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Dění v Jižní Americe má na tyto domácí a středoevropské tituly pouze zanedbatelný a nepřímý vliv skrze globální náladu na trzích.",
-        "reason_en": "Developments in South America have only negligible and indirect impacts on these domestic and Central European stocks via broader global market sentiment."
+        "reason_cs": "Dění v Jižní Americe má na české banky a energetiku minimální přímý vliv, pozornost se soustředí na domácí a evropské makroekonomické faktory.",
+        "reason_en": "South American developments have minimal direct impact on Czech banks and energy, with attention focused on domestic and European macroeconomic factors."
       }
     ],
-    "forecast_cs": "V nejbližších dnech se očekává sledování politických vyjednávání v brazilském Senátu, dopadů chilských protestů na dopravu a vývoje v Paraguayi po bankovním skandálu.",
-    "forecast_en": "Over the coming days, attention will focus on political negotiations in the Brazilian Senate, the impact of Chilean protests on transport, and developments in Paraguay following the banking scandal.",
-    "forecast_review_cs": "Předchozí předpověď ohledně argentinské obchodní dohody v Kongresu a dopadů protestů v Chile se částečně potvrdila, neboť sociální nepokoje a protesty v Chile nadále eskalují.",
-    "forecast_review_en": "The previous forecast regarding the Argentine trade deal in Congress and the economic impact of protests in Chile was partially confirmed as social unrest and protests in Chile continue to escalate."
+    "forecast_cs": "V nejbližších dnech se očekává sledování politických manévrů v brazilském Senátu a reakcí trhů na vývoj v argentinském energetickém sektoru.",
+    "forecast_en": "Over the coming days, attention will focus on political maneuvers in the Brazilian Senate and market reactions to developments in Argentina's energy sector.",
+    "forecast_review_cs": "Předchozí předpověď se částečně potvrdila, jelikož pozornost se skutečně stočila k politickým vyjednávání v brazilském Senátu.",
+    "forecast_review_en": "The previous forecast was partially confirmed, as attention indeed turned toward political negotiations in the Brazilian Senate."
   },
   "articles": [
+    {
+      "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and invest in real estate?",
+      "summary": "“Real estate here in Florida seems to be presenting some interesting opportunities.”",
+      "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+      "published": "Tue, 17 Nov 2026 15:15:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "UCA observatory challenges Milei government’s poverty figures",
+      "summary": "<p><img alt=\"Poverty Argentina Maradona soup kitchen\" src=\"https://fotos.perfil.com/2026/04/22/trim/540/304/poverty-argentina-maradona-soup-kitchen-2225519.jpg\" /></p>Catholic university’s respected Social Debt Observatory casts doubts on decline in poverty reported by INDEC and warns that number of poor have risen since Milei took office in December 2023; Experts say methodological changes to measurement would substantially alter interpretation of trends in living standards. <a href=\"https://www.batimes.com.ar/news/argentina/uca-observatory-challenges-milei-governments-poverty-figures.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/argentina/uca-observatory-challenges-milei-governments-poverty-figures.phtml",
+      "published": "Tue, 17 Nov 2026 15:04:01 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Brazil Court Weighs End of Six-Day Work Week",
+      "summary": "<p>Brazil’s Supreme Court has yet to set how fast firms must end the six-day work week, with the 42-hour limit due on 16 December 2026.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/brazil-supreme-court-six-day-work-week-ruling/\">Brazil Court Weighs End of Six-Day Work Week</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/brazil-supreme-court-six-day-work-week-ruling/",
+      "published": "Tue, 17 Nov 2026 15:01:47 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Guinea-Bissau Elections Explained",
+      "summary": "<p>Guinea-Bissau's elections are decreed for Sunday 6 December 2026, yet officials say the date cannot be kept. Here is who rules and what to watch next.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/guinea-bissau-elections-explained-2026/\">Guinea-Bissau Elections Explained</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/guinea-bissau-elections-explained-2026/",
+      "published": "Tue, 17 Nov 2026 14:53:12 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Paraguay Natural Resources Explained 2026",
+      "summary": "<p>Paraguay turns river water, grassland and soil into power and exports: Itaipu, soy, beef and Chaco, plus what is still unproven for US readers.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/paraguay-natural-resources-explained-2026/\">Paraguay Natural Resources Explained 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/paraguay-natural-resources-explained-2026/",
+      "published": "Tue, 17 Nov 2026 14:48:56 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Argentina’s energy boom to extend surge of bond sales into 2027",
+      "summary": "<p><img alt=\"A drilling rig at an oil and gas field in Neuquén.\" src=\"https://fotos.perfil.com/2026/11/17/trim/540/304/a-drilling-rig-at-an-oil-and-gas-field-in-neuquen-2365713.jpg\" /></p>Dollar bond sales by Argentine firms and provinces set to extend into first half of next year, driven by the country’s booming energy industry. <a href=\"https://www.batimes.com.ar/news/economy/argentinas-energy-boom-to-extend-surge-of-bond-sales-into-2027.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/economy/argentinas-energy-boom-to-extend-surge-of-bond-sales-into-2027.phtml",
+      "published": "Tue, 17 Nov 2026 14:23:48 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Do Amazon’s Black Friday deals really save you money? A new report casts doubt.",
+      "summary": "Almost a third of Amazon Black Friday deals “provided no savings at all” in the last two years, a report says. The retailer is pushing back.",
+      "link": "https://www.marketwatch.com/story/do-amazons-black-friday-deals-really-save-you-money-03859cf3?mod=mw_rss_topstories",
+      "published": "Tue, 17 Nov 2026 14:05:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Falklands close November with cricket, archery and hockey after opening Sports Complex",
+      "summary": "<p>\n\t   \t      <img alt=\"Cricket against Costa Rica, the archery competition, and Princess Anne alongside the lawn bowls team during the opening of the Complex.\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112131/100x80/fotojet-16-.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         The Falklands are going through a month of intense international sporting activity, a week after the official opening of the new National Sports Complex in Stanley.</p>",
+      "link": "https://en.mercopress.com/2026/11/17/falklands-close-november-with-cricket-archery-and-hockey-after-opening-sports-complex?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Tue, 17 Nov 2026 13:40:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "FAO Food Price Index remained relatively stable during October",
+      "summary": "<p>\n\t   \t      <img alt=\"World wheat prices declined following four consecutive monthly increases, largely reflecting subdued international demand and improved production in Argentina\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112129/100x80/trigo.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         The benchmark measure of world food commodity prices edged lower in October, as weaker import demand contributed to month-on-month declines in the price indices for cereals, dairy products and meat, according to new data released by the Food and Agriculture Organization (FAO).</p>",
+      "link": "https://en.mercopress.com/2026/11/17/fao-food-price-index-remained-relatively-stable-during-october?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Tue, 17 Nov 2026 13:23:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "At the origin of France’s education protests, students refuse to give up",
+      "summary": "Blockades continue at some schools in the Parisian suburbs as students and teachers say little has improved.",
+      "link": "https://www.aljazeera.com/news/2026/11/17/at-the-origin-of-frances-education-protests-students-refuse-to-give-up?traffic_source=rss",
+      "published": "Tue, 17 Nov 2026 13:14:25 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Brazil defeat Singapore 7-0 as Vinicius scores first-half hat-trick",
+      "summary": "Brazil's star forward scored a 12-minute hat-trick in the record world champions' thumping of the hosts in a friendly.",
+      "link": "https://www.aljazeera.com/sports/2026/11/17/brazil-defeat-singapore-7-0-as-vinicius-scores-first-half-hat-trick?traffic_source=rss",
+      "published": "Tue, 17 Nov 2026 12:54:04 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Mozambique’s opposition leader stands trial over deadly 2024 protests",
+      "summary": "Venancio Mondlane faces five charges, the most serious being instigating 'terrorism'.",
+      "link": "https://www.aljazeera.com/news/2026/11/17/mozambiques-opposition-leader-stands-trial-over-deadly-2024-protests?traffic_source=rss",
+      "published": "Tue, 17 Nov 2026 12:10:53 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Bows and old guns: Indigenous militias left to fight Peru’s cocaine gangs alone",
+      "summary": "<p>Decades after Lima armed them to fight Shining Path rebels, the Asháninka are still defending their Amazon rainforest, but now against drug traffickers – and without any help </p><p>Shielding his eyes from the tropical sun, Irmeo Sánchez Gómez – better known by his nom de guerre, Kiri – pointed up at a weathered shed on top of a hill, a few frayed sandbags piled at its base. Beyond it, the Tambo River snaked through Peru’s Amazonian rainforest.</p><p>“When the terrorists came,” Kiri says, “they would shoot up at us from the riverbank. Without guns of our own, we defended ourselves with bows and arrows. Later, the army gave us guns and built these defences.”</p> <a href=\"https://www.theguardian.com/global-development/2026/nov/17/indigenous-groups-ashaninka-amazon-peru-crime-drug-gangs\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/global-development/2026/nov/17/indigenous-groups-ashaninka-amazon-peru-crime-drug-gangs",
+      "published": "Tue, 17 Nov 2026 12:00:36 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Gunmen kill Costa Rican journalist who reported on drugs trade",
+      "summary": "Rodríguez had denounced alleged links between criminal organisations and powerful figures in Costa Rica.",
+      "link": "https://www.bbc.co.uk/news/articles/c6ly7g5lx7gyo?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 17 Nov 2026 11:58:16 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Bangladesh police clash with garment workers amid protests over wages",
+      "summary": "Protesters hurl bricks, torch vehicles and block the main highway between Dhaka and Mymensingh.",
+      "link": "https://www.aljazeera.com/news/2026/11/17/bangladesh-garment-workers-clash-with-police-in-fresh-protests-over-wages?traffic_source=rss",
+      "published": "Tue, 17 Nov 2026 11:06:12 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "‘I confront my demons’: crime, corruption and poverty in Latin America – in pictures",
+      "summary": "<p>Influenced by jazz, Cuban photographer Julio Mitchel has spent his career documenting the problems that plague countries from Venezuela to Peru</p> <a href=\"https://www.theguardian.com/artanddesign/gallery/2026/nov/17/julio-mitchels-latin-america-in-pictures\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/artanddesign/gallery/2026/nov/17/julio-mitchels-latin-america-in-pictures",
+      "published": "Tue, 17 Nov 2026 07:00:07 GMT",
+      "source": "The Guardian"
+    },
     {
       "title": "European-made pesticides named in 1,605 poisoning reports in Brazil last year",
       "summary": "<p>About a third of cases involved chemicals banned for use on EU farms, according to investigation by Unearthed and Public Eye </p><p>Pesticides sold by European chemical companies were named in more than 1,600 poisoning reports in Brazil last year, an investigation has found.</p><p>About a third of the cases involved chemicals banned from use on farms in the EU because of the risks they pose to people and the environment. But European companies are not banned from manufacturing these chemicals, as long as they export them overseas to countries where they are legally allowed to be used.</p> <a href=\"https://www.theguardian.com/environment/2026/nov/17/european-made-pesticides-named-1605-brazil-poisoning-reports\">Continue reading...</a>",
@@ -70,60 +182,11 @@
       "source": "The Guardian"
     },
     {
-      "title": "Latin America Sports Daily for Tuesday, November 17, 2026",
-      "summary": "<p>Copa Sudamericana final: Boca Juniors meet Atlético Mineiro in Barranquilla on Saturday, then Palmeiras face Estudiantes for the Libertadores.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/latin-america-sports-daily-tuesday-november-17-2026/\">Latin America Sports Daily for Tuesday, November 17, 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/latin-america-sports-daily-tuesday-november-17-2026/",
-      "published": "Tue, 17 Nov 2026 04:23:26 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Latin American Pulse for Tuesday, November 17, 2026",
-      "summary": "<p>Latin America mood on 17 November 2026: Brazil's bomb-letter scare, Chile's fuel prices, Colombia's food-tax worries and Argentina's tight race.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/latin-american-pulse-for-tuesday-november-17-2026/\">Latin American Pulse for Tuesday, November 17, 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/latin-american-pulse-for-tuesday-november-17-2026/",
-      "published": "Tue, 17 Nov 2026 04:23:01 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Wall Street Falls 1.9% as Fear Gauge Jumps | Global Economy, Nov 17",
-      "summary": "<p>Wall Street sold off hard as the Nasdaq fell 2.49% and the VIX jumped. What it means for the Fed, the dollar and Brazil's real and Selic.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/global-economy-briefing-november-17-2026/\">Wall Street Falls 1.9% as Fear Gauge Jumps | Global Economy, Nov 17</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/global-economy-briefing-november-17-2026/",
-      "published": "Tue, 17 Nov 2026 04:22:54 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "US moves to block China’s remote access to AI chips amid Nvidia scandal",
-      "summary": "The Trump administration introduces export licence requirements for Malaysia, Thailand, Indonesia, Singapore and Brazil.",
-      "link": "https://www.aljazeera.com/economy/2026/11/17/us-moves-to-block-chinas-remote-access-to-ai-chips-amid-nvidia-scandal?traffic_source=rss",
-      "published": "Tue, 17 Nov 2026 02:52:56 +0000",
-      "source": "Al Jazeera"
-    },
-    {
       "title": "Drones, attack dogs and 200 troops – inside Milei’s Olivos bunker",
       "summary": "<p><img alt=\"Olivos presidential residence.\" src=\"https://fotos.perfil.com/2026/11/17/trim/540/304/olivos-presidential-residence-2365549.jpg\" /></p>More than 200 military personnel have taken over security and domestic duties at the Olivos presidential residence, amid concerns over information leaks and alleged threats to the head of state.\n <a href=\"https://www.batimes.com.ar/news/argentina/drones-attack-dogs-and-200-troops-inside-mileis-olivos-bunker.phtml\">Leer más</a>",
       "link": "https://www.batimes.com.ar/news/argentina/drones-attack-dogs-and-200-troops-inside-mileis-olivos-bunker.phtml",
       "published": "Tue, 17 Nov 2026 00:16:11 GMT",
       "source": "Buenos Aires Times"
-    },
-    {
-      "title": "Paraguay ex-president moved to military jail amid special treatment reports",
-      "summary": "Santiago Pena has been accused of corruption following the collapse of Ueno Bank earlier this month.",
-      "link": "https://www.aljazeera.com/news/2026/11/16/paraguay-ex-president-moved-to-military-jail-amid-special-treatment-reports?traffic_source=rss",
-      "published": "Mon, 16 Nov 2026 23:44:32 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Do Amazon’s Black Friday deals really save you money? A new report casts doubt.",
-      "summary": "Almost a third of Amazon Black Friday deals “provided no savings at all” in the last two years, a report says. The retailer is pushing back.",
-      "link": "https://www.marketwatch.com/story/do-amazons-black-friday-deals-really-save-you-money-03859cf3?mod=mw_rss_topstories",
-      "published": "Mon, 16 Nov 2026 23:04:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "The FDA declined to approve one of biotech’s most closely watched cancer drugs. The company’s stock tumbled.",
-      "summary": "The regulator told Summit Therapeutics that the lung-cancer drug needs to prove it can help people live longer.",
-      "link": "https://www.marketwatch.com/story/the-fda-declined-to-approve-one-of-biotechs-most-closely-watched-cancer-drugs-d7c6a0a3?mod=mw_rss_topstories",
-      "published": "Mon, 16 Nov 2026 22:21:00 GMT",
-      "source": "MarketWatch"
     },
     {
       "title": "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
@@ -147,11 +210,11 @@
       "source": "InSight Crime"
     },
     {
-      "title": "Mamdani to disband NYPD unit deployed at Columbia protests",
-      "summary": "New York City Mayor Zohran Mamdani says he is disbanding the NYPD’s Strategic Response Group or SRG.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/16/mamdani-to-disband-nypd-unit-deployed-at-columbia-protests?traffic_source=rss",
-      "published": "Mon, 16 Nov 2026 21:16:02 +0000",
-      "source": "Al Jazeera"
+      "title": "Pope Leo hit by flying rosary while waving to crowds in Peru",
+      "summary": "The pontiff was struck in the face by what is thought to be prayer beads while travelling aboard the popemobile to deliver a farewell Mass.",
+      "link": "https://www.bbc.co.uk/news/videos/ckpdwn23j5j8o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 16 Nov 2026 21:12:13 GMT",
+      "source": "BBC News"
     },
     {
       "title": "Guatemala Profile",
@@ -162,7 +225,7 @@
     },
     {
       "title": "November 17 blackout hoax: How a conspiracy theory went viral around the world",
-      "summary": "A conspiracy theory claiming a worldwide “blackout” will hit on November 17 has spread across social media, cutting electricity, internet and banking services. The rumour stems from a routine US FEMA emergency alert test, but was amplified by cryptocurrency accounts, misleading claims about EU preparedness advice and references to The Simpsons. Recent technology outages, flight disruptions and cyberattacks have added to public anxiety, helping turn a routine test into a global blackout hoax.",
+      "summary": "A conspiracy theory claiming a worldwide \"blackout\" will hit the world on November 17 has spread across social media, with the claim it will cut electricity, internet and banking services. The rumour stems from a routine US FEMA emergency alert test, but was amplified by cryptocurrency accounts, misleading claims about EU preparedness advice and references to \"The Simpsons\". Recent technology outages, flight disruptions and cyberattacks have added to public anxiety, helping turn a routine test into a global hoax.",
       "link": "https://www.france24.com/en/tv-shows/truth-or-fake/20261116-november-17-blackout-hoax-how-a-conspiracy-theory-went-viral-around-the-world",
       "published": "Mon, 16 Nov 2026 20:50:29 GMT",
       "source": "France 24"
@@ -182,53 +245,11 @@
       "source": "MercoPress"
     },
     {
-      "title": "Venezuela accuses Uruguayan President Yamandú Orsi of “interference” over call for free elections",
-      "summary": "<p>\n\t   \t      <img alt=\"Uruguay and Venezuela broke off diplomatic relations in 2024, after the Uruguayan government refused to recognise Nicolás Maduro’s proclamation as winner of the presidential election\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112124/100x80/orsi.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Venezuela’s government on Monday rejected as “interference” remarks by Uruguayan President Yamandú Orsi, who had said hours earlier in Madrid that he cannot recognise a democratic government in Venezuela until free elections are held. Venezuelan Foreign Minister Oliver Blanco replied that the country’s future “belongs to the sovereign will of Venezuelans”.</p>",
-      "link": "https://en.mercopress.com/2026/11/16/venezuela-accuses-uruguayan-president-yamandu-orsi-of-interference-over-call-for-free-elections?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Mon, 16 Nov 2026 20:42:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Paraguay’s star status among investors shaken after bank scandal",
-      "summary": "<p><img alt=\"closed Ueno Bank branch\" src=\"https://fotos.perfil.com/2026/11/16/trim/540/304/closed-ueno-bank-branch-2365453.jpg\" /></p>Ueno Bank scandal and downfall of President Santiago Peña have left investors questioning whether Paraguay is still a good bet. <a href=\"https://www.batimes.com.ar/news/latin-america/paraguays-star-status-among-investors-shaken-after-bank-scandal.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/latin-america/paraguays-star-status-among-investors-shaken-after-bank-scandal.phtml",
-      "published": "Mon, 16 Nov 2026 20:41:20 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
       "title": "The new faces of the US Congress",
       "summary": "The United States Congress is about to welcome dozens of new faces. A majority of them, Democratic, after the \"blue wave\" in the midterm elections. FRANCE 24's Washington correspondent Fraser Jackson catches up with one of these new lawmakers as they go through orientation as they prepare to take office in January. He speaks with Katy Padilla Stout, U.S. Representative-elect for Texas's 23rd congressional district.",
       "link": "https://www.france24.com/en/the-new-faces-of-the-us-congress",
       "published": "Mon, 16 Nov 2026 20:36:30 GMT",
       "source": "France 24"
-    },
-    {
-      "title": "UEFA backs Diallo to challenge Infantino for FIFA presidency",
-      "summary": "UEFA has found its candidate to take on Gianni Infantino in next year’s FIFA presidential election",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/16/uefa-backs-diallo-to-challenge-infantino-for-fifa-presidency?traffic_source=rss",
-      "published": "Mon, 16 Nov 2026 20:20:02 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "British polar ship Sir David Attenborough sails from Montevideo for Antarctica",
-      "summary": "<p>\n\t   \t      <img alt=\"A call at the Falklands is scheduled for December 8 to 13, before returning to Rothera\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112122/100x80/rss.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         The British polar ship RRS Sir David Attenborough sailed from the port of Montevideo on Saturday bound for Signy Island in the South Orkneys to continue the British Antarctic Survey’s (BAS) 2026/27 Antarctic season, in a year in which the United Kingdom is without its military polar patrol ship, HMS Protector.</p>",
-      "link": "https://en.mercopress.com/2026/11/16/british-polar-ship-sir-david-attenborough-sails-from-montevideo-for-antarctica?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Mon, 16 Nov 2026 18:57:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Miners negotiate cross-border tie-ups to unlock Argentina copper",
-      "summary": "<p><img alt=\"Daniel Mas\" src=\"https://fotos.perfil.com/2026/11/16/trim/540/304/daniel-mas-2365366.jpg\" /></p>Mining firms discuss cross-border partnerships as Argentina’s emerging copper industry looks to tap infrastructure and expertise on the Chilean side of the Andes. <a href=\"https://www.batimes.com.ar/news/economy/miners-negotiate-cross-border-tie-ups-to-unlock-argentina-copper.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/economy/miners-negotiate-cross-border-tie-ups-to-unlock-argentina-copper.phtml",
-      "published": "Mon, 16 Nov 2026 17:47:59 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
-      "title": "Pope Leo takes a helicopter ride and enjoys special performances on his return to Peru – video",
-      "summary": "<p>The pontiff is transported in a helicopter by Peruvian air force pilots in the final days of his South American tour. He has been getting a rapturous welcome across Peru, where he lived for 20 years as a missionary.</p> <a href=\"https://www.theguardian.com/world/video/2026/nov/16/pope-leo-takes-a-helicopter-ride-and-enjoys-special-performances-on-his-return-to-peru-video\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/video/2026/nov/16/pope-leo-takes-a-helicopter-ride-and-enjoys-special-performances-on-his-return-to-peru-video",
-      "published": "Mon, 16 Nov 2026 12:40:31 GMT",
-      "source": "The Guardian"
     },
     {
       "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
@@ -245,13 +266,6 @@
       "source": "NPR"
     },
     {
-      "title": "Delaware hit by rare November tornado",
-      "summary": "<p>Meanwhile, severe thunderstorms bring hailstones the size of baseballs in Argentina</p><p>The National Weather Service in the US has confirmed that an EF1 tornado touched down south-east of Newark in the Salem Woods neighbourhood, Delaware, on Thursday. The tornado reached 160 metres wide, had a path length of 4.4 miles (7.1km) and reached estimated peak winds of up to 100mph (161km/h). There were no injuries or fatalities but windows and roofs were damaged on several homes, a large hotel sign fell on to a number of cars, and a semi truck overturned on I95. Although Delaware often experiences a few tornadoes every year, this is only the second time the state has had tornado activity in November since 1950, according to the National Oceanic and Atmospheric Administration. The only other November tornado recorded was in 1989.</p><p>Severe storms have also resulted in tornadoes in Argentina as well as large hailstones. A round of severe thunderstorms moved through the central Córdoba province on Friday, bringing hailstones up to the size of a baseball (about 7.5cm in diameter). Parts of the province recorded up to 73mm of rainfall in just six hours early on Saturday. Such storms are common at this time of year. Water vapour from the Amazon meeting the Andes quickly condenses, resulting in massive cloud formations often associated with heavy downpours, lightning, tornadoes and large hailstones.</p> <a href=\"https://www.theguardian.com/environment/2026/nov/16/delaware-hit-by-rare-november-tornado\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/environment/2026/nov/16/delaware-hit-by-rare-november-tornado",
-      "published": "Mon, 16 Nov 2026 09:27:06 GMT",
-      "source": "The Guardian"
-    },
-    {
       "title": "Wife of assassinated ex-Haitian leader registers for presidential election",
       "summary": "There has not been an election in Haiti since before the death of Jovenel Moise in 2021.",
       "link": "https://www.bbc.co.uk/news/articles/cmwy83432q1jo?at_medium=RSS&at_campaign=rss",
@@ -266,18 +280,11 @@
       "source": "BBC News"
     },
     {
-      "title": "Ronaldinho makes comeback in Ravenna win",
-      "summary": "Brazil legend Ronaldinho makes his comeback aged 46 for Ravenna, playing the first half of their Italian third-tier derby against Forli.",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ckregz4g823xo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 15 Nov 2026 19:31:48 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Pope Leo rides in helicopter cockpit during Peru trip",
-      "summary": "The Pope took to the skies before arriving in Cusco on the penultimate day of his Latin America tour.",
-      "link": "https://www.bbc.co.uk/news/videos/c6pw4rl00lrjo?at_medium=RSS&at_campaign=rss",
-      "published": "Sun, 15 Nov 2026 18:38:11 GMT",
-      "source": "BBC News"
+      "title": "Mexican drug trade 'boss of bosses' Miguel Angel Felix Gallardo dies at 80",
+      "summary": "Miguel Angel Felix Gallardo, a founder of Mexico’s Guadalajara drug cartel known as the “boss of bosses”, died in hospital on Sunday aged 80 after suffering multiple organ failure, Jalisco state’s security ministry said. Imprisoned since 1989, he had been transferred from prison to the hospital two days before his death.",
+      "link": "https://www.france24.com/en/americas/20261115-miguel-angel-felix-gallardo-mexican-drug-lord-dies",
+      "published": "Sun, 15 Nov 2026 22:48:31 GMT",
+      "source": "France 24"
     },
     {
       "title": "Pope Leo’s homecoming tour puts the Church’s American footprint on display",
@@ -285,13 +292,6 @@
       "link": "https://www.latinamericareports.com/pope-leos-homecoming-tour-puts-the-churchs-american-footprint-on-display/15620/",
       "published": "Sat, 14 Nov 2026 23:22:35 +0000",
       "source": "Latin America Reports"
-    },
-    {
-      "title": "Fuel crisis and protests pressure Chile's far-right president",
-      "summary": "Chile's far-right President José Antonio Kast is facing mounting public anger, as rising fuel prices trigger transport strikes and protests across the country.",
-      "link": "https://www.npr.org/2026/11/14/nx-s1-6040144/chile-protests-fuel-kast-students",
-      "published": "Sat, 14 Nov 2026 11:05:12 -0500",
-      "source": "NPR"
     },
     {
       "title": "Pope Leo XIV leaves message of unity in four day trip to Argentina",
@@ -337,15 +337,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-11-01 12:27",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 68,
-      "incidents": 40,
-      "bovespa": 167921.8,
-      "brl_czk": 4.013
-    },
     {
       "date": "2026-11-01 14:23",
       "threat_level": "HIGH",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "bovespa": 169295.4,
       "brl_czk": 3.888
+    },
+    {
+      "date": "2026-11-17 15:25",
+      "threat_level": "MEDIUM",
+      "value": 2,
+      "sentiment_score": 45,
+      "incidents": 40,
+      "bovespa": 171514.19,
+      "brl_czk": 3.838
     }
   ],
   "locations": [
@@ -673,6 +673,20 @@
       "name_en": "Amazon"
     },
     {
+      "key": "Patagonia",
+      "lat": -41.8,
+      "lon": -68.9,
+      "name_cs": "Patagonie",
+      "name_en": "Patagonia"
+    },
+    {
+      "key": "Cuba",
+      "lat": 23.1136,
+      "lon": -82.3666,
+      "name_cs": "Havana",
+      "name_en": "Havana"
+    },
+    {
       "key": "Washington",
       "lat": 38.9072,
       "lon": -77.0369,
@@ -685,14 +699,6 @@
       "lon": 116.4074,
       "name_cs": "Peking",
       "name_en": "Beijing"
-    },
-    {
-      "key": "New York",
-      "lat": 40.71,
-      "lon": -74,
-      "name_cs": "New York",
-      "name_en": "New York",
-      "auto": true
     },
     {
       "key": "Chicago",
@@ -708,6 +714,14 @@
       "lon": -99,
       "name_cs": "Texas",
       "name_en": "Texas",
+      "auto": true
+    },
+    {
+      "key": "Florida",
+      "lat": 27.8,
+      "lon": -81.7,
+      "name_cs": "Florida",
+      "name_en": "Florida",
       "auto": true
     },
     {
@@ -759,14 +773,6 @@
       "auto": true
     },
     {
-      "key": "Indonesia",
-      "lat": -2.5,
-      "lon": 118,
-      "name_cs": "Indonésie",
-      "name_en": "Indonesia",
-      "auto": true
-    },
-    {
       "key": "Singapore",
       "lat": 1.35,
       "lon": 103.8,
@@ -775,27 +781,11 @@
       "auto": true
     },
     {
-      "key": "London",
-      "lat": 51.5,
-      "lon": -0.12,
-      "name_cs": "Londýn",
-      "name_en": "London",
-      "auto": true
-    },
-    {
       "key": "France",
       "lat": 48.86,
       "lon": 2.35,
       "name_cs": "Paříž",
       "name_en": "France",
-      "auto": true
-    },
-    {
-      "key": "Italy",
-      "lat": 41.9,
-      "lon": 12.5,
-      "name_cs": "Řím",
-      "name_en": "Italy",
       "auto": true
     },
     {
@@ -816,35 +806,35 @@
     }
   ],
   "location_counts": {
-    "Brasilia": 92,
+    "Brasilia": 93,
     "Sao Paulo": 31,
     "Rio de Janeiro": 21,
-    "Buenos Aires": 90,
-    "Santiago": 72,
-    "Lima": 62,
-    "Bogota": 92,
-    "Caracas": 81,
+    "Buenos Aires": 91,
+    "Santiago": 73,
+    "Lima": 63,
+    "Bogota": 93,
+    "Caracas": 82,
     "Quito": 59,
     "La Paz": 42,
-    "Asuncion": 35,
-    "Washington": 92,
+    "Asuncion": 36,
+    "Washington": 93,
     "New York": 2,
     "Texas": 1,
     "Colorado": 1,
     "Kanada": 1,
-    "Mexiko": 2,
+    "Mexiko": 3,
     "Venezuela": 1,
-    "Brazílie": 7,
-    "Argentina": 7,
+    "Brazílie": 5,
+    "Argentina": 5,
     "Ukrajina": 1,
     "Rusko": 1,
     "Pákistán": 1,
     "Londýn": 1,
-    "Paříž": 1,
-    "Madrid": 2,
-    "Peru": 5,
+    "Paříž": 2,
+    "Madrid": 1,
+    "Peru": 6,
     "Bolívie": 1,
-    "Montevideo": 47,
+    "Montevideo": 48,
     "Falklands": 41,
     "Ohio": 1,
     "Michigan": 3,
@@ -853,9 +843,9 @@
     "Maine": 1,
     "Indie": 1,
     "Atacama": 10,
-    "Beijing": 32,
-    "Čína": 2,
-    "Amazon": 58,
+    "Beijing": 33,
+    "Čína": 1,
+    "Amazon": 59,
     "Medellin": 7,
     "Tchaj-wan": 1,
     "Řím": 1,
@@ -874,12 +864,12 @@
     "Los Angeles": 1,
     "Paramaribo": 2,
     "Arizona": 1,
-    "Patagonia": 10,
+    "Patagonia": 11,
     "Somálsko": 1,
     "Atlanta": 1,
     "Georgetown": 12,
     "Kalifornie": 2,
-    "Cuba": 25,
+    "Cuba": 26,
     "Egypt": 2,
     "San Francisco": 1,
     "SAE": 1,
@@ -902,17 +892,9 @@
     "key": "Brasilia",
     "name_cs": "Brasília",
     "name_en": "Brasília",
-    "count": 92
+    "count": 93
   },
   "archive": [
-    {
-      "date": "2026-11-10 06:01",
-      "threat_level": "HIGH",
-      "security_status_cs": "Jižní Amerikou otřásají závažné politické krize v čele s impeachmentem paraguayského prezidenta Santiaga Peňi kvůli bankovnímu skandálu a masovými protesty proti úsporným opatřením v Argentině, podtrženými historickou návštěvou papeže Lea. Bezpečnostní situaci komplikují také nečekané vojenské údery Venezuely proti povstalcům ELN a skandály kolem exministrů či politiků napříč regionem.",
-      "security_status_en": "South America is rattled by severe political crises led by the impeachment of Paraguayan President Santiago Peña over a banking scandal and mass protests against austerity in Argentina, underscored by Pope Leo's historic visit. Security dynamics are further complicated by Venezuela's unexpected military strikes against ELN insurgents and political scandals across the region.",
-      "forecast_cs": "V nejbližších dnech se očekává stabilizace situace v Paraguayi po politických změnách a sledování reakcí argentinských trhů na papežovu návštěvu a silné odborové tlaky.",
-      "forecast_en": "In the coming days, attention will center on Paraguay's political stabilization following leadership changes and the Argentine markets' reaction to the Papal visit and strong labor pressures."
-    },
     {
       "date": "2026-11-10 14:04",
       "threat_level": "HIGH",
@@ -1016,14 +998,22 @@
       "security_status_en": "South America faces heightened tension due to political friction in Brazil, where the right-wing opposition is consolidating its Senate presence, and rising social protests in Chile over fuel prices. Meanwhile, Paraguay is dealing with a shaken investor confidence following a banking scandal linked to ex-president Peña.",
       "forecast_cs": "V nejbližších dnech se očekává sledování politických vyjednávání v brazilském Senátu, dopadů chilských protestů na dopravu a vývoje v Paraguayi po bankovním skandálu.",
       "forecast_en": "Over the coming days, attention will focus on political negotiations in the Brazilian Senate, the impact of Chilean protests on transport, and developments in Paraguay following the banking scandal."
+    },
+    {
+      "date": "2026-11-17 15:25",
+      "threat_level": "MEDIUM",
+      "security_status_cs": "Jižní Amerika se potýká s přetrvávajícími bezpečnostními riziky spojenými s narkokartely v Andském regionu, zatímco v Brazílii sílí politické napětí kolem pravicové opozice v Senátu po nedávných volbách. Ekonomická stabilita regionu je podpořena rostoucím argentinským energetickým sektorem a diplomatickou stabilitou v rámci Mercosuru.",
+      "security_status_en": "South America faces persistent security risks tied to drug cartels in the Andean region, while political tensions grow in Brazil around the right-wing opposition in the Senate following recent elections. Regional economic stability is supported by Argentina's booming energy sector and diplomatic stability within Mercosur.",
+      "forecast_cs": "V nejbližších dnech se očekává sledování politických manévrů v brazilském Senátu a reakcí trhů na vývoj v argentinském energetickém sektoru.",
+      "forecast_en": "Over the coming days, attention will focus on political maneuvers in the Brazilian Senate and market reactions to developments in Argentina's energy sector."
     }
   ],
-  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
-  "weekly_summary_en": "Over the last 7 recorded analyses: 7× HIGH.",
+  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 6× HIGH, 1× MEDIUM.",
+  "weekly_summary_en": "Over the last 7 recorded analyses: 6× HIGH, 1× MEDIUM.",
   "market_data": {
     "bovespa": {
-      "value": 169295.4,
-      "date": "2026-11-16",
+      "value": 171514.19,
+      "date": "2026-11-17",
       "cached": false
     },
     "merval": {
@@ -1032,13 +1022,13 @@
       "cached": false
     },
     "usdbrl": {
-      "value": 5.784,
+      "value": 5.7896,
       "date": "2026-11-17",
       "cached": false
     }
   },
   "brl_czk": {
-    "value": 3.888,
-    "date": "2026-11-16"
+    "value": 3.838,
+    "date": "2026-11-17"
   }
 }
