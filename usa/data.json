@@ -1,32 +1,21 @@
 {
-  "last_updated": "2026-11-17T15:18:28Z",
+  "last_updated": "2026-11-18T05:59:51Z",
   "assessment": {
-    "threat_level": "MEDIUM",
-    "sentiment_score": 52,
-    "security_status_cs": "Spojené státy se potýkají s doznívajícími technologickými výpadky v bankovním sektoru a letecké dopravě, zatímco politická scéna vstřebává výsledky mezidobých voleb a prezident zahajuje diplomatickou cestu v Asii. Makroekonomické prostředí ovlivňuje pokles cen ropy na 85 dolarů za barel a opatrnost realitního trhu, kde stavební firmy snižují ceny.",
-    "security_status_en": "The United States is dealing with subsiding technological outages in the banking sector and air travel, while the political arena absorbs midterm election results and the president embarks on a diplomatic trip to Asia. The macroeconomic environment is influenced by declining oil prices to $85 a barrel and caution in the housing market, where builders are cutting prices.",
+    "threat_level": "HIGH",
+    "sentiment_score": 68,
+    "security_status_cs": "Spojené státy čelí zvýšenému napětí na více frontách, včetně eskalace geopolitických střetů na Blízkém východě, kde Írán zaútočil na radarové zařízení v Bahrajnu. Domácí scénu rozbouřily překvapivé výsledky senátních voleb na Aljašce, které posílily demokratickou většinu, a napětí kolem Fedu či vyšetřování technologických lídrů. Ropné trhy mezitím reagují poklesem k 85 dolarům za barel díky obnoveným dodávkám.",
+    "security_status_en": "The United States faces heightened tensions on multiple fronts, including escalating geopolitical clashes in the Middle East where Iran targeted a radar facility in Bahrain. The domestic scene is shaken by surprise Senate election results in Alaska strengthening the Democratic majority, alongside tensions surrounding the Fed and investigations into tech leaders. Meanwhile, oil prices have dropped toward $85 a barrel amid recovering supplies.",
     "president_comments": [
       {
-        "topic_cs": "Zahraniční cesta a summit",
-        "topic_en": "Foreign trip and summit",
-        "statement_cs": "Prezident Trump zahájil svou cestu po Asii v Manile a plánuje se zúčastnit historického třístranného jaderného summitu s čínským prezidentem Si Ťin-pchingem a ruským prezidentem Vladimirem Putinem, přičemž zmínil i možná jednání o Ukrajině.",
-        "statement_en": "President Trump began his Asia trip in Manila and plans to attend a historic three-way nuclear summit with Chinese President Xi Jinping and Russian President Vladimir Putin, while also mentioning potential discussions on Ukraine.",
-        "comment_cs": "Geopolitická jednání na nejvyšší úrovni mohou přinést novou dynamiku do mezinárodních vztahů, což vyvolává zvýšenou pozornost na trzích komodit a globální bezpečnosti.",
-        "comment_en": "High-level geopolitical negotiations could introduce new dynamics into international relations, drawing heightened attention across commodity markets and global security.",
+        "topic_cs": "Cesta do Asie a Ukrajina",
+        "topic_en": "Asia Trip and Ukraine",
+        "statement_cs": "Prezident Trump uvedl, že během své cesty do Asie plánuje diskutovat o Ukrajině, což je v rozporu s dřívějším prohlášením Bílého domu.",
+        "statement_en": "President Trump stated that he plans to discuss Ukraine during his Asia trip, which contradicts what the White House previously announced.",
+        "comment_cs": "Toto nečekané rozšíření agendy může přinést novou dynamiku do mezinárodních jednání, ale pro trhy znamená zvýšenou geopolitickou neistotu.",
+        "comment_en": "This unexpected expansion of the agenda may inject new dynamics into international talks, but introduces increased geopolitical uncertainty for markets.",
         "market_impact": "NEUTRAL",
         "source": "NPR",
-        "date": "2026-11-17T15:18:28Z"
-      },
-      {
-        "topic_cs": "Bílý dům a rekonstrukce",
-        "topic_en": "White House and renovations",
-        "statement_cs": "V návaznosti na porážku Republikánů ve volbách prezident prosazuje další renovace Bílého domu.",
-        "statement_en": "Following the Republicans' midterm election loss, the president is pushing for more White House renovations.",
-        "comment_cs": "Tento krok slouží spíše jako politická rétorika a odvádění pozornosti od volebních výsledků, s minimálním přímým dopadem na širší ekonomiku.",
-        "comment_en": "This move serves largely as political rhetoric and a distraction from election results, with minimal direct impact on the broader economy.",
-        "market_impact": "NEUTRAL",
-        "source": "Washington Post",
-        "date": "2026-11-17T15:18:28Z"
+        "date": "2026-11-18T05:59:51Z"
       }
     ],
     "recommendations": [
@@ -34,232 +23,295 @@
         "sector_cs": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
         "sector_en": "US Broad Equity Market (S&P 500 ETFs, e.g. VOO, SPY)",
         "action": "HOLD",
-        "reason_cs": "Trhy vstřebávají výsledky voleb, technologické výpadky a kolísavou náladu v sektorech, což doporučuje vyčkávací strategii.",
-        "reason_en": "Markets are absorbing election results, tech outages, and fluctuating sector sentiment, warranting a wait-and-see strategy."
+        "reason_cs": "Trh čelí protichůdným vlivům od politických změn po makroekonomická rizika a technologickou volatilitu.",
+        "reason_en": "The market faces conflicting pressures ranging from political shifts to macroeconomic risks and technology volatility."
       },
       {
         "sector_cs": "Státní dluhopisy USA (Treasuries)",
         "sector_en": "US Treasuries",
         "action": "BUY",
-        "reason_cs": "Mírně rostoucí obavy o ekonomický růst a stabilizace inflace zvyšují atraktivitu bezpečných vládních dluhopisů.",
-        "reason_en": "Slightly growing concerns about economic growth and inflation stabilization enhance the appeal of safe-haven government bonds."
+        "reason_cs": "Obavy z možného zvýšení sazeb ze strany Fedu zvyšují atraktivitu krátkodobých výnosů státních dluhopisů.",
+        "reason_en": "Concerns over potential Fed rate hikes enhance the appeal of short-term Treasury yields."
       },
       {
         "sector_cs": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
         "sector_en": "Defense Industry (RTX, Lockheed Martin, Northrop Grumman)",
         "action": "BUY",
-        "reason_cs": "Přetrvávající geopolitické napětí a mezinárodní summity udržují poptávku po obranných systémech na vysoké úrovni.",
-        "reason_en": "Persistent geopolitical tensions and international summits keep demand for defense systems at a high level."
+        "reason_cs": "Eskalace konfliktů na Blízkém východě a mezinárodní napětí zajišťují trvalou poptávku po obranných systémech.",
+        "reason_en": "Escalating conflicts in the Middle East and international tensions ensure sustained demand for defense systems."
       },
       {
         "sector_cs": "Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)",
         "sector_en": "Banks & Financials (JPMorgan, Bank of America, Goldman Sachs)",
         "action": "HOLD",
-        "reason_cs": "Nedávné technické výpadky v bankovnictví poukázaly na provozní rizika, fundamenty velkých bank však zůstávají stabilní.",
-        "reason_en": "Recent technical outages in banking highlighted operational risks, but the fundamentals of major banks remain stable."
+        "reason_cs": "Regulační tlaky a politické manévry v Kongresu vyvažují potenciální zisky z úrokového prostředí.",
+        "reason_en": "Regulatory pressures and political maneuvers in Congress balance out potential gains from the interest rate environment."
       },
       {
         "sector_cs": "Technologický sektor (Apple, Microsoft, Nvidia)",
         "sector_en": "Technology Sector (Apple, Microsoft, Nvidia)",
         "action": "HOLD",
-        "reason_cs": "Sektor čelí mírným obavám ohledně valuací a výpadků, nicméně strukturální poptávka po AI a technologiích přetrvává.",
-        "reason_en": "The sector faces mild valuation and outage concerns, though structural demand for AI and technology persists."
+        "reason_cs": "Zvýšená pozornost Senátu vůči klíčovým osobnostem, jako je bývalý šéf Nvidie, vytváří krátkodobou nejistotu.",
+        "reason_en": "Increased Senate scrutiny on key figures like the former Nvidia CEO creates short-term uncertainty."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "České tituly jsou primárně ovlivněny domácí monetární politikou a evropským sentimentem, vliv amerických zpráv je neutrální.",
-        "reason_en": "Czech stocks are primarily influenced by domestic monetary policy and European sentiment, with neutral impact from US news."
+        "reason_cs": "Domácí tituly zůstávají primárně ovlivněny evropskými fundamenty, přičemž globální geopolitika má jen nepřímý dopad.",
+        "reason_en": "Domestic stocks remain primarily driven by European fundamentals, with global geopolitics having only an indirect impact."
       }
     ],
-    "forecast_cs": "V nejbližších dnech se očekává stabilizace technologických systémů v bankovnictví i letectví a zaměření pozornosti na výsledky asijské cesty prezidenta USA.",
-    "forecast_en": "Over the coming days, technological systems in banking and aviation are expected to stabilize, with attention shifting toward the outcomes of the US president's Asian trip.",
-    "forecast_review_cs": "Předchozí předpověď o odeznívání technologických výpadků a politických jednáních v Kongresu se plně potvrdila.",
-    "forecast_review_en": "The previous forecast regarding the subsiding of technological outages and political negotiations in Congress was fully confirmed."
+    "forecast_cs": "V nejbližších dnech se očekává pokračování diplomatických jednání v Asii a zostřená pozornost investorů vůči krokům Fedu a vývoji cen ropy.",
+    "forecast_en": "Over the coming days, diplomatic talks in Asia are expected to continue, alongside heightened investor focus on Fed actions and oil price trends.",
+    "forecast_review_cs": "Předchozí předpověď se částečně potvrdila, neboť pozornost se skutečně přesunula k asijské cestě prezidenta USA, i když technologické systémy nadále vykazují dílčí výpadky.",
+    "forecast_review_en": "The previous forecast was partially confirmed as attention did shift to the US president's Asian trip, even though technological systems continued to experience intermittent issues."
   },
   "articles": [
     {
-      "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and invest in real estate?",
-      "summary": "“Real estate here in Florida seems to be presenting some interesting opportunities.”",
-      "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
-      "published": "Tue, 17 Nov 2026 15:15:00 GMT",
-      "source": "MarketWatch"
+      "title": "How Trump lost Joe Rogan and the podcast bros – podcast",
+      "summary": "<p><strong>Reged Ahmad </strong>and<strong> Jonathan Yerushalmy </strong>take a look at how Donald Trump has lost the support of the so-called ‘podcast bros’ in the wake of the Republicans’ midterms wipeout.</p><p>They also talk about what the longest flight ground stop since 9/11 tells us about how the US government is functioning.</p><p>And why are analysts comparing Trump’s planned historic trilateral summit with China’s president, Xi Jinping, and Russia’s president, Vladimir Putin, to a certain famous photo from the end of the second world war featuring Winston Churchill, Franklin D Roosevelt and Joseph Stalin?</p><p>Read more:</p><p><strong><a href=\"https://www.theguardian.com/world/2026/nov/14/yalta-trump-xi-putin-china-apec\">Yalta became a byword for betrayal. Will Trump, Xi and Putin enact another carve-up?</a></strong></p> <a href=\"https://www.theguardian.com/us-news/audio/2026/nov/18/how-trump-lost-joe-rogan-and-the-podcast-bros-decoding-america-podcast\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/audio/2026/nov/18/how-trump-lost-joe-rogan-and-the-podcast-bros-decoding-america-podcast",
+      "published": "Wed, 18 Nov 2026 05:33:56 GMT",
+      "source": "The Guardian"
     },
     {
-      "title": "Stewart questions Trump administration's explanation for FAA outage: 'None of this makes any sense'",
-      "summary": "Jon Stewart is expressing skepticism about the Trump administration's explanation for what led to the Federal Aviation Administration's (FAA) nationwide ground stop last week. The ground stop lasted for several hours on Friday, leading to thousands of flight delays and cancellations.   FAA officials later indicated that a router at an Arkansas radio facility was one...",
-      "link": "https://thehill.com/policy/transportation/6224927-jon-stewart-daily-show-faa-ground-stop/",
-      "published": "Tue, 17 Nov 2026 15:10:02 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "American veterans targeted by schemes to steal benefits and exploit the sick, disabled: DOJ",
-      "summary": "The Justice Department launches a nationwide VA benefits fraud crackdown, charging 15 defendants in schemes with more than $3.4 million in intended losses.",
-      "link": "https://www.foxnews.com/politics/american-veterans-targeted-schemes-steal-benefits-exploit-sick-disabled-doj",
-      "published": "Tue, 17 Nov 2026 10:04:42 -0500",
-      "source": "Fox News"
-    },
-    {
-      "title": "US bank services returning to normal after major outage",
-      "summary": "Chase Bank, the largest US bank, said a software bug might be causing the issue, but that it was not \"systemic'\" or \"cyber-related\".",
-      "link": "https://www.bbc.co.uk/news/articles/cj752wvqneq6o?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 17 Nov 2026 15:04:24 GMT",
+      "title": "Democrat Mary Peltola unseats Republican in Alaska Senate race",
+      "summary": "For two weeks, the race remained too close to call but the win allows Democrats an even greater majority in the US Senate.",
+      "link": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 18 Nov 2026 04:58:50 GMT",
       "source": "BBC News"
     },
     {
-      "title": "Trump SNAP Cuts Threaten Free School Meals in Three States, Senators Warn",
-      "summary": "Democratic senators warn Trump's proposed SNAP cuts could threaten funding for free school meals in three states.",
-      "link": "https://www.newsweek.com/trump-snap-cuts-free-school-meals-threat-12726627",
-      "published": "Tue, 17 Nov 2026 10:03:58 -0500",
-      "source": "Newsweek"
+      "title": "Democrats win Alaska after Trump says voters chose wrong Dan Sullivan. What does voting data show?",
+      "summary": "Votes are still being counted in the Alaska Senate race, with Democrat Mary Peltola ahead of Republican incumbent Senator Dan S Sullivan.",
+      "link": "https://www.bbc.co.uk/news/articles/cxnv4jlr269eo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 18 Nov 2026 04:34:39 GMT",
+      "source": "BBC News"
     },
     {
-      "title": "Lisa Cook lawyer signals Fed gov won't attend Trump committee's hearing",
-      "summary": "Cook's attorney sounded more hostile than ever in his first known letter to be sent in the matter since the GOP's drubbing in the Nov. 3 midterm elections.",
-      "link": "https://www.cnbc.com/2026/11/17/lisa-cook-trump-fed-committee-hearing.html",
-      "published": "Tue, 17 Nov 2026 15:03:32 GMT",
+      "title": "Putin says EU is losing industry, falling behind competition ahead of meeting with Trump, Xi",
+      "summary": "Putin used the speech to emphasize Russia's economic resilience despite U.S. sanctions, and played up opportunities for APEC members in the country.",
+      "link": "https://www.cnbc.com/2026/11/18/putin-apec-eu-trump-xi-meeting.html",
+      "published": "Wed, 18 Nov 2026 04:27:45 GMT",
       "source": "CNBC"
     },
     {
-      "title": "Nearly half of home builders are cutting prices and offering lower mortgage rates as they struggle to find buyers",
-      "summary": "More builders are cutting prices in spite of rising construction costs that make it more expensive to build new homes.",
-      "link": "https://www.marketwatch.com/story/nearly-half-of-home-builders-are-cutting-prices-and-offering-lower-mortgage-rates-as-they-struggle-to-find-buyers-033351e1?mod=mw_rss_topstories",
-      "published": "Tue, 17 Nov 2026 15:01:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "From amusement to apocalypse: The 9 levels of our dangerous digital inferno",
-      "summary": "With the midterm elections behind us, perhaps we can pivot from the all-too-often tawdry issues that tend to dominate political campaigns and finally deal with the greatest challenge of the century.",
-      "link": "https://thehill.com/opinion/technology/6223446-ai-apocalypse-internet-levels/",
-      "published": "Tue, 17 Nov 2026 15:00:00 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Judge throws out Trump administration rule restricting foreign students' time in US",
-      "summary": "A federal judge has ruled against a Trump administration regulation that sought to put a time limit on visas for foreign students looking to study in the U.S.  The Department of Homeland Security (DHS) issued a final rule in July to limit student visas to four years, whereas previously the visa would last for as...",
-      "link": "https://thehill.com/homenews/education/6224779-foreign-student-visas-trump-dhs/",
-      "published": "Tue, 17 Nov 2026 14:59:55 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Let's be honest, no politician is coming to save you, so save yourself first",
-      "summary": "A Chicago pastor who spent 94 days on a motel roof after gang violence killed 16-year-old Carlton Archer says elections won't pay your rent.",
-      "link": "https://www.foxnews.com/opinion/lets-be-honest-no-politician-coming-save-you-save-yourself-first",
-      "published": "Tue, 17 Nov 2026 09:50:22 -0500",
-      "source": "Fox News"
-    },
-    {
-      "title": "Trump Trade Deal Could Leave $3.5 Billion Hole in Canada's Budget",
-      "summary": "Canada could lose $3.5 billion in revenue if Trump's trade war ends early, putting Carney's budget targets at risk.",
-      "link": "https://www.newsweek.com/trump-trade-deal-3-5-billion-hole-canadas-budget-12727512",
-      "published": "Tue, 17 Nov 2026 09:49:11 -0500",
-      "source": "Newsweek"
-    },
-    {
-      "title": "Hundreds protest against ex-border patrol chief Greg Bovino at Rutgers University talk",
-      "summary": "<p>New Jersey university’s Republicans club invited Bovino, who oversaw Trump’s ICE surges, to speak on campus</p><p>Hundreds protested outside a Rutgers University campus building on Monday night, jeering former border patrol commander Greg Bovino, who was inside addressing a crowd of about 25 people.</p><p>The university’s Republicans club had invited Bovino to speak, calling him the “Great Commander” and the “GOAT” in social posts promoting the event at the New Brunswick, New Jersey, campus. During the two-hour talk, the room never quite filled up, occupied mostly by journalists, club members and other students criticizing the former border patrol chief.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/17/protest-greg-bovino-rutgers-university\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/nov/17/protest-greg-bovino-rutgers-university",
-      "published": "Tue, 17 Nov 2026 14:49:01 GMT",
+      "title": "‘Aarigaa!’: the triumph of Mary Peltola’s historic US Senate win and what it means for Alaska Natives",
+      "summary": "<p>Peltola, the first Alaska Native in the US Senate, ran a campaign that drew universal issues from her own Indigenous politics</p><p>Late into the night on 3 November, while the lower 48 states were reeling from the blue wave crashing across the US, Mary Peltola took to the stage in a Sheraton Hotel ballroom in Anchorage, Alaska, to greet her supporters.</p><p>It wasn’t a victory speech as such – there would still be long days ahead before all votes could be counted across this vast arctic state. But that didn’t prevent the Democratic Senate<strong> </strong>candidate from <a href=\"https://www.youtube.com/watch?v=Zusj8N52QnQ\">expressing her elation</a>, bouncing up and down on stage, clapping her hands and clicking her fingers.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/18/mary-peltola-alaska-win-analysis\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/nov/18/mary-peltola-alaska-win-analysis",
+      "published": "Wed, 18 Nov 2026 04:25:29 GMT",
       "source": "The Guardian"
     },
     {
-      "title": "Disbanding Protest Unit Makes New York Less Safe",
-      "summary": "As a federal prosecutor, I saw criminals and terrorists use protests as cover for violence. Now the mayor is dismantling the unit trained to stop it.",
-      "link": "https://www.realclearpolitics.com/2026/11/17/disbanding_protest_unit_makes_new_york_less_safe_718072.html",
-      "published": "Tue, 17 Nov 2026 08:48:50 -0600",
-      "source": "RealClearPolitics"
+      "title": "Democrat Mary Peltola wins Alaska Senate election",
+      "summary": "Peltola's defeat of incumbent Republican Dan Sullivan gives Democrats a solid majority of 56 seats in the Senate as of January.",
+      "link": "https://www.cnbc.com/2026/11/18/alaska-senate-mary-peltola-wins-election.html",
+      "published": "Wed, 18 Nov 2026 04:18:13 GMT",
+      "source": "CNBC"
     },
     {
-      "title": "Europe Chaos Explained",
-      "summary": "Protests in Spain, France and suspected cyber attacks on supermarket freezers have heightened tensions in the continent this week.",
-      "link": "https://www.newsweek.com/europe-chaos-explained-12719914",
-      "published": "Tue, 17 Nov 2026 09:48:28 -0500",
-      "source": "Newsweek"
-    },
-    {
-      "title": "Replace, Don't Repair, the Air-Traffic Control System",
-      "summary": "Congress should start from scratch and allow one year to design a new state-of-the-art system.",
-      "link": "https://www.realclearpolitics.com/2026/11/17/replace_dont_repair_the_air-traffic_control_system_718035.html",
-      "published": "Tue, 17 Nov 2026 08:47:45 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Democrat Mary Peltola closes in on victory in closely watched US Senate race in Alaska – live",
-      "summary": "<p>Challenger nears 50% of the ballot to secure victory in final midterms contest<br /></p><ul><li><p><a href=\"https://www.theguardian.com/world/live/2026/nov/17/asean-apec-summit-2026-live-updates-trump-xi-putin-meeting-schedule-latest-news\">Protests greet Trump on Asia visit – follow live</a></p></li><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for US Breaking News email</a></p></li></ul><p><strong>As Republicans scramble to shift blame for the recent chaotic FAA flight stoppage, <a href=\"https://www.theguardian.com/us-news/jd-vance\">JD Vance</a> took a new tact, claiming a Democratic focus on transgender sports issues were to blame.</strong></p><p>During an interview on <a href=\"https://www.foxnews.com/video/6408474223112\">Fox News on Monday</a>, host Laura Ingraham pressed Vance on why his fellow Republicans had not been able to fix issues with air traffic control even though they had controlled the White House and Congress for the last two years.</p> <a href=\"https://www.theguardian.com/us-news/live/2026/nov/17/donald-trump-alaska-senate-race-midterms-democrats-republicans-latest-news-updates\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/live/2026/nov/17/donald-trump-alaska-senate-race-midterms-democrats-republicans-latest-news-updates",
-      "published": "Tue, 17 Nov 2026 14:47:02 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Mamdani Influence Felt as Dems Win Affordability Election",
-      "summary": "New York mayor's cost-of-living message inspired not just progressives but centrists in red states - and voters agreed",
-      "link": "https://www.realclearpolitics.com/2026/11/17/mamdani_influence_felt_as_dems_win_affordability_election_717988.html",
-      "published": "Tue, 17 Nov 2026 08:46:42 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Widespread service outages at major U.S. banks appear to be over",
-      "summary": "Customers at JPMorgan Chase, Bank of America and other major financial institutions reported difficulty accessing their accounts.",
-      "link": "https://www.cbsnews.com/news/banks-online-service-outages-jpmorgan-chase-bank-of-america-wells-fargo/",
-      "published": "Tue, 17 Nov 2026 09:44:16 -0500",
+      "title": "Democrats have flipped 46 House seats. Here's the breakdown.",
+      "summary": "Democrats won control of the House by flipping more than 40 Republican-held seats, picking up perennial swing districts and seats that were once considered deep red.",
+      "link": "https://www.cbsnews.com/news/house-districts-flipped-2026-midterm-elections/",
+      "published": "Tue, 17 Nov 2026 23:17:38 -0500",
       "source": "CBS News"
     },
     {
-      "title": "Hawley, Durbin introduce Roblox safety bill ahead of hearing",
-      "summary": "The legislation would allow families of individuals harmed by tech products to take their claims to court even if they agreed to the company's terms of service for private arbitration.",
-      "link": "https://www.cbsnews.com/news/roblox-bill-josh-hawley-dick-durbin/",
-      "published": "Tue, 17 Nov 2026 09:35:57 -0500",
-      "source": "CBS News"
-    },
-    {
-      "title": "Trump's $50B air traffic control overhaul faces GOP pushback after nationwide ground stop",
-      "summary": "Senate Republicans want receipts on the $12.5 billion already sent for air traffic control as the Trump administration seeks $50 billion more.",
-      "link": "https://www.foxnews.com/politics/trumps-50b-air-traffic-control-overhaul-faces-gop-pushback-after-nationwide-ground-stop",
-      "published": "Tue, 17 Nov 2026 09:29:30 -0500",
-      "source": "Fox News"
-    },
-    {
-      "title": "Cybersecurity expert breaks down recent outages",
-      "summary": "Chris Krebs, the former director of the Cybersecurity and Infrastructure Security Agency, joins \"CBS Mornings\" to break down the recent travel and banking outages.",
-      "link": "https://www.cbsnews.com/video/cybersecurity-expert-breaks-down-recent-outages/",
-      "published": "Tue, 17 Nov 2026 09:25:49 -0500",
-      "source": "CBS News"
-    },
-    {
-      "title": "Trump berates NBC reporter, says she wouldn’t notice ‘broken windows’",
-      "summary": "Trump also called Yamiche Alcindor “pathetic,” while touting his construction projects.",
-      "link": "https://www.washingtonpost.com/politics/2026/11/17/trump-berates-nbc-yamiche-alcindor-says-she-wouldnt-notice-broken-windows/",
-      "published": "Tue, 17 Nov 2026 14:24:00 +0000",
+      "title": "White House pulls FDA nominee amid political pushback",
+      "summary": "Heidi Overton has been questioned by some in the GOP, many Democrats and prominent Make America Healthy Again supporters.",
+      "link": "https://www.washingtonpost.com/health/2026/11/17/white-house-pulls-fda-nominee-amid-bipartisan-pushback/",
+      "published": "Wed, 18 Nov 2026 03:48:40 +0000",
       "source": "Washington Post"
     },
     {
-      "title": "JD Vance blames Democrats for flight stoppage, claiming ‘obsession with men in women’s sports’",
-      "summary": "<p>The stoppage was seemingly caused by the transition from copper telecommunication lines</p><p>As Republicans scramble to shift blame for the recent chaotic FAA flight stoppage, <a href=\"https://www.theguardian.com/us-news/jd-vance\">JD Vance</a> took a new tact, claiming a Democratic focus on transgender sports issues were to blame.</p><p>During an interview on <a href=\"https://www.foxnews.com/video/6408474223112\">Fox News on Monday</a>, host Laura Ingraham pressed Vance on why his fellow Republicans had not been able to fix issues with air traffic control even though they had controlled the White House and Congress for the last two years.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/17/jd-vance-democrats-trans-sports-flight-stoppage\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/nov/17/jd-vance-democrats-trans-sports-flight-stoppage",
-      "published": "Tue, 17 Nov 2026 14:20:30 GMT",
-      "source": "The Guardian"
+      "title": "Huang agrees to testify before Senate Banking panel",
+      "summary": "Former Nvidia CEO Jensen Huang has agreed to testify before the Senate Banking Committee, a spokesperson for Chair Tim Scott (R-S.C.) confirmed Tuesday. Lawmakers have ramped up scrutiny of Huang’s alleged extramarital affair with suspected Chinese spy Alice Huang, who worked as an executive at computing company Megaspeed, over concerns that China may have gained...",
+      "link": "https://thehill.com/homenews/senate/6227038-jensen-huang-senate-testify/",
+      "published": "Wed, 18 Nov 2026 03:48:10 +0000",
+      "source": "The Hill"
     },
     {
-      "title": "Republicans should ask whether the 2026 election was a replay of Trump’s 2016 victory",
-      "summary": "Republicans may be learning the same hard lesson Democrats faced in 2016, as voters demand real results on jobs, affordable homes and groceries.",
-      "link": "https://www.foxnews.com/opinion/republicans-ask-whether-2026-election-replay-trumps-2016-victory",
-      "published": "Tue, 17 Nov 2026 09:00:10 -0500",
+      "title": "Mary Peltola wins Alaska Senate race, flipping seat for Dems",
+      "summary": "Peltola, 53, became the first Democrat to represent Alaska in the House in 50 years in 2022.",
+      "link": "https://www.cbsnews.com/news/alaska-2026-senate-sullivan-peltola/",
+      "published": "Tue, 17 Nov 2026 22:47:12 -0500",
+      "source": "CBS News"
+    },
+    {
+      "title": "Video shows ICE agent pepper spraying pregnant U.S. citizen",
+      "summary": "Video circulating on social media shows ICE officers throwing a 23-year-old woman, Lizbeth Vargas Andrade, to the ground during a detainment outside of the jail.",
+      "link": "https://thehill.com/homenews/6226621-video-shows-ice-agent-pepper-spraying-pregnant-u-s-citizen/",
+      "published": "Wed, 18 Nov 2026 03:43:52 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "China’s Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin",
+      "summary": "Xi opened the APEC summit in Shenzhen by calling for lower trade and investment barriers, pledging broader access to China’s market and manufacturing sector.",
+      "link": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html",
+      "published": "Wed, 18 Nov 2026 03:30:51 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Peltola win doesn’t end DOJ scrutiny of Alaska Senate race, officials say",
+      "summary": "A criminal case is probing whether a spoiler candidate was recruited in an effort to confuse voters.",
+      "link": "https://www.washingtonpost.com/national-security/2026/11/17/peltola-win-doesnt-end-doj-scrutiny-alaska-senate-race-officials-say/",
+      "published": "Wed, 18 Nov 2026 03:28:22 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Alaska Dem Peltola defeats Sullivan, flipping 9th GOP Senate seat after 'decoy Dan' uproar",
+      "summary": "Democrats seized a 56-44 majority in the U.S. Senate after Mary Peltola defeated Alaska Republican Sen. Dan S. Sullivan in a race that featured a same-name ballot challenger.",
+      "link": "https://www.foxnews.com/politics/alaska-dem-peltola-defeats-sullivan-flipping-gop-senate-seat-decoy-dan-uproar",
+      "published": "Tue, 17 Nov 2026 22:27:24 -0500",
       "source": "Fox News"
     },
     {
-      "title": "Republicans outspent Democrats for first time in over a decade in record 2026 midterm election political ad blitz",
-      "summary": "Republicans slightly outspent Democrats for the first time as Democrats swept national and state elections.",
-      "link": "https://www.cnbc.com/2026/11/17/2026-election-political-ad-spending.html",
-      "published": "Tue, 17 Nov 2026 14:00:02 GMT",
+      "title": "Mary Peltola flips Alaska's Senate seat into Democrats' column",
+      "summary": "Former Democratic Rep. Mary Peltola has narrowly won Alaska's U.S. Senate race, toppling the Republican incumbent, according to a race call by The Associated Press.",
+      "link": "https://www.npr.org/2026/11/17/g-s1-151567/alaska-senate-results-peltola-sullivan",
+      "published": "Tue, 17 Nov 2026 22:27:23 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "Three things to watch as Trump, Xi and Putin meet in China",
+      "summary": "U.S. President Donald Trump, Chinese President Xi Jinping and Russian President Vladimir Putin are set to meet in Shenzhen alongside an APEC leaders' meeting.",
+      "link": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html",
+      "published": "Wed, 18 Nov 2026 03:25:32 GMT",
       "source": "CNBC"
     },
     {
-      "title": "Trump has arrived in Asia. Here’s what he said about Iran and Deutsche Bank",
-      "summary": "Trump threatens Iran and responds to a tax leak report as his Asia trip begins.",
-      "link": "https://www.cnbc.com/2026/11/17/trump-iran-asia-trip-china.html",
-      "published": "Tue, 17 Nov 2026 13:44:02 GMT",
-      "source": "CNBC"
+      "title": "Mary Peltola beats Republican Dan Sullivan in Alaska to give Democrats 56 Senate seats",
+      "summary": "<p>Republican incumbent beaten in race dominated by controversy over second candidate named Dan Sullivan</p><p>Democrat Mary Peltola will be Alaska’s next senator after beating the Republican incumbent Dan Sullivan, with the result called two weeks on from midterm elections which saw Donald Trump’s party lose ground across the country.</p><p>Peltola, a former US House lawmaker, is the first Democrat the state has elected to the Senate since 2008. Her victory comes just two years after Alaska voters unseated her while supporting Trump by a double-digit margin.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/17/mary-peltola-alaska-senate-race\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/nov/17/mary-peltola-alaska-senate-race",
+      "published": "Wed, 18 Nov 2026 03:25:14 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Midterm Buyer's Remorse Is Inevitable",
+      "summary": "Voting Democrat in 2028 won't be the same as voting Democrat in 2026. Americans should remember that to get the results they want.",
+      "link": "https://www.realclearpolitics.com/2026/11/17/midterm_buyers_remorse_is_inevitable_718142.html",
+      "published": "Tue, 17 Nov 2026 21:24:53 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Rural Voters Within Reach for Democrats?",
+      "summary": "Rural voters have overwhelmingly voted for Republicans in recent decades but Election Day saw Democrats make gains with rural Americans. Why?",
+      "link": "https://www.realclearpolitics.com/2026/11/16/rural_voters_within_reach_for_democrats_717964.html",
+      "published": "Tue, 17 Nov 2026 21:23:43 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "A Political War Is Coming Over 'Boomer Conservatism'",
+      "summary": "Telling young people that the economy isn't holding them back is a losing issue for Republicans.",
+      "link": "https://www.realclearpolitics.com/2026/11/17/a_political_war_is_coming_over_boomer_conservatism_718131.html",
+      "published": "Tue, 17 Nov 2026 21:23:04 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Mary Peltola flips Republican Senate seat in Alaska",
+      "summary": "Former Rep. Mary Peltola, a Democrat, is projected to win the race for Senate in Alaska, defeating GOP incumbent Sen. Dan Sullivan and flipping a seat for the Democratic Party, according to Decision Desk HQ.  With 94 percent reporting according to DDHQ, Peltola has 50.12 percent of the vote to Sullivan's 45.79 percent, which puts...",
+      "link": "https://thehill.com/homenews/campaign/6176074-peltola-wins-alaska-senate/",
+      "published": "Wed, 18 Nov 2026 03:21:19 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Mary Peltola flips Alaska seat, giving Democrats a 56-44 edge in Senate",
+      "summary": "The race was the last to be called in the Senate, securing Democrats a historic sweep of nine new seats.",
+      "link": "https://www.washingtonpost.com/politics/2026/11/17/alaska-senate-election-live-results-mary-peltola-defeats-dan-sullivan/",
+      "published": "Wed, 18 Nov 2026 03:20:01 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "White House pulls nomination of Heidi Overton to lead Food and Drug Administration – as it happened",
+      "summary": "<p>This live blog is now closed.</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/2026/nov/17/white-house-withdraws-heidi-overton-fda\">White House withdraws nomination of Heidi Overton to lead FDA</a></p></li><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for US Breaking News email</a></p></li></ul><p><strong>Abdul El-Sayed</strong>, the Democratic-Senator elect from Michigan, said today that he would be happy to work with the Trump administration to pass one of his tentpole policy agenda items – Medicare For All.</p><p><strong>“Everybody’s like, ‘ah well, you’d work with Donald Trump to get Medicare For All?’. I’m like hell yeah, because the point for me is Medicare For All. I don’t care who puts their name on it. I need to go back and talk to Michiganders, and I need to know that our service made their lives easier,”</strong> he said at the Atlantic Summit in Washington DC.</p> <a href=\"https://www.theguardian.com/us-news/live/2026/nov/17/donald-trump-alaska-senate-race-midterms-democrats-republicans-latest-news-updates\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/live/2026/nov/17/donald-trump-alaska-senate-race-midterms-democrats-republicans-latest-news-updates",
+      "published": "Wed, 18 Nov 2026 02:57:58 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Former Yankees slugger Mark Teixeira celebrates as Congress’s version of Mr Irrelevant at office lottery",
+      "summary": "Mark Teixeira drew chip No. 105 of 105 in the House freshman office lottery, earning Congress's \"Mr. Irrelevant\" tag and a playful un-victory lap.",
+      "link": "https://www.foxnews.com/outkick-sports/former-yankees-slugger-mark-teixeira-celebrates-congress-version-mr-irrelevant-office-lottery",
+      "published": "Tue, 17 Nov 2026 21:35:13 -0500",
+      "source": "Fox News"
+    },
+    {
+      "title": "Pakistani man sentenced to 27 years for Iran-backed plot to kill Trump",
+      "summary": "Asif Merchant was found guilty in March of trying to hire undercover FBI agents as hitmen to assassinate US officials, including the president.",
+      "link": "https://www.bbc.co.uk/news/articles/cm15ezz8n394o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 18 Nov 2026 02:29:52 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "8-year-old detained by ICE in San Diego released from custody",
+      "summary": "The Department of Homeland Security previously confirmed that ICE agents placed the child in federal care after he attended a check-in appointment with a man the agency said claimed to be the boy's uncle.",
+      "link": "https://www.cbsnews.com/news/8-year-old-detained-ice-released-custody/",
+      "published": "Tue, 17 Nov 2026 21:10:00 -0500",
+      "source": "CBS News"
+    },
+    {
+      "title": "Irishman charged with destroying US military aircraft with axe",
+      "summary": "The $60m (£45m) plane was destroyed in an hours-long raid by an anti-war protester, according to the FBI.",
+      "link": "https://www.bbc.co.uk/news/articles/cwd01jjl5zzzo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 18 Nov 2026 02:00:37 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "New lawsuit alleges AI app 'Bron' used LeBron James’ tattoos, voice and jersey to promote sports-betting tool",
+      "summary": "LeBron James alleges an AI sports-betting app called \"Bron\" faked his endorsement, with its ad viewed about 1 million times before it was taken down.",
+      "link": "https://www.foxnews.com/outkick-sports/lawsuit-alleges-ai-app-bron-used-lebron-james-tattoos-voice-jersey-promote-sports-betting-tool",
+      "published": "Tue, 17 Nov 2026 20:58:10 -0500",
+      "source": "Fox News"
+    },
+    {
+      "title": "Pentagon sued by The Intercept, Freedom of the Press Foundation over alleged 'blacklist' of news outlets",
+      "summary": "The Freedom of the Press Foundation and The Intercept sued the Pentagon over an alleged journalist blacklist, citing a CENTCOM warning to journalist Nick Turse.",
+      "link": "https://www.foxnews.com/media/pentagon-sued-intercept-freedom-press-foundation-alleged-blacklist-news-outlets",
+      "published": "Tue, 17 Nov 2026 20:30:40 -0500",
+      "source": "Fox News"
+    },
+    {
+      "title": "Senate majority leader fight intensifies as Schumer, Van Hollen dig in",
+      "summary": "Both Democrats are back in Washington and seeking to make their case to colleagues before a scheduled vote Dec. 1 by secret ballot.",
+      "link": "https://www.washingtonpost.com/politics/2026/11/17/senate-majority-leader-fight-intensifies-schumer-van-hollen-dig/",
+      "published": "Wed, 18 Nov 2026 00:00:33 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Ecuadorian fishermen sue U.S. over drone attack they say sank their boat",
+      "summary": "Crew members of La Negra Francisca Duarte II, which was attacked in March, filed the suit in federal court in the western district of Pennsylvania.",
+      "link": "https://www.washingtonpost.com/investigations/2026/11/17/ecuadorian-fishermen-sue-us-over-drone-attack-they-say-sank-boat/",
+      "published": "Tue, 17 Nov 2026 23:44:29 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "‘Nvidia’s turmoil has me spooked’: Has the time come to sell my stocks?",
+      "summary": "“Real estate here in Florida seems to be presenting some interesting opportunities.”",
+      "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+      "published": "Tue, 17 Nov 2026 22:15:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
+      "summary": "Don’t rule out a half-point interest-rate hike in December, BofA Global’s rates team said.",
+      "link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
+      "published": "Tue, 17 Nov 2026 22:08:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Iran launches a third round of strikes on Bahrain, host of U.S. Navy's 5th Fleet",
+      "summary": "Iran fired drones on Tuesday at a U.S. radar facility in Bahrain, and the U.S. retaliated by firing at Iranian targets along an important shipping route.",
+      "link": "https://www.npr.org/2026/11/17/nx-s1-6044255/us-iran-war-latest-bahrain",
+      "published": "Tue, 17 Nov 2026 13:34:31 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "Fed official Lisa Cook refuses to attend White House firing hearing, citing bias",
+      "summary": "Federal Reserve governor Lisa Cook won’t take part in a Dec. 14 White House hearing on whether to fire her unless the panel and its rules change, her lawyer said in a letter Monday. Letters exchanged since September show the two sides clashing over dates, documents and whether Trump’s top economic adviser can judge her fairly.",
+      "link": "https://www.washingtonpost.com/business/2026/11/17/fed-official-lisa-cook-refuses-attend-white-house-firing-hearing-citing-bias/",
+      "published": "Tue, 17 Nov 2026 16:49:21 +0000",
+      "source": "Washington Post"
     },
     {
       "title": "Trump is in Asia ahead of Xi, Putin summit. And, tech leaders want Huang back at Nvidia",
@@ -269,60 +321,18 @@
       "source": "NPR"
     },
     {
-      "title": "Trump arrives in Philippines to kick off Asia trip",
-      "summary": "Manila is President Trump's first stop on a three-day trip that will later take him to China for historic three-way nuclear talks with Chinese President Xi Jinping and Russian President Vladimir Putin.",
-      "link": "https://www.npr.org/2026/11/17/nx-s1-6043702/trump-arrives-philippines",
-      "published": "Tue, 17 Nov 2026 05:43:55 -0500",
+      "title": "Sen. Jack Reed says FAA needs a real plan, not just more money",
+      "summary": "Sen. Jack Reed raised concerns about FAA oversight of contractors after last week's nationwide ground stop and criticized the Trump administration's request for $50 billion in additional funding.",
+      "link": "https://www.npr.org/2026/11/17/nx-s1-6042514/jack-reed-faa-oversight-ground-stop-funding",
+      "published": "Tue, 17 Nov 2026 06:58:42 -0500",
       "source": "NPR"
     },
     {
-      "title": "After years of attacks, LGBTQ voters are ready for some wins",
-      "summary": "With Democrats slated to take total control of Congress next year, political operatives and organizations are ready to make demands.",
-      "link": "https://www.washingtonpost.com/politics/2026/11/17/after-years-attacks-lgbtq-voters-are-ready-some-wins/",
-      "published": "Tue, 17 Nov 2026 10:38:48 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Will President Trump meet Kim Jong Un?",
-      "summary": "President Trump says he would be keen to meet the North Korea leader in China.",
-      "link": "https://www.bbc.co.uk/news/videos/c6grew79p7qdo?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 17 Nov 2026 10:13:27 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "ICE is using decades-old, minor violations to detain green-card holders",
+      "title": "ICE is detaining green-card holders over decades-old, minor violations",
       "summary": "Authorities are detaining people over charges that did not come up when applying for or renewing green cards and that in the past would have resulted in a citation — not an effort to remove legal status.",
       "link": "https://www.washingtonpost.com/immigration/2026/11/17/they-had-green-cards-years-then-they-were-detained-by-ice/",
       "published": "Tue, 17 Nov 2026 10:00:00 +0000",
       "source": "Washington Post"
-    },
-    {
-      "title": "Trump pushes more White House renovations in wake of GOP midterm loss",
-      "summary": "The president has claimed he is paying for the White House makeover, but the Park Service is set to foot much of the bill.",
-      "link": "https://www.washingtonpost.com/politics/2026/11/17/trump-continues-press-white-house-renovations-despite-midterm-loss/",
-      "published": "Tue, 17 Nov 2026 10:00:00 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial attacks escalate",
-      "summary": "A Ukrainian drone and missile attack prepared over several weeks struck a vital Russian rail and road bridge to the occupied Crimean Peninsula, Ukrainian President Volodymyr Zelenskyy said Tuesday.",
-      "link": "https://www.npr.org/2026/11/17/g-s1-153946/russia-ukraine-war",
-      "published": "Tue, 17 Nov 2026 04:50:45 -0500",
-      "source": "NPR"
-    },
-    {
-      "title": "Morning news brief",
-      "summary": "The FAA says it will rethink how it upgrades its aging system after nationwide ground stop, Trump to hold joint summit with leaders of China and Russia, Silicon Valley reacts to Nvidia scandal.",
-      "link": "https://www.npr.org/2026/11/17/nx-s1-6042259/morning-news-brief",
-      "published": "Tue, 17 Nov 2026 04:46:54 -0500",
-      "source": "NPR"
-    },
-    {
-      "title": "Trump says Alaska voters chose the wrong Dan Sullivan. What does the data show?",
-      "summary": "Votes are still being counted in the Alaska Senate race, with Democrat Mary Peltola ahead of Republican incumbent Senator Dan S Sullivan.",
-      "link": "https://www.bbc.co.uk/news/articles/cxnv4jlr269eo?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 17 Nov 2026 02:38:08 GMT",
-      "source": "BBC News"
     },
     {
       "title": "United Airlines hit by tech issues days after nationwide ground stop",
@@ -337,39 +347,9 @@
       "link": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
       "published": "Mon, 16 Nov 2026 22:19:02 GMT",
       "source": "CNBC"
-    },
-    {
-      "title": "Student accepted to Va. law school after sex assault finding is no longer enrolled",
-      "summary": "Students staged a protest Monday morning after a Washington Post report",
-      "link": "https://www.washingtonpost.com/investigations/2026/11/16/student-accepted-va-law-school-after-sex-assault-finding-is-no-longer-enrolled/",
-      "published": "Mon, 16 Nov 2026 20:01:57 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
-      "summary": "",
-      "link": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html",
-      "published": "Mon, 16 Nov 2026 18:46:07 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
-      "summary": "Eric Trump-backed robot startup Foundation Future Industries has run low on cash and missed payroll, as CEO Sankaet Pathak faces scrutiny over a $4.6 million company loan.",
-      "link": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html",
-      "published": "Mon, 16 Nov 2026 17:14:13 GMT",
-      "source": "CNBC"
     }
   ],
   "history": [
-    {
-      "date": "2026-11-02 06:00",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 70,
-      "incidents": 3,
-      "sp500": 7580.07,
-      "usd_czk": 21.798
-    },
     {
       "date": "2026-11-02 14:23",
       "threat_level": "HIGH",
@@ -630,6 +610,15 @@
       "incidents": 10,
       "sp500": 7379.32,
       "usd_czk": 22.192
+    },
+    {
+      "date": "2026-11-18 05:59",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 68,
+      "incidents": 3,
+      "sp500": 7340.53,
+      "usd_czk": 22.192
     }
   ],
   "locations": [
@@ -639,20 +628,6 @@
       "lon": -77.0369,
       "name_cs": "Washington, D.C.",
       "name_en": "Washington, D.C."
-    },
-    {
-      "key": "New York",
-      "lat": 40.7128,
-      "lon": -74.006,
-      "name_cs": "New York",
-      "name_en": "New York"
-    },
-    {
-      "key": "Chicago",
-      "lat": 41.8781,
-      "lon": -87.6298,
-      "name_cs": "Chicago",
-      "name_en": "Chicago"
     },
     {
       "key": "Florida",
@@ -669,18 +644,18 @@
       "name_en": "California"
     },
     {
-      "key": "Border",
-      "lat": 31.7619,
-      "lon": -106.485,
-      "name_cs": "Hranice s Mexikem (El Paso)",
-      "name_en": "US-Mexico Border (El Paso)"
+      "key": "Michigan",
+      "lat": 44.3148,
+      "lon": -85.6024,
+      "name_cs": "Michigan",
+      "name_en": "Michigan"
     },
     {
-      "key": "New Jersey",
-      "lat": 40.0583,
-      "lon": -74.4057,
-      "name_cs": "New Jersey",
-      "name_en": "New Jersey"
+      "key": "Pennsylvania",
+      "lat": 41.2033,
+      "lon": -77.1945,
+      "name_cs": "Pensylvánie",
+      "name_en": "Pennsylvania"
     },
     {
       "key": "Alaska",
@@ -688,13 +663,6 @@
       "lon": -149.4937,
       "name_cs": "Aljaška",
       "name_en": "Alaska"
-    },
-    {
-      "key": "Canada",
-      "lat": 56.1304,
-      "lon": -106.3468,
-      "name_cs": "Kanada",
-      "name_en": "Canada"
     },
     {
       "key": "San Francisco",
@@ -737,36 +705,36 @@
       "auto": true
     },
     {
-      "key": "North Korea",
-      "lat": 40,
-      "lon": 127,
-      "name_cs": "Severní Korea",
-      "name_en": "North Korea",
+      "key": "Pakistan",
+      "lat": 30.4,
+      "lon": 69.3,
+      "name_cs": "Pákistán",
+      "name_en": "Pakistan",
       "auto": true
     },
     {
-      "key": "France",
-      "lat": 48.86,
-      "lon": 2.35,
-      "name_cs": "Paříž",
-      "name_en": "France",
+      "key": "Brussels",
+      "lat": 50.85,
+      "lon": 4.35,
+      "name_cs": "Brusel",
+      "name_en": "Brussels",
       "auto": true
     },
     {
-      "key": "Spain",
-      "lat": 40.4,
-      "lon": -3.7,
-      "name_cs": "Madrid",
-      "name_en": "Spain",
+      "key": "Ecuador",
+      "lat": -1.8,
+      "lon": -78.2,
+      "name_cs": "Ekvádor",
+      "name_en": "Ecuador",
       "auto": true
     }
   ],
   "location_counts": {
-    "Florida": 59,
+    "Florida": 60,
     "Texas": 92,
-    "Washington": 101,
+    "Washington": 102,
     "New York": 76,
-    "California": 71,
+    "California": 72,
     "Capitol": 29,
     "Border": 32,
     "Los Angeles": 1,
@@ -775,10 +743,10 @@
     "Colorado": 23,
     "Canada": 30,
     "Brazílie": 1,
-    "Ukrajina": 2,
+    "Ukrajina": 1,
     "Rusko": 3,
-    "Írán": 1,
-    "Čína": 3,
+    "Írán": 2,
+    "Čína": 4,
     "Tchaj-wan": 1,
     "Japonsko": 1,
     "Pákistán": 1,
@@ -786,12 +754,12 @@
     "Paříž": 1,
     "Madrid": 1,
     "Kolumbie": 1,
-    "San Francisco": 2,
+    "San Francisco": 1,
     "Venezuela": 1,
     "Hongkong": 1,
     "Indie": 1,
     "Berlín": 1,
-    "Michigan": 3,
+    "Michigan": 4,
     "Georgia": 23,
     "Maine": 28,
     "Mexico": 20,
@@ -803,14 +771,14 @@
     "Virginia": 16,
     "Izrael": 1,
     "Austrálie": 1,
-    "Alaska": 43,
+    "Alaska": 44,
     "Jižní Korea": 1,
     "Severní Korea": 1,
     "New Jersey": 9,
     "Afghánistán": 1,
     "Louisiana": 14,
     "Egypt": 1,
-    "Pennsylvania": 19,
+    "Pennsylvania": 20,
     "North Carolina": 13,
     "Brusel": 1,
     "Wisconsin": 9,
@@ -830,7 +798,7 @@
     "Argentina": 2,
     "Praha": 1,
     "Sýrie": 1,
-    "Ekvádor": 2,
+    "Ekvádor": 1,
     "Puerto Rico": 1,
     "SAE": 1,
     "Katar": 1,
@@ -846,17 +814,9 @@
     "key": "Washington",
     "name_cs": "Washington, D.C.",
     "name_en": "Washington, D.C.",
-    "count": 101
+    "count": 102
   },
   "archive": [
-    {
-      "date": "2026-11-11 06:00",
-      "threat_level": "HIGH",
-      "security_status_cs": "Spojené státy čelí zvýšenému napětí kvůli politickým střetům v Kongresu ohledně neúspěšného pokusu o impeachment ministra obrany a hrozbám vůči vládním představitelům. Makroekonomické prostředí zatěžují rostoucí výnosy státních dluhopisů a přetrvávající inflační tlaky s možným dalším utηtováváním měnové politiky Fedu.",
-      "security_status_en": "The United States is facing heightened tensions due to congressional political clashes over the failed impeachment attempt against the defense secretary and security threats against government officials. The macroeconomic environment is burdened by rising Treasury yields and persistent inflationary pressures with potential further monetary tightening by the Fed.",
-      "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na akciových trzích v návaznosti na vývoj výnosů dluhopisů a debatu o prosincovém zasedání Fedu.",
-      "forecast_en": "Continued volatility in equity markets is expected over the coming days following bond yield trajectories and the debate over the December Fed meeting."
-    },
     {
       "date": "2026-11-11 13:19",
       "threat_level": "MEDIUM",
@@ -960,23 +920,31 @@
       "security_status_en": "The United States is dealing with subsiding technological outages in the banking sector and air travel, while the political arena absorbs midterm election results and the president embarks on a diplomatic trip to Asia. The macroeconomic environment is influenced by declining oil prices to $85 a barrel and caution in the housing market, where builders are cutting prices.",
       "forecast_cs": "V nejbližších dnech se očekává stabilizace technologických systémů v bankovnictví i letectví a zaměření pozornosti na výsledky asijské cesty prezidenta USA.",
       "forecast_en": "Over the coming days, technological systems in banking and aviation are expected to stabilize, with attention shifting toward the outcomes of the US president's Asian trip."
+    },
+    {
+      "date": "2026-11-18 05:59",
+      "threat_level": "HIGH",
+      "security_status_cs": "Spojené státy čelí zvýšenému napětí na více frontách, včetně eskalace geopolitických střetů na Blízkém východě, kde Írán zaútočil na radarové zařízení v Bahrajnu. Domácí scénu rozbouřily překvapivé výsledky senátních voleb na Aljašce, které posílily demokratickou většinu, a napětí kolem Fedu či vyšetřování technologických lídrů. Ropné trhy mezitím reagují poklesem k 85 dolarům za barel díky obnoveným dodávkám.",
+      "security_status_en": "The United States faces heightened tensions on multiple fronts, including escalating geopolitical clashes in the Middle East where Iran targeted a radar facility in Bahrain. The domestic scene is shaken by surprise Senate election results in Alaska strengthening the Democratic majority, alongside tensions surrounding the Fed and investigations into tech leaders. Meanwhile, oil prices have dropped toward $85 a barrel amid recovering supplies.",
+      "forecast_cs": "V nejbližších dnech se očekává pokračování diplomatických jednání v Asii a zostřená pozornost investorů vůči krokům Fedu a vývoji cen ropy.",
+      "forecast_en": "Over the coming days, diplomatic talks in Asia are expected to continue, alongside heightened investor focus on Fed actions and oil price trends."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 5× HIGH, 2× MEDIUM.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 5× HIGH, 2× MEDIUM.",
   "market_data": {
     "sp500": {
-      "value": 7379.32,
+      "value": 7340.53,
       "date": "2026-11-17",
       "cached": false
     },
     "dow": {
-      "value": 51203.55,
+      "value": 50759.42,
       "date": "2026-11-17",
       "cached": false
     },
     "yield10y": {
-      "value": 5.14,
+      "value": 5.1,
       "date": "2026-11-17",
       "cached": false
     }
