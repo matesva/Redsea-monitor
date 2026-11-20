@@ -1,270 +1,341 @@
 {
-  "last_updated": "2026-11-19T15:03:54Z",
+  "last_updated": "2026-11-20T06:00:09Z",
   "assessment": {
-    "threat_level": "HIGH",
-    "sentiment_score": 70,
-    "security_status_cs": "Chyba při automatické analýze AI.",
-    "security_status_en": "Error during automated AI analysis.",
+    "threat_level": "MEDIUM",
+    "sentiment_score": 45,
+    "security_status_cs": "Spojené státy čelí vlně technologických výpadků a kybernetických incidentů, které vedly k výměně šéfa kybernetické bezpečnosti v Bílém domě. Federální rezervní systém mezitím varuje před inflačními tlaky poháněnými boomem umělé inteligence a energetické infrastruktury, zatímco Senát posunul kupředu klíčovou legislativu pro reformu povolování datových center.",
+    "security_status_en": "The United States is facing a wave of tech outages and cybersecurity incidents that led to a leadership change in White House cybersecurity. Meanwhile, the Federal Reserve warns of inflationary pressures fueled by the AI and energy infrastructure boom, while the Senate advanced key permitting reform legislation for data centers.",
     "president_comments": [
       {
-        "topic_cs": "Technologické výpadky",
-        "topic_en": "Tech Outages",
-        "statement_cs": "Prezident Trump vyzval Američany, aby zachovali klid ohledně nedávných technologických výpadků a hromadění zásob, a ujistil, že situace je pod kontrolou.",
-        "statement_en": "President Trump urged Americans to relax regarding recent tech outages and panic buying, assuring that everything is good and under control.",
-        "comment_cs": "Tento projev má za cíl uklidnit veřejnost a zmírnit paniku na trzích, i když technické problémy vyvolávají obavy o kybernetickou bezpečnost.",
-        "comment_en": "This statement aims to calm the public and ease market panic, even though the technical glitches raise cybersecurity concerns.",
+        "topic_cs": "Zahraniční summit a vztahy s Ruskem a Čínou",
+        "topic_en": "Foreign Summit and Relations with Russia and China",
+        "statement_cs": "Prezident Trump se zúčastnil historického trilaterálního setkání s čínským prezidentem Si Ťin-pchingem a ruským prezidentem Vladimirem Putinem v Číně, kde ocenil svůj skvělý vztah s Putinem a diskutoval o válce na Ukrajině.",
+        "statement_en": "President Trump participated in a historic trilateral meeting with Chinese President Xi Jinping and Russian President Vladimir Putin in China, where he praised his great relationship with Putin and discussed the Ukraine war.",
+        "comment_cs": "Setkání mělo spíše symbolický a optický charakter bez hlubších substantiálních průlomů, což má na trhy a geopolitiku neutrální dopad.",
+        "comment_en": "The meeting carried more optical than substantive significance, having a neutral impact on markets and geopolitics.",
         "market_impact": "NEUTRAL",
-        "source": "The Hill",
-        "date": "2026-11-19T05:59:52Z"
+        "source": "CNBC",
+        "date": "2026-11-20T06:00:08Z"
       },
       {
-        "topic_cs": "Jensen Huang a Nvidia",
-        "topic_en": "Jensen Huang and Nvidia",
-        "statement_cs": "Trump se zastal bývalého šéfa Nvidie Jensena Huanga v souvislosti se špionážním skandálem v Číně a prohlásil, že Amerika musí chránit své génie.",
-        "statement_en": "Trump defended ex-Nvidia CEO Jensen Huang amid a China spy scandal, stating that America must take care of its geniuses.",
-        "comment_cs": "Podpora technologických lídrů může podpořit sentiment v technologickém sektoru, avšak geopolitická rizika kolem čipů přetrvávají.",
-        "comment_en": "Backing tech leaders can support sentiment in the tech sector, though geopolitical chip risks persist.",
+        "topic_cs": "Investiční portfolio a nákupy aktiv",
+        "topic_en": "Investment Portfolio and Asset Purchases",
+        "statement_cs": "Zveřejněné finanční záznamy ukázaly, že prezident Trump v září nakoupil akcie společnosti Nvidia, dluhopisy SpaceX a akcie Tesly v době rostoucích federálních zakázek a vazeb na Bílý dům.",
+        "statement_en": "Financial disclosures revealed that President Trump purchased Nvidia stock, SpaceX debt, and Tesla shares in September amid growing federal deals and White House ties.",
+        "comment_cs": "Tyto transakce podtrhují úzké propojení politických kroků administrativy s technologickým a obranným sektorem, což může vyvolat etickou diskuzi, ale krátkodobě to podporuje důvěru v tyto akcie.",
+        "comment_en": "These transactions underscore the close link between the administration's policies and the tech and defense sectors, potentially sparking ethics debates while bolstering confidence in these stocks short-term.",
         "market_impact": "POSITIVE",
-        "source": "Newsweek",
-        "date": "2026-11-19T05:59:52Z"
+        "source": "CNBC",
+        "date": "2026-11-20T06:00:08Z"
       }
     ],
-    "recommendations": [],
-    "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
-    "forecast_en": "Failed to generate forecast.",
-    "forecast_review_cs": "N/A",
-    "forecast_review_en": "N/A"
+    "recommendations": [
+      {
+        "sector_cs": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
+        "sector_en": "US Broad Equity Market (S&P 500 ETFs, e.g. VOO, SPY)",
+        "action": "HOLD",
+        "reason_cs": "Trhy procházejí korekcí a obavami z inflace způsobené AI, avšak legislativní pokrok v energetických reformách tlumí širší propady.",
+        "reason_en": "Markets are correcting amid AI-driven inflation concerns, though legislative progress on energy reforms cushions broader declines."
+      },
+      {
+        "sector_cs": "Státní dluhopisy USA (Treasuries)",
+        "sector_en": "US Treasuries",
+        "action": "HOLD",
+        "reason_cs": "Vyhlídky na další možné zvyšování sazeb ze strany Fedu v důsledku inflačních tlaků udržují výnosy dluhopisů pod stálým tlakem.",
+        "reason_en": "Prospects of further potential Fed rate hikes due to inflationary pressures keep bond yields under persistent pressure."
+      },
+      {
+        "sector_cs": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
+        "sector_en": "Defense Industry (RTX, Lockheed Martin, Northrop Grumman)",
+        "action": "BUY",
+        "reason_cs": "Stabilní vládní zakázky a geopolitické napětí nadále poskytují obrannému sektoru solidní základnu pro růst.",
+        "reason_en": "Stable government contracts and geopolitical tensions continue to provide a solid foundation for growth in the defense sector."
+      },
+      {
+        "sector_cs": "Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)",
+        "sector_en": "Banks & Financials (JPMorgan, Bank of America, Goldman Sachs)",
+        "action": "HOLD",
+        "reason_cs": "Finanční sektor se vypořádává s přetrvávajícími obavami ohledně kybernetické bezpečnosti třetích stran a stabilitou sazeb.",
+        "reason_en": "The financial sector is dealing with lingering concerns regarding third-party cybersecurity and interest rate stability."
+      },
+      {
+        "sector_cs": "Technologický sektor (Apple, Microsoft, Nvidia)",
+        "sector_en": "Technology Sector (Apple, Microsoft, Nvidia)",
+        "action": "HOLD",
+        "reason_cs": "Zatímco poptávka po AI pohání trh vpřed, nedávné výprodeje, obavy z inflace a tlak na exportní kontroly do Číny zvyšují volatilitu.",
+        "reason_en": "While AI demand drives the market forward, recent sell-offs, inflation worries, and export control pressures on China increase volatility."
+      },
+      {
+        "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
+        "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
+        "action": "HOLD",
+        "reason_cs": "Domácí tituly na pražské burze zůstávají vůči aktuálním americkým makroekonomickým a technologickým výkyvům relativně izolované.",
+        "reason_en": "Domestic titles on the Prague Stock Exchange remain relatively insulated from current US macroeconomic and tech fluctuations."
+      }
+    ],
+    "forecast_cs": "V nejbližších dnech lze očekávat zvýšenou volatilitu v technologickém sektoru a pokračující diskuse o federálních výdajích a inflaci spojené s rozvojem AI infrastruktury.",
+    "forecast_en": "Over the coming days, heightened volatility in the tech sector and ongoing discussions regarding federal spending and inflation tied to AI infrastructure development are expected.",
+    "forecast_review_cs": "Žádná předchozí předpověď k vyhodnocení.",
+    "forecast_review_en": "No previous forecast to evaluate."
   },
   "articles": [
     {
-      "title": "Trump says Americans should ‘relax’ as Washington scrambles to get to the bottom of outages",
-      "summary": "The Trump administration and Congress have been rushing to address the series of technology failures that have hit the U.S. over the past week, with Vice President J.D. Vance withdrawing from an event Wednesday in order to take part in meetings on the issue.",
-      "link": "https://www.marketwatch.com/story/washington-is-scrambling-to-get-to-the-bottom-of-the-growing-number-of-tech-outages-across-america-66fbf299?mod=mw_rss_topstories",
-      "published": "Thu, 19 Nov 2026 15:01:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Trump displays an all-male lineup of top aides on Asia trip",
-      "summary": "The delegation traveling with the president had an absence of women in senior roles not seen in decades.",
-      "link": "https://www.washingtonpost.com/politics/2026/11/19/trump-displays-an-all-male-lineup-top-aides-asia-trip/",
-      "published": "Thu, 19 Nov 2026 15:00:00 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Will the midterm mandate bring real change?",
-      "summary": "Following the Nov. 3 midterm elections, the incoming Congress faces intense political maneuvering as House Republicans elect Jim Jordan as minority leader and Democrats prepare to advance legislative priorities such as healthcare reform and investigations into the Trump administration.",
-      "link": "https://thehill.com/opinion/congress-blog/6228266-house-senate-party-shifts/",
-      "published": "Thu, 19 Nov 2026 15:00:00 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "European Union Hit By 'AI-Generated' Cyber Attack",
-      "summary": "A spokesman said the \"AI-generated cybercampaign\" was detected on October 22.",
-      "link": "https://www.newsweek.com/european-union-hit-by-ai-generated-cyber-attack-12740975",
-      "published": "Thu, 19 Nov 2026 09:54:43 -0500",
-      "source": "Newsweek"
-    },
-    {
-      "title": "Senate Democrat: Trump administration not creating 'air of confidence' with response to outages",
-      "summary": "Sen. Ruben Gallego (D-Ariz.) said the Trump administration is not inspiring confidence among the public with their responses to recent widespread technology outages that the country has been grappling with. “The president and his administration need to be actively trying to encourage confidence,” Gallego said during an appearance on CNN. “This is not a partisan...",
-      "link": "https://thehill.com/policy/technology/6229998-gallego-criticizes-trump-outages/",
-      "published": "Thu, 19 Nov 2026 14:54:17 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "AOC leaves door open to 2028 presidential run, signals willingness to work with Trump",
-      "summary": "Alexandria Ocasio-Cortez would not rule out a 2028 White House run, saying her focus is getting results for people after Democrats reclaimed the House majority.",
-      "link": "https://www.foxnews.com/politics/aoc-leaves-door-open-2028-presidential-run-signals-willingness-work-trump",
-      "published": "Thu, 19 Nov 2026 09:52:29 -0500",
+      "title": "Pro-life group says Trump admin didn't give key abortion drug commitments before Overton FDA nomination pulled",
+      "summary": "Susan B. Anthony Pro-Life America opposed Heidi Overton's FDA confirmation until the Trump administration committed to ending mail-order abortion drugs.",
+      "link": "https://www.foxnews.com/politics/pro-life-group-says-trump-admin-didnt-give-key-abortion-drug-commitments-overton-fda-nomination-pulled",
+      "published": "Fri, 20 Nov 2026 00:32:52 -0500",
       "source": "Fox News"
     },
     {
-      "title": "Why Micron, Intel and other AI stocks are getting a lift on Thursday",
-      "summary": "Anthropic’s IPO is one big reason — but there’s also optimism about Texas’s data-center landscape and a new buyback program from optical company Coherent.",
-      "link": "https://www.marketwatch.com/story/why-micron-intel-and-other-ai-stocks-are-getting-a-lift-on-thursday-cf6f59f8?mod=mw_rss_topstories",
-      "published": "Thu, 19 Nov 2026 14:52:00 GMT",
-      "source": "MarketWatch"
+      "title": "Quinnipiac Mount Carmel Campus on Lockdown: What We Know as Police Search",
+      "summary": "The university told people to stay inside amid reports of a possible gunman Thursday night.",
+      "link": "https://www.newsweek.com/quinnipiac-mount-carmel-campus-on-lockdown-what-we-know-as-police-search-12744876",
+      "published": "Fri, 20 Nov 2026 00:24:05 -0500",
+      "source": "Newsweek"
     },
     {
-      "title": "El-Sayed downplays antisemitism concerns over rhetoric, says people 'should be uncomfortable' over Gaza",
-      "summary": "Michigan Democratic Sen.-elect Abdul El-Sayed dismissed fears that his criticism of Israel could potentially fuel more antisemitism when asked by The Atlantic.",
-      "link": "https://www.foxnews.com/media/el-sayed-downplays-antisemitism-concerns-over-rhetoric-says-people-should-uncomfortable-over-gaza",
-      "published": "Thu, 19 Nov 2026 09:51:18 -0500",
-      "source": "Fox News"
+      "title": "Gavin Newsom Wants California to Have Power to Shut Down 'Rogue' AI",
+      "summary": "California Governor Gavin Newsom unveiled an AI safety framework, which would create an AI \"kill switch.\"",
+      "link": "https://www.newsweek.com/gavin-newsom-wants-california-to-have-power-to-shut-down-rogue-ai-12744536",
+      "published": "Thu, 19 Nov 2026 23:43:55 -0500",
+      "source": "Newsweek"
     },
     {
-      "title": "Watch live: FEMA chief testifies before House on disaster preparedness",
-      "summary": "Federal Emergency Management Agency (FEMA) Administrator Cameron Hamilton is set to testify Thursday before a House Homeland Security subcommittee as lawmakers examine the agency’s disaster preparedness and response capabilities. Lawmakers are expected to examine FEMA's future, including its disaster assistance programs, preparedness grants, staffing and President Trump's push to shift more emergency management responsibilities to...",
-      "link": "https://thehill.com/homenews/house/6229989-watch-live-fema-chief-testimony-house-hearing-disaster-preparedness/",
-      "published": "Thu, 19 Nov 2026 14:47:15 +0000",
+      "title": "Trump DOJ Abruptly Drops 'Two Sullivans' Alaska Fight After Peltola Win",
+      "summary": "Trump’s DOJ drops its ‘Decoy Dan’ lawsuit to block Mary Peltola’s Alaska Senate win, calling it moot. The criminal probe goes on.",
+      "link": "https://www.newsweek.com/trump-doj-abruptly-drops-two-sullivans-alaska-fight-after-peltola-win-12744654",
+      "published": "Thu, 19 Nov 2026 23:34:14 -0500",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Melania Trump marks world premiere of Prime Video docuseries",
+      "summary": "NEW YORK — Melania Trump is celebrating her docuseries debut, stepping out for a Hollywood-style premiere of \"Melania: The Series.\" The first lady traded the White House for the black — rather than red — carpet on Thursday night, as she marked the forthcoming release of her two-part Prime Video series. \"You will see my...",
+      "link": "https://thehill.com/blogs/in-the-know/6232403-melania-trump-prime-video-series/",
+      "published": "Fri, 20 Nov 2026 04:23:02 +0000",
       "source": "The Hill"
     },
     {
-      "title": "Hakeem Jeffries on brink of House history as he tells Democrats to ‘fight Maga, not each other’ – US politics live",
-      "summary": "<p>Democrats resoundingly nominated Jeffries to serve as speaker of the House when the new Congress is sworn in next year</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email</a></p></li></ul><p>The National Security Agency is seeing<strong> a third day of disruptions to its internal network, NSA Net, which allows staff to share highly classified information with each other</strong>, according to the New York Times.</p><p>The Times reports that employees at the NSA’s Maryland headquarters are under “code orange” for Thursday day shift, which requires non-essential workers are to stay home unless contacted by their supervisors.</p><p><strong>A secret, closed-door election:</strong> Unlike the public speaker of the House vote, where lawmakers cast ballots on the chamber floor, the Senate leadership contest takes place behind closed doors. Senators vote by secret ballot, and individual votes are not disclosed.</p><p><strong>The winner only needs a caucus majority:</strong> The Democratic leadership race is decided solely by members of the party’s Senate caucus. Now that Democrats are set to have 56 seats in the new year, the winner will need secure 29 votes for the top role.</p><p><strong>The vote is scheduled for next month:</strong> As things stand, the election is set for <strong>1 December</strong>. Both incumbent senators and incoming Democratic members will participate, while retiring and outgoing senators will not vote, despite many having publicly weighed in on the race.</p><p><strong>Republicans choose their leaders separately:</strong> <a href=\"https://www.theguardian.com/us-news/republicans\">Republicans</a> hold their own closed-door leadership elections in both chambers. Earlier this month, House Republicans selected hardliner <strong>Jim Jordan</strong> as their leader after <strong>Mike Johnson </strong>opted not to run for minority leader. In the Senate, Republicans unanimously backed <strong>John Thune</strong> to continue leading the conference.</p> <a href=\"https://www.theguardian.com/us-news/live/2026/nov/19/hakeem-jeffries-us-politics-demicrats-republicans-latest-news-updates\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/live/2026/nov/19/hakeem-jeffries-us-politics-demicrats-republicans-latest-news-updates",
-      "published": "Thu, 19 Nov 2026 14:45:24 GMT",
-      "source": "The Guardian"
+      "title": "Texans finally get first win at home in 2026 season, dismantling lowly Colts to keep playoff dreams alive",
+      "summary": "C.J. Stroud's 42-yard strike to Nico Collins and a suffocating Texans defense crushed Daniel Jones as Houston snapped its 0-4 home skid at NRG Stadium.",
+      "link": "https://www.foxnews.com/outkick-sports/texans-finally-get-first-win-home-2026-season-dismantling-lowly-colts-keep-playoff-dreams-alive",
+      "published": "Thu, 19 Nov 2026 23:20:40 -0500",
+      "source": "Fox News"
     },
     {
-      "title": "Foundation Releases Alternative to Trump’s Triumphal Arch",
-      "summary": "Two Harvard landscape architecture students have come up with alternatives to Trump's triumphal arch.",
-      "link": "https://www.newsweek.com/foundation-releases-alternative-to-trumps-triumphal-arch-12739450",
-      "published": "Thu, 19 Nov 2026 09:31:15 -0500",
-      "source": "Newsweek"
+      "title": "Army postpones controlled lead detonation after pleas from Iowa lawmakers",
+      "summary": "Acting Army Secretary Adam Telle announced he would be postponing Friday’s detonations of lead azide barrels in Iowa amid heavy pushback from lawmakers who say they were given short notice about the planned explosions.  “Public safety is the Army’s top priority, and I have directed Army Materiel Command to postpone tomorrow’s controlled detonation at the...",
+      "link": "https://thehill.com/homenews/state-watch/6232362-army-postpones-iowa-detonations/",
+      "published": "Fri, 20 Nov 2026 03:57:32 +0000",
+      "source": "The Hill"
     },
     {
-      "title": "Investors are rushing back into cybersecurity stocks after a string of outages. Here’s what to know before buying.",
-      "summary": "The theme is increasingly attractive to investors, and Wall Street has taken notice .",
-      "link": "https://www.marketwatch.com/story/investors-are-rushing-back-into-cybersecurity-stocks-after-a-string-of-outages-heres-what-to-know-before-buying-09e41107?mod=mw_rss_topstories",
-      "published": "Thu, 19 Nov 2026 14:31:00 GMT",
-      "source": "MarketWatch"
+      "title": "Senate passes BAAJA permitting reform bill backed by AI, energy sectors",
+      "summary": "The permitting bill's Senate passage is a key step to it becoming law, but it would also need to clear the House before heading to President Trump's desk.",
+      "link": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html",
+      "published": "Fri, 20 Nov 2026 03:56:17 GMT",
+      "source": "CNBC"
     },
     {
-      "title": "'Power Blip' Causes Systemwide Water Problems in South Carolina",
-      "summary": "A boil water advisory notice was issued after a power blip disrupted water supply in South Carolina.",
-      "link": "https://www.newsweek.com/power-blip-causes-systemwide-water-problems-in-south-carolina-12740642",
-      "published": "Thu, 19 Nov 2026 09:19:09 -0500",
-      "source": "Newsweek"
-    },
-    {
-      "title": "Americans remain skeptical after wave of outages",
-      "summary": "Americans remain skeptical after a wave of tech outages over the last week, despite the Trump administration's insistence that there are no cybersecurity threats. Jo Ling Kent reports.",
-      "link": "https://www.cbsnews.com/video/americans-remain-skeptical-after-wave-of-outages/",
-      "published": "Thu, 19 Nov 2026 09:17:33 -0500",
+      "title": "DOJ moves to dismiss lawsuit over Alaska Senate race",
+      "summary": "The Trump administration is moving to effectively drop its legal challenge to Democrat Mary Peltola's win in Alaska's Senate race.",
+      "link": "https://www.cbsnews.com/news/trump-administration-dismiss-alaska-senate-lawsuit/",
+      "published": "Thu, 19 Nov 2026 22:55:45 -0500",
       "source": "CBS News"
     },
     {
-      "title": "Kash Patel skips House hearing after Mar-a-Lago gala with $50,000 access",
-      "summary": "Kash Patel missed a congressional hearing after appearing the night before at a Mar-a-Lago gala offering donors of $50,000 access to top officials.",
-      "link": "https://www.cnbc.com/2026/11/18/kash-patel-hearing-mar-a-lago-gala.html",
-      "published": "Thu, 19 Nov 2026 14:15:18 GMT",
-      "source": "CNBC"
+      "title": "GOP 'Lame Duck' Congress Needs To Quack",
+      "summary": "Tim Murtaugh, Washington Times <br />",
+      "link": "https://www.realclearpolitics.com/congress/links/gop-lame-duck-congress-needs-to-quack-2026-11-19",
+      "published": "Thu, 19 Nov 2026 21:35:08 -0600",
+      "source": "RealClearPolitics"
     },
     {
-      "title": "Trump takes 500 actions to weaken cancer protections, new report says",
-      "summary": "<p>Natural Resources Defense Council shows how federal rules changes will spike up public’s exposure to carcinogens</p><p>Amid a <a href=\"https://www.theguardian.com/society/2026/oct/06/cancer-rates-rising-more-quickly-among-younger-people-international-study-finds\">rise in early onset cancer</a>, the <a href=\"https://www.theguardian.com/us-news/trump-administration\">Trump administration</a> has taken more than 500 actions to systematically dismantle protections against carcinogens once in place across the federal government, an October <a href=\"https://www.nrdc.org/resources/trump-administrations-pro-cancer-agenda\">report alleges</a>.</p><p>The Natural Resources Defense Council report, and comments from current and former officials from the Environmental Protection Agency (EPA), bring into focus how myriad changes in federal rules or protocol will dramatically increase the public’s exposure to carcinogens. These are taking effect at a time when some forms of early onset cancer are spiking by about 30% per decade.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/05/trump-cancer-carcinogen-regulation\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/nov/05/trump-cancer-carcinogen-regulation",
-      "published": "Thu, 19 Nov 2026 14:15:15 GMT",
-      "source": "The Guardian"
+      "title": "The 120th Congress Shapes Up",
+      "summary": "Carolina Lumetta, RealClearPolitics <br />",
+      "link": "https://www.realclearpolitics.com/congress/links/the-120th-congress-shapes-up-2026-11-19",
+      "published": "Thu, 19 Nov 2026 21:35:08 -0600",
+      "source": "RealClearPolitics"
     },
     {
-      "title": "Details emerge on South Carolina \"stand your ground\" murder case",
-      "summary": "New details are emerging in a South Carolina shooting case where two men are claiming self-defense under the state's \"stand your ground\" law. Tom Hanson reports.",
-      "link": "https://www.cbsnews.com/video/details-emerge-on-south-carolina-stand-your-ground-murder-case/",
-      "published": "Thu, 19 Nov 2026 09:13:35 -0500",
-      "source": "CBS News"
+      "title": "Trump, Xi, Putin Summit Makes History But Not Much Else",
+      "summary": "Charlie Campbell, Time <br /> The platitude-rich trilateral had more optical than substantive significance.",
+      "link": "https://www.realclearpolitics.com/foreign-policy-national-security/links/trump-xi-putin-summit-makes-history-but-not-much-else-2026-11-19",
+      "published": "Thu, 19 Nov 2026 21:35:08 -0600",
+      "source": "RealClearPolitics"
     },
     {
-      "title": "Trump says U.S., China, Russia ‘uniquely positioned’ to discuss reducing nuclear weapons at historic meeting",
-      "summary": "The leaders of the U.S., China and Russia met in Shenzhen on Thursday for a rare trilateral gathering.",
-      "link": "https://www.cnbc.com/2026/11/19/trump-xi-putin-trilateral-meeting-china.html",
-      "published": "Thu, 19 Nov 2026 14:05:23 GMT",
-      "source": "CNBC"
+      "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
+      "summary": "Tempted to ditch stocks for property or CDs? Take a deep breath before making any sudden moves.",
+      "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+      "published": "Fri, 20 Nov 2026 03:31:00 GMT",
+      "source": "MarketWatch"
     },
     {
-      "title": "‘A new day in the Senate’: 56-seat majority gives Democrats fuel to take on Trump",
-      "summary": "<p>Party wins biggest majority since Obama and one unthinkable two years ago – now the hard work of investigating and lawmaking begins</p><p>It’s official: when Democrats take control of the Senate next year, they’ll have 56 seats, their largest majority in nearly two decades and one that appeared unthinkable at the outset of Donald Trump’s return to power two years ago.</p><p>The landslide victory was confirmed on Tuesday, when the lengthy ballot-counting process in Alaska ended with Democrat Mary Peltola <a href=\"https://www.theguardian.com/us-news/2026/nov/17/mary-peltola-alaska-senate-race\">defeating</a> the incumbent Dan Sullivan, who became the ninth Republican to see their seat taken by the opposition in a midterm election that produced a political earthquake.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/19/democrats-senate-majority-midterms-trump\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/nov/19/democrats-senate-majority-midterms-trump",
-      "published": "Thu, 19 Nov 2026 14:00:52 GMT",
-      "source": "The Guardian"
+      "title": "DOJ looks to dismiss Alaska Senate lawsuit",
+      "summary": "The Department of Justice (DOJ) is looking to dismiss its lawsuit that was focused on blocking the certification of Alaska’s Senate race if Sen.-elect Mary Peltola (D) won, according to Thursday court filings.  This case centered on the DOJ’s anger over the presence of a spoiler candidate who shared the same name as incumbent Sen....",
+      "link": "https://thehill.com/regulation/court-battles/6232324-doj-seeks-alaska-senate-lawsuit-dismissal/",
+      "published": "Fri, 20 Nov 2026 03:25:33 +0000",
+      "source": "The Hill"
     },
     {
-      "title": "‘The Vow’ star Jace Cates gets emotional over Sean Lowe’s advice on finding the one",
-      "summary": "\"Chris Harrison's The Vow\" star Jace Cates continues his search for a wife on the Fox Nation reality show.",
-      "link": "https://www.foxnews.com/entertainment/the-vow-star-jace-cates-gets-emotional-over-sean-lowes-advice-finding-the-one",
-      "published": "Thu, 19 Nov 2026 09:00:24 -0500",
+      "title": "Senate Republicans break through Washington gridlock with massive American energy, data center overhaul",
+      "summary": "Senate Republicans advanced a sweeping permitting bill to speed environmental review, expand the electric grid and limit legal challenges on projects.",
+      "link": "https://www.foxnews.com/politics/senate-republicans-break-through-washington-gridlock-massive-american-energy-data-center-overhaul",
+      "published": "Thu, 19 Nov 2026 22:19:33 -0500",
       "source": "Fox News"
     },
     {
-      "title": "Jensen Huang Saga Has Reinvigorated China Hawks",
-      "summary": "For much of the past year, the Trump administration had adopted trade practices and rhetoric toward China that were largely focused on maintaining a detente with Beijing.",
-      "link": "https://www.realclearpolitics.com/2026/11/19/jensen_huang_saga_has_reinvigorated_china_hawks_718292.html",
-      "published": "Thu, 19 Nov 2026 07:56:26 -0600",
-      "source": "RealClearPolitics"
+      "title": "Texas botches execution of Reinaldo Dennes as staffers struggle to find vein",
+      "summary": "<p>Dennes, 70, was convicted of killing a Houston jeweler, and groaned for an hour after pentobarbital was administered</p><p>Texas executed Reinaldo Dennes on Thursday in a procedure that took over an hour as prison staffers struggled to find a suitable vein for the two intravenous needles carrying a lethal dose of pentobarbital, a sedative.</p><p>Dennes, who was found guilty of capital murder in the death of Janos Szucs, a diamond dealer found shot multiple times in his Houston office in January 1996, was the second person put to death in the US on Thursday, after Florida carried out a record-breaking 20th execution of the year, of Thomas Mitchell Overton.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/19/record-executions-florida-texas\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/nov/19/record-executions-florida-texas",
+      "published": "Fri, 20 Nov 2026 02:50:29 GMT",
+      "source": "The Guardian"
     },
     {
-      "title": "Flooding GOP Primaries With Democrats",
-      "summary": "Some center-left groups are trying to change state laws to make it more difficult for conservatives to win Republican primary elections. Or, as they euphemistically phrase it, to ensure that general election candidates are \"more moderate\" and \"less polarizing.\"",
-      "link": "https://www.realclearpolitics.com/articles/2026/11/19/flooding_gop_primaries_with_democrats_154696.html",
-      "published": "Thu, 19 Nov 2026 07:51:06 -0600",
-      "source": "RealClearPolitics"
+      "title": "Trump DoJ moves to drop legal challenge to Mary Peltola’s Alaska Senate win",
+      "summary": "<p>President had sought to block results if Democrat won race that featured two candidates named Dan Sullivan</p><p>In a legal filing on Thursday, the Trump administration <a href=\"https://storage.courtlistener.com/recap/gov.uscourts.ca9.8a0b432c-0e24-4384-bbb1-a17023532ab5/gov.uscourts.ca9.8a0b432c-0e24-4384-bbb1-a17023532ab5.39.0.pdf\">asked a federal appeals court</a> to dismiss the lawsuit it filed before the midterm elections seeking to block the certification of the US Senate race in Alaska should Democrat Mary Peltola win.</p><p>The legal challenge centered around the presence on the ballot of a second candidate with the same name as the incumbent, Republican senator Dan Sullivan. The Alaska supreme court already ruled that the second Sullivan’s candidacy was legal and that he could be on the ballot.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/19/trump-mary-peltola-alaska-senate\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/nov/19/trump-mary-peltola-alaska-senate",
+      "published": "Fri, 20 Nov 2026 02:43:33 GMT",
+      "source": "The Guardian"
     },
     {
-      "title": "Trump Says Tech Outages Are ‘Fine.' Who Believes Him?",
-      "summary": "Americans have been searching for answers.",
-      "link": "https://www.realclearpolitics.com/2026/11/19/trump_says_tech_outages_are_lsquofine_who_believes_him_718346.html",
-      "published": "Thu, 19 Nov 2026 07:49:49 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "At historic summit, Xi and Putin share global stage with weakened Trump",
-      "summary": "The president’s first trilateral meeting with the leaders of China and Russia highlighted a shifting global order but resulted in little consensus.",
-      "link": "https://www.washingtonpost.com/politics/2026/11/18/trump-xi-putin-meet-with-conflicting-agendas-sharp-divides/",
-      "published": "Thu, 19 Nov 2026 12:51:53 +0000",
+      "title": "White House replaces top cybersecurity official after string of outages",
+      "summary": "The departure of Sean Cairncross continues the ouster of aides associated with former chief of staff Susie Wiles.",
+      "link": "https://www.washingtonpost.com/politics/2026/11/19/white-house-replaces-top-cybersecurity-official/",
+      "published": "Fri, 20 Nov 2026 02:42:03 +0000",
       "source": "Washington Post"
     },
     {
-      "title": "Anthropic gave $40M to an AI safety group. Most of the candidates it backed won.",
-      "summary": "As discussions of AI regulations accelerate, the company spent the past year pouring money into groups that spent big on the U.S. midterm elections.",
-      "link": "https://www.washingtonpost.com/technology/2026/11/19/anthropic-gave-40m-an-ai-safety-group-most-candidates-it-backed-won/",
-      "published": "Thu, 19 Nov 2026 12:30:00 +0000",
+      "title": "Justice Dept. drops appeal in bid to delay certification of Alaska Senate win",
+      "summary": "The DOJ said that since ballots had been counted, it was impossible to carry out the type of investigation it had sought.",
+      "link": "https://www.washingtonpost.com/national-security/2026/11/19/justice-dept-drops-appeal-bid-delay-certification-alaska-senate-win/",
+      "published": "Fri, 20 Nov 2026 01:30:54 +0000",
       "source": "Washington Post"
     },
     {
-      "title": "Top U.N. court rules Myanmar committed genocide against the Rohingya",
-      "summary": "The International Court of Justice found that Myanmar security forces \"acted with genocidal intent\" against the Rohingya during the 2017 military operations in the northern Rakhine State.",
-      "link": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya",
-      "published": "Thu, 19 Nov 2026 07:29:41 -0500",
-      "source": "NPR"
+      "title": "White House cyber director ousted after US hit by wave of tech outages",
+      "summary": "<p>Sean Cairncross exits after outages that sparked fierce criticism, with DoD official Kirsten Davies to take over</p><p>White House national ⁠cyber director Sean ⁠Cairncross ​was ousted from his job, a person close to the White House told Reuters on Thursday, ⁠days after tech outages hit US air travel, banking and national security systems.</p><p>Cairncross oversaw cybersecurity policy and ⁠strategy across the federal government. Department of Defense chief information officer ​Kirsten Davies will ‌assume the position ‌temporarily, according to the source.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/19/white-house-cyber-director-ousted\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/nov/19/white-house-cyber-director-ousted",
+      "published": "Fri, 20 Nov 2026 01:25:05 GMT",
+      "source": "The Guardian"
     },
     {
-      "title": "Denmark ratifies Trump security deal over Greenland after months of diplomatic tensions",
-      "summary": "It follows months of tensions after President Donald Trump repeatedly said the U.S. should take control of Greenland for national security reasons.",
-      "link": "https://www.cnbc.com/2026/11/19/greenland-denmark-trump-security-military-bases.html",
-      "published": "Thu, 19 Nov 2026 12:02:08 GMT",
+      "title": "A child support fight exposed a Trump adviser’s $15 million income",
+      "summary": "Jason Miller’s income rose sharply after Trump’s return to power, court records show. The longtime aide’s firms kept receiving payments after he began appearing more regularly at the White House.",
+      "link": "https://www.washingtonpost.com/politics/2026/11/19/trump-adviser-jason-millers-firms-took-15-million-court-records-show/",
+      "published": "Fri, 20 Nov 2026 01:18:18 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Here are the GTA 6 songs you'll hear cruising around Vice City",
+      "summary": "Grand Theft Auto 6 players carry out missions to songs by artists such as Cardi B, Lana Del Rey and Travis Scott.",
+      "link": "https://www.cbsnews.com/news/gta-6-soundtrack-songs-vice-city/",
+      "published": "Thu, 19 Nov 2026 20:00:18 -0500",
+      "source": "CBS News"
+    },
+    {
+      "title": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
+      "summary": "Members of Congress have pushed in the wake of the Jensen Huang scandal for legislation to tighten export controls on chip sales to China.",
+      "link": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
+      "published": "Fri, 20 Nov 2026 00:53:55 GMT",
       "source": "CNBC"
     },
     {
-      "title": "'Frustrated' - Democrats remain a divided party despite winning big in midterms",
-      "summary": "After winning power in Congress, a Democratic conference in Denver was animated with talk on the best way forward.",
-      "link": "https://www.bbc.co.uk/news/articles/c6174edpp5e8o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 19 Nov 2026 11:43:06 GMT",
+      "title": "Trump posthumously pardons US baseball legend Pete Rose",
+      "summary": "Rose, who died in 2024, was given a lifetime ban from the sport for betting on games but was reinstated last year.",
+      "link": "https://www.bbc.co.uk/news/articles/cx1l0pm7l9jmo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 19 Nov 2026 23:51:50 GMT",
       "source": "BBC News"
     },
     {
-      "title": "Incoming House majority leader Katherine Clark stresses Democratic unity",
-      "summary": "As Democrats prepare to take control of the House, incoming majority leader Katherine Clark discusses the party's ambitious agenda and divisions within its ranks.",
-      "link": "https://www.npr.org/2026/11/19/nx-s1-6045750/katherine-clark-hakeem-jeffries-house-democrats",
-      "published": "Thu, 19 Nov 2026 06:20:42 -0500",
-      "source": "NPR"
+      "title": "AI fueling \"disturbingly high\" inflation, Chicago Fed president says",
+      "summary": "A boom in data center construction across the U.S. and broader investment in AI are contributing to hot inflation, according to Chicago Fed President Austan Goolsbee.",
+      "link": "https://www.cbsnews.com/news/ai-boom-inflation-chicago-fed-goolsbee/",
+      "published": "Thu, 19 Nov 2026 18:40:06 -0500",
+      "source": "CBS News"
     },
     {
-      "title": "Justice Dept.’s cascade of voter fraud cases slows to a trickle post-midterms",
-      "summary": "Prosecutors filed scores of cases in the weeks leading up to the Nov. 3 elections, but very few since the Democratic wave.",
-      "link": "https://www.washingtonpost.com/immigration/2026/11/19/justice-depts-cascade-voter-fraud-cases-slows-trickle-post-midterms/",
-      "published": "Thu, 19 Nov 2026 10:00:00 +0000",
+      "title": "These were the only stocks that rose amid the stock market’s wipeout Thursday",
+      "summary": "All 11 sectors of the S&P 500 declined — 10 of them by more than 1% — but cybersecurity stocks bucked the weakness.",
+      "link": "https://www.marketwatch.com/story/these-were-the-only-stocks-that-rose-amid-the-stock-markets-wipeout-thursday-1eaf32ba?mod=mw_rss_topstories",
+      "published": "Thu, 19 Nov 2026 23:11:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Intuit’s downbeat outlook deepens Wall Street’s anxiety about software companies",
+      "summary": "TurboTax maker Intuit gives investors a fresh reason to worry about legacy software companies.",
+      "link": "https://www.marketwatch.com/story/intuits-downbeat-outlook-deepens-wall-streets-anxiety-about-software-companies-15b878e5?mod=mw_rss_topstories",
+      "published": "Thu, 19 Nov 2026 22:53:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Judge finds Thomas Markle mentally fit to stand trial on child abuse charges",
+      "summary": "Markle, who has denied possessing images of child sex abuse was deemed competent after an evaluation by a court-appointed psychiatrist.",
+      "link": "https://www.bbc.co.uk/news/articles/crgj35ldz2zxo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 19 Nov 2026 22:48:22 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Court to hear appeal that could lead to dismissal of Lindsay Clancy case",
+      "summary": "Clancy’s lawyers argue that trying the Massachusetts mother on first-degree murder charges again would constitute double jeopardy.",
+      "link": "https://www.washingtonpost.com/nation/2026/11/19/court-hear-appeal-that-could-lead-dismissal-lindsay-clancy-case/",
+      "published": "Thu, 19 Nov 2026 22:00:00 +0000",
       "source": "Washington Post"
     },
     {
-      "title": "Senate Republicans resist Trump’s bid to bypass Democrats on defense funding",
-      "summary": "Senate Majority Leader John Thune (South Dakota) said the GOP would attempt to negotiate a deal to pass the spending package.",
-      "link": "https://www.washingtonpost.com/business/2026/11/19/republicans-break-with-trump-his-request-party-line-pentagon-funding-bill/",
-      "published": "Thu, 19 Nov 2026 10:00:00 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Muslims will outnumber Christians worldwide by 2035, report says",
-      "summary": "By 2070, the Democratic Republic of the Congo will surpass the United States as the country with the largest total number of Christians.",
-      "link": "https://www.npr.org/2026/11/19/nx-s1-6043018/muslims-will-outnumber-christians-worldwide-by-2070-report-says",
-      "published": "Thu, 19 Nov 2026 05:00:00 -0500",
+      "title": "Judges have put Trump's arch and golf course on hold, but only for a matter of days",
+      "summary": "A federal judge has twice delayed construction of Trump's arch. Another is keeping East Potomac Park open. The proposed golf course redesign got mixed feedback from a federal arts panel on Thursday.",
+      "link": "https://www.npr.org/2026/11/19/nx-s1-6047151/trump-arch-golf-course-judge-orders",
+      "published": "Thu, 19 Nov 2026 14:46:27 -0500",
       "source": "NPR"
     },
     {
-      "title": "Morning news brief",
-      "summary": "President Trump meets with China's Xi and Russia's Putin, House Democrats nominate Hakeem Jeffries as next speaker of the House, AI giant Anthropic raises more than $100 billion in record-setting IPO.",
-      "link": "https://www.npr.org/2026/11/19/nx-s1-6042289/morning-news-brief",
-      "published": "Thu, 19 Nov 2026 04:46:29 -0500",
+      "title": "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
+      "summary": "President Trump disclosed purchases of Nvidia stock, SpaceX debt and Tesla shares in September, alongside millions of dollars in other investments.",
+      "link": "https://www.cnbc.com/2026/11/19/trump-nvidia-spacex-palantir-stock-trades-september.html",
+      "published": "Thu, 19 Nov 2026 19:43:08 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Cyberattack may have exposed Chase Bank and Mastercard customer data",
+      "summary": "The attack on third-party vendors is unrelated to a service disruption Tuesday, Chase said.",
+      "link": "https://www.washingtonpost.com/nation/2026/11/19/cyberattack-may-have-exposed-chase-bank-mastercard-customer-data/",
+      "published": "Thu, 19 Nov 2026 19:08:47 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "BBC correspondents discuss what Trump, Xi and Putin got out of historic talks",
+      "summary": "Trump, Putin and Xi have issued a \"joint declaration of peace\" after historical trilateral talks, but what did they get out of meeting?",
+      "link": "https://www.bbc.co.uk/news/videos/c63rgnq05pdwo?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 19 Nov 2026 17:23:29 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "'Bigger than Barack Obama's election': Scholars reflect on Mississippi Senate race",
+      "summary": "Scott Colom is now this Southern state's first Black U.S. senator in nearly 150 years. Scholars and Mississippi natives Eddie Glaude and Kiese Laymon discuss the historic significance of his victory.<br />",
+      "link": "https://www.npr.org/2026/11/19/nx-s1-6047338/bigger-than-barack-obamas-election-scholars-reflect-on-mississippi-senate-race",
+      "published": "Thu, 19 Nov 2026 12:03:11 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "Proposed change to SNAP threatens free school meals for 1.7 million children",
+      "summary": "A Trump administration proposal affecting automatic enrollment could cut benefits for millions of families.",
+      "link": "https://www.washingtonpost.com/nation/2026/11/19/new-proposed-change-snap-threatens-free-school-meals-17-million-children/",
+      "published": "Thu, 19 Nov 2026 16:17:21 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "The midterms were the largest win for either party in 50 years",
+      "summary": "Some 56% of people cast votes for Democrats in House races, compared to 42% who voted Republican. That 14-point spread is the widest win for either party in 50 years, since after Watergate.",
+      "link": "https://www.npr.org/2026/11/19/nx-s1-6045916/democrats-midterm-house-majority",
+      "published": "Thu, 19 Nov 2026 10:55:05 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "The U.N.'s top court rules Myanmar committed genocide against the Rohingya",
+      "summary": "The International Court of Justice found that Myanmar security forces \"acted with genocidal intent\" against the Rohingya during military operations in the northern Rakhine state in 2017.",
+      "link": "https://www.npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya",
+      "published": "Thu, 19 Nov 2026 07:29:41 -0500",
       "source": "NPR"
     },
     {
@@ -273,34 +344,6 @@
       "link": "https://www.cnbc.com/2026/11/19/trump-xi-putin-china-apec-.html",
       "published": "Thu, 19 Nov 2026 09:02:00 GMT",
       "source": "CNBC"
-    },
-    {
-      "title": "Costco sees surge in panic buying after tech outages, report says",
-      "summary": "Costco shoppers are stocking up on emergency items following a string of tech snafus, according to a Wall Street analyst.",
-      "link": "https://www.cbsnews.com/news/costco-panic-buying-tech-outages-generators/",
-      "published": "Wed, 18 Nov 2026 22:49:51 -0500",
-      "source": "CBS News"
-    },
-    {
-      "title": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
-      "summary": "The multi-billionaire also said he was \"not Maga\", distancing himself from the political movement linked to Trump.",
-      "link": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 19 Nov 2026 02:59:06 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Worried about an AI bust? So is the Federal Reserve.",
-      "summary": "Minutes of the Fed’s October meeting opened with an unusual warning about AI-related debt, as doubts about the boom spread on Wall Street.",
-      "link": "https://www.washingtonpost.com/business/2026/11/18/fed-officials-worry-an-ai-bust-could-shake-financial-system/",
-      "published": "Wed, 18 Nov 2026 22:30:54 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
-      "summary": "The nomination sets him on the path to become the first black lawmaker to lead the chamber when Democrats take control of the House in January.",
-      "link": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 18 Nov 2026 21:13:06 GMT",
-      "source": "BBC News"
     },
     {
       "title": "I watched Trump, Xi and Putin gather in China. Here are my top takeaways",
@@ -318,15 +361,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-11-04 13:34",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 65,
-      "incidents": 1,
-      "sp500": 7568.92,
-      "usd_czk": 21.776
-    },
     {
       "date": "2026-11-05 06:01",
       "threat_level": "HIGH",
@@ -587,6 +621,15 @@
       "incidents": 3,
       "sp500": 7383.18,
       "usd_czk": 22.223
+    },
+    {
+      "date": "2026-11-20 06:00",
+      "threat_level": "MEDIUM",
+      "value": 2,
+      "sentiment_score": 45,
+      "incidents": 4,
+      "sp500": 7175.83,
+      "usd_czk": 22.223
     }
   ],
   "locations": [
@@ -605,11 +648,32 @@
       "name_en": "New York"
     },
     {
+      "key": "Chicago",
+      "lat": 41.8781,
+      "lon": -87.6298,
+      "name_cs": "Chicago",
+      "name_en": "Chicago"
+    },
+    {
       "key": "Texas",
       "lat": 31.9686,
       "lon": -99.9018,
       "name_cs": "Texas",
       "name_en": "Texas"
+    },
+    {
+      "key": "Florida",
+      "lat": 27.6648,
+      "lon": -81.5158,
+      "name_cs": "Florida",
+      "name_en": "Florida"
+    },
+    {
+      "key": "California",
+      "lat": 36.7783,
+      "lon": -119.4179,
+      "name_cs": "Kalifornie",
+      "name_en": "California"
     },
     {
       "key": "Wall Street",
@@ -619,18 +683,11 @@
       "name_en": "Wall Street"
     },
     {
-      "key": "Michigan",
-      "lat": 44.3148,
-      "lon": -85.6024,
-      "name_cs": "Michigan",
-      "name_en": "Michigan"
-    },
-    {
-      "key": "Colorado",
-      "lat": 39.5501,
-      "lon": -105.7821,
-      "name_cs": "Colorado",
-      "name_en": "Colorado"
+      "key": "Massachusetts",
+      "lat": 42.4072,
+      "lon": -71.3824,
+      "name_cs": "Massachusetts",
+      "name_en": "Massachusetts"
     },
     {
       "key": "Alaska",
@@ -638,6 +695,14 @@
       "lon": -149.4937,
       "name_cs": "Aljaška",
       "name_en": "Alaska"
+    },
+    {
+      "key": "Los Angeles",
+      "lat": 34.05,
+      "lon": -118.24,
+      "name_cs": "Los Angeles",
+      "name_en": "Los Angeles",
+      "auto": true
     },
     {
       "key": "Ukrain",
@@ -656,48 +721,32 @@
       "auto": true
     },
     {
-      "key": "Israel",
-      "lat": 31.5,
-      "lon": 34.8,
-      "name_cs": "Izrael",
-      "name_en": "Israel",
-      "auto": true
-    },
-    {
       "key": "China",
       "lat": 35.9,
       "lon": 104.2,
       "name_cs": "Čína",
       "name_en": "China",
       "auto": true
-    },
-    {
-      "key": "Brussels",
-      "lat": 50.85,
-      "lon": 4.35,
-      "name_cs": "Brusel",
-      "name_en": "Brussels",
-      "auto": true
     }
   ],
   "location_counts": {
-    "Florida": 61,
-    "Texas": 94,
-    "Washington": 105,
-    "New York": 79,
-    "California": 73,
+    "Florida": 62,
+    "Texas": 95,
+    "Washington": 106,
+    "New York": 80,
+    "California": 74,
     "Capitol": 30,
     "Border": 32,
     "Los Angeles": 1,
-    "Wall Street": 74,
+    "Wall Street": 75,
     "Illinois": 12,
     "Colorado": 24,
     "Canada": 31,
     "Brazílie": 1,
     "Ukrajina": 1,
-    "Rusko": 5,
+    "Rusko": 2,
     "Írán": 2,
-    "Čína": 6,
+    "Čína": 3,
     "Tchaj-wan": 1,
     "Japonsko": 1,
     "Pákistán": 1,
@@ -715,14 +764,14 @@
     "Maine": 28,
     "Mexico": 21,
     "Singapur": 1,
-    "Chicago": 24,
+    "Chicago": 25,
     "Ohio": 44,
     "Arizona": 22,
     "Minnesota": 23,
     "Virginia": 16,
     "Izrael": 1,
     "Austrálie": 1,
-    "Alaska": 47,
+    "Alaska": 48,
     "Jižní Korea": 1,
     "Severní Korea": 1,
     "New Jersey": 9,
@@ -745,7 +794,7 @@
     "Seattle": 1,
     "Utah": 7,
     "Turecko": 1,
-    "Massachusetts": 6,
+    "Massachusetts": 7,
     "Argentina": 2,
     "Praha": 1,
     "Sýrie": 1,
@@ -766,17 +815,9 @@
     "key": "Washington",
     "name_cs": "Washington, D.C.",
     "name_en": "Washington, D.C.",
-    "count": 105
+    "count": 106
   },
   "archive": [
-    {
-      "date": "2026-11-13 05:59",
-      "threat_level": "HIGH",
-      "security_status_cs": "Chyba při automatické analýze AI.",
-      "security_status_en": "Error during automated AI analysis.",
-      "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
-      "forecast_en": "Failed to generate forecast."
-    },
     {
       "date": "2026-11-13 13:44",
       "threat_level": "HIGH",
@@ -880,23 +921,31 @@
       "security_status_en": "Error during automated AI analysis.",
       "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
       "forecast_en": "Failed to generate forecast."
+    },
+    {
+      "date": "2026-11-20 06:00",
+      "threat_level": "MEDIUM",
+      "security_status_cs": "Spojené státy čelí vlně technologických výpadků a kybernetických incidentů, které vedly k výměně šéfa kybernetické bezpečnosti v Bílém domě. Federální rezervní systém mezitím varuje před inflačními tlaky poháněnými boomem umělé inteligence a energetické infrastruktury, zatímco Senát posunul kupředu klíčovou legislativu pro reformu povolování datových center.",
+      "security_status_en": "The United States is facing a wave of tech outages and cybersecurity incidents that led to a leadership change in White House cybersecurity. Meanwhile, the Federal Reserve warns of inflationary pressures fueled by the AI and energy infrastructure boom, while the Senate advanced key permitting reform legislation for data centers.",
+      "forecast_cs": "V nejbližších dnech lze očekávat zvýšenou volatilitu v technologickém sektoru a pokračující diskuse o federálních výdajích a inflaci spojené s rozvojem AI infrastruktury.",
+      "forecast_en": "Over the coming days, heightened volatility in the tech sector and ongoing discussions regarding federal spending and inflation tied to AI infrastructure development are expected."
     }
   ],
-  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 5× HIGH, 2× MEDIUM.",
-  "weekly_summary_en": "Over the last 7 recorded analyses: 5× HIGH, 2× MEDIUM.",
+  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 4× HIGH, 3× MEDIUM.",
+  "weekly_summary_en": "Over the last 7 recorded analyses: 4× HIGH, 3× MEDIUM.",
   "market_data": {
     "sp500": {
-      "value": 7383.18,
+      "value": 7175.83,
       "date": "2026-11-19",
       "cached": false
     },
     "dow": {
-      "value": 50175.39,
+      "value": 49097.06,
       "date": "2026-11-19",
       "cached": false
     },
     "yield10y": {
-      "value": 5.09,
+      "value": 5.05,
       "date": "2026-11-19",
       "cached": false
     }
