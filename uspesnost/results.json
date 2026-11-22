@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-21T03:10",
+ "updated": "2026-11-22T02:09",
  "band": {
   "7": 2.0,
   "30": 5.0
  },
- "signals_total": 339,
+ "signals_total": 345,
  "summary": {
   "7": {
    "ALL": {
     "n": 308,
     "ok": 137,
-    "avg": -1.62
+    "avg": -1.63
    },
    "BUY": {
     "n": 111,
     "ok": 48,
-    "avg": -1.26
+    "avg": -1.29
    },
    "SELL": {
     "n": 42,
@@ -30,7 +30,7 @@
   },
   "30": {
    "ALL": {
-    "n": 170,
+    "n": 171,
     "ok": 70,
     "avg": -5.52
    },
@@ -45,9 +45,9 @@
     "avg": -8.0
    },
    "HOLD": {
-    "n": 87,
+    "n": 88,
     "ok": 31,
-    "avg": -5.69
+    "avg": -5.7
    }
   }
  },
@@ -56,7 +56,7 @@
    "7": {
     "n": 42,
     "ok": 23,
-    "avg": -0.33
+    "avg": -0.4
    },
    "30": {
     "n": 24,
@@ -83,9 +83,9 @@
     "avg": 0.42
    },
    "30": {
-    "n": 19,
+    "n": 20,
     "ok": 11,
-    "avg": 3.12
+    "avg": 2.66
    }
   },
   "Blízký východ": {
@@ -138,6 +138,94 @@
   }
  },
  "signals": [
+  {
+   "monitor": "USA",
+   "sector": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
+   "action": "HOLD",
+   "date": "2026-11-21",
+   "tickers": [
+    "LMT",
+    "RTX",
+    "NOC"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "USA",
+   "sector": "Technologický sektor (Apple, Microsoft, Nvidia)",
+   "action": "SELL",
+   "date": "2026-11-21",
+   "tickers": [
+    "NVDA",
+    "AAPL",
+    "MSFT"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Evropa",
+   "sector": "Automobilový průmysl (Volkswagen, BMW, Stellantis)",
+   "action": "SELL",
+   "date": "2026-11-21",
+   "tickers": [
+    "BMW.DE"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Evropa",
+   "sector": "Pražská burza: ČEZ, Komerční banka, Erste Group",
+   "action": "HOLD",
+   "date": "2026-11-21",
+   "tickers": [
+    "CEZ.PR",
+    "KOMB.PR",
+    "EBS.VI"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Čína a Asie",
+   "sector": "Polovodiče (TSMC, Samsung, ASML)",
+   "action": "HOLD",
+   "date": "2026-11-21",
+   "tickers": [
+    "TSM",
+    "005930.KS",
+    "ASML"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
+   "action": "HOLD",
+   "date": "2026-11-21",
+   "tickers": [
+    "JBS",
+    "BG",
+    "CSAN"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
   {
    "monitor": "Rudé moře",
    "sector": "Ropa a Plyn (např. Shell, BP, Chevron)",
@@ -213,13 +301,12 @@
   },
   {
    "monitor": "Jižní Amerika",
-   "sector": "Argentina (Merval, YPF, MercadoLibre)",
-   "action": "HOLD",
+   "sector": "Brazilský akciový trh (Bovespa, ETF EWZ)",
+   "action": "SELL",
    "date": "2026-11-19",
    "tickers": [
-    "^MERV",
-    "MELI",
-    "YPF"
+    "^BVSP",
+    "EWZ"
    ],
    "ret7": null,
    "ok7": null,
@@ -228,12 +315,13 @@
   },
   {
    "monitor": "Jižní Amerika",
-   "sector": "Brazilský akciový trh (Bovespa, ETF EWZ)",
-   "action": "SELL",
+   "sector": "Argentina (Merval, YPF, MercadoLibre)",
+   "action": "HOLD",
    "date": "2026-11-19",
    "tickers": [
-    "^BVSP",
-    "EWZ"
+    "^MERV",
+    "MELI",
+    "YPF"
    ],
    "ret7": null,
    "ok7": null,
@@ -416,20 +504,6 @@
   },
   {
    "monitor": "Jižní Amerika",
-   "sector": "Brazilský akciový trh (Bovespa, EWZ ETF)",
-   "action": "HOLD",
-   "date": "2026-11-15",
-   "tickers": [
-    "^BVSP",
-    "EWZ"
-   ],
-   "ret7": null,
-   "ok7": null,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Jižní Amerika",
    "sector": "Argentina (Merval, YPF, MercadoLibre)",
    "action": "BUY",
    "date": "2026-11-15",
@@ -467,6 +541,20 @@
     "JBS",
     "BG",
     "CSAN"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Brazilský akciový trh (Bovespa, EWZ ETF)",
+   "action": "HOLD",
+   "date": "2026-11-15",
+   "tickers": [
+    "^BVSP",
+    "EWZ"
    ],
    "ret7": null,
    "ok7": null,
@@ -598,7 +686,7 @@
     "HLAG.DE",
     "ZIM"
    ],
-   "ret7": -0.07,
+   "ret7": -2.82,
    "ok7": false,
    "ret30": null,
    "ok30": null
@@ -1165,6 +1253,20 @@
   },
   {
    "monitor": "Jižní Amerika",
+   "sector": "Brazilský akciový trh (Bovespa, ETF EWZ)",
+   "action": "HOLD",
+   "date": "2026-11-07",
+   "tickers": [
+    "^BVSP",
+    "EWZ"
+   ],
+   "ret7": -3.45,
+   "ok7": false,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
    "sector": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
    "action": "BUY",
    "date": "2026-11-07",
@@ -1174,20 +1276,6 @@
     "FCX"
    ],
    "ret7": -11.29,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Jižní Amerika",
-   "sector": "Brazilský akciový trh (Bovespa, ETF EWZ)",
-   "action": "HOLD",
-   "date": "2026-11-07",
-   "tickers": [
-    "^BVSP",
-    "EWZ"
-   ],
-   "ret7": -3.45,
    "ok7": false,
    "ret30": null,
    "ok30": null
@@ -1204,92 +1292,6 @@
    ],
    "ret7": 2.01,
    "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "USA",
-   "sector": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
-   "action": "HOLD",
-   "date": "2026-11-06",
-   "tickers": [
-    "^GSPC"
-   ],
-   "ret7": 2.51,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "USA",
-   "sector": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
-   "action": "BUY",
-   "date": "2026-11-06",
-   "tickers": [
-    "LMT",
-    "RTX",
-    "NOC"
-   ],
-   "ret7": 4.91,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "USA",
-   "sector": "Technologický sektor (Apple, Microsoft, Nvidia)",
-   "action": "SELL",
-   "date": "2026-11-06",
-   "tickers": [
-    "NVDA",
-    "AAPL",
-    "MSFT"
-   ],
-   "ret7": -3.32,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Evropa",
-   "sector": "Energetika (TotalEnergies, Shell, RWE)",
-   "action": "BUY",
-   "date": "2026-11-06",
-   "tickers": [
-    "SHEL",
-    "TTE.PA"
-   ],
-   "ret7": 1.53,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Jižní Amerika",
-   "sector": "Brazilský akciový trh (Bovespa, ETF EWZ)",
-   "action": "SELL",
-   "date": "2026-11-06",
-   "tickers": [
-    "^BVSP",
-    "EWZ"
-   ],
-   "ret7": 1.55,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Rudé moře",
-   "sector": "Ropa a Plyn (např. Shell, BP, Chevron)",
-   "action": "BUY",
-   "date": "2026-11-05",
-   "tickers": [
-    "SHEL",
-    "BP",
-    "CVX"
-   ],
-   "ret7": 0.85,
-   "ok7": true,
    "ret30": null,
    "ok30": null
   }
