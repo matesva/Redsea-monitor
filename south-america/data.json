@@ -1,108 +1,199 @@
 {
-  "last_updated": "2026-11-23T06:00:42Z",
+  "last_updated": "2026-11-24T06:05:08Z",
   "assessment": {
     "threat_level": "HIGH",
-    "sentiment_score": 68,
-    "security_status_cs": "Jižní čelí rostoucímu bezpečnostnímu napětí, zejména v Mexiku po zadržení drogového bosse 'El Chapo Isidro' a v Kolumbii, kde eskalují ozbrojené střety navzdory vládním operacím. Ekonomická situace je ovlivněna kolísáním cen komodit, přičemž ceny kávy dosahují rekordů a ropa mírně oslabuje.",
-    "security_status_en": "South America is facing rising security tensions, notably in Mexico following the arrest of drug lord 'El Chapo Isidro' and in Colombia where armed clashes escalate despite government offensives. The economic landscape is shaped by commodity price fluctuations, with coffee prices hitting record highs and crude oil softening slightly.",
+    "sentiment_score": 72,
+    "security_status_cs": "Region čelí výrazným bezpečnostním rizikům po zatčení významného drogového bosse 'El Chapo Isidro' v Mexiku, které vyvolalo ozbrojené střety, a po bombovém útoku v kolumbijském departementu Meta. Ekonomická stabilita regionu je navíc pod tlakem globální jestřábí měnové politiky Fedu, rostoucích amerických výnosů dluhopisů a domácích fiskálních tenzí v Brazílii.",
+    "security_status_en": "The region faces significant security risks following the arrest of high-profile drug lord 'El Chapo Isidro' in Mexico, which triggered armed clashes, alongside a car bomb attack in Colombia's Meta department. Furthermore, regional economic stability remains under pressure from global Fed hawkishness, rising US Treasury yields, and domestic fiscal tensions in Brazil.",
     "recommendations": [
       {
         "sector_cs": "Brazilský akciový trh (Bovespa, ETF EWZ)",
         "sector_en": "Brazilian Equities (Bovespa, EWZ ETF)",
         "action": "HOLD",
-        "reason_cs": "Trh vyčkává na vývoj politické situace a zdravotního stavu bývalého prezidenta Bolsonara, přičemž ekonomika čelí slabé měně a přírodním živlům v São Paulu.",
-        "reason_en": "The market is awaiting political developments and the health status of former president Bolsonaro, while facing a weak real and severe weather in São Paulo."
+        "reason_cs": "Domácí fiskální balíček a politická nejistota kolem vládních reforem v kombinaci s globálním tlakem vysokých sazeb USA omezují růstový potenciál.",
+        "reason_en": "Domestic fiscal packages and political uncertainty surrounding government reforms, combined with global pressure from high US rates, limit upside potential."
       },
       {
         "sector_cs": "Argentina (Merval, YPF, MercadoLibre)",
         "sector_en": "Argentina (Merval, YPF, MercadoLibre)",
-        "action": "BUY",
-        "reason_cs": "Schválení rozsáhlého projektu LNG v hodnotě 50 miliard dolarů pro těžbu z Vaca Muerta posiluje perspektivu argentinského energetického sektoru navzdory přetrvávajícím reformním třenicím.",
-        "reason_en": "The approval of a massive $50-billion LNG export project for Vaca Muerta strengthens the outlook for Argentina's energy sector despite ongoing reform friction."
+        "action": "HOLD",
+        "reason_cs": "Voliči a analytici stále více posuzují výsledky ekonomických reforem prezidenta Mileiho ve srovnání s minulostí, což zvyšuje politickou opatrnost investorů.",
+        "reason_en": "Voters and analysts are increasingly weighing President Milei's economic reforms against past performance, raising political caution among investors."
       },
       {
         "sector_cs": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
         "sector_en": "Mining: Copper & Lithium (Southern Copper, SQM, Freeport)",
-        "action": "HOLD",
-        "reason_cs": "Ceny kovů zůstávají stabilní, avšak globální makroekonomická nejistota a úrokové sazby Fedu tlumí agresivnější expanzi v sektoru.",
-        "reason_en": "Metal prices remain stable, but global macroeconomic uncertainty and Fed interest rate expectations temper more aggressive sector expansion."
+        "action": "BUY",
+        "reason_cs": "Poptávka po průmyslových kovech a technologické inovace v oblasti AI a efektivity čipů udržují dlouhodobě silné fundamenty těžařského sektoru.",
+        "reason_en": "Industrial metal demand and technological innovations in AI and chip efficiency maintain strong long-term fundamentals for the mining sector."
       },
       {
         "sector_cs": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
         "sector_en": "Oil & Energy (Petrobras, Ecopetrol, Chevron)",
         "action": "HOLD",
-        "reason_cs": "Pokles cen ropy k 85 dolarům za barrel kvůli globálním přebytkům kompenzuje geopolitická rizika a nové exportní iniciativy v regionu.",
-        "reason_en": "The drop in crude oil prices toward $85 a barrel due to global surpluses offsets regional geopolitical risks and new export initiatives."
+        "reason_cs": "Geopolitická rizika a bezpečnostní incidenty v Kolumbii kompenzují stabilní globální dodávky ropy a pokračující sankční dynamiku vůči Rusku.",
+        "reason_en": "Geopolitical risks and security incidents in Colombia are offset by stable global oil supplies and ongoing sanction dynamics against Russia."
       },
       {
         "sector_cs": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
         "sector_en": "Agriculture & Food (JBS, Bunge, Cosan)",
-        "action": "BUY",
-        "reason_cs": "Ceny arabiky dosáhly rekordních úrovní v důsledku obav z obchodních cel a politických třenic kolem Kolumbie, což nahrává producentům.",
-        "reason_en": "Arabica coffee prices reached record levels amid tariff fears and political disputes involving Colombia, benefiting agricultural producers."
+        "action": "HOLD",
+        "reason_cs": "Ceny kávy dosáhly rekordních hodnot kvůli kolísání kolem obchodních cel a politických rizik, což vyžaduje obezřetnost při zaujímání nových pozic.",
+        "reason_en": "Coffee prices have hit record levels due to tariff fluctuations and political risks, requiring caution before taking new positions."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Dění v Jižní Americe má na české bankovní tituly a energetiku minimální přímý vliv, pozornost se soustředí na domácí makroekonomická data a politiku ECB.",
-        "reason_en": "South American developments have minimal direct impact on Czech banking and energy stocks, with focus remaining on domestic macroeconomic data and ECB policy."
+        "reason_cs": "Dění v Jižní Americe má na české bankovní a energetické tituly minimální přímý vliv, klíčové zůstávají domácí makroekonomické faktory a rozhodnutí ČNB.",
+        "reason_en": "South American developments have minimal direct impact on Czech banking and energy stocks, with domestic macro factors and CNB decisions remaining key."
       }
     ],
-    "forecast_cs": "V nejbližších dnech lze očekávat zvýšenou bezpečnostní ostražitost v Mexiku po rozsáhlých střetech s kartely a pokračující volatilitu na komoditních trzích se zaměřením na energetiku a kávu.",
-    "forecast_en": "Over the coming days, heightened security vigilance is expected in Mexico following major cartel clashes, alongside continued volatility in commodity markets focusing on energy and coffee.",
-    "forecast_review_cs": "Předchozí předpověď o zvýšené volatilitě komodit a bezpečnostním napětí v souvislosti s protidrogovými operacemi se plně potvrdila.",
-    "forecast_review_en": "The previous forecast regarding commodity volatility and security tensions related to anti-drug operations was fully confirmed."
+    "forecast_cs": "V nejbližších dnech lze očekávat pokračující bezpečnostní operace a zvýšenou ostražitost v Mexiku a Kolumbii, zatímco komoditní trhy budou citlivě reagovat na měnovou politiku USA.",
+    "forecast_en": "Over the coming days, continued security operations and heightened vigilance are expected in Mexico and Colombia, while commodity markets will remain sensitive to US monetary policy.",
+    "forecast_review_cs": "Předchozí předpověď o zvýšené ostražitosti v Mexiku a volatilitě komodit byla plně potvrzena zprávami o rozsáhlých střetech kartelů a rekordních cenách kávy.",
+    "forecast_review_en": "The previous forecast regarding heightened vigilance in Mexico and commodity volatility was fully confirmed by reports of major cartel clashes and record coffee prices."
   },
   "articles": [
     {
-      "title": "LatAm Expat & Nomad Daily Guide for Monday, November 23, 2026",
-      "summary": "<p>Argentina’s banks close Monday for Sovereignty Day, the Mexican peso fell 0.41% to 19.1625 per US$1, and no tropical storm is expected.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/latam-expat-nomad-daily-guide-for-monday-november-23-2026/\">LatAm Expat & Nomad Daily Guide for Monday, November 23, 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/latam-expat-nomad-daily-guide-for-monday-november-23-2026/",
-      "published": "Mon, 23 Nov 2026 05:39:37 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Latin America Sports Daily for Monday, November 23, 2026",
-      "summary": "<p>Libertadores final preview: Palmeiras meet Estudiantes in Montevideo on 28 November, after a 1-1 draw with Flamengo in the league.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/latin-america-sports-daily-monday-november-23-2026/\">Latin America Sports Daily for Monday, November 23, 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/latin-america-sports-daily-monday-november-23-2026/",
-      "published": "Mon, 23 Nov 2026 04:20:41 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Latin American Pulse for Monday, November 23, 2026",
-      "summary": "<p>Latin America mood on 22 November: Colombia's Petro fight, São Paulo storms, a weak real and Mexico's NFL night under heavy guard.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/latin-american-pulse-for-monday-november-23-2026/\">Latin American Pulse for Monday, November 23, 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/latin-american-pulse-for-monday-november-23-2026/",
-      "published": "Mon, 23 Nov 2026 04:20:03 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Bolsonaro \"clinically stable\" in intensive care with an intestinal obstruction",
-      "summary": "<p>\n\t   \t      <img alt=\"Bolsonaro walking in the hospital corridor, connected to an IV line.\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112190/100x80/bolsonaro.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Former Brazilian President Jair Bolsonaro, in intensive care with an intestinal obstruction, is \"clinically stable\", the DF Star hospital in Brasília said on Sunday. Bolsonaro, 71, is serving a 27-year sentence for plotting a coup, under house arrest.</p>",
-      "link": "https://en.mercopress.com/2026/11/23/bolsonaro-clinically-stable-in-intensive-care-with-an-intestinal-obstruction?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Mon, 23 Nov 2026 04:17:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Colombia's government asks X to suspend Petro's account after he calls for the president to resign",
-      "summary": "<p>\n\t   \t      <img alt=\"Colombian President Abelardo de la Espriella (L) and former President Gustavo Petro (R).\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112186/100x80/colombia.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         The government of Colombian President Abelardo de la Espriella asked the social network X on Sunday to suspend the account of former President Gustavo Petro, after he called on the public to demand the president's resignation.</p>",
-      "link": "https://en.mercopress.com/2026/11/23/colombia-s-government-asks-x-to-suspend-petro-s-account-after-he-calls-for-the-president-to-resign?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Mon, 23 Nov 2026 04:06:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Prosecutors: Argentina's top shrimp exporter dumped waste at sea through a hidden system",
-      "summary": "<p>\n\t   \t      <img alt=\"The Golfo Nuevo, next to Puerto Madryn, is one of the main breeding grounds of the southern right whale.\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112184/100x80/madryn.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Two former managers of Conarpesa, Argentina's largest exporter of wild shrimp, have faced a new trial in Chubut province since this month over the discharge of fishing industry waste into the Golfo Nuevo, next to Puerto Madryn, through a hidden connection that prosecutors say the company set up.</p>",
-      "link": "https://en.mercopress.com/2026/11/23/prosecutors-argentina-s-top-shrimp-exporter-dumped-waste-at-sea-through-a-hidden-system?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Mon, 23 Nov 2026 04:02:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Poland says Russia tried to assassinate Ukrainian rapper twice",
-      "summary": "Polish confirmation comes after Copenhagen reveals alleged Russian plot to kill US-Ukrainian citizen on Danish soil.",
-      "link": "https://www.aljazeera.com/news/2026/11/23/poland-says-russia-tried-to-assassinate-ukrainian-rapper-twice?traffic_source=rss",
-      "published": "Mon, 23 Nov 2026 01:53:23 +0000",
+      "title": "Car bomb strikes governor’s office in Meta, Colombia",
+      "summary": "A car bomb exploded in the city of Villavicencio in Colombia’s Meta Department.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/24/car-bomb-strikes-governors-office-in-meta-colombia?traffic_source=rss",
+      "published": "Tue, 24 Nov 2026 04:49:31 +0000",
       "source": "Al Jazeera"
+    },
+    {
+      "title": "Latin America Sports Daily for Tuesday, November 24, 2026",
+      "summary": "<p>Libertadores final: Estudiantes meet Palmeiras in Montevideo on Saturday, while Boca Juniors celebrate their Copa Sudamericana title.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/latin-america-sports-daily-tuesday-november-24-2026/\">Latin America Sports Daily for Tuesday, November 24, 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/latin-america-sports-daily-tuesday-november-24-2026/",
+      "published": "Tue, 24 Nov 2026 04:21:59 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Latin American Pulse for Tuesday, November 24, 2026",
+      "summary": "<p>The Latin America mood on 24 November: Brazil sends its fiscal package to Lula, Chile's government feels the strain, and Colombia braces for more violence.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/latin-american-pulse-for-tuesday-november-24-2026/\">Latin American Pulse for Tuesday, November 24, 2026</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/latin-american-pulse-for-tuesday-november-24-2026/",
+      "published": "Tue, 24 Nov 2026 04:21:22 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "US Stocks Jump 4.73% as Treasury Yield Hits 4.95% | Global Economy, Nov 24",
+      "summary": "<p>A Wall Street rally lifts the S&P 500 to 7,237 and the Nasdaq 6.51%, but a 4.95% Treasury yield and Fed rise talk keep Brazil and Latin America wary.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/global-economy-briefing-november-24-2026/\">US Stocks Jump 4.73% as Treasury Yield Hits 4.95% | Global Economy, Nov 24</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/global-economy-briefing-november-24-2026/",
+      "published": "Tue, 24 Nov 2026 04:21:11 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Mexico to try ‘El Chapo Isidro’ despite US extradition request",
+      "summary": "Fausto Meza Flores faces drug trafficking and weapons charges after his capture in a violent Sinaloa operation.",
+      "link": "https://www.aljazeera.com/news/2026/11/24/mexico-to-try-el-chapo-isidro-despite-us-extradition-request?traffic_source=rss",
+      "published": "Tue, 24 Nov 2026 03:20:55 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "US flew surveillance drone over Mexico to help capture top drug lord",
+      "summary": "Mexican officials say the United States flew a surveillance drone over Mexican territory to help locate and capture one of the country's most wanted drug traffickers. The operation led to the arrest of Fausto Isidro Meza Flores, known as 'El Chapo Isidro'.",
+      "link": "https://www.france24.com/en/americas/20261124-us-flew-surveillance-drone-over-mexico-to-help-capture-top-drug-lord",
+      "published": "Tue, 24 Nov 2026 02:09:11 GMT",
+      "source": "France 24"
+    },
+    {
+      "title": "Bukele shares details on deaths of El Salvador’s troops in Haiti",
+      "summary": "Bukele's military intervention in Haiti comes after four Salvadoran technicians were kidnapped by gangs in October.",
+      "link": "https://www.aljazeera.com/news/2026/11/24/bukele-shares-details-on-deaths-of-salvadoran-troops-in-haiti-intervention?traffic_source=rss",
+      "published": "Tue, 24 Nov 2026 01:06:00 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
+      "summary": "“My wife stopped working outside the home in 1970.”",
+      "link": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
+      "published": "Tue, 24 Nov 2026 01:01:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "What could Democrats do with their expanding congressional majority?",
+      "summary": "The Democratic Party is debating how best to use its large margin of victory in the US midterm elections.",
+      "link": "https://www.aljazeera.com/news/2026/11/24/what-could-democrats-do-with-their-expanding-congressional-majority?traffic_source=rss",
+      "published": "Tue, 24 Nov 2026 00:39:22 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Pneumonia complicates Jair Bolsonaro's hospital stay in Brasília",
+      "summary": "<p>\n\t   \t      <img alt=\"Jair Bolsonaro, 71, remains in intensive care at the DF Star hospital.\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112202/100x80/jairbolsonaro.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Former Brazilian President Jair Bolsonaro has been diagnosed with pneumonia at the Brasília hospital where he has been admitted since Friday with an intestinal obstruction, his doctors said on Monday, although they ruled out surgery after his intestinal condition improved.</p>",
+      "link": "https://en.mercopress.com/2026/11/23/pneumonia-complicates-jair-bolsonaro-s-hospital-stay-in-brasilia?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Mon, 23 Nov 2026 22:09:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "UK expresses support for Pedro Alliana's government in Paraguay",
+      "summary": "<p>\n\t   \t      <img alt=\"Pedro Alliana is sworn in as president of Paraguay, next to his wife.\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112200/100x80/pedroalliana.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         The United Kingdom has expressed its support for the government of Paraguayan President Pedro Alliana, who took office just over two weeks ago after the removal of Santiago Peña over the collapse of Ueno Bank, Paraguay's Foreign Ministry said on Monday.</p>",
+      "link": "https://en.mercopress.com/2026/11/23/uk-expresses-support-for-pedro-alliana-s-government-in-paraguay?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Mon, 23 Nov 2026 22:05:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "Brazil's Supreme Court summons Flávio Bolsonaro by public notice over alleged slander of Lula",
+      "summary": "<p>\n\t   \t      <img alt=\"Senator Flávio Bolsonaro at a public event.\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112198/100x80/flavio.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Brazilian Supreme Federal Court Justice Alexandre de Moraes on Monday ordered that Senator Flávio Bolsonaro, who is in the United States, be summoned by public notice to submit within 15 days his defence against a charge of slandering President Luiz Inácio Lula da Silva, the state news agency Agência Brasil reported.</p>",
+      "link": "https://en.mercopress.com/2026/11/23/brazil-s-supreme-court-summons-flavio-bolsonaro-by-public-notice-over-alleged-slander-of-lula?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Mon, 23 Nov 2026 21:44:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "Amazon may have just found a ‘cheap’ way to get a lot more out of its chips",
+      "summary": "Amazon’s deal for Decart’s AI technology, with a reported price of $7.5 billion, may be a relatively inexpensive way to boost the speed and efficiency of its custom chips, says an analyst.",
+      "link": "https://www.marketwatch.com/story/amazon-may-have-just-found-a-cheap-way-to-get-a-lot-more-out-of-its-chips-bd822bd5?mod=mw_rss_topstories",
+      "published": "Mon, 23 Nov 2026 21:33:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Lorenzanas",
+      "summary": "<p><a href=\"https://insightcrime.org/guatemala-organized-crime-news/lorenzanas/\">Lorenzanas</a></p>\n<figure><img alt=\"Los Lorenzana\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"768\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2026/06/Grupo-Criminal-Los-Lorenzana-1.jpg?fit=1024%2C768&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>The Lorenzanas were a traditional contraband family who, over time, became enmeshed in the lucrative drug trade. Based along Guatemala’s border with Honduras, the group was one of Guatemala’s most powerful drug trafficking clans for some two decades.</p>\n<p>The post <a href=\"https://insightcrime.org/guatemala-organized-crime-news/lorenzanas/\">Lorenzanas</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
+      "link": "https://insightcrime.org/guatemala-organized-crime-news/lorenzanas/",
+      "published": "Mon, 23 Nov 2026 21:17:56 +0000",
+      "source": "InSight Crime"
+    },
+    {
+      "title": "José Adolfo Macías Villamar, alias ‘Fito’",
+      "summary": "<p><a href=\"https://insightcrime.org/ecuador-organized-crime-news/jose-adolfo-macias-villamar-alias-fito/\">José Adolfo Macías Villamar, alias ‘Fito’</a></p>\n<figure><img alt=\"José Adolfo Macías Villamar, alias “Fito”\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"768\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2026/06/Perfil-Criminal-Alias-Fito.jpg?fit=1024%2C768&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>José Adolfo Macías Villamar, alias “Fito,” was the head of the Choneros, one of Ecuador’s most prominent criminal groups. He joined the Choneros during its rapid rise from a regional gang into one of the most powerful criminal organizations in Ecuador. His 2024 prison escape triggered a nationwide manhunt and a criminal and political crisis in Ecuador. </p>\n<p>The post <a href=\"https://insightcrime.org/ecuador-organized-crime-news/jose-adolfo-macias-villamar-alias-fito/\">José Adolfo Macías Villamar, alias ‘Fito’</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
+      "link": "https://insightcrime.org/ecuador-organized-crime-news/jose-adolfo-macias-villamar-alias-fito/",
+      "published": "Mon, 23 Nov 2026 21:12:47 +0000",
+      "source": "InSight Crime"
+    },
+    {
+      "title": "Familia Michoacana",
+      "summary": "<p><a href=\"https://insightcrime.org/mexico-organized-crime-news/familia-michoacana-mexico-profile/\">Familia Michoacana</a></p>\n<figure><img alt=\"Familia Michoacana\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"768\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2026/06/Grupo-Criminal-Familia-Michoacana.jpg?fit=1024%2C768&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>The Familia Michoacana is a once-powerful cartel whose influence drained after the death of its leader in 2014.</p>\n<p>The post <a href=\"https://insightcrime.org/mexico-organized-crime-news/familia-michoacana-mexico-profile/\">Familia Michoacana</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
+      "link": "https://insightcrime.org/mexico-organized-crime-news/familia-michoacana-mexico-profile/",
+      "published": "Mon, 23 Nov 2026 21:04:06 +0000",
+      "source": "InSight Crime"
+    },
+    {
+      "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+      "summary": "The influential central banker expressed confidence that inflation will get closer to the Fed's 2% target in 2027.",
+      "link": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
+      "published": "Mon, 23 Nov 2026 21:02:17 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Mexican soldiers attacked in wake of drug lord's arrest",
+      "summary": "Eight suspects are arrested after firing on soldiers trying to re-establish order following the arrest of 'El Chapo Isidro'.",
+      "link": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o?at_medium=RSS&at_campaign=rss",
+      "published": "Mon, 23 Nov 2026 14:54:03 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "The past as a political weapon",
+      "summary": "<p><img alt=\"Axel Kicillof , CFK, Nov 2013\" src=\"https://fotos.perfil.com/2026/11/23/trim/540/304/axel-kicillof-cfk-nov-2013-2367717.jpg\" /></p>Javier Milei's electoral strength lies in the rejection of what came before. But as 2027 approaches, voters may begin judging his own government against the past they once wanted to leave behind. <a href=\"https://www.batimes.com.ar/news/opinion-and-analysis/the-past-as-a-political-weapon.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/opinion-and-analysis/the-past-as-a-political-weapon.phtml",
+      "published": "Mon, 23 Nov 2026 11:57:58 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "‘Once installed, there’s no getting rid of it’: what Falklands oil plans mean for its seals, whales and penguins",
+      "summary": "<p>While Argentina and the UK dispute sovereignty over the islands and its vast oil reserves, environmentalists fear for one of the Atlantic’s richest ecosystems</p><p>From the air, the main <a href=\"https://www.theguardian.com/uk/falklands\">Falkland Islands</a> form two large, jagged shapes against the South Atlantic. East Falkland and West Falkland are surrounded by <a href=\"https://www.gov.fk/about/\">778 smaller islands and islets</a> east of Patagonia’s southern tip.</p><p>The archipelago, a British overseas territory claimed by Argentina, is home to large colonies of albatrosses and penguins. Its waters, with those of the Patagonian shelf, provide feeding grounds for sea lions, southern elephant seals and southern right whales.</p> <a href=\"https://www.theguardian.com/global-development/2026/nov/23/falkland-islands-argentina-sea-lion-oil-environment-sovereignty-wildlife-pollution\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/global-development/2026/nov/23/falkland-islands-argentina-sea-lion-oil-environment-sovereignty-wildlife-pollution",
+      "published": "Mon, 23 Nov 2026 06:00:49 GMT",
+      "source": "The Guardian"
     },
     {
       "title": "Democrat Hubbard wins North Carolina recount, clinching historic House majority",
@@ -119,32 +210,11 @@
       "source": "Buenos Aires Times"
     },
     {
-      "title": "These little-known investments could be among the best bargains in a crash",
-      "summary": "If this stock market turmoil turns into a full-blown crash, look for low-risk investment bargains among closed-end funds.",
-      "link": "https://www.marketwatch.com/story/these-little-known-investments-could-be-among-the-best-bargains-in-a-crash-78a379b4?mod=mw_rss_topstories",
-      "published": "Sun, 22 Nov 2026 18:23:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "‘Nvidia’s turmoil has me spooked’: Is it time to sell my stocks and buy real estate?",
-      "summary": "If you are tempted to ditch stocks for property or CDs, take a deep breath before making any sudden moves.",
-      "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
-      "published": "Sun, 22 Nov 2026 17:00:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
       "title": "Vehicles burn on Mexican highway after capture of 'El Chapo Isidro' – video",
       "summary": "<p>Footage shows burnt-out cars and trucks on roads in Sinaloa state after Fausto Isidro Meza Flores, one of the FBI's 10 most wanted fugitives, was captured during a raid on 20 November. The alleged drug cartel leader was arrested alongside his alleged second-in-command, Germán N, and José N, an alleged financial operator for the Beltrán Leyva group</p><p></p><ul><li><p><a href=\"https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested\">Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid</a></p></li></ul> <a href=\"https://www.theguardian.com/world/video/2026/nov/22/vehicles-burn-on-mexican-highway-after-capture-of-el-chapo-isidro-video\">Continue reading...</a>",
       "link": "https://www.theguardian.com/world/video/2026/nov/22/vehicles-burn-on-mexican-highway-after-capture-of-el-chapo-isidro-video",
       "published": "Sun, 22 Nov 2026 16:52:13 GMT",
       "source": "The Guardian"
-    },
-    {
-      "title": "Argentina's lawyer in Hamburg: if Sea Lion goes ahead, \"those rights are lost forever\"",
-      "summary": "<p>\n\t   \t      <img alt=\"Jurist Marcelo Kohen, part of Argentina's legal team, during the hearings before the International Tribunal for the Law of the Sea in Hamburg.\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112182/100x80/kohen.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Jurist Marcelo Kohen, one of the lawyers representing Argentina before the International Tribunal for the Law of the Sea, has argued that if the United Kingdom begins extracting oil at the Sea Lion project north of the Falklands, Argentina's rights over those resources \"are lost forever\". The tribunal will announce on November 28 its decision on Argentina's request to suspend the project.</p>",
-      "link": "https://en.mercopress.com/2026/11/22/argentina-s-lawyer-in-hamburg-if-sea-lion-goes-ahead-those-rights-are-lost-forever?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Sun, 22 Nov 2026 13:10:00 GMT",
-      "source": "MercoPress"
     },
     {
       "title": "Bank of England directors illegally profited from post-abolition enslavement in Cuba",
@@ -175,13 +245,6 @@
       "source": "NPR"
     },
     {
-      "title": "Cartel leader captured in northern Mexico in a bloody firefight that left 11 dead",
-      "summary": "Fausto Isidro Meza Flores, better known as \"El Chapo Isidro,\" was one of the FBI's most wanted fugitives. His arrest in northwest Mexico on Saturday has sparked violence in the region.",
-      "link": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
-      "published": "Sat, 21 Nov 2026 13:08:55 -0500",
-      "source": "NPR"
-    },
-    {
       "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
       "summary": "<p>Fausto Isidro Meza Flores was one of FBI’s most wanted fugitives and evaded capture for more than a decade</p><p>The Mexican military captured one of the FBI’s 10 most wanted fugitives during a special forces raid in the Mexican state of Sinaloa on Friday night.</p><p>Fausto Isidro Meza Flores, known as “El Chapo Isidro”, was arrested along with two other alleged leaders of his gang after a gun battle that triggered widespread panic in the city of Guasave.</p> <a href=\"https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested\">Continue reading...</a>",
       "link": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
@@ -194,48 +257,6 @@
       "link": "https://www.france24.com/en/americas/20261121-mexico-captures-drug-cartel-boss-el-chapo-isidro-after-deadly-firefight",
       "published": "Sat, 21 Nov 2026 15:00:15 GMT",
       "source": "France 24"
-    },
-    {
-      "title": "Mark Carney is so popular he can get away with a lot. Will it last if the Trump spell breaks?",
-      "summary": "<p>Canadians have put a lot of trust in their prime minister but some question if it can last if the trade wars were to end</p><p>In the hours after polls in the US midterm elections closed and it became clear that Donald Trump had been rebuked in historic fashion, Canadian politicians were elated.</p><p>“I was doing cartwheels down the street, and have you ever seen a big guy like me doing cartwheels?” said Ontario premier Doug Ford, a prominent critic of American tariffs.</p> <a href=\"https://www.theguardian.com/world/2026/nov/21/mark-carney-popular-will-it-last-trump-spell-breaks-canada\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/nov/21/mark-carney-popular-will-it-last-trump-spell-breaks-canada",
-      "published": "Sat, 21 Nov 2026 12:00:58 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Milei government approves US$50-billion Argentina LNG export project",
-      "summary": "<p><img alt=\"Headquarters of state energy firm YPF.\" src=\"https://fotos.perfil.com/2026/11/21/trim/540/304/headquarters-of-state-energy-firm-ypf-2367302.jpg\" /></p>Project led by state energy giant YPF will exploit Vaca Muerta shale gas, with exports of 12 million tonnes of liquefied natural gas annually planned. <a href=\"https://www.batimes.com.ar/news/economy/milei-government-approves-us50-billion-argentina-lng-export-project.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/economy/milei-government-approves-us50-billion-argentina-lng-export-project.phtml",
-      "published": "Sat, 21 Nov 2026 11:01:08 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
-      "title": "Passaglia brothers ask Argentina’s voters to bet on 'San Nicolás model'",
-      "summary": "<p><img alt=\"The Passaglia brothers.\" src=\"https://fotos.perfil.com/2026/11/19/trim/540/304/the-passaglia-brothers-2366675.jpg\" /></p>San Nicolás-based brothers Santiago and Manuel Passaglia recently surprised political onlookers by tossing their hats into next year’s presidential ring. In an interview, they criticise President Milei and Kirchnerism alike but deny being a third way option. “The middle road is a failure,” they say.\n <a href=\"https://www.batimes.com.ar/news/argentina/passaglia-brothers-ask-argentinas-voters-to-bet-on-san-nicolas-model.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/argentina/passaglia-brothers-ask-argentinas-voters-to-bet-on-san-nicolas-model.phtml",
-      "published": "Sat, 21 Nov 2026 03:30:00 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
-      "title": "Red Command (Comando Vermelho)",
-      "summary": "<p><a href=\"https://insightcrime.org/brazil-organized-crime-news/red-command-profile/\">Red Command (Comando Vermelho)</a></p>\n<figure><img alt=\"Red Command (Comando Vermelho).\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"768\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2026/05/Grupo-Criminal-Comando-Vermelho.jpg?fit=1024%2C768&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>The Red Command (Comando Vermelho – CV) is Brazil’s oldest criminal group. Created in a Rio de Janeiro prison in the 1970s as a self-protection group for prisoners, it started out with low-level crimes like muggings and bank robberies. But in the 1980s, the group moved into the cocaine trade, working with Colombian drug cartels and taking on a social leadership role in many of Rio’s marginalized neighborhoods.</p>\n<p>The post <a href=\"https://insightcrime.org/brazil-organized-crime-news/red-command-profile/\">Red Command (Comando Vermelho)</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
-      "link": "https://insightcrime.org/brazil-organized-crime-news/red-command-profile/",
-      "published": "Fri, 20 Nov 2026 16:51:05 +0000",
-      "source": "InSight Crime"
-    },
-    {
-      "title": "Costa Rica Profile",
-      "summary": "<p><a href=\"https://insightcrime.org/costa-rica-organized-crime-news/costa-rica/\">Costa Rica Profile</a></p>\n<figure><img alt=\"\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"768\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2026/05/Cover-Costa-Rica.jpg?fit=1024%2C768&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>Costa Rica has traditionally been perceived as a bastion of security in crime-ravaged Central America. In recent years, however, the country has experienced record levels of violence, which authorities have blamed on its growing role as a drug transshipment point. Local crime groups do not appear to pose a major security threat. But as they become increasingly involved with transnational criminal organizations expanding their operations in Costa Rica, corruption and instability may deepen.   <a class=\"read-more-contri\" href=\"https://insightcrime.org/costa-rica-organized-crime-news/costa-rica/\">Read more</a></p>\n<p>The post <a href=\"https://insightcrime.org/costa-rica-organized-crime-news/costa-rica/\">Costa Rica Profile</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
-      "link": "https://insightcrime.org/costa-rica-organized-crime-news/costa-rica/",
-      "published": "Fri, 20 Nov 2026 16:45:04 +0000",
-      "source": "InSight Crime"
-    },
-    {
-      "title": "Haiti",
-      "summary": "<p><a href=\"https://insightcrime.org/haiti-organized-crime-news/haiti/\">Haiti</a></p>\n<figure><img alt=\"A picture of Haitian gang leader, Jimmy Cherizier, alias \"Barbecue,\" the most influential gang boss in Haiti.\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"597\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2023/03/Haiti-Gang-leader-of-the-G9-and-Family-gang-Jimmy-Cherizier-better-known-as-Barbecue-Oct-2021-AP712146566239-Country.jpg?fit=1024%2C597&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>Haiti’s criminal landscape has been shaped by the country's longstanding political instability and economic challenges.</p>\n<p>The post <a href=\"https://insightcrime.org/haiti-organized-crime-news/haiti/\">Haiti</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
-      "link": "https://insightcrime.org/haiti-organized-crime-news/haiti/",
-      "published": "Fri, 20 Nov 2026 15:17:35 +0000",
-      "source": "InSight Crime"
     },
     {
       "title": "El Salvador: Nayib Bukele, self-proclaimed “coolest dictator on earth”, is seeking a third term",
@@ -257,13 +278,6 @@
       "link": "https://www.latinamericareports.com/exiled-maria-corina-aide-returns-to-venezuela-as-increasing-numbers-of-venezuelans-arrive-home/15671/",
       "published": "Thu, 19 Nov 2026 22:56:41 +0000",
       "source": "Latin America Reports"
-    },
-    {
-      "title": "Armed forces in Haiti kill at least 34 gang members to regain control of key corridor",
-      "summary": "Haitian security forces launched a major offensive on Thursday to retake Martissant, a strategic corridor linking Port-au-Prince with the country's western and southern regions that gangs have controlled for five years. Police said at least 34 suspected gang members were killed in clashes involving a private security task force.",
-      "link": "https://www.france24.com/en/americas/20261119-major-anti-gang-offensive-in-haiti-kills-34-suspected-gang-members",
-      "published": "Thu, 19 Nov 2026 22:31:25 GMT",
-      "source": "France 24"
     },
     {
       "title": "El Salvador troop deployment in Haiti sets ‘worrisome’ precedent – NGO",
@@ -301,20 +315,6 @@
       "source": "BBC News"
     },
     {
-      "title": "Gunmen kill Costa Rican journalist who reported on drugs trade",
-      "summary": "Rodríguez had denounced alleged links between criminal organisations and powerful figures in Costa Rica.",
-      "link": "https://www.bbc.co.uk/news/articles/c6ly7g5lx7gyo?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 17 Nov 2026 11:58:16 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
-      "summary": "Oil prices are falling as forecasts project a surplus in oil in the fourth quarter",
-      "link": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
-      "published": "Mon, 16 Nov 2026 22:19:02 GMT",
-      "source": "CNBC"
-    },
-    {
       "title": "Arabica Coffee Prices Hit Record on U.S., Colombia Tariff Spat",
       "summary": "Arabica coffee prices hit a record level, as traders digested the withdrawal of President Trump’s threats to impose tariffs and economic sanctions on Colombia.",
       "link": "https://www.wsj.com/articles/arabica-coffee-prices-hit-new-high-on-u-s-colombia-tariff-spat-582446fe?mod=rss_markets_main",
@@ -337,15 +337,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-11-08 06:01",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 72,
-      "incidents": 40,
-      "bovespa": 168498.45,
-      "brl_czk": 3.963
-    },
     {
       "date": "2026-11-08 12:33",
       "threat_level": "HIGH",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "bovespa": 166376.44,
       "brl_czk": 3.749
+    },
+    {
+      "date": "2026-11-24 06:05",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 72,
+      "incidents": 40,
+      "bovespa": 164796.05,
+      "brl_czk": 3.727
     }
   ],
   "locations": [
@@ -615,20 +615,6 @@
       "lon": -47.8828,
       "name_cs": "Brasília",
       "name_en": "Brasília"
-    },
-    {
-      "key": "Sao Paulo",
-      "lat": -23.5505,
-      "lon": -46.6333,
-      "name_cs": "São Paulo",
-      "name_en": "São Paulo"
-    },
-    {
-      "key": "Rio de Janeiro",
-      "lat": -22.9068,
-      "lon": -43.1729,
-      "name_cs": "Rio de Janeiro",
-      "name_en": "Rio de Janeiro"
     },
     {
       "key": "Buenos Aires",
@@ -659,6 +645,20 @@
       "name_en": "Caracas"
     },
     {
+      "key": "Quito",
+      "lat": -0.1807,
+      "lon": -78.4678,
+      "name_cs": "Quito",
+      "name_en": "Quito"
+    },
+    {
+      "key": "Asuncion",
+      "lat": -25.2637,
+      "lon": -57.5759,
+      "name_cs": "Asunción",
+      "name_en": "Asunción"
+    },
+    {
       "key": "Montevideo",
       "lat": -34.9011,
       "lon": -56.1645,
@@ -666,11 +666,25 @@
       "name_en": "Montevideo"
     },
     {
+      "key": "Amazon",
+      "lat": -3.4653,
+      "lon": -62.2159,
+      "name_cs": "Amazonie",
+      "name_en": "Amazon"
+    },
+    {
       "key": "Patagonia",
       "lat": -41.8,
       "lon": -68.9,
       "name_cs": "Patagonie",
       "name_en": "Patagonia"
+    },
+    {
+      "key": "Falklands",
+      "lat": -51.7963,
+      "lon": -59.5236,
+      "name_cs": "Falklandy",
+      "name_en": "Falkland Islands"
     },
     {
       "key": "Cuba",
@@ -687,6 +701,14 @@
       "name_en": "Washington, D.C."
     },
     {
+      "key": "New York",
+      "lat": 40.71,
+      "lon": -74,
+      "name_cs": "New York",
+      "name_en": "New York",
+      "auto": true
+    },
+    {
       "key": "Texas",
       "lat": 31,
       "lon": -99,
@@ -700,14 +722,6 @@
       "lon": -79.8,
       "name_cs": "Severní Karolína",
       "name_en": "North Carolina",
-      "auto": true
-    },
-    {
-      "key": "Canada",
-      "lat": 56.1,
-      "lon": -106.3,
-      "name_cs": "Kanada",
-      "name_en": "Canada",
       "auto": true
     },
     {
@@ -757,47 +771,39 @@
       "name_cs": "Londýn",
       "name_en": "London",
       "auto": true
-    },
-    {
-      "key": "Poland",
-      "lat": 52.23,
-      "lon": 21,
-      "name_cs": "Varšava",
-      "name_en": "Poland",
-      "auto": true
     }
   ],
   "location_counts": {
-    "Brasilia": 104,
+    "Brasilia": 105,
     "Sao Paulo": 32,
     "Rio de Janeiro": 26,
-    "Buenos Aires": 102,
-    "Santiago": 81,
+    "Buenos Aires": 103,
+    "Santiago": 82,
     "Lima": 72,
-    "Bogota": 104,
-    "Caracas": 93,
-    "Quito": 61,
+    "Bogota": 105,
+    "Caracas": 94,
+    "Quito": 62,
     "La Paz": 50,
-    "Asuncion": 38,
-    "Washington": 104,
-    "New York": 2,
+    "Asuncion": 39,
+    "Washington": 105,
+    "New York": 1,
     "Texas": 1,
     "Colorado": 1,
     "Kanada": 1,
     "Mexiko": 7,
     "Venezuela": 3,
-    "Brazílie": 2,
-    "Argentina": 5,
+    "Brazílie": 4,
+    "Argentina": 1,
     "Ukrajina": 1,
-    "Rusko": 2,
+    "Rusko": 1,
     "Pákistán": 1,
-    "Londýn": 1,
+    "Londýn": 3,
     "Paříž": 1,
     "Madrid": 1,
     "Peru": 1,
     "Bolívie": 1,
-    "Montevideo": 57,
-    "Falklands": 46,
+    "Montevideo": 58,
+    "Falklands": 47,
     "Ohio": 1,
     "Michigan": 3,
     "Severní Karolína": 1,
@@ -807,7 +813,7 @@
     "Atacama": 10,
     "Beijing": 36,
     "Čína": 1,
-    "Amazon": 65,
+    "Amazon": 66,
     "Medellin": 7,
     "Tchaj-wan": 1,
     "Řím": 1,
@@ -826,12 +832,12 @@
     "Los Angeles": 1,
     "Paramaribo": 2,
     "Arizona": 1,
-    "Patagonia": 16,
+    "Patagonia": 17,
     "Somálsko": 1,
     "Atlanta": 1,
     "Georgetown": 12,
     "Kalifornie": 1,
-    "Cuba": 30,
+    "Cuba": 31,
     "Egypt": 2,
     "San Francisco": 1,
     "SAE": 1,
@@ -854,17 +860,9 @@
     "key": "Brasilia",
     "name_cs": "Brasília",
     "name_en": "Brasília",
-    "count": 104
+    "count": 105
   },
   "archive": [
-    {
-      "date": "2026-11-16 14:31",
-      "threat_level": "HIGH",
-      "security_status_cs": "Jižní čelí rostoucímu napětí kvůli protivládním protestům a dopravním stávkám v Chile vyvolaným cenami pohonných hmot a stupňujícím se útokům organizovaného zločinu na úředníky. Paraguay mezitím řeší hlubokou politickou krizi po kolapsu Ueno Bank, zatímco v Brazílii se pravicová opozice snaží konsolidovat moc v Senátu navzdory volební porážce.",
-      "security_status_en": "South America faces mounting tension driven by anti-government protests and transport strikes in Chile over fuel prices, alongside escalating organized crime attacks targeting public officials. Meanwhile, Paraguay is grappling with a deep political crisis following the collapse of Ueno Bank, while in Brazil the right-wing opposition seeks to consolidate power in the Senate despite its recent presidential defeat.",
-      "forecast_cs": "V nejbližších dnech se očekává další politický manévr ohledně projednávání argentinské obchodní dohody v Kongresu a sledování dopadů protestů na chilskou ekonomiku.",
-      "forecast_en": "Over the coming days, attention will focus on political maneuvering regarding the Argentine trade deal in Congress and monitoring the economic impact of ongoing protests in Chile."
-    },
     {
       "date": "2026-11-17 06:01",
       "threat_level": "HIGH",
@@ -968,14 +966,22 @@
       "security_status_en": "South America is facing rising security tensions, notably in Mexico following the arrest of drug lord 'El Chapo Isidro' and in Colombia where armed clashes escalate despite government offensives. The economic landscape is shaped by commodity price fluctuations, with coffee prices hitting record highs and crude oil softening slightly.",
       "forecast_cs": "V nejbližších dnech lze očekávat zvýšenou bezpečnostní ostražitost v Mexiku po rozsáhlých střetech s kartely a pokračující volatilitu na komoditních trzích se zaměřením na energetiku a kávu.",
       "forecast_en": "Over the coming days, heightened security vigilance is expected in Mexico following major cartel clashes, alongside continued volatility in commodity markets focusing on energy and coffee."
+    },
+    {
+      "date": "2026-11-24 06:05",
+      "threat_level": "HIGH",
+      "security_status_cs": "Region čelí výrazným bezpečnostním rizikům po zatčení významného drogového bosse 'El Chapo Isidro' v Mexiku, které vyvolalo ozbrojené střety, a po bombovém útoku v kolumbijském departementu Meta. Ekonomická stabilita regionu je navíc pod tlakem globální jestřábí měnové politiky Fedu, rostoucích amerických výnosů dluhopisů a domácích fiskálních tenzí v Brazílii.",
+      "security_status_en": "The region faces significant security risks following the arrest of high-profile drug lord 'El Chapo Isidro' in Mexico, which triggered armed clashes, alongside a car bomb attack in Colombia's Meta department. Furthermore, regional economic stability remains under pressure from global Fed hawkishness, rising US Treasury yields, and domestic fiscal tensions in Brazil.",
+      "forecast_cs": "V nejbližších dnech lze očekávat pokračující bezpečnostní operace a zvýšenou ostražitost v Mexiku a Kolumbii, zatímco komoditní trhy budou citlivě reagovat na měnovou politiku USA.",
+      "forecast_en": "Over the coming days, continued security operations and heightened vigilance are expected in Mexico and Colombia, while commodity markets will remain sensitive to US monetary policy."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 7× HIGH.",
   "market_data": {
     "bovespa": {
-      "value": 166376.44,
-      "date": "2026-11-19",
+      "value": 164796.05,
+      "date": "2026-11-23",
       "cached": false
     },
     "merval": {
@@ -984,13 +990,13 @@
       "cached": false
     },
     "usdbrl": {
-      "value": 5.9488,
-      "date": "2026-11-23",
+      "value": 5.9293,
+      "date": "2026-11-24",
       "cached": false
     }
   },
   "brl_czk": {
-    "value": 3.749,
-    "date": "2026-11-20"
+    "value": 3.727,
+    "date": "2026-11-23"
   }
 }
