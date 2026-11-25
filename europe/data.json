@@ -1,197 +1,254 @@
 {
-  "last_updated": "2026-11-24T06:00:16Z",
+  "last_updated": "2026-11-25T06:00:14Z",
   "assessment": {
     "threat_level": "HIGH",
-    "sentiment_score": 70,
-    "security_status_cs": "Chyba při automatické analýze AI.",
-    "security_status_en": "Error during automated AI analysis.",
-    "recommendations": [],
-    "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
-    "forecast_en": "Failed to generate forecast.",
-    "forecast_review_cs": "N/A",
-    "forecast_review_en": "N/A"
+    "sentiment_score": 68,
+    "security_status_cs": "Evropa čelí rostoucím politickým nejistotám spojeným s blížícími se volbami, hrozbami ruských sabotáží vůči podnikům podporujícím Ukrajinu a přetrvávajícími inflačními tlaky nutícími ECB k obezřetnosti. Hrozba politické nestability v klíčových zemích jako je Francie a Španělsko podtrhuje napjatou situaci na trzích.",
+    "security_status_en": "Europe is facing mounting political uncertainties tied to upcoming elections, threats of Russian sabotage against businesses supporting Ukraine, and persistent inflation pressures forcing the ECB to remain vigilant. The threat of political instability in key nations like France and Spain underscores a tense market environment.",
+    "recommendations": [
+      {
+        "sector_cs": "Široký evropský akciový trh (Euro Stoxx 50 ETF)",
+        "sector_en": "Broad European Equities (Euro Stoxx 50 ETFs)",
+        "action": "HOLD",
+        "reason_cs": "Trhy čelí protivětru v podobě politických rizik ve Francii a hrozících amerických cel, což omezuje širší růstový potenciál.",
+        "reason_en": "Markets face headwinds from French political risks and potential US tariffs, capping broader upside potential."
+      },
+      {
+        "sector_cs": "Evropské banky (BNP Paribas, Deutsche Bank, Santander)",
+        "sector_en": "European Banks (BNP Paribas, Deutsche Bank, Santander)",
+        "action": "HOLD",
+        "reason_cs": "Očekávané utažení měnové politiky ECB a stabilní úrokové marže podporují zisky, avšak geopolitická rizika a regulace vyžadují opatrnost.",
+        "reason_en": "Expected ECB policy tightening and stable interest margins support earnings, but geopolitical risks and regulations dictate caution."
+      },
+      {
+        "sector_cs": "Obranný průmysl (Rheinmetall, Thales, Leonardo)",
+        "sector_en": "Defense Industry (Rheinmetall, Thales, Leonardo)",
+        "action": "BUY",
+        "reason_cs": "Trvající válka na Ukrajině a nutnost navyšování evropských obranných kapacit zajišťují silný příliv dlouhodobých vládních zakázek.",
+        "reason_en": "The ongoing war in Ukraine and the necessity to scale up European defense capabilities ensure a strong influx of long-term government orders."
+      },
+      {
+        "sector_cs": "Energetika (TotalEnergies, Shell, RWE)",
+        "sector_en": "Energy (TotalEnergies, Shell, RWE)",
+        "action": "BUY",
+        "reason_cs": "Navzdory sankcím vůči Rusku a regulacím zůstávají energetické firmy ziskové a profitují z globální diverzifikace dodávek.",
+        "reason_en": "Despite sanctions on Russia and regulations, energy firms remain profitable and benefit from global supply diversification."
+      },
+      {
+        "sector_cs": "Automobilový průmysl (Volkswagen, BMW, Stellantis)",
+        "sector_en": "Automotive Industry (Volkswagen, BMW, Stellantis)",
+        "action": "SELL",
+        "reason_cs": "Sektor čelí slabé domácí poptávce, konkurenčnímu tlaku z Číny a hrozbě nových amerických cel.",
+        "reason_en": "The sector faces weak domestic demand, competitive pressure from China, and the threat of new US tariffs."
+      },
+      {
+        "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
+        "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
+        "action": "BUY",
+        "reason_cs": "Domácí bankovní tituly vykazují silnou odolnost a stabilní dividendové výnosy, zatímco energetika zůstává pevně podložena regionální poptávkou.",
+        "reason_en": "Domestic banking stocks exhibit strong resilience and stable dividend yields, while the energy sector remains solidly underpinned by regional demand."
+      }
+    ],
+    "forecast_cs": "V nejbližších dnech lze očekávat volatilitu na trzích v reakci na politické události ve Francii a vyjádření představitelů ECB ohledně úrokových sazeb.",
+    "forecast_en": "In the coming days, market volatility is expected in response to political developments in France and statements from ECB officials regarding interest rates.",
+    "forecast_review_cs": "Žádná předchozí předpověď k vyhodnocení.",
+    "forecast_review_en": "No previous forecast to evaluate."
   },
   "articles": [
     {
-      "title": "Can Europe stop Trump putting world leaders above the law?",
+      "title": "Further tightening to come from the ECB to prevent inflation persistence",
+      "summary": "Read the November scenario by the FT’s Monetary Policy Radar team",
+      "link": "https://www.ft.com/content/f805c4ef-be16-4c10-9d62-47a7c6675b5f",
+      "published": "Wed, 25 Nov 2026 05:30:02 GMT",
+      "source": "Financial Times"
+    },
+    {
+      "title": "Why Europe’s Socialists are turning on Frederiksen",
       "summary": "Presented by Fusion for Energy.",
-      "link": "https://www.politico.eu/podcast/brussels-playbook-podcast/can-europe-stop-trump-putting-world-leaders-above-the-law/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Tue, 24 Nov 2026 05:05:00 +0000",
+      "link": "https://www.politico.eu/podcast/brussels-playbook-podcast/why-europes-socialists-are-turning-on-frederiksen/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Wed, 25 Nov 2026 05:05:00 +0000",
       "source": "Politico Europe"
     },
     {
-      "title": "EU to seek changes to UN climate talks process after COP failure",
-      "summary": "Acrimony and finger-pointing over the breakdown comes after a year of increasingly extreme climate disasters",
-      "link": "https://www.ft.com/content/f01d609c-485d-4d1d-ac0a-5fa1fd5c7612",
-      "published": "Tue, 24 Nov 2026 05:00:25 GMT",
+      "title": "Supermarkets fear power shift under new EU food rules",
+      "summary": "Fifty retail chiefs warn that extending protections to global brands could make food less affordable",
+      "link": "https://www.rapporteur.com/news/supermarkets-fear-power-shift-under-new-eu-food-rules/",
+      "published": "Wed, 25 Nov 2026 05:00:32 +0000",
+      "source": "Euractiv"
+    },
+    {
+      "title": "Eurozone capitals seek consolation prize for Knot to avoid ECB vote",
+      "summary": "Leaders try to find alternative role for Dutch contender as they prepare to endorse his Spanish rival to head central bank",
+      "link": "https://www.ft.com/content/d55a0dcf-ce3d-41e0-bdc9-6cb7267f6e1d?syn-25a6b1a6=1",
+      "published": "Wed, 25 Nov 2026 05:00:32 GMT",
       "source": "Financial Times"
     },
     {
-      "title": "Pentagon delays Patriot missile shipments to Ukraine",
-      "summary": "US defence secretary Pete Hegseth has yet to sign off on 60 Patriot interceptors for Kyiv, including from European arsenals",
-      "link": "https://www.ft.com/content/02db16f6-808f-44b4-98dc-fe47f6a04d33?syn-25a6b1a6=1",
-      "published": "Tue, 24 Nov 2026 05:00:15 GMT",
+      "title": "A French crisis would be a threat — and opportunity — for Europe",
+      "summary": "A far-right victory could spark fiscal chaos, but it might end up strengthening the EU",
+      "link": "https://www.ft.com/content/c72a8e34-13c2-4336-90b1-e59bac95c78b",
+      "published": "Wed, 25 Nov 2026 05:00:32 GMT",
       "source": "Financial Times"
     },
     {
-      "title": "Britain bought fake C4 explosives for Ukraine",
-      "summary": "Flagship UK procurement unit paid a part-time US police officer for tonnes of plastic explosives with no detectable RDX, the main ingredient in military C4",
-      "link": "https://www.ft.com/content/b5873050-2b90-4889-bbf6-902234e51e9f?syn-25a6b1a6=1",
-      "published": "Tue, 24 Nov 2026 05:00:07 GMT",
-      "source": "Financial Times"
-    },
-    {
-      "title": "Europe’s big threat is not Trump and Putin redrawing the map. It’s our own learned helplessness | Natalie Tocci",
-      "summary": "<p>The US and Russia lack the power to impose their will on the continent – the Shenzhen summit was no Yalta 2.0</p><p>The first ever <a href=\"https://www.theguardian.com/news/audio/2026/nov/19/troublesome-trio-trump-xi-putin-historic-meeting-the-latest\">trilateral summit</a> between Xi Jinping, Donald Trump and Vladimir Putin was rich in symbolism and empty of substance. Many Europeans, filled with anxiety about the Chinese, Russian and US presidents potentially colluding, saw chilling echoes of the Yalta conference in 1945, when Joseph Stalin, Winston Churchill and Franklin D Roosevelt redrew the map of Europe.</p><p>But those – particularly in eastern Europe – who are fretting about <a href=\"https://www.theguardian.com/world/2026/nov/14/yalta-trump-xi-putin-china-apec\">another historic betrayal</a> should remember that when it comes to European security today, we are the ones who hold most of the cards. Far more meaningful last week than Shenzhen was a <a href=\"https://www.aljazeera.com/news/2026/11/19/european-leaders-unite-in-berlin-to-reaffirm-support-for-ukraine\">gathering in Berlin</a>, held at exactly the same time.</p> <a href=\"https://www.theguardian.com/commentisfree/2026/nov/24/europes-big-threat-is-not-trump-and-putin-redrawing-the-map-its-our-own-learned-helpnessness\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/commentisfree/2026/nov/24/europes-big-threat-is-not-trump-and-putin-redrawing-the-map-its-our-own-learned-helpnessness",
-      "published": "Tue, 24 Nov 2026 05:00:06 GMT",
+      "title": "In charts: how power could shift in Europe’s big year of elections",
+      "summary": "<p>More than half of EU voters will go to the polls in the next 12 months, with the far right targeting significant gains. We set out the political landscape and trends</p><p>Over the coming 12 months, more than half of the EU’s electorate will go to the polls in elections that could change the direction of the continent, with attention focused on voters in four of the bloc’s five biggest states.</p><p>In Spain, France and Poland, elections could bring the far right into government. Italy’s far-right prime minister looks likely to remain in power, but is under pressure from a challenger even more to the right.</p> <a href=\"https://www.theguardian.com/world/2026/nov/25/charts-europe-big-year-of-elections-eu-far-right\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/nov/25/charts-europe-big-year-of-elections-eu-far-right",
+      "published": "Wed, 25 Nov 2026 05:00:06 GMT",
       "source": "The Guardian"
     },
     {
-      "title": "European fertiliser suppliers shutting plants as energy prices soar",
-      "summary": "A third of ammonia production suspended because of power costs, raising reliance on imports",
-      "link": "https://www.ft.com/content/97e74bf5-081b-4f56-900f-36f1fd3b0e20?syn-25a6b1a6=1",
-      "published": "Tue, 24 Nov 2026 05:00:06 GMT",
-      "source": "Financial Times"
-    },
-    {
-      "title": "Budget de l’UE : c’est Noël avant l’heure pour Emmanuel Macron",
-      "summary": "Plusieurs Etats membres accusent António Costa, le président du Conseil européen, de favoriser la France dans sa nouvelle proposition budgétaire.",
-      "link": "https://www.politico.eu/article/budget-de-lue-cest-noel-avant-lheure-pour-emmanuel-macron/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Tue, 24 Nov 2026 04:57:52 +0000",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "Türkei sieht Europas Wohlstand in Gefahr – wegen des IAA",
-      "summary": "Die EU plant ein Gesetz zur Stärkung der europäischen Industrie. Der „Industrial Accelerator Act“ könnte aber auch die Autoindustrie schwächen. Die Bundesregierung ist gespalten.",
-      "link": "https://www.politico.eu/article/tuerkei-sieht-europas-wohlstand-in-gefahr-wegen-des-iaa/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Tue, 24 Nov 2026 04:00:00 +0000",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "NATO’s Black Sea ambitions meet Turkish caution",
-      "summary": "Bulgaria would like a NATO mission modelled on Baltic Sentry",
-      "link": "https://www.rapporteur.com/news/natos-black-sea-ambitions-meet-turkish-caution/",
-      "published": "Tue, 24 Nov 2026 03:00:56 +0000",
-      "source": "Euractiv"
-    },
-    {
-      "title": "Brussels wants to stop nuclear, coal shutdowns in energy security overhaul",
-      "summary": "New EU draft rules could have prevented Germany's energy crisis nuclear shutdown",
-      "link": "https://www.rapporteur.com/news/brussels-wants-to-stop-nuclear-coal-shutdowns-in-energy-security-overhaul/",
-      "published": "Tue, 24 Nov 2026 03:00:27 +0000",
-      "source": "Euractiv"
-    },
-    {
-      "title": "Like Sánchez, Spanish opposition stalls on NATO defence target",
-      "summary": "People's Party says defence spending will not ‘jeopardise’ public services in line with Pedro Sánchez",
-      "link": "https://www.rapporteur.com/news/like-sanchez-spanish-opposition-stalls-on-nato-defence-target/",
-      "published": "Tue, 24 Nov 2026 03:00:26 +0000",
-      "source": "Euractiv"
-    },
-    {
-      "title": "Le Pen spectre haunts Greek plans for Montenegro’s EU entry",
-      "summary": "Athens is pushing for Montenegro but French voters might block its path to EU",
-      "link": "https://www.rapporteur.com/news/le-pen-spectre-haunts-greek-plans-for-montenegros-eu-entry/",
-      "published": "Tue, 24 Nov 2026 03:00:08 +0000",
-      "source": "Euractiv"
-    },
-    {
-      "title": "Back to 1936? Civil war ghosts haunt Spanish election campaign",
-      "summary": "With the far right poised to enter government, politicians are reopening the wounds of a war that began 90 years ago.",
-      "link": "https://www.politico.eu/article/back-to-1936-civil-war-ghosts-haunt-spanish-election-campaign/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-      "published": "Tue, 24 Nov 2026 03:00:00 +0000",
-      "source": "Politico Europe"
-    },
-    {
-      "title": "'Where's Henry?': In Brussels, the Financial Times holds a strategic position in the EU bubble",
-      "summary": "The British business and financial newspaper, and particularly its Brussels bureau chief, Henry Foy, are a reference point for European politicians and journalists alike. Brexit has only strengthened that position.",
-      "link": "https://www.lemonde.fr/en/international/article/2026/11/24/where-s-henry-in-brussels-the-financial-times-holds-a-strategic-position-in-the-eu-bubble_6787486_4.html",
-      "published": "Tue, 24 Nov 2026 02:08:35 +0100",
+      "title": "Le Pen bets voters will overlook legal troubles",
+      "summary": "Marine Le Pen, who officially announced her presidential bid on the very evening she was convicted of embezzling public funds, has brushed aside the various legal cases and suspicions of wrongdoing against her party.",
+      "link": "https://www.lemonde.fr/en/politics/article/2026/11/25/le-pen-bets-voters-will-overlook-legal-troubles_6787948_5.html",
+      "published": "Wed, 25 Nov 2026 05:00:12 +0100",
       "source": "Le Monde"
     },
     {
-      "title": "Ukraine war briefing: Kyiv’s strike on Russian ships in Benghazi condemned by Libya’s UN-backed government",
-      "summary": "<p>Tripoli-based foreign ministry demands explanation from Kyiv; Guardian analysis identifies more than 460,000 Russian deaths linked to the war. What we know on day 1,735</p> <a href=\"https://www.theguardian.com/world/2026/nov/24/ukraine-war-briefing-kyiv-strike-on-russian-ships-in-benghazi-condemned-by-un-backed-libya-government\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/world/2026/nov/24/ukraine-war-briefing-kyiv-strike-on-russian-ships-in-benghazi-condemned-by-un-backed-libya-government",
-      "published": "Tue, 24 Nov 2026 01:08:35 GMT",
+      "title": "‘Buy European’ ambition collides with defence targets",
+      "summary": "The EU knows what its defence needs are but getting governments to buy it together is another issue",
+      "link": "https://www.rapporteur.com/news/buy-european-ambition-collides-with-defence-targets/",
+      "published": "Wed, 25 Nov 2026 03:00:52 +0000",
+      "source": "Euractiv"
+    },
+    {
+      "title": "Funding questions linger over EU biotech ambitions",
+      "summary": "Debates revolve around a proposed new instrument called the 'EU Health Biotechnology Investment Pilot'",
+      "link": "https://www.rapporteur.com/news/funding-questions-linger-over-eu-biotech-ambitions/",
+      "published": "Wed, 25 Nov 2026 03:00:52 +0000",
+      "source": "Euractiv"
+    },
+    {
+      "title": "What the Pacific region can teach Europe about managing alliances",
+      "summary": "The clearest view of Europe's NATO future is from Seoul",
+      "link": "https://www.rapporteur.com/opinion/what-the-pacific-region-can-teach-europe-about-managing-alliances/",
+      "published": "Wed, 25 Nov 2026 03:00:37 +0000",
+      "source": "Euractiv"
+    },
+    {
+      "title": "The Russian army’s secret death toll – podcast",
+      "summary": "<p>Vladimir Putin has always kept the number of soldiers killed in Ukraine a secret, but at one point 720 were dying in 24 hours. Pjotr Sauer reports. Send your comments and questions to <a href=\"mailto:tif.questions@theguardian.com\"><strong>tif.questions@theguardian.com</strong></a></p><p>Russia has kept the death toll of its soldiers in the Ukraine war a carefully guarded secret. Now documents leaked to the Guardian have <a href=\"https://www.theguardian.com/world/series/russias-war-dead\">revealed its true scale</a>. The Guardian’s Russia affairs correspondent, <strong>Pjotr Sauer</strong>, tells <strong>Helen Pidd</strong> what reporters have discovered.</p><p>Two groups of hackers accessed Russia’s main statistics database last month and discovered a cache of 11m death certificates that revealed nearly 500,000 Russian losses in Ukraine since 2022. Among these were 1,000 – the equivalent of a whole regiment – who took their own lives.</p> <a href=\"https://www.theguardian.com/news/audio/2026/nov/25/the-russian-armys-secret-death-toll-podcast\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/news/audio/2026/nov/25/the-russian-armys-secret-death-toll-podcast",
+      "published": "Wed, 25 Nov 2026 03:00:03 GMT",
       "source": "The Guardian"
     },
     {
-      "title": "Bank of France seeks to boost circulation of €5 banknotes, prized by the French but hard to find",
-      "summary": "The small denomination, convenient for giving change or everyday purchases, has remained in circulation among consumers and merchants longer than expected, preventing the Bank of France from renewing it.",
-      "link": "https://www.lemonde.fr/en/money-investments/article/2026/11/24/bank-of-france-seeks-to-boost-circulation-of-5-banknotes-prized-by-the-french-but-hard-to-find_6787453_102.html",
-      "published": "Tue, 24 Nov 2026 01:38:15 +0100",
+      "title": "Alberto Núñez Feijóo: One step away from running Spain",
+      "summary": "The Galician styles himself as an unflashy, sober manager — in stark contrast to Socialist Prime Minister Pedro Sánchez.",
+      "link": "https://www.politico.eu/article/alberto-nunez-feijoo-one-step-away-from-running-spain/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Wed, 25 Nov 2026 03:00:00 +0000",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "‘Everything that concerns Libya concerns Italy’: Why Ukraine’s Med strike is a problem for Meloni",
+      "summary": "The Italian prime minister is a strong backer of Kyiv, but there is worry in Rome that the strikes on Russian ships could destabilize Libya.",
+      "link": "https://www.politico.eu/article/ukraine-strikes-russian-ships-libya-giorgia-meloni-italy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Wed, 25 Nov 2026 03:00:00 +0000",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "The European Commission shows leniency regarding France's budget situation",
+      "summary": "European Commissioner Valdis Dombrovskis, taking French Finance Minister Roland Lescure at his word, expects the French Parliament to pass the 2027 budget. With elections approaching, the Commission is treading carefully and holding back its criticism.",
+      "link": "https://www.lemonde.fr/en/economy/article/2026/11/25/the-european-commission-shows-leniency-regarding-france-s-budget-situation_6787882_19.html",
+      "published": "Wed, 25 Nov 2026 03:47:40 +0100",
       "source": "Le Monde"
     },
     {
-      "title": "US targets Iran's alleged 'shadow banking' network with new sanctions",
-      "summary": "New US Treasury research released Monday estimated activity linked to Iranian 'shadow banking' at $14.7 billion between January 2025 and August this year.",
-      "link": "https://www.lemonde.fr/en/international/article/2026/11/24/us-targets-iran-s-alleged-shadow-banking-network-with-new-sanctions_6787387_4.html",
-      "published": "Tue, 24 Nov 2026 00:31:03 +0100",
+      "title": "Donald Trump set to raise tariffs on 16 major economies",
+      "summary": "Donald Trump is set to raise tariffs on China, the European Union and several other countries, according to reports.",
+      "link": "https://news.sky.com/story/donald-trump-set-to-raise-tariffs-on-16-major-economies-13616253",
+      "published": "Wed, 25 Nov 2026 02:45:00 +0000",
+      "source": "Sky News"
+    },
+    {
+      "title": "Ukraine war briefing: Zelenskyy and Hungary PM hail new era of cooperation after Orbán",
+      "summary": "<p>Hungary’s new PM, Péter Magyar, calls for efforts ‘to build trust’ with Kyiv after  ousting of pro-Kremlin predecessor Viktor Orbán. What we know on day 1,736</p><p><strong>Ukraine’s Volodymyr Zelenskyy and Hungary’s Péter Magyar held talks in west Ukraine on Tuesday, with both hailing a new era in ties</strong> after years of tension under Budapest’s previous pro-Kremlin ruler Viktor Orbán. Tuesday’s meeting was billed as central to Kyiv’s hopes of accelerating its EU membership bid and strengthening economic ties with central Europe. Magyar, a pro-EU conservative who took office in May, met Zelenskyy in the war-torn country’s westernmost region of Transcarpathia – also home to a Hungarian ethnic minority. “This is an important moment and it is … very sensitive,” Zelenskyy said in a press conference, alongside Magyar, in the border town of Berehove, describing their talks as “positive”. The Hungarian prime minister said it was “in the interests of all neighbours to maintain good relations with one another”. He added: “I am very grateful that you have been able to achieve this; let us begin to build trust – better late than never.”</p><p><strong>Zelenskyy said the two leaders discussed an ‌increase in Hungary’s diesel exports to Ukraine </strong><strong>as well as use of Ukrainian gas storage facilities by Hungarian companies</strong>. Energy and agriculture ministers from the two countries will meet to discuss projects, Magyar said, while Budapest was also open to joining the Carpathian Eight grouping of regional countries launched by Zelenskyy, the Hungarian premier added. The two leaders also agreed to an expansion of rail transport between their countries, Zelenskyy said, without providing further details.</p><p><strong>Ukraine’s foreign minister said a drone attack against a Russian military vessel and cargo ship in Libyan waters at the ⁠weekend, which killed two ⁠Libyan army personnel, was a legitimate act of ⁠self-defence</strong>. Reacting to criticism from Libya’s ​western-backed government of national unity about being dragged into the war, Andrii Sybiha said Russian naval vessels and cargo ships transporting military equipment were valid targets and Ukraine’s right to self-defence was enshrined in Article 51 of the United Nations charter. “Ukraine respects the sovereignty and ‌territorial integrity of Libya,” Khmara said on Telegram. “We emphasise that Ukraine’s actions are aimed at countering Russian armed aggression and are not intended to harm Libya or its people.”</p><p>The eastern-based ‌Libyan National ‌Army (LNA) General Command, which control’s the east of the country and has ties with Russia, on Tuesday said <strong>a ‌response to the Ukrainian attack would come “at ​the appropriate time and place”.</strong></p><p><strong>Norway and Ukraine ⁠will expand their cooperation on a newly developed anti-drone air defence system</strong>, the Norwegian Defence Ministry ⁠said on Tuesday. Known as DESNA, it was developed by Norwegian defence technology company ⁠Kongsberg and a Ukrainian partner, the ministry said. The two countries want to expand the system – which consists of Ukrainian-made air defence ⁠missiles and launch units linked to Kongsberg control systems donated ​by Norway to more parts ‌of Ukraine. Ukrainian Defence Minister Yevhenii Khmara said the system had demonstrated its ability to destroy drones, including jet-powered drones that ‌Russian forces are deploying in increasing numbers.</p><p><strong>Belarusian president Alexander Lukashenko, a close ally of Russian leader Vladimir Putin, has proposed </strong><strong>he and </strong><strong>Zelenskyy fly together to Moscow for talks</strong> to end the war. Lukashenko, who allowed Russia to ⁠use his country’s territory for ⁠the February ​2022 invasion of Ukraine, told the French media outlet Le Point on Tuesday that he believed Russian forces were winning on the battlefield. “Zelenskyy and I could simply go and fly to Moscow. ​The two of us. As a guarantor ‌of his safety, I ‌could sit with him and fly to Moscow,” Lukashenko said in comments reported by Belarus’ state Belta ‌news agency. Zelenskyy has said he is prepared to meet ⁠Putin in a neutral location.</p><p><strong>Ukraine has continued attacks ⁠on Russian oil refineries despite ⁠requests from Donald Trump to refrain, Putin said on Tuesday</strong>, pledging to retaliate. Kyiv has said it would stop striking Russian energy targets only when Moscow ⁠did the same. “We see that the Kyiv ⁠regime continues to attack our refining facilities, despite the US president’s appeal and direct request to refrain from such ​attacks. But the Kyiv authorities are ignoring this advice,” ‌Putin told a meeting of government ‌officials and senior oil executives in the Kremlin. “In this regard, I would like to stress that retaliatory measures ‌on our part are inevitable,” he said.</p> <a href=\"https://www.theguardian.com/world/2026/nov/25/ukraine-war-briefing-zelenskyy-and-hungary-pm-hail-new-era-of-cooperation-after-orban\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/world/2026/nov/25/ukraine-war-briefing-zelenskyy-and-hungary-pm-hail-new-era-of-cooperation-after-orban",
+      "published": "Wed, 25 Nov 2026 02:21:53 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Israeli left-wing party halts coalition talks with Eisenkot",
+      "summary": "The Democrats party, led by former army major general Yair Golan, has been pushing Gadi Eisenkot to form a coalition with two Arab-majority lists that won an unprecedented number of seats in the election, in a bid to unseat Netanyahu.",
+      "link": "https://www.lemonde.fr/en/international/article/2026/11/25/israeli-left-wing-party-halts-coalition-talks-with-eisenkot_6787818_4.html",
+      "published": "Wed, 25 Nov 2026 02:33:19 +0100",
       "source": "Le Monde"
     },
     {
-      "title": "Belgium: Workers march against spending cuts as living costs rise",
-      "summary": "Thousands marched through Brussels, on Monday 23 November 2026, against proposed austerity measures, with some clashes prompting police to deploy tear gas and water cannons. The protests came as Belgium's government struggled to agree on its budget for 2027.",
-      "link": "https://www.euronews.com/video/2026/11/23/belgium-workers-march-against-spending-cuts-as-living-costs-rise",
-      "published": "Mon, 23 Nov 2026 22:09:46 +0100",
-      "source": "Euronews"
+      "title": "Clashing political visions reflect a divided Spain ahead of election",
+      "summary": "Sunday’s election could see a far-right party enter the Spanish government for first time.",
+      "link": "https://www.bbc.co.uk/news/articles/cq5y1212y4pwo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 25 Nov 2026 00:58:34 GMT",
+      "source": "BBC News"
     },
     {
-      "title": "Burnham says it would be ‘unthinkable’ to rejoin EU without referendum",
-      "summary": "<p>Prime minister also says former Tory premiers who have criticised revival of Brexit debate are ‘stuck in the past’</p><p>Andy Burnham has said it would be “unthinkable” for the UK to rejoin the EU without holding another referendum, offering his strongest commitment yet to directly consulting the public if he concludes Britain should go back in.</p><p>The prime minister is planning to set out the long-term options for closer ties with the bloc next month, with concrete steps coming after the next general election, as he has pledged to stick to Labour’s manifesto red lines.</p> <a href=\"https://www.theguardian.com/politics/2026/nov/23/andy-burnham-brexit-deal-eu\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/politics/2026/nov/23/andy-burnham-brexit-deal-eu",
-      "published": "Mon, 23 Nov 2026 19:26:01 GMT",
+      "title": "Russia's own figures show almost 500,000 deaths in war in Ukraine",
+      "summary": "Leaked data reveal how the full-scale invasion of Ukraine has fundamentally changed mortality patterns in Russia.",
+      "link": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 25 Nov 2026 00:56:51 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "My family died in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
+      "summary": "BBC journalist Anastasiya Gribanova investigates who killed her father and grandparents in the war.",
+      "link": "https://www.bbc.co.uk/news/articles/cw24e17v9e51o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 25 Nov 2026 00:54:13 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Micron boosted CEO Sanjay Mehrotra’s security budget by 2,000%, new filing shows",
+      "summary": "Steeply higher security expenses of $764,748 for Mehrotra were part of a $39.7 million total compensation package in the latest fiscal year.",
+      "link": "https://www.marketwatch.com/story/micron-boosted-ceo-sanjay-mehrotras-security-budget-by-2-000-new-filing-shows-d6202acc?mod=mw_rss_topstories",
+      "published": "Tue, 24 Nov 2026 23:11:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Efforts to free caged rabbits, calves wait on top EU court ruling",
+      "summary": "1.4 million Europeans called for a ban on keeping farm animals in cages, but the Commission has been slow to act.",
+      "link": "https://www.politico.eu/article/eu-court-ruling-commission-cage-ban-farmed-animals/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "published": "Tue, 24 Nov 2026 20:17:01 +0000",
+      "source": "Politico Europe"
+    },
+    {
+      "title": "Gordon Brown’s ideas on zero-sum beliefs don’t add up | Letters",
+      "summary": "<p>The former Labour prime minister is wrong to dismiss all zero-sum thinking as misguided, writes <strong>Gavin Bailey</strong></p><p>The broad thrust of Gordon Brown’s argument is correct (<a href=\"https://www.theguardian.com/commentisfree/2026/nov/21/far-right-menacing-europe-extremists-voters-spain-election-gordon-brown\">The far right is menacing Europe – but it is fragile. What the extremists and voters want isn’t the same, 22 November</a>). However, he is wrong to suggest that zero-sum beliefs are erroneous. Many things in life are zero-sum.</p><p>If I own a house, you can’t also own it; if I burn some gas to heat it, you can’t use the same gas. If the UK makes all the cars for the European market, other countries’ carmakers won’t be making them. Yes, growth can come from collaboration and trade, but the proceeds are not infinite and take time to achieve.</p> <a href=\"https://www.theguardian.com/politics/2026/nov/24/gordon-brown-ideas-on-zero-sum-beliefs-dont-add-up\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/politics/2026/nov/24/gordon-brown-ideas-on-zero-sum-beliefs-dont-add-up",
+      "published": "Tue, 24 Nov 2026 17:59:42 GMT",
       "source": "The Guardian"
     },
     {
-      "title": "Burnham says it would be ‘unthinkable’ for the UK to rejoin the EU without a referendum – as it happened",
-      "summary": "<p>The prime minister’s remarks were the clearest commitment yet to not joining the EU without another vote</p><p>In her speech, <strong>Louise Haigh</strong> announced that Juergen Maier, chair of Great British Energy, has been appointed as the government’s northern economy and reindustrialisation commissioner. She said:</p><p>Giving business the confidence to invest here, and create good jobs in our industrial heartlands. Creating good quality jobs in all parts of the country. The role of the private sector is essential to fulfilling that. That is why I am delighted to announce today a new northern economy and reindustrialisation commissioner.</p><p>With an impeccable industrial career we can learn much from, welcome, Juergen Maier.</p> <a href=\"https://www.theguardian.com/politics/live/2026/nov/23/andy-burnham-brexit-europe-eu-uk-summit-deal-commons-cbi-farage-badenoch-haigh-politics-latest-news-updates\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/politics/live/2026/nov/23/andy-burnham-brexit-europe-eu-uk-summit-deal-commons-cbi-farage-badenoch-haigh-politics-latest-news-updates",
-      "published": "Mon, 23 Nov 2026 18:31:17 GMT",
-      "source": "The Guardian"
+      "title": "Businesses supporting Ukraine told to 'act now' to protect against Russian sabotage",
+      "summary": "An alert issued on Tuesday warns of an increased risk of sabotage attacks such as arson and threats to staff.",
+      "link": "https://www.bbc.co.uk/news/articles/ckpdw4d0z2dwo?at_medium=RSS&at_campaign=rss",
+      "published": "Tue, 24 Nov 2026 17:39:32 GMT",
+      "source": "BBC News"
     },
     {
-      "title": "Iran carries out flogging of singer who performed without hijab",
-      "summary": "Ahmadi and four members of her concert team received lashes in Qom on Monday, her lawyer said, over a December 2024 performance, streamed live without an audience. A court sentenced nine team members to 74 lashes each, a two-year travel ban, and a two-year ban on artistic activity.",
-      "link": "https://www.euronews.com/2026/11/23/iran-carries-out-flogging-of-singer-who-performed-without-hijab",
-      "published": "Mon, 23 Nov 2026 19:29:34 +0100",
+      "title": "Italy develops 'ambitious' business with 'strategic partner' Azerbaijan, Tajani tells Euronews",
+      "summary": "Italy's Deputy Prime Minister and Foreign Minister Antonio Tajani told Euronews that Rome has sought to expand its business relations with Baku now that peace has brought stability and improved connectivity to the region.",
+      "link": "https://www.euronews.com/2026/11/24/italy-develops-ambitious-business-with-strategic-partner-azerbaijan-tajani-tells-euronews",
+      "published": "Tue, 24 Nov 2026 16:40:54 +0100",
       "source": "Euronews"
     },
     {
-      "title": "Ukraine releases footage of strikes on two Russian vessels off Libya",
-      "summary": "Ukraine has released footage showing what it says are strikes against two Russian vessels off the Libyan port of Benghazi.",
-      "link": "https://www.euronews.com/2026/11/23/ukraine-releases-footage-of-strikes-on-two-russian-vessels-off-libya",
-      "published": "Mon, 23 Nov 2026 16:56:16 +0100",
+      "title": "Migrant caravans head north through Mexico towards US border",
+      "summary": "Migrants from several Central American countries are travelling through southern Mexico in a caravan, hoping to reach the United States.",
+      "link": "https://www.euronews.com/2026/11/24/migrant-caravans-head-north-through-mexico-towards-us-border",
+      "published": "Tue, 24 Nov 2026 15:54:26 +0100",
       "source": "Euronews"
     },
     {
-      "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
-      "summary": "The Kremlin warns of an \"escalation of tensions in the region\", but declines to comment directly on the attacks in Libya.",
-      "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 23 Nov 2026 15:41:23 GMT",
-      "source": "BBC News"
+      "title": "Senegal reinstated as AFCON champions as Morocco vows to fight on",
+      "summary": "The sport's top court ruled that the referee's decision to restart the final after Senegal's walk-off could not be challenged, while Morocco has raised questions over alleged contact between one of the judges and Senegal's federation.",
+      "link": "https://www.euronews.com/2026/11/24/cas-awards-senegal-afcon-title-after-successful-appeal",
+      "published": "Tue, 24 Nov 2026 15:51:39 +0100",
+      "source": "Euronews"
     },
     {
-      "title": "Flights cancelled in Belgium due to cost-of-living strike",
-      "summary": "A series of strikes have hit Belgium in recent months as the prime minister struggles to agree a budget to cut costs.",
-      "link": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 23 Nov 2026 13:34:02 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "'I want to destroy capitalism, not France': On the streets with the French ultra left",
-      "summary": "The BBC meets the far-left protesters French President Emmanuel Macron says are trying to bring down the Republic.",
-      "link": "https://www.bbc.co.uk/news/articles/cw074km48myeo?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 23 Nov 2026 13:09:52 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Hungary's PM to visit Transcarpathia, pledges support to Ukrainian people and local Hungarians",
-      "summary": "Ties soured sharply under Hungary's previous PM Viktor Orbán, whose government repeatedly clashed with Kyiv over Ukraine and blocked its progress towards EU membership.",
-      "link": "https://www.euronews.com/2026/11/23/hungarys-pm-to-visit-transcarpathia-pledges-support-to-ukrainian-people-and-local-hungaria",
-      "published": "Mon, 23 Nov 2026 14:09:29 +0100",
+      "title": "Qatar says it ‘will not accept’ attacks after Iran protests over joint statement with Germany",
+      "summary": "Iran summoned a Qatari diplomat in Tehran over a joint statement with Germany condemning Iranian attacks and threats to shipping. Qatar said it will handle the dispute through diplomacy and that both the US and Iran were still participating in its mediation efforts.",
+      "link": "https://www.euronews.com/2026/11/24/qatar-says-it-will-not-accept-attacks-after-iran-protests-over-joint-statement-with-german",
+      "published": "Tue, 24 Nov 2026 15:29:42 +0100",
       "source": "Euronews"
     },
     {
@@ -202,24 +259,10 @@
       "source": "ECB"
     },
     {
-      "title": "Who is taking part in France's recent street protests?",
-      "summary": "President Macron has blamed the unrest on the radical left, but who are the protesters and what are they fighting for?",
-      "link": "https://www.bbc.co.uk/news/videos/cw5y188vzxn8o?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 23 Nov 2026 09:25:52 GMT",
-      "source": "BBC News"
-    },
-    {
       "title": "Man who was lured to remote villa and held for 15 hours rescued after being tied up and beaten",
       "summary": "A man has been rescued after he was lured to an isolated villa, held for 15 hours, tied to a chair, beaten, and threatened with death, police in Spain say.",
       "link": "https://news.sky.com/story/man-rescued-after-being-lured-to-remote-villa-in-spain-where-he-was-held-for-15-hours-tied-up-and-beaten-13615282",
       "published": "Sun, 22 Nov 2026 15:13:00 +0000",
-      "source": "Sky News"
-    },
-    {
-      "title": "Meet the Ukrainian energy workers dodging drones to bring people's electricity back",
-      "summary": "\"The first thing the guys and I do is look at where we can hide.\"",
-      "link": "https://news.sky.com/story/meet-the-ukrainian-energy-workers-who-dodge-drones-to-bring-peoples-electricity-back-13615168",
-      "published": "Sun, 22 Nov 2026 09:16:00 +0000",
       "source": "Sky News"
     },
     {
@@ -294,15 +337,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-11-08 12:32",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 72,
-      "incidents": 40,
-      "stoxx50": 6170.49,
-      "eur_czk": 24.35
-    },
     {
       "date": "2026-11-09 06:00",
       "threat_level": "HIGH",
@@ -563,6 +597,15 @@
       "incidents": 40,
       "stoxx50": 6074.47,
       "eur_czk": 24.455
+    },
+    {
+      "date": "2026-11-25 06:00",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 68,
+      "incidents": 40,
+      "stoxx50": 6003.76,
+      "eur_czk": 24.428
     }
   ],
   "locations": [
@@ -586,6 +629,20 @@
       "lon": 2.3522,
       "name_cs": "Paříž",
       "name_en": "Paris"
+    },
+    {
+      "key": "Warsaw",
+      "lat": 52.2297,
+      "lon": 21.0122,
+      "name_cs": "Varšava",
+      "name_en": "Warsaw"
+    },
+    {
+      "key": "Rome",
+      "lat": 41.9028,
+      "lon": 12.4964,
+      "name_cs": "Řím",
+      "name_en": "Rome"
     },
     {
       "key": "Madrid",
@@ -630,33 +687,25 @@
       "name_en": "Budapest"
     },
     {
-      "key": "Athens",
-      "lat": 37.9838,
-      "lon": 23.7275,
-      "name_cs": "Athény",
-      "name_en": "Athens"
+      "key": "Amsterdam",
+      "lat": 52.3676,
+      "lon": 4.9041,
+      "name_cs": "Amsterdam",
+      "name_en": "Amsterdam"
     },
     {
-      "key": "Sofia",
-      "lat": 42.6977,
-      "lon": 23.3219,
-      "name_cs": "Sofie",
-      "name_en": "Sofia"
+      "key": "Oslo",
+      "lat": 59.9139,
+      "lon": 10.7522,
+      "name_cs": "Oslo",
+      "name_en": "Oslo"
     },
     {
-      "key": "Istanbul",
-      "lat": 41.0082,
-      "lon": 28.9784,
-      "name_cs": "Istanbul",
-      "name_en": "Istanbul"
-    },
-    {
-      "key": "Washington",
-      "lat": 38.9,
-      "lon": -77.04,
-      "name_cs": "Washington, D.C.",
-      "name_en": "Washington",
-      "auto": true
+      "key": "Minsk",
+      "lat": 53.9006,
+      "lon": 27.559,
+      "name_cs": "Minsk",
+      "name_en": "Minsk"
     },
     {
       "key": "Texas",
@@ -675,6 +724,22 @@
       "auto": true
     },
     {
+      "key": "Mexico",
+      "lat": 23.6,
+      "lon": -102.5,
+      "name_cs": "Mexiko",
+      "name_en": "Mexico",
+      "auto": true
+    },
+    {
+      "key": "Israel",
+      "lat": 31.5,
+      "lon": 34.8,
+      "name_cs": "Izrael",
+      "name_en": "Israel",
+      "auto": true
+    },
+    {
       "key": "Iran",
       "lat": 32.4,
       "lon": 53.7,
@@ -683,11 +748,11 @@
       "auto": true
     },
     {
-      "key": "Turkey",
-      "lat": 39,
-      "lon": 35,
-      "name_cs": "Turecko",
-      "name_en": "Turkey",
+      "key": "Qatar",
+      "lat": 25.3,
+      "lon": 51.2,
+      "name_cs": "Katar",
+      "name_en": "Qatar",
       "auto": true
     },
     {
@@ -696,6 +761,14 @@
       "lon": 104.2,
       "name_cs": "Čína",
       "name_en": "China",
+      "auto": true
+    },
+    {
+      "key": "South Korea",
+      "lat": 36.5,
+      "lon": 127.9,
+      "name_cs": "Jižní Korea",
+      "name_en": "South Korea",
       "auto": true
     },
     {
@@ -708,24 +781,24 @@
     }
   ],
   "location_counts": {
-    "Brussels": 120,
+    "Brussels": 121,
     "Strasbourg": 30,
-    "Kyiv": 129,
-    "Berlin": 115,
+    "Kyiv": 130,
+    "Berlin": 116,
     "Prague": 11,
-    "Paris": 121,
-    "Warsaw": 66,
-    "Madrid": 94,
-    "Rome": 71,
-    "Frankfurt": 105,
-    "London": 98,
-    "Moscow": 105,
-    "Budapest": 34,
+    "Paris": 122,
+    "Warsaw": 67,
+    "Madrid": 95,
+    "Rome": 72,
+    "Frankfurt": 106,
+    "London": 99,
+    "Moscow": 106,
+    "Budapest": 35,
     "Texas": 1,
     "Oklahoma": 1,
     "Kanada": 1,
     "Izrael": 1,
-    "Írán": 2,
+    "Írán": 1,
     "Čína": 2,
     "Kolumbie": 1,
     "Dublin": 37,
@@ -741,7 +814,7 @@
     "Katar": 1,
     "Indie": 1,
     "Japonsko": 1,
-    "Jižní Korea": 2,
+    "Jižní Korea": 1,
     "Severní Korea": 1,
     "Etiopie": 1,
     "Somálsko": 1,
@@ -752,8 +825,8 @@
     "Jihoafrická republika": 1,
     "Peru": 1,
     "Vienna": 16,
-    "Amsterdam": 17,
-    "Oslo": 19,
+    "Amsterdam": 18,
+    "Oslo": 20,
     "Florida": 1,
     "Džibutsko": 1,
     "Egypt": 1,
@@ -784,7 +857,7 @@
     "San Francisco": 1,
     "Atlanta": 2,
     "Illinois": 1,
-    "Minsk": 7,
+    "Minsk": 8,
     "Singapur": 1,
     "Mexiko": 1,
     "Michigan": 1,
@@ -800,17 +873,9 @@
     "key": "Kyiv",
     "name_cs": "Kyjev",
     "name_en": "Kyiv",
-    "count": 129
+    "count": 130
   },
   "archive": [
-    {
-      "date": "2026-11-16 14:28",
-      "threat_level": "HIGH",
-      "security_status_cs": "Evropská bezpečnost čelí eskalaci v důsledku ukrajinského úderu na Kerčský most a tvrdých sankcí EU proti ruským hackerům a stínové flotile. Současně roste napětí na Blízkém východě a makroekonomická situace zůstává napjatá kvůli inflačním tlakům a výhledu sazeb ECB.",
-      "security_status_en": "European security faces escalation following Ukraine's strike on the Kerch bridge and strict EU sanctions against Russian hackers and the shadow fleet. Concurrently, Middle Eastern tensions are rising while macroeconomic conditions remain constrained by wage pressures and the ECB's monetary trajectory.",
-      "forecast_cs": "V příštích dnech lze očekávat zostřenou implementaci nových sankčních balíčků EU proti Rusku a zvýšenou diplomatickou aktivitu kolem ukrajinské krize a Blízkého východu.",
-      "forecast_en": "Over the coming days, heightened implementation of the EU's new sanction packages against Russia and increased diplomatic activity surrounding the Ukraine crisis and the Middle East are expected."
-    },
     {
       "date": "2026-11-17 06:00",
       "threat_level": "HIGH",
@@ -914,29 +979,37 @@
       "security_status_en": "Error during automated AI analysis.",
       "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
       "forecast_en": "Failed to generate forecast."
+    },
+    {
+      "date": "2026-11-25 06:00",
+      "threat_level": "HIGH",
+      "security_status_cs": "Evropa čelí rostoucím politickým nejistotám spojeným s blížícími se volbami, hrozbami ruských sabotáží vůči podnikům podporujícím Ukrajinu a přetrvávajícími inflačními tlaky nutícími ECB k obezřetnosti. Hrozba politické nestability v klíčových zemích jako je Francie a Španělsko podtrhuje napjatou situaci na trzích.",
+      "security_status_en": "Europe is facing mounting political uncertainties tied to upcoming elections, threats of Russian sabotage against businesses supporting Ukraine, and persistent inflation pressures forcing the ECB to remain vigilant. The threat of political instability in key nations like France and Spain underscores a tense market environment.",
+      "forecast_cs": "V nejbližších dnech lze očekávat volatilitu na trzích v reakci na politické události ve Francii a vyjádření představitelů ECB ohledně úrokových sazeb.",
+      "forecast_en": "In the coming days, market volatility is expected in response to political developments in France and statements from ECB officials regarding interest rates."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 7× HIGH.",
   "market_data": {
     "stoxx50": {
-      "value": 6074.47,
-      "date": "2026-11-23",
+      "value": 6003.76,
+      "date": "2026-11-24",
       "cached": false
     },
     "dax": {
-      "value": 25337.27,
-      "date": "2026-11-23",
+      "value": 25017.81,
+      "date": "2026-11-24",
       "cached": false
     },
     "eurusd": {
-      "value": 1.0911,
-      "date": "2026-11-24",
+      "value": 1.0945,
+      "date": "2026-11-25",
       "cached": false
     }
   },
   "eur_czk": {
-    "value": 24.455,
-    "date": "2026-11-23"
+    "value": 24.428,
+    "date": "2026-11-24"
   }
 }

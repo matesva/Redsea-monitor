@@ -1,50 +1,80 @@
 {
-  "last_updated": "2026-11-24T16:51:27Z",
+  "last_updated": "2026-11-25T06:00:02Z",
   "assessment": {
     "threat_level": "HIGH",
-    "sentiment_score": 70,
-    "security_status_cs": "Chyba při automatické analýze AI.",
-    "security_status_en": "Error during automated AI analysis.",
+    "sentiment_score": 68,
+    "security_status_cs": "Spojené státy čelí zvýšenému napětí v technologickém a politickém sektoru kvůli vládním zásahům do korporátního řízení, zejména v kauze návratu šéfa Nvidie Jensena Huanga. Makroekonomická situace zůstává pod tlakem vyšších úrokových sazeb naznačených Fedu a rostoucích nákladů zemědělců a domácností.",
+    "security_status_en": "The United States is facing elevated tensions in the technology and political sectors due to government intervention in corporate governance, notably in the reinstatement of Nvidia CEO Jensen Huang. The macroeconomic situation remains under pressure from higher interest rates signaled by the Fed and rising costs for farmers and households.",
     "president_comments": [
       {
-        "topic_cs": "Návrat Jensena Huanga do Nvidie",
-        "topic_en": "Return of Jensen Huang to Nvidia",
-        "statement_cs": "Prezident Trump uvedl, že jeho administrativa poskytla správní radě Nvidie záruky, že Jensen Huang nepředstavuje národní bezpečnostní riziko, a přivítal jeho návrat do funkce CEO.",
-        "statement_en": "President Trump stated that his administration gave Nvidia's board assurances that Jensen Huang would not be a national security threat and endorsed his return as CEO.",
-        "comment_cs": "Tento krok okamžitě uklidnil trhy, posílil akcie Nvidie a nastartoval širší rally v technologickém sektoru.",
-        "comment_en": "This move immediately calmed markets, boosted Nvidia shares, and triggered a broader rally across the tech sector.",
-        "market_impact": "POSITIVE",
-        "source": "CNBC",
-        "date": "2026-11-24T06:00:03Z"
-      },
-      {
-        "topic_cs": "Imigrace a udělování milostí",
-        "topic_en": "Immigration and Pardon Power",
-        "statement_cs": "Prezident Trump nadnesl myšlenku využití své milostné pravomoci k ochraně nelegálních imigrantů před deportací.",
-        "statement_en": "President Trump floated the idea of using his pardon power to shield illegal immigrants from deportation.",
-        "comment_cs": "Návrh vyvolává debatní vlnu ohledně kreativního využití prezidentských pravomocí v imigrační politice.",
-        "comment_en": "The proposal sparks debate regarding the creative use of presidential powers in immigration policy.",
-        "market_impact": "NEUTRAL",
-        "source": "Fox News",
-        "date": "2026-11-24T06:00:03Z"
-      },
-      {
-        "topic_cs": "Likvidace munice v Iowě",
-        "topic_en": "Ammunition Detonation in Iowa",
-        "statement_cs": "Prezident Trump se pokusil přenést odpovědnost za 'jakoukoliv smrt nebo ničení' spojenou s armádním plánem na detonaci výbušnin na demokratického nově zvoleného guvernéra Iowy.",
-        "statement_en": "President Trump attempted to shift responsibility for 'any and all death or destruction' regarding the Army's explosive detonation plan onto Iowa's Democratic governor-elect.",
-        "comment_cs": "Vytváří to politické napětí mezi federální vládou a místními úřady ohledně environmentálních a bezpečnostních rizik.",
-        "comment_cs_en": "This creates political tension between the federal government and local authorities over environmental and safety risks.",
-        "market_impact": "NEUTRAL",
+        "topic_cs": "Návrat šéfa Nvidie",
+        "topic_en": "Nvidia CEO Return",
+        "statement_cs": "Prezident Trump si přisvojil zásluhu na návratu Jensena Huanga do funkce generálního ředitele společnosti Nvidia.",
+        "statement_en": "President Trump took credit for negotiating Jensen Huang's return as CEO of Nvidia.",
+        "comment_cs": "Tento nevídaný zásah politiky do korporátního vedení vyvolává obavy ohledně národní bezpečnosti a propojení moci.",
+        "comment_en": "This unprecedented political intercession into corporate leadership raises national security concerns and intertwines political and corporate fortunes.",
+        "market_impact": "NEGATIVE",
         "source": "The Guardian",
-        "date": "2026-11-24T06:00:03Z"
+        "date": "2026-11-25T06:00:02Z"
+      },
+      {
+        "topic_cs": "Rebranding zdravotní péče",
+        "topic_en": "Healthcare Rebranding",
+        "statement_cs": "President Trump said he will meet with a Democratic lawmaker to discuss rebranding the single-payer healthcare bill to 'TrumpCare'.",
+        "comment_en": "This move shows a political effort to co-opt opposition topics, which could spark debates in Congress.",
+        "market_impact": "NEUTRAL",
+        "source": "The Hill",
+        "date": "2026-11-25T06:00:02Z"
       }
     ],
-    "recommendations": [],
-    "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
-    "forecast_en": "Failed to generate forecast.",
-    "forecast_review_cs": "N/A",
-    "forecast_review_en": "N/A"
+    "recommendations": [
+      {
+        "sector_cs": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
+        "sector_en": "US Broad Equity Market (S&P 500 ETFs, e.g. VOO, SPY)",
+        "action": "HOLD",
+        "reason_cs": "Trh vykazuje volatilitu kvůli politickým zásahům do velkých technologických firem a nejistotě ohledně budoucího směřování sazeb Fedu.",
+        "reason_en": "The market is exhibiting volatility due to political interventions in major tech companies and uncertainty regarding future Fed rate paths."
+      },
+      {
+        "sector_cs": "Státní dluhopisy USA (Treasuries)",
+        "sector_en": "US Treasuries",
+        "action": "HOLD",
+        "reason_cs": "Vyhlídky na postupné zvyšování sazeb v průběhu času drží výnosy dluhopisů pod stálým dohledem.",
+        "reason_en": "Expectations of higher interest rates over time keep bond yields under constant scrutiny."
+      },
+      {
+        "sector_cs": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
+        "sector_en": "Defense Industry (RTX, Lockheed Martin, Northrop Grumman)",
+        "action": "BUY",
+        "reason_cs": "Geopolitická rizika a kybernetické hrozby na globální úrovni udržují silnou poptávku po obranných technologiích.",
+        "reason_en": "Geopolitical risks and global cyber threats sustain strong demand for defense technologies."
+      },
+      {
+        "sector_cs": "Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)",
+        "sector_en": "Banks & Financials (JPMorgan, Bank of America, Goldman Sachs)",
+        "action": "HOLD",
+        "reason_cs": "Finanční instituce čelí smíšenému prostředí přísnější regulace a makroekonomických nejistot.",
+        "reason_en": "Financial institutions face a mixed environment of tighter regulation and macroeconomic uncertainties."
+      },
+      {
+        "sector_cs": "Technologický sektor (Apple, Microsoft, Nvidia)",
+        "sector_en": "Technology Sector (Apple, Microsoft, Nvidia)",
+        "action": "SELL",
+        "reason_cs": "Intenzivní regulační tlaky, spory o autorská práva k AI a politizace vedení firem zvyšují riziko poklesu.",
+        "reason_en": "Intense regulatory pressures, AI copyright battles, and the politicization of corporate leadership increase downside risks."
+      },
+      {
+        "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
+        "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
+        "action": "HOLD",
+        "reason_cs": "Domácí tituly reagují primárně na evropské fundamenty a zůstávají vůči těmto specifickým americkým kauzám odolné.",
+        "reason_en": "Domestic equities react primarily to European fundamentals and remain resilient to these specific US developments."
+      }
+    ],
+    "forecast_cs": "V nejbližších dnech lze očekávat pokračující politické přestřelky ohledně vládních zásahů do technologického sektoru a napětí na trzích.",
+    "forecast_en": "In the coming days, continued political sparring over government intervention in the tech sector and market jitters are expected.",
+    "forecast_review_cs": "Žádná předchozí předpověď k vyhodnocení.",
+    "forecast_review_en": "No previous forecast to evaluate."
   },
   "articles": [
     {
@@ -55,164 +85,227 @@
       "source": "Fox News"
     },
     {
-      "title": "Chuck Schumer Update—List of Celebrities Opposing Him as Senate Leader",
-      "summary": "Senator Chris Van Hollen is picking up celebrity support in his challenge to Schumer.",
-      "link": "https://www.newsweek.com/chuck-schumer-list-celebrities-opposed-senate-leader-12763451",
-      "published": "Tue, 24 Nov 2026 11:49:23 -0500",
-      "source": "Newsweek"
-    },
-    {
-      "title": "Trump to award Rudy Giuliani the Presidential Medal of Freedom",
-      "summary": "President Donald Trump will award the Presidential Medal of Freedom on Tuesday to his longtime friend and former lawyer, Rudy Giuliani.",
-      "link": "https://www.washingtonpost.com/politics/2026/11/24/trump-award-rudy-giuliani-presidential-medal-freedom/",
-      "published": "Tue, 24 Nov 2026 16:46:37 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Trump presenting Rudy Giuliani with Presidential Medal of Freedom",
-      "summary": "Rudy Giuliani, the former mayor of New York City who worked as a personal lawyer to President Trump, said he will be honored in the Oval Office.",
-      "link": "https://www.cbsnews.com/news/trump-rudy-giuliani-presidential-medal-of-freedom-white-house/",
-      "published": "Tue, 24 Nov 2026 11:44:57 -0500",
-      "source": "CBS News"
+      "title": "Can Trump really claim the Nvidia CEO’s return? - Podcast",
+      "summary": "<p><strong>Jonathan Yerushalmy</strong> and <strong>Reged Ahmad </strong>cover what many are describing as the extraordinary intervention by Donald Trump before Nvidia decided to reinstate Jensen Huang as CEO. They look at how the US president is taking credit for Nvidia’s move, why it’s unprecedented and what might have motivated Trump to get involved.</p><p>They also discuss Joe Biden’s new book Promise Me, America, his memoir of his time as president. Why are the reviews so scathing – and what does it say about how the former president will be remembered?</p><p>Read more:</p><p><a href=\"https://www.theguardian.com/technology/2026/nov/12/jensen-huang-affair-timeline\">A timeline of Jensen Huang’s affair scandal, from quitting Nvidia to his return</a></p><p><a href=\"https://www.theguardian.com/technology/2026/nov/23/nvidia-jensen-huang-return-ceo\">Nvidia rejoices at Jensen Huang’s second coming as White House takes victory lap</a></p><p><a href=\"https://www.theguardian.com/books/2026/nov/21/promise-me-america-joe-biden-memoir-review\">Promise Me, America by Joe Biden review – former president defends his decisions</a></p> <a href=\"https://www.theguardian.com/us-news/audio/2026/nov/25/can-trump-really-claim-the-nvidia-ceos-return-podcast\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/audio/2026/nov/25/can-trump-really-claim-the-nvidia-ceos-return-podcast",
+      "published": "Wed, 25 Nov 2026 05:00:08 GMT",
+      "source": "The Guardian"
     },
     {
       "title": "Army to detonate unstable explosives in Iowa Wednesday morning",
       "summary": "A federal appeals court on Monday declined to block the Army from detonating explosives containing lead azide at a munitions plant in Iowa.",
       "link": "https://www.cbsnews.com/news/army-iowa-explosives-trump-appeals-court/",
-      "published": "Tue, 24 Nov 2026 11:44:23 -0500",
+      "published": "Tue, 24 Nov 2026 23:51:33 -0500",
       "source": "CBS News"
     },
     {
-      "title": "Jensen Huang’s return to Nvidia is elite impunity | Moira Donegan",
-      "summary": "<p>After the CEO was reinstated after Trump’s pressure campaign, it is abundantly clear: there are different rules for rich people</p><p>There are different rules for rich people. If you or I acted the way that Jensen Huang has been accused of acting – allegedly berating and mistreating employees, sleeping with subordinates, and seeming to carry on a staggering number of extramarital affairs, including one with a woman identified by US intelligence as a likely Chinese spy who helped smuggle the company’s product to China – we probably would find ourselves out of work and out of favor for quite some time.</p><p>But this is not so for Huang, the tech founder and close ally to Donald Trump who was recently ousted from Nvidia, the chip manufacturer he founded. On Monday, after a pressure campaign from Donald Trump, JD Vance and other members of the Trump administration, Huang was reinstated as CEO by the Nvidia board.</p><p>Moira Donegan is a Guardian US columnist</p> <a href=\"https://www.theguardian.com/commentisfree/2026/nov/24/jensen-huang-nvidia-return\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/commentisfree/2026/nov/24/jensen-huang-nvidia-return",
-      "published": "Tue, 24 Nov 2026 16:39:00 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Rep. Omar D.C. home search sought evidence going back to 1980",
-      "summary": "The warrant application covers a 46-year period beginning in 1980, long before Omar was in Congress, according to newly released court records. The documents are heavily redacted, and no criminal charges are listed.",
-      "link": "https://www.cbsnews.com/news/ilhan-omar-home-search-documents-magistrate-judge-probable-cause/",
-      "published": "Tue, 24 Nov 2026 11:36:32 -0500",
-      "source": "CBS News"
-    },
-    {
-      "title": "Trump shares meme of Jensen Huang raising red bra in air",
-      "summary": "President Trump celebrated the return of Nvidia CEO Jensen Huang in a Truth Social post Monday, sharing a meme riffing off the famous image of then-candidate Trump after his attempted 2024 assassination in Butler, Pa. The photo, which appears to be AI-generated, shows Huang with blood on his face and a fist in the air...",
-      "link": "https://thehill.com/homenews/administration/6239971-trump-jensen-huang-ai-meme/",
-      "published": "Tue, 24 Nov 2026 16:31:38 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Mamdani questions AI economy as Jensen Huang returns to Nvidia – video",
-      "summary": "<p>New York City mayor Zohran Mamdani weighed in on the corporate turbulence surrounding Nvidia and the chipmaker’s chief executive officer, Jensen Huang, saying he does not think working Americans 'signed up for their pensions being tied to the question of Huang’s fidelity to his marriage'. The mayor said Huang 'had a massive impact', with Nvidia’s share price dropping dramatically after he stepped down as the company’s CEO on 12 November over a reported extramarital relationship with a suspected Chinese spy</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/2026/nov/24/mamdani-nvidia-stock-market-ai\">Mamdani says Nvidia drama shows stock market is overly dependent on AI</a></p></li></ul> <a href=\"https://www.theguardian.com/technology/video/2026/nov/24/mamdani-questions-ai-economy-as-jensen-huang-returns-to-nvidia-video\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/technology/video/2026/nov/24/mamdani-questions-ai-economy-as-jensen-huang-returns-to-nvidia-video",
-      "published": "Tue, 24 Nov 2026 16:30:07 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "AI could make the economy grow yet still leave workers behind",
-      "summary": "Business leaders must act now to help workers adapt, prepare those at risk of displacement and ensure that AI's economic benefits are broadly shared.",
-      "link": "https://thehill.com/opinion/technology/6238353-preventing-ai-driven-job-displacement/",
-      "published": "Tue, 24 Nov 2026 16:30:00 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "DOJ recovers $8B, charges more than 800 suspects in largest anti-scam surge in history",
-      "summary": "U.S. Attorney General Todd Blanche says the Justice Department charged more than 800 defendants and recovered $8 billion in intended victim losses.",
-      "link": "https://www.foxnews.com/politics/doj-recovers-8b-charges-more-than-800-suspects-largest-anti-scam-surge-history",
-      "published": "Tue, 24 Nov 2026 11:29:47 -0500",
-      "source": "Fox News"
-    },
-    {
-      "title": "Giuliani 'very, very humbled' to be getting Presidential Medal of Freedom",
-      "summary": "President Trump will award former New York City Mayor Rudy Giuliani (R) the Presidential Medal of Freedom on Tuesday, more than a year after he announced plans to bestow the nation’s highest civilian honor on his longtime ally. Giuliani, 82, revealed during a Monday appearance on Steve Bannon’s “War Room” that Trump would present him...",
-      "link": "https://thehill.com/homenews/administration/6240011-trump-to-award-giuliani-medal/",
-      "published": "Tue, 24 Nov 2026 16:28:55 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Americans don’t like Trump’s tariffs. He’s doubling down anyway — as soon as this week.",
-      "summary": "The move risks new trade friction, but spares already imported holiday goods.",
-      "link": "https://www.marketwatch.com/story/americans-dont-like-trumps-tariffs-hes-doubling-down-anyway-as-soon-as-this-week-74c8bed5?mod=mw_rss_topstories",
-      "published": "Tue, 24 Nov 2026 16:24:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Trump Hit With New Lawsuit Over Changes to Slavery Exhibit",
-      "summary": "Campaigners have filed a new lawsuit against the Trump administration over changes made to an exhibit at the President's House.",
-      "link": "https://www.newsweek.com/donald-trump-hit-new-lawsuit-changes-george-washington-slavery-exhibit-12762771",
-      "published": "Tue, 24 Nov 2026 11:22:14 -0500",
-      "source": "Newsweek"
-    },
-    {
-      "title": "Draft plan to overhaul Smithsonian spotted on White House staffer's laptop: report",
-      "summary": "A commuter's photos of a White House adviser's laptop show a draft plan to overhaul the National Museum of American History, ProPublica reported.",
-      "link": "https://www.foxnews.com/politics/draft-plan-overhaul-smithsonian-spotted-white-house-staffer-laptop-report",
-      "published": "Tue, 24 Nov 2026 11:19:16 -0500",
-      "source": "Fox News"
-    },
-    {
-      "title": "Democrats hit out at Nvidia and Trump over Huang’s return – US politics live",
-      "summary": "<p>Possible presidential hopeful Ruben Gallego warns of a ‘bad lesson for corporate America’ while Ro Khanna says ‘rules should apply to everyone’</p><ul><li><p><a href=\"https://www.theguardian.com/technology/2026/nov/24/nvidia-jensen-huang-congress\">Congress to grill Huang over ties with China and Trump’s intervention</a></p></li><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email</a></p></li></ul><p>Earlier we mentioned <strong>Donald Trump</strong> is participating in a Medal of Freedom ceremony in the Oval Office at 11am ET. He will be awarding the nation’s highest civilian honor to former New York mayor and Trump’s onetime personal lawyer <strong>Rudy Giuliani</strong>.</p><p>Trump <a href=\"https://www.theguardian.com/us-news/2025/sep/01/trump-rudy-giuliani-presidential-medal-of-freedom\">said last year</a> he would award the medal to Giuliani, two days after his longtime political ally was seriously injured in a car crash.</p> <a href=\"https://www.theguardian.com/us-news/live/2026/nov/24/donald-trump-nvidia-jensen-huang-republicans-democrats-china-latest-news-updates\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/live/2026/nov/24/donald-trump-nvidia-jensen-huang-republicans-democrats-china-latest-news-updates",
-      "published": "Tue, 24 Nov 2026 16:08:31 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "A 10% cap on credit-card interest rates? Holiday shoppers shouldn’t bank on it.",
-      "summary": "As Americans prepare to pull out their credit cards for the holiday shopping season, President Donald Trump is saying he’s up for capping the interest rates they’re paying on their cards.",
-      "link": "https://www.marketwatch.com/story/trump-is-open-to-capping-credit-card-interest-rates-but-holiday-shoppers-shouldnt-bank-on-it-yet-34260705?mod=mw_rss_topstories",
-      "published": "Tue, 24 Nov 2026 16:08:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "AI’s Next Big Business Is Service | Opinion",
-      "summary": "As AI makes software easier to build, the greatest opportunity may belong to firms that turn it into measurable business results.",
-      "link": "https://www.newsweek.com/ai-next-business-model-services-software-execution-12761339",
-      "published": "Tue, 24 Nov 2026 11:06:07 -0500",
-      "source": "Newsweek"
-    },
-    {
-      "title": "30-Watt Thune and the Lame-Duck GOP Senate",
-      "summary": "Deroy Murdock, The Daily Signal <br /> Senate Majority Leader John Thune, R-S.D., makes “low-energy” Jeb Bush look like a hyperactive teenager during a national Ritalin shortage.",
-      "link": "https://www.realclearpolitics.com/congress/links/30-watt-thune-and-the-lame-duck-gop-senate-2026-11-24",
-      "published": "Tue, 24 Nov 2026 09:40:47 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "The Can't-Miss Way To Prove That Dems Have Solutions",
-      "summary": "Kali Holloway, The Nation <br /> A single-issue bill strategy will either force Trump to veto enormously popular legislation—or sign bills that would actually benefit all Americans.",
-      "link": "https://www.realclearpolitics.com/congress/links/the-cant-miss-way-to-prove-that-dems-have-solutions-2026-11-24",
-      "published": "Tue, 24 Nov 2026 09:40:47 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Are Investors Right To Celebrate Nvidia CEO's Return?",
-      "summary": "Joe Nocera, The Free Press <br /> Huang is seen as someone who is not only indispensable to Nvidia and the AI universe but the entire U.S. economy.",
-      "link": "https://www.realclearpolitics.com/markets/links/are-investors-right-to-celebrate-nvidia-ceos-return-2026-11-24",
-      "published": "Tue, 24 Nov 2026 09:40:47 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "The biggest biotech deal in nearly three years carries a hefty $41 billion price tag",
-      "summary": "French drugmaker Sanofi on Tuesday agreed to pay $41 billion for U.S. biotech Insmed, a hefty price that will help the pharmaceutical giant offset the patent expiration on a key drug.",
-      "link": "https://www.marketwatch.com/story/the-biggest-biotech-deal-in-nearly-three-years-carries-a-hefty-41-billion-price-tag-dd7fa228?mod=mw_rss_topstories",
-      "published": "Tue, 24 Nov 2026 15:21:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "A look at how much Republicans fell short in the states where they redrew maps",
-      "summary": "President Donald Trump’s push to redraw House districts in Republicans’ favor fell apart in most of the states that tried it, final race calls in North Carolina reveal.",
-      "link": "https://www.washingtonpost.com/elections/2026/11/24/look-how-much-republicans-fell-short-states-where-they-redrew-maps/",
-      "published": "Tue, 24 Nov 2026 14:45:00 +0000",
+      "title": "Kilmar Abrego García leaves U.S. for Spain, avoiding deportation to another country",
+      "summary": "His commercial flight to Spain took off just after 10 p.m. Eastern time on Tuesday, delayed by several hours because of mechanical difficulties.",
+      "link": "https://www.washingtonpost.com/immigration/2026/11/24/kilmar-abrego-garcia/",
+      "published": "Wed, 25 Nov 2026 04:50:55 +0000",
       "source": "Washington Post"
     },
     {
-      "title": "Russia accuses NATO member Estonia of hostile actions ‘on the verge of unleashing open war’",
-      "summary": "Russia accused Estonia of “hostile actions” and warned its border measures risk open war, as Tallinn prepares to close road crossings from Dec. 1.",
-      "link": "https://www.cnbc.com/2026/11/24/russia-estonia-ukraine-war-nato-finland.html",
-      "published": "Tue, 24 Nov 2026 13:42:55 GMT",
+      "title": "Kilmar Ábrego García leaving US for Spain, ending Trump deportation battle",
+      "summary": "His deportation to El Salvador and return to the US became a flash point in the debate over President Donald Trump's immigration agenda.",
+      "link": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 25 Nov 2026 04:49:55 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Colom says he's 'excited' to work with Trump at Itawamba County town hall",
+      "summary": "Sen.-elect Scott Colom (D-Miss.) on Sunday said during a town hall event in Fulton, Miss., his first since defeating incumbent Sen. Cindy Hyde-Smith (R-Miss.) that he's \"excited\" to work with President Trump on several issues, including healthcare. Colom hosted the event, streamed on the Tupelo, Miss.-based outlet WTVA, to speak with constituents and community leaders...",
+      "link": "https://thehill.com/homenews/senate/6241772-colom-trump-healthcare-cooperation/",
+      "published": "Wed, 25 Nov 2026 04:03:16 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Man arrested after bystanders stop alleged rape attempt inside popular fast-food restaurant's restroom",
+      "summary": "Matthew Lewellen, 39, is held on $200,000 bail after his alleged attack in the women's restroom at an In-N-Out Burger in Vancouver, Washington, police say.",
+      "link": "https://www.foxnews.com/us/man-arrested-bystanders-stop-alleged-rape-attempt-popular-fast-food-restaurants-restroom",
+      "published": "Tue, 24 Nov 2026 22:08:51 -0500",
+      "source": "Fox News"
+    },
+    {
+      "title": "Rep. Omar Warrant Alleges Fraud, Crimes Over Decades",
+      "summary": "Josh Christenson, NY Post <br /> The feds revealed they had been looking into the congresswoman’s alleged crimes “between 1980 to the present.”",
+      "link": "https://www.realclearpolitics.com/congress/links/rep-omar-warrant-alleges-fraud-crimes-over-decades-2026-11-24",
+      "published": "Tue, 24 Nov 2026 21:04:08 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Congress' Lost Ambition",
+      "summary": "Jeffrey Anderson, The American Mind <br /> Americanists must be every bit as aggressive and resolute in defending the Constitution as the Left is in sabotaging it.",
+      "link": "https://www.realclearpolitics.com/congress/links/congress-lost-ambition-2026-11-24",
+      "published": "Tue, 24 Nov 2026 21:04:08 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "With Huang Return, Trump Backs Silicon Valley's Founder Mode",
+      "summary": "Tim Higgins, WSJ <br /> President Trump has decided that in the AI era, some people are too big to fail. That the Imperial CEO must be protected at all costs. That the individual outweighs the...",
+      "link": "https://www.realclearpolitics.com/markets/links/with-huang-return-trump-backs-silicon-valleys-founder-mode-2026-11-24",
+      "published": "Tue, 24 Nov 2026 21:03:35 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Trump reportedly says he is open to pardoning Jensen Huang ahead of CEO’s planned Senate committee testimony – as it happened",
+      "summary": "<p>This live blog is now closed.</p><ul><li><p><a href=\"https://www.theguardian.com/technology/2026/nov/24/nvidia-jensen-huang-congress\">Schumer accuses Huang of violating US export control laws amid shipments of chips to China</a></p></li><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email</a></p></li></ul><p>Earlier we mentioned <strong>Donald Trump</strong> is participating in a Medal of Freedom ceremony in the Oval Office at 11am ET. He will be awarding the nation’s highest civilian honor to former New York mayor and Trump’s onetime personal lawyer <strong>Rudy Giuliani</strong>.</p><p>Trump <a href=\"https://www.theguardian.com/us-news/2025/sep/01/trump-rudy-giuliani-presidential-medal-of-freedom\">said last year</a> he would award the medal to Giuliani, two days after his longtime political ally was seriously injured in a car crash.</p> <a href=\"https://www.theguardian.com/us-news/live/2026/nov/24/donald-trump-nvidia-jensen-huang-republicans-democrats-china-latest-news-updates\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/live/2026/nov/24/donald-trump-nvidia-jensen-huang-republicans-democrats-china-latest-news-updates",
+      "published": "Wed, 25 Nov 2026 02:58:18 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "She spent decades as an FBI agent and this is the case she could not let go",
+      "summary": "Jane Collins had all but given up on seeing Michael Donovan and Richard Moore face justice. Then they were charged with stealing from a mass-shooter’s brother.",
+      "link": "https://www.bbc.co.uk/news/articles/c539g1pwy3wyo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 25 Nov 2026 02:48:53 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Hero veteran Virginia trooper rushes to help after car plows into women in crosswalk, and it's caught on video",
+      "summary": "Surveillance video shows a sedan plow into a court clerk and attorney in a downtown Richmond crosswalk, and a Virginia state trooper rushed to help.",
+      "link": "https://www.foxnews.com/us/hero-veteran-virginia-trooper-rushes-help-car-plows-women-crosswalk-caught-video",
+      "published": "Tue, 24 Nov 2026 21:38:03 -0500",
+      "source": "Fox News"
+    },
+    {
+      "title": "Piker backs idea to sell Trump on Medicare-for-all by calling it 'Trumpcare'",
+      "summary": "Hasan Piker backs Abdul El-Sayed's plan to pitch Medicare-for-all to Donald Trump as \"Trumpcare,\" saying he has pushed the ego-appeal idea for years.",
+      "link": "https://www.foxnews.com/media/piker-backs-idea-sell-trump-medicare-all-calling-trumpcare",
+      "published": "Tue, 24 Nov 2026 21:00:36 -0500",
+      "source": "Fox News"
+    },
+    {
+      "title": "Trump says he'll meet with El-Sayed to discuss 'Trumpcare'",
+      "summary": "President Trump said he will meet with Sen.-elect Abdul El-Sayed (D-Mich.) to discuss his rebranding of a single-payer healthcare bill, also known as “Medicare for All,” with the name “TrumpCare.” In an interview with the New York Post, Trump called El-Sayed “very smart” for the rebranding, adding that the Michigan Democrat “did a good job....",
+      "link": "https://thehill.com/homenews/administration/6241682-trump-el-sayed-trumpcare-healthcare/",
+      "published": "Wed, 25 Nov 2026 01:50:07 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Fort Hood shooter Nidal Hasan will petition to delay his execution",
+      "summary": "Nidal Hasan, the Army soldier who fatally shot 13 people in the attack at the Texas Army post in 2009, told a federal court Tuesday that he plans to file a petition to delay his execution by firing squad.",
+      "link": "https://www.cbsnews.com/news/nidal-hasan-delay-execution-petition/",
+      "published": "Tue, 24 Nov 2026 20:49:00 -0500",
+      "source": "CBS News"
+    },
+    {
+      "title": "Van Hollen: Abrego Garcia leaving US, 'will be safe' amid self-deportation reports",
+      "summary": "Salvadoran migrant Kilmar Abrego Garcia, whose wrongful deportation became a flashpoint in the debate over President Trump's immigration crackdown, self-deported Tuesday, Sen. Chris Van Hollen (D-Md.) confirmed. ABC News reported Abrego Garcia boarded a flight from a Washington, D.C.-area airport to Madrid, Spain. His departure came as he was facing deportation to one of several...",
+      "link": "https://thehill.com/policy/international/6241572-kilmar-abrego-garcia-self-deports/",
+      "published": "Wed, 25 Nov 2026 01:42:16 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Thomas Markle indicted in US for possessing child sex abuse images",
+      "summary": "The FBI arrested Markle on 6 November after a search of a storage unit he had allegedly rented in Los Angeles uncovered the abuse material.",
+      "link": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 25 Nov 2026 01:40:42 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "With Huang rescue, Trump riskily ties his political fortunes to Nvidia",
+      "summary": "The US president's intercession to reinstate CEO Jensen Huang has inextricably linked their fates.",
+      "link": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 25 Nov 2026 01:03:05 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "One lame duck and two turkeys as Trump plays the hits at Thanksgiving ceremony",
+      "summary": "<p>Levity was in short supply as president, reeling from midterms rout, talked up his achievements – and fixated on White House vanity project</p><p>For some, it was his pardoning of the January 6 rioters or the deployment of masked ICE agents. For others, it was Elon Musk’s chainsaw or the <a href=\"https://www.theguardian.com/us-news/2025/oct/24/white-house-demolition-east-wing-trump-ballroom\">demolition of the White House East Wing</a>.</p><p>Donald Trump’s second term as US president has been full of moments when people exclaim: <em>this</em> is the last straw! But on Tuesday even he went too far.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/24/donald-trump-turkey-pardon\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/nov/24/donald-trump-turkey-pardon",
+      "published": "Wed, 25 Nov 2026 00:56:48 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "US army to detonate 68 barrels of toxic lead in Iowa on day before Thanksgiving",
+      "summary": "<p>Residents warned to stay indoors amid conflicting information about how far the dust plume could travel</p><p>The <a href=\"https://www.theguardian.com/us-news/us-military\">US Army</a> is set to detonate 68 barrels – five tons – of lead azide at an ammunition plant in rural Iowa on Wednesday morning, after delays and conflicting information about how far the toxic lead dust plume could travel after the explosion.</p><p>That <a href=\"https://www.theguardian.com/us-news/2026/nov/23/iowa-lead-bomb-appeals-court\">controlled blast</a> has been scheduled for 10am ET on Wednesday, the day before the Thanksgiving holiday.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/24/us-army-iowa-detonation\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/nov/24/us-army-iowa-detonation",
+      "published": "Wed, 25 Nov 2026 00:33:16 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Stock market sees declines tied to bipartisan fury over Jensen Huang's reinstatement",
+      "summary": "One day after returning to Nvidia as CEO, a disgraced Jensen Huang apologized in a company town hall, according to The Wall Street Journal, telling staff that he's now in therapy. Weijia Jiang.",
+      "link": "https://www.cbsnews.com/video/stock-market-sees-declines-tied-bipartisan-fury-jensen-huangs-reinstatement/",
+      "published": "Tue, 24 Nov 2026 19:30:31 -0500",
+      "source": "CBS News"
+    },
+    {
+      "title": "Saudi national charged in OpenAI bugging to be released on $1 million bond",
+      "summary": "Abdulrahman Alfozan is accused of planting a recording device in an executive conference room at OpenAI's headquarters.",
+      "link": "https://www.cnbc.com/2026/11/24/openai-bugging-aflozan-release-saudi.html",
+      "published": "Tue, 24 Nov 2026 22:03:01 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Felony charge in North Carolina dropped against incoming Democratic lawmaker",
+      "summary": "Rep.-elect LaKesha Womack, who beat a GOP incumbent, was accused of failing to return a rental car in 2019.",
+      "link": "https://www.washingtonpost.com/politics/2026/11/24/felony-charge-north-carolina-dropped-against-incoming-democratic-lawmaker/",
+      "published": "Tue, 24 Nov 2026 21:48:06 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Anthropic’s stock just broke below its IPO price for the first time",
+      "summary": "Shares are trading below their IPO price of $83, less than a week after their debut on the Nasdaq.",
+      "link": "https://www.marketwatch.com/story/anthropics-stock-just-broke-below-its-ipo-price-for-the-first-time-5dc82668?mod=mw_rss_topstories",
+      "published": "Tue, 24 Nov 2026 21:46:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Trump wanted Jensen Huang back. Now, the president is all alone in Washington",
+      "summary": "Republicans worry Nvidia CEO Jensen Huang's affairs with a suspected Chinese spy jeopardized U.S. national security.",
+      "link": "https://www.cnbc.com/2026/11/24/trump-jensen-huang-nvidia.html",
+      "published": "Tue, 24 Nov 2026 21:13:39 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "See all of Trump’s Nvidia stock trades since January",
+      "summary": "As of Sept. 23, the president’s trades suggests he holds between $6 million and $71 million of Nvidia stock.",
+      "link": "https://www.washingtonpost.com/politics/2026/11/24/see-all-trumps-nvidia-stock-trades-since-january/",
+      "published": "Tue, 24 Nov 2026 21:10:00 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "How tariffs, fuel and fertilizer costs are squeezing the U.S.'s biggest apple region",
+      "summary": "Washington's $9 billion industry grows more than 70% of the nation's fresh apples. Farmers are being pressed by high costs, tariffs and a strong dollar that diminishes foreign purchasing power.",
+      "link": "https://www.npr.org/sections/the-picture-show/2026/11/24/g-s1-154620/how-high-costs-are-squeezing-apple-producers",
+      "published": "Tue, 24 Nov 2026 16:09:29 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "The U.S. government is investigating Iranian ties to as many as 50 hacked commercial vessels",
+      "summary": "The attacks, if officials who spoke to NPR are correct, may be the latest example of Iranian cyberattacks against global critical infrastructure during the war with the U.S.",
+      "link": "https://www.npr.org/2026/11/24/nx-s1-6052994/hack-commercial-vessels-iran",
+      "published": "Tue, 24 Nov 2026 16:04:50 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "Utah drops criminal charges against Kalshi founders after company suspended operations in state",
+      "summary": "Co-founders of the prediction market platform were slated to appear in a state district court in December.",
+      "link": "https://www.cnbc.com/2026/11/24/utah-drops-charges-against-kalshi-after-it-halted-operations-in-state.html",
+      "published": "Tue, 24 Nov 2026 20:45:57 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Blanche downplays Nvidia scrutiny after Trump’s move to back Jensen Huang",
+      "summary": "At a testy news conference, Attorney General Todd Blanche sidestepped questions about how the Justice Department reached its conclusion the Nvidia CEO did not pose a national security risk.",
+      "link": "https://www.washingtonpost.com/national-security/2026/11/24/blanche-downplays-nvidia-scrutiny-after-trumps-move-back-jensen-huang/",
+      "published": "Tue, 24 Nov 2026 20:37:18 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "What to know about Senate Democrats’ leadership fight",
+      "summary": "It could foreshadow governing tensions among the party’s members.",
+      "link": "https://www.washingtonpost.com/politics/2026/11/24/what-know-about-senate-democrats-leadership-fight/",
+      "published": "Tue, 24 Nov 2026 20:02:25 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "AG Blanche, FBI’s Patel dodge questions about Jensen Huang investigation",
+      "summary": "The AG and FBI director evaded answering reporters' questions about details of an investigation Trump said resolved security concerns about Jensen Huang.",
+      "link": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-fbi-doj-patel-blanche.html",
+      "published": "Tue, 24 Nov 2026 19:19:12 GMT",
       "source": "CNBC"
     },
     {
@@ -230,20 +323,6 @@
       "source": "NPR"
     },
     {
-      "title": "Army to detonate hazardous chemicals in Iowa on Wednesday after court clears way",
-      "summary": "Army projections suggested the controlled explosion will unleash a plume of lead particles extending as far as 100 miles.",
-      "link": "https://www.washingtonpost.com/climate-environment/2026/11/23/trump-orders-military-halt-iowa-detonation-plan/",
-      "published": "Tue, 24 Nov 2026 12:00:34 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "U.S. court clears the way for Army’s planned ammunition detonation in Iowa",
-      "summary": "A U.S. court cleared the Army to detonate degraded explosives at an Iowa ammunition plant amid public concern over contamination and health risks.",
-      "link": "https://www.cnbc.com/2026/11/24/iowa-detonation-bomb-court-.html",
-      "published": "Tue, 24 Nov 2026 11:56:49 GMT",
-      "source": "CNBC"
-    },
-    {
       "title": "What should it cost to insure a home in wildfire country?",
       "summary": "Some California homeowners have spent thousands making their homes safer from wildfires. Yet all that work has barely made a dent in their insurance bills. Should they be getting a bigger break?",
       "link": "https://www.npr.org/sections/planet-money/2026/11/24/g-s1-154477/what-should-it-cost-to-insure-a-home-in-wildfire-country",
@@ -258,13 +337,6 @@
       "source": "Washington Post"
     },
     {
-      "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
-      "summary": "Nvidia had come under pressure from President Trump to reappoint Huang, whose comeback helped add $1tn to the company's stock value.",
-      "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 24 Nov 2026 10:53:37 GMT",
-      "source": "BBC News"
-    },
-    {
       "title": "How retailers make a Black Friday sale look better than it is",
       "summary": "Crossed-out price tags and limited-time deals can catch your attention, but take a moment (and a closer look) before reaching for the wallet.",
       "link": "https://www.washingtonpost.com/business/2026/11/24/how-retailers-make-black-friday-sale-look-better-than-it-is/",
@@ -272,52 +344,10 @@
       "source": "Washington Post"
     },
     {
-      "title": "They attended Trump's meme coin dinner.  It didn't go well",
-      "summary": "Trump's meme coin dinners have sparked intense controversy. These two guests attended his latest on Sunday — and agreed to provide NPR inside access.",
-      "link": "https://www.npr.org/2026/11/24/nx-s1-6051604/trump-crypto-corruption-meme-coin-dinner",
-      "published": "Tue, 24 Nov 2026 05:00:00 -0500",
-      "source": "NPR"
-    },
-    {
-      "title": "Democrats probe whether Trump Jr.-aligned businesses benefit from government access",
-      "summary": "Investigators say companies with ties to Donald Trump Jr's investment firm, 1789 Capital, have profited since his father's reelection.",
-      "link": "https://www.npr.org/2026/11/24/nx-s1-6051028/jamie-raskin-donald-trump-jr-1789-capital-democrats-investigation",
-      "published": "Tue, 24 Nov 2026 05:00:00 -0500",
-      "source": "NPR"
-    },
-    {
-      "title": "Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions",
-      "summary": "Iran said three oil tankers caught fire after hitting naval mines in the Strait of Hormuz, as the U.S. escalates sanctions aimed at cutting off Tehran's financial lifelines.",
-      "link": "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html",
-      "published": "Tue, 24 Nov 2026 05:05:08 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "US Army to detonate toxic explosives in Iowa after Trump paused plan",
-      "summary": "The US military plans to detonate five tonnes of expired explosives on Wednesday, after appeals court decision.",
-      "link": "https://www.bbc.co.uk/news/articles/cr2klqzqx1qvo?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 24 Nov 2026 04:42:06 GMT",
-      "source": "BBC News"
-    },
-    {
       "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
       "summary": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
       "link": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
       "published": "Mon, 23 Nov 2026 23:28:19 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "California Democrat to resign from Congress after evidence of sexual misconduct",
-      "summary": "Jimmy Gomez, who lost his election this month and only serving in the House until the year's end, was accused of sexual misconduct with a staff member.",
-      "link": "https://www.bbc.co.uk/news/articles/cm2l5kgpw5l5o?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 23 Nov 2026 22:58:27 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "‘This establishes a bottom’: Jensen Huang’s return seen as likely to stop market sell-off, for now",
-      "summary": "Wall Street strategists say Jensen Huang’s return to Nvidia could steady the AI trade, though spending and data-center risks remain.",
-      "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo-market-rally.html",
-      "published": "Mon, 23 Nov 2026 18:00:47 GMT",
       "source": "CNBC"
     },
     {
@@ -329,15 +359,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-11-10 06:00",
-      "threat_level": "MEDIUM",
-      "value": 2,
-      "sentiment_score": 58,
-      "incidents": 7,
-      "sp500": 7549.94,
-      "usd_czk": 21.768
-    },
     {
       "date": "2026-11-10 14:02",
       "threat_level": "HIGH",
@@ -598,6 +619,15 @@
       "incidents": 2,
       "sp500": 7173.14,
       "usd_czk": 22.282
+    },
+    {
+      "date": "2026-11-25 06:00",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 68,
+      "incidents": 6,
+      "sp500": 7201.09,
+      "usd_czk": 22.282
     }
   ],
   "locations": [
@@ -616,18 +646,25 @@
       "name_en": "New York"
     },
     {
+      "key": "Los Angeles",
+      "lat": 34.0522,
+      "lon": -118.2437,
+      "name_cs": "Los Angeles",
+      "name_en": "Los Angeles"
+    },
+    {
+      "key": "Texas",
+      "lat": 31.9686,
+      "lon": -99.9018,
+      "name_cs": "Texas",
+      "name_en": "Texas"
+    },
+    {
       "key": "California",
       "lat": 36.7783,
       "lon": -119.4179,
       "name_cs": "Kalifornie",
       "name_en": "California"
-    },
-    {
-      "key": "Border",
-      "lat": 31.7619,
-      "lon": -106.485,
-      "name_cs": "Hranice s Mexikem (El Paso)",
-      "name_en": "US-Mexico Border (El Paso)"
     },
     {
       "key": "Wall Street",
@@ -637,6 +674,13 @@
       "name_en": "Wall Street"
     },
     {
+      "key": "Michigan",
+      "lat": 44.3148,
+      "lon": -85.6024,
+      "name_cs": "Michigan",
+      "name_en": "Michigan"
+    },
+    {
       "key": "North Carolina",
       "lat": 35.7596,
       "lon": -79.0193,
@@ -644,11 +688,25 @@
       "name_en": "North Carolina"
     },
     {
-      "key": "Russia",
-      "lat": 55.75,
-      "lon": 37.62,
-      "name_cs": "Rusko",
-      "name_en": "Russia",
+      "key": "Virginia",
+      "lat": 37.4316,
+      "lon": -78.6569,
+      "name_cs": "Virginie",
+      "name_en": "Virginia"
+    },
+    {
+      "key": "Utah",
+      "lat": 39.321,
+      "lon": -111.0937,
+      "name_cs": "Utah",
+      "name_en": "Utah"
+    },
+    {
+      "key": "San Francisco",
+      "lat": 37.77,
+      "lon": -122.42,
+      "name_cs": "San Francisco",
+      "name_en": "San Francisco",
       "auto": true
     },
     {
@@ -676,24 +734,24 @@
       "auto": true
     },
     {
-      "key": "France",
-      "lat": 48.86,
-      "lon": 2.35,
-      "name_cs": "Paříž",
-      "name_en": "France",
+      "key": "Spain",
+      "lat": 40.4,
+      "lon": -3.7,
+      "name_cs": "Madrid",
+      "name_en": "Spain",
       "auto": true
     }
   ],
   "location_counts": {
     "Florida": 63,
-    "Texas": 100,
-    "Washington": 115,
-    "New York": 82,
-    "California": 80,
+    "Texas": 101,
+    "Washington": 116,
+    "New York": 83,
+    "California": 81,
     "Capitol": 31,
     "Border": 34,
-    "Los Angeles": 4,
-    "Wall Street": 81,
+    "Los Angeles": 5,
+    "Wall Street": 82,
     "Illinois": 13,
     "Colorado": 25,
     "Canada": 33,
@@ -701,20 +759,20 @@
     "Ukrajina": 1,
     "Rusko": 1,
     "Írán": 1,
-    "Čína": 3,
+    "Čína": 2,
     "Tchaj-wan": 1,
     "Japonsko": 1,
     "Pákistán": 1,
     "Londýn": 1,
     "Paříž": 1,
-    "Madrid": 1,
+    "Madrid": 3,
     "Kolumbie": 1,
     "San Francisco": 1,
     "Venezuela": 1,
     "Hongkong": 1,
     "Indie": 1,
     "Berlín": 1,
-    "Michigan": 8,
+    "Michigan": 9,
     "Georgia": 24,
     "Maine": 28,
     "Mexico": 26,
@@ -723,7 +781,7 @@
     "Ohio": 46,
     "Arizona": 22,
     "Minnesota": 25,
-    "Virginia": 21,
+    "Virginia": 22,
     "Izrael": 1,
     "Austrálie": 1,
     "Alaska": 51,
@@ -734,7 +792,7 @@
     "Louisiana": 18,
     "Egypt": 1,
     "Pennsylvania": 21,
-    "North Carolina": 16,
+    "North Carolina": 17,
     "Brusel": 1,
     "Wisconsin": 12,
     "Kuba": 1,
@@ -747,7 +805,7 @@
     "Oklahoma": 8,
     "Jihoafrická republika": 2,
     "Seattle": 6,
-    "Utah": 7,
+    "Utah": 8,
     "Turecko": 1,
     "Massachusetts": 8,
     "Argentina": 1,
@@ -771,17 +829,9 @@
     "key": "Washington",
     "name_cs": "Washington, D.C.",
     "name_en": "Washington, D.C.",
-    "count": 115
+    "count": 116
   },
   "archive": [
-    {
-      "date": "2026-11-18 05:59",
-      "threat_level": "HIGH",
-      "security_status_cs": "Spojené státy čelí zvýšenému napětí na více frontách, včetně eskalace geopolitických střetů na Blízkém východě, kde Írán zaútočil na radarové zařízení v Bahrajnu. Domácí scénu rozbouřily překvapivé výsledky senátních voleb na Aljašce, které posílily demokratickou většinu, a napětí kolem Fedu či vyšetřování technologických lídrů. Ropné trhy mezitím reagují poklesem k 85 dolarům za barel díky obnoveným dodávkám.",
-      "security_status_en": "The United States faces heightened tensions on multiple fronts, including escalating geopolitical clashes in the Middle East where Iran targeted a radar facility in Bahrain. The domestic scene is shaken by surprise Senate election results in Alaska strengthening the Democratic majority, alongside tensions surrounding the Fed and investigations into tech leaders. Meanwhile, oil prices have dropped toward $85 a barrel amid recovering supplies.",
-      "forecast_cs": "V nejbližších dnech se očekává pokračování diplomatických jednání v Asii a zostřená pozornost investorů vůči krokům Fedu a vývoji cen ropy.",
-      "forecast_en": "Over the coming days, diplomatic talks in Asia are expected to continue, alongside heightened investor focus on Fed actions and oil price trends."
-    },
     {
       "date": "2026-11-18 14:54",
       "threat_level": "HIGH",
@@ -885,23 +935,31 @@
       "security_status_en": "Error during automated AI analysis.",
       "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
       "forecast_en": "Failed to generate forecast."
+    },
+    {
+      "date": "2026-11-25 06:00",
+      "threat_level": "HIGH",
+      "security_status_cs": "Spojené státy čelí zvýšenému napětí v technologickém a politickém sektoru kvůli vládním zásahům do korporátního řízení, zejména v kauze návratu šéfa Nvidie Jensena Huanga. Makroekonomická situace zůstává pod tlakem vyšších úrokových sazeb naznačených Fedu a rostoucích nákladů zemědělců a domácností.",
+      "security_status_en": "The United States is facing elevated tensions in the technology and political sectors due to government intervention in corporate governance, notably in the reinstatement of Nvidia CEO Jensen Huang. The macroeconomic situation remains under pressure from higher interest rates signaled by the Fed and rising costs for farmers and households.",
+      "forecast_cs": "V nejbližších dnech lze očekávat pokračující politické přestřelky ohledně vládních zásahů do technologického sektoru a napětí na trzích.",
+      "forecast_en": "In the coming days, continued political sparring over government intervention in the tech sector and market jitters are expected."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 5× HIGH, 2× MEDIUM.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 5× HIGH, 2× MEDIUM.",
   "market_data": {
     "sp500": {
-      "value": 7173.14,
+      "value": 7201.09,
       "date": "2026-11-24",
       "cached": false
     },
     "dow": {
-      "value": 49784.41,
+      "value": 50018.7,
       "date": "2026-11-24",
       "cached": false
     },
     "yield10y": {
-      "value": 4.88,
+      "value": 4.9,
       "date": "2026-11-24",
       "cached": false
     }
