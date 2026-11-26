@@ -1,108 +1,307 @@
 {
-  "last_updated": "2026-11-25T16:38:47Z",
+  "last_updated": "2026-11-26T06:00:10Z",
   "assessment": {
-    "threat_level": "HIGH",
-    "sentiment_score": 70,
-    "security_status_cs": "Chyba při automatické analýze AI.",
-    "security_status_en": "Error during automated AI analysis.",
+    "threat_level": "MEDIUM",
+    "sentiment_score": 48,
+    "security_status_cs": "Spojené státy čelí zvýšenému napětí na obchodní scéně poté, co administrativou navržená nová cla vůči 14 partnerům včetně Číny a EU vyvolala ostrou mezinárodní odezvu. Na domácí politické scéně rezonují spory o svobodu médií, federální kontroly a pokračující debaty uvnitř Demokratické strany ohledně budoucího vedení v Senátu. Technologický sektor mezitím prochází volatilitou spojenou s umělou inteligencí a regulačním tlakem na společnosti jako Nvidia.",
+    "security_status_en": "The United States is facing heightened trade tensions after the administration proposed new tariffs on 14 partners including China and the EU, sparking sharp international pushback. Domestically, the political scene is roiled by debates over media freedom, federal scrutiny, and leadership succession among Senate Democrats. Meanwhile, the technology sector is experiencing volatility driven by artificial intelligence concerns and regulatory scrutiny over companies like Nvidia.",
     "president_comments": [
       {
-        "topic_cs": "Návrat šéfa Nvidie",
-        "topic_en": "Nvidia CEO Return",
-        "statement_cs": "Prezident Trump si přisvojil zásluhu na návratu Jensena Huanga do funkce generálního ředitele společnosti Nvidia.",
-        "statement_en": "President Trump took credit for negotiating Jensen Huang's return as CEO of Nvidia.",
-        "comment_cs": "Tento nevídaný zásah politiky do korporátního vedení vyvolává obavy ohledně národní bezpečnosti a propojení moci.",
-        "comment_en": "This unprecedented political intercession into corporate leadership raises national security concerns and intertwines political and corporate fortunes.",
+        "topic_cs": "Nová cla",
+        "topic_en": "New Tariffs",
+        "statement_cs": "Administrativa navrhla nová 15% cla na dovoz z 14 obchodních partnerů včetně Číny a členských států EU s cílem omezit nekalé zahraniční obchodní praktiky.",
+        "statement_en": "The administration proposed new 15% tariffs on imports from 14 trading partners, including China and EU member states, aimed at countering unfair foreign trade practices.",
+        "comment_cs": "Tento krok vyvolal okamžitou kritiku ze strany Pekingu i Bruselu a zvyšuje riziko globální obchodní války, což negativně doléhá na náladu investorů.",
+        "comment_en": "This move drew immediate criticism from Beijing and Brussels, increasing the risk of a global trade war and negatively impacting investor sentiment.",
         "market_impact": "NEGATIVE",
-        "source": "The Guardian",
-        "date": "2026-11-25T06:00:02Z"
+        "source": "CNBC",
+        "date": "2026-11-26T06:00:07Z"
       },
       {
-        "topic_cs": "Rebranding zdravotní péče",
-        "topic_en": "Healthcare Rebranding",
-        "statement_cs": "President Trump said he will meet with a Democratic lawmaker to discuss rebranding the single-payer healthcare bill to 'TrumpCare'.",
-        "comment_en": "This move shows a political effort to co-opt opposition topics, which could spark debates in Congress.",
+        "topic_cs": "Regulace médií a ABC",
+        "topic_en": "Media Regulation and ABC",
+        "statement_cs": "Federální soud zablokoval pokus administrativy podřídit vysílací licence stanice ABC předčasnému přezkumu, který byl vnímán jako snaha trestat kritický obsah.",
+        "statement_en": "A federal judge blocked the administration's attempt to subject ABC broadcast licenses to an early review, which was viewed as an effort to penalize critical coverage.",
+        "comment_cs": "Rozhodnutí soudu posílilo ochranu svobody projevu, avšak poukázalo na rostoucí politizaci regulačních orgánů.",
+        "comment_cs_en": "The court ruling reinforced freedom of speech protections, while highlighting the growing politicization of regulatory bodies.",
         "market_impact": "NEUTRAL",
-        "source": "The Hill",
-        "date": "2026-11-25T06:00:02Z"
+        "source": "NPR",
+        "date": "2026-11-26T06:00:07Z"
       }
     ],
-    "recommendations": [],
-    "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
-    "forecast_en": "Failed to generate forecast.",
-    "forecast_review_cs": "N/A",
-    "forecast_review_en": "N/A"
+    "recommendations": [
+      {
+        "sector_cs": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
+        "sector_en": "US Broad Equity Market (S&P 500 ETFs, e.g. VOO, SPY)",
+        "action": "HOLD",
+        "reason_cs": "Trhy čelí zvýšené volatilitě kvůli obavám z inflace, dopadům nových cel a výkyvům v technologickém sektoru.",
+        "reason_en": "Markets face heightened volatility due to inflation fears, tariff impacts, and fluctuations within the tech sector."
+      },
+      {
+        "sector_cs": "Státní dluhopisy USA (Treasuries)",
+        "sector_en": "US Treasuries",
+        "action": "BUY",
+        "reason_cs": "S ohledem na nejistotu ohledně vývoje úrokových sazeb Fedu a ekonomického růstu poskytují dluhopisy stabilní útočiště.",
+        "reason_en": "Given uncertainty regarding Fed rate paths and economic growth, Treasuries provide a reliable safe haven."
+      },
+      {
+        "sector_cs": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
+        "sector_en": "Defense Industry (RTX, Lockheed Martin, Northrop Grumman)",
+        "action": "BUY",
+        "reason_cs": "Geopolitické napětí a přetrvávající mezinárodní konflikty zajišťují stabilní vládní zakázky a poptávku po obranných systémech.",
+        "reason_en": "Geopolitical tensions and ongoing international conflicts ensure steady government contracts and demand for defense systems."
+      },
+      {
+        "sector_cs": "Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)",
+        "sector_en": "Banks & Financials (JPMorgan, Bank of America, Goldman Sachs)",
+        "action": "HOLD",
+        "reason_cs": "Finanční instituce zůstávají odolné, ale sledují regulační tlaky a vývoj úvěrového trhu v prostředí vysokých úrokových sazeb.",
+        "reason_en": "Financial institutions remain resilient but are monitoring regulatory pressures and credit market trends in a high-rate environment."
+      },
+      {
+        "sector_cs": "Technologický sektor (Apple, Microsoft, Nvidia)",
+        "sector_en": "Technology Sector (Apple, Microsoft, Nvidia)",
+        "action": "HOLD",
+        "reason_cs": "Silná poptávka po infrastruktuře umělé inteligence je vyvážena rostoucím regulačním dohledem a korekcí trhu.",
+        "reason_en": "Strong demand for AI infrastructure is balanced by rising regulatory oversight and market corrections."
+      },
+      {
+        "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
+        "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
+        "action": "HOLD",
+        "reason_cs": "Domácí tituly jsou primárně ovlivněny lokální fiskální politikou a evropským makroekonomickým klimatem.",
+        "reason_en": "Local equities are primarily driven by domestic fiscal policy and the broader European macroeconomic climate."
+      }
+    ],
+    "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na akciových trzích poháněnou debatami o clech a regulaci technologií. Politické dění se bude soustředit na přípravu volebního vedení v Kongresu.",
+    "forecast_en": "In the coming days, continued stock market volatility driven by tariff debates and tech regulation is expected. Political focus will center on congressional leadership maneuvering.",
+    "forecast_review_cs": "Žádná předchozí předpověď k vyhodnocení.",
+    "forecast_review_en": "No previous forecast to evaluate."
   },
   "articles": [
     {
-      "title": "Watch live: Army briefs on Iowa lead azide detonation",
-      "summary": "Army officials will brief reporters Wednesday following the planned controlled detonation of 68 barrels of unstable lead-based explosives in Iowa, an operation that sparked widespread concerns over public health and safety. The explosion at the Iowa Army Ammunition Plant in Middletown, Iowa, followed multiple delays, legal challenges and uncertainty earlier this week after President Trump...",
-      "link": "https://thehill.com/homenews/state-watch/6242738-watch-live-army-iowa-lead-azide-detonation-briefing/",
-      "published": "Wed, 25 Nov 2026 16:35:34 +0000",
+      "title": "Beware higher correlation but nab high U.S. credit yields, fund managers say",
+      "summary": "The AI boom could trigger a recession, but data centers remain an attractive investment opportunity, a hedge fund manager said.",
+      "link": "https://www.cnbc.com/2026/11/26/mispricing-risk-fund-managers-ai-volatility.html",
+      "published": "Thu, 26 Nov 2026 05:36:01 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "U.S. Judge rules FCC violated ABC's free speech rights to please Trump",
+      "summary": "A federal judge has blocked the Trump administration from moving to review all local broadcast licenses held by ABC. The stations air in six of the largest U.S. markets.",
+      "link": "https://www.npr.org/2026/11/26/nx-s1-6000576/fcc-disney-abc-first-amendment-trump-brendan-carr",
+      "published": "Thu, 26 Nov 2026 00:23:18 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "49ers HC Kyle Shanahan Gets Honest on Brandon Aiyuk Signing With Commanders",
+      "summary": "49ers HC Kyle Shanahan had a blunt response about former WR Brandon Aiyuk signing with the Washington Commanders' practice squad.",
+      "link": "https://www.newsweek.com/sports/nfl/49ers-hc-kyle-shanahan-gets-honest-on-brandon-aiyuk-signing-with-commanders-12769774",
+      "published": "Wed, 25 Nov 2026 23:57:49 -0500",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Judge Blocks FCC Review of ABC Licenses as Commissioner Praises Ruling",
+      "summary": "The judge's ruling Wednesday night landed the backing of the commission's only Democrat, Anna Gomez.",
+      "link": "https://www.newsweek.com/judge-blocks-fcc-review-of-abc-licenses-as-commissioner-praises-ruling-12769576",
+      "published": "Wed, 25 Nov 2026 23:53:07 -0500",
+      "source": "Newsweek"
+    },
+    {
+      "title": "US announces new tariffs on host of countries including China",
+      "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+      "published": "Thu, 26 Nov 2026 04:10:58 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Trump tariff threat ‘unacceptable’, says Brazil, as China denounces levies as baseless",
+      "summary": "<p>Brazil indignant about proposed tariffs on sugar and aircraft, while Beijing says new levies amount to ‘political manipulation’</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/2026/nov/25/trump-new-china-tariffs-europe\"><strong>Trump proposing new tariffs on 14 partners including China and EU</strong></a></p></li></ul><p>Brazil has said it will not bend to the new US tariff “threat” and China accused Washington of “political manipulation” in the wake of <a href=\"https://www.theguardian.com/us-news/2026/nov/25/trump-new-china-tariffs-europe\">Donald Trump’s latest economic salvo</a> against 14 major trading partners.</p><p>Brazil’s government said on Wednesday: “Brazil will not yield to this type of threat”, adding in its statement that the “unilateral decision constitutes an unacceptable action within the framework of the ongoing bilateral negotiating process”.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
+      "published": "Thu, 26 Nov 2026 03:54:24 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Army detonates toxic explosives at Iowa plant despite concerns",
+      "summary": "The U.S. Army detonated a stockpile of degrading explosives at a munitions plant in Iowa on Wednesday, after days of back-and-forth between politicians and the courts.",
+      "link": "https://www.cbsnews.com/news/iowa-army-ammunition-plant-unstable-explosives-detonation/",
+      "published": "Wed, 25 Nov 2026 22:30:47 -0500",
+      "source": "CBS News"
+    },
+    {
+      "title": "Mortgage Rates Dip, but Homebuyers Are Paying $325 More a Month on Average",
+      "summary": "Mortgage rates eased this week, but Zillow expects them to stay above 7 percent through mid-2027.",
+      "link": "https://www.newsweek.com/mortgage-rates-dip-but-homebuyers-are-paying-325-more-a-month-on-average-12769616",
+      "published": "Wed, 25 Nov 2026 22:23:12 -0500",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Judge sides against Democrats on taxpayer-funded pro-Trump ads",
+      "summary": "A federal judge sided against the Democratic National Committee (DNC) in their case regarding the administration’s taxpayer-funded pro-President Trump advertisements that played earlier this year, according to new court filings. The DNC previously argued that the ads would affect the outcome of November’s midterm election. A federal judge issued a temporary restraining order that required...",
+      "link": "https://thehill.com/regulation/court-battles/6244361-judge-denies-dnc-ad-challenge/",
+      "published": "Thu, 26 Nov 2026 03:09:54 +0000",
       "source": "The Hill"
     },
     {
-      "title": "What to do if your Thanksgiving flight gets delayed — especially with a nor’easter brewing",
-      "summary": "Plus some advice on cutting your Thanksgiving grocery tab.",
-      "link": "https://www.marketwatch.com/story/what-to-do-if-your-thanksgiving-flight-gets-delayed-especially-with-a-noreaster-brewing-566fe933?mod=mw_rss_topstories",
-      "published": "Wed, 25 Nov 2026 16:21:00 GMT",
-      "source": "MarketWatch"
+      "title": "Judge temporarily blocks FCC from reviewing ABC's licenses",
+      "summary": "A federal judge blocked the FCC from moving forward with an early review of ABC's broadcast licenses, a move the network argues is an attempt by the Trump administration to punish speech it does not like.",
+      "link": "https://www.cbsnews.com/news/judge-temporarily-blocks-fcc-from-reviewing-abc-licenses/",
+      "published": "Wed, 25 Nov 2026 22:00:27 -0500",
+      "source": "CBS News"
     },
     {
-      "title": "Melania Trump announces reunion of 9 children with families amid Ukraine war",
-      "summary": "The first lady has made humanitarian aid and peacekeeping efforts in the Russia-Ukraine conflict one of her top issues.",
-      "link": "https://www.washingtonpost.com/politics/2026/11/25/melania-trump-announces-reunion-9-children-with-families-amid-ukraine-war/",
-      "published": "Wed, 25 Nov 2026 16:20:00 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Kilmar Ábrego García, target of Trump’s immigration crackdown, lands in Spain after ‘leaving happy’",
-      "summary": "<p>Ábrego García chose to depart from US after previously being deported to El Salvador due to ‘administrative error’</p><p>Kilmar Ábrego García, the Salvadoran national whose mistaken deportation turned him into a symbol of Donald Trump’s mass deportation efforts, has landed in Spain.</p><p>Ábrego García arrived in Madrid on Wednesday after leaving the United States <a href=\"https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us\">of his own volition</a>. Prior to his departure, Immigration and Customs Enforcement (ICE) agents met him at the airport and removed his ankle monitor, according to We Are CASA, a Maryland-based advocacy group.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/25/kilmar-abrego-garcia-spain\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/nov/25/kilmar-abrego-garcia-spain",
-      "published": "Wed, 25 Nov 2026 16:16:25 GMT",
+      "title": "Chris Van Hollen picks up more support for Senate majority leader role ahead of Democrats vote next week – as it happened",
+      "summary": "<p>This live blog s now closed.</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\">Sign up for the Breaking News US email</a></p></li></ul><p>US trade representative <strong>Jamieson Greer</strong> claimed this morning that he did not expect the <a href=\"https://www.theguardian.com/us-news/live/2026/nov/25/donald-trump-jensen-huang-nvidia-pardon-senate-hearing-iowa-abdul-el-sayed-latest-news-updates?page=with%3Ablock-6b06e3698f08bac898def3e7#block-6b06e3698f08bac898def3e7\">new proposed tariffs</a> to rattle the global economy.</p><p>“We’ve talked to our trading partners about this — they know what we’re proposing,” Greer told CNBC. “<strong>I think a lot of this is baked in</strong>, and I don’t think any of these would actually take effect earlier than a couple months from now.”</p><p><em>FINAL REMINDER. Controlled detonation at Iowa Army Ammunition Plant today at 9am (in 1 hour). EVACUATION IS NO LONGER SAFE OR ADVISED! All Residents within 20 miles including Middletown, Augusta, and Burlington must SHELTER IN PLACE immediately. STAY INDOORS with windows closed to block lead dust.</em></p> <a href=\"https://www.theguardian.com/us-news/live/2026/nov/25/donald-trump-jensen-huang-nvidia-pardon-senate-hearing-iowa-abdul-el-sayed-latest-news-updates\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/live/2026/nov/25/donald-trump-jensen-huang-nvidia-pardon-senate-hearing-iowa-abdul-el-sayed-latest-news-updates",
+      "published": "Thu, 26 Nov 2026 02:20:52 GMT",
       "source": "The Guardian"
     },
     {
       "title": "A look at the probes involving Nvidia, Jensen Huang and Megaspeed",
       "summary": "The reinstatement of Jensen Huang as president and CEO of Nvidia sent shockwaves through the political and business world, and has fueled scrutiny by Congress.",
       "link": "https://www.cbsnews.com/news/nvidia-jensen-huang-megaspeed-investigations/",
-      "published": "Wed, 25 Nov 2026 11:13:16 -0500",
+      "published": "Wed, 25 Nov 2026 21:07:43 -0500",
       "source": "CBS News"
     },
     {
-      "title": "Trump Shares Warning to Ilhan Omar as Admin Apologizes in Case",
-      "summary": "Ilhan Omar faces renewed scrutiny as reports of a grand jury probe emerge alongside new details from unsealed court filings.",
-      "link": "https://www.newsweek.com/trump-shares-warning-ilhan-omar-admin-apologises-case-12767289",
-      "published": "Wed, 25 Nov 2026 11:12:50 -0500",
-      "source": "Newsweek"
+      "title": "Musk appeals $2.6B Twitter fraud verdict: Report",
+      "summary": "Elon Musk is asking a federal appeals court to overturn a jury verdict that found he defrauded Twitter shareholders ahead of his $44 billion acquisition of the social media company in 2022 by driving down its stock price. In a brief filed Monday night with the U.S. Court of Appeals for the 9th Circuit, Musk’s...",
+      "link": "https://thehill.com/regulation/court-battles/6244265-musk-appeals-twitter-fraud-verdict-report/",
+      "published": "Thu, 26 Nov 2026 01:31:35 +0000",
+      "source": "The Hill"
     },
     {
-      "title": "Trump says pardon for Nvidia boss Huang ‘always an option’ after accusations of breaking export laws – US politics live",
-      "summary": "<p>The US president urged the tech leader to ‘tell the truth’ in upcoming testimony in a Senate hearing</p><ul><li><p><a href=\"https://www.theguardian.com/news/2026/feb/17/sign-up-for-the-breaking-news-us-email-to-get-newsletter-alerts-direct-to-your-inbox?utm_medium=ACQUISITIONS_STANDFIRST&utm_campaign=BN22326&utm_content=signup&utm_term=standfirst&utm_source=GUARDIAN_WEB\"><strong>Sign up for the Breaking News US email to get newsletter alerts in your inbox</strong></a></p></li></ul><p>US trade representative <strong>Jamieson Greer</strong> claimed this morning that he did not expect the <a href=\"https://www.theguardian.com/us-news/live/2026/nov/25/donald-trump-jensen-huang-nvidia-pardon-senate-hearing-iowa-abdul-el-sayed-latest-news-updates?page=with%3Ablock-6b06e3698f08bac898def3e7#block-6b06e3698f08bac898def3e7\">new proposed tariffs</a> to rattle the global economy.</p><p>“We’ve talked to our trading partners about this — they know what we’re proposing,” Greer told CNBC. “<strong>I think a lot of this is baked in</strong>, and I don’t think any of these would actually take effect earlier than a couple months from now.”</p><p><em>FINAL REMINDER. Controlled detonation at Iowa Army Ammunition Plant today at 9am (in 1 hour). EVACUATION IS NO LONGER SAFE OR ADVISED! All Residents within 20 miles including Middletown, Augusta, and Burlington must SHELTER IN PLACE immediately. STAY INDOORS with windows closed to block lead dust.</em></p> <a href=\"https://www.theguardian.com/us-news/live/2026/nov/25/donald-trump-jensen-huang-nvidia-pardon-senate-hearing-iowa-abdul-el-sayed-latest-news-updates\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/live/2026/nov/25/donald-trump-jensen-huang-nvidia-pardon-senate-hearing-iowa-abdul-el-sayed-latest-news-updates",
-      "published": "Wed, 25 Nov 2026 16:12:06 GMT",
+      "title": "EU 'strongly rejects' rationale behind Trump's tariffs",
+      "summary": "The European Union on Wednesday pushed back against the Trump administration’s allegations that the bloc’s industrial policies are contributing to a global oversupply of manufactured goods, after the U.S. proposed imposing 15 percent tariffs on imports from its 27 member countries. The European Commission rejected the findings of a months-long investigation by the Office of...",
+      "link": "https://thehill.com/policy/international/6244220-eu-rejects-us-tariff-proposal/",
+      "published": "Thu, 26 Nov 2026 00:24:34 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "2nd Circuit deals blow to Manhattan DA, breathes new life into Trump's hush money appeal",
+      "summary": "President Donald Trump's bid to move his New York hush money case to federal court is revived after the 2nd Circuit cited errors in a prior denial.",
+      "link": "https://www.foxnews.com/politics/second-circuit-deals-blow-manhattan-da-breathes-new-life-trump-hush-money-appeal",
+      "published": "Wed, 25 Nov 2026 19:00:15 -0500",
+      "source": "Fox News"
+    },
+    {
+      "title": "Steelers officially release Aaron Rodgers and keep coach Mike McCarthy on the job despite embarrassing claims",
+      "summary": "Mike McCarthy keeps his Steelers job despite an ice cream assistant leak and Aaron Rodgers' claims he snores in meetings, saying \"I know how to win.\"",
+      "link": "https://www.foxnews.com/outkick-sports/steelers-officially-release-aaron-rodgers-keep-coach-mike-mccarthy-job-despite-embarrassing-claims",
+      "published": "Wed, 25 Nov 2026 18:25:27 -0500",
+      "source": "Fox News"
+    },
+    {
+      "title": "Major League Baseball owners sue MLB Players Association ahead of rapidly approaching lockout",
+      "summary": "Major League Baseball sued the MLBPA in federal court in a move the league calls defensive, as the CBA expires and a lockout threatens the 2027 season.",
+      "link": "https://www.foxnews.com/outkick-sports/major-league-baseball-owners-sue-mlb-players-association-ahead-rapidly-approaching-lockout",
+      "published": "Wed, 25 Nov 2026 18:05:06 -0500",
+      "source": "Fox News"
+    },
+    {
+      "title": "Schumer, Van Hollen add to tallies of supporters for majority leader",
+      "summary": "Senate Democrats plan to decide who will guide them on a secret ballot next week.",
+      "link": "https://www.washingtonpost.com/politics/2026/11/25/maine-sen-elect-troy-jackson-endorses-chris-van-hollen-senate-leader/",
+      "published": "Wed, 25 Nov 2026 22:22:15 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Oracle, CoreWeave and other tech stocks bounce back after selloff",
+      "summary": "Oracle, CoreWeave and other technology stocks bounced back from early losses on Wednesday, after what appeared to be a major selloff eased ahead of the market’s close.",
+      "link": "https://www.marketwatch.com/story/oracles-stock-sinks-toward-a-3-year-low-as-the-ai-trade-continues-to-unravel-d4698d77?mod=mw_rss_topstories",
+      "published": "Wed, 25 Nov 2026 22:16:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "These are the Senate Democrats backing Schumer and Van Hollen for majority leader",
+      "summary": "The Post is tracking senators’ public comments on the fight for Senate majority leader in the next Congress.",
+      "link": "https://www.washingtonpost.com/politics/interactive/2026/11/18/these-are-senate-democrats-backing-schumer-van-hollen-majority-leader/",
+      "published": "Wed, 25 Nov 2026 21:59:57 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Elon Musk and SpaceX to donate roughly $17.8 billion to ‘Trump accounts’",
+      "summary": "SpaceX to provide one newly issued Class A share to every active ‘Trump account,’ and CEO Musk will match that gift.",
+      "link": "https://www.marketwatch.com/story/elon-musk-and-spacex-to-donate-roughly-17-8-billion-to-trump-accounts-071c12e1?mod=mw_rss_topstories",
+      "published": "Wed, 25 Nov 2026 21:50:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "US stocks fall further as fears over AI intensify",
+      "summary": "All three main US indexes were down in early trading, with the tech-dominated Nasdaq down almost 4%.",
+      "link": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 25 Nov 2026 21:43:18 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "In backing Nvidia’s Huang, Trump deals his China hawks a setback",
+      "summary": "The administration is facing growing bipartisan calls to be tougher on U.S. chip exports and China.",
+      "link": "https://www.washingtonpost.com/politics/2026/11/25/backing-jensen-huang-trump-delivers-setback-china-hawks/",
+      "published": "Wed, 25 Nov 2026 21:20:13 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Kilmar Abrego García arrives in Spain to start a new life",
+      "summary": "Abrego became a symbol of the Trump administration’s immigration policies after being illegally deported to his native El Salvador.",
+      "link": "https://www.washingtonpost.com/immigration/2026/11/25/kilmar-abrego-garcia-leaves-us-spain-ending-20-month-deportation-fight/",
+      "published": "Wed, 25 Nov 2026 21:00:08 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "JD Vance goes home to Ohio as he mulls a presidential bid",
+      "summary": "The vice president and his family traveled home to Ohio, stopping at Wright-Patterson Air Force Base to serve lunch.",
+      "link": "https://www.washingtonpost.com/politics/2026/11/25/jd-vance-family-serve-thanksgiving-lunch-military-members/",
+      "published": "Wed, 25 Nov 2026 20:05:05 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Kilmar Ábrego García, target of Trump’s immigration crackdown, lands in Spain after ‘leaving happy’",
+      "summary": "<p>Ábrego García chooses to depart from US after previously being deported to El Salvador due to ‘administrative error’</p><p>Kilmar Ábrego García, the Salvadorian national whose mistaken deportation turned him into a symbol of Donald Trump’s mass deportation efforts, has landed in Spain.</p><p>Ábrego García arrived in Madrid on Wednesday after leaving the United States <a href=\"https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us\">of his own volition</a>.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/25/kilmar-abrego-garcia-spain\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/nov/25/kilmar-abrego-garcia-spain",
+      "published": "Wed, 25 Nov 2026 19:36:24 GMT",
       "source": "The Guardian"
     },
     {
-      "title": "White House Touts Lower Gas Prices for Thanksgiving: How Costs Compare",
-      "summary": "The White House said in a post on X on Tuesday: \"Gas prices are falling as drivers hit the road for Thanksgiving.\"",
-      "link": "https://www.newsweek.com/white-house-gas-prices-thanksgiving-costs-compare-12767380",
-      "published": "Wed, 25 Nov 2026 11:10:11 -0500",
-      "source": "Newsweek"
-    },
-    {
-      "title": "Colorado Pushes to Restrict SNAP Benefits Again After Court Block",
-      "summary": "Colorado has resubmitted a plan to block sugary drink purchases with SNAP benefits after a court halted its first effort.",
-      "link": "https://www.newsweek.com/colorado-snap-drink-restrictions-after-court-ruling-12767200",
-      "published": "Wed, 25 Nov 2026 11:09:30 -0500",
-      "source": "Newsweek"
-    },
-    {
-      "title": "No, Trump Isn't Going To Enact Medicare for All",
-      "summary": "Bill Scher, Washington Monthly <br /> It’s not going to work.",
-      "link": "https://www.realclearpolitics.com/executive/links/no-trump-isnt-going-to-enact-medicare-for-all-2026-11-25",
-      "published": "Wed, 25 Nov 2026 10:08:47 -0600",
+      "title": "The Case of the Missing Trump Voters",
+      "summary": "Ruy Teixeira, Substack <br /> It could be more important than you think!",
+      "link": "https://www.realclearpolitics.com/house-races/links/the-case-of-the-missing-trump-voters-2026-11-25",
+      "published": "Wed, 25 Nov 2026 13:36:01 -0600",
       "source": "RealClearPolitics"
+    },
+    {
+      "title": "Step 1 for Democrats: Kill the Filibuster",
+      "summary": "Dan Pfeiffer, New York Times <br />",
+      "link": "https://www.realclearpolitics.com/congress/links/step-1-for-democrats-kill-the-filibuster-2026-11-25",
+      "published": "Wed, 25 Nov 2026 13:35:10 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Nvidia Scare Shows U.S. Economy and Gov't Need AI",
+      "summary": "Red Jahncke, Issues & Insights <br /> AI productivity is badly needed to fund planned future federal spending.",
+      "link": "https://www.realclearpolitics.com/markets/links/nvidia-scare-shows-us-economy-and-govt-need-ai-2026-11-25",
+      "published": "Wed, 25 Nov 2026 13:35:09 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Kilmar Ábrego García arrives in Spain, ending Trump deportation battle",
+      "summary": "His deportation to and return from El Salvador became a flashpoint in the debate the US president's immigration agenda.",
+      "link": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+      "published": "Wed, 25 Nov 2026 19:22:18 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Group of Senate Democrats push to add freshman to leadership",
+      "summary": "Several Democratic senators have been signaling this move, saying the party needs to acknowledge the diverse class of incoming freshman that catapulted the party to victory in November.",
+      "link": "https://www.npr.org/2026/11/25/g-s1-155518/senate-democrats-freshman-leadership-schumer-van-hollen",
+      "published": "Wed, 25 Nov 2026 12:30:47 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "Prediction markets push OpenAI IPO expectations later into 2027",
+      "summary": "Kalshi traders have cut the odds of OpenAI confirming an IPO before June 2027, as AI stocks and related markets have weakened.",
+      "link": "https://www.cnbc.com/2026/11/25/openai-ipo-odds-2027-prediction-markets.html",
+      "published": "Wed, 25 Nov 2026 17:08:03 GMT",
+      "source": "CNBC"
     },
     {
       "title": "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
@@ -112,27 +311,6 @@
       "source": "CNBC"
     },
     {
-      "title": "Trump wishes Robert Pattinson 'luck' as James Bond",
-      "summary": "President Trump on Tuesday said he wishes actor Robert Pattinson \"luck\" as he embarks on his new role as the seventh actor to portray British spy James Bond. \"He looks nice. You know, I wish him luck,\" Trump told reporters in the Oval Office, according to the New York Post. He called out to adviser...",
-      "link": "https://thehill.com/blogs/in-the-know/6242424-donald-trump-robert-pattinson-james-bond/",
-      "published": "Wed, 25 Nov 2026 16:02:04 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "The Pentagon's 'heat ray' weapon is not an acceptable form of border control",
-      "summary": "Imagine a toddler having its skin burned by the heat ray, and it’s easy to understand why even a test of this technology at the border is alarming.",
-      "link": "https://thehill.com/opinion/immigration/6239893-border-heat-ray-concerns/",
-      "published": "Wed, 25 Nov 2026 16:00:00 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Illegal Alien Cut Loose Just a Day Before Alleged Murder",
-      "summary": "Kirsten Fleming, NY Post <br /> In New York City’s upside-down world ruled by sanctuary, soft-on-crime policies, a lunatic will not only be shielded from ICE or lockup, he’ll be released into the wild...",
-      "link": "https://www.realclearpolitics.com/crime/links/illegal-alien-cut-loose-just-a-day-before-alleged-murder-2026-11-25",
-      "published": "Wed, 25 Nov 2026 09:55:48 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
       "title": "Saudi national charged in OpenAI bugging to be released on $1 million bond",
       "summary": "Abdulrahman Alfozan is accused of planting a recording device in an executive conference room at OpenAI's headquarters.",
       "link": "https://www.cnbc.com/2026/11/24/openai-bugging-aflozan-release-saudi.html",
@@ -140,87 +318,10 @@
       "source": "CNBC"
     },
     {
-      "title": "Trump administration to issue new tariffs on China, EU and others",
-      "summary": "The U.S. will increase tariffs on Chinese goods by an additional 20% and raise import taxes on goods from other major economies.",
-      "link": "https://www.cbsnews.com/news/trump-administration-tariffs-14-trading-partners/",
-      "published": "Wed, 25 Nov 2026 10:54:37 -0500",
-      "source": "CBS News"
-    },
-    {
-      "title": "53 incoming House Democrats to boycott Harvard orientation in support of graduate students’ strike",
-      "summary": "<p>‘We have been informed that to attend your event we would be required to cross a union picket line,’ the Democrats say</p><ul><li><p><a href=\"https://www.theguardian.com/us-news/live/2026/nov/25/donald-trump-jensen-huang-nvidia-pardon-senate-hearing-iowa-abdul-el-sayed-latest-news-updates\">US politics live – latest updates</a></p></li></ul><p>Fifty three newly elected members of Congress told <a href=\"https://www.theguardian.com/education/harvard-university\">Harvard University</a> on Tuesday that they will boycott an informal orientation program at Harvard’s Kennedy School next month in support of the school’s <a href=\"https://www.youtube.com/shorts/MX2MBysKtsg\">striking graduate students union</a>.</p><p>In <a href=\"https://x.com/SamForstag/status/2125364957701382513\">a letter</a> to the university’s administrators, the incoming House Democrats expressed thanks for their invitations to the Bipartisan Program for Newly Elected Members of Congress, in which more than 800 members have participated in since 1972.</p> <a href=\"https://www.theguardian.com/education/2026/nov/25/house-democrats-harvard-boycott-strike\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/education/2026/nov/25/house-democrats-harvard-boycott-strike",
-      "published": "Wed, 25 Nov 2026 15:47:25 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "US inflation hits highest since May after prices climb 3.8% over the last year",
-      "summary": "<p>Rise occurs amid soaring energy prices, according to last inflation reading before a crucial Fed board meeting</p><p>The sell-off in the US stock market continued Wednesday as investors reacted to continued concern over the AI trade and fresh data that showed inflation jumped in October.</p><p>The tech-heavy Nasdaq index was down over 4% Wednesday morning, while the S&P 500 had lost over 2.5% and the Dow had dropped about 2%.</p> <a href=\"https://www.theguardian.com/business/2026/nov/25/consumer-prices-september-october-energy-inflation\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/business/2026/nov/25/consumer-prices-september-october-energy-inflation",
-      "published": "Wed, 25 Nov 2026 15:46:15 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Army detonates toxic explosives at Iowa plant despite concerns",
-      "summary": "The U.S. Army detonated a stockpile of degrading explosives at a munitions plant in Iowa on Wednesday, after days of back-and-forth between politicians and the courts.",
-      "link": "https://www.cbsnews.com/news/iowa-army-ammunition-plant-unstable-explosives-detonation/",
-      "published": "Wed, 25 Nov 2026 10:44:00 -0500",
-      "source": "CBS News"
-    },
-    {
-      "title": "Middle seat near back of plane brings Kilmar Abrego García to a new life",
-      "summary": "Abrego, now in Spain, became a symbol of the Trump administration’s immigration policies after being illegally deported to his native El Salvador.",
-      "link": "https://www.washingtonpost.com/immigration/2026/11/25/kilmar-abrego-garcia-leaves-us-spain-ending-20-month-deportation-fight/",
-      "published": "Wed, 25 Nov 2026 15:10:37 +0000",
-      "source": "Washington Post"
-    },
-    {
       "title": "Fort Hood shooter asks court to delay execution scheduled for next week",
       "summary": "Nidal Malik Hasan, who killed 13 people and injured 32 others at a Texas army base in 2009, has asked for a stay of execution so he can pursue a legal review of his case.",
       "link": "https://www.washingtonpost.com/nation/2026/11/25/fort-hood-shooter-nidal-malik-hasan-asks-court-stay-execution/",
       "published": "Wed, 25 Nov 2026 15:10:00 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Inflation gets worse. Now the Fed no choice but to raise U.S. interest rates.",
-      "summary": "The measure of inflation used by the Federal Reserve to influence U.S. interest rates rose again in October at an accelerated rate, virtually assuring the central bank will increase borrowing costs next month.",
-      "link": "https://www.marketwatch.com/story/inflation-gets-worse-now-the-fed-no-choice-but-to-raise-u-s-interest-rates-8b0c2c1f?mod=mw_rss_topstories",
-      "published": "Wed, 25 Nov 2026 15:08:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Colorado Dems eye changes to voter-approved girls' sports protections as GOP lawmaker vows fight",
-      "summary": "Colorado Republican Rep. Brandi Bradley vows to fight Gov.-elect Phil Weiser \"tooth and nail\" over voter-approved protections for girls sports and minors.",
-      "link": "https://www.foxnews.com/media/colorado-dems-eye-changes-voter-approved-girls-sports-protections-gop-lawmaker-vows-fight",
-      "published": "Wed, 25 Nov 2026 10:00:45 -0500",
-      "source": "Fox News"
-    },
-    {
-      "title": "Third-quarter GDP already looked great. Now it looks even better.",
-      "summary": "The economy grew in the late spring and summer at the fastest pace in three years  to set the U.S. up for a strong finish in 2026. Gross domestic product expanded at a 4.3% annual pace in the third quarter, up from an initial estimate of a 3.4%.",
-      "link": "https://www.marketwatch.com/story/third-quarter-gdp-already-looked-great-now-it-looks-even-better-12057da5?mod=mw_rss_topstories",
-      "published": "Wed, 25 Nov 2026 14:47:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Democrats to include creators and influencers to maximize viewership for presidential primary debates",
-      "summary": "The Democratic Party will add creators and influencers to 12 primary debates starting in 2027, but conservatives like Tim Young predict a circus.",
-      "link": "https://www.foxnews.com/media/democrats-include-creators-influencers-maximize-viewership-presidential-primary-debates",
-      "published": "Wed, 25 Nov 2026 09:31:57 -0500",
-      "source": "Fox News"
-    },
-    {
-      "title": "Make Texas Dumber Again?",
-      "summary": "Wall Street Journal <br />",
-      "link": "https://www.realclearpolitics.com/education/links/make-texas-dumber-again-2026-11-25",
-      "published": "Wed, 25 Nov 2026 07:43:09 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Trump proposes new tariffs on China, Europe and other trade partners",
-      "summary": "The new round of import taxes aimed at countries that prop up domestic industries marks the latest effort to replace tariffs struck down by the Supreme Court.",
-      "link": "https://www.washingtonpost.com/politics/2026/11/25/trump-proposes-new-tariffs-china-europe-other-trade-partners/",
-      "published": "Wed, 25 Nov 2026 13:40:51 +0000",
       "source": "Washington Post"
     },
     {
@@ -231,18 +332,18 @@
       "source": "CNBC"
     },
     {
-      "title": "Kilmar Ábrego García arrives in Spain, ending Trump deportation battle",
-      "summary": "His deportation to and return from El Salvador became a flashpoint in the debate the US president's immigration agenda.",
-      "link": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 25 Nov 2026 12:42:11 GMT",
-      "source": "BBC News"
-    },
-    {
       "title": "Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals",
       "summary": "The extreme market gyrations and the drama surrounding Nvidia this past week have highlighted the dilemma facing Federal Reserve Chairman Kevin Warsh.",
       "link": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html",
       "published": "Wed, 25 Nov 2026 12:26:41 GMT",
       "source": "CNBC"
+    },
+    {
+      "title": "Republican wants FBI and CIA answers before questioning Nvidia chief",
+      "summary": "\"The public is rightly concerned,\" says the Republican lawmaker, who wants to know what the FBI and CIA knew about potential national security threats and whether Jensen Huang was warned.",
+      "link": "https://www.npr.org/2026/11/25/nx-s1-6052417/nvidia-jensen-huang-reaction-republicans-congress-investigation",
+      "published": "Wed, 25 Nov 2026 06:50:05 -0500",
+      "source": "NPR"
     },
     {
       "title": "Sale of Stefanik family’s D.C. home deemed ‘unusual,’ city records show",
@@ -257,74 +358,9 @@
       "link": "https://www.washingtonpost.com/immigration/2026/11/24/kilmar-abrego-garcia/",
       "published": "Wed, 25 Nov 2026 10:04:26 +0000",
       "source": "Washington Post"
-    },
-    {
-      "title": "Hispanic voters who flocked to Democrats say support could be fleeting",
-      "summary": "A populist economic message helped Democrats flip a majority-Hispanic district in California's Central Valley, but Republicans could quickly regain ground.",
-      "link": "https://www.washingtonpost.com/politics/2026/11/25/hispanic-voters-who-flocked-democrats-say-support-could-be-fleeting/",
-      "published": "Wed, 25 Nov 2026 10:00:00 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "In backing Nvidia’s Huang, Trump deals his China hawks a setback",
-      "summary": "The administration is facing growing bipartisan calls to be tougher on U.S. chip exports and China.",
-      "link": "https://www.washingtonpost.com/politics/2026/11/25/backing-jensen-huang-trump-delivers-setback-china-hawks/",
-      "published": "Wed, 25 Nov 2026 10:00:00 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Kilmar Abrego Garcia leaves U.S. voluntarily for Spain",
-      "summary": "Abrego Garcia, a Salvadoran immigrant who became a symbol of Trump's mass deportation campaign, voluntarily left the country on Tuesday after nearly two years of  legal battles.",
-      "link": "https://www.npr.org/2026/11/25/nx-s1-6053203/abrego-garcia-leaves-us",
-      "published": "Wed, 25 Nov 2026 04:19:50 -0500",
-      "source": "NPR"
-    },
-    {
-      "title": "She spent decades as an FBI agent and this is the case she could not let go",
-      "summary": "Jane Collins had all but given up on seeing Michael Donovan and Richard Moore face justice. Then they were charged with stealing from a mass-shooter’s brother.",
-      "link": "https://www.bbc.co.uk/news/articles/c539g1pwy3wyo?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 25 Nov 2026 02:48:53 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Thomas Markle charged in US for possessing child sex abuse images",
-      "summary": "The FBI arrested Markle on 6 November after a search of a storage unit he had allegedly rented in Los Angeles uncovered the abuse material.",
-      "link": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 25 Nov 2026 01:40:42 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Trump's rescue of Nvidia's Huang brings political risks",
-      "summary": "The US president's intercession to reinstate CEO Jensen Huang has inextricably linked their fates.",
-      "link": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo?at_medium=RSS&at_campaign=rss",
-      "published": "Wed, 25 Nov 2026 01:03:05 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Utah drops criminal charges against Kalshi founders after company suspended operations in state",
-      "summary": "Co-founders of the prediction market platform were slated to appear in a state district court in December.",
-      "link": "https://www.cnbc.com/2026/11/24/utah-drops-charges-against-kalshi-after-it-halted-operations-in-state.html",
-      "published": "Tue, 24 Nov 2026 20:45:57 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
-      "summary": "The influential central banker expressed confidence that inflation will get closer to the Fed's 2% target in 2027.",
-      "link": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
-      "published": "Tue, 24 Nov 2026 13:33:26 GMT",
-      "source": "CNBC"
     }
   ],
   "history": [
-    {
-      "date": "2026-11-11 06:00",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 68,
-      "incidents": 7,
-      "sp500": 7520.93,
-      "usd_czk": 21.702
-    },
     {
       "date": "2026-11-11 13:19",
       "threat_level": "MEDIUM",
@@ -585,6 +621,15 @@
       "incidents": 4,
       "sp500": 6993.73,
       "usd_czk": 22.346
+    },
+    {
+      "date": "2026-11-26 06:00",
+      "threat_level": "MEDIUM",
+      "value": 2,
+      "sentiment_score": 48,
+      "incidents": 5,
+      "sp500": 7182.78,
+      "usd_czk": 22.346
     }
   ],
   "locations": [
@@ -603,32 +648,11 @@
       "name_en": "New York"
     },
     {
-      "key": "Los Angeles",
-      "lat": 34.0522,
-      "lon": -118.2437,
-      "name_cs": "Los Angeles",
-      "name_en": "Los Angeles"
-    },
-    {
       "key": "Texas",
       "lat": 31.9686,
       "lon": -99.9018,
       "name_cs": "Texas",
       "name_en": "Texas"
-    },
-    {
-      "key": "California",
-      "lat": 36.7783,
-      "lon": -119.4179,
-      "name_cs": "Kalifornie",
-      "name_en": "California"
-    },
-    {
-      "key": "Border",
-      "lat": 31.7619,
-      "lon": -106.485,
-      "name_cs": "Hranice s Mexikem (El Paso)",
-      "name_en": "US-Mexico Border (El Paso)"
     },
     {
       "key": "Wall Street",
@@ -638,33 +662,18 @@
       "name_en": "Wall Street"
     },
     {
-      "key": "Colorado",
-      "lat": 39.5501,
-      "lon": -105.7821,
-      "name_cs": "Colorado",
-      "name_en": "Colorado"
+      "key": "Ohio",
+      "lat": 40.4173,
+      "lon": -82.9071,
+      "name_cs": "Ohio",
+      "name_en": "Ohio"
     },
     {
-      "key": "Utah",
-      "lat": 39.321,
-      "lon": -111.0937,
-      "name_cs": "Utah",
-      "name_en": "Utah"
-    },
-    {
-      "key": "Ukrain",
-      "lat": 50.45,
-      "lon": 30.52,
-      "name_cs": "Ukrajina",
-      "name_en": "Ukrain",
-      "auto": true
-    },
-    {
-      "key": "Russia",
-      "lat": 55.75,
-      "lon": 37.62,
-      "name_cs": "Rusko",
-      "name_en": "Russia",
+      "key": "Brazil",
+      "lat": -14.2,
+      "lon": -51.9,
+      "name_cs": "Brazílie",
+      "name_en": "Brazil",
       "auto": true
     },
     {
@@ -673,14 +682,6 @@
       "lon": 104.2,
       "name_cs": "Čína",
       "name_en": "China",
-      "auto": true
-    },
-    {
-      "key": "London",
-      "lat": 51.5,
-      "lon": -0.12,
-      "name_cs": "Londýn",
-      "name_en": "London",
       "auto": true
     },
     {
@@ -702,14 +703,14 @@
   ],
   "location_counts": {
     "Florida": 63,
-    "Texas": 102,
-    "Washington": 117,
-    "New York": 84,
+    "Texas": 103,
+    "Washington": 118,
+    "New York": 85,
     "California": 82,
     "Capitol": 31,
     "Border": 35,
     "Los Angeles": 6,
-    "Wall Street": 83,
+    "Wall Street": 84,
     "Illinois": 13,
     "Colorado": 26,
     "Canada": 33,
@@ -723,7 +724,7 @@
     "Pákistán": 1,
     "Londýn": 1,
     "Paříž": 1,
-    "Madrid": 5,
+    "Madrid": 4,
     "Kolumbie": 1,
     "San Francisco": 1,
     "Venezuela": 1,
@@ -736,7 +737,7 @@
     "Mexico": 26,
     "Singapur": 1,
     "Chicago": 25,
-    "Ohio": 46,
+    "Ohio": 47,
     "Arizona": 22,
     "Minnesota": 25,
     "Virginia": 22,
@@ -751,7 +752,7 @@
     "Egypt": 1,
     "Pennsylvania": 21,
     "North Carolina": 17,
-    "Brusel": 2,
+    "Brusel": 4,
     "Wisconsin": 12,
     "Kuba": 1,
     "Somálsko": 1,
@@ -787,17 +788,9 @@
     "key": "Washington",
     "name_cs": "Washington, D.C.",
     "name_en": "Washington, D.C.",
-    "count": 117
+    "count": 118
   },
   "archive": [
-    {
-      "date": "2026-11-19 05:59",
-      "threat_level": "HIGH",
-      "security_status_cs": "Spojené státy čelí komplexní vlně domácích a geopolitických výzev, včetně technologických výpadků kritické infrastruktury, politických bojů ve Washingtonu a rostoucích obav Fedu z inflačních rizik spojených s AI boomem. Prezident Trump se mezitím účastní významného summitu v Asii a řeší mezinárodní i domácí kontroverze.",
-      "security_status_en": "The United States is facing a complex wave of domestic and geopolitical challenges, including critical infrastructure tech outages, political infighting in Washington, and growing Fed concerns over AI-driven inflation risks. Meanwhile, President Trump is attending a major summit in Asia while addressing international and domestic controversies.",
-      "forecast_cs": "V následujících dnech se očekává pokračující sledování vývoje kolem technologických výpadků, reakcí trhů na zápis Fedu a mezinárodních jednání v Asii.",
-      "forecast_en": "Over the coming days, markets will continue to monitor the aftermath of tech outages, market reactions to Fed minutes, and international talks in Asia."
-    },
     {
       "date": "2026-11-19 15:03",
       "threat_level": "HIGH",
@@ -901,23 +894,31 @@
       "security_status_en": "Error during automated AI analysis.",
       "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
       "forecast_en": "Failed to generate forecast."
+    },
+    {
+      "date": "2026-11-26 06:00",
+      "threat_level": "MEDIUM",
+      "security_status_cs": "Spojené státy čelí zvýšenému napětí na obchodní scéně poté, co administrativou navržená nová cla vůči 14 partnerům včetně Číny a EU vyvolala ostrou mezinárodní odezvu. Na domácí politické scéně rezonují spory o svobodu médií, federální kontroly a pokračující debaty uvnitř Demokratické strany ohledně budoucího vedení v Senátu. Technologický sektor mezitím prochází volatilitou spojenou s umělou inteligencí a regulačním tlakem na společnosti jako Nvidia.",
+      "security_status_en": "The United States is facing heightened trade tensions after the administration proposed new tariffs on 14 partners including China and the EU, sparking sharp international pushback. Domestically, the political scene is roiled by debates over media freedom, federal scrutiny, and leadership succession among Senate Democrats. Meanwhile, the technology sector is experiencing volatility driven by artificial intelligence concerns and regulatory scrutiny over companies like Nvidia.",
+      "forecast_cs": "V nejbližších dnech lze očekávat pokračující volatilitu na akciových trzích poháněnou debatami o clech a regulaci technologií. Politické dění se bude soustředit na přípravu volebního vedení v Kongresu.",
+      "forecast_en": "In the coming days, continued stock market volatility driven by tariff debates and tech regulation is expected. Political focus will center on congressional leadership maneuvering."
     }
   ],
-  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 6× HIGH, 1× MEDIUM.",
-  "weekly_summary_en": "Over the last 7 recorded analyses: 6× HIGH, 1× MEDIUM.",
+  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 5× HIGH, 2× MEDIUM.",
+  "weekly_summary_en": "Over the last 7 recorded analyses: 5× HIGH, 2× MEDIUM.",
   "market_data": {
     "sp500": {
-      "value": 6993.73,
+      "value": 7182.78,
       "date": "2026-11-25",
       "cached": false
     },
     "dow": {
-      "value": 49224.46,
+      "value": 50182.95,
       "date": "2026-11-25",
       "cached": false
     },
     "yield10y": {
-      "value": 4.82,
+      "value": 4.85,
       "date": "2026-11-25",
       "cached": false
     }
