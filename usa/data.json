@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-11-27T06:00:07Z",
+  "last_updated": "2026-11-27T15:54:54Z",
   "assessment": {
-    "threat_level": "MEDIUM",
-    "sentiment_score": 45,
-    "security_status_cs": "Spojené státy procházejí obdobím politického klidu během svátků, přičemž pozornost se soustředí na ekonomická data a diskuse o regulaci technologií. Mezinárodní napětí přetrvává v souvislosti s konflikty na Blízkém východě a na Ukrajině, zatímco Federální rezervní systém čelí tlaku na interpretaci tržních signálů.",
-    "security_status_en": "The United States is experiencing a period of political calm over the holidays, with focus shifting toward economic data and tech regulation debates. International tensions persist regarding conflicts in the Middle East and Ukraine, while the Federal Reserve faces pressure in interpreting market signals.",
+    "threat_level": "HIGH",
+    "sentiment_score": 70,
+    "security_status_cs": "Chyba při automatické analýze AI.",
+    "security_status_en": "Error during automated AI analysis.",
     "president_comments": [
       {
         "topic_cs": "Válka v Iráku a Íránu",
@@ -40,70 +40,243 @@
         "date": "2026-11-27T06:00:03Z"
       }
     ],
-    "recommendations": [
-      {
-        "sector_cs": "Široký americký akciový trh (S&P 500 ETF, např. VOO, SPY)",
-        "sector_en": "US Broad Equity Market (S&P 500 ETFs, e.g. VOO, SPY)",
-        "action": "HOLD",
-        "equation_cs": "Trhy vykazují smíšené signály kvůli debatám o datech HDP a technologické regulaci během svátečního období.",
-        "reason_cs": "Trhy vykazují smíšené signály kvůli debatám o datech HDP a technologické regulaci během svátečního období.",
-        "reason_en": "Markets are showing mixed signals due to debates over GDP data and tech regulation during the holiday period."
-      },
-      {
-        "sector_cs": "Státní dluhopisy USA (Treasuries)",
-        "sector_en": "US Treasuries",
-        "action": "HOLD",
-        "reason_cs": "Výnosy dluhopisů zůstávají stabilní, zatímco investoři vyčkávají na jasnější signály ohledně dalšího směřování měnové politiky Fedu.",
-        "reason_en": "Bond yields remain stable while investors await clearer signals regarding the future direction of Fed monetary policy."
-      },
-      {
-        "sector_cs": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
-        "sector_en": "Defense Industry (RTX, Lockheed Martin, Northrop Grumman)",
-        "action": "BUY",
-        "reason_cs": "Přetrvávající geopolitické napětí na Blízkém východě a Ukrajině nadále podporuje stabilní poptávku po obranných systémech.",
-        "reason_en": "Ongoing geopolitical tensions in the Middle East and Ukraine continue to support steady demand for defense systems."
-      },
-      {
-        "sector_cs": "Banky a finanční sektor (JPMorgan, Bank of America, Goldman Sachs)",
-        "sector_en": "Banks & Financials (JPMorgan, Bank of America, Goldman Sachs)",
-        "action": "HOLD",
-        "reason_cs": "Finanční sektor těží z odolnosti ekonomiky, ale opatrnost přetrvává kvůli debatám o regulačním rámci.",
-        "reason_en": "The financial sector benefits from economic resilience, but caution persists due to debates over the regulatory framework."
-      },
-      {
-        "sector_cs": "Technologický sektor (Apple, Microsoft, Nvidia)",
-        "sector_en": "Technology Sector (Apple, Microsoft, Nvidia)",
-        "action": "HOLD",
-        "reason_cs": "Silná poptávka po AI infrastruktuře je vyvážena obavami z nadcházející regulace a volatilitou kolem klíčových hráčů.",
-        "reason_en": "Strong demand for AI infrastructure is balanced by concerns over incoming regulation and volatility surrounding key players."
-      },
-      {
-        "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
-        "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
-        "action": "HOLD",
-        "reason_cs": "Domácí tituly na pražské burze reagují primárně na evropské fundamenty a zůstávají izolovány od aktuálního amerického dění.",
-        "reason_en": "Domestic stocks on the Prague Stock Exchange react primarily to European fundamentals and remain isolated from current US developments."
-      }
-    ],
-    "forecast_cs": "V nejbližších dnech lze očekávat poklidnější obchodování vlivem svátků, přičemž pozornost se vrátí k makroekonomickým ukazatelům a politickým debatám v Kongresu.",
-    "forecast_en": "Quieter trading is expected in the coming days due to the holidays, with attention returning to macroeconomic indicators and political debates in Congress.",
-    "forecast_review_cs": "Předchozí předpověď o kolísání trhů v reakci na cla a debatám o regulaci technologií se potvrdila.",
-    "forecast_review_en": "The previous forecast regarding market fluctuations in response to tariffs and tech regulation debates was confirmed."
+    "recommendations": [],
+    "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
+    "forecast_en": "Failed to generate forecast.",
+    "forecast_review_cs": "N/A",
+    "forecast_review_en": "N/A"
   },
   "articles": [
     {
-      "title": "Buffalo Bills outlast Kansas City Chiefs in defensive struggle to maintain top seed status in AFC",
-      "summary": "The Bills defense held Patrick Mahomes in check twice late, setting up a game-winning field goal to outlast the Kansas City Chiefs 13-10 on Thanksgiving.",
-      "link": "https://www.foxnews.com/outkick-sports/buffalo-bills-outlast-kansas-city-chiefs-defensive-struggle-maintain-top-seed-status-afc",
-      "published": "Fri, 27 Nov 2026 00:02:40 -0500",
+      "title": "Trump demands probe into 'record setting error' after third-quarter GDP data gets massive revision higher",
+      "summary": "President Donald Trump on Thursday deemed the latest gross domestic product revision a mistake, claiming that it should be \"immediately investigated.\"",
+      "link": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html",
+      "published": "Fri, 27 Nov 2026 15:52:00 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Trump demands GDP data probe as chances of rate hike rise: What to know",
+      "summary": "President Trump on Thursday pressed for an investigation into gross domestic product (GDP) figures released by the Commerce Department prior to the midterms. \"It was just revealed that the REAL Numbers on the Economy, published before the Election, were FAKE, and a correction was issued yesterday by the people in the Government Agency that does...",
+      "link": "https://thehill.com/business/6245247-trump-demands-gdp-investigation-inflation/",
+      "published": "Fri, 27 Nov 2026 15:46:09 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+      "summary": "The law faced legal challenges from a range of groups, including female Muslim, Sikh and Catholic teachers, who argued it violated their funadamental rights.",
+      "link": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 27 Nov 2026 15:38:13 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "Trump’s Thanksgiving message attacks adversaries, migrants and economic data",
+      "summary": "President Donald Trump took aim at the Commerce Department’s Bureau of Economic Analysis, baselessly accusing it of issuing “fake Economic Numbers.”",
+      "link": "https://www.washingtonpost.com/politics/2026/11/27/trumps-thanksgiving-message-attacks-adversaries-migrants-economic-data/",
+      "published": "Fri, 27 Nov 2026 15:30:00 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Newly released documents suggest CIA did more post-9/11 waterboarding than previously acknowledged",
+      "summary": "<p>Declassified documents appear to support belief that waterboarding was more common and may have occurred beyond two acknowledged sites</p><p>Newly released documents suggest that the CIA waterboarded more detainees during the post-9/11 “war on terror” than previously acknowledged, utilizing a site north of Kabul, Afghanistan, for the practice of simulated drowning.</p><p>The agency has acknowledged waterboarding three men: Abu Zubaydah, believed to be a high-ranking member of al-Qaida; Khalid Shaikh Mohammed, suspected architect of the 11 September 2001 attacks; and Abd al-Rahim al-Nashiri, accused of planning the 2000 bombing of a Navy destroyer.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/27/newly-released-documents-cia-waterboarding-9-11\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/nov/27/newly-released-documents-cia-waterboarding-9-11",
+      "published": "Fri, 27 Nov 2026 15:25:03 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Three studies link glyphosate to cancer, contradicting claims of Trump EPA",
+      "summary": "<p>Experts say NIH research raises concerns about chemical companies’ influence on US agency’s pesticide division</p><p>The US government’s top medical research agency has <a href=\"https://zenodo.org/records/24354736\">released</a> three <a href=\"https://zenodo.org/records/24372545\">new studies</a> linking glyphosate, the world’s most widely used pesticide and an active ingredient in Roundup, <a href=\"https://zenodo.org/records/24356429\">to cancer</a>. The National Institutes of Health (NIH) findings contradicts a controversial recent Environmental Protection Agency (EPA) conclusion that the weed killer is not a carcinogen, and deals a blow to the White House, which has been <a href=\"https://www.theguardian.com/environment/2026/feb/19/trump-order-protect-weedkiller\">closely allied</a> with Roundup producer Bayer.</p><p>The NIH’s three papers could have significant political and legal fallout. The EPA is in the process of a court-ordered re-evaluation of glyphosate’s cancer risks. The NIH findings generates new pressure for the EPA to find that the substance is linked to cancer, which would subject it to a modest increase in regulations.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/27/glyphosate-cancer-studies-trump-epa\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/us-news/2026/nov/27/glyphosate-cancer-studies-trump-epa",
+      "published": "Fri, 27 Nov 2026 15:00:13 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Democrats, forget the Voting Rights Act: Fix Rucho",
+      "summary": "Rucho, not Callais, is why Black political representation is disappearing in some states.",
+      "link": "https://thehill.com/opinion/judiciary/supreme-court/6242874-voting-rights-act-rucho-callais/",
+      "published": "Fri, 27 Nov 2026 15:00:00 +0000",
+      "source": "The Hill"
+    },
+    {
+      "title": "Will Trump's Art of the Deal With Putin Get Him Back to G20?",
+      "summary": "The U.S. president invited the Russian leader to the global summit in Miami next month.",
+      "link": "https://www.newsweek.com/will-trumps-art-of-the-deal-with-putin-get-him-back-to-g20-12773364",
+      "published": "Fri, 27 Nov 2026 09:59:37 -0500",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Canada’s Supreme Court Upholds Muslim Headscarf Ban in Landmark Ruling",
+      "summary": "The judgment could reshape the powers of Canada's provincial governments and prove a headache for Mark Carney.",
+      "link": "https://www.newsweek.com/canadas-supreme-court-upholds-muslim-headscarf-ban-12773683",
+      "published": "Fri, 27 Nov 2026 09:56:08 -0500",
+      "source": "Newsweek"
+    },
+    {
+      "title": "Nvidia’s stock has tumbled 28% over one chaotic month. The next big test lies in the week ahead",
+      "summary": "Jensen Huang faces tough questions from Congress this week. Good luck pinning him down, one analyst says.",
+      "link": "https://www.marketwatch.com/story/nvidias-stock-has-tumbled-27-over-one-chaotic-month-the-next-big-test-lies-in-the-week-ahead-06449777?mod=mw_rss_topstories",
+      "published": "Fri, 27 Nov 2026 14:56:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Map Shows Where Amazon Targeted by Strikes, Protests on Black Friday Weekend",
+      "summary": "The Make Amazon Pay campaign is targeting the retail giant with strikes and protests from Friday to Monday.",
+      "link": "https://www.newsweek.com/map-shows-where-amazon-targeted-by-strikes-protests-on-black-friday-weekend-12773547",
+      "published": "Fri, 27 Nov 2026 09:50:10 -0500",
+      "source": "Newsweek"
+    },
+    {
+      "title": "US pilot tells Trump which fighter jet is ‘world’s greatest’ during Thanksgiving phone call",
+      "summary": "An F-16 pilot told President Donald Trump the jet is the \"world's greatest\" during a Thanksgiving call, saying \"you couldn't pay me to switch airplanes.\"",
+      "link": "https://www.foxnews.com/politics/us-pilot-tells-trump-which-fighter-jet-worlds-greatest-thanksgiving-phone-call",
+      "published": "Fri, 27 Nov 2026 09:25:40 -0500",
       "source": "Fox News"
     },
     {
-      "title": "Zelensky on Trump calling Putin 'friend': 'Same as somebody saying about Hitler' in WWII",
-      "summary": "Ukrainian President Volodymyr Zelensky said President Trump calling Russian President Vladimir Putin a “friend” was the “same as somebody saying about Hitler” in World War II.  When asked during a BBC interview how he felt about Trump’s comment about Putin, Zelensky stated “it's up to the President of the United States, but it's strange.” Putin...",
-      "link": "https://thehill.com/policy/international/6245089-zelensky-calls-for-us-peace-progress/",
-      "published": "Fri, 27 Nov 2026 03:51:11 +0000",
+      "title": "Trump slams foes and threatens future vetoes in Thanksgiving posts",
+      "summary": "President Trump took questions from reporters during the Thanksgiving holiday. He touched on Jensen Huang's return to Nvidia and lauded his latest meeting with Russia's Vladimir Putin and China's Xi Jinping. Weijia Jiang reports.",
+      "link": "https://www.cbsnews.com/video/trump-slams-foes-and-threatens-future-vetoes-in-thanksgiving-posts/",
+      "published": "Fri, 27 Nov 2026 09:23:00 -0500",
+      "source": "CBS News"
+    },
+    {
+      "title": "Hackers break into US Air Force cloud computing platform: Report",
+      "summary": "Hackers breached the Air Force's main cloud computing platform in recent weeks, risking sensitive data, according to a new report from Reuters, the latest in a string of cyber incidents and outages at government agencies. Reuters reported Friday that according to three sources, hackers broke into the Air Force's Cloud One platform, which hosts sensitive...",
+      "link": "https://thehill.com/policy/defense/6245197-air-force-cloud-one-hack/",
+      "published": "Fri, 27 Nov 2026 13:54:01 +0000",
       "source": "The Hill"
+    },
+    {
+      "title": "Clearing out my parents’ house was a legal nightmare. How can I downsize without putting my kids through the same ordeal?",
+      "summary": "Some countercultural advice this Black Friday: stop buying stuff, plus other rules for downsizing.",
+      "link": "https://www.marketwatch.com/story/clearing-out-my-parents-house-was-a-legal-nightmare-how-can-i-downsize-without-putting-my-children-through-the-same-ordeal-6537d804?mod=mw_rss_topstories",
+      "published": "Fri, 27 Nov 2026 13:45:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Renters are now a national political constituency that can influence elections",
+      "summary": "Renters backed Democrats 61% to 31% in the midterms, a 30-point margin, according to YouGov.",
+      "link": "https://www.marketwatch.com/story/renters-are-now-a-national-political-constituency-that-can-influence-elections-8f028445?mod=mw_rss_topstories",
+      "published": "Fri, 27 Nov 2026 13:30:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals",
+      "summary": "The extreme market gyrations and the drama surrounding Nvidia this past week have highlighted the dilemma facing Federal Reserve Chairman Kevin Warsh.",
+      "link": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html",
+      "published": "Fri, 27 Nov 2026 13:29:43 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "The S&P 500 is in a correction. Bear markets and recessions don't always follow",
+      "summary": "The November sell-off has so far pushed the S&P 500 into a correction. History shows that a correction doesn't always lead to a bear market, or a recession.",
+      "link": "https://www.cnbc.com/2026/11/27/the-sp-500-is-in-a-correction-bear-markets-and-recessions-dont-always-follow.html",
+      "published": "Fri, 27 Nov 2026 13:21:56 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "Spain’s election could pull Madrid closer to Trump’s Washington",
+      "summary": "Spanish voters head to the polls on Sunday for a snap election that could bring socialist Prime Minister Pedro Sánchez's eight years in power to an end.",
+      "link": "https://www.cnbc.com/2026/11/27/spain-election-trump-sanchez.html",
+      "published": "Fri, 27 Nov 2026 13:00:42 GMT",
+      "source": "CNBC"
+    },
+    {
+      "title": "From Hollywood mogul to Biden-Harris insiders, Democrats turn to familiar faces to shape their next chapter",
+      "summary": "Abdul El-Sayed's transition team director previously claimed Zionists were \"controlling\" U.S. politics, while Tyler Perry co-chairs Georgia's team.",
+      "link": "https://www.foxnews.com/politics/from-hollywood-mogul-biden-harris-insiders-democrats-turn-familiar-faces-shape-next-chapter",
+      "published": "Fri, 27 Nov 2026 08:00:33 -0500",
+      "source": "Fox News"
+    },
+    {
+      "title": "Trump Medicaid cuts will hit the most vulnerable Americans, officials say",
+      "summary": "<p>In Kentucky, one of America’s unhealthiest states, denial of healthcare and potential closure of hospitals may affect 250,000 people</p><p>The coalfields of eastern Kentucky fueled America’s economic rise in the early 20th century. But the state has since found itself left behind. A lack of investments in rural regions has triggered health and socioeconomic issues that have lingered for generations.</p><p>Today, Kentucky<a href=\"https://www.whas11.com/article/news/kentucky/kentucky-ranked-5th-most-unhealthy-us-state-forbes-study/417-f21d64f6-965e-4f0a-8286-f03475aa8e6e\"> faces</a> the third-highest cancer and third-highest drug overdose death rate in the country and is one of the top five worst-affected states in several other health metrics. It has come to rely heavily on federal healthcare assistance, with about 1.4 million people in Kentucky receiving Medicaid support.</p> <a href=\"https://www.theguardian.com/global/2026/nov/27/trump-medicaid-cuts-vulnerable-americans\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/global/2026/nov/27/trump-medicaid-cuts-vulnerable-americans",
+      "published": "Fri, 27 Nov 2026 13:00:11 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Here’s How Democrats Should Investigate Trump’s Corruption",
+      "summary": "New York Times <br />",
+      "link": "https://www.realclearpolitics.com/congress/links/heres-how-democrats-should-investigate-trumps-corruption-2026-11-27",
+      "published": "Fri, 27 Nov 2026 06:59:08 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Brace for the Trump-Warren Credit Card",
+      "summary": "Wall Street Journal <br />",
+      "link": "https://www.realclearpolitics.com/uncategorized/links/brace-for-the-trump-warren-credit-card-2026-11-27",
+      "published": "Fri, 27 Nov 2026 06:57:08 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "The 2028 Presidential Election Is All About Trump",
+      "summary": "Myra Adams, The Hill <br />",
+      "link": "https://www.realclearpolitics.com/presidential/links/the-2028-presidential-election-is-all-about-trump-2026-11-27",
+      "published": "Fri, 27 Nov 2026 06:54:09 -0600",
+      "source": "RealClearPolitics"
+    },
+    {
+      "title": "Trump to visit site for new semiconductor factory in Arizona",
+      "summary": "Trump has sought to promote the semiconductor industry in the U.S.",
+      "link": "https://www.washingtonpost.com/politics/2026/11/27/trump-visit-site-new-semiconductor-factory-arizona/",
+      "published": "Fri, 27 Nov 2026 12:30:00 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Illegal immigrant allegedly confessed to killing elderly military veteran for $50K in home attack: docs",
+      "summary": "Axel Chavez allegedly confessed to murdering Utah veteran James Witten, saying in court documents he was paid $50,000 to carry out the killing.",
+      "link": "https://www.foxnews.com/us/illegal-immigrant-allegedly-confessed-killing-elderly-military-veteran-50k-home-attack-docs",
+      "published": "Fri, 27 Nov 2026 07:00:22 -0500",
+      "source": "Fox News"
+    },
+    {
+      "title": "Thanksgiving storm batters East Coast. And, Black Friday sales to hit record levels",
+      "summary": "A powerful storm knocked out power for nearly 1 million customers and flooded streets. And, experts predict inflation will not dampen American spending for the holidays",
+      "link": "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court",
+      "published": "Fri, 27 Nov 2026 06:59:02 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "Fox News ‘Antisemitism Exposed’ Newsletter: 'Hulk' actor Ruffalo no like Schumer",
+      "summary": "Fox News' \"Antisemitism Exposed\" newsletter brings you stories on the rising anti-Jewish prejudice across the U.S. and the world.",
+      "link": "https://www.foxnews.com/us/fox-news-antisemitism-exposed-newsletter-hulk-actor-ruffalo-no-like-schumer",
+      "published": "Fri, 27 Nov 2026 06:37:26 -0500",
+      "source": "Fox News"
+    },
+    {
+      "title": "How 193K acorns gathered this fall could help restore Helene-damaged forests",
+      "summary": "The massive collection will be used to produce seedlings that will be planted in areas devastated by the 2024 hurricane.",
+      "link": "https://www.washingtonpost.com/nation/2026/11/27/how-193k-acorns-gathered-this-fall-could-help-restore-helene-damaged-forests/",
+      "published": "Fri, 27 Nov 2026 11:00:00 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Democrats vow to restrain Trump’s foreign policy, but foresee limits",
+      "summary": "U.S. allies and partners want the incoming Congress to be more assertive, but some remain skeptical Trump can be reined in.",
+      "link": "https://www.washingtonpost.com/national-security/2026/11/27/democrats-vow-restrain-trumps-foreign-policy-foresee-limits/",
+      "published": "Fri, 27 Nov 2026 11:00:00 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Trump effectively ended asylum. Advocates look to the Supreme Court to restore it",
+      "summary": "Trump's sweeping immigration changes — an asylum ban, mass firings and new legal maneuvers — have all but ended asylum. The high court will soon consider whether some shifts deny people due process.",
+      "link": "https://www.npr.org/2026/11/27/nx-s1-6037854/trump-effectively-ended-asylum-supreme-court",
+      "published": "Fri, 27 Nov 2026 05:00:00 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "Denials soar for ‘extraordinary ability’ visa in program once used by Melania Trump",
+      "summary": "The decline has prompted concern from immigration advocates about the United States losing its competitive edge.",
+      "link": "https://www.washingtonpost.com/business/2026/11/27/trump-administration-has-escalated-denials-einstein-visa/",
+      "published": "Fri, 27 Nov 2026 10:00:00 +0000",
+      "source": "Washington Post"
+    },
+    {
+      "title": "Screen free tweens try their hand at Dungeons & Dragons",
+      "summary": "Some parents, fed up with screens, have found an analog oasis in the role-playing game invented in the 1970s.",
+      "link": "https://www.npr.org/2026/11/27/nx-s1-6042445/screen-free-tweens-try-their-hand-at-dungeons-dragons",
+      "published": "Fri, 27 Nov 2026 05:00:00 -0500",
+      "source": "NPR"
     },
     {
       "title": "Two Italians killed in Kuwait drone attack; Trump says Iran war ends ‘whenever I want it’",
@@ -113,46 +286,11 @@
       "source": "CNBC"
     },
     {
-      "title": "Zelensky Rips Trump Over Putin Embrace, Compares It to Befriending Hitler",
-      "summary": "Zelensky invoked Hitler in a BBC interview, calling Trump's Putin friendship \"strange\" as Russia-Ukraine peace talks stall.",
-      "link": "https://www.newsweek.com/zelensky-rips-trump-over-putin-embrace-compares-it-to-befriending-hitler-12772292",
-      "published": "Thu, 26 Nov 2026 21:42:37 -0500",
-      "source": "Newsweek"
-    },
-    {
       "title": "Trump to visit maker of semiconductor chips, including Nvidia's",
       "summary": "President Trump will visit the Phoenix TSMC facility, one of the largest manufacturers of advanced chips, including Nvidia's.",
       "link": "https://www.cbsnews.com/news/trump-visit-tsmc-semiconductor-facility-phoenix-nvidia/",
       "published": "Thu, 26 Nov 2026 21:34:45 -0500",
       "source": "CBS News"
-    },
-    {
-      "title": "Putin's grip on Crimea tested amid major blackout as Zelenskyy warns of looming Russian strike",
-      "summary": "A massive blackout crippled Crimea, testing Vladimir Putin's grip as outages hit Sevastopol and Simferopol and Zelenskyy warned of a new Russian strike.",
-      "link": "https://www.foxnews.com/world/putins-grip-crimea-tested-amid-major-blackout-zelenskyy-warns-imminent-russia-strike",
-      "published": "Thu, 26 Nov 2026 21:25:49 -0500",
-      "source": "Fox News"
-    },
-    {
-      "title": "FLASHBACK: Two presidents pulled off secret Thanksgiving surprises for US troops — see the moments",
-      "summary": "Two Presidents pulled off secret Thanksgiving trips to war zones, with Donald Trump serving turkey at Bagram Airfield and George W. Bush visiting Iraq.",
-      "link": "https://www.foxnews.com/politics/flashback-two-presidents-pulled-off-secret-thanksgiving-surprises-us-troops-see-moments",
-      "published": "Thu, 26 Nov 2026 21:00:39 -0500",
-      "source": "Fox News"
-    },
-    {
-      "title": "Trump: Iran war will be over 'sort of whenever I want it to be'",
-      "summary": "President Trump said the Iran war will be over “sort of whenever I want it to be” as the conflict stretches into its ninth month and pushback against it grows.  The president called soldiers at Mar-a-Lago on Thursday alongside first lady Melania Trump, saying they “joined millions of Americans this holiday to pray for your...",
-      "link": "https://thehill.com/homenews/administration/6245034-trump-says-iran-war-ends-whenever/",
-      "published": "Fri, 27 Nov 2026 01:41:40 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Democrats, Republicans find rare common ground when asked what they're thankful for",
-      "summary": "Democrats and Republicans on Capitol Hill may clash on policy, but this Thanksgiving, lawmakers say family is what they're most thankful for.",
-      "link": "https://www.foxnews.com/politics/democrats-republicans-find-rare-common-ground-when-asked-what-theyre-thankful",
-      "published": "Thu, 26 Nov 2026 20:00:34 -0500",
-      "source": "Fox News"
     },
     {
       "title": "Inside Visa's effort to protect your money from AI holiday shopping scams",
@@ -162,53 +300,11 @@
       "source": "CBS News"
     },
     {
-      "title": "Trump signals further openness to working with Democrats on healthcare",
-      "summary": "President Trump signaled an increased openness to working with Democrats on healthcare after the party’s sweeping victories in the midterms, taking control of the House and Senate. “I have a feeling we’re going to end up with a very bipartisan relationship with the Democrats,” Trump told reporters Thursday while at Mar-a-Lago. “I hope so, where...",
-      "link": "https://thehill.com/homenews/administration/6245011-trump-democrats-healthcare-bipartisanship/",
-      "published": "Fri, 27 Nov 2026 00:33:50 +0000",
-      "source": "The Hill"
-    },
-    {
-      "title": "Trump signs severe weather disaster declarations from Mar-a-Lago on Thanksgiving",
-      "summary": "President Trump celebrated Thanksgiving at his resort in Palm Beach, Florida. He signed disaster declarations for Florida in the wake of severe weather. Weijia Jiang has more.",
-      "link": "https://www.cbsnews.com/video/trump-signs-severe-weather-disaster-declarations-mar-a-lago-thanksgiving/",
-      "published": "Thu, 26 Nov 2026 19:32:27 -0500",
-      "source": "CBS News"
-    },
-    {
-      "title": "Trump Calls GDP ‘Fake.’ His White House Called It a Surge in October",
-      "summary": "Is Trump right that pre-election GDP was fake? BEA's records show the revision was routine, on schedule and no record.",
-      "link": "https://www.newsweek.com/trump-calls-gdp-fake-his-white-house-called-it-a-surge-in-october-12772108",
-      "published": "Thu, 26 Nov 2026 18:32:20 -0500",
-      "source": "Newsweek"
-    },
-    {
-      "title": "Nate Silver Sees 'Reasonable' Chances Donald Trump Gets Impeached, Removed",
-      "summary": "Nate Silver called 25 percent odds of Trump's impeachment and removal \"entirely reasonable\" amid the Jensen Huang backlash.",
-      "link": "https://www.newsweek.com/nate-silver-sees-reasonable-chances-donald-trump-gets-impeached-removed-12772016",
-      "published": "Thu, 26 Nov 2026 18:01:35 -0500",
-      "source": "Newsweek"
-    },
-    {
       "title": "Watch: Man and dog narrowly escape powerful king tide in Oregon",
       "summary": "Both the man and his dog escaped unharmed, the police department says.",
       "link": "https://www.bbc.co.uk/news/videos/cm4gnje836x2o?at_medium=RSS&at_campaign=rss",
       "published": "Thu, 26 Nov 2026 21:51:16 GMT",
       "source": "BBC News"
-    },
-    {
-      "title": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher",
-      "summary": "President Donald Trump on Thursday deemed the latest gross domestic product revision a mistake, claiming that it should be \"immediately investigated.\"",
-      "link": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html",
-      "published": "Thu, 26 Nov 2026 21:13:17 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Fifa staff asked to attend interviews as Infantino sell-off scheme investigated",
-      "summary": "<ul><li><p>Democrats to examine Fifa Forward Enterprise scandal</p></li><li><p>Infantino could be subpoenaed to give evidence</p></li></ul><p>A number of past and present Fifa employees have received letters requesting they attend interviews for a congressional investigation into the global governing body sparked by the Fifa Forward Enterprise scandal.</p><p>Letters were sent on Wednesday to a number of staff along with a handful of former employees who held senior positions. They have been asked by Democrats on the House judiciary committee to give evidence as efforts gather pace to examine Gianni Infantino’s failed FFE scheme along with links between Fifa and the Trump administration.</p> <a href=\"https://www.theguardian.com/football/2026/nov/26/fifa-gianni-infantino-sell-off-scheme-investigated\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/football/2026/nov/26/fifa-gianni-infantino-sell-off-scheme-investigated",
-      "published": "Thu, 26 Nov 2026 21:11:24 GMT",
-      "source": "The Guardian"
     },
     {
       "title": "ICE arrests man in Boston days after he won $1 million in lottery",
@@ -225,163 +321,14 @@
       "source": "BBC News"
     },
     {
-      "title": "Campbell Wright becomes first American to win World Cup biathlon event",
-      "summary": "<ul><li><p>Wright delivers ‘best performance’ in Kontiolahti, Finland</p></li><li><p>24-year-old was actually born in New Zealand</p></li></ul><p>Campbell Wright made history on Thursday by becoming the first American to win a World Cup biathlon event.</p><p>The 24-year-old was flawless at the shooting range in the World Cup opener in Kontiolahti<strong>, </strong>Finland and triumphed in the 20km individual race in 24 minutes and 29.8 seconds. Germany’s Justus Strelow finished 1:20 behind and Norway’s Vetle Sjaastad Christiansen was 1:23 adrift in third. Christiansen’s teammate, and last year’s World Cup overall champion, Sturla Holm Laegreid had to settle for fourth.</p> <a href=\"https://www.theguardian.com/sport/2026/nov/26/campbell-wright-becomes-first-american-to-win-world-cup-biathlon-event\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/sport/2026/nov/26/campbell-wright-becomes-first-american-to-win-world-cup-biathlon-event",
-      "published": "Thu, 26 Nov 2026 20:08:36 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Analysis: Why Trump's new tariffs are less of a threat",
-      "summary": "Other countries have rerouted trade in response to his first tariff salvo, now they are looking beyond Trump's tenure.",
-      "link": "https://www.bbc.co.uk/news/articles/c6r7g4e3yep1o?at_medium=RSS&at_campaign=rss",
-      "published": "Thu, 26 Nov 2026 19:55:58 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Trump alleges ‘fake’ economic figures released before US midterms but doesn’t provide evidence",
-      "summary": "<p>In a Thanksgiving post, the US president seeks investigation after blue wave of Democrats unseat Republicans</p><p><a href=\"https://www.theguardian.com/us-news/donaldtrump\">Donald Trump</a> has alleged without evidence that economic figures published by the US federal government before this month’s midterm elections were “fake” and demanded an investigation after voters roundly rejected his Republican party.</p><p>In a holiday message <a href=\"https://truthsocial.com/@realDonaldTrump/posts/117683512952489451\">on social media</a> tinged with bitterness, the US president wished a happy thanksgiving “to even those who issued fake Economic Numbers, just prior to the Election, and corrected them yesterday, three weeks late, showing that the GDP was actually 4.3%, versus 3.4%”.</p> <a href=\"https://www.theguardian.com/us-news/2026/nov/26/trump-fake-economic-figures-midterms\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/us-news/2026/nov/26/trump-fake-economic-figures-midterms",
-      "published": "Thu, 26 Nov 2026 19:41:37 GMT",
-      "source": "The Guardian"
-    },
-    {
-      "title": "Trump, NATO chief caution Russia as attacks on Ukraine’s energy infrastructure intensify",
-      "summary": "Trump and NATO chief Mark Rutte urged Russia to avoid actions that could expand the war and called for a rapid peaceful resolution.",
-      "link": "https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html",
-      "published": "Thu, 26 Nov 2026 16:12:47 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Trump Slams 'The Pardon Business'",
-      "summary": "Cannon, Lumetta & Walworth, RCP on SiriusXM <br /> Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
-      "link": "https://www.realclearpolitics.com/republican-party/links/trump-slams-the-pardon-business-2026-11-26",
-      "published": "Thu, 26 Nov 2026 08:48:37 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "How Do These People Expect To Win in 2028?",
-      "summary": "Mark Mitchell, Substack <br /> The 2028 Republican primary started the morning after the midterms, before the dust had even settled on one of the biggest electoral blowouts in modern politics.",
-      "link": "https://www.realclearpolitics.com/presidential/links/how-do-these-people-expect-to-win-in-2028-2026-11-26",
-      "published": "Thu, 26 Nov 2026 08:39:09 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "Why This Democrat Wants to Defeat Chuck Schumer",
-      "summary": "Siobhan Hughes, WSJ <br />",
-      "link": "https://www.realclearpolitics.com/democratic-party/links/why-this-democrat-wants-to-defeat-chuck-schumer-2026-11-26",
-      "published": "Thu, 26 Nov 2026 08:39:09 -0600",
-      "source": "RealClearPolitics"
-    },
-    {
-      "title": "North Korea's Kim vows to build more nuclear weapons after ignoring Trump's overture",
-      "summary": "Leader Kim Jong Un reportedly visited facilities that produce nuclear ingredients and called for building more nuclear weapons to cope with threats from the U.S. and South Korea.",
-      "link": "https://www.npr.org/2026/11/26/g-s1-155955/north-korea-kim-nuclear-weapons-trump",
-      "published": "Thu, 26 Nov 2026 08:31:28 -0500",
-      "source": "NPR"
-    },
-    {
-      "title": "Storms disrupt Thanksgiving travel. And, FCC violated ABC's free speech, judge says",
-      "summary": "The East Coast's weather is a major concern this holiday, as it could lead to coastal flooding. And, the judge says the FCC can't punish ABC for satire Trump doesn't like.",
-      "link": "https://www.npr.org/2026/11/26/g-s1-155950/up-first-newsletter-thanksgiving-weather-travel-trump-tariffs-iowa-detonation-fcc-free-speech",
-      "published": "Thu, 26 Nov 2026 07:24:29 -0500",
-      "source": "NPR"
-    },
-    {
-      "title": "Why the wave election may not end the frenzy to redraw political maps",
-      "summary": "Republicans tried to save their House majority by redrawing districts, but they’ll have a tougher time getting it back with a new round of redistricting.",
-      "link": "https://www.washingtonpost.com/politics/2026/11/26/where-national-redistricting-wars-are-probably-headed/",
-      "published": "Thu, 26 Nov 2026 10:00:00 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Tech billionaire takes his case against red tape to the Federal Reserve",
-      "summary": "Marc Andreessen, a Trump ally whose firm has invested heavily in health care, education and housing, says he will use his role on a new Fed task force to argue that regulation is blocking progress in those sectors.",
-      "link": "https://www.washingtonpost.com/business/2026/11/26/billionaire-marc-andreessen-takes-case-against-red-tape-federal-reserve/",
-      "published": "Thu, 26 Nov 2026 10:00:00 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Trump wants to work with Democrats on health care. But can they find a compromise?",
-      "summary": "Democrats are focused on boosting Affordable Care Act subsidies and reversing Republican cuts to Medicaid, which are in opposition to Trump’s policies.",
-      "link": "https://www.washingtonpost.com/business/2026/11/26/can-trump-democrats-find-common-ground-changes-health-care/",
-      "published": "Thu, 26 Nov 2026 10:00:00 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Court lets Puerto Rico governor fire firm that runs the island's troubled power grid",
-      "summary": "LUMA Energy took over the electric grid five years ago. The court's ruling nullifies its contract, and gives the government a year to find a new operator.",
-      "link": "https://www.npr.org/2026/11/26/nx-s1-6054139/court-rules-puerto-ricos-governor-can-fire-company-that-runs-troubled-power-grid",
-      "published": "Thu, 26 Nov 2026 04:44:20 -0500",
-      "source": "NPR"
-    },
-    {
-      "title": "FCC says SpaceX can deploy 1 million satellites for data centers in space. Scientists are skeptical",
-      "summary": "The Trump administration gave Elon Musk's SpaceX the green light to deploy 1 million satellites that it said would create data centers in space, a move that has raised skepticism among scientists.",
-      "link": "https://www.npr.org/2026/11/26/g-s1-155940/fcc-spacex-satellites-data-centers-in-space",
-      "published": "Thu, 26 Nov 2026 01:53:09 -0500",
-      "source": "NPR"
-    },
-    {
       "title": "Beware higher correlation but nab high U.S. credit yields, fund managers say",
       "summary": "The AI boom could trigger a recession, but data centers remain an attractive investment opportunity, a hedge fund manager said.",
       "link": "https://www.cnbc.com/2026/11/26/mispricing-risk-fund-managers-ai-volatility.html",
       "published": "Thu, 26 Nov 2026 05:36:01 GMT",
       "source": "CNBC"
-    },
-    {
-      "title": "Schumer, Van Hollen add to tallies of supporters for majority leader",
-      "summary": "Senate Democrats plan to decide who will guide them on a secret ballot next week.",
-      "link": "https://www.washingtonpost.com/politics/2026/11/25/maine-sen-elect-troy-jackson-endorses-chris-van-hollen-senate-leader/",
-      "published": "Wed, 25 Nov 2026 22:22:15 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "These are the Senate Democrats backing Schumer and Van Hollen for majority leader",
-      "summary": "The Post is tracking senators’ public comments on the fight for Senate majority leader in the next Congress.",
-      "link": "https://www.washingtonpost.com/politics/interactive/2026/11/18/these-are-senate-democrats-backing-schumer-van-hollen-majority-leader/",
-      "published": "Wed, 25 Nov 2026 21:59:57 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "In backing Nvidia’s Huang, Trump deals his China hawks a setback",
-      "summary": "The administration is facing growing bipartisan calls to be tougher on U.S. chip exports and China.",
-      "link": "https://www.washingtonpost.com/politics/2026/11/25/backing-jensen-huang-trump-delivers-setback-china-hawks/",
-      "published": "Wed, 25 Nov 2026 21:20:13 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Kilmar Abrego García arrives in Spain to start a new life",
-      "summary": "Abrego became a symbol of the Trump administration’s immigration policies after being illegally deported to his native El Salvador.",
-      "link": "https://www.washingtonpost.com/immigration/2026/11/25/kilmar-abrego-garcia-leaves-us-spain-ending-20-month-deportation-fight/",
-      "published": "Wed, 25 Nov 2026 21:00:08 +0000",
-      "source": "Washington Post"
-    },
-    {
-      "title": "Prediction markets push OpenAI IPO expectations later into 2027",
-      "summary": "Kalshi traders have cut the odds of OpenAI confirming an IPO before June 2027, as AI stocks and related markets have weakened.",
-      "link": "https://www.cnbc.com/2026/11/25/openai-ipo-odds-2027-prediction-markets.html",
-      "published": "Wed, 25 Nov 2026 17:08:03 GMT",
-      "source": "CNBC"
-    },
-    {
-      "title": "Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals",
-      "summary": "The extreme market gyrations and the drama surrounding Nvidia this past week have highlighted the dilemma facing Federal Reserve Chairman Kevin Warsh.",
-      "link": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html",
-      "published": "Wed, 25 Nov 2026 12:26:41 GMT",
-      "source": "CNBC"
     }
   ],
   "history": [
-    {
-      "date": "2026-11-12 14:26",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 70,
-      "incidents": 6,
-      "sp500": 7619.38,
-      "usd_czk": 21.909
-    },
     {
       "date": "2026-11-13 05:59",
       "threat_level": "HIGH",
@@ -642,6 +589,15 @@
       "incidents": 7,
       "sp500": 7182.78,
       "usd_czk": 22.281
+    },
+    {
+      "date": "2026-11-27 15:54",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 70,
+      "incidents": 8,
+      "sp500": 7265.3,
+      "usd_czk": 22.301
     }
   ],
   "locations": [
@@ -653,6 +609,13 @@
       "name_en": "Washington, D.C."
     },
     {
+      "key": "New York",
+      "lat": 40.7128,
+      "lon": -74.006,
+      "name_cs": "New York",
+      "name_en": "New York"
+    },
+    {
       "key": "Florida",
       "lat": 27.6648,
       "lon": -81.5158,
@@ -660,11 +623,18 @@
       "name_en": "Florida"
     },
     {
-      "key": "Capitol",
-      "lat": 38.8899,
-      "lon": -77.0091,
-      "name_cs": "Kapitol",
-      "name_en": "US Capitol"
+      "key": "Wall Street",
+      "lat": 40.7069,
+      "lon": -74.0113,
+      "name_cs": "Wall Street",
+      "name_en": "Wall Street"
+    },
+    {
+      "key": "Georgia",
+      "lat": 32.1656,
+      "lon": -82.9001,
+      "name_cs": "Georgie (USA)",
+      "name_en": "Georgia (US)"
     },
     {
       "key": "Arizona",
@@ -688,11 +658,11 @@
       "name_en": "Oregon"
     },
     {
-      "key": "Puerto Rico",
-      "lat": 18.2208,
-      "lon": -66.5901,
-      "name_cs": "Portoriko",
-      "name_en": "Puerto Rico"
+      "key": "Utah",
+      "lat": 39.321,
+      "lon": -111.0937,
+      "name_cs": "Utah",
+      "name_en": "Utah"
     },
     {
       "key": "Canada",
@@ -702,11 +672,11 @@
       "name_en": "Canada"
     },
     {
-      "key": "Ukrain",
-      "lat": 50.45,
-      "lon": 30.52,
-      "name_cs": "Ukrajina",
-      "name_en": "Ukrain",
+      "key": "Los Angeles",
+      "lat": 34.05,
+      "lon": -118.24,
+      "name_cs": "Los Angeles",
+      "name_en": "Los Angeles",
       "auto": true
     },
     {
@@ -726,14 +696,6 @@
       "auto": true
     },
     {
-      "key": "Turkey",
-      "lat": 39,
-      "lon": 35,
-      "name_cs": "Turecko",
-      "name_en": "Turkey",
-      "auto": true
-    },
-    {
       "key": "China",
       "lat": 35.9,
       "lon": 104.2,
@@ -742,27 +704,11 @@
       "auto": true
     },
     {
-      "key": "South Korea",
-      "lat": 36.5,
-      "lon": 127.9,
-      "name_cs": "Jižní Korea",
-      "name_en": "South Korea",
-      "auto": true
-    },
-    {
-      "key": "North Korea",
-      "lat": 40,
-      "lon": 127,
-      "name_cs": "Severní Korea",
-      "name_en": "North Korea",
-      "auto": true
-    },
-    {
-      "key": "Germany",
-      "lat": 52.52,
-      "lon": 13.4,
-      "name_cs": "Berlín",
-      "name_en": "Germany",
+      "key": "Afghanistan",
+      "lat": 33.9,
+      "lon": 67.7,
+      "name_cs": "Afghánistán",
+      "name_en": "Afghanistan",
       "auto": true
     },
     {
@@ -775,22 +721,22 @@
     }
   ],
   "location_counts": {
-    "Florida": 65,
+    "Florida": 66,
     "Texas": 103,
-    "Washington": 120,
-    "New York": 86,
+    "Washington": 121,
+    "New York": 87,
     "California": 82,
     "Capitol": 32,
     "Border": 35,
-    "Los Angeles": 6,
-    "Wall Street": 85,
+    "Los Angeles": 1,
+    "Wall Street": 86,
     "Illinois": 13,
     "Colorado": 26,
-    "Canada": 34,
+    "Canada": 35,
     "Brazílie": 1,
     "Ukrajina": 2,
-    "Rusko": 4,
-    "Írán": 2,
+    "Rusko": 2,
+    "Írán": 1,
     "Čína": 1,
     "Tchaj-wan": 1,
     "Japonsko": 1,
@@ -805,13 +751,13 @@
     "Indie": 1,
     "Berlín": 1,
     "Michigan": 9,
-    "Georgia": 24,
+    "Georgia": 25,
     "Maine": 28,
     "Mexico": 26,
     "Singapur": 1,
     "Chicago": 25,
     "Ohio": 47,
-    "Arizona": 23,
+    "Arizona": 24,
     "Minnesota": 25,
     "Virginia": 22,
     "Izrael": 1,
@@ -833,13 +779,13 @@
     "Nevada": 5,
     "Las Vegas": 1,
     "Řím": 1,
-    "Oregon": 19,
+    "Oregon": 20,
     "Oklahoma": 8,
     "Jihoafrická republika": 2,
     "Seattle": 6,
-    "Utah": 9,
+    "Utah": 10,
     "Turecko": 1,
-    "Massachusetts": 10,
+    "Massachusetts": 11,
     "Argentina": 1,
     "Praha": 1,
     "Sýrie": 1,
@@ -861,17 +807,9 @@
     "key": "Washington",
     "name_cs": "Washington, D.C.",
     "name_en": "Washington, D.C.",
-    "count": 120
+    "count": 121
   },
   "archive": [
-    {
-      "date": "2026-11-20 14:41",
-      "threat_level": "HIGH",
-      "security_status_cs": "Chyba při automatické analýze AI.",
-      "security_status_en": "Error during automated AI analysis.",
-      "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
-      "forecast_en": "Failed to generate forecast."
-    },
     {
       "date": "2026-11-21 06:00",
       "threat_level": "HIGH",
@@ -975,29 +913,37 @@
       "security_status_en": "The United States is experiencing a period of political calm over the holidays, with focus shifting toward economic data and tech regulation debates. International tensions persist regarding conflicts in the Middle East and Ukraine, while the Federal Reserve faces pressure in interpreting market signals.",
       "forecast_cs": "V nejbližších dnech lze očekávat poklidnější obchodování vlivem svátků, přičemž pozornost se vrátí k makroekonomickým ukazatelům a politickým debatám v Kongresu.",
       "forecast_en": "Quieter trading is expected in the coming days due to the holidays, with attention returning to macroeconomic indicators and political debates in Congress."
+    },
+    {
+      "date": "2026-11-27 15:54",
+      "threat_level": "HIGH",
+      "security_status_cs": "Chyba při automatické analýze AI.",
+      "security_status_en": "Error during automated AI analysis.",
+      "forecast_cs": "Nepodařilo se vygenerovat předpověď.",
+      "forecast_en": "Failed to generate forecast."
     }
   ],
-  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 4× MEDIUM, 3× HIGH.",
-  "weekly_summary_en": "Over the last 7 recorded analyses: 4× MEDIUM, 3× HIGH.",
+  "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 4× HIGH, 3× MEDIUM.",
+  "weekly_summary_en": "Over the last 7 recorded analyses: 4× HIGH, 3× MEDIUM.",
   "market_data": {
     "sp500": {
-      "value": 7182.78,
-      "date": "2026-11-25",
+      "value": 7265.3,
+      "date": "2026-11-27",
       "cached": false
     },
     "dow": {
-      "value": 50182.95,
-      "date": "2026-11-25",
+      "value": 50667.46,
+      "date": "2026-11-27",
       "cached": false
     },
     "yield10y": {
-      "value": 4.85,
-      "date": "2026-11-25",
+      "value": 4.92,
+      "date": "2026-11-27",
       "cached": false
     }
   },
   "usd_czk": {
-    "value": 22.281,
-    "date": "2026-11-26"
+    "value": 22.301,
+    "date": "2026-11-27"
   }
 }
