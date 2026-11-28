@@ -1,60 +1,193 @@
 {
-  "last_updated": "2026-11-27T15:55:40Z",
+  "last_updated": "2026-11-28T06:02:43Z",
   "assessment": {
     "threat_level": "HIGH",
     "sentiment_score": 72,
-    "security_status_cs": "Jižní čelí rostoucím bezpečnostním rizikům, zejména v Kolumbii po vlně pumových útoků a rukojemnické krizi v Cartageně. V Argentině a Brazílii mezitím probíhají významné politické a ekonomické manévry včetně sporných reforem a nových nominací na ministerstvech, zatímco mezinárodní trhy ovlivňují nová americká cla a výkyvy cen komodit.",
-    "security_status_en": "South America is facing mounting security risks, notably in Colombia following a wave of car bombings and a high-profile hostage crisis in Cartagena. Meanwhile, Argentina and Brazil are undergoing significant political and economic maneuvers, including controversial reforms and key ministerial appointments, while global markets react to new US tariffs and commodity price volatility.",
+    "security_status_cs": "Jižní čelí vážným bezpečnostním a politickým výzvám, v čele s eskalací násilí v Kolumbii, kde bezpečnostní složky řešily ozbrojená rukojmí a pumové útoky. Argentina zatím čelí propadu do technické recese navzdory schválení klíčových politických reforem prezidenta Mileie a zákazu online sázení. Region navíc zatěžují extrémní klimatické jevy a migrace drogových kartelů do legálních těžařských odvětví v Amazonii.",
+    "security_status_en": "South America is grappling with severe security and political challenges, led by escalating violence in Colombia where security forces responded to hostage crises and car bomb attacks. Argentina has slipped into a technical recession despite passing key political reforms under President Milei and banning online betting. Additionally, the region faces extreme weather events and organized crime infiltrating legal mining sectors in the Amazon.",
     "recommendations": [
       {
         "sector_cs": "Brazilský akciový trh (Bovespa, ETF EWZ)",
         "sector_en": "Brazilian Equities (Bovespa, EWZ ETF)",
         "action": "HOLD",
-        "reason_cs": "Výběr zkušeného bankéře Luize Carlose Trabuca na ministerstvo financí přináší stabilitu, ale environmentální tlaky a nelegální těžba v Amazonii vytvářejí rizika.",
-        "reason_en": "The appointment of veteran banker Luiz Carlos Trabuco to the Ministry of Finance brings institutional stability, but environmental pressures and illegal mining in the Amazon pose structural risks."
+        "reason_cs": "Trhy čelí nejistotě kvůli globálním obchodním třenicím a napětí s EU ohledně udržitelnosti a vývozu masa. Domácí ekonomiku navíc komplikují rostoucí environmentální tlaky a nelegální těžba v Amazonii.",
+        "reason_en": "Markets face uncertainty due to global trade friction and tension with the EU over meat exports and environmental standards. Domestic conditions are further complicated by illegal mining expansion in the Amazon."
       },
       {
         "sector_cs": "Argentina (Merval, YPF, MercadoLibre)",
         "sector_en": "Argentina (Merval, YPF, MercadoLibre)",
-        "action": "BUY",
-        "reason_cs": "Mileiho vláda zaznamenala klíčové legislativní úspěchy v Kongresu včetně pozastavení primárek, což posiluje reformní momentum navzdory přetrvávajícím ekonomickým nejistotám.",
-        "reason_en": "The Milei administration secured key legislative victories in Congress, including the suspension of primaries, bolstering reform momentum despite persistent economic uncertainties."
+        "action": "HOLD",
+        "reason_cs": "Schválení reforem a zrušení primárek ukazuje na politickou sílu Mileiovy vlády, ale ekonomika vstoupila do technické recese. Dopad nových opatření proti hazardu a geopolitické spory o ropné vrty si žádají opatrnost.",
+        "reason_en": "Passing reforms demonstrates Milei's political leverage, but the economy has entered a technical recession. The impact of new anti-gambling laws and geopolitical disputes over offshore oil projects warrant caution."
       },
       {
         "sector_cs": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
         "sector_en": "Mining: Copper & Lithium (Southern Copper, SQM, Freeport)",
         "action": "HOLD",
-        "reason_cs": "Ceny kovů a poptávka po technologiích zůstávají silné, ovšem globální cla USA na Čínu a partnery vytvářejí volatilní prostředí pro průmyslové dodavatelské řetězce.",
-        "reason_en": "Metal prices and tech-driven demand remain strong, though new US tariffs on China and global partners create a volatile environment for industrial supply chains."
+        "reason_cs": "Globální poptávka po technologických kovech zůstává vysoká, ale regionální aktivity v Chile a Peru narušují infrastrukturní problémy a geologická rizika v podobě silných zemětřesení.",
+        "reason_en": "Global demand for technological metals remains strong, but regional operations in Chile and Peru face disruptions from infrastructure challenges and geological risks like significant earthquakes."
       },
       {
         "sector_cs": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
         "sector_en": "Oil & Energy (Petrobras, Ecopetrol, Chevron)",
-        "action": "HOLD",
-        "reason_cs": "Kolumbijský ropný sektor čelí bezpečnostním výzvám v důsledku eskalace útoků, zatímco právní spory kolem ropných projektů u Falklandských ostrovů zvyšují geopolitické napětí.",
-        "reason_en": "Colombia's energy sector faces severe security headwinds from a wave of attacks, while legal disputes over Falkland Islands offshore oil projects elevate geopolitical friction."
+        "action": "SELL",
+        "reason_cs": "Kolumbijský ropný a energetický sektor čelí přímému ohrožení vlivem zhoršující se bezpečnostní situace a útoků na infrastrukturu. Mezinárodní spory o průzkum v Atlantiku rovněž zvyšují regulační rizika.",
+        "reason_en": "Colombia's oil and energy sector faces direct threats from deteriorating security conditions and infrastructure attacks. International disputes over Atlantic exploration also elevate regulatory risks."
       },
       {
         "sector_cs": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
         "sector_en": "Agriculture & Food (JBS, Bunge, Cosan)",
-        "action": "BUY",
-        "reason_cs": "Ceny kávy dosáhly rekordních hodnot v důsledku obav z cel a obchodního napětí, což podporuje marže klíčových jihoamerických producentů.",
-        "reason_en": "Arabica coffee prices hit record highs amid tariff threats and trade tensions, providing strong margin support for key South American agricultural producers."
+        "action": "HOLD",
+        "reason_cs": "Ceny kávy dosáhly rekordních maxim kvůli napětí kolem amerických cel, zatímco brazilský masný průmysl čelí ochranářským bariérám v Evropě. Klimatické anomálie navíc ohrožují úrodu v západním pobřeží.",
+        "reason_en": "Coffee prices hit record highs amid tariff tensions, while Brazil's meat industry faces protectionist barriers in Europe. Climate anomalies are also threatening crop yields along the Pacific coast."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly na BCPP ignorují jihoamerické dění a nadále reagují především na evropskou monetární politiku a tuzemské makroekonomické ukazatele.",
-        "reason_en": "Local stocks on the PSE remain largely insulated from South American developments, reacting instead to European monetary policy and domestic macroeconomic indicators."
+        "reason_cs": "Domácí tituly na pražské burze jsou vůči vývoji v Jižní Americe primárně imunní a reagují spíše na globální měnovou politiku Fedu a ECB. Přímá korporátní expozice do regionu je zanedbatelná.",
+        "reason_en": "Domestic Prague Stock Exchange titles remain largely immune to South American developments, reacting instead to global monetary policies by the Fed and ECB. Direct corporate exposure to the region is negligible."
       }
     ],
-    "forecast_cs": "V nejbližších dnech se trhy zaměří na implementaci nových amerických cel, reakce na venezuelskou politickou situaci a bezpečnostní vývoj v Kolumbii.",
-    "forecast_en": "Over the coming days, markets will focus on the implementation of new US tariffs, reactions to Venezuela's political developments, and security conditions in Colombia.",
-    "forecast_review_cs": "Předchozí předpověď se potvrdila, neboť trhy reagovaly na venezuelskou opozici a nové americké cla, zatímco Kolumbie čelila eskalaci bezpečnostních incidentů.",
-    "forecast_review_en": "The previous forecast was confirmed as markets reacted to Venezuelan opposition dynamics and US tariffs, while Colombia dealt with escalating security incidents."
+    "forecast_cs": "V následujících dnech se pozornost soustředí na reakce trhů na americké celní hrozby, vývoj kolumbijské bezpečnostní krize a právní spory ohledně těžby ropy v Atlantiku.",
+    "forecast_en": "Over the coming days, market attention will focus on reactions to US tariff threats, the unfolding security crisis in Colombia, and legal disputes over Atlantic oil drilling.",
+    "forecast_review_cs": "Předchozí předpověď se částečně potvrdila, neboť nové americké celní politiky a bezpečnostní vývoj v Kolumbii nadále určují hlavní směr regionálních trhů.",
+    "forecast_review_en": "The previous forecast was partially confirmed, as new US tariff policies and security developments in Colombia continue to drive the direction of regional markets."
   },
   "articles": [
+    {
+      "title": "Colombia's president backs Abascal: \"Spain deserves a president like you\"",
+      "summary": "<p>\n\t   \t      <img alt=\"Abascal and De la Espriella\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112255/100x80/abascal-espriella.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Colombian President Abelardo de la Espriella has backed Vox leader Santiago Abascal ahead of Sunday's general election in Spain, in a video Abascal himself shared on X on Friday, the last day of campaigning. \"Dear friend, Spain deserves a president like you,\" the Colombian president said.</p>",
+      "link": "https://en.mercopress.com/2026/11/28/colombia-s-president-backs-abascal-spain-deserves-a-president-like-you?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Sat, 28 Nov 2026 05:36:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "Spain wraps up its campaign: Sánchez appeals for a \"progressive majority\", Feijóo for \"change\"",
+      "summary": "<p>\n\t   \t      <img alt=\"Spain's general election\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112254/100x80/espan-aelecciones.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         The main candidates in Spain's snap general election on Sunday closed their campaigns on Friday with packed rallies, at which Socialist Prime Minister Pedro Sánchez appealed for a \"progressive majority\" and People's Party leader Alberto Núñez Feijóo even asked left-wing voters to back \"change\". The latest published polls gave the PP and Vox a combined majority.</p>",
+      "link": "https://en.mercopress.com/2026/11/28/spain-wraps-up-its-campaign-sanchez-appeals-for-a-progressive-majority-feijoo-for-change?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Sat, 28 Nov 2026 05:33:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "How Ecuador’s News Media Works, and Who Owns It",
+      "summary": "<p>Ecuador's press fell to 125th of 180 countries in the 2026 world index. A plain guide to its newsrooms, ownership fights and Sunday's local vote count.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/ecuador-media-landscape-explained-2026/\">How Ecuador’s News Media Works, and Who Owns It</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/ecuador-media-landscape-explained-2026/",
+      "published": "Sat, 28 Nov 2026 05:04:46 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "El Nino-linked deluges flood cities in Peru, Ecuador",
+      "summary": "Heavy rains affect 2,000 families in Peru's Piura and 47,000 people in Ecuador, where 34 deaths have been reported.",
+      "link": "https://www.aljazeera.com/news/2026/11/28/el-nino-linked-deluges-flood-cities-in-peru-ecuador?traffic_source=rss",
+      "published": "Sat, 28 Nov 2026 04:57:32 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Chile Agrees 4.6% Pay Rise for State Workers",
+      "summary": "<p>Chile's government and public-sector unions signed a 4.6% pay deal on 27 November, matching inflation, but three federations stayed out.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/chile-public-sector-pay-deal-4-6-percent/\">Chile Agrees 4.6% Pay Rise for State Workers</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/chile-public-sector-pay-deal-4-6-percent/",
+      "published": "Sat, 28 Nov 2026 04:53:19 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Deep Magnitude 5 Quake Hits Northern Chile",
+      "summary": "<p>A magnitude 5.0 quake, about 208 km deep, shook northern Chile on 27 November; the US Geological Survey measured it at 5.2.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/chile-deep-magnitude-5-quake-antofagasta/\">Deep Magnitude 5 Quake Hits Northern Chile</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/chile-deep-magnitude-5-quake-antofagasta/",
+      "published": "Sat, 28 Nov 2026 04:53:11 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Eight killed in Peruvian military helicopter crash",
+      "summary": "The pilot was the sole survivor of the crash during a rescue mission in a remote area known for drug trafficking.",
+      "link": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
+      "published": "Sat, 28 Nov 2026 04:19:16 GMT",
+      "source": "BBC News"
+    },
+    {
+      "title": "When ups are downs",
+      "summary": "<p><img alt=\"Caputo and Milei go for growth.\" src=\"https://fotos.perfil.com/2026/11/26/trim/540/304/caputo-and-milei-go-for-growth-2369333.jpg\" /></p>It is becoming a toss-up whether the economy will grow at all despite the twin surpluses. <a href=\"https://www.batimes.com.ar/news/op-ed/when-ups-are-downs.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/op-ed/when-ups-are-downs.phtml",
+      "published": "Sat, 28 Nov 2026 03:35:00 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Bulgarians demand action by French after Marseille match violence",
+      "summary": "Bulgarians protested at the French embassy after violence at a Europa League match hospitalised six Levski Sofia fans.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/28/bulgarians-demand-action-by-french-after-marseille-match-violence?traffic_source=rss",
+      "published": "Sat, 28 Nov 2026 02:30:27 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Taiwan votes in local elections to choose mayors, other leaders",
+      "summary": "Key mayoral race in Taipei, a stronghold of the opposition Kuomintang, tests the governing Democratic Progressive Party.",
+      "link": "https://www.aljazeera.com/news/2026/11/28/taiwan-votes-in-local-elections-to-choose-mayors-other-leaders?traffic_source=rss",
+      "published": "Sat, 28 Nov 2026 02:05:27 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Thousands of Puerto Ricans join ‘Day of National Outrage’ protest",
+      "summary": "Anger and frustration erupt over record-high electricity rates, surging cost of living and deteriorating basic services.",
+      "link": "https://www.aljazeera.com/news/2026/11/28/thousands-of-puerto-ricans-join-day-of-national-outrage-protest?traffic_source=rss",
+      "published": "Sat, 28 Nov 2026 01:00:00 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "UN-backed court to rule on Argentina's bid to halt Malvinas oil project",
+      "summary": "<p><img alt=\"International Tribunal for the Law of the Sea headquarters.\" src=\"https://fotos.perfil.com/2026/11/27/trim/540/304/international-tribunal-for-the-law-of-the-sea-headquarters-2369831.jpg\" /></p>UN-backed international court set to rule bid to block a British-Israeli oil project off the coast of the disputed islands.\n <a href=\"https://www.batimes.com.ar/news/world/un-backed-court-to-rule-on-argentinas-bid-to-halt-malvinas-oil-project.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/world/un-backed-court-to-rule-on-argentinas-bid-to-halt-malvinas-oil-project.phtml",
+      "published": "Fri, 27 Nov 2026 20:34:23 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Coming next year: Medicare Advantage plans without drug coverage for almost 640,000 people and fewer choices for the rest",
+      "summary": "Medicare Advantage is starting to lose its all-in-one benefit.",
+      "link": "https://www.marketwatch.com/story/coming-next-year-medicare-advantage-plans-without-drug-coverage-for-almost-640-000-people-and-fewer-choices-for-the-rest-25242d69?mod=mw_rss_topstories",
+      "published": "Fri, 27 Nov 2026 19:55:00 GMT",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Stories that caught our eye: November 19 to 26",
+      "summary": "<p><img alt=\"President Javier Milei hosted Polish President Karol Nawrocki \" src=\"https://fotos.perfil.com/2026/11/27/trim/540/304/president-javier-milei-hosted-polish-president-karol-nawrocki-2369784.jpg\" /></p>A selection of the stories that caught our eye over the last seven days in Argentina. <a href=\"https://www.batimes.com.ar/news/argentina/stories-that-caught-our-eye-november-19-to-26-2026.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/argentina/stories-that-caught-our-eye-november-19-to-26-2026.phtml",
+      "published": "Fri, 27 Nov 2026 18:56:43 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Sinaloa Cartel",
+      "summary": "<p><a href=\"https://insightcrime.org/mexico-organized-crime-news/sinaloa-cartel-profile/\">Sinaloa Cartel</a></p>\n<figure><img alt=\"Criminal group Sinaloa Cartel, Mexico.\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"768\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2026/07/Grupo-Criminal-Cartel-de-Sinaloa-Mexico.jpg?fit=1024%2C768&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>The Sinaloa Cartel: its history, its leaders, where it operates in Mexico, and the latest news about the Chapitos and Mayiza factions. All in this profile.</p>\n<p>The post <a href=\"https://insightcrime.org/mexico-organized-crime-news/sinaloa-cartel-profile/\">Sinaloa Cartel</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
+      "link": "https://insightcrime.org/mexico-organized-crime-news/sinaloa-cartel-profile/",
+      "published": "Fri, 27 Nov 2026 18:17:39 +0000",
+      "source": "InSight Crime"
+    },
+    {
+      "title": "Milei wins Senate approval to suspend primaries, with debates mandatory only in a run-off",
+      "summary": "<p>\n\t   \t      <img alt=\"The government justifies suspending the primaries on cost grounds\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112251/100x80/elecciones-argentinas.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Argentina's Senate on Thursday approved, by 43 votes to 29, the political reform promoted by Javier Milei's government that suspends the open, simultaneous and mandatory primary elections (PASO) ahead of the 2027 presidential election. The bill, which also limits mandatory presidential debates to a run-off, now goes to the Chamber of Deputies.</p>",
+      "link": "https://en.mercopress.com/2026/11/27/milei-wins-senate-approval-to-suspend-primaries-with-debates-mandatory-only-in-a-run-off?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Fri, 27 Nov 2026 17:21:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "Argentina bans online betting advertising, including in football and on social media",
+      "summary": "<p>\n\t   \t      <img alt=\"Argentina's Senate during the debate on the betting law\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112248/100x80/ludopatia-senado-ley-1.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Argentina's Senate unanimously passed, by 72 votes, a law to prevent gambling addiction and regulate online betting, banning gambling advertising in the media, on social media, in stadiums and on billboards, and requiring football clubs to review their sponsorship deals with betting firms. The law, approved on Thursday, had been pending in the upper house for more than two years.</p>",
+      "link": "https://en.mercopress.com/2026/11/27/argentina-bans-online-betting-advertising-including-in-football-and-on-social-media?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Fri, 27 Nov 2026 17:08:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "Argentina bans online betting by minors, gambling sponsorship on sports kits",
+      "summary": "<p><img alt=\"Superclásico, River, Boca, October 2026\" src=\"https://fotos.perfil.com/2026/11/05/trim/540/304/superclasico-river-boca-october-2026-2361785.jpg\" /></p>Argentina targets online gambling with ban on betting sponsorships; Senate unanimously passes legislation targeting addiction, bans advertising across sports and media. <a href=\"https://www.batimes.com.ar/news/argentina/argentina-bans-online-betting-by-minors-gambling-sponsorship-on-sports-kits.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/argentina/argentina-bans-online-betting-by-minors-gambling-sponsorship-on-sports-kits.phtml",
+      "published": "Fri, 27 Nov 2026 15:58:20 GMT",
+      "source": "Buenos Aires Times"
+    },
+    {
+      "title": "Brazil pushes back on Macron calling its meat 'doped'",
+      "summary": "France's president made the comment while speaking to French farming representatives, months after the EU banned Brazil beef and poultry products.",
+      "link": "https://www.bbc.co.uk/news/articles/c6rrg28npvzeo?at_medium=RSS&at_campaign=rss",
+      "published": "Fri, 27 Nov 2026 15:54:15 GMT",
+      "source": "BBC News"
+    },
     {
       "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
       "summary": "“My wife stopped working outside the home in 1970.”",
@@ -63,109 +196,11 @@
       "source": "MarketWatch"
     },
     {
-      "title": "Milei government scores legislative wins, despite economic uncertainty",
-      "summary": "<p><img alt=\"The Milei government's political 'round table.'\" src=\"https://fotos.perfil.com/2026/11/27/trim/540/304/the-milei-governments-political-round-table-2369692.jpg\" /></p>Congressional victories hand Milei’s government a boost as economic concerns persist and internal divisions emerge over key policy decisions.\n <a href=\"https://www.batimes.com.ar/news/argentina/government-scores-legislative-wins-despite-economic-uncertainty.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/argentina/government-scores-legislative-wins-despite-economic-uncertainty.phtml",
-      "published": "Fri, 27 Nov 2026 15:44:29 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
-      "title": "Manchester United trigger Bruno Fernandes contract extension to 2028",
-      "summary": "The captain had said that a long-term contract renewal was on hold, but Premier League club exercised one-year option.",
-      "link": "https://www.aljazeera.com/sports/2026/11/27/manchester-united-trigger-bruno-fernandes-contract-extension-to-2028?traffic_source=rss",
-      "published": "Fri, 27 Nov 2026 15:04:48 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Renters are now a national political constituency that can influence elections",
-      "summary": "Renters backed Democrats 61% to 31% in the midterms, a 30-point margin, according to YouGov.",
-      "link": "https://www.marketwatch.com/story/renters-are-now-a-national-political-constituency-that-can-influence-elections-8f028445?mod=mw_rss_topstories",
-      "published": "Fri, 27 Nov 2026 13:30:00 GMT",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Eisenkot navigates tricky waters as he tests power-sharing with Netanyahu",
-      "summary": "Some of his allies are calling for such an arrangement, but it would represent a betrayal of his pre-election promise.",
-      "link": "https://www.aljazeera.com/news/2026/11/27/eisenkot-navigates-tricky-waters-as-he-tests-power-sharing-with-netanyahu?traffic_source=rss",
-      "published": "Fri, 27 Nov 2026 13:28:55 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Trump embraced Xi, then slapped new tariffs on China: What’s his game plan?",
-      "summary": "US president's new tariff regime targets China hardest, just weeks before Trump and Xi meet again in Miami.",
-      "link": "https://www.aljazeera.com/features/2026/11/27/trump-embraced-xi-then-slapped-new-tariffs-on-china-whats-his-game-plan?traffic_source=rss",
-      "published": "Fri, 27 Nov 2026 12:48:44 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "What Spain’s election means for Morocco",
-      "summary": "The vote could reshape diplomatic relations, but shared strategic interests will continue to bind the two countries.",
-      "link": "https://www.aljazeera.com/opinions/2026/11/27/what-spains-election-means-for-morocco?traffic_source=rss",
-      "published": "Fri, 27 Nov 2026 11:33:17 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Bahamas Panel Asks Police to Probe Vouchers",
-      "summary": "<p>The opposition-led Public Accounts Committee urges police and the Auditor General to examine US$1.56 million in pre-election home repair vouchers.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/bahamas-watchdog-urges-police-probe-election-vouchers/\">Bahamas Panel Asks Police to Probe Vouchers</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/bahamas-watchdog-urges-police-probe-election-vouchers/",
-      "published": "Fri, 27 Nov 2026 11:06:43 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Venezuela Allows Up to US$12.5 Billion Loan",
-      "summary": "<p>Venezuela’s lawmakers back up to US$12.5 billion in credit to clear arrears with global lenders; the lender is unnamed and the law still needs a signature.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/venezuela-assembly-authorizes-12-5-billion-bridge-loan-debt-arrears/\">Venezuela Allows Up to US$12.5 Billion Loan</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/venezuela-assembly-authorizes-12-5-billion-bridge-loan-debt-arrears/",
-      "published": "Fri, 27 Nov 2026 10:39:45 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Mexican Judge in Colombia Fights US Handover",
-      "summary": "<p>A Mexican judge held in Bogotá contests extradition to Los Angeles, while Mexico’s president says her government knew of the US warrant.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/mexican-judge-colombia-extradition-fight-2026/\">Mexican Judge in Colombia Fights US Handover</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/mexican-judge-colombia-extradition-fight-2026/",
-      "published": "Fri, 27 Nov 2026 09:16:25 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Lula picks banker Luiz Carlos Trabuco to run the Finance Ministry in his fourth term",
-      "summary": "<p>\n\t   \t      <img alt=\"Trabuco, who comes from a humble background and has been a personal friend of Lula for years, has worked at Bradesco, the country's second-largest private bank, since the age of 17\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112243/100x80/lula.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Brazilian President Luiz Inácio Lula da Silva has chosen banker Luiz Carlos Trabuco, 75, chairman of Banco Bradesco's board, as finance minister for his fourth term, which begins on January 5. Trabuco accepted the post on Thursday night, according to the magazine Veja, although the appointment has not yet been officially announced.</p>",
-      "link": "https://en.mercopress.com/2026/11/27/lula-picks-banker-luiz-carlos-trabuco-to-run-the-finance-ministry-in-his-fourth-term?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Fri, 27 Nov 2026 04:30:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Milei becomes the first head of state to visit Alliana in Paraguay after Peña's fall",
-      "summary": "<p>\n\t   \t      <img alt=\"Milei and Alliana in Asunción\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112239/100x80/milei-en-paraguay-alliana.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Argentine President Javier Milei travelled to Asunción on Thursday to back Paraguayan President Pedro Alliana, becoming the first foreign head of state he has received since replacing Santiago Peña, who was removed from office and jailed over the collapse of Ueno Bank. The same day, Paraguayan prosecutors said they had detected funds from the bank in Argentina.</p>",
-      "link": "https://en.mercopress.com/2026/11/26/milei-becomes-the-first-head-of-state-to-visit-alliana-in-paraguay-after-pena-s-fall?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Thu, 26 Nov 2026 22:33:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Edmundo González announces his return to Venezuela after more than two years in exile in Spain",
-      "summary": "<p>\n\t   \t      <img alt=\"Venezuelan opposition leader Edmundo González\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112238/100x80/edmundo.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Venezuelan opposition leader Edmundo González, a candidate in the July 2024 presidential election, announced on Thursday that he will soon return to Venezuela, after more than two years in exile in Spain, to take part on December 5 in the pilgrimage of the Virgin of Coromoto, the country's patron saint, in the city of Guanare.</p>",
-      "link": "https://en.mercopress.com/2026/11/26/edmundo-gonzalez-announces-his-return-to-venezuela-after-more-than-two-years-in-exile-in-spain?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Thu, 26 Nov 2026 22:31:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Senate approves bill to suspend primaries in boost for Milei",
-      "summary": "<p><img alt=\"Argentina's National Congress building STOCK\" src=\"https://fotos.perfil.com/2026/06/16/trim/540/304/argentinas-national-congress-building-stock-2261516.jpg\" /></p>Ruling party's bill narrowly cleared a Senate committee last week and got through the floor with a 43-29 vote, with no abstentions. <a href=\"https://www.batimes.com.ar/news/economy/senate-approves-bill-to-suspend-primaries-in-boost-for-milei.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/economy/senate-approves-bill-to-suspend-primaries-in-boost-for-milei.phtml",
-      "published": "Thu, 26 Nov 2026 21:58:15 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
-      "title": "Opus Dei No. 2 summoned in Argentina human-trafficking court case",
-      "summary": "<p><img alt=\"Mariano Fazio, auxiliary vicar of Opus Dei.\" src=\"https://fotos.perfil.com/2026/11/26/trim/540/304/mariano-fazio-auxiliary-vicar-of-opus-dei-2369293.jpg\" /></p>Federal judge Daniel Rafecas summons Father Mariano Fazio, currently the auxiliary vicar-general of Opus Dei worldwide, and two other priests to testify as part of an investigation into alleged labour exploitation. <a href=\"https://www.batimes.com.ar/news/argentina/opus-dei-no-2-summoned-in-human-trafficking-case.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/argentina/opus-dei-no-2-summoned-in-human-trafficking-case.phtml",
-      "published": "Thu, 26 Nov 2026 21:45:53 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
-      "title": "UK ambassador’s garden party celebrates King, diversity and friendship",
-      "summary": "<p><img alt=\"Ambassador David Cairns addresses guests.\" src=\"https://fotos.perfil.com/2026/11/26/trim/540/304/ambassador-david-cairns-addresses-guests-2369464.jpg\" /></p>Hundreds gather for King’s Birthday celebration blending British traditions, cultural diversity, music and food; Ambassador David Cairns recognises “good” and “not so good” days, but looks ahead to further development of UK-Argentina relations.\n <a href=\"https://www.batimes.com.ar/news/world/uk-ambassadors-garden-party-celebrates-king-diversity-and-friendship.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/world/uk-ambassadors-garden-party-celebrates-king-diversity-and-friendship.phtml",
-      "published": "Thu, 26 Nov 2026 21:44:03 GMT",
-      "source": "Buenos Aires Times"
+      "title": "Milei’s economic policy dealt fresh blow as Argentina enters recession",
+      "summary": "<p>Buenos Aires, Argentina – This week, Argentina’s Official Statistics Institute (INDEC) reported that economic activity by 1.8% in the third quarter of the year, marking the second consecutive three-month decline and tipping the country into a technical recession. The nation is also grappling with plummeting investor confidence and a weakening currency against the dollar. The dismal […]</p>\n<p>The post <a href=\"https://latinamericareports.com/mileis-economic-policy-dealt-fresh-blow-as-argentina-enters-recession/15711/\">Milei’s economic policy dealt fresh blow as Argentina enters recession</a> appeared first on <a href=\"https://latinamericareports.com\">Latin America Reports</a>.</p>",
+      "link": "https://latinamericareports.com/mileis-economic-policy-dealt-fresh-blow-as-argentina-enters-recession/15711/",
+      "published": "Thu, 26 Nov 2026 23:18:36 +0000",
+      "source": "Latin America Reports"
     },
     {
       "title": "Ecuador Profile",
@@ -196,16 +231,9 @@
       "source": "France 24"
     },
     {
-      "title": "Falklands’ Legislative Chair Jack Ford met Minister Uma Kumaran",
-      "summary": "<p>\n\t   \t      <img alt=\"Minister Kumaran and MLA Ford at her FCDO Office \" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112234/100x80/uma-jack.gif\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         UK Minister for the Overseas Territories Uma Kumaran met with MLA Jack Ford, Chair of the Falkland Islands Legislative Assembly, in the framework of the Joint Ministerial Council.</p>",
-      "link": "https://en.mercopress.com/2026/11/26/falklands-legislative-chair-jack-ford-met-minister-uma-kumaran?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Thu, 26 Nov 2026 05:34:00 GMT",
-      "source": "MercoPress"
-    },
-    {
       "title": "Despite financial difficulties, Venezuelans buying up Shakira concert tickets",
-      "summary": "<p>Caracas, Venezuela — After nearly 15 years, Colombian pop superstar Shakira is set to return to Venezuela in January 2027. While the announcement was met with excitement from her fan base, many Venezuelans are making sacrifices in order to purchase tickets in a country still reeling from years of economic turmoil. Tickets went on sale […]</p>\n<p>The post <a href=\"https://www.latinamericareports.com/despite-financial-difficulties-venezuelans-buying-up-shakira-concert-tickets/15702/\">Despite financial difficulties, Venezuelans buying up Shakira concert tickets </a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
-      "link": "https://www.latinamericareports.com/despite-financial-difficulties-venezuelans-buying-up-shakira-concert-tickets/15702/",
+      "summary": "<p>Caracas, Venezuela — After nearly 15 years, Colombian pop superstar Shakira is set to return to Venezuela in January 2027. While the announcement was met with excitement from her fan base, many Venezuelans are making sacrifices in order to purchase tickets in a country still reeling from years of economic turmoil. Tickets went on sale […]</p>\n<p>The post <a href=\"https://latinamericareports.com/despite-financial-difficulties-venezuelans-buying-up-shakira-concert-tickets/15702/\">Despite financial difficulties, Venezuelans buying up Shakira concert tickets </a> appeared first on <a href=\"https://latinamericareports.com\">Latin America Reports</a>.</p>",
+      "link": "https://latinamericareports.com/despite-financial-difficulties-venezuelans-buying-up-shakira-concert-tickets/15702/",
       "published": "Thu, 26 Nov 2026 00:16:27 +0000",
       "source": "Latin America Reports"
     },
@@ -218,17 +246,10 @@
     },
     {
       "title": "What’s at stake as Law of the Sea Tribunal set to rule on Malvinas/Falklands Sea Lion project",
-      "summary": "<p>Buenos Aires, Argentina – The International Tribunal for the Law of the Sea (ITLOS) is expected to rule this Saturday, November 28, on Argentina’s request to halt Sea Lion, the first oil extraction project in the disputed Malvinas/Falkland Islands, until an arbitral tribunal decides on the merits of its dispute with the United Kingdom. The […]</p>\n<p>The post <a href=\"https://www.latinamericareports.com/whats-at-stake-as-law-of-the-sea-tribunal-set-to-rule-on-malvinas-falklands-sea-lion-project/15708/\">What’s at stake as Law of the Sea Tribunal set to rule on Malvinas/Falklands Sea Lion project</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
-      "link": "https://www.latinamericareports.com/whats-at-stake-as-law-of-the-sea-tribunal-set-to-rule-on-malvinas-falklands-sea-lion-project/15708/",
+      "summary": "<p>Buenos Aires, Argentina – The International Tribunal for the Law of the Sea (ITLOS) is expected to rule this Saturday, November 28, on Argentina’s request to halt Sea Lion, the first oil extraction project in the disputed Malvinas/Falkland Islands, until an arbitral tribunal decides on the merits of its dispute with the United Kingdom. The […]</p>\n<p>The post <a href=\"https://latinamericareports.com/whats-at-stake-as-law-of-the-sea-tribunal-set-to-rule-on-malvinas-falklands-sea-lion-project/15708/\">What’s at stake as Law of the Sea Tribunal set to rule on Malvinas/Falklands Sea Lion project</a> appeared first on <a href=\"https://latinamericareports.com\">Latin America Reports</a>.</p>",
+      "link": "https://latinamericareports.com/whats-at-stake-as-law-of-the-sea-tribunal-set-to-rule-on-malvinas-falklands-sea-lion-project/15708/",
       "published": "Wed, 25 Nov 2026 22:07:02 +0000",
       "source": "Latin America Reports"
-    },
-    {
-      "title": "Costa Rica Seeks Extradition of Caribbean Cartel Boss’s Wife From UK",
-      "summary": "<p><a href=\"https://insightcrime.org/news/costa-rica-extradition-wife-caribbean-cartel-shock/\">Costa Rica Seeks Extradition of Caribbean Cartel Boss’s Wife From UK</a></p>\n<figure><img alt=\"Caribbean Cartel, Costa Rica.\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2026/11/Costa-rica-Cartel-del-caribe-lideres.jpg?fit=1024%2C576&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>The latest extradition request is the latest lap in the pursuit of the leadership of Costa Rica's \"first cartel.” Some of its top bosses are already facing proceedings in Costa Rica, the United Kingdom, and the United States.</p>\n<p>The post <a href=\"https://insightcrime.org/news/costa-rica-extradition-wife-caribbean-cartel-shock/\">Costa Rica Seeks Extradition of Caribbean Cartel Boss’s Wife From UK</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
-      "link": "https://insightcrime.org/news/costa-rica-extradition-wife-caribbean-cartel-shock/",
-      "published": "Wed, 25 Nov 2026 20:20:31 +0000",
-      "source": "InSight Crime"
     },
     {
       "title": "All hostages rescued after Colombian security forces storm supermarket, police say",
@@ -250,13 +271,6 @@
       "link": "https://www.france24.com/en/americas/20261125-trump-announces-new-tariffs-eu-china-despite-us-midterms-defeat",
       "published": "Wed, 25 Nov 2026 14:38:47 GMT",
       "source": "France 24"
-    },
-    {
-      "title": "Car bombing in central Colombia one of several attacks in 24-hour span",
-      "summary": "<p>Twenty-three people were injured in the Colombian city of Villavicencio on Monday night after a car bomb exploded in front of the regional government headquarters of the central Meta department. It was one of several attacks in a 24-hour span as Colombia marked the 10th anniversary of peace accords with its largest rebel group.  The […]</p>\n<p>The post <a href=\"https://www.latinamericareports.com/car-bombing-in-central-colombia-one-of-several-attacks-in-24-hour-span/15690/\">Car bombing in central Colombia one of several attacks in 24-hour span</a> appeared first on <a href=\"https://www.latinamericareports.com\">Latin America Reports</a>.</p>",
-      "link": "https://www.latinamericareports.com/car-bombing-in-central-colombia-one-of-several-attacks-in-24-hour-span/15690/",
-      "published": "Wed, 25 Nov 2026 14:17:26 +0000",
-      "source": "Latin America Reports"
     },
     {
       "title": "How datacentres are driving an illegal mining rush in the Amazon ‘more devastating than gold’",
@@ -284,20 +298,6 @@
       "summary": "The explosion is the latest in a string of attacks on buildings housing the security forces and government offices.",
       "link": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do?at_medium=RSS&at_campaign=rss",
       "published": "Tue, 24 Nov 2026 11:45:52 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Watch: Moment troops raid home and capture Mexican drug lord",
-      "summary": "Newly-released bodycam footage shows the moment troops detained 'El Chapo Isidro', who had managed to evade capture for years.",
-      "link": "https://www.bbc.co.uk/news/videos/cm62p9y3y04qo?at_medium=RSS&at_campaign=rss",
-      "published": "Tue, 24 Nov 2026 09:09:41 GMT",
-      "source": "BBC News"
-    },
-    {
-      "title": "Mexican soldiers attacked in wake of drug lord's arrest",
-      "summary": "Eight suspects are arrested after firing on soldiers trying to re-establish order following the arrest of 'El Chapo Isidro'.",
-      "link": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o?at_medium=RSS&at_campaign=rss",
-      "published": "Mon, 23 Nov 2026 14:54:03 GMT",
       "source": "BBC News"
     },
     {
@@ -337,15 +337,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-11-11 06:02",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 72,
-      "incidents": 40,
-      "bovespa": 171336.98,
-      "brl_czk": 3.909
-    },
     {
       "date": "2026-11-11 13:20",
       "threat_level": "HIGH",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "bovespa": 177964.02,
       "brl_czk": 4.056
+    },
+    {
+      "date": "2026-11-28 06:02",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 72,
+      "incidents": 40,
+      "bovespa": 176573.34,
+      "brl_czk": 4.056
     }
   ],
   "locations": [
@@ -659,13 +659,6 @@
       "name_en": "Quito"
     },
     {
-      "key": "Asuncion",
-      "lat": -25.2637,
-      "lon": -57.5759,
-      "name_cs": "Asunción",
-      "name_en": "Asunción"
-    },
-    {
       "key": "Amazon",
       "lat": -3.4653,
       "lon": -62.2159,
@@ -699,22 +692,6 @@
       "lon": 116.4074,
       "name_cs": "Peking",
       "name_en": "Beijing"
-    },
-    {
-      "key": "Los Angeles",
-      "lat": 34.05,
-      "lon": -118.24,
-      "name_cs": "Los Angeles",
-      "name_en": "Los Angeles",
-      "auto": true
-    },
-    {
-      "key": "Florida",
-      "lat": 27.8,
-      "lon": -81.7,
-      "name_cs": "Florida",
-      "name_en": "Florida",
-      "auto": true
     },
     {
       "key": "Mexico",
@@ -754,6 +731,14 @@
       "lon": 37.62,
       "name_cs": "Rusko",
       "name_en": "Russia",
+      "auto": true
+    },
+    {
+      "key": "Israel",
+      "lat": 31.5,
+      "lon": 34.8,
+      "name_cs": "Izrael",
+      "name_en": "Israel",
       "auto": true
     },
     {
@@ -814,36 +799,36 @@
     }
   ],
   "location_counts": {
-    "Brasilia": 110,
+    "Brasilia": 111,
     "Sao Paulo": 32,
     "Rio de Janeiro": 26,
-    "Buenos Aires": 108,
-    "Santiago": 86,
-    "Lima": 74,
-    "Bogota": 110,
-    "Caracas": 97,
-    "Quito": 67,
+    "Buenos Aires": 109,
+    "Santiago": 87,
+    "Lima": 75,
+    "Bogota": 111,
+    "Caracas": 98,
+    "Quito": 68,
     "La Paz": 50,
     "Asuncion": 41,
-    "Washington": 110,
+    "Washington": 111,
     "New York": 1,
     "Texas": 1,
     "Colorado": 1,
     "Kanada": 1,
-    "Mexiko": 4,
-    "Venezuela": 3,
+    "Mexiko": 2,
+    "Venezuela": 1,
     "Brazílie": 2,
-    "Argentina": 5,
+    "Argentina": 8,
     "Ukrajina": 1,
     "Rusko": 1,
     "Pákistán": 1,
-    "Londýn": 4,
-    "Paříž": 1,
+    "Londýn": 2,
+    "Paříž": 3,
     "Madrid": 2,
-    "Peru": 1,
+    "Peru": 3,
     "Bolívie": 1,
     "Montevideo": 61,
-    "Falklands": 52,
+    "Falklands": 53,
     "Ohio": 1,
     "Michigan": 3,
     "Severní Karolína": 1,
@@ -851,11 +836,11 @@
     "Maine": 1,
     "Indie": 1,
     "Atacama": 10,
-    "Beijing": 41,
-    "Čína": 4,
-    "Amazon": 70,
+    "Beijing": 42,
+    "Čína": 3,
+    "Amazon": 71,
     "Medellin": 7,
-    "Tchaj-wan": 1,
+    "Tchaj-wan": 2,
     "Řím": 1,
     "Ithaca (Cornell)": 2,
     "Írán": 1,
@@ -872,7 +857,7 @@
     "Los Angeles": 1,
     "Paramaribo": 3,
     "Arizona": 1,
-    "Patagonia": 22,
+    "Patagonia": 23,
     "Somálsko": 1,
     "Atlanta": 1,
     "Georgetown": 12,
@@ -902,17 +887,9 @@
     "key": "Brasilia",
     "name_cs": "Brasília",
     "name_en": "Brasília",
-    "count": 110
+    "count": 111
   },
   "archive": [
-    {
-      "date": "2026-11-19 15:14",
-      "threat_level": "HIGH",
-      "security_status_cs": "Trhy a bezpečnost v regionu nadále reagují na politické a geopolitické otřesy, včetně překvapivého americko-venezuelského vojenského paktu a fiskálních obav v Brazílii, kde kurz reálu oslabil nad hranici 5,90. Současně eskalují bezpečnostní rizika spojená s organizovaným zločinem, což ukazuje i nedávná vražda novináře v Keni či zásahy v Karibiku.",
-      "security_status_en": "Markets and regional security continue to react to political and geopolitical shocks, including a surprise US-Venezuelan military pact and fiscal concerns in Brazil, where the real weakened past the 5.90 threshold. At the same time, security risks linked to organized crime are escalating, as highlighted by recent violence in Central America and heightened anti-gang operations.",
-      "forecast_cs": "V nejbližších dnech se očekává finální hlasování brazilské sněmovny o fiskálním balíčku a mezinárodní pozornost se upře na rozhodnutí tribunálu ohledně těžebních práv v oblasti Falkland.",
-      "forecast_en": "Over the coming days, markets anticipate the Brazilian lower house's vote on the fiscal package alongside intense focus on the tribunal's upcoming ruling regarding Falklands oil rights."
-    },
     {
       "date": "2026-11-20 06:01",
       "threat_level": "HIGH",
@@ -1016,13 +993,21 @@
       "security_status_en": "South America is facing mounting security risks, notably in Colombia following a wave of car bombings and a high-profile hostage crisis in Cartagena. Meanwhile, Argentina and Brazil are undergoing significant political and economic maneuvers, including controversial reforms and key ministerial appointments, while global markets react to new US tariffs and commodity price volatility.",
       "forecast_cs": "V nejbližších dnech se trhy zaměří na implementaci nových amerických cel, reakce na venezuelskou politickou situaci a bezpečnostní vývoj v Kolumbii.",
       "forecast_en": "Over the coming days, markets will focus on the implementation of new US tariffs, reactions to Venezuela's political developments, and security conditions in Colombia."
+    },
+    {
+      "date": "2026-11-28 06:02",
+      "threat_level": "HIGH",
+      "security_status_cs": "Jižní čelí vážným bezpečnostním a politickým výzvám, v čele s eskalací násilí v Kolumbii, kde bezpečnostní složky řešily ozbrojená rukojmí a pumové útoky. Argentina zatím čelí propadu do technické recese navzdory schválení klíčových politických reforem prezidenta Mileie a zákazu online sázení. Region navíc zatěžují extrémní klimatické jevy a migrace drogových kartelů do legálních těžařských odvětví v Amazonii.",
+      "security_status_en": "South America is grappling with severe security and political challenges, led by escalating violence in Colombia where security forces responded to hostage crises and car bomb attacks. Argentina has slipped into a technical recession despite passing key political reforms under President Milei and banning online betting. Additionally, the region faces extreme weather events and organized crime infiltrating legal mining sectors in the Amazon.",
+      "forecast_cs": "V následujících dnech se pozornost soustředí na reakce trhů na americké celní hrozby, vývoj kolumbijské bezpečnostní krize a právní spory ohledně těžby ropy v Atlantiku.",
+      "forecast_en": "Over the coming days, market attention will focus on reactions to US tariff threats, the unfolding security crisis in Colombia, and legal disputes over Atlantic oil drilling."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
   "weekly_summary_en": "Over the last 7 recorded analyses: 7× HIGH.",
   "market_data": {
     "bovespa": {
-      "value": 177964.02,
+      "value": 176573.34,
       "date": "2026-11-27",
       "cached": false
     },
@@ -1032,7 +1017,7 @@
       "cached": false
     },
     "usdbrl": {
-      "value": 5.5494,
+      "value": 5.5582,
       "date": "2026-11-27",
       "cached": false
     }
