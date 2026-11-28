@@ -1,67 +1,67 @@
 {
- "updated": "2026-11-27T04:12",
+ "updated": "2026-11-28T03:51",
  "band": {
   "7": 2.0,
   "30": 5.0
  },
- "signals_total": 390,
+ "signals_total": 396,
  "summary": {
   "7": {
    "ALL": {
-    "n": 333,
-    "ok": 146,
-    "avg": -1.8
+    "n": 337,
+    "ok": 148,
+    "avg": -1.74
    },
    "BUY": {
-    "n": 117,
-    "ok": 48,
-    "avg": -1.49
+    "n": 119,
+    "ok": 49,
+    "avg": -1.42
    },
    "SELL": {
     "n": 47,
     "ok": 33,
-    "avg": -2.99
+    "avg": -2.93
    },
    "HOLD": {
-    "n": 169,
-    "ok": 65,
-    "avg": -1.68
+    "n": 171,
+    "ok": 66,
+    "avg": -1.63
    }
   },
   "30": {
    "ALL": {
-    "n": 201,
-    "ok": 78,
-    "avg": -6.52
+    "n": 210,
+    "ok": 83,
+    "avg": -6.49
    },
    "BUY": {
-    "n": 72,
+    "n": 76,
     "ok": 22,
-    "avg": -5.96
+    "avg": -6.14
    },
    "SELL": {
     "n": 28,
-    "ok": 23,
-    "avg": -7.35
+    "ok": 25,
+    "avg": -7.49
    },
    "HOLD": {
-    "n": 101,
-    "ok": 33,
-    "avg": -6.69
+    "n": 106,
+    "ok": 36,
+    "avg": -6.47
    }
   }
  },
  "by_monitor": {
   "Rudé moře": {
    "7": {
-    "n": 43,
-    "ok": 24,
-    "avg": -0.38
+    "n": 45,
+    "ok": 25,
+    "avg": -0.35
    },
    "30": {
-    "n": 26,
-    "ok": 14,
-    "avg": 1.32
+    "n": 28,
+    "ok": 15,
+    "avg": 1.13
    }
   },
   "USA": {
@@ -71,9 +71,9 @@
     "avg": 0.02
    },
    "30": {
-    "n": 25,
+    "n": 26,
     "ok": 15,
-    "avg": -0.34
+    "avg": -0.75
    }
   },
   "Evropa": {
@@ -83,9 +83,9 @@
     "avg": -0.03
    },
    "30": {
-    "n": 23,
+    "n": 24,
     "ok": 12,
-    "avg": 1.24
+    "avg": 0.89
    }
   },
   "Blízký východ": {
@@ -95,9 +95,9 @@
     "avg": 0.51
    },
    "30": {
-    "n": 14,
+    "n": 16,
     "ok": 5,
-    "avg": 1.64
+    "avg": 0.55
    }
   },
   "Čína a Asie": {
@@ -109,7 +109,7 @@
    "30": {
     "n": 45,
     "ok": 19,
-    "avg": -8.77
+    "avg": -8.61
    }
   },
   "Japonsko": {
@@ -126,18 +126,104 @@
   },
   "Jižní Amerika": {
    "7": {
-    "n": 87,
-    "ok": 23,
-    "avg": -3.84
+    "n": 89,
+    "ok": 24,
+    "avg": -3.61
    },
    "30": {
-    "n": 48,
-    "ok": 4,
-    "avg": -17.62
+    "n": 51,
+    "ok": 8,
+    "avg": -17.06
    }
   }
  },
  "signals": [
+  {
+   "monitor": "Rudé moře",
+   "sector": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)",
+   "action": "BUY",
+   "date": "2026-11-27",
+   "tickers": [
+    "MAERSK-B.CO",
+    "HLAG.DE",
+    "ZIM"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Evropa",
+   "sector": "Energetika (TotalEnergies, Shell, RWE)",
+   "action": "BUY",
+   "date": "2026-11-27",
+   "tickers": [
+    "SHEL",
+    "TTE.PA"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Japonsko",
+   "sector": "Automobilový průmysl (Toyota, Honda)",
+   "action": "HOLD",
+   "date": "2026-11-27",
+   "tickers": [
+    "7203.T"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Japonsko",
+   "sector": "Technologie (Sony, SoftBank)",
+   "action": "SELL",
+   "date": "2026-11-27",
+   "tickers": [
+    "6758.T",
+    "9984.T"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Argentina (Merval, YPF, MercadoLibre)",
+   "action": "BUY",
+   "date": "2026-11-27",
+   "tickers": [
+    "^MERV",
+    "MELI",
+    "YPF"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
+  {
+   "monitor": "Jižní Amerika",
+   "sector": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
+   "action": "HOLD",
+   "date": "2026-11-27",
+   "tickers": [
+    "SCCO",
+    "SQM",
+    "FCX"
+   ],
+   "ret7": null,
+   "ok7": null,
+   "ret30": null,
+   "ok30": null
+  },
   {
    "monitor": "Rudé moře",
    "sector": "Námořní doprava (např. Maersk, Hapag-Lloyd, ZIM)",
@@ -890,8 +976,8 @@
     "BP",
     "CVX"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 1.72,
+   "ok7": true,
    "ret30": null,
    "ok30": null
   },
@@ -933,8 +1019,8 @@
     "MELI",
     "YPF"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 5.84,
+   "ok7": true,
    "ret30": null,
    "ok30": null
   },
@@ -948,8 +1034,8 @@
     "HLAG.DE",
     "ZIM"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": -1.05,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -962,7 +1048,7 @@
     "^BVSP",
     "EWZ"
    ],
-   "ret7": 6.27,
+   "ret7": 9.25,
    "ok7": false,
    "ret30": null,
    "ok30": null
@@ -977,8 +1063,8 @@
     "MELI",
     "YPF"
    ],
-   "ret7": null,
-   "ok7": null,
+   "ret7": 4.4,
+   "ok7": false,
    "ret30": null,
    "ok30": null
   },
@@ -1214,96 +1300,11 @@
    "ok7": false,
    "ret30": null,
    "ok30": null
-  },
-  {
-   "monitor": "USA",
-   "sector": "Obranný průmysl (RTX, Lockheed Martin, Northrop Grumman)",
-   "action": "HOLD",
-   "date": "2026-11-14",
-   "tickers": [
-    "LMT",
-    "RTX",
-    "NOC"
-   ],
-   "ret7": -1.01,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "USA",
-   "sector": "Technologický sektor (Apple, Microsoft, Nvidia)",
-   "action": "SELL",
-   "date": "2026-11-14",
-   "tickers": [
-    "NVDA",
-    "AAPL",
-    "MSFT"
-   ],
-   "ret7": -0.09,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Evropa",
-   "sector": "Energetika (TotalEnergies, Shell, RWE)",
-   "action": "HOLD",
-   "date": "2026-11-14",
-   "tickers": [
-    "SHEL",
-    "TTE.PA"
-   ],
-   "ret7": -5.18,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Japonsko",
-   "sector": "Široký japonský akciový trh (Nikkei 225 ETF)",
-   "action": "HOLD",
-   "date": "2026-11-14",
-   "tickers": [
-    "^N225"
-   ],
-   "ret7": -1.71,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Japonsko",
-   "sector": "Technologie (Sony, SoftBank)",
-   "action": "SELL",
-   "date": "2026-11-14",
-   "tickers": [
-    "6758.T",
-    "9984.T"
-   ],
-   "ret7": -3.64,
-   "ok7": true,
-   "ret30": null,
-   "ok30": null
-  },
-  {
-   "monitor": "Jižní Amerika",
-   "sector": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
-   "action": "BUY",
-   "date": "2026-11-14",
-   "tickers": [
-    "SCCO",
-    "SQM",
-    "FCX"
-   ],
-   "ret7": -7.17,
-   "ok7": false,
-   "ret30": null,
-   "ok30": null
   }
  ],
  "unknown": [
   "Blízký východ: Izraelské akcie (Tel Aviv 35)",
+  "Evropa: Evropské bankovní domy (BNP Paribas, Deutsche Bank, Santander)",
   "Evropa: Evropské banky (BNP Paribas, Deutsche Bank, Santander)",
   "Evropa: Široký evropský akciový trh (Euro Stoxx 50 ETF)",
   "Japonsko: Průmyslová robotika (Fanuc, Mitsubishi Electric)",
