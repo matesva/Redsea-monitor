@@ -1,60 +1,137 @@
 {
-  "last_updated": "2026-11-28T06:02:43Z",
+  "last_updated": "2026-11-28T14:51:14Z",
   "assessment": {
     "threat_level": "HIGH",
     "sentiment_score": 72,
-    "security_status_cs": "Jižní čelí vážným bezpečnostním a politickým výzvám, v čele s eskalací násilí v Kolumbii, kde bezpečnostní složky řešily ozbrojená rukojmí a pumové útoky. Argentina zatím čelí propadu do technické recese navzdory schválení klíčových politických reforem prezidenta Mileie a zákazu online sázení. Region navíc zatěžují extrémní klimatické jevy a migrace drogových kartelů do legálních těžařských odvětví v Amazonii.",
-    "security_status_en": "South America is grappling with severe security and political challenges, led by escalating violence in Colombia where security forces responded to hostage crises and car bomb attacks. Argentina has slipped into a technical recession despite passing key political reforms under President Milei and banning online betting. Additionally, the region faces extreme weather events and organized crime infiltrating legal mining sectors in the Amazon.",
+    "security_status_cs": "Jižní částečně čelí stupňujícím se bezpečnostním rizikům, v čele s vážnými krizemi v Kolumbii, kde proběhlo ozbrojené obléhání supermarketu a bombové útoky. Argentina zároveň utrpěla mezinárodní nezdar v právním sporu o ropný projekt Sea Lion u Falklandských ostrovů a vstoupila do technické recese. Region je nadále pod tlakem globálních celních hrozeb a napětí v dodavatelských řetězcích komodit.",
+    "security_status_en": "South America faces escalating security risks, led by severe crises in Colombia marked by an armed supermarket siege and car bombings. Meanwhile, Argentina suffered a legal setback at the international tribunal regarding the Sea Lion oil project near the Falklands and has entered a technical recession. The region remains under pressure from global tariff threats and commodity supply chain tensions.",
     "recommendations": [
       {
         "sector_cs": "Brazilský akciový trh (Bovespa, ETF EWZ)",
         "sector_en": "Brazilian Equities (Bovespa, EWZ ETF)",
         "action": "HOLD",
-        "reason_cs": "Trhy čelí nejistotě kvůli globálním obchodním třenicím a napětí s EU ohledně udržitelnosti a vývozu masa. Domácí ekonomiku navíc komplikují rostoucí environmentální tlaky a nelegální těžba v Amazonii.",
-        "reason_en": "Markets face uncertainty due to global trade friction and tension with the EU over meat exports and environmental standards. Domestic conditions are further complicated by illegal mining expansion in the Amazon."
+        "reason_cs": "Ačkoliv brazilské firmy jako Smart Fit úspěšně expandují do zahraničí, trh čelí celním neshodám ohledně masa a rostoucím obavám z nelegální těžby a environmentálních tlaků v Amazonii.",
+        "reason_en": "While Brazilian firms like Smart Fit are expanding successfully abroad, the market faces trade disputes over meat and rising concerns regarding illegal mining and environmental pressures in the Amazon."
       },
       {
         "sector_cs": "Argentina (Merval, YPF, MercadoLibre)",
         "sector_en": "Argentina (Merval, YPF, MercadoLibre)",
-        "action": "HOLD",
-        "reason_cs": "Schválení reforem a zrušení primárek ukazuje na politickou sílu Mileiovy vlády, ale ekonomika vstoupila do technické recese. Dopad nových opatření proti hazardu a geopolitické spory o ropné vrty si žádají opatrnost.",
-        "reason_en": "Passing reforms demonstrates Milei's political leverage, but the economy has entered a technical recession. The impact of new anti-gambling laws and geopolitical disputes over offshore oil projects warrant caution."
+        "action": "SELL",
+        "reason_cs": "Vstup Argentiny do technické recese spolu s prohrou u mezinárodního tribunálu ve věci falklandského projektu Sea Lion představují pro Mileiho reformní agendu vážné překážky.",
+        "reason_en": "Argentina entering a technical recession alongside the international tribunal defeat over the Falklands Sea Lion project presents severe hurdles for Milei's reform agenda."
       },
       {
         "sector_cs": "Těžba kovů: měď a lithium (Southern Copper, SQM, Freeport)",
         "sector_en": "Mining: Copper & Lithium (Southern Copper, SQM, Freeport)",
         "action": "HOLD",
-        "reason_cs": "Globální poptávka po technologických kovech zůstává vysoká, ale regionální aktivity v Chile a Peru narušují infrastrukturní problémy a geologická rizika v podobě silných zemětřesení.",
-        "reason_en": "Global demand for technological metals remains strong, but regional operations in Chile and Peru face disruptions from infrastructure challenges and geological risks like significant earthquakes."
+        "reason_cs": "Ceny kovů a těžařský sektor v Andském regionu (Peru, Chile) nadále ovlivňují globální makroekonomická data a poptávka po vstupech pro AI a datová centra, i přes lokální bezpečnostní incidenty.",
+        "reason_en": "Metal prices and the mining sector in the Andean region (Peru, Chile) continue to be influenced by global macro data and demand driven by AI and datacenters, despite local security incidents."
       },
       {
         "sector_cs": "Ropa a energetika (Petrobras, Ecopetrol, Chevron)",
         "sector_en": "Oil & Energy (Petrobras, Ecopetrol, Chevron)",
-        "action": "SELL",
-        "reason_cs": "Kolumbijský ropný a energetický sektor čelí přímému ohrožení vlivem zhoršující se bezpečnostní situace a útoků na infrastrukturu. Mezinárodní spory o průzkum v Atlantiku rovněž zvyšují regulační rizika.",
-        "reason_en": "Colombia's oil and energy sector faces direct threats from deteriorating security conditions and infrastructure attacks. International disputes over Atlantic exploration also elevate regulatory risks."
+        "action": "HOLD",
+        "reason_cs": "Energetický sektor v Kolumbii a regionu čelí bezpečnostním rizikům a útokům na infrastrukturu, zatímco mezinárodní ropné trhy absorbují verdikty ohledně atlantických vrtů.",
+        "reason_en": "The energy sector in Colombia and the region faces security risks and infrastructure attacks, while international oil markets absorb verdicts regarding Atlantic drilling."
       },
       {
         "sector_cs": "Zemědělství a potraviny (JBS, Bunge, Cosan)",
         "sector_en": "Agriculture & Food (JBS, Bunge, Cosan)",
         "action": "HOLD",
-        "reason_cs": "Ceny kávy dosáhly rekordních maxim kvůli napětí kolem amerických cel, zatímco brazilský masný průmysl čelí ochranářským bariérám v Evropě. Klimatické anomálie navíc ohrožují úrodu v západním pobřeží.",
-        "reason_en": "Coffee prices hit record highs amid tariff tensions, while Brazil's meat industry faces protectionist barriers in Europe. Climate anomalies are also threatening crop yields along the Pacific coast."
+        "reason_cs": "Ceny kávy dosahují rekordů kvůli kolísání obchodních vztahů a celním hrozbám, zatímco brazilský masný průmysl čelí evropským regulacím a politickým debatám.",
+        "reason_en": "Coffee prices are hitting records due to fluctuating trade relations and tariff threats, while the Brazilian meat industry faces European regulations and political debates."
       },
       {
         "sector_cs": "Pražská burza: ČEZ, Komerční banka, Erste Group",
         "sector_en": "Prague Stock Exchange: ČEZ, Komerční banka, Erste Group",
         "action": "HOLD",
-        "reason_cs": "Domácí tituly na pražské burze jsou vůči vývoji v Jižní Americe primárně imunní a reagují spíše na globální měnovou politiku Fedu a ECB. Přímá korporátní expozice do regionu je zanedbatelná.",
-        "reason_en": "Domestic Prague Stock Exchange titles remain largely immune to South American developments, reacting instead to global monetary policies by the Fed and ECB. Direct corporate exposure to the region is negligible."
+        "reason_cs": "Dění v Jižní Americe má na české bankovní a energetické tituly na pražské burze jen zanedbatelný, ryze nepřímý vliv skrze globální makroekonomický sentiment a ceny komodit.",
+        "reason_en": "South American developments have a negligible, purely indirect impact on Czech banking and energy stocks on the Prague Stock Exchange via global macro sentiment and commodity prices."
       }
     ],
-    "forecast_cs": "V následujících dnech se pozornost soustředí na reakce trhů na americké celní hrozby, vývoj kolumbijské bezpečnostní krize a právní spory ohledně těžby ropy v Atlantiku.",
-    "forecast_en": "Over the coming days, market attention will focus on reactions to US tariff threats, the unfolding security crisis in Colombia, and legal disputes over Atlantic oil drilling.",
-    "forecast_review_cs": "Předchozí předpověď se částečně potvrdila, neboť nové americké celní politiky a bezpečnostní vývoj v Kolumbii nadále určují hlavní směr regionálních trhů.",
-    "forecast_review_en": "The previous forecast was partially confirmed, as new US tariff policies and security developments in Colombia continue to drive the direction of regional markets."
+    "forecast_cs": "V příštích dnech se trhy zaměří na dopady argentinské recese na ekonomické reformy, vývoj bezpečnostní situace v Kolumbii a mezinárodní reakce na nové americké celní plány.",
+    "forecast_en": "Over the coming days, markets will focus on the impact of Argentina's recession on economic reforms, the security situation in Colombia, and international reactions to new US tariff plans.",
+    "forecast_review_cs": "Předchozí předpověď se potvrdila, neboť trhy reagovaly na americké celní hrozby, v Kolumbii eskalovala bezpečnostní krize a mezinárodní tribunál rozhodl v neprospěch Argentiny ve sporu o ropné vrty v Atlantiku.",
+    "forecast_review_en": "The previous forecast was confirmed as markets reacted to US tariff threats, the security crisis in Colombia escalated, and the international tribunal ruled against Argentina in the Atlantic oil drilling dispute."
   },
   "articles": [
+    {
+      "title": "Court rejects Argentina’s request to stop UK oil activity near Falklands",
+      "summary": "An international tribunal refuses Buenos Aires's application, giving the green light to the project off the disputed region.",
+      "link": "https://www.aljazeera.com/news/2026/11/28/court-rejects-argentinas-request-to-stop-uk-oil-activity-near-falklands?traffic_source=rss",
+      "published": "Sat, 28 Nov 2026 13:24:24 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Argentina fails to block oil drilling off Falkland Islands",
+      "summary": "<p>UK government calls on Buenos Aires to end ‘economic pressure’ on islands after international tribunal’s ruling</p><p>The UK has called on Argentina to stop its economic warfare on the Falkland islands after Buenos Aires failed in a legal attempt to terminate an offshore oil project vital to the future of the British overseas territory.</p><p>An application by the South American country for suspension of the Sea Lion project was rejected on Saturday by the international tribunal for the law of the seas (Itlos) on the grounds that the issue lay outside its jurisdiction.</p> <a href=\"https://www.theguardian.com/uk-news/2026/nov/28/argentina-oil-drilling-falkland-islands-international-tribunal\">Continue reading...</a>",
+      "link": "https://www.theguardian.com/uk-news/2026/nov/28/argentina-oil-drilling-falkland-islands-international-tribunal",
+      "published": "Sat, 28 Nov 2026 13:22:10 GMT",
+      "source": "The Guardian"
+    },
+    {
+      "title": "Falklands Legislative Assembly welcomes tribunal decision: “A good day for the Falkland Islands”",
+      "summary": "<p>\n\t   \t      <img alt=\"“Argentina asked the Tribunal to stop the Sea Lion project, and it has failed,” Members of the Legislative Assembly said in a statement\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112261/100x80/4.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         The Falkland Islands Legislative Assembly on Saturday welcomed the International Tribunal for the Law of the Sea's decision to reject the provisional measures Argentina had sought to halt the Sea Lion oil project, and called on Buenos Aires to respect the “democratic wishes” of the islanders.</p>",
+      "link": "https://en.mercopress.com/2026/11/28/falklands-legislative-assembly-welcomes-tribunal-decision-a-good-day-for-the-falkland-islands?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Sat, 28 Nov 2026 13:22:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "Law of the sea tribunal rejects Argentina's bid to halt Sea Lion, citing lack of jurisdiction over sovereignty",
+      "summary": "<p>\n\t   \t      <img alt=\"The tribunal recorded UK assurances: no drilling before March 21, 2027, no extraction before March 2028 and no new licences, as the licensing regime is suspended.\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112259/100x80/itlos.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         The International Tribunal for the Law of the Sea on Saturday rejected, by 18 votes to 3, Argentina's request for provisional measures to halt the Sea Lion oil project north of the Falklands, concluding that it lacked prima facie jurisdiction because Argentina's claims would require determining which state holds sovereignty over the islands, a question outside the United Nations Convention on the Law of the Sea.</p>",
+      "link": "https://en.mercopress.com/2026/11/28/law-of-the-sea-tribunal-rejects-argentina-s-bid-to-halt-sea-lion-citing-lack-of-jurisdiction-over-sovereignty?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "published": "Sat, 28 Nov 2026 13:20:00 GMT",
+      "source": "MercoPress"
+    },
+    {
+      "title": "Gym Chain Smart Fit Now Earns Mostly Abroad",
+      "summary": "<p>Smart Fit, Brazil’s gym chain, now earns 64% of own-gym revenue outside Brazil and is stepping into spas and health services, its founder says.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/smart-fit-17-countries-spa-health-expansion-2026/\">Gym Chain Smart Fit Now Earns Mostly Abroad</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/smart-fit-17-countries-spa-health-expansion-2026/",
+      "published": "Sat, 28 Nov 2026 13:14:21 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Peru’s Alicorp Launches Christmas Cake Snack",
+      "summary": "<p>Peru’s Alicorp is launching Blanca Flor Picoteo, a US$2.28 snack of chocolate-coated panetón cubes, to widen a Christmas-only category.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/alicorp-panettone-blanca-flor-picoteo-2026/\">Peru’s Alicorp Launches Christmas Cake Snack</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
+      "link": "https://www.riotimesonline.com/alicorp-panettone-blanca-flor-picoteo-2026/",
+      "published": "Sat, 28 Nov 2026 13:14:13 +0000",
+      "source": "The Rio Times"
+    },
+    {
+      "title": "Taiwan opposition party wins re-election in Taipei mayoral race",
+      "summary": "Voters across Taiwan have cast ballots for mayors, council members and other local leaders.",
+      "link": "https://www.aljazeera.com/news/2026/11/28/taiwan-opposition-party-wins-re-election-in-taipei-mayoral-race?traffic_source=rss",
+      "published": "Sat, 28 Nov 2026 12:36:19 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Tarantulas, scorpions and more found in luggage at Peru airport",
+      "summary": "Tarantulas, scorpions and more found in luggage at Peru airport",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/28/tarantulas-scorpions-and-more-found-in-luggage-at-peru-airport?traffic_source=rss",
+      "published": "Sat, 28 Nov 2026 12:21:52 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Manchester United vs Brentford LIVE: Premier League",
+      "summary": "Follow updates with build-up and team news coverage from our live text commentary stream as Bruno Fernandes headlines.",
+      "link": "https://www.aljazeera.com/sports/liveblog/2026/11/28/manchester-united-vs-brentford-live-premier-league?traffic_source=rss",
+      "published": "Sat, 28 Nov 2026 12:06:46 +0000",
+      "source": "Al Jazeera"
+    },
+    {
+      "title": "Explosion at a school in eastern Afghanistan kills 7, wounds more than 90",
+      "summary": "Local officials said the blast appeared to have originated in a neighboring depot for mining explosives.",
+      "link": "https://www.npr.org/2026/11/28/nx-s1-6056284/explosion-school-eastern-afghanistan",
+      "published": "Sat, 28 Nov 2026 06:32:37 -0500",
+      "source": "NPR"
+    },
+    {
+      "title": "International Tribunal for the Law of the Sea rejects Argentina's bid to halt Malvinas oil project",
+      "summary": "<p><img alt=\"International Tribunal for the Law of the Sea in Hamburg, Germany.\" src=\"https://fotos.perfil.com/2026/11/28/trim/540/304/international-tribunal-for-the-law-of-the-sea-in-hamburg-germany-2370030.jpg\" /></p>International Tribunal for the Law of the Sea rules 18-3 that it lacks jurisdiction over Argentina's request to suspend the Sea Lion project, rejecting its arguments in a setback for Milei's government. <a href=\"https://www.batimes.com.ar/news/world/international-tribunal-for-the-law-of-the-sea-ruling-on-malvinas-oil-case.phtml\">Leer más</a>",
+      "link": "https://www.batimes.com.ar/news/world/international-tribunal-for-the-law-of-the-sea-ruling-on-malvinas-oil-case.phtml",
+      "published": "Sat, 28 Nov 2026 11:10:12 GMT",
+      "source": "Buenos Aires Times"
+    },
     {
       "title": "Colombia's president backs Abascal: \"Spain deserves a president like you\"",
       "summary": "<p>\n\t   \t      <img alt=\"Abascal and De la Espriella\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112255/100x80/abascal-espriella.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Colombian President Abelardo de la Espriella has backed Vox leader Santiago Abascal ahead of Sunday's general election in Spain, in a video Abascal himself shared on X on Friday, the last day of campaigning. \"Dear friend, Spain deserves a president like you,\" the Colombian president said.</p>",
@@ -70,34 +147,6 @@
       "source": "MercoPress"
     },
     {
-      "title": "How Ecuador’s News Media Works, and Who Owns It",
-      "summary": "<p>Ecuador's press fell to 125th of 180 countries in the 2026 world index. A plain guide to its newsrooms, ownership fights and Sunday's local vote count.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/ecuador-media-landscape-explained-2026/\">How Ecuador’s News Media Works, and Who Owns It</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/ecuador-media-landscape-explained-2026/",
-      "published": "Sat, 28 Nov 2026 05:04:46 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "El Nino-linked deluges flood cities in Peru, Ecuador",
-      "summary": "Heavy rains affect 2,000 families in Peru's Piura and 47,000 people in Ecuador, where 34 deaths have been reported.",
-      "link": "https://www.aljazeera.com/news/2026/11/28/el-nino-linked-deluges-flood-cities-in-peru-ecuador?traffic_source=rss",
-      "published": "Sat, 28 Nov 2026 04:57:32 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Chile Agrees 4.6% Pay Rise for State Workers",
-      "summary": "<p>Chile's government and public-sector unions signed a 4.6% pay deal on 27 November, matching inflation, but three federations stayed out.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/chile-public-sector-pay-deal-4-6-percent/\">Chile Agrees 4.6% Pay Rise for State Workers</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/chile-public-sector-pay-deal-4-6-percent/",
-      "published": "Sat, 28 Nov 2026 04:53:19 +0000",
-      "source": "The Rio Times"
-    },
-    {
-      "title": "Deep Magnitude 5 Quake Hits Northern Chile",
-      "summary": "<p>A magnitude 5.0 quake, about 208 km deep, shook northern Chile on 27 November; the US Geological Survey measured it at 5.2.</p>\n<p>The post <a href=\"https://www.riotimesonline.com/chile-deep-magnitude-5-quake-antofagasta/\">Deep Magnitude 5 Quake Hits Northern Chile</a> appeared first on <a href=\"https://www.riotimesonline.com\">The Rio Times</a>.</p>",
-      "link": "https://www.riotimesonline.com/chile-deep-magnitude-5-quake-antofagasta/",
-      "published": "Sat, 28 Nov 2026 04:53:11 +0000",
-      "source": "The Rio Times"
-    },
-    {
       "title": "Eight killed in Peruvian military helicopter crash",
       "summary": "The pilot was the sole survivor of the crash during a rescue mission in a remote area known for drug trafficking.",
       "link": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
@@ -110,27 +159,6 @@
       "link": "https://www.batimes.com.ar/news/op-ed/when-ups-are-downs.phtml",
       "published": "Sat, 28 Nov 2026 03:35:00 GMT",
       "source": "Buenos Aires Times"
-    },
-    {
-      "title": "Bulgarians demand action by French after Marseille match violence",
-      "summary": "Bulgarians protested at the French embassy after violence at a Europa League match hospitalised six Levski Sofia fans.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/28/bulgarians-demand-action-by-french-after-marseille-match-violence?traffic_source=rss",
-      "published": "Sat, 28 Nov 2026 02:30:27 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Taiwan votes in local elections to choose mayors, other leaders",
-      "summary": "Key mayoral race in Taipei, a stronghold of the opposition Kuomintang, tests the governing Democratic Progressive Party.",
-      "link": "https://www.aljazeera.com/news/2026/11/28/taiwan-votes-in-local-elections-to-choose-mayors-other-leaders?traffic_source=rss",
-      "published": "Sat, 28 Nov 2026 02:05:27 +0000",
-      "source": "Al Jazeera"
-    },
-    {
-      "title": "Thousands of Puerto Ricans join ‘Day of National Outrage’ protest",
-      "summary": "Anger and frustration erupt over record-high electricity rates, surging cost of living and deteriorating basic services.",
-      "link": "https://www.aljazeera.com/news/2026/11/28/thousands-of-puerto-ricans-join-day-of-national-outrage-protest?traffic_source=rss",
-      "published": "Sat, 28 Nov 2026 01:00:00 +0000",
-      "source": "Al Jazeera"
     },
     {
       "title": "UN-backed court to rule on Argentina's bid to halt Malvinas oil project",
@@ -161,39 +189,11 @@
       "source": "InSight Crime"
     },
     {
-      "title": "Milei wins Senate approval to suspend primaries, with debates mandatory only in a run-off",
-      "summary": "<p>\n\t   \t      <img alt=\"The government justifies suspending the primaries on cost grounds\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112251/100x80/elecciones-argentinas.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Argentina's Senate on Thursday approved, by 43 votes to 29, the political reform promoted by Javier Milei's government that suspends the open, simultaneous and mandatory primary elections (PASO) ahead of the 2027 presidential election. The bill, which also limits mandatory presidential debates to a run-off, now goes to the Chamber of Deputies.</p>",
-      "link": "https://en.mercopress.com/2026/11/27/milei-wins-senate-approval-to-suspend-primaries-with-debates-mandatory-only-in-a-run-off?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Fri, 27 Nov 2026 17:21:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Argentina bans online betting advertising, including in football and on social media",
-      "summary": "<p>\n\t   \t      <img alt=\"Argentina's Senate during the debate on the betting law\" height=\"80\" src=\"https://en.mercopress.com/data/cache/noticias/112248/100x80/ludopatia-senado-ley-1.jpg\" style=\"float: left; margin: 0 12px 6px 0; border: 1px solid #333;\" width=\"100\" />\n\t         Argentina's Senate unanimously passed, by 72 votes, a law to prevent gambling addiction and regulate online betting, banning gambling advertising in the media, on social media, in stadiums and on billboards, and requiring football clubs to review their sponsorship deals with betting firms. The law, approved on Thursday, had been pending in the upper house for more than two years.</p>",
-      "link": "https://en.mercopress.com/2026/11/27/argentina-bans-online-betting-advertising-including-in-football-and-on-social-media?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
-      "published": "Fri, 27 Nov 2026 17:08:00 GMT",
-      "source": "MercoPress"
-    },
-    {
-      "title": "Argentina bans online betting by minors, gambling sponsorship on sports kits",
-      "summary": "<p><img alt=\"Superclásico, River, Boca, October 2026\" src=\"https://fotos.perfil.com/2026/11/05/trim/540/304/superclasico-river-boca-october-2026-2361785.jpg\" /></p>Argentina targets online gambling with ban on betting sponsorships; Senate unanimously passes legislation targeting addiction, bans advertising across sports and media. <a href=\"https://www.batimes.com.ar/news/argentina/argentina-bans-online-betting-by-minors-gambling-sponsorship-on-sports-kits.phtml\">Leer más</a>",
-      "link": "https://www.batimes.com.ar/news/argentina/argentina-bans-online-betting-by-minors-gambling-sponsorship-on-sports-kits.phtml",
-      "published": "Fri, 27 Nov 2026 15:58:20 GMT",
-      "source": "Buenos Aires Times"
-    },
-    {
       "title": "Brazil pushes back on Macron calling its meat 'doped'",
       "summary": "France's president made the comment while speaking to French farming representatives, months after the EU banned Brazil beef and poultry products.",
       "link": "https://www.bbc.co.uk/news/articles/c6rrg28npvzeo?at_medium=RSS&at_campaign=rss",
       "published": "Fri, 27 Nov 2026 15:54:15 GMT",
       "source": "BBC News"
-    },
-    {
-      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
-      "summary": "“My wife stopped working outside the home in 1970.”",
-      "link": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
-      "published": "Fri, 27 Nov 2026 15:45:00 GMT",
-      "source": "MarketWatch"
     },
     {
       "title": "Milei’s economic policy dealt fresh blow as Argentina enters recession",
@@ -252,6 +252,13 @@
       "source": "Latin America Reports"
     },
     {
+      "title": "Costa Rica Seeks Extradition of Caribbean Cartel Boss’s Wife From UK",
+      "summary": "<p><a href=\"https://insightcrime.org/news/costa-rica-extradition-wife-caribbean-cartel-shock/\">Costa Rica Seeks Extradition of Caribbean Cartel Boss’s Wife From UK</a></p>\n<figure><img alt=\"Caribbean Cartel, Costa Rica.\" class=\"attachment-rss-image-size size-rss-image-size wp-post-image\" height=\"576\" src=\"https://i0.wp.com/insightcrime.org/wp-content/uploads/2026/11/Costa-rica-Cartel-del-caribe-lideres.jpg?fit=1024%2C576&quality=100&ssl=1\" width=\"1024\" /></figure>\n<p>The latest extradition request is the latest lap in the pursuit of the leadership of Costa Rica's \"first cartel.” Some of its top bosses are already facing proceedings in Costa Rica, the United Kingdom, and the United States.</p>\n<p>The post <a href=\"https://insightcrime.org/news/costa-rica-extradition-wife-caribbean-cartel-shock/\">Costa Rica Seeks Extradition of Caribbean Cartel Boss’s Wife From UK</a> appeared first on <a href=\"https://insightcrime.org\">InSight Crime</a>.</p>",
+      "link": "https://insightcrime.org/news/costa-rica-extradition-wife-caribbean-cartel-shock/",
+      "published": "Wed, 25 Nov 2026 20:20:31 +0000",
+      "source": "InSight Crime"
+    },
+    {
       "title": "All hostages rescued after Colombian security forces storm supermarket, police say",
       "summary": "<p>Unclear if ‘hostage-taker’ who was killed may have been a hostage as daylong siege in Cartagena shopping centre ends</p><p>Colombian police have stormed a supermarket in one of the country’s most popular tourist cities, ending a daylong siege in which all the hostages were freed and one man police described as a<strong> </strong>hostage-taker was killed.</p><p>Abelardo de la Espriella, the far-right president, travelled to the Caribbean port city of Cartagena to follow the final hours of negotiations and the tactical assault, in which special forces officers broke through blocked entrances and detonated stun grenades.</p> <a href=\"https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket\">Continue reading...</a>",
       "link": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
@@ -301,13 +308,6 @@
       "source": "BBC News"
     },
     {
-      "title": "‘Once installed, there’s no getting rid of it’: what Falklands oil plans mean for its seals, whales and penguins",
-      "summary": "<p>While Argentina and the UK dispute sovereignty over the islands and its vast oil reserves, environmentalists fear for one of the Atlantic’s richest ecosystems</p><p>From the air, the main <a href=\"https://www.theguardian.com/uk/falklands\">Falkland Islands</a> form two large, jagged shapes against the South Atlantic. East Falkland and West Falkland are surrounded by <a href=\"https://www.gov.fk/about/\">778 smaller islands and islets</a> east of Patagonia’s southern tip.</p><p>The archipelago, a British overseas territory claimed by Argentina, is home to large colonies of albatrosses and penguins. Its waters, with those of the Patagonian shelf, provide feeding grounds for sea lions, southern elephant seals and southern right whales.</p> <a href=\"https://www.theguardian.com/global-development/2026/nov/23/falkland-islands-argentina-sea-lion-oil-environment-sovereignty-wildlife-pollution\">Continue reading...</a>",
-      "link": "https://www.theguardian.com/global-development/2026/nov/23/falkland-islands-argentina-sea-lion-oil-environment-sovereignty-wildlife-pollution",
-      "published": "Mon, 23 Nov 2026 06:00:49 GMT",
-      "source": "The Guardian"
-    },
-    {
       "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
       "summary": "The Federal Reserve on Wednesday released minutes from its October policy meeting at which it voted to hold its benchmark interest rate in a range between 3.75%-4%.",
       "link": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
@@ -337,15 +337,6 @@
     }
   ],
   "history": [
-    {
-      "date": "2026-11-11 13:20",
-      "threat_level": "HIGH",
-      "value": 3,
-      "sentiment_score": 68,
-      "incidents": 40,
-      "bovespa": 172110.06,
-      "brl_czk": 3.909
-    },
     {
       "date": "2026-11-12 06:00",
       "threat_level": "HIGH",
@@ -606,6 +597,15 @@
       "incidents": 40,
       "bovespa": 176573.34,
       "brl_czk": 4.056
+    },
+    {
+      "date": "2026-11-28 14:51",
+      "threat_level": "HIGH",
+      "value": 3,
+      "sentiment_score": 72,
+      "incidents": 40,
+      "bovespa": 176573.34,
+      "brl_czk": 4.056
     }
   ],
   "locations": [
@@ -664,13 +664,6 @@
       "lon": -62.2159,
       "name_cs": "Amazonie",
       "name_en": "Amazon"
-    },
-    {
-      "key": "Patagonia",
-      "lat": -41.8,
-      "lon": -68.9,
-      "name_cs": "Patagonie",
-      "name_en": "Patagonia"
     },
     {
       "key": "Falklands",
@@ -766,6 +759,14 @@
       "auto": true
     },
     {
+      "key": "Afghanistan",
+      "lat": 33.9,
+      "lon": 67.7,
+      "name_cs": "Afghánistán",
+      "name_en": "Afghanistan",
+      "auto": true
+    },
+    {
       "key": "London",
       "lat": 51.5,
       "lon": -0.12,
@@ -799,36 +800,36 @@
     }
   ],
   "location_counts": {
-    "Brasilia": 111,
+    "Brasilia": 112,
     "Sao Paulo": 32,
     "Rio de Janeiro": 26,
-    "Buenos Aires": 109,
-    "Santiago": 87,
-    "Lima": 75,
-    "Bogota": 111,
-    "Caracas": 98,
-    "Quito": 68,
+    "Buenos Aires": 110,
+    "Santiago": 88,
+    "Lima": 76,
+    "Bogota": 112,
+    "Caracas": 99,
+    "Quito": 69,
     "La Paz": 50,
     "Asuncion": 41,
-    "Washington": 111,
+    "Washington": 112,
     "New York": 1,
     "Texas": 1,
     "Colorado": 1,
     "Kanada": 1,
     "Mexiko": 2,
     "Venezuela": 1,
-    "Brazílie": 2,
-    "Argentina": 8,
+    "Brazílie": 3,
+    "Argentina": 9,
     "Ukrajina": 1,
     "Rusko": 1,
     "Pákistán": 1,
-    "Londýn": 2,
-    "Paříž": 3,
+    "Londýn": 4,
+    "Paříž": 2,
     "Madrid": 2,
-    "Peru": 3,
+    "Peru": 4,
     "Bolívie": 1,
     "Montevideo": 61,
-    "Falklands": 53,
+    "Falklands": 54,
     "Ohio": 1,
     "Michigan": 3,
     "Severní Karolína": 1,
@@ -836,9 +837,9 @@
     "Maine": 1,
     "Indie": 1,
     "Atacama": 10,
-    "Beijing": 42,
+    "Beijing": 43,
     "Čína": 3,
-    "Amazon": 71,
+    "Amazon": 72,
     "Medellin": 7,
     "Tchaj-wan": 2,
     "Řím": 1,
@@ -881,23 +882,16 @@
     "Brusel": 1,
     "Louisiana": 1,
     "Hongkong": 1,
-    "Jižní Korea": 1
+    "Jižní Korea": 1,
+    "Afghánistán": 1
   },
   "top_location": {
     "key": "Brasilia",
     "name_cs": "Brasília",
     "name_en": "Brasília",
-    "count": 111
+    "count": 112
   },
   "archive": [
-    {
-      "date": "2026-11-20 06:01",
-      "threat_level": "HIGH",
-      "security_status_cs": "Měny v regionu čelí silnému tlaku, přičemž brazilský real oslabil na 12měsíční minimum a centrální banka intervenovala prodejem rezerv. Bezpečnostní situace v Kolumbii a Haiti zůstává napjatá kvůli politickým střetům a protidrogovým operacím, zatímco politická nestabilita zasahuje Paraguay po kolapsu banky Ueno.",
-      "security_status_en": "Regional currencies are under severe pressure, with the Brazilian real hitting a 12-month low and the central bank intervening via reserve sales. Security in Colombia and Haiti remains volatile amid political clashes and anti-gang crackdowns, while political instability grips Paraguay following the collapse of Ueno Bank.",
-      "forecast_cs": "V nejbližších dnech se očekává další tlak na jihoamerické měny a pozornost investorů se zaměří na blížící se prezidentské volby v Ekvádoru.",
-      "forecast_en": "Over the coming days, further pressure on South American currencies is expected alongside intense investor focus on the upcoming presidential vote in Ecuador."
-    },
     {
       "date": "2026-11-20 14:44",
       "threat_level": "HIGH",
@@ -1001,6 +995,14 @@
       "security_status_en": "South America is grappling with severe security and political challenges, led by escalating violence in Colombia where security forces responded to hostage crises and car bomb attacks. Argentina has slipped into a technical recession despite passing key political reforms under President Milei and banning online betting. Additionally, the region faces extreme weather events and organized crime infiltrating legal mining sectors in the Amazon.",
       "forecast_cs": "V následujících dnech se pozornost soustředí na reakce trhů na americké celní hrozby, vývoj kolumbijské bezpečnostní krize a právní spory ohledně těžby ropy v Atlantiku.",
       "forecast_en": "Over the coming days, market attention will focus on reactions to US tariff threats, the unfolding security crisis in Colombia, and legal disputes over Atlantic oil drilling."
+    },
+    {
+      "date": "2026-11-28 14:51",
+      "threat_level": "HIGH",
+      "security_status_cs": "Jižní částečně čelí stupňujícím se bezpečnostním rizikům, v čele s vážnými krizemi v Kolumbii, kde proběhlo ozbrojené obléhání supermarketu a bombové útoky. Argentina zároveň utrpěla mezinárodní nezdar v právním sporu o ropný projekt Sea Lion u Falklandských ostrovů a vstoupila do technické recese. Region je nadále pod tlakem globálních celních hrozeb a napětí v dodavatelských řetězcích komodit.",
+      "security_status_en": "South America faces escalating security risks, led by severe crises in Colombia marked by an armed supermarket siege and car bombings. Meanwhile, Argentina suffered a legal setback at the international tribunal regarding the Sea Lion oil project near the Falklands and has entered a technical recession. The region remains under pressure from global tariff threats and commodity supply chain tensions.",
+      "forecast_cs": "V příštích dnech se trhy zaměří na dopady argentinské recese na ekonomické reformy, vývoj bezpečnostní situace v Kolumbii a mezinárodní reakce na nové americké celní plány.",
+      "forecast_en": "Over the coming days, markets will focus on the impact of Argentina's recession on economic reforms, the security situation in Colombia, and international reactions to new US tariff plans."
     }
   ],
   "weekly_summary_cs": "Za posledních 7 zaznamenaných analýz: 7× HIGH.",
